@@ -88,3 +88,8 @@
 - Added build artifact budget validation script for JS payload size and count thresholds.
 - Added CI gate to fail when performance budgets regress beyond configured limits.
 - Added command-level documentation for local and pipeline budget checks.
+
+## Phase 16: Go-live acceptance governance (completed)
+- Added formal go-live acceptance checklist with release sign-off criteria.
+- Added one-command release verification script to run full quality gates.
+- Added documentation pointers for repeatable launch readiness validation.

@@ -17,6 +17,7 @@
     "seo:audit": "node scripts/seo-audit.mjs",
     "smoke": "node scripts/smoke-check.mjs",
     "perf:budget": "node scripts/perf-budget.mjs",
+    "verify:release": "node scripts/verify-release.mjs",
     "preview:worker": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:typegen": "wrangler types"

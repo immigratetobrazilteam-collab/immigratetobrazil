@@ -26,6 +26,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
 - `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run perf:budget` - enforce JS build-size performance budgets from `.next/build-manifest.json`
+- `npm run verify:release` - run full go-live quality gate sequence in one command
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
 
@@ -116,6 +117,9 @@ Copy `.env.example` to `.env.local` and set:
 - `GET /api/health` - liveness endpoint
 - `GET /api/ready` - readiness endpoint (checks required runtime configuration)
 - `GET /api/ops/summary` - operational summary for routes and CMS inventory health
+
+## Go-live checklist
+- Use `documentation/go-live-acceptance.md` for production release sign-off.
 
 ## CMS backups
 - Scheduled workflow: `.github/workflows/cms-backup.yml` (daily + manual trigger).
