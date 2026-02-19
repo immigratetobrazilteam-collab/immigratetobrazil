@@ -2,6 +2,8 @@ backend:
   name: github
   repo: immigratetobrazilteam-collab/immigratetobrazil
   branch: main
+  base_url: https://immigratetobrazil.com
+  auth_endpoint: /api/admin/oauth/auth
 
 site_url: https://immigratetobrazil.com
 publish_mode: editorial_workflow

@@ -21,6 +21,8 @@ Set in repository settings -> Secrets and variables -> Actions:
 Set in Worker settings (production environment):
 - `ADMIN_BASIC_AUTH_USER`
 - `ADMIN_BASIC_AUTH_PASS`
+- `DECAP_GITHUB_OAUTH_CLIENT_ID`
+- `DECAP_GITHUB_OAUTH_CLIENT_SECRET`
 
 Recommended token permissions:
 - `Account` -> `Cloudflare Workers Scripts:Edit`
@@ -56,6 +58,9 @@ Recommended token permissions:
   - `app/api/ready/route.ts`
   - `app/api/ops/summary/route.ts`
 - CMS admin path `/admin` requires HTTP Basic Auth enforced by middleware.
+- Decap OAuth endpoints:
+  - `GET /api/admin/oauth/auth`
+  - `GET /api/admin/oauth/callback`
 
 ## CMS backup automation
 - Workflow: `.github/workflows/cms-backup.yml`

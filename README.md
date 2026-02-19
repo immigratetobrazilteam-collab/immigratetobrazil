@@ -88,6 +88,9 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_SITE_URL`
 - `ADMIN_BASIC_AUTH_USER`
 - `ADMIN_BASIC_AUTH_PASS`
+- `DECAP_GITHUB_OAUTH_CLIENT_ID`
+- `DECAP_GITHUB_OAUTH_CLIENT_SECRET`
+- `DECAP_GITHUB_OAUTH_SCOPE`
 
 ## Cloudflare setup
 1. Create Cloudflare API token with Worker and Route edit permissions.
@@ -99,11 +102,20 @@ Copy `.env.example` to `.env.local` and set:
 5. In Cloudflare Worker environment variables/secrets, set:
    - `ADMIN_BASIC_AUTH_USER`
    - `ADMIN_BASIC_AUTH_PASS`
+   - `DECAP_GITHUB_OAUTH_CLIENT_ID`
+   - `DECAP_GITHUB_OAUTH_CLIENT_SECRET`
+   - `DECAP_GITHUB_OAUTH_SCOPE` (recommended `repo,user`)
 
 ## CMS setup
 - Decap CMS admin is available at `/admin`.
 - `/admin` is protected with HTTP Basic Auth from `ADMIN_BASIC_AUTH_USER` + `ADMIN_BASIC_AUTH_PASS`.
 - Config file: `public/admin/config.yml`.
+- OAuth endpoints for Decap are hosted at:
+  - `/api/admin/oauth/auth`
+  - `/api/admin/oauth/callback`
+- Create a GitHub OAuth App and set:
+  - Homepage URL: `https://immigratetobrazil.com/admin`
+  - Authorization callback URL: `https://immigratetobrazil.com/api/admin/oauth/callback?provider=github`
 - State content templates and overrides:
   - `content/cms/state-copy/en.json`
   - `content/cms/state-copy/es.json`
