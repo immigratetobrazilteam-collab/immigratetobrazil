@@ -1,6 +1,11 @@
 name: Security Audit
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/security-audit.yml
   schedule:
     - cron: '30 6 * * 1'
   workflow_dispatch:
@@ -34,7 +39,25 @@ jobs:
       - name: Evaluate high/critical vulnerabilities
         id: evaluate
         run: |
-          node -e "const fs=require('fs');let high=0,critical=0;try{const raw=fs.readFileSync('npm-audit.json','utf8');const r=JSON.parse(raw);const v=r?.metadata?.vulnerabilities||{};high=Number(v.high||0);critical=Number(v.critical||0);}catch(e){console.log('warning=Could not parse npm-audit.json; defaulting vulnerability counts to 0 for report mode.');}console.log('high='+high);console.log('critical='+critical);fs.appendFileSync(process.env.GITHUB_OUTPUT,`high=${high}\ncritical=${critical}\n`);"
+          node <<'NODE'
+          const fs = require('fs');
+          let high = 0;
+          let critical = 0;
+          try {
+            const raw = fs.readFileSync('npm-audit.json', 'utf8');
+            const report = JSON.parse(raw);
+            const vulns = report?.metadata?.vulnerabilities || {};
+            high = Number(vulns.high || 0);
+            critical = Number(vulns.critical || 0);
+          } catch {
+            console.log('warning=Could not parse npm-audit.json; defaulting vulnerability counts to 0 for report mode.');
+          }
+          console.log(`high=${high}`);
+          console.log(`critical=${critical}`);
+          if (process.env.GITHUB_OUTPUT) {
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `high=${high}\ncritical=${critical}\n`);
+          }
+          NODE
 
       - name: Fail on high/critical (optional)
         if: ${{ env.SECURITY_AUDIT_FAIL_ON_HIGH_CRITICAL == 'true' && (steps.evaluate.outputs.high != '0' || steps.evaluate.outputs.critical != '0') }}

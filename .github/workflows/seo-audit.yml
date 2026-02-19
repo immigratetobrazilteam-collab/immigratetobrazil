@@ -1,6 +1,12 @@
 name: SEO Audit
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/seo-audit.yml
+      - scripts/seo-audit.mjs
   schedule:
     - cron: '0 5 * * 1'
   workflow_dispatch:
@@ -27,12 +33,18 @@ jobs:
         run: npm ci
 
       - name: Run SEO audit
+        id: seo_audit
+        continue-on-error: true
         env:
           SEO_AUDIT_BASE_URL: https://immigratetobrazil.com
           NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
           SEO_AUDIT_FAIL_ON_ERROR: false
           SEO_AUDIT_FAIL_ON_SAMPLE_ERROR: false
         run: npm run seo:audit
+
+      - name: Note SEO audit command failure
+        if: steps.seo_audit.outcome == 'failure'
+        run: echo "::warning::SEO audit command failed; report artifacts were still captured."
 
       - name: Upload SEO report artifact
         if: always()
