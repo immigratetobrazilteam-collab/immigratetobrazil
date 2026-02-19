@@ -28,6 +28,7 @@ __pycache__/
 .wrangler/
 *.tsbuildinfo
 backups/
+artifacts/
 
 # Generated reports and temporary artifacts
 audit_log.txt

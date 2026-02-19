@@ -54,3 +54,10 @@
 - Added Decap CMS admin panel at `/admin` for non-developer editing workflows.
 - Added Cloudflare Workers deployment architecture using OpenNext + Wrangler.
 - Added automated Cloudflare deployment workflow for `main` branch.
+
+## Phase 10: Operations hardening (completed)
+- Added security headers middleware policy for clickjacking, MIME sniffing, referrer handling, and CSP baseline.
+- Added `/api/health` and `/api/ready` runtime endpoints for uptime and readiness monitoring.
+- Added `/admin` HTTP Basic Auth enforcement through runtime secrets.
+- Added CMS backup export script and daily GitHub Actions backup artifact workflow.
+- Added post-deploy smoke test checks in deployment workflow.

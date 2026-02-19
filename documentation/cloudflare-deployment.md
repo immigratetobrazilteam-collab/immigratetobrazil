@@ -17,6 +17,11 @@ Both routes are attached to zone ID `43970a2e28129a557bfb10a575247f70`.
 Set in repository settings -> Secrets and variables -> Actions:
 - `CLOUDFLARE_API_TOKEN`
 
+## Required Cloudflare runtime secrets
+Set in Worker settings (production environment):
+- `ADMIN_BASIC_AUTH_USER`
+- `ADMIN_BASIC_AUTH_PASS`
+
 Recommended token permissions:
 - `Account` -> `Cloudflare Workers Scripts:Edit`
 - `Zone` -> `Workers Routes:Edit`
@@ -41,6 +46,12 @@ Recommended token permissions:
 - Health endpoints:
   - `app/api/health/route.ts`
   - `app/api/ready/route.ts`
+- CMS admin path `/admin` requires HTTP Basic Auth enforced by middleware.
+
+## CMS backup automation
+- Workflow: `.github/workflows/cms-backup.yml`
+- Trigger: daily at `03:30 UTC` and manual dispatch
+- Output: artifact upload containing `artifacts/cms-backups/<timestamp>/`
 
 ## Security note
 Do not commit Cloudflare API keys or origin certificates.

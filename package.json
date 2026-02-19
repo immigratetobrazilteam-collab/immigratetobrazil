@@ -12,6 +12,7 @@
     "migrate:routes": "node scripts/generate-route-index.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
+    "cms:backup": "node scripts/export-cms-backup.mjs",
     "smoke": "node scripts/smoke-check.mjs",
     "preview:worker": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",

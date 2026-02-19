@@ -21,6 +21,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run typecheck` - TypeScript checks
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
+- `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
 - `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
@@ -67,6 +68,8 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`
 - `NEXT_PUBLIC_GTM_ID`
 - `NEXT_PUBLIC_SITE_URL`
+- `ADMIN_BASIC_AUTH_USER`
+- `ADMIN_BASIC_AUTH_PASS`
 
 ## Cloudflare setup
 1. Create Cloudflare API token with Worker and Route edit permissions.
@@ -75,9 +78,13 @@ Copy `.env.example` to `.env.local` and set:
    - `account_id`
    - `routes` for `immigratetobrazil.com` and `www.immigratetobrazil.com`
 4. Push to `main` or run deploy workflow manually.
+5. In Cloudflare Worker environment variables/secrets, set:
+   - `ADMIN_BASIC_AUTH_USER`
+   - `ADMIN_BASIC_AUTH_PASS`
 
 ## CMS setup
 - Decap CMS admin is available at `/admin`.
+- `/admin` is protected with HTTP Basic Auth from `ADMIN_BASIC_AUTH_USER` + `ADMIN_BASIC_AUTH_PASS`.
 - Config file: `public/admin/config.yml`.
 - State content templates and overrides:
   - `content/cms/state-copy/en.json`
@@ -91,3 +98,7 @@ Copy `.env.example` to `.env.local` and set:
 ## Monitoring endpoints
 - `GET /api/health` - liveness endpoint
 - `GET /api/ready` - readiness endpoint (checks required runtime configuration)
+
+## CMS backups
+- Scheduled workflow: `.github/workflows/cms-backup.yml` (daily + manual trigger).
+- Backup artifacts are stored in GitHub Actions artifacts for 30 days.
