@@ -34,7 +34,7 @@ jobs:
 
       - name: Upload SEO report artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: seo-audit-${{ github.run_id }}
           path: artifacts/seo-audits/
