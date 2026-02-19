@@ -1,0 +1,42 @@
+name: Security Audit
+
+on:
+  schedule:
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: security-audit
+  cancel-in-progress: true
+
+jobs:
+  npm-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit (JSON)
+        run: npm audit --json > npm-audit.json || true
+
+      - name: Evaluate high/critical vulnerabilities
+        run: |
+          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('npm-audit.json','utf8'));const v=r.metadata?.vulnerabilities||{};const high=v.high||0;const critical=v.critical||0;console.log('high=',high,'critical=',critical);if(high+critical>0)process.exit(1);"
+
+      - name: Upload audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-audit-${{ github.run_id }}
+          path: npm-audit.json
+          retention-days: 30

@@ -67,3 +67,8 @@
 - Added weekly SEO audit script with JSON/Markdown reporting output.
 - Added scheduled GitHub Actions workflow for weekly SEO audit artifacts.
 - Extended deployment smoke checks to include ops summary endpoint coverage.
+
+## Phase 12: Security and dependency governance (completed)
+- Added workflow concurrency controls to avoid duplicate in-flight runs.
+- Added weekly security audit workflow with npm vulnerability artifact export.
+- Added Dependabot automation for npm and GitHub Actions dependency updates.

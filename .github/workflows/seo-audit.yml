@@ -5,6 +5,10 @@ on:
     - cron: '0 5 * * 1'
   workflow_dispatch:
 
+concurrency:
+  group: seo-audit
+  cancel-in-progress: true
+
 jobs:
   audit:
     runs-on: ubuntu-latest

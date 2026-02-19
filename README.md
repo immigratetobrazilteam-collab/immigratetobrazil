@@ -52,6 +52,12 @@ GitHub Actions workflow at `.github/workflows/ci.yml` runs:
 5. `npm run test`
 6. `npm run build`
 
+Security workflow at `.github/workflows/security-audit.yml` runs weekly:
+1. `npm ci`
+2. `npm audit --json`
+3. Fails if high/critical vulnerabilities are present
+4. Uploads audit artifact
+
 Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
 1. `npm ci`
 2. `npm run migrate:routes`
@@ -108,3 +114,9 @@ Copy `.env.example` to `.env.local` and set:
 ## SEO audits
 - Scheduled workflow: `.github/workflows/seo-audit.yml` (weekly + manual trigger).
 - Report artifacts (JSON + Markdown) are uploaded for 30 days.
+
+## Dependency updates
+- Dependabot config: `.github/dependabot.yml`
+- Weekly update PRs for:
+  - npm dependencies
+  - GitHub Actions workflow dependencies
