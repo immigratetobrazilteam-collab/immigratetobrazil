@@ -2,14 +2,18 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 import { CtaCard } from '@/components/cta-card';
+import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
-import { POLICY_SLUGS } from '@/lib/policy-slugs';
+import { getLegacyDocument } from '@/lib/legacy-loader';
+import { getRelatedRouteLinks } from '@/lib/route-index';
 import { policyCopy } from '@/lib/phase2-content';
 import { isPolicySlug } from '@/lib/phase2-routes';
 import { createMetadata } from '@/lib/seo';
 
+const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'] as const;
+
 export function generateStaticParams() {
-  return locales.flatMap((locale) => POLICY_SLUGS.map((policy) => ({ locale, policy })));
+  return locales.flatMap((locale) => policySlugs.map((policy) => ({ locale, policy })));
 }
 
 export async function generateMetadata({
@@ -29,6 +33,16 @@ export async function generateMetadata({
     });
   }
 
+  const legacy = await getLegacyDocument(locale, ['policies', policy]);
+  if (legacy) {
+    return createMetadata({
+      locale,
+      pathname: `/${locale}/policies/${policy}`,
+      title: legacy.title,
+      description: legacy.description,
+    });
+  }
+
   const t = policyCopy(locale, policy);
 
   return createMetadata({
@@ -44,6 +58,12 @@ export default async function PolicyPage({ params }: { params: Promise<{ locale:
   const locale = resolveLocale(rawLocale);
 
   if (!isPolicySlug(policy)) notFound();
+
+  const legacy = await getLegacyDocument(locale, ['policies', policy]);
+  if (legacy) {
+    const relatedLinks = await getRelatedRouteLinks(locale, `policies/${policy}`, 12);
+    return <LegacyContent locale={locale} document={legacy} slug={`policies/${policy}`} relatedLinks={relatedLinks} />;
+  }
 
   const t = policyCopy(locale, policy);
 

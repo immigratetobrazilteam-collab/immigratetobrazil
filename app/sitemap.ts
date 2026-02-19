@@ -5,24 +5,33 @@ import type { MetadataRoute } from 'next';
 
 import { brazilianStates } from '@/content/curated/states';
 import { locales } from '@/lib/i18n';
-import { POLICY_SLUGS } from '@/lib/policy-slugs';
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
 
 const staticPaths = [
   '',
   '/about',
+  '/about/about-brazil',
+  '/about/about-states',
+  '/about/about-us',
   '/services',
   '/process',
   '/contact',
   '/blog',
   '/faq',
   '/policies',
+  '/library',
+  '/home',
+  '/accessibility',
   '/visa-consultation',
   '/resources-guides-brazil',
+  '/discover/brazilian-states',
+  '/discover/brazilian-regions',
   '/about/about-brazil/apply-brazil',
   '/about/about-brazil/cost-of-living-in-brazil',
 ];
+
+const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'];
 
 type RouteIndexItem = {
   locale: 'en' | 'es' | 'pt';
@@ -35,7 +44,7 @@ async function getRouteIndex(): Promise<RouteIndexItem[]> {
   try {
     const raw = await readFile(indexPath, 'utf8');
     const parsed = JSON.parse(raw) as RouteIndexItem[];
-    return parsed.slice(0, 3000);
+    return parsed.slice(0, 10000);
   } catch {
     return [];
   }
@@ -73,7 +82,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }
     }
 
-    for (const policy of POLICY_SLUGS) {
+    for (const policy of policySlugs) {
       entries.push({
         url: `${BASE_URL}/${locale}/policies/${policy}`,
         lastModified: now,

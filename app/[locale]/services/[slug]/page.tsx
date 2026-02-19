@@ -4,7 +4,10 @@ import { notFound } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
 import { CtaCard } from '@/components/cta-card';
+import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { getLegacyDocument } from '@/lib/legacy-loader';
+import { getRelatedRouteLinks } from '@/lib/route-index';
 import { getStateOrNull, serviceStateCopy } from '@/lib/phase2-content';
 import { extractStateSlug } from '@/lib/phase2-routes';
 import { localizedPath } from '@/lib/routes';
@@ -26,6 +29,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['services', slug]);
+
+  if (legacy) {
+    return createMetadata({
+      locale,
+      pathname: `/${locale}/services/${slug}`,
+      title: legacy.title,
+      description: legacy.description,
+    });
+  }
+
   const stateSlug = extractStateSlug('services', slug);
   const state = stateSlug ? getStateOrNull(stateSlug) : null;
 
@@ -51,6 +65,13 @@ export async function generateMetadata({
 export default async function ServicesStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['services', slug]);
+
+  if (legacy) {
+    const relatedLinks = await getRelatedRouteLinks(locale, `services/${slug}`, 16);
+    return <LegacyContent locale={locale} document={legacy} slug={`services/${slug}`} relatedLinks={relatedLinks} />;
+  }
+
   const stateSlug = extractStateSlug('services', slug);
   if (!stateSlug) notFound();
 

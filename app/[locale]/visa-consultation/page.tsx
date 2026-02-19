@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 
 import { CtaCard } from '@/components/cta-card';
+import { LegacyContent } from '@/components/legacy-content';
 import { resolveLocale } from '@/lib/i18n';
+import { getLegacyDocument } from '@/lib/legacy-loader';
+import { getRelatedRouteLinks } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
 import type { Locale } from '@/lib/types';
 
@@ -47,6 +50,17 @@ const content: Record<Locale, ConsultationCopy> = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['visa-consultation']);
+
+  if (legacy) {
+    return createMetadata({
+      locale,
+      pathname: `/${locale}/visa-consultation`,
+      title: legacy.title,
+      description: legacy.description,
+    });
+  }
+
   const t = content[locale];
 
   return createMetadata({
@@ -60,6 +74,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function VisaConsultationPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['visa-consultation']);
+
+  if (legacy) {
+    const relatedLinks = await getRelatedRouteLinks(locale, 'visa-consultation', 16);
+    return <LegacyContent locale={locale} document={legacy} slug="visa-consultation" relatedLinks={relatedLinks} />;
+  }
+
   const t = content[locale];
 
   return (

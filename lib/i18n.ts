@@ -5,7 +5,7 @@ export const defaultLocale: Locale = 'en';
 
 interface LocaleCopy {
   brand: string;
-  nav: Omit<Record<'home' | 'about' | 'services' | 'process' | 'blog' | 'contact', string>, never>;
+  nav: Omit<Record<'home' | 'about' | 'services' | 'process' | 'resources' | 'blog' | 'faq' | 'library' | 'contact', string>, never>;
   hero: {
     eyebrow: string;
     title: string;
@@ -50,7 +50,10 @@ export const copy: Record<Locale, LocaleCopy> = {
       about: 'About',
       services: 'Services',
       process: 'Process',
+      resources: 'Resources',
       blog: 'Insights',
+      faq: 'FAQ',
+      library: 'All Pages',
       contact: 'Contact',
     },
     hero: {
@@ -99,7 +102,10 @@ export const copy: Record<Locale, LocaleCopy> = {
       about: 'Nosotros',
       services: 'Servicios',
       process: 'Proceso',
+      resources: 'Recursos',
       blog: 'Guías',
+      faq: 'FAQ',
+      library: 'Todas las páginas',
       contact: 'Contacto',
     },
     hero: {
@@ -148,7 +154,10 @@ export const copy: Record<Locale, LocaleCopy> = {
       about: 'Sobre',
       services: 'Serviços',
       process: 'Processo',
+      resources: 'Recursos',
       blog: 'Conteúdos',
+      faq: 'FAQ',
+      library: 'Todas as páginas',
       contact: 'Contato',
     },
     hero: {
@@ -203,8 +212,9 @@ export function localeNavLinks(locale: Locale): NavLink[] {
     { href: `/${locale}`, label: t.home },
     { href: `/${locale}/about`, label: t.about },
     { href: `/${locale}/services`, label: t.services },
-    { href: `/${locale}/process`, label: t.process },
+    { href: `/${locale}/resources-guides-brazil`, label: t.resources },
     { href: `/${locale}/blog`, label: t.blog },
+    { href: `/${locale}/library`, label: t.library },
     { href: `/${locale}/contact`, label: t.contact },
   ];
 }

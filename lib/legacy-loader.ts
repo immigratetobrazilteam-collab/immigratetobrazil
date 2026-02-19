@@ -105,6 +105,22 @@ function candidatePaths(locale: Locale, slug: string[]) {
 
   if (joined) {
     baseCandidates.add(joined);
+
+    if (joined.startsWith('about/about-states/')) {
+      const parts = joined.split('/');
+      const last = parts[parts.length - 1] || '';
+      if (last && !last.startsWith('about-')) {
+        baseCandidates.add([...parts.slice(0, -1), `about-${last}`].join('/'));
+      }
+    }
+
+    if (joined.startsWith('services/immigrate-to-')) {
+      baseCandidates.add(`${joined}-`);
+    }
+
+    if (joined.startsWith('immigrate-to-') || joined === 'immigratetobrazil-index') {
+      baseCandidates.add(`home/${joined}`);
+    }
   }
 
   if (!joined) {

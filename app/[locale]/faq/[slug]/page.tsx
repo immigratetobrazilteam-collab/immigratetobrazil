@@ -4,7 +4,10 @@ import { notFound } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
 import { CtaCard } from '@/components/cta-card';
+import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { getLegacyDocument } from '@/lib/legacy-loader';
+import { getRelatedRouteLinks } from '@/lib/route-index';
 import { faqStateCopy, getStateOrNull } from '@/lib/phase2-content';
 import { extractStateSlug } from '@/lib/phase2-routes';
 import { localizedPath } from '@/lib/routes';
@@ -26,6 +29,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['faq', slug]);
+
+  if (legacy) {
+    return createMetadata({
+      locale,
+      pathname: `/${locale}/faq/${slug}`,
+      title: legacy.title,
+      description: legacy.description,
+    });
+  }
+
   const stateSlug = extractStateSlug('faq', slug);
   const state = stateSlug ? getStateOrNull(stateSlug) : null;
 
@@ -51,6 +65,13 @@ export async function generateMetadata({
 export default async function FaqStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const legacy = await getLegacyDocument(locale, ['faq', slug]);
+
+  if (legacy) {
+    const relatedLinks = await getRelatedRouteLinks(locale, `faq/${slug}`, 16);
+    return <LegacyContent locale={locale} document={legacy} slug={`faq/${slug}`} relatedLinks={relatedLinks} />;
+  }
+
   const stateSlug = extractStateSlug('faq', slug);
   if (!stateSlug) notFound();
 

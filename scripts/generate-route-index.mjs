@@ -18,7 +18,7 @@ const SKIP_DIRS = new Set([
   'useful_scripts',
 ]);
 
-const SKIP_PREFIXES = ['partials/', 'scripts/', 'documentation/', 'accessibility/'];
+const SKIP_PREFIXES = ['partials/', 'scripts/', 'documentation/'];
 
 async function walk(dir, items = []) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -49,12 +49,9 @@ function normalizeRoute(relativePath) {
   const locale = segments[0] === 'es' || segments[0] === 'pt' ? segments[0] : 'en';
   const trimmed = locale === 'en' ? relativePath : segments.slice(1).join('/');
 
-  let slug = trimmed.replace(/index\.html$/i, '').replace(/\.html$/i, '').replace(/\/$/, '');
+  let slug = trimmed.replace(/\/index\.html$/i, '').replace(/\.html$/i, '').replace(/\/$/, '');
 
   if (slug === 'home' || slug === 'home/index' || slug === '') return null;
-  if (slug.startsWith('home/')) {
-    slug = slug.replace(/^home\//, '');
-  }
 
   if (!slug || slug.includes('.bak') || slug.includes('.backup')) return null;
 

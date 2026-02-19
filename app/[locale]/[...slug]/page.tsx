@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { LegacyContent } from '@/components/legacy-content';
 import { resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
+import { getRelatedRouteLinks } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
 
 export const revalidate = 3600;
@@ -40,9 +41,12 @@ export default async function LegacyCatchAllPage({ params }: { params: Promise<P
   const resolved = await params;
   const locale = resolveLocale(resolved.locale);
   const slug = resolved.slug || [];
+  const joinedSlug = slug.join('/');
 
   const page = await getLegacyDocument(locale, slug);
   if (!page) notFound();
 
-  return <LegacyContent locale={locale} document={page} />;
+  const relatedLinks = await getRelatedRouteLinks(locale, joinedSlug, 16);
+
+  return <LegacyContent locale={locale} document={page} slug={joinedSlug} relatedLinks={relatedLinks} />;
 }

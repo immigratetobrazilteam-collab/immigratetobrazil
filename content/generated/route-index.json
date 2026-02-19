@@ -694,6 +694,13 @@
   },
   {
     "locale": "en",
+    "slug": "accessibility",
+    "sourcePath": "accessibility/index.html",
+    "title": "Accessibility | Immigrate to Brazil",
+    "description": ""
+  },
+  {
+    "locale": "en",
     "slug": "blog",
     "sourcePath": "blog/index.html",
     "title": "Blog | Immigrate to Brazil",
@@ -39369,196 +39376,196 @@
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-acre-",
+    "slug": "home/immigrate-to-acre-index",
     "sourcePath": "home/immigrate-to-acre-index.html",
     "title": "Immigrate to Acre | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-alagoas-",
+    "slug": "home/immigrate-to-alagoas-index",
     "sourcePath": "home/immigrate-to-alagoas-index.html",
     "title": "Immigrate to Alagoas | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-amapa-",
+    "slug": "home/immigrate-to-amapa-index",
     "sourcePath": "home/immigrate-to-amapa-index.html",
     "title": "Immigrate to Amapá | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-amazonas-",
+    "slug": "home/immigrate-to-amazonas-index",
     "sourcePath": "home/immigrate-to-amazonas-index.html",
     "title": "Immigrate to Amazonas | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-bahia-",
+    "slug": "home/immigrate-to-bahia-index",
     "sourcePath": "home/immigrate-to-bahia-index.html",
     "title": "Immigrate to Bahia | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-ceara-",
+    "slug": "home/immigrate-to-ceara-index",
     "sourcePath": "home/immigrate-to-ceara-index.html",
     "title": "Immigrate to Ceará | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-distrito-federal-",
+    "slug": "home/immigrate-to-distrito-federal-index",
     "sourcePath": "home/immigrate-to-distrito-federal-index.html",
     "title": "Immigrate to Distrito Federal | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-espirito-santo-",
+    "slug": "home/immigrate-to-espirito-santo-index",
     "sourcePath": "home/immigrate-to-espirito-santo-index.html",
     "title": "Immigrate to Espírito Santo | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-goias-",
+    "slug": "home/immigrate-to-goias-index",
     "sourcePath": "home/immigrate-to-goias-index.html",
     "title": "Immigrate to Goiás | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-maranhao-",
+    "slug": "home/immigrate-to-maranhao-index",
     "sourcePath": "home/immigrate-to-maranhao-index.html",
     "title": "Immigrate to Maranhão | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-mato-grosso-",
-    "sourcePath": "home/immigrate-to-mato-grosso-index.html",
-    "title": "Immigrate to Mato Grosso | Immigration &amp; Relocation",
-    "description": ""
-  },
-  {
-    "locale": "en",
-    "slug": "immigrate-to-mato-grosso-do-sul-",
+    "slug": "home/immigrate-to-mato-grosso-do-sul-index",
     "sourcePath": "home/immigrate-to-mato-grosso-do-sul-index.html",
     "title": "Immigrate to Mato Grosso do Sul | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-minas-gerais-",
+    "slug": "home/immigrate-to-mato-grosso-index",
+    "sourcePath": "home/immigrate-to-mato-grosso-index.html",
+    "title": "Immigrate to Mato Grosso | Immigration &amp; Relocation",
+    "description": ""
+  },
+  {
+    "locale": "en",
+    "slug": "home/immigrate-to-minas-gerais-index",
     "sourcePath": "home/immigrate-to-minas-gerais-index.html",
     "title": "Immigrate to Minas Gerais | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-para-",
+    "slug": "home/immigrate-to-para-index",
     "sourcePath": "home/immigrate-to-para-index.html",
     "title": "Immigrate to Pará | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-paraiba-",
+    "slug": "home/immigrate-to-paraiba-index",
     "sourcePath": "home/immigrate-to-paraiba-index.html",
     "title": "Immigrate to Paraíba | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-parana-",
+    "slug": "home/immigrate-to-parana-index",
     "sourcePath": "home/immigrate-to-parana-index.html",
     "title": "Immigrate to Paraná | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-pernambuco-",
+    "slug": "home/immigrate-to-pernambuco-index",
     "sourcePath": "home/immigrate-to-pernambuco-index.html",
     "title": "Immigrate to Pernambuco | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-piaui-",
+    "slug": "home/immigrate-to-piaui-index",
     "sourcePath": "home/immigrate-to-piaui-index.html",
     "title": "Immigrate to Piauí | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-rio-de-janeiro-",
+    "slug": "home/immigrate-to-rio-de-janeiro-index",
     "sourcePath": "home/immigrate-to-rio-de-janeiro-index.html",
     "title": "Immigrate to Rio de Janeiro | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-rio-grande-do-norte-",
+    "slug": "home/immigrate-to-rio-grande-do-norte-index",
     "sourcePath": "home/immigrate-to-rio-grande-do-norte-index.html",
     "title": "Immigrate to Rio Grande do Norte | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-rio-grande-do-sul-",
+    "slug": "home/immigrate-to-rio-grande-do-sul-index",
     "sourcePath": "home/immigrate-to-rio-grande-do-sul-index.html",
     "title": "Immigrate to Rio Grande do Sul | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-rondonia-",
+    "slug": "home/immigrate-to-rondonia-index",
     "sourcePath": "home/immigrate-to-rondonia-index.html",
     "title": "Immigrate to Rondônia | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-roraima-",
+    "slug": "home/immigrate-to-roraima-index",
     "sourcePath": "home/immigrate-to-roraima-index.html",
     "title": "Immigrate to Roraima | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-santa-catarina-",
+    "slug": "home/immigrate-to-santa-catarina-index",
     "sourcePath": "home/immigrate-to-santa-catarina-index.html",
     "title": "Immigrate to Santa Catarina | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-sao-paulo-",
+    "slug": "home/immigrate-to-sao-paulo-index",
     "sourcePath": "home/immigrate-to-sao-paulo-index.html",
     "title": "Immigrate to São Paulo | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-sergipe-",
+    "slug": "home/immigrate-to-sergipe-index",
     "sourcePath": "home/immigrate-to-sergipe-index.html",
     "title": "Immigrate to Sergipe | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigrate-to-tocantins-",
+    "slug": "home/immigrate-to-tocantins-index",
     "sourcePath": "home/immigrate-to-tocantins-index.html",
     "title": "Immigrate to Tocantins | Immigration &amp; Relocation",
     "description": ""
   },
   {
     "locale": "en",
-    "slug": "immigratetobrazil-",
+    "slug": "home/immigratetobrazil-index",
     "sourcePath": "home/immigratetobrazil-index.html",
     "title": "Home | Immigrate to Brazil",
     "description": ""
@@ -39610,13 +39617,6 @@
     "slug": "policies/terms",
     "sourcePath": "policies/terms/index.html",
     "title": "Terms of service | Immigrate to Brazil",
-    "description": ""
-  },
-  {
-    "locale": "en",
-    "slug": "public/admin",
-    "sourcePath": "public/admin/index.html",
-    "title": "Immigrate to Brazil CMS",
     "description": ""
   },
   {
