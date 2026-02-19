@@ -49,10 +49,13 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
 
+      - name: Warm up edge propagation
+        run: sleep 45
+
       - name: Post-rollback smoke test
         env:
           SMOKE_BASE_URL: https://immigratetobrazil.com
-          SMOKE_MAX_ATTEMPTS: 12
-          SMOKE_RETRY_DELAY_MS: 15000
+          SMOKE_MAX_ATTEMPTS: 18
+          SMOKE_RETRY_DELAY_MS: 10000
           SMOKE_REQUEST_TIMEOUT_MS: 10000
         run: npm run smoke

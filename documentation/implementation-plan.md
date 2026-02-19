@@ -93,3 +93,9 @@
 - Added formal go-live acceptance checklist with release sign-off criteria.
 - Added one-command release verification script to run full quality gates.
 - Added documentation pointers for repeatable launch readiness validation.
+
+## Phase 17: Pipeline reliability stabilization (completed)
+- Hardened deploy and rollback smoke checks with propagation warm-up and longer retry windows.
+- Improved smoke diagnostics with response body snippets and stable User-Agent behavior.
+- Set SEO audit to report-first mode by default to reduce false-negative failures.
+- Hardened security audit parsing to prevent workflow failure on malformed transient audit output.
