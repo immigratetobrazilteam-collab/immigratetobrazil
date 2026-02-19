@@ -72,3 +72,8 @@
 - Added workflow concurrency controls to avoid duplicate in-flight runs.
 - Added weekly security audit workflow with npm vulnerability artifact export.
 - Added Dependabot automation for npm and GitHub Actions dependency updates.
+
+## Phase 13: CMS quality gate automation (completed)
+- Added strict CMS validation script for structure, required fields, and slug integrity.
+- Added CI gate to block merges when CMS content is malformed.
+- Added deployment gate to block production deploys when CMS content validation fails.

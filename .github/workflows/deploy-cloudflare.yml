@@ -30,6 +30,9 @@ jobs:
       - name: Build route index
         run: npm run migrate:routes
 
+      - name: Validate CMS content
+        run: npm run cms:validate
+
       - name: Typecheck
         run: npm run typecheck
 

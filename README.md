@@ -21,6 +21,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run typecheck` - TypeScript checks
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
+- `npm run cms:validate` - validate CMS JSON structure and slug integrity
 - `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
 - `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
 - `npm run smoke` - run production smoke checks (local or live URL)
@@ -47,10 +48,11 @@ This repository now contains a full modern framework architecture built on Next.
 GitHub Actions workflow at `.github/workflows/ci.yml` runs:
 1. `npm ci`
 2. `npm run migrate:routes`
-3. `npm run typecheck`
-4. `npm run lint`
-5. `npm run test`
-6. `npm run build`
+3. `npm run cms:validate`
+4. `npm run typecheck`
+5. `npm run lint`
+6. `npm run test`
+7. `npm run build`
 
 Security workflow at `.github/workflows/security-audit.yml` runs weekly:
 1. `npm ci`
@@ -61,10 +63,11 @@ Security workflow at `.github/workflows/security-audit.yml` runs weekly:
 Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
 1. `npm ci`
 2. `npm run migrate:routes`
-3. `npm run typecheck`
-4. `npm run test`
-5. `npm run deploy`
-6. `npm run smoke` against `https://immigratetobrazil.com`
+3. `npm run cms:validate`
+4. `npm run typecheck`
+5. `npm run test`
+6. `npm run deploy`
+7. `npm run smoke` against `https://immigratetobrazil.com`
 
 ## Environment setup
 Copy `.env.example` to `.env.local` and set:

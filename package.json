@@ -10,6 +10,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",
     "migrate:routes": "node scripts/generate-route-index.mjs",
+    "cms:validate": "node scripts/validate-cms.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "cms:backup": "node scripts/export-cms-backup.mjs",
