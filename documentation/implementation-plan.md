@@ -83,3 +83,8 @@
 - Added rollback deployment workflow for redeploying a chosen historical ref.
 - Tuned SEO audit to fail only on core endpoint failures by default.
 - Tuned security audit to report by default, with optional strict fail mode.
+
+## Phase 15: Performance budget governance (completed)
+- Added build artifact budget validation script for JS payload size and count thresholds.
+- Added CI gate to fail when performance budgets regress beyond configured limits.
+- Added command-level documentation for local and pipeline budget checks.

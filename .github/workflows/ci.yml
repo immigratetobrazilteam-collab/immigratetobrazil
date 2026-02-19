@@ -45,3 +45,10 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Performance budgets
+        env:
+          PERF_MAX_TOTAL_JS_BYTES: "1200000"
+          PERF_MAX_SINGLE_JS_BYTES: "350000"
+          PERF_MAX_JS_ASSET_COUNT: "80"
+        run: npm run perf:budget

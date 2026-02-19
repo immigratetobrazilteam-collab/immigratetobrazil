@@ -25,6 +25,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
 - `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
 - `npm run smoke` - run production smoke checks (local or live URL)
+- `npm run perf:budget` - enforce JS build-size performance budgets from `.next/build-manifest.json`
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
 
@@ -53,6 +54,7 @@ GitHub Actions workflow at `.github/workflows/ci.yml` runs:
 5. `npm run lint`
 6. `npm run test`
 7. `npm run build`
+8. `npm run perf:budget`
 
 Security workflow at `.github/workflows/security-audit.yml` runs weekly:
 1. `npm ci`
