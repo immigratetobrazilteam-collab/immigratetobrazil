@@ -12,14 +12,14 @@ const checks = [
 ];
 
 async function runSingleAttempt(attempt) {
-  let failed = false;
+  const results = await Promise.all(
+    checks.map(async (check) => {
+      let failed = false;
+      const sep = check.path.includes('?') ? '&' : '?';
+      const url = `${BASE_URL}${check.path}${sep}smoke_attempt=${attempt}&ts=${Date.now()}`;
 
-  for (const check of checks) {
-    const sep = check.path.includes('?') ? '&' : '?';
-    const url = `${BASE_URL}${check.path}${sep}smoke_attempt=${attempt}&ts=${Date.now()}`;
-
-    try {
-      const controller = new AbortController();
+      try {
+        const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
       const response = await fetch(url, {
         redirect: 'follow',
@@ -41,13 +41,11 @@ async function runSingleAttempt(attempt) {
       const reason = error instanceof Error ? error.message : String(error);
       console.error(`FAIL ${url} network_error=${reason}`);
     }
-  }
+      return !failed;
+    }),
+  );
 
-  if (failed) {
-    return false;
-  }
-
-  return true;
+  return results.every(Boolean);
 }
 
 async function sleep(ms) {
