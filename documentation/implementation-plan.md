@@ -61,3 +61,9 @@
 - Added `/admin` HTTP Basic Auth enforcement through runtime secrets.
 - Added CMS backup export script and daily GitHub Actions backup artifact workflow.
 - Added post-deploy smoke test checks in deployment workflow.
+
+## Phase 11: Observability and SEO governance (completed)
+- Added `/api/ops/summary` endpoint for operational route/CMS inventory visibility.
+- Added weekly SEO audit script with JSON/Markdown reporting output.
+- Added scheduled GitHub Actions workflow for weekly SEO audit artifacts.
+- Extended deployment smoke checks to include ops summary endpoint coverage.

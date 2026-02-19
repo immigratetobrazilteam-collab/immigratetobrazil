@@ -22,6 +22,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
 - `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
+- `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
 - `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
@@ -98,7 +99,12 @@ Copy `.env.example` to `.env.local` and set:
 ## Monitoring endpoints
 - `GET /api/health` - liveness endpoint
 - `GET /api/ready` - readiness endpoint (checks required runtime configuration)
+- `GET /api/ops/summary` - operational summary for routes and CMS inventory health
 
 ## CMS backups
 - Scheduled workflow: `.github/workflows/cms-backup.yml` (daily + manual trigger).
 - Backup artifacts are stored in GitHub Actions artifacts for 30 days.
+
+## SEO audits
+- Scheduled workflow: `.github/workflows/seo-audit.yml` (weekly + manual trigger).
+- Report artifacts (JSON + Markdown) are uploaded for 30 days.

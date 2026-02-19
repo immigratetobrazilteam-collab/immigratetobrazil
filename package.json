@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "cms:backup": "node scripts/export-cms-backup.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs",
     "smoke": "node scripts/smoke-check.mjs",
     "preview:worker": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",

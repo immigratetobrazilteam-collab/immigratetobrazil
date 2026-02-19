@@ -40,18 +40,25 @@ Recommended token permissions:
    - `/pt`
    - `/api/health`
    - `/api/ready`
+   - `/api/ops/summary`
 
 ## Runtime hardening
 - Security headers are enforced in `middleware.ts` via `lib/security-headers.ts`.
 - Health endpoints:
   - `app/api/health/route.ts`
   - `app/api/ready/route.ts`
+  - `app/api/ops/summary/route.ts`
 - CMS admin path `/admin` requires HTTP Basic Auth enforced by middleware.
 
 ## CMS backup automation
 - Workflow: `.github/workflows/cms-backup.yml`
 - Trigger: daily at `03:30 UTC` and manual dispatch
 - Output: artifact upload containing `artifacts/cms-backups/<timestamp>/`
+
+## SEO audit automation
+- Workflow: `.github/workflows/seo-audit.yml`
+- Trigger: weekly on Monday at `05:00 UTC` and manual dispatch
+- Output: artifact upload containing `artifacts/seo-audits/<timestamp>/`
 
 ## Security note
 Do not commit Cloudflare API keys or origin certificates.
