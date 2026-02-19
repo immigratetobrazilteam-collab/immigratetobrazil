@@ -6,6 +6,10 @@ account_id = "5fd13d8bf79a2c550b5099ecb3954e81"
 workers_dev = true
 preview_urls = true
 
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://immigratetobrazil.com"
+DECAP_GITHUB_OAUTH_SCOPE = "repo,user"
+
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"

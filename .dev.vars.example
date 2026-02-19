@@ -1,3 +1,12 @@
 # Local vars used by wrangler dev/preview.
 NEXTJS_ENV=development
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
+DECAP_GITHUB_OAUTH_SCOPE=repo,user
+
+# Local admin auth (for /admin in wrangler preview)
+ADMIN_BASIC_AUTH_USER=admin
+ADMIN_BASIC_AUTH_PASS=replace-with-strong-password
+
+# Local Decap OAuth proxy vars
+DECAP_GITHUB_OAUTH_CLIENT_ID=replace-with-github-oauth-client-id
+DECAP_GITHUB_OAUTH_CLIENT_SECRET=replace-with-github-oauth-client-secret
