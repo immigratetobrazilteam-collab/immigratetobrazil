@@ -2,6 +2,7 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: "/"
+    target-branch: "main"
     schedule:
       interval: weekly
       day: monday
@@ -13,9 +14,14 @@ updates:
       - security
     commit-message:
       prefix: "chore(deps)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
 
   - package-ecosystem: github-actions
     directory: "/"
+    target-branch: "main"
     schedule:
       interval: weekly
       day: monday
@@ -26,3 +32,7 @@ updates:
       - ci
     commit-message:
       prefix: "chore(ci)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
