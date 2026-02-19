@@ -1,0 +1,57 @@
+import type { Metadata } from 'next';
+
+import type { Locale } from '@/lib/types';
+
+const SITE_NAME = 'Immigrate to Brazil';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
+
+function absolute(pathname: string) {
+  const clean = pathname.startsWith('/') ? pathname : `/${pathname}`;
+  return new URL(clean, BASE_URL).toString();
+}
+
+export function createMetadata(options: {
+  locale: Locale;
+  title: string;
+  description: string;
+  pathname: string;
+}): Metadata {
+  const { locale, title, description, pathname } = options;
+
+  const normalized = pathname.startsWith(`/${locale}`) ? pathname : `/${locale}${pathname}`;
+  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt)/, '') || '/';
+
+  const alternates = {
+    en: absolute(`/en${pathWithoutLocale}`),
+    es: absolute(`/es${pathWithoutLocale}`),
+    pt: absolute(`/pt${pathWithoutLocale}`),
+  };
+
+  return {
+    title,
+    description,
+    metadataBase: new URL(BASE_URL),
+    alternates: {
+      canonical: absolute(normalized),
+      languages: {
+        en: alternates.en,
+        es: alternates.es,
+        pt: alternates.pt,
+        'x-default': alternates.en,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: absolute(normalized),
+      siteName: SITE_NAME,
+      locale,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+  };
+}

@@ -1,0 +1,78 @@
+{
+  "locale": "es",
+  "templates": {
+    "contact": {
+      "title": "Contacto migratorio para {{state}}",
+      "subtitle": "Soporte estratégico para perfiles que desean establecerse en {{state}} ({{region}}), con operación base en {{capital}}.",
+      "cards": [
+        {
+          "title": "Diagnóstico inicial",
+          "detail": "Revisión de perfil, objetivo migratorio y nivel de riesgo documental."
+        },
+        {
+          "title": "Ruta estatal",
+          "detail": "Plan de ejecución adaptado a procesos locales de {{state}}."
+        },
+        {
+          "title": "Coordinación operativa",
+          "detail": "Checklist, traducciones y agenda de presentación con control de plazos."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de inmigración para {{state}}",
+      "subtitle": "Preguntas comunes para planificación, documentación y regularización migratoria.",
+      "qa": [
+        {
+          "q": "¿Puedo iniciar mi proceso antes de mudarme a {{state}}?",
+          "a": "Sí. La estrategia documental y gran parte de la preparación puede hacerse de forma remota."
+        },
+        {
+          "q": "¿Cuánto tarda un caso típico?",
+          "a": "Depende de categoría, documentación y agenda de autoridades. El plan incluye márgenes de seguridad."
+        },
+        {
+          "q": "¿Ofrecen apoyo post-llegada?",
+          "a": "Sí. Incluye fases de CPF, registro migratorio y coordinación de instalación local."
+        }
+      ]
+    },
+    "services": {
+      "title": "Servicios para inmigrar a {{state}}",
+      "subtitle": "Migración de la página estatal hacia una plantilla moderna con control operacional.",
+      "modules": [
+        {
+          "title": "Estrategia de visa",
+          "detail": "Elegibilidad y ruta legal según perfil familiar, laboral o inversionista."
+        },
+        {
+          "title": "Ejecución de residencia",
+          "detail": "Gestión integral de solicitud y documentación crítica."
+        },
+        {
+          "title": "Integración local",
+          "detail": "Plan de llegada y estabilización para vivir en {{state}}."
+        }
+      ]
+    },
+    "blog": {
+      "title": "Guía estratégica para vivir en {{state}}",
+      "subtitle": "Contenido migrado del blog estatal para {{state}}, actualizado al nuevo sistema editorial.",
+      "sections": [
+        {
+          "title": "Contexto local",
+          "detail": "Resumen operativo de costo, servicios y dinámica de instalación en {{state}}."
+        },
+        {
+          "title": "Riesgos y oportunidades",
+          "detail": "Qué validar antes de firmar contratos o iniciar compromisos financieros."
+        },
+        {
+          "title": "Ejecución recomendada",
+          "detail": "Secuencia práctica para llegada, regularización y adaptación."
+        }
+      ]
+    }
+  },
+  "overrides": []
+}

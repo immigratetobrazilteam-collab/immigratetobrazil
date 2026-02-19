@@ -1,0 +1,77 @@
+{
+  "locale": "es",
+  "policies": [
+    {
+      "slug": "privacy",
+      "title": "Politica de Privacidad",
+      "paragraphs": [
+        "Immigrate to Brazil procesa datos personales para responder consultas, evaluar elegibilidad migratoria, ejecutar servicios contratados y cumplir obligaciones legales aplicables.",
+        "Podemos recopilar datos de identidad, contacto, historial de comunicaciones, informacion migratoria, datos de pago y datos tecnicos como IP y navegador.",
+        "El tratamiento se realiza bajo bases legales aplicables, incluyendo ejecucion contractual, etapas precontractuales, interes legitimo, consentimiento cuando corresponda y cumplimiento normativo.",
+        "Los datos se conservan solo durante el tiempo necesario para prestacion del servicio, cumplimiento legal, auditoria y resolucion de disputas.",
+        "Puede solicitar acceso, rectificacion, eliminacion, portabilidad, oposicion o limitacion del tratamiento, sujeto a la ley aplicable y validacion de identidad.",
+        "Aplicamos medidas administrativas, contractuales y tecnicas de seguridad; aun asi, ningun sistema en internet garantiza seguridad absoluta."
+      ]
+    },
+    {
+      "slug": "terms",
+      "title": "Terminos del Servicio",
+      "paragraphs": [
+        "Al usar este sitio web usted acepta estos terminos. Si no esta de acuerdo, debe dejar de usar el sitio y sus materiales digitales.",
+        "El contenido del sitio es informativo y no crea representacion legal formal sin contrato firmado.",
+        "Usted es responsable por la exactitud de la informacion enviada en formularios, consultas y flujos de onboarding.",
+        "Honorarios, alcance y plazos se rigen por el contrato aplicable. Los tiempos de autoridades son estimados y pueden variar.",
+        "En la maxima medida permitida por ley, se excluyen danos indirectos, incidentales y consecuenciales. La responsabilidad total se limita a los honorarios pagados por el servicio relevante.",
+        "Estos terminos se interpretan bajo ley brasilena, sin perjuicio de derechos obligatorios del consumidor cuando apliquen."
+      ]
+    },
+    {
+      "slug": "cookies",
+      "title": "Politica de Cookies",
+      "paragraphs": [
+        "Este sitio usa cookies y tecnologias similares para funcionalidad esencial, analitica de uso y mejora de experiencia.",
+        "Las cookies esenciales son necesarias para operar el sitio. Cookies analiticas o marketing se gestionan por consentimiento cuando la ley lo exige.",
+        "Herramientas de terceros, como analitica y tag manager, pueden establecer cookies bajo sus propias politicas.",
+        "Puede gestionar cookies desde su navegador o desde los controles de consentimiento disponibles en el sitio.",
+        "Los periodos de retencion varian por tipo de cookie y proveedor. Cookies de sesion expiran al cerrar sesion; cookies persistentes permanecen hasta su vencimiento o eliminacion.",
+        "Podemos actualizar esta politica por cambios legales, tecnicos u operativos. La version vigente rige desde su publicacion."
+      ]
+    },
+    {
+      "slug": "gdpr",
+      "title": "Aviso de Proteccion de Datos",
+      "paragraphs": [
+        "Para usuarios del EEE, Reino Unido y jurisdicciones similares, aplicamos controles de proteccion de datos conforme a normativa aplicable.",
+        "Usted puede ejercer derechos de acceso, rectificacion, eliminacion, portabilidad, oposicion y limitacion del tratamiento.",
+        "Transferencias internacionales de datos, cuando sean necesarias, se gestionan con salvaguardas contractuales apropiadas.",
+        "Si considera que sus derechos no fueron respetados, puede contactarnos y tambien presentar reclamo ante la autoridad de control competente.",
+        "Seleccionamos proveedores de hosting, analitica y operaciones bajo criterios de seguridad, confidencialidad y cumplimiento legal.",
+        "Este aviso complementa la Politica de Privacidad y documentos contractuales especificos del servicio."
+      ]
+    },
+    {
+      "slug": "refund",
+      "title": "Politica de Reembolsos",
+      "paragraphs": [
+        "La elegibilidad de reembolso depende de la etapa del servicio, trabajo ejecutado y condiciones del contrato aceptado.",
+        "Consultorias, diagnosticos y estrategias personalizadas normalmente no son reembolsables una vez entregadas.",
+        "En paquetes en curso, pueden evaluarse reembolsos parciales por porciones no ejecutadas cuando el contrato lo permita.",
+        "Solicitudes de reembolso deben enviarse por escrito con identificacion del cliente, referencia del servicio, comprobante de pago y motivo.",
+        "Reembolsos aprobados se procesan por el medio de pago original cuando sea posible y sujetos a tiempos bancarios o del proveedor.",
+        "Nada en esta politica limita derechos obligatorios del consumidor que no puedan ser renunciados por ley."
+      ]
+    },
+    {
+      "slug": "disclaimers",
+      "title": "Avisos Legales",
+      "paragraphs": [
+        "El contenido del sitio es educativo e informativo y no constituye asesoria legal individual sin contrato formal.",
+        "Resultados migratorios dependen de hechos del caso, calidad documental, criterio de autoridades y cambios regulatorios.",
+        "Plazos, costos y pasos publicados son referencias de planificacion y pueden cambiar por actualizaciones gubernamentales.",
+        "Enlaces externos se ofrecen por conveniencia. No controlamos contenido, disponibilidad o practicas de terceros.",
+        "El usuario sigue siendo responsable de revisar documentos y declaraciones antes de presentar tramites oficiales.",
+        "Al usar este sitio usted reconoce estas limitaciones y acepta buscar asesoria profesional personalizada cuando sea necesario."
+      ]
+    }
+  ]
+}

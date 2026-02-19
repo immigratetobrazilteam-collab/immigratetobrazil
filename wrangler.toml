@@ -1,0 +1,22 @@
+name = "immigratetobrazil"
+main = ".open-next/worker.js"
+compatibility_date = "2026-02-19"
+compatibility_flags = ["nodejs_compat"]
+account_id = "5fd13d8bf79a2c550b5099ecb3954e81"
+workers_dev = true
+preview_urls = true
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[routes]]
+pattern = "immigratetobrazil.com/*"
+zone_id = "43970a2e28129a557bfb10a575247f70"
+
+[[routes]]
+pattern = "www.immigratetobrazil.com/*"
+zone_id = "43970a2e28129a557bfb10a575247f70"
+
+[observability.logs]
+enabled = true

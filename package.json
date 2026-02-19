@@ -1,0 +1,39 @@
+{
+  "name": "my-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Modern scalable redesign for Immigrate to Brazil",
+  "scripts": {
+    "dev": "WATCHPACK_POLLING=true CHOKIDAR_USEPOLLING=1 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",
+    "migrate:routes": "node scripts/generate-route-index.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview:worker": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf:typegen": "wrangler types"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^15.2.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
+    "vitest": "^4.0.18",
+    "@opennextjs/cloudflare": "^1.16.5",
+    "wrangler": "^4.67.0"
+  }
+}

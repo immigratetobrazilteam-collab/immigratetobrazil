@@ -1,0 +1,163 @@
+backend:
+  name: github
+  repo: immigratetobrazilteam-collab/immigratetobrazil
+  branch: main
+
+site_url: https://immigratetobrazil.com
+publish_mode: editorial_workflow
+media_folder: assets/uploads
+public_folder: /legacy-assets/uploads
+
+collections:
+  - name: state_copy
+    label: State Copy
+    folder: content/cms/state-copy
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Templates
+        name: templates
+        widget: object
+        fields:
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: FAQ
+            name: faq
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: QA
+                name: qa
+                widget: list
+                min: 3
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+          - label: Services
+            name: services
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Modules
+                name: modules
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Blog
+            name: blog
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Sections
+                name: sections
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+      - label: State Overrides
+        name: overrides
+        widget: list
+        summary: '{{fields.slug}}'
+        fields:
+          - { label: State Slug, name: slug, widget: string }
+          - label: Contact Override
+            name: contact
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Cards
+                name: cards
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: FAQ Override
+            name: faq
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: QA
+                name: qa
+                required: false
+                widget: list
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+          - label: Services Override
+            name: services
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Modules
+                name: modules
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Blog Override
+            name: blog
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Sections
+                name: sections
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+
+  - name: policy_copy
+    label: Policy Copy
+    folder: content/cms/policies
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Policies
+        name: policies
+        widget: list
+        summary: '{{fields.slug}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - label: Paragraphs
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }

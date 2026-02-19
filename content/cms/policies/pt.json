@@ -1,0 +1,77 @@
+{
+  "locale": "pt",
+  "policies": [
+    {
+      "slug": "privacy",
+      "title": "Politica de Privacidade",
+      "paragraphs": [
+        "A Immigrate to Brazil trata dados pessoais para responder consultas, avaliar elegibilidade migratoria, executar servicos contratados e cumprir obrigacoes legais aplicaveis.",
+        "Podemos coletar dados de identidade, contato, historico de comunicacao, informacoes migratorias, dados de pagamento e dados tecnicos como IP e navegador.",
+        "O tratamento ocorre com base legal adequada, incluindo execucao contratual, medidas pre-contratuais, interesse legitimo, consentimento quando exigido e cumprimento regulatorio.",
+        "Os dados sao mantidos apenas pelo periodo necessario para prestacao do servico, conformidade legal, auditoria e resolucao de disputas.",
+        "Voce pode solicitar acesso, correcao, exclusao, portabilidade, oposicao ou restricao de tratamento, conforme legislacao aplicavel e validacao de identidade.",
+        "Adotamos medidas administrativas, contratuais e tecnicas de seguranca; ainda assim, nenhum sistema na internet oferece garantia absoluta."
+      ]
+    },
+    {
+      "slug": "terms",
+      "title": "Termos de Servico",
+      "paragraphs": [
+        "Ao acessar este site, voce concorda com estes Termos de Servico. Se nao concordar, deve interromper o uso do site e dos materiais digitais.",
+        "As informacoes publicadas sao de carater geral e nao criam representacao juridica formal sem contrato assinado.",
+        "Voce e responsavel pela exatidao das informacoes enviadas em formularios, consultas e fluxos de onboarding.",
+        "Honorarios, escopo e prazos sao definidos no contrato aplicavel. Prazos de orgaos publicos sao estimativas e podem variar.",
+        "Na maxima extensao permitida por lei, perdas indiretas, incidentais e consequenciais sao excluidas. A responsabilidade total limita-se aos valores pagos pelo servico relevante.",
+        "Estes termos sao interpretados sob a legislacao brasileira, sem prejuizo de direitos obrigatorios do consumidor quando aplicavel."
+      ]
+    },
+    {
+      "slug": "cookies",
+      "title": "Politica de Cookies",
+      "paragraphs": [
+        "Este site utiliza cookies e tecnologias similares para funcionalidade essencial, analise de uso e melhoria da experiencia.",
+        "Cookies essenciais sao necessarios para operacao do site. Cookies de analise ou marketing dependem de consentimento quando exigido por lei.",
+        "Ferramentas de terceiros, incluindo analytics e tag manager, podem instalar cookies de acordo com suas politicas proprias.",
+        "Voce pode gerenciar cookies nas configuracoes do navegador ou pelos controles de consentimento disponibilizados no site.",
+        "Prazos de retencao variam por tipo de cookie e provedor. Cookies de sessao expiram ao encerrar a navegacao; cookies persistentes permanecem ate expiracao ou exclusao manual.",
+        "Esta politica pode ser atualizada por mudancas legais, tecnicas ou operacionais. A versao publicada passa a valer imediatamente."
+      ]
+    },
+    {
+      "slug": "gdpr",
+      "title": "Aviso de Protecao de Dados",
+      "paragraphs": [
+        "Para usuarios no EEE, Reino Unido e jurisdicoes semelhantes, aplicamos controles de protecao de dados conforme as regras aplicaveis.",
+        "Voce pode exercer direitos de acesso, retificacao, exclusao, portabilidade, oposicao e limitacao do tratamento.",
+        "Transferencias internacionais de dados, quando necessarias, sao conduzidas com salvaguardas contratuais adequadas.",
+        "Se entender que seus direitos nao foram respeitados, entre em contato conosco e, se necessario, registre reclamacao na autoridade supervisora competente.",
+        "Provedores de hospedagem, analytics, CRM e operacoes sao selecionados com base em seguranca, confidencialidade e compromissos contratuais.",
+        "Este aviso complementa a Politica de Privacidade e os documentos contratuais especificos de cada servico."
+      ]
+    },
+    {
+      "slug": "refund",
+      "title": "Politica de Reembolso",
+      "paragraphs": [
+        "A elegibilidade para reembolso depende da fase do servico, do trabalho ja executado e das condicoes previstas no contrato aceito.",
+        "Consultorias, diagnosticos e estrategias personalizadas normalmente nao sao reembolsaveis apos a entrega.",
+        "Em pacotes continuos, reembolsos parciais podem ser avaliados para etapas nao executadas, quando permitido em contrato.",
+        "Pedidos de reembolso devem ser enviados por escrito com identificacao do cliente, referencia do servico, comprovante de pagamento e justificativa.",
+        "Reembolsos aprovados sao processados preferencialmente pelo mesmo meio de pagamento e sujeitos ao prazo do banco ou processador.",
+        "Nada nesta politica limita direitos obrigatorios do consumidor que nao possam ser afastados por lei."
+      ]
+    },
+    {
+      "slug": "disclaimers",
+      "title": "Avisos Legais",
+      "paragraphs": [
+        "Os materiais deste site possuem natureza informativa e educacional e nao constituem orientacao juridica individual sem contrato formal.",
+        "Resultados migratorios dependem dos fatos do caso, qualidade documental, criterio das autoridades e alteracoes regulatorias.",
+        "Prazos, custos e etapas publicados sao referencias de planejamento e podem ser alterados por atualizacoes governamentais.",
+        "Links externos sao fornecidos por conveniencia. Nao somos responsaveis por conteudo, disponibilidade ou praticas de terceiros.",
+        "O usuario permanece responsavel por revisar documentos e declaracoes antes de qualquer protocolo oficial.",
+        "Ao utilizar este site, voce reconhece essas limitacoes e concorda em buscar assessoria profissional personalizada quando necessario."
+      ]
+    }
+  ]
+}
