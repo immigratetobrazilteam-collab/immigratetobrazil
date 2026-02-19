@@ -21,6 +21,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run typecheck` - TypeScript checks
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
+- `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
 
@@ -55,6 +56,7 @@ Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
 3. `npm run typecheck`
 4. `npm run test`
 5. `npm run deploy`
+6. `npm run smoke` against `https://immigratetobrazil.com`
 
 ## Environment setup
 Copy `.env.example` to `.env.local` and set:
@@ -85,3 +87,7 @@ Copy `.env.example` to `.env.local` and set:
   - `content/cms/policies/en.json`
   - `content/cms/policies/es.json`
   - `content/cms/policies/pt.json`
+
+## Monitoring endpoints
+- `GET /api/health` - liveness endpoint
+- `GET /api/ready` - readiness endpoint (checks required runtime configuration)

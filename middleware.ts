@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { applySecurityHeaders } from '@/lib/security-headers';
 
 const LOCALES = new Set(['en', 'es', 'pt']);
 
@@ -16,7 +17,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith('/assets') ||
     (isFileRequest && !isHtmlRequest)
   ) {
-    return NextResponse.next();
+    return applySecurityHeaders(NextResponse.next());
   }
 
   const segments = pathname.split('/').filter(Boolean);
@@ -26,10 +27,10 @@ export function middleware(request: NextRequest) {
     const url = request.nextUrl.clone();
     const normalizedPath = pathname === '/' ? '' : pathname;
     url.pathname = `/en${normalizedPath}`;
-    return NextResponse.redirect(url);
+    return applySecurityHeaders(NextResponse.redirect(url));
   }
 
-  return NextResponse.next();
+  return applySecurityHeaders(NextResponse.next());
 }
 
 export const config = {

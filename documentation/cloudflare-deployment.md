@@ -29,6 +29,18 @@ Recommended token permissions:
 ## Production deploy
 1. Push to `main`, or run workflow manually.
 2. Workflow installs, validates, and runs `npm run deploy`.
+3. Workflow runs post-deploy smoke checks against:
+   - `/en`
+   - `/es`
+   - `/pt`
+   - `/api/health`
+   - `/api/ready`
+
+## Runtime hardening
+- Security headers are enforced in `middleware.ts` via `lib/security-headers.ts`.
+- Health endpoints:
+  - `app/api/health/route.ts`
+  - `app/api/ready/route.ts`
 
 ## Security note
 Do not commit Cloudflare API keys or origin certificates.
