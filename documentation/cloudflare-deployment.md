@@ -42,6 +42,13 @@ Recommended token permissions:
    - `/api/ready`
    - `/api/ops/summary`
 
+## Rollback deploy
+- Workflow: `.github/workflows/rollback-cloudflare.yml`
+- Trigger: manual (`workflow_dispatch`)
+- Input:
+  - `target_ref` (commit SHA/tag/branch to redeploy)
+- The rollback workflow rebuilds and deploys that exact ref, then runs smoke checks.
+
 ## Runtime hardening
 - Security headers are enforced in `middleware.ts` via `lib/security-headers.ts`.
 - Health endpoints:

@@ -77,3 +77,9 @@
 - Added strict CMS validation script for structure, required fields, and slug integrity.
 - Added CI gate to block merges when CMS content is malformed.
 - Added deployment gate to block production deploys when CMS content validation fails.
+
+## Phase 14: Incident recovery and workflow reliability (completed)
+- Added resilient smoke check retries with cache-busting parameters.
+- Added rollback deployment workflow for redeploying a chosen historical ref.
+- Tuned SEO audit to fail only on core endpoint failures by default.
+- Tuned security audit to report by default, with optional strict fail mode.

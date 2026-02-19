@@ -1,22 +1,26 @@
-name: Deploy Cloudflare Worker
+name: Rollback Cloudflare Deploy
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    inputs:
+      target_ref:
+        description: 'Git ref to deploy (commit SHA, tag, or branch)'
+        required: true
+        default: 'main'
 
 concurrency:
   group: deploy-cloudflare-main
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  rollback:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout target ref
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target_ref }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -39,13 +43,13 @@ jobs:
       - name: Test
         run: npm run test
 
-      - name: Deploy to Cloudflare
+      - name: Deploy rollback target to Cloudflare
         run: npm run deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
 
-      - name: Post-deploy smoke test
+      - name: Post-rollback smoke test
         env:
           SMOKE_BASE_URL: https://immigratetobrazil.com
           SMOKE_MAX_ATTEMPTS: 12

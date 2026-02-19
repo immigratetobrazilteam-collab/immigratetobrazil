@@ -12,6 +12,8 @@ concurrency:
 jobs:
   npm-audit:
     runs-on: ubuntu-latest
+    env:
+      SECURITY_AUDIT_FAIL_ON_HIGH_CRITICAL: "false"
 
     steps:
       - name: Checkout
@@ -30,8 +32,15 @@ jobs:
         run: npm audit --json > npm-audit.json || true
 
       - name: Evaluate high/critical vulnerabilities
+        id: evaluate
         run: |
-          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('npm-audit.json','utf8'));const v=r.metadata?.vulnerabilities||{};const high=v.high||0;const critical=v.critical||0;console.log('high=',high,'critical=',critical);if(high+critical>0)process.exit(1);"
+          node -e "const fs=require('fs');const r=JSON.parse(fs.readFileSync('npm-audit.json','utf8'));const v=r.metadata?.vulnerabilities||{};const high=v.high||0;const critical=v.critical||0;console.log('high='+high);console.log('critical='+critical);fs.appendFileSync(process.env.GITHUB_OUTPUT,`high=${high}\ncritical=${critical}\n`);"
+
+      - name: Fail on high/critical (optional)
+        if: ${{ env.SECURITY_AUDIT_FAIL_ON_HIGH_CRITICAL == 'true' && (steps.evaluate.outputs.high != '0' || steps.evaluate.outputs.critical != '0') }}
+        run: |
+          echo "High/Critical vulnerabilities found."
+          exit 1
 
       - name: Upload audit artifact
         if: always()

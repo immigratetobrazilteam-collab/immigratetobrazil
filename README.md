@@ -57,7 +57,7 @@ GitHub Actions workflow at `.github/workflows/ci.yml` runs:
 Security workflow at `.github/workflows/security-audit.yml` runs weekly:
 1. `npm ci`
 2. `npm audit --json`
-3. Fails if high/critical vulnerabilities are present
+3. Reports high/critical vulnerabilities (optional fail mode configurable in workflow env)
 4. Uploads audit artifact
 
 Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
@@ -68,6 +68,11 @@ Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
 5. `npm run test`
 6. `npm run deploy`
 7. `npm run smoke` against `https://immigratetobrazil.com`
+
+Rollback workflow at `.github/workflows/rollback-cloudflare.yml` (manual):
+1. Set `target_ref` (commit SHA/tag/branch)
+2. Rebuild and deploy selected ref to Cloudflare
+3. Run post-rollback smoke checks
 
 ## Environment setup
 Copy `.env.example` to `.env.local` and set:

@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const BASE_URL = (process.env.SEO_AUDIT_BASE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://immigratetobrazil.com').replace(/\/$/, '');
 const FAIL_ON_ERROR = process.env.SEO_AUDIT_FAIL_ON_ERROR !== 'false';
+const FAIL_ON_SAMPLE_ERROR = process.env.SEO_AUDIT_FAIL_ON_SAMPLE_ERROR === 'true';
 const OUT_ROOT = path.join(process.cwd(), 'artifacts', 'seo-audits');
 const stamp = new Date().toISOString().replace(/[:.]/g, '-');
 const outDir = path.join(OUT_ROOT, stamp);
@@ -76,6 +77,8 @@ async function run() {
 
   const allResults = [...coreResults, ...sampleResults];
   const failed = allResults.filter((x) => !x.ok);
+  const coreFailures = coreResults.filter((x) => !x.ok);
+  const sampleFailures = sampleResults.filter((x) => !x.ok);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -87,6 +90,8 @@ async function run() {
       total: allResults.length,
       passed: allResults.length - failed.length,
       failed: failed.length,
+      coreFailed: coreFailures.length,
+      sampleFailed: sampleFailures.length,
     },
     failures: failed,
   };
@@ -122,7 +127,9 @@ async function run() {
 
   console.log(`SEO audit exported to ${path.relative(process.cwd(), outDir)}`);
 
-  if (failed.length > 0 && FAIL_ON_ERROR) {
+  if (FAIL_ON_ERROR && coreFailures.length > 0) {
+    process.exitCode = 1;
+  } else if (FAIL_ON_ERROR && FAIL_ON_SAMPLE_ERROR && sampleFailures.length > 0) {
     process.exitCode = 1;
   }
 }

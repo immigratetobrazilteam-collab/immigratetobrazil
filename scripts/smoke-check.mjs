@@ -1,4 +1,6 @@
 const BASE_URL = (process.env.SMOKE_BASE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(/\/$/, '');
+const ATTEMPTS = Number(process.env.SMOKE_MAX_ATTEMPTS || 1);
+const RETRY_DELAY_MS = Number(process.env.SMOKE_RETRY_DELAY_MS || 0);
 
 const checks = [
   { path: '/en', expect: 200, type: 'text/html' },
@@ -8,11 +10,12 @@ const checks = [
   { path: '/api/ready', expect: 200, type: 'application/json' },
 ];
 
-async function run() {
+async function runSingleAttempt(attempt) {
   let failed = false;
 
   for (const check of checks) {
-    const url = `${BASE_URL}${check.path}`;
+    const sep = check.path.includes('?') ? '&' : '?';
+    const url = `${BASE_URL}${check.path}${sep}smoke_attempt=${attempt}&ts=${Date.now()}`;
 
     try {
       const response = await fetch(url, { redirect: 'follow' });
@@ -33,8 +36,31 @@ async function run() {
   }
 
   if (failed) {
-    process.exit(1);
+    return false;
   }
+
+  return true;
+}
+
+async function sleep(ms) {
+  if (ms <= 0) return;
+  await new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function run() {
+  for (let i = 1; i <= ATTEMPTS; i += 1) {
+    const ok = await runSingleAttempt(i);
+    if (ok) {
+      return;
+    }
+
+    if (i < ATTEMPTS) {
+      console.log(`Smoke attempt ${i} failed; retrying in ${RETRY_DELAY_MS}ms...`);
+      await sleep(RETRY_DELAY_MS);
+    }
+  }
+
+  process.exit(1);
 }
 
 run();
