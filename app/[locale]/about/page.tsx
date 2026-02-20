@@ -81,6 +81,33 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </article>
 
           <article className="rounded-2xl border border-sand-200 bg-white p-6">
+            <h2 className="font-display text-2xl text-ink-900">Values</h2>
+            <p className="mt-3 text-sm text-ink-700">Core principles that guide how the firm communicates, advises, and executes.</p>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">Brand identity page</p>
+            <Link href={`/${locale}/about/values`} className="mt-4 inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">
+              Open values
+            </Link>
+          </article>
+
+          <article className="rounded-2xl border border-sand-200 bg-white p-6">
+            <h2 className="font-display text-2xl text-ink-900">Mission</h2>
+            <p className="mt-3 text-sm text-ink-700">The operating mission behind the firm&apos;s immigration strategy model.</p>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">Brand identity page</p>
+            <Link href={`/${locale}/about/mission`} className="mt-4 inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">
+              Open mission
+            </Link>
+          </article>
+
+          <article className="rounded-2xl border border-sand-200 bg-white p-6">
+            <h2 className="font-display text-2xl text-ink-900">Story</h2>
+            <p className="mt-3 text-sm text-ink-700">How the advisory started and expanded into a national support model.</p>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">Brand identity page</p>
+            <Link href={`/${locale}/about/story`} className="mt-4 inline-flex text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">
+              Open story
+            </Link>
+          </article>
+
+          <article className="rounded-2xl border border-sand-200 bg-white p-6">
             <h2 className="font-display text-2xl text-ink-900">Accessibility</h2>
             <p className="mt-3 text-sm text-ink-700">Accessibility and inclusive-use documentation migrated into the new structure.</p>
             <p className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-civic-700">{accessibilityCount} page</p>

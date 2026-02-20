@@ -8,6 +8,8 @@ export const siteConfig = {
     whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.trim() || '+55 43 99132-4028',
     whatsappLink:
       process.env.NEXT_PUBLIC_WHATSAPP_LINK?.trim() || 'https://wa.me/5543991324028',
+    whatsappProfileImage:
+      process.env.NEXT_PUBLIC_WHATSAPP_PROFILE_IMAGE?.trim() || '/brand/whatsapp-profile.webp',
     formspreeEndpoint:
       process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT?.trim() || 'https://formspree.io/f/xbdaaoyb',
   },

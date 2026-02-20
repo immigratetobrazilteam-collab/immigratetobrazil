@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { BrandLogo } from '@/components/brand-logo';
 import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { copy } from '@/lib/i18n';
-import { countRoutesByPrefix } from '@/lib/route-index';
 import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
@@ -158,32 +157,10 @@ function RegionalDirectory({ title, groups }: { title: string; groups: RegionalL
   );
 }
 
-export async function SiteFooter({ locale }: SiteFooterProps) {
+export function SiteFooter({ locale }: SiteFooterProps) {
   const t = copy[locale];
   const labels = footerCopy(locale);
   const contact = siteConfig.contact;
-
-  const [
-    aboutCount,
-    serviceCount,
-    resourceCount,
-    discoverCount,
-    homeCount,
-    contactCount,
-    blogCount,
-    faqCount,
-    policyCount,
-  ] = await Promise.all([
-    countRoutesByPrefix(locale, 'about', true),
-    countRoutesByPrefix(locale, 'services', true),
-    countRoutesByPrefix(locale, 'resources-guides-brazil', true),
-    countRoutesByPrefix(locale, 'discover', true),
-    countRoutesByPrefix(locale, 'home', true),
-    countRoutesByPrefix(locale, 'contact', true),
-    countRoutesByPrefix(locale, 'blog', true),
-    countRoutesByPrefix(locale, 'faq', true),
-    countRoutesByPrefix(locale, 'policies', true),
-  ]);
 
   const aboutStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/about/about-states/about-${state.slug}`);
   const serviceStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/services/immigrate-to-${state.slug}`);
@@ -204,18 +181,6 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
             <a href={`mailto:${contact.clientEmail}`} className="block text-sm text-sand-100 hover:text-white">
               {contact.clientEmail}
             </a>
-
-            <div className="flex flex-wrap gap-2">
-              <span className="rounded-full border border-civic-300/40 bg-civic-800/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-sand-100">
-                {aboutCount} about
-              </span>
-              <span className="rounded-full border border-civic-300/40 bg-civic-800/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-sand-100">
-                {serviceCount} services
-              </span>
-              <span className="rounded-full border border-civic-300/40 bg-civic-800/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-sand-100">
-                {discoverCount} discover
-              </span>
-            </div>
 
             <Link
               href={`/${locale}/library`}
@@ -240,17 +205,26 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               <Link href={`/${locale}/about/about-us`} className="hover:text-white">
                 About Us
               </Link>
+              <Link href={`/${locale}/about/values`} className="hover:text-white">
+                Values
+              </Link>
+              <Link href={`/${locale}/about/mission`} className="hover:text-white">
+                Mission
+              </Link>
+              <Link href={`/${locale}/about/story`} className="hover:text-white">
+                Story
+              </Link>
               <Link href={`/${locale}/accessibility`} className="hover:text-white">
                 Accessibility
               </Link>
               <Link href={`/${locale}/resources-guides-brazil`} className="hover:text-white">
-                {t.nav.resources} ({resourceCount})
+                {t.nav.resources}
               </Link>
               <Link href={`/${locale}/process`} className="hover:text-white">
                 {t.nav.process}
               </Link>
               <Link href={`/${locale}/home`} className="hover:text-white">
-                Home archive ({homeCount})
+                Home archive
               </Link>
             </div>
 
@@ -281,15 +255,6 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               <Link href={`/${locale}/services/legal`} className="hover:text-white">
                 Legal Services
               </Link>
-              <Link href={`/${locale}/services/immigration-law-services/visas/work`} className="hover:text-white">
-                Immigration Law: Work Visa
-              </Link>
-              <Link href={`/${locale}/services/immigration-law-services/residencies/permanent`} className="hover:text-white">
-                Immigration Law: Permanent Residency
-              </Link>
-              <Link href={`/${locale}/services/travel-services/guided-trips/north`} className="hover:text-white">
-                Travel Services: Guided Trips
-              </Link>
             </div>
 
             <RegionalDirectory title={labels.stateServices} groups={serviceStateGroups} />
@@ -305,16 +270,16 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 Discover States
               </Link>
               <Link href={`/${locale}/discover/brazilian-regions`} className="hover:text-white">
-                Discover Regions ({discoverCount})
+                Discover Regions
               </Link>
               <Link href={`/${locale}/blog`} className="hover:text-white">
-                {t.nav.blog} ({blogCount})
+                {t.nav.blog}
               </Link>
               <Link href={`/${locale}/faq`} className="hover:text-white">
-                {t.nav.faq} ({faqCount})
+                {t.nav.faq}
               </Link>
               <Link href={`/${locale}/policies`} className="hover:text-white">
-                Policies ({policyCount})
+                Policies
               </Link>
               <Link href="/sitemap.xml" className="hover:text-white">
                 XML Sitemap
@@ -329,16 +294,25 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.supportTitle}</p>
             <div className="flex flex-col gap-2 text-sm">
               <Link href={`/${locale}/contact`} className="hover:text-white">
-                {t.nav.contact} ({contactCount})
+                {t.nav.contact}
+              </Link>
+              <Link href={`/${locale}/policies/cookies`} className="hover:text-white">
+                Cookies
+              </Link>
+              <Link href={`/${locale}/policies/disclaimers`} className="hover:text-white">
+                Disclaimers
+              </Link>
+              <Link href={`/${locale}/policies/gdpr`} className="hover:text-white">
+                GDPR
               </Link>
               <Link href={`/${locale}/policies/privacy`} className="hover:text-white">
                 Privacy
               </Link>
+              <Link href={`/${locale}/policies/refund`} className="hover:text-white">
+                Refund
+              </Link>
               <Link href={`/${locale}/policies/terms`} className="hover:text-white">
                 Terms
-              </Link>
-              <Link href={`/${locale}/policies/cookies`} className="hover:text-white">
-                Cookies
               </Link>
             </div>
 
@@ -346,10 +320,7 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
 
             <div className="rounded-xl border border-ink-700/70 bg-ink-800/40 p-3 text-xs text-sand-200">
               <p className="font-semibold uppercase tracking-[0.1em]">Contact</p>
-              <a href={`mailto:${contact.consultationEmail}`} className="mt-2 block hover:text-white">
-                {contact.consultationEmail}
-              </a>
-              <a href={`mailto:${contact.clientEmail}`} className="mt-1 block hover:text-white">
+              <a href={`mailto:${contact.clientEmail}`} className="mt-2 block hover:text-white">
                 {contact.clientEmail}
               </a>
               <a href={contact.whatsappLink} className="mt-1 block hover:text-white">

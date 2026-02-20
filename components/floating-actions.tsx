@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 import { siteConfig } from '@/lib/site-config';
@@ -42,7 +43,7 @@ export function FloatingActions({ locale }: FloatingActionsProps) {
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="pointer-events-auto inline-flex h-10 w-10 items-center justify-center rounded-full border border-sand-300 bg-white text-ink-800 shadow-card transition hover:-translate-y-0.5 hover:border-civic-400 hover:text-civic-700"
+          className="pointer-events-auto inline-flex h-10 w-10 items-center justify-center rounded-full border border-civic-300 bg-civic-700 text-white shadow-card transition hover:-translate-y-0.5 hover:bg-civic-800"
           aria-label={t.top}
           title={t.top}
         >
@@ -54,12 +55,29 @@ export function FloatingActions({ locale }: FloatingActionsProps) {
         href={siteConfig.contact.whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={t.whatsapp}
+        aria-label={`${t.whatsapp} ${siteConfig.contact.whatsappNumber}`}
         title={t.whatsapp}
-        className="pointer-events-auto inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#0e7a3f] bg-gradient-to-br from-[#25d366] to-[#128c7e] text-lg font-black text-white shadow-[0_12px_32px_rgba(18,140,126,0.35)] transition hover:-translate-y-0.5 hover:scale-105"
+        className="pointer-events-auto group inline-flex h-14 w-14 items-center justify-center rounded-full border border-[#0f5132]/20 bg-white shadow-card transition duration-200 hover:-translate-y-0.5 hover:shadow-glow sm:h-auto sm:w-auto sm:gap-2 sm:px-2.5 sm:py-2"
       >
-        <span className="absolute -z-10 h-12 w-12 rounded-full bg-[#f5c400]/25 blur-sm" />
-        ☎
+        <span className="relative inline-flex h-11 w-11 overflow-hidden rounded-full border border-sand-200 shadow-sm">
+          <Image
+            src={siteConfig.contact.whatsappProfileImage}
+            alt="Immigrate to Brazil WhatsApp profile image"
+            fill
+            sizes="44px"
+            className="object-cover"
+          />
+          <span className="absolute -bottom-0.5 -right-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border border-white bg-[#25D366] text-white shadow-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" className="h-3 w-3" aria-hidden="true">
+              <path d="M19.1 17.2c-.3-.2-1.7-.9-1.9-1-.3-.1-.5-.2-.8.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2.1-.4 0-.5-.1-.1-.8-1.9-1.1-2.6-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.5 0 1.4 1 2.9 1.1 3.1.1.2 2 3.1 4.8 4.3.7.3 1.2.5 1.7.6.7.2 1.3.1 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3z" />
+            </svg>
+          </span>
+        </span>
+
+        <span className="hidden pr-1 text-left sm:block">
+          <span className="block text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0f5132]">WhatsApp</span>
+          <span className="block text-xs font-semibold text-ink-900 group-hover:text-[#0f5132]">{t.whatsapp}</span>
+        </span>
       </a>
     </div>
   );

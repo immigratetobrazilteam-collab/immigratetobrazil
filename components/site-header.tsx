@@ -21,14 +21,12 @@ type MenuLink = {
 type MenuGroup = {
   title: string;
   links: MenuLink[];
-  dense?: boolean;
 };
 
 type MenuSection = {
   title: string;
   links?: MenuLink[];
   groups?: MenuGroup[];
-  dense?: boolean;
 };
 
 type MegaMenu = {
@@ -45,24 +43,29 @@ interface SiteHeaderProps {
 
 const REGION_ORDER: BrazilianState['region'][] = ['north', 'northeast', 'central-west', 'southeast', 'south'];
 
+const DISCOVER_REGION_SEGMENTS: Record<BrazilianState['region'], string> = {
+  north: 'north-region',
+  northeast: 'northeast-region',
+  'central-west': 'central-west-region',
+  southeast: 'southeast-region',
+  south: 'south-region',
+};
+
 function menuCopy(locale: Locale) {
   if (locale === 'es') {
     return {
-      aboutCore: 'Base institucional',
       aboutBrazil: 'Brasil en profundidad',
       aboutStates: 'Estados por región',
-      servicesCore: 'Servicios esenciales',
-      servicesFamilies: 'Familias de servicios',
-      servicesStates: 'Operación por estado',
-      resourcesHubs: 'Centros principales',
-      resourcesDiscover: 'Mapas de descubrimiento',
+      servicesCore: 'Servicios principales',
+      servicesStates: 'Servicios por estado',
+      resourcesHubs: 'Centros de recursos',
       resourcesPolicy: 'Políticas y legal',
-      insightsCore: 'Centros editoriales',
-      insightsBlogStates: 'Blog por región',
-      insightsFaqStates: 'FAQ por región',
+      discoverRegions: 'Regiones de Brasil',
+      discoverStates: 'Estados de Brasil',
+      blogStates: 'Blog por región',
+      faqStates: 'FAQ por región',
       contactChannels: 'Canales de contacto',
       contactStates: 'Contacto por región',
-      consultation: 'Consulta estratégica',
       allPages: 'Todas las páginas',
       regionNorth: 'Norte',
       regionNortheast: 'Nordeste',
@@ -74,22 +77,19 @@ function menuCopy(locale: Locale) {
 
   if (locale === 'pt') {
     return {
-      aboutCore: 'Base institucional',
       aboutBrazil: 'Brasil em profundidade',
-      aboutStates: 'Estados por regiao',
-      servicesCore: 'Servicos essenciais',
-      servicesFamilies: 'Familias de servico',
-      servicesStates: 'Operacao por estado',
-      resourcesHubs: 'Centros principais',
-      resourcesDiscover: 'Mapas de descoberta',
-      resourcesPolicy: 'Politicas e legal',
-      insightsCore: 'Centros editoriais',
-      insightsBlogStates: 'Blog por regiao',
-      insightsFaqStates: 'FAQ por regiao',
+      aboutStates: 'Estados por região',
+      servicesCore: 'Serviços principais',
+      servicesStates: 'Serviços por estado',
+      resourcesHubs: 'Centros de recursos',
+      resourcesPolicy: 'Políticas e legal',
+      discoverRegions: 'Regiões do Brasil',
+      discoverStates: 'Estados do Brasil',
+      blogStates: 'Blog por região',
+      faqStates: 'FAQ por região',
       contactChannels: 'Canais de contato',
-      contactStates: 'Contato por regiao',
-      consultation: 'Consulta estrategica',
-      allPages: 'Todas as paginas',
+      contactStates: 'Contato por região',
+      allPages: 'Todas as páginas',
       regionNorth: 'Norte',
       regionNortheast: 'Nordeste',
       regionCentralWest: 'Centro-Oeste',
@@ -100,21 +100,18 @@ function menuCopy(locale: Locale) {
 
   if (locale === 'fr') {
     return {
-      aboutCore: 'Base institutionnelle',
       aboutBrazil: 'Brésil en profondeur',
       aboutStates: 'États par région',
-      servicesCore: 'Services essentiels',
-      servicesFamilies: 'Familles de services',
-      servicesStates: 'Opérations par État',
-      resourcesHubs: 'Hubs principaux',
-      resourcesDiscover: 'Cartes de découverte',
+      servicesCore: 'Services principaux',
+      servicesStates: 'Services par État',
+      resourcesHubs: 'Hubs de ressources',
       resourcesPolicy: 'Politiques et juridique',
-      insightsCore: 'Hubs éditoriaux',
-      insightsBlogStates: 'Blog par région',
-      insightsFaqStates: 'FAQ par région',
+      discoverRegions: 'Régions du Brésil',
+      discoverStates: 'États du Brésil',
+      blogStates: 'Blog par région',
+      faqStates: 'FAQ par région',
       contactChannels: 'Canaux de contact',
       contactStates: 'Contact par région',
-      consultation: 'Consultation stratégique',
       allPages: 'Toutes les pages',
       regionNorth: 'Nord',
       regionNortheast: 'Nord-Est',
@@ -125,21 +122,18 @@ function menuCopy(locale: Locale) {
   }
 
   return {
-    aboutCore: 'Company Foundation',
-    aboutBrazil: 'Brazil Knowledge',
-    aboutStates: 'States by Region',
-    servicesCore: 'Core Services',
-    servicesFamilies: 'Service Families',
-    servicesStates: 'State Operations',
-    resourcesHubs: 'Main Hubs',
-    resourcesDiscover: 'Discovery Maps',
-    resourcesPolicy: 'Policy and Legal',
-    insightsCore: 'Editorial Hubs',
-    insightsBlogStates: 'Blog by Region',
-    insightsFaqStates: 'FAQ by Region',
-    contactChannels: 'Contact Channels',
-    contactStates: 'Contact by Region',
-    consultation: 'Strategy consultation',
+    aboutBrazil: 'About Brazil',
+    aboutStates: 'About states by region',
+    servicesCore: 'Core services',
+    servicesStates: 'Services by state',
+    resourcesHubs: 'Resource hubs',
+    resourcesPolicy: 'Policies and legal',
+    discoverRegions: 'Brazil regions',
+    discoverStates: 'Brazil states',
+    blogStates: 'Blog by region',
+    faqStates: 'FAQ by region',
+    contactChannels: 'Contact channels',
+    contactStates: 'Contact by region',
     allPages: 'All Pages',
     regionNorth: 'North',
     regionNortheast: 'Northeast',
@@ -149,17 +143,19 @@ function menuCopy(locale: Locale) {
   };
 }
 
-function topRowLinkClass(active: boolean) {
+function desktopLinkClass(active: boolean) {
   return cn(
-    'rounded-full px-3.5 py-2 text-sm font-semibold transition',
+    'rounded-full px-4 py-2 text-sm font-semibold transition',
     active ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100 hover:text-ink-900',
   );
 }
 
-function menuButtonClass(active: boolean, open: boolean) {
+function secondaryLinkClass(active: boolean) {
   return cn(
-    'inline-flex items-center gap-1 rounded-full px-4 py-2 text-sm font-semibold transition',
-    active || open ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100 hover:text-ink-900',
+    'rounded-full border px-3.5 py-1.5 text-sm font-semibold transition',
+    active
+      ? 'border-ink-900 bg-ink-900 text-sand-50'
+      : 'border-sand-300 bg-white text-ink-700 hover:border-civic-300 hover:text-ink-900',
   );
 }
 
@@ -200,40 +196,58 @@ function groupedStateLinks(
     return {
       title: regionLabel(labels, region),
       links,
-      dense: true,
     };
   });
+}
+
+function HeaderLogo({ locale, href, compact = false }: { locale: Locale; href: string; compact?: boolean }) {
+  const brand = copy[locale].brand;
+
+  return (
+    <Link href={href} className="inline-flex items-center gap-3">
+      <BrandLogo variant="mark" priority className={compact ? 'h-10 w-10 rounded-xl' : 'h-12 w-12 rounded-2xl'} />
+      <div className="leading-tight">
+        <p className={cn('font-display text-ink-900', compact ? 'text-base' : 'text-lg')}>{brand}</p>
+        <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">Premium Advisory</p>
+      </div>
+    </Link>
+  );
 }
 
 export function SiteHeader({ locale }: SiteHeaderProps) {
   const t = copy[locale];
   const labels = useMemo(() => menuCopy(locale), [locale]);
   const pathname = usePathname() || `/${locale}`;
+  const desktopMenuRef = useRef<HTMLDivElement | null>(null);
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
-  const desktopNavRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleOutside = (event: MouseEvent) => {
-      if (!desktopNavRef.current?.contains(event.target as Node)) {
+    const onPointerDown = (event: PointerEvent) => {
+      if (!desktopMenuRef.current) return;
+      if (!desktopMenuRef.current.contains(event.target as Node)) {
         setOpenMenu(null);
       }
     };
 
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setOpenMenu(null);
-      }
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpenMenu(null);
     };
 
-    document.addEventListener('mousedown', handleOutside);
-    document.addEventListener('keydown', handleEscape);
+    document.addEventListener('pointerdown', onPointerDown);
+    document.addEventListener('keydown', onKeyDown);
 
     return () => {
-      document.removeEventListener('mousedown', handleOutside);
-      document.removeEventListener('keydown', handleEscape);
+      document.removeEventListener('pointerdown', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown);
     };
   }, []);
+
+  useEffect(() => {
+    setOpenMenu(null);
+    setMobileOpen(false);
+  }, [pathname]);
 
   const aboutStateGroups = useMemo(
     () => groupedStateLinks(locale, labels, (state) => `/${locale}/about/about-states/about-${state.slug}`),
@@ -260,30 +274,40 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
     [locale, labels],
   );
 
+  const discoverStateGroups = useMemo(
+    () => groupedStateLinks(locale, labels, (state) => `/${locale}/discover/brazilian-states/${state.code.toLowerCase()}`),
+    [locale, labels],
+  );
+
+  const discoverRegionLinks = useMemo(
+    () =>
+      REGION_ORDER.map((region) => ({
+        href: `/${locale}/discover/brazilian-regions/${DISCOVER_REGION_SEGMENTS[region]}`,
+        label: regionLabel(labels, region),
+      })),
+    [locale, labels],
+  );
+
   const quickLinks = useMemo(
     () => [
       { href: `/${locale}`, label: t.nav.home },
       { href: `/${locale}/process`, label: t.nav.process },
+      { href: `/${locale}/about/about-us`, label: 'About Us' },
+      { href: `/${locale}/about/values`, label: 'Values' },
+      { href: `/${locale}/about/mission`, label: 'Mission' },
+      { href: `/${locale}/about/story`, label: 'Story' },
+      { href: `/${locale}/contact`, label: t.nav.contact },
     ],
-    [locale, t.nav.home, t.nav.process],
+    [locale, t.nav.contact, t.nav.home, t.nav.process],
   );
 
   const menus = useMemo<MegaMenu[]>(
     () => [
       {
-        id: 'about',
-        label: t.nav.about,
-        href: `/${locale}/about`,
-        activePrefixes: [`/${locale}/accessibility`],
+        id: 'about-brazil',
+        label: 'About Brazil',
+        href: `/${locale}/about/about-brazil`,
         sections: [
-          {
-            title: labels.aboutCore,
-            links: [
-              { href: `/${locale}/about`, label: t.nav.about },
-              { href: `/${locale}/about/about-us`, label: 'About Us' },
-              { href: `/${locale}/accessibility`, label: 'Accessibility' },
-            ],
-          },
           {
             title: labels.aboutBrazil,
             links: [
@@ -292,6 +316,13 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
               { href: `/${locale}/about/about-brazil/cost-of-living-in-brazil`, label: 'Cost of Living in Brazil' },
             ],
           },
+        ],
+      },
+      {
+        id: 'about-states',
+        label: 'About States',
+        href: `/${locale}/about/about-states`,
+        sections: [
           {
             title: labels.aboutStates,
             groups: aboutStateGroups,
@@ -308,29 +339,12 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             title: labels.servicesCore,
             links: [
               { href: `/${locale}/services`, label: t.nav.services },
-              { href: `/${locale}/visa-consultation`, label: labels.consultation },
+              { href: `/${locale}/visa-consultation`, label: t.cta.button },
               { href: `/${locale}/services/visa`, label: 'Visa Services' },
               { href: `/${locale}/services/visas`, label: 'Visa Categories' },
               { href: `/${locale}/services/residencies`, label: 'Residency Services' },
               { href: `/${locale}/services/naturalisation`, label: 'Naturalisation Services' },
               { href: `/${locale}/services/legal`, label: 'Legal Services' },
-            ],
-          },
-          {
-            title: labels.servicesFamilies,
-            links: [
-              { href: `/${locale}/services/immigration-law-services/visas/work`, label: 'Immigration Law: Work Visa' },
-              {
-                href: `/${locale}/services/immigration-law-services/residencies/permanent`,
-                label: 'Immigration Law: Permanent Residency',
-              },
-              {
-                href: `/${locale}/services/immigration-law-services/naturalisation/ordinary`,
-                label: 'Immigration Law: Ordinary Naturalisation',
-              },
-              { href: `/${locale}/services/travel-services/guided-trips/north`, label: 'Travel Services: Guided Trips' },
-              { href: `/${locale}/services/services-acre/visas/work-visa`, label: 'State Archive: Acre Work Visa' },
-              { href: `/${locale}/services/services-sao-paulo/visas/work`, label: 'State Archive: Sao Paulo Work Visa' },
             ],
           },
           {
@@ -343,68 +357,88 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
         id: 'resources',
         label: t.nav.resources,
         href: `/${locale}/resources-guides-brazil`,
-        activePrefixes: [`/${locale}/discover`, `/${locale}/home`, `/${locale}/library`, `/${locale}/policies`],
+        activePrefixes: [`/${locale}/library`, `/${locale}/home`, `/${locale}/policies`],
         sections: [
           {
             title: labels.resourcesHubs,
             links: [
               { href: `/${locale}/resources-guides-brazil`, label: t.nav.resources },
               { href: `/${locale}/library`, label: labels.allPages },
+              { href: `/${locale}/process`, label: t.nav.process },
               { href: `/${locale}/home`, label: 'Home Archive' },
-            ],
-          },
-          {
-            title: labels.resourcesDiscover,
-            links: [
-              { href: `/${locale}/discover/brazilian-states`, label: 'Discover Brazilian States' },
-              { href: `/${locale}/discover/brazilian-regions`, label: 'Discover Brazilian Regions' },
+              { href: `/${locale}/blog`, label: t.nav.blog },
+              { href: `/${locale}/faq`, label: t.nav.faq },
             ],
           },
           {
             title: labels.resourcesPolicy,
             links: [
               { href: `/${locale}/policies`, label: 'Policies' },
-              { href: `/${locale}/policies/privacy`, label: 'Privacy Policy' },
-              { href: `/${locale}/policies/terms`, label: 'Terms of Service' },
-              { href: `/${locale}/policies/cookies`, label: 'Cookie Policy' },
+              { href: `/${locale}/policies/cookies`, label: 'Cookies' },
+              { href: `/${locale}/policies/disclaimers`, label: 'Disclaimers' },
+              { href: `/${locale}/policies/gdpr`, label: 'GDPR' },
+              { href: `/${locale}/policies/privacy`, label: 'Privacy' },
+              { href: `/${locale}/policies/refund`, label: 'Refund' },
+              { href: `/${locale}/policies/terms`, label: 'Terms' },
               { href: '/sitemap.xml', label: 'XML Sitemap' },
             ],
           },
         ],
       },
       {
-        id: 'insights',
-        label: t.nav.blog,
-        href: `/${locale}/blog`,
-        activePrefixes: [`/${locale}/faq`],
+        id: 'discover',
+        label: 'Discover',
+        href: `/${locale}/discover`,
+        activePrefixes: [`/${locale}/discover`],
         sections: [
           {
-            title: labels.insightsCore,
+            title: labels.discoverRegions,
             links: [
-              { href: `/${locale}/blog`, label: t.nav.blog },
-              { href: `/${locale}/faq`, label: t.nav.faq },
+              { href: `/${locale}/discover/brazilian-regions`, label: 'Discover Regions Hub' },
+              ...discoverRegionLinks,
             ],
           },
           {
-            title: labels.insightsBlogStates,
+            title: labels.discoverStates,
+            links: [{ href: `/${locale}/discover/brazilian-states`, label: 'Discover States Hub' }],
+            groups: discoverStateGroups,
+          },
+        ],
+      },
+      {
+        id: 'blog',
+        label: 'Blog by State',
+        href: `/${locale}/blog`,
+        sections: [
+          {
+            title: labels.blogStates,
+            links: [{ href: `/${locale}/blog`, label: t.nav.blog }],
             groups: blogStateGroups,
           },
+        ],
+      },
+      {
+        id: 'faq',
+        label: 'FAQ by State',
+        href: `/${locale}/faq`,
+        sections: [
           {
-            title: labels.insightsFaqStates,
+            title: labels.faqStates,
+            links: [{ href: `/${locale}/faq`, label: t.nav.faq }],
             groups: faqStateGroups,
           },
         ],
       },
       {
         id: 'contact',
-        label: t.nav.contact,
+        label: 'Contact by State',
         href: `/${locale}/contact`,
         sections: [
           {
             title: labels.contactChannels,
             links: [
               { href: `/${locale}/contact`, label: t.nav.contact },
-              { href: `/${locale}/visa-consultation`, label: labels.consultation },
+              { href: `/${locale}/visa-consultation`, label: t.cta.button },
               { href: `mailto:${siteConfig.contact.clientEmail}`, label: siteConfig.contact.clientEmail },
               { href: siteConfig.contact.whatsappLink, label: siteConfig.contact.whatsappNumber },
             ],
@@ -420,29 +454,29 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
       aboutStateGroups,
       blogStateGroups,
       contactStateGroups,
+      discoverRegionLinks,
+      discoverStateGroups,
       faqStateGroups,
       labels.aboutBrazil,
-      labels.aboutCore,
       labels.aboutStates,
       labels.allPages,
-      labels.consultation,
+      labels.blogStates,
       labels.contactChannels,
       labels.contactStates,
-      labels.insightsBlogStates,
-      labels.insightsCore,
-      labels.insightsFaqStates,
-      labels.resourcesDiscover,
+      labels.discoverRegions,
+      labels.discoverStates,
+      labels.faqStates,
       labels.resourcesHubs,
       labels.resourcesPolicy,
       labels.servicesCore,
-      labels.servicesFamilies,
       labels.servicesStates,
       locale,
       serviceStateGroups,
-      t.nav.about,
+      t.cta.button,
       t.nav.blog,
       t.nav.contact,
       t.nav.faq,
+      t.nav.process,
       t.nav.resources,
       t.nav.services,
     ],
@@ -450,178 +484,194 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-sand-200/70 bg-sand-50/95 backdrop-blur">
-      <div className="border-b border-sand-200/70">
-        <div className="mx-auto hidden h-[84px] max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:flex lg:px-8">
-          <div className="flex items-center gap-3">
-            <Link href={`/${locale}`} className="inline-flex items-center gap-3">
-              <BrandLogo variant="mark" priority />
-              <div className="leading-tight">
-                <p className="font-display text-lg text-ink-900">{t.brand}</p>
-                <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">Premium Advisory</p>
-              </div>
-            </Link>
+      <div className="border-b border-sand-200/80">
+        <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+          <div className="flex min-h-[5rem] flex-wrap items-center justify-between gap-3">
+            <HeaderLogo locale={locale} href={`/${locale}`} />
 
-            <nav className="flex items-center gap-1">
+            <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex lg:flex-wrap">
               {quickLinks.map((link) => {
                 const active = isActivePath(pathname, link.href);
                 return (
-                  <Link key={link.href} href={link.href} className={topRowLinkClass(active)} aria-current={active ? 'page' : undefined}>
+                  <Link key={link.href} href={link.href} className={desktopLinkClass(active)} aria-current={active ? 'page' : undefined}>
                     {link.label}
                   </Link>
                 );
               })}
             </nav>
-          </div>
 
-          <div className="flex items-center justify-end gap-3">
-            <a
-              href={`mailto:${siteConfig.contact.clientEmail}`}
-              className="rounded-full border border-sand-200 bg-white px-3 py-1.5 text-xs font-semibold text-ink-700 transition hover:border-civic-300"
-            >
-              {siteConfig.contact.clientEmail}
-            </a>
-            <LanguageSwitcher />
-            <Link
-              href={`/${locale}/visa-consultation`}
-              className="rounded-full bg-civic-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-civic-800"
-            >
-              {t.cta.button}
-            </Link>
-          </div>
-        </div>
-
-        <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:hidden lg:px-8">
-          <Link href={`/${locale}`} className="inline-flex items-center gap-3">
-            <BrandLogo variant="mark" priority />
-            <div className="leading-tight">
-              <p className="font-display text-base text-ink-900">{t.brand}</p>
-              <p className="text-[10px] uppercase tracking-[0.16em] text-civic-700">Premium Advisory</p>
+            <div className="hidden items-center gap-2 lg:flex">
+              <a
+                href={`mailto:${siteConfig.contact.clientEmail}`}
+                className="rounded-full border border-sand-300 bg-white px-3.5 py-1.5 text-xs font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
+              >
+                {siteConfig.contact.clientEmail}
+              </a>
+              <LanguageSwitcher />
+              <Link
+                href={`/${locale}/visa-consultation`}
+                className="rounded-full bg-civic-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-civic-800"
+              >
+                {t.cta.button}
+              </Link>
             </div>
-          </Link>
 
-          <div className="flex items-center gap-2">
-            <LanguageSwitcher />
-            <button
-              type="button"
-              onClick={() => setMobileOpen((prev) => !prev)}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-sand-200 bg-white text-ink-800"
-              aria-expanded={mobileOpen}
-              aria-label="Toggle menu"
-            >
-              <span className="text-xl">{mobileOpen ? '×' : '≡'}</span>
-            </button>
+            <div className="flex items-center gap-2 lg:hidden">
+              <LanguageSwitcher />
+              <button
+                type="button"
+                onClick={() => setMobileOpen((prev) => !prev)}
+                className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-sand-200 bg-white text-ink-800"
+                aria-expanded={mobileOpen}
+                aria-label="Toggle menu"
+              >
+                <span className="text-xl">{mobileOpen ? '×' : '≡'}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="hidden border-t border-sand-200/70 bg-sand-50 lg:block">
-        <div ref={desktopNavRef} className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-2.5 sm:px-6 lg:px-8">
-          {menus.map((menu) => {
-            const active = [menu.href, ...(menu.activePrefixes || [])].some((prefix) => isActivePath(pathname, prefix));
-            const isOpen = openMenu === menu.id;
+      <div className="hidden border-b border-sand-200 bg-white/95 lg:block">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <nav ref={desktopMenuRef} className="relative flex flex-wrap items-center gap-2 py-3">
+            {menus.map((menu) => {
+              const active = [menu.href, ...(menu.activePrefixes || [])].some((prefix) => isActivePath(pathname, prefix));
+              const isOpen = openMenu === menu.id;
 
-            return (
-              <div
-                key={menu.id}
-                className="relative"
-                onMouseEnter={() => setOpenMenu(menu.id)}
-              >
-                <button
-                  type="button"
-                  onClick={() => setOpenMenu((prev) => (prev === menu.id ? null : menu.id))}
-                  className={menuButtonClass(active, isOpen)}
-                  aria-expanded={isOpen}
-                >
-                  <span>{menu.label}</span>
-                  <span className={cn('text-xs transition', isOpen ? 'rotate-180' : '')}>▾</span>
-                </button>
+              return (
+                <div key={menu.id} className="static">
+                  <button
+                    type="button"
+                    onClick={() => setOpenMenu((prev) => (prev === menu.id ? null : menu.id))}
+                    className={desktopLinkClass(active)}
+                    aria-expanded={isOpen}
+                  >
+                    <span>{menu.label}</span>
+                    <span className={cn('ml-1 inline-block text-xs transition-transform', isOpen ? 'rotate-180' : '')}>▾</span>
+                  </button>
 
-                <div
-                  className={cn(
-                    'absolute left-1/2 top-full mt-3 w-[min(96vw,1120px)] -translate-x-1/2 rounded-2xl border border-sand-200 bg-white p-5 shadow-card transition duration-200',
-                    isOpen ? 'visible translate-y-0 scale-100 opacity-100' : 'invisible translate-y-1 scale-[0.98] opacity-0 pointer-events-none',
-                  )}
-                >
-                  <div className={cn('grid gap-5', menu.sections.length >= 3 ? 'md:grid-cols-3' : 'md:grid-cols-2')}>
-                    {menu.sections.map((section) => (
-                      <div key={`${menu.id}-${section.title}`}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-civic-700">{section.title}</p>
+                  <div
+                    className={cn(
+                      'absolute left-0 top-full z-40 mt-2 w-full rounded-2xl border border-sand-200 bg-white p-4 shadow-card transition duration-200',
+                      isOpen ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-1 opacity-0 pointer-events-none',
+                    )}
+                  >
+                    <div className="mx-auto max-h-[70vh] max-w-3xl overflow-y-auto pr-1">
+                      <div className="space-y-4">
+                        {menu.sections.map((section) => (
+                          <section key={`${menu.id}-${section.title}`}>
+                            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-civic-700">{section.title}</p>
 
-                        {section.links?.length ? (
-                          <div className={cn('mt-3 grid gap-1.5', section.dense ? 'max-h-56 overflow-y-auto pr-1' : '')}>
-                            {section.links.map((link) => {
-                              const sectionActive = link.href.startsWith(`/${locale}`) && isActivePath(pathname, link.href);
-                              const external = !link.href.startsWith('/');
-                              return (
-                                <Link
-                                  key={`${section.title}-${link.href}`}
-                                  href={link.href}
-                                  target={external ? '_blank' : undefined}
-                                  rel={external ? 'noopener noreferrer' : undefined}
-                                  className={cn(
-                                    'rounded-lg border px-3 py-2 text-sm transition',
-                                    sectionActive
-                                      ? 'border-ink-900 bg-ink-900 text-sand-50'
-                                      : 'border-sand-200 bg-sand-50 text-ink-800 hover:border-civic-300 hover:bg-white',
-                                  )}
-                                >
-                                  {link.label}
-                                </Link>
-                              );
-                            })}
-                          </div>
-                        ) : null}
+                            {section.links?.length ? (
+                              <div className="mt-3 grid gap-1.5">
+                                {section.links.map((link) => {
+                                  const sectionActive = link.href.startsWith(`/${locale}`) && isActivePath(pathname, link.href);
+                                  const external = !link.href.startsWith('/');
 
-                        {section.groups?.length ? (
-                          <div className="mt-3 space-y-3">
-                            {section.groups.map((group) => (
-                              <div key={`${section.title}-${group.title}`} className="rounded-xl border border-sand-200 bg-sand-50 p-2.5">
-                                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">{group.title}</p>
-                                <div className={cn('mt-1.5 grid gap-1', group.dense ? 'max-h-28 overflow-y-auto pr-1' : '')}>
-                                  {group.links.map((link) => {
-                                    const sectionActive = link.href.startsWith(`/${locale}`) && isActivePath(pathname, link.href);
+                                  if (external) {
                                     return (
-                                      <Link
-                                        key={`${group.title}-${link.href}`}
+                                      <a
+                                        key={`${section.title}-${link.href}`}
                                         href={link.href}
-                                        className={cn(
-                                          'rounded-md border px-2.5 py-1.5 text-xs transition',
-                                          sectionActive
-                                            ? 'border-ink-900 bg-ink-900 text-sand-50'
-                                            : 'border-sand-200 bg-white text-ink-800 hover:border-civic-300',
-                                        )}
+                                        target={link.href.startsWith('http') ? '_blank' : undefined}
+                                        rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                                        className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-sm text-ink-800 transition hover:border-civic-300 hover:bg-white"
+                                        onClick={() => setOpenMenu(null)}
                                       >
                                         {link.label}
-                                      </Link>
+                                      </a>
                                     );
-                                  })}
-                                </div>
+                                  }
+
+                                  return (
+                                    <Link
+                                      key={`${section.title}-${link.href}`}
+                                      href={link.href}
+                                      className={cn(
+                                        'rounded-lg border px-3 py-2 text-sm transition',
+                                        sectionActive
+                                          ? 'border-ink-900 bg-ink-900 text-sand-50'
+                                          : 'border-sand-200 bg-sand-50 text-ink-800 hover:border-civic-300 hover:bg-white',
+                                      )}
+                                      onClick={() => setOpenMenu(null)}
+                                    >
+                                      {link.label}
+                                    </Link>
+                                  );
+                                })}
                               </div>
-                            ))}
-                          </div>
-                        ) : null}
+                            ) : null}
+
+                            {section.groups?.length ? (
+                              <div className="mt-3 space-y-2">
+                                {section.groups.map((group) => (
+                                  <details key={`${section.title}-${group.title}`} className="rounded-xl border border-sand-200 bg-sand-50 p-2.5">
+                                    <summary className="cursor-pointer list-none text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">
+                                      {group.title}
+                                    </summary>
+                                    <div className="mt-2 grid max-h-40 gap-1 overflow-y-auto pr-1">
+                                      {group.links.map((link) => {
+                                        const sectionActive = isActivePath(pathname, link.href);
+                                        return (
+                                          <Link
+                                            key={`${group.title}-${link.href}`}
+                                            href={link.href}
+                                            className={cn(
+                                              'rounded-md border px-2.5 py-1.5 text-xs transition',
+                                              sectionActive
+                                                ? 'border-ink-900 bg-ink-900 text-sand-50'
+                                                : 'border-sand-200 bg-white text-ink-800 hover:border-civic-300',
+                                            )}
+                                            onClick={() => setOpenMenu(null)}
+                                          >
+                                            {link.label}
+                                          </Link>
+                                        );
+                                      })}
+                                    </div>
+                                  </details>
+                                ))}
+                              </div>
+                            ) : null}
+                          </section>
+                        ))}
                       </div>
-                    ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
 
-          <Link
-            href={`/${locale}/library`}
-            className={cn(
-              'ml-auto rounded-full px-4 py-2 text-sm font-semibold transition',
-              isActivePath(pathname, `/${locale}/library`) ? 'bg-ink-900 text-sand-50' : 'bg-white text-ink-700 hover:bg-sand-100',
-            )}
-          >
-            {labels.allPages}
-          </Link>
+            <div className="ml-auto flex items-center gap-2">
+              <Link
+                href={`/${locale}/library`}
+                className={secondaryLinkClass(isActivePath(pathname, `/${locale}/library`))}
+                aria-current={isActivePath(pathname, `/${locale}/library`) ? 'page' : undefined}
+              >
+                {labels.allPages}
+              </Link>
+            </div>
+          </nav>
         </div>
       </div>
 
       <div className={cn('border-t border-sand-200 bg-sand-50 lg:hidden', mobileOpen ? 'block' : 'hidden')}>
         <div className="space-y-3 px-4 py-4">
+          <div className="rounded-xl border border-sand-200 bg-white p-3">
+            <a href={`mailto:${siteConfig.contact.clientEmail}`} className="block text-sm font-semibold text-ink-800 hover:text-civic-700">
+              {siteConfig.contact.clientEmail}
+            </a>
+            <a
+              href={siteConfig.contact.whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 block text-xs text-ink-600 hover:text-civic-700"
+            >
+              {siteConfig.contact.whatsappNumber}
+            </a>
+          </div>
+
           {quickLinks.map((link) => {
             const active = isActivePath(pathname, link.href);
             return (
@@ -629,10 +679,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className={cn(
-                  'block rounded-xl px-3 py-2 text-sm font-semibold',
-                  active ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100',
-                )}
+                className={cn('block rounded-xl px-3 py-2 text-sm font-semibold', active ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100')}
                 aria-current={active ? 'page' : undefined}
               >
                 {link.label}
@@ -649,15 +696,27 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                     <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">{section.title}</p>
 
                     {section.links?.length ? (
-                      <div className={cn('mt-2 grid gap-1', section.dense ? 'max-h-44 overflow-y-auto pr-1' : '')}>
+                      <div className="mt-2 grid gap-1">
                         {section.links.map((link) => {
                           const external = !link.href.startsWith('/');
+                          if (external) {
+                            return (
+                              <a
+                                key={`${section.title}-${link.href}`}
+                                href={link.href}
+                                target={link.href.startsWith('http') ? '_blank' : undefined}
+                                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                                className="rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
+                              >
+                                {link.label}
+                              </a>
+                            );
+                          }
+
                           return (
                             <Link
                               key={`${section.title}-${link.href}`}
                               href={link.href}
-                              target={external ? '_blank' : undefined}
-                              rel={external ? 'noopener noreferrer' : undefined}
                               onClick={() => setMobileOpen(false)}
                               className="rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
                             >
@@ -675,7 +734,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                             <summary className="cursor-pointer list-none text-[11px] font-semibold uppercase tracking-[0.1em] text-civic-700">
                               {group.title}
                             </summary>
-                            <div className={cn('mt-2 grid gap-1', group.dense ? 'max-h-40 overflow-y-auto pr-1' : '')}>
+                            <div className="mt-2 grid max-h-40 gap-1 overflow-y-auto pr-1">
                               {group.links.map((link) => (
                                 <Link
                                   key={`${group.title}-${link.href}`}
@@ -697,28 +756,22 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             </details>
           ))}
 
-          <Link
-            href={`/${locale}/library`}
-            onClick={() => setMobileOpen(false)}
-            className="block rounded-xl border border-sand-200 bg-white px-4 py-2.5 text-center text-sm font-semibold text-ink-900"
-          >
-            {labels.allPages}
-          </Link>
-
-          <a
-            href={`mailto:${siteConfig.contact.clientEmail}`}
-            className="block rounded-xl border border-sand-200 bg-white px-4 py-2.5 text-center text-sm font-semibold text-ink-900"
-          >
-            {siteConfig.contact.clientEmail}
-          </a>
-
-          <Link
-            href={`/${locale}/visa-consultation`}
-            onClick={() => setMobileOpen(false)}
-            className="block rounded-xl bg-civic-700 px-4 py-2.5 text-center text-sm font-semibold text-white"
-          >
-            {t.cta.button}
-          </Link>
+          <div className="grid gap-3 pt-2">
+            <Link
+              href={`/${locale}/library`}
+              onClick={() => setMobileOpen(false)}
+              className="block rounded-xl border border-sand-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-ink-800"
+            >
+              {labels.allPages}
+            </Link>
+            <Link
+              href={`/${locale}/visa-consultation`}
+              onClick={() => setMobileOpen(false)}
+              className="block rounded-xl bg-civic-700 px-4 py-2.5 text-center text-sm font-semibold text-white"
+            >
+              {t.cta.button}
+            </Link>
+          </div>
         </div>
       </div>
     </header>
