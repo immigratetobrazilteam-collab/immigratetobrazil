@@ -1,7 +1,6 @@
-import { access, readFile } from 'node:fs/promises';
-import path from 'node:path';
 import { cache } from 'react';
 
+import routeIndexData from '@/content/generated/route-index.json';
 import type { Locale } from '@/lib/types';
 
 export type RouteIndexEntry = {
@@ -28,59 +27,7 @@ export type RoutePrefixGroup = {
   sample: RouteLink[];
 };
 
-const INDEX_RELATIVE_PATH = path.join('content', 'generated', 'route-index.json');
 const LOCALES = new Set<Locale>(['en', 'es', 'pt', 'fr']);
-
-function candidateRoots() {
-  const roots = new Set<string>();
-
-  const anchors = [
-    process.cwd(),
-    process.env.PWD,
-    process.env.INIT_CWD,
-    process.env.ROUTE_INDEX_ROOT,
-    process.env.LEGACY_CONTENT_ROOT,
-    '/var/task',
-    '/workspace',
-    '/app',
-    '/home/site/wwwroot',
-  ].filter(Boolean) as string[];
-
-  for (const anchor of anchors) {
-    let current = path.resolve(anchor);
-
-    while (true) {
-      roots.add(current);
-      roots.add(path.join(current, 'server-functions', 'default'));
-      roots.add(path.join(current, '.open-next', 'server-functions', 'default'));
-
-      const parent = path.dirname(current);
-      if (parent === current) break;
-      current = parent;
-    }
-  }
-
-  return Array.from(roots);
-}
-
-async function fileExists(absolutePath: string) {
-  try {
-    await access(absolutePath);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-async function resolveIndexPath() {
-  for (const root of candidateRoots()) {
-    const absolutePath = path.resolve(root, INDEX_RELATIVE_PATH);
-    if (!absolutePath.startsWith(root)) continue;
-    if (await fileExists(absolutePath)) return absolutePath;
-  }
-
-  return null;
-}
 
 function decodeEntities(input: string) {
   return input
@@ -150,17 +97,8 @@ function toLink(locale: Locale, entry: RouteIndexEntry): RouteLink {
 }
 
 export const getRouteIndex = cache(async (): Promise<RouteIndexEntry[]> => {
-  try {
-    const indexPath = await resolveIndexPath();
-    if (!indexPath) return [];
-
-    const raw = await readFile(indexPath, 'utf8');
-    const parsed = JSON.parse(raw) as RouteIndexEntry[];
-
-    return parsed.filter((item) => LOCALES.has(item.locale));
-  } catch {
-    return [];
-  }
+  const parsed = routeIndexData as RouteIndexEntry[];
+  return parsed.filter((item) => LOCALES.has(item.locale));
 });
 
 export async function getLocaleRoutes(locale: Locale) {
