@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { brazilianStates } from '@/content/curated/states';
+import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { copy } from '@/lib/i18n';
 import { countRoutesByPrefix } from '@/lib/route-index';
 import { siteConfig } from '@/lib/site-config';
@@ -10,49 +10,131 @@ interface SiteFooterProps {
   locale: Locale;
 }
 
+type FooterLink = {
+  href: string;
+  label: string;
+};
+
+type RegionalLinkGroup = {
+  region: string;
+  links: FooterLink[];
+};
+
+const REGION_ORDER: BrazilianState['region'][] = ['north', 'northeast', 'central-west', 'southeast', 'south'];
+
 function footerCopy(locale: Locale) {
   if (locale === 'es') {
     return {
-      categoryMap: 'Mapa por categorías',
-      aboutResources: 'Sobre y recursos',
-      services: 'Directorio de servicios',
-      statePages: 'Páginas por estado',
-      legalSupport: 'Legal y soporte',
+      aboutTitle: 'Fundacion y contexto',
+      servicesTitle: 'Servicios y ejecucion',
+      resourcesTitle: 'Recursos e insights',
+      supportTitle: 'Contacto y legal',
+      stateAbout: 'Sobre estados por region',
       stateServices: 'Servicios por estado',
       stateContact: 'Contacto por estado',
       stateBlog: 'Blog por estado',
       stateFaq: 'FAQ por estado',
       allPages: 'Abrir biblioteca completa',
+      regionNorth: 'Norte',
+      regionNortheast: 'Nordeste',
+      regionCentralWest: 'Centro-Oeste',
+      regionSoutheast: 'Sudeste',
+      regionSouth: 'Sur',
     };
   }
 
   if (locale === 'pt') {
     return {
-      categoryMap: 'Mapa por categorias',
-      aboutResources: 'Sobre e recursos',
-      services: 'Diretório de serviços',
-      statePages: 'Páginas por estado',
-      legalSupport: 'Legal e suporte',
-      stateServices: 'Serviços por estado',
+      aboutTitle: 'Fundacao e contexto',
+      servicesTitle: 'Servicos e execucao',
+      resourcesTitle: 'Recursos e insights',
+      supportTitle: 'Contato e legal',
+      stateAbout: 'Sobre estados por regiao',
+      stateServices: 'Servicos por estado',
       stateContact: 'Contato por estado',
       stateBlog: 'Blog por estado',
       stateFaq: 'FAQ por estado',
       allPages: 'Abrir biblioteca completa',
+      regionNorth: 'Norte',
+      regionNortheast: 'Nordeste',
+      regionCentralWest: 'Centro-Oeste',
+      regionSoutheast: 'Sudeste',
+      regionSouth: 'Sul',
     };
   }
 
   return {
-    categoryMap: 'Category map',
-    aboutResources: 'About and resources',
-    services: 'Service directory',
-    statePages: 'State page directories',
-    legalSupport: 'Legal and support',
+    aboutTitle: 'Foundation and context',
+    servicesTitle: 'Services and execution',
+    resourcesTitle: 'Resources and insights',
+    supportTitle: 'Contact and legal',
+    stateAbout: 'About states by region',
     stateServices: 'Services by state',
     stateContact: 'Contact by state',
     stateBlog: 'Blog by state',
     stateFaq: 'FAQ by state',
     allPages: 'Open full library',
+    regionNorth: 'North',
+    regionNortheast: 'Northeast',
+    regionCentralWest: 'Central-West',
+    regionSoutheast: 'Southeast',
+    regionSouth: 'South',
   };
+}
+
+function regionLabel(labels: ReturnType<typeof footerCopy>, region: BrazilianState['region']) {
+  switch (region) {
+    case 'north':
+      return labels.regionNorth;
+    case 'northeast':
+      return labels.regionNortheast;
+    case 'central-west':
+      return labels.regionCentralWest;
+    case 'southeast':
+      return labels.regionSoutheast;
+    case 'south':
+      return labels.regionSouth;
+    default:
+      return region;
+  }
+}
+
+function buildRegionalStateLinks(
+  locale: Locale,
+  labels: ReturnType<typeof footerCopy>,
+  hrefBuilder: (state: BrazilianState) => string,
+): RegionalLinkGroup[] {
+  return REGION_ORDER.map((region) => ({
+    region: regionLabel(labels, region),
+    links: brazilianStates
+      .filter((state) => state.region === region)
+      .map((state) => ({
+        href: hrefBuilder(state),
+        label: state[locale],
+      })),
+  }));
+}
+
+function RegionalDirectory({ title, groups }: { title: string; groups: RegionalLinkGroup[] }) {
+  return (
+    <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
+      <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">{title}</summary>
+      <div className="mt-3 space-y-3">
+        {groups.map((group) => (
+          <div key={`${title}-${group.region}`}>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-sand-300">{group.region}</p>
+            <div className="mt-1 grid max-h-28 grid-cols-2 gap-2 overflow-y-auto pr-1 text-xs">
+              {group.links.map((link) => (
+                <Link key={`${group.region}-${link.href}`} href={link.href} className="text-sand-200 hover:text-white">
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </details>
+  );
 }
 
 export async function SiteFooter({ locale }: SiteFooterProps) {
@@ -82,6 +164,12 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
     countRoutesByPrefix(locale, 'policies', true),
   ]);
 
+  const aboutStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/about/about-states/about-${state.slug}`);
+  const serviceStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/services/immigrate-to-${state.slug}`);
+  const contactStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/contact/contact-${state.slug}`);
+  const blogStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/blog/blog-${state.slug}`);
+  const faqStateGroups = buildRegionalStateLinks(locale, labels, (state) => `/${locale}/faq/faq-${state.slug}`);
+
   return (
     <footer className="border-t border-sand-200 bg-ink-900 text-sand-100">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -102,13 +190,16 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               </span>
             </div>
 
-            <Link href={`/${locale}/library`} className="inline-flex rounded-full bg-civic-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.1em] text-white hover:bg-civic-600">
+            <Link
+              href={`/${locale}/library`}
+              className="inline-flex rounded-full bg-civic-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.1em] text-white hover:bg-civic-600"
+            >
               {labels.allPages}
             </Link>
           </div>
 
           <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.aboutResources}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.aboutTitle}</p>
             <div className="flex flex-col gap-2 text-sm">
               <Link href={`/${locale}/about`} className="hover:text-white">
                 {t.nav.about}
@@ -122,29 +213,31 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               <Link href={`/${locale}/about/about-us`} className="hover:text-white">
                 About Us
               </Link>
+              <Link href={`/${locale}/accessibility`} className="hover:text-white">
+                Accessibility
+              </Link>
               <Link href={`/${locale}/resources-guides-brazil`} className="hover:text-white">
                 {t.nav.resources} ({resourceCount})
               </Link>
-              <Link href={`/${locale}/discover/brazilian-states`} className="hover:text-white">
-                Discover States
-              </Link>
-              <Link href={`/${locale}/discover/brazilian-regions`} className="hover:text-white">
-                Discover Regions ({discoverCount})
+              <Link href={`/${locale}/process`} className="hover:text-white">
+                {t.nav.process}
               </Link>
               <Link href={`/${locale}/home`} className="hover:text-white">
                 Home archive ({homeCount})
               </Link>
-              <Link href={`/${locale}/accessibility`} className="hover:text-white">
-                Accessibility
-              </Link>
             </div>
+
+            <RegionalDirectory title={labels.stateAbout} groups={aboutStateGroups} />
           </div>
 
           <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.services}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.servicesTitle}</p>
             <div className="flex flex-col gap-2 text-sm">
               <Link href={`/${locale}/services`} className="hover:text-white">
                 {t.nav.services}
+              </Link>
+              <Link href={`/${locale}/visa-consultation`} className="hover:text-white">
+                {t.cta.button}
               </Link>
               <Link href={`/${locale}/services/visa`} className="hover:text-white">
                 Visa Services
@@ -162,84 +255,54 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 Legal Services
               </Link>
               <Link href={`/${locale}/services/immigration-law-services/visas/work`} className="hover:text-white">
-                Immigration Law Archive
+                Immigration Law: Work Visa
+              </Link>
+              <Link href={`/${locale}/services/immigration-law-services/residencies/permanent`} className="hover:text-white">
+                Immigration Law: Permanent Residency
               </Link>
               <Link href={`/${locale}/services/travel-services/guided-trips/north`} className="hover:text-white">
-                Travel Services Archive
+                Travel Services: Guided Trips
               </Link>
             </div>
 
-            <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-              <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">
-                {labels.stateServices} ({brazilianStates.length})
-              </summary>
-              <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
-                {brazilianStates.map((state) => (
-                  <Link key={state.slug} href={`/${locale}/services/immigrate-to-${state.slug}`} className="hover:text-white">
-                    {state[locale]}
-                  </Link>
-                ))}
-              </div>
-            </details>
+            <RegionalDirectory title={labels.stateServices} groups={serviceStateGroups} />
           </div>
 
           <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.statePages}</p>
-            <div className="text-sm text-sand-200/90">
-              {labels.categoryMap}: contact ({contactCount}), blog ({blogCount}), faq ({faqCount})
-            </div>
-
-            <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-              <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">
-                {labels.stateContact}
-              </summary>
-              <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
-                {brazilianStates.map((state) => (
-                  <Link key={state.slug} href={`/${locale}/contact/contact-${state.slug}`} className="hover:text-white">
-                    {state[locale]}
-                  </Link>
-                ))}
-              </div>
-            </details>
-
-            <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-              <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">
-                {labels.stateBlog}
-              </summary>
-              <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
-                {brazilianStates.map((state) => (
-                  <Link key={state.slug} href={`/${locale}/blog/blog-${state.slug}`} className="hover:text-white">
-                    {state[locale]}
-                  </Link>
-                ))}
-              </div>
-            </details>
-
-            <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-              <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">
-                {labels.stateFaq}
-              </summary>
-              <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
-                {brazilianStates.map((state) => (
-                  <Link key={state.slug} href={`/${locale}/faq/faq-${state.slug}`} className="hover:text-white">
-                    {state[locale]}
-                  </Link>
-                ))}
-              </div>
-            </details>
-          </div>
-
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.legalSupport}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.resourcesTitle}</p>
             <div className="flex flex-col gap-2 text-sm">
-              <Link href={`/${locale}/contact`} className="hover:text-white">
-                {t.nav.contact}
+              <Link href={`/${locale}/library`} className="hover:text-white">
+                {t.nav.library}
               </Link>
-              <Link href={`/${locale}/visa-consultation`} className="hover:text-white">
-                {t.cta.button}
+              <Link href={`/${locale}/discover/brazilian-states`} className="hover:text-white">
+                Discover States
+              </Link>
+              <Link href={`/${locale}/discover/brazilian-regions`} className="hover:text-white">
+                Discover Regions ({discoverCount})
+              </Link>
+              <Link href={`/${locale}/blog`} className="hover:text-white">
+                {t.nav.blog} ({blogCount})
+              </Link>
+              <Link href={`/${locale}/faq`} className="hover:text-white">
+                {t.nav.faq} ({faqCount})
               </Link>
               <Link href={`/${locale}/policies`} className="hover:text-white">
                 Policies ({policyCount})
+              </Link>
+              <Link href="/sitemap.xml" className="hover:text-white">
+                XML Sitemap
+              </Link>
+            </div>
+
+            <RegionalDirectory title={labels.stateBlog} groups={blogStateGroups} />
+            <RegionalDirectory title={labels.stateFaq} groups={faqStateGroups} />
+          </div>
+
+          <div className="space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.supportTitle}</p>
+            <div className="flex flex-col gap-2 text-sm">
+              <Link href={`/${locale}/contact`} className="hover:text-white">
+                {t.nav.contact} ({contactCount})
               </Link>
               <Link href={`/${locale}/policies/privacy`} className="hover:text-white">
                 Privacy
@@ -251,6 +314,8 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 Cookies
               </Link>
             </div>
+
+            <RegionalDirectory title={labels.stateContact} groups={contactStateGroups} />
 
             <div className="rounded-xl border border-ink-700/70 bg-ink-800/40 p-3 text-xs text-sand-200">
               <p className="font-semibold uppercase tracking-[0.1em]">Contact</p>
