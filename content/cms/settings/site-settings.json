@@ -1,0 +1,22 @@
+{
+  "brand": {
+    "name": "Immigrate to Brazil",
+    "logoAlt": "Immigrate to Brazil immigration law firm logo",
+    "logoMarkPath": "/brand/logo-mark-transparent-512.png",
+    "logoFullPath": "/brand/logo-full-transparent.png",
+    "logoSchemaPath": "/brand/logo-mark-transparent-1024.png",
+    "ogImagePath": "/brand/og-image.png"
+  },
+  "contact": {
+    "primaryEmail": "immigratetobrazilteam@gmail.com",
+    "consultationEmail": "immigratetobrazilteam@gmail.com",
+    "clientEmail": "immigratetobrazilteam@gmail.com",
+    "whatsappNumber": "+55 43 99132-4028",
+    "whatsappLink": "https://wa.me/5543991324028",
+    "whatsappProfileImage": "/brand/whatsapp-profile.webp",
+    "formspreeEndpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  "seo": {
+    "googleSiteVerification": "V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo"
+  }
+}

@@ -1,9 +1,15 @@
 import type { Metadata } from 'next';
 
+import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
-const SITE_NAME = 'Immigrate to Brazil';
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
+const OG_LOCALE_MAP: Record<Locale, string> = {
+  en: 'en_US',
+  es: 'es_ES',
+  pt: 'pt_BR',
+  fr: 'fr_FR',
+};
 
 function absolute(pathname: string) {
   const clean = pathname.startsWith('/') ? pathname : `/${pathname}`;
@@ -28,6 +34,11 @@ export function createMetadata(options: {
     fr: absolute(`/fr${pathWithoutLocale}`),
   };
 
+  const openGraphLocale = OG_LOCALE_MAP[locale];
+  const openGraphAlternates = (Object.entries(OG_LOCALE_MAP) as [Locale, string][])
+    .filter(([candidate]) => candidate !== locale)
+    .map(([, mappedLocale]) => mappedLocale);
+
   return {
     title,
     description,
@@ -46,14 +57,15 @@ export function createMetadata(options: {
       title,
       description,
       url: absolute(normalized),
-      siteName: SITE_NAME,
-      locale,
+      siteName: siteConfig.brand.name,
+      locale: openGraphLocale,
+      alternateLocale: openGraphAlternates,
       images: [
         {
-          url: absolute('/brand/og-image.png'),
+          url: absolute(siteConfig.brand.ogImagePath),
           width: 1200,
           height: 630,
-          alt: 'Immigrate to Brazil immigration law firm logo',
+          alt: siteConfig.brand.logoAlt,
         },
       ],
       type: 'website',
@@ -62,7 +74,7 @@ export function createMetadata(options: {
       card: 'summary_large_image',
       title,
       description,
-      images: [absolute('/brand/og-image.png')],
+      images: [absolute(siteConfig.brand.ogImagePath)],
     },
   };
 }

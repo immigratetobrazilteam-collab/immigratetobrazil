@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
+import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { BrandLogo } from '@/components/brand-logo';
 import { FormspreeContactForm } from '@/components/formspree-contact-form';
+import { TrackedAnchor } from '@/components/tracked-anchor';
 import { brazilianStates } from '@/content/curated/states';
 import { copy, resolveLocale } from '@/lib/i18n';
+import { getPageCmsCopy } from '@/lib/page-cms-content';
 import { countRoutesByPrefix } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
@@ -26,11 +29,20 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = copy[locale];
+  const pageCopy = getPageCmsCopy(locale).contactPage;
   const contact = siteConfig.contact;
   const stateContactCount = await countRoutesByPrefix(locale, 'contact', false);
+  const stateArchiveSubtitle = pageCopy.stateArchiveSubtitle.replace('{{count}}', String(stateContactCount));
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: t.nav.home, href: `/${locale}` },
+          { name: t.nav.contact, href: `/${locale}/contact` },
+        ]}
+      />
+
       <section className="bg-sand-50">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="mb-4">
@@ -43,30 +55,36 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             <article className="rounded-2xl border border-sand-200 bg-white p-6">
               <h2 className="font-display text-2xl text-ink-900">{t.contact.consultation}</h2>
-              <a
+              <TrackedAnchor
                 href={`mailto:${contact.consultationEmail}`}
+                eventName="contact_click"
+                eventParams={{ contact_method: 'email', source: 'contact_page_consultation_card', locale }}
                 className="mt-3 block text-sm text-ink-700 underline decoration-sand-300 underline-offset-4"
               >
                 {contact.consultationEmail}
-              </a>
+              </TrackedAnchor>
             </article>
             <article className="rounded-2xl border border-sand-200 bg-white p-6">
               <h2 className="font-display text-2xl text-ink-900">{t.contact.whatsapp}</h2>
-              <a
+              <TrackedAnchor
                 href={contact.whatsappLink}
+                eventName="contact_click"
+                eventParams={{ contact_method: 'whatsapp', source: 'contact_page_whatsapp_card', locale }}
                 className="mt-3 block text-sm text-ink-700 underline decoration-sand-300 underline-offset-4"
               >
                 {contact.whatsappNumber}
-              </a>
+              </TrackedAnchor>
             </article>
             <article className="rounded-2xl border border-sand-200 bg-white p-6">
               <h2 className="font-display text-2xl text-ink-900">{t.contact.email}</h2>
-              <a
+              <TrackedAnchor
                 href={`mailto:${contact.clientEmail}`}
+                eventName="contact_click"
+                eventParams={{ contact_method: 'email', source: 'contact_page_email_card', locale }}
                 className="mt-3 block text-sm text-ink-700 underline decoration-sand-300 underline-offset-4"
               >
                 {contact.clientEmail}
-              </a>
+              </TrackedAnchor>
             </article>
           </div>
 
@@ -74,8 +92,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <FormspreeContactForm
               locale={locale}
               context="contact-page"
-              title={t.cta.button}
-              subtitle="Use this secure form for legal advisory requests. We answer by email and WhatsApp."
+              title={pageCopy.formTitle}
+              subtitle={pageCopy.formSubtitle}
             />
           </div>
         </div>
@@ -83,10 +101,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl text-ink-900">State contact archives</h2>
-          <p className="mt-3 max-w-3xl text-sm text-ink-700">
-            {stateContactCount} state-specific contact pages from your old site are now available in the redesigned routing system.
-          </p>
+          <h2 className="font-display text-3xl text-ink-900">{pageCopy.stateArchiveTitle}</h2>
+          <p className="mt-3 max-w-3xl text-sm text-ink-700">{stateArchiveSubtitle}</p>
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {brazilianStates.map((state) => (
               <Link

@@ -206,6 +206,112 @@ async function validateSiteCopy() {
       assert(isNonEmptyString(file.footer[key]), `site-copy/${locale}.json footer.${key} is required`);
     }
 
+    assert(isObject(file.headerNavigation), `site-copy/${locale}.json headerNavigation must be an object`);
+    for (const key of ['brandTagline', 'allPagesButton']) {
+      assert(isNonEmptyString(file.headerNavigation[key]), `site-copy/${locale}.json headerNavigation.${key} is required`);
+    }
+    assert(Array.isArray(file.headerNavigation.quickLinks) && file.headerNavigation.quickLinks.length >= 3, `site-copy/${locale}.json headerNavigation.quickLinks must have at least 3 items`);
+    for (const [idx, link] of file.headerNavigation.quickLinks.entries()) {
+      assert(isObject(link), `site-copy/${locale}.json headerNavigation.quickLinks[${idx}] must be an object`);
+      assert(isNonEmptyString(link.href), `site-copy/${locale}.json headerNavigation.quickLinks[${idx}].href is required`);
+      assert(isNonEmptyString(link.label), `site-copy/${locale}.json headerNavigation.quickLinks[${idx}].label is required`);
+    }
+    assert(isObject(file.headerNavigation.menuLabels), `site-copy/${locale}.json headerNavigation.menuLabels must be an object`);
+    for (const key of ['aboutBrazil', 'aboutStates', 'services', 'resources', 'discover', 'blogByState', 'faqByState', 'contactByState']) {
+      assert(isNonEmptyString(file.headerNavigation.menuLabels[key]), `site-copy/${locale}.json headerNavigation.menuLabels.${key} is required`);
+    }
+    assert(isObject(file.headerNavigation.sectionLabels), `site-copy/${locale}.json headerNavigation.sectionLabels must be an object`);
+    for (const key of [
+      'aboutBrazil',
+      'aboutStates',
+      'servicesCore',
+      'servicesStates',
+      'resourcesHubs',
+      'resourcesPolicy',
+      'discoverRegions',
+      'discoverStates',
+      'blogStates',
+      'faqStates',
+      'contactChannels',
+      'contactStates',
+    ]) {
+      assert(isNonEmptyString(file.headerNavigation.sectionLabels[key]), `site-copy/${locale}.json headerNavigation.sectionLabels.${key} is required`);
+    }
+    assert(isObject(file.headerNavigation.regionLabels), `site-copy/${locale}.json headerNavigation.regionLabels must be an object`);
+    for (const key of ['north', 'northeast', 'centralWest', 'southeast', 'south']) {
+      assert(isNonEmptyString(file.headerNavigation.regionLabels[key]), `site-copy/${locale}.json headerNavigation.regionLabels.${key} is required`);
+    }
+    assert(isObject(file.headerNavigation.links), `site-copy/${locale}.json headerNavigation.links must be an object`);
+    for (const key of [
+      'aboutBrazilHub',
+      'applyBrazil',
+      'costOfLiving',
+      'aboutStatesHub',
+      'aboutUs',
+      'values',
+      'mission',
+      'story',
+      'visaServices',
+      'visaCategories',
+      'residencyServices',
+      'naturalisationServices',
+      'legalServices',
+      'homeArchive',
+      'policies',
+      'cookies',
+      'disclaimers',
+      'gdpr',
+      'privacy',
+      'refund',
+      'terms',
+      'xmlSitemap',
+      'discoverRegionsHub',
+      'discoverStatesHub',
+      'blogByStateHub',
+      'faqByStateHub',
+      'contactByStateHub',
+    ]) {
+      assert(isNonEmptyString(file.headerNavigation.links[key]), `site-copy/${locale}.json headerNavigation.links.${key} is required`);
+    }
+
+    assert(isObject(file.footerNavigation), `site-copy/${locale}.json footerNavigation must be an object`);
+    for (const key of [
+      'dropdownTitle',
+      'aboutUsPagesTitle',
+      'aboutBrazilPagesTitle',
+      'supportTitle',
+      'stateAbout',
+      'stateServices',
+      'stateContact',
+      'stateBlog',
+      'stateFaq',
+      'allPages',
+      'aboutUsHub',
+      'aboutBrazilHub',
+      'festivalsHub',
+      'foodHub',
+      'aboutBrazilCoreTitle',
+      'aboutBrazilFestivalsTitle',
+      'aboutBrazilFoodTitle',
+      'menuAboutBrazil',
+      'menuAboutStates',
+      'menuServices',
+      'menuResources',
+      'menuDiscover',
+      'menuBlog',
+      'menuFaq',
+      'menuContact',
+      'contactBoxTitle',
+      'rightsReserved',
+    ]) {
+      assert(isNonEmptyString(file.footerNavigation[key]), `site-copy/${locale}.json footerNavigation.${key} is required`);
+    }
+
+    assert(isObject(file.floatingActions), `site-copy/${locale}.json floatingActions must be an object`);
+    for (const key of ['whatsapp', 'whatsappTag', 'top']) {
+      assert(isNonEmptyString(file.floatingActions[key]), `site-copy/${locale}.json floatingActions.${key} is required`);
+    }
+
     assert(isObject(file.upgradeNotice), `site-copy/${locale}.json upgradeNotice must be an object`);
     assert(typeof file.upgradeNotice.enabled === 'boolean', `site-copy/${locale}.json upgradeNotice.enabled must be boolean`);
     for (const key of ['eyebrow', 'title', 'body', 'whatsappButton', 'emailButton']) {
@@ -293,6 +399,104 @@ async function validatePageCopy() {
       assert(isNonEmptyString(file.visaConsultation[key]), `page-copy/${locale}.json visaConsultation.${key} is required`);
     }
     validateTitleDetailItems(relativePath, 'visaConsultation.blocks', file.visaConsultation.blocks, 3);
+
+    assert(isObject(file.contactPage), `page-copy/${locale}.json contactPage must be an object`);
+    for (const key of ['formTitle', 'formSubtitle', 'stateArchiveTitle', 'stateArchiveSubtitle']) {
+      assert(isNonEmptyString(file.contactPage[key]), `page-copy/${locale}.json contactPage.${key} is required`);
+    }
+    assert(
+      file.contactPage.stateArchiveSubtitle.includes('{{count}}'),
+      `page-copy/${locale}.json contactPage.stateArchiveSubtitle must include '{{count}}' token`,
+    );
+  }
+}
+
+async function validateSiteSettings() {
+  const relativePath = 'content/cms/settings/site-settings.json';
+  const file = await readJson(relativePath);
+
+  assert(isObject(file.brand), `${relativePath} brand must be an object`);
+  for (const key of ['name', 'logoAlt', 'logoMarkPath', 'logoFullPath', 'logoSchemaPath', 'ogImagePath']) {
+    assert(isNonEmptyString(file.brand[key]), `${relativePath} brand.${key} is required`);
+  }
+
+  assert(isObject(file.contact), `${relativePath} contact must be an object`);
+  for (const key of [
+    'primaryEmail',
+    'consultationEmail',
+    'clientEmail',
+    'whatsappNumber',
+    'whatsappLink',
+    'whatsappProfileImage',
+    'formspreeEndpoint',
+  ]) {
+    assert(isNonEmptyString(file.contact[key]), `${relativePath} contact.${key} is required`);
+  }
+  assert(file.contact.whatsappLink.startsWith('https://'), `${relativePath} contact.whatsappLink must start with https://`);
+  assert(file.contact.formspreeEndpoint.startsWith('https://'), `${relativePath} contact.formspreeEndpoint must start with https://`);
+
+  assert(isObject(file.seo), `${relativePath} seo must be an object`);
+  assert(isNonEmptyString(file.seo.googleSiteVerification), `${relativePath} seo.googleSiteVerification is required`);
+}
+
+async function validateLegacyOverrides() {
+  for (const locale of ['en', 'es', 'pt', 'fr']) {
+    const relativePath = `content/cms/legacy-overrides/${locale}.json`;
+    const file = await readJson(relativePath);
+
+    assert(file.locale === locale, `legacy-overrides/${locale}.json locale must be '${locale}'`);
+    assert(isObject(file.ui), `legacy-overrides/${locale}.json ui must be an object`);
+    for (const key of ['keyPointsTitle', 'pathTitle', 'relatedPagesTitle', 'exploreTitle', 'sourceLabel']) {
+      assert(isNonEmptyString(file.ui[key]), `legacy-overrides/${locale}.json ui.${key} is required`);
+    }
+
+    assert(Array.isArray(file.ui.exploreLinks) && file.ui.exploreLinks.length >= 1, `legacy-overrides/${locale}.json ui.exploreLinks must have at least 1 item`);
+    for (const [idx, link] of file.ui.exploreLinks.entries()) {
+      assert(isObject(link), `legacy-overrides/${locale}.json ui.exploreLinks[${idx}] must be an object`);
+      assert(isNonEmptyString(link.href), `legacy-overrides/${locale}.json ui.exploreLinks[${idx}].href is required`);
+      assert(isNonEmptyString(link.label), `legacy-overrides/${locale}.json ui.exploreLinks[${idx}].label is required`);
+    }
+
+    assert(Array.isArray(file.pages), `legacy-overrides/${locale}.json pages must be an array`);
+    const seen = new Set();
+
+    for (const [idx, page] of file.pages.entries()) {
+      assert(isObject(page), `legacy-overrides/${locale}.json pages[${idx}] must be an object`);
+      assert(isNonEmptyString(page.slug), `legacy-overrides/${locale}.json pages[${idx}].slug is required`);
+      assert(!seen.has(page.slug), `legacy-overrides/${locale}.json duplicate slug '${page.slug}'`);
+      seen.add(page.slug);
+
+      for (const key of ['title', 'description', 'heading', 'sourcePath', 'heroImage', 'heroImageAlt']) {
+        if (page[key] != null) {
+          assert(isNonEmptyString(page[key]), `legacy-overrides/${locale}.json pages[${idx}].${key} must be non-empty`);
+        }
+      }
+
+      if (page.sections != null) {
+        assert(Array.isArray(page.sections), `legacy-overrides/${locale}.json pages[${idx}].sections must be an array`);
+        for (const [sidx, section] of page.sections.entries()) {
+          assert(isObject(section), `legacy-overrides/${locale}.json pages[${idx}].sections[${sidx}] must be an object`);
+          assert(isNonEmptyString(section.title), `legacy-overrides/${locale}.json pages[${idx}].sections[${sidx}].title is required`);
+          assert(
+            Array.isArray(section.paragraphs) && section.paragraphs.length >= 1,
+            `legacy-overrides/${locale}.json pages[${idx}].sections[${sidx}].paragraphs must have at least 1 item`,
+          );
+          for (const [pidx, paragraph] of section.paragraphs.entries()) {
+            assert(
+              isNonEmptyString(paragraph),
+              `legacy-overrides/${locale}.json pages[${idx}].sections[${sidx}].paragraphs[${pidx}] must be non-empty`,
+            );
+          }
+        }
+      }
+
+      if (page.bullets != null) {
+        assert(Array.isArray(page.bullets), `legacy-overrides/${locale}.json pages[${idx}].bullets must be an array`);
+        for (const [bidx, bullet] of page.bullets.entries()) {
+          assert(isNonEmptyString(bullet), `legacy-overrides/${locale}.json pages[${idx}].bullets[${bidx}] must be non-empty`);
+        }
+      }
+    }
   }
 }
 
@@ -310,6 +514,8 @@ async function main() {
   await validatePolicies(expectedPolicySlugs);
   await validateSiteCopy();
   await validatePageCopy();
+  await validateSiteSettings();
+  await validateLegacyOverrides();
 
   console.log('CMS validation passed.');
 }

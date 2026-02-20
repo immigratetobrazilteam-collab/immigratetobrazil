@@ -174,5 +174,133 @@
       "title": "Residency-to-citizenship planning: milestones and blind spots",
       "summary": "A multi-year strategy for legal continuity and long-term residence goals."
     }
-  ]
+  ],
+  "headerNavigation": {
+    "brandTagline": "Conseil Premium",
+    "allPagesButton": "Toutes les pages",
+    "quickLinks": [
+      {
+        "href": "/",
+        "label": "Accueil"
+      },
+      {
+        "href": "/process",
+        "label": "Processus"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "A Propos"
+      },
+      {
+        "href": "/about/values",
+        "label": "Valeurs"
+      },
+      {
+        "href": "/about/mission",
+        "label": "Mission"
+      },
+      {
+        "href": "/about/story",
+        "label": "Histoire"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
+      }
+    ],
+    "menuLabels": {
+      "aboutBrazil": "A Propos du Bresil",
+      "aboutStates": "Etats",
+      "services": "Services",
+      "resources": "Ressources",
+      "discover": "Decouvrir",
+      "blogByState": "Blog par Etat",
+      "faqByState": "FAQ par Etat",
+      "contactByState": "Contact par Etat"
+    },
+    "sectionLabels": {
+      "aboutBrazil": "Bresil en profondeur",
+      "aboutStates": "Etats par region",
+      "servicesCore": "Services principaux",
+      "servicesStates": "Services par Etat",
+      "resourcesHubs": "Hubs de ressources",
+      "resourcesPolicy": "Politiques et juridique",
+      "discoverRegions": "Regions du Bresil",
+      "discoverStates": "Etats du Bresil",
+      "blogStates": "Blog par region",
+      "faqStates": "FAQ par region",
+      "contactChannels": "Canaux de contact",
+      "contactStates": "Contact par region"
+    },
+    "regionLabels": {
+      "north": "Nord",
+      "northeast": "Nord-Est",
+      "centralWest": "Centre-Ouest",
+      "southeast": "Sud-Est",
+      "south": "Sud"
+    },
+    "links": {
+      "aboutBrazilHub": "A Propos du Bresil",
+      "applyBrazil": "Candidater au Bresil",
+      "costOfLiving": "Cout de la vie au Bresil",
+      "aboutStatesHub": "Hub des Etats",
+      "aboutUs": "A Propos",
+      "values": "Valeurs",
+      "mission": "Mission",
+      "story": "Histoire",
+      "visaServices": "Services de visa",
+      "visaCategories": "Categories de visa",
+      "residencyServices": "Services de residence",
+      "naturalisationServices": "Services de naturalisation",
+      "legalServices": "Services juridiques",
+      "homeArchive": "Archive Accueil",
+      "policies": "Politiques",
+      "cookies": "Cookies",
+      "disclaimers": "Avertissements",
+      "gdpr": "RGPD",
+      "privacy": "Confidentialite",
+      "refund": "Remboursement",
+      "terms": "Conditions",
+      "xmlSitemap": "Plan XML",
+      "discoverRegionsHub": "Hub Regions",
+      "discoverStatesHub": "Hub Etats",
+      "blogByStateHub": "Hub Blog",
+      "faqByStateHub": "Hub FAQ",
+      "contactByStateHub": "Hub Contact"
+    }
+  },
+  "footerNavigation": {
+    "dropdownTitle": "Menus deroulants",
+    "aboutUsPagesTitle": "Pages A Propos",
+    "aboutBrazilPagesTitle": "Pages Bresil",
+    "supportTitle": "Repertoires et legal",
+    "stateAbout": "A propos des Etats par region",
+    "stateServices": "Services par Etat",
+    "stateContact": "Contact par Etat",
+    "stateBlog": "Blog par Etat",
+    "stateFaq": "FAQ par Etat",
+    "allPages": "Ouvrir la bibliotheque complete",
+    "aboutUsHub": "Hub A Propos",
+    "aboutBrazilHub": "Hub Bresil",
+    "festivalsHub": "Festivals par Etat",
+    "foodHub": "Cuisine par Etat",
+    "aboutBrazilCoreTitle": "Pages principales",
+    "aboutBrazilFestivalsTitle": "Festivals",
+    "aboutBrazilFoodTitle": "Cuisine",
+    "menuAboutBrazil": "Menu Bresil",
+    "menuAboutStates": "Menu Etats",
+    "menuServices": "Menu Services",
+    "menuResources": "Menu Ressources",
+    "menuDiscover": "Menu Decouvrir",
+    "menuBlog": "Menu Blog par Etat",
+    "menuFaq": "Menu FAQ par Etat",
+    "menuContact": "Menu Contact par Etat",
+    "contactBoxTitle": "Contact",
+    "rightsReserved": "Tous droits reserves."
+  },
+  "floatingActions": {
+    "whatsapp": "WhatsApp",
+    "whatsappTag": "Reponse rapide",
+    "top": "Retour en haut"
+  }
 }

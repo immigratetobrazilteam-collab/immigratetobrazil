@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import { siteConfig } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
 
 type BrandLogoProps = {
@@ -12,8 +13,8 @@ export function BrandLogo({ variant = 'full', className, priority = false }: Bra
   if (variant === 'mark') {
     return (
       <Image
-        src="/brand/logo-mark-transparent-512.png"
-        alt="Immigrate to Brazil immigration law firm logo"
+        src={siteConfig.brand.logoMarkPath}
+        alt={siteConfig.brand.logoAlt}
         width={512}
         height={512}
         priority={priority}
@@ -24,8 +25,8 @@ export function BrandLogo({ variant = 'full', className, priority = false }: Bra
 
   return (
     <Image
-      src="/brand/logo-full-transparent.png"
-      alt="Immigrate to Brazil immigration law firm logo"
+      src={siteConfig.brand.logoFullPath}
+      alt={siteConfig.brand.logoAlt}
       width={819}
       height={819}
       priority={priority}

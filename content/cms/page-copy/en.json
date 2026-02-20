@@ -97,5 +97,11 @@
         "detail": "Advisory session, execution package options, and compliance follow-up."
       }
     ]
+  },
+  "contactPage": {
+    "formTitle": "Start Consultation",
+    "formSubtitle": "Use this secure form for legal advisory requests. We answer by email and WhatsApp.",
+    "stateArchiveTitle": "State contact archives",
+    "stateArchiveSubtitle": "{{count}} state-specific contact pages from your old site are now available in the redesigned routing system."
   }
 }

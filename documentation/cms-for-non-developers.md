@@ -14,9 +14,17 @@ When you edit and publish in `/admin`, it commits JSON content files in `content
 Controls high-visibility global text:
 - Brand name
 - Main navigation labels
+- Full header navigation structure:
+  - Top row quick links
+  - Dropdown button labels
+  - Dropdown section titles
+  - Region labels
+  - Static menu link labels
 - Hero section text (home page)
 - CTA text
 - Footer tagline/legal line
+- Full footer navigation labels and section titles
+- Floating action labels (WhatsApp + back-to-top)
 - Upgrade notice banner text
 - Home trust stats, service cards, process steps, blog highlights
 
@@ -26,6 +34,29 @@ Controls these key pages:
 - `/about/about-brazil/cost-of-living-in-brazil`
 - `/resources-guides-brazil`
 - `/visa-consultation` (when legacy fallback is not used)
+
+### `Legacy Overrides`
+Controls individual legacy routes by exact slug:
+- Edit title, description, and heading
+- Replace section cards and bullets
+- Set hero image path for a legacy page
+- Control sidebar labels (`Path`, `Related pages`, `Explore`, etc.)
+
+Use slug without locale:
+- `blog/blog-sao-paulo`
+- `contact/contact-parana`
+- `discover/brazilian-regions/north-region`
+
+Demo route included:
+- `/en/admin-editable-demo`
+
+### `Site Settings`
+Controls global operational settings:
+- Contact emails
+- WhatsApp number, link, and profile image
+- Formspree endpoint
+- Brand asset paths (logos and OG image) and logo alt text
+- Google site verification
 
 ### `State Copy`
 Controls state-level template blocks and per-state overrides for:

@@ -74,5 +74,48 @@
       ]
     }
   },
-  "overrides": []
+  "overrides": [
+    {
+      "slug": "rio-de-janeiro",
+      "blog": {
+        "title": "Rio de Janeiro: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Rio de Janeiro, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Rio de Janeiro."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Rio de Janeiro."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Rio de Janeiro."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "blog": {
+        "title": "Sao Paulo: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Sao Paulo, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Sao Paulo."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Sao Paulo."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Sao Paulo."
+          }
+        ]
+      }
+    }
+  ]
 }

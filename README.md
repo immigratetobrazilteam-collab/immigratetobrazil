@@ -25,6 +25,9 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run cms:validate` - validate CMS JSON structure and slug integrity
 - `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
 - `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
+- `npm run seo:clusters` - generate 90-day SEO cluster plans under `artifacts/seo-clusters/` (AI via Ollama when available)
+- `npm run seo:clusters:apply` - generate clusters and apply AI blog overrides to `content/cms/state-copy/*.json` + `content/cms/site-copy/*.json`
+- `npm run seo:autopilot` - run full SEO cluster autopilot (`seo:clusters:apply` + `cms:validate`)
 - `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run perf:budget` - enforce JS build-size performance budgets from `.next/build-manifest.json`
 - `npm run verify:release` - run full go-live quality gate sequence in one command
@@ -78,6 +81,12 @@ Rollback workflow at `.github/workflows/rollback-cloudflare.yml` (manual):
 2. Rebuild and deploy selected ref to Cloudflare
 3. Run post-rollback smoke checks
 
+SEO AI autopilot workflow at `.github/workflows/seo-ai-autopilot.yml` runs weekly:
+1. `npm ci`
+2. `npm run seo:autopilot`
+3. Uploads `artifacts/seo-clusters/` artifact
+4. Creates/updates an automated PR with refreshed CMS SEO copy
+
 ## Environment setup
 Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_CONSULTATION_EMAIL`
@@ -86,12 +95,22 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_WHATSAPP_LINK`
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`
 - `NEXT_PUBLIC_GTM_ID`
+- `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`
 - `NEXT_PUBLIC_SITE_URL`
 - `ADMIN_BASIC_AUTH_USER`
 - `ADMIN_BASIC_AUTH_PASS`
 - `DECAP_GITHUB_OAUTH_CLIENT_ID`
 - `DECAP_GITHUB_OAUTH_CLIENT_SECRET`
 - `DECAP_GITHUB_OAUTH_SCOPE`
+
+## Analytics events
+GA4 event tracking is wired for high-intent actions:
+- `cta_click` for primary conversion CTAs (hero, header consultation button, CTA cards)
+- `contact_click` for email and WhatsApp actions
+- `generate_lead` for successful form submissions
+- `form_validation_error` for client-side form validation failures
+- `form_submit_error` for failed form submission attempts
+- `form_spam_blocked` for anti-spam blocked submissions
 
 ## Cloudflare setup
 1. Create Cloudflare API token with Worker and Route edit permissions.
@@ -122,18 +141,29 @@ Copy `.env.example` to `.env.local` and set:
   - `content/cms/state-copy/en.json`
   - `content/cms/state-copy/es.json`
   - `content/cms/state-copy/pt.json`
+  - `content/cms/state-copy/fr.json`
 - Policy content:
   - `content/cms/policies/en.json`
   - `content/cms/policies/es.json`
   - `content/cms/policies/pt.json`
+  - `content/cms/policies/fr.json`
 - Global site content (navigation, hero, trust, services, process, blog highlights):
   - `content/cms/site-copy/en.json`
   - `content/cms/site-copy/es.json`
   - `content/cms/site-copy/pt.json`
+  - `content/cms/site-copy/fr.json`
 - Migrated page content (apply, cost of living, resources, visa consultation):
   - `content/cms/page-copy/en.json`
   - `content/cms/page-copy/es.json`
   - `content/cms/page-copy/pt.json`
+  - `content/cms/page-copy/fr.json`
+- Legacy route overrides and UI labels:
+  - `content/cms/legacy-overrides/en.json`
+  - `content/cms/legacy-overrides/es.json`
+  - `content/cms/legacy-overrides/pt.json`
+  - `content/cms/legacy-overrides/fr.json`
+- Site operational settings (contact channels, brand assets, Formspree endpoint):
+  - `content/cms/settings/site-settings.json`
 
 ## Monitoring endpoints
 - `GET /api/health` - liveness endpoint
@@ -150,6 +180,13 @@ Copy `.env.example` to `.env.local` and set:
 ## SEO audits
 - Scheduled workflow: `.github/workflows/seo-audit.yml` (weekly + manual trigger).
 - Report artifacts (JSON + Markdown) are uploaded for 30 days.
+
+## SEO AI autopilot setup
+- Optional (recommended): set GitHub secret `OLLAMA_HOST` to your reachable Ollama endpoint (example: `http://<your-server>:11434`).
+- Optional: set GitHub repository variable `OLLAMA_MODEL` (example: `llama3.1:8b`).
+- Optional: set `SEO_CLUSTER_STATE_SLUGS` (comma-separated state slugs) and `SEO_CLUSTER_LIMIT_STATES`.
+- If Ollama is unreachable, autopilot falls back to deterministic templates so automation still runs.
+- Full runbook: `documentation/seo-ai-autopilot.md`
 
 ## Dependency updates
 - Dependabot config: `.github/dependabot.yml`

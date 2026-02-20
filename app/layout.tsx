@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Fraunces, Manrope } from 'next/font/google';
 
 import { Analytics } from '@/components/analytics';
+import { siteConfig } from '@/lib/site-config';
 
 import './globals.css';
 
@@ -25,8 +26,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   manifest: '/site.webmanifest',
   title: {
-    default: 'Immigrate to Brazil | Modern Immigration Advisory',
-    template: '%s | Immigrate to Brazil',
+    default: `${siteConfig.brand.name} | Modern Immigration Advisory`,
+    template: `%s | ${siteConfig.brand.name}`,
   },
   description:
     'Modern immigration advisory platform for Brazil visas, residency strategy, and relocation execution.',
@@ -42,24 +43,27 @@ export const metadata: Metadata = {
     apple: [{ url: '/brand/apple-touch-icon.png', sizes: '180x180' }],
   },
   openGraph: {
-    title: 'Immigrate to Brazil | Modern Immigration Advisory',
+    title: `${siteConfig.brand.name} | Modern Immigration Advisory`,
     description:
       'Modern immigration advisory platform for Brazil visas, residency strategy, and relocation execution.',
     url: BASE_URL,
-    siteName: 'Immigrate to Brazil',
+    siteName: siteConfig.brand.name,
     images: [
       {
-        url: '/brand/og-image.png',
+        url: siteConfig.brand.ogImagePath,
         width: 1200,
         height: 630,
-        alt: 'Immigrate to Brazil immigration law firm logo',
+        alt: siteConfig.brand.logoAlt,
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/brand/og-image.png'],
+    images: [siteConfig.brand.ogImagePath],
+  },
+  verification: {
+    google: siteConfig.seo.googleSiteVerification || undefined,
   },
 };
 

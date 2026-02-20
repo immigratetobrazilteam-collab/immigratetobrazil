@@ -1,0 +1,64 @@
+name: SEO AI Autopilot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5 * * 2'
+
+concurrency:
+  group: seo-ai-autopilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh-seo-clusters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run SEO autopilot
+        env:
+          OLLAMA_HOST: ${{ secrets.OLLAMA_HOST }}
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL }}
+          SEO_CLUSTER_STATE_SLUGS: ${{ vars.SEO_CLUSTER_STATE_SLUGS }}
+          SEO_CLUSTER_LIMIT_STATES: ${{ vars.SEO_CLUSTER_LIMIT_STATES }}
+          SEO_CLUSTER_USE_OLLAMA: ${{ vars.SEO_CLUSTER_USE_OLLAMA }}
+        run: npm run seo:autopilot
+
+      - name: Upload SEO cluster artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-clusters-${{ github.run_id }}
+          path: artifacts/seo-clusters/
+          if-no-files-found: warn
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: chore(seo): refresh AI content clusters
+          title: chore(seo): refresh AI content clusters
+          body: |
+            Automated SEO content refresh.
+
+            - Command: `npm run seo:autopilot`
+            - Output artifacts: `artifacts/seo-clusters/`
+            - AI mode: uses Ollama when `OLLAMA_HOST` is reachable, otherwise deterministic fallback templates
+          branch: automation/seo-ai-autopilot
+          delete-branch: true
+          labels: |
+            seo
+            automation

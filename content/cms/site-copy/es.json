@@ -174,5 +174,133 @@
       "title": "Ruta de residencia a ciudadania: hitos y puntos ciegos",
       "summary": "Estrategia de varios anos para continuidad legal y objetivos de largo plazo."
     }
-  ]
+  ],
+  "headerNavigation": {
+    "brandTagline": "Asesoria Premium",
+    "allPagesButton": "Todas las paginas",
+    "quickLinks": [
+      {
+        "href": "/",
+        "label": "Inicio"
+      },
+      {
+        "href": "/process",
+        "label": "Proceso"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "Sobre Nosotros"
+      },
+      {
+        "href": "/about/values",
+        "label": "Valores"
+      },
+      {
+        "href": "/about/mission",
+        "label": "Mision"
+      },
+      {
+        "href": "/about/story",
+        "label": "Historia"
+      },
+      {
+        "href": "/contact",
+        "label": "Contacto"
+      }
+    ],
+    "menuLabels": {
+      "aboutBrazil": "Sobre Brasil",
+      "aboutStates": "Estados",
+      "services": "Servicios",
+      "resources": "Recursos",
+      "discover": "Descubrir",
+      "blogByState": "Blog por Estado",
+      "faqByState": "FAQ por Estado",
+      "contactByState": "Contacto por Estado"
+    },
+    "sectionLabels": {
+      "aboutBrazil": "Brasil en profundidad",
+      "aboutStates": "Estados por region",
+      "servicesCore": "Servicios principales",
+      "servicesStates": "Servicios por estado",
+      "resourcesHubs": "Centros de recursos",
+      "resourcesPolicy": "Politicas y legal",
+      "discoverRegions": "Regiones de Brasil",
+      "discoverStates": "Estados de Brasil",
+      "blogStates": "Blog por region",
+      "faqStates": "FAQ por region",
+      "contactChannels": "Canales de contacto",
+      "contactStates": "Contacto por region"
+    },
+    "regionLabels": {
+      "north": "Norte",
+      "northeast": "Nordeste",
+      "centralWest": "Centro-Oeste",
+      "southeast": "Sudeste",
+      "south": "Sur"
+    },
+    "links": {
+      "aboutBrazilHub": "Sobre Brasil",
+      "applyBrazil": "Aplicar a Brasil",
+      "costOfLiving": "Costo de vida en Brasil",
+      "aboutStatesHub": "Centro de Estados",
+      "aboutUs": "Sobre Nosotros",
+      "values": "Valores",
+      "mission": "Mision",
+      "story": "Historia",
+      "visaServices": "Servicios de Visa",
+      "visaCategories": "Categorias de Visa",
+      "residencyServices": "Servicios de Residencia",
+      "naturalisationServices": "Servicios de Naturalizacion",
+      "legalServices": "Servicios Legales",
+      "homeArchive": "Archivo de Inicio",
+      "policies": "Politicas",
+      "cookies": "Cookies",
+      "disclaimers": "Avisos legales",
+      "gdpr": "GDPR",
+      "privacy": "Privacidad",
+      "refund": "Reembolso",
+      "terms": "Terminos",
+      "xmlSitemap": "Mapa XML",
+      "discoverRegionsHub": "Centro Regiones",
+      "discoverStatesHub": "Centro Estados",
+      "blogByStateHub": "Centro Blog",
+      "faqByStateHub": "Centro FAQ",
+      "contactByStateHub": "Centro Contacto"
+    }
+  },
+  "footerNavigation": {
+    "dropdownTitle": "Menus desplegables",
+    "aboutUsPagesTitle": "Paginas Sobre Nosotros",
+    "aboutBrazilPagesTitle": "Paginas Sobre Brasil",
+    "supportTitle": "Directorios y legal",
+    "stateAbout": "Sobre estados por region",
+    "stateServices": "Servicios por estado",
+    "stateContact": "Contacto por estado",
+    "stateBlog": "Blog por estado",
+    "stateFaq": "FAQ por estado",
+    "allPages": "Abrir biblioteca completa",
+    "aboutUsHub": "Centro Sobre Nosotros",
+    "aboutBrazilHub": "Centro Sobre Brasil",
+    "festivalsHub": "Festivales por estado",
+    "foodHub": "Gastronomia por estado",
+    "aboutBrazilCoreTitle": "Paginas principales",
+    "aboutBrazilFestivalsTitle": "Festivales",
+    "aboutBrazilFoodTitle": "Gastronomia",
+    "menuAboutBrazil": "Menu Sobre Brasil",
+    "menuAboutStates": "Menu Estados",
+    "menuServices": "Menu Servicios",
+    "menuResources": "Menu Recursos",
+    "menuDiscover": "Menu Descubrir",
+    "menuBlog": "Menu Blog por Estado",
+    "menuFaq": "Menu FAQ por Estado",
+    "menuContact": "Menu Contacto por Estado",
+    "contactBoxTitle": "Contacto",
+    "rightsReserved": "Todos los derechos reservados."
+  },
+  "floatingActions": {
+    "whatsapp": "WhatsApp",
+    "whatsappTag": "Respuesta rapida",
+    "top": "Volver arriba"
+  }
 }

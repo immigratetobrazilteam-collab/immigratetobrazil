@@ -30,6 +30,8 @@ const staticPaths = [
   '/discover/brazilian-regions',
   '/about/about-brazil/apply-brazil',
   '/about/about-brazil/cost-of-living-in-brazil',
+  '/about/about-brazil/festivals',
+  '/about/about-brazil/food',
 ];
 
 const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'];

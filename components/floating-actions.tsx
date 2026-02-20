@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
+import { trackAnalyticsEvent } from '@/lib/analytics-events';
+import { copy } from '@/lib/i18n';
 import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
@@ -10,22 +12,9 @@ type FloatingActionsProps = {
   locale: Locale;
 };
 
-function copy(locale: Locale) {
-  if (locale === 'es') {
-    return { whatsapp: 'WhatsApp', top: 'Volver arriba' };
-  }
-  if (locale === 'pt') {
-    return { whatsapp: 'WhatsApp', top: 'Voltar ao topo' };
-  }
-  if (locale === 'fr') {
-    return { whatsapp: 'WhatsApp', top: 'Retour en haut' };
-  }
-  return { whatsapp: 'WhatsApp', top: 'Back to top' };
-}
-
 export function FloatingActions({ locale }: FloatingActionsProps) {
   const [showTop, setShowTop] = useState(false);
-  const t = copy(locale);
+  const t = copy[locale].floatingActions;
 
   useEffect(() => {
     const onScroll = () => {
@@ -55,9 +44,16 @@ export function FloatingActions({ locale }: FloatingActionsProps) {
         href={siteConfig.contact.whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() =>
+          trackAnalyticsEvent('contact_click', {
+            contact_method: 'whatsapp',
+            source: 'floating_actions',
+            locale,
+          })
+        }
         aria-label={`${t.whatsapp} ${siteConfig.contact.whatsappNumber}`}
         title={t.whatsapp}
-        className="pointer-events-auto group inline-flex h-14 w-14 items-center justify-center rounded-full border border-[#0f5132]/20 bg-white shadow-card transition duration-200 hover:-translate-y-0.5 hover:shadow-glow sm:h-auto sm:w-auto sm:gap-2 sm:px-2.5 sm:py-2"
+        className="pointer-events-auto group inline-flex h-14 w-14 items-center justify-center rounded-full border border-[#0f5132]/20 bg-white shadow-card transition duration-200 hover:-translate-y-0.5 hover:shadow-glow sm:h-auto sm:w-auto sm:gap-2 sm:rounded-2xl sm:border-[#0c8d4a] sm:bg-[#25D366] sm:px-2.5 sm:py-2"
       >
         <span className="relative inline-flex h-11 w-11 overflow-hidden rounded-full border border-sand-200 shadow-sm">
           <Image
@@ -75,8 +71,8 @@ export function FloatingActions({ locale }: FloatingActionsProps) {
         </span>
 
         <span className="hidden pr-1 text-left sm:block">
-          <span className="block text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0f5132]">WhatsApp</span>
-          <span className="block text-xs font-semibold text-ink-900 group-hover:text-[#0f5132]">{t.whatsapp}</span>
+          <span className="block text-[10px] font-semibold uppercase tracking-[0.14em] text-[#d9ffe8]">{t.whatsappTag}</span>
+          <span className="block text-xs font-semibold text-white">{t.whatsapp}</span>
         </span>
       </a>
     </div>

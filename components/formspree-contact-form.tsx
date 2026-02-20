@@ -2,6 +2,7 @@
 
 import { FormEvent, useMemo, useRef, useState } from 'react';
 
+import { trackAnalyticsEvent } from '@/lib/analytics-events';
 import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
@@ -160,6 +161,7 @@ export function FormspreeContactForm({
     if (honeypot || websiteTrap) {
       setStatus('error');
       setErrorMessage(copy.spam);
+      trackAnalyticsEvent('form_spam_blocked', { form_context: context, locale });
       return;
     }
 
@@ -167,6 +169,7 @@ export function FormspreeContactForm({
     if (elapsedMs < 2500) {
       setStatus('error');
       setErrorMessage(copy.spam);
+      trackAnalyticsEvent('form_spam_blocked', { form_context: context, locale });
       return;
     }
 
@@ -175,6 +178,11 @@ export function FormspreeContactForm({
     if (Object.keys(validationErrors).length > 0) {
       setStatus('error');
       setErrorMessage(copy.failure);
+      trackAnalyticsEvent('form_validation_error', {
+        form_context: context,
+        locale,
+        error_count: Object.keys(validationErrors).length,
+      });
       return;
     }
 
@@ -201,9 +209,15 @@ export function FormspreeContactForm({
       setErrors({});
       setStatus('success');
       startedAt.current = Date.now();
+      trackAnalyticsEvent('generate_lead', {
+        form_context: context,
+        locale,
+        method: 'form',
+      });
     } catch {
       setStatus('error');
       setErrorMessage(copy.failure);
+      trackAnalyticsEvent('form_submit_error', { form_context: context, locale });
     }
   }
 

@@ -1,8 +1,7 @@
-import Link from 'next/link';
-
 import { copy } from '@/lib/i18n';
 import { localizedPath } from '@/lib/routes';
 import type { Locale } from '@/lib/types';
+import { TrackedLink } from '@/components/tracked-link';
 
 interface HeroProps {
   locale: Locale;
@@ -26,18 +25,22 @@ export function Hero({ locale }: HeroProps) {
           <h1 className="font-display text-4xl leading-tight text-ink-900 sm:text-5xl lg:text-6xl">{t.hero.title}</h1>
           <p className="max-w-xl text-lg leading-relaxed text-ink-700">{t.hero.subtitle}</p>
           <div className="flex flex-wrap gap-3">
-            <Link
+            <TrackedLink
               href={localizedPath(locale, '/contact')}
+              eventName="cta_click"
+              eventParams={{ cta_location: 'hero', cta_variant: 'primary', locale }}
               className="rounded-full bg-ink-900 px-6 py-3 text-sm font-semibold text-sand-50 shadow-card transition hover:-translate-y-0.5 hover:bg-ink-800"
             >
               {t.hero.primaryCta}
-            </Link>
-            <Link
+            </TrackedLink>
+            <TrackedLink
               href={localizedPath(locale, '/services')}
+              eventName="cta_click"
+              eventParams={{ cta_location: 'hero', cta_variant: 'secondary', locale }}
               className="rounded-full border border-ink-300 bg-white/80 px-6 py-3 text-sm font-semibold text-ink-900 transition hover:border-ink-500"
             >
               {t.hero.secondaryCta}
-            </Link>
+            </TrackedLink>
           </div>
         </div>
 

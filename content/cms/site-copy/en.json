@@ -160,19 +160,147 @@
   ],
   "blogHighlights": [
     {
+      "slug": "blog-sao-paulo",
+      "title": "Sao Paulo: immigration and relocation guide",
+      "summary": "Practical relocation strategy for Sao Paulo, with focus on legal setup, costs, and first 90 days."
+    },
+    {
+      "slug": "blog-rio-de-janeiro",
+      "title": "Rio de Janeiro: immigration and relocation guide",
+      "summary": "Practical relocation strategy for Rio de Janeiro, with focus on legal setup, costs, and first 90 days."
+    },
+    {
       "slug": "visa-document-quality",
       "title": "Why documentation quality beats speed in immigration filings",
       "summary": "A practical framework for reducing denial risk before submission."
-    },
-    {
-      "slug": "state-selection-framework",
-      "title": "How to select the right Brazilian state for your relocation profile",
-      "summary": "A location matrix balancing cost, legal workflows, and integration factors."
-    },
-    {
-      "slug": "residency-to-citizenship-roadmap",
-      "title": "Residency-to-citizenship planning: milestones and blind spots",
-      "summary": "A multi-year strategy for legal continuity and long-term residence goals."
     }
-  ]
+  ],
+  "headerNavigation": {
+    "brandTagline": "Premium Advisory",
+    "allPagesButton": "All Pages",
+    "quickLinks": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/process",
+        "label": "Process"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "About Us"
+      },
+      {
+        "href": "/about/values",
+        "label": "Values"
+      },
+      {
+        "href": "/about/mission",
+        "label": "Mission"
+      },
+      {
+        "href": "/about/story",
+        "label": "Story"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
+      }
+    ],
+    "menuLabels": {
+      "aboutBrazil": "About Brazil",
+      "aboutStates": "About States",
+      "services": "Services",
+      "resources": "Resources",
+      "discover": "Discover",
+      "blogByState": "Blog by State",
+      "faqByState": "FAQ by State",
+      "contactByState": "Contact by State"
+    },
+    "sectionLabels": {
+      "aboutBrazil": "About Brazil",
+      "aboutStates": "About states by region",
+      "servicesCore": "Core services",
+      "servicesStates": "Services by state",
+      "resourcesHubs": "Resource hubs",
+      "resourcesPolicy": "Policies and legal",
+      "discoverRegions": "Brazil regions",
+      "discoverStates": "Brazil states",
+      "blogStates": "Blog by region",
+      "faqStates": "FAQ by region",
+      "contactChannels": "Contact channels",
+      "contactStates": "Contact by region"
+    },
+    "regionLabels": {
+      "north": "North",
+      "northeast": "Northeast",
+      "centralWest": "Central-West",
+      "southeast": "Southeast",
+      "south": "South"
+    },
+    "links": {
+      "aboutBrazilHub": "About Brazil",
+      "applyBrazil": "Apply to Brazil",
+      "costOfLiving": "Cost of Living in Brazil",
+      "aboutStatesHub": "About States Hub",
+      "aboutUs": "About Us",
+      "values": "Values",
+      "mission": "Mission",
+      "story": "Story",
+      "visaServices": "Visa Services",
+      "visaCategories": "Visa Categories",
+      "residencyServices": "Residency Services",
+      "naturalisationServices": "Naturalisation Services",
+      "legalServices": "Legal Services",
+      "homeArchive": "Home Archive",
+      "policies": "Policies",
+      "cookies": "Cookies",
+      "disclaimers": "Disclaimers",
+      "gdpr": "GDPR",
+      "privacy": "Privacy",
+      "refund": "Refund",
+      "terms": "Terms",
+      "xmlSitemap": "XML Sitemap",
+      "discoverRegionsHub": "Discover Regions Hub",
+      "discoverStatesHub": "Discover States Hub",
+      "blogByStateHub": "Blog Hub",
+      "faqByStateHub": "FAQ Hub",
+      "contactByStateHub": "Contact Hub"
+    }
+  },
+  "footerNavigation": {
+    "dropdownTitle": "Dropdown menus",
+    "aboutUsPagesTitle": "About Us pages",
+    "aboutBrazilPagesTitle": "About Brazil pages",
+    "supportTitle": "Directories and legal",
+    "stateAbout": "About states by region",
+    "stateServices": "Services by state",
+    "stateContact": "Contact by state",
+    "stateBlog": "Blog by state",
+    "stateFaq": "FAQ by state",
+    "allPages": "Open full library",
+    "aboutUsHub": "About Us hub",
+    "aboutBrazilHub": "About Brazil hub",
+    "festivalsHub": "Festivals by state",
+    "foodHub": "Food by state",
+    "aboutBrazilCoreTitle": "Core pages",
+    "aboutBrazilFestivalsTitle": "Festivals",
+    "aboutBrazilFoodTitle": "Food",
+    "menuAboutBrazil": "About Brazil menu",
+    "menuAboutStates": "About States menu",
+    "menuServices": "Services menu",
+    "menuResources": "Resources menu",
+    "menuDiscover": "Discover menu",
+    "menuBlog": "Blog by State menu",
+    "menuFaq": "FAQ by State menu",
+    "menuContact": "Contact by State menu",
+    "contactBoxTitle": "Contact",
+    "rightsReserved": "All rights reserved."
+  },
+  "floatingActions": {
+    "whatsapp": "WhatsApp",
+    "whatsappTag": "Fast response",
+    "top": "Back to top"
+  }
 }

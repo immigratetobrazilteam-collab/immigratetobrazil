@@ -42,12 +42,20 @@ type VisaConsultationCopy = {
   blocks: TitleDetail[];
 };
 
+type ContactPageCopy = {
+  formTitle: string;
+  formSubtitle: string;
+  stateArchiveTitle: string;
+  stateArchiveSubtitle: string;
+};
+
 type PageCmsCopy = {
   locale: Locale;
   applyBrazil: ApplyBrazilCopy;
   costOfLivingBrazil: CostOfLivingBrazilCopy;
   resourcesGuidesBrazil: ResourcesGuidesBrazilCopy;
   visaConsultation: VisaConsultationCopy;
+  contactPage: ContactPageCopy;
 };
 
 const pageCmsCopyByLocale: Record<Locale, PageCmsCopy> = {

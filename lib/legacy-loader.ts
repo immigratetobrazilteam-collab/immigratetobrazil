@@ -2,7 +2,9 @@ import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cache } from 'react';
 
+import { getLegacyPageOverride, type LegacyPageOverride } from '@/lib/legacy-cms-content';
 import { getLocaleRoutes, routeTitle } from '@/lib/route-index';
+import { siteConfig } from '@/lib/site-config';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
 function candidateRoots() {
@@ -290,12 +292,87 @@ async function buildSyntheticDocument(locale: Locale, slug: string[]): Promise<L
   };
 }
 
+function slugToTitle(slug: string) {
+  const parts = slug
+    .split('/')
+    .filter(Boolean)
+    .map((segment) =>
+      segment
+        .replace(/^(about|blog|contact|faq)-/, '')
+        .replace(/^immigrate-to-/, '')
+        .replace(/-index$/, '')
+        .replace(/-/g, ' ')
+        .trim(),
+    )
+    .filter(Boolean);
+
+  const last = parts[parts.length - 1] || 'Page';
+  return last.replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
+function normalizeOverrideImage(src?: string) {
+  if (!src?.trim()) return undefined;
+  return normalizeLegacyImage(src.trim());
+}
+
+function applyLegacyOverride(
+  locale: Locale,
+  slug: string[],
+  base: LegacyDocument | null,
+  override: LegacyPageOverride | null,
+): LegacyDocument | null {
+  if (!base && !override) return null;
+
+  const joinedSlug = slug.join('/');
+  const fallback = fallbackCopy(locale);
+  const fallbackTitle = slugToTitle(joinedSlug);
+  const title = override?.title?.trim() || base?.title || fallbackTitle;
+  const description = override?.description?.trim() || base?.description || fallback.fallbackDescription;
+  const heading = override?.heading?.trim() || base?.heading || title;
+  const sourcePath = override?.sourcePath?.trim() || base?.sourcePath || joinedSlug || 'cms-override';
+  const heroImage = normalizeOverrideImage(override?.heroImage) || base?.heroImage;
+  const heroImageAlt = override?.heroImageAlt?.trim() || base?.heroImageAlt || heading;
+  const sections =
+    override?.sections?.filter((section) => section.title?.trim() && section.paragraphs?.length)?.map((section) => ({
+      title: section.title.trim(),
+      paragraphs: section.paragraphs.map((paragraph) => paragraph.trim()).filter(Boolean),
+    })) || base?.sections || [];
+  const bullets = override?.bullets?.map((item) => item.trim()).filter(Boolean) || base?.bullets || [];
+
+  const resolvedSections = sections.length
+    ? sections
+    : [
+        {
+          title: fallback.overview,
+          paragraphs: [description, fallback.paragraphOne],
+        },
+        {
+          title: fallback.nextSteps,
+          paragraphs: [fallback.paragraphTwo],
+        },
+      ];
+
+  const resolvedBullets = bullets.length ? bullets : [title, description];
+
+  return {
+    sourcePath,
+    title,
+    description,
+    heading,
+    heroImage,
+    heroImageAlt,
+    sections: resolvedSections,
+    bullets: resolvedBullets,
+  };
+}
+
 export const getLegacyDocument = cache(async (locale: Locale, slug: string[]): Promise<LegacyDocument | null> => {
+  const override = getLegacyPageOverride(locale, slug.join('/'));
   const match = await resolveFile(locale, slug);
   if (match) {
     try {
       const html = await readFile(match.absolutePath, 'utf8');
-      const title = extractMatch(html, /<title[^>]*>([\s\S]*?)<\/title>/i, 'Immigrate to Brazil');
+      const title = extractMatch(html, /<title[^>]*>([\s\S]*?)<\/title>/i, siteConfig.brand.name);
       const description = extractMatch(
         html,
         /<meta[^>]*name=["']description["'][^>]*content=["']([\s\S]*?)["'][^>]*>/i,
@@ -311,7 +388,7 @@ export const getLegacyDocument = cache(async (locale: Locale, slug: string[]): P
 
       const { sections, bullets } = buildSections(fragment);
 
-      return {
+      const parsed: LegacyDocument = {
         sourcePath: match.relativePath,
         title,
         description,
@@ -321,10 +398,12 @@ export const getLegacyDocument = cache(async (locale: Locale, slug: string[]): P
         sections,
         bullets,
       };
+      return applyLegacyOverride(locale, slug, parsed, override);
     } catch {
       // Fall back to route-index-driven synthetic content when runtime fs access is unavailable.
     }
   }
 
-  return buildSyntheticDocument(locale, slug);
+  const synthetic = await buildSyntheticDocument(locale, slug);
+  return applyLegacyOverride(locale, slug, synthetic, override);
 });

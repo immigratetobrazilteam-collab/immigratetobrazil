@@ -97,5 +97,11 @@
         "detail": "Advisory session, execution package options, and compliance follow-up."
       }
     ]
+  },
+  "contactPage": {
+    "formTitle": "Demarrer la Consultation",
+    "formSubtitle": "Utilisez ce formulaire securise pour les demandes de conseil juridique. Reponse par e-mail et WhatsApp.",
+    "stateArchiveTitle": "Archives de contact par Etat",
+    "stateArchiveSubtitle": "{{count}} pages de contact par Etat de votre ancien site sont maintenant disponibles dans le nouveau systeme."
   }
 }

@@ -8,16 +8,20 @@ type LegalServiceSchemaProps = {
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
 
 export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
+  const brandName = siteConfig.brand.name;
+  const logoUrl = `${BASE_URL}${siteConfig.brand.logoSchemaPath}`;
+  const ogImageUrl = `${BASE_URL}${siteConfig.brand.ogImagePath}`;
+
   const data = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'LegalService',
         '@id': `${BASE_URL}/#legalservice`,
-        name: 'Immigrate to Brazil',
+        name: brandName,
         url: `${BASE_URL}/${locale}`,
-        image: `${BASE_URL}/brand/og-image.png`,
-        logo: `${BASE_URL}/brand/logo-mark-transparent-1024.png`,
+        image: ogImageUrl,
+        logo: logoUrl,
         email: siteConfig.contact.primaryEmail,
         telephone: siteConfig.contact.whatsappNumber,
         areaServed: 'Brazil',
@@ -40,16 +44,16 @@ export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
       {
         '@type': 'Organization',
         '@id': `${BASE_URL}/#organization`,
-        name: 'Immigrate to Brazil',
+        name: brandName,
         url: BASE_URL,
-        logo: `${BASE_URL}/brand/logo-mark-transparent-1024.png`,
+        logo: logoUrl,
         email: siteConfig.contact.primaryEmail,
       },
       {
         '@type': 'WebSite',
         '@id': `${BASE_URL}/#website`,
         url: BASE_URL,
-        name: 'Immigrate to Brazil',
+        name: brandName,
       },
     ],
   };

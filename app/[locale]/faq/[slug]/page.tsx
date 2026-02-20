@@ -3,7 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
+import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
+import { FaqSchema } from '@/components/faq-schema';
 import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
@@ -65,11 +67,23 @@ export async function generateMetadata({
 export default async function FaqStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const nav = copy[locale].nav;
   const legacy = await getLegacyDocument(locale, ['faq', slug]);
 
   if (legacy) {
     const relatedLinks = await getRelatedRouteLinks(locale, `faq/${slug}`, 16);
-    return <LegacyContent locale={locale} document={legacy} slug={`faq/${slug}`} relatedLinks={relatedLinks} />;
+    return (
+      <>
+        <BreadcrumbSchema
+          items={[
+            { name: nav.home, href: `/${locale}` },
+            { name: nav.faq, href: `/${locale}/faq` },
+            { name: legacy.heading, href: `/${locale}/faq/${slug}` },
+          ]}
+        />
+        <LegacyContent locale={locale} document={legacy} slug={`faq/${slug}`} relatedLinks={relatedLinks} />
+      </>
+    );
   }
 
   const stateSlug = extractStateSlug('faq', slug);
@@ -82,6 +96,15 @@ export default async function FaqStatePage({ params }: { params: Promise<{ local
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: nav.home, href: `/${locale}` },
+          { name: nav.faq, href: `/${locale}/faq` },
+          { name: t.title, href: `/${locale}/faq/${slug}` },
+        ]}
+      />
+      <FaqSchema items={t.qa.map((item) => ({ question: item.q, answer: item.a }))} />
+
       <section className="border-b border-sand-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">FAQ</p>

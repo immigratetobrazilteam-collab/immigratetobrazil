@@ -97,5 +97,11 @@
         "detail": "Sessao estrategica, pacotes de execucao e acompanhamento de conformidade."
       }
     ]
+  },
+  "contactPage": {
+    "formTitle": "Iniciar Consulta",
+    "formSubtitle": "Use este formulario seguro para solicitacoes de consultoria juridica. Respondemos por email e WhatsApp.",
+    "stateArchiveTitle": "Arquivo de contato por estado",
+    "stateArchiveSubtitle": "{{count}} paginas de contato por estado do seu site antigo agora estao disponiveis no novo sistema."
   }
 }

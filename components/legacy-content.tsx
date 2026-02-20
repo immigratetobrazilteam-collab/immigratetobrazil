@@ -2,8 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { FormspreeContactForm } from '@/components/formspree-contact-form';
+import { TrackedLink } from '@/components/tracked-link';
 import type { RouteLink } from '@/lib/route-index';
 import { copy } from '@/lib/i18n';
+import { getLegacyCmsCopy } from '@/lib/legacy-cms-content';
 import { localizedPath } from '@/lib/routes';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
@@ -23,8 +25,22 @@ function segmentLabel(segment: string) {
     .replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
+function resolveExploreHref(locale: Locale, href: string) {
+  const trimmed = href.trim();
+  if (!trimmed) return `/${locale}`;
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://') || trimmed.startsWith('mailto:') || trimmed.startsWith('tel:')) {
+    return trimmed;
+  }
+  if (trimmed === '/sitemap.xml' || trimmed === '/robots.txt') return trimmed;
+  if (trimmed.startsWith('/en/') || trimmed.startsWith('/es/') || trimmed.startsWith('/pt/') || trimmed.startsWith('/fr/')) {
+    return trimmed;
+  }
+  return localizedPath(locale, trimmed);
+}
+
 export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyContentProps) {
   const t = copy[locale];
+  const legacyUi = getLegacyCmsCopy(locale).ui;
   const segments = slug.split('/').filter(Boolean);
   const isContactRoute = slug === 'contact' || slug.startsWith('contact/');
 
@@ -46,7 +62,9 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
                 </span>
               ))}
             </div>
-            <p className="mt-6 text-xs uppercase tracking-[0.14em] text-ink-500">Source: {document.sourcePath}</p>
+            <p className="mt-6 text-xs uppercase tracking-[0.14em] text-ink-500">
+              {legacyUi.sourceLabel}: {document.sourcePath}
+            </p>
           </div>
 
           {document.heroImage ? (
@@ -82,7 +100,7 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
 
             {document.bullets.length ? (
               <aside className="mt-8 rounded-2xl border border-sand-200 bg-white p-6">
-                <h3 className="font-display text-2xl text-ink-900">Key points</h3>
+                <h3 className="font-display text-2xl text-ink-900">{legacyUi.keyPointsTitle}</h3>
                 <ul className="mt-4 grid gap-2 text-sm text-ink-700 sm:grid-cols-2">
                   {document.bullets.map((bullet) => (
                     <li key={bullet}>• {bullet}</li>
@@ -93,12 +111,14 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
 
             <div className="mt-10 rounded-2xl border border-civic-300 bg-civic-50 p-6">
               <p className="text-sm text-ink-800">{t.sections.migrationSubtitle}</p>
-              <Link
+              <TrackedLink
                 href={localizedPath(locale, '/contact')}
+                eventName="cta_click"
+                eventParams={{ cta_location: 'legacy_content', cta_variant: 'primary', locale }}
                 className="mt-4 inline-flex rounded-full bg-ink-900 px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.1em] text-sand-50"
               >
                 {t.cta.button}
-              </Link>
+              </TrackedLink>
             </div>
 
             {isContactRoute ? (
@@ -110,7 +130,7 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
 
           <aside className="space-y-5 lg:sticky lg:top-32 lg:self-start">
             <article className="rounded-2xl border border-sand-200 bg-white p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">Path</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{legacyUi.pathTitle}</p>
               <div className="mt-3 flex flex-wrap gap-2 text-xs text-ink-700">
                 {segments.map((segment) => (
                   <span key={segment} className="rounded-full border border-sand-200 bg-sand-50 px-2.5 py-1">
@@ -121,7 +141,7 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
             </article>
 
             <article className="rounded-2xl border border-sand-200 bg-white p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">Related pages</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{legacyUi.relatedPagesTitle}</p>
               <div className="mt-4 space-y-2">
                 {relatedLinks.slice(0, 14).map((link) => (
                   <Link
@@ -136,20 +156,30 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
             </article>
 
             <article className="rounded-2xl border border-sand-200 bg-white p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">Explore</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{legacyUi.exploreTitle}</p>
               <div className="mt-4 grid gap-2 text-sm">
-                <Link href={localizedPath(locale, '/about/about-brazil')} className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800">
-                  About Brazil hub
-                </Link>
-                <Link href={localizedPath(locale, '/about/about-states')} className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800">
-                  About States hub
-                </Link>
-                <Link href={localizedPath(locale, '/services')} className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800">
-                  Services archive
-                </Link>
-                <Link href={localizedPath(locale, '/library')} className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800">
-                  Full library
-                </Link>
+                {legacyUi.exploreLinks.map((link) => {
+                  const href = resolveExploreHref(locale, link.href);
+                  const external = href.startsWith('http://') || href.startsWith('https://') || href.startsWith('mailto:') || href.startsWith('tel:');
+
+                  if (external) {
+                    return (
+                      <a
+                        key={link.href}
+                        href={href}
+                        className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800"
+                      >
+                        {link.label}
+                      </a>
+                    );
+                  }
+
+                  return (
+                    <Link key={link.href} href={href} className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-ink-800">
+                      {link.label}
+                    </Link>
+                  );
+                })}
               </div>
             </article>
           </aside>
