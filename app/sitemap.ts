@@ -34,7 +34,7 @@ const staticPaths = [
 const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'];
 
 type RouteIndexItem = {
-  locale: 'en' | 'es' | 'pt';
+  locale: 'en' | 'es' | 'pt' | 'fr';
   slug: string;
 };
 

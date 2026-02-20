@@ -4,7 +4,7 @@ import { brazilianStates } from '../content/curated/states';
 import { getLegacyDocument } from '../lib/legacy-loader';
 import type { Locale } from '../lib/types';
 
-const locales: Locale[] = ['en', 'es', 'pt'];
+const locales: Locale[] = ['en', 'es', 'pt', 'fr'];
 
 const modernSlugs = new Set([
   '',

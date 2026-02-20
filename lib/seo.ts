@@ -19,12 +19,13 @@ export function createMetadata(options: {
   const { locale, title, description, pathname } = options;
 
   const normalized = pathname.startsWith(`/${locale}`) ? pathname : `/${locale}${pathname}`;
-  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt)/, '') || '/';
+  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt|fr)/, '') || '/';
 
   const alternates = {
     en: absolute(`/en${pathWithoutLocale}`),
     es: absolute(`/es${pathWithoutLocale}`),
     pt: absolute(`/pt${pathWithoutLocale}`),
+    fr: absolute(`/fr${pathWithoutLocale}`),
   };
 
   return {
@@ -37,6 +38,7 @@ export function createMetadata(options: {
         en: alternates.en,
         es: alternates.es,
         pt: alternates.pt,
+        fr: alternates.fr,
         'x-default': alternates.en,
       },
     },

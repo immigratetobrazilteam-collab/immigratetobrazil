@@ -7,7 +7,7 @@ export function localizedPath(locale: Locale, path = '') {
 
 export function stripLocaleFromPath(pathname: string) {
   const segments = pathname.split('/').filter(Boolean);
-  if (segments[0] === 'en' || segments[0] === 'es' || segments[0] === 'pt') {
+  if (segments[0] === 'en' || segments[0] === 'es' || segments[0] === 'pt' || segments[0] === 'fr') {
     return '/' + segments.slice(1).join('/');
   }
   return pathname;

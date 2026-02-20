@@ -10,6 +10,7 @@ const labels: Record<Locale, string> = {
   en: 'EN',
   es: 'ES',
   pt: 'PT',
+  fr: 'FR',
 };
 
 function buildPath(target: Locale, pathname: string) {

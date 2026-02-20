@@ -94,6 +94,31 @@ function menuCopy(locale: Locale) {
     };
   }
 
+  if (locale === 'fr') {
+    return {
+      aboutCore: 'Base institutionnelle',
+      aboutBrazil: 'Brésil en profondeur',
+      aboutStates: 'États par région',
+      servicesCore: 'Services essentiels',
+      servicesFamilies: 'Familles de services',
+      servicesStates: 'Opérations par État',
+      resourcesHubs: 'Hubs principaux',
+      resourcesDiscover: 'Cartes de découverte',
+      resourcesPolicy: 'Politiques et juridique',
+      insightsCore: 'Hubs éditoriaux',
+      insightsBlogStates: 'Blog par région',
+      insightsFaqStates: 'FAQ par région',
+      contactChannels: 'Canaux de contact',
+      contactStates: 'Contact par région',
+      consultation: 'Consultation stratégique',
+      regionNorth: 'Nord',
+      regionNortheast: 'Nord-Est',
+      regionCentralWest: 'Centre-Ouest',
+      regionSoutheast: 'Sud-Est',
+      regionSouth: 'Sud',
+    };
+  }
+
   return {
     aboutCore: 'Company Foundation',
     aboutBrazil: 'Brazil Knowledge',

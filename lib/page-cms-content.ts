@@ -53,6 +53,7 @@ const pageCmsCopyByLocale: Record<Locale, PageCmsCopy> = {
   en: enPageCopy as PageCmsCopy,
   es: esPageCopy as PageCmsCopy,
   pt: ptPageCopy as PageCmsCopy,
+  fr: enPageCopy as PageCmsCopy,
 };
 
 export function getPageCmsCopy(locale: Locale) {

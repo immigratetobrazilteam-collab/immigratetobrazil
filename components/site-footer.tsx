@@ -63,6 +63,26 @@ function footerCopy(locale: Locale) {
     };
   }
 
+  if (locale === 'fr') {
+    return {
+      aboutTitle: 'Fondations et contexte',
+      servicesTitle: 'Services et exécution',
+      resourcesTitle: 'Ressources et insights',
+      supportTitle: 'Contact et juridique',
+      stateAbout: 'À propos des États par région',
+      stateServices: 'Services par État',
+      stateContact: 'Contact par État',
+      stateBlog: 'Blog par État',
+      stateFaq: 'FAQ par État',
+      allPages: 'Ouvrir la bibliothèque complète',
+      regionNorth: 'Nord',
+      regionNortheast: 'Nord-Est',
+      regionCentralWest: 'Centre-Ouest',
+      regionSoutheast: 'Sud-Est',
+      regionSouth: 'Sud',
+    };
+  }
+
   return {
     aboutTitle: 'Foundation and context',
     servicesTitle: 'Services and execution',

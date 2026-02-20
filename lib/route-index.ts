@@ -29,7 +29,7 @@ export type RoutePrefixGroup = {
 };
 
 const INDEX_PATH = path.join(process.cwd(), 'content/generated/route-index.json');
-const LOCALES = new Set<Locale>(['en', 'es', 'pt']);
+const LOCALES = new Set<Locale>(['en', 'es', 'pt', 'fr']);
 
 function decodeEntities(input: string) {
   return input
@@ -111,7 +111,24 @@ export const getRouteIndex = cache(async (): Promise<RouteIndexEntry[]> => {
 
 export async function getLocaleRoutes(locale: Locale) {
   const routes = await getRouteIndex();
-  return routes.filter((entry) => entry.locale === locale);
+  const localeRoutes = routes.filter((entry) => entry.locale === locale);
+
+  if (locale === 'en') {
+    return localeRoutes;
+  }
+
+  const merged = new Map<string, RouteIndexEntry>();
+
+  for (const entry of routes) {
+    if (entry.locale !== 'en') continue;
+    merged.set(entry.slug, { ...entry, locale });
+  }
+
+  for (const entry of localeRoutes) {
+    merged.set(entry.slug, entry);
+  }
+
+  return Array.from(merged.values());
 }
 
 export async function getRouteLinksByPrefix(

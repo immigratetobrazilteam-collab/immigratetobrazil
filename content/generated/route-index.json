@@ -39621,6 +39621,13 @@
   },
   {
     "locale": "en",
+    "slug": "public/admin",
+    "sourcePath": "public/admin/index.html",
+    "title": "Immigrate to Brazil CMS",
+    "description": ""
+  },
+  {
+    "locale": "en",
     "slug": "resources-guides-brazil",
     "sourcePath": "resources-guides-brazil/index.html",
     "title": "Resources &amp; Guides - Immigrate to Brazil",

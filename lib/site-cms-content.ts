@@ -72,6 +72,7 @@ const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
   en: enSiteCopy as SiteCmsCopy,
   es: esSiteCopy as SiteCmsCopy,
   pt: ptSiteCopy as SiteCmsCopy,
+  fr: enSiteCopy as SiteCmsCopy,
 };
 
 export function getSiteCmsCopy(locale: Locale) {

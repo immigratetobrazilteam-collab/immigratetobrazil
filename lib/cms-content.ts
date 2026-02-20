@@ -76,12 +76,14 @@ const stateCopyByLocale: Record<Locale, StateCopyFile> = {
   en: enStateCopy as StateCopyFile,
   es: esStateCopy as StateCopyFile,
   pt: ptStateCopy as StateCopyFile,
+  fr: enStateCopy as StateCopyFile,
 };
 
 const policiesByLocale: Record<Locale, PolicyFile> = {
   en: enPolicies as PolicyFile,
   es: esPolicies as PolicyFile,
   pt: ptPolicies as PolicyFile,
+  fr: enPolicies as PolicyFile,
 };
 
 function mergeContact(template: ContactCopy, override?: Partial<ContactCopy>): ContactCopy {
