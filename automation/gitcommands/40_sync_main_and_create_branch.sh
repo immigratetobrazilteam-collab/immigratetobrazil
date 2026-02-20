@@ -2,6 +2,9 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+TOOLS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${TOOLS_DIR}/_ssh_helper.sh"
+
 cd "$ROOT_DIR"
 
 if [[ $# -lt 1 ]]; then
@@ -16,6 +19,8 @@ if [[ -n "$(git status --porcelain)" ]]; then
   echo "Working tree is not clean. Commit or stash changes first."
   exit 1
 fi
+
+ensure_ssh_auth
 
 git checkout main
 git pull --ff-only origin main

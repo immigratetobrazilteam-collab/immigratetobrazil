@@ -2,10 +2,13 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+TOOLS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${TOOLS_DIR}/_ssh_helper.sh"
+
 cd "$ROOT_DIR"
 
 STAMP="$(date '+%Y-%m-%d %H:%M:%S')"
-COMMIT_MSG="${*:-auto: release ${STAMP}}"
+COMMIT_MSG="${*:-${STAMP}}"
 CURRENT_BRANCH="$(git branch --show-current)"
 
 if [[ "$CURRENT_BRANCH" == "main" ]]; then
@@ -32,6 +35,8 @@ if [[ -n "$(git status --porcelain)" ]]; then
 else
   echo "No local changes to commit on $CURRENT_BRANCH."
 fi
+
+ensure_ssh_auth
 
 git push -u origin "$CURRENT_BRANCH"
 

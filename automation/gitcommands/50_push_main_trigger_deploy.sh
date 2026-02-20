@@ -2,6 +2,9 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+TOOLS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${TOOLS_DIR}/_ssh_helper.sh"
+
 cd "$ROOT_DIR"
 
 if [[ -n "$(git status --porcelain)" ]]; then
@@ -15,6 +18,8 @@ if [[ "$CURRENT_BRANCH" != "main" ]]; then
   echo "Switching to main..."
   git checkout main
 fi
+
+ensure_ssh_auth
 
 git pull --ff-only origin main
 git push origin main
