@@ -32,19 +32,29 @@ const INDEX_RELATIVE_PATH = path.join('content', 'generated', 'route-index.json'
 const LOCALES = new Set<Locale>(['en', 'es', 'pt', 'fr']);
 
 function candidateRoots() {
-  const cwd = process.cwd();
-  const roots = [
-    process.env.ROUTE_INDEX_ROOT,
-    process.env.LEGACY_CONTENT_ROOT,
-    cwd,
-    path.join(cwd, 'server-functions', 'default'),
-    path.join(cwd, '.open-next', 'server-functions', 'default'),
-    path.resolve(cwd, '..'),
-    path.resolve(cwd, '..', 'server-functions', 'default'),
-    path.resolve(cwd, '..', '.open-next', 'server-functions', 'default'),
-  ].filter(Boolean) as string[];
+  const anchor = path.resolve(process.cwd());
+  const roots = new Set<string>();
 
-  return Array.from(new Set(roots.map((root) => path.resolve(root))));
+  let current = anchor;
+  while (true) {
+    roots.add(current);
+    roots.add(path.join(current, 'server-functions', 'default'));
+    roots.add(path.join(current, '.open-next', 'server-functions', 'default'));
+
+    const parent = path.dirname(current);
+    if (parent === current) break;
+    current = parent;
+  }
+
+  if (process.env.ROUTE_INDEX_ROOT) {
+    roots.add(path.resolve(process.env.ROUTE_INDEX_ROOT));
+  }
+
+  if (process.env.LEGACY_CONTENT_ROOT) {
+    roots.add(path.resolve(process.env.LEGACY_CONTENT_ROOT));
+  }
+
+  return Array.from(roots);
 }
 
 async function fileExists(absolutePath: string) {
