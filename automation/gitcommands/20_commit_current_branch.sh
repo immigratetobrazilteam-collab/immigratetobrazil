@@ -16,7 +16,7 @@ if [[ -z "$(git status --porcelain)" ]]; then
 fi
 
 STAMP="$(date '+%Y-%m-%d %H:%M:%S')"
-COMMIT_MSG="${*:-auto: update ${STAMP}}"
+COMMIT_MSG="${*:-${STAMP}}"
 
 git add -A
 
