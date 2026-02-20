@@ -52,6 +52,14 @@
     "tagline": "Consultoria migratoria focada em conformidade, qualidade documental e execucao segura.",
     "legal": "As informacoes sao orientacoes gerais e nao constituem representacao juridica sem contratacao formal."
   },
+  "upgradeNotice": {
+    "enabled": true,
+    "eyebrow": "Aviso",
+    "title": "Nosso site esta sendo atualizado. Novidades em andamento.",
+    "body": "Consultorias e servicos migratorios continuam com excelencia e sem interrupcao. Enquanto redesenhamos o site para atender melhor nossos clientes, nossa equipe juridica segue ativa. Se voce precisa de ajuda com vistos, residencia ou estrategia migratoria, fale conosco diretamente. Respondemos todas as solicitacoes em ate 24 horas.",
+    "whatsappButton": "Falar no WhatsApp",
+    "emailButton": "Enviar email"
+  },
   "homeContentMap": {
     "eyebrow": "Mapa de conteudo",
     "heading": "Explore todas as secoes migradas",

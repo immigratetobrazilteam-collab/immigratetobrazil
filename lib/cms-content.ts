@@ -1,8 +1,10 @@
 import enPolicies from '@/content/cms/policies/en.json';
 import esPolicies from '@/content/cms/policies/es.json';
+import frPolicies from '@/content/cms/policies/fr.json';
 import ptPolicies from '@/content/cms/policies/pt.json';
 import enStateCopy from '@/content/cms/state-copy/en.json';
 import esStateCopy from '@/content/cms/state-copy/es.json';
+import frStateCopy from '@/content/cms/state-copy/fr.json';
 import ptStateCopy from '@/content/cms/state-copy/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -76,14 +78,14 @@ const stateCopyByLocale: Record<Locale, StateCopyFile> = {
   en: enStateCopy as StateCopyFile,
   es: esStateCopy as StateCopyFile,
   pt: ptStateCopy as StateCopyFile,
-  fr: enStateCopy as StateCopyFile,
+  fr: frStateCopy as StateCopyFile,
 };
 
 const policiesByLocale: Record<Locale, PolicyFile> = {
   en: enPolicies as PolicyFile,
   es: esPolicies as PolicyFile,
   pt: ptPolicies as PolicyFile,
-  fr: enPolicies as PolicyFile,
+  fr: frPolicies as PolicyFile,
 };
 
 function mergeContact(template: ContactCopy, override?: Partial<ContactCopy>): ContactCopy {

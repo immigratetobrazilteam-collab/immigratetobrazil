@@ -109,6 +109,7 @@ Copy `.env.example` to `.env.local` and set:
 
 ## CMS setup
 - Decap CMS admin is available at `/admin`.
+- Non-developer editing guide: `documentation/cms-for-non-developers.md`
 - `/admin` is protected with HTTP Basic Auth from `ADMIN_BASIC_AUTH_USER` + `ADMIN_BASIC_AUTH_PASS`.
 - Config file: `public/admin/config.yml`.
 - OAuth endpoints for Decap are hosted at:

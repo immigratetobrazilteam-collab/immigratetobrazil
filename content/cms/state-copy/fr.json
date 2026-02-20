@@ -1,0 +1,78 @@
+{
+  "locale": "fr",
+  "templates": {
+    "contact": {
+      "title": "Immigration contact for {{state}}",
+      "subtitle": "Strategic support for relocation profiles targeting {{state}} ({{region}}), with base operations centered on {{capital}}.",
+      "cards": [
+        {
+          "title": "Initial assessment",
+          "detail": "Profile review, immigration objective mapping, and document risk scoring."
+        },
+        {
+          "title": "State-level route",
+          "detail": "Execution plan aligned to {{state}} local operational realities."
+        },
+        {
+          "title": "Operational coordination",
+          "detail": "Checklist ownership, translation workflow, and filing timeline control."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Immigration FAQ for {{state}}",
+      "subtitle": "Frequent questions for planning, documentation, and legal regularization.",
+      "qa": [
+        {
+          "q": "Can I start the process before relocating to {{state}}?",
+          "a": "Yes. Document architecture and major preparation steps can be completed remotely."
+        },
+        {
+          "q": "How long does a typical case take?",
+          "a": "It depends on category, evidence quality, and authority timelines. We model a conservative schedule."
+        },
+        {
+          "q": "Do you provide post-arrival support?",
+          "a": "Yes. We cover CPF, immigration registration, and practical onboarding phases."
+        }
+      ]
+    },
+    "services": {
+      "title": "Services to immigrate to {{state}}",
+      "subtitle": "State migration pages rebuilt into the modern architecture with operational governance.",
+      "modules": [
+        {
+          "title": "Visa strategy",
+          "detail": "Eligibility mapping and legal route selection by profile."
+        },
+        {
+          "title": "Residency execution",
+          "detail": "End-to-end filing management and document quality control."
+        },
+        {
+          "title": "Local integration",
+          "detail": "Arrival and stabilization plan for living in {{state}}."
+        }
+      ]
+    },
+    "blog": {
+      "title": "Strategic relocation guide for {{state}}",
+      "subtitle": "State-focused legacy blog content for {{state}} migrated into the modern publishing architecture.",
+      "sections": [
+        {
+          "title": "Local context",
+          "detail": "Operational summary on cost, services, and onboarding dynamics in {{state}}."
+        },
+        {
+          "title": "Risk and opportunity map",
+          "detail": "What to validate before contract commitments or financial decisions."
+        },
+        {
+          "title": "Execution sequence",
+          "detail": "Practical order of operations for arrival, regularization, and stabilization."
+        }
+      ]
+    }
+  },
+  "overrides": []
+}

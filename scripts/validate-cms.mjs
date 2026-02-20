@@ -95,7 +95,7 @@ function validateTitleDetailItems(relativePath, fieldPath, items, min = 1) {
 }
 
 async function validateStateCopy(expectedStateSlugs) {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'es', 'pt', 'fr']) {
     const file = await readJson(`content/cms/state-copy/${locale}.json`);
 
     assert(file.locale === locale, `state-copy/${locale}.json locale must be '${locale}'`);
@@ -125,7 +125,7 @@ async function validateStateCopy(expectedStateSlugs) {
 }
 
 async function validatePolicies(expectedPolicySlugs) {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'es', 'pt', 'fr']) {
     const file = await readJson(`content/cms/policies/${locale}.json`);
 
     assert(file.locale === locale, `policies/${locale}.json locale must be '${locale}'`);
@@ -155,7 +155,7 @@ async function validatePolicies(expectedPolicySlugs) {
 }
 
 async function validateSiteCopy() {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'es', 'pt', 'fr']) {
     const relativePath = `content/cms/site-copy/${locale}.json`;
     const file = await readJson(relativePath);
 
@@ -206,6 +206,12 @@ async function validateSiteCopy() {
       assert(isNonEmptyString(file.footer[key]), `site-copy/${locale}.json footer.${key} is required`);
     }
 
+    assert(isObject(file.upgradeNotice), `site-copy/${locale}.json upgradeNotice must be an object`);
+    assert(typeof file.upgradeNotice.enabled === 'boolean', `site-copy/${locale}.json upgradeNotice.enabled must be boolean`);
+    for (const key of ['eyebrow', 'title', 'body', 'whatsappButton', 'emailButton']) {
+      assert(isNonEmptyString(file.upgradeNotice[key]), `site-copy/${locale}.json upgradeNotice.${key} is required`);
+    }
+
     assert(isObject(file.homeContentMap), `site-copy/${locale}.json homeContentMap must be an object`);
     assert(isNonEmptyString(file.homeContentMap.eyebrow), `site-copy/${locale}.json homeContentMap.eyebrow is required`);
     assert(isNonEmptyString(file.homeContentMap.heading), `site-copy/${locale}.json homeContentMap.heading is required`);
@@ -254,7 +260,7 @@ async function validateSiteCopy() {
 }
 
 async function validatePageCopy() {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'es', 'pt', 'fr']) {
     const relativePath = `content/cms/page-copy/${locale}.json`;
     const file = await readJson(relativePath);
 

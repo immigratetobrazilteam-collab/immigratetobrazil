@@ -29,7 +29,7 @@ export default async function LocaleLayout({
     <div className="min-h-screen bg-sand-50 text-ink-900">
       <LegalServiceSchema locale={locale} />
       <SiteHeader locale={locale} />
-      <SiteUpgradeNotice />
+      <SiteUpgradeNotice locale={locale} />
       <main>{children}</main>
       <SiteFooter locale={locale} />
       <FloatingActions locale={locale} />

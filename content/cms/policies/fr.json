@@ -1,0 +1,77 @@
+{
+  "locale": "fr",
+  "policies": [
+    {
+      "slug": "privacy",
+      "title": "Privacy Policy",
+      "paragraphs": [
+        "Immigrate to Brazil processes personal data to answer inquiries, evaluate immigration eligibility, deliver contracted advisory services, and comply with legal obligations in Brazil and other relevant jurisdictions.",
+        "We may collect identity details, contact information, communication records, immigration profile information, billing records, and technical data such as IP address and browser details when you use this website.",
+        "Data is used under one or more lawful bases, including contract performance, pre-contractual steps requested by you, legitimate interest, consent where required, and compliance with legal obligations.",
+        "Personal data is retained only for as long as necessary for service delivery, legal compliance, dispute resolution, and audit integrity. Retention periods vary by case category and regulatory requirements.",
+        "You may request access, correction, deletion, portability, objection, or restriction of processing, subject to applicable law. Requests can be sent through the contact channels listed on the Contact page.",
+        "We implement administrative, contractual, and technical safeguards designed to protect personal data; however, no internet-based transmission or storage system can be guaranteed as absolutely secure."
+      ]
+    },
+    {
+      "slug": "terms",
+      "title": "Terms of Service",
+      "paragraphs": [
+        "By accessing this website, you agree to these Terms of Service. If you do not agree, you should discontinue use of the website and any digital materials provided through it.",
+        "Website information is provided for general informational purposes and does not create attorney-client representation, legal mandate, or formal engagement unless confirmed by signed agreement.",
+        "You are responsible for the accuracy and completeness of information submitted through forms, consultations, or onboarding workflows. Inaccurate submissions may affect service quality and outcomes.",
+        "Fees, scope, and delivery timelines are governed by the applicable client agreement. Unless explicitly stated in writing, publishing timelines and authority response times are estimates only.",
+        "To the maximum extent permitted by law, liability for indirect, consequential, and incidental losses is excluded. Total liability is limited to fees paid for the relevant contracted service.",
+        "These terms are interpreted under applicable Brazilian law, without prejudice to mandatory consumer protections that may apply based on your residence and transaction context."
+      ]
+    },
+    {
+      "slug": "cookies",
+      "title": "Cookies Policy",
+      "paragraphs": [
+        "This website uses cookies and similar technologies to ensure core functionality, understand usage behavior, improve user experience, and measure campaign performance.",
+        "Essential cookies are required for core service operation and cannot be disabled without affecting website stability. Analytics and marketing cookies are optional and managed by your consent settings where required.",
+        "Third-party tools, including analytics and tag management providers, may place cookies according to their own technical configuration and privacy notices.",
+        "You can manage cookie preferences through your browser settings or any consent controls presented on the website. Blocking certain cookies may reduce website functionality.",
+        "Cookie retention periods vary by category and provider. Session cookies expire when your browsing session ends; persistent cookies remain until expiration or manual deletion.",
+        "We may update this policy to reflect legal, technical, or operational changes. Updated versions take effect when published on this page."
+      ]
+    },
+    {
+      "slug": "gdpr",
+      "title": "Data Protection Notice",
+      "paragraphs": [
+        "For users located in the EEA, UK, or other regions with similar data protection laws, we apply rights and controls consistent with applicable data protection requirements.",
+        "You may request access, rectification, erasure, portability, objection, and restriction of processing. You may also withdraw consent for consent-based processing at any time.",
+        "Cross-border data transfers, when required, are managed through appropriate safeguards such as contractual protections and processor due diligence.",
+        "If you believe your rights were not respected, you may contact us first so we can resolve the matter quickly, and you may also file a complaint with the relevant supervisory authority.",
+        "Data processors used for hosting, analytics, CRM, and operations are selected based on security posture and contractual commitments to confidentiality and lawful processing.",
+        "This notice supplements, and should be read together with, the main Privacy Policy and service-specific contractual documents."
+      ]
+    },
+    {
+      "slug": "refund",
+      "title": "Refund Policy",
+      "paragraphs": [
+        "Refund eligibility depends on the stage of service delivery, work already performed, and the specific contract terms accepted at onboarding.",
+        "Consultation sessions, diagnostic reviews, and custom strategy documents are generally non-refundable once delivered, because they involve reserved expert capacity and completed work product.",
+        "For ongoing service packages, partial refunds may be considered for unperformed portions where contract terms allow and where legal/administrative costs have not already been incurred.",
+        "Refund requests must be submitted in writing through official contact channels with your full name, service reference, payment proof, and reason for request.",
+        "Approved refunds are processed through the original payment rail where feasible and may require standard banking or payment-provider processing time.",
+        "Nothing in this policy limits mandatory consumer rights that cannot be waived under applicable law."
+      ]
+    },
+    {
+      "slug": "disclaimers",
+      "title": "Legal Disclaimers",
+      "paragraphs": [
+        "Website materials are educational and operational in nature and do not constitute individualized legal advice unless provided under a formal signed engagement.",
+        "Immigration outcomes depend on facts, documentation quality, authority discretion, and evolving regulations. Past approvals do not guarantee future decisions.",
+        "Estimated timelines, costs, and procedural steps are planning references and may change due to government updates, workload, or jurisdiction-specific practice.",
+        "External links are provided for convenience. We are not responsible for third-party content, uptime, data practices, or legal statements on external websites.",
+        "Users remain responsible for verifying final submission documents and declarations before filing with authorities.",
+        "By using this website, you acknowledge these limitations and agree to seek personalized professional advice when needed for high-stakes legal decisions."
+      ]
+    }
+  ]
+}

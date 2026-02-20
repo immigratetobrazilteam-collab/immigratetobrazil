@@ -241,6 +241,16 @@ collections:
         fields:
           - { label: Tagline, name: tagline, widget: text }
           - { label: Legal, name: legal, widget: text }
+      - label: Upgrade Notice Banner
+        name: upgradeNotice
+        widget: object
+        fields:
+          - { label: Enabled, name: enabled, widget: boolean, default: true }
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: text }
+          - { label: WhatsApp Button, name: whatsappButton, widget: string }
+          - { label: Email Button, name: emailButton, widget: string }
       - label: Home Content Map
         name: homeContentMap
         widget: object
@@ -371,3 +381,33 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Detail, name: detail, widget: text }
+
+  - name: rewrite_bank
+    label: Legacy Rewrite Bank
+    folder: content/cms/rewrite-bank
+    create: true
+    extension: md
+    format: frontmatter
+    slug: '{{locale}}-{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: select
+        options: ['en', 'es', 'pt', 'fr']
+      - label: Source Legacy Path
+        name: sourcePath
+        required: false
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Summary
+        name: summary
+        widget: text
+      - label: Ready To Publish
+        name: ready
+        widget: boolean
+        default: false
+      - label: Body
+        name: body
+        widget: markdown

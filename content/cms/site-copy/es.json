@@ -52,6 +52,14 @@
     "tagline": "Asesoria migratoria enfocada en cumplimiento, calidad documental y ejecucion confiable.",
     "legal": "La informacion es orientacion general y no constituye representacion legal hasta confirmar el servicio."
   },
+  "upgradeNotice": {
+    "enabled": true,
+    "eyebrow": "Aviso",
+    "title": "Nuestro sitio web esta siendo actualizado. Mejoras en progreso.",
+    "body": "Las consultas y servicios migratorios siguen funcionando con excelencia y sin interrupciones. Mientras redisenamos el sitio para atender mejor a nuestros clientes, nuestro equipo legal continua activo. Si necesitas ayuda con visas, residencia o estrategia migratoria, contactanos directamente. Respondemos todas las consultas en 24 horas.",
+    "whatsappButton": "Escribir por WhatsApp",
+    "emailButton": "Enviar email"
+  },
   "homeContentMap": {
     "eyebrow": "Mapa de contenido",
     "heading": "Explora todas las secciones migradas",

@@ -1,5 +1,6 @@
 import enPageCopy from '@/content/cms/page-copy/en.json';
 import esPageCopy from '@/content/cms/page-copy/es.json';
+import frPageCopy from '@/content/cms/page-copy/fr.json';
 import ptPageCopy from '@/content/cms/page-copy/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -53,7 +54,7 @@ const pageCmsCopyByLocale: Record<Locale, PageCmsCopy> = {
   en: enPageCopy as PageCmsCopy,
   es: esPageCopy as PageCmsCopy,
   pt: ptPageCopy as PageCmsCopy,
-  fr: enPageCopy as PageCmsCopy,
+  fr: frPageCopy as PageCmsCopy,
 };
 
 export function getPageCmsCopy(locale: Locale) {
