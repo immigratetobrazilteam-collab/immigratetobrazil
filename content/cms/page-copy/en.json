@@ -1,0 +1,101 @@
+{
+  "locale": "en",
+  "applyBrazil": {
+    "eyebrow": "Apply Brazil",
+    "title": "Apply to Brazil with a controlled legal process",
+    "subtitle": "This migrated page replaces the legacy static template with a structured execution flow for visa and residency applications.",
+    "steps": [
+      {
+        "title": "Eligibility mapping",
+        "detail": "Choose the correct immigration basis before collecting records."
+      },
+      {
+        "title": "Document architecture",
+        "detail": "Create source, translation, notarization, and validity matrix."
+      },
+      {
+        "title": "Submission strategy",
+        "detail": "File with quality gates, evidence integrity, and timeline controls."
+      },
+      {
+        "title": "Post-submission tracking",
+        "detail": "Monitor requests, respond to clarifications, and secure final approval."
+      }
+    ],
+    "checklistTitle": "Priority pre-application checklist",
+    "checklist": [
+      "Passport and civil records verified for validity windows",
+      "Income, employment, or investment proofs aligned with visa category",
+      "Sworn translation and legalization requirements mapped",
+      "Local onboarding sequence prepared for CPF and immigration registration"
+    ],
+    "buttonLabel": "Book consultation"
+  },
+  "costOfLivingBrazil": {
+    "eyebrow": "Cost of living",
+    "title": "Cost of living planning for Brazilian relocation",
+    "subtitle": "This migrated route provides a concise budgeting model for housing, transport, healthcare, and integration expenses.",
+    "cards": [
+      {
+        "title": "Housing baseline",
+        "detail": "Model city-by-city rent ranges and include lease setup, deposits, and utility activation."
+      },
+      {
+        "title": "Monthly essentials",
+        "detail": "Track food, transit, communications, and private services with conservative buffers."
+      },
+      {
+        "title": "Compliance costs",
+        "detail": "Reserve budget for translations, certifications, application fees, and renewals."
+      },
+      {
+        "title": "Stabilization reserve",
+        "detail": "Maintain at least 3 to 6 months of liquidity during the first integration cycle."
+      }
+    ]
+  },
+  "resourcesGuidesBrazil": {
+    "eyebrow": "Resource hub",
+    "title": "Brazil immigration resources and operational guides",
+    "subtitle": "Modernized resource hub replacing legacy static blocks with structured guidance categories.",
+    "items": [
+      {
+        "title": "Visa category playbooks",
+        "detail": "Decision trees, eligibility references, and supporting document standards."
+      },
+      {
+        "title": "State selection guides",
+        "detail": "Regional cost, climate, legal workflow, and infrastructure tradeoffs."
+      },
+      {
+        "title": "Arrival operations",
+        "detail": "CPF, CRNM/RNE, housing, healthcare, education, and banking setup references."
+      },
+      {
+        "title": "Compliance alerts",
+        "detail": "Renewal timing, validity windows, and procedural checkpoints."
+      }
+    ],
+    "legacyArchiveTitle": "Legacy discover archives",
+    "legacyArchiveSubtitle": "The old discover folders are now grouped below so they can be linked from modern pages and navigation."
+  },
+  "visaConsultation": {
+    "eyebrow": "Visa consultation",
+    "title": "Visa consultation framework",
+    "subtitle": "First-wave migration of legacy consultation content into a clear paid-advisory scope with documented outputs.",
+    "blocks": [
+      {
+        "title": "Session deliverables",
+        "detail": "Eligibility map, risk flags, required documents, and priority timeline."
+      },
+      {
+        "title": "Profile categories",
+        "detail": "Work, digital nomad, investment, retirement, family, and transition scenarios."
+      },
+      {
+        "title": "Commercial scope",
+        "detail": "Advisory session, execution package options, and compliance follow-up."
+      }
+    ]
+  }
+}

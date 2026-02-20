@@ -1,0 +1,101 @@
+{
+  "locale": "es",
+  "applyBrazil": {
+    "eyebrow": "Aplicar a Brasil",
+    "title": "Solicita tu proceso migratorio a Brasil con control legal",
+    "subtitle": "Esta version migrada reemplaza la plantilla estatica heredada por un flujo estructurado para visas y residencias.",
+    "steps": [
+      {
+        "title": "Mapa de elegibilidad",
+        "detail": "Define la base migratoria correcta antes de reunir documentos."
+      },
+      {
+        "title": "Arquitectura documental",
+        "detail": "Organiza origen, traduccion, legalizacion y vigencia de cada registro."
+      },
+      {
+        "title": "Estrategia de presentacion",
+        "detail": "Presenta con controles de calidad y evidencia consistente."
+      },
+      {
+        "title": "Seguimiento posterior",
+        "detail": "Monitorea requerimientos y asegura cierre del proceso."
+      }
+    ],
+    "checklistTitle": "Checklist prioritario antes de aplicar",
+    "checklist": [
+      "Pasaporte y registros civiles verificados por vigencia",
+      "Pruebas financieras/laborales alineadas con la categoria",
+      "Traduccion jurada y legalizacion definidas por documento",
+      "Secuencia local preparada para CPF y registro migratorio"
+    ],
+    "buttonLabel": "Reservar consulta"
+  },
+  "costOfLivingBrazil": {
+    "eyebrow": "Costo de vida",
+    "title": "Planificacion del costo de vida para mudarte a Brasil",
+    "subtitle": "Esta ruta migrada entrega un modelo breve de presupuesto para vivienda, transporte, salud e integracion.",
+    "cards": [
+      {
+        "title": "Base de vivienda",
+        "detail": "Modela alquiler por ciudad e incluye deposito, contrato y servicios."
+      },
+      {
+        "title": "Gastos mensuales",
+        "detail": "Controla comida, transporte, comunicaciones y servicios privados con margen."
+      },
+      {
+        "title": "Costos de cumplimiento",
+        "detail": "Reserva para traducciones, certificaciones, tasas y renovaciones."
+      },
+      {
+        "title": "Reserva de estabilizacion",
+        "detail": "Manten entre 3 y 6 meses de liquidez durante la fase inicial."
+      }
+    ]
+  },
+  "resourcesGuidesBrazil": {
+    "eyebrow": "Centro de recursos",
+    "title": "Recursos y guias operativas para inmigrar a Brasil",
+    "subtitle": "Centro moderno de recursos que reemplaza bloques estaticos heredados por categorias estructuradas.",
+    "items": [
+      {
+        "title": "Guias por tipo de visa",
+        "detail": "Arboles de decision, elegibilidad y estandares documentales."
+      },
+      {
+        "title": "Guias por estado",
+        "detail": "Costo regional, clima, flujo legal e infraestructura."
+      },
+      {
+        "title": "Operacion de llegada",
+        "detail": "CPF, CRNM/RNE, vivienda, salud, educacion y banca."
+      },
+      {
+        "title": "Alertas de cumplimiento",
+        "detail": "Renovaciones, vigencia y puntos criticos del proceso."
+      }
+    ],
+    "legacyArchiveTitle": "Archivos discover heredados",
+    "legacyArchiveSubtitle": "Las carpetas discover antiguas ahora se agrupan aqui para enlazarse desde la navegacion moderna."
+  },
+  "visaConsultation": {
+    "eyebrow": "Consulta de visa",
+    "title": "Marco de consulta de visa",
+    "subtitle": "Primera migracion del contenido legado de consulta hacia un alcance premium con entregables claros.",
+    "blocks": [
+      {
+        "title": "Entregables",
+        "detail": "Mapa de elegibilidad, riesgos, documentos requeridos y cronograma prioritario."
+      },
+      {
+        "title": "Perfiles",
+        "detail": "Trabajo, nomada digital, inversion, jubilacion, familia y escenarios de transicion."
+      },
+      {
+        "title": "Alcance comercial",
+        "detail": "Sesion estrategica, paquetes de ejecucion y seguimiento de cumplimiento."
+      }
+    ]
+  }
+}

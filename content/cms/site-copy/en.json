@@ -1,0 +1,170 @@
+{
+  "locale": "en",
+  "brand": "Immigrate to Brazil",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "resources": "Resources",
+    "blog": "Insights",
+    "faq": "FAQ",
+    "library": "All Pages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Trusted Immigration Advisory",
+    "title": "A modern path to Brazil residency, visas, and legal certainty",
+    "subtitle": "Premium relocation strategy built for families, investors, remote professionals, and retirees who want compliant, low-risk immigration execution.",
+    "primaryCta": "Book Strategy Consultation",
+    "secondaryCta": "Explore Services",
+    "highlightsTitle": "Modern platform highlights",
+    "highlights": [
+      "Unified locale architecture with EN, ES, and PT route strategy.",
+      "Dynamic legacy bridge that scales past thousands of existing pages.",
+      "Structured premium UI system for trust-first immigration conversion."
+    ]
+  },
+  "sections": {
+    "servicesTitle": "Immigration services designed for legal clarity",
+    "servicesSubtitle": "From visa selection to documentation and post-arrival setup, every workflow is structured, auditable, and multilingual.",
+    "processTitle": "How the engagement works",
+    "processSubtitle": "A documented, accountable process with transparent milestones and compliance checkpoints.",
+    "trustTitle": "Trust markers clients expect from premium advisory firms",
+    "migrationTitle": "Legacy content migration system",
+    "migrationSubtitle": "Existing static pages are now bridged into a modern route architecture so scale is no longer limited by manual HTML duplication.",
+    "blogTitle": "Recent guidance and updates",
+    "blogSubtitle": "Operational insights for visas, residencies, local onboarding, and legal documentation."
+  },
+  "cta": {
+    "title": "Ready to formalize your Brazil move with confidence?",
+    "subtitle": "Start with a paid strategy session and receive a concrete roadmap for your profile.",
+    "button": "Start Consultation"
+  },
+  "contact": {
+    "title": "Talk to an advisor",
+    "subtitle": "Share your profile and timeline. We reply with availability and scope within one business day.",
+    "consultation": "Consultation Desk",
+    "whatsapp": "Secure WhatsApp",
+    "email": "Client Email"
+  },
+  "footer": {
+    "tagline": "Immigration advisory focused on compliance, documentation quality, and execution certainty.",
+    "legal": "Information provided is general guidance and not legal representation until engagement is confirmed."
+  },
+  "homeContentMap": {
+    "eyebrow": "Content map",
+    "heading": "Explore all migrated legacy sections",
+    "links": [
+      {
+        "href": "/about/about-brazil",
+        "label": "About Brazil"
+      },
+      {
+        "href": "/about/about-states",
+        "label": "About States"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "About Us"
+      },
+      {
+        "href": "/services",
+        "label": "Services archive"
+      },
+      {
+        "href": "/home",
+        "label": "Home archive"
+      },
+      {
+        "href": "/library",
+        "label": "All pages library"
+      }
+    ]
+  },
+  "trustStats": [
+    {
+      "value": "8k+",
+      "label": "Legacy pages now supported through dynamic routing"
+    },
+    {
+      "value": "3",
+      "label": "Built-in languages (EN, ES, PT)"
+    },
+    {
+      "value": "27",
+      "label": "State-level strategy coverage"
+    },
+    {
+      "value": "24/7",
+      "label": "Secure lead intake pipeline availability"
+    }
+  ],
+  "serviceCards": [
+    {
+      "slug": "visa-strategy",
+      "title": "Visa Strategy and Eligibility",
+      "description": "Profile-led visa mapping for work, investor, digital nomad, family, retirement, and special categories.",
+      "highlights": [
+        "Risk scoring",
+        "Document matrix",
+        "Timeline forecast"
+      ]
+    },
+    {
+      "slug": "residency-execution",
+      "title": "Residency Application Execution",
+      "description": "End-to-end management of submissions, supporting records, sworn translations, and procedural follow-through.",
+      "highlights": [
+        "Checklist control",
+        "Case ownership",
+        "Compliance monitoring"
+      ]
+    },
+    {
+      "slug": "post-arrival",
+      "title": "Post-Arrival Integration",
+      "description": "Operational setup for CPF, CRNM/RNE, housing, schooling, banking, and local onboarding pathways.",
+      "highlights": [
+        "Relocation workflow",
+        "Partner referrals",
+        "Settlement playbook"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Strategy Intake",
+      "description": "We audit profile, goals, timeline, and dependencies to define the legally viable immigration path."
+    },
+    {
+      "title": "Document Architecture",
+      "description": "All required records are mapped with source authority, translation status, and validity windows."
+    },
+    {
+      "title": "Submission and Tracking",
+      "description": "Applications are filed with structured QA and status tracking until adjudication milestones."
+    },
+    {
+      "title": "Arrival and Stabilization",
+      "description": "Post-approval support covers registration, practical setup, and continuity planning."
+    }
+  ],
+  "blogHighlights": [
+    {
+      "slug": "visa-document-quality",
+      "title": "Why documentation quality beats speed in immigration filings",
+      "summary": "A practical framework for reducing denial risk before submission."
+    },
+    {
+      "slug": "state-selection-framework",
+      "title": "How to select the right Brazilian state for your relocation profile",
+      "summary": "A location matrix balancing cost, legal workflows, and integration factors."
+    },
+    {
+      "slug": "residency-to-citizenship-roadmap",
+      "title": "Residency-to-citizenship planning: milestones and blind spots",
+      "summary": "A multi-year strategy for legal continuity and long-term residence goals."
+    }
+  ]
+}

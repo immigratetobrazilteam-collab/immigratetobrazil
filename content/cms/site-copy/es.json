@@ -1,0 +1,170 @@
+{
+  "locale": "es",
+  "brand": "Inmigrar a Brasil",
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "process": "Proceso",
+    "resources": "Recursos",
+    "blog": "Guias",
+    "faq": "FAQ",
+    "library": "Todas las paginas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Asesoria Migratoria Confiable",
+    "title": "Un camino moderno para residencia, visas y seguridad legal en Brasil",
+    "subtitle": "Estrategia premium para familias, inversionistas, profesionales remotos y jubilados que necesitan ejecucion migratoria con bajo riesgo.",
+    "primaryCta": "Reservar Consulta Estrategica",
+    "secondaryCta": "Ver Servicios",
+    "highlightsTitle": "Puntos clave de la plataforma",
+    "highlights": [
+      "Arquitectura de rutas por idioma en EN, ES y PT.",
+      "Puente dinamico para escalar miles de paginas legadas.",
+      "Sistema visual premium orientado a conversion y confianza."
+    ]
+  },
+  "sections": {
+    "servicesTitle": "Servicios migratorios con claridad legal",
+    "servicesSubtitle": "Desde la eleccion de visa hasta la documentacion y la llegada, cada flujo esta estructurado, auditado y en varios idiomas.",
+    "processTitle": "Como funciona el proceso",
+    "processSubtitle": "Proceso documentado y transparente con hitos y controles de cumplimiento.",
+    "trustTitle": "Indicadores de confianza esperados en asesoria premium",
+    "migrationTitle": "Sistema moderno para migrar contenido legado",
+    "migrationSubtitle": "Las paginas estaticas existentes ahora se integran en una arquitectura escalable sin duplicacion manual de HTML.",
+    "blogTitle": "Guias y actualizaciones recientes",
+    "blogSubtitle": "Informacion operativa sobre visas, residencias y documentacion local."
+  },
+  "cta": {
+    "title": "Listo para planificar tu mudanza a Brasil con certeza?",
+    "subtitle": "Empieza con una sesion estrategica y recibe una hoja de ruta concreta para tu perfil.",
+    "button": "Iniciar Consulta"
+  },
+  "contact": {
+    "title": "Habla con un asesor",
+    "subtitle": "Comparte tu perfil y fecha objetivo. Respondemos con disponibilidad y alcance en un dia habil.",
+    "consultation": "Mesa de Consultas",
+    "whatsapp": "WhatsApp Seguro",
+    "email": "Correo de Clientes"
+  },
+  "footer": {
+    "tagline": "Asesoria migratoria enfocada en cumplimiento, calidad documental y ejecucion confiable.",
+    "legal": "La informacion es orientacion general y no constituye representacion legal hasta confirmar el servicio."
+  },
+  "homeContentMap": {
+    "eyebrow": "Mapa de contenido",
+    "heading": "Explora todas las secciones migradas",
+    "links": [
+      {
+        "href": "/about/about-brazil",
+        "label": "Sobre Brasil"
+      },
+      {
+        "href": "/about/about-states",
+        "label": "Sobre Estados"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "Sobre Nosotros"
+      },
+      {
+        "href": "/services",
+        "label": "Archivo de servicios"
+      },
+      {
+        "href": "/home",
+        "label": "Archivo de inicio"
+      },
+      {
+        "href": "/library",
+        "label": "Biblioteca completa"
+      }
+    ]
+  },
+  "trustStats": [
+    {
+      "value": "8k+",
+      "label": "Paginas heredadas soportadas por rutas dinamicas"
+    },
+    {
+      "value": "3",
+      "label": "Idiomas integrados (EN, ES, PT)"
+    },
+    {
+      "value": "27",
+      "label": "Cobertura estrategica por estado"
+    },
+    {
+      "value": "24/7",
+      "label": "Disponibilidad de captacion segura de clientes"
+    }
+  ],
+  "serviceCards": [
+    {
+      "slug": "visa-strategy",
+      "title": "Estrategia de Visa y Elegibilidad",
+      "description": "Mapeo de visa segun perfil para trabajo, inversion, nomada digital, familia, jubilacion y categorias especiales.",
+      "highlights": [
+        "Evaluacion de riesgo",
+        "Matriz documental",
+        "Pronostico de plazos"
+      ]
+    },
+    {
+      "slug": "residency-execution",
+      "title": "Ejecucion de Residencia",
+      "description": "Gestion integral de solicitud, registros de soporte, traducciones juradas y seguimiento del proceso.",
+      "highlights": [
+        "Control de checklist",
+        "Responsable de caso",
+        "Monitoreo de cumplimiento"
+      ]
+    },
+    {
+      "slug": "post-arrival",
+      "title": "Integracion Post-Llegada",
+      "description": "Configuracion operativa para CPF, CRNM/RNE, vivienda, educacion, banca y adaptacion local.",
+      "highlights": [
+        "Flujo de relocalizacion",
+        "Red de aliados",
+        "Guia de instalacion"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Diagnostico Estrategico",
+      "description": "Auditamos perfil, objetivos, plazos y dependencias para definir la ruta migratoria viable."
+    },
+    {
+      "title": "Arquitectura Documental",
+      "description": "Se mapea cada documento con entidad emisora, traduccion y vigencia."
+    },
+    {
+      "title": "Presentacion y Seguimiento",
+      "description": "La solicitud se presenta con control de calidad y seguimiento hasta hitos de decision."
+    },
+    {
+      "title": "Llegada y Estabilizacion",
+      "description": "Soporte posterior para registros, adaptacion practica y continuidad del plan."
+    }
+  ],
+  "blogHighlights": [
+    {
+      "slug": "visa-document-quality",
+      "title": "Por que la calidad documental supera la velocidad en migracion",
+      "summary": "Marco practico para reducir riesgo de rechazo antes de presentar."
+    },
+    {
+      "slug": "state-selection-framework",
+      "title": "Como elegir el estado correcto en Brasil para tu perfil",
+      "summary": "Matriz de ubicacion entre costo, procesos legales e integracion."
+    },
+    {
+      "slug": "residency-to-citizenship-roadmap",
+      "title": "Ruta de residencia a ciudadania: hitos y puntos ciegos",
+      "summary": "Estrategia de varios anos para continuidad legal y objetivos de largo plazo."
+    }
+  ]
+}

@@ -53,8 +53,22 @@ export async function GET() {
     path.join(process.cwd(), 'content/cms/policies/pt.json'),
   ];
 
+  const siteCopyPaths = [
+    path.join(process.cwd(), 'content/cms/site-copy/en.json'),
+    path.join(process.cwd(), 'content/cms/site-copy/es.json'),
+    path.join(process.cwd(), 'content/cms/site-copy/pt.json'),
+  ];
+
+  const pageCopyPaths = [
+    path.join(process.cwd(), 'content/cms/page-copy/en.json'),
+    path.join(process.cwd(), 'content/cms/page-copy/es.json'),
+    path.join(process.cwd(), 'content/cms/page-copy/pt.json'),
+  ];
+
   const [enState, esState, ptState] = await Promise.all(stateCopyPaths.map(readJsonFile));
   const [enPolicies, esPolicies, ptPolicies] = await Promise.all(policyPaths.map(readJsonFile));
+  const [enSiteCopy, esSiteCopy, ptSiteCopy] = await Promise.all(siteCopyPaths.map(readJsonFile));
+  const [enPageCopy, esPageCopy, ptPageCopy] = await Promise.all(pageCopyPaths.map(readJsonFile));
 
   const payload = {
     status: 'ok',
@@ -74,6 +88,16 @@ export async function GET() {
         en: Array.isArray(enPolicies?.policies) ? enPolicies.policies.length : 0,
         es: Array.isArray(esPolicies?.policies) ? esPolicies.policies.length : 0,
         pt: Array.isArray(ptPolicies?.policies) ? ptPolicies.policies.length : 0,
+      },
+      siteCopyPresent: {
+        en: Boolean(enSiteCopy?.hero),
+        es: Boolean(esSiteCopy?.hero),
+        pt: Boolean(ptSiteCopy?.hero),
+      },
+      pageCopyPresent: {
+        en: Boolean(enPageCopy?.applyBrazil),
+        es: Boolean(esPageCopy?.applyBrazil),
+        pt: Boolean(ptPageCopy?.applyBrazil),
       },
       expectedPolicySlugs: POLICY_SLUGS,
     },

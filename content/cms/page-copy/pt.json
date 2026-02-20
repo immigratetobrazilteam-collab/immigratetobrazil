@@ -1,0 +1,101 @@
+{
+  "locale": "pt",
+  "applyBrazil": {
+    "eyebrow": "Aplicar ao Brasil",
+    "title": "Aplique para o Brasil com processo juridico controlado",
+    "subtitle": "Esta pagina migrada substitui o template estatico legado por um fluxo estruturado para vistos e residencias.",
+    "steps": [
+      {
+        "title": "Mapeamento de elegibilidade",
+        "detail": "Defina a base migratoria correta antes de coletar documentos."
+      },
+      {
+        "title": "Arquitetura documental",
+        "detail": "Organize origem, traducao, legalizacao e validade de cada registro."
+      },
+      {
+        "title": "Estrategia de protocolo",
+        "detail": "Protocole com controle de qualidade e evidencias consistentes."
+      },
+      {
+        "title": "Acompanhamento",
+        "detail": "Monitore exigencias e garanta a finalizacao do processo."
+      }
+    ],
+    "checklistTitle": "Checklist prioritario pre-aplicacao",
+    "checklist": [
+      "Passaporte e documentos civis validados por prazo de vigencia",
+      "Comprovantes financeiros/profissionais alinhados a categoria",
+      "Traducao juramentada e legalizacao mapeadas por documento",
+      "Sequencia local pronta para CPF e registro migratorio"
+    ],
+    "buttonLabel": "Agendar consulta"
+  },
+  "costOfLivingBrazil": {
+    "eyebrow": "Custo de vida",
+    "title": "Planejamento de custo de vida para mudanca ao Brasil",
+    "subtitle": "Esta rota migrada oferece um modelo resumido de orcamento para moradia, transporte, saude e integracao.",
+    "cards": [
+      {
+        "title": "Base de moradia",
+        "detail": "Projete aluguel por cidade incluindo caucao, contrato e ativacao de servicos."
+      },
+      {
+        "title": "Despesas mensais",
+        "detail": "Monitore alimentacao, transporte, comunicacao e servicos com margem de seguranca."
+      },
+      {
+        "title": "Custos de conformidade",
+        "detail": "Reserve valores para traducoes, certidoes, taxas e renovacoes."
+      },
+      {
+        "title": "Reserva de estabilizacao",
+        "detail": "Mantenha de 3 a 6 meses de liquidez no ciclo inicial."
+      }
+    ]
+  },
+  "resourcesGuidesBrazil": {
+    "eyebrow": "Hub de recursos",
+    "title": "Recursos e guias operacionais para imigracao ao Brasil",
+    "subtitle": "Hub moderno de recursos substituindo blocos estaticos legados por categorias estruturadas.",
+    "items": [
+      {
+        "title": "Guias por categoria de visto",
+        "detail": "Arvores de decisao, elegibilidade e padroes documentais."
+      },
+      {
+        "title": "Guias por estado",
+        "detail": "Custo regional, clima, fluxo juridico e infraestrutura."
+      },
+      {
+        "title": "Operacao de chegada",
+        "detail": "CPF, CRNM/RNE, moradia, saude, educacao e bancarizacao."
+      },
+      {
+        "title": "Alertas de conformidade",
+        "detail": "Renovacoes, prazos de validade e checkpoints criticos."
+      }
+    ],
+    "legacyArchiveTitle": "Arquivos discover legados",
+    "legacyArchiveSubtitle": "As pastas discover antigas agora ficam agrupadas aqui para ligacao pela navegacao moderna."
+  },
+  "visaConsultation": {
+    "eyebrow": "Consulta de visto",
+    "title": "Estrutura de consulta de visto",
+    "subtitle": "Primeira migracao do conteudo legado de consulta para um escopo premium com entregaveis objetivos.",
+    "blocks": [
+      {
+        "title": "Entregaveis",
+        "detail": "Mapa de elegibilidade, riscos, documentos necessarios e cronograma prioritario."
+      },
+      {
+        "title": "Perfis atendidos",
+        "detail": "Trabalho, nomade digital, investimento, aposentadoria, familia e transicao."
+      },
+      {
+        "title": "Escopo comercial",
+        "detail": "Sessao estrategica, pacotes de execucao e acompanhamento de conformidade."
+      }
+    ]
+  }
+}

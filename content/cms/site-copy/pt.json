@@ -1,0 +1,170 @@
+{
+  "locale": "pt",
+  "brand": "Imigrar para o Brasil",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "services": "Servicos",
+    "process": "Processo",
+    "resources": "Recursos",
+    "blog": "Conteudos",
+    "faq": "FAQ",
+    "library": "Todas as paginas",
+    "contact": "Contato"
+  },
+  "hero": {
+    "eyebrow": "Consultoria Migratoria de Confianca",
+    "title": "Um sistema moderno para residencia, vistos e seguranca juridica no Brasil",
+    "subtitle": "Estrategia premium para familias, investidores, profissionais remotos e aposentados que precisam de execucao migratoria com previsibilidade.",
+    "primaryCta": "Agendar Consulta Estrategica",
+    "secondaryCta": "Explorar Servicos",
+    "highlightsTitle": "Destaques da plataforma",
+    "highlights": [
+      "Arquitetura de rotas por idioma em EN, ES e PT.",
+      "Ponte dinamica para escalar milhares de paginas legadas.",
+      "Sistema visual premium voltado para confianca e conversao."
+    ]
+  },
+  "sections": {
+    "servicesTitle": "Servicos migratorios com clareza juridica",
+    "servicesSubtitle": "Da escolha do visto a documentacao e instalacao, cada fluxo e estruturado, auditavel e multilingue.",
+    "processTitle": "Como funciona o atendimento",
+    "processSubtitle": "Processo documentado com marcos transparentes e controles de conformidade.",
+    "trustTitle": "Indicadores de confianca esperados em consultoria premium",
+    "migrationTitle": "Sistema para migracao de conteudo legado",
+    "migrationSubtitle": "As paginas estaticas existentes agora sao conectadas a uma arquitetura moderna e escalavel.",
+    "blogTitle": "Atualizacoes e orientacoes recentes",
+    "blogSubtitle": "Insights operacionais sobre vistos, residencias, integracao local e documentacao."
+  },
+  "cta": {
+    "title": "Pronto para organizar sua mudanca para o Brasil com seguranca?",
+    "subtitle": "Comece com uma sessao estrategica e receba um roteiro objetivo para o seu perfil.",
+    "button": "Iniciar Consulta"
+  },
+  "contact": {
+    "title": "Fale com um consultor",
+    "subtitle": "Envie seu perfil e prazo. Respondemos com disponibilidade e escopo em ate um dia util.",
+    "consultation": "Central de Consultoria",
+    "whatsapp": "WhatsApp Seguro",
+    "email": "E-mail de Atendimento"
+  },
+  "footer": {
+    "tagline": "Consultoria migratoria focada em conformidade, qualidade documental e execucao segura.",
+    "legal": "As informacoes sao orientacoes gerais e nao constituem representacao juridica sem contratacao formal."
+  },
+  "homeContentMap": {
+    "eyebrow": "Mapa de conteudo",
+    "heading": "Explore todas as secoes migradas",
+    "links": [
+      {
+        "href": "/about/about-brazil",
+        "label": "Sobre o Brasil"
+      },
+      {
+        "href": "/about/about-states",
+        "label": "Sobre os Estados"
+      },
+      {
+        "href": "/about/about-us",
+        "label": "Sobre Nos"
+      },
+      {
+        "href": "/services",
+        "label": "Arquivo de servicos"
+      },
+      {
+        "href": "/home",
+        "label": "Arquivo inicial"
+      },
+      {
+        "href": "/library",
+        "label": "Biblioteca completa"
+      }
+    ]
+  },
+  "trustStats": [
+    {
+      "value": "8k+",
+      "label": "Paginas legadas atendidas por rotas dinamicas"
+    },
+    {
+      "value": "3",
+      "label": "Idiomas nativos (EN, ES, PT)"
+    },
+    {
+      "value": "27",
+      "label": "Cobertura estrategica por estado"
+    },
+    {
+      "value": "24/7",
+      "label": "Disponibilidade do funil seguro de atendimento"
+    }
+  ],
+  "serviceCards": [
+    {
+      "slug": "visa-strategy",
+      "title": "Estrategia de Visto e Elegibilidade",
+      "description": "Mapeamento de visto por perfil para trabalho, investimento, nomade digital, familia, aposentadoria e categorias especiais.",
+      "highlights": [
+        "Pontuacao de risco",
+        "Matriz documental",
+        "Projecao de prazo"
+      ]
+    },
+    {
+      "slug": "residency-execution",
+      "title": "Execucao de Residencia",
+      "description": "Gestao completa da solicitacao, documentacao de suporte, traducoes juramentadas e acompanhamento processual.",
+      "highlights": [
+        "Controle de checklist",
+        "Gestao de caso",
+        "Monitoramento de conformidade"
+      ]
+    },
+    {
+      "slug": "post-arrival",
+      "title": "Integracao Pos-Chegada",
+      "description": "Estruturacao operacional para CPF, CRNM/RNE, moradia, escola, banco e integracao local.",
+      "highlights": [
+        "Fluxo de relocacao",
+        "Rede de parceiros",
+        "Playbook de estabelecimento"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Diagnostico Estrategico",
+      "description": "Auditamos perfil, objetivos, prazo e dependencias para definir a rota migratoria viavel."
+    },
+    {
+      "title": "Arquitetura Documental",
+      "description": "Cada documento e mapeado com orgao emissor, traducao e prazo de validade."
+    },
+    {
+      "title": "Protocolo e Acompanhamento",
+      "description": "O processo e protocolado com controle de qualidade e rastreio ate cada marco."
+    },
+    {
+      "title": "Chegada e Estabilizacao",
+      "description": "Apoio pos-aprovacao para registros, estruturacao pratica e continuidade."
+    }
+  ],
+  "blogHighlights": [
+    {
+      "slug": "visa-document-quality",
+      "title": "Por que a qualidade documental supera a velocidade no processo migratorio",
+      "summary": "Estrutura pratica para reduzir risco de indeferimento antes do protocolo."
+    },
+    {
+      "slug": "state-selection-framework",
+      "title": "Como escolher o estado ideal no Brasil para seu perfil",
+      "summary": "Matriz de localizacao com custo, fluxo juridico e integracao local."
+    },
+    {
+      "slug": "residency-to-citizenship-roadmap",
+      "title": "Roteiro de residencia para cidadania: marcos e riscos ocultos",
+      "summary": "Estrategia plurianual para continuidade legal e objetivos de longo prazo."
+    }
+  ]
+}

@@ -43,17 +43,13 @@ export function Hero({ locale }: HeroProps) {
 
         <div className="relative">
           <div className="relative rounded-3xl border border-white/60 bg-white/80 p-6 shadow-glow backdrop-blur">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-civic-700">Modern platform highlights</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-civic-700">{t.hero.highlightsTitle}</p>
             <ul className="mt-6 space-y-4 text-sm text-ink-700">
-              <li className="rounded-2xl border border-sand-200 bg-sand-50/80 p-4">
-                Unified locale architecture with EN, ES, and PT route strategy.
-              </li>
-              <li className="rounded-2xl border border-sand-200 bg-sand-50/80 p-4">
-                Dynamic legacy bridge that scales past thousands of existing pages.
-              </li>
-              <li className="rounded-2xl border border-sand-200 bg-sand-50/80 p-4">
-                Structured premium UI system for trust-first immigration conversion.
-              </li>
+              {t.hero.highlights.map((item) => (
+                <li key={item} className="rounded-2xl border border-sand-200 bg-sand-50/80 p-4">
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
         </div>

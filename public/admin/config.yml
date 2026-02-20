@@ -163,3 +163,211 @@ collections:
             name: paragraphs
             widget: list
             field: { label: Paragraph, name: paragraph, widget: text }
+
+  - name: site_copy
+    label: Site Copy
+    folder: content/cms/site-copy
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Brand
+        name: brand
+        widget: string
+      - label: Navigation
+        name: nav
+        widget: object
+        fields:
+          - { label: Home, name: home, widget: string }
+          - { label: About, name: about, widget: string }
+          - { label: Services, name: services, widget: string }
+          - { label: Process, name: process, widget: string }
+          - { label: Resources, name: resources, widget: string }
+          - { label: Blog, name: blog, widget: string }
+          - { label: FAQ, name: faq, widget: string }
+          - { label: Library, name: library, widget: string }
+          - { label: Contact, name: contact, widget: string }
+      - label: Hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Primary CTA, name: primaryCta, widget: string }
+          - { label: Secondary CTA, name: secondaryCta, widget: string }
+          - { label: Highlights Title, name: highlightsTitle, widget: string }
+          - label: Highlights
+            name: highlights
+            widget: list
+            min: 3
+            field: { label: Highlight, name: highlight, widget: string }
+      - label: Sections
+        name: sections
+        widget: object
+        fields:
+          - { label: Services Title, name: servicesTitle, widget: string }
+          - { label: Services Subtitle, name: servicesSubtitle, widget: text }
+          - { label: Process Title, name: processTitle, widget: string }
+          - { label: Process Subtitle, name: processSubtitle, widget: text }
+          - { label: Trust Title, name: trustTitle, widget: string }
+          - { label: Migration Title, name: migrationTitle, widget: string }
+          - { label: Migration Subtitle, name: migrationSubtitle, widget: text }
+          - { label: Blog Title, name: blogTitle, widget: string }
+          - { label: Blog Subtitle, name: blogSubtitle, widget: text }
+      - label: CTA
+        name: cta
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Button, name: button, widget: string }
+      - label: Contact
+        name: contact
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Consultation Label, name: consultation, widget: string }
+          - { label: WhatsApp Label, name: whatsapp, widget: string }
+          - { label: Email Label, name: email, widget: string }
+      - label: Footer
+        name: footer
+        widget: object
+        fields:
+          - { label: Tagline, name: tagline, widget: text }
+          - { label: Legal, name: legal, widget: text }
+      - label: Home Content Map
+        name: homeContentMap
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - label: Links
+            name: links
+            widget: list
+            min: 3
+            summary: '{{fields.label}}'
+            fields:
+              - { label: Href, name: href, widget: string }
+              - { label: Label, name: label, widget: string }
+      - label: Trust Stats
+        name: trustStats
+        widget: list
+        min: 3
+        summary: '{{fields.value}}'
+        fields:
+          - { label: Value, name: value, widget: string }
+          - { label: Label, name: label, widget: string }
+      - label: Service Cards
+        name: serviceCards
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Highlights
+            name: highlights
+            widget: list
+            min: 1
+            field: { label: Highlight, name: highlight, widget: string }
+      - label: Process Steps
+        name: processSteps
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Blog Highlights
+        name: blogHighlights
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Summary, name: summary, widget: text }
+
+  - name: page_copy
+    label: Page Copy
+    folder: content/cms/page-copy
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Apply Brazil Page
+        name: applyBrazil
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - label: Steps
+            name: steps
+            widget: list
+            min: 3
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Detail, name: detail, widget: text }
+          - { label: Checklist Title, name: checklistTitle, widget: string }
+          - label: Checklist
+            name: checklist
+            widget: list
+            min: 3
+            field: { label: Item, name: item, widget: string }
+          - { label: Button Label, name: buttonLabel, widget: string }
+      - label: Cost Of Living Page
+        name: costOfLivingBrazil
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - label: Cards
+            name: cards
+            widget: list
+            min: 3
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Detail, name: detail, widget: text }
+      - label: Resources Guides Page
+        name: resourcesGuidesBrazil
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - label: Items
+            name: items
+            widget: list
+            min: 3
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Detail, name: detail, widget: text }
+          - { label: Legacy Archive Title, name: legacyArchiveTitle, widget: string }
+          - { label: Legacy Archive Subtitle, name: legacyArchiveSubtitle, widget: text }
+      - label: Visa Consultation Page
+        name: visaConsultation
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - label: Blocks
+            name: blocks
+            widget: list
+            min: 3
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Detail, name: detail, widget: text }

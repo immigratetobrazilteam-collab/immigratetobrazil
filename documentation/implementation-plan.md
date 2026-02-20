@@ -99,3 +99,9 @@
 - Improved smoke diagnostics with response body snippets and stable User-Agent behavior.
 - Set SEO audit to report-first mode by default to reduce false-negative failures.
 - Hardened security audit parsing to prevent workflow failure on malformed transient audit output.
+
+## Phase 18: CMS coverage expansion (completed)
+- Added CMS-driven global site copy for nav, hero, trust, services, process, and blog highlight content.
+- Added CMS-driven migrated page copy for apply-brazil, cost-of-living, resources-guides, and visa-consultation pages.
+- Expanded Decap CMS collections to expose these new editable content areas in `/admin`.
+- Extended CMS validation and ops summary checks to include new site-copy and page-copy files.

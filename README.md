@@ -11,6 +11,7 @@ This repository now contains a full modern framework architecture built on Next.
 - Added policy center routes under `/{locale}/policies/*`.
 - Added test suite + CI quality gates.
 - Added Phase-9 CMS-backed content layer for state pages and policy pages.
+- Expanded CMS coverage for global site copy and migrated core page copy.
 - Added Cloudflare Workers deployment pipeline (OpenNext + Wrangler + GitHub Actions).
 
 ## Commands
@@ -36,7 +37,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `lib/` - i18n, SEO, legacy loader, typed content
 - `content/curated/` - canonical data modules for migrated dynamic content
 - `content/generated/` - generated route inventory
-- `content/cms/` - Git-backed CMS content for state and policy copy
+- `content/cms/` - Git-backed CMS content for state, policy, site, and page copy
 - `tests/` - Vitest unit tests
 - `documentation/` - architecture and rollout docs
 
@@ -124,6 +125,14 @@ Copy `.env.example` to `.env.local` and set:
   - `content/cms/policies/en.json`
   - `content/cms/policies/es.json`
   - `content/cms/policies/pt.json`
+- Global site content (navigation, hero, trust, services, process, blog highlights):
+  - `content/cms/site-copy/en.json`
+  - `content/cms/site-copy/es.json`
+  - `content/cms/site-copy/pt.json`
+- Migrated page content (apply, cost of living, resources, visa consultation):
+  - `content/cms/page-copy/en.json`
+  - `content/cms/page-copy/es.json`
+  - `content/cms/page-copy/pt.json`
 
 ## Monitoring endpoints
 - `GET /api/health` - liveness endpoint
