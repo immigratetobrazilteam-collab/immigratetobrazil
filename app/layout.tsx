@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Fraunces, Manrope } from 'next/font/google';
 
-import { Analytics } from '@/components/analytics';
+import { AnalyticsBody, AnalyticsHead } from '@/components/analytics';
 import { siteConfig } from '@/lib/site-config';
 
 import './globals.css';
@@ -70,8 +70,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <AnalyticsHead />
+      </head>
       <body className={`${manrope.variable} ${fraunces.variable} font-sans`}>
-        <Analytics />
+        <AnalyticsBody />
         {children}
       </body>
     </html>
