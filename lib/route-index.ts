@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cache } from 'react';
 
@@ -28,8 +28,43 @@ export type RoutePrefixGroup = {
   sample: RouteLink[];
 };
 
-const INDEX_PATH = path.join(process.cwd(), 'content/generated/route-index.json');
+const INDEX_RELATIVE_PATH = path.join('content', 'generated', 'route-index.json');
 const LOCALES = new Set<Locale>(['en', 'es', 'pt', 'fr']);
+
+function candidateRoots() {
+  const cwd = process.cwd();
+  const roots = [
+    process.env.ROUTE_INDEX_ROOT,
+    process.env.LEGACY_CONTENT_ROOT,
+    cwd,
+    path.join(cwd, 'server-functions', 'default'),
+    path.join(cwd, '.open-next', 'server-functions', 'default'),
+    path.resolve(cwd, '..'),
+    path.resolve(cwd, '..', 'server-functions', 'default'),
+    path.resolve(cwd, '..', '.open-next', 'server-functions', 'default'),
+  ].filter(Boolean) as string[];
+
+  return Array.from(new Set(roots.map((root) => path.resolve(root))));
+}
+
+async function fileExists(absolutePath: string) {
+  try {
+    await access(absolutePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function resolveIndexPath() {
+  for (const root of candidateRoots()) {
+    const absolutePath = path.resolve(root, INDEX_RELATIVE_PATH);
+    if (!absolutePath.startsWith(root)) continue;
+    if (await fileExists(absolutePath)) return absolutePath;
+  }
+
+  return null;
+}
 
 function decodeEntities(input: string) {
   return input
@@ -100,7 +135,10 @@ function toLink(locale: Locale, entry: RouteIndexEntry): RouteLink {
 
 export const getRouteIndex = cache(async (): Promise<RouteIndexEntry[]> => {
   try {
-    const raw = await readFile(INDEX_PATH, 'utf8');
+    const indexPath = await resolveIndexPath();
+    if (!indexPath) return [];
+
+    const raw = await readFile(indexPath, 'utf8');
     const parsed = JSON.parse(raw) as RouteIndexEntry[];
 
     return parsed.filter((item) => LOCALES.has(item.locale));

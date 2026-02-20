@@ -4,8 +4,20 @@ import { cache } from 'react';
 
 import type { LegacyDocument, Locale } from '@/lib/types';
 
-const ROOT = process.cwd();
-const SEARCH_ROOT = path.resolve(ROOT);
+function candidateRoots() {
+  const cwd = process.cwd();
+  const roots = [
+    process.env.LEGACY_CONTENT_ROOT,
+    cwd,
+    path.join(cwd, 'server-functions', 'default'),
+    path.join(cwd, '.open-next', 'server-functions', 'default'),
+    path.resolve(cwd, '..'),
+    path.resolve(cwd, '..', 'server-functions', 'default'),
+    path.resolve(cwd, '..', '.open-next', 'server-functions', 'default'),
+  ].filter(Boolean) as string[];
+
+  return Array.from(new Set(roots.map((root) => path.resolve(root))));
+}
 
 function decodeEntities(input: string) {
   return input
@@ -161,10 +173,12 @@ async function fileExists(absolutePath: string) {
 async function resolveFile(locale: Locale, slug: string[]) {
   const candidates = candidatePaths(locale, slug);
 
-  for (const candidate of candidates) {
-    const absolutePath = path.resolve(SEARCH_ROOT, candidate);
-    if (!absolutePath.startsWith(SEARCH_ROOT)) continue;
-    if (await fileExists(absolutePath)) return { absolutePath, relativePath: candidate };
+  for (const root of candidateRoots()) {
+    for (const candidate of candidates) {
+      const absolutePath = path.resolve(root, candidate);
+      if (!absolutePath.startsWith(root)) continue;
+      if (await fileExists(absolutePath)) return { absolutePath, relativePath: candidate };
+    }
   }
 
   return null;
