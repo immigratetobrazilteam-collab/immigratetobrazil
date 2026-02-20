@@ -5,22 +5,31 @@ import { cache } from 'react';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
 function candidateRoots() {
-  const anchor = path.resolve(process.cwd());
   const roots = new Set<string>();
 
-  let current = anchor;
-  while (true) {
-    roots.add(current);
-    roots.add(path.join(current, 'server-functions', 'default'));
-    roots.add(path.join(current, '.open-next', 'server-functions', 'default'));
+  const anchors = [
+    process.cwd(),
+    process.env.PWD,
+    process.env.INIT_CWD,
+    process.env.LEGACY_CONTENT_ROOT,
+    '/var/task',
+    '/workspace',
+    '/app',
+    '/home/site/wwwroot',
+  ].filter(Boolean) as string[];
 
-    const parent = path.dirname(current);
-    if (parent === current) break;
-    current = parent;
-  }
+  for (const anchor of anchors) {
+    let current = path.resolve(anchor);
 
-  if (process.env.LEGACY_CONTENT_ROOT) {
-    roots.add(path.resolve(process.env.LEGACY_CONTENT_ROOT));
+    while (true) {
+      roots.add(current);
+      roots.add(path.join(current, 'server-functions', 'default'));
+      roots.add(path.join(current, '.open-next', 'server-functions', 'default'));
+
+      const parent = path.dirname(current);
+      if (parent === current) break;
+      current = parent;
+    }
   }
 
   return Array.from(roots);
