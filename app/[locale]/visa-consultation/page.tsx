@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 
+import { FormspreeContactForm } from '@/components/formspree-contact-form';
 import { CtaCard } from '@/components/cta-card';
 import { LegacyContent } from '@/components/legacy-content';
 import { resolveLocale } from '@/lib/i18n';
@@ -111,6 +112,15 @@ export default async function VisaConsultationPage({ params }: { params: Promise
               <p className="mt-3 text-sm text-ink-700">{block.detail}</p>
             </article>
           ))}
+        </div>
+
+        <div className="mx-auto max-w-5xl px-4 pb-14 sm:px-6 lg:px-8">
+          <FormspreeContactForm
+            locale={locale}
+            context="visa-consultation"
+            title={t.title}
+            subtitle={t.subtitle}
+          />
         </div>
       </section>
 

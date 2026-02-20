@@ -1,9 +1,7 @@
-import { readFile } from 'node:fs/promises';
-import path from 'node:path';
-
 import type { MetadataRoute } from 'next';
 
 import { brazilianStates } from '@/content/curated/states';
+import routeIndexData from '@/content/generated/route-index.json';
 import { locales } from '@/lib/i18n';
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
@@ -39,15 +37,8 @@ type RouteIndexItem = {
 };
 
 async function getRouteIndex(): Promise<RouteIndexItem[]> {
-  const indexPath = path.join(process.cwd(), 'content/generated/route-index.json');
-
-  try {
-    const raw = await readFile(indexPath, 'utf8');
-    const parsed = JSON.parse(raw) as RouteIndexItem[];
-    return parsed.slice(0, 10000);
-  } catch {
-    return [];
-  }
+  const parsed = routeIndexData as RouteIndexItem[];
+  return parsed;
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

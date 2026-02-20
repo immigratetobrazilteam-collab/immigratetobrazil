@@ -48,12 +48,21 @@ export function createMetadata(options: {
       url: absolute(normalized),
       siteName: SITE_NAME,
       locale,
+      images: [
+        {
+          url: absolute('/brand/og-image.png'),
+          width: 1200,
+          height: 630,
+          alt: 'Immigrate to Brazil immigration law firm logo',
+        },
+      ],
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: [absolute('/brand/og-image.png')],
     },
   };
 }

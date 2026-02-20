@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
 import { CtaCard } from '@/components/cta-card';
+import { FormspreeContactForm } from '@/components/formspree-contact-form';
 import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
@@ -117,6 +118,16 @@ export default async function ContactStatePage({ params }: { params: Promise<{ l
               Consultation
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
+          <FormspreeContactForm
+            locale={locale}
+            context={`contact-${state.slug}`}
+            title={`Consultation request for ${stateName(state, locale)}`}
+          />
         </div>
       </section>
 

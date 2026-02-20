@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { FormspreeContactForm } from '@/components/formspree-contact-form';
 import type { RouteLink } from '@/lib/route-index';
 import { copy } from '@/lib/i18n';
 import { localizedPath } from '@/lib/routes';
@@ -25,6 +26,7 @@ function segmentLabel(segment: string) {
 export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyContentProps) {
   const t = copy[locale];
   const segments = slug.split('/').filter(Boolean);
+  const isContactRoute = slug === 'contact' || slug.startsWith('contact/');
 
   return (
     <div className="bg-sand-50">
@@ -98,6 +100,12 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
                 {t.cta.button}
               </Link>
             </div>
+
+            {isContactRoute ? (
+              <div className="mt-10">
+                <FormspreeContactForm locale={locale} context={`legacy-${slug.replace(/\//g, '-') || 'contact'}`} />
+              </div>
+            ) : null}
           </div>
 
           <aside className="space-y-5 lg:sticky lg:top-32 lg:self-start">

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { BrandLogo } from '@/components/brand-logo';
 import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { copy } from '@/lib/i18n';
 import { countRoutesByPrefix } from '@/lib/route-index';
@@ -195,8 +196,14 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 xl:grid-cols-5">
           <div className="space-y-4">
-            <p className="font-display text-2xl">{t.brand}</p>
+            <div className="inline-flex items-center gap-3">
+              <BrandLogo variant="mark" className="h-12 w-12" />
+              <p className="font-display text-2xl">{t.brand}</p>
+            </div>
             <p className="text-sm text-sand-200/90">{t.footer.tagline}</p>
+            <a href={`mailto:${contact.clientEmail}`} className="block text-sm text-sand-100 hover:text-white">
+              {contact.clientEmail}
+            </a>
 
             <div className="flex flex-wrap gap-2">
               <span className="rounded-full border border-civic-300/40 bg-civic-800/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-sand-100">
