@@ -1,0 +1,21 @@
+{
+  "name": "Immigrate to Brazil",
+  "short_name": "ITB",
+  "description": "Immigrate to Brazil immigration advisory platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1610",
+  "theme_color": "#0b1610",
+  "icons": [
+    {
+      "src": "/brand/android-chrome-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/android-chrome-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

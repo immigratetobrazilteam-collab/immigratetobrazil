@@ -4,6 +4,7 @@ import { FloatingActions } from '@/components/floating-actions';
 import { LegalServiceSchema } from '@/components/legal-service-schema';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
+import { SiteUpgradeNotice } from '@/components/site-upgrade-notice';
 import { locales, resolveLocale } from '@/lib/i18n';
 
 export function generateStaticParams() {
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
     <div className="min-h-screen bg-sand-50 text-ink-900">
       <LegalServiceSchema locale={locale} />
       <SiteHeader locale={locale} />
+      <SiteUpgradeNotice />
       <main>{children}</main>
       <SiteFooter locale={locale} />
       <FloatingActions locale={locale} />

@@ -17,7 +17,7 @@ export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
         name: 'Immigrate to Brazil',
         url: `${BASE_URL}/${locale}`,
         image: `${BASE_URL}/brand/og-image.png`,
-        logo: `${BASE_URL}/brand/logo-mark-512.png`,
+        logo: `${BASE_URL}/brand/logo-mark-transparent-1024.png`,
         email: siteConfig.contact.primaryEmail,
         telephone: siteConfig.contact.whatsappNumber,
         areaServed: 'Brazil',
@@ -42,7 +42,7 @@ export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
         '@id': `${BASE_URL}/#organization`,
         name: 'Immigrate to Brazil',
         url: BASE_URL,
-        logo: `${BASE_URL}/brand/logo-mark-512.png`,
+        logo: `${BASE_URL}/brand/logo-mark-transparent-1024.png`,
         email: siteConfig.contact.primaryEmail,
       },
       {

@@ -23,6 +23,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobra
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
+  manifest: '/site.webmanifest',
   title: {
     default: 'Immigrate to Brazil | Modern Immigration Advisory',
     template: '%s | Immigrate to Brazil',
@@ -32,8 +33,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
+      { url: '/brand/favicon-16.png', type: 'image/png', sizes: '16x16' },
       { url: '/brand/favicon-32.png', type: 'image/png', sizes: '32x32' },
       { url: '/brand/favicon-64.png', type: 'image/png', sizes: '64x64' },
+      { url: '/brand/android-chrome-192.png', type: 'image/png', sizes: '192x192' },
+      { url: '/brand/android-chrome-512.png', type: 'image/png', sizes: '512x512' },
     ],
     apple: [{ url: '/brand/apple-touch-icon.png', sizes: '180x180' }],
   },

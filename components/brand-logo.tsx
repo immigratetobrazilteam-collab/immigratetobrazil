@@ -12,10 +12,10 @@ export function BrandLogo({ variant = 'full', className, priority = false }: Bra
   if (variant === 'mark') {
     return (
       <Image
-        src="/brand/logo-mark-512.png"
+        src="/brand/logo-mark-transparent-512.png"
         alt="Immigrate to Brazil immigration law firm logo"
-        width={56}
-        height={56}
+        width={512}
+        height={512}
         priority={priority}
         className={cn('h-11 w-11 rounded-2xl', className)}
       />
@@ -24,10 +24,10 @@ export function BrandLogo({ variant = 'full', className, priority = false }: Bra
 
   return (
     <Image
-      src="/brand/logo-full.png"
+      src="/brand/logo-full-transparent.png"
       alt="Immigrate to Brazil immigration law firm logo"
-      width={900}
-      height={900}
+      width={819}
+      height={819}
       priority={priority}
       className={cn('h-12 w-auto', className)}
     />
