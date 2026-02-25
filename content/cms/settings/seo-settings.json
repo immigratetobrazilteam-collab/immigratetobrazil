@@ -1,0 +1,31 @@
+{
+  "siteUrl": "https://www.immigratetobrazil.com",
+  "sitemapPath": "/sitemap.xml",
+  "extraSitemaps": [],
+  "excludePathPrefixes": [
+    "/admin",
+    "/api/admin",
+    "/memory-bank",
+    "/partials",
+    "/useful_scripts",
+    "/template.html",
+    "/.git",
+    "/.env"
+  ],
+  "excludePathContains": [
+    ".bak",
+    ".sql",
+    ".env",
+    "private"
+  ],
+  "robotsDisallow": [
+    "/admin/",
+    "/api/admin/",
+    "/memory-bank/",
+    "/partials/",
+    "/useful_scripts/",
+    "/template.html",
+    "/.git/",
+    "/.env"
+  ]
+}

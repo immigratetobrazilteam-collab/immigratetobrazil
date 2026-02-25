@@ -73,7 +73,8 @@ export function LegacyContent({ locale, document, slug, relatedLinks }: LegacyCo
                 src={document.heroImage}
                 alt={document.heroImageAlt || document.heading}
                 fill
-                unoptimized
+                priority
+                quality={72}
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
               />

@@ -74,5 +74,132 @@
       ]
     }
   },
-  "overrides": []
+  "overrides": [
+    {
+      "slug": "bahia",
+      "blog": {
+        "title": "Bahia: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Bahia, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Bahia."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Bahia."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Bahia."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "minas-gerais",
+      "blog": {
+        "title": "Minas Gerais: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Minas Gerais, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Minas Gerais."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Minas Gerais."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Minas Gerais."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "parana",
+      "blog": {
+        "title": "Parana: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Parana, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Parana."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Parana."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Parana."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "blog": {
+        "title": "Rio de Janeiro: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Rio de Janeiro, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Rio de Janeiro."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Rio de Janeiro."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Rio de Janeiro."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "santa-catarina",
+      "blog": {
+        "title": "Santa Catarina: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Santa Catarina, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Santa Catarina."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Santa Catarina."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Santa Catarina."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "blog": {
+        "title": "Sao Paulo: guia de inmigracion y reubicacion",
+        "subtitle": "Estrategia practica de reubicacion para Sao Paulo, con foco en regularizacion legal, costos y primeros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como funcionan vivienda, servicios e instalacion en Sao Paulo."
+          },
+          {
+            "title": "Riesgos y oportunidades",
+            "detail": "Que validar antes de firmar contratos o comprometer capital en Sao Paulo."
+          },
+          {
+            "title": "Secuencia de ejecucion",
+            "detail": "Plan por etapas para llegada, regularizacion y primeros 90 dias en Sao Paulo."
+          }
+        ]
+      }
+    }
+  ]
 }

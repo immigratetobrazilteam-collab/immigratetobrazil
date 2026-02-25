@@ -14,6 +14,21 @@ import { faqStateCopy, getStateOrNull } from '@/lib/phase2-content';
 import { extractStateSlug } from '@/lib/phase2-routes';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type FaqStateManagedCopy = {
+  eyebrow: string;
+  backButtonLabel: string;
+  fallbackMetaTitle: string;
+  fallbackMetaDescription: string;
+};
+
+const faqStateFallback: FaqStateManagedCopy = {
+  eyebrow: 'FAQ',
+  backButtonLabel: 'Back to FAQ hub',
+  fallbackMetaTitle: 'FAQ',
+  fallbackMetaDescription: 'State FAQ page.',
+};
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -31,6 +46,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const pageCopy = getManagedPageCopyWithFallback<FaqStateManagedCopy>(locale, 'faqStatePage', faqStateFallback);
   const legacy = await getLegacyDocument(locale, ['faq', slug]);
 
   if (legacy) {
@@ -49,8 +65,8 @@ export async function generateMetadata({
     return createMetadata({
       locale,
       pathname: `/${locale}/faq/${slug}`,
-      title: 'FAQ',
-      description: 'State FAQ page.',
+      title: pageCopy.fallbackMetaTitle,
+      description: pageCopy.fallbackMetaDescription,
     });
   }
 
@@ -67,6 +83,7 @@ export async function generateMetadata({
 export default async function FaqStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const pageCopy = getManagedPageCopyWithFallback<FaqStateManagedCopy>(locale, 'faqStatePage', faqStateFallback);
   const nav = copy[locale].nav;
   const legacy = await getLegacyDocument(locale, ['faq', slug]);
 
@@ -107,7 +124,7 @@ export default async function FaqStatePage({ params }: { params: Promise<{ local
 
       <section className="border-b border-sand-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">FAQ</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{pageCopy.eyebrow}</p>
           <h1 className="mt-4 font-display text-5xl text-ink-900">{t.title}</h1>
           <p className="mt-6 max-w-3xl text-lg text-ink-700">{t.subtitle}</p>
         </div>
@@ -128,7 +145,7 @@ export default async function FaqStatePage({ params }: { params: Promise<{ local
             href={localizedPath(locale, '/faq')}
             className="rounded-full border border-ink-300 bg-white px-5 py-2.5 text-sm font-semibold text-ink-900"
           >
-            Back to FAQ hub
+            {pageCopy.backButtonLabel}
           </Link>
         </div>
       </section>

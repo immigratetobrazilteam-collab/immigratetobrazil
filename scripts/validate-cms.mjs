@@ -85,12 +85,47 @@ function validateOverrideSection(locale, overrideIdx, sectionName, section, keyN
   }
 }
 
-function validateTitleDetailItems(relativePath, fieldPath, items, min = 1) {
-  assert(Array.isArray(items) && items.length >= min, `${relativePath} ${fieldPath} must have at least ${min} items`);
-  for (const [idx, item] of items.entries()) {
-    assert(isObject(item), `${relativePath} ${fieldPath}[${idx}] must be an object`);
-    assert(isNonEmptyString(item.title), `${relativePath} ${fieldPath}[${idx}].title is required`);
-    assert(isNonEmptyString(item.detail), `${relativePath} ${fieldPath}[${idx}].detail is required`);
+function validateManagedPagesValue(relativePath, fieldPath, value, template) {
+  if (typeof template === 'string') {
+    assert(isNonEmptyString(value), `${relativePath} ${fieldPath} must be a non-empty string`);
+    return;
+  }
+
+  if (typeof template === 'boolean') {
+    assert(typeof value === 'boolean', `${relativePath} ${fieldPath} must be a boolean`);
+    return;
+  }
+
+  if (typeof template === 'number') {
+    assert(typeof value === 'number' && Number.isFinite(value), `${relativePath} ${fieldPath} must be a finite number`);
+    return;
+  }
+
+  if (Array.isArray(template)) {
+    assert(Array.isArray(value), `${relativePath} ${fieldPath} must be an array`);
+    if (template.length === 0) {
+      return;
+    }
+
+    assert(value.length >= 1, `${relativePath} ${fieldPath} must include at least one item`);
+    const sample = template[0];
+
+    for (const [idx, item] of value.entries()) {
+      validateManagedPagesValue(relativePath, `${fieldPath}[${idx}]`, item, sample);
+    }
+
+    return;
+  }
+
+  assert(isObject(template), `${relativePath} ${fieldPath} template must be an object`);
+  assert(isObject(value), `${relativePath} ${fieldPath} must be an object`);
+
+  for (const key of Object.keys(template)) {
+    assert(
+      Object.prototype.hasOwnProperty.call(value, key),
+      `${relativePath} ${fieldPath}.${key} is missing (must match English managedPages schema)`,
+    );
+    validateManagedPagesValue(relativePath, `${fieldPath}.${key}`, value[key], template[key]);
   }
 }
 
@@ -155,9 +190,13 @@ async function validatePolicies(expectedPolicySlugs) {
 }
 
 async function validateSiteCopy() {
+  const englishFile = await readJson('content/cms/site-copy/en.json');
+  assert(isObject(englishFile.managedPages), 'site-copy/en.json managedPages must be an object');
+  const managedPagesTemplate = englishFile.managedPages;
+
   for (const locale of ['en', 'es', 'pt', 'fr']) {
     const relativePath = `content/cms/site-copy/${locale}.json`;
-    const file = await readJson(relativePath);
+    const file = locale === 'en' ? englishFile : await readJson(relativePath);
 
     assert(file.locale === locale, `site-copy/${locale}.json locale must be '${locale}'`);
     assert(isNonEmptyString(file.brand), `site-copy/${locale}.json brand is required`);
@@ -362,52 +401,9 @@ async function validateSiteCopy() {
         assert(isNonEmptyString(item[key]), `site-copy/${locale}.json blogHighlights[${idx}].${key} is required`);
       }
     }
-  }
-}
 
-async function validatePageCopy() {
-  for (const locale of ['en', 'es', 'pt', 'fr']) {
-    const relativePath = `content/cms/page-copy/${locale}.json`;
-    const file = await readJson(relativePath);
-
-    assert(file.locale === locale, `page-copy/${locale}.json locale must be '${locale}'`);
-
-    assert(isObject(file.applyBrazil), `page-copy/${locale}.json applyBrazil must be an object`);
-    for (const key of ['eyebrow', 'title', 'subtitle', 'checklistTitle', 'buttonLabel']) {
-      assert(isNonEmptyString(file.applyBrazil[key]), `page-copy/${locale}.json applyBrazil.${key} is required`);
-    }
-    validateTitleDetailItems(relativePath, 'applyBrazil.steps', file.applyBrazil.steps, 3);
-    assert(Array.isArray(file.applyBrazil.checklist) && file.applyBrazil.checklist.length >= 3, `page-copy/${locale}.json applyBrazil.checklist must have at least 3 items`);
-    for (const [idx, item] of file.applyBrazil.checklist.entries()) {
-      assert(isNonEmptyString(item), `page-copy/${locale}.json applyBrazil.checklist[${idx}] must be non-empty`);
-    }
-
-    assert(isObject(file.costOfLivingBrazil), `page-copy/${locale}.json costOfLivingBrazil must be an object`);
-    for (const key of ['eyebrow', 'title', 'subtitle']) {
-      assert(isNonEmptyString(file.costOfLivingBrazil[key]), `page-copy/${locale}.json costOfLivingBrazil.${key} is required`);
-    }
-    validateTitleDetailItems(relativePath, 'costOfLivingBrazil.cards', file.costOfLivingBrazil.cards, 3);
-
-    assert(isObject(file.resourcesGuidesBrazil), `page-copy/${locale}.json resourcesGuidesBrazil must be an object`);
-    for (const key of ['eyebrow', 'title', 'subtitle', 'legacyArchiveTitle', 'legacyArchiveSubtitle']) {
-      assert(isNonEmptyString(file.resourcesGuidesBrazil[key]), `page-copy/${locale}.json resourcesGuidesBrazil.${key} is required`);
-    }
-    validateTitleDetailItems(relativePath, 'resourcesGuidesBrazil.items', file.resourcesGuidesBrazil.items, 3);
-
-    assert(isObject(file.visaConsultation), `page-copy/${locale}.json visaConsultation must be an object`);
-    for (const key of ['eyebrow', 'title', 'subtitle']) {
-      assert(isNonEmptyString(file.visaConsultation[key]), `page-copy/${locale}.json visaConsultation.${key} is required`);
-    }
-    validateTitleDetailItems(relativePath, 'visaConsultation.blocks', file.visaConsultation.blocks, 3);
-
-    assert(isObject(file.contactPage), `page-copy/${locale}.json contactPage must be an object`);
-    for (const key of ['formTitle', 'formSubtitle', 'stateArchiveTitle', 'stateArchiveSubtitle']) {
-      assert(isNonEmptyString(file.contactPage[key]), `page-copy/${locale}.json contactPage.${key} is required`);
-    }
-    assert(
-      file.contactPage.stateArchiveSubtitle.includes('{{count}}'),
-      `page-copy/${locale}.json contactPage.stateArchiveSubtitle must include '{{count}}' token`,
-    );
+    assert(isObject(file.managedPages), `site-copy/${locale}.json managedPages must be an object`);
+    validateManagedPagesValue(relativePath, 'managedPages', file.managedPages, managedPagesTemplate);
   }
 }
 
@@ -513,7 +509,6 @@ async function main() {
   await validateStateCopy(expectedStateSlugs);
   await validatePolicies(expectedPolicySlugs);
   await validateSiteCopy();
-  await validatePageCopy();
   await validateSiteSettings();
   await validateLegacyOverrides();
 

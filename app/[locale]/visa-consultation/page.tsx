@@ -2,13 +2,65 @@ import type { Metadata } from 'next';
 
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { FormspreeContactForm } from '@/components/formspree-contact-form';
+import { FaqSchema } from '@/components/faq-schema';
+import { ManagedSeoLinks } from '@/components/managed-seo-links';
 import { CtaCard } from '@/components/cta-card';
 import { LegacyContent } from '@/components/legacy-content';
-import { getPageCmsCopy } from '@/lib/page-cms-content';
 import { copy, resolveLocale } from '@/lib/i18n';
+import { renderMetaTitle, type ManagedSeoCopy } from '@/lib/managed-seo';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type VisaConsultationManagedCopy = {
+  seo: ManagedSeoCopy;
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  blocks: Array<{
+    title: string;
+    detail: string;
+  }>;
+};
+
+const visaConsultationFallback: VisaConsultationManagedCopy = {
+  seo: {
+    metaTitleTemplate: 'Visa Consultation | {{brand}}',
+    metaDescription:
+      'Brazil visa consultation with eligibility mapping, documentation planning, and execution guidance.',
+    keywords: ['brazil visa consultation', 'immigration consultation brazil', 'visa planning'],
+    faq: [
+      {
+        question: 'What do I get from a visa consultation?',
+        answer: 'You receive category fit guidance, document requirements, risk flags, and a practical submission roadmap.',
+      },
+    ],
+    internalLinksTitle: 'Continue your migration planning',
+    internalLinks: [
+      { href: '/services', label: 'Services overview' },
+      { href: '/process', label: 'Process timeline' },
+      { href: '/contact', label: 'Direct contact' },
+    ],
+  },
+  eyebrow: 'Visa consultation',
+  title: 'Visa consultation framework',
+  subtitle: 'First-wave migration of legacy consultation content into a clear paid-advisory scope with documented outputs.',
+  blocks: [
+    {
+      title: 'Session deliverables',
+      detail: 'Eligibility map, risk flags, required documents, and priority timeline.',
+    },
+    {
+      title: 'Profile categories',
+      detail: 'Work, digital nomad, investment, retirement, family, and transition scenarios.',
+    },
+    {
+      title: 'Commercial scope',
+      detail: 'Advisory session, execution package options, and compliance follow-up.',
+    },
+  ],
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -24,13 +76,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     });
   }
 
-  const t = getPageCmsCopy(locale).visaConsultation;
+  const t = getManagedPageCopyWithFallback<VisaConsultationManagedCopy>(locale, 'visaConsultationPage', visaConsultationFallback);
 
   return createMetadata({
     locale,
     pathname: `/${locale}/visa-consultation`,
-    title: `Visa Consultation | ${t.title}`,
-    description: t.subtitle,
+    title: renderMetaTitle(t.seo.metaTitleTemplate, { brand: copy[locale].brand }, `Visa Consultation | ${t.title}`),
+    description: t.seo.metaDescription || t.subtitle,
   });
 }
 
@@ -56,10 +108,11 @@ export default async function VisaConsultationPage({ params }: { params: Promise
     );
   }
 
-  const t = getPageCmsCopy(locale).visaConsultation;
+  const t = getManagedPageCopyWithFallback<VisaConsultationManagedCopy>(locale, 'visaConsultationPage', visaConsultationFallback);
 
   return (
     <>
+      <FaqSchema items={t.seo.faq.map((item) => ({ question: item.question, answer: item.answer }))} />
       <BreadcrumbSchema
         items={[
           { name: nav.home, href: `/${locale}` },
@@ -95,6 +148,8 @@ export default async function VisaConsultationPage({ params }: { params: Promise
           />
         </div>
       </section>
+
+      <ManagedSeoLinks locale={locale} title={t.seo.internalLinksTitle} links={t.seo.internalLinks} />
 
       <CtaCard locale={locale} />
     </>

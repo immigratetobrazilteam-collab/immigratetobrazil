@@ -4,6 +4,7 @@ import { cache } from 'react';
 
 import { getLegacyPageOverride, type LegacyPageOverride } from '@/lib/legacy-cms-content';
 import { getLocaleRoutes, routeTitle } from '@/lib/route-index';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import { siteConfig } from '@/lib/site-config';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
@@ -204,46 +205,7 @@ async function resolveFile(locale: Locale, slug: string[]) {
 }
 
 function fallbackCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      overview: 'Resumen',
-      nextSteps: 'Proximos pasos',
-      fallbackDescription:
-        'Guia de inmigracion para Brasil, con enfoque en requisitos, documentacion y planificacion de plazos.',
-      paragraphOne:
-        'Esta pagina resume puntos clave para esta ruta, incluyendo requisitos, proceso y consideraciones practicas.',
-      paragraphTwo:
-        'Revise elegibilidad, reuna documentos de respaldo y valide su estrategia con una consulta profesional.',
-    };
-  }
-
-  if (locale === 'pt') {
-    return {
-      overview: 'Visao geral',
-      nextSteps: 'Proximos passos',
-      fallbackDescription:
-        'Guia de imigracao para o Brasil com foco em requisitos, documentacao e planejamento de prazos.',
-      paragraphOne:
-        'Esta pagina resume pontos-chave desta rota, incluindo requisitos, processo e consideracoes praticas.',
-      paragraphTwo:
-        'Revise elegibilidade, organize documentos de suporte e valide sua estrategia com uma consulta especializada.',
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      overview: 'Vue d ensemble',
-      nextSteps: 'Prochaines etapes',
-      fallbackDescription:
-        'Guide d immigration au Bresil axe sur les exigences, la documentation et la planification des delais.',
-      paragraphOne:
-        'Cette page resume les points cles de cette route, y compris exigences, processus et considerations pratiques.',
-      paragraphTwo:
-        'Verifiez l eligibilite, preparez les justificatifs et validez votre strategie avec une consultation specialisee.',
-    };
-  }
-
-  return {
+  return getManagedPageCopyWithFallback(locale, 'legacySyntheticDocument', {
     overview: 'Overview',
     nextSteps: 'Next Steps',
     fallbackDescription:
@@ -252,7 +214,7 @@ function fallbackCopy(locale: Locale) {
       'This page outlines key checkpoints for this route, including eligibility, process structure, and practical considerations.',
     paragraphTwo:
       'Review eligibility, prepare supporting documents, and validate your strategy with a professional consultation.',
-  };
+  });
 }
 
 async function buildSyntheticDocument(locale: Locale, slug: string[]): Promise<LegacyDocument | null> {

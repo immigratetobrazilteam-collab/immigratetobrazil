@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
+import { ArticleSchema } from '@/components/article-schema';
+import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { LegacyContent } from '@/components/legacy-content';
 import { copy, locales, resolveLocale } from '@/lib/i18n';
@@ -12,6 +14,15 @@ import { blogStateCopy, getStateOrNull } from '@/lib/phase2-content';
 import { extractStateSlug } from '@/lib/phase2-routes';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type BlogStateManagedCopy = {
+  eyebrow: string;
+};
+
+const blogStateFallback: BlogStateManagedCopy = {
+  eyebrow: 'State guide',
+};
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -65,11 +76,32 @@ export async function generateMetadata({
 export default async function BlogStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+  const pageCopy = getManagedPageCopyWithFallback<BlogStateManagedCopy>(locale, 'blogStatePage', blogStateFallback);
+  const nav = copy[locale].nav;
   const legacy = await getLegacyDocument(locale, ['blog', slug]);
 
   if (legacy) {
     const relatedLinks = await getRelatedRouteLinks(locale, `blog/${slug}`, 16);
-    return <LegacyContent locale={locale} document={legacy} slug={`blog/${slug}`} relatedLinks={relatedLinks} />;
+    return (
+      <>
+        <BreadcrumbSchema
+          items={[
+            { name: nav.home, href: `/${locale}` },
+            { name: nav.blog, href: `/${locale}/blog` },
+            { name: legacy.heading, href: `/${locale}/blog/${slug}` },
+          ]}
+        />
+        <ArticleSchema
+          locale={locale}
+          pathname={`/${locale}/blog/${slug}`}
+          headline={legacy.heading}
+          description={legacy.description}
+          section="Blog"
+          keywords={[slug.replace(/^blog-/, '').replace(/-/g, ' '), 'Brazil immigration']}
+        />
+        <LegacyContent locale={locale} document={legacy} slug={`blog/${slug}`} relatedLinks={relatedLinks} />
+      </>
+    );
   }
 
   const stateSlug = extractStateSlug('blog', slug);
@@ -82,9 +114,24 @@ export default async function BlogStatePage({ params }: { params: Promise<{ loca
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: nav.home, href: `/${locale}` },
+          { name: nav.blog, href: `/${locale}/blog` },
+          { name: t.title, href: `/${locale}/blog/${slug}` },
+        ]}
+      />
+      <ArticleSchema
+        locale={locale}
+        pathname={`/${locale}/blog/${slug}`}
+        headline={t.title}
+        description={t.subtitle}
+        section="Blog"
+        keywords={[state.slug.replace(/-/g, ' '), 'Brazil immigration']}
+      />
       <section className="border-b border-sand-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">State guide</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{pageCopy.eyebrow}</p>
           <h1 className="mt-4 font-display text-5xl text-ink-900">{t.title}</h1>
           <p className="mt-6 max-w-3xl text-lg text-ink-700">{t.subtitle}</p>
         </div>

@@ -2,12 +2,15 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import { ArticleSchema } from '@/components/article-schema';
 import { AboutLegacyRedesign } from '@/components/about-legacy-redesign';
+import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks, getRouteLinksByPrefix } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
 export const revalidate = 3600;
@@ -25,68 +28,15 @@ function isCategorySlug(value: string): value is CategorySlug {
 }
 
 function routeCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      aboutBrazilLabel: 'Sobre Brasil',
-      hubLabel: 'Centro About Brazil',
-      backLabel: 'Volver a About Brazil',
-      browseLabel: 'Explora por estado',
-      category: {
-        festivals: {
-          title: 'Festivales de Brasil por estado',
-          subtitle: 'Version modernizada de todas las guias regionales de festivales.',
-        },
-        food: {
-          title: 'Gastronomia de Brasil por estado',
-          subtitle: 'Version modernizada de todas las guias regionales de comida y platos locales.',
-        },
-      },
-    };
-  }
-
-  if (locale === 'pt') {
-    return {
-      aboutBrazilLabel: 'Sobre o Brasil',
-      hubLabel: 'Hub About Brazil',
-      backLabel: 'Voltar para About Brazil',
-      browseLabel: 'Explore por estado',
-      category: {
-        festivals: {
-          title: 'Festivais do Brasil por estado',
-          subtitle: 'Versao modernizada de todos os guias regionais de festivais.',
-        },
-        food: {
-          title: 'Gastronomia do Brasil por estado',
-          subtitle: 'Versao modernizada de todos os guias regionais de pratos e culinaria local.',
-        },
-      },
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      aboutBrazilLabel: 'A propos du Bresil',
-      hubLabel: 'Hub About Brazil',
-      backLabel: 'Retour a About Brazil',
-      browseLabel: 'Explorer par Etat',
-      category: {
-        festivals: {
-          title: 'Festivals du Bresil par Etat',
-          subtitle: 'Version modernisee de tous les guides regionaux des festivals.',
-        },
-        food: {
-          title: 'Cuisine du Bresil par Etat',
-          subtitle: 'Version modernisee de tous les guides regionaux de gastronomie locale.',
-        },
-      },
-    };
-  }
-
-  return {
+  return getManagedPageCopyWithFallback(locale, 'aboutBrazilSubPage', {
     aboutBrazilLabel: 'About Brazil',
     hubLabel: 'About Brazil hub',
     backLabel: 'Back to About Brazil',
     browseLabel: 'Browse by state',
+    pagesCountLabel: '{{count}} pages',
+    fallbackMetaDescription: 'Brazil relocation guidance and regional planning context.',
+    schemaSectionLabel: 'About Brazil',
+    keywordFallback: 'Brazil relocation',
     category: {
       festivals: {
         title: 'Brazil festivals by state',
@@ -97,7 +47,7 @@ function routeCopy(locale: Locale) {
         subtitle: 'Modernized versions of every regional food and cuisine guide from the legacy architecture.',
       },
     },
-  };
+  });
 }
 
 async function metadataForContent(locale: Locale, slug: string) {
@@ -113,7 +63,8 @@ async function metadataForContent(locale: Locale, slug: string) {
 
   const document = await getLegacyDocument(locale, ['about', 'about-brazil', slug]);
   const title = document?.title || segmentLabel(slug);
-  const description = document?.description || 'Brazil relocation guidance and regional planning context.';
+  const localized = routeCopy(locale);
+  const description = document?.description || localized.fallbackMetaDescription;
 
   return createMetadata({
     locale,
@@ -143,7 +94,7 @@ async function CategoryHub({ locale, slug }: { locale: Locale; slug: CategorySlu
           <p className="mt-6 max-w-3xl text-lg text-ink-700">{category.subtitle}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <span className="rounded-full border border-civic-200 bg-civic-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-civic-800">
-              {links.length} pages
+              {t.pagesCountLabel.replace('{{count}}', String(links.length))}
             </span>
             <Link
               href={`/${locale}/about/about-brazil`}
@@ -197,6 +148,21 @@ export default async function AboutBrazilSubPage({ params }: { params: Promise<{
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: copy[locale].nav.home, href: `/${locale}` },
+          { name: localized.aboutBrazilLabel, href: `/${locale}/about/about-brazil` },
+          { name: document.heading, href: `/${locale}/about/about-brazil/${slug}` },
+        ]}
+      />
+      <ArticleSchema
+        locale={locale}
+        pathname={`/${locale}/about/about-brazil/${slug}`}
+        headline={document.heading}
+        description={document.description}
+        section={localized.schemaSectionLabel}
+        keywords={[slug.replace(/-/g, ' '), localized.keywordFallback]}
+      />
       <AboutLegacyRedesign
         locale={locale}
         document={document}

@@ -33,11 +33,24 @@ jobs:
       - name: Validate CMS content
         run: npm run cms:validate
 
+      - name: Check locale sync drift
+        run: npm run cms:sync-locales:check
+
       - name: Typecheck
         run: npm run typecheck
 
       - name: Test
         run: npm run test
+
+      - name: Ensure Google verification DNS record
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ vars.CLOUDFLARE_ZONE_ID }}
+          CLOUDFLARE_ZONE_NAME: immigratetobrazil.com
+          CLOUDFLARE_DNS_RECORD_NAME: immigratetobrazil.com
+          CLOUDFLARE_DNS_TTL: '3600'
+          GOOGLE_SITE_VERIFICATION: V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo
+        run: npm run dns:google:verify
 
       - name: Deploy to Cloudflare
         run: npm run deploy

@@ -7,6 +7,23 @@ import { copy, resolveLocale } from '@/lib/i18n';
 import { countRoutesByPrefix, getRouteLinksByPrefix } from '@/lib/route-index';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type HomeArchiveManagedCopy = {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  countLabel: string;
+  libraryButtonLabel: string;
+};
+
+const homeArchiveFallback: HomeArchiveManagedCopy = {
+  eyebrow: 'Home Archive',
+  title: 'Legacy home pages',
+  subtitle: 'This archive centralizes old homepage variants and state-focused entry pages so they are not lost in migration.',
+  countLabel: '{{count}} home pages',
+  libraryButtonLabel: 'Open full library',
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -23,6 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function HomeArchivePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
+  const pageCopy = getManagedPageCopyWithFallback<HomeArchiveManagedCopy>(locale, 'homeArchivePage', homeArchiveFallback);
 
   const [links, total] = await Promise.all([
     getRouteLinksByPrefix(locale, 'home', { includePrefixEntry: false, limit: 120 }),
@@ -33,20 +51,18 @@ export default async function HomeArchivePage({ params }: { params: Promise<{ lo
     <>
       <section className="border-b border-sand-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">Home Archive</p>
-          <h1 className="mt-4 font-display text-5xl text-ink-900">Legacy home pages</h1>
-          <p className="mt-6 max-w-3xl text-lg text-ink-700">
-            This archive centralizes old homepage variants and state-focused entry pages so they are not lost in migration.
-          </p>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{pageCopy.eyebrow}</p>
+          <h1 className="mt-4 font-display text-5xl text-ink-900">{pageCopy.title}</h1>
+          <p className="mt-6 max-w-3xl text-lg text-ink-700">{pageCopy.subtitle}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <span className="rounded-full border border-civic-200 bg-civic-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-civic-800">
-              {total} home pages
+              {pageCopy.countLabel.replace('{{count}}', String(total))}
             </span>
             <Link
               href={localizedPath(locale, '/library')}
               className="rounded-full border border-sand-300 bg-sand-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-ink-800"
             >
-              Open full library
+              {pageCopy.libraryButtonLabel}
             </Link>
           </div>
         </div>

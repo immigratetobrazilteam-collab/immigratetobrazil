@@ -2,25 +2,48 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 import { CtaCard } from '@/components/cta-card';
+import { FaqSchema } from '@/components/faq-schema';
 import { Hero } from '@/components/hero';
+import { ManagedSeoLinks } from '@/components/managed-seo-links';
 import { ProcessTimeline } from '@/components/process-timeline';
 import { ServiceGrid } from '@/components/service-grid';
 import { TrustStrip } from '@/components/trust-strip';
 import { copy, resolveLocale } from '@/lib/i18n';
-import { getSiteCmsCopy } from '@/lib/site-cms-content';
+import { renderMetaTitle, type ManagedSeoCopy } from '@/lib/managed-seo';
+import { getManagedPageCopyWithFallback, getSiteCmsCopy } from '@/lib/site-cms-content';
 import { createMetadata } from '@/lib/seo';
 import { localizedPath } from '@/lib/routes';
+
+const homePageSeoFallback: ManagedSeoCopy = {
+  metaTitleTemplate: '{{brand}} | Premium Immigration Advisory',
+  metaDescription:
+    'Immigration strategy, legal planning, and relocation execution support for moving to Brazil.',
+  keywords: ['immigrate to brazil', 'brazil visa', 'brazil residency'],
+  faq: [
+    {
+      question: 'What is the first step to immigrate to Brazil?',
+      answer: 'Start with eligibility mapping so visa category, documentation scope, and timeline are defined before filing.',
+    },
+  ],
+  internalLinksTitle: 'Popular migration pathways',
+  internalLinks: [
+    { href: '/services', label: 'Services overview' },
+    { href: '/visa-consultation', label: 'Visa consultation' },
+    { href: '/contact', label: 'Contact advisors' },
+  ],
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = copy[locale];
+  const seo = getManagedPageCopyWithFallback<ManagedSeoCopy>(locale, 'homePageSeo', homePageSeoFallback);
 
   return createMetadata({
     locale,
     pathname: `/${locale}`,
-    title: `${t.brand} | Premium Immigration Advisory`,
-    description: t.hero.subtitle,
+    title: renderMetaTitle(seo.metaTitleTemplate, { brand: t.brand }, `${t.brand} | Premium Immigration Advisory`),
+    description: seo.metaDescription || t.hero.subtitle,
   });
 }
 
@@ -28,9 +51,11 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const site = getSiteCmsCopy(locale);
+  const seo = getManagedPageCopyWithFallback<ManagedSeoCopy>(locale, 'homePageSeo', homePageSeoFallback);
 
   return (
     <>
+      <FaqSchema items={seo.faq.map((item) => ({ question: item.question, answer: item.answer }))} />
       <Hero locale={locale} />
       <TrustStrip locale={locale} />
       <ServiceGrid locale={locale} />
@@ -52,6 +77,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
           </div>
         </div>
       </section>
+      <ManagedSeoLinks locale={locale} title={seo.internalLinksTitle} links={seo.internalLinks} />
       <CtaCard locale={locale} />
     </>
   );

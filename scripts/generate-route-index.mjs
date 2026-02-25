@@ -20,6 +20,12 @@ const SKIP_DIRS = new Set([
 ]);
 
 const SKIP_PREFIXES = ['partials/', 'scripts/', 'documentation/'];
+const SKIP_PREFIXES_EXTENDED = [
+  ...SKIP_PREFIXES,
+  'public/',
+  'sitemap/',
+];
+const SKIP_EXACT_FILES = new Set(['template.html', 'public/admin/index.html', 'sitemap/index.html']);
 
 async function walk(dir, items = []) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -37,7 +43,8 @@ async function walk(dir, items = []) {
     if (!entry.isFile()) continue;
     if (!relative.endsWith('.html')) continue;
     if (relative.endsWith('.bak') || relative.endsWith('.backup')) continue;
-    if (SKIP_PREFIXES.some((prefix) => relative.startsWith(prefix))) continue;
+    if (SKIP_PREFIXES_EXTENDED.some((prefix) => relative.startsWith(prefix))) continue;
+    if (SKIP_EXACT_FILES.has(relative)) continue;
 
     items.push(relative);
   }

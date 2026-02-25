@@ -2,15 +2,66 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 import { CtaCard } from '@/components/cta-card';
-import { getPageCmsCopy } from '@/lib/page-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import { localizedPath } from '@/lib/routes';
+
+type ApplyBrazilManagedCopy = {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  stepLabel: string;
+  steps: Array<{
+    title: string;
+    detail: string;
+  }>;
+  checklistTitle: string;
+  checklist: string[];
+  buttonLabel: string;
+};
+
+const applyBrazilFallback: ApplyBrazilManagedCopy = {
+  eyebrow: 'Apply Brazil',
+  title: 'Apply to Brazil with a controlled legal process',
+  subtitle: 'This migrated page replaces the legacy static template with a structured execution flow for visa and residency applications.',
+  stepLabel: 'Step {{index}}',
+  steps: [
+    {
+      title: 'Eligibility mapping',
+      detail: 'Choose the correct immigration basis before collecting records.',
+    },
+    {
+      title: 'Document architecture',
+      detail: 'Create source, translation, notarization, and validity matrix.',
+    },
+    {
+      title: 'Submission strategy',
+      detail: 'File with quality gates, evidence integrity, and timeline controls.',
+    },
+    {
+      title: 'Post-submission tracking',
+      detail: 'Monitor requests, respond to clarifications, and secure final approval.',
+    },
+  ],
+  checklistTitle: 'Priority pre-application checklist',
+  checklist: [
+    'Passport and civil records verified for validity windows',
+    'Income, employment, or investment proofs aligned with visa category',
+    'Sworn translation and legalization requirements mapped',
+    'Local onboarding sequence prepared for CPF and immigration registration',
+  ],
+  buttonLabel: 'Book consultation',
+};
+
+function renderStepLabel(template: string, index: number) {
+  return template.includes('{{index}}') ? template.replace('{{index}}', String(index + 1)) : `${template} ${index + 1}`;
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = getPageCmsCopy(locale).applyBrazil;
+  const t = getManagedPageCopyWithFallback<ApplyBrazilManagedCopy>(locale, 'applyBrazilPage', applyBrazilFallback);
 
   return createMetadata({
     locale,
@@ -23,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ApplyBrazilPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = getPageCmsCopy(locale).applyBrazil;
+  const t = getManagedPageCopyWithFallback<ApplyBrazilManagedCopy>(locale, 'applyBrazilPage', applyBrazilFallback);
 
   return (
     <>
@@ -39,7 +90,7 @@ export default async function ApplyBrazilPage({ params }: { params: Promise<{ lo
         <div className="mx-auto grid max-w-7xl gap-6 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:px-8">
           {t.steps.map((step, index) => (
             <article key={step.title} className="rounded-2xl border border-sand-200 bg-white p-6 shadow-sm">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">Step {index + 1}</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-civic-700">{renderStepLabel(t.stepLabel, index)}</p>
               <h2 className="mt-2 font-display text-2xl text-ink-900">{step.title}</h2>
               <p className="mt-3 text-sm text-ink-700">{step.detail}</p>
             </article>

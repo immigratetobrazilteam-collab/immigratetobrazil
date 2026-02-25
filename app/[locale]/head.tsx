@@ -5,9 +5,14 @@ import { siteConfig } from '@/lib/site-config';
 export default function Head() {
   const gaId = siteConfig.analytics.gaMeasurementId;
   const gtmId = siteConfig.analytics.gtmId;
+  const hasAnalytics = Boolean(gaId || gtmId);
 
   return (
     <>
+      {hasAnalytics ? <link rel="dns-prefetch" href="//www.googletagmanager.com" /> : null}
+      {hasAnalytics ? <link rel="dns-prefetch" href="//www.google-analytics.com" /> : null}
+      {hasAnalytics ? <link rel="preconnect" href="https://www.googletagmanager.com" /> : null}
+      {hasAnalytics ? <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" /> : null}
       {gaId ? <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} /> : null}
       {gaId ? (
         <script

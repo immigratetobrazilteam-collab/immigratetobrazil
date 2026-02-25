@@ -1,5 +1,6 @@
 import { stateBySlug, type BrazilianState } from '@/content/curated/states';
-import { getStateCmsCopy } from '@/lib/cms-content';
+import { getPolicyCmsCopy, getStateCmsCopy } from '@/lib/cms-content';
+import { getManagedPageCopy } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
 const regionLabels: Record<Locale, Record<BrazilianState['region'], string>> = {
@@ -115,6 +116,27 @@ export function blogStateCopy(locale: Locale, state: BrazilianState) {
 }
 
 export function policyCopy(locale: Locale, policy: string) {
+  const managedPolicyEntries = getManagedPageCopy<
+    Array<{
+      slug: string;
+      title: string;
+      paragraphs: string[];
+    }>
+  >(locale, 'policyEntries');
+
+  const managedPolicy = managedPolicyEntries?.find((entry) => entry.slug === policy);
+  if (managedPolicy?.title && Array.isArray(managedPolicy.paragraphs) && managedPolicy.paragraphs.length >= 1) {
+    return {
+      title: managedPolicy.title,
+      paragraphs: managedPolicy.paragraphs,
+    };
+  }
+
+  const cmsPolicy = getPolicyCmsCopy(locale, policy);
+  if (cmsPolicy) {
+    return cmsPolicy;
+  }
+
   const labels: Record<string, Record<Locale, string>> = {
     privacy: { en: 'Privacy Policy', es: 'Política de Privacidad', pt: 'Política de Privacidade', fr: 'Politique de confidentialité' },
     terms: { en: 'Terms of Service', es: 'Términos del Servicio', pt: 'Termos de Serviço', fr: "Conditions d'utilisation" },

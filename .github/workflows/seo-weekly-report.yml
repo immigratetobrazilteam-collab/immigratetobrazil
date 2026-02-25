@@ -1,0 +1,59 @@
+name: SEO Weekly Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 5 * * 1'
+
+concurrency:
+  group: seo-weekly-report
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run SEO audit
+        continue-on-error: true
+        env:
+          SEO_AUDIT_BASE_URL: https://immigratetobrazil.com
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+          SEO_AUDIT_FAIL_ON_ERROR: false
+          SEO_AUDIT_FAIL_ON_SAMPLE_ERROR: false
+        run: npm run seo:audit
+
+      - name: Run PageSpeed checks
+        continue-on-error: true
+        env:
+          PSI_BASE_URL: https://immigratetobrazil.com
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+          PSI_FAIL_ON_ERROR: false
+        run: npm run seo:psi
+
+      - name: Build weekly SEO report
+        run: npm run seo:weekly:report
+
+      - name: Upload SEO weekly artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-weekly-${{ github.run_id }}
+          path: |
+            artifacts/seo-audits/
+            artifacts/seo-psi/
+            artifacts/seo-weekly/
+          if-no-files-found: warn

@@ -2,6 +2,7 @@ import enLegacyOverrides from '@/content/cms/legacy-overrides/en.json';
 import esLegacyOverrides from '@/content/cms/legacy-overrides/es.json';
 import frLegacyOverrides from '@/content/cms/legacy-overrides/fr.json';
 import ptLegacyOverrides from '@/content/cms/legacy-overrides/pt.json';
+import { getManagedPageCopyLocalWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
 type LegacyUiLink = {
@@ -57,13 +58,18 @@ function normalizeSlug(input: string) {
 }
 
 export function getLegacyCmsCopy(locale: Locale) {
-  return overridesByLocale[locale];
+  const file = overridesByLocale[locale];
+  return {
+    ...file,
+    ui: getManagedPageCopyLocalWithFallback<LegacyUiCopy>(locale, 'legacyUi', file.ui),
+    pages: getManagedPageCopyLocalWithFallback<LegacyPageOverride[]>(locale, 'legacyPageOverrides', file.pages),
+  };
 }
 
 export function getLegacyPageOverride(locale: Locale, slug: string): LegacyPageOverride | null {
   const normalized = normalizeSlug(slug);
   if (!normalized) return null;
 
-  const file = overridesByLocale[locale];
+  const file = getLegacyCmsCopy(locale);
   return file.pages.find((page) => normalizeSlug(page.slug) === normalized) || null;
 }

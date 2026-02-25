@@ -74,5 +74,132 @@
       ]
     }
   },
-  "overrides": []
+  "overrides": [
+    {
+      "slug": "bahia",
+      "blog": {
+        "title": "Bahia: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Bahia, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Bahia."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Bahia."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Bahia."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "minas-gerais",
+      "blog": {
+        "title": "Minas Gerais: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Minas Gerais, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Minas Gerais."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Minas Gerais."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Minas Gerais."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "parana",
+      "blog": {
+        "title": "Parana: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Parana, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Parana."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Parana."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Parana."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "blog": {
+        "title": "Rio de Janeiro: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Rio de Janeiro, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Rio de Janeiro."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Rio de Janeiro."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Rio de Janeiro."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "santa-catarina",
+      "blog": {
+        "title": "Santa Catarina: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Santa Catarina, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Santa Catarina."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Santa Catarina."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Santa Catarina."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "blog": {
+        "title": "Sao Paulo: guide immigration et relocalisation",
+        "subtitle": "Strategie pratique de relocalisation pour Sao Paulo, avec focus sur regularisation legale, couts et 90 premiers jours.",
+        "sections": [
+          {
+            "title": "Contexte local",
+            "detail": "Comment logement, services et integration fonctionnent a Sao Paulo."
+          },
+          {
+            "title": "Risques et opportunites",
+            "detail": "Que verifier avant de signer des contrats ou engager du capital a Sao Paulo."
+          },
+          {
+            "title": "Sequence d'execution",
+            "detail": "Plan par etapes pour arrivee, regularisation et 90 premiers jours a Sao Paulo."
+          }
+        ]
+      }
+    }
+  ]
 }

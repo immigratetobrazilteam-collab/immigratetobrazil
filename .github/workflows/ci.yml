@@ -34,6 +34,9 @@ jobs:
       - name: Validate CMS content
         run: npm run cms:validate
 
+      - name: Check locale sync drift
+        run: npm run cms:sync-locales:check
+
       - name: Typecheck
         run: npm run typecheck
 

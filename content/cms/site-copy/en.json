@@ -9,7 +9,7 @@
     "resources": "Resources",
     "blog": "Insights",
     "faq": "FAQ",
-    "library": "All Pages",
+    "library": "Pages",
     "contact": "Contact"
   },
   "hero": {
@@ -170,9 +170,9 @@
       "summary": "Practical relocation strategy for Rio de Janeiro, with focus on legal setup, costs, and first 90 days."
     },
     {
-      "slug": "visa-document-quality",
-      "title": "Why documentation quality beats speed in immigration filings",
-      "summary": "A practical framework for reducing denial risk before submission."
+      "slug": "blog-minas-gerais",
+      "title": "Minas Gerais: immigration and relocation guide",
+      "summary": "Practical relocation strategy for Minas Gerais, with focus on legal setup, costs, and first 90 days."
     }
   ],
   "headerNavigation": {
@@ -302,5 +302,807 @@
     "whatsapp": "WhatsApp",
     "whatsappTag": "Fast response",
     "top": "Back to top"
+  },
+  "managedPages": {
+    "homePageSeo": {
+      "metaTitleTemplate": "{{brand}} | Premium Immigration Advisory",
+      "metaDescription": "Immigration strategy, legal planning, and relocation execution support for moving to Brazil.",
+      "keywords": [
+        "immigrate to brazil",
+        "brazil visa",
+        "brazil residency"
+      ],
+      "faq": [
+        {
+          "question": "What is the first step to immigrate to Brazil?",
+          "answer": "Start with eligibility mapping so visa category, documentation scope, and timeline are defined before filing."
+        }
+      ],
+      "internalLinksTitle": "Popular migration pathways",
+      "internalLinks": [
+        {
+          "href": "/services",
+          "label": "Services overview"
+        },
+        {
+          "href": "/visa-consultation",
+          "label": "Visa consultation"
+        },
+        {
+          "href": "/contact",
+          "label": "Contact advisors"
+        }
+      ]
+    },
+    "aboutPage": {
+      "seo": {
+        "metaTitleTemplate": "{{aboutLabel}} | {{brand}}",
+        "metaDescription": "Built to replace static duplication with a modern architecture that improves performance, governance, and long-term content scaling.",
+        "keywords": [
+          "about immigrate to brazil",
+          "brazil relocation planning",
+          "immigration advisory"
+        ],
+        "faq": [
+          {
+            "question": "What can I find on the About section?",
+            "answer": "You can browse Brazil guides, state guides, firm profile pages, and migration methodology content."
+          }
+        ],
+        "internalLinksTitle": "Recommended next steps",
+        "internalLinks": [
+          {
+            "href": "/services",
+            "label": "Explore services"
+          },
+          {
+            "href": "/process",
+            "label": "View migration process"
+          },
+          {
+            "href": "/contact",
+            "label": "Start consultation"
+          }
+        ]
+      },
+      "heroTitle": "Architecture-first redesign for long-term growth",
+      "heroSubtitle": "Your historical content is now mapped into reusable route families. Instead of losing old pages, this layer turns them into structured hubs that are easier to navigate, audit, and expand.",
+      "libraryButtonLabel": "Open full page library",
+      "cards": {
+        "aboutBrazil": {
+          "title": "About Brazil",
+          "description": "Core guides for living in Brazil, with food, festivals, and high-level orientation topics.",
+          "countLabel": "{{count}} pages",
+          "ctaLabel": "Open hub",
+          "href": "/about/about-brazil"
+        },
+        "aboutStates": {
+          "title": "About States",
+          "description": "State-by-state informational pages migrated from the old architecture.",
+          "countLabel": "{{count}} pages",
+          "ctaLabel": "Open hub",
+          "href": "/about/about-states"
+        },
+        "aboutUs": {
+          "title": "About Us",
+          "description": "Mission, legal positioning, expertise, trust indicators, and outcome pages.",
+          "countLabel": "{{count}} pages",
+          "ctaLabel": "Open hub",
+          "href": "/about/about-us"
+        },
+        "values": {
+          "title": "Values",
+          "description": "Core principles that guide how the firm communicates, advises, and executes.",
+          "countLabel": "Brand identity page",
+          "ctaLabel": "Open values",
+          "href": "/about/values"
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "The operating mission behind the firm's immigration strategy model.",
+          "countLabel": "Brand identity page",
+          "ctaLabel": "Open mission",
+          "href": "/about/mission"
+        },
+        "story": {
+          "title": "Story",
+          "description": "How the advisory started and expanded into a national support model.",
+          "countLabel": "Brand identity page",
+          "ctaLabel": "Open story",
+          "href": "/about/story"
+        },
+        "accessibility": {
+          "title": "Accessibility",
+          "description": "Accessibility and inclusive-use documentation migrated into the new structure.",
+          "countLabel": "{{count}} page",
+          "ctaLabel": "Open accessibility center",
+          "href": "/accessibility"
+        }
+      }
+    },
+    "servicesPage": {
+      "seo": {
+        "metaTitleTemplate": "{{servicesLabel}} | {{brand}}",
+        "metaDescription": "Legal immigration services, visa planning, and state-specific migration execution support in Brazil.",
+        "keywords": [
+          "brazil immigration services",
+          "brazil visa lawyer",
+          "residency brazil"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle both strategy and full-case execution?",
+            "answer": "Yes. Service scope ranges from advisory strategy sessions to full execution and post-arrival compliance support."
+          }
+        ],
+        "internalLinksTitle": "Related service pages",
+        "internalLinks": [
+          {
+            "href": "/visa-consultation",
+            "label": "Visa consultation"
+          },
+          {
+            "href": "/process",
+            "label": "Migration process"
+          },
+          {
+            "href": "/contact",
+            "label": "Talk to the team"
+          }
+        ]
+      },
+      "heroTitle": "Structured services for every immigration stage",
+      "heroSubtitle": "Choose a clear scope: strategic planning, full-case handling, or post-arrival continuity support.",
+      "serviceCountLabel": "{{count}} service routes indexed",
+      "legacySectionTitle": "Legacy service archives by family",
+      "legacySectionSubtitle": "This section exposes full service categories from the old website, including state archive folders and legal/visa/residency families.",
+      "stateSectionTitle": "State service hubs",
+      "stateSectionSubtitle": "Each state now has a dedicated modern route that links to migration services and localized guidance."
+    },
+    "processPage": {
+      "heroTitle": "Controlled workflow from intake to legal stabilization",
+      "heroSubtitle": "Every stage has documented inputs, quality checks, and clear owner accountability."
+    },
+    "faqHubPage": {
+      "metaTitleTemplate": "FAQ | {{brand}}",
+      "metaDescription": "Frequently asked questions about migration, legal process, and relocation execution.",
+      "eyebrow": "FAQ",
+      "title": "State-specific immigration FAQ",
+      "subtitle": "This is the phase-2 migrated FAQ hub. Choose a state to access modernized question-and-answer guidance."
+    },
+    "blogHubPage": {
+      "stateArchiveCountLabel": "{{count}} state blog pages indexed",
+      "stateArchiveTitle": "State blog archives",
+      "stateArchiveSubtitle": "Legacy state-specific blog pages are now linked here as part of the redesigned information architecture."
+    },
+    "libraryPage": {
+      "metaTitleTemplate": "All Pages Library | {{brand}}",
+      "metaDescription": "Unified inventory of legacy and modernized content sections in the new architecture.",
+      "eyebrow": "Content Library",
+      "title": "All legacy and modern pages in one place",
+      "subtitle": "This library is designed to make your old site material discoverable inside the new architecture. Use it as the master directory for migration, redesign, and internal linking.",
+      "indexedRoutesLabel": "{{count}} indexed routes",
+      "openSitemapLabel": "Open sitemap",
+      "largestArchivesTitle": "Largest archives",
+      "largestArchivesSubtitle": "These are the largest folders from the legacy website. They need deliberate internal-link strategy so they can contribute SEO and user discovery.",
+      "servicesFamiliesTitle": "Services families",
+      "discoverFamiliesTitle": "Discover families",
+      "sectionMapTitle": "Section map",
+      "openSectionLabel": "Open section hub",
+      "sections": [
+        {
+          "id": "about-brazil",
+          "title": "About Brazil",
+          "description": "Brazil-wide educational content (culture, food, festivals, and relocation basics).",
+          "prefix": "about/about-brazil",
+          "hrefPath": "/about/about-brazil"
+        },
+        {
+          "id": "about-states",
+          "title": "About States",
+          "description": "State-level context pages migrated from the legacy site.",
+          "prefix": "about/about-states",
+          "hrefPath": "/about/about-states"
+        },
+        {
+          "id": "about-us",
+          "title": "About Us",
+          "description": "Brand trust, experience, and methodology pages.",
+          "prefix": "about/about-us",
+          "hrefPath": "/about/about-us"
+        },
+        {
+          "id": "home",
+          "title": "Home Archive",
+          "description": "Legacy home page family including state variants.",
+          "prefix": "home",
+          "hrefPath": "/home"
+        },
+        {
+          "id": "services",
+          "title": "Services",
+          "description": "Service pages, legal categories, and state-specific subfolders.",
+          "prefix": "services",
+          "hrefPath": "/services"
+        },
+        {
+          "id": "contact",
+          "title": "Contact by State",
+          "description": "State contact pages and regional consultation points.",
+          "prefix": "contact",
+          "hrefPath": "/contact"
+        },
+        {
+          "id": "blog",
+          "title": "Blog by State",
+          "description": "State-level blog guidance migrated to modern routing.",
+          "prefix": "blog",
+          "hrefPath": "/blog"
+        },
+        {
+          "id": "faq",
+          "title": "FAQ by State",
+          "description": "Frequently asked migration questions by state.",
+          "prefix": "faq",
+          "hrefPath": "/faq"
+        },
+        {
+          "id": "resources",
+          "title": "Resources",
+          "description": "Resources and guides for migration operations in Brazil.",
+          "prefix": "resources-guides-brazil",
+          "hrefPath": "/resources-guides-brazil"
+        },
+        {
+          "id": "accessibility",
+          "title": "Accessibility",
+          "description": "Accessibility and compliance documentation.",
+          "prefix": "accessibility",
+          "hrefPath": "/accessibility"
+        },
+        {
+          "id": "discover",
+          "title": "Discover Archive",
+          "description": "Large long-tail location library from the legacy site.",
+          "prefix": "discover",
+          "hrefPath": "/discover/brazilian-states"
+        },
+        {
+          "id": "policies",
+          "title": "Policies",
+          "description": "Legal and compliance policy center pages.",
+          "prefix": "policies",
+          "hrefPath": "/policies"
+        },
+        {
+          "id": "visa-consultation",
+          "title": "Visa Consultation",
+          "description": "Consultation entry points and intake pages.",
+          "prefix": "visa-consultation",
+          "hrefPath": "/visa-consultation"
+        }
+      ]
+    },
+    "policiesHubPage": {
+      "eyebrow": "Policies",
+      "title": "Policy center",
+      "subtitle": "Centralized legal and compliance policies in the modern architecture."
+    },
+    "aboutBrazilHubPage": {
+      "eyebrow": "About Brazil",
+      "title": "Brazil content library",
+      "subtitle": "Legacy content has been mapped into the new architecture. Explore culture, cost of living, food, festivals, and relocation context from one structured hub.",
+      "countLabel": "{{count}} pages in this section",
+      "backLabel": "Back to About"
+    },
+    "aboutStatesHubPage": {
+      "eyebrow": "About States",
+      "title": "Brazil states archive",
+      "subtitle": "Every state page from your previous site is now exposed in the new design system with consistent navigation and styling.",
+      "countLabel": "{{count}} state pages",
+      "backLabel": "Back to About"
+    },
+    "aboutUsHubPage": {
+      "eyebrow": "About Us",
+      "title": "Firm profile archive",
+      "subtitle": "Mission, credibility assets, client outcomes, and operating standards from the previous site are now available inside one modernized content cluster.",
+      "countLabel": "{{count}} pages in this section",
+      "backLabel": "Back to About"
+    },
+    "aboutStoryPage": {
+      "eyebrow": "Brand Identity",
+      "title": "Our story",
+      "subtitle": "What began as one relocation support request evolved into a full immigration advisory designed for clarity, compliance, and predictable outcomes.",
+      "primaryButtonLabel": "About us hub",
+      "secondaryButtonLabel": "Mission",
+      "milestones": [
+        {
+          "title": "First relocation project",
+          "body": "The company started after helping a friend relocate from Canada to Sao Paulo through a fragmented immigration process."
+        },
+        {
+          "title": "Method built from practice",
+          "body": "A practical checklist became a repeatable framework covering legal steps, documentation, and local setup."
+        },
+        {
+          "title": "National service model",
+          "body": "Today the advisory supports clients across all 27 Brazilian states, from visa strategy to on-the-ground integration."
+        }
+      ],
+      "whoWeServeTitle": "Who we serve",
+      "whoWeServeBody": "Families, professionals, entrepreneurs, retirees, students, and travelers who need a structured plan for visas, residency, and legal onboarding in Brazil.",
+      "whoWeServeButtonLabel": "Talk to our team"
+    },
+    "aboutMissionPage": {
+      "eyebrow": "Brand Identity",
+      "title": "Our mission",
+      "subtitle": "Make Brazilian immigration understandable, predictable, and achievable for people who want to build a life in Brazil.",
+      "primaryButtonLabel": "View process",
+      "secondaryButtonLabel": "View values",
+      "pillars": [
+        {
+          "title": "Legal certainty",
+          "body": "Every roadmap is built around compliant pathways and verified requirements."
+        },
+        {
+          "title": "Structured execution",
+          "body": "We convert complex immigration tasks into practical milestones your family or company can follow."
+        },
+        {
+          "title": "Decision confidence",
+          "body": "We clarify options, timelines, and risks so you can move forward with confidence."
+        }
+      ],
+      "executionTitle": "How mission becomes execution",
+      "executionBody": "We align legal strategy, documentation readiness, and local onboarding so each case progresses through a measurable pathway instead of guesswork.",
+      "executionButtonLabel": "Start consultation"
+    },
+    "aboutValuesPage": {
+      "eyebrow": "Brand Identity",
+      "title": "Our values",
+      "subtitle": "These values guide every engagement, from first consultation to final document delivery and long-term support in Brazil.",
+      "primaryButtonLabel": "Read mission",
+      "secondaryButtonLabel": "Read story",
+      "values": [
+        {
+          "title": "Clarity",
+          "body": "We explain every step, deadline, and dependency in plain language so you always know what comes next."
+        },
+        {
+          "title": "Accuracy",
+          "body": "Our workflows follow official requirements and document standards to reduce avoidable risk."
+        },
+        {
+          "title": "Respect",
+          "body": "We respect Brazilian legal frameworks, local culture, and each client's personal timeline."
+        },
+        {
+          "title": "Accountability",
+          "body": "We track responsibilities on both sides and keep communication consistent from intake to completion."
+        }
+      ],
+      "commitmentsTitle": "Ethical commitments",
+      "commitments": [
+        "We do not promise outcomes outside legal control.",
+        "We do not recommend shortcuts that violate compliance standards.",
+        "We protect client records and sensitive documents.",
+        "We communicate tradeoffs and risks as early as possible."
+      ]
+    },
+    "accessibilityPage": {
+      "metaTitleTemplate": "Accessibility | {{brand}}",
+      "metaDescription": "Accessibility center and migrated legacy accessibility statement.",
+      "eyebrow": "Accessibility",
+      "title": "Accessibility center",
+      "subtitle": "Accessibility content from your legacy site is now part of the modern route map. This section provides direct access to the original policy and supporting pages.",
+      "libraryButtonLabel": "Open full library",
+      "fallbackCardTitle": "Accessibility statement",
+      "fallbackCardBody": "The accessibility content is being consolidated. Contact us if you need any support in accessing documents or using this website."
+    },
+    "policyDetailPage": {
+      "eyebrow": "Policy"
+    },
+    "servicesStatePage": {
+      "eyebrow": "State services"
+    },
+    "blogStatePage": {
+      "eyebrow": "State guide"
+    },
+    "faqStatePage": {
+      "eyebrow": "FAQ",
+      "backButtonLabel": "Back to FAQ hub",
+      "fallbackMetaTitle": "FAQ",
+      "fallbackMetaDescription": "State FAQ page."
+    },
+    "contactStatePage": {
+      "eyebrow": "State contact",
+      "consultationButtonLabel": "Consultation",
+      "formTitleTemplate": "Consultation request for {{state}}",
+      "fallbackMetaTitle": "Contact",
+      "fallbackMetaDescription": "Immigration contact page.",
+      "schemaSectionLabel": "Contact",
+      "keywordFallback": "Brazil consultation"
+    },
+    "legacySyntheticDocument": {
+      "overview": "Overview",
+      "nextSteps": "Next Steps",
+      "fallbackDescription": "Immigration guidance for Brazil focused on requirements, documentation quality, and timeline planning.",
+      "paragraphOne": "This page outlines key checkpoints for this route, including eligibility, process structure, and practical considerations.",
+      "paragraphTwo": "Review eligibility, prepare supporting documents, and validate your strategy with a professional consultation."
+    },
+    "homeArchivePage": {
+      "eyebrow": "Home Archive",
+      "title": "Legacy home pages",
+      "subtitle": "This archive centralizes old homepage variants and state-focused entry pages so they are not lost in migration.",
+      "countLabel": "{{count}} home pages",
+      "libraryButtonLabel": "Open full library"
+    },
+    "aboutUsDetailPage": {
+      "eyebrowPrefix": "About Us",
+      "hubLabel": "About Us hub",
+      "fallbackMetaDescription": "Immigration advisory standards, expertise, and client outcome references.",
+      "fallbackMetaTitleTemplate": "{{label}} | {{brand}}"
+    },
+    "aboutBrazilSubPage": {
+      "aboutBrazilLabel": "About Brazil",
+      "hubLabel": "About Brazil hub",
+      "backLabel": "Back to About Brazil",
+      "browseLabel": "Browse by state",
+      "pagesCountLabel": "{{count}} pages",
+      "fallbackMetaDescription": "Brazil relocation guidance and regional planning context.",
+      "schemaSectionLabel": "About Brazil",
+      "keywordFallback": "Brazil relocation",
+      "category": {
+        "festivals": {
+          "title": "Brazil festivals by state",
+          "subtitle": "Modernized versions of every regional festival guide from the legacy architecture."
+        },
+        "food": {
+          "title": "Brazil food by state",
+          "subtitle": "Modernized versions of every regional food and cuisine guide from the legacy architecture."
+        }
+      }
+    },
+    "aboutBrazilStatePage": {
+      "hubLabel": "Back to category",
+      "fallbackMetaDescription": "Regional Brazil relocation guidance.",
+      "fallbackMetaTitleTemplate": "{{state}} | {{brand}}",
+      "schemaSectionLabelPrefix": "About Brazil",
+      "keywordFallback": "Brazil relocation",
+      "categoryLabel": {
+        "festivals": "Festivals",
+        "food": "Food"
+      }
+    },
+    "contactHubPage": {
+      "formTitle": "Start Consultation",
+      "formSubtitle": "Use this secure form for legal advisory requests. We answer by email and WhatsApp.",
+      "stateArchiveTitle": "State contact archives",
+      "stateArchiveSubtitle": "{{count}} state-specific contact pages from your old site are now available in the redesigned routing system."
+    },
+    "visaConsultationPage": {
+      "seo": {
+        "metaTitleTemplate": "Visa Consultation | {{brand}}",
+        "metaDescription": "Brazil visa consultation with eligibility mapping, documentation planning, and execution guidance.",
+        "keywords": [
+          "brazil visa consultation",
+          "immigration consultation brazil",
+          "visa planning"
+        ],
+        "faq": [
+          {
+            "question": "What do I get from a visa consultation?",
+            "answer": "You receive category fit guidance, document requirements, risk flags, and a practical submission roadmap."
+          }
+        ],
+        "internalLinksTitle": "Continue your migration planning",
+        "internalLinks": [
+          {
+            "href": "/services",
+            "label": "Services overview"
+          },
+          {
+            "href": "/process",
+            "label": "Process timeline"
+          },
+          {
+            "href": "/contact",
+            "label": "Direct contact"
+          }
+        ]
+      },
+      "eyebrow": "Visa consultation",
+      "title": "Visa consultation framework",
+      "subtitle": "First-wave migration of legacy consultation content into a clear paid-advisory scope with documented outputs.",
+      "blocks": [
+        {
+          "title": "Session deliverables",
+          "detail": "Eligibility map, risk flags, required documents, and priority timeline."
+        },
+        {
+          "title": "Profile categories",
+          "detail": "Work, digital nomad, investment, retirement, family, and transition scenarios."
+        },
+        {
+          "title": "Commercial scope",
+          "detail": "Advisory session, execution package options, and compliance follow-up."
+        }
+      ]
+    },
+    "resourcesGuidesBrazilPage": {
+      "seo": {
+        "metaTitleTemplate": "Resources | {{brand}}",
+        "metaDescription": "Immigration resource playbooks, state selection guides, and compliance operations for Brazil.",
+        "keywords": [
+          "brazil immigration resources",
+          "brazil relocation guide",
+          "visa checklist brazil"
+        ],
+        "faq": [
+          {
+            "question": "What is included in the resources hub?",
+            "answer": "It includes visa category playbooks, state selection guidance, arrival operations, and compliance checkpoints."
+          }
+        ],
+        "internalLinksTitle": "Useful migration links",
+        "internalLinks": [
+          {
+            "href": "/library",
+            "label": "Open full library"
+          },
+          {
+            "href": "/services",
+            "label": "Services overview"
+          },
+          {
+            "href": "/contact",
+            "label": "Get support"
+          }
+        ]
+      },
+      "eyebrow": "Resource hub",
+      "title": "Brazil immigration resources and operational guides",
+      "subtitle": "Modernized resource hub replacing legacy static blocks with structured guidance categories.",
+      "items": [
+        {
+          "title": "Visa category playbooks",
+          "detail": "Decision trees, eligibility references, and supporting document standards."
+        },
+        {
+          "title": "State selection guides",
+          "detail": "Regional cost, climate, legal workflow, and infrastructure tradeoffs."
+        },
+        {
+          "title": "Arrival operations",
+          "detail": "CPF, CRNM/RNE, housing, healthcare, education, and banking setup references."
+        },
+        {
+          "title": "Compliance alerts",
+          "detail": "Renewal timing, validity windows, and procedural checkpoints."
+        }
+      ],
+      "resourceCountLabel": "{{count}} resource pages",
+      "discoverCountLabel": "{{count}} discover pages",
+      "legacyArchiveTitle": "Legacy discover archives",
+      "legacyArchiveSubtitle": "The old discover folders are now grouped below so they can be linked from modern pages and navigation."
+    },
+    "applyBrazilPage": {
+      "eyebrow": "Apply Brazil",
+      "title": "Apply to Brazil with a controlled legal process",
+      "subtitle": "This migrated page replaces the legacy static template with a structured execution flow for visa and residency applications.",
+      "stepLabel": "Step {{index}}",
+      "steps": [
+        {
+          "title": "Eligibility mapping",
+          "detail": "Choose the correct immigration basis before collecting records."
+        },
+        {
+          "title": "Document architecture",
+          "detail": "Create source, translation, notarization, and validity matrix."
+        },
+        {
+          "title": "Submission strategy",
+          "detail": "File with quality gates, evidence integrity, and timeline controls."
+        },
+        {
+          "title": "Post-submission tracking",
+          "detail": "Monitor requests, respond to clarifications, and secure final approval."
+        }
+      ],
+      "checklistTitle": "Priority pre-application checklist",
+      "checklist": [
+        "Passport and civil records verified for validity windows",
+        "Income, employment, or investment proofs aligned with visa category",
+        "Sworn translation and legalization requirements mapped",
+        "Local onboarding sequence prepared for CPF and immigration registration"
+      ],
+      "buttonLabel": "Book consultation"
+    },
+    "costOfLivingBrazilPage": {
+      "eyebrow": "Cost of living",
+      "title": "Cost of living planning for Brazilian relocation",
+      "subtitle": "This migrated route provides a concise budgeting model for housing, transport, healthcare, and integration expenses.",
+      "cards": [
+        {
+          "title": "Housing baseline",
+          "detail": "Model city-by-city rent ranges and include lease setup, deposits, and utility activation."
+        },
+        {
+          "title": "Monthly essentials",
+          "detail": "Track food, transit, communications, and private services with conservative buffers."
+        },
+        {
+          "title": "Compliance costs",
+          "detail": "Reserve budget for translations, certifications, application fees, and renewals."
+        },
+        {
+          "title": "Stabilization reserve",
+          "detail": "Maintain at least 3 to 6 months of liquidity during the first integration cycle."
+        }
+      ]
+    },
+    "aboutLegacyRedesignUi": {
+      "keyPoints": "Key points",
+      "sourceTitle": "Original source",
+      "relatedTitle": "Related pages",
+      "primaryCta": "Book consultation",
+      "secondaryCta": "Back to hub",
+      "strategicWrapTitle": "Migration execution with structure",
+      "strategicWrapBody": "We align strategy, documentation, and follow-through so your immigration process stays controlled and low-risk."
+    },
+    "aboutUsSignatureUi": {
+      "pillarsTitle": "Strategic framework",
+      "sectionsTitle": "Content and details",
+      "keyPoints": "Key points",
+      "relatedTitle": "Related pages",
+      "primaryCta": "Book consultation",
+      "secondaryCta": "Back to hub",
+      "frameworkText": "Premium standard with legal control and clear communication."
+    },
+    "formspreeForm": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "WhatsApp / Phone",
+      "service": "Service of interest",
+      "message": "Tell us your goal and timeline",
+      "send": "Send request",
+      "sending": "Sending...",
+      "success": "Request sent successfully. We will get back to you shortly.",
+      "failure": "We could not submit the form right now. Please try again in a few minutes.",
+      "spam": "Submission blocked by anti-spam protection.",
+      "fieldErrors": {
+        "name": "Please enter your full name.",
+        "email": "Please enter a valid email address.",
+        "message": "Please write a message with at least 20 characters."
+      }
+    },
+    "legacyUi": {
+      "keyPointsTitle": "Key points",
+      "pathTitle": "Path",
+      "relatedPagesTitle": "Related pages",
+      "exploreTitle": "Explore",
+      "sourceLabel": "Source",
+      "exploreLinks": [
+        {
+          "href": "/about/about-brazil",
+          "label": "About Brazil hub"
+        },
+        {
+          "href": "/about/about-states",
+          "label": "About States hub"
+        },
+        {
+          "href": "/services",
+          "label": "Services archive"
+        },
+        {
+          "href": "/library",
+          "label": "Full library"
+        }
+      ]
+    },
+    "legacyPageOverrides": [
+      {
+        "slug": "admin-editable-demo",
+        "title": "Admin Editable Legacy Demo",
+        "description": "This is a demo legacy page fully controlled from /admin.",
+        "heading": "Legacy Content Editable From Admin",
+        "sourcePath": "cms:legacy-overrides/en/admin-editable-demo",
+        "sections": [
+          {
+            "title": "How it works",
+            "paragraphs": [
+              "This page exists to prove that any legacy slug can be edited from the admin panel.",
+              "Use the Legacy Overrides collection, pick your locale file, and add an item with the exact slug."
+            ]
+          },
+          {
+            "title": "What to edit",
+            "paragraphs": [
+              "You can edit title, description, heading, sections, hero image, and bullet points without changing code."
+            ]
+          }
+        ],
+        "bullets": [
+          "Slug-level control",
+          "No code required",
+          "Per-locale override support"
+        ]
+      }
+    ],
+    "policyEntries": [
+      {
+        "slug": "privacy",
+        "title": "Privacy Policy",
+        "paragraphs": [
+          "Immigrate to Brazil processes personal data to answer inquiries, evaluate immigration eligibility, deliver contracted advisory services, and comply with legal obligations in Brazil and other relevant jurisdictions.",
+          "We may collect identity details, contact information, communication records, immigration profile information, billing records, and technical data such as IP address and browser details when you use this website.",
+          "Data is used under one or more lawful bases, including contract performance, pre-contractual steps requested by you, legitimate interest, consent where required, and compliance with legal obligations.",
+          "Personal data is retained only for as long as necessary for service delivery, legal compliance, dispute resolution, and audit integrity. Retention periods vary by case category and regulatory requirements.",
+          "You may request access, correction, deletion, portability, objection, or restriction of processing, subject to applicable law. Requests can be sent through the contact channels listed on the Contact page.",
+          "We implement administrative, contractual, and technical safeguards designed to protect personal data; however, no internet-based transmission or storage system can be guaranteed as absolutely secure."
+        ]
+      },
+      {
+        "slug": "terms",
+        "title": "Terms of Service",
+        "paragraphs": [
+          "By accessing this website, you agree to these Terms of Service. If you do not agree, you should discontinue use of the website and any digital materials provided through it.",
+          "Website information is provided for general informational purposes and does not create attorney-client representation, legal mandate, or formal engagement unless confirmed by signed agreement.",
+          "You are responsible for the accuracy and completeness of information submitted through forms, consultations, or onboarding workflows. Inaccurate submissions may affect service quality and outcomes.",
+          "Fees, scope, and delivery timelines are governed by the applicable client agreement. Unless explicitly stated in writing, publishing timelines and authority response times are estimates only.",
+          "To the maximum extent permitted by law, liability for indirect, consequential, and incidental losses is excluded. Total liability is limited to fees paid for the relevant contracted service.",
+          "These terms are interpreted under applicable Brazilian law, without prejudice to mandatory consumer protections that may apply based on your residence and transaction context."
+        ]
+      },
+      {
+        "slug": "cookies",
+        "title": "Cookies Policy",
+        "paragraphs": [
+          "This website uses cookies and similar technologies to ensure core functionality, understand usage behavior, improve user experience, and measure campaign performance.",
+          "Essential cookies are required for core service operation and cannot be disabled without affecting website stability. Analytics and marketing cookies are optional and managed by your consent settings where required.",
+          "Third-party tools, including analytics and tag management providers, may place cookies according to their own technical configuration and privacy notices.",
+          "You can manage cookie preferences through your browser settings or any consent controls presented on the website. Blocking certain cookies may reduce website functionality.",
+          "Cookie retention periods vary by category and provider. Session cookies expire when your browsing session ends; persistent cookies remain until expiration or manual deletion.",
+          "We may update this policy to reflect legal, technical, or operational changes. Updated versions take effect when published on this page."
+        ]
+      },
+      {
+        "slug": "gdpr",
+        "title": "Data Protection Notice",
+        "paragraphs": [
+          "For users located in the EEA, UK, or other regions with similar data protection laws, we apply rights and controls consistent with applicable data protection requirements.",
+          "You may request access, rectification, erasure, portability, objection, and restriction of processing. You may also withdraw consent for consent-based processing at any time.",
+          "Cross-border data transfers, when required, are managed through appropriate safeguards such as contractual protections and processor due diligence.",
+          "If you believe your rights were not respected, you may contact us first so we can resolve the matter quickly, and you may also file a complaint with the relevant supervisory authority.",
+          "Data processors used for hosting, analytics, CRM, and operations are selected based on security posture and contractual commitments to confidentiality and lawful processing.",
+          "This notice supplements, and should be read together with, the main Privacy Policy and service-specific contractual documents."
+        ]
+      },
+      {
+        "slug": "refund",
+        "title": "Refund Policy",
+        "paragraphs": [
+          "Refund eligibility depends on the stage of service delivery, work already performed, and the specific contract terms accepted at onboarding.",
+          "Consultation sessions, diagnostic reviews, and custom strategy documents are generally non-refundable once delivered, because they involve reserved expert capacity and completed work product.",
+          "For ongoing service packages, partial refunds may be considered for unperformed portions where contract terms allow and where legal/administrative costs have not already been incurred.",
+          "Refund requests must be submitted in writing through official contact channels with your full name, service reference, payment proof, and reason for request.",
+          "Approved refunds are processed through the original payment rail where feasible and may require standard banking or payment-provider processing time.",
+          "Nothing in this policy limits mandatory consumer rights that cannot be waived under applicable law."
+        ]
+      },
+      {
+        "slug": "disclaimers",
+        "title": "Legal Disclaimers",
+        "paragraphs": [
+          "Website materials are educational and operational in nature and do not constitute individualized legal advice unless provided under a formal signed engagement.",
+          "Immigration outcomes depend on facts, documentation quality, authority discretion, and evolving regulations. Past approvals do not guarantee future decisions.",
+          "Estimated timelines, costs, and procedural steps are planning references and may change due to government updates, workload, or jurisdiction-specific practice.",
+          "External links are provided for convenience. We are not responsible for third-party content, uptime, data practices, or legal statements on external websites.",
+          "Users remain responsible for verifying final submission documents and declarations before filing with authorities.",
+          "By using this website, you acknowledge these limitations and agree to seek personalized professional advice when needed for high-stakes legal decisions."
+        ]
+      }
+    ]
   }
 }

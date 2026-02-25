@@ -7,10 +7,24 @@ import { FormspreeContactForm } from '@/components/formspree-contact-form';
 import { TrackedAnchor } from '@/components/tracked-anchor';
 import { brazilianStates } from '@/content/curated/states';
 import { copy, resolveLocale } from '@/lib/i18n';
-import { getPageCmsCopy } from '@/lib/page-cms-content';
 import { countRoutesByPrefix } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import { siteConfig } from '@/lib/site-config';
+
+type ContactHubManagedCopy = {
+  formTitle: string;
+  formSubtitle: string;
+  stateArchiveTitle: string;
+  stateArchiveSubtitle: string;
+};
+
+const contactHubFallback: ContactHubManagedCopy = {
+  formTitle: 'Start Consultation',
+  formSubtitle: 'Use this secure form for legal advisory requests. We answer by email and WhatsApp.',
+  stateArchiveTitle: 'State contact archives',
+  stateArchiveSubtitle: '{{count}} state-specific contact pages from your old site are now available in the redesigned routing system.',
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -29,7 +43,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = copy[locale];
-  const pageCopy = getPageCmsCopy(locale).contactPage;
+  const pageCopy = getManagedPageCopyWithFallback<ContactHubManagedCopy>(locale, 'contactHubPage', contactHubFallback);
   const contact = siteConfig.contact;
   const stateContactCount = await countRoutesByPrefix(locale, 'contact', false);
   const stateArchiveSubtitle = pageCopy.stateArchiveSubtitle.replace('{{count}}', String(stateContactCount));

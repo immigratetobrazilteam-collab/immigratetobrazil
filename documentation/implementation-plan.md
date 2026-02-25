@@ -102,6 +102,25 @@
 
 ## Phase 18: CMS coverage expansion (completed)
 - Added CMS-driven global site copy for nav, hero, trust, services, process, and blog highlight content.
-- Added CMS-driven migrated page copy for apply-brazil, cost-of-living, resources-guides, and visa-consultation pages.
-- Expanded Decap CMS collections to expose these new editable content areas in `/admin`.
-- Extended CMS validation and ops summary checks to include new site-copy and page-copy files.
+- Consolidated migrated page copy under `site-copy/*.json -> managedPages` so page-level content can be edited from one source.
+- Expanded Decap CMS collections to expose `managedPages` directly in `/admin`.
+- Extended CMS validation and ops summary checks to include `managedPages` health across locales.
+
+## Phase 19: CMS-first governance and bundle stabilization (completed)
+- Moved remaining page metadata/fallback labels into `managedPages` so English JSON controls more frontend behavior.
+- Added locale-sync drift detection mode (`cms:sync-locales:check`) and enforced it in CI/deploy workflows.
+- Reduced client bundle pressure by removing heavy `lib/i18n` imports from client components and passing lightweight server-provided props.
+- Kept image optimization on shared legacy templates and revalidated JS performance budgets.
+
+## Phase 20: Managed SEO controls and weekly reporting (completed)
+- Added CMS-managed SEO fields (`metaTitleTemplate`, `metaDescription`, `keywords`, `faq`, `internalLinks`) to core pages.
+- Rendered FAQ structured data and internal-link blocks from `managedPages` on major templates.
+- Removed remaining locale-specific hardcoded fallback branches in reusable components and long-tail about routes.
+- Added PageSpeed report artifact output (`artifacts/seo-psi/*`) with prioritized failure categories.
+- Added weekly SEO + PSI aggregation script and GitHub workflow (`seo-weekly-report.yml`).
+
+## Next priority backlog
+1. Continue replacing remaining hardcoded fallback strings in long-tail templates with `managedPages` keys.
+2. Add per-page SEO fields in `managedPages` (`metaTitle`, `metaDescription`, `faq`, `primaryKeyword`, `internalLinks`) and render automatically.
+3. Add Search Console and PageSpeed monitoring loop to track regressions weekly.
+4. Build a release checklist specifically for content editors (non-developer publish SOP).

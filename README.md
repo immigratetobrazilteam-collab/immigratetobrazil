@@ -3,7 +3,7 @@
 This repository now contains a full modern framework architecture built on Next.js + TypeScript + Tailwind.
 
 ## What changed
-- Replaced static-only architecture with locale-aware app routing (`/en`, `/es`, `/pt`).
+- Replaced static-only architecture with locale-aware app routing (`/en`, `/es`, `/pt`, `/fr`).
 - Added premium redesign system aligned to immigration/travel/trust positioning.
 - Added dynamic legacy bridge so existing long-tail HTML pages remain reachable.
 - Added route-index generation for scalable sitemap coverage.
@@ -11,7 +11,7 @@ This repository now contains a full modern framework architecture built on Next.
 - Added policy center routes under `/{locale}/policies/*`.
 - Added test suite + CI quality gates.
 - Added Phase-9 CMS-backed content layer for state pages and policy pages.
-- Expanded CMS coverage for global site copy and migrated core page copy.
+- Expanded CMS coverage for global site copy and migrated page-level copy through `site-copy -> managedPages`.
 - Added Cloudflare Workers deployment pipeline (OpenNext + Wrangler + GitHub Actions).
 
 ## Commands
@@ -23,13 +23,21 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
 - `npm run cms:validate` - validate CMS JSON structure and slug integrity
+- `npm run cms:sync-locales` - copy English `managedPages` into locale files (`es`, `pt`, `fr`)
+- `npm run cms:sync-locales:check` - fail if locale `managedPages` drift from English schema/content
+- `npm run cms:sync-locales:translate` - machine-translate English `site-copy` content into locale files (`es`, `pt`, `fr`)
+- `npm run content:check` - run your full content publishing checklist (`cms:validate` + locale sync + route index + smoke)
 - `npm run cms:backup` - export timestamped CMS backup snapshot under `artifacts/cms-backups/`
 - `npm run seo:audit` - generate SEO audit report under `artifacts/seo-audits/`
+- `npm run seo:env:check` - verify required/recommended SEO env vars (`NEXT_PUBLIC_SITE_URL`, `PAGESPEED_API_KEY`)
 - `npm run seo:clusters` - generate 90-day SEO cluster plans under `artifacts/seo-clusters/` (AI via Ollama when available)
 - `npm run seo:clusters:apply` - generate clusters and apply AI blog overrides to `content/cms/state-copy/*.json` + `content/cms/site-copy/*.json`
+- `npm run seo:psi` - run Google PageSpeed Insights checks on key pages (mobile + desktop)
+- `npm run seo:weekly:report` - generate weekly prioritized SEO/PSI summary from latest artifacts
 - `npm run seo:autopilot` - run full SEO cluster autopilot (`seo:clusters:apply` + `cms:validate`)
+- `npm run dns:google:verify` - upsert Google Search Console TXT verification record in Cloudflare DNS
 - `npm run smoke` - run production smoke checks (local or live URL)
-- `npm run perf:budget` - enforce JS build-size performance budgets from `.next/build-manifest.json`
+- `npm run perf:budget` - enforce JS build-size performance budgets from Next.js manifests/chunks
 - `npm run verify:release` - run full go-live quality gate sequence in one command
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
@@ -40,7 +48,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `lib/` - i18n, SEO, legacy loader, typed content
 - `content/curated/` - canonical data modules for migrated dynamic content
 - `content/generated/` - generated route inventory
-- `content/cms/` - Git-backed CMS content for state, policy, site, and page copy
+- `content/cms/` - Git-backed CMS content for state, policy, site copy, and legacy overrides
 - `tests/` - Vitest unit tests
 - `documentation/` - architecture and rollout docs
 
@@ -55,11 +63,12 @@ GitHub Actions workflow at `.github/workflows/ci.yml` runs:
 1. `npm ci`
 2. `npm run migrate:routes`
 3. `npm run cms:validate`
-4. `npm run typecheck`
-5. `npm run lint`
-6. `npm run test`
-7. `npm run build`
-8. `npm run perf:budget`
+4. `npm run cms:sync-locales:check`
+5. `npm run typecheck`
+6. `npm run lint`
+7. `npm run test`
+8. `npm run build`
+9. `npm run perf:budget`
 
 Security workflow at `.github/workflows/security-audit.yml` runs weekly:
 1. `npm ci`
@@ -71,10 +80,12 @@ Deployment workflow at `.github/workflows/deploy-cloudflare.yml` runs on `main`:
 1. `npm ci`
 2. `npm run migrate:routes`
 3. `npm run cms:validate`
-4. `npm run typecheck`
-5. `npm run test`
-6. `npm run deploy`
-7. `npm run smoke` against `https://immigratetobrazil.com`
+4. `npm run cms:sync-locales:check`
+5. `npm run typecheck`
+6. `npm run test`
+7. `npm run dns:google:verify`
+8. `npm run deploy`
+9. `npm run smoke` against `https://immigratetobrazil.com`
 
 Rollback workflow at `.github/workflows/rollback-cloudflare.yml` (manual):
 1. Set `target_ref` (commit SHA/tag/branch)
@@ -97,6 +108,11 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_GTM_ID`
 - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`
 - `NEXT_PUBLIC_SITE_URL`
+- `PAGESPEED_API_KEY` (recommended for `npm run seo:psi` to avoid shared API quota limits)
+- `CLOUDFLARE_ZONE_ID` (optional; used by `npm run dns:google:verify`)
+- `CLOUDFLARE_ZONE_NAME` (optional; defaults to `immigratetobrazil.com`)
+- `CLOUDFLARE_DNS_RECORD_NAME` (optional; defaults to apex record)
+- `CLOUDFLARE_DNS_TTL` (optional; defaults to `3600`)
 - `ADMIN_BASIC_AUTH_USER`
 - `ADMIN_BASIC_AUTH_PASS`
 - `DECAP_GITHUB_OAUTH_CLIENT_ID`
@@ -115,11 +131,12 @@ GA4 event tracking is wired for high-intent actions:
 ## Cloudflare setup
 1. Create Cloudflare API token with Worker and Route edit permissions.
 2. Add GitHub secret `CLOUDFLARE_API_TOKEN`.
-3. Verify `wrangler.toml` values for:
+3. Optional for deterministic zone targeting: set GitHub variable `CLOUDFLARE_ZONE_ID`.
+4. Verify `wrangler.toml` values for:
    - `account_id`
    - `routes` for `immigratetobrazil.com` and `www.immigratetobrazil.com`
-4. Push to `main` or run deploy workflow manually.
-5. In Cloudflare Worker environment variables/secrets, set:
+5. Push to `main` or run deploy workflow manually.
+6. In Cloudflare Worker environment variables/secrets, set:
    - `ADMIN_BASIC_AUTH_USER`
    - `ADMIN_BASIC_AUTH_PASS`
    - `DECAP_GITHUB_OAUTH_CLIENT_ID`
@@ -152,11 +169,11 @@ GA4 event tracking is wired for high-intent actions:
   - `content/cms/site-copy/es.json`
   - `content/cms/site-copy/pt.json`
   - `content/cms/site-copy/fr.json`
-- Migrated page content (apply, cost of living, resources, visa consultation):
-  - `content/cms/page-copy/en.json`
-  - `content/cms/page-copy/es.json`
-  - `content/cms/page-copy/pt.json`
-  - `content/cms/page-copy/fr.json`
+- Managed page-level copy source-of-truth lives under:
+  - `content/cms/site-copy/<locale>.json -> managedPages`
+- Locale sync tooling:
+  - `npm run cms:sync-locales`
+  - `npm run cms:sync-locales:translate`
 - Legacy route overrides and UI labels:
   - `content/cms/legacy-overrides/en.json`
   - `content/cms/legacy-overrides/es.json`
@@ -180,6 +197,22 @@ GA4 event tracking is wired for high-intent actions:
 ## SEO audits
 - Scheduled workflow: `.github/workflows/seo-audit.yml` (weekly + manual trigger).
 - Report artifacts (JSON + Markdown) are uploaded for 30 days.
+
+## SEO weekly report
+- Scheduled workflow: `.github/workflows/seo-weekly-report.yml` (weekly + manual trigger).
+- Runs SEO audit + PageSpeed checks and builds a prioritized combined report artifact.
+
+## PageSpeed API key setup
+1. Create/select a Google Cloud project and enable `PageSpeed Insights API`.
+2. Create an API key (restrict by API and app as needed).
+3. Add it locally:
+   - `PAGESPEED_API_KEY=...` in `.env.local`
+4. Add it in GitHub:
+   - Repository secret `PAGESPEED_API_KEY`
+5. Verify setup:
+   - `npm run seo:env:check`
+6. Run live checks:
+   - `npm run seo:psi`
 
 ## SEO AI autopilot setup
 - Optional (recommended): set GitHub secret `OLLAMA_HOST` to your reachable Ollama endpoint (example: `http://<your-server>:11434`).

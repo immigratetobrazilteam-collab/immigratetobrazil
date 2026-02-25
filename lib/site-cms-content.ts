@@ -189,6 +189,7 @@ export type SiteCmsCopy = {
   serviceCards: ServiceCard[];
   processSteps: ProcessStep[];
   blogHighlights: BlogHighlight[];
+  managedPages: Record<string, unknown>;
 };
 
 const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
@@ -200,4 +201,61 @@ const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
 
 export function getSiteCmsCopy(locale: Locale) {
   return siteCmsCopyByLocale[locale];
+}
+
+export function getManagedPageCopyLocal<T>(locale: Locale, key: string): T | null {
+  const localePages = siteCmsCopyByLocale[locale].managedPages;
+  const localeValue = localePages[key] as T | undefined;
+  return localeValue ?? null;
+}
+
+export function getManagedPageCopy<T>(locale: Locale, key: string): T | null {
+  const localeValue = getManagedPageCopyLocal<T>(locale, key);
+  if (localeValue != null) {
+    return localeValue;
+  }
+
+  const englishPages = siteCmsCopyByLocale.en.managedPages;
+  const englishValue = englishPages[key] as T | undefined;
+  return englishValue ?? null;
+}
+
+function deepMergeWithFallback<T>(fallback: T, override: unknown): T {
+  if (override == null) {
+    return fallback;
+  }
+
+  if (Array.isArray(fallback)) {
+    if (Array.isArray(override) && override.length > 0) {
+      return override as T;
+    }
+    return fallback;
+  }
+
+  if (typeof fallback === 'object' && fallback !== null) {
+    if (typeof override !== 'object' || override === null || Array.isArray(override)) {
+      return fallback;
+    }
+
+    const merged: Record<string, unknown> = { ...(fallback as Record<string, unknown>) };
+    for (const key of Object.keys(fallback as Record<string, unknown>)) {
+      merged[key] = deepMergeWithFallback(
+        (fallback as Record<string, unknown>)[key],
+        (override as Record<string, unknown>)[key],
+      );
+    }
+    return merged as T;
+  }
+
+  return override as T;
+}
+
+export function getManagedPageCopyWithFallback<T>(locale: Locale, key: string, fallback: T): T {
+  const managed = getManagedPageCopy<T>(locale, key);
+  return deepMergeWithFallback(fallback, managed);
+}
+
+export function getManagedPageCopyLocalWithFallback<T>(locale: Locale, key: string, fallback: T): T {
+  const managed = getManagedPageCopyLocal<T>(locale, key);
+  return deepMergeWithFallback(fallback, managed);
 }

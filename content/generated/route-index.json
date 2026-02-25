@@ -39621,13 +39621,6 @@
   },
   {
     "locale": "en",
-    "slug": "public/admin",
-    "sourcePath": "public/admin/index.html",
-    "title": "Immigrate to Brazil CMS",
-    "description": ""
-  },
-  {
-    "locale": "en",
     "slug": "resources-guides-brazil",
     "sourcePath": "resources-guides-brazil/index.html",
     "title": "Resources &amp; Guides - Immigrate to Brazil",
@@ -56494,13 +56487,6 @@
     "slug": "services/visas",
     "sourcePath": "services/visas/index.html",
     "title": "Visa Services | Immigrate to Brazil",
-    "description": ""
-  },
-  {
-    "locale": "en",
-    "slug": "sitemap",
-    "sourcePath": "sitemap/index.html",
-    "title": "HTML Sitemap | Immigrate to Brazil",
     "description": ""
   },
   {

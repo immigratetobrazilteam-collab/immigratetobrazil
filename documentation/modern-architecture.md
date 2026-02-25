@@ -14,7 +14,7 @@
 - Wrangler deployment runtime
 
 ## Route model
-- `/{locale}` for primary market pages (`en`, `es`, `pt`)
+- `/{locale}` for primary market pages (`en`, `es`, `pt`, `fr`)
 - `/{locale}/about`, `/{locale}/services`, `/{locale}/process`, `/{locale}/blog`, `/{locale}/contact`
 - `/{locale}/[...slug]` as a legacy bridge for long-tail pages
 - `/{locale}/contact/contact-{state}`, `/{locale}/faq/faq-{state}`, `/{locale}/services/immigrate-to-{state}`, `/{locale}/blog/blog-{state}` for migrated state content
@@ -40,6 +40,7 @@
 - Canonical state data is managed in `content/curated/states.ts` and reused across migrated route families.
 - CMS-governed state templates and per-state overrides are managed in `content/cms/state-copy/*.json`.
 - CMS-governed legal content is managed in `content/cms/policies/*.json`.
+- CMS-governed site/page copy is managed in `content/cms/site-copy/*.json` (`managedPages` is the page-level source of truth).
 - Decap CMS UI is exposed via `public/admin/*` and served at `/admin`.
 
 ## Operational configuration

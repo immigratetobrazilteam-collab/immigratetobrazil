@@ -1,113 +1,121 @@
 # Non-Developer Content Editing Guide
 
-## What `/admin` is
-`/admin` is your **content editor** (Decap CMS). It is not a CRM.
+## Core rule
+For almost all visible frontend text, use:
+- `content/cms/site-copy/en.json`
 
-- CRM = client records, leads, case pipeline.
-- `/admin` = website text/content editor connected to your GitHub repo.
+Inside that file:
+- Global UI text (header, footer, nav, hero, CTA, contact labels) is in top-level fields.
+- Page-specific text is in `managedPages`.
 
-When you edit and publish in `/admin`, it commits JSON content files in `content/cms/*`.
+If you only learn one thing, learn this file.
 
-## What you can edit now without coding
+## What changed
+`managedPages` is now the source-of-truth for migrated page copy.
 
-### `Site Copy`
-Controls high-visibility global text:
-- Brand name
-- Main navigation labels
-- Full header navigation structure:
-  - Top row quick links
-  - Dropdown button labels
-  - Dropdown section titles
-  - Region labels
-  - Static menu link labels
-- Hero section text (home page)
-- CTA text
-- Footer tagline/legal line
-- Full footer navigation labels and section titles
-- Floating action labels (WhatsApp + back-to-top)
-- Upgrade notice banner text
-- Home trust stats, service cards, process steps, blog highlights
+Older `content/cms/page-copy/*.json` files are legacy and not the primary editing path.
 
-### `Page Copy`
-Controls these key pages:
-- `/about/about-brazil/apply-brazil`
-- `/about/about-brazil/cost-of-living-in-brazil`
-- `/resources-guides-brazil`
-- `/visa-consultation` (when legacy fallback is not used)
+## Fast beginner workflow
+1. Edit `content/cms/site-copy/en.json`.
+2. Run validation:
+   ```bash
+   npm run cms:validate
+   ```
+3. Sync locales:
+   ```bash
+   npm run cms:sync-locales
+   ```
+4. Optional machine translation for locale files:
+   ```bash
+   npm run cms:sync-locales:translate
+   ```
+5. Run local preview:
+   ```bash
+   npm run dev
+   ```
+6. Check pages in browser (example: `/en`, `/en/about`, `/en/services`).
 
-### `Legacy Overrides`
-Controls individual legacy routes by exact slug:
-- Edit title, description, and heading
-- Replace section cards and bullets
-- Set hero image path for a legacy page
-- Control sidebar labels (`Path`, `Related pages`, `Explore`, etc.)
-
-Use slug without locale:
-- `blog/blog-sao-paulo`
-- `contact/contact-parana`
-- `discover/brazilian-regions/north-region`
-
-Demo route included:
-- `/en/admin-editable-demo`
-
-### `Site Settings`
-Controls global operational settings:
-- Contact emails
-- WhatsApp number, link, and profile image
-- Formspree endpoint
-- Brand asset paths (logos and OG image) and logo alt text
-- Google site verification
-
-### `State Copy`
-Controls state-level template blocks and per-state overrides for:
-- Contact by state
-- FAQ by state
-- Services by state
-- Blog by state
-
-### `Policy Copy`
-Controls policy pages:
-- Privacy, Terms, Cookies, GDPR, Refund, Disclaimers
-
-### `Legacy Rewrite Bank`
-Use this as your writing workspace to rewrite old legacy material before publishing:
-- Store cleaned drafts
-- Keep source path references
-- Mark entries ready when final
-
-## Fast workflow (recommended)
-1. Open `https://immigratetobrazil.com/admin`.
-2. Select the right collection (`Site Copy`, `Page Copy`, etc.).
-3. Edit text.
-4. Click **Publish**.
-5. Wait for GitHub + Cloudflare auto-deploy.
-6. Refresh live site and verify.
-
-## Legacy-content rewrite workflow (simple)
-1. Open the old legacy page in another tab.
-2. Copy the useful text only.
-3. Rewrite it cleaner inside `/admin` in the best matching collection:
-   - Global/home text -> `Site Copy`
-   - Apply/Cost/Resources/Consultation pages -> `Page Copy`
-   - State-specific blocks -> `State Copy`
-4. Publish.
-
-## Local preview before publishing
-Use your menu script:
+Or run one command:
 ```bash
-python3 automation/gitcommands/run.py
+npm run content:check
 ```
-Then choose:
-- `1` Start live dev server
 
-Open locally:
-- Site: `http://localhost:3000/en`
-- Admin: `http://localhost:3000/admin`
+## Exact places to edit (English)
+- Header menus, dropdown labels, and quick links:
+  - `headerNavigation` in `content/cms/site-copy/en.json`
+- Footer menus and section labels:
+  - `footerNavigation` in `content/cms/site-copy/en.json`
+- Floating WhatsApp + back-to-top labels:
+  - `floatingActions` in `content/cms/site-copy/en.json`
+- Homepage hero/services/process/trust/blog:
+  - top-level `hero`, `sections`, `cta`, `trustStats`, `serviceCards`, `processSteps`, `blogHighlights`
+- Most page copy:
+  - `managedPages` in `content/cms/site-copy/en.json`
+- SEO controls for key pages:
+  - `managedPages.homePageSeo`
+  - `managedPages.aboutPage.seo`
+  - `managedPages.servicesPage.seo`
+  - `managedPages.resourcesGuidesBrazilPage.seo`
+  - `managedPages.visaConsultationPage.seo`
+  - plus metadata fallback fields under `aboutUsDetailPage`, `aboutBrazilSubPage`, and `aboutBrazilStatePage`
 
-## If you feel stuck
-Edit only these first:
-1. `Site Copy -> hero + cta + upgradeNotice`
-2. `Page Copy -> applyBrazil + resourcesGuidesBrazil`
-3. `State Copy -> one test state override`
+## Publish workflow (safe)
+1. `npm run cms:validate`
+2. `npm run cms:sync-locales`
+3. `npm run cms:sync-locales:check`
+4. `npm run content:check`
+5. Commit and push
 
-That gives fast visible improvement with minimal risk.
+CI now blocks deploy if locale files are out of sync with English `managedPages`.
+
+## Weekly SEO monitoring
+- Run live PSI + report (uses Google API key if set):
+  - `npm run seo:psi`
+- Build combined weekly summary from latest SEO + PSI artifacts:
+  - `npm run seo:weekly:report`
+
+## If you edit in `/admin`
+Collections to focus on:
+- `Site Copy` (includes `managedPages`)
+- `State Copy`
+- `Policy Copy`
+- `Legacy Overrides`
+
+Admin URL:
+- `/admin`
+
+Admin is protected with HTTP Basic Auth and OAuth.
+
+## Which file controls what
+- `content/cms/site-copy/<locale>.json`
+  - Header labels
+  - Footer labels
+  - Home hero and CTA
+  - Floating actions
+  - Most migrated page text under `managedPages`
+
+- `content/cms/state-copy/<locale>.json`
+  - State template copy and state-specific overrides
+
+- `content/cms/policies/<locale>.json`
+  - Policy page content
+
+- `content/cms/legacy-overrides/<locale>.json`
+  - Legacy route override labels and page overrides
+
+## Translation notes
+- `npm run cms:sync-locales` copies English `managedPages` to `es/pt/fr`.
+- `npm run cms:sync-locales:translate` attempts machine translation for full `site-copy` locale files.
+- Translation mode uses `LIBRETRANSLATE_URL` and optional `LIBRETRANSLATE_API_KEY`.
+
+## Safe editing checklist
+Before commit:
+1. `npm run cms:validate`
+2. `npm run migrate:routes`
+3. `npm run smoke`
+4. Optional performance + SEO scoring check:
+   ```bash
+   npm run seo:psi
+   ```
+
+If all pass, your content structure is in good shape.

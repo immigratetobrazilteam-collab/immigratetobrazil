@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import type { RouteLink } from '@/lib/route-index';
 import { localizedPath } from '@/lib/routes';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
 type AboutLegacyRedesignProps = {
@@ -14,60 +15,29 @@ type AboutLegacyRedesignProps = {
   relatedLinks: RouteLink[];
 };
 
-function pageCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      keyPoints: 'Puntos clave',
-      sourceTitle: 'Fuente original',
-      relatedTitle: 'Paginas relacionadas',
-      primaryCta: 'Agendar consulta',
-      secondaryCta: 'Volver al centro',
-      strategicWrapTitle: 'Ejecucion migratoria con estructura',
-      strategicWrapBody:
-        'Alineamos estrategia, documentacion y seguimiento para reducir riesgos y mantener el proceso bajo control.',
-    };
-  }
+type AboutLegacyRedesignManagedCopy = {
+  keyPoints: string;
+  sourceTitle: string;
+  relatedTitle: string;
+  primaryCta: string;
+  secondaryCta: string;
+  strategicWrapTitle: string;
+  strategicWrapBody: string;
+};
 
-  if (locale === 'pt') {
-    return {
-      keyPoints: 'Pontos-chave',
-      sourceTitle: 'Fonte original',
-      relatedTitle: 'Paginas relacionadas',
-      primaryCta: 'Agendar consulta',
-      secondaryCta: 'Voltar ao hub',
-      strategicWrapTitle: 'Execucao migratoria com estrutura',
-      strategicWrapBody:
-        'Alinhamos estrategia, documentacao e acompanhamento para reduzir riscos e manter o processo sob controle.',
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      keyPoints: 'Points cles',
-      sourceTitle: 'Source originale',
-      relatedTitle: 'Pages associees',
-      primaryCta: 'Reserver une consultation',
-      secondaryCta: 'Retour au hub',
-      strategicWrapTitle: 'Execution migratoire structuree',
-      strategicWrapBody:
-        "Nous alignons strategie, documents et suivi pour reduire les risques et garder l'ensemble du processus sous controle.",
-    };
-  }
-
-  return {
-    keyPoints: 'Key points',
-    sourceTitle: 'Original source',
-    relatedTitle: 'Related pages',
-    primaryCta: 'Book consultation',
-    secondaryCta: 'Back to hub',
-    strategicWrapTitle: 'Migration execution with structure',
-    strategicWrapBody:
-      'We align strategy, documentation, and follow-through so your immigration process stays controlled and low-risk.',
-  };
-}
+const fallbackCopy: AboutLegacyRedesignManagedCopy = {
+  keyPoints: 'Key points',
+  sourceTitle: 'Original source',
+  relatedTitle: 'Related pages',
+  primaryCta: 'Book consultation',
+  secondaryCta: 'Back to hub',
+  strategicWrapTitle: 'Migration execution with structure',
+  strategicWrapBody:
+    'We align strategy, documentation, and follow-through so your immigration process stays controlled and low-risk.',
+};
 
 export function AboutLegacyRedesign({ locale, document, eyebrow, hubHref, hubLabel, relatedLinks }: AboutLegacyRedesignProps) {
-  const t = pageCopy(locale);
+  const t = getManagedPageCopyWithFallback<AboutLegacyRedesignManagedCopy>(locale, 'aboutLegacyRedesignUi', fallbackCopy);
 
   return (
     <>
@@ -119,7 +89,8 @@ export function AboutLegacyRedesign({ locale, document, eyebrow, hubHref, hubLab
                   src={document.heroImage}
                   alt={document.heroImageAlt || document.heading}
                   fill
-                  unoptimized
+                  priority
+                  quality={72}
                   sizes="(max-width: 1024px) 100vw, 36vw"
                   className="object-cover"
                 />

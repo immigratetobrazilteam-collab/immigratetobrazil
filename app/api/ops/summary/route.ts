@@ -7,8 +7,11 @@ import { POLICY_SLUGS } from '@/lib/policy-slugs';
 
 export const runtime = 'nodejs';
 
+const LOCALES = ['en', 'es', 'pt', 'fr'] as const;
+type Locale = (typeof LOCALES)[number];
+
 type RouteIndexItem = {
-  locale: 'en' | 'es' | 'pt';
+  locale: Locale;
   slug: string;
 };
 
@@ -35,40 +38,58 @@ async function readJsonFile(filePath: string) {
 export async function GET() {
   const routeIndex = await readRouteIndex();
 
-  const localeCounts = {
-    en: routeIndex.filter((r) => r.locale === 'en').length,
-    es: routeIndex.filter((r) => r.locale === 'es').length,
-    pt: routeIndex.filter((r) => r.locale === 'pt').length,
-  };
+  const localeCounts = Object.fromEntries(
+    LOCALES.map((locale) => [locale, routeIndex.filter((r) => r.locale === locale).length]),
+  ) as Record<Locale, number>;
 
-  const stateCopyPaths = [
-    path.join(process.cwd(), 'content/cms/state-copy/en.json'),
-    path.join(process.cwd(), 'content/cms/state-copy/es.json'),
-    path.join(process.cwd(), 'content/cms/state-copy/pt.json'),
-  ];
+  const [stateCopies, policiesByLocale, siteCopies] = await Promise.all([
+    Promise.all(
+      LOCALES.map((locale) =>
+        readJsonFile(path.join(process.cwd(), `content/cms/state-copy/${locale}.json`)),
+      ),
+    ),
+    Promise.all(
+      LOCALES.map((locale) =>
+        readJsonFile(path.join(process.cwd(), `content/cms/policies/${locale}.json`)),
+      ),
+    ),
+    Promise.all(
+      LOCALES.map((locale) =>
+        readJsonFile(path.join(process.cwd(), `content/cms/site-copy/${locale}.json`)),
+      ),
+    ),
+  ]);
 
-  const policyPaths = [
-    path.join(process.cwd(), 'content/cms/policies/en.json'),
-    path.join(process.cwd(), 'content/cms/policies/es.json'),
-    path.join(process.cwd(), 'content/cms/policies/pt.json'),
-  ];
+  const stateTemplatesPresent = Object.fromEntries(
+    LOCALES.map((locale, index) => [locale, Boolean(stateCopies[index]?.templates)]),
+  ) as Record<Locale, boolean>;
 
-  const siteCopyPaths = [
-    path.join(process.cwd(), 'content/cms/site-copy/en.json'),
-    path.join(process.cwd(), 'content/cms/site-copy/es.json'),
-    path.join(process.cwd(), 'content/cms/site-copy/pt.json'),
-  ];
+  const policyCounts = Object.fromEntries(
+    LOCALES.map((locale, index) => [
+      locale,
+      Array.isArray(policiesByLocale[index]?.policies) ? (policiesByLocale[index]?.policies as unknown[]).length : 0,
+    ]),
+  ) as Record<Locale, number>;
 
-  const pageCopyPaths = [
-    path.join(process.cwd(), 'content/cms/page-copy/en.json'),
-    path.join(process.cwd(), 'content/cms/page-copy/es.json'),
-    path.join(process.cwd(), 'content/cms/page-copy/pt.json'),
-  ];
+  const siteCopyPresent = Object.fromEntries(
+    LOCALES.map((locale, index) => [locale, Boolean(siteCopies[index]?.hero)]),
+  ) as Record<Locale, boolean>;
 
-  const [enState, esState, ptState] = await Promise.all(stateCopyPaths.map(readJsonFile));
-  const [enPolicies, esPolicies, ptPolicies] = await Promise.all(policyPaths.map(readJsonFile));
-  const [enSiteCopy, esSiteCopy, ptSiteCopy] = await Promise.all(siteCopyPaths.map(readJsonFile));
-  const [enPageCopy, esPageCopy, ptPageCopy] = await Promise.all(pageCopyPaths.map(readJsonFile));
+  const managedPagesPresent = Object.fromEntries(
+    LOCALES.map((locale, index) => [locale, Boolean(siteCopies[index]?.managedPages)]),
+  ) as Record<Locale, boolean>;
+
+  const managedPagesKeyCounts = Object.fromEntries(
+    LOCALES.map((locale, index) => {
+      const managedPages = siteCopies[index]?.managedPages;
+      return [
+        locale,
+        managedPages && typeof managedPages === 'object'
+          ? Object.keys(managedPages as Record<string, unknown>).length
+          : 0,
+      ];
+    }),
+  ) as Record<Locale, number>;
 
   const payload = {
     status: 'ok',
@@ -79,26 +100,11 @@ export async function GET() {
       byLocale: localeCounts,
     },
     cms: {
-      stateTemplatesPresent: {
-        en: Boolean(enState?.templates),
-        es: Boolean(esState?.templates),
-        pt: Boolean(ptState?.templates),
-      },
-      policyCounts: {
-        en: Array.isArray(enPolicies?.policies) ? enPolicies.policies.length : 0,
-        es: Array.isArray(esPolicies?.policies) ? esPolicies.policies.length : 0,
-        pt: Array.isArray(ptPolicies?.policies) ? ptPolicies.policies.length : 0,
-      },
-      siteCopyPresent: {
-        en: Boolean(enSiteCopy?.hero),
-        es: Boolean(esSiteCopy?.hero),
-        pt: Boolean(ptSiteCopy?.hero),
-      },
-      pageCopyPresent: {
-        en: Boolean(enPageCopy?.applyBrazil),
-        es: Boolean(esPageCopy?.applyBrazil),
-        pt: Boolean(ptPageCopy?.applyBrazil),
-      },
+      stateTemplatesPresent,
+      policyCounts,
+      siteCopyPresent,
+      managedPagesPresent,
+      managedPagesKeyCounts,
       expectedPolicySlugs: POLICY_SLUGS,
     },
   };

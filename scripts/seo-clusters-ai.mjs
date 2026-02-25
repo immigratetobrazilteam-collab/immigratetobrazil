@@ -29,7 +29,10 @@ const localeLabels = {
       south: 'South Region',
     },
     keywordPrefix: 'immigrate to',
+    titleSuffix: 'immigration and relocation guide',
     subtitlePrefix: 'Practical relocation strategy for',
+    subtitleSuffix: 'with focus on legal setup, costs, and first 90 days.',
+    secondaryKeywordPhrases: ['residency', 'visa process', 'cost of living'],
     contextTitle: 'Local context',
     riskTitle: 'Risk and opportunity map',
     executionTitle: 'Execution sequence',
@@ -47,7 +50,10 @@ const localeLabels = {
       south: 'Region Sur',
     },
     keywordPrefix: 'inmigrar a',
+    titleSuffix: 'guia de inmigracion y reubicacion',
     subtitlePrefix: 'Estrategia practica de reubicacion para',
+    subtitleSuffix: 'con foco en regularizacion legal, costos y primeros 90 dias.',
+    secondaryKeywordPhrases: ['residencia', 'proceso de visa', 'costo de vida'],
     contextTitle: 'Contexto local',
     riskTitle: 'Riesgos y oportunidades',
     executionTitle: 'Secuencia de ejecucion',
@@ -65,7 +71,10 @@ const localeLabels = {
       south: 'Regiao Sul',
     },
     keywordPrefix: 'imigrar para',
+    titleSuffix: 'guia de imigracao e mudanca',
     subtitlePrefix: 'Estrategia pratica de mudanca para',
+    subtitleSuffix: 'com foco em regularizacao legal, custos e primeiros 90 dias.',
+    secondaryKeywordPhrases: ['residencia', 'processo de visto', 'custo de vida'],
     contextTitle: 'Contexto local',
     riskTitle: 'Riscos e oportunidades',
     executionTitle: 'Sequencia de execucao',
@@ -83,7 +92,10 @@ const localeLabels = {
       south: 'Region Sud',
     },
     keywordPrefix: 'immigrer au',
+    titleSuffix: 'guide immigration et relocalisation',
     subtitlePrefix: 'Strategie pratique de relocalisation pour',
+    subtitleSuffix: 'avec focus sur regularisation legale, couts et 90 premiers jours.',
+    secondaryKeywordPhrases: ['residence', 'processus visa', 'cout de la vie'],
     contextTitle: 'Contexte local',
     riskTitle: 'Risques et opportunites',
     executionTitle: "Sequence d'execution",
@@ -293,8 +305,8 @@ function fallbackGeneration(locale, state) {
   const labels = localeLabels[locale];
   const stateName = state[locale];
   const keyword = `${labels.keywordPrefix} ${stateName}`.toLowerCase();
-  const title = `${stateName}: immigration and relocation guide`;
-  const subtitle = `${labels.subtitlePrefix} ${stateName}, with focus on legal setup, costs, and first 90 days.`;
+  const title = `${stateName}: ${labels.titleSuffix}`;
+  const subtitle = `${labels.subtitlePrefix} ${stateName}, ${labels.subtitleSuffix}`;
   const sections = [
     {
       title: labels.contextTitle,
@@ -318,9 +330,9 @@ function fallbackGeneration(locale, state) {
     },
     primaryKeyword: keyword,
     secondaryKeywords: [
-      `${stateName.toLowerCase()} residency`,
-      `${stateName.toLowerCase()} visa process`,
-      `${stateName.toLowerCase()} cost of living`,
+      `${stateName.toLowerCase()} ${labels.secondaryKeywordPhrases[0]}`,
+      `${stateName.toLowerCase()} ${labels.secondaryKeywordPhrases[1]}`,
+      `${stateName.toLowerCase()} ${labels.secondaryKeywordPhrases[2]}`,
     ],
     searchIntent: 'informational',
     publishAngle: `Relocation strategy for ${stateName}`,
@@ -350,31 +362,16 @@ async function generateWithOllama({ host, model, locale, state, timeoutMs }) {
   const labels = localeLabels[locale];
   const stateName = state[locale];
   const prompt = [
-    'You are an SEO content strategist for an immigration advisory website.',
-    'Return JSON only. Do not add markdown or comments.',
+    'You are an SEO strategist for an immigration advisory website.',
+    'Return one compact JSON object only, no markdown.',
     `Locale: ${locale}. Write in that locale.`,
     `State: ${stateName} (${state.code}), capital: ${state.capital}, region: ${labels.region[state.region]}.`,
-    'Constraints:',
-    '- Do not make legal guarantees.',
-    '- Keep language practical, specific, and non-promotional.',
-    '- Title max 72 chars. Subtitle max 160 chars.',
-    '- Exactly 3 sections with short actionable details.',
-    'JSON schema:',
-    '{',
-    '  "blog": {',
-    '    "title": "string",',
-    '    "subtitle": "string",',
-    '    "sections": [',
-    '      { "title": "string", "detail": "string" },',
-    '      { "title": "string", "detail": "string" },',
-    '      { "title": "string", "detail": "string" }',
-    '    ]',
-    '  },',
-    '  "primaryKeyword": "string",',
-    '  "secondaryKeywords": ["string", "string", "string"],',
-    '  "searchIntent": "informational|commercial",',
-    '  "publishAngle": "string"',
-    '}',
+    'No legal guarantees. Keep copy practical and specific.',
+    'Max title 72 chars. Max subtitle 160 chars.',
+    'Need exactly 3 sections with title + detail.',
+    'Keys required:',
+    'blog.title, blog.subtitle, blog.sections[3].title, blog.sections[3].detail,',
+    'primaryKeyword, secondaryKeywords[3], searchIntent, publishAngle',
   ].join('\n');
 
   const response = await fetchWithTimeout(
@@ -390,6 +387,8 @@ async function generateWithOllama({ host, model, locale, state, timeoutMs }) {
       options: {
         temperature: 0.2,
         top_p: 0.9,
+        num_ctx: Number(process.env.OLLAMA_NUM_CTX || 1024),
+        num_predict: Number(process.env.OLLAMA_NUM_PREDICT || 320),
         seed: hashSeed(`${locale}:${state.slug}`),
       },
     }),
@@ -575,6 +574,8 @@ async function main() {
   }
 
   const generatedByLocale = {};
+  let aiSuccessCount = 0;
+  let fallbackCount = 0;
 
   for (const locale of options.localeList) {
     generatedByLocale[locale] = [];
@@ -583,6 +584,7 @@ async function main() {
       console.log(`Generating ${locale}/${state.slug}...`);
       const fallback = fallbackGeneration(locale, state);
       let generated = fallback;
+      let usedAiForState = false;
 
       if (options.useOllama && ollamaAvailable) {
         try {
@@ -594,6 +596,7 @@ async function main() {
             timeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS || 45000),
           });
           generated = normalizeGeneration(ai, fallback);
+          usedAiForState = true;
         } catch (firstError) {
           try {
             const aiRetry = await generateWithOllama({
@@ -604,12 +607,19 @@ async function main() {
               timeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS || 45000),
             });
             generated = normalizeGeneration(aiRetry, fallback);
+            usedAiForState = true;
           } catch (secondError) {
             const first = firstError instanceof Error ? firstError.message : String(firstError);
             const second = secondError instanceof Error ? secondError.message : String(secondError);
             console.warn(`Ollama fallback for ${locale}/${state.slug}: ${first}; retry: ${second}`);
           }
         }
+      }
+
+      if (usedAiForState) {
+        aiSuccessCount += 1;
+      } else if (options.useOllama && ollamaAvailable) {
+        fallbackCount += 1;
       }
 
       generatedByLocale[locale].push({ state, generated });
@@ -636,9 +646,11 @@ async function main() {
   const summary = {
     generatedAt: new Date().toISOString(),
     applyMode: options.apply,
-    usedOllama: Boolean(options.useOllama && ollamaAvailable),
+    usedOllama: aiSuccessCount > 0,
     ollamaHost: options.ollamaHost,
     ollamaModel: options.model,
+    aiSuccessCount,
+    fallbackCount,
     locales: options.localeList,
     stateSlugs: selectedStates.map((state) => state.slug),
     days: options.days,
@@ -660,7 +672,11 @@ async function main() {
 
   console.log(`SEO AI clusters generated at ${path.relative(root, outDir)}`);
   console.log(`- Apply mode: ${options.apply ? 'on' : 'off'}`);
-  console.log(`- Ollama used: ${options.useOllama && ollamaAvailable ? 'yes' : 'no'}`);
+  console.log(`- Ollama used: ${aiSuccessCount > 0 ? 'yes' : 'no'}`);
+  if (options.useOllama && ollamaAvailable) {
+    console.log(`- AI successes: ${aiSuccessCount}`);
+    console.log(`- AI fallbacks: ${fallbackCount}`);
+  }
   console.log(`- Locales: ${options.localeList.join(', ')}`);
   console.log(`- States: ${selectedStates.map((state) => state.slug).join(', ')}`);
   if (options.apply) {

@@ -3,6 +3,7 @@
 import { FormEvent, useMemo, useRef, useState } from 'react';
 
 import { trackAnalyticsEvent } from '@/lib/analytics-events';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
@@ -37,68 +38,7 @@ type FormCopy = {
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 
-function getCopy(locale: Locale): FormCopy {
-  if (locale === 'es') {
-    return {
-      name: 'Nombre completo',
-      email: 'Correo electrónico',
-      phone: 'WhatsApp / Teléfono',
-      service: 'Servicio de interés',
-      message: 'Cuéntanos tu objetivo y plazo',
-      send: 'Enviar solicitud',
-      sending: 'Enviando...',
-      success: 'Solicitud enviada con éxito. Te responderemos en breve.',
-      failure: 'No fue posible enviar el formulario. Inténtalo de nuevo en unos minutos.',
-      spam: 'El envío fue bloqueado por protección anti-spam.',
-      fieldErrors: {
-        name: 'Ingresa tu nombre completo.',
-        email: 'Ingresa un correo válido.',
-        message: 'Escribe un mensaje con al menos 20 caracteres.',
-      },
-    };
-  }
-
-  if (locale === 'pt') {
-    return {
-      name: 'Nome completo',
-      email: 'E-mail',
-      phone: 'WhatsApp / Telefone',
-      service: 'Serviço de interesse',
-      message: 'Conte seu objetivo e prazo',
-      send: 'Enviar solicitação',
-      sending: 'Enviando...',
-      success: 'Solicitação enviada com sucesso. Retornaremos em breve.',
-      failure: 'Não foi possível enviar o formulário. Tente novamente em alguns minutos.',
-      spam: 'O envio foi bloqueado pela proteção anti-spam.',
-      fieldErrors: {
-        name: 'Informe seu nome completo.',
-        email: 'Informe um e-mail válido.',
-        message: 'Escreva uma mensagem com pelo menos 20 caracteres.',
-      },
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      name: 'Nom complet',
-      email: 'E-mail',
-      phone: 'WhatsApp / Téléphone',
-      service: 'Service recherché',
-      message: 'Décrivez votre objectif et votre calendrier',
-      send: 'Envoyer la demande',
-      sending: 'Envoi...',
-      success: 'Demande envoyée avec succès. Nous revenons vers vous rapidement.',
-      failure: "Impossible d'envoyer le formulaire. Veuillez réessayer dans quelques minutes.",
-      spam: 'Envoi bloqué par la protection anti-spam.',
-      fieldErrors: {
-        name: 'Veuillez saisir votre nom complet.',
-        email: 'Veuillez saisir un e-mail valide.',
-        message: 'Veuillez écrire un message d’au moins 20 caractères.',
-      },
-    };
-  }
-
-  return {
+const fallbackCopy: FormCopy = {
     name: 'Full name',
     email: 'Email address',
     phone: 'WhatsApp / Phone',
@@ -114,8 +54,7 @@ function getCopy(locale: Locale): FormCopy {
       email: 'Please enter a valid email address.',
       message: 'Please write a message with at least 20 characters.',
     },
-  };
-}
+};
 
 function validate(fields: { name: string; email: string; message: string }, copy: FormCopy): FieldErrors {
   const errors: FieldErrors = {};
@@ -141,7 +80,10 @@ export function FormspreeContactForm({
   title,
   subtitle,
 }: FormspreeContactFormProps) {
-  const copy = useMemo(() => getCopy(locale), [locale]);
+  const copy = useMemo(
+    () => getManagedPageCopyWithFallback<FormCopy>(locale, 'formspreeForm', fallbackCopy),
+    [locale],
+  );
   const startedAt = useRef(Date.now());
   const [status, setStatus] = useState<FormStatus>('idle');
   const [errorMessage, setErrorMessage] = useState('');

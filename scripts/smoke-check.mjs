@@ -6,12 +6,22 @@ const USER_AGENT =
   process.env.SMOKE_USER_AGENT ||
   'Mozilla/5.0 (compatible; ImmigrateToBrazilSmoke/1.0; +https://immigratetobrazil.com)';
 
+const locales = ['en', 'es', 'pt', 'fr'];
+const localeLandingChecks = locales.map((locale) => ({ path: `/${locale}`, expect: 200, type: 'text/html' }));
+const keyRouteChecks = [
+  { path: '/en/about', expect: 200, type: 'text/html' },
+  { path: '/en/services', expect: 200, type: 'text/html' },
+  { path: '/en/contact', expect: 200, type: 'text/html' },
+  { path: '/en/about/about-brazil/apply-brazil', expect: 200, type: 'text/html' },
+  { path: '/fr/about', expect: 200, type: 'text/html' },
+];
+
 const checks = [
-  { path: '/en', expect: 200, type: 'text/html' },
-  { path: '/es', expect: 200, type: 'text/html' },
-  { path: '/pt', expect: 200, type: 'text/html' },
+  ...localeLandingChecks,
+  ...keyRouteChecks,
   { path: '/api/health', expect: 200, type: 'application/json' },
   { path: '/api/ready', expect: 200, type: 'application/json' },
+  { path: '/api/ops/summary', expect: 200, type: 'application/json' },
 ];
 
 async function runSingleAttempt(attempt) {

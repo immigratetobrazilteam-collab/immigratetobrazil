@@ -2,10 +2,10 @@ import enSiteCopy from '@/content/cms/site-copy/en.json';
 import esSiteCopy from '@/content/cms/site-copy/es.json';
 import frSiteCopy from '@/content/cms/site-copy/fr.json';
 import ptSiteCopy from '@/content/cms/site-copy/pt.json';
+import { defaultLocale, locales, resolveLocale } from '@/lib/locale';
 import type { Locale, NavLink } from '@/lib/types';
 
-export const locales: Locale[] = ['en', 'es', 'pt', 'fr'];
-export const defaultLocale: Locale = 'en';
+export { defaultLocale, locales, resolveLocale };
 
 type CmsLink = {
   href: string;
@@ -171,11 +171,6 @@ export const copy: Record<Locale, LocaleCopy> = {
   pt: ptCopy,
   fr: frCopy,
 };
-
-export function resolveLocale(input?: string): Locale {
-  if (!input) return defaultLocale;
-  return locales.includes(input as Locale) ? (input as Locale) : defaultLocale;
-}
 
 export function localeNavLinks(locale: Locale): NavLink[] {
   const t = copy[locale].nav;

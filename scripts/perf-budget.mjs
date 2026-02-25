@@ -8,6 +8,11 @@ const DOT_NEXT = path.join(ROOT, ".next");
 const MAX_TOTAL_JS_BYTES = Number(process.env.PERF_MAX_TOTAL_JS_BYTES || 1_200_000);
 const MAX_SINGLE_JS_BYTES = Number(process.env.PERF_MAX_SINGLE_JS_BYTES || 350_000);
 const MAX_JS_ASSET_COUNT = Number(process.env.PERF_MAX_JS_ASSET_COUNT || 80);
+const MANIFEST_FILES = [
+  "build-manifest.json",
+  "app-build-manifest.json",
+  "react-loadable-manifest.json",
+];
 
 async function exists(filePath) {
   try {
@@ -23,39 +28,114 @@ async function readJson(filePath) {
   return JSON.parse(raw);
 }
 
-async function main() {
-  const buildManifestPath = path.join(DOT_NEXT, "build-manifest.json");
-  if (!(await exists(buildManifestPath))) {
-    throw new Error(
-      "Missing .next/build-manifest.json. Run `npm run build` before `npm run perf:budget`."
-    );
+async function readJsonIfExists(filePath) {
+  if (!(await exists(filePath))) {
+    return null;
   }
 
-  const buildManifest = await readJson(buildManifestPath);
-  const pageMap = buildManifest.pages ?? {};
+  try {
+    return await readJson(filePath);
+  } catch {
+    return null;
+  }
+}
+
+function collectJsEntries(value, files) {
+  if (typeof value === "string") {
+    const clean = value.split("?")[0];
+    if (clean.endsWith(".js")) {
+      files.add(clean);
+    }
+    return;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      collectJsEntries(item, files);
+    }
+    return;
+  }
+
+  if (value && typeof value === "object") {
+    for (const item of Object.values(value)) {
+      collectJsEntries(item, files);
+    }
+  }
+}
+
+function resolveAssetPath(assetPath) {
+  const trimmed = assetPath.split("?")[0].replace(/^\/+/, "");
+  if (!trimmed) return null;
+
+  if (trimmed.startsWith("_next/")) {
+    return path.join(DOT_NEXT, trimmed.slice("_next/".length));
+  }
+
+  return path.join(DOT_NEXT, trimmed);
+}
+
+async function walkJsFiles(dir, output = []) {
+  if (!(await exists(dir))) {
+    return output;
+  }
+
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const absolute = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      await walkJsFiles(absolute, output);
+      continue;
+    }
+
+    if (!entry.isFile() || !entry.name.endsWith(".js")) {
+      continue;
+    }
+
+    output.push(absolute);
+  }
+
+  return output;
+}
+
+async function main() {
+  if (!(await exists(DOT_NEXT))) {
+    throw new Error("Missing .next build output. Run `npm run build` before `npm run perf:budget`.");
+  }
+
   const files = new Set();
 
-  for (const entry of Object.values(pageMap)) {
-    if (!Array.isArray(entry)) continue;
-    for (const item of entry) {
-      if (typeof item === "string" && item.endsWith(".js")) {
-        files.add(item);
-      }
+  for (const manifestFile of MANIFEST_FILES) {
+    const manifestPath = path.join(DOT_NEXT, manifestFile);
+    const manifest = await readJsonIfExists(manifestPath);
+    if (!manifest) continue;
+    collectJsEntries(manifest, files);
+  }
+
+  if (files.size === 0) {
+    const chunkFiles = await walkJsFiles(path.join(DOT_NEXT, "static", "chunks"));
+    for (const absolutePath of chunkFiles) {
+      const rel = path.relative(DOT_NEXT, absolutePath).replace(/\\/g, "/");
+      files.add(rel);
     }
   }
 
   const assets = [];
-  for (const relPath of files) {
-    const normalized = relPath.replace(/^\//, "");
-    const fullPath = path.join(DOT_NEXT, normalized);
+  for (const assetPath of files) {
+    const fullPath = resolveAssetPath(assetPath);
+    if (!fullPath) continue;
     if (!(await exists(fullPath))) continue;
     const stat = await fs.stat(fullPath);
-    assets.push({ file: relPath, size: stat.size });
+    const printablePath = path.relative(DOT_NEXT, fullPath).replace(/\\/g, "/");
+    assets.push({ file: printablePath, size: stat.size });
   }
 
   const totalJsBytes = assets.reduce((sum, asset) => sum + asset.size, 0);
-  const largestAsset = assets.sort((a, b) => b.size - a.size)[0];
+  const largestAsset = [...assets].sort((a, b) => b.size - a.size)[0];
   const failures = [];
+
+  if (assets.length === 0) {
+    failures.push("No JS assets detected. Manifest parsing may be out of date for this Next.js version.");
+  }
 
   if (assets.length > MAX_JS_ASSET_COUNT) {
     failures.push(`JS asset count ${assets.length} > limit ${MAX_JS_ASSET_COUNT}`);

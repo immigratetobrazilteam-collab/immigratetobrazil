@@ -1,13 +1,16 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
+import { ArticleSchema } from '@/components/article-schema';
 import { AboutLegacyRedesign } from '@/components/about-legacy-redesign';
+import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { getStateName } from '@/content/curated/states';
 import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRouteLinksByPrefix } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
 export const revalidate = 3600;
@@ -25,43 +28,17 @@ function isCategorySlug(value: string): value is CategorySlug {
 }
 
 function routeCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      hubLabel: 'Volver a categoria',
-      categoryLabel: {
-        festivals: 'Festivales',
-        food: 'Gastronomia',
-      },
-    };
-  }
-
-  if (locale === 'pt') {
-    return {
-      hubLabel: 'Voltar para categoria',
-      categoryLabel: {
-        festivals: 'Festivais',
-        food: 'Gastronomia',
-      },
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      hubLabel: 'Retour a la categorie',
-      categoryLabel: {
-        festivals: 'Festivals',
-        food: 'Cuisine',
-      },
-    };
-  }
-
-  return {
+  return getManagedPageCopyWithFallback(locale, 'aboutBrazilStatePage', {
     hubLabel: 'Back to category',
+    fallbackMetaDescription: 'Regional Brazil relocation guidance.',
+    fallbackMetaTitleTemplate: '{{state}} | {{brand}}',
+    schemaSectionLabelPrefix: 'About Brazil',
+    keywordFallback: 'Brazil relocation',
     categoryLabel: {
       festivals: 'Festivals',
       food: 'Food',
     },
-  };
+  });
 }
 
 function stateTitle(locale: Locale, stateSlug: string) {
@@ -77,17 +54,21 @@ export async function generateMetadata({
   const locale = resolveLocale(rawLocale);
 
   if (!isCategorySlug(slug)) {
+    const localized = routeCopy(locale);
     return createMetadata({
       locale,
       pathname: `/${locale}/about/about-brazil/${slug}/${state}`,
-      title: `${segmentLabel(state)} | ${copy[locale].brand}`,
-      description: 'Regional Brazil relocation guidance.',
+      title: localized.fallbackMetaTitleTemplate
+        .replace('{{state}}', segmentLabel(state))
+        .replace('{{brand}}', copy[locale].brand),
+      description: localized.fallbackMetaDescription,
     });
   }
 
   const document = await getLegacyDocument(locale, ['about', 'about-brazil', slug, state]);
   const title = document?.title || `${stateTitle(locale, state)} ${routeCopy(locale).categoryLabel[slug]}`;
-  const description = document?.description || 'Regional Brazil relocation guidance.';
+  const localized = routeCopy(locale);
+  const description = document?.description || localized.fallbackMetaDescription;
 
   return createMetadata({
     locale,
@@ -123,6 +104,21 @@ export default async function AboutBrazilCategoryStatePage({
 
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: copy[locale].nav.home, href: `/${locale}` },
+          { name: localized.categoryLabel[slug], href: `/${locale}/about/about-brazil/${slug}` },
+          { name: document.heading, href: `/${locale}/about/about-brazil/${slug}/${state}` },
+        ]}
+      />
+      <ArticleSchema
+        locale={locale}
+        pathname={`/${locale}/about/about-brazil/${slug}/${state}`}
+        headline={document.heading}
+        description={document.description}
+        section={`${localized.schemaSectionLabelPrefix} ${localized.categoryLabel[slug]}`}
+        keywords={[state.replace(/-/g, ' '), slug, localized.keywordFallback]}
+      />
       <AboutLegacyRedesign
         locale={locale}
         document={document}

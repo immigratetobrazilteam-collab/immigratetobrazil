@@ -7,6 +7,7 @@ import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
 export const revalidate = 3600;
@@ -18,31 +19,12 @@ function segmentLabel(value: string) {
 }
 
 function routeCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      eyebrowPrefix: 'Sobre nosotros',
-      hubLabel: 'Centro About Us',
-    };
-  }
-
-  if (locale === 'pt') {
-    return {
-      eyebrowPrefix: 'Sobre nos',
-      hubLabel: 'Hub About Us',
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      eyebrowPrefix: 'A propos de nous',
-      hubLabel: 'Hub About Us',
-    };
-  }
-
-  return {
+  return getManagedPageCopyWithFallback(locale, 'aboutUsDetailPage', {
     eyebrowPrefix: 'About Us',
     hubLabel: 'About Us hub',
-  };
+    fallbackMetaDescription: 'Immigration advisory standards, expertise, and client outcome references.',
+    fallbackMetaTitleTemplate: '{{label}} | {{brand}}',
+  });
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
@@ -52,11 +34,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const label = segmentLabel(slug);
 
   if (!document) {
+    const localized = routeCopy(locale);
     return createMetadata({
       locale,
       pathname: `/${locale}/about/about-us/${slug}`,
-      title: `${label} | ${copy[locale].brand}`,
-      description: 'Immigration advisory standards, expertise, and client outcome references.',
+      title: localized.fallbackMetaTitleTemplate
+        .replace('{{label}}', label)
+        .replace('{{brand}}', copy[locale].brand),
+      description: localized.fallbackMetaDescription,
     });
   }
 

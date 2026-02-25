@@ -6,6 +6,20 @@ import { getBlogHighlights } from '@/lib/content';
 import { copy, resolveLocale } from '@/lib/i18n';
 import { countRoutesByPrefix } from '@/lib/route-index';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type BlogHubManagedCopy = {
+  stateArchiveCountLabel: string;
+  stateArchiveTitle: string;
+  stateArchiveSubtitle: string;
+};
+
+const blogHubFallback: BlogHubManagedCopy = {
+  stateArchiveCountLabel: '{{count}} state blog pages indexed',
+  stateArchiveTitle: 'State blog archives',
+  stateArchiveSubtitle:
+    'Legacy state-specific blog pages are now linked here as part of the redesigned information architecture.',
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -23,6 +37,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = copy[locale];
+  const pageCopy = getManagedPageCopyWithFallback<BlogHubManagedCopy>(locale, 'blogHubPage', blogHubFallback);
   const articles = getBlogHighlights(locale);
   const stateArchiveCount = await countRoutesByPrefix(locale, 'blog', false);
 
@@ -34,7 +49,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
           <h1 className="mt-4 font-display text-5xl text-ink-900">{t.sections.blogTitle}</h1>
           <p className="mt-6 max-w-3xl text-lg text-ink-700">{t.sections.blogSubtitle}</p>
           <p className="mt-6 inline-flex rounded-full border border-civic-200 bg-civic-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-civic-800">
-            {stateArchiveCount} state blog pages indexed
+            {pageCopy.stateArchiveCountLabel.replace('{{count}}', String(stateArchiveCount))}
           </p>
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">
@@ -50,10 +65,8 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
 
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl text-ink-900">State blog archives</h2>
-          <p className="mt-3 max-w-3xl text-sm text-ink-700">
-            Legacy state-specific blog pages are now linked here as part of the redesigned information architecture.
-          </p>
+          <h2 className="font-display text-3xl text-ink-900">{pageCopy.stateArchiveTitle}</h2>
+          <p className="mt-3 max-w-3xl text-sm text-ink-700">{pageCopy.stateArchiveSubtitle}</p>
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {brazilianStates.map((state) => (
               <Link

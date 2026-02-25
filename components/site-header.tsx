@@ -7,7 +7,6 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BrandLogo } from '@/components/brand-logo';
 import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { trackAnalyticsEvent } from '@/lib/analytics-events';
-import { copy } from '@/lib/i18n';
 import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 import { cn } from '@/lib/utils';
@@ -40,6 +39,74 @@ type MegaMenu = {
 
 interface SiteHeaderProps {
   locale: Locale;
+  brand: string;
+  nav: {
+    services: string;
+    resources: string;
+    process: string;
+    blog: string;
+    faq: string;
+  };
+  ctaButton: string;
+  headerNavigation: {
+    brandTagline: string;
+    allPagesButton: string;
+    quickLinks: MenuLink[];
+    menuLabels: {
+      aboutBrazil: string;
+      aboutStates: string;
+      services: string;
+      resources: string;
+      discover: string;
+      blogByState: string;
+      faqByState: string;
+      contactByState: string;
+    };
+    sectionLabels: {
+      aboutBrazil: string;
+      aboutStates: string;
+      servicesCore: string;
+      servicesStates: string;
+      resourcesHubs: string;
+      resourcesPolicy: string;
+      discoverRegions: string;
+      discoverStates: string;
+      blogStates: string;
+      faqStates: string;
+      contactChannels: string;
+      contactStates: string;
+    };
+    regionLabels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>;
+    links: {
+      aboutBrazilHub: string;
+      applyBrazil: string;
+      costOfLiving: string;
+      aboutStatesHub: string;
+      aboutUs: string;
+      values: string;
+      mission: string;
+      story: string;
+      visaServices: string;
+      visaCategories: string;
+      residencyServices: string;
+      naturalisationServices: string;
+      legalServices: string;
+      homeArchive: string;
+      policies: string;
+      cookies: string;
+      disclaimers: string;
+      gdpr: string;
+      privacy: string;
+      refund: string;
+      terms: string;
+      xmlSitemap: string;
+      discoverRegionsHub: string;
+      discoverStatesHub: string;
+      blogByStateHub: string;
+      faqByStateHub: string;
+      contactByStateHub: string;
+    };
+  };
 }
 
 const REGION_ORDER: BrazilianState['region'][] = ['north', 'northeast', 'central-west', 'southeast', 'south'];
@@ -136,23 +203,29 @@ function groupedStateLinks(
   });
 }
 
-function HeaderLogo({ locale, href, compact = false }: { locale: Locale; href: string; compact?: boolean }) {
-  const brand = copy[locale];
-
+function HeaderLogo({
+  href,
+  compact = false,
+  brand,
+  brandTagline,
+}: {
+  href: string;
+  compact?: boolean;
+  brand: string;
+  brandTagline: string;
+}) {
   return (
     <Link href={href} className="inline-flex items-center gap-3">
       <BrandLogo variant="mark" priority className={compact ? 'h-10 w-10 rounded-xl' : 'h-12 w-12 rounded-2xl'} />
       <div className="leading-tight">
-        <p className={cn('font-display text-ink-900', compact ? 'text-base' : 'text-lg')}>{brand.brand}</p>
-        <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">{brand.headerNavigation.brandTagline}</p>
+        <p className={cn('font-display text-ink-900', compact ? 'text-base' : 'text-lg')}>{brand}</p>
+        <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">{brandTagline}</p>
       </div>
     </Link>
   );
 }
 
-export function SiteHeader({ locale }: SiteHeaderProps) {
-  const t = copy[locale];
-  const headerNav = t.headerNavigation;
+export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: headerNav }: SiteHeaderProps) {
   const pathname = usePathname() || `/${locale}`;
   const desktopMenuRef = useRef<HTMLDivElement | null>(null);
 
@@ -288,8 +361,8 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
           {
             title: headerNav.sectionLabels.servicesCore,
             links: [
-              { href: resolveCmsHref(locale, '/services'), label: t.nav.services },
-              { href: resolveCmsHref(locale, '/visa-consultation'), label: t.cta.button },
+              { href: resolveCmsHref(locale, '/services'), label: nav.services },
+              { href: resolveCmsHref(locale, '/visa-consultation'), label: ctaButton },
               { href: resolveCmsHref(locale, '/services/visa'), label: headerNav.links.visaServices },
               { href: resolveCmsHref(locale, '/services/visas'), label: headerNav.links.visaCategories },
               { href: resolveCmsHref(locale, '/services/residencies'), label: headerNav.links.residencyServices },
@@ -312,12 +385,12 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
           {
             title: headerNav.sectionLabels.resourcesHubs,
             links: [
-              { href: resolveCmsHref(locale, '/resources-guides-brazil'), label: t.nav.resources },
+              { href: resolveCmsHref(locale, '/resources-guides-brazil'), label: nav.resources },
               { href: resolveCmsHref(locale, '/library'), label: headerNav.allPagesButton },
-              { href: resolveCmsHref(locale, '/process'), label: t.nav.process },
+              { href: resolveCmsHref(locale, '/process'), label: nav.process },
               { href: resolveCmsHref(locale, '/home'), label: headerNav.links.homeArchive },
-              { href: resolveCmsHref(locale, '/blog'), label: t.nav.blog },
-              { href: resolveCmsHref(locale, '/faq'), label: t.nav.faq },
+              { href: resolveCmsHref(locale, '/blog'), label: nav.blog },
+              { href: resolveCmsHref(locale, '/faq'), label: nav.faq },
             ],
           },
           {
@@ -388,7 +461,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             title: headerNav.sectionLabels.contactChannels,
             links: [
               { href: resolveCmsHref(locale, '/contact'), label: headerNav.links.contactByStateHub },
-              { href: resolveCmsHref(locale, '/visa-consultation'), label: t.cta.button },
+              { href: resolveCmsHref(locale, '/visa-consultation'), label: ctaButton },
               { href: `mailto:${siteConfig.contact.clientEmail}`, label: siteConfig.contact.clientEmail },
               { href: siteConfig.contact.whatsappLink, label: siteConfig.contact.whatsappNumber },
             ],
@@ -410,12 +483,12 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
       headerNav,
       locale,
       serviceStateGroups,
-      t.cta.button,
-      t.nav.blog,
-      t.nav.faq,
-      t.nav.process,
-      t.nav.resources,
-      t.nav.services,
+      ctaButton,
+      nav.blog,
+      nav.faq,
+      nav.process,
+      nav.resources,
+      nav.services,
     ],
   );
 
@@ -424,7 +497,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
       <div className="border-b border-sand-200/80">
         <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
           <div className="flex min-h-[5rem] flex-wrap items-center justify-between gap-3">
-            <HeaderLogo locale={locale} href={resolveCmsHref(locale, '/')} />
+            <HeaderLogo href={resolveCmsHref(locale, '/')} brand={brand} brandTagline={headerNav.brandTagline} />
 
             <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex lg:flex-wrap">
               {quickLinks.map((link) => {
@@ -451,7 +524,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
                 onClick={() => trackCtaClick('header_desktop')}
                 className="rounded-full bg-civic-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-civic-800"
               >
-                {t.cta.button}
+                {ctaButton}
               </Link>
             </div>
 
@@ -730,7 +803,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
               }}
               className="block rounded-xl bg-civic-700 px-4 py-2.5 text-center text-sm font-semibold text-white"
             >
-              {t.cta.button}
+              {ctaButton}
             </Link>
           </div>
         </div>

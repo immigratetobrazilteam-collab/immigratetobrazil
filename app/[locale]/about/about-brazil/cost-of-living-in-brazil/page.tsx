@@ -1,14 +1,48 @@
 import type { Metadata } from 'next';
 
 import { CtaCard } from '@/components/cta-card';
-import { getPageCmsCopy } from '@/lib/page-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+
+type CostOfLivingManagedCopy = {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  cards: Array<{
+    title: string;
+    detail: string;
+  }>;
+};
+
+const costOfLivingFallback: CostOfLivingManagedCopy = {
+  eyebrow: 'Cost of living',
+  title: 'Cost of living planning for Brazilian relocation',
+  subtitle: 'This migrated route provides a concise budgeting model for housing, transport, healthcare, and integration expenses.',
+  cards: [
+    {
+      title: 'Housing baseline',
+      detail: 'Model city-by-city rent ranges and include lease setup, deposits, and utility activation.',
+    },
+    {
+      title: 'Monthly essentials',
+      detail: 'Track food, transit, communications, and private services with conservative buffers.',
+    },
+    {
+      title: 'Compliance costs',
+      detail: 'Reserve budget for translations, certifications, application fees, and renewals.',
+    },
+    {
+      title: 'Stabilization reserve',
+      detail: 'Maintain at least 3 to 6 months of liquidity during the first integration cycle.',
+    },
+  ],
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = getPageCmsCopy(locale).costOfLivingBrazil;
+  const t = getManagedPageCopyWithFallback<CostOfLivingManagedCopy>(locale, 'costOfLivingBrazilPage', costOfLivingFallback);
 
   return createMetadata({
     locale,
@@ -21,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function CostOfLivingPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = getPageCmsCopy(locale).costOfLivingBrazil;
+  const t = getManagedPageCopyWithFallback<CostOfLivingManagedCopy>(locale, 'costOfLivingBrazilPage', costOfLivingFallback);
 
   return (
     <>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getAboutUsSignatureTheme } from '@/lib/about-us-signature';
 import type { RouteLink } from '@/lib/route-index';
 import { localizedPath } from '@/lib/routes';
+import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
 type AboutUsSignaturePageProps = {
@@ -15,53 +16,25 @@ type AboutUsSignaturePageProps = {
   relatedLinks: RouteLink[];
 };
 
-function pageCopy(locale: Locale) {
-  if (locale === 'es') {
-    return {
-      pillarsTitle: 'Marco estrategico',
-      sectionsTitle: 'Contenido y detalles',
-      keyPoints: 'Puntos clave',
-      relatedTitle: 'Paginas relacionadas',
-      primaryCta: 'Agendar consulta',
-      secondaryCta: 'Volver al hub',
-      frameworkText: 'Estandar premium con control legal y comunicacion clara.',
-    };
-  }
+type AboutUsSignatureManagedCopy = {
+  pillarsTitle: string;
+  sectionsTitle: string;
+  keyPoints: string;
+  relatedTitle: string;
+  primaryCta: string;
+  secondaryCta: string;
+  frameworkText: string;
+};
 
-  if (locale === 'pt') {
-    return {
-      pillarsTitle: 'Framework estrategico',
-      sectionsTitle: 'Conteudo e detalhes',
-      keyPoints: 'Pontos-chave',
-      relatedTitle: 'Paginas relacionadas',
-      primaryCta: 'Agendar consulta',
-      secondaryCta: 'Voltar ao hub',
-      frameworkText: 'Padrao premium com controle juridico e comunicacao clara.',
-    };
-  }
-
-  if (locale === 'fr') {
-    return {
-      pillarsTitle: 'Cadre strategique',
-      sectionsTitle: 'Contenu et details',
-      keyPoints: 'Points cles',
-      relatedTitle: 'Pages associees',
-      primaryCta: 'Reserver une consultation',
-      secondaryCta: 'Retour au hub',
-      frameworkText: 'Standard premium avec controle juridique et communication claire.',
-    };
-  }
-
-  return {
-    pillarsTitle: 'Strategic framework',
-    sectionsTitle: 'Content and details',
-    keyPoints: 'Key points',
-    relatedTitle: 'Related pages',
-    primaryCta: 'Book consultation',
-    secondaryCta: 'Back to hub',
-    frameworkText: 'Premium standard with legal control and clear communication.',
-  };
-}
+const fallbackCopy: AboutUsSignatureManagedCopy = {
+  pillarsTitle: 'Strategic framework',
+  sectionsTitle: 'Content and details',
+  keyPoints: 'Key points',
+  relatedTitle: 'Related pages',
+  primaryCta: 'Book consultation',
+  secondaryCta: 'Back to hub',
+  frameworkText: 'Premium standard with legal control and clear communication.',
+};
 
 function variantClasses(variant: 'prestige' | 'advisory' | 'clarity' | 'support') {
   switch (variant) {
@@ -106,7 +79,7 @@ function variantClasses(variant: 'prestige' | 'advisory' | 'clarity' | 'support'
 }
 
 export function AboutUsSignaturePage({ locale, slug, document, eyebrow, hubHref, hubLabel, relatedLinks }: AboutUsSignaturePageProps) {
-  const t = pageCopy(locale);
+  const t = getManagedPageCopyWithFallback<AboutUsSignatureManagedCopy>(locale, 'aboutUsSignatureUi', fallbackCopy);
   const theme = getAboutUsSignatureTheme(slug);
   const styles = variantClasses(theme.variant);
 

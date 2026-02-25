@@ -74,5 +74,132 @@
       ]
     }
   },
-  "overrides": []
+  "overrides": [
+    {
+      "slug": "bahia",
+      "blog": {
+        "title": "Bahia: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Bahia, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Bahia."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Bahia."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Bahia."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "minas-gerais",
+      "blog": {
+        "title": "Minas Gerais: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Minas Gerais, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Minas Gerais."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Minas Gerais."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Minas Gerais."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "parana",
+      "blog": {
+        "title": "Parana: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Parana, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Parana."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Parana."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Parana."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "blog": {
+        "title": "Rio de Janeiro: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Rio de Janeiro, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Rio de Janeiro."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Rio de Janeiro."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Rio de Janeiro."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "santa-catarina",
+      "blog": {
+        "title": "Santa Catarina: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Santa Catarina, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Santa Catarina."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Santa Catarina."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Santa Catarina."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "blog": {
+        "title": "Sao Paulo: guia de imigracao e mudanca",
+        "subtitle": "Estrategia pratica de mudanca para Sao Paulo, com foco em regularizacao legal, custos e primeiros 90 dias.",
+        "sections": [
+          {
+            "title": "Contexto local",
+            "detail": "Como moradia, servicos e adaptacao funcionam em Sao Paulo."
+          },
+          {
+            "title": "Riscos e oportunidades",
+            "detail": "O que validar antes de assinar contratos ou comprometer capital em Sao Paulo."
+          },
+          {
+            "title": "Sequencia de execucao",
+            "detail": "Plano em etapas para chegada, regularizacao e primeiros 90 dias em Sao Paulo."
+          }
+        ]
+      }
+    }
+  ]
 }

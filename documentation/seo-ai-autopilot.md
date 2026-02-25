@@ -17,6 +17,19 @@ This project includes an AI autopilot that can refresh SEO content clusters and 
    - `npm run seo:clusters:apply`
    - `npm run seo:autopilot`
 
+## Google Search Console DNS automation
+- TXT value configured for apex record:
+  - `google-site-verification=V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo`
+- One-command upsert:
+  - `npm run dns:google:verify`
+- Required env:
+  - `CLOUDFLARE_API_TOKEN`
+- Optional env:
+  - `CLOUDFLARE_ZONE_ID`
+  - `CLOUDFLARE_ZONE_NAME` (default: `immigratetobrazil.com`)
+  - `CLOUDFLARE_DNS_RECORD_NAME` (default: apex)
+  - `CLOUDFLARE_DNS_TTL` (default: `3600`)
+
 ## Key options
 - `--apply`: writes updates into CMS files
 - `--days 90`: controls plan horizon

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { locales, resolveLocale } from '@/lib/i18n';
+import { locales, resolveLocale } from '@/lib/locale';
 import type { Locale } from '@/lib/types';
 
 const labels: Record<Locale, string> = {
