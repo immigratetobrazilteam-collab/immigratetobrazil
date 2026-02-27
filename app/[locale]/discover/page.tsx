@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { CtaCard } from '@/components/cta-card';
 import { copy, resolveLocale } from '@/lib/i18n';
-import { getDiscoverHubCopy, getDiscoverManifest } from '@/lib/discover-pages-content';
+import { getDiscoverHubCopy, getDiscoverHubIndex } from '@/lib/discover-pages-content';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
 
@@ -24,10 +24,10 @@ export default async function DiscoverHubPage({ params }: { params: Promise<{ lo
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
 
-  const [hub, manifest] = await Promise.all([getDiscoverHubCopy(locale), getDiscoverManifest(locale)]);
+  const [hub, hubIndex] = await Promise.all([getDiscoverHubCopy(locale), getDiscoverHubIndex(locale)]);
 
-  const statePages = manifest.pages.filter((page) => page.taxonomy.type === 'state-overview').slice(0, 27);
-  const citySamples = manifest.pages.filter((page) => page.taxonomy.type === 'region-city').slice(0, 24);
+  const statePages = hubIndex.statePages.slice(0, 27);
+  const citySamples = hubIndex.citySamples.slice(0, 24);
 
   return (
     <>
@@ -44,7 +44,7 @@ export default async function DiscoverHubPage({ params }: { params: Promise<{ lo
 
           <div className="mt-8 flex flex-wrap gap-3">
             <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em]">
-              {hub.countLabel.replace('{{count}}', String(manifest.pageCount))}
+              {hub.countLabel.replace('{{count}}', String(hubIndex.pageCount))}
             </span>
             <Link
               href={localizedPath(locale, '/discover/brazilian-states')}

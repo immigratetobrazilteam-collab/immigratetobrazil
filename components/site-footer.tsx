@@ -1,12 +1,8 @@
 import Link from 'next/link';
 
 import { BrandLogo } from '@/components/brand-logo';
-import { brazilianStates, type BrazilianState } from '@/content/curated/states';
-import { copy } from '@/lib/i18n';
-import { buildFaqStateSlug } from '@/lib/phase2-routes';
-import { getRouteLinksByPrefix, type RouteLink } from '@/lib/route-index';
+import { brazilianStates } from '@/content/curated/states';
 import { siteConfig } from '@/lib/site-config';
-import { stateGuidePathByState } from '@/lib/state-guides-content';
 import type { Locale } from '@/lib/types';
 
 interface SiteFooterProps {
@@ -14,16 +10,9 @@ interface SiteFooterProps {
 }
 
 type FooterLink = {
-  href: string;
   label: string;
+  href: string;
 };
-
-type RegionalLinkGroup = {
-  region: string;
-  links: FooterLink[];
-};
-
-const REGION_ORDER: BrazilianState['region'][] = ['north', 'northeast', 'central-west', 'southeast', 'south'];
 
 function resolveCmsHref(locale: Locale, href: string) {
   if (!href) return `/${locale}`;
@@ -36,335 +25,203 @@ function resolveCmsHref(locale: Locale, href: string) {
   return `/${locale}${href.startsWith('/') ? href : `/${href}`}`;
 }
 
-function regionLabel(labels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>, region: BrazilianState['region']) {
-  switch (region) {
-    case 'north':
-      return labels.north;
-    case 'northeast':
-      return labels.northeast;
-    case 'central-west':
-      return labels.centralWest;
-    case 'southeast':
-      return labels.southeast;
-    case 'south':
-      return labels.south;
-    default:
-      return region;
-  }
+function isExternalHref(href: string) {
+  return href.startsWith('http://') || href.startsWith('https://') || href.startsWith('mailto:') || href.startsWith('tel:');
 }
 
-function buildRegionalStateLinks(
-  locale: Locale,
-  labels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>,
-  hrefBuilder: (state: BrazilianState) => string,
-): RegionalLinkGroup[] {
-  return REGION_ORDER.map((region) => ({
-    region: regionLabel(labels, region),
-    links: brazilianStates
-      .filter((state) => state.region === region)
-      .map((state) => ({
-        href: hrefBuilder(state),
-        label: state[locale],
-      })),
-  }));
-}
-
-function RegionalDirectory({ title, groups }: { title: string; groups: RegionalLinkGroup[] }) {
+function FooterColumn({ title, links }: { title: string; links: FooterLink[] }) {
   return (
-    <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-      <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">{title}</summary>
-      <div className="mt-3 space-y-3">
-        {groups.map((group) => (
-          <div key={`${title}-${group.region}`}>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-sand-300">{group.region}</p>
-            <div className="mt-1 grid max-h-28 grid-cols-2 gap-2 overflow-y-auto pr-1 text-xs">
-              {group.links.map((link) => (
-                <Link key={`${group.region}-${link.href}`} href={link.href} className="text-sand-200 hover:text-white">
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        ))}
+    <article>
+      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sand-300">{title}</p>
+      <div className="mt-3 space-y-2 text-sm">
+        {links.map((link) => {
+          if (isExternalHref(link.href)) {
+            return (
+              <a key={`${title}-${link.href}`} href={link.href} target="_blank" rel="noopener noreferrer" className="text-sand-100 hover:text-white">
+                {link.label}
+              </a>
+            );
+          }
+
+          return (
+            <Link key={`${title}-${link.href}`} href={link.href} className="block text-sand-100 hover:text-white">
+              {link.label}
+            </Link>
+          );
+        })}
       </div>
-    </details>
+    </article>
   );
 }
 
-function mapRouteLinks(routeLinks: RouteLink[]): FooterLink[] {
-  return routeLinks.map((link) => ({
-    href: link.href,
-    label: link.title.replace(/\s*\(\d+\)\s*$/u, '').trim(),
-  }));
-}
-
-function dedupeLinks(links: FooterLink[]) {
-  const seen = new Set<string>();
-  return links.filter((link) => {
-    if (seen.has(link.href)) return false;
-    seen.add(link.href);
-    return true;
-  });
-}
-
-function splitAboutBrazilLinks(routeLinks: RouteLink[]) {
-  const core: FooterLink[] = [];
-  const festivals: FooterLink[] = [];
-  const food: FooterLink[] = [];
-
-  for (const link of routeLinks) {
-    if (link.slug.startsWith('about/about-brazil/festivals/')) {
-      festivals.push({ href: link.href, label: link.title });
-      continue;
-    }
-
-    if (link.slug.startsWith('about/about-brazil/food/')) {
-      food.push({ href: link.href, label: link.title });
-      continue;
-    }
-
-    core.push({ href: link.href, label: link.title });
-  }
-
-  return { core, festivals, food };
-}
-
-function FooterLinkList({ links }: { links: FooterLink[] }) {
-  return (
-    <div className="max-h-[28rem] space-y-2 overflow-y-auto pr-1 text-sm">
-      {links.map((link) => (
-        <Link key={`${link.href}-${link.label}`} href={link.href} className="block rounded-lg border border-ink-700/70 bg-ink-800/50 px-3 py-2 text-sand-100 hover:bg-ink-700/70">
-          {link.label}
-        </Link>
-      ))}
-    </div>
-  );
-}
-
-function FooterLinkSection({ title, links }: { title: string; links: FooterLink[] }) {
-  return (
-    <details className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2" open>
-      <summary className="cursor-pointer text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">{title}</summary>
-      <div className="mt-2 max-h-52 space-y-1.5 overflow-y-auto pr-1 text-sm">
-        {links.map((link) => (
-          <Link key={`${title}-${link.href}`} href={link.href} className="block text-sand-200 hover:text-white">
-            {link.label}
-          </Link>
-        ))}
-      </div>
-    </details>
-  );
-}
-
-export async function SiteFooter({ locale }: SiteFooterProps) {
-  const t = copy[locale];
-  const labels = t.footerNavigation;
-  const headerLabels = t.headerNavigation;
+export function SiteFooter({ locale }: SiteFooterProps) {
   const contact = siteConfig.contact;
+  const searchHref = resolveCmsHref(locale, '/search');
+  const consultationHref = resolveCmsHref(locale, '/visa-consultation');
 
-  const [aboutUsRouteLinks, aboutBrazilRouteLinks] = await Promise.all([
-    getRouteLinksByPrefix(locale, 'about/about-us', { includePrefixEntry: false, limit: 120 }),
-    getRouteLinksByPrefix(locale, 'about/about-brazil', { includePrefixEntry: false, limit: 220 }),
-  ]);
-
-  const aboutStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/about/about-states/about-${state.slug}`));
-  const serviceStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/services/immigrate-to-${state.slug}`));
-  const contactStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/contact/contact-${state.slug}`));
-  const blogStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, stateGuidePathByState(state.slug)));
-  const faqStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) =>
-    resolveCmsHref(locale, `/faq/${buildFaqStateSlug(state.slug)}`),
-  );
-
-  const aboutUsLinks = dedupeLinks([
-    { href: resolveCmsHref(locale, '/about/about-us'), label: labels.aboutUsHub },
-    ...mapRouteLinks(aboutUsRouteLinks),
-  ]);
-
-  const splitBrazilLinks = splitAboutBrazilLinks(aboutBrazilRouteLinks);
-  const aboutBrazilCoreLinks = dedupeLinks([
-    { href: resolveCmsHref(locale, '/about/about-brazil'), label: labels.aboutBrazilHub },
-    ...splitBrazilLinks.core,
-  ]);
-
-  const aboutBrazilFestivalLinks = dedupeLinks([
-    { href: resolveCmsHref(locale, '/about/about-brazil/festivals'), label: labels.festivalsHub },
-    ...splitBrazilLinks.festivals,
-  ]);
-
-  const aboutBrazilFoodLinks = dedupeLinks([
-    { href: resolveCmsHref(locale, '/about/about-brazil/food'), label: labels.foodHub },
-    ...splitBrazilLinks.food,
-  ]);
-
-  const dropdownMenuGroups: { title: string; links: FooterLink[] }[] = [
-    {
-      title: labels.menuAboutBrazil,
-      links: [
-        { href: resolveCmsHref(locale, '/about/about-brazil'), label: headerLabels.links.aboutBrazilHub },
-        { href: resolveCmsHref(locale, '/about/about-brazil/apply-brazil'), label: headerLabels.links.applyBrazil },
-        { href: resolveCmsHref(locale, '/about/about-brazil/cost-of-living-in-brazil'), label: headerLabels.links.costOfLiving },
-        { href: resolveCmsHref(locale, '/about/about-brazil/festivals'), label: labels.festivalsHub },
-        { href: resolveCmsHref(locale, '/about/about-brazil/food'), label: labels.foodHub },
-      ],
-    },
-    {
-      title: labels.menuAboutStates,
-      links: [
-        { href: resolveCmsHref(locale, '/about/about-states'), label: headerLabels.links.aboutStatesHub },
-        { href: resolveCmsHref(locale, '/about/about-us'), label: headerLabels.links.aboutUs },
-        { href: resolveCmsHref(locale, '/about/values'), label: headerLabels.links.values },
-        { href: resolveCmsHref(locale, '/about/mission'), label: headerLabels.links.mission },
-        { href: resolveCmsHref(locale, '/about/story'), label: headerLabels.links.story },
-      ],
-    },
-    {
-      title: labels.menuServices,
-      links: [
-        { href: resolveCmsHref(locale, '/services'), label: t.nav.services },
-        { href: resolveCmsHref(locale, '/visa-consultation'), label: t.cta.button },
-        { href: resolveCmsHref(locale, '/services/visa'), label: headerLabels.links.visaServices },
-        { href: resolveCmsHref(locale, '/services/visas'), label: headerLabels.links.visaCategories },
-        { href: resolveCmsHref(locale, '/services/residencies'), label: headerLabels.links.residencyServices },
-        { href: resolveCmsHref(locale, '/services/naturalisation'), label: headerLabels.links.naturalisationServices },
-        { href: resolveCmsHref(locale, '/services/legal'), label: headerLabels.links.legalServices },
-      ],
-    },
-    {
-      title: labels.menuResources,
-      links: [
-        { href: resolveCmsHref(locale, '/resources-guides-brazil'), label: t.nav.resources },
-        { href: resolveCmsHref(locale, '/library'), label: headerLabels.allPagesButton },
-        { href: resolveCmsHref(locale, '/home'), label: headerLabels.links.homeArchive },
-        { href: resolveCmsHref(locale, '/policies'), label: headerLabels.links.policies },
-        { href: '/sitemap.xml', label: headerLabels.links.xmlSitemap },
-      ],
-    },
-    {
-      title: labels.menuDiscover,
-      links: [
-        { href: resolveCmsHref(locale, '/discover/brazilian-regions'), label: headerLabels.links.discoverRegionsHub },
-        { href: resolveCmsHref(locale, '/discover/brazilian-states'), label: headerLabels.links.discoverStatesHub },
-      ],
-    },
-    {
-      title: labels.menuBlog,
-      links: [{ href: resolveCmsHref(locale, '/state-guides'), label: headerLabels.links.blogByStateHub }],
-    },
-    {
-      title: labels.menuFaq,
-      links: [{ href: resolveCmsHref(locale, '/faq'), label: headerLabels.links.faqByStateHub }],
-    },
-    {
-      title: labels.menuContact,
-      links: [
-        { href: resolveCmsHref(locale, '/contact'), label: headerLabels.links.contactByStateHub },
-        { href: `mailto:${contact.clientEmail}`, label: contact.clientEmail },
-        { href: contact.whatsappLink, label: contact.whatsappNumber },
-      ],
-    },
+  const immigrationLinks: FooterLink[] = [
+    { label: 'Visas', href: resolveCmsHref(locale, '/services/visas') },
+    { label: 'Residency', href: resolveCmsHref(locale, '/services/residencies') },
+    { label: 'Naturalisation', href: resolveCmsHref(locale, '/services/naturalisation') },
+    { label: 'Defense', href: resolveCmsHref(locale, '/services/legal') },
+    { label: 'Regularization', href: resolveCmsHref(locale, '/services/legal') },
   ];
+
+  const brazilLinks: FooterLink[] = [
+    { label: 'States', href: resolveCmsHref(locale, '/discover/brazilian-states') },
+    { label: 'Cities', href: resolveCmsHref(locale, '/discover/brazilian-regions') },
+    { label: 'Cost', href: resolveCmsHref(locale, '/about/about-brazil/cost-of-living-in-brazil') },
+    { label: 'Culture', href: resolveCmsHref(locale, '/about/about-brazil/festivals') },
+    { label: 'Investment', href: resolveCmsHref(locale, '/services/immigration-law-services/residencies/investor') },
+  ];
+
+  const resourcesLinks: FooterLink[] = [
+    { label: 'Guides', href: resolveCmsHref(locale, '/resources-guides-brazil') },
+    { label: 'FAQ', href: resolveCmsHref(locale, '/faq') },
+    { label: 'Blog', href: resolveCmsHref(locale, '/blog') },
+    { label: 'Checklist', href: resolveCmsHref(locale, '/resources-guides-brazil') },
+    { label: 'Sitemap', href: '/sitemap.xml' },
+  ];
+
+  const firmLinks: FooterLink[] = [
+    { label: 'About', href: resolveCmsHref(locale, '/about/about-us') },
+    { label: 'Team', href: resolveCmsHref(locale, '/about/about-us/10-experts') },
+    { label: 'Awards', href: resolveCmsHref(locale, '/about/about-us/10-awards') },
+    { label: 'Results', href: resolveCmsHref(locale, '/about/about-us/10-success-stories') },
+  ];
+
+  const legalLinks: FooterLink[] = [
+    { label: 'Privacy', href: resolveCmsHref(locale, '/policies/privacy') },
+    { label: 'Terms', href: resolveCmsHref(locale, '/policies/terms') },
+    { label: 'Refund', href: resolveCmsHref(locale, '/policies/refund') },
+    { label: 'GDPR', href: resolveCmsHref(locale, '/policies/gdpr') },
+    { label: 'Accessibility', href: resolveCmsHref(locale, '/accessibility') },
+    { label: 'Disclaimer', href: resolveCmsHref(locale, '/policies/disclaimers') },
+  ];
+
+  const socialLinks: FooterLink[] = [
+    { label: 'X', href: 'https://x.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com' },
+    { label: 'YouTube', href: 'https://www.youtube.com' },
+  ];
+
+  const stateLinks: FooterLink[] = [...brazilianStates]
+    .sort((a, b) => a[locale].localeCompare(b[locale]))
+    .map((state) => ({
+      label: state[locale],
+      href: resolveCmsHref(locale, `/discover/brazilian-states/${state.code.toLowerCase()}`),
+    }));
 
   return (
     <footer className="border-t border-sand-200 bg-ink-900 text-sand-100">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-8 xl:grid-cols-5">
+        <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr]">
           <div className="space-y-4">
             <div className="inline-flex items-center gap-3">
               <BrandLogo variant="mark" className="h-12 w-12" />
-              <p className="font-display text-2xl">{t.brand}</p>
+              <p className="font-display text-2xl">Immigrate to Brazil</p>
             </div>
-            <p className="text-sm text-sand-200/90">{t.footer.tagline}</p>
-            <a href={`mailto:${contact.clientEmail}`} className="block text-sm text-sand-100 hover:text-white">
-              {contact.clientEmail}
-            </a>
-
-            <Link
-              href={resolveCmsHref(locale, '/library')}
-              className="inline-flex rounded-full bg-civic-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.1em] text-white hover:bg-civic-600"
-            >
-              {labels.allPages}
-            </Link>
+            <p className="max-w-3xl text-sm text-sand-200">
+              Immigration legal planning and execution for visas, residency, naturalisation, and cross-border relocation to Brazil.
+            </p>
+            <div className="grid gap-2 text-sm text-sand-200 sm:grid-cols-2">
+              <p>
+                <span className="font-semibold text-sand-100">Email:</span> {contact.clientEmail}
+              </p>
+              <p>
+                <span className="font-semibold text-sand-100">Phone:</span> {contact.whatsappNumber}
+              </p>
+              <p>
+                <span className="font-semibold text-sand-100">Hours:</span> Mon-Fri, 9:00-18:00 BRT
+              </p>
+              <p>
+                <span className="font-semibold text-sand-100">Worldwide:</span> Support across all 27 states
+              </p>
+            </div>
           </div>
 
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.dropdownTitle}</p>
-            <div className="space-y-2">
-              {dropdownMenuGroups.map((group) => (
-                <article key={group.title} className="rounded-xl border border-ink-700/70 bg-ink-800/40 px-3 py-2">
-                  <p className="text-xs font-semibold uppercase tracking-[0.12em] text-sand-200">{group.title}</p>
-                  <div className="mt-2 space-y-1.5 text-sm text-sand-200">
-                    {group.links.map((link) => (
-                      <Link key={`${group.title}-${link.href}`} href={link.href} className="block hover:text-white">
-                        {link.label}
-                      </Link>
-                    ))}
-                  </div>
-                </article>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sand-300">Social</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {socialLinks.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-ink-700 bg-ink-800 px-3 py-1.5 text-xs font-semibold text-sand-100 hover:border-sand-400 hover:text-white"
+                >
+                  {link.label}
+                </a>
               ))}
             </div>
           </div>
+        </div>
 
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.aboutUsPagesTitle}</p>
-            <FooterLinkList links={aboutUsLinks} />
-          </div>
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-6">
+          <FooterColumn title="Immigration" links={immigrationLinks} />
+          <FooterColumn title="Brazil" links={brazilLinks} />
+          <FooterColumn title="Resources" links={resourcesLinks} />
+          <FooterColumn title="Firm" links={firmLinks} />
+          <FooterColumn title="Legal" links={legalLinks} />
 
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.aboutBrazilPagesTitle}</p>
-            <div className="space-y-2">
-              <FooterLinkSection title={labels.aboutBrazilCoreTitle} links={aboutBrazilCoreLinks} />
-              <FooterLinkSection title={labels.aboutBrazilFestivalsTitle} links={aboutBrazilFestivalLinks} />
-              <FooterLinkSection title={labels.aboutBrazilFoodTitle} links={aboutBrazilFoodLinks} />
-            </div>
-          </div>
+          <article>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sand-300">Site Search</p>
+            <form action={searchHref} method="get" className="mt-3">
+              <input
+                type="search"
+                name="q"
+                placeholder="Search site content"
+                className="w-full rounded-xl border border-ink-700 bg-ink-800 px-3 py-2 text-sm text-sand-50 placeholder:text-sand-300/70 focus:border-civic-500 focus:outline-none"
+              />
+            </form>
+          </article>
+        </div>
 
-          <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300">{labels.supportTitle}</p>
-            <div className="flex flex-col gap-2 text-sm">
-              <Link href={resolveCmsHref(locale, '/contact')} className="hover:text-white">
-                {headerLabels.links.contactByStateHub}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/cookies')} className="hover:text-white">
-                {headerLabels.links.cookies}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/disclaimers')} className="hover:text-white">
-                {headerLabels.links.disclaimers}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/gdpr')} className="hover:text-white">
-                {headerLabels.links.gdpr}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/privacy')} className="hover:text-white">
-                {headerLabels.links.privacy}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/refund')} className="hover:text-white">
-                {headerLabels.links.refund}
-              </Link>
-              <Link href={resolveCmsHref(locale, '/policies/terms')} className="hover:text-white">
-                {headerLabels.links.terms}
-              </Link>
-            </div>
+        <div className="mt-8 rounded-2xl border border-ink-700 bg-ink-800/70 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sand-300">Full Site Search</p>
+          <form action={searchHref} method="get" className="mt-3 flex flex-col gap-3 sm:flex-row">
+            <input
+              type="search"
+              name="q"
+              placeholder="Search visas, residency, states, process, blog, and legal pages"
+              className="h-11 w-full rounded-xl border border-ink-700 bg-ink-900 px-4 text-sm text-sand-50 placeholder:text-sand-300/70 focus:border-civic-500 focus:outline-none"
+            />
+            <button type="submit" className="h-11 rounded-xl bg-civic-700 px-5 text-sm font-semibold text-white hover:bg-civic-600">
+              Search
+            </button>
+          </form>
+        </div>
 
-            <RegionalDirectory title={labels.stateAbout} groups={aboutStateGroups} />
-            <RegionalDirectory title={labels.stateServices} groups={serviceStateGroups} />
-            <RegionalDirectory title={labels.stateBlog} groups={blogStateGroups} />
-            <RegionalDirectory title={labels.stateFaq} groups={faqStateGroups} />
-            <RegionalDirectory title={labels.stateContact} groups={contactStateGroups} />
+        <div className="mt-6 flex justify-center">
+          <Link
+            href={consultationHref}
+            className="rounded-full bg-civic-700 px-8 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-civic-600"
+          >
+            Start Your Consultation Now
+          </Link>
+        </div>
 
-            <div className="rounded-xl border border-ink-700/70 bg-ink-800/40 p-3 text-xs text-sand-200">
-              <p className="font-semibold uppercase tracking-[0.1em]">{labels.contactBoxTitle}</p>
-              <a href={`mailto:${contact.clientEmail}`} className="mt-2 block hover:text-white">
-                {contact.clientEmail}
-              </a>
-              <a href={contact.whatsappLink} className="mt-1 block hover:text-white">
-                {contact.whatsappNumber}
-              </a>
-            </div>
+        <div className="mt-8 rounded-2xl border border-ink-700 bg-ink-800/50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sand-300">Brazil States Directory</p>
+          <div className="mt-3 grid max-h-48 grid-cols-2 gap-2 overflow-y-auto pr-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {stateLinks.map((link) => (
+              <Link key={link.label} href={link.href} className="rounded-md border border-ink-700 bg-ink-900/70 px-2 py-1.5 text-sand-100 hover:border-sand-500 hover:text-white">
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
 
-      <div className="border-t border-ink-700/60 px-4 py-4 text-center text-xs text-sand-300">
-        © {new Date().getFullYear()} {t.brand}. {labels.rightsReserved} {t.footer.legal}
+      <div className="border-t border-ink-700/70 px-4 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 text-xs text-sand-300">
+          <p>
+            © 2019-2026 Immigrate to Brazil. All rights reserved. Information provided is general guidance and not legal representation until engagement is
+            confirmed.
+          </p>
+          <BrandLogo variant="mark" className="h-7 w-7" />
+        </div>
       </div>
     </footer>
   );

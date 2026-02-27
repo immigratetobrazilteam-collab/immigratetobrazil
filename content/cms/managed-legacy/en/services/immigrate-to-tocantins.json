@@ -4,13 +4,16 @@
   "pathname": "/services/immigrate-to-tocantins",
   "sourcePath": "services/immigrate-to-tocantins.html",
   "title": "Immigrate to Tocantins | Immigration & Relocation",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Complete Immigration Services in Tocantins",
   "heroImageAlt": "Complete Immigration Services in Tocantins",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -20,6 +23,26 @@
     {
       "title": "Brazilian Visas",
       "paragraphs": [
+        "Tourist Visa",
+        "Work Visa",
+        "Student Visa",
+        "Business Visa",
+        "Family Visa",
+        "Investor Visa",
+        "Retiree Visa",
+        "Digital Nomad Visa",
+        "Religious Visa",
+        "Volunteer Visa",
+        "Humanitarian Visa",
+        "Research Visa",
+        "Medical Visa",
+        "Artistic Visa",
+        "Sports Visa",
+        "Journalist Visa",
+        "Diplomatic Visa",
+        "Transit Visa",
+        "Startup Visa",
+        "Educational Exchange",
         "Visa applications for entry to Brazil",
         "Visit Brazil for tourism, leisure, or family visits",
         "Employment-based visa for qualified professionals",
@@ -46,6 +69,22 @@
     {
       "title": "Residency Permits",
       "paragraphs": [
+        "Work Residency",
+        "Family Reunion",
+        "Investor Residency",
+        "Retiree Residency",
+        "Study Residency",
+        "Digital Nomad Residency",
+        "Skilled Worker",
+        "Humanitarian Residency",
+        "Mercosul Residency",
+        "CPLP Residency",
+        "Religious Residency",
+        "Volunteer Residency",
+        "Research Residency",
+        "Health Treatment",
+        "Educational Exchange",
+        "Youth Exchange",
         "Temporary and permanent residency authorizations",
         "Long-term employment authorization",
         "Family-based residency permits",
@@ -68,6 +107,12 @@
     {
       "title": "Citizenship & Naturalisation",
       "paragraphs": [
+        "Ordinary Naturalisation",
+        "Extraordinary Naturalisation",
+        "Special Naturalisation",
+        "Provisional Naturalisation",
+        "Reacquisition",
+        "Derivative Citizenship",
         "Brazilian citizenship and naturalisation services",
         "4+ years residency citizenship",
         "1 year residency fast-track",
@@ -80,6 +125,11 @@
     {
       "title": "Guided Tours",
       "paragraphs": [
+        "Amazon & North Tours",
+        "Northeast Beach Tours",
+        "Central-West Tours",
+        "Southeast City Tours",
+        "Southern Region Tours",
         "Professional guided tours across Brazil",
         "Amazon rainforest and northern region",
         "Coastal beaches and cultural sites",
@@ -91,6 +141,14 @@
     {
       "title": "Other Immigration Services",
       "paragraphs": [
+        "Document Translation",
+        "Consular Services",
+        "Legal Appeals",
+        "Criminal Records",
+        "Deportation Defense",
+        "Expulsion Defense",
+        "Extradition Defense",
+        "Immigration Fines",
         "Additional immigration and legal services",
         "Certified sworn translations",
         "Embassy and consulate assistance",
@@ -329,6 +387,9 @@
     {
       "title": "Process timeline",
       "paragraphs": [
+        "Initial review",
+        "Document preparation",
+        "Submission & follow‑up",
         "Typical steps and timing ranges for this service.",
         "1–2 weeks to assess eligibility and confirm requirements.",
         "2–6 weeks depending on translations and notarizations.",
@@ -351,6 +412,9 @@
     {
       "title": "Legal notice & confidentiality",
       "paragraphs": [
+        "Confidential intake",
+        "No guarantee of outcome",
+        "Privacy first",
         "Your information is handled securely and shared only as required for your case.",
         "We collect only the details required to assess eligibility and prepare filings.",
         "Results depend on official decisions and document completeness.",
@@ -360,6 +424,9 @@
     {
       "title": "Contact options",
       "paragraphs": [
+        "Email us",
+        "Book a consultation",
+        "Response window",
         "We respond within 1–2 business days with next steps.",
         "info@immigratetobrazil.com",
         "support@immigratetobrazil.com",

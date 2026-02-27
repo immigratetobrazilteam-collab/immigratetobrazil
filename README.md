@@ -23,6 +23,9 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run test` - run test suite
 - `npm run migrate:routes` - generate `content/generated/route-index.json`
 - `npm run cms:validate` - validate CMS JSON structure and slug integrity
+- `npm run legacy:snapshot` - materialize legacy HTML snapshot from git (`HEAD~1`) into `.legacy-snapshot/`
+- `npm run content:reimport:from-legacy-ref` - rebuild managed content from legacy snapshot (`state-guides` + `discover` + `managed-legacy`)
+- `npm run content:retention:audit` - compare legacy-source text vs managed JSON text and export retention report
 - `npm run cms:sync-locales` - copy English `managedPages` into locale files (`es`, `pt`, `fr`)
 - `npm run cms:sync-locales:check` - fail if locale `managedPages` drift from English schema/content
 - `npm run cms:sync-locales:translate` - machine-translate English `site-copy` content into locale files (`es`, `pt`, `fr`)
@@ -33,6 +36,7 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run seo:clusters` - generate 90-day SEO cluster plans under `artifacts/seo-clusters/` (AI via Ollama when available)
 - `npm run seo:clusters:apply` - generate clusters and apply AI blog overrides to `content/cms/state-copy/*.json` + `content/cms/site-copy/*.json`
 - `npm run seo:psi` - run Google PageSpeed Insights checks on key pages (mobile + desktop)
+- `npm run seo:final` - run canonical + structured-data + sitemap sample final SEO checks
 - `npm run seo:weekly:report` - generate weekly prioritized SEO/PSI summary from latest artifacts
 - `npm run seo:autopilot` - run full SEO cluster autopilot (`seo:clusters:apply` + `cms:validate`)
 - `npm run env:validate` - run one-shot environment/API integration checks from `.env.local`
@@ -41,7 +45,10 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run indexnow:submit:sitemap` - submit a sitemap-derived URL set to IndexNow (limit 200)
 - `npm run dns:google:verify` - upsert Google Search Console TXT verification record in Cloudflare DNS
 - `npm run smoke` - run production smoke checks (local or live URL)
+- `npm run visual:smoke` - run Playwright visual smoke checks and capture screenshots for key route hubs
 - `npm run perf:budget` - enforce JS build-size performance budgets from Next.js manifests/chunks
+- `npm run editorial:check` - generate stale-content editorial QA report from review cadence metadata
+- `npm run production:readiness` - run consolidated production readiness gate locally
 - `npm run verify:release` - run full go-live quality gate sequence in one command
 - `npm run preview:worker` - local Cloudflare Worker preview build
 - `npm run deploy` - build and deploy to Cloudflare Worker
@@ -114,6 +121,8 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_SITE_URL`
 - `PAGESPEED_API_KEY` (recommended for `npm run seo:psi` to avoid shared API quota limits)
 - `INDEXNOW_API_KEY` (required for IndexNow key file + URL submission)
+- `SENTRY_DSN` and/or `NEXT_PUBLIC_SENTRY_DSN` (error tracking)
+- `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_AUTH_TOKEN` (optional source-map upload)
 - `CLOUDFLARE_ZONE_ID` (optional; used by `npm run dns:google:verify`)
 - `CLOUDFLARE_ZONE_NAME` (optional; defaults to `immigratetobrazil.com`)
 - `CLOUDFLARE_DNS_RECORD_NAME` (optional; defaults to apex record)
@@ -206,6 +215,10 @@ GA4 event tracking is wired for high-intent actions:
 ## SEO weekly report
 - Scheduled workflow: `.github/workflows/seo-weekly-report.yml` (weekly + manual trigger).
 - Runs SEO audit + PageSpeed checks and builds a prioritized combined report artifact.
+
+## Production readiness checks
+- Scheduled workflow: `.github/workflows/production-readiness.yml` (weekly + manual trigger).
+- Runs editorial stale-content QA, visual smoke screenshots, final SEO checks, PageSpeed checks, and sitemap submission.
 
 ## PageSpeed API key setup
 1. Create/select a Google Cloud project and enable `PageSpeed Insights API`.

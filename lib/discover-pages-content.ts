@@ -106,6 +106,14 @@ export type DiscoverHubCopy = {
   consultationLabel: string;
 };
 
+export type DiscoverHubIndex = {
+  locale: string;
+  generatedAt: string;
+  pageCount: number;
+  statePages: DiscoverManifestItem[];
+  citySamples: DiscoverManifestItem[];
+};
+
 const CONTENT_ROOT = path.join(process.cwd(), 'content', 'cms', 'discover-pages');
 
 const fallbackHubCopy: DiscoverHubCopy = {
@@ -189,6 +197,33 @@ export async function getDiscoverManifest(_locale: Locale): Promise<DiscoverMani
   }
 
   return english;
+}
+
+export async function getDiscoverLabels(locale: Locale): Promise<Record<string, string>> {
+  const localPath = path.join(CONTENT_ROOT, locale, '_labels.json');
+  const local = await loadJsonIfExists<Record<string, string>>(localPath);
+  if (local) return local;
+
+  const englishPath = path.join(CONTENT_ROOT, 'en', '_labels.json');
+  return (await loadJsonIfExists<Record<string, string>>(englishPath)) || {};
+}
+
+export async function getDiscoverHubIndex(locale: Locale): Promise<DiscoverHubIndex> {
+  const localPath = path.join(CONTENT_ROOT, locale, '_hub-index.json');
+  const local = await loadJsonIfExists<DiscoverHubIndex>(localPath);
+  if (local) return local;
+
+  const englishPath = path.join(CONTENT_ROOT, 'en', '_hub-index.json');
+  const english = await loadJsonIfExists<DiscoverHubIndex>(englishPath);
+  if (english) return english;
+
+  return {
+    locale,
+    generatedAt: new Date(0).toISOString(),
+    pageCount: 0,
+    statePages: [],
+    citySamples: [],
+  };
 }
 
 export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCopy> {

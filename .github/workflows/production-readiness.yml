@@ -1,0 +1,121 @@
+name: Production Readiness Checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5 * * 1'
+
+concurrency:
+  group: production-readiness
+  cancel-in-progress: true
+
+jobs:
+  editorial-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate CMS content
+        run: npm run cms:validate
+
+      - name: Editorial stale-content check
+        run: npm run editorial:check
+
+      - name: Upload editorial artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-qa-${{ github.run_id }}
+          path: artifacts/editorial/
+          if-no-files-found: warn
+
+  visual-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run visual smoke checks
+        env:
+          VISUAL_SMOKE_BASE_URL: https://immigratetobrazil.com
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+        run: npm run visual:smoke
+
+      - name: Upload visual smoke artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-smoke-${{ github.run_id }}
+          path: artifacts/visual-smoke/
+          if-no-files-found: warn
+
+  seo-final:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run SEO final checks
+        env:
+          SEO_FINAL_BASE_URL: https://immigratetobrazil.com
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+          SEO_FINAL_FAIL_ON_ERROR: "true"
+        run: npm run seo:final
+
+      - name: Run PageSpeed checks
+        continue-on-error: true
+        env:
+          PSI_BASE_URL: https://immigratetobrazil.com
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+          PSI_FAIL_ON_ERROR: false
+        run: npm run seo:psi
+
+      - name: Submit sitemap to IndexNow
+        continue-on-error: true
+        env:
+          INDEXNOW_API_KEY: ${{ secrets.INDEXNOW_API_KEY }}
+          NEXT_PUBLIC_SITE_URL: https://immigratetobrazil.com
+        run: npm run indexnow:submit:sitemap
+
+      - name: Upload SEO final artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-final-${{ github.run_id }}
+          path: |
+            artifacts/seo-final/
+            artifacts/seo-psi/
+          if-no-files-found: warn
+

@@ -4,13 +4,16 @@
   "pathname": "/services/services-rondonia/visas/startup",
   "sourcePath": "services/services-rondonia/visas/startup.html",
   "title": "Startup - Rondônia Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Launch Your Startup in Brazil with the Startup Visa",
   "heroImageAlt": "Launch Your Startup in Brazil with the Startup Visa",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -60,6 +63,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "true",
         "['Valid passport', 'Business plan', 'Investment proof']",
         "Valid passport",

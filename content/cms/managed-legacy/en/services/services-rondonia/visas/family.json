@@ -4,13 +4,16 @@
   "pathname": "/services/services-rondonia/visas/family",
   "sourcePath": "services/services-rondonia/visas/family.html",
   "title": "Family - Rondônia Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Reunite with Family in Brazil with the Family Visa",
   "heroImageAlt": "Reunite with Family in Brazil with the Family Visa",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -60,6 +63,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "true",
         "['Valid passport', 'Marriage or birth certificate', \"Sponsor's ID and financial proof\"]",
         "Valid passport",

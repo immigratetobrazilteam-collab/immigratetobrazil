@@ -96,6 +96,37 @@ async function checkCloudflare(env, results) {
   }
 }
 
+function checkSentry(env, results) {
+  const privateDsn = String(env.SENTRY_DSN || '').trim();
+  const publicDsn = String(env.NEXT_PUBLIC_SENTRY_DSN || '').trim();
+  const dsn = privateDsn || publicDsn;
+
+  if (!dsn) {
+    results.push({ name: 'SENTRY_DSN', ok: false, detail: 'missing (set SENTRY_DSN or NEXT_PUBLIC_SENTRY_DSN)' });
+    return;
+  }
+
+  if (isPlaceholder(dsn)) {
+    results.push({ name: 'SENTRY_DSN', ok: false, detail: 'placeholder value' });
+    return;
+  }
+
+  let parsed;
+  try {
+    parsed = new URL(dsn);
+  } catch {
+    results.push({ name: 'SENTRY_DSN', ok: false, detail: 'invalid URL format' });
+    return;
+  }
+
+  if (!parsed.hostname.includes('sentry.io') && !parsed.hostname.includes('.ingest.sentry.io')) {
+    results.push({ name: 'SENTRY_DSN', ok: false, detail: `unexpected host ${parsed.hostname}` });
+    return;
+  }
+
+  results.push({ name: 'SENTRY_DSN', ok: true, detail: 'set' });
+}
+
 function checkStaticKeys(env, results) {
   const required = [
     'NEXT_PUBLIC_SITE_URL',
@@ -139,6 +170,7 @@ async function main() {
   const results = [];
 
   checkStaticKeys(env, results);
+  checkSentry(env, results);
   await Promise.all([checkPageSpeed(env, results), checkIndexNow(env, results), checkCloudflare(env, results)]);
 
   let failed = 0;

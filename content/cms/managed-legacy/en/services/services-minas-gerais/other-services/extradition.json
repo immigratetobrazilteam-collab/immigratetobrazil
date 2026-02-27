@@ -4,13 +4,16 @@
   "pathname": "/services/services-minas-gerais/other-services/extradition",
   "sourcePath": "services/services-minas-gerais/other-services/extradition.html",
   "title": "Extradition - Minas Gerais Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Extradition",
   "heroImageAlt": "Extradition",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -57,6 +60,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "Documents must be translated to Portuguese by a certified translator.",
         "Information coming soon"
       ]
@@ -276,6 +281,9 @@
     {
       "title": "Process timeline",
       "paragraphs": [
+        "Initial review",
+        "Document preparation",
+        "Submission & follow‑up",
         "Typical steps and timing ranges for this service.",
         "1–2 weeks to assess eligibility and confirm requirements.",
         "2–6 weeks depending on translations and notarizations.",
@@ -298,6 +306,9 @@
     {
       "title": "Legal notice & confidentiality",
       "paragraphs": [
+        "Confidential intake",
+        "No guarantee of outcome",
+        "Privacy first",
         "Your information is handled securely and shared only as required for your case.",
         "We collect only the details required to assess eligibility and prepare filings.",
         "Results depend on official decisions and document completeness.",
@@ -307,6 +318,9 @@
     {
       "title": "Contact options",
       "paragraphs": [
+        "Email us",
+        "Book a consultation",
+        "Response window",
         "We respond within 1–2 business days with next steps.",
         "info@immigratetobrazil.com",
         "support@immigratetobrazil.com",

@@ -17,6 +17,10 @@
     "discover:validate": "node scripts/validate-discover-pages.mjs",
     "legacy:import": "node scripts/import-managed-legacy-pages.mjs",
     "legacy:validate": "node scripts/validate-managed-legacy-pages.mjs",
+    "legacy:snapshot": "node scripts/materialize-legacy-snapshot.mjs",
+    "content:reimport:from-legacy-ref": "npm run legacy:snapshot && LEGACY_SOURCE_ROOT=.legacy-snapshot npm run state-guides:import && LEGACY_SOURCE_ROOT=.legacy-snapshot npm run discover:import && LEGACY_SOURCE_ROOT=.legacy-snapshot npm run legacy:import && npm run cms:validate",
+    "content:retention:audit": "node scripts/audit-content-retention.mjs",
+    "content:coverage:report": "node scripts/content-coverage-report.mjs",
     "cms:sync-locales": "node scripts/sync-site-copy-locales.mjs --scope=managedPages --mode=copy",
     "cms:sync-locales:check": "node scripts/sync-site-copy-locales.mjs --scope=managedPages --mode=copy --check",
     "cms:sync-locales:translate": "node scripts/sync-site-copy-locales.mjs --scope=all --mode=translate",
@@ -31,25 +35,33 @@
     "seo:psi": "node scripts/pagespeed-insights.mjs",
     "seo:weekly:report": "node scripts/seo-weekly-report.mjs",
     "seo:autopilot": "node scripts/seo-clusters-ai.mjs --apply --days 90 && npm run cms:validate",
+    "seo:final": "node scripts/seo-final-check.mjs",
     "env:validate": "node scripts/validate-env-integrations.mjs",
+    "editorial:check": "node scripts/editorial-stale-check.mjs",
+    "editorial:check:strict": "EDITORIAL_FAIL_ON_STALE=true node scripts/editorial-stale-check.mjs",
     "indexnow:key": "node scripts/indexnow.mjs key",
     "indexnow:submit": "node scripts/indexnow.mjs submit",
     "indexnow:submit:sitemap": "node scripts/indexnow.mjs submit --sitemap --limit=200",
     "dns:google:verify": "node scripts/ensure-google-verification-dns.mjs",
     "smoke": "node scripts/smoke-check.mjs",
     "perf:budget": "node scripts/perf-budget.mjs",
+    "visual:smoke": "node scripts/visual-smoke.mjs",
+    "production:readiness": "npm run env:validate && npm run cms:validate && npm run typecheck && npm run lint && npm test && npm run build && npm run perf:budget && npm run editorial:check",
     "verify:release": "node scripts/verify-release.mjs",
     "preview:worker": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:typegen": "wrangler types"
   },
   "dependencies": {
+    "@sentry/nextjs": "^10.40.0",
     "clsx": "^2.1.1",
     "next": "^15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.16.5",
+    "@playwright/test": "^1.58.2",
     "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
@@ -60,7 +72,6 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.2",
     "vitest": "^4.0.18",
-    "@opennextjs/cloudflare": "^1.16.5",
     "wrangler": "^4.67.0"
   }
 }

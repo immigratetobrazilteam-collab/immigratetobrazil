@@ -10,7 +10,7 @@ import { copy, resolveLocale } from '@/lib/i18n';
 import {
   discoverPathFromSlug,
   getDiscoverHubCopy,
-  getDiscoverManifest,
+  getDiscoverLabels,
   getDiscoverPage,
   type DiscoverContentBlock,
 } from '@/lib/discover-pages-content';
@@ -119,15 +119,14 @@ export default async function DiscoverManagedPage({ params }: { params: Promise<
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
 
-  const [page, hub, manifest] = await Promise.all([
+  const [page, hub, labelsBySlug] = await Promise.all([
     getDiscoverPage(locale, slug),
     getDiscoverHubCopy(locale),
-    getDiscoverManifest(locale),
+    getDiscoverLabels(locale),
   ]);
 
   if (!page) notFound();
 
-  const titleBySlug = new Map(manifest.pages.map((entry) => [entry.slug, entry.title]));
   const cumulative = [];
   for (let idx = 0; idx < slug.length; idx += 1) {
     cumulative.push(slug.slice(0, idx + 1).join('/'));
@@ -137,7 +136,7 @@ export default async function DiscoverManagedPage({ params }: { params: Promise<
     { name: copy[locale].nav.home, href: `/${locale}` },
     { name: hub.title, href: `/${locale}/discover` },
     ...cumulative.map((item) => ({
-      name: titleBySlug.get(item) || segmentLabel(item.split('/').pop() || item),
+      name: labelsBySlug[item] || segmentLabel(item.split('/').pop() || item),
       href: `/${locale}${discoverPathFromSlug(item)}`,
     })),
   ];

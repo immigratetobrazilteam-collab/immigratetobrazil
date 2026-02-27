@@ -4,7 +4,8 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
-const discoverDir = path.join(root, 'discover');
+const legacyRoot = process.env.LEGACY_SOURCE_ROOT ? path.resolve(root, process.env.LEGACY_SOURCE_ROOT) : root;
+const discoverDir = path.join(legacyRoot, 'discover');
 const outputDir = path.join(root, 'content', 'cms', 'discover-pages');
 
 function decodeHtmlEntities(input) {
@@ -582,7 +583,7 @@ function localizedHubCopy(locale) {
 async function main() {
   const files = await walkHtmlFiles(discoverDir);
   if (!files.length) {
-    throw new Error('No discover HTML files were found.');
+    throw new Error(`No discover HTML files were found in ${discoverDir}.`);
   }
 
   const pages = [];
@@ -624,7 +625,22 @@ async function main() {
     pages,
   };
 
+  const labelsBySlug = Object.fromEntries(pages.map((page) => [page.slug, page.title]));
+  const hubIndex = {
+    locale: 'en',
+    generatedAt: manifest.generatedAt,
+    pageCount: manifest.pageCount,
+    statePages: pages
+      .filter((page) => page.taxonomy.type === 'state-overview')
+      .slice(0, 60),
+    citySamples: pages
+      .filter((page) => page.taxonomy.type === 'region-city')
+      .slice(0, 160),
+  };
+
   await writeJson(path.join(outputDir, 'en', '_manifest.json'), manifest);
+  await writeJson(path.join(outputDir, 'en', '_labels.json'), labelsBySlug);
+  await writeJson(path.join(outputDir, 'en', '_hub-index.json'), hubIndex);
   await writeJson(path.join(outputDir, 'en', '_hub.json'), {
     locale: 'en',
     ...localizedHubCopy('en'),
@@ -638,6 +654,9 @@ async function main() {
   }
 
   console.log(`Imported ${pages.length} discover pages into managed content.`);
+  if (legacyRoot !== root) {
+    console.log(`Legacy source root: ${legacyRoot}`);
+  }
 }
 
 main().catch((error) => {

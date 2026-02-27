@@ -5,11 +5,8 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { BrandLogo } from '@/components/brand-logo';
-import { brazilianStates, type BrazilianState } from '@/content/curated/states';
+import { brazilianStates } from '@/content/curated/states';
 import { trackAnalyticsEvent } from '@/lib/analytics-events';
-import { buildFaqStateSlug } from '@/lib/phase2-routes';
-import { siteConfig } from '@/lib/site-config';
-import { stateGuidePathByState } from '@/lib/state-guides-content';
 import type { Locale } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -20,15 +17,9 @@ type MenuLink = {
   label: string;
 };
 
-type MenuGroup = {
+type MegaColumn = {
   title: string;
   links: MenuLink[];
-};
-
-type MenuSection = {
-  title: string;
-  links?: MenuLink[];
-  groups?: MenuGroup[];
 };
 
 type MegaMenu = {
@@ -36,7 +27,7 @@ type MegaMenu = {
   label: string;
   href: string;
   activePrefixes?: string[];
-  sections: MenuSection[];
+  columns: MegaColumn[];
 };
 
 interface SiteHeaderProps {
@@ -51,75 +42,9 @@ interface SiteHeaderProps {
   };
   ctaButton: string;
   headerNavigation: {
-    brandTagline: string;
-    allPagesButton: string;
-    quickLinks: MenuLink[];
-    menuLabels: {
-      aboutBrazil: string;
-      aboutStates: string;
-      services: string;
-      resources: string;
-      discover: string;
-      blogByState: string;
-      faqByState: string;
-      contactByState: string;
-    };
-    sectionLabels: {
-      aboutBrazil: string;
-      aboutStates: string;
-      servicesCore: string;
-      servicesStates: string;
-      resourcesHubs: string;
-      resourcesPolicy: string;
-      discoverRegions: string;
-      discoverStates: string;
-      blogStates: string;
-      faqStates: string;
-      contactChannels: string;
-      contactStates: string;
-    };
-    regionLabels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>;
-    links: {
-      aboutBrazilHub: string;
-      applyBrazil: string;
-      costOfLiving: string;
-      aboutStatesHub: string;
-      aboutUs: string;
-      values: string;
-      mission: string;
-      story: string;
-      visaServices: string;
-      visaCategories: string;
-      residencyServices: string;
-      naturalisationServices: string;
-      legalServices: string;
-      homeArchive: string;
-      policies: string;
-      cookies: string;
-      disclaimers: string;
-      gdpr: string;
-      privacy: string;
-      refund: string;
-      terms: string;
-      xmlSitemap: string;
-      discoverRegionsHub: string;
-      discoverStatesHub: string;
-      blogByStateHub: string;
-      faqByStateHub: string;
-      contactByStateHub: string;
-    };
+    brandTagline?: string;
   };
 }
-
-const REGION_ORDER: BrazilianState['region'][] = ['north', 'northeast', 'central-west', 'southeast', 'south'];
-
-const DISCOVER_REGION_SEGMENTS: Record<BrazilianState['region'], string> = {
-  north: 'north-region',
-  northeast: 'northeast-region',
-  'central-west': 'central-west-region',
-  southeast: 'southeast-region',
-  south: 'south-region',
-};
 
 function resolveCmsHref(locale: Locale, href: string) {
   if (!href) return `/${locale}`;
@@ -132,115 +57,57 @@ function resolveCmsHref(locale: Locale, href: string) {
   return `/${locale}${href.startsWith('/') ? href : `/${href}`}`;
 }
 
-function trackExternalContactClick(href: string, locale: Locale, source: string) {
-  if (href.startsWith('mailto:')) {
-    trackAnalyticsEvent('contact_click', { contact_method: 'email', source, locale });
-    return;
-  }
-
-  const normalizedHref = href.toLowerCase();
-  if (normalizedHref.includes('wa.me') || normalizedHref.includes('whatsapp')) {
-    trackAnalyticsEvent('contact_click', { contact_method: 'whatsapp', source, locale });
-  }
+function isExternalHref(href: string) {
+  return href.startsWith('http://') || href.startsWith('https://') || href.startsWith('mailto:') || href.startsWith('tel:');
 }
 
-function isConsultationLink(href: string) {
-  return href.includes('/visa-consultation');
-}
-
-function desktopLinkClass(active: boolean) {
-  return cn(
-    'rounded-full px-4 py-2 text-sm font-semibold transition',
-    active ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100 hover:text-ink-900',
-  );
-}
-
-function secondaryLinkClass(active: boolean) {
-  return cn(
-    'rounded-full border px-3.5 py-1.5 text-sm font-semibold transition',
-    active
-      ? 'border-ink-900 bg-ink-900 text-sand-50'
-      : 'border-sand-300 bg-white text-ink-700 hover:border-civic-300 hover:text-ink-900',
-  );
+function normalizePath(href: string) {
+  return href.split('?')[0]?.split('#')[0] || href;
 }
 
 function isActivePath(pathname: string, href: string) {
-  return pathname === href || pathname.startsWith(`${href}/`);
+  const normalized = normalizePath(href);
+  return pathname === normalized || pathname.startsWith(`${normalized}/`);
 }
 
-function regionLabel(labels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>, region: BrazilianState['region']) {
-  switch (region) {
-    case 'north':
-      return labels.north;
-    case 'northeast':
-      return labels.northeast;
-    case 'central-west':
-      return labels.centralWest;
-    case 'southeast':
-      return labels.southeast;
-    case 'south':
-      return labels.south;
-    default:
-      return region;
-  }
-}
-
-function groupedStateLinks(
-  locale: Locale,
-  labels: Record<'north' | 'northeast' | 'centralWest' | 'southeast' | 'south', string>,
-  hrefBuilder: (state: BrazilianState) => string,
-) {
-  return REGION_ORDER.map((region) => {
-    const links = brazilianStates
-      .filter((state) => state.region === region)
-      .map((state) => ({
-        href: hrefBuilder(state),
-        label: state[locale],
-      }));
-
-    return {
-      title: regionLabel(labels, region),
-      links,
-    };
-  });
-}
-
-function HeaderLogo({
-  href,
-  compact = false,
-  brand,
-  brandTagline,
-}: {
-  href: string;
-  compact?: boolean;
-  brand: string;
-  brandTagline: string;
-}) {
+function HeaderLogo({ href, brand, tagline }: { href: string; brand: string; tagline: string }) {
   return (
     <Link href={href} className="inline-flex items-center gap-3">
-      <BrandLogo variant="mark" priority className={compact ? 'h-10 w-10 rounded-xl' : 'h-12 w-12 rounded-2xl'} />
+      <BrandLogo variant="mark" priority className="h-12 w-12 rounded-2xl" />
       <div className="leading-tight">
-        <p className={cn('font-display text-ink-900', compact ? 'text-base' : 'text-lg')}>{brand}</p>
-        <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">{brandTagline}</p>
+        <p className="font-display text-lg text-ink-900">{brand}</p>
+        <p className="text-[11px] uppercase tracking-[0.16em] text-civic-700">{tagline}</p>
       </div>
     </Link>
   );
 }
 
-export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: headerNav }: SiteHeaderProps) {
+function topLevelLinkClass(active: boolean, open: boolean) {
+  return cn(
+    'inline-flex w-full items-center justify-center rounded-full px-4 py-2 text-sm font-semibold transition',
+    active || open ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100 hover:text-ink-900',
+  );
+}
+
+function dropdownLinkClass(active: boolean) {
+  return cn(
+    'block rounded-lg border px-3 py-2 text-sm transition',
+    active ? 'border-ink-900 bg-ink-900 text-sand-50' : 'border-sand-200 bg-sand-50 text-ink-800 hover:border-civic-300 hover:bg-white',
+  );
+}
+
+export function SiteHeader({ locale, brand }: SiteHeaderProps) {
   const pathname = usePathname() || `/${locale}`;
   const desktopMenuRef = useRef<HTMLDivElement | null>(null);
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
 
-  function trackContactClick(method: 'email' | 'whatsapp', source: string) {
-    trackAnalyticsEvent('contact_click', {
-      contact_method: method,
-      source,
-      locale,
-    });
-  }
+  const homeHref = resolveCmsHref(locale, '/');
+  const searchHref = resolveCmsHref(locale, '/search');
+  const accessibilityHref = resolveCmsHref(locale, '/accessibility');
+  const portalHref = resolveCmsHref(locale, '/client-portal');
+  const consultationHref = resolveCmsHref(locale, '/visa-consultation');
 
   function trackCtaClick(source: string) {
     trackAnalyticsEvent('cta_click', {
@@ -276,266 +143,442 @@ export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: he
     setMobileOpen(false);
   }, [pathname]);
 
-  const regionLabels = headerNav.regionLabels;
-
-  const aboutStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/about/about-states/about-${state.slug}`)),
-    [locale, regionLabels],
-  );
-
-  const serviceStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/services/immigrate-to-${state.slug}`)),
-    [locale, regionLabels],
-  );
-
-  const blogStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, stateGuidePathByState(state.slug))),
-    [locale, regionLabels],
-  );
-
-  const faqStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/faq/${buildFaqStateSlug(state.slug)}`)),
-    [locale, regionLabels],
-  );
-
-  const contactStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/contact/contact-${state.slug}`)),
-    [locale, regionLabels],
-  );
-
-  const discoverStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/discover/brazilian-states/${state.code.toLowerCase()}`)),
-    [locale, regionLabels],
-  );
-
-  const discoverRegionLinks = useMemo(
+  const allStateLinks = useMemo(
     () =>
-      REGION_ORDER.map((region) => ({
-        href: resolveCmsHref(locale, `/discover/brazilian-regions/${DISCOVER_REGION_SEGMENTS[region]}`),
-        label: regionLabel(regionLabels, region),
-      })),
-    [locale, regionLabels],
+      [...brazilianStates]
+        .sort((a, b) => a[locale].localeCompare(b[locale]))
+        .map((state) => ({
+          label: state[locale],
+          href: resolveCmsHref(locale, `/discover/brazilian-states/${state.code.toLowerCase()}`),
+        })),
+    [locale],
   );
 
-  const quickLinks = useMemo(
-    () =>
-      headerNav.quickLinks.map((link) => ({
-        href: resolveCmsHref(locale, link.href),
-        label: link.label,
-      })),
-    [headerNav.quickLinks, locale],
-  );
+  const menus = useMemo<MegaMenu[]>(() => {
+    const mapLinks = (entries: Array<[string, string]>) => entries.map(([label, href]) => ({ label, href: resolveCmsHref(locale, href) }));
 
-  const menus = useMemo<MegaMenu[]>(
-    () => [
-      {
-        id: 'about-brazil',
-        label: headerNav.menuLabels.aboutBrazil,
-        href: resolveCmsHref(locale, '/about/about-brazil'),
-        sections: [
-          {
-            title: headerNav.sectionLabels.aboutBrazil,
-            links: [
-              { href: resolveCmsHref(locale, '/about/about-brazil'), label: headerNav.links.aboutBrazilHub },
-              { href: resolveCmsHref(locale, '/about/about-brazil/apply-brazil'), label: headerNav.links.applyBrazil },
-              { href: resolveCmsHref(locale, '/about/about-brazil/cost-of-living-in-brazil'), label: headerNav.links.costOfLiving },
-            ],
-          },
-        ],
-      },
-      {
-        id: 'about-states',
-        label: headerNav.menuLabels.aboutStates,
-        href: resolveCmsHref(locale, '/about/about-states'),
-        sections: [
-          {
-            title: headerNav.sectionLabels.aboutStates,
-            groups: aboutStateGroups,
-          },
-        ],
-      },
+    return [
       {
         id: 'services',
-        label: headerNav.menuLabels.services,
+        label: 'Services',
         href: resolveCmsHref(locale, '/services'),
         activePrefixes: [resolveCmsHref(locale, '/visa-consultation')],
-        sections: [
+        columns: [
           {
-            title: headerNav.sectionLabels.servicesCore,
-            links: [
-              { href: resolveCmsHref(locale, '/services'), label: nav.services },
-              { href: resolveCmsHref(locale, '/visa-consultation'), label: ctaButton },
-              { href: resolveCmsHref(locale, '/services/visa'), label: headerNav.links.visaServices },
-              { href: resolveCmsHref(locale, '/services/visas'), label: headerNav.links.visaCategories },
-              { href: resolveCmsHref(locale, '/services/residencies'), label: headerNav.links.residencyServices },
-              { href: resolveCmsHref(locale, '/services/naturalisation'), label: headerNav.links.naturalisationServices },
-              { href: resolveCmsHref(locale, '/services/legal'), label: headerNav.links.legalServices },
-            ],
+            title: 'Visas',
+            links: mapLinks([
+              ['Artistic', '/services/immigration-law-services/visas/artistic'],
+              ['Business', '/services/immigration-law-services/visas/business'],
+              ['Educational', '/services/immigration-law-services/visas/educational-exchange'],
+              ['Exchange', '/services/immigration-law-services/visas/educational-exchange'],
+              ['Digital Nomad', '/services/immigration-law-services/visas/digital-nomad'],
+              ['Diplomatic', '/services/immigration-law-services/visas/diplomatic'],
+              ['Family', '/services/immigration-law-services/visas/family'],
+              ['Humanitarian', '/services/immigration-law-services/visas/humanitarian'],
+              ['Investor', '/services/immigration-law-services/visas/investor'],
+              ['Journalist', '/services/immigration-law-services/visas/journalist'],
+              ['Medical', '/services/immigration-law-services/visas/medical'],
+              ['Religious', '/services/immigration-law-services/visas/religious'],
+              ['Research', '/services/immigration-law-services/visas/research'],
+              ['Retiree', '/services/immigration-law-services/visas/retiree'],
+              ['Sports', '/services/immigration-law-services/visas/sports'],
+              ['Startup', '/services/immigration-law-services/visas/startup'],
+              ['Student', '/services/immigration-law-services/visas/student'],
+              ['Tourist', '/services/immigration-law-services/visas/tourist'],
+              ['Transit', '/services/immigration-law-services/visas/transit'],
+              ['Volunteer', '/services/immigration-law-services/visas/volunteer'],
+              ['Work', '/services/immigration-law-services/visas/work'],
+            ]),
           },
           {
-            title: headerNav.sectionLabels.servicesStates,
-            groups: serviceStateGroups,
+            title: 'Residencies',
+            links: mapLinks([
+              ['CPLP', '/services/immigration-law-services/residencies/cplp'],
+              ['MERCOSUL', '/services/immigration-law-services/residencies/mercosul'],
+              ['Digital Nomad', '/services/immigration-law-services/residencies/digital-nomad'],
+              ['Educational', '/services/immigration-law-services/residencies/educational-exchange'],
+              ['Exchange', '/services/immigration-law-services/residencies/youth-exchange'],
+              ['Family Reunion', '/services/immigration-law-services/residencies/family-reunion'],
+              ['Health', '/services/immigration-law-services/residencies/health-treatment'],
+              ['Humanitarian', '/services/immigration-law-services/residencies/humanitarian'],
+              ['Investor', '/services/immigration-law-services/residencies/investor'],
+              ['Religious', '/services/immigration-law-services/residencies/religious'],
+              ['Retiree', '/services/immigration-law-services/residencies/retiree'],
+              ['Research', '/services/immigration-law-services/residencies/researcher'],
+              ['Skilled', '/services/immigration-law-services/residencies/skilled-worker'],
+              ['Study', '/services/immigration-law-services/residencies/study'],
+              ['Work', '/services/immigration-law-services/residencies/work'],
+              ['Youth', '/services/immigration-law-services/residencies/youth-exchange'],
+              ['Volunteer', '/services/immigration-law-services/residencies/volunteer'],
+            ]),
+          },
+          {
+            title: 'Naturalisation',
+            links: mapLinks([
+              ['Ordinary', '/services/immigration-law-services/naturalisation/ordinary'],
+              ['Extraordinary', '/services/immigration-law-services/naturalisation/extraordinary'],
+              ['Provisional', '/services/immigration-law-services/naturalisation/provisional'],
+              ['Special', '/services/immigration-law-services/naturalisation/special'],
+              ['Renunciation', '/services/immigration-law-services/naturalisation/renouncing-citizenship'],
+              ['Reacquisition', '/services/immigration-law-services/naturalisation/reacquisition-citizenship'],
+            ]),
+          },
+          {
+            title: 'Defense',
+            links: mapLinks([
+              ['Deportation', '/services/immigration-law-services/other-services/deportation'],
+              ['Expulsion', '/services/immigration-law-services/other-services/expulsion'],
+              ['Extradition', '/services/immigration-law-services/other-services/extradition'],
+              ['Appeals', '/services/immigration-law-services/other-services/appeals'],
+              ['Fines', '/services/immigration-law-services/other-services/fines'],
+              ['Litigation', '/services/legal'],
+            ]),
+          },
+          {
+            title: 'Services',
+            links: mapLinks([
+              ['Consular', '/services/immigration-law-services/other-services/consular'],
+              ['Criminal Records', '/services/immigration-law-services/other-services/criminal-records'],
+              ['Translation', '/services/immigration-law-services/other-services/translation'],
+              ['Regularization', '/services/legal'],
+            ]),
+          },
+          {
+            title: 'Advisory',
+            links: mapLinks([
+              ['Consultation', '/services/immigration-law-services/other-services/consultation'],
+              ['Strategy', '/consultation'],
+              ['Compliance', '/about/about-us/legal-compliance-standards'],
+              ['Representation', '/services/legal'],
+              ['Corporate', '/services/immigration-law-services/other-services/company-formation'],
+            ]),
           },
         ],
       },
       {
-        id: 'resources',
-        label: headerNav.menuLabels.resources,
-        href: resolveCmsHref(locale, '/resources-guides-brazil'),
-        activePrefixes: [resolveCmsHref(locale, '/library'), resolveCmsHref(locale, '/home'), resolveCmsHref(locale, '/policies')],
-        sections: [
+        id: 'process',
+        label: 'Process',
+        href: resolveCmsHref(locale, '/process'),
+        columns: [
           {
-            title: headerNav.sectionLabels.resourcesHubs,
-            links: [
-              { href: resolveCmsHref(locale, '/resources-guides-brazil'), label: nav.resources },
-              { href: resolveCmsHref(locale, '/library'), label: headerNav.allPagesButton },
-              { href: resolveCmsHref(locale, '/process'), label: nav.process },
-              { href: resolveCmsHref(locale, '/home'), label: headerNav.links.homeArchive },
-              { href: resolveCmsHref(locale, '/blog'), label: nav.blog },
-              { href: resolveCmsHref(locale, '/faq'), label: nav.faq },
-            ],
+            title: 'Method',
+            links: mapLinks([
+              ['Consultation', '/consultation'],
+              ['Assessment', '/process'],
+              ['Strategy', '/about/about-us/immigration-done-right'],
+              ['Filing', '/process'],
+              ['Approval', '/process'],
+              ['Works', '/about/about-us/how-it-works'],
+            ]),
           },
           {
-            title: headerNav.sectionLabels.resourcesPolicy,
-            links: [
-              { href: resolveCmsHref(locale, '/policies'), label: headerNav.links.policies },
-              { href: resolveCmsHref(locale, '/policies/cookies'), label: headerNav.links.cookies },
-              { href: resolveCmsHref(locale, '/policies/disclaimers'), label: headerNav.links.disclaimers },
-              { href: resolveCmsHref(locale, '/policies/gdpr'), label: headerNav.links.gdpr },
-              { href: resolveCmsHref(locale, '/policies/privacy'), label: headerNav.links.privacy },
-              { href: resolveCmsHref(locale, '/policies/refund'), label: headerNav.links.refund },
-              { href: resolveCmsHref(locale, '/policies/terms'), label: headerNav.links.terms },
-              { href: '/sitemap.xml', label: headerNav.links.xmlSitemap },
-            ],
+            title: 'Avoiding Pitfalls',
+            links: mapLinks([
+              ['Mistakes', '/about/about-us/common-mistakes'],
+              ['Failures', '/about/about-us/common-mistakes'],
+              ['Deadlines', '/process'],
+              ['Obligations', '/process'],
+              ['Alone', '/about/about-us/10-reasons-not-alone'],
+              ['Fees', '/consultation'],
+              ['Refund', '/policies/refund'],
+              ['Timeline', '/process'],
+              ['Responsibilities', '/process'],
+              ['Right', '/about/about-us/immigration-done-right'],
+            ]),
+          },
+          {
+            title: 'Aftercare',
+            links: mapLinks([
+              ['Renewal', '/services/immigration-law-services/residencies/temporary-residency'],
+              ['Permanent', '/services/immigration-law-services/residencies/permanent'],
+              ['Naturalisation', '/services/immigration-law-services/naturalisation/ordinary'],
+              ['Compliance', '/about/about-us/legal-compliance-standards'],
+            ]),
+          },
+          {
+            title: 'Lifecycle',
+            links: mapLinks([
+              ['Conversion', '/services/immigration-law-services/residencies/permanent-residency'],
+              ['Regularization', '/services/legal'],
+              ['Planning', '/consultation'],
+            ]),
           },
         ],
       },
       {
-        id: 'discover',
-        label: headerNav.menuLabels.discover,
+        id: 'brazil',
+        label: 'Brazil',
         href: resolveCmsHref(locale, '/discover'),
-        activePrefixes: [resolveCmsHref(locale, '/discover')],
-        sections: [
+        activePrefixes: [
+          resolveCmsHref(locale, '/discover'),
+          resolveCmsHref(locale, '/about/about-brazil'),
+          resolveCmsHref(locale, '/about/about-states'),
+        ],
+        columns: [
           {
-            title: headerNav.sectionLabels.discoverRegions,
+            title: 'Discover',
+            links: mapLinks([
+              ['Why Brazil', '/about/about-brazil'],
+              ['Investment', '/services/immigration-law-services/residencies/investor'],
+              ['Economy', '/about/about-brazil/cost-of-living-in-brazil'],
+              ['Quality', '/about/about-us/immigration-done-right'],
+            ]),
+          },
+          {
+            title: 'Living',
+            links: mapLinks([
+              ['Cost', '/about/about-brazil/cost-of-living-in-brazil'],
+              ['Housing', '/resources-guides-brazil'],
+              ['Healthcare', '/services/immigration-law-services/residencies/health-treatment'],
+              ['Education', '/services/immigration-law-services/visas/student'],
+              ['Safety', '/about/about-states'],
+            ]),
+          },
+          {
+            title: 'Regions',
+            links: mapLinks([
+              ['North', '/discover/brazilian-regions/north-region'],
+              ['Northeast', '/discover/brazilian-regions/northeast-region'],
+              ['Central-West', '/discover/brazilian-regions/central-west-region'],
+              ['Southeast', '/discover/brazilian-regions/southeast-region'],
+              ['South', '/discover/brazilian-regions/south-region'],
+            ]),
+          },
+          {
+            title: 'States',
             links: [
-              { href: resolveCmsHref(locale, '/discover/brazilian-regions'), label: headerNav.links.discoverRegionsHub },
-              ...discoverRegionLinks,
+              { label: 'Directory', href: resolveCmsHref(locale, '/discover/brazilian-states') },
+              ...allStateLinks,
             ],
           },
           {
-            title: headerNav.sectionLabels.discoverStates,
-            links: [{ href: resolveCmsHref(locale, '/discover/brazilian-states'), label: headerNav.links.discoverStatesHub }],
-            groups: discoverStateGroups,
+            title: 'Cities',
+            links: mapLinks([
+              ['Guides', '/discover/brazilian-regions'],
+              ['Municipalities', '/discover/brazilian-regions'],
+              ['Search: Maringa', '/search?q=Maringa'],
+            ]),
+          },
+          {
+            title: 'Culture',
+            links: mapLinks([
+              ['Festivals', '/about/about-brazil/festivals'],
+              ['Cuisine', '/about/about-brazil/food'],
+              ['Events', '/about/about-brazil/festivals'],
+              ['Blogs', '/blog'],
+              ['FAQs', '/faq'],
+            ]),
           },
         ],
       },
       {
-        id: 'blog',
-        label: headerNav.menuLabels.blogByState,
-        href: resolveCmsHref(locale, '/state-guides'),
-        sections: [
+        id: 'insights',
+        label: 'Insights',
+        href: resolveCmsHref(locale, '/resources-guides-brazil'),
+        activePrefixes: [
+          resolveCmsHref(locale, '/resources-guides-brazil'),
+          resolveCmsHref(locale, '/blog'),
+          resolveCmsHref(locale, '/faq'),
+          resolveCmsHref(locale, '/state-guides'),
+          resolveCmsHref(locale, '/policies'),
+          resolveCmsHref(locale, '/search'),
+          resolveCmsHref(locale, '/library'),
+        ],
+        columns: [
           {
-            title: headerNav.sectionLabels.blogStates,
-            links: [{ href: resolveCmsHref(locale, '/state-guides'), label: headerNav.links.blogByStateHub }],
-            groups: blogStateGroups,
+            title: 'Guides',
+            links: mapLinks([
+              ['Immigration', '/resources-guides-brazil'],
+              ['Visa', '/services/visas'],
+              ['Residency', '/services/residencies'],
+              ['Citizenship', '/services/naturalisation'],
+              ['State', '/state-guides'],
+            ]),
+          },
+          {
+            title: 'FAQ',
+            links: mapLinks([
+              ['General', '/faq'],
+              ['Visa', '/faq'],
+              ['Residency', '/faq'],
+              ['Process', '/process'],
+              ['Compliance', '/about/about-us/legal-compliance-standards'],
+              ['State', '/faq'],
+            ]),
+          },
+          {
+            title: 'Blog',
+            links: mapLinks([
+              ['Updates', '/blog'],
+              ['Legal', '/blog'],
+              ['Policy', '/policies'],
+              ['State', '/state-guides'],
+              ['Cases', '/about/about-us/10-success-stories'],
+            ]),
+          },
+          {
+            title: 'Resources',
+            links: mapLinks([
+              ['Process', '/process'],
+              ['Mistakes', '/about/about-us/common-mistakes'],
+              ['Standards', '/about/about-us/legal-compliance-standards'],
+              ['Accessibility', '/accessibility'],
+              ['Portal', '/client-portal'],
+              ['Checklist', '/resources-guides-brazil'],
+            ]),
+          },
+          {
+            title: 'Archive',
+            links: mapLinks([
+              ['Policy', '/policies'],
+              ['Press', '/about/about-us/10-press-mentions'],
+              ['Sitemap', '/sitemap.xml'],
+              ['Search: Visa Updates', '/search?q=Visa+Updates'],
+            ]),
           },
         ],
       },
       {
-        id: 'faq',
-        label: headerNav.menuLabels.faqByState,
-        href: resolveCmsHref(locale, '/faq'),
-        sections: [
+        id: 'about-us',
+        label: 'About Us',
+        href: resolveCmsHref(locale, '/about/about-us'),
+        activePrefixes: [resolveCmsHref(locale, '/about/about-us')],
+        columns: [
           {
-            title: headerNav.sectionLabels.faqStates,
-            links: [{ href: resolveCmsHref(locale, '/faq'), label: headerNav.links.faqByStateHub }],
-            groups: faqStateGroups,
+            title: 'Profile',
+            links: mapLinks([
+              ['About', '/about/about-us'],
+              ['Mission', '/about/about-us/mission'],
+              ['Philosophy', '/about/about-us/immigration-done-right'],
+              ['Institutional', '/about/about-us/trusted-worldwide'],
+              ['Story', '/about/about-us/10-success-stories'],
+              ['Values', '/about/about-us/mission-values-ethics'],
+            ]),
+          },
+          {
+            title: 'Team',
+            links: mapLinks([
+              ['Lawyers', '/about/about-us/10-experts'],
+              ['Advisors', '/about/about-us/10-experts'],
+              ['Staff', '/about/about-us/10-experts'],
+              ['Experts', '/about/about-us/10-experts'],
+            ]),
+          },
+          {
+            title: 'Experience',
+            links: mapLinks([
+              ['Years', '/about/about-us/years-experience'],
+              ['Volume', '/about/about-us/10-success-stories'],
+              ['Industries', '/about/about-us/trusted-worldwide'],
+            ]),
+          },
+          {
+            title: 'Recognition',
+            links: mapLinks([
+              ['Awards', '/about/about-us/10-awards'],
+              ['Media', '/about/about-us/10-press-mentions'],
+              ['Speaking', '/about/about-us/trusted-worldwide'],
+              ['Mentions', '/about/about-us/10-press-mentions'],
+            ]),
+          },
+          {
+            title: 'Credibility',
+            links: mapLinks([
+              ['Why Us', '/about/about-us/10-reasons-choose-us'],
+              ['Results', '/about/about-us/10-success-stories'],
+              ['Stories', '/about/about-us/10-success-stories'],
+              ['Clients', '/about/about-us/trusted-worldwide'],
+              ['Testimonials', '/about/about-us/10-success-stories'],
+            ]),
+          },
+          {
+            title: 'Governance',
+            links: mapLinks([
+              ['Compliance', '/about/about-us/legal-compliance-standards'],
+              ['Ethics', '/about/about-us/mission-values-ethics'],
+              ['Standards', '/about/about-us/legal-compliance-standards'],
+              ['Regulatory', '/policies'],
+            ]),
           },
         ],
       },
-      {
-        id: 'contact',
-        label: headerNav.menuLabels.contactByState,
-        href: resolveCmsHref(locale, '/contact'),
-        sections: [
-          {
-            title: headerNav.sectionLabels.contactChannels,
-            links: [
-              { href: resolveCmsHref(locale, '/contact'), label: headerNav.links.contactByStateHub },
-              { href: resolveCmsHref(locale, '/visa-consultation'), label: ctaButton },
-              { href: `mailto:${siteConfig.contact.clientEmail}`, label: siteConfig.contact.clientEmail },
-              { href: siteConfig.contact.whatsappLink, label: siteConfig.contact.whatsappNumber },
-            ],
-          },
-          {
-            title: headerNav.sectionLabels.contactStates,
-            groups: contactStateGroups,
-          },
-        ],
-      },
-    ],
-    [
-      aboutStateGroups,
-      blogStateGroups,
-      contactStateGroups,
-      discoverRegionLinks,
-      discoverStateGroups,
-      faqStateGroups,
-      headerNav,
-      locale,
-      serviceStateGroups,
-      ctaButton,
-      nav.blog,
-      nav.faq,
-      nav.process,
-      nav.resources,
-      nav.services,
-    ],
-  );
+    ];
+  }, [allStateLinks, locale]);
+
+  const openMenuData = useMemo(() => menus.find((menu) => menu.id === openMenu) || null, [menus, openMenu]);
 
   return (
     <header className="sticky top-0 z-40 border-b border-sand-200/70 bg-sand-50/95 backdrop-blur">
-      <div className="border-b border-sand-200/80">
-        <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
-          <div className="flex min-h-[5rem] flex-wrap items-center justify-between gap-3">
-            <HeaderLogo href={resolveCmsHref(locale, '/')} brand={brand} brandTagline={headerNav.brandTagline} />
-
-            <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex lg:flex-wrap">
-              {quickLinks.map((link) => {
-                const active = isActivePath(pathname, link.href);
-                return (
-                  <Link key={link.href} href={link.href} className={desktopLinkClass(active)} aria-current={active ? 'page' : undefined}>
-                    {link.label}
-                  </Link>
-                );
-              })}
-            </nav>
-
-            <div className="hidden items-center gap-2 lg:flex">
-              <a
-                href={`mailto:${siteConfig.contact.clientEmail}`}
-                onClick={() => trackContactClick('email', 'header_desktop')}
-                className="rounded-full border border-sand-300 bg-white px-3.5 py-1.5 text-xs font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
-              >
-                {siteConfig.contact.clientEmail}
-              </a>
-              <LanguageSwitcher />
+      <div className="border-b border-sand-200/80 bg-white/90">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex min-h-10 flex-wrap items-center justify-between gap-2 text-xs">
+            <div className="flex items-center gap-2">
               <Link
-                href={resolveCmsHref(locale, '/visa-consultation')}
-                onClick={() => trackCtaClick('header_desktop')}
-                className="rounded-full bg-civic-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-civic-800"
+                href={accessibilityHref}
+                className={cn(
+                  'rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition',
+                  'hover:border-civic-300 hover:text-ink-900',
+                )}
               >
-                {ctaButton}
+                Accessibility Switcher
+              </Link>
+              <Link
+                href={searchHref}
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-sand-300 bg-white text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
+                aria-label="Search site"
+              >
+                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m20 20-3.5-3.5" />
+                </svg>
               </Link>
             </div>
 
-            <div className="flex items-center gap-2 lg:hidden">
+            <div className="flex items-center gap-2 sm:gap-3">
               <LanguageSwitcher />
+              <Link
+                href={portalHref}
+                className="rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
+              >
+                Client Portal Login
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="border-b border-sand-200 bg-sand-50/95">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-[1fr_auto] items-center gap-3 py-3 lg:grid-cols-3">
+            <HeaderLogo href={homeHref} brand={brand} tagline="Helping Immigrants, Promoting Brazil" />
+
+            <div className="hidden justify-self-center lg:block">
+              <Link
+                href={homeHref}
+                className={cn(
+                  'rounded-full px-5 py-2 text-sm font-semibold transition',
+                  pathname === homeHref || isActivePath(pathname, resolveCmsHref(locale, '/home'))
+                    ? 'bg-ink-900 text-sand-50'
+                    : 'text-ink-700 hover:bg-sand-100 hover:text-ink-900',
+                )}
+              >
+                Home
+              </Link>
+            </div>
+
+            <div className="flex items-center justify-end gap-2">
+              <Link
+                href={consultationHref}
+                onClick={() => trackCtaClick('header_desktop')}
+                className="hidden rounded-full bg-civic-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-civic-800 lg:inline-flex"
+              >
+                Start Consultation
+              </Link>
+
               <button
                 type="button"
                 onClick={() => setMobileOpen((prev) => !prev)}
-                className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-sand-200 bg-white text-ink-800"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-sand-200 bg-white text-ink-800 lg:hidden"
                 aria-expanded={mobileOpen}
                 aria-label="Toggle menu"
               >
@@ -548,193 +591,58 @@ export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: he
 
       <div className="hidden border-b border-sand-200 bg-white/95 lg:block">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <nav ref={desktopMenuRef} className="relative flex flex-wrap items-center gap-2 py-3">
-            {menus.map((menu) => {
-              const active = [menu.href, ...(menu.activePrefixes || [])].some((prefix) => isActivePath(pathname, prefix));
-              const isOpen = openMenu === menu.id;
+          <div ref={desktopMenuRef} className="relative py-2.5" onMouseLeave={() => setOpenMenu(null)}>
+            <nav className="grid grid-cols-5 items-center gap-2">
+              {menus.map((menu) => {
+                const active = [menu.href, ...(menu.activePrefixes || [])].some((prefix) => isActivePath(pathname, prefix));
+                const isOpen = openMenuData?.id === menu.id;
 
-              return (
-                <div key={menu.id} className="static">
+                return (
                   <button
+                    key={menu.id}
                     type="button"
+                    onMouseEnter={() => setOpenMenu(menu.id)}
                     onClick={() => setOpenMenu((prev) => (prev === menu.id ? null : menu.id))}
-                    className={desktopLinkClass(active)}
+                    className={topLevelLinkClass(active, isOpen)}
                     aria-expanded={isOpen}
                   >
                     <span>{menu.label}</span>
                     <span className={cn('ml-1 inline-block text-xs transition-transform', isOpen ? 'rotate-180' : '')}>▾</span>
                   </button>
+                );
+              })}
+            </nav>
 
-                  <div
-                    className={cn(
-                      'absolute left-0 top-full z-40 mt-2 w-full rounded-2xl border border-sand-200 bg-white p-4 shadow-card transition duration-200',
-                      isOpen ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-1 opacity-0 pointer-events-none',
-                    )}
-                  >
-                    <div className="mx-auto max-h-[70vh] max-w-3xl overflow-y-auto pr-1">
-                      <div className="space-y-4">
-                        {menu.sections.map((section) => (
-                          <section key={`${menu.id}-${section.title}`}>
-                            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-civic-700">{section.title}</p>
-
-                            {section.links?.length ? (
-                              <div className="mt-3 grid gap-1.5">
-                                {section.links.map((link) => {
-                                  const sectionActive = link.href.startsWith(`/${locale}`) && isActivePath(pathname, link.href);
-                                  const external = !link.href.startsWith('/');
-
-                                  if (external) {
-                                    return (
-                                      <a
-                                        key={`${section.title}-${link.href}`}
-                                        href={link.href}
-                                        target={link.href.startsWith('http') ? '_blank' : undefined}
-                                        rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                                        className="rounded-lg border border-sand-200 bg-sand-50 px-3 py-2 text-sm text-ink-800 transition hover:border-civic-300 hover:bg-white"
-                                        onClick={() => {
-                                          trackExternalContactClick(link.href, locale, `header_mega_${menu.id}`);
-                                          setOpenMenu(null);
-                                        }}
-                                      >
-                                        {link.label}
-                                      </a>
-                                    );
-                                  }
-
-                                  return (
-                                    <Link
-                                      key={`${section.title}-${link.href}`}
-                                      href={link.href}
-                                      className={cn(
-                                        'rounded-lg border px-3 py-2 text-sm transition',
-                                        sectionActive
-                                          ? 'border-ink-900 bg-ink-900 text-sand-50'
-                                          : 'border-sand-200 bg-sand-50 text-ink-800 hover:border-civic-300 hover:bg-white',
-                                      )}
-                                      onClick={() => {
-                                        if (isConsultationLink(link.href)) {
-                                          trackCtaClick(`header_mega_${menu.id}`);
-                                        }
-                                        setOpenMenu(null);
-                                      }}
-                                    >
-                                      {link.label}
-                                    </Link>
-                                  );
-                                })}
-                              </div>
-                            ) : null}
-
-                            {section.groups?.length ? (
-                              <div className="mt-3 space-y-2">
-                                {section.groups.map((group) => (
-                                  <details key={`${section.title}-${group.title}`} className="rounded-xl border border-sand-200 bg-sand-50 p-2.5">
-                                    <summary className="cursor-pointer list-none text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">
-                                      {group.title}
-                                    </summary>
-                                    <div className="mt-2 grid max-h-40 gap-1 overflow-y-auto pr-1">
-                                      {group.links.map((link) => {
-                                        const sectionActive = isActivePath(pathname, link.href);
-                                        return (
-                                          <Link
-                                            key={`${group.title}-${link.href}`}
-                                            href={link.href}
-                                            className={cn(
-                                              'rounded-md border px-2.5 py-1.5 text-xs transition',
-                                              sectionActive
-                                                ? 'border-ink-900 bg-ink-900 text-sand-50'
-                                                : 'border-sand-200 bg-white text-ink-800 hover:border-civic-300',
-                                            )}
-                                            onClick={() => setOpenMenu(null)}
-                                          >
-                                            {link.label}
-                                          </Link>
-                                        );
-                                      })}
-                                    </div>
-                                  </details>
-                                ))}
-                              </div>
-                            ) : null}
-                          </section>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-
-            <div className="ml-auto flex items-center gap-2">
-              <Link
-                href={resolveCmsHref(locale, '/library')}
-                className={secondaryLinkClass(isActivePath(pathname, resolveCmsHref(locale, '/library')))}
-                aria-current={isActivePath(pathname, resolveCmsHref(locale, '/library')) ? 'page' : undefined}
-              >
-                {headerNav.allPagesButton}
-              </Link>
-            </div>
-          </nav>
-        </div>
-      </div>
-
-      <div className={cn('border-t border-sand-200 bg-sand-50 lg:hidden', mobileOpen ? 'block' : 'hidden')}>
-        <div className="space-y-3 px-4 py-4">
-          <div className="rounded-xl border border-sand-200 bg-white p-3">
-            <a
-              href={`mailto:${siteConfig.contact.clientEmail}`}
-              onClick={() => trackContactClick('email', 'header_mobile')}
-              className="block text-sm font-semibold text-ink-800 hover:text-civic-700"
+            <div
+              className={cn(
+                'absolute left-0 right-0 top-full z-50 mt-2 rounded-2xl border border-sand-200 bg-white p-5 shadow-card transition duration-200',
+                openMenuData ? 'visible translate-y-0 opacity-100' : 'pointer-events-none invisible -translate-y-1 opacity-0',
+              )}
             >
-              {siteConfig.contact.clientEmail}
-            </a>
-            <a
-              href={siteConfig.contact.whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackContactClick('whatsapp', 'header_mobile')}
-              className="mt-1 block text-xs text-ink-600 hover:text-civic-700"
-            >
-              {siteConfig.contact.whatsappNumber}
-            </a>
-          </div>
+              {openMenuData ? (
+                <div
+                  className="grid gap-4"
+                  style={{
+                    gridTemplateColumns: `repeat(${openMenuData.columns.length}, minmax(0, 1fr))`,
+                  }}
+                >
+                  {openMenuData.columns.map((column) => (
+                    <section key={`${openMenuData.id}-${column.title}`}>
+                      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-civic-700">{column.title}</p>
+                      <div className="mt-2 max-h-80 space-y-1.5 overflow-y-auto pr-1">
+                        {column.links.map((link) => {
+                          const external = isExternalHref(link.href);
+                          const active = !external && isActivePath(pathname, link.href);
 
-          {quickLinks.map((link) => {
-            const active = isActivePath(pathname, link.href);
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className={cn('block rounded-xl px-3 py-2 text-sm font-semibold', active ? 'bg-ink-900 text-sand-50' : 'text-ink-700 hover:bg-sand-100')}
-                aria-current={active ? 'page' : undefined}
-              >
-                {link.label}
-              </Link>
-            );
-          })}
-
-          {menus.map((menu) => (
-            <details key={menu.id} className="rounded-xl border border-sand-200 bg-white p-3">
-              <summary className="cursor-pointer list-none text-sm font-semibold text-ink-900">{menu.label}</summary>
-              <div className="mt-3 space-y-3">
-                {menu.sections.map((section) => (
-                  <div key={`${menu.id}-${section.title}`}>
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">{section.title}</p>
-
-                    {section.links?.length ? (
-                      <div className="mt-2 grid gap-1">
-                        {section.links.map((link) => {
-                          const external = !link.href.startsWith('/');
                           if (external) {
                             return (
                               <a
-                                key={`${section.title}-${link.href}`}
+                                key={`${column.title}-${link.label}-${link.href}`}
                                 href={link.href}
-                                target={link.href.startsWith('http') ? '_blank' : undefined}
-                                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                                onClick={() => trackExternalContactClick(link.href, locale, `header_mobile_${menu.id}`)}
-                                className="rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={dropdownLinkClass(false)}
+                                onClick={() => setOpenMenu(null)}
                               >
                                 {link.label}
                               </a>
@@ -743,71 +651,94 @@ export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: he
 
                           return (
                             <Link
-                              key={`${section.title}-${link.href}`}
+                              key={`${column.title}-${link.label}-${link.href}`}
                               href={link.href}
-                              onClick={() => {
-                                if (isConsultationLink(link.href)) {
-                                  trackCtaClick(`header_mobile_${menu.id}`);
-                                }
-                                setMobileOpen(false);
-                              }}
-                              className="rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
+                              className={dropdownLinkClass(active)}
+                              onClick={() => setOpenMenu(null)}
                             >
                               {link.label}
                             </Link>
                           );
                         })}
                       </div>
-                    ) : null}
+                    </section>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+      </div>
 
-                    {section.groups?.length ? (
-                      <div className="mt-2 space-y-2">
-                        {section.groups.map((group) => (
-                          <details key={`${section.title}-${group.title}`} className="rounded-md border border-sand-200 bg-sand-50 p-2">
-                            <summary className="cursor-pointer list-none text-[11px] font-semibold uppercase tracking-[0.1em] text-civic-700">
-                              {group.title}
-                            </summary>
-                            <div className="mt-2 grid max-h-40 gap-1 overflow-y-auto pr-1">
-                              {group.links.map((link) => (
-                                <Link
-                                  key={`${group.title}-${link.href}`}
-                                  href={link.href}
-                                  onClick={() => setMobileOpen(false)}
-                                  className="rounded-md border border-sand-200 bg-white px-2.5 py-1.5 text-xs text-ink-800"
-                                >
-                                  {link.label}
-                                </Link>
-                              ))}
-                            </div>
-                          </details>
-                        ))}
-                      </div>
-                    ) : null}
+      <div className={cn('border-t border-sand-200 bg-sand-50 lg:hidden', mobileOpen ? 'block' : 'hidden')}>
+        <div className="space-y-3 px-4 py-4">
+          <div className="grid gap-2 sm:grid-cols-2">
+            <Link
+              href={homeHref}
+              onClick={() => setMobileOpen(false)}
+              className={cn(
+                'block rounded-xl px-3 py-2 text-center text-sm font-semibold',
+                pathname === homeHref || isActivePath(pathname, resolveCmsHref(locale, '/home'))
+                  ? 'bg-ink-900 text-sand-50'
+                  : 'bg-white text-ink-700 hover:bg-sand-100',
+              )}
+            >
+              Home
+            </Link>
+            <Link
+              href={consultationHref}
+              onClick={() => {
+                trackCtaClick('header_mobile');
+                setMobileOpen(false);
+              }}
+              className="block rounded-xl bg-civic-700 px-3 py-2 text-center text-sm font-semibold text-white"
+            >
+              Start Consultation
+            </Link>
+          </div>
+
+          {menus.map((menu) => (
+            <details key={menu.id} className="rounded-xl border border-sand-200 bg-white p-3">
+              <summary className="cursor-pointer list-none text-sm font-semibold text-ink-900">{menu.label}</summary>
+              <div className="mt-3 space-y-3">
+                {menu.columns.map((column) => (
+                  <div key={`${menu.id}-${column.title}`}>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-civic-700">{column.title}</p>
+                    <div className="mt-2 max-h-48 space-y-1 overflow-y-auto pr-1">
+                      {column.links.map((link) => {
+                        const external = isExternalHref(link.href);
+                        if (external) {
+                          return (
+                            <a
+                              key={`${column.title}-${link.label}-${link.href}`}
+                              href={link.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
+                              onClick={() => setMobileOpen(false)}
+                            >
+                              {link.label}
+                            </a>
+                          );
+                        }
+
+                        return (
+                          <Link
+                            key={`${column.title}-${link.label}-${link.href}`}
+                            href={link.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="block rounded-md border border-sand-200 bg-sand-50 px-3 py-1.5 text-xs text-ink-800"
+                          >
+                            {link.label}
+                          </Link>
+                        );
+                      })}
+                    </div>
                   </div>
                 ))}
               </div>
             </details>
           ))}
-
-          <div className="grid gap-3 pt-2">
-            <Link
-              href={resolveCmsHref(locale, '/library')}
-              onClick={() => setMobileOpen(false)}
-              className="block rounded-xl border border-sand-300 bg-white px-4 py-2.5 text-center text-sm font-semibold text-ink-800"
-            >
-              {headerNav.allPagesButton}
-            </Link>
-            <Link
-              href={resolveCmsHref(locale, '/visa-consultation')}
-              onClick={() => {
-                trackCtaClick('header_mobile');
-                setMobileOpen(false);
-              }}
-              className="block rounded-xl bg-civic-700 px-4 py-2.5 text-center text-sm font-semibold text-white"
-            >
-              {ctaButton}
-            </Link>
-          </div>
         </div>
       </div>
     </header>

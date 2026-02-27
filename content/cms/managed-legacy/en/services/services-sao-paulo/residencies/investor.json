@@ -4,13 +4,16 @@
   "pathname": "/services/services-sao-paulo/residencies/investor",
   "sourcePath": "services/services-sao-paulo/residencies/investor.html",
   "title": "Investor - São Paulo Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Investor",
   "heroImageAlt": "Investor",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -57,6 +60,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "Documents must be translated to Portuguese by a certified translator.",
         "Information coming soon"
       ]
@@ -103,6 +108,11 @@
     {
       "title": "Why São Paulo for Immigration",
       "paragraphs": [
+        "Economic Profile",
+        "Living Costs",
+        "Major Cities",
+        "State Advantages for Immigrants",
+        "Important Considerations",
         "Key Industries:\nFinance, Technology, Manufacturing",
         "Job Market:\nLargest and most diverse in Brazil, best opportunities",
         "Cost of Living:\nVery High",
@@ -127,6 +137,12 @@
     {
       "title": "Realistic Application Timeline",
       "paragraphs": [
+        "Preparation Phase",
+        "Application Submission",
+        "Processing Period",
+        "Visa Issuance",
+        "Post-Arrival Registration",
+        "Total Realistic Timeline",
         "Based on actual processing times reported by applicants. Individual cases may vary significantly.",
         "2-4 weeks",
         "Cost: R$500-2,000",
@@ -167,6 +183,12 @@
     {
       "title": "Frequently Asked Questions",
       "paragraphs": [
+        "How much money do I really need?",
+        "What if my application is denied?",
+        "Do I need to speak Portuguese?",
+        "Can I work while processing?",
+        "What happens if I overstay?",
+        "Need a lawyer or consultant?",
         "Answers based on current regulations and real applicant experiences in São Paulo.",
         "Minimum for São Paulo:",
         "Most immigrants underestimate first-year costs by 40-60%.",
@@ -208,6 +230,11 @@
     {
       "title": "Important Legal Disclaimers",
       "paragraphs": [
+        "⚠️ No Guarantees",
+        "📋 Information Currency",
+        "⚖️ Not Legal Advice",
+        "💰 Costs and Timelines",
+        "Your Responsibility",
         "No service, consultant, or lawyer can guarantee visa approval. The Brazilian government has sole discretion in all immigration decisions. Anyone promising guaranteed approval is misleading you.",
         "Immigration law changes frequently. Information provided may not reflect the latest updates. Always verify requirements with official Brazilian authorities or qualified legal counsel.",
         "Last updated:\nJanuary 2026",
@@ -659,6 +686,9 @@
     {
       "title": "Process timeline",
       "paragraphs": [
+        "Initial review",
+        "Document preparation",
+        "Submission & follow‑up",
         "Typical steps and timing ranges for this service.",
         "1–2 weeks to assess eligibility and confirm requirements.",
         "2–6 weeks depending on translations and notarizations.",
@@ -681,6 +711,9 @@
     {
       "title": "Legal notice & confidentiality",
       "paragraphs": [
+        "Confidential intake",
+        "No guarantee of outcome",
+        "Privacy first",
         "Your information is handled securely and shared only as required for your case.",
         "We collect only the details required to assess eligibility and prepare filings.",
         "Results depend on official decisions and document completeness.",
@@ -690,6 +723,9 @@
     {
       "title": "Contact options",
       "paragraphs": [
+        "Email us",
+        "Book a consultation",
+        "Response window",
         "We respond within 1–2 business days with next steps.",
         "info@immigratetobrazil.com",
         "support@immigratetobrazil.com",

@@ -4,13 +4,16 @@
   "pathname": "/services/services-rondonia/residencies/mercosul",
   "sourcePath": "services/services-rondonia/residencies/mercosul.html",
   "title": "Mercosul - Rondônia Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Residency for Mercosul Citizens in Brazil",
   "heroImageAlt": "Residency for Mercosul Citizens in Brazil",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -57,6 +60,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "false",
         "['Passport', 'Citizenship proof']",
         "Passport",

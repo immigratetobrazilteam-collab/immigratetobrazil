@@ -4,7 +4,8 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
-const blogDir = path.join(root, 'blog');
+const legacyRoot = process.env.LEGACY_SOURCE_ROOT ? path.resolve(root, process.env.LEGACY_SOURCE_ROOT) : root;
+const blogDir = path.join(legacyRoot, 'blog');
 const outputDir = path.join(root, 'content', 'cms', 'state-guides');
 
 function decodeHtmlEntities(input) {
@@ -539,7 +540,7 @@ async function main() {
     .sort();
 
   if (!stateFiles.length) {
-    throw new Error('No blog/blog-*.html files were found.');
+    throw new Error(`No blog/blog-*.html files were found in ${blogDir}.`);
   }
 
   const guides = [];
@@ -617,6 +618,9 @@ async function main() {
   ]);
 
   console.log(`Imported ${guides.length} state guides with full structured content.`);
+  if (legacyRoot !== root) {
+    console.log(`Legacy source root: ${legacyRoot}`);
+  }
 }
 
 main().catch((error) => {

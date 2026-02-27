@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import { withSentryConfig } from '@sentry/nextjs';
 
 const legacyTracingGlobs = [
   './content/generated/**/*.json',
@@ -11,6 +12,7 @@ const nextConfig: NextConfig = {
   compress: true,
   images: {
     formats: ['image/avif', 'image/webp'],
+    qualities: [70, 72, 75, 85],
   },
   outputFileTracingIncludes: {
     '/*': legacyTracingGlobs,
@@ -89,6 +91,57 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async headers() {
+    const contentCacheHeaders = [
+      {
+        key: 'Cache-Control',
+        value: 'public, s-maxage=3600, stale-while-revalidate=86400',
+      },
+    ];
+
+    return [
+      {
+        source: '/:locale(en|es|pt|fr)/discover/:path*',
+        headers: contentCacheHeaders,
+      },
+      {
+        source: '/:locale(en|es|pt|fr)/state-guides/:path*',
+        headers: contentCacheHeaders,
+      },
+      {
+        source: '/:locale(en|es|pt|fr)/services/:path*',
+        headers: contentCacheHeaders,
+      },
+      {
+        source: '/:locale(en|es|pt|fr)/faq/:path*',
+        headers: contentCacheHeaders,
+      },
+      {
+        source: '/:locale(en|es|pt|fr)/about/:path*',
+        headers: contentCacheHeaders,
+      },
+      {
+        source: '/sitemap.xml',
+        headers: [{ key: 'Cache-Control', value: 'public, s-maxage=86400, stale-while-revalidate=604800' }],
+      },
+      {
+        source: '/robots.txt',
+        headers: [{ key: 'Cache-Control', value: 'public, s-maxage=86400, stale-while-revalidate=604800' }],
+      },
+    ];
+  },
 };
 
-export default nextConfig;
+export default withSentryConfig(nextConfig, {
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+  authToken: process.env.SENTRY_AUTH_TOKEN,
+  silent: true,
+  widenClientFileUpload: true,
+  webpack: {
+    treeshake: {
+      removeDebugLogging: true,
+    },
+    automaticVercelMonitors: false,
+  },
+});

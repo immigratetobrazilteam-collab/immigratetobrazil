@@ -4,13 +4,16 @@
   "pathname": "/services/services-rondonia/other-services/criminal-records",
   "sourcePath": "services/services-rondonia/other-services/criminal-records.html",
   "title": "Criminal Records - Rondônia Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Obtain Criminal Records Certificate in Brazil",
   "heroImageAlt": "Obtain Criminal Records Certificate in Brazil",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -57,8 +60,11 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "false",
         "for foreign use",
+        "false",
         "['CPF', 'ID']",
         "CPF",
         "N/A"

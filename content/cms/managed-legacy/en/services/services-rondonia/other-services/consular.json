@@ -4,13 +4,16 @@
   "pathname": "/services/services-rondonia/other-services/consular",
   "sourcePath": "services/services-rondonia/other-services/consular.html",
   "title": "Consular - Rondônia Immigration & Travel",
-  "description": "A clear summary of what this service covers and how we support you.",
+  "description": "Eligibility check",
   "heading": "Consular Services in Brazil for Citizens",
   "heroImageAlt": "Consular Services in Brazil for Citizens",
   "sections": [
     {
       "title": "Service overview",
       "paragraphs": [
+        "Eligibility check",
+        "Document strategy",
+        "Application support",
         "A clear summary of what this service covers and how we support you.",
         "We review your situation and confirm the best legal pathway.",
         "Get a tailored checklist and guidance on translations and notarizations.",
@@ -57,6 +60,8 @@
     {
       "title": "Required Documents",
       "paragraphs": [
+        "Required Documents",
+        "Optional Supporting Documents",
         "false",
         "['ID', 'Form']",
         "Form",

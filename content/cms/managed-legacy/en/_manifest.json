@@ -1,12 +1,11 @@
 {
   "locale": "en",
-  "generatedAt": "2026-02-27T15:10:27.426Z",
-  "pageCount": 2661,
+  "generatedAt": "2026-02-27T17:55:27.496Z",
+  "pageCount": 2660,
   "countsByPrefix": {
     "about": 99,
     "accessibility": 1,
     "blog": 28,
-    "consultation": 1,
     "contact": 28,
     "es": 15,
     "faq": 28,
@@ -840,12 +839,6 @@
       "pathname": "/blog/blog-tocantins",
       "sourcePath": "blog/blog-tocantins.html",
       "title": "Blog - Tocantins Immigration & Travel"
-    },
-    {
-      "slug": "consultation",
-      "pathname": "/consultation",
-      "sourcePath": "consultation/index.html",
-      "title": "Redirecting…"
     },
     {
       "slug": "contact",

@@ -4,9 +4,10 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
+const legacyRoot = process.env.LEGACY_SOURCE_ROOT ? path.resolve(root, process.env.LEGACY_SOURCE_ROOT) : root;
 const routeIndexPath = path.join(root, 'content', 'generated', 'route-index.json');
 const outputDir = path.join(root, 'content', 'cms', 'managed-legacy');
-const consultationSourcePath = path.join(root, 'consultation', 'index.html');
+const consultationSourcePath = path.join(legacyRoot, 'consultation', 'index.html');
 const targetPrefixes = ['about', 'faq', 'policies', 'services', 'contact', 'home', 'resources-guides-brazil', 'accessibility'];
 const fallbackScanRoots = ['blog', 'home', 'es', 'pt'];
 
@@ -107,6 +108,19 @@ function dedupePreservingOrder(items, limit = Number.POSITIVE_INFINITY) {
   return out;
 }
 
+function dedupeSequential(items) {
+  const out = [];
+  let previous = '';
+  for (const item of items) {
+    const normalized = item.trim().toLowerCase();
+    if (!normalized) continue;
+    if (normalized === previous) continue;
+    out.push(item);
+    previous = normalized;
+  }
+  return out;
+}
+
 function extractMainFragment(html) {
   const explicitMain = html.match(/<main[^>]*id=["']main-content["'][^>]*>([\s\S]*?)<\/main>/i);
   if (explicitMain?.[1]) {
@@ -171,6 +185,12 @@ function collectTableRows(fragment) {
 }
 
 function collectBlockParagraphs(fragment) {
+  const headingTexts = [
+    ...collectTagTexts(fragment, 'h3'),
+    ...collectTagTexts(fragment, 'h4'),
+    ...collectTagTexts(fragment, 'h5'),
+    ...collectTagTexts(fragment, 'dt'),
+  ];
   const paragraphs = collectTagTexts(fragment, 'p');
   const listItems = collectTagTexts(fragment, 'li');
   const summaries = collectTagTexts(fragment, 'summary');
@@ -189,8 +209,8 @@ function collectBlockParagraphs(fragment) {
     })
     .filter(Boolean);
 
-  const merged = dedupePreservingOrder(
-    [...paragraphs, ...listItems, ...summaries, ...tableRows, ...noteDivs, ...details]
+  const merged = dedupeSequential(
+    [...headingTexts, ...paragraphs, ...listItems, ...summaries, ...tableRows, ...noteDivs, ...details]
       .map((value) => collapseWhitespace(value))
       .filter((value) => value.length >= 3),
   );
@@ -355,7 +375,7 @@ async function walkHtmlFiles(baseDir, output = []) {
     }
 
     if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
-    output.push(path.relative(root, absolute).replace(/\\/g, '/'));
+    output.push(path.relative(legacyRoot, absolute).replace(/\\/g, '/'));
   }
 
   return output;
@@ -397,7 +417,7 @@ async function main() {
   };
 
   for (const entry of enRoutes) {
-    const sourcePath = path.join(root, entry.sourcePath);
+    const sourcePath = path.join(legacyRoot, entry.sourcePath);
     if (!(await fileExists(sourcePath))) continue;
 
     const html = await fs.readFile(sourcePath, 'utf8');
@@ -467,12 +487,12 @@ async function main() {
   }
 
   for (const scanRoot of fallbackScanRoots) {
-    const sources = (await walkHtmlFiles(path.join(root, scanRoot))).sort();
+    const sources = (await walkHtmlFiles(path.join(legacyRoot, scanRoot))).sort();
 
     for (const sourcePath of sources) {
       if (coveredSourcePaths.has(sourcePath)) continue;
 
-      const absolutePath = path.join(root, sourcePath);
+      const absolutePath = path.join(legacyRoot, sourcePath);
       const html = await fs.readFile(absolutePath, 'utf8');
       const legacyDocument = parseLegacyDocumentFromHtml(html, sourcePath, '', '');
       let slug = slugFromSourcePath(sourcePath);
@@ -536,6 +556,9 @@ async function main() {
   await writeJson(path.join(outputDir, 'en', '_manifest.json'), manifest);
 
   console.log(`Managed legacy import complete (${pages.length} pages).`);
+  if (legacyRoot !== root) {
+    console.log(`Legacy source root: ${legacyRoot}`);
+  }
   console.log(`about=${stats.about} faq=${stats.faq} policies=${stats.policies} services=${stats.services} consultation=${stats.consultation}`);
   console.log(`faq aliases mapped=${Object.keys(aliases).length}`);
 }
