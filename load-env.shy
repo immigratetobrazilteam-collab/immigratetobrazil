@@ -1,0 +1,7 @@
+#!/bin/bash
+set -a
+while IFS= read -r line; do
+  [[ $line =~ ^#.*$ || -z $line ]] && continue
+  export "$line"
+done < .env.local
+set +a
