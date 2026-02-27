@@ -7,11 +7,10 @@ import { ArticleSchema } from '@/components/article-schema';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { FaqSchema } from '@/components/faq-schema';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
 import {
-  getAllStateGuideSlugs,
   getStateGuideBySlug,
   getStateGuideHubCopy,
   stateGuidePathBySlug,
@@ -79,11 +78,6 @@ function renderContentBlock(block: StateGuideContentBlock, key: string) {
       {block.text}
     </aside>
   );
-}
-
-export function generateStaticParams() {
-  const slugs = getAllStateGuideSlugs();
-  return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
 }
 
 export async function generateMetadata({

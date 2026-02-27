@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 
-import { brazilianStates, stateBySlug } from '@/content/curated/states';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { stateBySlug } from '@/content/curated/states';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
 import { buildStateGuideSlug, stateGuidePathBySlug } from '@/lib/state-guides-content';
@@ -13,15 +13,6 @@ function stateSlugFromBlogSlug(slug: string) {
   if (!stateSlug) return null;
   if (!stateBySlug.has(stateSlug)) return null;
   return stateSlug;
-}
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    brazilianStates.map((state) => ({
-      locale,
-      slug: `blog-${state.slug}`,
-    })),
-  );
 }
 
 export async function generateMetadata({

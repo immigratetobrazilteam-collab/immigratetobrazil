@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 
 import { CtaCard } from '@/components/cta-card';
 import { LegacyContent } from '@/components/legacy-content';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { policyCopy } from '@/lib/phase2-content';
@@ -18,12 +18,6 @@ type PolicyDetailManagedCopy = {
 const policyDetailFallback: PolicyDetailManagedCopy = {
   eyebrow: 'Policy',
 };
-
-const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'] as const;
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) => policySlugs.map((policy) => ({ locale, policy })));
-}
 
 export async function generateMetadata({
   params,

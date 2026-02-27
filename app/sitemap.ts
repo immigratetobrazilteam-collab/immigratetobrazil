@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 import { brazilianStates } from '@/content/curated/states';
-import routeIndexData from '@/content/generated/route-index.json';
+import routeIndexData from '@/content/generated/route-index-lite.json';
 import { locales } from '@/lib/i18n';
 import { buildFaqStateSlug } from '@/lib/phase2-routes';
 import { getSeoSettings } from '@/lib/seo-settings-content';

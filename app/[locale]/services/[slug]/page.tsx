@@ -2,12 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-import { brazilianStates } from '@/content/curated/states';
 import { ArticleSchema } from '@/components/article-schema';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { LegacyContent } from '@/components/legacy-content';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { getStateOrNull, serviceStateCopy } from '@/lib/phase2-content';
@@ -23,15 +22,6 @@ type ServicesStateManagedCopy = {
 const servicesStateFallback: ServicesStateManagedCopy = {
   eyebrow: 'State services',
 };
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    brazilianStates.map((state) => ({
-      locale,
-      slug: `immigrate-to-${state.slug}`,
-    })),
-  );
-}
 
 export async function generateMetadata({
   params,

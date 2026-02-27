@@ -2,13 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-import { brazilianStates } from '@/content/curated/states';
 import { ArticleSchema } from '@/components/article-schema';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { FormspreeContactForm } from '@/components/formspree-contact-form';
 import { LegacyContent } from '@/components/legacy-content';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { contactStateCopy, getStateOrNull, stateName } from '@/lib/phase2-content';
@@ -36,15 +35,6 @@ const contactStateFallback: ContactStateManagedCopy = {
   schemaSectionLabel: 'Contact',
   keywordFallback: 'Brazil consultation',
 };
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    brazilianStates.map((state) => ({
-      locale,
-      slug: `contact-${state.slug}`,
-    })),
-  );
-}
 
 export async function generateMetadata({
   params,

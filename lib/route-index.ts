@@ -1,14 +1,14 @@
 import { cache } from 'react';
 
-import routeIndexData from '@/content/generated/route-index.json';
+import routeIndexData from '@/content/generated/route-index-lite.json';
 import type { Locale } from '@/lib/types';
 
 export type RouteIndexEntry = {
   locale: Locale;
   slug: string;
-  sourcePath: string;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
+  sourcePath?: string;
 };
 
 export type RouteLink = {
@@ -91,8 +91,8 @@ function toLink(locale: Locale, entry: RouteIndexEntry): RouteLink {
     slug: entry.slug,
     href: toHref(locale, entry.slug),
     title: routeTitle(entry),
-    description: normalizeText(entry.description || ''),
-    sourcePath: entry.sourcePath,
+    description: '',
+    sourcePath: entry.slug,
   };
 }
 

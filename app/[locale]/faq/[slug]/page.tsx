@@ -2,12 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
 
-import { brazilianStates } from '@/content/curated/states';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { CtaCard } from '@/components/cta-card';
 import { FaqSchema } from '@/components/faq-schema';
 import { LegacyContent } from '@/components/legacy-content';
-import { copy, locales, resolveLocale } from '@/lib/i18n';
+import { copy, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { faqStateCopy, getStateOrNull } from '@/lib/phase2-content';
@@ -29,15 +28,6 @@ const faqStateFallback: FaqStateManagedCopy = {
   fallbackMetaTitle: 'FAQ',
   fallbackMetaDescription: 'State FAQ page.',
 };
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    brazilianStates.map((state) => ({
-      locale,
-      slug: buildFaqStateSlug(state.slug),
-    })),
-  );
-}
 
 export async function generateMetadata({
   params,
