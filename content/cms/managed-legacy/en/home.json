@@ -1,0 +1,23 @@
+{
+  "locale": "en",
+  "slug": "home",
+  "pathname": "/home",
+  "sourcePath": "home/index.html",
+  "title": "Redirecting…",
+  "description": "Redirecting to\nHome",
+  "heading": "Redirecting to Immigrate to Brazil",
+  "heroImageAlt": "Redirecting to Immigrate to Brazil",
+  "sections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Redirecting to\nHome"
+      ]
+    }
+  ],
+  "bullets": [],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

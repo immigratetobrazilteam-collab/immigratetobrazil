@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 
 import { brazilianStates } from '@/content/curated/states';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
@@ -11,7 +11,7 @@ import { copy, locales, resolveLocale } from '@/lib/i18n';
 import { getLegacyDocument } from '@/lib/legacy-loader';
 import { getRelatedRouteLinks } from '@/lib/route-index';
 import { faqStateCopy, getStateOrNull } from '@/lib/phase2-content';
-import { extractStateSlug } from '@/lib/phase2-routes';
+import { buildFaqStateSlug, extractStateSlug, isLegacyFaqStateSlug } from '@/lib/phase2-routes';
 import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
 import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
@@ -34,7 +34,7 @@ export function generateStaticParams() {
   return locales.flatMap((locale) =>
     brazilianStates.map((state) => ({
       locale,
-      slug: `faq-${state.slug}`,
+      slug: buildFaqStateSlug(state.slug),
     })),
   );
 }
@@ -83,6 +83,14 @@ export async function generateMetadata({
 export default async function FaqStatePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveLocale(rawLocale);
+
+  if (isLegacyFaqStateSlug(slug)) {
+    const stateSlug = extractStateSlug('faq', slug);
+    if (stateSlug) {
+      permanentRedirect(localizedPath(locale, `/faq/${buildFaqStateSlug(stateSlug)}`));
+    }
+  }
+
   const pageCopy = getManagedPageCopyWithFallback<FaqStateManagedCopy>(locale, 'faqStatePage', faqStateFallback);
   const nav = copy[locale].nav;
   const legacy = await getLegacyDocument(locale, ['faq', slug]);

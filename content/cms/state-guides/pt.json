@@ -1,0 +1,12 @@
+{
+  "locale": "pt",
+  "hub": {
+    "eyebrow": "Guias estaduais de imigração",
+    "title": "Tudo o que você precisa saber sobre cada estado do Brasil",
+    "subtitle": "Biblioteca gerenciável com 27 guias estaduais baseados no conteúdo legado e pronta para atualização contínua.",
+    "countLabel": "{{count}} guias estaduais",
+    "backToBlogLabel": "Voltar ao blog",
+    "consultationLabel": "Agendar consulta"
+  },
+  "guides": []
+}

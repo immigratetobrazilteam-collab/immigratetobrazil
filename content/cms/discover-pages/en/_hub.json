@@ -1,0 +1,10 @@
+{
+  "locale": "en",
+  "eyebrow": "Discover library",
+  "title": "Discover Brazil by state, region, and city",
+  "subtitle": "Managed library of discover pages migrated from legacy HTML with no partial dependencies.",
+  "countLabel": "{{count}} discover pages",
+  "browseStatesLabel": "Browse states",
+  "browseRegionsLabel": "Browse regions",
+  "consultationLabel": "Book a consultation"
+}

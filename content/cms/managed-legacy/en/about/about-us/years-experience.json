@@ -1,0 +1,80 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/years-experience",
+  "pathname": "/about/about-us/years-experience",
+  "sourcePath": "about/about-us/years-experience/index.html",
+  "title": "Years of Experience in Brazilian Immigration Law | Immigrate to Brazil",
+  "description": "Seasoned guidance built from years of real cases.",
+  "heading": "Experience That Matters",
+  "heroImageAlt": "Experience That Matters",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Seasoned guidance built from years of real cases."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Experience That Matters",
+      "paragraphs": [
+        "Use this page to highlight your actual years of experience and key milestones."
+      ]
+    },
+    {
+      "title": "Years of experience",
+      "paragraphs": [
+        "We bring 12+ years of combined immigration, compliance, and relocation expertise across Brazil’s main visa pathways. Our teams have handled work, family, student, retirement, and investment cases, along with complex documentation and post‑arrival onboarding."
+      ]
+    },
+    {
+      "title": "Key areas of experience",
+      "paragraphs": [
+        "Pathway selection and eligibility planning.",
+        "Document verification and procedural accuracy.",
+        "Dependents, reunification, and related documentation.",
+        "Investment documentation and residency planning."
+      ]
+    },
+    {
+      "title": "Work with an experienced team",
+      "paragraphs": [
+        "We combine legal insight with practical relocation support to keep your case on track."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

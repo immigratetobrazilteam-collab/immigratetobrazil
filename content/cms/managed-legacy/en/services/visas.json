@@ -1,0 +1,66 @@
+{
+  "locale": "en",
+  "slug": "services/visas",
+  "pathname": "/services/visas",
+  "sourcePath": "services/visas/index.html",
+  "title": "Visa Services | Immigrate to Brazil",
+  "description": "Immigrate to Brazil",
+  "heading": "Visa services",
+  "heroImageAlt": "Visa services",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Immigrate to Brazil",
+        "Choose the right visa pathway with clear guidance, eligibility checks, and document support."
+      ]
+    },
+    {
+      "title": "Popular visa pathways",
+      "paragraphs": [
+        "Remote work eligibility, income thresholds, and document support.",
+        "Employer sponsorship and compliance support for work-based visas.",
+        "Guidance for spouses, dependents, and family reunification."
+      ]
+    },
+    {
+      "title": "How we help",
+      "paragraphs": [
+        "Confirm eligibility and the best visa path.",
+        "Prepare a complete document checklist.",
+        "Coordinate translations and notarizations.",
+        "Guide consulate scheduling and submissions."
+      ]
+    },
+    {
+      "title": "Need a visa plan?",
+      "paragraphs": [
+        "We’ll map your pathway and timeline in a single consultation."
+      ]
+    },
+    {
+      "title": "Quick guide",
+      "paragraphs": [
+        "Use this summary to understand eligibility, documentation, and typical timelines. We recommend confirming your exact requirements with a tailored consultation.",
+        "Confirm your visa or residency pathway.",
+        "Prepare a complete document package.",
+        "Plan for translations, notarizations, and appointments.",
+        "Track processing timelines and follow-ups."
+      ]
+    }
+  ],
+  "bullets": [
+    "Confirm eligibility and the best visa path.",
+    "Prepare a complete document checklist.",
+    "Coordinate translations and notarizations.",
+    "Guide consulate scheduling and submissions.",
+    "Confirm your visa or residency pathway.",
+    "Prepare a complete document package.",
+    "Plan for translations, notarizations, and appointments.",
+    "Track processing timelines and follow-ups."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

@@ -1,0 +1,23 @@
+{
+  "locale": "en",
+  "slug": "services/legal",
+  "pathname": "/services/legal",
+  "sourcePath": "services/legal/index.html",
+  "title": "Redirecting…",
+  "description": "Redirecting to\n/services/",
+  "heading": "Redirecting…",
+  "heroImageAlt": "Redirecting…",
+  "sections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Redirecting to\n/services/"
+      ]
+    }
+  ],
+  "bullets": [],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

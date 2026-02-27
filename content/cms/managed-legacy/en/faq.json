@@ -1,0 +1,125 @@
+{
+  "locale": "en",
+  "slug": "faq",
+  "pathname": "/faq",
+  "sourcePath": "faq/index.html",
+  "title": "FAQ | Immigrate to Brazil",
+  "description": "Clear, practical answers to the most common questions about moving to Brazil.",
+  "heading": "Frequently Asked Questions",
+  "heroImageAlt": "Frequently Asked Questions",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Clear, practical answers to the most common questions about moving to Brazil."
+      ]
+    },
+    {
+      "title": "Browse by topic",
+      "paragraphs": [
+        "Eligibility, timelines, and document requirements.",
+        "Temporary and permanent residency pathways.",
+        "Citizenship eligibility and documentation."
+      ]
+    },
+    {
+      "title": "Getting started",
+      "paragraphs": [
+        "Start by defining your purpose (work, study, family, retirement, investment) and timeline. Then identify the correct visa pathway, gather required documents, and confirm local registration steps after arrival.",
+        "Requirements depend on your nationality and purpose of stay. Short visits may be visa‑free for some nationalities, while long‑term stays typically require a visa or residence authorization.",
+        "Timelines vary by visa type and documentation readiness. Plan for several weeks to a few months, plus time to gather documents, translations, and apostilles where required."
+      ]
+    },
+    {
+      "title": "Visas and residency",
+      "paragraphs": [
+        "Common pathways include work visas, student visas, family reunification, retirement, digital nomad, and investment-based residence. Each has specific eligibility criteria.",
+        "No. Working on a tourist visa is not permitted. You must hold a visa or residence authorization that allows work.",
+        "Most work visas require an employer sponsor and a job offer. Some specialized or independent activity categories may have different requirements.",
+        "Paths vary, but may include time in status, family ties, or other criteria. Keep records of lawful residence and follow local renewal timelines."
+      ]
+    },
+    {
+      "title": "Documents and legalization",
+      "paragraphs": [
+        "Typically: valid passport, application forms, proof of income or support, police clearance, proof of address, and purpose‑specific documents (job offer, enrollment, marriage certificate).",
+        "Many documents must be apostilled in the issuing country and translated into Portuguese by a certified translator in Brazil. Verify exact requirements for your case.",
+        "Some documents (like police clearances) have short validity windows. Plan document timing to avoid expiration."
+      ]
+    },
+    {
+      "title": "Arrival and registration",
+      "paragraphs": [
+        "The CPF is Brazil’s tax ID. It’s required for banking, rentals, utilities, mobile plans, and many services.",
+        "Yes, most long‑term visas require registration after arrival. Deadlines apply, so book appointments promptly."
+      ]
+    },
+    {
+      "title": "Cost of living and budgeting",
+      "paragraphs": [
+        "Costs vary widely by city and lifestyle. Major metros are more expensive than smaller cities. Build a realistic monthly budget for rent, utilities, food, transport, and healthcare.",
+        "Many visa categories and rentals require proof of income or financial means. Requirements depend on the visa type and local policies."
+      ]
+    },
+    {
+      "title": "Housing",
+      "paragraphs": [
+        "Some landlords request a guarantor or proof of income. Short‑term rentals are easier while you establish local documents.",
+        "Most newcomers rent first. Buying can be considered after you understand neighborhoods, costs, and legal requirements."
+      ]
+    },
+    {
+      "title": "Healthcare",
+      "paragraphs": [
+        "Public healthcare is available, but coverage and wait times vary. Many residents supplement with private health plans.",
+        "Costs depend on age, coverage, and city. Compare plans carefully and confirm network coverage near your location."
+      ]
+    },
+    {
+      "title": "Work and taxes",
+      "paragraphs": [
+        "Remote work may be permitted under specific visa categories. Ensure you meet the requirements and understand tax obligations.",
+        "Tax residency depends on length of stay and other factors. Consult a tax professional to understand your obligations."
+      ]
+    },
+    {
+      "title": "Education and family",
+      "paragraphs": [
+        "Yes. Public and private schools are available, but enrollment requirements vary by location and school type.",
+        "Many visas allow dependents, but requirements differ. Confirm eligibility and document needs for each family member."
+      ]
+    },
+    {
+      "title": "Safety, language, and culture",
+      "paragraphs": [
+        "Portuguese helps with daily life and official processes. In major cities, you may find English support, but basic Portuguese is strongly recommended.",
+        "Safety varies by city and neighborhood. Use local guidance, avoid risky areas, and follow common‑sense precautions."
+      ]
+    },
+    {
+      "title": "Practical setup",
+      "paragraphs": [
+        "Most banks require a CPF and proof of address. Digital banks may have simpler onboarding for newcomers.",
+        "Prepaid SIMs are available at airports, malls, and carrier stores. A CPF is often required for activation."
+      ]
+    },
+    {
+      "title": "Legal and compliance",
+      "paragraphs": [
+        "Federal rules are consistent, but local procedures and appointment availability vary. Always confirm with local offices.",
+        "Complex cases benefit from professional guidance. Ensure any provider is reputable and transparent about fees."
+      ]
+    },
+    {
+      "title": "Still have questions?",
+      "paragraphs": [
+        "Use the contact page to describe your situation, timeline, and destination city. We will point you to the right resources."
+      ]
+    }
+  ],
+  "bullets": [],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

@@ -1,3 +1,5 @@
+import { loadMergedEnv } from './env-utils.mjs';
+
 const DEFAULT_ZONE_NAME = 'immigratetobrazil.com';
 const DEFAULT_VERIFICATION_TOKEN = 'V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo';
 const DEFAULT_TTL_SECONDS = 3600;
@@ -87,22 +89,23 @@ function selectGoogleVerificationRecord(records) {
 }
 
 async function main() {
-  const apiToken = clean(process.env.CLOUDFLARE_API_TOKEN);
+  const env = await loadMergedEnv();
+  const apiToken = clean(env.CLOUDFLARE_API_TOKEN);
   if (!apiToken) {
     console.log('Skipping DNS upsert: CLOUDFLARE_API_TOKEN is not set.');
     return;
   }
 
-  const zoneName = clean(process.env.CLOUDFLARE_ZONE_NAME) || DEFAULT_ZONE_NAME;
-  const zoneId = clean(process.env.CLOUDFLARE_ZONE_ID);
+  const zoneName = clean(env.CLOUDFLARE_ZONE_NAME) || DEFAULT_ZONE_NAME;
+  const zoneId = clean(env.CLOUDFLARE_ZONE_ID);
   const recordName = normalizeRecordName(
-    process.env.CLOUDFLARE_DNS_RECORD_NAME || zoneName,
+    env.CLOUDFLARE_DNS_RECORD_NAME || zoneName,
     zoneName,
   );
-  const ttl = parseTtl(process.env.CLOUDFLARE_DNS_TTL);
+  const ttl = parseTtl(env.CLOUDFLARE_DNS_TTL);
   const verificationToken =
-    clean(process.env.GOOGLE_SITE_VERIFICATION) ||
-    clean(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION) ||
+    clean(env.GOOGLE_SITE_VERIFICATION) ||
+    clean(env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION) ||
     DEFAULT_VERIFICATION_TOKEN;
   const content = buildVerificationContent(verificationToken);
 

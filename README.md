@@ -35,6 +35,10 @@ This repository now contains a full modern framework architecture built on Next.
 - `npm run seo:psi` - run Google PageSpeed Insights checks on key pages (mobile + desktop)
 - `npm run seo:weekly:report` - generate weekly prioritized SEO/PSI summary from latest artifacts
 - `npm run seo:autopilot` - run full SEO cluster autopilot (`seo:clusters:apply` + `cms:validate`)
+- `npm run env:validate` - run one-shot environment/API integration checks from `.env.local`
+- `npm run indexnow:key` - generate `public/<INDEXNOW_API_KEY>.txt` key file for IndexNow verification
+- `npm run indexnow:submit -- --url=/en/about,/en/services` - submit specific URLs to IndexNow
+- `npm run indexnow:submit:sitemap` - submit a sitemap-derived URL set to IndexNow (limit 200)
 - `npm run dns:google:verify` - upsert Google Search Console TXT verification record in Cloudflare DNS
 - `npm run smoke` - run production smoke checks (local or live URL)
 - `npm run perf:budget` - enforce JS build-size performance budgets from Next.js manifests/chunks
@@ -109,6 +113,7 @@ Copy `.env.example` to `.env.local` and set:
 - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`
 - `NEXT_PUBLIC_SITE_URL`
 - `PAGESPEED_API_KEY` (recommended for `npm run seo:psi` to avoid shared API quota limits)
+- `INDEXNOW_API_KEY` (required for IndexNow key file + URL submission)
 - `CLOUDFLARE_ZONE_ID` (optional; used by `npm run dns:google:verify`)
 - `CLOUDFLARE_ZONE_NAME` (optional; defaults to `immigratetobrazil.com`)
 - `CLOUDFLARE_DNS_RECORD_NAME` (optional; defaults to apex record)
@@ -213,6 +218,17 @@ GA4 event tracking is wired for high-intent actions:
    - `npm run seo:env:check`
 6. Run live checks:
    - `npm run seo:psi`
+
+## IndexNow quick setup
+1. Set `NEXT_PUBLIC_SITE_URL` and `INDEXNOW_API_KEY` in `.env.local`.
+2. Generate hosted key file:
+   - `npm run indexnow:key`
+3. Deploy so this file is public at:
+   - `https://<your-domain>/<INDEXNOW_API_KEY>.txt`
+4. Submit changed URLs:
+   - `npm run indexnow:submit -- --url=/en/about,/en/services`
+5. Or submit a sitemap batch:
+   - `npm run indexnow:submit:sitemap`
 
 ## SEO AI autopilot setup
 - Optional (recommended): set GitHub secret `OLLAMA_HOST` to your reachable Ollama endpoint (example: `http://<your-server>:11434`).

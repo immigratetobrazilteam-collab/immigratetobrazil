@@ -1,0 +1,82 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/common-mistakes",
+  "pathname": "/about/about-us/common-mistakes",
+  "sourcePath": "about/about-us/common-mistakes/index.html",
+  "title": "Common Immigration Mistakes That Delay or Deny Visas | Immigrate to...",
+  "description": "Know the risks. Avoid the delays.",
+  "heading": "Common Mistakes",
+  "heroImageAlt": "Common Mistakes",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Know the risks. Avoid the delays."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Common Immigration Mistakes",
+      "paragraphs": [
+        "Know the risks and avoid delays."
+      ]
+    },
+    {
+      "title": "Most common mistakes",
+      "paragraphs": [
+        "Using outdated requirements or unofficial sources.",
+        "Missing legalization or certified translation steps.",
+        "Submitting documents outside valid time windows.",
+        "Booking appointments without document readiness.",
+        "Underestimating post-arrival registration steps.",
+        "Assuming all states follow the same local procedures."
+      ]
+    },
+    {
+      "title": "Get a compliant checklist",
+      "paragraphs": [
+        "We will help you avoid delays and protect your timeline."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started",
+    "Using outdated requirements or unofficial sources.",
+    "Missing legalization or certified translation steps.",
+    "Submitting documents outside valid time windows.",
+    "Booking appointments without document readiness.",
+    "Underestimating post-arrival registration steps.",
+    "Assuming all states follow the same local procedures."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

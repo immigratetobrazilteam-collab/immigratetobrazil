@@ -1,0 +1,10 @@
+{
+  "locale": "pt",
+  "eyebrow": "Biblioteca Discover",
+  "title": "Discover Brazil por estado, região e cidade",
+  "subtitle": "Biblioteca gerenciável de páginas Discover migradas do HTML legado sem dependências de parciais.",
+  "countLabel": "{{count}} páginas discover",
+  "browseStatesLabel": "Ver estados",
+  "browseRegionsLabel": "Ver regiões",
+  "consultationLabel": "Agendar consulta"
+}

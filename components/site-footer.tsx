@@ -3,8 +3,10 @@ import Link from 'next/link';
 import { BrandLogo } from '@/components/brand-logo';
 import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { copy } from '@/lib/i18n';
+import { buildFaqStateSlug } from '@/lib/phase2-routes';
 import { getRouteLinksByPrefix, type RouteLink } from '@/lib/route-index';
 import { siteConfig } from '@/lib/site-config';
+import { stateGuidePathByState } from '@/lib/state-guides-content';
 import type { Locale } from '@/lib/types';
 
 interface SiteFooterProps {
@@ -168,8 +170,10 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
   const aboutStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/about/about-states/about-${state.slug}`));
   const serviceStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/services/immigrate-to-${state.slug}`));
   const contactStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/contact/contact-${state.slug}`));
-  const blogStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/blog/blog-${state.slug}`));
-  const faqStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, `/faq/faq-${state.slug}`));
+  const blogStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) => resolveCmsHref(locale, stateGuidePathByState(state.slug)));
+  const faqStateGroups = buildRegionalStateLinks(locale, headerLabels.regionLabels, (state) =>
+    resolveCmsHref(locale, `/faq/${buildFaqStateSlug(state.slug)}`),
+  );
 
   const aboutUsLinks = dedupeLinks([
     { href: resolveCmsHref(locale, '/about/about-us'), label: labels.aboutUsHub },
@@ -244,7 +248,7 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
     },
     {
       title: labels.menuBlog,
-      links: [{ href: resolveCmsHref(locale, '/blog'), label: headerLabels.links.blogByStateHub }],
+      links: [{ href: resolveCmsHref(locale, '/state-guides'), label: headerLabels.links.blogByStateHub }],
     },
     {
       title: labels.menuFaq,

@@ -1,0 +1,608 @@
+{
+  "slug": "brazilian-regions",
+  "pathname": "/discover/brazilian-regions",
+  "title": "Discover Brazilian Regions",
+  "heroIntro": "Find your perfect destination across Brazil's diverse landscape",
+  "heroImageAlt": "Discover Brazilian Regions",
+  "sourcePath": "discover/brazilian-regions/index.html",
+  "sourceUpdatedLabel": "Legacy discover source migrated to managed content",
+  "tableOfContents": [
+    {
+      "id": "discover-brazilian-regions",
+      "label": "Discover Brazilian Regions"
+    },
+    {
+      "id": "brazil-by-region",
+      "label": "Brazil by Region"
+    },
+    {
+      "id": "southeast-region-sudeste",
+      "label": "Southeast Region (Sudeste)"
+    },
+    {
+      "id": "northeast-region-nordeste",
+      "label": "Northeast Region (Nordeste)"
+    },
+    {
+      "id": "other-regions",
+      "label": "Other Regions"
+    },
+    {
+      "id": "choose-your-perfect-region",
+      "label": "Choose Your Perfect Region"
+    },
+    {
+      "id": "travel-before-you-move",
+      "label": "Travel Before You Move"
+    },
+    {
+      "id": "next-steps",
+      "label": "Next Steps"
+    }
+  ],
+  "sections": [
+    {
+      "id": "discover-brazilian-regions",
+      "heading": "Discover Brazilian Regions",
+      "summary": "Find your perfect destination across Brazil's diverse landscape",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Find your perfect destination across Brazil's diverse landscape"
+        }
+      ]
+    },
+    {
+      "id": "brazil-by-region",
+      "heading": "Brazil by Region",
+      "summary": "Brazil is divided into five major regions, each with unique characteristics, climates, economies, and cultures. Whether you're seeking career opportunities, a tropical paradise, or a cultural experience, Brazil has something for everyone.",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Brazil is divided into five major regions, each with unique characteristics, climates, economies, and cultures. Whether you're seeking career opportunities, a tropical paradise, or a cultural experience, Brazil has something for everyone."
+        }
+      ]
+    },
+    {
+      "id": "southeast-region-sudeste",
+      "heading": "Southeast Region (Sudeste)",
+      "summary": "Population:\n12+ million |\nCost:\nHigh |\nClimate:\nSubtropical",
+      "highlights": [
+        "São Paulo",
+        "Why Choose:",
+        "Largest job market in Latin America",
+        "Major business and finance hub",
+        "World-class restaurants, museums, art scene",
+        "Best public transportation system",
+        "Strong international community",
+        "Challenges:",
+        "Expensive cost of living",
+        "Significant traffic congestion",
+        "Air pollution in some areas",
+        "High crime in certain neighborhoods",
+        "Best Neighborhoods:",
+        "Rio de Janeiro",
+        "World-famous beaches (Copacabana, Ipanema)",
+        "Iconic landmarks (Christ the Redeemer, Sugarloaf)",
+        "Rich culture and nightlife",
+        "Growing tech startup scene",
+        "Beautiful natural scenery",
+        "Minas Gerais (BH - Belo Horizonte)",
+        "Rich cultural heritage and historical towns",
+        "Growing tech and startup hub",
+        "Lower cost than São Paulo/Rio",
+        "Beautiful colonial architecture",
+        "Famous cuisine and craft beer scene",
+        "Best For:"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "São Paulo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n12+ million |\nCost:\nHigh |\nClimate:\nSubtropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Largest job market in Latin America",
+            "Major business and finance hub",
+            "World-class restaurants, museums, art scene",
+            "Best public transportation system",
+            "Strong international community"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Challenges:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Expensive cost of living",
+            "Significant traffic congestion",
+            "Air pollution in some areas",
+            "High crime in certain neighborhoods"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best Neighborhoods:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vila Madalena, Pinheiros, Consolação (vibrant), Higienópolis, Jardins (upscale)"
+        },
+        {
+          "type": "subheading",
+          "text": "Rio de Janeiro"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n6+ million |\nCost:\nHigh |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "World-famous beaches (Copacabana, Ipanema)",
+            "Iconic landmarks (Christ the Redeemer, Sugarloaf)",
+            "Rich culture and nightlife",
+            "Growing tech startup scene",
+            "Beautiful natural scenery"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best Neighborhoods:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ipanema, Leblon (upscale, beach), Lapa (artsy), Centro (cultural)"
+        },
+        {
+          "type": "subheading",
+          "text": "Minas Gerais (BH - Belo Horizonte)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n2.6+ million |\nCost:\nModerate |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rich cultural heritage and historical towns",
+            "Growing tech and startup hub",
+            "Lower cost than São Paulo/Rio",
+            "Beautiful colonial architecture",
+            "Famous cuisine and craft beer scene"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Digital workers, entrepreneurs, culture enthusiasts on a budget"
+        }
+      ]
+    },
+    {
+      "id": "northeast-region-nordeste",
+      "heading": "Northeast Region (Nordeste)",
+      "summary": "Population:\n2.8+ million |\nCost:\nLower |\nClimate:\nTropical",
+      "highlights": [
+        "Salvador & Bahia",
+        "Why Choose:",
+        "Heart of Afro-Brazilian culture",
+        "Beautiful beaches and islands",
+        "Historic colonial architecture",
+        "Lower cost of living",
+        "Growing expat community",
+        "Relaxed pace of life",
+        "Cultural Highlights:",
+        "Recife & Pernambuco",
+        "Emerging tech hub (Porto Digital)",
+        "Beautiful beaches and reefs",
+        "Growing startup ecosystem",
+        "Rich cultural traditions",
+        "Very affordable",
+        "Friendly locals",
+        "Best For:",
+        "Fortaleza & Ceará",
+        "Beautiful beaches year-round",
+        "Windsurfing and water sports capital",
+        "Affordable living",
+        "Strong nightlife and entertainment"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Salvador & Bahia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n2.8+ million |\nCost:\nLower |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Heart of Afro-Brazilian culture",
+            "Beautiful beaches and islands",
+            "Historic colonial architecture",
+            "Lower cost of living",
+            "Growing expat community",
+            "Relaxed pace of life"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Cultural Highlights:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capoeira, samba, Carnival, local cuisine"
+        },
+        {
+          "type": "subheading",
+          "text": "Recife & Pernambuco"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n1.6+ million |\nCost:\nLower |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Emerging tech hub (Porto Digital)",
+            "Beautiful beaches and reefs",
+            "Growing startup ecosystem",
+            "Rich cultural traditions",
+            "Very affordable",
+            "Friendly locals"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tech workers, digital nomads, beach lovers on a budget"
+        },
+        {
+          "type": "subheading",
+          "text": "Fortaleza & Ceará"
+        },
+        {
+          "type": "paragraph",
+          "text": "Population:\n2.5+ million |\nCost:\nLower |\nClimate:\nHot/Tropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Why Choose:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beautiful beaches year-round",
+            "Windsurfing and water sports capital",
+            "Affordable living",
+            "Growing expat community",
+            "Strong nightlife and entertainment"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Water sports enthusiasts, beach lovers, digital nomads"
+        }
+      ]
+    },
+    {
+      "id": "other-regions",
+      "heading": "Other Regions",
+      "summary": "Climate:\nSubtropical/Temperate |\nCost:\nModerate",
+      "highlights": [
+        "South (Sul) - Santa Catarina, Rio Grande do Sul, Paraná",
+        "Characteristics:",
+        "European-influenced culture and architecture",
+        "Cooler climate (can snow in southern areas)",
+        "High standard of living",
+        "Strong German/Italian heritage",
+        "Wine country (Rio Grande do Sul)",
+        "Beautiful beaches (Santa Catarina)",
+        "Key Cities:",
+        "Best For:",
+        "Central-West (Centro-Oeste) - Brasília, Mato Grosso",
+        "Brasília Highlights:",
+        "Purpose-built capital (UNESCO site)",
+        "Strong government job market",
+        "Modern infrastructure",
+        "Less chaotic than major cities",
+        "Good quality of life",
+        "North (Norte) - Amazon Region",
+        "Manaus Highlights:",
+        "Gateway to Amazon rainforest",
+        "Rich biodiversity and nature",
+        "Unique indigenous cultures",
+        "Adventure and eco-tourism hub",
+        "Relatively expensive"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "South (Sul) - Santa Catarina, Rio Grande do Sul, Paraná"
+        },
+        {
+          "type": "paragraph",
+          "text": "Climate:\nSubtropical/Temperate |\nCost:\nModerate"
+        },
+        {
+          "type": "subheading",
+          "text": "Characteristics:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "European-influenced culture and architecture",
+            "Cooler climate (can snow in southern areas)",
+            "High standard of living",
+            "Strong German/Italian heritage",
+            "Wine country (Rio Grande do Sul)",
+            "Beautiful beaches (Santa Catarina)"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Key Cities:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Curitiba, Blumenau, Florianópolis, Porto Alegre"
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those who prefer cooler weather, European culture, quality of life"
+        },
+        {
+          "type": "subheading",
+          "text": "Central-West (Centro-Oeste) - Brasília, Mato Grosso"
+        },
+        {
+          "type": "paragraph",
+          "text": "Climate:\nTropical |\nCost:\nModerate"
+        },
+        {
+          "type": "subheading",
+          "text": "Brasília Highlights:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Purpose-built capital (UNESCO site)",
+            "Strong government job market",
+            "Modern infrastructure",
+            "Less chaotic than major cities",
+            "Good quality of life"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Government workers, professionals seeking organized city living"
+        },
+        {
+          "type": "subheading",
+          "text": "North (Norte) - Amazon Region"
+        },
+        {
+          "type": "paragraph",
+          "text": "Climate:\nTropical/Hot |\nCost:\nVaries"
+        },
+        {
+          "type": "subheading",
+          "text": "Manaus Highlights:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gateway to Amazon rainforest",
+            "Rich biodiversity and nature",
+            "Unique indigenous cultures",
+            "Adventure and eco-tourism hub",
+            "Relatively expensive"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Best For:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adventurers, nature lovers, researchers, eco-conscious travelers"
+        }
+      ]
+    },
+    {
+      "id": "choose-your-perfect-region",
+      "heading": "Choose Your Perfect Region",
+      "summary": "Top Pick:\nSão Paulo or Rio de Janeiro",
+      "highlights": [
+        "Career & Business",
+        "Budget Travel",
+        "Digital Nomad",
+        "Beach Lover",
+        "Adventure Seeker",
+        "Quality of Life"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Career & Business"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Pick:\nSão Paulo or Rio de Janeiro"
+        },
+        {
+          "type": "paragraph",
+          "text": "Largest job markets, business opportunities, and international connections"
+        },
+        {
+          "type": "subheading",
+          "text": "Budget Travel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nNortheast (Salvador, Recife, Fortaleza)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lowest cost of living with beautiful beaches and vibrant culture"
+        },
+        {
+          "type": "subheading",
+          "text": "Digital Nomad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nRecife, Belo Horizonte, Rio de Janeiro"
+        },
+        {
+          "type": "paragraph",
+          "text": "Good internet, expat communities, affordable, good lifestyle"
+        },
+        {
+          "type": "subheading",
+          "text": "Beach Lover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nRio, Fortaleza, Salvador, Florianópolis"
+        },
+        {
+          "type": "paragraph",
+          "text": "World-class beaches, water sports, and coastal lifestyle"
+        },
+        {
+          "type": "subheading",
+          "text": "Adventure Seeker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nManaus, Santa Catarina, North Brazil"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nature, hiking, water sports, wildlife experiences"
+        },
+        {
+          "type": "subheading",
+          "text": "Quality of Life"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nCuritiba, Brasília, Belo Horizonte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modern infrastructure, less crime, organized cities"
+        }
+      ]
+    },
+    {
+      "id": "travel-before-you-move",
+      "heading": "Travel Before You Move",
+      "summary": "We recommend visiting potential destinations before making your move. Spend time in different cities, neighborhoods, and regions to get a feel for the lifestyle, community, and environment.",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We recommend visiting potential destinations before making your move. Spend time in different cities, neighborhoods, and regions to get a feel for the lifestyle, community, and environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps you understand the climate, cost of living, local culture, and whether it's the right fit for you and your family."
+        }
+      ]
+    },
+    {
+      "id": "next-steps",
+      "heading": "Next Steps",
+      "summary": "Ready to explore visa options and start your journey?",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ready to explore visa options and start your journey?"
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "cta": {
+    "title": "Plan your move to Discover Brazilian Regions",
+    "description": "Get a tailored relocation roadmap for Discover Brazilian Regions, including immigration planning, document sequencing, and practical first-month setup steps.",
+    "primaryLabel": "Book a consultation",
+    "primaryHref": "/visa-consultation",
+    "secondaryLabel": "Contact our team",
+    "secondaryHref": "/contact"
+  },
+  "seo": {
+    "metaTitle": "Discover Brazilian Regions | Immigrate to Brazil",
+    "metaDescription": "Find your perfect destination across Brazil's diverse landscape",
+    "keywords": [
+      "Discover Brazilian Regions",
+      "brazilian-regions",
+      "Brazil discover guide",
+      "Brazil relocation",
+      "Brazil immigration"
+    ]
+  },
+  "taxonomy": {
+    "type": "regions-hub",
+    "depth": 1,
+    "segments": [
+      "brazilian-regions"
+    ]
+  },
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

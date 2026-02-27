@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/breadcrumb-schema';
 import { brazilianStates } from '@/content/curated/states';
 import { copy, resolveLocale } from '@/lib/i18n';
+import { buildFaqStateSlug } from '@/lib/phase2-routes';
 import { createMetadata } from '@/lib/seo';
 import { localizedPath } from '@/lib/routes';
 import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
@@ -62,7 +63,7 @@ export default async function FaqIndexPage({ params }: { params: Promise<{ local
             {brazilianStates.map((state) => (
               <Link
                 key={state.slug}
-                href={localizedPath(locale, `/faq/faq-${state.slug}`)}
+                href={localizedPath(locale, `/faq/${buildFaqStateSlug(state.slug)}`)}
                 className="rounded-xl border border-sand-200 bg-white px-4 py-3 text-sm font-semibold text-ink-800 shadow-sm hover:border-civic-300"
               >
                 {state[locale]}

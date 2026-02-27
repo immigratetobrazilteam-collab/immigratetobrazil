@@ -1,0 +1,80 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/10-press-mentions",
+  "pathname": "/about/about-us/10-press-mentions",
+  "sourcePath": "about/about-us/10-press-mentions/index.html",
+  "title": "10 Press Mentions Featuring Our Brazil Immigration Work | Immigrate...",
+  "description": "Stories and coverage about our client-first approach.",
+  "heading": "Press Mentions",
+  "heroImageAlt": "Press Mentions",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Stories and coverage about our client-first approach."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Press Mentions",
+      "paragraphs": [
+        "Replace these placeholders with real media coverage and links."
+      ]
+    },
+    {
+      "title": "Press mentions",
+      "paragraphs": [
+        "Year: 2025 • Feature: “Designing compliant immigration pathways for Brazil.”",
+        "Year: 2024 • Feature: “How families relocate to Brazil with confidence.”",
+        "Year: 2023 • Feature: “Investment residency and business setup in Brazil.”",
+        "Year: 2025 • Feature: “State-by-state migration planning.”",
+        "Year: 2022 • Feature: “Employer sponsorship best practices.”",
+        "Year: 2024 • Feature: “Compliance checklists that reduce visa delays.”",
+        "Year: 2023 • Feature: “Digital nomad readiness for Brazil.”",
+        "Year: 2025 • Feature: “Reunification pathways explained.”",
+        "Year: 2024 • Feature: “Long-stay travel compliance.”",
+        "Year: 2022 • Feature: “Federal Police registration guidance.”"
+      ]
+    },
+    {
+      "title": "Media inquiries",
+      "paragraphs": [
+        "Reach out for interviews, case study collaboration, or data requests."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

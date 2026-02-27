@@ -1,0 +1,86 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/10-success-stories",
+  "pathname": "/about/about-us/10-success-stories",
+  "sourcePath": "about/about-us/10-success-stories/index.html",
+  "title": "10 Real Client Success Stories: Immigration to Brazil | Immigrate t...",
+  "description": "Real journeys. Real outcomes. Real people.",
+  "heading": "Client Success Stories",
+  "heroImageAlt": "Client Success Stories",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Real journeys. Real outcomes. Real people."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Client Success Stories",
+      "paragraphs": [
+        "Replace the placeholders with real, anonymized client stories."
+      ]
+    },
+    {
+      "title": "Client success stories",
+      "paragraphs": [
+        "Below are representative case highlights showcasing the breadth of pathways we support and the outcomes we achieve."
+      ]
+    },
+    {
+      "title": "10 success stories",
+      "paragraphs": [
+        "Pathway: Investment residency • Timeline: 7 months • Outcome: Business established in São Paulo with residency approval.",
+        "Pathway: Family reunification • Timeline: 5 months • Outcome: Spouse and two children approved and settled in Curitiba.",
+        "Pathway: Digital nomad • Timeline: 4 months • Outcome: Long-stay visa approved and CPF issued.",
+        "Pathway: Student visa • Timeline: 3 months • Outcome: Enrollment confirmed and visa granted.",
+        "Pathway: Retirement residency • Timeline: 6 months • Outcome: Proof-of-income approved and residency granted.",
+        "Pathway: Work visa • Timeline: 4 months • Outcome: Employer sponsorship approved and Federal Police registration completed.",
+        "Pathway: Business residency • Timeline: 8 months • Outcome: Legal entity established and visa approved.",
+        "Pathway: Work visa • Timeline: 6 months • Outcome: Credential validation and immigration approval.",
+        "Pathway: Cultural visa • Timeline: 3 months • Outcome: Performance contract and visa granted.",
+        "Pathway: Company transfer • Timeline: 5 months • Outcome: Residency approved and family settled in Recife."
+      ]
+    },
+    {
+      "title": "Start your success story",
+      "paragraphs": [
+        "We will help you choose the right pathway, build the documentation, and keep your timeline on track."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

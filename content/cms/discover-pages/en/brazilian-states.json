@@ -1,0 +1,1066 @@
+{
+  "slug": "brazilian-states",
+  "pathname": "/discover/brazilian-states",
+  "title": "Discover Brazilian States",
+  "heroIntro": "Explore all 27 states of Brazil and find your perfect destination",
+  "heroImageAlt": "Discover Brazilian States",
+  "sourcePath": "discover/brazilian-states/index.html",
+  "sourceUpdatedLabel": "Legacy discover source migrated to managed content",
+  "tableOfContents": [
+    {
+      "id": "discover-brazilian-states",
+      "label": "Discover Brazilian States"
+    },
+    {
+      "id": "brazil-by-state",
+      "label": "Brazil by State"
+    },
+    {
+      "id": "north-region-norte",
+      "label": "North Region (Norte)"
+    },
+    {
+      "id": "northeast-region-nordeste",
+      "label": "Northeast Region (Nordeste)"
+    },
+    {
+      "id": "central-west-region-centro-oeste",
+      "label": "Central-West Region (Centro-Oeste)"
+    },
+    {
+      "id": "southeast-region-sudeste",
+      "label": "Southeast Region (Sudeste)"
+    },
+    {
+      "id": "south-region-sul",
+      "label": "South Region (Sul)"
+    },
+    {
+      "id": "choose-your-perfect-state",
+      "label": "Choose Your Perfect State"
+    },
+    {
+      "id": "travel-before-you-move",
+      "label": "Travel Before You Move"
+    },
+    {
+      "id": "next-steps",
+      "label": "Next Steps"
+    }
+  ],
+  "sections": [
+    {
+      "id": "discover-brazilian-states",
+      "heading": "Discover Brazilian States",
+      "summary": "Explore all 27 states of Brazil and find your perfect destination",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Explore all 27 states of Brazil and find your perfect destination"
+        }
+      ]
+    },
+    {
+      "id": "brazil-by-state",
+      "heading": "Brazil by State",
+      "summary": "Brazil is divided into 26 states and one federal district, grouped into five major regions. Each state offers unique climates, economies, cultures, and opportunities for immigrants.",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Brazil is divided into 26 states and one federal district, grouped into five major regions. Each state offers unique climates, economies, cultures, and opportunities for immigrants."
+        }
+      ]
+    },
+    {
+      "id": "north-region-norte",
+      "heading": "North Region (Norte)",
+      "summary": "Capital:\nRio Branco |\nPopulation:\n~888,000 |\nClimate:\nTropical rainforest",
+      "highlights": [
+        "Acre (AC)",
+        "Description:",
+        "Official Link:",
+        "Famous Picture:",
+        "Amapá (AP)",
+        "Amazonas (AM)",
+        "Pará (PA)",
+        "Rondônia (RO)",
+        "Roraima (RR)",
+        "Tocantins (TO)"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Acre (AC)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nRio Branco |\nPopulation:\n~888,000 |\nClimate:\nTropical rainforest"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acre is located in the Amazon region, known for its vast rainforests, biodiversity, and rubber extraction history. The economy is based on sustainable forestry, agriculture, and eco-tourism. It's a frontier state with indigenous cultures and conservation areas."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ac.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Amapá (AP)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nMacapá |\nPopulation:\n~810,000 |\nClimate:\nEquatorial"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amapá straddles the equator, featuring Amazonian forests, rivers, and French Guiana border. Key industries include mining, fishing, and açaí production. It's home to unique landmarks like the equator monument and national parks."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ap.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Amazonas (AM)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nManaus |\nPopulation:\n~4,361,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The largest state by area, Amazonas is dominated by the Amazon Rainforest. Manaus is an industrial hub with a free trade zone. Eco-tourism, biodiversity, and river expeditions are major draws."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.am.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Pará (PA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nBelém |\nPopulation:\n~8,756,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pará features the Amazon River delta, mangroves, and mineral resources. Belém is known for its markets and cuisine. The state is a gateway to Amazon adventures and has significant mining and agriculture."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.pa.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Rondônia (RO)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nPorto Velho |\nPopulation:\n~1,757,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rondônia is part of the Amazon arc, with rapid development from agriculture and cattle ranching. It has natural reserves and rivers for fishing. The economy is driven by soy, coffee, and timber."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ro.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Roraima (RR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nBoa Vista |\nPopulation:\n~761,000 |\nClimate:\nTropical savanna"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The northernmost state, Roraima has savannas, mountains, and borders Venezuela and Guyana. It's known for Mount Roraima and indigenous communities. Agriculture and mining are key sectors."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.rr.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Tocantins (TO)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nPalmas |\nPopulation:\n~1,596,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The newest state, created in 1988, Tocantins has the Jalapão desert-like region and rivers. Palmas is modern. Economy includes soy farming, cattle, and tourism in natural areas."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.to.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        }
+      ]
+    },
+    {
+      "id": "northeast-region-nordeste",
+      "heading": "Northeast Region (Nordeste)",
+      "summary": "Capital:\nMaceió |\nPopulation:\n~3,221,000 |\nClimate:\nTropical",
+      "highlights": [
+        "Alagoas (AL)",
+        "Description:",
+        "Official Link:",
+        "Famous Picture:",
+        "Bahia (BA)",
+        "Ceará (CE)",
+        "Maranhão (MA)",
+        "Paraíba (PB)",
+        "Pernambuco (PE)",
+        "Piauí (PI)",
+        "Rio Grande do Norte (RN)",
+        "Sergipe (SE)"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Alagoas (AL)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nMaceió |\nPopulation:\n~3,221,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alagoas is known for its beautiful beaches, lagoons, and coral reefs. The economy relies on tourism, sugar cane, and oil. Maceió is a coastal city with vibrant culture and seafood."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.al.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Bahia (BA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nSalvador |\nPopulation:\n~14,889,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bahia is the heart of Afro-Brazilian culture, with historic Salvador, beaches, and carnival. Economy includes tourism, oil, and agriculture. It's diverse with chapada plateaus and islands."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ba.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Ceará (CE)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nFortaleza |\nPopulation:\n~9,302,000 |\nClimate:\nSemi-arid/tropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ceará boasts stunning beaches like Jericoacoara and wind sports. Fortaleza is a major city. Economy features tourism, textiles, and renewable energy from wind farms."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ce.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Maranhão (MA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nSão Luís |\nPopulation:\n~7,025,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maranhão has the Lençóis Maranhenses dunes, Amazon edges, and colonial São Luís. Economy includes aluminum, agriculture, and tourism. It's culturally rich with reggae and bumba-meu-boi."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ma.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Paraíba (PB)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nJoão Pessoa |\nPopulation:\n~4,183,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paraíba has beaches, dinosaur fossils, and the easternmost point of the Americas. João Pessoa is green and historic. Economy is based on tourism, agriculture, and services."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.pb.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Pernambuco (PE)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nRecife |\nPopulation:\n~9,583,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pernambuco is known for Recife's canals, Olinda's colonial architecture, and carnival. It's a tech hub with Porto Digital. Economy includes sugar, tourism, and industry."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.pe.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Piauí (PI)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nTeresina |\nPopulation:\n~3,393,000 |\nClimate:\nSemi-arid"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Piauí features the Parnaíba Delta, national parks, and prehistoric sites. Teresina is the only non-coastal capital in Northeast. Economy is agriculture, wind energy, and minerals."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.pi.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Rio Grande do Norte (RN)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nNatal |\nPopulation:\n~3,464,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rio Grande do Norte has dunes, beaches like Genipabu, and the world's largest cashew tree. Natal is known as \"City of the Sun\". Economy is tourism, oil, and fruits."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.rn.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Sergipe (SE)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nAracaju |\nPopulation:\n~2,307,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The smallest state, Sergipe has beaches, the São Francisco Canyon, and oil fields. Aracaju is coastal with good infrastructure. Economy includes oil, agriculture, and tourism."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.se.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        }
+      ]
+    },
+    {
+      "id": "central-west-region-centro-oeste",
+      "heading": "Central-West Region (Centro-Oeste)",
+      "summary": "Capital:\nGoiânia |\nPopulation:\n~7,495,000 |\nClimate:\nTropical savanna",
+      "highlights": [
+        "Goiás (GO)",
+        "Description:",
+        "Official Link:",
+        "Famous Picture:",
+        "Mato Grosso (MT)",
+        "Mato Grosso do Sul (MS)",
+        "Distrito Federal (DF)"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Goiás (GO)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nGoiânia |\nPopulation:\n~7,495,000 |\nClimate:\nTropical savanna"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Goiás has the Chapada dos Veadeiros plateau, historic towns like Pirenópolis, and agribusiness. Goiânia is modern. Economy is soy, cattle, and mining."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.go.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Mato Grosso (MT)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nCuiabá |\nPopulation:\n~3,950,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mato Grosso encompasses Amazon, Pantanal, and Cerrado. It's an agribusiness powerhouse with soy and beef. Cuiabá is the gateway to Pantanal wildlife."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.mt.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Mato Grosso do Sul (MS)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nCampo Grande |\nPopulation:\n~2,946,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mato Grosso do Sul is famous for the Pantanal wetlands, Bonito's clear waters, and cattle ranching. Campo Grande is a hub. Economy includes agriculture and eco-tourism."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.ms.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Distrito Federal (DF)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nBrasília |\nPopulation:\n~3,010,000 |\nClimate:\nTropical savanna"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The federal district houses Brasília, the planned capital with modernist architecture by Oscar Niemeyer. It's the political center with high quality of life and government jobs."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.df.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        }
+      ]
+    },
+    {
+      "id": "southeast-region-sudeste",
+      "heading": "Southeast Region (Sudeste)",
+      "summary": "Capital:\nVitória |\nPopulation:\n~4,151,000 |\nClimate:\nTropical",
+      "highlights": [
+        "Espírito Santo (ES)",
+        "Description:",
+        "Official Link:",
+        "Famous Picture:",
+        "Minas Gerais (MG)",
+        "Rio de Janeiro (RJ)",
+        "São Paulo (SP)"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Espírito Santo (ES)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nVitória |\nPopulation:\n~4,151,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Espírito Santo has beaches, mountains, and coffee plantations. Vitória is an island capital. Economy includes iron ore export, oil, and tourism."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.es.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Minas Gerais (MG)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nBelo Horizonte |\nPopulation:\n~21,460,000 |\nClimate:\nTropical highland"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Minas Gerais is rich in colonial history, with towns like Ouro Preto. It's a mining powerhouse with iron and gems. Belo Horizonte has great food and culture."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.mg.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Rio de Janeiro (RJ)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nRio de Janeiro |\nPopulation:\n~17,225,000 |\nClimate:\nTropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Famous for beaches, Christ the Redeemer, and carnival. Rio is a cultural icon. Economy includes oil, tourism, and finance."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.rj.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "São Paulo (SP)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nSão Paulo |\nPopulation:\n~46,179,000 |\nClimate:\nSubtropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The economic powerhouse with the largest city in the Americas. São Paulo is a business hub with diverse culture, food, and arts."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.sp.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        }
+      ]
+    },
+    {
+      "id": "south-region-sul",
+      "heading": "South Region (Sul)",
+      "summary": "Capital:\nCuritiba |\nPopulation:\n~11,953,000 |\nClimate:\nSubtropical",
+      "highlights": [
+        "Paraná (PR)",
+        "Description:",
+        "Official Link:",
+        "Famous Picture:",
+        "Rio Grande do Sul (RS)",
+        "Santa Catarina (SC)"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Paraná (PR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nCuritiba |\nPopulation:\n~11,953,000 |\nClimate:\nSubtropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paraná has Iguaçu Falls, pine forests, and European influences. Curitiba is innovative in urban planning. Economy includes agriculture, industry, and tourism."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.pr.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Rio Grande do Sul (RS)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nPorto Alegre |\nPopulation:\n~11,233,000 |\nClimate:\nTemperate"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The southernmost state with gaucho culture, wine valleys, and canyons. Porto Alegre is cultural. Economy is agriculture, wine, and manufacturing."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.rs.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        },
+        {
+          "type": "subheading",
+          "text": "Santa Catarina (SC)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital:\nFlorianópolis |\nPopulation:\n~8,313,000 |\nClimate:\nSubtropical"
+        },
+        {
+          "type": "subheading",
+          "text": "Description:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Santa Catarina has beaches, German-influenced towns, and mountains. Florianópolis is an island capital. Economy includes tourism, technology, and agriculture."
+        },
+        {
+          "type": "subheading",
+          "text": "Official Link:"
+        },
+        {
+          "type": "paragraph",
+          "text": "www.sc.gov.br"
+        },
+        {
+          "type": "subheading",
+          "text": "Famous Picture:"
+        }
+      ]
+    },
+    {
+      "id": "choose-your-perfect-state",
+      "heading": "Choose Your Perfect State",
+      "summary": "Top Picks:\nSão Paulo, Rio de Janeiro, Minas Gerais",
+      "highlights": [
+        "Career & Business",
+        "Budget Living",
+        "Digital Nomad",
+        "Beach Lover",
+        "Adventure Seeker",
+        "Quality of Life"
+      ],
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Career & Business"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nSão Paulo, Rio de Janeiro, Minas Gerais"
+        },
+        {
+          "type": "paragraph",
+          "text": "Largest job markets, business opportunities, and international connections"
+        },
+        {
+          "type": "subheading",
+          "text": "Budget Living"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nNortheast states like Paraíba, Piauí"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lower cost of living with beautiful beaches and vibrant culture"
+        },
+        {
+          "type": "subheading",
+          "text": "Digital Nomad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nPernambuco, Ceará, Santa Catarina"
+        },
+        {
+          "type": "paragraph",
+          "text": "Good internet, expat communities, affordable, great lifestyle"
+        },
+        {
+          "type": "subheading",
+          "text": "Beach Lover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nRio de Janeiro, Bahia, Ceará, Santa Catarina"
+        },
+        {
+          "type": "paragraph",
+          "text": "World-class beaches, water sports, and coastal lifestyle"
+        },
+        {
+          "type": "subheading",
+          "text": "Adventure Seeker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nAmazonas, Mato Grosso, Rio Grande do Sul"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nature, hiking, water sports, wildlife experiences"
+        },
+        {
+          "type": "subheading",
+          "text": "Quality of Life"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top Picks:\nDistrito Federal, Paraná, Minas Gerais"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modern infrastructure, lower crime, organized cities"
+        }
+      ]
+    },
+    {
+      "id": "travel-before-you-move",
+      "heading": "Travel Before You Move",
+      "summary": "We recommend visiting potential states before making your move. Explore different cities, neighborhoods, and regions to understand the lifestyle, community, and environment.",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We recommend visiting potential states before making your move. Explore different cities, neighborhoods, and regions to understand the lifestyle, community, and environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps assess climate, cost of living, local culture, and fit for you and your family."
+        }
+      ]
+    },
+    {
+      "id": "next-steps",
+      "heading": "Next Steps",
+      "summary": "Ready to explore visa options and start your journey?",
+      "highlights": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ready to explore visa options and start your journey?"
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "cta": {
+    "title": "Plan your move to Discover Brazilian States",
+    "description": "Get a tailored relocation roadmap for Discover Brazilian States, including immigration planning, document sequencing, and practical first-month setup steps.",
+    "primaryLabel": "Book a consultation",
+    "primaryHref": "/visa-consultation",
+    "secondaryLabel": "Contact our team",
+    "secondaryHref": "/contact"
+  },
+  "seo": {
+    "metaTitle": "Discover Brazilian States | Immigrate to Brazil",
+    "metaDescription": "Explore all 27 states of Brazil and find your perfect destination",
+    "keywords": [
+      "Discover Brazilian States",
+      "brazilian-states",
+      "Brazil discover guide",
+      "Brazil relocation",
+      "Brazil immigration"
+    ]
+  },
+  "taxonomy": {
+    "type": "states-hub",
+    "depth": 1,
+    "segments": [
+      "brazilian-states"
+    ]
+  },
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

@@ -7,7 +7,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BrandLogo } from '@/components/brand-logo';
 import { brazilianStates, type BrazilianState } from '@/content/curated/states';
 import { trackAnalyticsEvent } from '@/lib/analytics-events';
+import { buildFaqStateSlug } from '@/lib/phase2-routes';
 import { siteConfig } from '@/lib/site-config';
+import { stateGuidePathByState } from '@/lib/state-guides-content';
 import type { Locale } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -287,12 +289,12 @@ export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: he
   );
 
   const blogStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/blog/blog-${state.slug}`)),
+    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, stateGuidePathByState(state.slug))),
     [locale, regionLabels],
   );
 
   const faqStateGroups = useMemo(
-    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/faq/faq-${state.slug}`)),
+    () => groupedStateLinks(locale, regionLabels, (state) => resolveCmsHref(locale, `/faq/${buildFaqStateSlug(state.slug)}`)),
     [locale, regionLabels],
   );
 
@@ -431,11 +433,11 @@ export function SiteHeader({ locale, brand, nav, ctaButton, headerNavigation: he
       {
         id: 'blog',
         label: headerNav.menuLabels.blogByState,
-        href: resolveCmsHref(locale, '/blog'),
+        href: resolveCmsHref(locale, '/state-guides'),
         sections: [
           {
             title: headerNav.sectionLabels.blogStates,
-            links: [{ href: resolveCmsHref(locale, '/blog'), label: headerNav.links.blogByStateHub }],
+            links: [{ href: resolveCmsHref(locale, '/state-guides'), label: headerNav.links.blogByStateHub }],
             groups: blogStateGroups,
           },
         ],

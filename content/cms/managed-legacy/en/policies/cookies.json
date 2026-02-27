@@ -1,0 +1,296 @@
+{
+  "locale": "en",
+  "slug": "policies/cookies",
+  "pathname": "/policies/cookies",
+  "sourcePath": "policies/cookies/index.html",
+  "title": "Cookie Policy | Immigrate to Brazil",
+  "description": "How we use cookies and similar technologies, and how you can control them.",
+  "heading": "Cookie Policy",
+  "heroImageAlt": "Cookie Policy",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "How we use cookies and similar technologies, and how you can control them."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "What are cookies?",
+        "Types of cookies we use",
+        "Why we use cookies",
+        "First-party vs. third-party cookies",
+        "Cookies and similar technologies",
+        "Third-party services",
+        "Cookie categories in detail",
+        "Examples of data collected",
+        "How long cookies last",
+        "How we set cookies",
+        "Consent and controls",
+        "Do Not Track",
+        "Managing your preferences",
+        "Browser help links",
+        "Cookies list (examples)",
+        "Updates to this policy",
+        "Contact",
+        "FAQ"
+      ]
+    },
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "This Cookie Policy explains what cookies are, how we use them, and the choices you have. It applies to this website and any pages that link to this policy.",
+        "Note:\nThis policy is provided for general information and is not legal advice."
+      ]
+    },
+    {
+      "title": "What are cookies?",
+      "paragraphs": [
+        "Cookies are small text files stored on your device when you visit a website. They help websites function, remember your preferences, and understand how the site is used.",
+        "Cookies can be session-based (deleted when you close your browser) or persistent (stored for a set period)."
+      ]
+    },
+    {
+      "title": "Types of cookies we use",
+      "paragraphs": [
+        "Required for core site functions like security, navigation, and form submission. These cannot be disabled.",
+        "Help us understand how visitors use the site (pages visited, time on page, errors) so we can improve performance.",
+        "Remember choices like language, region, or layout to provide a more personalized experience.",
+        "Used to measure campaign performance and show relevant content. These are only used if enabled where required."
+      ]
+    },
+    {
+      "title": "Why we use cookies",
+      "paragraphs": [
+        "To keep the site secure and available.",
+        "To remember your preferences and improve the user experience.",
+        "To understand how the site is used and improve content and performance.",
+        "To measure outreach and marketing effectiveness where applicable."
+      ]
+    },
+    {
+      "title": "First-party vs. third-party cookies",
+      "paragraphs": [
+        "First-party cookies\nare set by this website to provide core functionality and remember your settings.",
+        "Third-party cookies\nare set by services we use (for example, analytics) and may collect usage data across sites."
+      ]
+    },
+    {
+      "title": "Cookies and similar technologies",
+      "paragraphs": [
+        "We may use cookies, local storage, and similar technologies to deliver site functionality and improve services. Some third-party tools may set their own cookies."
+      ]
+    },
+    {
+      "title": "Third-party services",
+      "paragraphs": [
+        "We may use third-party analytics or performance tools. These providers may set cookies in your browser. Their use of cookies is governed by their own policies."
+      ]
+    },
+    {
+      "title": "Cookie categories in detail",
+      "paragraphs": [
+        "Support login sessions, security protections, and essential navigation features. Disabling these can break site features.",
+        "Measure site performance, error rates, and page engagement to help us improve the website.",
+        "Store language, region, or accessibility choices so you don’t have to re-select them on each visit.",
+        "Help measure campaign performance and show more relevant content where these features are enabled."
+      ]
+    },
+    {
+      "title": "Examples of data collected",
+      "paragraphs": [
+        "We do not use cookies to collect sensitive personal information without your involvement.",
+        "Pages viewed and navigation paths.",
+        "Approximate location derived from IP address (country or region).",
+        "Device type, browser version, and screen resolution.",
+        "Session duration and error events."
+      ]
+    },
+    {
+      "title": "How long cookies last",
+      "paragraphs": [
+        "Session cookies expire when you close your browser. Persistent cookies remain until they expire or are deleted.",
+        "Where possible, we limit cookie duration to what is necessary for the intended purpose."
+      ]
+    },
+    {
+      "title": "How we set cookies",
+      "paragraphs": [
+        "Cookies may be set when you:",
+        "Visit a page that embeds third-party services.",
+        "Submit forms or interact with site features.",
+        "Accept or adjust cookie preferences where available."
+      ]
+    },
+    {
+      "title": "Consent and controls",
+      "paragraphs": [
+        "Where required, you will be given options to accept or reject non-essential cookies. You can also withdraw consent by changing your browser settings or clearing cookies.",
+        "Necessary cookies are always active because they are required for the site to function."
+      ]
+    },
+    {
+      "title": "Legal bases (general)",
+      "paragraphs": [
+        "We use cookies based on legitimate interests (such as security and site performance) and, where applicable, consent for non-essential categories like marketing or analytics.",
+        "This section is informational and does not constitute legal advice."
+      ]
+    },
+    {
+      "title": "LGPD context (informational)",
+      "paragraphs": [
+        "Brazil’s LGPD provides rights related to personal data. If cookies or similar technologies are used to process personal data, the site should provide transparency, lawful basis, and ways to exercise rights.",
+        "For compliance guidance, consult qualified professionals."
+      ]
+    },
+    {
+      "title": "Do Not Track",
+      "paragraphs": [
+        "Some browsers offer a “Do Not Track” (DNT) setting. When enabled, we aim to limit non-essential tracking where feasible."
+      ]
+    },
+    {
+      "title": "Managing your preferences",
+      "paragraphs": [
+        "If you disable cookies, some features may not work as intended.",
+        "Browser controls:\nMost browsers allow you to block or delete cookies in settings.",
+        "Device controls:\nMobile devices have privacy settings that limit tracking.",
+        "Opt-out tools:\nSome analytics providers offer opt-out mechanisms on their websites."
+      ]
+    },
+    {
+      "title": "Browser help links",
+      "paragraphs": [
+        "Chrome: Manage cookies in Settings > Privacy and security.",
+        "Firefox: Manage cookies in Settings > Privacy & Security.",
+        "Safari: Manage cookies in Settings > Privacy.",
+        "Edge: Manage cookies in Settings > Cookies and site permissions."
+      ]
+    },
+    {
+      "title": "Cookies list (examples)",
+      "paragraphs": [
+        "This list provides general examples of cookie types. Actual cookies may vary depending on site features and services used.",
+        "Session ID\n— Necessary — Maintains session state.",
+        "Preferences\n— Preferences — Stores language or region.",
+        "Analytics ID\n— Analytics — Measures visits and usage.",
+        "Campaign ID\n— Marketing — Measures outreach performance."
+      ]
+    },
+    {
+      "title": "International data transfers (general)",
+      "paragraphs": [
+        "Some third-party services may process data outside your country. We aim to work with reputable providers and review their data protection commitments."
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "paragraphs": [
+        "If you need this policy in an alternative format, contact us via the website contact form and we will provide assistance where possible."
+      ]
+    },
+    {
+      "title": "Changes to services",
+      "paragraphs": [
+        "If we add or remove third-party services, the cookies in use may change. We will update this policy to reflect significant changes."
+      ]
+    },
+    {
+      "title": "Children’s privacy",
+      "paragraphs": [
+        "This site is intended for a general audience. We do not knowingly use cookies to profile children."
+      ]
+    },
+    {
+      "title": "Security",
+      "paragraphs": [
+        "We use reasonable technical and organizational measures to protect the site and reduce the risk of misuse of cookie data."
+      ]
+    },
+    {
+      "title": "Managing your preferences",
+      "paragraphs": [
+        "If you disable cookies, some features may not work as intended.",
+        "Browser controls:\nMost browsers allow you to block or delete cookies in settings.",
+        "Device controls:\nMobile devices have privacy settings that limit tracking.",
+        "Opt-out tools:\nSome analytics providers offer opt-out mechanisms on their websites."
+      ]
+    },
+    {
+      "title": "Retention",
+      "paragraphs": [
+        "Session cookies expire when you close your browser. Persistent cookies remain until they expire or you delete them."
+      ]
+    },
+    {
+      "title": "Updates to this policy",
+      "paragraphs": [
+        "We may update this Cookie Policy from time to time. The “Last updated” date below reflects the latest revision.",
+        "Last updated:\nFebruary 6, 2026"
+      ]
+    },
+    {
+      "title": "Contact",
+      "paragraphs": [
+        "If you have questions about this Cookie Policy, contact us via the website contact form."
+      ]
+    },
+    {
+      "title": "FAQ",
+      "paragraphs": [
+        "We may use marketing cookies where applicable to measure campaign effectiveness. These can be disabled in your browser settings.",
+        "You can browse most content, but some features may not work properly if cookies are disabled.",
+        "We review this policy periodically and update it when our use of cookies changes."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "What are cookies?",
+    "Types of cookies we use",
+    "Why we use cookies",
+    "First-party vs. third-party cookies",
+    "Cookies and similar technologies",
+    "Third-party services",
+    "Cookie categories in detail",
+    "Examples of data collected",
+    "How long cookies last",
+    "How we set cookies",
+    "Consent and controls",
+    "Do Not Track",
+    "Managing your preferences",
+    "Browser help links",
+    "Cookies list (examples)",
+    "Updates to this policy",
+    "Contact",
+    "FAQ",
+    "To keep the site secure and available.",
+    "To remember your preferences and improve the user experience.",
+    "To understand how the site is used and improve content and performance.",
+    "To measure outreach and marketing effectiveness where applicable.",
+    "Pages viewed and navigation paths.",
+    "Approximate location derived from IP address (country or region).",
+    "Device type, browser version, and screen resolution.",
+    "Session duration and error events.",
+    "Visit a page that embeds third-party services.",
+    "Submit forms or interact with site features.",
+    "Accept or adjust cookie preferences where available.",
+    "Browser controls:\nMost browsers allow you to block or delete cookies in settings.",
+    "Device controls:\nMobile devices have privacy settings that limit tracking.",
+    "Opt-out tools:\nSome analytics providers offer opt-out mechanisms on their websites.",
+    "Chrome: Manage cookies in Settings > Privacy and security.",
+    "Firefox: Manage cookies in Settings > Privacy & Security.",
+    "Safari: Manage cookies in Settings > Privacy.",
+    "Edge: Manage cookies in Settings > Cookies and site permissions.",
+    "Session ID\n— Necessary — Maintains session state.",
+    "Preferences\n— Preferences — Stores language or region.",
+    "Analytics ID\n— Analytics — Measures visits and usage.",
+    "Campaign ID\n— Marketing — Measures outreach performance."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

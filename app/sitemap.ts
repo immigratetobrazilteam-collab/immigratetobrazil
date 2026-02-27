@@ -1,8 +1,11 @@
 import type { MetadataRoute } from 'next';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
 
 import { brazilianStates } from '@/content/curated/states';
 import routeIndexData from '@/content/generated/route-index.json';
 import { locales } from '@/lib/i18n';
+import { buildFaqStateSlug } from '@/lib/phase2-routes';
 import { getSeoSettings } from '@/lib/seo-settings-content';
 
 const seoSettings = getSeoSettings();
@@ -25,13 +28,16 @@ const staticPaths = [
   '/process',
   '/contact',
   '/blog',
+  '/state-guides',
   '/faq',
   '/policies',
   '/library',
   '/home',
   '/accessibility',
+  '/consultation',
   '/visa-consultation',
   '/resources-guides-brazil',
+  '/discover',
   '/discover/brazilian-states',
   '/discover/brazilian-regions',
   '/about/about-brazil/apply-brazil',
@@ -41,7 +47,7 @@ const staticPaths = [
 ];
 
 const policySlugs = ['privacy', 'terms', 'cookies', 'gdpr', 'refund', 'disclaimers'];
-const dynamicExcludedPrefixes = ['public/', 'api/', '_next/', 'admin/', 'memory-bank/'];
+const dynamicExcludedPrefixes = ['public/', 'api/', '_next/', 'admin/', 'memory-bank/', 'blog/blog-', 'discover/', 'faq/faq-'];
 const dynamicExcludedExact = new Set(['sitemap', 'robots', 'template']);
 
 type RouteIndexItem = {
@@ -49,8 +55,35 @@ type RouteIndexItem = {
   slug: string;
 };
 
+type DiscoverManifest = {
+  pageCount: number;
+  pages: Array<{
+    slug: string;
+    pathname: string;
+  }>;
+};
+
 async function getRouteIndex(): Promise<RouteIndexItem[]> {
   return routeIndexData as RouteIndexItem[];
+}
+
+async function getDiscoverManifestSlugs(): Promise<string[]> {
+  const manifestPath = path.join(process.cwd(), 'content', 'cms', 'discover-pages', 'en', '_manifest.json');
+
+  try {
+    const raw = await readFile(manifestPath, 'utf8');
+    const parsed = JSON.parse(raw) as DiscoverManifest;
+
+    if (!Array.isArray(parsed.pages)) {
+      return [];
+    }
+
+    return parsed.pages
+      .map((item) => (typeof item?.slug === 'string' ? item.slug : ''))
+      .filter((slug) => slug.length > 0);
+  } catch {
+    return [];
+  }
 }
 
 function normalizePath(input: string): string {
@@ -129,6 +162,7 @@ function shouldExcludeSitemapUrl(urlValue: string): boolean {
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
+  const discoverManagedSlugs = await getDiscoverManifestSlugs();
 
   for (const locale of locales) {
     for (const p of staticPaths) {
@@ -143,9 +177,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const state of brazilianStates) {
       const stateRoutes = [
         `/contact/contact-${state.slug}`,
-        `/faq/faq-${state.slug}`,
+        `/faq/${buildFaqStateSlug(state.slug)}`,
         `/services/immigrate-to-${state.slug}`,
-        `/blog/blog-${state.slug}`,
+        `/state-guides/everything-you-need-to-know-about-${state.slug}`,
       ];
 
       for (const route of stateRoutes) {
@@ -161,6 +195,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const policy of policySlugs) {
       entries.push({
         url: `${BASE_URL}/${locale}/policies/${policy}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      });
+    }
+
+    for (const slug of discoverManagedSlugs) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/discover/${slug}`,
         lastModified: now,
         changeFrequency: 'monthly',
         priority: 0.5,

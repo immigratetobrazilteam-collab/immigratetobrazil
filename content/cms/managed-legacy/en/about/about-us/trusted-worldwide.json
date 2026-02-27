@@ -1,0 +1,78 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/trusted-worldwide",
+  "pathname": "/about/about-us/trusted-worldwide",
+  "sourcePath": "about/about-us/trusted-worldwide/index.html",
+  "title": "Trusted by Clients Worldwide Seeking Residency in Brazil | Immigrat...",
+  "description": "Global clients, local expertise.",
+  "heading": "Trusted Worldwide",
+  "heroImageAlt": "Trusted Worldwide",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Global clients, local expertise."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Trusted Worldwide",
+      "paragraphs": [
+        "Global clients choose us for clarity, compliance, and consistent support."
+      ]
+    },
+    {
+      "title": "Why clients trust us",
+      "paragraphs": [
+        "Transparent processes and documentation.",
+        "Clear communication and reliable timelines.",
+        "Localized guidance across all Brazilian states.",
+        "Ongoing support after arrival."
+      ]
+    },
+    {
+      "title": "Join clients worldwide",
+      "paragraphs": [
+        "Get a plan that respects the law and your timeline."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started",
+    "Transparent processes and documentation.",
+    "Clear communication and reliable timelines.",
+    "Localized guidance across all Brazilian states.",
+    "Ongoing support after arrival."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

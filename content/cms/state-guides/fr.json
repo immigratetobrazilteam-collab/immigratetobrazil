@@ -1,0 +1,12 @@
+{
+  "locale": "fr",
+  "hub": {
+    "eyebrow": "Guides migratoires par État",
+    "title": "Tout ce que vous devez savoir sur chaque État du Brésil",
+    "subtitle": "Bibliothèque gérée de 27 guides par État issus du contenu hérité et prête pour une maintenance éditoriale continue.",
+    "countLabel": "{{count}} guides par État",
+    "backToBlogLabel": "Retour au blog",
+    "consultationLabel": "Réserver une consultation"
+  },
+  "guides": []
+}

@@ -1,0 +1,80 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/10-experts",
+  "pathname": "/about/about-us/10-experts",
+  "sourcePath": "about/about-us/10-experts/index.html",
+  "title": "10 Multidisciplinary Experts Behind Your Immigration Success | Immi...",
+  "description": "A multidisciplinary team built for complex immigration journeys.",
+  "heading": "Meet the Experts",
+  "heroImageAlt": "Meet the Experts",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "A multidisciplinary team built for complex immigration journeys."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "10 Experts Behind Your Immigration Success",
+      "paragraphs": [
+        "A multidisciplinary team focused on compliance, clarity, and outcomes."
+      ]
+    },
+    {
+      "title": "Expert roles",
+      "paragraphs": [
+        "Builds the visa roadmap and evaluates eligibility, risks, and alternatives.",
+        "Monitors policy updates and verifies legal accuracy across all documents.",
+        "Manages translations, apostilles, and evidence packages.",
+        "Prepares appointment packets and submission timelines.",
+        "Coordinates in-country registration and appointment readiness.",
+        "Supports tax ID registration, banking, and local onboarding.",
+        "Guides housing, healthcare, and school planning.",
+        "Audits each case for missing items and timing issues.",
+        "Provides milestone updates and keeps timelines on track.",
+        "Provides local insights for each Brazilian state and city."
+      ]
+    },
+    {
+      "title": "Meet the team",
+      "paragraphs": [
+        "Our multidisciplinary experts coordinate every stage of your immigration journey."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

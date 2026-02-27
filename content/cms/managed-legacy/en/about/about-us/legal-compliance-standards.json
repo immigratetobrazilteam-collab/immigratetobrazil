@@ -1,0 +1,86 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/legal-compliance-standards",
+  "pathname": "/about/about-us/legal-compliance-standards",
+  "sourcePath": "about/about-us/legal-compliance-standards/index.html",
+  "title": "Legal Compliance, Transparency, and Professional Standards | Immigr...",
+  "description": "Professional, transparent, and compliant immigration support.",
+  "heading": "Legal Compliance & Standards",
+  "heroImageAlt": "Legal Compliance & Standards",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Professional, transparent, and compliant immigration support."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Legal Compliance & Standards",
+      "paragraphs": [
+        "Professional, transparent, and compliant immigration support."
+      ]
+    },
+    {
+      "title": "Our compliance framework",
+      "paragraphs": [
+        "Official requirement alignment for every case.",
+        "Document verification and translation checks.",
+        "Clear client responsibilities and timelines.",
+        "Risk disclosures for sensitive or complex cases."
+      ]
+    },
+    {
+      "title": "Transparency commitments",
+      "paragraphs": [
+        "We document what is included and what is not.",
+        "We provide realistic timeframes with contingencies.",
+        "We keep clients informed at each milestone."
+      ]
+    },
+    {
+      "title": "Need compliant support?",
+      "paragraphs": [
+        "We will help you build a lawful, organized immigration plan."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started",
+    "Official requirement alignment for every case.",
+    "Document verification and translation checks.",
+    "Clear client responsibilities and timelines.",
+    "Risk disclosures for sensitive or complex cases."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

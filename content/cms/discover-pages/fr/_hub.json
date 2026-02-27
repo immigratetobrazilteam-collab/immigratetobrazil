@@ -1,0 +1,10 @@
+{
+  "locale": "fr",
+  "eyebrow": "Bibliothèque Discover",
+  "title": "Discover Brazil par État, région et ville",
+  "subtitle": "Bibliothèque gérée des pages Discover migrées depuis le HTML hérité sans dépendance aux partiels.",
+  "countLabel": "{{count}} pages discover",
+  "browseStatesLabel": "Parcourir les États",
+  "browseRegionsLabel": "Parcourir les régions",
+  "consultationLabel": "Réserver une consultation"
+}

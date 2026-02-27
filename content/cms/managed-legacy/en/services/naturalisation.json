@@ -1,0 +1,65 @@
+{
+  "locale": "en",
+  "slug": "services/naturalisation",
+  "pathname": "/services/naturalisation",
+  "sourcePath": "services/naturalisation/index.html",
+  "title": "Naturalisation Services | Immigrate to Brazil",
+  "description": "Immigrate to Brazil",
+  "heading": "Naturalisation services",
+  "heroImageAlt": "Naturalisation services",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Immigrate to Brazil",
+        "Understand citizenship eligibility, required documents, and submission steps."
+      ]
+    },
+    {
+      "title": "Common naturalisation pathways",
+      "paragraphs": [
+        "Eligibility checks, residency proof, and documentation support.",
+        "Guidance for special cases and accelerated eligibility routes.",
+        "Support for reacquisition or renouncing citizenship when needed."
+      ]
+    },
+    {
+      "title": "How we help",
+      "paragraphs": [
+        "Review eligibility and residency history.",
+        "Prepare a complete document package.",
+        "Coordinate translations and certification.",
+        "Guide submissions and follow‑ups."
+      ]
+    },
+    {
+      "title": "Ready for citizenship planning?",
+      "paragraphs": [
+        "We’ll confirm eligibility and next steps for your case."
+      ]
+    },
+    {
+      "title": "Quick guide",
+      "paragraphs": [
+        "Use this summary to understand eligibility, documentation, and typical timelines. We recommend confirming your exact requirements with a tailored consultation.",
+        "Confirm your visa or residency pathway.",
+        "Prepare a complete document package.",
+        "Plan for translations, notarizations, and appointments.",
+        "Track processing timelines and follow-ups."
+      ]
+    }
+  ],
+  "bullets": [
+    "Review eligibility and residency history.",
+    "Prepare a complete document package.",
+    "Coordinate translations and certification.",
+    "Guide submissions and follow‑ups.",
+    "Confirm your visa or residency pathway.",
+    "Plan for translations, notarizations, and appointments.",
+    "Track processing timelines and follow-ups."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90
+}

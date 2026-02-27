@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-import { brazilianStates } from '@/content/curated/states';
 import { getBlogHighlights } from '@/lib/content';
 import { copy, resolveLocale } from '@/lib/i18n';
-import { countRoutesByPrefix } from '@/lib/route-index';
+import { localizedPath } from '@/lib/routes';
 import { createMetadata } from '@/lib/seo';
 import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
+import { getAllStateGuides, stateGuidePathBySlug } from '@/lib/state-guides-content';
 
 type BlogHubManagedCopy = {
   stateArchiveCountLabel: string;
@@ -39,7 +39,8 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
   const t = copy[locale];
   const pageCopy = getManagedPageCopyWithFallback<BlogHubManagedCopy>(locale, 'blogHubPage', blogHubFallback);
   const articles = getBlogHighlights(locale);
-  const stateArchiveCount = await countRoutesByPrefix(locale, 'blog', false);
+  const stateGuides = getAllStateGuides(locale);
+  const stateArchiveCount = stateGuides.length;
 
   return (
     <>
@@ -68,13 +69,13 @@ export default async function BlogIndexPage({ params }: { params: Promise<{ loca
           <h2 className="font-display text-3xl text-ink-900">{pageCopy.stateArchiveTitle}</h2>
           <p className="mt-3 max-w-3xl text-sm text-ink-700">{pageCopy.stateArchiveSubtitle}</p>
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {brazilianStates.map((state) => (
+            {stateGuides.map((guide) => (
               <Link
-                key={state.slug}
-                href={`/${locale}/blog/blog-${state.slug}`}
+                key={guide.slug}
+                href={localizedPath(locale, stateGuidePathBySlug(guide.slug))}
                 className="rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-sm font-semibold text-ink-800 shadow-sm transition hover:border-civic-300"
               >
-                {state[locale]}
+                {guide.title}
               </Link>
             ))}
           </div>
