@@ -511,38 +511,33 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
     <header className="sticky top-0 z-40 border-b border-sand-200/70 bg-sand-50/95 backdrop-blur">
       <div className="border-b border-sand-200/80 bg-white/90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex min-h-10 flex-wrap items-center justify-between gap-2 text-xs">
-            <div className="flex items-center gap-2">
-              <Link
-                href={accessibilityHref}
-                className={cn(
-                  'rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition',
-                  'hover:border-civic-300 hover:text-ink-900',
-                )}
-              >
-                Accessibility Switcher
-              </Link>
-              <Link
-                href={searchHref}
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-sand-300 bg-white text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
-                aria-label="Search site"
-              >
-                <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <circle cx="11" cy="11" r="7" />
-                  <path d="m20 20-3.5-3.5" />
-                </svg>
-              </Link>
-            </div>
-
-            <div className="flex items-center gap-2 sm:gap-3">
-              <LanguageSwitcher />
-              <Link
-                href={portalHref}
-                className="rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
-              >
-                Client Portal Login
-              </Link>
-            </div>
+          <div className="flex min-h-10 flex-wrap items-center justify-end gap-2 text-xs sm:gap-3">
+            <Link
+              href={accessibilityHref}
+              className={cn(
+                'rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition',
+                'hover:border-civic-300 hover:text-ink-900',
+              )}
+            >
+              Accessibility Switcher
+            </Link>
+            <Link
+              href={searchHref}
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-sand-300 bg-white text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
+              aria-label="Search site"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-3.5-3.5" />
+              </svg>
+            </Link>
+            <LanguageSwitcher />
+            <Link
+              href={portalHref}
+              className="rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
+            >
+              Client Portal Login
+            </Link>
           </div>
         </div>
       </div>
