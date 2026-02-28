@@ -5,6 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ENV_FILE="${ROOT_DIR}/.env.local"
 WRANGLER_LOCAL_CONFIG="${ROOT_DIR}/.wrangler-local"
 USE_CF_API_TOKEN="${USE_CF_API_TOKEN:-0}"
+WRANGLER_ENV_PREFIX=()
 
 mkdir -p "${WRANGLER_LOCAL_CONFIG}"
 export XDG_CONFIG_HOME="${WRANGLER_LOCAL_CONFIG}"
@@ -35,9 +36,10 @@ done < "${ENV_FILE}"
 export NODE_ENV=production
 export NPM_CONFIG_PRODUCTION=false
 
-if [[ "${USE_CF_API_TOKEN}" != "1" && -n "${CLOUDFLARE_API_TOKEN:-}" ]]; then
-  echo "OAuth mode: ignoring CLOUDFLARE_API_TOKEN from .env.local"
-  unset CLOUDFLARE_API_TOKEN
+if [[ "${USE_CF_API_TOKEN}" != "1" ]]; then
+  echo "OAuth mode: forcing Wrangler token environment variables OFF"
+  unset CLOUDFLARE_API_TOKEN CF_API_TOKEN CLOUDFLARE_API_KEY
+  WRANGLER_ENV_PREFIX=(env -u CLOUDFLARE_API_TOKEN -u CF_API_TOKEN -u CLOUDFLARE_API_KEY)
 fi
 
 if [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]]; then
@@ -57,17 +59,20 @@ fi
 npm run typecheck
 
 echo "Preflight: Cloudflare auth check"
-if ! npx wrangler whoami; then
+if ! "${WRANGLER_ENV_PREFIX[@]}" npx wrangler whoami; then
   echo
   echo "Cloudflare auth failed."
   echo "Run this once, then re-run ./deploy.sh:"
-  echo "  npx wrangler logout"
-  echo "  npx wrangler login"
+  echo "  env -u CLOUDFLARE_API_TOKEN -u CF_API_TOKEN -u CLOUDFLARE_API_KEY npx wrangler logout"
+  echo "  env -u CLOUDFLARE_API_TOKEN -u CF_API_TOKEN -u CLOUDFLARE_API_KEY npx wrangler login"
   exit 1
 fi
 
+echo "Cleaning previous build artifacts"
+rm -rf "${ROOT_DIR}/.next" "${ROOT_DIR}/.open-next"
+
 echo "Deploying"
-npm run deploy
+"${WRANGLER_ENV_PREFIX[@]}" npm run deploy
 
 echo
 echo "Deployment command completed."
