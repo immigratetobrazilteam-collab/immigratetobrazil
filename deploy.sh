@@ -31,8 +31,8 @@ while IFS= read -r line || [[ -n "${line}" ]]; do
   export "${key}=${value}"
 done < "${ENV_FILE}"
 
-# Build tooling requires devDependencies even if .env.local sets NODE_ENV=production.
-export NODE_ENV=development
+# Keep Next.js in standard production mode for builds/deploys.
+export NODE_ENV=production
 export NPM_CONFIG_PRODUCTION=false
 
 if [[ "${USE_CF_API_TOKEN}" != "1" && -n "${CLOUDFLARE_API_TOKEN:-}" ]]; then
