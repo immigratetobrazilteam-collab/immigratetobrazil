@@ -977,27 +977,27 @@
       }
     },
     "legacyUi": {
-      "keyPointsTitle": "Points cles",
-      "pathTitle": "Chemin",
-      "relatedPagesTitle": "Pages liees",
-      "exploreTitle": "Explorer",
+      "keyPointsTitle": "Key points",
+      "pathTitle": "Path",
+      "relatedPagesTitle": "Related pages",
+      "exploreTitle": "Explore",
       "sourceLabel": "Source",
       "exploreLinks": [
         {
           "href": "/about/about-brazil",
-          "label": "Hub Bresil"
+          "label": "About Brazil hub"
         },
         {
           "href": "/about/about-states",
-          "label": "Hub Etats"
+          "label": "About States hub"
         },
         {
           "href": "/services",
-          "label": "Archive services"
+          "label": "Services archive"
         },
         {
           "href": "/library",
-          "label": "Bibliotheque complete"
+          "label": "Full library"
         }
       ]
     },

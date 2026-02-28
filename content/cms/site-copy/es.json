@@ -977,27 +977,27 @@
       }
     },
     "legacyUi": {
-      "keyPointsTitle": "Puntos clave",
-      "pathTitle": "Ruta",
-      "relatedPagesTitle": "Paginas relacionadas",
-      "exploreTitle": "Explorar",
-      "sourceLabel": "Fuente",
+      "keyPointsTitle": "Key points",
+      "pathTitle": "Path",
+      "relatedPagesTitle": "Related pages",
+      "exploreTitle": "Explore",
+      "sourceLabel": "Source",
       "exploreLinks": [
         {
           "href": "/about/about-brazil",
-          "label": "Centro sobre Brasil"
+          "label": "About Brazil hub"
         },
         {
           "href": "/about/about-states",
-          "label": "Centro sobre Estados"
+          "label": "About States hub"
         },
         {
           "href": "/services",
-          "label": "Archivo de servicios"
+          "label": "Services archive"
         },
         {
           "href": "/library",
-          "label": "Biblioteca completa"
+          "label": "Full library"
         }
       ]
     },
