@@ -31,6 +31,10 @@ while IFS= read -r line || [[ -n "${line}" ]]; do
   export "${key}=${value}"
 done < "${ENV_FILE}"
 
+# Build tooling requires devDependencies even if .env.local sets NODE_ENV=production.
+export NODE_ENV=development
+export NPM_CONFIG_PRODUCTION=false
+
 if [[ "${USE_CF_API_TOKEN}" != "1" && -n "${CLOUDFLARE_API_TOKEN:-}" ]]; then
   echo "OAuth mode: ignoring CLOUDFLARE_API_TOKEN from .env.local"
   unset CLOUDFLARE_API_TOKEN
@@ -46,6 +50,10 @@ if [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]]; then
 fi
 
 echo "Preflight: npm run typecheck"
+if [[ ! -x "${ROOT_DIR}/node_modules/.bin/tsc" || ! -x "${ROOT_DIR}/node_modules/.bin/next" ]]; then
+  echo "Installing dependencies (including devDependencies)"
+  npm ci --include=dev
+fi
 npm run typecheck
 
 echo "Preflight: Cloudflare auth check"

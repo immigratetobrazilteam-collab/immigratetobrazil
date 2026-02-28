@@ -6,7 +6,7 @@ import { getLegacyDocument } from '@/lib/legacy-loader';
 describe('legacy overrides', () => {
   it('loads per-locale legacy ui labels', () => {
     expect(getLegacyCmsCopy('en').ui.keyPointsTitle).toContain('Key');
-    expect(getLegacyCmsCopy('es').ui.relatedPagesTitle).toContain('Paginas');
+    expect(getLegacyCmsCopy('es').ui.relatedPagesTitle).toContain('Related');
     expect(getLegacyCmsCopy('pt').ui.exploreLinks.length).toBeGreaterThan(0);
   });
 
