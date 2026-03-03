@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "families": {
+    "managedLegacyService": {
+      "requiredSectionTitles": [
+        "Eligibility and scope",
+        "Required documents",
+        "Process roadmap",
+        "Timelines and cost framework",
+        "Risk controls and legal escalation",
+        "Important disclaimer"
+      ]
+    },
+    "managedLegacyGeneral": {
+      "requiredSectionTitles": [
+        "Overview",
+        "How to use this page",
+        "Next actions"
+      ]
+    },
+    "discoverCity": {
+      "requiredSectionTitles": [
+        "Quick facts",
+        "Arrival setup",
+        "Housing and budget",
+        "Compliance and documentation",
+        "Next steps"
+      ]
+    },
+    "discoverState": {
+      "requiredSectionTitles": [
+        "State profile",
+        "Residency planning",
+        "Cost and logistics",
+        "Where to start"
+      ]
+    }
+  }
+}

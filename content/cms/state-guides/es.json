@@ -1,0 +1,12 @@
+{
+  "locale": "es",
+  "hub": {
+    "eyebrow": "Guías estatales de migración",
+    "title": "Todo lo que necesitas saber sobre cada estado de Brasil",
+    "subtitle": "Biblioteca gestionada con 27 guías estatales basadas en el contenido legado y listas para edición continua.",
+    "countLabel": "{{count}} guías estatales",
+    "backToBlogLabel": "Volver al blog",
+    "consultationLabel": "Reservar consulta"
+  },
+  "guides": []
+}

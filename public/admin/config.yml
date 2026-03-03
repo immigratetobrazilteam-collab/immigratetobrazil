@@ -1,0 +1,1169 @@
+backend:
+  name: github
+  repo: immigratetobrazilteam-collab/immigratetobrazil
+  branch: main
+  base_url: https://immigratetobrazil.com
+  auth_endpoint: /api/admin/oauth/auth
+
+site_url: https://immigratetobrazil.com
+publish_mode: editorial_workflow
+media_folder: assets/uploads
+public_folder: /legacy-assets/uploads
+
+collections:
+  - name: state_copy
+    label: State Copy
+    folder: content/cms/state-copy
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Templates
+        name: templates
+        widget: object
+        fields:
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: FAQ
+            name: faq
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: QA
+                name: qa
+                widget: list
+                min: 3
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+          - label: Services
+            name: services
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Modules
+                name: modules
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Blog
+            name: blog
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Sections
+                name: sections
+                widget: list
+                min: 3
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+      - label: State Overrides
+        name: overrides
+        widget: list
+        summary: '{{fields.slug}}'
+        fields:
+          - { label: State Slug, name: slug, widget: string }
+          - label: Contact Override
+            name: contact
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Cards
+                name: cards
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: FAQ Override
+            name: faq
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: QA
+                name: qa
+                required: false
+                widget: list
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+          - label: Services Override
+            name: services
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Modules
+                name: modules
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Blog Override
+            name: blog
+            required: false
+            widget: object
+            fields:
+              - { label: Title, name: title, required: false, widget: string }
+              - { label: Subtitle, name: subtitle, required: false, widget: text }
+              - label: Sections
+                name: sections
+                required: false
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+
+  - name: policy_copy
+    label: Policy Copy
+    folder: content/cms/policies
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Policies
+        name: policies
+        widget: list
+        summary: '{{fields.slug}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - label: Paragraphs
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+
+  - name: site_copy
+    label: Site Copy
+    folder: content/cms/site-copy
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Brand
+        name: brand
+        widget: string
+      - label: Navigation
+        name: nav
+        widget: object
+        fields:
+          - { label: Home, name: home, widget: string }
+          - { label: About, name: about, widget: string }
+          - { label: Services, name: services, widget: string }
+          - { label: Process, name: process, widget: string }
+          - { label: Resources, name: resources, widget: string }
+          - { label: Blog, name: blog, widget: string }
+          - { label: FAQ, name: faq, widget: string }
+          - { label: Library, name: library, widget: string }
+          - { label: Contact, name: contact, widget: string }
+      - label: Hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Primary CTA, name: primaryCta, widget: string }
+          - { label: Secondary CTA, name: secondaryCta, widget: string }
+          - { label: Highlights Title, name: highlightsTitle, widget: string }
+          - label: Highlights
+            name: highlights
+            widget: list
+            min: 3
+            field: { label: Highlight, name: highlight, widget: string }
+      - label: Sections
+        name: sections
+        widget: object
+        fields:
+          - { label: Services Title, name: servicesTitle, widget: string }
+          - { label: Services Subtitle, name: servicesSubtitle, widget: text }
+          - { label: Process Title, name: processTitle, widget: string }
+          - { label: Process Subtitle, name: processSubtitle, widget: text }
+          - { label: Trust Title, name: trustTitle, widget: string }
+          - { label: Migration Title, name: migrationTitle, widget: string }
+          - { label: Migration Subtitle, name: migrationSubtitle, widget: text }
+          - { label: Blog Title, name: blogTitle, widget: string }
+          - { label: Blog Subtitle, name: blogSubtitle, widget: text }
+      - label: CTA
+        name: cta
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Button, name: button, widget: string }
+      - label: Contact
+        name: contact
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: text }
+          - { label: Consultation Label, name: consultation, widget: string }
+          - { label: WhatsApp Label, name: whatsapp, widget: string }
+          - { label: Email Label, name: email, widget: string }
+      - label: Footer
+        name: footer
+        widget: object
+        fields:
+          - { label: Tagline, name: tagline, widget: text }
+          - { label: Legal, name: legal, widget: text }
+      - label: Header Navigation
+        name: headerNavigation
+        widget: object
+        fields:
+          - { label: Brand Tagline, name: brandTagline, widget: string }
+          - { label: All Pages Button, name: allPagesButton, widget: string }
+          - label: Quick Links (Top Row)
+            name: quickLinks
+            widget: list
+            min: 3
+            summary: '{{fields.label}}'
+            fields:
+              - { label: Href, name: href, widget: string }
+              - { label: Label, name: label, widget: string }
+          - label: Menu Labels (Row Two Buttons)
+            name: menuLabels
+            widget: object
+            fields:
+              - { label: About Brazil, name: aboutBrazil, widget: string }
+              - { label: About States, name: aboutStates, widget: string }
+              - { label: Services, name: services, widget: string }
+              - { label: Resources, name: resources, widget: string }
+              - { label: Discover, name: discover, widget: string }
+              - { label: Blog By State, name: blogByState, widget: string }
+              - { label: FAQ By State, name: faqByState, widget: string }
+              - { label: Contact By State, name: contactByState, widget: string }
+          - label: Section Labels (Dropdown Headings)
+            name: sectionLabels
+            widget: object
+            fields:
+              - { label: About Brazil Title, name: aboutBrazil, widget: string }
+              - { label: About States Title, name: aboutStates, widget: string }
+              - { label: Services Core Title, name: servicesCore, widget: string }
+              - { label: Services States Title, name: servicesStates, widget: string }
+              - { label: Resources Hubs Title, name: resourcesHubs, widget: string }
+              - { label: Resources Policy Title, name: resourcesPolicy, widget: string }
+              - { label: Discover Regions Title, name: discoverRegions, widget: string }
+              - { label: Discover States Title, name: discoverStates, widget: string }
+              - { label: Blog States Title, name: blogStates, widget: string }
+              - { label: FAQ States Title, name: faqStates, widget: string }
+              - { label: Contact Channels Title, name: contactChannels, widget: string }
+              - { label: Contact States Title, name: contactStates, widget: string }
+          - label: Region Labels
+            name: regionLabels
+            widget: object
+            fields:
+              - { label: North, name: north, widget: string }
+              - { label: Northeast, name: northeast, widget: string }
+              - { label: Central-West, name: centralWest, widget: string }
+              - { label: Southeast, name: southeast, widget: string }
+              - { label: South, name: south, widget: string }
+          - label: Static Link Labels
+            name: links
+            widget: object
+            fields:
+              - { label: About Brazil Hub, name: aboutBrazilHub, widget: string }
+              - { label: Apply Brazil, name: applyBrazil, widget: string }
+              - { label: Cost Of Living, name: costOfLiving, widget: string }
+              - { label: About States Hub, name: aboutStatesHub, widget: string }
+              - { label: About Us, name: aboutUs, widget: string }
+              - { label: Values, name: values, widget: string }
+              - { label: Mission, name: mission, widget: string }
+              - { label: Story, name: story, widget: string }
+              - { label: Visa Services, name: visaServices, widget: string }
+              - { label: Visa Categories, name: visaCategories, widget: string }
+              - { label: Residency Services, name: residencyServices, widget: string }
+              - { label: Naturalisation Services, name: naturalisationServices, widget: string }
+              - { label: Legal Services, name: legalServices, widget: string }
+              - { label: Home Archive, name: homeArchive, widget: string }
+              - { label: Policies, name: policies, widget: string }
+              - { label: Cookies, name: cookies, widget: string }
+              - { label: Disclaimers, name: disclaimers, widget: string }
+              - { label: GDPR, name: gdpr, widget: string }
+              - { label: Privacy, name: privacy, widget: string }
+              - { label: Refund, name: refund, widget: string }
+              - { label: Terms, name: terms, widget: string }
+              - { label: XML Sitemap, name: xmlSitemap, widget: string }
+              - { label: Discover Regions Hub, name: discoverRegionsHub, widget: string }
+              - { label: Discover States Hub, name: discoverStatesHub, widget: string }
+              - { label: Blog Hub, name: blogByStateHub, widget: string }
+              - { label: FAQ Hub, name: faqByStateHub, widget: string }
+              - { label: Contact Hub, name: contactByStateHub, widget: string }
+      - label: Footer Navigation
+        name: footerNavigation
+        widget: object
+        fields:
+          - { label: Dropdown Title, name: dropdownTitle, widget: string }
+          - { label: About Us Pages Title, name: aboutUsPagesTitle, widget: string }
+          - { label: About Brazil Pages Title, name: aboutBrazilPagesTitle, widget: string }
+          - { label: Support Title, name: supportTitle, widget: string }
+          - { label: State About, name: stateAbout, widget: string }
+          - { label: State Services, name: stateServices, widget: string }
+          - { label: State Contact, name: stateContact, widget: string }
+          - { label: State Blog, name: stateBlog, widget: string }
+          - { label: State FAQ, name: stateFaq, widget: string }
+          - { label: All Pages Button, name: allPages, widget: string }
+          - { label: About Us Hub, name: aboutUsHub, widget: string }
+          - { label: About Brazil Hub, name: aboutBrazilHub, widget: string }
+          - { label: Festivals Hub, name: festivalsHub, widget: string }
+          - { label: Food Hub, name: foodHub, widget: string }
+          - { label: About Brazil Core Title, name: aboutBrazilCoreTitle, widget: string }
+          - { label: About Brazil Festivals Title, name: aboutBrazilFestivalsTitle, widget: string }
+          - { label: About Brazil Food Title, name: aboutBrazilFoodTitle, widget: string }
+          - { label: Menu About Brazil, name: menuAboutBrazil, widget: string }
+          - { label: Menu About States, name: menuAboutStates, widget: string }
+          - { label: Menu Services, name: menuServices, widget: string }
+          - { label: Menu Resources, name: menuResources, widget: string }
+          - { label: Menu Discover, name: menuDiscover, widget: string }
+          - { label: Menu Blog, name: menuBlog, widget: string }
+          - { label: Menu FAQ, name: menuFaq, widget: string }
+          - { label: Menu Contact, name: menuContact, widget: string }
+          - { label: Contact Box Title, name: contactBoxTitle, widget: string }
+          - { label: Rights Reserved Text, name: rightsReserved, widget: string }
+      - label: Floating Actions
+        name: floatingActions
+        widget: object
+        fields:
+          - { label: WhatsApp Label, name: whatsapp, widget: string }
+          - { label: WhatsApp Tagline, name: whatsappTag, widget: string }
+          - { label: Back To Top Label, name: top, widget: string }
+      - label: Upgrade Notice Banner
+        name: upgradeNotice
+        widget: object
+        fields:
+          - { label: Enabled, name: enabled, widget: boolean, default: true }
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: text }
+          - { label: WhatsApp Button, name: whatsappButton, widget: string }
+          - { label: Email Button, name: emailButton, widget: string }
+      - label: Home Content Map
+        name: homeContentMap
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - label: Links
+            name: links
+            widget: list
+            min: 3
+            summary: '{{fields.label}}'
+            fields:
+              - { label: Href, name: href, widget: string }
+              - { label: Label, name: label, widget: string }
+      - label: Trust Stats
+        name: trustStats
+        widget: list
+        min: 3
+        summary: '{{fields.value}}'
+        fields:
+          - { label: Value, name: value, widget: string }
+          - { label: Label, name: label, widget: string }
+      - label: Service Cards
+        name: serviceCards
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Highlights
+            name: highlights
+            widget: list
+            min: 1
+            field: { label: Highlight, name: highlight, widget: string }
+      - label: Process Steps
+        name: processSteps
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Blog Highlights
+        name: blogHighlights
+        widget: list
+        min: 3
+        summary: '{{fields.title}}'
+        fields:
+          - { label: Slug, name: slug, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Summary, name: summary, widget: text }
+
+      - label: Managed Pages
+        name: managedPages
+        widget: object
+        hint: "All page-level copy. Edit here to update what clients see across migrated pages."
+        fields:
+          - label: Home Page Seo
+            name: homePageSeo
+            widget: object
+            fields:
+              - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+              - label: Keywords
+                name: keywords
+                widget: list
+                field: { label: Keyword, name: item, widget: string }
+              - label: Faq
+                name: faq
+                widget: list
+                fields:
+                  - { label: Question, name: question, widget: string }
+                  - { label: Answer, name: answer, widget: text }
+              - { label: Internal Links Title, name: internalLinksTitle, widget: string }
+              - label: Internal Links
+                name: internalLinks
+                widget: list
+                fields:
+                  - { label: Href, name: href, widget: string }
+                  - { label: Label, name: label, widget: string }
+          - label: About Page
+            name: aboutPage
+            widget: object
+            fields:
+              - label: Seo
+                name: seo
+                widget: object
+                fields:
+                  - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+                  - { label: Meta Description, name: metaDescription, widget: text }
+                  - label: Keywords
+                    name: keywords
+                    widget: list
+                    field: { label: Keyword, name: item, widget: string }
+                  - label: Faq
+                    name: faq
+                    widget: list
+                    fields:
+                      - { label: Question, name: question, widget: string }
+                      - { label: Answer, name: answer, widget: text }
+                  - { label: Internal Links Title, name: internalLinksTitle, widget: string }
+                  - label: Internal Links
+                    name: internalLinks
+                    widget: list
+                    fields:
+                      - { label: Href, name: href, widget: string }
+                      - { label: Label, name: label, widget: string }
+              - { label: Hero Title, name: heroTitle, widget: string }
+              - { label: Hero Subtitle, name: heroSubtitle, widget: text }
+              - { label: Library Button Label, name: libraryButtonLabel, widget: string }
+              - label: Cards
+                name: cards
+                widget: object
+                fields:
+                  - label: About Brazil
+                    name: aboutBrazil
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: About States
+                    name: aboutStates
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: About Us
+                    name: aboutUs
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: Values
+                    name: values
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: Mission
+                    name: mission
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: Story
+                    name: story
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+                  - label: Accessibility
+                    name: accessibility
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Count Label, name: countLabel, widget: string }
+                      - { label: Cta Label, name: ctaLabel, widget: string }
+                      - { label: Href, name: href, widget: string }
+          - label: Services Page
+            name: servicesPage
+            widget: object
+            fields:
+              - label: Seo
+                name: seo
+                widget: object
+                fields:
+                  - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+                  - { label: Meta Description, name: metaDescription, widget: text }
+                  - label: Keywords
+                    name: keywords
+                    widget: list
+                    field: { label: Keyword, name: item, widget: string }
+                  - label: Faq
+                    name: faq
+                    widget: list
+                    fields:
+                      - { label: Question, name: question, widget: string }
+                      - { label: Answer, name: answer, widget: text }
+                  - { label: Internal Links Title, name: internalLinksTitle, widget: string }
+                  - label: Internal Links
+                    name: internalLinks
+                    widget: list
+                    fields:
+                      - { label: Href, name: href, widget: string }
+                      - { label: Label, name: label, widget: string }
+              - { label: Hero Title, name: heroTitle, widget: string }
+              - { label: Hero Subtitle, name: heroSubtitle, widget: text }
+              - { label: Service Count Label, name: serviceCountLabel, widget: string }
+              - { label: Legacy Section Title, name: legacySectionTitle, widget: string }
+              - { label: Legacy Section Subtitle, name: legacySectionSubtitle, widget: text }
+              - { label: State Section Title, name: stateSectionTitle, widget: string }
+              - { label: State Section Subtitle, name: stateSectionSubtitle, widget: text }
+          - label: Process Page
+            name: processPage
+            widget: object
+            fields:
+              - { label: Hero Title, name: heroTitle, widget: string }
+              - { label: Hero Subtitle, name: heroSubtitle, widget: text }
+          - label: Faq Hub Page
+            name: faqHubPage
+            widget: object
+            fields:
+              - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: Blog Hub Page
+            name: blogHubPage
+            widget: object
+            fields:
+              - { label: State Archive Count Label, name: stateArchiveCountLabel, widget: string }
+              - { label: State Archive Title, name: stateArchiveTitle, widget: string }
+              - { label: State Archive Subtitle, name: stateArchiveSubtitle, widget: text }
+          - label: Library Page
+            name: libraryPage
+            widget: object
+            fields:
+              - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Indexed Routes Label, name: indexedRoutesLabel, widget: string }
+              - { label: Open Sitemap Label, name: openSitemapLabel, widget: string }
+              - { label: Largest Archives Title, name: largestArchivesTitle, widget: string }
+              - { label: Largest Archives Subtitle, name: largestArchivesSubtitle, widget: text }
+              - { label: Services Families Title, name: servicesFamiliesTitle, widget: string }
+              - { label: Discover Families Title, name: discoverFamiliesTitle, widget: string }
+              - { label: Section Map Title, name: sectionMapTitle, widget: string }
+              - { label: Open Section Label, name: openSectionLabel, widget: string }
+              - label: Sections
+                name: sections
+                widget: list
+                fields:
+                  - { label: Id, name: id, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Prefix, name: prefix, widget: string }
+                  - { label: Href Path, name: hrefPath, widget: string }
+          - label: Policies Hub Page
+            name: policiesHubPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+          - label: About Brazil Hub Page
+            name: aboutBrazilHubPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Count Label, name: countLabel, widget: string }
+              - { label: Back Label, name: backLabel, widget: string }
+          - label: About States Hub Page
+            name: aboutStatesHubPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Count Label, name: countLabel, widget: string }
+              - { label: Back Label, name: backLabel, widget: string }
+          - label: About Us Hub Page
+            name: aboutUsHubPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Count Label, name: countLabel, widget: string }
+              - { label: Back Label, name: backLabel, widget: string }
+          - label: About Story Page
+            name: aboutStoryPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Primary Button Label, name: primaryButtonLabel, widget: string }
+              - { label: Secondary Button Label, name: secondaryButtonLabel, widget: string }
+              - label: Milestones
+                name: milestones
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+              - { label: Who We Serve Title, name: whoWeServeTitle, widget: string }
+              - { label: Who We Serve Body, name: whoWeServeBody, widget: text }
+              - { label: Who We Serve Button Label, name: whoWeServeButtonLabel, widget: string }
+          - label: About Mission Page
+            name: aboutMissionPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Primary Button Label, name: primaryButtonLabel, widget: string }
+              - { label: Secondary Button Label, name: secondaryButtonLabel, widget: string }
+              - label: Pillars
+                name: pillars
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+              - { label: Execution Title, name: executionTitle, widget: string }
+              - { label: Execution Body, name: executionBody, widget: text }
+              - { label: Execution Button Label, name: executionButtonLabel, widget: string }
+          - label: About Values Page
+            name: aboutValuesPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Primary Button Label, name: primaryButtonLabel, widget: string }
+              - { label: Secondary Button Label, name: secondaryButtonLabel, widget: string }
+              - label: Values
+                name: values
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Body, name: body, widget: text }
+              - { label: Commitments Title, name: commitmentsTitle, widget: string }
+              - label: Commitments
+                name: commitments
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: Accessibility Page
+            name: accessibilityPage
+            widget: object
+            fields:
+              - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+              - { label: Meta Description, name: metaDescription, widget: text }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Library Button Label, name: libraryButtonLabel, widget: string }
+              - { label: Fallback Card Title, name: fallbackCardTitle, widget: string }
+              - { label: Fallback Card Body, name: fallbackCardBody, widget: text }
+          - label: Policy Detail Page
+            name: policyDetailPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+          - label: Services State Page
+            name: servicesStatePage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+          - label: Blog State Page
+            name: blogStatePage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+          - label: Faq State Page
+            name: faqStatePage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Back Button Label, name: backButtonLabel, widget: string }
+              - { label: Fallback Meta Title, name: fallbackMetaTitle, widget: string }
+              - { label: Fallback Meta Description, name: fallbackMetaDescription, widget: text }
+          - label: Contact State Page
+            name: contactStatePage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Consultation Button Label, name: consultationButtonLabel, widget: string }
+              - { label: Form Title Template, name: formTitleTemplate, widget: string }
+              - { label: Fallback Meta Title, name: fallbackMetaTitle, widget: string }
+              - { label: Fallback Meta Description, name: fallbackMetaDescription, widget: text }
+              - { label: Schema Section Label, name: schemaSectionLabel, widget: string }
+              - { label: Keyword Fallback, name: keywordFallback, widget: string }
+          - label: Home Archive Page
+            name: homeArchivePage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Count Label, name: countLabel, widget: string }
+              - { label: Library Button Label, name: libraryButtonLabel, widget: string }
+          - label: About Us Detail Page
+            name: aboutUsDetailPage
+            widget: object
+            fields:
+              - { label: Eyebrow Prefix, name: eyebrowPrefix, widget: string }
+              - { label: Hub Label, name: hubLabel, widget: string }
+              - { label: Fallback Meta Description, name: fallbackMetaDescription, widget: text }
+              - { label: Fallback Meta Title Template, name: fallbackMetaTitleTemplate, widget: string }
+          - label: About Brazil Sub Page
+            name: aboutBrazilSubPage
+            widget: object
+            fields:
+              - { label: About Brazil Label, name: aboutBrazilLabel, widget: string }
+              - { label: Hub Label, name: hubLabel, widget: string }
+              - { label: Back Label, name: backLabel, widget: string }
+              - { label: Browse Label, name: browseLabel, widget: string }
+              - { label: Pages Count Label, name: pagesCountLabel, widget: string }
+              - { label: Fallback Meta Description, name: fallbackMetaDescription, widget: text }
+              - { label: Schema Section Label, name: schemaSectionLabel, widget: string }
+              - { label: Keyword Fallback, name: keywordFallback, widget: string }
+              - label: Category
+                name: category
+                widget: object
+                fields:
+                  - label: Festivals
+                    name: festivals
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Subtitle, name: subtitle, widget: text }
+                  - label: Food
+                    name: food
+                    widget: object
+                    fields:
+                      - { label: Title, name: title, widget: string }
+                      - { label: Subtitle, name: subtitle, widget: text }
+          - label: About Brazil State Page
+            name: aboutBrazilStatePage
+            widget: object
+            fields:
+              - { label: Hub Label, name: hubLabel, widget: string }
+              - { label: Fallback Meta Description, name: fallbackMetaDescription, widget: text }
+              - { label: Fallback Meta Title Template, name: fallbackMetaTitleTemplate, widget: string }
+              - { label: Schema Section Label Prefix, name: schemaSectionLabelPrefix, widget: string }
+              - { label: Keyword Fallback, name: keywordFallback, widget: string }
+              - label: Category Label
+                name: categoryLabel
+                widget: object
+                fields:
+                  - { label: Festivals, name: festivals, widget: string }
+                  - { label: Food, name: food, widget: string }
+          - label: Contact Hub Page
+            name: contactHubPage
+            widget: object
+            fields:
+              - { label: Form Title, name: formTitle, widget: string }
+              - { label: Form Subtitle, name: formSubtitle, widget: text }
+              - { label: State Archive Title, name: stateArchiveTitle, widget: string }
+              - { label: State Archive Subtitle, name: stateArchiveSubtitle, widget: text }
+          - label: Visa Consultation Page
+            name: visaConsultationPage
+            widget: object
+            fields:
+              - label: Seo
+                name: seo
+                widget: object
+                fields:
+                  - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+                  - { label: Meta Description, name: metaDescription, widget: text }
+                  - label: Keywords
+                    name: keywords
+                    widget: list
+                    field: { label: Keyword, name: item, widget: string }
+                  - label: Faq
+                    name: faq
+                    widget: list
+                    fields:
+                      - { label: Question, name: question, widget: string }
+                      - { label: Answer, name: answer, widget: text }
+                  - { label: Internal Links Title, name: internalLinksTitle, widget: string }
+                  - label: Internal Links
+                    name: internalLinks
+                    widget: list
+                    fields:
+                      - { label: Href, name: href, widget: string }
+                      - { label: Label, name: label, widget: string }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Blocks
+                name: blocks
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Resources Guides Brazil Page
+            name: resourcesGuidesBrazilPage
+            widget: object
+            fields:
+              - label: Seo
+                name: seo
+                widget: object
+                fields:
+                  - { label: Meta Title Template, name: metaTitleTemplate, widget: string }
+                  - { label: Meta Description, name: metaDescription, widget: text }
+                  - label: Keywords
+                    name: keywords
+                    widget: list
+                    field: { label: Keyword, name: item, widget: string }
+                  - label: Faq
+                    name: faq
+                    widget: list
+                    fields:
+                      - { label: Question, name: question, widget: string }
+                      - { label: Answer, name: answer, widget: text }
+                  - { label: Internal Links Title, name: internalLinksTitle, widget: string }
+                  - label: Internal Links
+                    name: internalLinks
+                    widget: list
+                    fields:
+                      - { label: Href, name: href, widget: string }
+                      - { label: Label, name: label, widget: string }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+              - { label: Resource Count Label, name: resourceCountLabel, widget: string }
+              - { label: Discover Count Label, name: discoverCountLabel, widget: string }
+              - { label: Legacy Archive Title, name: legacyArchiveTitle, widget: string }
+              - { label: Legacy Archive Subtitle, name: legacyArchiveSubtitle, widget: text }
+          - label: Apply Brazil Page
+            name: applyBrazilPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Step Label, name: stepLabel, widget: string }
+              - label: Steps
+                name: steps
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+              - { label: Checklist Title, name: checklistTitle, widget: string }
+              - label: Checklist
+                name: checklist
+                widget: list
+                field: { label: Item, name: item, widget: string }
+              - { label: Button Label, name: buttonLabel, widget: string }
+          - label: Cost Of Living Brazil Page
+            name: costOfLivingBrazilPage
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Detail, name: detail, widget: text }
+          - label: Legacy Synthetic Document
+            name: legacySyntheticDocument
+            widget: object
+            fields:
+              - { label: Overview, name: overview, widget: string }
+              - { label: Next Steps, name: nextSteps, widget: string }
+              - { label: Fallback Description, name: fallbackDescription, widget: text }
+              - { label: Paragraph One, name: paragraphOne, widget: text }
+              - { label: Paragraph Two, name: paragraphTwo, widget: text }
+          - label: About Legacy Redesign Ui
+            name: aboutLegacyRedesignUi
+            widget: object
+            fields:
+              - { label: Key Points, name: keyPoints, widget: string }
+              - { label: Source Title, name: sourceTitle, widget: string }
+              - { label: Related Title, name: relatedTitle, widget: string }
+              - { label: Primary Cta, name: primaryCta, widget: string }
+              - { label: Secondary Cta, name: secondaryCta, widget: string }
+              - { label: Strategic Wrap Title, name: strategicWrapTitle, widget: string }
+              - { label: Strategic Wrap Body, name: strategicWrapBody, widget: text }
+          - label: About Us Signature Ui
+            name: aboutUsSignatureUi
+            widget: object
+            fields:
+              - { label: Pillars Title, name: pillarsTitle, widget: string }
+              - { label: Sections Title, name: sectionsTitle, widget: string }
+              - { label: Key Points, name: keyPoints, widget: string }
+              - { label: Related Title, name: relatedTitle, widget: string }
+              - { label: Primary Cta, name: primaryCta, widget: string }
+              - { label: Secondary Cta, name: secondaryCta, widget: string }
+              - { label: Framework Text, name: frameworkText, widget: text }
+          - label: Formspree Form
+            name: formspreeForm
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Phone, name: phone, widget: string }
+              - { label: Service, name: service, widget: string }
+              - { label: Message, name: message, widget: string }
+              - { label: Send, name: send, widget: string }
+              - { label: Sending, name: sending, widget: string }
+              - { label: Success, name: success, widget: string }
+              - { label: Failure, name: failure, widget: string }
+              - { label: Spam, name: spam, widget: string }
+              - label: Field Errors
+                name: fieldErrors
+                widget: object
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Email, name: email, widget: string }
+                  - { label: Message, name: message, widget: string }
+          - label: Legacy Ui
+            name: legacyUi
+            widget: object
+            fields:
+              - { label: Key Points Title, name: keyPointsTitle, widget: string }
+              - { label: Path Title, name: pathTitle, widget: string }
+              - { label: Related Pages Title, name: relatedPagesTitle, widget: string }
+              - { label: Explore Title, name: exploreTitle, widget: string }
+              - { label: Source Label, name: sourceLabel, widget: string }
+              - label: Explore Links
+                name: exploreLinks
+                widget: list
+                fields:
+                  - { label: Href, name: href, widget: string }
+                  - { label: Label, name: label, widget: string }
+          - label: Legacy Page Overrides
+            name: legacyPageOverrides
+            widget: list
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Source Path, name: sourcePath, widget: string }
+              - label: Sections
+                name: sections
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - label: Paragraphs
+                    name: paragraphs
+                    widget: list
+                    field: { label: Item, name: item, widget: text }
+              - label: Bullets
+                name: bullets
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: Policy Entries
+            name: policyEntries
+            widget: list
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                field: { label: Item, name: item, widget: text }
+
+  - name: site_settings
+    label: Site Settings
+    files:
+      - file: content/cms/settings/site-settings.json
+        label: Site Settings
+        name: site_settings
+        fields:
+          - label: Brand
+            name: brand
+            widget: object
+            fields:
+              - { label: Brand Name, name: name, widget: string }
+              - { label: Logo Alt Text, name: logoAlt, widget: string }
+              - { label: Logo Mark Path, name: logoMarkPath, widget: string }
+              - { label: Logo Full Path, name: logoFullPath, widget: string }
+              - { label: Logo Schema Path, name: logoSchemaPath, widget: string }
+              - { label: Open Graph Image Path, name: ogImagePath, widget: string }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Primary Email, name: primaryEmail, widget: string }
+              - { label: Consultation Email, name: consultationEmail, widget: string }
+              - { label: Client Email, name: clientEmail, widget: string }
+              - { label: WhatsApp Number, name: whatsappNumber, widget: string }
+              - { label: WhatsApp Link, name: whatsappLink, widget: string }
+              - { label: WhatsApp Profile Image, name: whatsappProfileImage, widget: string }
+              - { label: Formspree Endpoint, name: formspreeEndpoint, widget: string }
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Google Site Verification, name: googleSiteVerification, widget: string }
+
+  - name: legacy_overrides
+    label: Legacy Overrides
+    folder: content/cms/legacy-overrides
+    create: false
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: string
+      - label: Legacy UI
+        name: ui
+        widget: object
+        fields:
+          - { label: Key Points Title, name: keyPointsTitle, widget: string }
+          - { label: Path Title, name: pathTitle, widget: string }
+          - { label: Related Pages Title, name: relatedPagesTitle, widget: string }
+          - { label: Explore Title, name: exploreTitle, widget: string }
+          - { label: Source Label, name: sourceLabel, widget: string }
+          - label: Explore Links
+            name: exploreLinks
+            widget: list
+            min: 1
+            summary: '{{fields.label}}'
+            fields:
+              - { label: Href, name: href, widget: string }
+              - { label: Label, name: label, widget: string }
+      - label: Page Overrides
+        name: pages
+        widget: list
+        required: false
+        summary: '{{fields.slug}}'
+        fields:
+          - { label: Slug, name: slug, widget: string, hint: 'Route path without locale, e.g. blog/blog-sao-paulo' }
+          - { label: Title, name: title, required: false, widget: string }
+          - { label: Description, name: description, required: false, widget: text }
+          - { label: Heading, name: heading, required: false, widget: string }
+          - { label: Source Path Label, name: sourcePath, required: false, widget: string }
+          - { label: Hero Image Path, name: heroImage, required: false, widget: string }
+          - { label: Hero Image Alt, name: heroImageAlt, required: false, widget: string }
+          - label: Sections
+            name: sections
+            required: false
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                min: 1
+                field: { label: Paragraph, name: paragraph, widget: text }
+          - label: Bullets
+            name: bullets
+            required: false
+            widget: list
+            field: { label: Bullet, name: bullet, widget: string }
+
+  - name: rewrite_bank
+    label: Legacy Rewrite Bank
+    folder: content/cms/rewrite-bank
+    create: true
+    extension: md
+    format: frontmatter
+    slug: '{{locale}}-{{slug}}'
+    fields:
+      - label: Locale
+        name: locale
+        widget: select
+        options: ['en', 'es', 'pt', 'fr']
+      - label: Source Legacy Path
+        name: sourcePath
+        required: false
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Summary
+        name: summary
+        widget: text
+      - label: Ready To Publish
+        name: ready
+        widget: boolean
+        default: false
+      - label: Body
+        name: body
+        widget: markdown

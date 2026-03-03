@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "move-to-paula-freitas-parana-brazil",
+    "name": "Paula Freitas",
+    "state": "Paraná",
+    "region": "Southern",
+    "population": {
+      "year": 2020,
+      "value": 5908,
+      "source": "IBGE 2020 via Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paula_Freitas"
+    },
+    "timezone": "UTC-3 (BRT)",
+    "coordinates": {
+      "latitude": -26.2,
+      "longitude": -50.95,
+      "source": "Wikipedia"
+    },
+    "notable": [
+      "Hosts the Geophysics Research Campus Major Edsel de Freitas Coutinho focused on the South Atlantic Magnetic Anomaly"
+    ],
+    "datasets": [
+      {"provider": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Paula_Freitas"},
+      {"provider": "IBGE", "url": "https://cidades.ibge.gov.br/brasil/pr/paula-freitas/panorama"}
+    ]
+  }
+]

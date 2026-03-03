@@ -1,0 +1,29 @@
+{
+  "locale": "es",
+  "ui": {
+    "keyPointsTitle": "Puntos clave",
+    "pathTitle": "Ruta",
+    "relatedPagesTitle": "Paginas relacionadas",
+    "exploreTitle": "Explorar",
+    "sourceLabel": "Fuente",
+    "exploreLinks": [
+      {
+        "href": "/about/about-brazil",
+        "label": "Centro sobre Brasil"
+      },
+      {
+        "href": "/about/about-states",
+        "label": "Centro sobre Estados"
+      },
+      {
+        "href": "/services",
+        "label": "Archivo de servicios"
+      },
+      {
+        "href": "/library",
+        "label": "Biblioteca completa"
+      }
+    ]
+  },
+  "pages": []
+}

@@ -1,0 +1,205 @@
+{
+  "locale": "en",
+  "templates": {
+    "contact": {
+      "title": "Immigration contact for {{state}}",
+      "subtitle": "Strategic support for relocation profiles targeting {{state}} ({{region}}), with base operations centered on {{capital}}.",
+      "cards": [
+        {
+          "title": "Initial assessment",
+          "detail": "Profile review, immigration objective mapping, and document risk scoring."
+        },
+        {
+          "title": "State-level route",
+          "detail": "Execution plan aligned to {{state}} local operational realities."
+        },
+        {
+          "title": "Operational coordination",
+          "detail": "Checklist ownership, translation workflow, and filing timeline control."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Immigration FAQ for {{state}}",
+      "subtitle": "Frequent questions for planning, documentation, and legal regularization.",
+      "qa": [
+        {
+          "q": "Can I start the process before relocating to {{state}}?",
+          "a": "Yes. Document architecture and major preparation steps can be completed remotely."
+        },
+        {
+          "q": "How long does a typical case take?",
+          "a": "It depends on category, evidence quality, and authority timelines. We model a conservative schedule."
+        },
+        {
+          "q": "Do you provide post-arrival support?",
+          "a": "Yes. We cover CPF, immigration registration, and practical onboarding phases."
+        }
+      ]
+    },
+    "services": {
+      "title": "Services to immigrate to {{state}}",
+      "subtitle": "State migration pages rebuilt into the modern architecture with operational governance.",
+      "modules": [
+        {
+          "title": "Visa strategy",
+          "detail": "Eligibility mapping and legal route selection by profile."
+        },
+        {
+          "title": "Residency execution",
+          "detail": "End-to-end filing management and document quality control."
+        },
+        {
+          "title": "Local integration",
+          "detail": "Arrival and stabilization plan for living in {{state}}."
+        }
+      ]
+    },
+    "blog": {
+      "title": "Strategic relocation guide for {{state}}",
+      "subtitle": "State-focused legacy blog content for {{state}} migrated into the modern publishing architecture.",
+      "sections": [
+        {
+          "title": "Local context",
+          "detail": "Operational summary on cost, services, and onboarding dynamics in {{state}}."
+        },
+        {
+          "title": "Risk and opportunity map",
+          "detail": "What to validate before contract commitments or financial decisions."
+        },
+        {
+          "title": "Execution sequence",
+          "detail": "Practical order of operations for arrival, regularization, and stabilization."
+        }
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "slug": "bahia",
+      "blog": {
+        "title": "Bahia: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Bahia, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Bahia."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Bahia."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Bahia."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "minas-gerais",
+      "blog": {
+        "title": "Minas Gerais: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Minas Gerais, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Minas Gerais."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Minas Gerais."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Minas Gerais."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "parana",
+      "blog": {
+        "title": "Parana: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Parana, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Parana."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Parana."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Parana."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "blog": {
+        "title": "Rio de Janeiro: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Rio de Janeiro, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Rio de Janeiro."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Rio de Janeiro."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Rio de Janeiro."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "santa-catarina",
+      "blog": {
+        "title": "Santa Catarina: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Santa Catarina, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Santa Catarina."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Santa Catarina."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Santa Catarina."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "blog": {
+        "title": "Sao Paulo: immigration and relocation guide",
+        "subtitle": "Practical relocation strategy for Sao Paulo, with focus on legal setup, costs, and first 90 days.",
+        "sections": [
+          {
+            "title": "Local context",
+            "detail": "How housing, services, and onboarding work in Sao Paulo."
+          },
+          {
+            "title": "Risk and opportunity map",
+            "detail": "What to validate before signing contracts or committing capital in Sao Paulo."
+          },
+          {
+            "title": "Execution sequence",
+            "detail": "Step-by-step plan for arrival, legal setup, and first 90 days in Sao Paulo."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/10-success-stories",
+  "pathname": "/about/about-us/10-success-stories",
+  "sourcePath": "about/about-us/10-success-stories/index.html",
+  "title": "10 Real Client Success Stories: Immigration to Brazil | Immigrate t...",
+  "description": "Real journeys. Real outcomes. Real people.",
+  "heading": "Client Success Stories",
+  "heroImageAlt": "Client Success Stories",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Real journeys. Real outcomes. Real people."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Client Success Stories",
+      "paragraphs": [
+        "Replace the placeholders with real, anonymized client stories."
+      ]
+    },
+    {
+      "title": "Client success stories",
+      "paragraphs": [
+        "Below are representative case highlights showcasing the breadth of pathways we support and the outcomes we achieve."
+      ]
+    },
+    {
+      "title": "10 success stories",
+      "paragraphs": [
+        "Design Studio Founder",
+        "Family Reunification",
+        "Remote Product Manager",
+        "University Scholarship Student",
+        "Retiree Relocation",
+        "Engineering Specialist",
+        "Family Business Transfer",
+        "Healthcare Professional",
+        "Artist Residency",
+        "Regional Transfer",
+        "Pathway: Investment residency • Timeline: 7 months • Outcome: Business established in São Paulo with residency approval.",
+        "Pathway: Family reunification • Timeline: 5 months • Outcome: Spouse and two children approved and settled in Curitiba.",
+        "Pathway: Digital nomad • Timeline: 4 months • Outcome: Long-stay visa approved and CPF issued.",
+        "Pathway: Student visa • Timeline: 3 months • Outcome: Enrollment confirmed and visa granted.",
+        "Pathway: Retirement residency • Timeline: 6 months • Outcome: Proof-of-income approved and residency granted.",
+        "Pathway: Work visa • Timeline: 4 months • Outcome: Employer sponsorship approved and Federal Police registration completed.",
+        "Pathway: Business residency • Timeline: 8 months • Outcome: Legal entity established and visa approved.",
+        "Pathway: Work visa • Timeline: 6 months • Outcome: Credential validation and immigration approval.",
+        "Pathway: Cultural visa • Timeline: 3 months • Outcome: Performance contract and visa granted.",
+        "Pathway: Company transfer • Timeline: 5 months • Outcome: Residency approved and family settled in Recife."
+      ]
+    },
+    {
+      "title": "Start your success story",
+      "paragraphs": [
+        "We will help you choose the right pathway, build the documentation, and keep your timeline on track."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-success-stories"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "education",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "client success stories brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "10 success stories"
+    ],
+    "searchIntent": "informational",
+    "snippetAnswer": "Use this page to validate eligibility, prepare evidence, and plan next legal actions in Brazil."
+  }
+}

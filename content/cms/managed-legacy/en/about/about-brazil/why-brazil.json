@@ -1,0 +1,206 @@
+{
+  "locale": "en",
+  "slug": "about/about-brazil/why-brazil",
+  "pathname": "/about/about-brazil/why-brazil",
+  "sourcePath": "about/about-brazil/why-brazil/index.html",
+  "title": "Why Brazil? Legal Pathways, Lifestyle, and Opportunities | Immigrat...",
+  "description": "Legal pathways, lifestyle benefits, and a future you can build.",
+  "heading": "Why Brazil",
+  "heroImageAlt": "Why Brazil",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Legal pathways, lifestyle benefits, and a future you can build."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Why Brazil?",
+      "paragraphs": [
+        "Legal pathways, lifestyle advantages, and a future you can build."
+      ]
+    },
+    {
+      "title": "Legal pathways",
+      "paragraphs": [
+        "Work, study, family reunification, retirement, and investment options.",
+        "Clear requirements with official documentation standards.",
+        "Pathways for long-term residence and stability."
+      ]
+    },
+    {
+      "title": "Lifestyle and opportunity",
+      "paragraphs": [
+        "Quality of life",
+        "Business potential",
+        "Community",
+        "Access to diverse climates, culture, and regions.",
+        "Growing industries and investment opportunities.",
+        "Strong local communities and international networks."
+      ]
+    },
+    {
+      "title": "Plan your move to Brazil",
+      "paragraphs": [
+        "We will help you choose the right pathway and timeline."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started",
+    "Work, study, family reunification, retirement, and investment options.",
+    "Clear requirements with official documentation standards.",
+    "Pathways for long-term residence and stability."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-brazil/why-brazil"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "education",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "why brazil brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "why"
+    ],
+    "searchIntent": "informational",
+    "snippetAnswer": "Use this page to validate eligibility, prepare evidence, and plan next legal actions in Brazil."
+  }
+}

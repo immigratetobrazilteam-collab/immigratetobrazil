@@ -1,0 +1,229 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/10-reasons-choose-us",
+  "pathname": "/about/about-us/10-reasons-choose-us",
+  "sourcePath": "about/about-us/10-reasons-choose-us/index.html",
+  "title": "10 Reasons to Choose Us for Your Immigration to Brazil | Immigrate ...",
+  "description": "Clear reasons, real outcomes, and a proven process.",
+  "heading": "10 Reasons to Choose Us",
+  "heroImageAlt": "10 Reasons to Choose Us",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Clear reasons, real outcomes, and a proven process."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "10 Reasons to Choose Us",
+      "paragraphs": [
+        "Real immigration support across strategy, documentation, compliance, and settlement."
+      ]
+    },
+    {
+      "title": "The top 10 reasons",
+      "paragraphs": [
+        "1. Strategy first",
+        "2. Compliance built-in",
+        "3. Document precision",
+        "4. State-specific guidance",
+        "5. Transparent timelines",
+        "6. Human support",
+        "7. Arrival planning",
+        "8. Risk reduction",
+        "9. Long-term support",
+        "10. Clear accountability",
+        "We map the best pathway and realistic alternatives before you invest time or money.",
+        "Every checklist is aligned to official consular and Federal Police standards.",
+        "Translations, legalizations, and proof packages prepared to avoid delays.",
+        "Local procedures vary. We prepare you for your exact city and state.",
+        "We set realistic expectations and provide checkpoint schedules.",
+        "You get a real team that answers questions and resolves issues.",
+        "We assist with CPF, registration, housing, and banking.",
+        "We identify common mistakes and remove them from your process.",
+        "Renewals, changes, and family additions remain covered.",
+        "We document what we do and what you need to do."
+      ]
+    },
+    {
+      "title": "What you get with us",
+      "paragraphs": [
+        "Visa pathway selection",
+        "Document readiness",
+        "Appointments",
+        "Relocation support",
+        "Eligibility screening and pathway matching.",
+        "Translation, legalization, and proof review.",
+        "Consular and Federal Police guidance.",
+        "Housing, banking, and healthcare guidance."
+      ]
+    },
+    {
+      "title": "FAQ",
+      "paragraphs": [
+        "No. We guarantee thorough preparation and honest guidance.",
+        "Yes. We support CPF registration, banking, and compliance steps."
+      ]
+    },
+    {
+      "title": "Ready to start?",
+      "paragraphs": [
+        "Get a clear plan and confident execution."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/10-reasons-choose-us"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "education",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "10 reasons to choose us brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "10 reasons choose us"
+    ],
+    "searchIntent": "informational",
+    "snippetAnswer": "Use this page to validate eligibility, prepare evidence, and plan next legal actions in Brazil."
+  }
+}

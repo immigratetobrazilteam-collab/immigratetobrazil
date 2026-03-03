@@ -1,0 +1,3508 @@
+{
+  "locale": "en",
+  "generatedAt": "2026-02-27T17:26:22.141Z",
+  "pageCount": 5441,
+  "statePages": [
+    {
+      "slug": "brazilian-states/ac",
+      "pathname": "/discover/brazilian-states/ac",
+      "title": "Immigrate to Acre",
+      "heroIntro": "Your Gateway to Acre, Brazil",
+      "sourcePath": "discover/brazilian-states/ac/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ac"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/al",
+      "pathname": "/discover/brazilian-states/al",
+      "title": "Welcome to Alagoas",
+      "heroIntro": "Your Gateway to Alagoas, Brazil",
+      "sourcePath": "discover/brazilian-states/al/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "al"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/am",
+      "pathname": "/discover/brazilian-states/am",
+      "title": "Amazonas Immigration",
+      "heroIntro": "Your Gateway to Amazonas, Brazil",
+      "sourcePath": "discover/brazilian-states/am/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "am"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ap",
+      "pathname": "/discover/brazilian-states/ap",
+      "title": "Immigrate to Amapá",
+      "heroIntro": "Your Gateway to Amapá, Brazil",
+      "sourcePath": "discover/brazilian-states/ap/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ap"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ba",
+      "pathname": "/discover/brazilian-states/ba",
+      "title": "Immigrate to Bahia",
+      "heroIntro": "Your Gateway to Bahia, Brazil",
+      "sourcePath": "discover/brazilian-states/ba/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ba"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ce",
+      "pathname": "/discover/brazilian-states/ce",
+      "title": "Your Journey to Ceará",
+      "heroIntro": "Your Gateway to Ceará, Brazil",
+      "sourcePath": "discover/brazilian-states/ce/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ce"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/df",
+      "pathname": "/discover/brazilian-states/df",
+      "title": "Immigrate to Distrito Federal",
+      "heroIntro": "Your Gateway to Distrito Federal, Brazil",
+      "sourcePath": "discover/brazilian-states/df/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "df"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/es",
+      "pathname": "/discover/brazilian-states/es",
+      "title": "Immigrate to Espírito Santo",
+      "heroIntro": "Your Gateway to Espírito Santo, Brazil",
+      "sourcePath": "discover/brazilian-states/es/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "es"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/go",
+      "pathname": "/discover/brazilian-states/go",
+      "title": "Immigrate to Goiás",
+      "heroIntro": "Your Gateway to Goiás, Brazil",
+      "sourcePath": "discover/brazilian-states/go/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "go"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ma",
+      "pathname": "/discover/brazilian-states/ma",
+      "title": "Immigrate to Maranhão",
+      "heroIntro": "Your Gateway to Maranhão, Brazil",
+      "sourcePath": "discover/brazilian-states/ma/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ma"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/mg",
+      "pathname": "/discover/brazilian-states/mg",
+      "title": "Immigrate to Minas Gerais",
+      "heroIntro": "Your Gateway to Minas Gerais, Brazil",
+      "sourcePath": "discover/brazilian-states/mg/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "mg"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ms",
+      "pathname": "/discover/brazilian-states/ms",
+      "title": "Immigrate to Mato Grosso do Sul",
+      "heroIntro": "Your Gateway to Mato Grosso do Sul, Brazil",
+      "sourcePath": "discover/brazilian-states/ms/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ms"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/mt",
+      "pathname": "/discover/brazilian-states/mt",
+      "title": "Immigrate to Mato Grosso",
+      "heroIntro": "Your Gateway to Mato Grosso, Brazil",
+      "sourcePath": "discover/brazilian-states/mt/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "mt"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/pa",
+      "pathname": "/discover/brazilian-states/pa",
+      "title": "Immigrate to Pará",
+      "heroIntro": "Your Gateway to Pará, Brazil",
+      "sourcePath": "discover/brazilian-states/pa/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "pa"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/pb",
+      "pathname": "/discover/brazilian-states/pb",
+      "title": "Immigrate to Paraíba",
+      "heroIntro": "Your Gateway to Paraíba, Brazil",
+      "sourcePath": "discover/brazilian-states/pb/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "pb"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/pe",
+      "pathname": "/discover/brazilian-states/pe",
+      "title": "Immigrate to Pernambuco",
+      "heroIntro": "Your Gateway to Pernambuco, Brazil",
+      "sourcePath": "discover/brazilian-states/pe/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "pe"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/pi",
+      "pathname": "/discover/brazilian-states/pi",
+      "title": "Immigrate to Piauí",
+      "heroIntro": "Your Gateway to Piauí, Brazil",
+      "sourcePath": "discover/brazilian-states/pi/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "pi"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/pr",
+      "pathname": "/discover/brazilian-states/pr",
+      "title": "Immigrate to Paraná",
+      "heroIntro": "Your Gateway to Paraná, Brazil",
+      "sourcePath": "discover/brazilian-states/pr/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "pr"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/rj",
+      "pathname": "/discover/brazilian-states/rj",
+      "title": "Immigrate to Rio de Janeiro",
+      "heroIntro": "Your Gateway to Rio de Janeiro, Brazil",
+      "sourcePath": "discover/brazilian-states/rj/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "rj"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/rn",
+      "pathname": "/discover/brazilian-states/rn",
+      "title": "Immigrate to Rio Grande do Norte",
+      "heroIntro": "Your Gateway to Rio Grande do Norte, Brazil",
+      "sourcePath": "discover/brazilian-states/rn/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "rn"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/ro",
+      "pathname": "/discover/brazilian-states/ro",
+      "title": "Immigrate to Rondônia",
+      "heroIntro": "Your Gateway to Rondônia, Brazil",
+      "sourcePath": "discover/brazilian-states/ro/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "ro"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/rr",
+      "pathname": "/discover/brazilian-states/rr",
+      "title": "Immigrate to Roraima",
+      "heroIntro": "Your Gateway to Roraima, Brazil",
+      "sourcePath": "discover/brazilian-states/rr/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "rr"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/rs",
+      "pathname": "/discover/brazilian-states/rs",
+      "title": "Immigrate to Rio Grande do Sul",
+      "heroIntro": "Your Gateway to Rio Grande do Sul, Brazil",
+      "sourcePath": "discover/brazilian-states/rs/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "rs"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/sc",
+      "pathname": "/discover/brazilian-states/sc",
+      "title": "Immigrate to Santa Catarina",
+      "heroIntro": "Your Gateway to Santa Catarina, Brazil",
+      "sourcePath": "discover/brazilian-states/sc/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "sc"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/se",
+      "pathname": "/discover/brazilian-states/se",
+      "title": "Immigrate to Sergipe",
+      "heroIntro": "Your Gateway to Sergipe, Brazil",
+      "sourcePath": "discover/brazilian-states/se/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "se"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/sp",
+      "pathname": "/discover/brazilian-states/sp",
+      "title": "Immigrate to São Paulo",
+      "heroIntro": "Your Gateway to São Paulo, Brazil",
+      "sourcePath": "discover/brazilian-states/sp/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "sp"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    },
+    {
+      "slug": "brazilian-states/to",
+      "pathname": "/discover/brazilian-states/to",
+      "title": "Immigrate to Tocantins",
+      "heroIntro": "Your Gateway to Tocantins, Brazil",
+      "sourcePath": "discover/brazilian-states/to/index.html",
+      "taxonomy": {
+        "type": "state-overview",
+        "depth": 2,
+        "segments": [
+          "brazilian-states",
+          "to"
+        ]
+      },
+      "sectionCount": 15,
+      "faqCount": 20
+    }
+  ],
+  "citySamples": [
+    {
+      "slug": "brazilian-regions/central-west-region/distrito-federal/move-to-brasilia-the-federal-district-functions-as-a-single-municipality-distrito-federal-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/distrito-federal/move-to-brasilia-the-federal-district-functions-as-a-single-municipality-distrito-federal-brazil",
+      "title": "Move to Brasília, Distrito Federal",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Brasília.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/distrito-federal/move-to-brasilia-the-federal-district-functions-as-a-single-municipality-distrito-federal-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "distrito-federal",
+          "move-to-brasilia-the-federal-district-functions-as-a-single-municipality-distrito-federal-brazil"
+        ]
+      },
+      "sectionCount": 14,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-abadia-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-abadia-de-goias-goias-brazil",
+      "title": "Move to Abadia de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Abadia de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-abadia-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-abadia-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-abadiania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-abadiania-goias-brazil",
+      "title": "Move to Abadiânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Abadiânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-abadiania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-abadiania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-acreuna-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-acreuna-goias-brazil",
+      "title": "Move to Acreúna, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Acreúna.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-acreuna-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-acreuna-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-adelandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-adelandia-goias-brazil",
+      "title": "Move to Adelândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Adelândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-adelandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-adelandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-agua-fria-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-agua-fria-de-goias-goias-brazil",
+      "title": "Move to Água Fria de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Água Fria de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-agua-fria-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-agua-fria-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aguas-lindas-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aguas-lindas-de-goias-goias-brazil",
+      "title": "Move to Águas Lindas de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Águas Lindas de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aguas-lindas-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aguas-lindas-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-alexania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-alexania-goias-brazil",
+      "title": "Move to Alexânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Alexânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-alexania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-alexania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aloandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aloandia-goias-brazil",
+      "title": "Move to Aloândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aloândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aloandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aloandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-alto-horizonte-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-alto-horizonte-goias-brazil",
+      "title": "Move to Alto Horizonte, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Alto Horizonte.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-alto-horizonte-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-alto-horizonte-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-alto-paraiso-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-alto-paraiso-de-goias-goias-brazil",
+      "title": "Move to Alto Paraíso de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Alto Paraíso de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-alto-paraiso-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-alto-paraiso-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-alvorada-do-norte-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-alvorada-do-norte-goias-brazil",
+      "title": "Move to Alvorada do Norte, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Alvorada do Norte.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-alvorada-do-norte-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-alvorada-do-norte-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-amaralina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-amaralina-goias-brazil",
+      "title": "Move to Amaralina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Amaralina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-amaralina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-amaralina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-americano-do-brasil-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-americano-do-brasil-goias-brazil",
+      "title": "Move to Americano do Brasil, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Americano do Brasil.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-americano-do-brasil-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-americano-do-brasil-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-amorinopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-amorinopolis-goias-brazil",
+      "title": "Move to Amorinópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Amorinópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-amorinopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-amorinopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-anapolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-anapolis-goias-brazil",
+      "title": "Move to Anápolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Anápolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-anapolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-anapolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-anhanguera-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-anhanguera-goias-brazil",
+      "title": "Move to Anhanguera, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Anhanguera.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-anhanguera-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-anhanguera-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-anicuns-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-anicuns-goias-brazil",
+      "title": "Move to Anicuns, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Anicuns.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-anicuns-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-anicuns-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aparecida-de-goiania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aparecida-de-goiania-goias-brazil",
+      "title": "Move to Aparecida de Goiânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aparecida de Goiânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aparecida-de-goiania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aparecida-de-goiania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aparecida-do-rio-doce-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aparecida-do-rio-doce-goias-brazil",
+      "title": "Move to Aparecida do Rio Doce, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aparecida do Rio Doce.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aparecida-do-rio-doce-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aparecida-do-rio-doce-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-apore-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-apore-goias-brazil",
+      "title": "Move to Aporé, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aporé.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-apore-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-apore-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aracu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aracu-goias-brazil",
+      "title": "Move to Araçu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Araçu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aracu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aracu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aragarcas-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aragarcas-goias-brazil",
+      "title": "Move to Aragarças, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aragarças.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aragarcas-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aragarcas-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aragoiania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aragoiania-goias-brazil",
+      "title": "Move to Aragoiânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aragoiânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aragoiania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aragoiania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-araguapaz-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-araguapaz-goias-brazil",
+      "title": "Move to Araguapaz, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Araguapaz.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-araguapaz-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-araguapaz-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-arenopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-arenopolis-goias-brazil",
+      "title": "Move to Arenópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Arenópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-arenopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-arenopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aruana-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aruana-goias-brazil",
+      "title": "Move to Aruanã, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aruanã.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aruana-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aruana-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-aurilandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-aurilandia-goias-brazil",
+      "title": "Move to Aurilândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Aurilândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-aurilandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-aurilandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-avelinopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-avelinopolis-goias-brazil",
+      "title": "Move to Avelinópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Avelinópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-avelinopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-avelinopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-baliza-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-baliza-goias-brazil",
+      "title": "Move to Baliza, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Baliza.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-baliza-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-baliza-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-barro-alto-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-barro-alto-goias-brazil",
+      "title": "Move to Barro Alto, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Barro Alto.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-barro-alto-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-barro-alto-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-bela-vista-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-bela-vista-de-goias-goias-brazil",
+      "title": "Move to Bela Vista de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Bela Vista de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-bela-vista-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-bela-vista-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-bom-jardim-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-bom-jardim-de-goias-goias-brazil",
+      "title": "Move to Bom Jardim de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Bom Jardim de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-bom-jardim-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-bom-jardim-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-bom-jesus-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-bom-jesus-de-goias-goias-brazil",
+      "title": "Move to Bom Jesus de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Bom Jesus de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-bom-jesus-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-bom-jesus-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-bonfinopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-bonfinopolis-goias-brazil",
+      "title": "Move to Bonfinópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Bonfinópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-bonfinopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-bonfinopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-bonopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-bonopolis-goias-brazil",
+      "title": "Move to Bonópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Bonópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-bonopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-bonopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-brazabrantes-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-brazabrantes-goias-brazil",
+      "title": "Move to Brazabrantes, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Brazabrantes.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-brazabrantes-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-brazabrantes-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-britania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-britania-goias-brazil",
+      "title": "Move to Britânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Britânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-britania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-britania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-buriti-alegre-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-buriti-alegre-goias-brazil",
+      "title": "Move to Buriti Alegre, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Buriti Alegre.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-buriti-alegre-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-buriti-alegre-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-buriti-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-buriti-de-goias-goias-brazil",
+      "title": "Move to Buriti de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Buriti de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-buriti-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-buriti-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-buritinopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-buritinopolis-goias-brazil",
+      "title": "Move to Buritinópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Buritinópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-buritinopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-buritinopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cabeceiras-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cabeceiras-goias-brazil",
+      "title": "Move to Cabeceiras, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cabeceiras.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cabeceiras-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cabeceiras-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cachoeira-alta-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-alta-goias-brazil",
+      "title": "Move to Cachoeira Alta, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cachoeira Alta.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-alta-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cachoeira-alta-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cachoeira-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-de-goias-goias-brazil",
+      "title": "Move to Cachoeira de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cachoeira de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cachoeira-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cachoeira-dourada-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-dourada-goias-brazil",
+      "title": "Move to Cachoeira Dourada, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cachoeira Dourada.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cachoeira-dourada-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cachoeira-dourada-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cacu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cacu-goias-brazil",
+      "title": "Move to Caçu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Caçu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cacu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cacu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-caiaponia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-caiaponia-goias-brazil",
+      "title": "Move to Caiapônia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Caiapônia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-caiaponia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-caiaponia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-caldas-novas-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-caldas-novas-goias-brazil",
+      "title": "Move to Caldas Novas, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Caldas Novas.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-caldas-novas-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-caldas-novas-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-caldazinha-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-caldazinha-goias-brazil",
+      "title": "Move to Caldazinha, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Caldazinha.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-caldazinha-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-caldazinha-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campestre-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campestre-de-goias-goias-brazil",
+      "title": "Move to Campestre de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campestre de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campestre-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campestre-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campinacu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campinacu-goias-brazil",
+      "title": "Move to Campinaçu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campinaçu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campinacu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campinacu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campinorte-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campinorte-goias-brazil",
+      "title": "Move to Campinorte, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campinorte.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campinorte-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campinorte-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campo-alegre-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campo-alegre-de-goias-goias-brazil",
+      "title": "Move to Campo Alegre de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campo Alegre de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campo-alegre-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campo-alegre-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campo-limpo-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campo-limpo-de-goias-goias-brazil",
+      "title": "Move to Campo Limpo de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campo Limpo de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campo-limpo-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campo-limpo-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campos-belos-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campos-belos-goias-brazil",
+      "title": "Move to Campos Belos, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campos Belos.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campos-belos-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campos-belos-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-campos-verdes-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-campos-verdes-goias-brazil",
+      "title": "Move to Campos Verdes, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Campos Verdes.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-campos-verdes-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-campos-verdes-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-carmo-do-rio-verde-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-carmo-do-rio-verde-goias-brazil",
+      "title": "Move to Carmo do Rio Verde, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Carmo do Rio Verde.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-carmo-do-rio-verde-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-carmo-do-rio-verde-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-castelandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-castelandia-goias-brazil",
+      "title": "Move to Castelândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Castelândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-castelandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-castelandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-catalao-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-catalao-goias-brazil",
+      "title": "Move to Catalão, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Catalão.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-catalao-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-catalao-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-caturai-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-caturai-goias-brazil",
+      "title": "Move to Caturaí, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Caturaí.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-caturai-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-caturai-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cavalcante-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cavalcante-goias-brazil",
+      "title": "Move to Cavalcante, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cavalcante.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cavalcante-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cavalcante-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-ceres-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-ceres-goias-brazil",
+      "title": "Move to Ceres, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Ceres.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-ceres-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-ceres-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cezarina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cezarina-goias-brazil",
+      "title": "Move to Cezarina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cezarina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cezarina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cezarina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-chapadao-do-ceu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-chapadao-do-ceu-goias-brazil",
+      "title": "Move to Chapadão do Céu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Chapadão do Céu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-chapadao-do-ceu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-chapadao-do-ceu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cidade-ocidental-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cidade-ocidental-goias-brazil",
+      "title": "Move to Cidade Ocidental, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cidade Ocidental.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cidade-ocidental-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cidade-ocidental-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cocalzinho-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cocalzinho-de-goias-goias-brazil",
+      "title": "Move to Cocalzinho de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cocalzinho de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cocalzinho-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cocalzinho-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-colinas-do-sul-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-colinas-do-sul-goias-brazil",
+      "title": "Move to Colinas do Sul, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Colinas do Sul.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-colinas-do-sul-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-colinas-do-sul-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-corrego-do-ouro-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-corrego-do-ouro-goias-brazil",
+      "title": "Move to Córrego do Ouro, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Córrego do Ouro.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-corrego-do-ouro-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-corrego-do-ouro-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-corumba-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-corumba-de-goias-goias-brazil",
+      "title": "Move to Corumbá de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Corumbá de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-corumba-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-corumba-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-corumbaiba-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-corumbaiba-goias-brazil",
+      "title": "Move to Corumbaíba, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Corumbaíba.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-corumbaiba-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-corumbaiba-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cristalina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cristalina-goias-brazil",
+      "title": "Move to Cristalina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cristalina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cristalina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cristalina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cristianopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cristianopolis-goias-brazil",
+      "title": "Move to Cristianópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cristianópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cristianopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cristianopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-crixas-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-crixas-goias-brazil",
+      "title": "Move to Crixás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Crixás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-crixas-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-crixas-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-crominia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-crominia-goias-brazil",
+      "title": "Move to Cromínia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cromínia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-crominia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-crominia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-cumari-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-cumari-goias-brazil",
+      "title": "Move to Cumari, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Cumari.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-cumari-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-cumari-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-damianopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-damianopolis-goias-brazil",
+      "title": "Move to Damianópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Damianópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-damianopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-damianopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-damolandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-damolandia-goias-brazil",
+      "title": "Move to Damolândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Damolândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-damolandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-damolandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-davinopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-davinopolis-goias-brazil",
+      "title": "Move to Davinópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Davinópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-davinopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-davinopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-diorama-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-diorama-goias-brazil",
+      "title": "Move to Diorama, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Diorama.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-diorama-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-diorama-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-divinopolis-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-divinopolis-de-goias-goias-brazil",
+      "title": "Move to Divinópolis de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Divinópolis de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-divinopolis-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-divinopolis-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-doverlandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-doverlandia-goias-brazil",
+      "title": "Move to Doverlândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Doverlândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-doverlandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-doverlandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-edealina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-edealina-goias-brazil",
+      "title": "Move to Edealina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Edealina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-edealina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-edealina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-edeia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-edeia-goias-brazil",
+      "title": "Move to Edéia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Edéia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-edeia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-edeia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-estrela-do-norte-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-estrela-do-norte-goias-brazil",
+      "title": "Move to Estrela do Norte, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Estrela do Norte.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-estrela-do-norte-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-estrela-do-norte-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-faina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-faina-goias-brazil",
+      "title": "Move to Faina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Faina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-faina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-faina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-fazenda-nova-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-fazenda-nova-goias-brazil",
+      "title": "Move to Fazenda Nova, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Fazenda Nova.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-fazenda-nova-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-fazenda-nova-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-firminopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-firminopolis-goias-brazil",
+      "title": "Move to Firminópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Firminópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-firminopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-firminopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-flores-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-flores-de-goias-goias-brazil",
+      "title": "Move to Flores de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Flores de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-flores-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-flores-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-formosa-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-formosa-goias-brazil",
+      "title": "Move to Formosa, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Formosa.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-formosa-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-formosa-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-formoso-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-formoso-goias-brazil",
+      "title": "Move to Formoso, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Formoso.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-formoso-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-formoso-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-gameleira-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-gameleira-de-goias-goias-brazil",
+      "title": "Move to Gameleira de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Gameleira de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-gameleira-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-gameleira-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goianapolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goianapolis-goias-brazil",
+      "title": "Move to Goianápolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goianápolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goianapolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goianapolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goiandira-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goiandira-goias-brazil",
+      "title": "Move to Goiandira, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goiandira.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goiandira-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goiandira-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goianesia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goianesia-goias-brazil",
+      "title": "Move to Goianésia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goianésia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goianesia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goianesia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goiania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goiania-goias-brazil",
+      "title": "Move to Goiânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goiânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goiania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goiania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goianira-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goianira-goias-brazil",
+      "title": "Move to Goianira, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goianira.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goianira-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goianira-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goias-goias-brazil",
+      "title": "Move to Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-goiatuba-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-goiatuba-goias-brazil",
+      "title": "Move to Goiatuba, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Goiatuba.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-goiatuba-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-goiatuba-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-gouvelandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-gouvelandia-goias-brazil",
+      "title": "Move to Gouvelândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Gouvelândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-gouvelandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-gouvelandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-guapo-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-guapo-goias-brazil",
+      "title": "Move to Guapó, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Guapó.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-guapo-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-guapo-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-guaraita-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-guaraita-goias-brazil",
+      "title": "Move to Guaraíta, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Guaraíta.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-guaraita-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-guaraita-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-guarani-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-guarani-de-goias-goias-brazil",
+      "title": "Move to Guarani de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Guarani de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-guarani-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-guarani-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-guarinos-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-guarinos-goias-brazil",
+      "title": "Move to Guarinos, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Guarinos.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-guarinos-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-guarinos-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-heitorai-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-heitorai-goias-brazil",
+      "title": "Move to Heitoraí, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Heitoraí.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-heitorai-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-heitorai-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-hidrolandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-hidrolandia-goias-brazil",
+      "title": "Move to Hidrolândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Hidrolândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-hidrolandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-hidrolandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-hidrolina-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-hidrolina-goias-brazil",
+      "title": "Move to Hidrolina, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Hidrolina.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-hidrolina-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-hidrolina-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-iaciara-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-iaciara-goias-brazil",
+      "title": "Move to Iaciara, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Iaciara.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-iaciara-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-iaciara-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-inaciolandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-inaciolandia-goias-brazil",
+      "title": "Move to Inaciolândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Inaciolândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-inaciolandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-inaciolandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-indiara-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-indiara-goias-brazil",
+      "title": "Move to Indiara, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Indiara.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-indiara-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-indiara-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-inhumas-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-inhumas-goias-brazil",
+      "title": "Move to Inhumas, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Inhumas.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-inhumas-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-inhumas-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-ipameri-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-ipameri-goias-brazil",
+      "title": "Move to Ipameri, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Ipameri.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-ipameri-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-ipameri-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-ipiranga-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-ipiranga-de-goias-goias-brazil",
+      "title": "Move to Ipiranga de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Ipiranga de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-ipiranga-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-ipiranga-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-ipora-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-ipora-goias-brazil",
+      "title": "Move to Iporá, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Iporá.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-ipora-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-ipora-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-israelandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-israelandia-goias-brazil",
+      "title": "Move to Israelândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Israelândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-israelandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-israelandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaberai-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaberai-goias-brazil",
+      "title": "Move to Itaberaí, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itaberaí.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaberai-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaberai-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaguari-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaguari-goias-brazil",
+      "title": "Move to Itaguari, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itaguari.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaguari-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaguari-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaguaru-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaguaru-goias-brazil",
+      "title": "Move to Itaguaru, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itaguaru.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaguaru-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaguaru-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaja-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaja-goias-brazil",
+      "title": "Move to Itajá, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itajá.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaja-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaja-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itapaci-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itapaci-goias-brazil",
+      "title": "Move to Itapaci, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itapaci.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itapaci-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itapaci-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itapirapua-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itapirapua-goias-brazil",
+      "title": "Move to Itapirapuã, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itapirapuã.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itapirapua-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itapirapua-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itapuranga-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itapuranga-goias-brazil",
+      "title": "Move to Itapuranga, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itapuranga.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itapuranga-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itapuranga-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaruma-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaruma-goias-brazil",
+      "title": "Move to Itarumã, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itarumã.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaruma-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaruma-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itaucu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itaucu-goias-brazil",
+      "title": "Move to Itauçu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itauçu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itaucu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itaucu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-itumbiara-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-itumbiara-goias-brazil",
+      "title": "Move to Itumbiara, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Itumbiara.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-itumbiara-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-itumbiara-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-ivolandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-ivolandia-goias-brazil",
+      "title": "Move to Ivolândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Ivolândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-ivolandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-ivolandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jandaia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jandaia-goias-brazil",
+      "title": "Move to Jandaia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jandaia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jandaia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jandaia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jaragua-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jaragua-goias-brazil",
+      "title": "Move to Jaraguá, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jaraguá.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jaragua-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jaragua-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jatai-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jatai-goias-brazil",
+      "title": "Move to Jataí, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jataí.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jatai-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jatai-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jaupaci-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jaupaci-goias-brazil",
+      "title": "Move to Jaupaci, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jaupaci.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jaupaci-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jaupaci-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jesupolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jesupolis-goias-brazil",
+      "title": "Move to Jesúpolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jesúpolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jesupolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jesupolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-joviania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-joviania-goias-brazil",
+      "title": "Move to Joviânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Joviânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-joviania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-joviania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-jussara-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-jussara-goias-brazil",
+      "title": "Move to Jussara, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Jussara.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-jussara-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-jussara-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-lagoa-santa-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-lagoa-santa-goias-brazil",
+      "title": "Move to Lagoa Santa, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Lagoa Santa.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-lagoa-santa-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-lagoa-santa-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-leopoldo-de-bulhoes-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-leopoldo-de-bulhoes-goias-brazil",
+      "title": "Move to Leopoldo de Bulhões, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Leopoldo de Bulhões.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-leopoldo-de-bulhoes-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-leopoldo-de-bulhoes-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-luziania-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-luziania-goias-brazil",
+      "title": "Move to Luziânia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Luziânia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-luziania-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-luziania-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mambai-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mambai-goias-brazil",
+      "title": "Move to Mambaí, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mambaí.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mambai-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mambai-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mara-rosa-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mara-rosa-goias-brazil",
+      "title": "Move to Mara Rosa, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mara Rosa.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mara-rosa-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mara-rosa-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-marzagao-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-marzagao-goias-brazil",
+      "title": "Move to Marzagão, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Marzagão.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-marzagao-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-marzagao-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-matrincha-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-matrincha-goias-brazil",
+      "title": "Move to Matrinchã, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Matrinchã.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-matrincha-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-matrincha-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mimoso-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mimoso-de-goias-goias-brazil",
+      "title": "Move to Mimoso de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mimoso de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mimoso-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mimoso-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-minacu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-minacu-goias-brazil",
+      "title": "Move to Minaçu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Minaçu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-minacu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-minacu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mineiros-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mineiros-goias-brazil",
+      "title": "Move to Mineiros, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mineiros.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mineiros-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mineiros-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-moipora-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-moipora-goias-brazil",
+      "title": "Move to Moiporá, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Moiporá.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-moipora-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-moipora-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-monte-alegre-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-monte-alegre-de-goias-goias-brazil",
+      "title": "Move to Monte Alegre de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Monte Alegre de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-monte-alegre-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-monte-alegre-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-montes-claros-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-montes-claros-de-goias-goias-brazil",
+      "title": "Move to Montes Claros de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Montes Claros de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-montes-claros-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-montes-claros-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-montividiu-do-norte-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-montividiu-do-norte-goias-brazil",
+      "title": "Move to Montividiu do Norte, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Montividiu do Norte.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-montividiu-do-norte-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-montividiu-do-norte-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-montividiu-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-montividiu-goias-brazil",
+      "title": "Move to Montividiu, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Montividiu.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-montividiu-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-montividiu-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-morrinhos-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-morrinhos-goias-brazil",
+      "title": "Move to Morrinhos, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Morrinhos.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-morrinhos-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-morrinhos-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-morro-agudo-de-goias-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-morro-agudo-de-goias-goias-brazil",
+      "title": "Move to Morro Agudo de Goiás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Morro Agudo de Goiás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-morro-agudo-de-goias-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-morro-agudo-de-goias-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mossamedes-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mossamedes-goias-brazil",
+      "title": "Move to Mossâmedes, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mossâmedes.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mossamedes-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mossamedes-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mozarlandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mozarlandia-goias-brazil",
+      "title": "Move to Mozarlândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mozarlândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mozarlandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mozarlandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mundo-novo-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mundo-novo-goias-brazil",
+      "title": "Move to Mundo Novo, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mundo Novo.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mundo-novo-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mundo-novo-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-mutunopolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-mutunopolis-goias-brazil",
+      "title": "Move to Mutunópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Mutunópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-mutunopolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-mutunopolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-nazario-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-nazario-goias-brazil",
+      "title": "Move to Nazário, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nazário.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-nazario-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-nazario-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-neropolis-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-neropolis-goias-brazil",
+      "title": "Move to Nerópolis, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nerópolis.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-neropolis-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-neropolis-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-niquelandia-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-niquelandia-goias-brazil",
+      "title": "Move to Niquelândia, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Niquelândia.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-niquelandia-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-niquelandia-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-nova-america-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-nova-america-goias-brazil",
+      "title": "Move to Nova América, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nova América.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-nova-america-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-nova-america-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-nova-aurora-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-nova-aurora-goias-brazil",
+      "title": "Move to Nova Aurora, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nova Aurora.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-nova-aurora-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-nova-aurora-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-nova-crixas-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-nova-crixas-goias-brazil",
+      "title": "Move to Nova Crixás, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nova Crixás.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-nova-crixas-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-nova-crixas-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    },
+    {
+      "slug": "brazilian-regions/central-west-region/goias/move-to-nova-gloria-goias-brazil",
+      "pathname": "/discover/brazilian-regions/central-west-region/goias/move-to-nova-gloria-goias-brazil",
+      "title": "Move to Nova Glória, Goiás",
+      "heroIntro": "Visa, residency, housing, and daily-life guidance tailored for Nova Glória.",
+      "sourcePath": "discover/brazilian-regions/central-west-region/goias/move-to-nova-gloria-goias-brazil/index.html",
+      "taxonomy": {
+        "type": "region-city",
+        "depth": 4,
+        "segments": [
+          "brazilian-regions",
+          "central-west-region",
+          "goias",
+          "move-to-nova-gloria-goias-brazil"
+        ]
+      },
+      "sectionCount": 32,
+      "faqCount": 0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "0.2",
+  "language": "en,pt,es,fr",
+  "allowCompoundWords": true,
+  "dictionaries": [
+    "en_US",
+    "pt_BR",
+    "es_ES",
+    "fr_FR"
+  ],
+  "ignorePaths": [
+    "_legacy_deleted_staging/**",
+    "content/cms/**",
+    "html-files-tree.txt",
+    "artifacts/**",
+    ".next/**",
+    ".open-next/**",
+    "sitemap.xml",
+    "package-lock.json",
+    "node_modules/**"
+  ],
+  "words": [
+    "Acre",
+    "Alagoas",
+    "Amapa",
+    "Amazonas",
+    "Bahia",
+    "Ceara",
+    "Goias",
+    "Maranhao",
+    "Para",
+    "Paraiba",
+    "Parana",
+    "Pernambuco",
+    "Piaui",
+    "Rondonia",
+    "Roraima",
+    "Sergipe",
+    "Tocantins",
+    "Brasilia",
+    "Distrito",
+    "Federal",
+    "Immigratetobrazil",
+    "Formspree",
+    "Mercosul",
+    "naturalisation",
+    "residencies",
+    "visa",
+    "visas"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "locale": "en",
+  "ui": {
+    "keyPointsTitle": "Key points",
+    "pathTitle": "Path",
+    "relatedPagesTitle": "Related pages",
+    "exploreTitle": "Explore",
+    "sourceLabel": "Source",
+    "exploreLinks": [
+      {
+        "href": "/about/about-brazil",
+        "label": "About Brazil hub"
+      },
+      {
+        "href": "/about/about-states",
+        "label": "About States hub"
+      },
+      {
+        "href": "/services",
+        "label": "Services archive"
+      },
+      {
+        "href": "/library",
+        "label": "Full library"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "slug": "admin-editable-demo",
+      "title": "Admin Editable Legacy Demo",
+      "description": "This is a demo legacy page fully controlled from /admin.",
+      "heading": "Legacy Content Editable From Admin",
+      "sourcePath": "cms:legacy-overrides/en/admin-editable-demo",
+      "sections": [
+        {
+          "title": "How it works",
+          "paragraphs": [
+            "This page exists to prove that any legacy slug can be edited from the admin panel.",
+            "Use the Legacy Overrides collection, pick your locale file, and add an item with the exact slug."
+          ]
+        },
+        {
+          "title": "What to edit",
+          "paragraphs": [
+            "You can edit title, description, heading, sections, hero image, and bullet points without changing code."
+          ]
+        }
+      ],
+      "bullets": [
+        "Slug-level control",
+        "No code required",
+        "Per-locale override support"
+      ]
+    }
+  ]
+}

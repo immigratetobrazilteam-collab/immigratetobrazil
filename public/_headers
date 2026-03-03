@@ -1,0 +1,26 @@
+# Cloudflare Pages Headers Configuration
+# Format: /path
+#   Header-Name: value
+
+# Content cache headers
+/:locale(en|es|pt|fr)/discover/:path*
+  Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+
+/:locale(en|es|pt|fr)/state-guides/:path*
+  Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+
+/:locale(en|es|pt|fr)/services/:path*
+  Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+
+/:locale(en|es|pt|fr)/faq/:path*
+  Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+
+/:locale(en|es|pt|fr)/about/:path*
+  Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+
+# Sitemap and robots cache
+/sitemap.xml
+  Cache-Control: public, s-maxage=86400, stale-while-revalidate=604800
+
+/robots.txt
+  Cache-Control: public, s-maxage=86400, stale-while-revalidate=604800

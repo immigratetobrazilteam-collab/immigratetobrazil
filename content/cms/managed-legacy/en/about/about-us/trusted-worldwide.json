@@ -1,0 +1,197 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/trusted-worldwide",
+  "pathname": "/about/about-us/trusted-worldwide",
+  "sourcePath": "about/about-us/trusted-worldwide/index.html",
+  "title": "Trusted by Clients Worldwide Seeking Residency in Brazil | Immigrat...",
+  "description": "Global clients, local expertise.",
+  "heading": "Trusted Worldwide",
+  "heroImageAlt": "Trusted Worldwide",
+  "sections": [
+    {
+      "title": "Introduction",
+      "paragraphs": [
+        "Global clients, local expertise."
+      ]
+    },
+    {
+      "title": "Table of contents",
+      "paragraphs": [
+        "Overview",
+        "Who We Serve",
+        "What We Deliver",
+        "Process & Timelines",
+        "Documentation & Compliance",
+        "Relocation & Travel Planning",
+        "State-by-State Expertise",
+        "Risk Management & Common Pitfalls",
+        "Client Communication",
+        "Ongoing Support",
+        "FAQ",
+        "Get Started"
+      ]
+    },
+    {
+      "title": "Trusted Worldwide",
+      "paragraphs": [
+        "Global clients choose us for clarity, compliance, and consistent support."
+      ]
+    },
+    {
+      "title": "Why clients trust us",
+      "paragraphs": [
+        "Transparent processes and documentation.",
+        "Clear communication and reliable timelines.",
+        "Localized guidance across all Brazilian states.",
+        "Ongoing support after arrival."
+      ]
+    },
+    {
+      "title": "Join clients worldwide",
+      "paragraphs": [
+        "Get a plan that respects the law and your timeline."
+      ]
+    }
+  ],
+  "bullets": [
+    "Overview",
+    "Who We Serve",
+    "What We Deliver",
+    "Process & Timelines",
+    "Documentation & Compliance",
+    "Relocation & Travel Planning",
+    "State-by-State Expertise",
+    "Risk Management & Common Pitfalls",
+    "Client Communication",
+    "Ongoing Support",
+    "FAQ",
+    "Get Started",
+    "Transparent processes and documentation.",
+    "Clear communication and reliable timelines.",
+    "Localized guidance across all Brazilian states.",
+    "Ongoing support after arrival."
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/trusted-worldwide"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "education",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "trusted worldwide brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "trusted worldwide"
+    ],
+    "searchIntent": "informational",
+    "snippetAnswer": "Use this page to validate eligibility, prepare evidence, and plan next legal actions in Brazil."
+  }
+}

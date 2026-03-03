@@ -1,0 +1,236 @@
+{
+  "locale": "en",
+  "slug": "services/services-pernambuco/other-services/apostille",
+  "pathname": "/services/services-pernambuco/other-services/apostille",
+  "sourcePath": "services/services-pernambuco/other-services/apostille.html",
+  "title": "Apostille - Pernambuco Immigration & Travel",
+  "description": "Structured Document Apostille Services guidance for Apostille, including eligibility, documents, timeline, and compliance checkpoints.",
+  "heading": "Document Apostille Services",
+  "heroImageAlt": "Document Apostille Services",
+  "sections": [
+    {
+      "title": "Eligibility and scope",
+      "paragraphs": [
+        "Document Apostille Services in Apostille is suitable for applicants whose objective matches the legal pathway described by Brazilian immigration authorities.",
+        "This guidance is informational and should be confirmed against your nationality, travel history, and supporting records before filing."
+      ]
+    },
+    {
+      "title": "Required documents",
+      "paragraphs": [
+        "Core documents usually include a valid passport, civil records, purpose-specific supporting evidence, and certified translations/apostilles when required.",
+        "Always validate document validity windows and signature/notarization requirements before scheduling official appointments."
+      ]
+    },
+    {
+      "title": "Document quality controls",
+      "paragraphs": [
+        "Use consistent spellings, dates, and identifiers across all forms and supporting records to reduce mismatch flags.",
+        "Prepare scanned copies in a structured evidence packet so supplementary requests can be answered quickly."
+      ]
+    },
+    {
+      "title": "Process roadmap",
+      "paragraphs": [
+        "1) Pre-screen eligibility and evidence quality. 2) Assemble and validate dossier. 3) Submit through consular/federal channel. 4) Track requests and respond quickly. 5) Complete post-approval registration obligations.",
+        "Keep scanned copies and a dated checklist for every submission and receipt to reduce rework risk."
+      ]
+    },
+    {
+      "title": "Submission channels",
+      "paragraphs": [
+        "Submission routes can vary between consular intake, in-country filings, and authority-specific digital portals.",
+        "Confirm jurisdiction rules before submitting to avoid restarting under the wrong authority."
+      ]
+    },
+    {
+      "title": "Timelines and cost framework",
+      "paragraphs": [
+        "Timelines vary by category, authority workload, and document quality. Plan for procedural delays and avoid fixed travel commitments before approval.",
+        "Separate government/consular fees from professional preparation support, translation, legalization, and logistics expenses."
+      ]
+    },
+    {
+      "title": "Budget planning",
+      "paragraphs": [
+        "Budget for preparation, filing, translation, travel, and contingency costs rather than only the headline filing fee.",
+        "Track expected vs actual expenses to avoid mid-process funding gaps."
+      ]
+    },
+    {
+      "title": "Post-approval obligations",
+      "paragraphs": [
+        "After approval, complete all registration and compliance steps within legal deadlines to protect status validity.",
+        "Store proof of each completed post-arrival action in a dated compliance file."
+      ]
+    },
+    {
+      "title": "Risk controls and legal escalation",
+      "paragraphs": [
+        "Common refusal triggers include incomplete evidence, inconsistent declarations, missed deadlines, and unsupported eligibility assumptions.",
+        "Escalate to licensed legal counsel when your case involves prior refusals, compliance concerns, or complex family/employment structures."
+      ]
+    },
+    {
+      "title": "Common refusal triggers",
+      "paragraphs": [
+        "Frequent refusal patterns include unverifiable purpose evidence, incomplete civil records, and filing outside the proper jurisdiction.",
+        "Address red flags before submission rather than relying on late corrective filings."
+      ]
+    },
+    {
+      "title": "Escalation checklist",
+      "paragraphs": [
+        "Escalate when deadlines are missed, adverse notices are issued, or your case includes prior immigration complications.",
+        "Prepare a chronology, document index, and all authority correspondence before legal escalation."
+      ]
+    },
+    {
+      "title": "Internal links and next routes",
+      "paragraphs": [
+        "Next steps typically include consultation planning, process timeline review, and policy-page checks for terms and privacy obligations."
+      ]
+    },
+    {
+      "title": "Important disclaimer",
+      "paragraphs": [
+        "No advisory service can guarantee approval. Final decisions are made solely by competent Brazilian authorities under current law and policy."
+      ]
+    }
+  ],
+  "bullets": [
+    "Route planning for Apostille",
+    "Document readiness",
+    "Timeline and fee structure",
+    "Risk and compliance controls"
+  ],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "services/services-pernambuco/other-services/apostille"
+      ],
+      "tags": [
+        "visa",
+        "residency",
+        "legal-process"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "service-conversion",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "document apostille services brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "apostille"
+    ],
+    "searchIntent": "transactional",
+    "snippetAnswer": "Use this service page to validate eligibility, prepare supporting evidence, and plan your next legal step in Brazil."
+  }
+}

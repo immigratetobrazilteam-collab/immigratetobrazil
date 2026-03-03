@@ -1,0 +1,156 @@
+{
+  "locale": "en",
+  "slug": "about/about-us/mission",
+  "pathname": "/about/about-us/mission",
+  "sourcePath": "about/about-us/mission/index.html",
+  "title": "Redirecting… - Comprehensive Guide to Brazil Immigration",
+  "description": "Redirecting to\n/about/about-us/",
+  "heading": "Redirecting…",
+  "heroImageAlt": "Redirecting…",
+  "sections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Redirecting… provides structured immigration planning context for Mission.",
+        "Use this page as a decision aid, then verify time-sensitive requirements with official sources before acting."
+      ]
+    },
+    {
+      "title": "How to use this page",
+      "paragraphs": [
+        "Confirm eligibility assumptions first, then map documentation and timeline dependencies in order of legal priority.",
+        "Track each requirement with dated proof to avoid preventable process delays."
+      ]
+    },
+    {
+      "title": "Next actions",
+      "paragraphs": [
+        "Create a route-specific checklist, schedule consultations only after document pre-validation, and keep contingency time for authority responses."
+      ]
+    }
+  ],
+  "bullets": [],
+  "owner": "content-team",
+  "status": "published",
+  "lastReviewedAt": "2026-02-27",
+  "reviewEveryDays": 90,
+  "contentSources": [
+    {
+      "id": "gov-br-mjsp",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Justice and Public Security (Brazil)",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mj/",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-pf-immigration",
+      "tier": 1,
+      "type": "official",
+      "title": "Federal Police Immigration Services",
+      "publisher": "Federal Police (Brazil)",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "gov-br-mre-consular",
+      "tier": 1,
+      "type": "official",
+      "title": "Ministry of Foreign Affairs Consular Portal",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "wikivoyage-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "Wikivoyage Brazil travel guide",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://en.wikivoyage.org/wiki/Brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "worldbank-brazil",
+      "tier": 2,
+      "type": "secondary",
+      "title": "World Bank Data: Brazil",
+      "publisher": "World Bank",
+      "url": "https://data.worldbank.org/country/brazil",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    },
+    {
+      "id": "ibge-portal",
+      "tier": 2,
+      "type": "secondary",
+      "title": "IBGE institutional portal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/en/home-eng.html",
+      "lastCheckedAt": "2026-03-02",
+      "appliesTo": [
+        "about/about-us/mission"
+      ],
+      "tags": [
+        "immigration",
+        "planning"
+      ]
+    }
+  ],
+  "factuality": {
+    "lastVerifiedAt": "2026-03-02",
+    "verificationLevel": "mixed-sources",
+    "confidence": "medium"
+  },
+  "editorial": {
+    "primaryIntent": "education",
+    "targetPersona": "prospective-immigrant",
+    "qualityScore": 0.82
+  },
+  "seoV2": {
+    "primaryKeyword": "redirecting… brazil",
+    "secondaryKeywords": [
+      "brazil immigration support",
+      "visa checklist",
+      "residency documents",
+      "mission"
+    ],
+    "searchIntent": "informational",
+    "snippetAnswer": "Use this page to validate eligibility, prepare evidence, and plan next legal actions in Brazil."
+  }
+}

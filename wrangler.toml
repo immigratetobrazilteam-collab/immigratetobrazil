@@ -1,0 +1,13 @@
+name = "immigratetobrazil"
+type = "javascript"
+account_id = "5fd13d8bf79a2c550b5099ecb3954e81"
+compatibility_date = "2026-02-19"
+
+# Cloudflare Pages configuration
+# Deploy with: wrangler pages deploy out
+
+[env.production]
+routes = [
+  { pattern = "immigratetobrazil.com/*", zone_id = "43970a2e28129a557bfb10a575247f70" },
+  { pattern = "www.immigratetobrazil.com/*", zone_id = "43970a2e28129a557bfb10a575247f70" }
+]
