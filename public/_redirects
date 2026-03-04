@@ -4,21 +4,21 @@
 # Legacy blog to state guides
 /blog/blog-:state.html /en/state-guides/everything-you-need-to-know-about-:state 301
 /blog/blog-:state /en/state-guides/everything-you-need-to-know-about-:state 301
-/:locale(en|es|pt|fr)/blog/blog-:state.html /:locale/state-guides/everything-you-need-to-know-about-:state 301
-/:locale(en|es|pt|fr)/blog/blog-:state /:locale/state-guides/everything-you-need-to-know-about-:state 301
+/:locale(en|es|pt)/blog/blog-:state.html /:locale/state-guides/everything-you-need-to-know-about-:state 301
+/:locale(en|es|pt)/blog/blog-:state /:locale/state-guides/everything-you-need-to-know-about-:state 301
 
 # FAQ redirects
 /faq/:slug.html /en/faq/:slug 301
-/:locale(en|es|pt|fr)/faq/:slug.html /:locale/faq/:slug 301
+/:locale(en|es|pt)/faq/:slug.html /:locale/faq/:slug 301
 
 # Discover redirects (clean URLs)
 /discover/index.html /en/discover 301
 /discover/:path*/index.html /en/discover/:path* 301
 /discover/:path*.html /en/discover/:path* 301
-/:locale(en|es|pt|fr)/discover/index.html /:locale/discover 301
-/:locale(en|es|pt|fr)/discover/:path*/index.html /:locale/discover/:path* 301
-/:locale(en|es|pt|fr)/discover/:path*.html /:locale/discover/:path* 301
+/:locale(en|es|pt)/discover/index.html /:locale/discover 301
+/:locale(en|es|pt)/discover/:path*/index.html /:locale/discover/:path* 301
+/:locale(en|es|pt)/discover/:path*.html /:locale/discover/:path* 301
 
 # Consultation redirects
 /consultation/index.html /en/consultation 301
-/:locale(en|es|pt|fr)/consultation/index.html /:locale/consultation 301
+/:locale(en|es|pt)/consultation/index.html /:locale/consultation 301

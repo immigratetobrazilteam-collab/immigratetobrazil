@@ -1,6 +1,5 @@
 import enSiteCopy from '@/content/cms/site-copy/en.json';
 import esSiteCopy from '@/content/cms/site-copy/es.json';
-import frSiteCopy from '@/content/cms/site-copy/fr.json';
 import ptSiteCopy from '@/content/cms/site-copy/pt.json';
 import { defaultLocale, locales, resolveLocale } from '@/lib/locale';
 import type { Locale, NavLink } from '@/lib/types';
@@ -163,13 +162,11 @@ export interface LocaleCopy {
 const enCopy = enSiteCopy as LocaleCopy;
 const esCopy = esSiteCopy as LocaleCopy;
 const ptCopy = ptSiteCopy as LocaleCopy;
-const frCopy = frSiteCopy as LocaleCopy;
 
 export const copy: Record<Locale, LocaleCopy> = {
   en: enCopy,
   es: esCopy,
   pt: ptCopy,
-  fr: frCopy,
 };
 
 export function localeNavLinks(locale: Locale): NavLink[] {

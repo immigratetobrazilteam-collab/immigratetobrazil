@@ -8,7 +8,6 @@ const OG_LOCALE_MAP: Record<Locale, string> = {
   en: 'en_US',
   es: 'es_ES',
   pt: 'pt_BR',
-  fr: 'fr_FR',
 };
 
 function absolute(pathname: string) {
@@ -25,13 +24,12 @@ export function createMetadata(options: {
   const { locale, title, description, pathname } = options;
 
   const normalized = pathname.startsWith(`/${locale}`) ? pathname : `/${locale}${pathname}`;
-  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt|fr)/, '') || '/';
+  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt)/, '') || '/';
 
   const alternates = {
     en: absolute(`/en${pathWithoutLocale}`),
     es: absolute(`/es${pathWithoutLocale}`),
     pt: absolute(`/pt${pathWithoutLocale}`),
-    fr: absolute(`/fr${pathWithoutLocale}`),
   };
 
   const openGraphLocale = OG_LOCALE_MAP[locale];
@@ -49,7 +47,6 @@ export function createMetadata(options: {
         en: alternates.en,
         es: alternates.es,
         pt: alternates.pt,
-        fr: alternates.fr,
         'x-default': alternates.en,
       },
     },

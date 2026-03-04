@@ -170,7 +170,7 @@ async function main() {
     validatePageShape(path.relative(root, pagePath), page);
   }
 
-  for (const locale of ['en', 'es', 'pt', 'fr']) {
+  for (const locale of ['en', 'es', 'pt']) {
     const hubPath = path.join(baseDir, locale, '_hub.json');
     await access(hubPath).catch(() => fail(`missing ${locale}/_hub.json`));
     const hubData = await readJson(hubPath);

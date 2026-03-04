@@ -596,25 +596,10 @@ async function main() {
     guides: [],
   };
 
-  const frPayload = {
-    locale: 'fr',
-    hub: {
-      eyebrow: 'Guides migratoires par État',
-      title: 'Tout ce que vous devez savoir sur chaque État du Brésil',
-      subtitle:
-        'Bibliothèque gérée de 27 guides par État issus du contenu hérité et prête pour une maintenance éditoriale continue.',
-      countLabel: '{{count}} guides par État',
-      backToBlogLabel: 'Retour au blog',
-      consultationLabel: 'Réserver une consultation',
-    },
-    guides: [],
-  };
-
   await Promise.all([
     writeJson(path.join(outputDir, 'en.json'), enPayload),
     writeJson(path.join(outputDir, 'es.json'), esPayload),
     writeJson(path.join(outputDir, 'pt.json'), ptPayload),
-    writeJson(path.join(outputDir, 'fr.json'), frPayload),
   ]);
 
   console.log(`Imported ${guides.length} state guides with full structured content.`);

@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const LOCALES = ['en', 'es', 'pt', 'fr'];
+const LOCALES = ['en', 'es', 'pt'];
 
 function fail(message) {
   console.error(`State guides validation failed: ${message}`);

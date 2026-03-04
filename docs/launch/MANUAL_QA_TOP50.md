@@ -1,6 +1,6 @@
 # Manual QA Top Routes
 
-Run this QA in `en`, `es`, `pt`, and `fr` where routes exist.
+Run this QA in `en`, `es`, and `pt` where routes exist.
 
 ## Core pages
 - Home

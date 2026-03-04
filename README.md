@@ -8,7 +8,7 @@ Production website and content platform for `immigratetobrazil.com`.
 - Large-scale managed content libraries:
   - `content/cms/managed-legacy/*`
   - `content/cms/discover-pages/*`
-- Multi-locale support (`en`, `es`, `pt`, `fr`)
+- Multi-locale support (`en`, `es`, `pt`)
 - Validation, import, SEO, and publishing automation scripts (`scripts/*`)
 
 ## Runtime and deployment model

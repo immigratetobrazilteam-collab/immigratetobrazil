@@ -1149,7 +1149,7 @@ collections:
       - label: Locale
         name: locale
         widget: select
-        options: ['en', 'es', 'pt', 'fr']
+        options: ['en', 'es', 'pt']
       - label: Source Legacy Path
         name: sourcePath
         required: false

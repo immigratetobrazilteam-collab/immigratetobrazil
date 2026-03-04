@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const locales = ['en', 'es', 'pt', 'fr'];
+const locales = ['en', 'es', 'pt'];
 
 const defaultStateSlugs = [
   'sao-paulo',
@@ -82,27 +82,6 @@ const localeLabels = {
     riskDetail: 'O que validar antes de assinar contratos ou comprometer capital em {{state}}.',
     executionDetail: 'Plano em etapas para chegada, regularizacao e primeiros 90 dias em {{state}}.',
     summaryHeading: 'Plano SEO por clusters',
-  },
-  fr: {
-    region: {
-      north: 'Region Nord',
-      northeast: 'Region Nord-Est',
-      'central-west': 'Region Centre-Ouest',
-      southeast: 'Region Sud-Est',
-      south: 'Region Sud',
-    },
-    keywordPrefix: 'immigrer au',
-    titleSuffix: 'guide immigration et relocalisation',
-    subtitlePrefix: 'Strategie pratique de relocalisation pour',
-    subtitleSuffix: 'avec focus sur regularisation legale, couts et 90 premiers jours.',
-    secondaryKeywordPhrases: ['residence', 'processus visa', 'cout de la vie'],
-    contextTitle: 'Contexte local',
-    riskTitle: 'Risques et opportunites',
-    executionTitle: "Sequence d'execution",
-    contextDetail: "Comment logement, services et integration fonctionnent a {{state}}.",
-    riskDetail: 'Que verifier avant de signer des contrats ou engager du capital a {{state}}.',
-    executionDetail: 'Plan par etapes pour arrivee, regularisation et 90 premiers jours a {{state}}.',
-    summaryHeading: 'Plan SEO par clusters',
   },
 };
 
@@ -268,7 +247,7 @@ async function writeJsonIfChanged(relativePath, data) {
 async function loadStates() {
   const raw = await readFile(path.join(root, 'content/curated/states.ts'), 'utf8');
   const regex =
-    /\{\s*slug:\s*'([^']+)',\s*code:\s*'([^']+)',\s*en:\s*'([^']+)',\s*fr:\s*'([^']+)',\s*es:\s*'([^']+)',\s*pt:\s*'([^']+)',\s*capital:\s*'([^']+)',\s*region:\s*'([^']+)'\s*\}/g;
+    /\{\s*slug:\s*'([^']+)',\s*code:\s*'([^']+)',\s*en:\s*'([^']+)',\s*es:\s*'([^']+)',\s*pt:\s*'([^']+)',\s*capital:\s*'([^']+)',\s*region:\s*'([^']+)'\s*\}/g;
 
   const states = [];
   let match;
@@ -277,11 +256,10 @@ async function loadStates() {
       slug: match[1],
       code: match[2],
       en: match[3],
-      fr: match[4],
-      es: match[5],
-      pt: match[6],
-      capital: match[7],
-      region: match[8],
+      es: match[4],
+      pt: match[5],
+      capital: match[6],
+      region: match[7],
     });
   }
 

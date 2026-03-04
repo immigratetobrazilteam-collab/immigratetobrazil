@@ -25,13 +25,6 @@ const regionLabels: Record<Locale, Record<BrazilianState['region'], string>> = {
     southeast: 'Região Sudeste',
     south: 'Região Sul',
   },
-  fr: {
-    north: 'Région Nord',
-    northeast: 'Région Nord-Est',
-    'central-west': 'Région Centre-Ouest',
-    southeast: 'Région Sud-Est',
-    south: 'Région Sud',
-  },
 };
 
 export function getStateOrNull(stateSlug: string) {
@@ -138,12 +131,12 @@ export function policyCopy(locale: Locale, policy: string) {
   }
 
   const labels: Record<string, Record<Locale, string>> = {
-    privacy: { en: 'Privacy Policy', es: 'Política de Privacidad', pt: 'Política de Privacidade', fr: 'Politique de confidentialité' },
-    terms: { en: 'Terms of Service', es: 'Términos del Servicio', pt: 'Termos de Serviço', fr: "Conditions d'utilisation" },
-    cookies: { en: 'Cookies Policy', es: 'Política de Cookies', pt: 'Política de Cookies', fr: 'Politique des cookies' },
-    gdpr: { en: 'Data Protection Notice', es: 'Aviso de Protección de Datos', pt: 'Aviso de Proteção de Dados', fr: 'Avis de protection des données' },
-    refund: { en: 'Refund Policy', es: 'Política de Reembolsos', pt: 'Política de Reembolso', fr: 'Politique de remboursement' },
-    disclaimers: { en: 'Legal Disclaimers', es: 'Avisos Legales', pt: 'Avisos Legais', fr: 'Mentions légales' },
+    privacy: { en: 'Privacy Policy', es: 'Política de Privacidad', pt: 'Política de Privacidade' },
+    terms: { en: 'Terms of Service', es: 'Términos del Servicio', pt: 'Termos de Serviço' },
+    cookies: { en: 'Cookies Policy', es: 'Política de Cookies', pt: 'Política de Cookies' },
+    gdpr: { en: 'Data Protection Notice', es: 'Aviso de Protección de Datos', pt: 'Aviso de Proteção de Dados' },
+    refund: { en: 'Refund Policy', es: 'Política de Reembolsos', pt: 'Política de Reembolso' },
+    disclaimers: { en: 'Legal Disclaimers', es: 'Avisos Legales', pt: 'Avisos Legais' },
   };
 
   const title = labels[policy]?.[locale] || policy;
@@ -163,11 +156,6 @@ export function policyCopy(locale: Locale, policy: string) {
       'Esta política foi migrada para o novo sistema com estrutura jurídica padronizada.',
       'As informações são gerais e não constituem representação jurídica sem contrato formal.',
       'O conteúdo deve ser revisado periodicamente por mudanças normativas ou operacionais.',
-    ],
-    fr: [
-      'Cette politique a été migrée vers le nouveau système avec une structure juridique standardisée.',
-      "Les informations publiées sont générales et ne constituent pas une représentation juridique sans contrat formel.",
-      'Le contenu doit être revu régulièrement selon les changements réglementaires ou opérationnels.',
     ],
   };
 

@@ -1,6 +1,5 @@
 import enGuides from '@/content/cms/state-guides/en.json';
 import esGuides from '@/content/cms/state-guides/es.json';
-import frGuides from '@/content/cms/state-guides/fr.json';
 import ptGuides from '@/content/cms/state-guides/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -108,7 +107,6 @@ const guidesByLocale: Record<Locale, StateGuideLocaleFile> = {
   en: enGuides as StateGuideLocaleFile,
   es: esGuides as StateGuideLocaleFile,
   pt: ptGuides as StateGuideLocaleFile,
-  fr: frGuides as StateGuideLocaleFile,
 };
 
 const englishGuides = (guidesByLocale.en.guides || []) as unknown as StateGuide[];

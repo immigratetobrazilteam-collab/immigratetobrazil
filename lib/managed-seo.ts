@@ -29,7 +29,7 @@ export function resolveManagedSeoHref(locale: Locale, href: string) {
   if (!trimmed) return `/${locale}`;
   if (isExternalHref(trimmed)) return trimmed;
   if (trimmed === '/sitemap.xml' || trimmed === '/robots.txt') return trimmed;
-  if (trimmed.startsWith('/en/') || trimmed.startsWith('/es/') || trimmed.startsWith('/pt/') || trimmed.startsWith('/fr/')) {
+  if (trimmed.startsWith('/en/') || trimmed.startsWith('/es/') || trimmed.startsWith('/pt/') ) {
     return trimmed;
   }
   return localizedPath(locale, trimmed);

@@ -1,6 +1,5 @@
 import enMap from '@/content/cms/navigation-map/en.json';
 import esMap from '@/content/cms/navigation-map/es.json';
-import frMap from '@/content/cms/navigation-map/fr.json';
 import ptMap from '@/content/cms/navigation-map/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -59,7 +58,6 @@ const mapByLocale: Record<Locale, NavigationMap> = {
   en: enMap as NavigationMap,
   es: esMap as NavigationMap,
   pt: ptMap as NavigationMap,
-  fr: frMap as NavigationMap,
 };
 
 function resolveCmsHref(locale: Locale, href: string) {

@@ -6,7 +6,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const CACHE_PATH = path.join(ROOT, 'scripts/translation_cache.json');
 const DEFAULT_SOURCE_LOCALE = 'en';
-const DEFAULT_TARGET_LOCALES = ['es', 'pt', 'fr'];
+const DEFAULT_TARGET_LOCALES = ['es', 'pt'];
 const DEFAULT_SCOPE = 'managedPages';
 const DEFAULT_MODE = 'copy';
 const DEFAULT_FILE_PREFIX = 'content/cms/site-copy';
@@ -77,7 +77,7 @@ function printUsage() {
 
 Options:
   --source=en                 Source locale file (default: en)
-  --targets=es,pt,fr          Target locales to write
+  --targets=es,pt             Target locales to write
   --mode=copy|translate       copy = clone English strings, translate = use LibreTranslate
   --scope=managedPages|all    managedPages only, or all top-level site-copy fields except locale
   --file-prefix=content/cms/site-copy

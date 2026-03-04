@@ -555,19 +555,6 @@ function localizedHubCopy(locale) {
     };
   }
 
-  if (locale === 'fr') {
-    return {
-      eyebrow: 'Bibliothèque Discover',
-      title: 'Discover Brazil par État, région et ville',
-      subtitle:
-        'Bibliothèque gérée des pages Discover migrées depuis le HTML hérité sans dépendance aux partiels.',
-      countLabel: '{{count}} pages discover',
-      browseStatesLabel: 'Parcourir les États',
-      browseRegionsLabel: 'Parcourir les régions',
-      consultationLabel: 'Réserver une consultation',
-    };
-  }
-
   return {
     eyebrow: 'Discover library',
     title: 'Discover Brazil by state, region, and city',
@@ -646,7 +633,7 @@ async function main() {
     ...localizedHubCopy('en'),
   });
 
-  for (const locale of ['es', 'pt', 'fr']) {
+  for (const locale of ['es', 'pt']) {
     await writeJson(path.join(outputDir, locale, '_hub.json'), {
       locale,
       ...localizedHubCopy(locale),

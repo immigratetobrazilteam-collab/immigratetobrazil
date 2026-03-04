@@ -45,7 +45,7 @@ Hub and top-level pages consume `site-copy` `managedPages` through:
 - `lib/site-cms-content.ts`
 
 ## 4) Locale and fallback behavior
-- Supported locales: `en`, `es`, `pt`, `fr`
+- Supported locales: `en`, `es`, `pt`
 - English is canonical fallback for many content domains
 - Locale shape consistency is enforced with `cms:sync-locales:check`
 

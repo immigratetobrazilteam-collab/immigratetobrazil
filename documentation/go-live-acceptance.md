@@ -19,7 +19,7 @@ Use this before production releases and major content waves.
 - [ ] Deployment workflow completed successfully on release commit.
 
 ## C) Runtime verification (required)
-- [ ] Core locale pages load: `/en`, `/es`, `/pt`, `/fr`
+- [ ] Core locale pages load: `/en`, `/es`, `/pt`
 - [ ] Critical hubs load: services/discover/about/contact/faq
 - [ ] Ops endpoints load (`/api/health`, `/api/ready`)
 

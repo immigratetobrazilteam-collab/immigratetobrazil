@@ -1,12 +1,11 @@
 {
   "version": "0.2",
-  "language": "en,pt,es,fr",
+  "language": "en,pt,es",
   "allowCompoundWords": true,
   "dictionaries": [
     "en_US",
     "pt_BR",
-    "es_ES",
-    "fr_FR"
+    "es_ES"
   ],
   "ignorePaths": [
     "_legacy_deleted_staging/**",

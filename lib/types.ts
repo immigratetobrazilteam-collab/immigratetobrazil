@@ -1,4 +1,4 @@
-export type Locale = 'en' | 'es' | 'pt' | 'fr';
+export type Locale = 'en' | 'es' | 'pt';
 
 export interface NavLink {
   href: string;

@@ -31,7 +31,7 @@ function normalizePathname(pathname) {
 function splitLocale(pathname) {
   const parts = pathname.split('/').filter(Boolean);
   const first = parts[0];
-  const locales = new Set(['en', 'es', 'pt', 'fr']);
+  const locales = new Set(['en', 'es', 'pt']);
   if (locales.has(first)) {
     return { locale: first, route: `/${parts.slice(1).join('/') || ''}`.replace(/\/$/, '') || '/' };
   }

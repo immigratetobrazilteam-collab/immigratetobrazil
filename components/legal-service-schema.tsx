@@ -27,7 +27,7 @@ export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
         areaServed: 'Brazil',
         sameAs: [siteConfig.contact.whatsappLink],
         serviceType: ['Immigration Law', 'Visa Advisory', 'Residency Advisory'],
-        availableLanguage: ['English', 'Portuguese', 'Spanish', 'French'],
+        availableLanguage: ['English', 'Portuguese', 'Spanish'],
         contactPoint: [
           {
             '@type': 'ContactPoint',
@@ -35,7 +35,7 @@ export function LegalServiceSchema({ locale }: LegalServiceSchemaProps) {
             email: siteConfig.contact.primaryEmail,
             telephone: siteConfig.contact.whatsappNumber,
             areaServed: 'BR',
-            availableLanguage: ['en', 'pt', 'es', 'fr'],
+            availableLanguage: ['en', 'pt', 'es'],
           },
         ],
         description:

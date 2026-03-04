@@ -1,6 +1,5 @@
 import enSiteCopy from '@/content/cms/site-copy/en.json';
 import esSiteCopy from '@/content/cms/site-copy/es.json';
-import frSiteCopy from '@/content/cms/site-copy/fr.json';
 import ptSiteCopy from '@/content/cms/site-copy/pt.json';
 import type { BlogHighlight, Locale, ProcessStep, ServiceCard, StatItem } from '@/lib/types';
 
@@ -196,7 +195,6 @@ const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
   en: enSiteCopy as SiteCmsCopy,
   es: esSiteCopy as SiteCmsCopy,
   pt: ptSiteCopy as SiteCmsCopy,
-  fr: frSiteCopy as SiteCmsCopy,
 };
 
 export function getSiteCmsCopy(locale: Locale) {

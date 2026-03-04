@@ -6,7 +6,6 @@ Navigation is fully data-driven.
 - `content/cms/navigation-map/en.json`
 - `content/cms/navigation-map/es.json`
 - `content/cms/navigation-map/pt.json`
-- `content/cms/navigation-map/fr.json`
 
 ## Consumer code
 - Loader: `lib/navigation-map-content.ts`

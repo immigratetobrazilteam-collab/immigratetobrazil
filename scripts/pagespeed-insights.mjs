@@ -19,7 +19,7 @@ const MAX_TBT_MS = Number(process.env.PSI_MAX_TBT_MS || 300);
 const MAX_CLS = Number(process.env.PSI_MAX_CLS || 0.1);
 const MAX_INP_MS = Number(process.env.PSI_MAX_INP_MS || 250);
 
-const PAGE_PATHS = (process.env.PSI_PATHS || '/en,/en/about,/en/services,/en/contact,/en/blog,/fr/about')
+const PAGE_PATHS = (process.env.PSI_PATHS || '/en,/en/about,/en/services,/en/contact,/en/blog')
   .split(',')
   .map((value) => value.trim())
   .filter(Boolean);

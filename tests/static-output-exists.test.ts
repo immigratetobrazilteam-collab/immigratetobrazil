@@ -5,7 +5,7 @@ import { getLegacyDocument } from '../lib/legacy-loader';
 import { getStateGuideBySlug } from '../lib/state-guides-content';
 import type { Locale } from '../lib/types';
 
-const locales: Locale[] = ['en', 'es', 'pt', 'fr'];
+const locales: Locale[] = ['en', 'es', 'pt'];
 
 const modernSlugs = new Set([
   '',
