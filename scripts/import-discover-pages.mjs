@@ -529,19 +529,6 @@ function buildPageData(relativePath, html) {
 }
 
 function localizedHubCopy(locale) {
-  if (locale === 'es') {
-    return {
-      eyebrow: 'Biblioteca Discover',
-      title: 'Discover Brazil por estado, región y ciudad',
-      subtitle:
-        'Biblioteca gestionada de páginas Discover migradas desde HTML legado sin dependencias de parciales.',
-      countLabel: '{{count}} páginas discover',
-      browseStatesLabel: 'Explorar estados',
-      browseRegionsLabel: 'Explorar regiones',
-      consultationLabel: 'Reservar consulta',
-    };
-  }
-
   if (locale === 'pt') {
     return {
       eyebrow: 'Biblioteca Discover',
@@ -633,7 +620,7 @@ async function main() {
     ...localizedHubCopy('en'),
   });
 
-  for (const locale of ['es', 'pt']) {
+  for (const locale of ['pt']) {
     await writeJson(path.join(outputDir, locale, '_hub.json'), {
       locale,
       ...localizedHubCopy(locale),

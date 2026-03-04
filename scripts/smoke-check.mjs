@@ -6,7 +6,7 @@ const USER_AGENT =
   process.env.SMOKE_USER_AGENT ||
   'Mozilla/5.0 (compatible; ImmigrateToBrazilSmoke/1.0; +https://immigratetobrazil.com)';
 
-const locales = ['en', 'es', 'pt'];
+const locales = ['en', 'pt'];
 const localeLandingChecks = locales.map((locale) => ({ path: `/${locale}`, expect: 200, type: 'text/html' }));
 const keyRouteChecks = [
   { path: '/en/about', expect: 200, type: 'text/html' },

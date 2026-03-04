@@ -11,13 +11,6 @@ const regionLabels: Record<Locale, Record<BrazilianState['region'], string>> = {
     southeast: 'Southeast Region',
     south: 'South Region',
   },
-  es: {
-    north: 'Región Norte',
-    northeast: 'Región Nordeste',
-    'central-west': 'Región Centro-Oeste',
-    southeast: 'Región Sudeste',
-    south: 'Región Sur',
-  },
   pt: {
     north: 'Região Norte',
     northeast: 'Região Nordeste',
@@ -131,12 +124,12 @@ export function policyCopy(locale: Locale, policy: string) {
   }
 
   const labels: Record<string, Record<Locale, string>> = {
-    privacy: { en: 'Privacy Policy', es: 'Política de Privacidad', pt: 'Política de Privacidade' },
-    terms: { en: 'Terms of Service', es: 'Términos del Servicio', pt: 'Termos de Serviço' },
-    cookies: { en: 'Cookies Policy', es: 'Política de Cookies', pt: 'Política de Cookies' },
-    gdpr: { en: 'Data Protection Notice', es: 'Aviso de Protección de Datos', pt: 'Aviso de Proteção de Dados' },
-    refund: { en: 'Refund Policy', es: 'Política de Reembolsos', pt: 'Política de Reembolso' },
-    disclaimers: { en: 'Legal Disclaimers', es: 'Avisos Legales', pt: 'Avisos Legais' },
+    privacy: { en: 'Privacy Policy', pt: 'Política de Privacidade' },
+    terms: { en: 'Terms of Service', pt: 'Termos de Serviço' },
+    cookies: { en: 'Cookies Policy', pt: 'Política de Cookies' },
+    gdpr: { en: 'Data Protection Notice', pt: 'Aviso de Proteção de Dados' },
+    refund: { en: 'Refund Policy', pt: 'Política de Reembolso' },
+    disclaimers: { en: 'Legal Disclaimers', pt: 'Avisos Legais' },
   };
 
   const title = labels[policy]?.[locale] || policy;
@@ -146,11 +139,6 @@ export function policyCopy(locale: Locale, policy: string) {
       'This policy page has been migrated into the modern architecture with standardized legal structure.',
       'Information on this website is general and does not create attorney-client representation unless explicitly confirmed by contract.',
       'Policy details should be reviewed periodically as legal and operational frameworks evolve.',
-    ],
-    es: [
-      'Esta política fue migrada al nuevo sistema con estructura legal estandarizada.',
-      'La información publicada es general y no constituye representación legal sin contrato formal.',
-      'El contenido debe revisarse periódicamente por cambios normativos u operativos.',
     ],
     pt: [
       'Esta política foi migrada para o novo sistema com estrutura jurídica padronizada.',

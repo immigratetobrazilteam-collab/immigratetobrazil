@@ -34,14 +34,11 @@ describe('state guides content', () => {
     const slug = buildStateGuideSlug('acre');
 
     const english = getStateGuideBySlug('en', slug);
-    const spanish = getStateGuideBySlug('es', slug);
     const portuguese = getStateGuideBySlug('pt', slug);
 
     expect(english).not.toBeNull();
-    expect(spanish).not.toBeNull();
     expect(portuguese).not.toBeNull();
 
-    expect(spanish?.title).toBe(english?.title);
     expect(portuguese?.heroIntro).toBe(english?.heroIntro);
   });
 

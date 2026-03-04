@@ -134,7 +134,7 @@ function validateManagedPagesValue(relativePath, fieldPath, value, template) {
 }
 
 async function validateStateCopy(expectedStateSlugs) {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'pt']) {
     const file = await readJson(`content/cms/state-copy/${locale}.json`);
 
     assert(file.locale === locale, `state-copy/${locale}.json locale must be '${locale}'`);
@@ -164,7 +164,7 @@ async function validateStateCopy(expectedStateSlugs) {
 }
 
 async function validatePolicies(expectedPolicySlugs) {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'pt']) {
     const file = await readJson(`content/cms/policies/${locale}.json`);
 
     assert(file.locale === locale, `policies/${locale}.json locale must be '${locale}'`);
@@ -198,7 +198,7 @@ async function validateSiteCopy() {
   assert(isObject(englishFile.managedPages), 'site-copy/en.json managedPages must be an object');
   const managedPagesTemplate = englishFile.managedPages;
 
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'pt']) {
     const relativePath = `content/cms/site-copy/${locale}.json`;
     const file = locale === 'en' ? englishFile : await readJson(relativePath);
 
@@ -440,7 +440,7 @@ async function validateSiteSettings() {
 }
 
 async function validateLegacyOverrides() {
-  for (const locale of ['en', 'es', 'pt']) {
+  for (const locale of ['en', 'pt']) {
     const relativePath = `content/cms/legacy-overrides/${locale}.json`;
     const file = await readJson(relativePath);
 

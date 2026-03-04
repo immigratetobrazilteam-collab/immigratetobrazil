@@ -8,7 +8,6 @@ import type { Locale } from '@/lib/types';
 
 const labels: Record<Locale, string> = {
   en: 'EN',
-  es: 'ES',
   pt: 'PT',
 };
 

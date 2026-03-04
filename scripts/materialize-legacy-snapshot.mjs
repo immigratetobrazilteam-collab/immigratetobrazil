@@ -15,7 +15,6 @@ const legacyFolders = [
   'consultation',
   'contact',
   'discover',
-  'es',
   'faq',
   'home',
   'policies',

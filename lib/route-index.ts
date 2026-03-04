@@ -27,7 +27,7 @@ export type RoutePrefixGroup = {
   sample: RouteLink[];
 };
 
-const LOCALES = new Set<Locale>(['en', 'es', 'pt']);
+const LOCALES = new Set<Locale>(['en', 'pt']);
 
 function decodeEntities(input: string) {
   return input

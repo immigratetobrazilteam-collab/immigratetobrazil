@@ -4,7 +4,6 @@ Navigation is fully data-driven.
 
 ## Source of truth files
 - `content/cms/navigation-map/en.json`
-- `content/cms/navigation-map/es.json`
 - `content/cms/navigation-map/pt.json`
 
 ## Consumer code

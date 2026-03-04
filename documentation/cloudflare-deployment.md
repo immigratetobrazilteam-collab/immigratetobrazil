@@ -32,7 +32,7 @@ npm run build:static
 4. Run smoke checks on localized and operational endpoints.
 
 ## Post-deploy smoke checks
-- `/{locale}` for `en`, `es`, `pt`
+- `/{locale}` for `en`, `pt`
 - `/{locale}/services`
 - `/{locale}/discover`
 - `/{locale}/about/about-us`

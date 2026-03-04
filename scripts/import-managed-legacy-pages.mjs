@@ -9,7 +9,7 @@ const routeIndexPath = path.join(root, 'content', 'generated', 'route-index.json
 const outputDir = path.join(root, 'content', 'cms', 'managed-legacy');
 const consultationSourcePath = path.join(legacyRoot, 'consultation', 'index.html');
 const targetPrefixes = ['about', 'faq', 'policies', 'services', 'contact', 'home', 'resources-guides-brazil', 'accessibility'];
-const fallbackScanRoots = ['blog', 'home', 'es', 'pt'];
+const fallbackScanRoots = ['blog', 'home', 'pt'];
 
 function decodeHtmlEntities(input) {
   if (!input) return '';

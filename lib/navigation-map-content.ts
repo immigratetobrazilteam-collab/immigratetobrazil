@@ -1,5 +1,4 @@
 import enMap from '@/content/cms/navigation-map/en.json';
-import esMap from '@/content/cms/navigation-map/es.json';
 import ptMap from '@/content/cms/navigation-map/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -56,7 +55,6 @@ export type NavigationMap = {
 
 const mapByLocale: Record<Locale, NavigationMap> = {
   en: enMap as NavigationMap,
-  es: esMap as NavigationMap,
   pt: ptMap as NavigationMap,
 };
 

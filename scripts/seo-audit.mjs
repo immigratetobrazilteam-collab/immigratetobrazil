@@ -53,7 +53,7 @@ async function checkUrl(url) {
 async function run() {
   await mkdir(outDir, { recursive: true });
 
-  const coreChecks = ['/en', '/es', '/pt', '/robots.txt', '/sitemap.xml', '/api/health', '/api/ready', '/api/ops/summary'];
+  const coreChecks = ['/en', '/pt', '/robots.txt', '/sitemap.xml', '/api/health', '/api/ready', '/api/ops/summary'];
   const coreResults = await Promise.all(coreChecks.map((p) => checkUrl(`${BASE_URL}${p}`)));
 
   let sitemapUrls = [];

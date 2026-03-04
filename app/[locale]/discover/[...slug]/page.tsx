@@ -29,7 +29,8 @@ type Params = {
 
 export async function generateStaticParams() {
   const all = await getDiscoverCatchAllParams();
-  return getStaticLocales().flatMap((locale) => all.map((slug) => ({ locale, slug })));
+  const locales = process.env.STATIC_EXPORT === '1' ? ['en'] : getStaticLocales();
+  return locales.flatMap((locale) => all.map((slug) => ({ locale, slug })));
 }
 
 function segmentLabel(segment: string) {

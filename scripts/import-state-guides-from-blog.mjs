@@ -568,20 +568,6 @@ async function main() {
     guides,
   };
 
-  const esPayload = {
-    locale: 'es',
-    hub: {
-      eyebrow: 'Guías estatales de migración',
-      title: 'Todo lo que necesitas saber sobre cada estado de Brasil',
-      subtitle:
-        'Biblioteca gestionada con 27 guías estatales basadas en el contenido legado y listas para edición continua.',
-      countLabel: '{{count}} guías estatales',
-      backToBlogLabel: 'Volver al blog',
-      consultationLabel: 'Reservar consulta',
-    },
-    guides: [],
-  };
-
   const ptPayload = {
     locale: 'pt',
     hub: {
@@ -598,7 +584,6 @@ async function main() {
 
   await Promise.all([
     writeJson(path.join(outputDir, 'en.json'), enPayload),
-    writeJson(path.join(outputDir, 'es.json'), esPayload),
     writeJson(path.join(outputDir, 'pt.json'), ptPayload),
   ]);
 

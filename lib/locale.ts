@@ -1,6 +1,6 @@
 import type { Locale } from '@/lib/types';
 
-export const locales: Locale[] = ['en', 'es', 'pt'];
+export const locales: Locale[] = ['en', 'pt'];
 export const defaultLocale: Locale = 'en';
 
 export function resolveLocale(input?: string): Locale {

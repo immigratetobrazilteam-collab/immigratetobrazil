@@ -1,10 +1,9 @@
 import { describe, expect, it } from 'vitest';
 
 import enMap from '../content/cms/navigation-map/en.json';
-import esMap from '../content/cms/navigation-map/es.json';
 import ptMap from '../content/cms/navigation-map/pt.json';
 
-const maps = { en: enMap, es: esMap, pt: ptMap } as const;
+const maps = { en: enMap, pt: ptMap } as const;
 
 function collectReferencedIds(map: any) {
   const ids: string[] = [];

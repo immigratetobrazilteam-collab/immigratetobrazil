@@ -1,5 +1,4 @@
 import enLegacyOverrides from '@/content/cms/legacy-overrides/en.json';
-import esLegacyOverrides from '@/content/cms/legacy-overrides/es.json';
 import ptLegacyOverrides from '@/content/cms/legacy-overrides/pt.json';
 import { getManagedPageCopyLocalWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
@@ -41,7 +40,6 @@ type LegacyOverridesFile = {
 
 const overridesByLocale: Record<Locale, LegacyOverridesFile> = {
   en: enLegacyOverrides as LegacyOverridesFile,
-  es: esLegacyOverrides as LegacyOverridesFile,
   pt: ptLegacyOverrides as LegacyOverridesFile,
 };
 
@@ -49,7 +47,7 @@ function normalizeSlug(input: string) {
   const cleaned = input.trim().replace(/^\/+|\/+$/g, '');
   const segments = cleaned.split('/').filter(Boolean);
   if (!segments.length) return '';
-  if (['en', 'es', 'pt'].includes(segments[0])) {
+  if (['en', 'pt'].includes(segments[0])) {
     return segments.slice(1).join('/');
   }
   return segments.join('/');

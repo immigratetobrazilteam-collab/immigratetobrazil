@@ -1,5 +1,4 @@
 import enGuides from '@/content/cms/state-guides/en.json';
-import esGuides from '@/content/cms/state-guides/es.json';
 import ptGuides from '@/content/cms/state-guides/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -105,7 +104,6 @@ type StateGuideLocaleFile = {
 
 const guidesByLocale: Record<Locale, StateGuideLocaleFile> = {
   en: enGuides as StateGuideLocaleFile,
-  es: esGuides as StateGuideLocaleFile,
   pt: ptGuides as StateGuideLocaleFile,
 };
 

@@ -1,8 +1,6 @@
 import enPolicies from '@/content/cms/policies/en.json';
-import esPolicies from '@/content/cms/policies/es.json';
 import ptPolicies from '@/content/cms/policies/pt.json';
 import enStateCopy from '@/content/cms/state-copy/en.json';
-import esStateCopy from '@/content/cms/state-copy/es.json';
 import ptStateCopy from '@/content/cms/state-copy/pt.json';
 import type { Locale } from '@/lib/types';
 
@@ -74,13 +72,11 @@ type PolicyFile = {
 
 const stateCopyByLocale: Record<Locale, StateCopyFile> = {
   en: enStateCopy as StateCopyFile,
-  es: esStateCopy as StateCopyFile,
   pt: ptStateCopy as StateCopyFile,
 };
 
 const policiesByLocale: Record<Locale, PolicyFile> = {
   en: enPolicies as PolicyFile,
-  es: esPolicies as PolicyFile,
   pt: ptPolicies as PolicyFile,
 };
 

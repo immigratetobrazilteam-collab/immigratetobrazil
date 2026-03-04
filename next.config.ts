@@ -34,12 +34,12 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/blog/blog-:state.html',
+        source: '/:locale(en|pt)/blog/blog-:state.html',
         destination: '/:locale/state-guides/everything-you-need-to-know-about-:state',
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/blog/blog-:state',
+        source: '/:locale(en|pt)/blog/blog-:state',
         destination: '/:locale/state-guides/everything-you-need-to-know-about-:state',
         permanent: true,
       },
@@ -49,7 +49,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/faq/:slug.html',
+        source: '/:locale(en|pt)/faq/:slug.html',
         destination: '/:locale/faq/:slug',
         permanent: true,
       },
@@ -69,17 +69,17 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/discover/index.html',
+        source: '/:locale(en|pt)/discover/index.html',
         destination: '/:locale/discover',
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/discover/:path*/index.html',
+        source: '/:locale(en|pt)/discover/:path*/index.html',
         destination: '/:locale/discover/:path*',
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/discover/:path*.html',
+        source: '/:locale(en|pt)/discover/:path*.html',
         destination: '/:locale/discover/:path*',
         permanent: true,
       },
@@ -89,7 +89,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/:locale(en|es|pt)/consultation/index.html',
+        source: '/:locale(en|pt)/consultation/index.html',
         destination: '/:locale/consultation',
         permanent: true,
       },
@@ -105,23 +105,23 @@ const nextConfig: NextConfig = {
 
     return [
       {
-        source: '/:locale(en|es|pt)/discover/:path*',
+        source: '/:locale(en|pt)/discover/:path*',
         headers: contentCacheHeaders,
       },
       {
-        source: '/:locale(en|es|pt)/state-guides/:path*',
+        source: '/:locale(en|pt)/state-guides/:path*',
         headers: contentCacheHeaders,
       },
       {
-        source: '/:locale(en|es|pt)/services/:path*',
+        source: '/:locale(en|pt)/services/:path*',
         headers: contentCacheHeaders,
       },
       {
-        source: '/:locale(en|es|pt)/faq/:path*',
+        source: '/:locale(en|pt)/faq/:path*',
         headers: contentCacheHeaders,
       },
       {
-        source: '/:locale(en|es|pt)/about/:path*',
+        source: '/:locale(en|pt)/about/:path*',
         headers: contentCacheHeaders,
       },
       {

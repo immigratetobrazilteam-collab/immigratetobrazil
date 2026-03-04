@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "WATCHPACK_POLLING=true CHOKIDAR_USEPOLLING=1 next dev",
     "build": "next build",
-    "build:static": "next build",
+    "build:static": "rm -rf .next out && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",

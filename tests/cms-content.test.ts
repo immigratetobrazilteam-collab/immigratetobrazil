@@ -6,7 +6,6 @@ import { contactStateCopy, getStateOrNull } from '@/lib/phase2-content';
 describe('cms content', () => {
   it('loads policy content from cms data for each locale', () => {
     expect(getPolicyCmsCopy('en', 'privacy')?.paragraphs.length).toBeGreaterThan(2);
-    expect(getPolicyCmsCopy('es', 'terms')?.title).toContain('Terminos');
     expect(getPolicyCmsCopy('pt', 'cookies')?.title).toContain('Cookies');
   });
 

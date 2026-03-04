@@ -6,7 +6,6 @@ import type { Locale } from '@/lib/types';
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
 const OG_LOCALE_MAP: Record<Locale, string> = {
   en: 'en_US',
-  es: 'es_ES',
   pt: 'pt_BR',
 };
 
@@ -24,11 +23,10 @@ export function createMetadata(options: {
   const { locale, title, description, pathname } = options;
 
   const normalized = pathname.startsWith(`/${locale}`) ? pathname : `/${locale}${pathname}`;
-  const pathWithoutLocale = normalized.replace(/^\/(en|es|pt)/, '') || '/';
+  const pathWithoutLocale = normalized.replace(/^\/(en|pt)/, '') || '/';
 
   const alternates = {
     en: absolute(`/en${pathWithoutLocale}`),
-    es: absolute(`/es${pathWithoutLocale}`),
     pt: absolute(`/pt${pathWithoutLocale}`),
   };
 
@@ -45,7 +43,6 @@ export function createMetadata(options: {
       canonical: absolute(normalized),
       languages: {
         en: alternates.en,
-        es: alternates.es,
         pt: alternates.pt,
         'x-default': alternates.en,
       },

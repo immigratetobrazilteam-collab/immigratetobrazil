@@ -55,7 +55,7 @@ async function walk(dir, items = []) {
 
 function normalizeRoute(relativePath) {
   const segments = relativePath.split('/');
-  const locale = segments[0] === 'es' || segments[0] === 'pt' ? segments[0] : 'en';
+  const locale = segments[0] === 'pt' ? segments[0] : 'en';
   const trimmed = locale === 'en' ? relativePath : segments.slice(1).join('/');
 
   let slug = trimmed.replace(/\/index\.html$/i, '').replace(/\.html$/i, '').replace(/\/$/, '');
@@ -126,12 +126,12 @@ async function main() {
       acc[route.locale] += 1;
       return acc;
     },
-    { total: 0, en: 0, es: 0, pt: 0 },
+    { total: 0, en: 0, pt: 0 },
   );
 
   console.log(`Generated route index: ${outputPath}`);
   console.log(`Total routes: ${summary.total}`);
-  console.log(`EN: ${summary.en} | ES: ${summary.es} | PT: ${summary.pt}`);
+  console.log(`EN: ${summary.en} | PT: ${summary.pt}`);
 }
 
 main().catch((error) => {

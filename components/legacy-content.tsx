@@ -32,7 +32,7 @@ function resolveExploreHref(locale: Locale, href: string) {
     return trimmed;
   }
   if (trimmed === '/sitemap.xml' || trimmed === '/robots.txt') return trimmed;
-  if (trimmed.startsWith('/en/') || trimmed.startsWith('/es/') || trimmed.startsWith('/pt/') ) {
+  if (trimmed.startsWith('/en/')  || trimmed.startsWith('/pt/') ) {
     return trimmed;
   }
   return localizedPath(locale, trimmed);
