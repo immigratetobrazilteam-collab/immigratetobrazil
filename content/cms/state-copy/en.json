@@ -2,74 +2,82 @@
   "locale": "en",
   "templates": {
     "contact": {
-      "title": "Immigration contact for {{state}}",
-      "subtitle": "Strategic support for relocation profiles targeting {{state}} ({{region}}), with base operations centered on {{capital}}.",
+      "title": "Immigration advisory in {{state}}",
+      "subtitle": "Plan your move to {{state}} in the {{region}} with a structured legal roadmap, document controls, and arrival sequencing centered on {{capital}}.",
       "cards": [
         {
-          "title": "Initial assessment",
-          "detail": "Profile review, immigration objective mapping, and document risk scoring."
+          "title": "Profile and eligibility review",
+          "detail": "Map your objectives, constraints, and visa/residency options before committing to a filing path."
         },
         {
-          "title": "State-level route",
-          "detail": "Execution plan aligned to {{state}} local operational realities."
+          "title": "State execution strategy",
+          "detail": "Adapt the process to {{state}} logistics, appointment realities, and practical onboarding dependencies."
         },
         {
-          "title": "Operational coordination",
-          "detail": "Checklist ownership, translation workflow, and filing timeline control."
+          "title": "Document and timeline control",
+          "detail": "Coordinate source documents, translations, validity windows, and milestone tracking to reduce avoidable delays."
         }
       ]
     },
     "faq": {
       "title": "Immigration FAQ for {{state}}",
-      "subtitle": "Frequent questions for planning, documentation, and legal regularization.",
+      "subtitle": "Key answers for planning immigration, documents, timing, and relocation execution in {{state}}.",
       "qa": [
         {
-          "q": "Can I start the process before relocating to {{state}}?",
-          "a": "Yes. Document architecture and major preparation steps can be completed remotely."
+          "q": "Can I begin my immigration process before arriving in {{state}}?",
+          "a": "Yes. Strategy definition, document collection, translations, and readiness checks can be completed before relocation."
         },
         {
-          "q": "How long does a typical case take?",
-          "a": "It depends on category, evidence quality, and authority timelines. We model a conservative schedule."
+          "q": "How long does immigration execution usually take for {{state}} cases?",
+          "a": "Timing depends on your legal category, evidence quality, and authority response windows. We recommend planning with conservative buffers."
         },
         {
-          "q": "Do you provide post-arrival support?",
-          "a": "Yes. We cover CPF, immigration registration, and practical onboarding phases."
+          "q": "What are the most common mistakes applicants make?",
+          "a": "Frequent issues include choosing the wrong legal path early, submitting incomplete records, and underestimating timelines for document validity."
+        },
+        {
+          "q": "Do you support post-arrival setup in {{state}}?",
+          "a": "Yes. We guide practical next steps such as registration workflow, documentation continuity, and first-phase settlement priorities."
         }
       ]
     },
     "services": {
-      "title": "Services to immigrate to {{state}}",
-      "subtitle": "State migration pages rebuilt into the modern architecture with operational governance.",
+      "title": "Immigration services for {{state}}",
+      "subtitle": "End-to-end support for legal strategy, filing execution, and post-arrival stabilization in {{state}}.",
       "modules": [
         {
-          "title": "Visa strategy",
-          "detail": "Eligibility mapping and legal route selection by profile."
+          "title": "Strategy and pathway design",
+          "detail": "Assess profile fit and select compliant visa or residency pathways based on your real objective and timeline."
         },
         {
-          "title": "Residency execution",
-          "detail": "End-to-end filing management and document quality control."
+          "title": "Application execution",
+          "detail": "Prepare and organize records, translations, and evidence packs with quality checks before submission."
         },
         {
-          "title": "Local integration",
-          "detail": "Arrival and stabilization plan for living in {{state}}."
+          "title": "Authority response handling",
+          "detail": "Track progress, handle clarifications, and keep case documentation aligned through each procedural stage."
+        },
+        {
+          "title": "Arrival and continuity support",
+          "detail": "Plan essential post-approval steps so your move to {{state}} remains compliant and operationally stable."
         }
       ]
     },
     "blog": {
-      "title": "Strategic relocation guide for {{state}}",
-      "subtitle": "State-focused legacy blog content for {{state}} migrated into the modern publishing architecture.",
+      "title": "{{state}} relocation strategy guide",
+      "subtitle": "Practical guidance for evaluating, planning, and executing your move to {{state}}.",
       "sections": [
         {
-          "title": "Local context",
-          "detail": "Operational summary on cost, services, and onboarding dynamics in {{state}}."
+          "title": "Why {{state}}",
+          "detail": "Understand the state context that typically matters for newcomers: infrastructure, access, and day-to-day feasibility."
         },
         {
-          "title": "Risk and opportunity map",
-          "detail": "What to validate before contract commitments or financial decisions."
+          "title": "Planning risks and tradeoffs",
+          "detail": "Identify what to validate early to avoid expensive mistakes in legal planning, housing, and timing."
         },
         {
-          "title": "Execution sequence",
-          "detail": "Practical order of operations for arrival, regularization, and stabilization."
+          "title": "Recommended action sequence",
+          "detail": "Follow a practical step order from pre-move preparation to first-90-day stabilization."
         }
       ]
     }

@@ -1,12 +1,12 @@
 {
   "locale": "en",
   "hub": {
-    "eyebrow": "State migration guides",
-    "title": "Everything you need to know about each Brazilian state",
-    "subtitle": "A complete managed library of 27 state-by-state immigration guides rebuilt from the legacy blog content with full structured sections.",
+    "eyebrow": "State strategy guides",
+    "title": "State-by-state relocation and immigration guides for Brazil",
+    "subtitle": "A managed library of 27 state guides to help you compare destinations, prepare legal pathways, and execute first-phase relocation planning.",
     "countLabel": "{{count}} state guides",
-    "backToBlogLabel": "Back to blog",
-    "consultationLabel": "Book a consultation"
+    "backToBlogLabel": "Back to insights hub",
+    "consultationLabel": "Book strategy consultation"
   },
   "guides": [
     {

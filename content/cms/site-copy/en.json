@@ -483,55 +483,55 @@
           }
         ]
       },
-      "heroTitle": "Architecture-first redesign for long-term growth",
-      "heroSubtitle": "Your historical content is now mapped into reusable route families. Instead of losing old pages, this layer turns them into structured hubs that are easier to navigate, audit, and expand.",
-      "libraryButtonLabel": "Open full page library",
+      "heroTitle": "Your complete orientation to immigration and life planning in Brazil",
+      "heroSubtitle": "Use this hub to move from broad orientation to precise next steps: country context, state differences, advisory methodology, and firm standards. Every card below is designed to lead you to actionable planning pages.",
+      "libraryButtonLabel": "Open complete page library",
       "cards": {
         "aboutBrazil": {
           "title": "About Brazil",
-          "description": "Core guides for living in Brazil, with food, festivals, and high-level orientation topics.",
+          "description": "Country-level practical guidance on relocation realities, planning priorities, and lifestyle context before legal filing.",
           "countLabel": "{{count}} pages",
           "ctaLabel": "Open hub",
           "href": "/about/about-brazil"
         },
         "aboutStates": {
           "title": "About States",
-          "description": "State-by-state informational pages migrated from the old architecture.",
+          "description": "State-by-state orientation to help you compare climate, cost profile, infrastructure, and onboarding complexity.",
           "countLabel": "{{count}} pages",
           "ctaLabel": "Open hub",
           "href": "/about/about-states"
         },
         "aboutUs": {
           "title": "About Us",
-          "description": "Mission, legal positioning, expertise, trust indicators, and outcome pages.",
+          "description": "Advisory positioning, standards, and methodology so you understand how strategy and execution are handled.",
           "countLabel": "{{count}} pages",
           "ctaLabel": "Open hub",
           "href": "/about/about-us"
         },
         "values": {
           "title": "Values",
-          "description": "Core principles that guide how the firm communicates, advises, and executes.",
+          "description": "Operating principles for communication, compliance posture, and decision-making under uncertainty.",
           "countLabel": "Brand identity page",
           "ctaLabel": "Open values",
           "href": "/about/values"
         },
         "mission": {
           "title": "Mission",
-          "description": "The operating mission behind the firm's immigration strategy model.",
+          "description": "What the firm is built to deliver: lower-risk immigration outcomes through structured execution.",
           "countLabel": "Brand identity page",
           "ctaLabel": "Open mission",
           "href": "/about/mission"
         },
         "story": {
           "title": "Story",
-          "description": "How the advisory started and expanded into a national support model.",
+          "description": "Background and evolution of the advisory model from legacy practice to structured migration architecture.",
           "countLabel": "Brand identity page",
           "ctaLabel": "Open story",
           "href": "/about/story"
         },
         "accessibility": {
           "title": "Accessibility",
-          "description": "Accessibility and inclusive-use documentation migrated into the new structure.",
+          "description": "Accessibility standards and inclusive-use policies for clients reviewing information across devices and needs.",
           "countLabel": "{{count}} page",
           "ctaLabel": "Open accessibility center",
           "href": "/accessibility"
@@ -687,13 +687,13 @@
           }
         ]
       },
-      "heroTitle": "Structured services for every immigration stage",
-      "heroSubtitle": "Choose a clear scope: strategic planning, full-case handling, or post-arrival continuity support.",
+      "heroTitle": "Immigration services mapped from first strategy to long-term stability",
+      "heroSubtitle": "Select the exact support level you need: advisory diagnostics, full legal execution, or post-arrival continuity. This hub connects core pathways, legacy archives, and state-level service routes.",
       "serviceCountLabel": "{{count}} service routes indexed",
-      "legacySectionTitle": "Legacy service archives by family",
-      "legacySectionSubtitle": "This section exposes full service categories from the old website, including state archive folders and legal/visa/residency families.",
-      "stateSectionTitle": "State service hubs",
-      "stateSectionSubtitle": "Each state now has a dedicated modern route that links to migration services and localized guidance.",
+      "legacySectionTitle": "Service families and deep archives",
+      "legacySectionSubtitle": "These grouped archives centralize visa, residency, naturalisation, legal, and state-specific service pages migrated from the legacy site.",
+      "stateSectionTitle": "State-by-state service entry points",
+      "stateSectionSubtitle": "Use state hubs when location-specific context matters for logistics, documentation sequencing, or preferred relocation destination.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -814,8 +814,8 @@
       }
     },
     "processPage": {
-      "heroTitle": "Controlled workflow from intake to legal stabilization",
-      "heroSubtitle": "Every stage has documented inputs, quality checks, and clear owner accountability.",
+      "heroTitle": "A controlled immigration process with clear checkpoints",
+      "heroSubtitle": "From intake to post-arrival stabilization, each stage is documented with required inputs, quality gates, and decision ownership so execution stays predictable.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -937,10 +937,10 @@
     },
     "faqHubPage": {
       "metaTitleTemplate": "FAQ | {{brand}}",
-      "metaDescription": "Frequently asked questions about migration, legal process, and relocation execution.",
+      "metaDescription": "State-level immigration FAQs covering eligibility, documentation, timelines, and practical next steps for moving to Brazil.",
       "eyebrow": "FAQ",
-      "title": "State-specific immigration FAQ",
-      "subtitle": "Actionable, compliance-aware guidance for visas, residency, and relocation execution in Brazil.",
+      "title": "Immigration FAQ by state",
+      "subtitle": "Select a state hub to review practical Q&A on visas, residency, documents, timing, and compliance-sensitive decisions.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -1061,9 +1061,9 @@
       }
     },
     "blogHubPage": {
-      "stateArchiveCountLabel": "{{count}} state blog pages indexed",
-      "stateArchiveTitle": "State blog archives",
-      "stateArchiveSubtitle": "Legacy state-specific blog pages are now linked here as part of the redesigned information architecture.",
+      "stateArchiveCountLabel": "{{count}} state strategy pages indexed",
+      "stateArchiveTitle": "State strategy archive",
+      "stateArchiveSubtitle": "Browse state-focused migration briefings covering relocation context, legal setup priorities, and first-90-day execution focus.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -2597,7 +2597,7 @@
       }
     },
     "servicesStatePage": {
-      "eyebrow": "State services",
+      "eyebrow": "State immigration services",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -2839,10 +2839,10 @@
       }
     },
     "faqStatePage": {
-      "eyebrow": "FAQ",
-      "backButtonLabel": "Back to FAQ hub",
-      "fallbackMetaTitle": "FAQ",
-      "fallbackMetaDescription": "State FAQ page.",
+      "eyebrow": "State FAQ",
+      "backButtonLabel": "Back to FAQ by state",
+      "fallbackMetaTitle": "State immigration FAQ",
+      "fallbackMetaDescription": "State-specific immigration questions and planning answers.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -2963,13 +2963,13 @@
       }
     },
     "contactStatePage": {
-      "eyebrow": "State contact",
-      "consultationButtonLabel": "Consultation",
+      "eyebrow": "State consultation",
+      "consultationButtonLabel": "Book consultation",
       "formTitleTemplate": "Consultation request for {{state}}",
-      "fallbackMetaTitle": "Contact",
-      "fallbackMetaDescription": "Immigration contact page.",
-      "schemaSectionLabel": "Contact",
-      "keywordFallback": "Brazil consultation",
+      "fallbackMetaTitle": "State immigration contact",
+      "fallbackMetaDescription": "Contact guidance and consultation intake for state-specific immigration planning.",
+      "schemaSectionLabel": "State Contact",
+      "keywordFallback": "Brazil immigration consultation",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -3090,11 +3090,11 @@
       }
     },
     "legacySyntheticDocument": {
-      "overview": "Overview",
-      "nextSteps": "Next Steps",
-      "fallbackDescription": "Immigration guidance for Brazil focused on requirements, documentation quality, and timeline planning.",
-      "paragraphOne": "This page outlines key checkpoints for this route, including eligibility, process structure, and practical considerations.",
-      "paragraphTwo": "Review eligibility, prepare supporting documents, and validate your strategy with a professional consultation.",
+      "overview": "Route Overview",
+      "nextSteps": "Recommended Next Steps",
+      "fallbackDescription": "Practical immigration guidance for Brazil, including eligibility framing, documentation readiness, and execution sequencing.",
+      "paragraphOne": "This route is part of the migrated legacy archive. Use it as orientation, then confirm the exact legal pathway, evidence requirements, and timing assumptions before submission.",
+      "paragraphTwo": "After reviewing this page, continue to a relevant services or consultation route to convert this information into a concrete action plan.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -3731,10 +3731,10 @@
       }
     },
     "contactHubPage": {
-      "formTitle": "Start Consultation",
-      "formSubtitle": "Use this secure form for legal advisory requests. We answer by email and WhatsApp.",
-      "stateArchiveTitle": "State contact archives",
-      "stateArchiveSubtitle": "{{count}} state-specific contact pages from your old site are now available in the redesigned routing system.",
+      "formTitle": "Start your advisory intake",
+      "formSubtitle": "Share your profile, target timeline, and destination preferences. We reply with scope, availability, and next-step options.",
+      "stateArchiveTitle": "State contact pathways",
+      "stateArchiveSubtitle": "{{count}} state-specific contact entry pages are available for location-focused consultation requests.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -4058,25 +4058,25 @@
       "items": [
         {
           "title": "Visa category playbooks",
-          "detail": "Decision trees, eligibility references, and supporting document standards."
+          "detail": "Use structured eligibility maps to shortlist viable categories and avoid starting with the wrong filing path."
         },
         {
-          "title": "State selection guides",
-          "detail": "Regional cost, climate, legal workflow, and infrastructure tradeoffs."
+          "title": "State and city selection",
+          "detail": "Compare living cost pressure, mobility, services access, and onboarding friction before choosing destination."
         },
         {
-          "title": "Arrival operations",
-          "detail": "CPF, CRNM/RNE, housing, healthcare, education, and banking setup references."
+          "title": "Arrival operations stack",
+          "detail": "Coordinate CPF, CRNM/RNE, banking, housing, schooling, and health setup in the correct operational order."
         },
         {
-          "title": "Compliance alerts",
-          "detail": "Renewal timing, validity windows, and procedural checkpoints."
+          "title": "Compliance and renewals",
+          "detail": "Track validity windows, renewal timing, and documentary dependencies to reduce risk of avoidable interruptions."
         }
       ],
       "resourceCountLabel": "{{count}} resource pages",
       "discoverCountLabel": "{{count}} discover pages",
-      "legacyArchiveTitle": "Legacy discover archives",
-      "legacyArchiveSubtitle": "The old discover folders are now grouped below so they can be linked from modern pages and navigation.",
+      "legacyArchiveTitle": "Discover and resource archives",
+      "legacyArchiveSubtitle": "Browse grouped discover families to reach region, state, and city pages without losing legacy coverage depth.",
       "contentSources": [
         {
           "id": "gov-br-mjsp",
@@ -5121,6 +5121,133 @@
           "By using this website, you acknowledge these limitations and agree to seek personalized professional advice when needed for high-stakes legal decisions."
         ]
       }
-    ]
+    ],
+    "homePageExperience": {
+      "journeyTitle": "Choose the path that matches your move",
+      "journeySubtitle": "Start from your profile and timeline, then move into the exact legal and relocation pages you need.",
+      "journeys": [
+        {
+          "title": "Family relocation",
+          "description": "Family reunion, schooling, and compliant long-term settlement planning.",
+          "href": "/services/residencies/family-reunion",
+          "cta": "Open family path"
+        },
+        {
+          "title": "Investor and entrepreneur",
+          "description": "Investor visas, company setup, and legal execution sequencing.",
+          "href": "/services/visas/investor",
+          "cta": "Open investor path"
+        },
+        {
+          "title": "Remote professional",
+          "description": "Digital nomad options, documentation standards, and arrival setup.",
+          "href": "/services/visas/digital-nomad",
+          "cta": "Open nomad path"
+        },
+        {
+          "title": "Retirement transition",
+          "description": "Retiree residency strategy, income proof, and compliance checkpoints.",
+          "href": "/services/visas/retiree",
+          "cta": "Open retiree path"
+        }
+      ],
+      "pathwaysTitle": "Visa and residency pathways",
+      "pathwaysSubtitle": "Explore core pathways before diving into state-specific service archives.",
+      "pathways": [
+        {
+          "title": "Visa categories",
+          "description": "Compare major visa categories and suitability signals.",
+          "href": "/services/visas"
+        },
+        {
+          "title": "Residency routes",
+          "description": "Understand temporary and permanent residency flows.",
+          "href": "/services/residencies"
+        },
+        {
+          "title": "Naturalisation",
+          "description": "Review naturalisation routes and preparation stages.",
+          "href": "/services/naturalisation"
+        },
+        {
+          "title": "Legal services",
+          "description": "Supporting legal operations beyond visa filing.",
+          "href": "/services/legal"
+        }
+      ],
+      "sectionHubsTitle": "Core site hubs",
+      "sectionHubsSubtitle": "Use these hubs to navigate strategy content, legal pages, and location guides.",
+      "sectionHubs": [
+        {
+          "title": "Services hub",
+          "description": "Full advisory and execution service map.",
+          "href": "/services"
+        },
+        {
+          "title": "Discover hub",
+          "description": "Regional and city-level move planning pages.",
+          "href": "/discover"
+        },
+        {
+          "title": "About Brazil",
+          "description": "Foundational country and relocation context.",
+          "href": "/about/about-brazil"
+        },
+        {
+          "title": "About states",
+          "description": "State-by-state orientation and differences.",
+          "href": "/about/about-states"
+        },
+        {
+          "title": "Resources hub",
+          "description": "Operational guides and planning frameworks.",
+          "href": "/resources-guides-brazil"
+        },
+        {
+          "title": "Process page",
+          "description": "How engagement works from intake to landing.",
+          "href": "/process"
+        }
+      ],
+      "regionExplorerTitle": "Regional discover coverage",
+      "regionExplorerSubtitle": "Navigate broad region hubs first, then drill into states and city-level migration pages.",
+      "regionExplorerCta": "Open region",
+      "stateExplorerTitle": "State-level strategy coverage",
+      "stateExplorerSubtitle": "Top-level state pages connect legal context, cost framing, and localized planning routes.",
+      "stateExplorerCta": "Open state page",
+      "knowledgeTitle": "Read before you decide",
+      "knowledgeSubtitle": "Shortlist your move with these key guidance pages.",
+      "knowledgeLinks": [
+        {
+          "label": "Cost of Living in Brazil",
+          "href": "/about/about-brazil/cost-of-living-in-brazil"
+        },
+        {
+          "label": "Apply to Brazil",
+          "href": "/about/about-brazil/apply-brazil"
+        },
+        {
+          "label": "Visa Consultation",
+          "href": "/visa-consultation"
+        },
+        {
+          "label": "FAQ Hub",
+          "href": "/faq"
+        },
+        {
+          "label": "Contact Hub",
+          "href": "/contact"
+        },
+        {
+          "label": "All Pages Library",
+          "href": "/library"
+        }
+      ],
+      "finalBannerEyebrow": "Start the process",
+      "finalBannerTitle": "Build your Brazil move plan with legal clarity",
+      "finalBannerSubtitle": "Book a strategy session and receive a concrete pathway, document map, and execution order for your profile.",
+      "finalPrimaryCta": "Book Strategy Consultation",
+      "finalSecondaryCta": "Contact Advisory Team"
+    }
   }
 }
