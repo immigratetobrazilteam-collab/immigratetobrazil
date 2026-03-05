@@ -12,46 +12,48 @@
     "library": "Pages",
     "contact": "Contact"
   },
+{
   "hero": {
     "eyebrow": "Trusted Immigration Advisory",
-    "title": "A modern path to Brazil residency, visas, and legal certainty",
-    "subtitle": "Premium relocation strategy built for families, investors, remote professionals, and retirees who want compliant, low-risk immigration execution.",
+    "title": "Your Clear Path to Brazilian Residency, Visas, and Legal Security",
+    "subtitle": "Premium relocation services tailored for individuals, families, investors, professionals, and retirees seeking a personalized immigration plan from application to settlement.",
     "primaryCta": "Book Strategy Consultation",
     "secondaryCta": "Explore Services",
-    "highlightsTitle": "Modern platform highlights",
+    "highlightsTitle": "Key Service Highlights",
     "highlights": [
-      "Unified locale architecture with EN, ES, and PT route strategy.",
-      "Dynamic legacy bridge that scales past thousands of existing pages.",
-      "Structured premium UI system for trust-first immigration conversion."
+      "Multilingual support in English, Spanish, and Portuguese for seamless communication.",
+      "Comprehensive handling of legacy documentation and updates to ensure compliance.",
+      "User-friendly process designed to build trust and guide you through every step of immigration."
     ]
   },
   "sections": {
-    "servicesTitle": "Immigration services designed for legal clarity",
-    "servicesSubtitle": "From visa selection to documentation and post-arrival setup, every workflow is structured, auditable, and multilingual.",
-    "processTitle": "How the engagement works",
-    "processSubtitle": "A documented, accountable process with transparent milestones and compliance checkpoints.",
-    "trustTitle": "Trust markers clients expect from premium advisory firms",
-    "migrationTitle": "Legacy content migration system",
-    "migrationSubtitle": "Existing static pages are now bridged into a modern route architecture so scale is no longer limited by manual HTML duplication.",
-    "blogTitle": "Recent guidance and updates",
-    "blogSubtitle": "Operational insights for visas, residencies, local onboarding, and legal documentation."
+    "servicesTitle": "Immigration Services for Legal Clarity in Brazil",
+    "servicesSubtitle": "From visa selection and application to required documentation and post-arrival support, our processes are structured, transparent, and available in multiple languages.",
+    "processTitle": "How Our Immigration Process Works",
+    "processSubtitle": "A step-by-step, accountable approach with clear milestones, compliance checks, and ongoing support.",
+    "trustTitle": "Trust Elements Clients Expect from Premium Immigration Advisors",
+    "migrationTitle": "Smooth Transition for Your Move to Brazil",
+    "migrationSubtitle": "We bridge your current situation to a new life in Brazil, handling all aspects of relocation without the hassle of manual processes.",
+    "blogTitle": "Recent Immigration Guidance and Updates",
+    "blogSubtitle": "Insights on Brazilian visas, residencies, local onboarding, legal requirements, and more."
   },
   "cta": {
-    "title": "Ready to formalize your Brazil move with confidence?",
-    "subtitle": "Start with a paid strategy session and receive a concrete roadmap for your profile.",
+    "title": "Ready to Start Your Journey to Brazil with Confidence?",
+    "subtitle": "Begin with a paid strategy session and get a tailored roadmap based on your unique profile.",
     "button": "Start Consultation"
   },
   "contact": {
-    "title": "Talk to an advisor",
-    "subtitle": "Share your profile and timeline. We reply with availability and scope within one business day.",
+    "title": "Speak with an Immigration Advisor",
+    "subtitle": "Share your details and timeline. We'll respond with availability and a customized scope within one business day.",
     "consultation": "Consultation Desk",
     "whatsapp": "Secure WhatsApp",
     "email": "Client Email"
   },
   "footer": {
-    "tagline": "Immigration advisory focused on compliance, documentation quality, and execution certainty.",
-    "legal": "Information provided is general guidance and not legal representation until engagement is confirmed."
-  },
+    "tagline": "Immigration advisory specializing in compliance, high-quality documentation, and reliable execution for Brazil.",
+    "legal": "Information provided is general guidance and not formal legal representation or advice."
+  }
+},
   "upgradeNotice": {
     "enabled": true,
     "eyebrow": "Notice",
