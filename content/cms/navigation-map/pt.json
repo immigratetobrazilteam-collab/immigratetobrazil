@@ -1,10 +1,10 @@
 {
   "registry": [
-    { "id": "top_accessibility", "menu_group": "top_bar", "label": "Accessibility Switcher", "href": "/accessibility", "route_type": "static", "template_family": "legal_policy", "status": "live" },
-    { "id": "top_client_portal", "menu_group": "top_bar", "label": "Client Portal Login", "href": "/client-portal", "route_type": "static", "template_family": "conversion_contact", "status": "live" },
+    { "id": "top_accessibility", "menu_group": "top_bar", "label": "Acessibilidade", "href": "/accessibility", "route_type": "static", "template_family": "legal_policy", "status": "live" },
+    { "id": "top_client_portal", "menu_group": "top_bar", "label": "Portal do Cliente", "href": "/client-portal", "route_type": "static", "template_family": "conversion_contact", "status": "live" },
 
-    { "id": "main_home", "menu_group": "main_menu", "label": "Home", "href": "/", "route_type": "hub", "template_family": "hub", "status": "live" },
-    { "id": "main_start_consultation", "menu_group": "main_menu", "label": "Start Consultation", "href": "/consultation", "route_type": "conversion", "template_family": "conversion_contact", "status": "live" },
+    { "id": "main_home", "menu_group": "main_menu", "label": "Inicio", "href": "/", "route_type": "hub", "template_family": "hub", "status": "live" },
+    { "id": "main_start_consultation", "menu_group": "main_menu", "label": "Iniciar Consulta", "href": "/consultation", "route_type": "conversion", "template_family": "conversion_contact", "status": "live" },
 
     { "id": "brazil_discover", "menu_group": "brazil", "label": "Discover", "href": "/discover", "route_type": "hub", "template_family": "hub", "status": "live" },
     { "id": "brazil_why_brazil", "menu_group": "brazil", "label": "Why Brazil", "href": "/about/about-brazil", "route_type": "hub", "template_family": "profile_story", "status": "live" },
@@ -209,19 +209,19 @@
     "mega_menus": [
       {
         "id": "brazil",
-        "label": "Brazil",
+        "label": "Brasil",
         "columns": [
-          { "title": "Discover", "item_ids": ["brazil_why_brazil", "brazil_investment", "brazil_economy", "brazil_quality"] },
-          { "title": "Living", "item_ids": ["brazil_cost", "brazil_housing", "brazil_healthcare", "brazil_education", "brazil_safety"] },
-          { "title": "Regions", "item_ids": ["brazil_north", "brazil_northeast", "brazil_central_west", "brazil_southeast", "brazil_south"] },
-          { "title": "States", "item_ids": ["brazil_directory"] },
-          { "title": "Cities", "item_ids": ["brazil_guides", "brazil_municipalities", "brazil_search"] },
-          { "title": "Culture", "item_ids": ["brazil_festivals", "brazil_cuisine", "brazil_events", "brazil_blogs", "brazil_faqs"] }
+          { "title": "Descobrir", "item_ids": ["brazil_why_brazil", "brazil_investment", "brazil_economy", "brazil_quality"] },
+          { "title": "Vida no Brasil", "item_ids": ["brazil_cost", "brazil_housing", "brazil_healthcare", "brazil_education", "brazil_safety"] },
+          { "title": "Regioes", "item_ids": ["brazil_north", "brazil_northeast", "brazil_central_west", "brazil_southeast", "brazil_south"] },
+          { "title": "Estados", "item_ids": ["brazil_directory"] },
+          { "title": "Cidades", "item_ids": ["brazil_guides", "brazil_municipalities", "brazil_search"] },
+          { "title": "Cultura", "item_ids": ["brazil_festivals", "brazil_cuisine", "brazil_events", "brazil_blogs", "brazil_faqs"] }
         ]
       },
       {
         "id": "about_us",
-        "label": "About Us",
+        "label": "Sobre Nos",
         "columns": [
           { "title": "Profile", "item_ids": ["about_about", "about_mission", "about_philosophy", "about_institutional", "about_story", "about_values"] },
           { "title": "Team", "item_ids": ["about_lawyers", "about_advisors", "about_staff", "about_experts"] },
@@ -233,7 +233,7 @@
       },
       {
         "id": "process",
-        "label": "Process",
+        "label": "Processo",
         "columns": [
           { "title": "Method", "item_ids": ["process_consultation", "process_assessment", "process_strategy", "process_filing", "process_approval", "process_works"] },
           { "title": "Risk", "item_ids": ["process_mistakes", "process_failures", "process_deadlines", "process_obligations", "process_alone"] },
@@ -244,7 +244,7 @@
       },
       {
         "id": "services",
-        "label": "Services",
+        "label": "Servicos",
         "columns": [
           { "title": "Visas", "item_ids": ["services_artistic", "services_business", "services_educational", "services_exchange", "services_nomad", "services_diplomatic", "services_family", "services_humanitarian", "services_investor", "services_journalist", "services_medical", "services_religious", "services_research", "services_retiree", "services_sports", "services_startup", "services_student", "services_tourist", "services_transit", "services_volunteer", "services_work"] },
           { "title": "Residencies", "item_ids": ["residency_cplp", "residency_mercosul", "residency_nomad", "residency_educational", "residency_exchange", "residency_reunion", "residency_health", "residency_humanitarian", "residency_investor", "residency_religious", "residency_retiree", "residency_research", "residency_skilled", "residency_study", "residency_work", "residency_youth", "residency_volunteer"] },
@@ -256,7 +256,7 @@
       },
       {
         "id": "insights",
-        "label": "Insights",
+        "label": "Conteudos",
         "columns": [
           { "title": "Guides", "item_ids": ["insights_immigration", "insights_visa", "insights_residency", "insights_citizenship", "insights_state"] },
           { "title": "FAQ", "item_ids": ["insights_general", "insights_visa_faq", "insights_residency_faq", "insights_process_faq", "insights_compliance_faq", "insights_state_faq"] },
@@ -269,12 +269,12 @@
   },
   "footer": {
     "columns": [
-      { "title": "Immigration", "item_ids": ["footer_immigration_visas", "footer_immigration_residency", "footer_immigration_naturalisation", "footer_immigration_defense", "footer_immigration_regularization"] },
+      { "title": "Imigracao", "item_ids": ["footer_immigration_visas", "footer_immigration_residency", "footer_immigration_naturalisation", "footer_immigration_defense", "footer_immigration_regularization"] },
       { "title": "Brazil", "item_ids": ["footer_brazil_states", "footer_brazil_cities", "footer_brazil_cost", "footer_brazil_culture", "footer_brazil_investment"] },
-      { "title": "Resources", "item_ids": ["footer_resources_guides", "footer_resources_faq", "footer_resources_blog", "footer_resources_checklist", "footer_resources_sitemap"] },
-      { "title": "Firm", "item_ids": ["footer_firm_about", "footer_firm_team", "footer_firm_awards", "footer_firm_results"] },
-      { "title": "Legal", "item_ids": ["footer_legal_privacy", "footer_legal_terms", "footer_legal_refund", "footer_legal_gdpr", "footer_legal_accessibility", "footer_legal_disclaimer"] }
+      { "title": "Recursos", "item_ids": ["footer_resources_guides", "footer_resources_faq", "footer_resources_blog", "footer_resources_checklist", "footer_resources_sitemap"] },
+      { "title": "Escritorio", "item_ids": ["footer_firm_about", "footer_firm_team", "footer_firm_awards", "footer_firm_results"] },
+      { "title": "Juridico", "item_ids": ["footer_legal_privacy", "footer_legal_terms", "footer_legal_refund", "footer_legal_gdpr", "footer_legal_accessibility", "footer_legal_disclaimer"] }
     ],
-    "search": { "placeholder": "Whole site", "action_href": "/search", "button_label": "Search" }
+    "search": { "placeholder": "Pesquisar em nosso site", "action_href": "/search", "button_label": "Pesquisar" }
   }
 }

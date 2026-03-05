@@ -17,9 +17,9 @@ export function CtaCard({ locale }: CtaCardProps) {
           <h2 className="font-display text-3xl sm:text-4xl">{t.cta.title}</h2>
           <p className="mt-4 max-w-3xl text-sand-100/90">{t.cta.subtitle}</p>
           <TrackedLink
-            href={localizedPath(locale, '/contact')}
+            href={localizedPath(locale, '/consultation')}
             eventName="cta_click"
-            eventParams={{ cta_location: 'cta_card', cta_variant: 'primary', locale }}
+            eventParams={{ cta_location: 'cta_card', cta_variant: 'strategy_consultation', locale }}
             className="mt-8 inline-flex rounded-full bg-sand-50 px-6 py-3 text-sm font-semibold text-ink-900 transition hover:bg-white"
           >
             {t.cta.button}

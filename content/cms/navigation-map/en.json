@@ -275,6 +275,6 @@
       { "title": "Firm", "item_ids": ["footer_firm_about", "footer_firm_team", "footer_firm_awards", "footer_firm_results"] },
       { "title": "Legal", "item_ids": ["footer_legal_privacy", "footer_legal_terms", "footer_legal_refund", "footer_legal_gdpr", "footer_legal_accessibility", "footer_legal_disclaimer"] }
     ],
-    "search": { "placeholder": "Whole site", "action_href": "/search", "button_label": "Search" }
+    "search": { "placeholder": "Search our website", "action_href": "/search", "button_label": "Search" }
   }
 }

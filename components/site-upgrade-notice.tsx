@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { BrandLogo } from '@/components/brand-logo';
 import { getSiteCmsCopy } from '@/lib/site-cms-content';
 import { siteConfig } from '@/lib/site-config';
@@ -45,12 +47,12 @@ export function SiteUpgradeNotice({ locale }: SiteUpgradeNoticeProps) {
               >
                 {notice.whatsappButton}
               </a>
-              <a
-                href={`mailto:${contact.clientEmail}`}
+              <Link
+                href={`/${locale}/email-us-notice`}
                 className="inline-flex items-center justify-center rounded-full border border-sand-100/35 bg-white/15 px-5 py-2.5 text-sm font-semibold text-sand-50 transition hover:-translate-y-0.5 hover:bg-white/25"
               >
                 {notice.emailButton}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

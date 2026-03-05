@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Fraunces, Manrope } from 'next/font/google';
+import { Atkinson_Hyperlegible, Fraunces, Manrope } from 'next/font/google';
 
 import { AnalyticsBody, AnalyticsHead } from '@/components/analytics';
 import { siteConfig } from '@/lib/site-config';
@@ -18,6 +18,13 @@ const fraunces = Fraunces({
   variable: '--font-display',
   display: 'swap',
   weight: ['600', '700', '800'],
+});
+
+const atkinsonHyperlegible = Atkinson_Hyperlegible({
+  subsets: ['latin'],
+  variable: '--font-dyslexia',
+  display: 'swap',
+  weight: ['400', '700'],
 });
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.immigratetobrazil.com';
@@ -73,7 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <AnalyticsHead />
       </head>
-      <body className={`${manrope.variable} ${fraunces.variable} font-sans`}>
+      <body className={`${manrope.variable} ${fraunces.variable} ${atkinsonHyperlegible.variable} font-sans`}>
         <AnalyticsBody />
         {children}
       </body>

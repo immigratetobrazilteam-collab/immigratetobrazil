@@ -4,6 +4,10 @@
 
 :root {
   color-scheme: light;
+  --itb-text-scale: 1;
+  --itb-filter-invert: 0;
+  --itb-filter-grayscale: 0;
+  --itb-filter-contrast: 1;
 }
 
 * {
@@ -17,6 +21,7 @@ body {
 }
 
 html {
+  font-size: calc(100% * var(--itb-text-scale));
   scroll-behavior: smooth;
 }
 
@@ -32,6 +37,10 @@ body {
   color: #091c18;
 }
 
+#site-shell {
+  filter: invert(var(--itb-filter-invert)) grayscale(var(--itb-filter-grayscale)) contrast(var(--itb-filter-contrast));
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -44,6 +53,68 @@ main {
 ::selection {
   background: rgba(47, 143, 136, 0.22);
   color: #091c18;
+}
+
+:focus-visible {
+  outline: 3px solid #2f8f88;
+  outline-offset: 2px;
+}
+
+html.a11y-high-contrast {
+  --itb-filter-contrast: 1.35;
+}
+
+html.a11y-invert {
+  --itb-filter-invert: 1;
+}
+
+html.a11y-grayscale {
+  --itb-filter-grayscale: 1;
+}
+
+html.a11y-dyslexia #site-shell,
+html.a11y-dyslexia #site-shell * {
+  font-family: var(--font-dyslexia), var(--font-sans), system-ui, sans-serif !important;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
+  line-height: 1.55;
+}
+
+html.a11y-highlight-links #site-shell a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px;
+  background: rgba(245, 196, 0, 0.2);
+}
+
+html.a11y-highlight-headings #site-shell h1,
+html.a11y-highlight-headings #site-shell h2,
+html.a11y-highlight-headings #site-shell h3,
+html.a11y-highlight-headings #site-shell h4,
+html.a11y-highlight-headings #site-shell h5,
+html.a11y-highlight-headings #site-shell h6 {
+  background: rgba(47, 143, 136, 0.2);
+  border-radius: 8px;
+  padding-inline: 0.2em;
+}
+
+html.a11y-hide-images #site-shell img,
+html.a11y-hide-images #site-shell picture,
+html.a11y-hide-images #site-shell figure {
+  visibility: hidden !important;
+}
+
+html.a11y-reduce-motion,
+html.a11y-reduce-motion * {
+  scroll-behavior: auto !important;
+}
+
+html.a11y-reduce-motion #site-shell *,
+html.a11y-reduce-motion #site-shell *::before,
+html.a11y-reduce-motion #site-shell *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
 }
 
 @layer components {

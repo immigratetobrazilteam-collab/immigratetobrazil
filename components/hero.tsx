@@ -26,9 +26,9 @@ export function Hero({ locale }: HeroProps) {
           <p className="max-w-xl text-lg leading-relaxed text-ink-700">{t.hero.subtitle}</p>
           <div className="flex flex-wrap gap-3">
             <TrackedLink
-              href={localizedPath(locale, '/contact')}
+              href={localizedPath(locale, '/book-strategy-consultation')}
               eventName="cta_click"
-              eventParams={{ cta_location: 'hero', cta_variant: 'primary', locale }}
+              eventParams={{ cta_location: 'hero', cta_variant: 'book_strategy_consultation', locale }}
               className="rounded-full bg-ink-900 px-6 py-3 text-sm font-semibold text-sand-50 shadow-card transition hover:-translate-y-0.5 hover:bg-ink-800"
             >
               {t.hero.primaryCta}

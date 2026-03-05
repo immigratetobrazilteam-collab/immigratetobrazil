@@ -96,7 +96,7 @@ function dropdownLinkClass(active: boolean) {
   );
 }
 
-export function SiteHeader({ locale, brand }: SiteHeaderProps) {
+export function SiteHeader({ locale, brand, headerNavigation }: SiteHeaderProps) {
   const pathname = usePathname() || `/${locale}`;
   const desktopMenuRef = useRef<HTMLDivElement | null>(null);
 
@@ -110,12 +110,16 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
   const portalItem = navMap.resolveItem('top_client_portal');
   const homeHref = homeItem?.href || resolveCmsHref(locale, '/');
   const homeLabel = homeItem?.label || 'Home';
-  const accessibilityHref = accessibilityItem?.href || resolveCmsHref(locale, '/accessibility');
   const accessibilityLabel = accessibilityItem?.label || 'Accessibility Switcher';
   const portalHref = portalItem?.href || resolveCmsHref(locale, '/client-portal');
   const portalLabel = portalItem?.label || 'Client Portal Login';
   const consultationHref = ctaItem?.href || resolveCmsHref(locale, '/consultation');
   const consultationLabel = ctaItem?.label || 'Start Consultation';
+  const headerTagline = headerNavigation.brandTagline || 'Helping Immigrants, Promoting Brazil';
+
+  function openAccessibilityPanel() {
+    window.dispatchEvent(new Event('itb:a11y-open'));
+  }
 
   function trackCtaClick(source: string) {
     trackAnalyticsEvent('cta_click', {
@@ -182,12 +186,15 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
       <div className="border-b border-sand-200/80 bg-white/90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex min-h-10 flex-wrap items-center justify-end gap-2 text-xs sm:gap-3">
-            <Link
-              href={accessibilityHref}
+            <button
+              type="button"
+              onClick={openAccessibilityPanel}
+              aria-haspopup="dialog"
+              aria-controls="accessibility-panel"
               className="rounded-full border border-sand-300 bg-white px-3 py-1 font-semibold text-ink-700 transition hover:border-civic-300 hover:text-ink-900"
             >
               {accessibilityLabel}
-            </Link>
+            </button>
             <LanguageSwitcher />
             <Link
               href={portalHref}
@@ -202,7 +209,7 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
       <div className="border-b border-sand-200 bg-sand-50/95">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-[1fr_auto] items-center gap-3 py-3 lg:grid-cols-3">
-            <HeaderLogo href={homeHref} brand={brand} tagline="Helping Immigrants, Promoting Brazil" />
+            <HeaderLogo href={homeHref} brand={brand} tagline={headerTagline} />
 
             <div className="hidden justify-self-center lg:block">
               <Link
@@ -243,7 +250,7 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
 
       <div className="hidden border-b border-sand-200 bg-white/95 lg:block">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div ref={desktopMenuRef} className="relative py-2.5" onMouseLeave={() => setOpenMenu(null)}>
+          <div ref={desktopMenuRef} className="relative py-2.5">
             <nav className="grid grid-cols-5 items-center gap-2">
               {menus.map((menu) => {
                 const active = [menu.href, ...(menu.activePrefixes || [])].some((prefix) => isActivePath(pathname, prefix));
@@ -257,6 +264,8 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
                     onClick={() => setOpenMenu((prev) => (prev === menu.id ? null : menu.id))}
                     className={topLevelLinkClass(active, isOpen)}
                     aria-expanded={isOpen}
+                    aria-haspopup="menu"
+                    aria-controls="desktop-mega-menu-panel"
                   >
                     <span>{menu.label}</span>
                     <span className={cn('ml-1 inline-block text-xs transition-transform', isOpen ? 'rotate-180' : '')}>▾</span>
@@ -266,6 +275,7 @@ export function SiteHeader({ locale, brand }: SiteHeaderProps) {
             </nav>
 
             <div
+              id="desktop-mega-menu-panel"
               className={cn(
                 'absolute left-0 right-0 top-full z-50 mt-2 rounded-2xl border border-sand-200 bg-white p-5 shadow-card transition duration-200',
                 openMenuData ? 'visible translate-y-0 opacity-100' : 'pointer-events-none invisible -translate-y-1 opacity-0',
