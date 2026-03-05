@@ -47,6 +47,7 @@ npx serve out -l 4173
 ```
 
 ## Documentation map
+- New maintainer quick guide: `documentation/content-editing-guide.md`
 - Architecture: `documentation/modern-architecture.md`
 - Complete page-edit workflow: `documentation/page-editing-playbook.md`
 - CMS guide (non-developers): `documentation/cms-for-non-developers.md`

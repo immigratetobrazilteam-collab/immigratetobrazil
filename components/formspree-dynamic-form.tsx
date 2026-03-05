@@ -71,6 +71,7 @@ export function FormspreeDynamicForm({
     const honeypot = String(formData.get('_gotcha') || '').trim();
     const websiteTrap = String(formData.get('website') || '').trim();
 
+    // Basic anti-bot checks: hidden fields + minimum fill time.
     if (honeypot || websiteTrap || Date.now() - startedAt.current < 1800) {
       setStatus('error');
       setErrorBanner(spamMessage);
@@ -80,6 +81,7 @@ export function FormspreeDynamicForm({
 
     const nextErrors: Record<string, string> = {};
 
+    // Field-level validation driven by the schema passed to this component.
     for (const field of fields) {
       const value = normalizeFieldValue(formData.get(field.name));
 

@@ -30,13 +30,11 @@ function fallbackCopy(locale: Locale) {
 
 async function buildSyntheticDocument(locale: Locale, slug: string[]): Promise<LegacyDocument | null> {
   const joined = slug.join('/');
+  const copy = fallbackCopy(locale);
   const routes = await getLocaleRoutes(locale);
   const entry = routes.find((route) => route.slug === joined);
-  if (!entry) return null;
-
-  const copy = fallbackCopy(locale);
-  const title = routeTitle(entry);
-  const description = entry.description?.trim() || copy.fallbackDescription;
+  const title = entry ? routeTitle(entry) : slugToTitle(joined);
+  const description = entry?.description?.trim() || copy.fallbackDescription;
   const bullets = joined
     .split('/')
     .filter(Boolean)
@@ -45,7 +43,7 @@ async function buildSyntheticDocument(locale: Locale, slug: string[]): Promise<L
     .filter(Boolean);
 
   return {
-    sourcePath: entry.sourcePath || joined,
+    sourcePath: entry?.sourcePath || joined,
     title,
     description,
     heading: title,

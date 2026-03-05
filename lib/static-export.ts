@@ -1,6 +1,7 @@
 import routeIndexData from '@/content/generated/route-index-lite.json';
 import { getDiscoverManifest } from '@/lib/discover-pages-content';
 import { locales } from '@/lib/locale';
+import { getNavigationMap } from '@/lib/navigation-map-content';
 import { getAllStateGuideSlugs } from '@/lib/state-guides-content';
 import type { Locale } from '@/lib/types';
 
@@ -95,7 +96,6 @@ export async function getDiscoverCatchAllParams() {
 }
 
 export function getLegacyCatchAllParams(locale: Locale) {
-  const dedicatedFamilies = ['discover/', 'services/', 'blog/', 'contact/', 'faq/', 'state-guides/', 'policies/'];
   const dedicatedSingles = new Set([
     '',
     'about',
@@ -108,6 +108,8 @@ export function getLegacyCatchAllParams(locale: Locale) {
     'accessibility',
     'client-portal',
     'consultation',
+    'book-strategy-consultation',
+    'email-us-notice',
     'home',
     'library',
     'process',
@@ -116,10 +118,33 @@ export function getLegacyCatchAllParams(locale: Locale) {
     'visa-consultation',
   ]);
 
-  return localeSlugs(locale)
-    .filter((slug) => !dedicatedSingles.has(slug))
-    .filter((slug) => !dedicatedFamilies.some((prefix) => slug.startsWith(prefix)))
+  const navDerivedSlugs = getNavigationMap(locale).registry
+    .map((item) => item.href)
+    .filter((href) => href && href.startsWith('/'))
+    .filter((href) => !href.startsWith('http://') && !href.startsWith('https://') && !href.startsWith('mailto:') && !href.startsWith('tel:'))
+    .map((href) => href.replace(/^\/+|\/+$/g, ''))
+    .filter(Boolean);
+
+  const slugPool = Array.from(new Set([...localeSlugs(locale), ...navDerivedSlugs]));
+
+  function isHandledByDedicatedRoute(slug: string) {
+    if (dedicatedSingles.has(slug)) return true;
+
+    const segments = slug.split('/').filter(Boolean);
+    if (!segments.length) return true;
+
+    // Discover pages use their own catch-all pipeline and should not be duplicated.
+    if (slug.startsWith('discover/')) return true;
+
+    // Family routes below are handled by dedicated one-level routes.
+    const oneLevelFamilies = new Set(['services', 'blog', 'contact', 'faq', 'state-guides', 'policies']);
+    if (oneLevelFamilies.has(segments[0]) && segments.length === 2) return true;
+
+    return false;
+  }
+
+  return slugPool
+    .filter((slug) => !isHandledByDedicatedRoute(slug))
     .map((slug) => slug.split('/').filter(Boolean))
     .filter((parts) => parts.length > 0);
 }
-

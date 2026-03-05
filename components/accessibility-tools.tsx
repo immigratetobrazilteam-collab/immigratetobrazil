@@ -235,6 +235,7 @@ export function AccessibilityTools({ locale }: { locale: Locale }) {
   }, []);
 
   useEffect(() => {
+    // Persist settings only for the active browser session.
     try {
       sessionStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
     } catch {
@@ -243,6 +244,7 @@ export function AccessibilityTools({ locale }: { locale: Locale }) {
   }, [settings]);
 
   useEffect(() => {
+    // Apply global accessibility classes/vars directly on <html>.
     const html = document.documentElement;
     html.style.setProperty('--itb-text-scale', settings.textScale.toString());
 
@@ -259,6 +261,7 @@ export function AccessibilityTools({ locale }: { locale: Locale }) {
   }, [settings]);
 
   useEffect(() => {
+    // Header trigger dispatches this event to open the panel.
     const onOpen = () => setOpen(true);
 
     window.addEventListener('itb:a11y-open', onOpen);
