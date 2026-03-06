@@ -1655,6 +1655,175 @@
         ],
         "searchIntent": "informational",
         "snippetAnswer": "This page provides practical and structured immigration planning guidance for Brazil."
+      },
+      "seo": {
+        "metaTitleTemplate": "About Brazil: Regions, Living, and Culture | {{brand}}",
+        "metaDescription": "Explore Brazil through practical relocation context: why Brazil, cost of living, regions, states, cities, and culture with direct links to deeper guides.",
+        "keywords": [
+          "about brazil",
+          "move to brazil",
+          "brazil regions",
+          "brazil cost of living",
+          "brazil culture"
+        ],
+        "faq": [
+          {
+            "question": "What can I do from the About Brazil hub?",
+            "answer": "You can browse regional guides, state pages, living topics, cultural guides, and relocation next steps in one place."
+          },
+          {
+            "question": "Does this page include links to deeper pages?",
+            "answer": "Yes. Every section links to dedicated routes so you can continue into state, city, visa, and resource pages."
+          }
+        ],
+        "internalLinksTitle": "Key migration links",
+        "internalLinks": [
+          {
+            "href": "/consultation",
+            "label": "Start consultation"
+          },
+          {
+            "href": "/discover",
+            "label": "Open discover hub"
+          },
+          {
+            "href": "/resources-guides-brazil",
+            "label": "Resources and guides"
+          },
+          {
+            "href": "/about/about-brazil/apply-brazil",
+            "label": "Apply to Brazil"
+          },
+          {
+            "href": "/contact",
+            "label": "Contact advisory team"
+          }
+        ]
+      },
+      "hero": {
+        "eyebrow": "About Brazil",
+        "title": "Discover Brazil with practical relocation context",
+        "subtitle": "Use this page as your Brazil homepage for discovery. Navigate living topics, regions, states, city guides, culture, and action-focused immigration resources.",
+        "primaryCta": {
+          "label": "Start Consultation",
+          "href": "/consultation"
+        },
+        "secondaryCta": {
+          "label": "Open Discover Hub",
+          "href": "/discover"
+        },
+        "statChips": [
+          {
+            "label": "{{aboutCount}} about-brazil pages"
+          },
+          {
+            "label": "{{discoverCount}} discover pages"
+          },
+          {
+            "label": "{{stateCount}} state pages"
+          }
+        ]
+      },
+      "sections": {
+        "discover": {
+          "eyebrow": "Discover",
+          "title": "Why Brazil and opportunity overview",
+          "subtitle": "Start with the strategic reasons to choose Brazil and then move to focused pages on investment, economy, and quality context.",
+          "ctaLabel": "Explore Why Brazil",
+          "ctaHref": "/about/about-brazil/why-brazil",
+          "itemDescriptions": {
+            "brazil_why_brazil": "Legal pathways, lifestyle context, and planning fundamentals for prospective immigrants.",
+            "brazil_investment": "Investor-oriented residency pathways and business-linked immigration options.",
+            "brazil_economy": "Cost and economic context to support location and timeline decisions.",
+            "brazil_quality": "Quality-oriented relocation framing tied to process quality and long-term stability."
+          }
+        },
+        "living": {
+          "eyebrow": "Living",
+          "title": "Cost, housing, healthcare, education, and safety",
+          "subtitle": "Review practical living topics before selecting a destination city or state and before committing to timelines.",
+          "ctaLabel": "Open living resources",
+          "ctaHref": "/resources-guides-brazil",
+          "itemDescriptions": {
+            "brazil_cost": "Budget planning and cost framing for relocation and first-year setup.",
+            "brazil_housing": "Housing checklists and relocation operations guidance.",
+            "brazil_healthcare": "Healthcare-related immigration and treatment pathway guidance.",
+            "brazil_education": "Education and student pathway references for families and applicants.",
+            "brazil_safety": "State-level exploration to evaluate environment, infrastructure, and fit."
+          }
+        },
+        "regions": {
+          "eyebrow": "Regions",
+          "title": "Explore Brazil by region",
+          "subtitle": "Compare the five macro-regions first, then drill down into states and city-level pages.",
+          "ctaLabel": "Browse all regions",
+          "ctaHref": "/discover/brazilian-regions",
+          "itemDescriptions": {
+            "brazil_north": "Amazon basin, frontier growth, and nature-forward destinations.",
+            "brazil_northeast": "Coastal living, strong culture, and affordability tradeoffs.",
+            "brazil_central_west": "Agribusiness strength, inland hubs, and federal capital dynamics.",
+            "brazil_southeast": "Largest economic concentration and dense urban opportunities.",
+            "brazil_south": "Cooler climate profile with strong infrastructure in key cities."
+          }
+        },
+        "states": {
+          "eyebrow": "States",
+          "title": "State directory snapshot",
+          "subtitle": "Quickly access state-level pages and then continue into municipality and city guidance.",
+          "ctaLabel": "Open full state directory",
+          "ctaHref": "/discover/brazilian-states",
+          "itemDescriptions": {
+            "brazil_directory": "Directory access to state overviews and deep links."
+          }
+        },
+        "cities": {
+          "eyebrow": "Cities",
+          "title": "City guides, municipalities, and search",
+          "subtitle": "Use region and city pages to narrow your destination with practical relocation checkpoints.",
+          "ctaLabel": "Browse city and region guides",
+          "ctaHref": "/discover/brazilian-regions",
+          "itemDescriptions": {
+            "brazil_guides": "Region and city guide hub for destination discovery.",
+            "brazil_municipalities": "Municipality-focused navigation through discover archives.",
+            "brazil_search": "Search across services, states, resources, and related pages."
+          }
+        },
+        "culture": {
+          "eyebrow": "Culture",
+          "title": "Festivals, cuisine, events, blogs, and FAQs",
+          "subtitle": "Experience cultural context through state-level festival and food pages, plus ongoing insights and FAQs.",
+          "ctaLabel": "Open festivals hub",
+          "ctaHref": "/about/about-brazil/festivals",
+          "itemDescriptions": {
+            "brazil_festivals": "State-by-state festivals and cultural event identity pages.",
+            "brazil_cuisine": "State-level food guides to understand local cuisine traditions.",
+            "brazil_events": "Event coverage currently routed through the blog hub.",
+            "brazil_blogs": "Ongoing updates, analysis, and practical relocation insights.",
+            "brazil_faqs": "Fast answers to common immigration and relocation questions."
+          }
+        },
+        "guides": {
+          "eyebrow": "Guides",
+          "title": "Featured deep-dive guides",
+          "subtitle": "Continue into execution-focused pages for why Brazil, cost planning, and the application process.",
+          "ctaLabel": "Apply to Brazil",
+          "ctaHref": "/about/about-brazil/apply-brazil",
+          "itemDescriptions": {}
+        }
+      },
+      "labels": {
+        "jumpNavTitle": "Jump to section",
+        "updatedLabel": "JSON-driven hub with deep internal linking",
+        "linksTitle": "Related planning links",
+        "stateCountLabel": "{{count}} state pages",
+        "cityCountLabel": "{{count}} city samples",
+        "festivalsListLabel": "Featured festival guides",
+        "foodListLabel": "Featured cuisine guides",
+        "citySamplesLabel": "Popular city pages"
+      },
+      "fallbacks": {
+        "eventsHref": "/blog",
+        "housingHref": "/resources-guides-brazil"
       }
     },
     "aboutStatesHubPage": {

@@ -5,17 +5,15 @@ import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
 import { PaymentMethods } from '@/components/payment-methods';
 import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
+import { getFormsCmsCopy } from '@/lib/forms-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 
 // Update scheduling URL via env var first; fallback keeps local/dev stable.
 const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() || 'https://calendly.com/immigratetobrazilteam/strategy-consultation';
-// Update receiver and form endpoints here when payment/forms providers change.
+// Update receiver in site settings; form endpoints come from CMS forms config.
 const PAYMENT_RECEIVER = 'immigratetobrazilteam@gmail.com';
-const DOCUMENT_UPLOAD_ENDPOINT = 'https://formspree.io/f/xojkaddn';
-const CLIENT_FORMS_ENDPOINT = 'https://formspree.io/f/mnjgadgy';
-const REMINDER_DOCUMENTS_ENDPOINT = 'https://formspree.io/f/xdawngpq';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -33,12 +31,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ClientPortalPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = getCodeManagedPagesCopy(locale).clientPortalPage;
+  const cmsCopy = getCodeManagedPagesCopy(locale);
+  const t = cmsCopy.clientPortalPage;
+  const formsCopy = getFormsCmsCopy(locale);
+  const serviceOptions = formsCopy.serviceSelect.options;
+  const servicePlaceholder = formsCopy.serviceSelect.placeholder;
 
   const uploadFields: FormField[] = [
     { name: 'name', label: t.uploadFields.name, type: 'text', required: true, autoComplete: 'name' },
     { name: 'email', label: t.uploadFields.email, type: 'email', required: true, autoComplete: 'email' },
     { name: 'case_reference', label: t.uploadFields.caseRef, type: 'text' },
+    {
+      name: 'service_interest',
+      label: formsCopy.serviceSelect.label,
+      type: 'select',
+      required: true,
+      placeholder: servicePlaceholder,
+      options: serviceOptions,
+    },
     {
       name: 'documents',
       label: t.uploadFields.documents,
@@ -55,13 +65,28 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
     { name: 'email', label: t.formsFields.email, type: 'email', required: true, autoComplete: 'email' },
     { name: 'phone', label: t.formsFields.phone, type: 'tel', required: true, autoComplete: 'tel' },
     { name: 'country', label: t.formsFields.country, type: 'text', required: true },
-    { name: 'process_stage', label: t.formsFields.processStage, type: 'text', required: true },
+    {
+      name: 'process_stage',
+      label: t.formsFields.processStage,
+      type: 'select',
+      required: true,
+      placeholder: servicePlaceholder,
+      options: serviceOptions,
+    },
     { name: 'required_info', label: t.formsFields.info, type: 'textarea', required: true, minLength: 25, rows: 5 },
   ];
 
   const reminderFields: FormField[] = [
     { name: 'name', label: t.reminderFormFields.name, type: 'text', required: true, autoComplete: 'name' },
     { name: 'email', label: t.reminderFormFields.email, type: 'email', required: true, autoComplete: 'email' },
+    {
+      name: 'service_interest',
+      label: formsCopy.serviceSelect.label,
+      type: 'select',
+      required: true,
+      placeholder: servicePlaceholder,
+      options: serviceOptions,
+    },
     {
       name: 'documents',
       label: t.reminderFormFields.file,
@@ -90,7 +115,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
             <div className="mt-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={DOCUMENT_UPLOAD_ENDPOINT}
+                endpoint={formsCopy.endpoints.clientPortalUpload}
                 context={`portal-doc-upload-${locale}`}
                 fields={uploadFields}
                 submitLabel={t.uploadSubmit}
@@ -98,6 +123,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 successMessage={t.uploadSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.uploadTitle} - ${locale.toUpperCase()}`}
               />
             </div>
@@ -109,7 +135,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
             <div className="mt-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={CLIENT_FORMS_ENDPOINT}
+                endpoint={formsCopy.endpoints.clientPortalForms}
                 context={`portal-client-forms-${locale}`}
                 fields={clientFormFields}
                 submitLabel={t.formsSubmit}
@@ -117,6 +143,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 successMessage={t.formsSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.formsTitle} - ${locale.toUpperCase()}`}
               />
             </div>
@@ -173,7 +200,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
             <div className="mt-5 rounded-2xl border border-sand-200 bg-white p-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={REMINDER_DOCUMENTS_ENDPOINT}
+                endpoint={formsCopy.endpoints.clientPortalReminder}
                 context={`portal-reminder-documents-${locale}`}
                 fields={reminderFields}
                 submitLabel={t.reminderSubmit}
@@ -181,6 +208,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 successMessage={t.reminderSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.reminderFormTitle} - ${locale.toUpperCase()}`}
               />
             </div>

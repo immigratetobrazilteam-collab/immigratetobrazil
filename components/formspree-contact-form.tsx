@@ -3,8 +3,8 @@
 import { FormEvent, useMemo, useRef, useState } from 'react';
 
 import { trackAnalyticsEvent } from '@/lib/analytics-events';
+import { getFormsCmsCopy } from '@/lib/forms-cms-content';
 import { getManagedPageCopyWithFallback } from '@/lib/site-cms-content';
-import { siteConfig } from '@/lib/site-config';
 import type { Locale } from '@/lib/types';
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
@@ -85,6 +85,9 @@ export function FormspreeContactForm({
     () => getManagedPageCopyWithFallback<FormCopy>(locale, 'formspreeForm', fallbackCopy),
     [locale],
   );
+  const formsCopy = useMemo(() => getFormsCmsCopy(locale), [locale]);
+  const serviceOptions = formsCopy.serviceSelect.options;
+  const selectPlaceholder = formsCopy.serviceSelect.placeholder;
   const startedAt = useRef(Date.now());
   const [status, setStatus] = useState<FormStatus>('idle');
   const [errorMessage, setErrorMessage] = useState('');
@@ -136,7 +139,7 @@ export function FormspreeContactForm({
     formData.set('locale', locale);
 
     try {
-      const response = await fetch(siteConfig.contact.formspreeEndpoint, {
+      const response = await fetch(formsCopy.endpoints.generalContact, {
         method: 'POST',
         headers: {
           Accept: 'application/json',
@@ -219,12 +222,22 @@ export function FormspreeContactForm({
           <label className="mb-1.5 block text-xs font-semibold uppercase tracking-[0.1em] text-ink-700" htmlFor={`service-${context}`}>
             {copy.service}
           </label>
-          <input
+          <select
             id={`service-${context}`}
             name="service"
-            type="text"
+            defaultValue=""
+            required
             className="w-full rounded-xl border border-sand-300 bg-sand-50 px-3 py-2.5 text-sm text-ink-900 outline-none transition focus:border-civic-500 focus:bg-white"
-          />
+          >
+            <option value="" disabled>
+              {selectPlaceholder}
+            </option>
+            {serviceOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
         </div>
 
         <div className="sm:col-span-2">

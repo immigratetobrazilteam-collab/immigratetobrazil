@@ -5,16 +5,15 @@ import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
 import { PaymentMethods } from '@/components/payment-methods';
 import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
+import { getFormsCmsCopy } from '@/lib/forms-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 
 // Update scheduling URL via env var first; fallback keeps local/dev stable.
 const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() || 'https://calendly.com/immigratetobrazilteam/strategy-consultation';
-// Update receiver and form endpoints here when payment/forms providers change.
+// Update receiver in site settings; form endpoints come from CMS forms config.
 const PAYMENT_RECEIVER = 'immigratetobrazilteam@gmail.com';
-const CONSULTATION_ENDPOINT = 'https://formspree.io/f/mbdzroab';
-const DOCUMENTS_ENDPOINT = 'https://formspree.io/f/xdawngpq';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -33,6 +32,7 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = getCodeManagedPagesCopy(locale).consultationPage;
+  const formsCopy = getFormsCmsCopy(locale);
 
   const consultationFields: FormField[] = [
     { name: 'full_name', label: t.formFields.fullName, type: 'text', autoComplete: 'name', required: true },
@@ -46,8 +46,8 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
       label: t.formFields.visaInterest,
       type: 'select',
       required: true,
-      placeholder: t.formFields.selectPlaceholder,
-      options: t.visaOptions,
+      placeholder: formsCopy.serviceSelect.placeholder,
+      options: formsCopy.serviceSelect.options,
     },
     { name: 'situation_description', label: t.formFields.situation, type: 'textarea', required: true, minLength: 30, rows: 6 },
     {
@@ -61,6 +61,14 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
   const documentFields: FormField[] = [
     { name: 'name', label: t.docFormFields.name, type: 'text', required: true, autoComplete: 'name' },
     { name: 'email', label: t.docFormFields.email, type: 'email', required: true, autoComplete: 'email' },
+    {
+      name: 'service_interest',
+      label: formsCopy.serviceSelect.label,
+      type: 'select',
+      required: true,
+      placeholder: formsCopy.serviceSelect.placeholder,
+      options: formsCopy.serviceSelect.options,
+    },
     {
       name: 'documents',
       label: t.docFormFields.file,
@@ -124,7 +132,7 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
             <div className="mt-6 rounded-2xl border border-sand-200 bg-white p-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={CONSULTATION_ENDPOINT}
+                endpoint={formsCopy.endpoints.consultation}
                 context={`consultation-${locale}`}
                 fields={consultationFields}
                 submitLabel={t.submitLabel}
@@ -132,6 +140,7 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
                 successMessage={t.successMessage}
                 errorMessage={t.errorMessage}
                 spamMessage={t.spamMessage}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.heroTitle} - ${locale.toUpperCase()}`}
               />
             </div>
@@ -179,7 +188,7 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
             <div className="mt-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={DOCUMENTS_ENDPOINT}
+                endpoint={formsCopy.endpoints.consultationDocuments}
                 context={`consultation-documents-${locale}`}
                 fields={documentFields}
                 submitLabel={t.docFormSubmitLabel}
@@ -187,6 +196,7 @@ export default async function ConsultationPage({ params }: { params: Promise<{ l
                 successMessage={t.docFormSuccessMessage}
                 errorMessage={t.docFormErrorMessage}
                 spamMessage={t.spamMessage}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.docFormTitle} - ${locale.toUpperCase()}`}
               />
             </div>

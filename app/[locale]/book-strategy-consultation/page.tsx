@@ -3,11 +3,9 @@ import type { Metadata } from 'next';
 import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
 import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
+import { getFormsCmsCopy } from '@/lib/forms-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
-
-// Update this endpoint if the Formspree form changes.
-const STRATEGY_ENDPOINT = 'https://formspree.io/f/maqpwodw';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -26,12 +24,21 @@ export default async function BookStrategyConsultationPage({ params }: { params:
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = getCodeManagedPagesCopy(locale).bookStrategyConsultationPage;
+  const formsCopy = getFormsCmsCopy(locale);
 
   const fields: FormField[] = [
     { name: 'name', label: t.fields.name, type: 'text', required: true, autoComplete: 'name' },
     { name: 'email', label: t.fields.email, type: 'email', required: true, autoComplete: 'email' },
     { name: 'phone', label: t.fields.phone, type: 'tel', required: true, autoComplete: 'tel' },
     { name: 'country', label: t.fields.country, type: 'text', required: true },
+    {
+      name: 'service_interest',
+      label: formsCopy.serviceSelect.label,
+      type: 'select',
+      required: true,
+      placeholder: formsCopy.serviceSelect.placeholder,
+      options: formsCopy.serviceSelect.options,
+    },
     { name: 'goal', label: t.fields.goal, type: 'text', required: true },
     { name: 'details', label: t.fields.details, type: 'textarea', required: true, minLength: 20, rows: 5 },
   ];
@@ -76,7 +83,7 @@ export default async function BookStrategyConsultationPage({ params }: { params:
             <div className="mt-6 rounded-2xl border border-sand-200 bg-white p-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={STRATEGY_ENDPOINT}
+                endpoint={formsCopy.endpoints.strategyConsultation}
                 context={`book-strategy-${locale}`}
                 fields={fields}
                 submitLabel={t.submit}
@@ -84,6 +91,7 @@ export default async function BookStrategyConsultationPage({ params }: { params:
                 successMessage={t.success}
                 errorMessage={t.error}
                 spamMessage={t.spam}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.title} - ${locale.toUpperCase()}`}
               />
             </div>

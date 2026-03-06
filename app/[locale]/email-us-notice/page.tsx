@@ -3,11 +3,9 @@ import type { Metadata } from 'next';
 import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
 import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
+import { getFormsCmsCopy } from '@/lib/forms-cms-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
-
-// Update this endpoint if the Formspree form changes.
-const NOTICE_ENDPOINT = 'https://formspree.io/f/mnjgadzy';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
@@ -26,12 +24,20 @@ export default async function EmailUsNoticePage({ params }: { params: Promise<{ 
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
   const t = getCodeManagedPagesCopy(locale).emailUsNoticePage;
+  const formsCopy = getFormsCmsCopy(locale);
 
   const fields: FormField[] = [
     { name: 'full_name', label: t.fields.fullName, type: 'text', required: true, autoComplete: 'name' },
     { name: 'email', label: t.fields.email, type: 'email', required: true, autoComplete: 'email' },
     { name: 'phone', label: t.fields.phone, type: 'tel', autoComplete: 'tel' },
-    { name: 'notice_subject', label: t.fields.subject, type: 'text', required: true },
+    {
+      name: 'notice_subject',
+      label: t.fields.subject,
+      type: 'select',
+      required: true,
+      placeholder: formsCopy.serviceSelect.placeholder,
+      options: formsCopy.serviceSelect.options,
+    },
     { name: 'notice_details', label: t.fields.message, type: 'textarea', required: true, minLength: 25, rows: 6 },
     {
       name: 'attachment',
@@ -71,7 +77,7 @@ export default async function EmailUsNoticePage({ params }: { params: Promise<{ 
             <div className="mt-5">
               <FormspreeDynamicForm
                 locale={locale}
-                endpoint={NOTICE_ENDPOINT}
+                endpoint={formsCopy.endpoints.emailNotice}
                 context={`email-us-notice-${locale}`}
                 fields={fields}
                 submitLabel={t.submit}
@@ -79,6 +85,7 @@ export default async function EmailUsNoticePage({ params }: { params: Promise<{ 
                 successMessage={t.success}
                 errorMessage={t.error}
                 spamMessage={t.spam}
+                uploadNotPermittedMessage={formsCopy.uploadFallback.blockedMessage}
                 subject={`${t.title} - ${locale.toUpperCase()}`}
               />
             </div>

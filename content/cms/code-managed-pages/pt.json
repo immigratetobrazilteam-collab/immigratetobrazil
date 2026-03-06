@@ -44,12 +44,250 @@
       "selectPlaceholder": "Selecione o interesse de visto ou residencia"
     },
     "visaOptions": [
-      { "value": "digital_nomad", "label": "Nomade Digital" },
-      { "value": "work_visa", "label": "Visto de Trabalho" },
-      { "value": "investor", "label": "Residencia para Investidor" },
-      { "value": "family_reunion", "label": "Reuniao Familiar" },
-      { "value": "retirement", "label": "Aposentadoria" },
-      { "value": "not_sure", "label": "Ainda nao tenho certeza" }
+      {
+        "value": "not_sure_yet",
+        "label": "Ainda nao tenho certeza"
+      },
+      {
+        "value": "other",
+        "label": "Outro"
+      },
+      {
+        "value": "visa_artistic",
+        "label": "Visto - Artistico"
+      },
+      {
+        "value": "visa_business",
+        "label": "Visto - Negocios"
+      },
+      {
+        "value": "visa_educational",
+        "label": "Visto - Educacional"
+      },
+      {
+        "value": "visa_exchange",
+        "label": "Visto - Intercambio"
+      },
+      {
+        "value": "visa_nomad",
+        "label": "Visto - Nomade"
+      },
+      {
+        "value": "visa_diplomatic",
+        "label": "Visto - Diplomatico"
+      },
+      {
+        "value": "visa_family",
+        "label": "Visto - Familiar"
+      },
+      {
+        "value": "visa_humanitarian",
+        "label": "Visto - Humanitario"
+      },
+      {
+        "value": "visa_investor",
+        "label": "Visto - Investidor"
+      },
+      {
+        "value": "visa_journalist",
+        "label": "Visto - Jornalista"
+      },
+      {
+        "value": "visa_medical",
+        "label": "Visto - Medico"
+      },
+      {
+        "value": "visa_religious",
+        "label": "Visto - Religioso"
+      },
+      {
+        "value": "visa_research",
+        "label": "Visto - Pesquisa"
+      },
+      {
+        "value": "visa_retiree",
+        "label": "Visto - Aposentado"
+      },
+      {
+        "value": "visa_sports",
+        "label": "Visto - Esportes"
+      },
+      {
+        "value": "visa_startup",
+        "label": "Visto - Startup"
+      },
+      {
+        "value": "visa_student",
+        "label": "Visto - Estudante"
+      },
+      {
+        "value": "visa_tourist",
+        "label": "Visto - Turista"
+      },
+      {
+        "value": "visa_transit",
+        "label": "Visto - Transito"
+      },
+      {
+        "value": "visa_volunteer",
+        "label": "Visto - Voluntario"
+      },
+      {
+        "value": "visa_work",
+        "label": "Visto - Trabalho"
+      },
+      {
+        "value": "residency_cplp",
+        "label": "Residencia - CPLP"
+      },
+      {
+        "value": "residency_mercosul",
+        "label": "Residencia - MERCOSUL"
+      },
+      {
+        "value": "residency_nomad",
+        "label": "Residencia - Nomade"
+      },
+      {
+        "value": "residency_educational",
+        "label": "Residencia - Educacional"
+      },
+      {
+        "value": "residency_exchange",
+        "label": "Residencia - Intercambio"
+      },
+      {
+        "value": "residency_reunion",
+        "label": "Residencia - Reuniao"
+      },
+      {
+        "value": "residency_health",
+        "label": "Residencia - Saude"
+      },
+      {
+        "value": "residency_humanitarian",
+        "label": "Residencia - Humanitaria"
+      },
+      {
+        "value": "residency_investor",
+        "label": "Residencia - Investidor"
+      },
+      {
+        "value": "residency_religious",
+        "label": "Residencia - Religiosa"
+      },
+      {
+        "value": "residency_retiree",
+        "label": "Residencia - Aposentado"
+      },
+      {
+        "value": "residency_research",
+        "label": "Residencia - Pesquisa"
+      },
+      {
+        "value": "residency_skilled",
+        "label": "Residencia - Qualificado"
+      },
+      {
+        "value": "residency_study",
+        "label": "Residencia - Estudo"
+      },
+      {
+        "value": "residency_work",
+        "label": "Residencia - Trabalho"
+      },
+      {
+        "value": "residency_youth",
+        "label": "Residencia - Jovem"
+      },
+      {
+        "value": "residency_volunteer",
+        "label": "Residencia - Voluntario"
+      },
+      {
+        "value": "naturalisation_ordinary",
+        "label": "Naturalizacao - Ordinaria"
+      },
+      {
+        "value": "naturalisation_extraordinary",
+        "label": "Naturalizacao - Extraordinaria"
+      },
+      {
+        "value": "naturalisation_provisional",
+        "label": "Naturalizacao - Provisoria"
+      },
+      {
+        "value": "naturalisation_special",
+        "label": "Naturalizacao - Especial"
+      },
+      {
+        "value": "naturalisation_renunciation",
+        "label": "Naturalizacao - Renuncia"
+      },
+      {
+        "value": "naturalisation_reacquisition",
+        "label": "Naturalizacao - Reaquisicao"
+      },
+      {
+        "value": "defense_deportation",
+        "label": "Defesa - Deportacao"
+      },
+      {
+        "value": "defense_expulsion",
+        "label": "Defesa - Expulsao"
+      },
+      {
+        "value": "defense_extradition",
+        "label": "Defesa - Extradicao"
+      },
+      {
+        "value": "defense_appeals",
+        "label": "Defesa - Recursos"
+      },
+      {
+        "value": "defense_fines",
+        "label": "Defesa - Multas"
+      },
+      {
+        "value": "defense_litigation",
+        "label": "Defesa - Litigio"
+      },
+      {
+        "value": "service_consular",
+        "label": "Servicos - Consular"
+      },
+      {
+        "value": "service_records",
+        "label": "Servicos - Registros"
+      },
+      {
+        "value": "service_translation",
+        "label": "Servicos - Traducao"
+      },
+      {
+        "value": "service_regularization",
+        "label": "Servicos - Regularizacao"
+      },
+      {
+        "value": "advisory_consultation",
+        "label": "Consultoria - Consulta"
+      },
+      {
+        "value": "advisory_strategy",
+        "label": "Consultoria - Estrategia"
+      },
+      {
+        "value": "advisory_compliance",
+        "label": "Consultoria - Compliance"
+      },
+      {
+        "value": "advisory_representation",
+        "label": "Consultoria - Representacao"
+      },
+      {
+        "value": "advisory_corporate",
+        "label": "Consultoria - Corporativo"
+      }
     ],
     "submitLabel": "Enviar Solicitação de Consultoria",
     "submittingLabel": "Enviando...",

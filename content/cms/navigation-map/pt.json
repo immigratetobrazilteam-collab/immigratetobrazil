@@ -25,9 +25,9 @@
     { "id": "brazil_guides", "menu_group": "brazil", "label": "Guides", "href": "/discover/brazilian-regions", "route_type": "hub", "template_family": "hub", "status": "live" },
     { "id": "brazil_municipalities", "menu_group": "brazil", "label": "Municipalities", "href": "/discover/brazilian-regions", "route_type": "hub", "template_family": "hub", "status": "live" },
     { "id": "brazil_search", "menu_group": "brazil", "label": "Search", "href": "/search", "route_type": "search", "template_family": "hub", "status": "live" },
-    { "id": "brazil_festivals", "menu_group": "brazil", "label": "Festivals", "href": "/about/about-brazil", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
-    { "id": "brazil_cuisine", "menu_group": "brazil", "label": "Cuisine", "href": "/about/about-brazil", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
-    { "id": "brazil_events", "menu_group": "brazil", "label": "Events", "href": "/about/about-brazil", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
+    { "id": "brazil_festivals", "menu_group": "brazil", "label": "Festivals", "href": "/about/about-brazil/festivals", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
+    { "id": "brazil_cuisine", "menu_group": "brazil", "label": "Cuisine", "href": "/about/about-brazil/food", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
+    { "id": "brazil_events", "menu_group": "brazil", "label": "Events", "href": "/blog", "route_type": "dynamic", "template_family": "long_form_guide", "status": "live" },
     { "id": "brazil_blogs", "menu_group": "brazil", "label": "Blogs", "href": "/blog", "route_type": "hub", "template_family": "hub", "status": "live" },
     { "id": "brazil_faqs", "menu_group": "brazil", "label": "FAQs", "href": "/faq", "route_type": "hub", "template_family": "hub", "status": "live" },
 

@@ -32,6 +32,7 @@ interface FormspreeDynamicFormProps {
   successMessage: string;
   errorMessage: string;
   spamMessage: string;
+  uploadNotPermittedMessage?: string;
   subject?: string;
   className?: string;
 }
@@ -55,6 +56,7 @@ export function FormspreeDynamicForm({
   successMessage,
   errorMessage,
   spamMessage,
+  uploadNotPermittedMessage,
   subject,
   className,
 }: FormspreeDynamicFormProps) {
@@ -136,7 +138,17 @@ export function FormspreeDynamicForm({
       });
 
       if (!response.ok) {
-        throw new Error('Formspree request failed');
+        let fallback = errorMessage;
+        try {
+          const payload = await response.json();
+          const providerError = String(payload?.error || '').toLowerCase();
+          if (providerError.includes('file uploads not permitted') && uploadNotPermittedMessage) {
+            fallback = uploadNotPermittedMessage;
+          }
+        } catch {
+          // Keep generic fallback when provider response is not JSON.
+        }
+        throw new Error(fallback);
       }
 
       form.reset();
@@ -147,9 +159,9 @@ export function FormspreeDynamicForm({
         locale,
         method: 'form',
       });
-    } catch {
+    } catch (error) {
       setStatus('error');
-      setErrorBanner(errorMessage);
+      setErrorBanner(error instanceof Error ? error.message : errorMessage);
       trackAnalyticsEvent('form_submit_error', {
         form_context: context,
         locale,

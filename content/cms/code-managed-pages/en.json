@@ -44,12 +44,250 @@
       "selectPlaceholder": "Select visa or residency interest"
     },
     "visaOptions": [
-      { "value": "digital_nomad", "label": "Digital Nomad" },
-      { "value": "work_visa", "label": "Work Visa" },
-      { "value": "investor", "label": "Investor Residency" },
-      { "value": "family_reunion", "label": "Family Reunion" },
-      { "value": "retirement", "label": "Retirement Route" },
-      { "value": "not_sure", "label": "Not Sure Yet" }
+      {
+        "value": "not_sure_yet",
+        "label": "Not sure yet"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      },
+      {
+        "value": "visa_artistic",
+        "label": "Visa - Artistic"
+      },
+      {
+        "value": "visa_business",
+        "label": "Visa - Business"
+      },
+      {
+        "value": "visa_educational",
+        "label": "Visa - Educational"
+      },
+      {
+        "value": "visa_exchange",
+        "label": "Visa - Exchange"
+      },
+      {
+        "value": "visa_nomad",
+        "label": "Visa - Nomad"
+      },
+      {
+        "value": "visa_diplomatic",
+        "label": "Visa - Diplomatic"
+      },
+      {
+        "value": "visa_family",
+        "label": "Visa - Family"
+      },
+      {
+        "value": "visa_humanitarian",
+        "label": "Visa - Humanitarian"
+      },
+      {
+        "value": "visa_investor",
+        "label": "Visa - Investor"
+      },
+      {
+        "value": "visa_journalist",
+        "label": "Visa - Journalist"
+      },
+      {
+        "value": "visa_medical",
+        "label": "Visa - Medical"
+      },
+      {
+        "value": "visa_religious",
+        "label": "Visa - Religious"
+      },
+      {
+        "value": "visa_research",
+        "label": "Visa - Research"
+      },
+      {
+        "value": "visa_retiree",
+        "label": "Visa - Retiree"
+      },
+      {
+        "value": "visa_sports",
+        "label": "Visa - Sports"
+      },
+      {
+        "value": "visa_startup",
+        "label": "Visa - Startup"
+      },
+      {
+        "value": "visa_student",
+        "label": "Visa - Student"
+      },
+      {
+        "value": "visa_tourist",
+        "label": "Visa - Tourist"
+      },
+      {
+        "value": "visa_transit",
+        "label": "Visa - Transit"
+      },
+      {
+        "value": "visa_volunteer",
+        "label": "Visa - Volunteer"
+      },
+      {
+        "value": "visa_work",
+        "label": "Visa - Work"
+      },
+      {
+        "value": "residency_cplp",
+        "label": "Residency - CPLP"
+      },
+      {
+        "value": "residency_mercosul",
+        "label": "Residency - MERCOSUL"
+      },
+      {
+        "value": "residency_nomad",
+        "label": "Residency - Nomad"
+      },
+      {
+        "value": "residency_educational",
+        "label": "Residency - Educational"
+      },
+      {
+        "value": "residency_exchange",
+        "label": "Residency - Exchange"
+      },
+      {
+        "value": "residency_reunion",
+        "label": "Residency - Reunion"
+      },
+      {
+        "value": "residency_health",
+        "label": "Residency - Health"
+      },
+      {
+        "value": "residency_humanitarian",
+        "label": "Residency - Humanitarian"
+      },
+      {
+        "value": "residency_investor",
+        "label": "Residency - Investor"
+      },
+      {
+        "value": "residency_religious",
+        "label": "Residency - Religious"
+      },
+      {
+        "value": "residency_retiree",
+        "label": "Residency - Retiree"
+      },
+      {
+        "value": "residency_research",
+        "label": "Residency - Research"
+      },
+      {
+        "value": "residency_skilled",
+        "label": "Residency - Skilled"
+      },
+      {
+        "value": "residency_study",
+        "label": "Residency - Study"
+      },
+      {
+        "value": "residency_work",
+        "label": "Residency - Work"
+      },
+      {
+        "value": "residency_youth",
+        "label": "Residency - Youth"
+      },
+      {
+        "value": "residency_volunteer",
+        "label": "Residency - Volunteer"
+      },
+      {
+        "value": "naturalisation_ordinary",
+        "label": "Naturalisation - Ordinary"
+      },
+      {
+        "value": "naturalisation_extraordinary",
+        "label": "Naturalisation - Extraordinary"
+      },
+      {
+        "value": "naturalisation_provisional",
+        "label": "Naturalisation - Provisional"
+      },
+      {
+        "value": "naturalisation_special",
+        "label": "Naturalisation - Special"
+      },
+      {
+        "value": "naturalisation_renunciation",
+        "label": "Naturalisation - Renunciation"
+      },
+      {
+        "value": "naturalisation_reacquisition",
+        "label": "Naturalisation - Reacquisition"
+      },
+      {
+        "value": "defense_deportation",
+        "label": "Defense - Deportation"
+      },
+      {
+        "value": "defense_expulsion",
+        "label": "Defense - Expulsion"
+      },
+      {
+        "value": "defense_extradition",
+        "label": "Defense - Extradition"
+      },
+      {
+        "value": "defense_appeals",
+        "label": "Defense - Appeals"
+      },
+      {
+        "value": "defense_fines",
+        "label": "Defense - Fines"
+      },
+      {
+        "value": "defense_litigation",
+        "label": "Defense - Litigation"
+      },
+      {
+        "value": "service_consular",
+        "label": "Services - Consular"
+      },
+      {
+        "value": "service_records",
+        "label": "Services - Records"
+      },
+      {
+        "value": "service_translation",
+        "label": "Services - Translation"
+      },
+      {
+        "value": "service_regularization",
+        "label": "Services - Regularization"
+      },
+      {
+        "value": "advisory_consultation",
+        "label": "Advisory - Consultation"
+      },
+      {
+        "value": "advisory_strategy",
+        "label": "Advisory - Strategy"
+      },
+      {
+        "value": "advisory_compliance",
+        "label": "Advisory - Compliance"
+      },
+      {
+        "value": "advisory_representation",
+        "label": "Advisory - Representation"
+      },
+      {
+        "value": "advisory_corporate",
+        "label": "Advisory - Corporate"
+      }
     ],
     "submitLabel": "Submit Consultation Request",
     "submittingLabel": "Submitting...",
