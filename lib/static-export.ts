@@ -88,6 +88,7 @@ export function getStateGuideSlugs() {
 }
 
 export async function getDiscoverCatchAllParams() {
+  // Discover static params are generated from EN manifest slugs.
   const manifest = await getDiscoverManifest('en');
   return manifest.pages
     .map((page) => page.slug)

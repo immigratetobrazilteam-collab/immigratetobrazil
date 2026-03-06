@@ -110,9 +110,9 @@ export function SiteHeader({ locale, brand, headerNavigation }: SiteHeaderProps)
   const portalItem = navMap.resolveItem('top_client_portal');
   const homeHref = homeItem?.href || resolveCmsHref(locale, '/');
   const homeLabel = homeItem?.label || 'Home';
-  const accessibilityLabel = accessibilityItem?.label || 'Accessibility Switcher';
+  const accessibilityLabel = accessibilityItem?.label || 'Accessibility';
   const portalHref = portalItem?.href || resolveCmsHref(locale, '/client-portal');
-  const portalLabel = portalItem?.label || 'Client Portal Login';
+  const portalLabel = portalItem?.label || 'Client Portal';
   const consultationHref = ctaItem?.href || resolveCmsHref(locale, '/consultation');
   const consultationLabel = ctaItem?.label || 'Start Consultation';
   const headerTagline = headerNavigation.brandTagline || 'Helping Immigrants, Promoting Brazil';

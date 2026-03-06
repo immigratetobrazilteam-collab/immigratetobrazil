@@ -128,6 +128,7 @@ const fallbackHubCopy: DiscoverHubCopy = {
 };
 
 function normalizeSlugInput(value: string | string[]) {
+  // Normalize route params into filesystem-safe slugs.
   const raw = Array.isArray(value) ? value.join('/') : value;
 
   const cleaned = raw
@@ -173,16 +174,19 @@ export async function getDiscoverPage(locale: Locale, slugInput: string | string
     return null;
   }
 
+  // Locale-first lookup.
   const localPath = filePathForSlug(locale, slug);
   const local = await loadJsonIfExists<DiscoverPage>(localPath);
   if (local) return local;
 
+  // EN fallback keeps discover pages available even when locale file is missing.
   const englishPath = filePathForSlug('en', slug);
   return loadJsonIfExists<DiscoverPage>(englishPath);
 }
 
 export async function getDiscoverManifest(_locale: Locale): Promise<DiscoverManifest> {
   void _locale;
+  // EN manifest is canonical for static param generation.
   const englishManifestPath = path.join(CONTENT_ROOT, 'en', '_manifest.json');
   const english = await loadJsonIfExists<DiscoverManifest>(englishManifestPath);
 
@@ -231,6 +235,7 @@ export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCop
   const local = await loadJsonIfExists<Partial<DiscoverHubCopy>>(localPath);
 
   if (local) {
+    // Merge locale hub copy over safe fallback defaults.
     return {
       locale: local.locale || locale,
       eyebrow: local.eyebrow || fallbackHubCopy.eyebrow,
@@ -247,6 +252,7 @@ export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCop
   const english = await loadJsonIfExists<Partial<DiscoverHubCopy>>(englishPath);
 
   if (english) {
+    // EN hub fallback if locale-specific hub copy is absent.
     return {
       locale: english.locale || 'en',
       eyebrow: english.eyebrow || fallbackHubCopy.eyebrow,

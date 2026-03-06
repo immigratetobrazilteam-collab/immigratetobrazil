@@ -1,7 +1,7 @@
 {
   "registry": [
-    { "id": "top_accessibility", "menu_group": "top_bar", "label": "Accessibility Switcher", "href": "/accessibility", "route_type": "static", "template_family": "legal_policy", "status": "live" },
-    { "id": "top_client_portal", "menu_group": "top_bar", "label": "Client Portal Login", "href": "/client-portal", "route_type": "static", "template_family": "conversion_contact", "status": "live" },
+    { "id": "top_accessibility", "menu_group": "top_bar", "label": "Accessibility", "href": "/accessibility", "route_type": "static", "template_family": "legal_policy", "status": "live" },
+    { "id": "top_client_portal", "menu_group": "top_bar", "label": "Client Portal", "href": "/client-portal", "route_type": "static", "template_family": "conversion_contact", "status": "live" },
 
     { "id": "main_home", "menu_group": "main_menu", "label": "Home", "href": "/", "route_type": "hub", "template_family": "hub", "status": "live" },
     { "id": "main_start_consultation", "menu_group": "main_menu", "label": "Start Consultation", "href": "/consultation", "route_type": "conversion", "template_family": "conversion_contact", "status": "live" },

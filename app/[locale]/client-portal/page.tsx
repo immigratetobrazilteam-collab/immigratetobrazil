@@ -4,146 +4,23 @@ import { CalendlyEmbed } from '@/components/calendly-embed';
 import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
 import { PaymentMethods } from '@/components/payment-methods';
+import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
 import { siteConfig } from '@/lib/site-config';
 
+// Update scheduling URL via env var first; fallback keeps local/dev stable.
 const CALENDLY_URL = process.env.NEXT_PUBLIC_CALENDLY_URL?.trim() || 'https://calendly.com/immigratetobrazilteam/strategy-consultation';
+// Update receiver and form endpoints here when payment/forms providers change.
 const PAYMENT_RECEIVER = 'immigratetobrazilteam@gmail.com';
 const DOCUMENT_UPLOAD_ENDPOINT = 'https://formspree.io/f/xojkaddn';
 const CLIENT_FORMS_ENDPOINT = 'https://formspree.io/f/mnjgadgy';
 const REMINDER_DOCUMENTS_ENDPOINT = 'https://formspree.io/f/xdawngpq';
 
-const copy = {
-  en: {
-    metadataTitle: 'Client Portal',
-    metadataDescription:
-      'Client portal for document upload, intake forms, payment instructions, scheduling, and emergency support channels.',
-    heroTitle: 'Client Portal',
-    heroSubtitle:
-      'Use this secure portal to upload documents, submit intake information, complete payment, and book your consultation.',
-    uploadTitle: 'Document Upload',
-    uploadSubtitle: 'Upload your documents clearly and securely so our team can prepare your case file before consultation.',
-    uploadFields: {
-      name: 'Full Name',
-      email: 'Email',
-      caseRef: 'Case reference (optional)',
-      documents: 'Upload documents',
-      notes: 'Notes (optional)',
-    },
-    uploadSubmit: 'Submit Documents',
-    uploadSuccess: 'Documents uploaded successfully. Thank you.',
-    formsTitle: 'Client Forms',
-    formsSubtitle: 'Fill out your intake details and required information related to your immigration process.',
-    formsFields: {
-      name: 'Full Name',
-      email: 'Email',
-      phone: 'Phone / WhatsApp',
-      country: 'Current country',
-      processStage: 'Current immigration stage',
-      info: 'Required process information',
-    },
-    formsSubmit: 'Submit Client Form',
-    formsSuccess: 'Client form submitted successfully. We will review it shortly.',
-    bookingTitle: 'Booking rules and consultation flow',
-    bookingIntro: 'Clients can book only after payment. Appointments must be at least 36 hours after payment confirmation.',
-    bookingSteps: [
-      'Client submits consultation request.',
-      'Client pays consultation fee.',
-      'Client books appointment through Calendly.',
-      'After booking, client receives an appointment confirmation email.',
-    ],
-    whatsappHelp:
-      'If anything is unclear or you need assistance booking your consultation, please contact us directly on WhatsApp.',
-    whatsappButton: 'WhatsApp Support',
-    reminderTitle: 'Document submission reminder',
-    reminderWarning:
-      'Please submit any relevant documents before your consultation if you want the consultation to be effective and personalized. Documents submitted after the consultation may limit our ability to provide detailed guidance.',
-    reminderFormTitle: 'Submit additional documents before consultation',
-    reminderFormFields: {
-      name: 'Full Name',
-      email: 'Email',
-      file: 'Documents',
-      notes: 'Notes (optional)',
-    },
-    reminderSubmit: 'Send Reminder Documents',
-    reminderSuccess: 'Documents sent successfully before consultation.',
-    emergencyTitle: 'Emergency Contact',
-    emergencyLabelEmail: 'Email',
-    emergencyLabelPhone: 'Phone',
-    emergencyMessage:
-      'In case of emergency please contact us via WhatsApp and clearly state the nature of your emergency. For regular clients, you already have an assigned attorney or consultant. Please contact them directly.',
-    spam: 'Submission blocked by anti-spam protection.',
-    error: 'We could not submit your request right now. Please try again shortly.',
-  },
-  pt: {
-    metadataTitle: 'Portal do Cliente',
-    metadataDescription:
-      'Portal do cliente para upload de documentos, formularios de intake, instrucoes de pagamento, agendamento e suporte emergencial.',
-    heroTitle: 'Portal do Cliente',
-    heroSubtitle:
-      'Use este portal seguro para enviar documentos, preencher informacoes, concluir pagamento e agendar sua consultoria.',
-    uploadTitle: 'Envio de Documentos',
-    uploadSubtitle: 'Envie seus documentos de forma clara e segura para prepararmos seu dossie antes da consultoria.',
-    uploadFields: {
-      name: 'Nome Completo',
-      email: 'E-mail',
-      caseRef: 'Referencia do caso (opcional)',
-      documents: 'Enviar documentos',
-      notes: 'Observacoes (opcional)',
-    },
-    uploadSubmit: 'Enviar Documentos',
-    uploadSuccess: 'Documentos enviados com sucesso. Obrigado.',
-    formsTitle: 'Formularios do Cliente',
-    formsSubtitle: 'Preencha os dados de intake e as informacoes obrigatorias do seu processo migratorio.',
-    formsFields: {
-      name: 'Nome Completo',
-      email: 'E-mail',
-      phone: 'Telefone / WhatsApp',
-      country: 'Pais atual',
-      processStage: 'Etapa atual do processo migratorio',
-      info: 'Informacoes necessarias do processo',
-    },
-    formsSubmit: 'Enviar Formulario do Cliente',
-    formsSuccess: 'Formulario enviado com sucesso. Em breve nossa equipe analisara.',
-    bookingTitle: 'Regras de agendamento e fluxo da consultoria',
-    bookingIntro:
-      'Clientes so podem agendar apos o pagamento. Os horarios devem ser marcados com pelo menos 36 horas apos a confirmacao do pagamento.',
-    bookingSteps: [
-      'Cliente envia solicitacao de consultoria.',
-      'Cliente paga a taxa da consultoria.',
-      'Cliente agenda o horario pelo Calendly.',
-      'Apos agendar, o cliente recebe e-mail de confirmacao da consulta.',
-    ],
-    whatsappHelp:
-      'Se algo nao estiver claro ou voce precisar de ajuda para agendar sua consulta, entre em contato conosco diretamente pelo WhatsApp.',
-    whatsappButton: 'Suporte via WhatsApp',
-    reminderTitle: 'Lembrete de envio de documentos',
-    reminderWarning:
-      'Por favor, envie quaisquer documentos relevantes antes da sua consultoria se quiser que a consulta seja efetiva e personalizada. Documentos enviados apos a consulta podem limitar nossa capacidade de oferecer orientacoes detalhadas.',
-    reminderFormTitle: 'Enviar documentos adicionais antes da consultoria',
-    reminderFormFields: {
-      name: 'Nome Completo',
-      email: 'E-mail',
-      file: 'Documentos',
-      notes: 'Observacoes (opcional)',
-    },
-    reminderSubmit: 'Enviar Documentos de Apoio',
-    reminderSuccess: 'Documentos enviados com sucesso antes da consultoria.',
-    emergencyTitle: 'Contato de Emergencia',
-    emergencyLabelEmail: 'E-mail',
-    emergencyLabelPhone: 'Telefone',
-    emergencyMessage:
-      'Em caso de emergencia, entre em contato pelo WhatsApp e informe claramente a natureza da emergencia. Para clientes regulares, voce ja possui advogado ou consultor designado. Entre em contato diretamente com ele.',
-    spam: 'Envio bloqueado pela protecao anti-spam.',
-    error: 'Nao foi possivel enviar sua solicitacao agora. Tente novamente em instantes.',
-  },
-} as const;
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).clientPortalPage;
 
   return createMetadata({
     locale,
@@ -156,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ClientPortalPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).clientPortalPage;
 
   const uploadFields: FormField[] = [
     { name: 'name', label: t.uploadFields.name, type: 'text', required: true, autoComplete: 'name' },
@@ -217,7 +94,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 context={`portal-doc-upload-${locale}`}
                 fields={uploadFields}
                 submitLabel={t.uploadSubmit}
-                submittingLabel={locale === 'pt' ? 'Enviando...' : 'Submitting...'}
+                submittingLabel={t.submittingLabel}
                 successMessage={t.uploadSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}
@@ -236,7 +113,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 context={`portal-client-forms-${locale}`}
                 fields={clientFormFields}
                 submitLabel={t.formsSubmit}
-                submittingLabel={locale === 'pt' ? 'Enviando...' : 'Submitting...'}
+                submittingLabel={t.submittingLabel}
                 successMessage={t.formsSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}
@@ -300,7 +177,7 @@ export default async function ClientPortalPage({ params }: { params: Promise<{ l
                 context={`portal-reminder-documents-${locale}`}
                 fields={reminderFields}
                 submitLabel={t.reminderSubmit}
-                submittingLabel={locale === 'pt' ? 'Enviando...' : 'Submitting...'}
+                submittingLabel={t.submittingLabel}
                 successMessage={t.reminderSuccess}
                 errorMessage={t.error}
                 spamMessage={t.spam}

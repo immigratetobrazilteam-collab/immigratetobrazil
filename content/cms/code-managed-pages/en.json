@@ -1,0 +1,258 @@
+{
+  "locale": "en",
+  "consultationPage": {
+    "metadataTitle": "Brazil Immigration Strategy Consultation",
+    "metadataDescription": "Book a paid Brazil immigration strategy consultation and receive a personalized roadmap for visas, residency, compliance, and next steps.",
+    "heroTitle": "Brazil Immigration Strategy Consultation",
+    "heroSubtitle": "Receive a personalized roadmap for your move to Brazil based on your goals, background, and legal options.",
+    "heroCta": "Start Consultation Form",
+    "includesTitle": "What the consultation includes",
+    "includesItems": [
+      "Eligibility evaluation for Brazilian visas and residency pathways.",
+      "Custom immigration strategy for your profile and timeline.",
+      "Document preparation guidance and evidence planning.",
+      "Expected timelines, procedural milestones, and filing order.",
+      "Legal considerations, risk points, and compliance safeguards."
+    ],
+    "whoTitle": "Who this consultation is for",
+    "whoItems": [
+      "People planning to move to Brazil soon or in the next 12 months.",
+      "Investors exploring residency routes linked to investment activity.",
+      "Families relocating and planning school, housing, and legal status.",
+      "Digital nomads and remote professionals seeking compliant status.",
+      "Retirees and professionals who want legal certainty before moving."
+    ],
+    "whyTitle": "Why book this consultation",
+    "whyItems": [
+      "Avoid costly mistakes before filing or booking travel.",
+      "Understand the strongest visa or residency options for your case.",
+      "Receive personalized legal guidance instead of generic information.",
+      "Prepare your documents correctly from the beginning."
+    ],
+    "formTitle": "Main consultation form",
+    "formIntro": "Complete this form so we can prepare your strategy session efficiently.",
+    "formFields": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "country": "Country of residence",
+      "nationality": "Nationality",
+      "goal": "Immigration goal",
+      "visaInterest": "Visa or residency interest",
+      "situation": "Description of situation",
+      "documents": "Optional document upload",
+      "selectPlaceholder": "Select visa or residency interest"
+    },
+    "visaOptions": [
+      { "value": "digital_nomad", "label": "Digital Nomad" },
+      { "value": "work_visa", "label": "Work Visa" },
+      { "value": "investor", "label": "Investor Residency" },
+      { "value": "family_reunion", "label": "Family Reunion" },
+      { "value": "retirement", "label": "Retirement Route" },
+      { "value": "not_sure", "label": "Not Sure Yet" }
+    ],
+    "submitLabel": "Submit Consultation Request",
+    "submittingLabel": "Submitting...",
+    "successMessage": "Consultation request submitted successfully. We will contact you shortly with next steps.",
+    "errorMessage": "We could not submit your request right now. Please try again shortly.",
+    "spamMessage": "Submission blocked by anti-spam protection.",
+    "paymentGateTitle": "Payment required before booking",
+    "paymentGateBody": "Consultation payment is required before selecting an appointment slot in Calendly.",
+    "bookingFlowTitle": "Consultation flow",
+    "bookingFlowSteps": [
+      "Client submits consultation request.",
+      "Client pays the consultation fee.",
+      "Client books appointment through Calendly.",
+      "After booking, the client receives an email confirmation automatically from Calendly."
+    ],
+    "calendlyTitle": "Book your paid consultation in Calendly",
+    "calendlyBody": "Appointments must be booked at least 36 hours after payment confirmation.",
+    "docReminderTitle": "Document submission reminder",
+    "docReminderBody": "Please submit any relevant documents before your consultation if you want the consultation to be effective and personalized.",
+    "docReminderExtra": "Documents submitted after the consultation may limit our ability to provide detailed guidance.",
+    "docFormTitle": "Submit documents before consultation",
+    "docFormSubtitle": "Upload documents in advance so we can review your case before your appointment.",
+    "docFormFields": {
+      "name": "Full Name",
+      "email": "Email",
+      "file": "Documents",
+      "notes": "Notes (optional)"
+    },
+    "docFormSubmitLabel": "Submit documents",
+    "docFormSubmittingLabel": "Submitting...",
+    "docFormSuccessMessage": "Documents submitted successfully. Thank you for sending them in advance.",
+    "docFormErrorMessage": "We could not submit your documents right now. Please try again shortly.",
+    "whatsappTitle": "WhatsApp support",
+    "whatsappBody": "If you have questions about the consultation or payment process, please contact us directly via WhatsApp.",
+    "whatsappButton": "Contact via WhatsApp"
+  },
+  "clientPortalPage": {
+    "metadataTitle": "Client Portal",
+    "metadataDescription": "Client portal for document upload, intake forms, payment instructions, scheduling, and emergency support channels.",
+    "heroTitle": "Client Portal",
+    "heroSubtitle": "Use this secure portal to upload documents, submit intake information, complete payment, and book your consultation.",
+    "uploadTitle": "Document Upload",
+    "uploadSubtitle": "Upload your documents clearly and securely so our team can prepare your case file before consultation.",
+    "uploadFields": {
+      "name": "Full Name",
+      "email": "Email",
+      "caseRef": "Case reference (optional)",
+      "documents": "Upload documents",
+      "notes": "Notes (optional)"
+    },
+    "uploadSubmit": "Submit Documents",
+    "uploadSuccess": "Documents uploaded successfully. Thank you.",
+    "formsTitle": "Client Forms",
+    "formsSubtitle": "Fill out your intake details and required information related to your immigration process.",
+    "formsFields": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "country": "Current country",
+      "processStage": "Current immigration stage",
+      "info": "Required process information"
+    },
+    "formsSubmit": "Submit Client Form",
+    "formsSuccess": "Client form submitted successfully. We will review it shortly.",
+    "bookingTitle": "Booking rules and consultation flow",
+    "bookingIntro": "Clients can book only after payment. Appointments must be at least 36 hours after payment confirmation.",
+    "bookingSteps": [
+      "Client submits consultation request.",
+      "Client pays consultation fee.",
+      "Client books appointment through Calendly.",
+      "After booking, client receives an appointment confirmation email."
+    ],
+    "whatsappHelp": "If anything is unclear or you need assistance booking your consultation, please contact us directly on WhatsApp.",
+    "whatsappButton": "WhatsApp Support",
+    "reminderTitle": "Document submission reminder",
+    "reminderWarning": "Please submit any relevant documents before your consultation if you want the consultation to be effective and personalized. Documents submitted after the consultation may limit our ability to provide detailed guidance.",
+    "reminderFormTitle": "Submit additional documents before consultation",
+    "reminderFormFields": {
+      "name": "Full Name",
+      "email": "Email",
+      "file": "Documents",
+      "notes": "Notes (optional)"
+    },
+    "reminderSubmit": "Send Reminder Documents",
+    "reminderSuccess": "Documents sent successfully before consultation.",
+    "emergencyTitle": "Emergency Contact",
+    "emergencyLabelEmail": "Email",
+    "emergencyLabelPhone": "Phone",
+    "emergencyMessage": "In case of emergency please contact us via WhatsApp and clearly state the nature of your emergency. For regular clients, you already have an assigned attorney or consultant. Please contact them directly.",
+    "submittingLabel": "Submitting...",
+    "spam": "Submission blocked by anti-spam protection.",
+    "error": "We could not submit your request right now. Please try again shortly."
+  },
+  "bookStrategyConsultationPage": {
+    "metadataTitle": "Book Strategy Consultation",
+    "metadataDescription": "Book a paid strategy consultation for your Brazil immigration plan and receive clear next steps based on your profile and timeline.",
+    "eyebrow": "Strategy Session",
+    "title": "Book Strategy Consultation",
+    "subtitle": "This paid consultation gives you a concrete legal strategy for moving to Brazil with confidence and reduced risk.",
+    "benefitsTitle": "Benefits of the consultation",
+    "benefits": [
+      "Profile-based visa and residency pathway analysis.",
+      "Priority action plan for documents and legal steps.",
+      "Timeline guidance with risk and compliance checkpoints.",
+      "Clear recommendation on what to do first and what to avoid."
+    ],
+    "deliverablesTitle": "What you receive",
+    "deliverables": [
+      "A practical roadmap tailored to your immigration objective.",
+      "Guidance on required documents and evidence quality.",
+      "A realistic sequence for filings, travel, and deadlines.",
+      "Follow-up direction for execution after the strategy call."
+    ],
+    "formTitle": "Submit your strategy consultation request",
+    "formSubtitle": "Complete the form below and our team will follow up with payment and scheduling instructions.",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "country": "Country of residence",
+      "goal": "Primary immigration goal",
+      "details": "Tell us about your case"
+    },
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "success": "Request sent successfully. We will contact you with next steps shortly.",
+    "error": "We could not submit your request right now. Please try again shortly.",
+    "spam": "Submission blocked by anti-spam protection."
+  },
+  "emailUsNoticePage": {
+    "metadataTitle": "Email Us Notice",
+    "metadataDescription": "Submit an official notice request with supporting details so our team can review and respond promptly.",
+    "eyebrow": "Notice Process",
+    "title": "Email Us Notice",
+    "subtitle": "Use this page to send a formal notice to our team. Include complete details so we can route your request correctly and reply quickly.",
+    "howItWorksTitle": "How the notice process works",
+    "howItWorks": [
+      "Submit your notice with complete identifying details.",
+      "Our team reviews urgency, scope, and required legal follow-up.",
+      "You receive a confirmation response by email."
+    ],
+    "formTitle": "Send your notice",
+    "formSubtitle": "All fields are accessible and optimized for desktop/mobile.",
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "subject": "Notice subject",
+      "message": "Notice details",
+      "file": "Attachment (optional)"
+    },
+    "submit": "Send Notice",
+    "submitting": "Sending...",
+    "success": "Notice submitted successfully. We will respond by email soon.",
+    "error": "We could not submit your notice right now. Please try again shortly.",
+    "spam": "Submission blocked by anti-spam protection."
+  },
+  "searchPage": {
+    "eyebrow": "Site Search",
+    "title": "Find any page fast",
+    "subtitle": "Search all services, process pages, states, legal policies, blog archives, and resources.",
+    "searchPlaceholder": "Search visas, residency, states, naturalisation, process...",
+    "searchButton": "Search",
+    "staticModeNotice": "Static mode: use the quick links below to navigate site sections.",
+    "quickLinks": {
+      "services": "Explore Services",
+      "states": "Browse All States",
+      "library": "Open Full Library"
+    }
+  },
+  "paymentMethods": {
+    "title": "Payments",
+    "subtitle": "Pay your consultation fee using any method below. Send confirmation to our WhatsApp or email after payment.",
+    "receiver": "Payment receiver email",
+    "methods": [
+      {
+        "id": "paypal",
+        "label": "PayPal",
+        "instructions": "Use PayPal transfer and set the receiver email below in the payment form.",
+        "iconLabel": "PP"
+      },
+      {
+        "id": "wise",
+        "label": "Wise",
+        "instructions": "Send through Wise to the same receiver email. Add your full name in the transfer note.",
+        "iconLabel": "W"
+      },
+      {
+        "id": "pix",
+        "label": "PIX",
+        "instructions": "Use PIX transfer with the receiver email key and keep your receipt for booking confirmation.",
+        "iconLabel": "PX"
+      },
+      {
+        "id": "payoneer",
+        "label": "Payoneer",
+        "instructions": "Use Payoneer transfer to the receiver email and share proof of payment with our team.",
+        "iconLabel": "PO"
+      }
+    ]
+  },
+  "calendlyEmbed": {
+    "title": "Calendly Booking",
+    "description": "Book your appointment only after payment. Appointments must be scheduled at least 36 hours after payment confirmation."
+  }
+}

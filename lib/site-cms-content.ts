@@ -196,16 +196,21 @@ const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
 };
 
 export function getSiteCmsCopy(locale: Locale) {
+  // Main entrypoint for global site copy (header/footer/home shared blocks).
   return siteCmsCopyByLocale[locale];
 }
 
 export function getManagedPageCopyLocal<T>(locale: Locale, key: string): T | null {
+  // Strict locale lookup (no EN fallback).
   const localePages = siteCmsCopyByLocale[locale].managedPages;
   const localeValue = localePages[key] as T | undefined;
   return localeValue ?? null;
 }
 
 export function getManagedPageCopy<T>(locale: Locale, key: string): T | null {
+  // Preferred lookup for page-level managed copy:
+  // 1) locale value
+  // 2) English value if locale file does not define the key
   const localeValue = getManagedPageCopyLocal<T>(locale, key);
   if (localeValue != null) {
     return localeValue;
@@ -217,11 +222,13 @@ export function getManagedPageCopy<T>(locale: Locale, key: string): T | null {
 }
 
 function deepMergeWithFallback<T>(fallback: T, override: unknown): T {
+  // If managed copy is missing, keep hardcoded fallback.
   if (override == null) {
     return fallback;
   }
 
   if (Array.isArray(fallback)) {
+    // Arrays are replaced only when override array is non-empty.
     if (Array.isArray(override) && override.length > 0) {
       return override as T;
     }
@@ -229,6 +236,7 @@ function deepMergeWithFallback<T>(fallback: T, override: unknown): T {
   }
 
   if (typeof fallback === 'object' && fallback !== null) {
+    // Objects merge recursively so partial CMS overrides remain safe.
     if (typeof override !== 'object' || override === null || Array.isArray(override)) {
       return fallback;
     }
@@ -247,11 +255,13 @@ function deepMergeWithFallback<T>(fallback: T, override: unknown): T {
 }
 
 export function getManagedPageCopyWithFallback<T>(locale: Locale, key: string, fallback: T): T {
+  // Standard helper used by most route files.
   const managed = getManagedPageCopy<T>(locale, key);
   return deepMergeWithFallback(fallback, managed);
 }
 
 export function getManagedPageCopyLocalWithFallback<T>(locale: Locale, key: string, fallback: T): T {
+  // Locale-only variant for places where EN fallback is not desired.
   const managed = getManagedPageCopyLocal<T>(locale, key);
   return deepMergeWithFallback(fallback, managed);
 }

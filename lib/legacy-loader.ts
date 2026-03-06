@@ -16,6 +16,7 @@ function normalizeLegacyImage(src?: string) {
 }
 
 function fallbackCopy(locale: Locale) {
+  // Editable fallback text for synthetic pages is managed in site-copy managedPages.
   return getManagedPageCopyWithFallback(locale, 'legacySyntheticDocument', {
     overview: 'Overview',
     nextSteps: 'Next Steps',
@@ -29,6 +30,7 @@ function fallbackCopy(locale: Locale) {
 }
 
 async function buildSyntheticDocument(locale: Locale, slug: string[]): Promise<LegacyDocument | null> {
+  // Builds a minimal page when a route exists in the index but has no managed legacy JSON yet.
   const joined = slug.join('/');
   const copy = fallbackCopy(locale);
   const routes = await getLocaleRoutes(locale);
@@ -92,6 +94,8 @@ function applyLegacyOverride(
   base: LegacyDocument | null,
   override: LegacyPageOverride | null,
 ): LegacyDocument | null {
+  // Final composition layer:
+  // base managed/synthetic document + optional override from legacy-overrides/site-copy.
   if (!base && !override) return null;
 
   const joinedSlug = slug.join('/');
@@ -138,6 +142,10 @@ function applyLegacyOverride(
 }
 
 export const getLegacyDocument = cache(async (locale: Locale, slug: string[]): Promise<LegacyDocument | null> => {
+  // Resolution order:
+  // 1) slug override
+  // 2) managed legacy JSON
+  // 3) synthetic fallback document
   const override = getLegacyPageOverride(locale, slug.join('/'));
   const managed = await getManagedLegacyDocument(locale, slug);
   if (managed) {

@@ -32,6 +32,7 @@ Production website and content platform for `immigratetobrazil.com`.
 - `discover/*` -> `content/cms/discover-pages/<locale>/...`
 - long-tail legacy/service/about/blog/contact/faq routes -> `content/cms/managed-legacy/<locale>/...`
 - global/hub page copy -> `content/cms/site-copy/<locale>.json` (`managedPages`)
+- consultation/portal/notice/search/payment/calendly copy -> `content/cms/code-managed-pages/<locale>.json`
 2. Edit JSON content.
 3. Validate:
 ```bash
@@ -47,6 +48,7 @@ npx serve out -l 4173
 ```
 
 ## Documentation map
+- Website owner handbook (complete beginner guide): `documentation/website-owner-handbook.md`
 - New maintainer quick guide: `documentation/content-editing-guide.md`
 - Architecture: `documentation/modern-architecture.md`
 - Complete page-edit workflow: `documentation/page-editing-playbook.md`

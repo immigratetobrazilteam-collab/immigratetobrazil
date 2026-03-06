@@ -2,94 +2,17 @@ import type { Metadata } from 'next';
 
 import { CtaCard } from '@/components/cta-card';
 import { FormspreeDynamicForm, type FormField } from '@/components/formspree-dynamic-form';
+import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
 import { resolveLocale } from '@/lib/i18n';
 import { createMetadata } from '@/lib/seo';
 
+// Update this endpoint if the Formspree form changes.
 const STRATEGY_ENDPOINT = 'https://formspree.io/f/maqpwodw';
-
-const copy = {
-  en: {
-    metadataTitle: 'Book Strategy Consultation',
-    metadataDescription:
-      'Book a paid strategy consultation for your Brazil immigration plan and receive clear next steps based on your profile and timeline.',
-    eyebrow: 'Strategy Session',
-    title: 'Book Strategy Consultation',
-    subtitle:
-      'This paid consultation gives you a concrete legal strategy for moving to Brazil with confidence and reduced risk.',
-    benefitsTitle: 'Benefits of the consultation',
-    benefits: [
-      'Profile-based visa and residency pathway analysis.',
-      'Priority action plan for documents and legal steps.',
-      'Timeline guidance with risk and compliance checkpoints.',
-      'Clear recommendation on what to do first and what to avoid.',
-    ],
-    deliverablesTitle: 'What you receive',
-    deliverables: [
-      'A practical roadmap tailored to your immigration objective.',
-      'Guidance on required documents and evidence quality.',
-      'A realistic sequence for filings, travel, and deadlines.',
-      'Follow-up direction for execution after the strategy call.',
-    ],
-    formTitle: 'Submit your strategy consultation request',
-    formSubtitle: 'Complete the form below and our team will follow up with payment and scheduling instructions.',
-    fields: {
-      name: 'Full Name',
-      email: 'Email',
-      phone: 'Phone / WhatsApp',
-      country: 'Country of residence',
-      goal: 'Primary immigration goal',
-      details: 'Tell us about your case',
-    },
-    submit: 'Submit Request',
-    submitting: 'Submitting...',
-    success: 'Request sent successfully. We will contact you with next steps shortly.',
-    error: 'We could not submit your request right now. Please try again shortly.',
-    spam: 'Submission blocked by anti-spam protection.',
-  },
-  pt: {
-    metadataTitle: 'Agendar Consulta Estrategica',
-    metadataDescription:
-      'Agende uma consulta estrategica paga para o seu plano migratorio para o Brasil e receba orientacoes objetivas para o seu perfil.',
-    eyebrow: 'Sessao Estrategica',
-    title: 'Agendar Consulta Estrategica',
-    subtitle:
-      'Esta consultoria paga entrega uma estrategia juridica concreta para sua mudanca ao Brasil com seguranca e menor risco.',
-    benefitsTitle: 'Beneficios da consultoria',
-    benefits: [
-      'Analise de caminhos de visto e residencia conforme o seu perfil.',
-      'Plano de acao prioritario para documentos e etapas legais.',
-      'Orientacao de prazo com pontos de risco e conformidade.',
-      'Recomendacao clara sobre o que fazer primeiro e o que evitar.',
-    ],
-    deliverablesTitle: 'O que voce recebe',
-    deliverables: [
-      'Um roteiro pratico adaptado ao seu objetivo migratorio.',
-      'Orientacao sobre documentos exigidos e qualidade das evidencias.',
-      'Sequencia realista para protocolos, viagem e prazos.',
-      'Direcionamento para execucao apos a chamada estrategica.',
-    ],
-    formTitle: 'Envie sua solicitacao de consulta estrategica',
-    formSubtitle: 'Preencha o formulario e nossa equipe enviara instrucoes de pagamento e agendamento.',
-    fields: {
-      name: 'Nome Completo',
-      email: 'E-mail',
-      phone: 'Telefone / WhatsApp',
-      country: 'Pais de residencia',
-      goal: 'Objetivo migratorio principal',
-      details: 'Conte mais sobre o seu caso',
-    },
-    submit: 'Enviar solicitacao',
-    submitting: 'Enviando...',
-    success: 'Solicitacao enviada com sucesso. Em breve enviaremos os proximos passos.',
-    error: 'Nao foi possivel enviar agora. Tente novamente em instantes.',
-    spam: 'Envio bloqueado pela protecao anti-spam.',
-  },
-} as const;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).bookStrategyConsultationPage;
 
   return createMetadata({
     locale,
@@ -102,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function BookStrategyConsultationPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: rawLocale } = await params;
   const locale = resolveLocale(rawLocale);
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).bookStrategyConsultationPage;
 
   const fields: FormField[] = [
     { name: 'name', label: t.fields.name, type: 'text', required: true, autoComplete: 'name' },

@@ -1,11 +1,5 @@
 import type { Locale } from '@/lib/types';
-
-type PaymentMethod = {
-  id: 'paypal' | 'wise' | 'pix' | 'payoneer';
-  label: string;
-  instructions: string;
-  iconLabel: string;
-};
+import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
 
 interface PaymentMethodsProps {
   locale: Locale;
@@ -14,72 +8,7 @@ interface PaymentMethodsProps {
   subtitle?: string;
 }
 
-const copy: Record<Locale, { title: string; subtitle: string; receiver: string; methods: PaymentMethod[] }> = {
-  en: {
-    title: 'Payments',
-    subtitle: 'Pay your consultation fee using any method below. Send confirmation to our WhatsApp or email after payment.',
-    receiver: 'Payment receiver email',
-    methods: [
-      {
-        id: 'paypal',
-        label: 'PayPal',
-        instructions: 'Use PayPal transfer and set the receiver email below in the payment form.',
-        iconLabel: 'PP',
-      },
-      {
-        id: 'wise',
-        label: 'Wise',
-        instructions: 'Send through Wise to the same receiver email. Add your full name in the transfer note.',
-        iconLabel: 'W',
-      },
-      {
-        id: 'pix',
-        label: 'PIX',
-        instructions: 'Use PIX transfer with the receiver email key and keep your receipt for booking confirmation.',
-        iconLabel: 'PX',
-      },
-      {
-        id: 'payoneer',
-        label: 'Payoneer',
-        instructions: 'Use Payoneer transfer to the receiver email and share proof of payment with our team.',
-        iconLabel: 'PO',
-      },
-    ],
-  },
-  pt: {
-    title: 'Pagamentos',
-    subtitle: 'Pague a taxa da consulta usando um dos metodos abaixo. Envie o comprovante pelo WhatsApp ou e-mail apos o pagamento.',
-    receiver: 'E-mail recebedor para pagamento',
-    methods: [
-      {
-        id: 'paypal',
-        label: 'PayPal',
-        instructions: 'Use transferencia pelo PayPal e informe o e-mail recebedor abaixo no formulario de pagamento.',
-        iconLabel: 'PP',
-      },
-      {
-        id: 'wise',
-        label: 'Wise',
-        instructions: 'Envie pela Wise para o mesmo e-mail recebedor. Inclua seu nome completo na observacao.',
-        iconLabel: 'W',
-      },
-      {
-        id: 'pix',
-        label: 'PIX',
-        instructions: 'Use transferencia PIX com a chave de e-mail e guarde o comprovante para confirmar o agendamento.',
-        iconLabel: 'PX',
-      },
-      {
-        id: 'payoneer',
-        label: 'Payoneer',
-        instructions: 'Use transferencia Payoneer para o e-mail recebedor e compartilhe o comprovante com nossa equipe.',
-        iconLabel: 'PO',
-      },
-    ],
-  },
-};
-
-const iconClassByMethod: Record<PaymentMethod['id'], string> = {
+const iconClassByMethod: Record<'paypal' | 'wise' | 'pix' | 'payoneer', string> = {
   paypal: 'bg-[#003087] text-white',
   wise: 'bg-[#9fe870] text-ink-900',
   pix: 'bg-[#32bcad] text-white',
@@ -87,7 +16,7 @@ const iconClassByMethod: Record<PaymentMethod['id'], string> = {
 };
 
 export function PaymentMethods({ locale, receiverEmail, title, subtitle }: PaymentMethodsProps) {
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).paymentMethods;
 
   return (
     <section className="rounded-3xl border border-sand-200 bg-white p-6 shadow-card sm:p-8">

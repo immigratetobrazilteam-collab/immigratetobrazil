@@ -59,6 +59,7 @@ const mapByLocale: Record<Locale, NavigationMap> = {
 };
 
 function resolveCmsHref(locale: Locale, href: string) {
+  // Normalizes CMS path values into locale-aware internal links.
   if (!href) return `/${locale}`;
   if (href.startsWith('http://') || href.startsWith('https://') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('#')) {
     return href;
@@ -73,6 +74,7 @@ export function getNavigationMap(locale: Locale) {
   const base = mapByLocale[locale] ?? mapByLocale.en;
   const fallback = mapByLocale.en;
 
+  // Merge locale registry with EN defaults so missing localized labels/hrefs do not break menus.
   const fallbackRegistry = new Map(fallback.registry.map((item) => [item.id, item]));
   const mergedRegistry = base.registry.map((item) => {
     const fallbackItem = fallbackRegistry.get(item.id);
@@ -107,4 +109,3 @@ export function getNavigationMap(locale: Locale) {
     },
   };
 }
-

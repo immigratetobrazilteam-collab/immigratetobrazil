@@ -29,6 +29,7 @@ type ManagedLegacyManifest = {
 const CONTENT_ROOT = path.join(process.cwd(), 'content', 'cms', 'managed-legacy');
 
 function normalizeSlugInput(value: string | string[]) {
+  // Defensive normalization so route params cannot escape content root.
   const raw = Array.isArray(value) ? value.join('/') : value;
   const cleaned = raw
     .split('/')
@@ -61,6 +62,7 @@ async function loadJsonIfExists<T>(absolutePath: string): Promise<T | null> {
 }
 
 export const getManagedLegacyManifest = cache(async (): Promise<ManagedLegacyManifest | null> => {
+  // EN manifest is canonical for aliases/slugs.
   const manifestPath = path.join(CONTENT_ROOT, 'en', '_manifest.json');
   return loadJsonIfExists<ManagedLegacyManifest>(manifestPath);
 });
@@ -70,8 +72,10 @@ export async function getManagedLegacyDocument(locale: Locale, slugInput: string
   if (!normalizedSlug) return null;
 
   const manifest = await getManagedLegacyManifest();
+  // Old legacy slugs can map to new canonical slugs through manifest aliases.
   const canonicalSlug = manifest?.aliases?.[normalizedSlug] || normalizedSlug;
 
+  // First try locale-specific file.
   const localPath = filePathForSlug(locale, canonicalSlug);
   const local = await loadJsonIfExists<ManagedLegacyPage>(localPath);
   if (local) {
@@ -87,6 +91,7 @@ export async function getManagedLegacyDocument(locale: Locale, slugInput: string
     };
   }
 
+  // Fallback to EN when locale copy does not exist.
   const englishPath = filePathForSlug('en', canonicalSlug);
   const english = await loadJsonIfExists<ManagedLegacyPage>(englishPath);
   if (!english) return null;

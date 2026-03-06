@@ -80,6 +80,7 @@ export function FormspreeContactForm({
   title,
   subtitle,
 }: FormspreeContactFormProps) {
+  // Labels/messages come from site-copy managedPages.formspreeForm.
   const copy = useMemo(
     () => getManagedPageCopyWithFallback<FormCopy>(locale, 'formspreeForm', fallbackCopy),
     [locale],

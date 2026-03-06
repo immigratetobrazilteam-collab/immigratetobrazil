@@ -1,4 +1,5 @@
 import type { Locale } from '@/lib/types';
+import { getCodeManagedPagesCopy } from '@/lib/code-managed-pages-content';
 
 interface CalendlyEmbedProps {
   locale: Locale;
@@ -7,21 +8,8 @@ interface CalendlyEmbedProps {
   description?: string;
 }
 
-const copy: Record<Locale, { title: string; description: string }> = {
-  en: {
-    title: 'Calendly Booking',
-    description:
-      'Book your appointment only after payment. Appointments must be scheduled at least 36 hours after payment confirmation.',
-  },
-  pt: {
-    title: 'Agendamento no Calendly',
-    description:
-      'Agende seu horario somente apos o pagamento. Os agendamentos devem ser feitos com pelo menos 36 horas apos a confirmacao do pagamento.',
-  },
-};
-
 export function CalendlyEmbed({ locale, calendlyUrl, title, description }: CalendlyEmbedProps) {
-  const t = copy[locale];
+  const t = getCodeManagedPagesCopy(locale).calendlyEmbed;
 
   return (
     <section className="rounded-3xl border border-sand-200 bg-white p-6 shadow-card sm:p-8">
