@@ -1,5 +1,6 @@
 import enGuides from '@/content/cms/state-guides/en.json';
 import ptGuides from '@/content/cms/state-guides/pt.json';
+import { getMasterLocaleSection } from '@/lib/master-cms-content';
 import type { Locale } from '@/lib/types';
 
 export type StateGuideStatus = 'draft' | 'published';
@@ -103,8 +104,8 @@ type StateGuideLocaleFile = {
 };
 
 const guidesByLocale: Record<Locale, StateGuideLocaleFile> = {
-  en: enGuides as StateGuideLocaleFile,
-  pt: ptGuides as StateGuideLocaleFile,
+  en: getMasterLocaleSection<StateGuideLocaleFile>('stateGuides', 'en', enGuides as StateGuideLocaleFile),
+  pt: getMasterLocaleSection<StateGuideLocaleFile>('stateGuides', 'pt', ptGuides as StateGuideLocaleFile),
 };
 
 const englishGuides = (guidesByLocale.en.guides || []) as unknown as StateGuide[];

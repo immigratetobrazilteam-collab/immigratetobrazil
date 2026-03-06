@@ -2,6 +2,7 @@ import enPolicies from '@/content/cms/policies/en.json';
 import ptPolicies from '@/content/cms/policies/pt.json';
 import enStateCopy from '@/content/cms/state-copy/en.json';
 import ptStateCopy from '@/content/cms/state-copy/pt.json';
+import { getMasterLocaleSection } from '@/lib/master-cms-content';
 import type { Locale } from '@/lib/types';
 
 type TitleDetail = {
@@ -71,13 +72,13 @@ type PolicyFile = {
 };
 
 const stateCopyByLocale: Record<Locale, StateCopyFile> = {
-  en: enStateCopy as StateCopyFile,
-  pt: ptStateCopy as StateCopyFile,
+  en: getMasterLocaleSection<StateCopyFile>('stateCopy', 'en', enStateCopy as StateCopyFile),
+  pt: getMasterLocaleSection<StateCopyFile>('stateCopy', 'pt', ptStateCopy as StateCopyFile),
 };
 
 const policiesByLocale: Record<Locale, PolicyFile> = {
-  en: enPolicies as PolicyFile,
-  pt: ptPolicies as PolicyFile,
+  en: getMasterLocaleSection<PolicyFile>('policies', 'en', enPolicies as PolicyFile),
+  pt: getMasterLocaleSection<PolicyFile>('policies', 'pt', ptPolicies as PolicyFile),
 };
 
 function mergeContact(template: ContactCopy, override?: Partial<ContactCopy>): ContactCopy {

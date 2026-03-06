@@ -1,5 +1,6 @@
 import enLegacyOverrides from '@/content/cms/legacy-overrides/en.json';
 import ptLegacyOverrides from '@/content/cms/legacy-overrides/pt.json';
+import { getMasterLocaleSection } from '@/lib/master-cms-content';
 import { getManagedPageCopyLocalWithFallback } from '@/lib/site-cms-content';
 import type { Locale } from '@/lib/types';
 
@@ -39,8 +40,8 @@ type LegacyOverridesFile = {
 };
 
 const overridesByLocale: Record<Locale, LegacyOverridesFile> = {
-  en: enLegacyOverrides as LegacyOverridesFile,
-  pt: ptLegacyOverrides as LegacyOverridesFile,
+  en: getMasterLocaleSection<LegacyOverridesFile>('legacyOverrides', 'en', enLegacyOverrides as LegacyOverridesFile),
+  pt: getMasterLocaleSection<LegacyOverridesFile>('legacyOverrides', 'pt', ptLegacyOverrides as LegacyOverridesFile),
 };
 
 function normalizeSlug(input: string) {

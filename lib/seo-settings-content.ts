@@ -1,4 +1,5 @@
 import seoSettings from '@/content/cms/settings/seo-settings.json';
+import { getMasterPathWithFallback } from '@/lib/master-cms-content';
 
 type RawSeoSettings = {
   siteUrl?: string;
@@ -74,7 +75,7 @@ function sanitizeContainsList(values: string[] | undefined, fallback: string[]):
 }
 
 export function getSeoSettings(): SeoSettings {
-  const raw = (seoSettings as RawSeoSettings) || {};
+  const raw = getMasterPathWithFallback<RawSeoSettings>(['settings', 'seo'], (seoSettings as RawSeoSettings) || {});
   const siteUrl = (raw.siteUrl || DEFAULT_SEO_SETTINGS.siteUrl).trim().replace(/\/+$/, '');
   const sitemapPath = sanitizePathValue(raw.sitemapPath || DEFAULT_SEO_SETTINGS.sitemapPath);
 

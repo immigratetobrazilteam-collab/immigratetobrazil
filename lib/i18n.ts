@@ -1,6 +1,5 @@
-import enSiteCopy from '@/content/cms/site-copy/en.json';
-import ptSiteCopy from '@/content/cms/site-copy/pt.json';
 import { defaultLocale, locales, resolveLocale } from '@/lib/locale';
+import { getSiteCmsCopy } from '@/lib/site-cms-content';
 import type { Locale, NavLink } from '@/lib/types';
 
 export { defaultLocale, locales, resolveLocale };
@@ -158,8 +157,8 @@ export interface LocaleCopy {
   floatingActions: FloatingActionsCopy;
 }
 
-const enCopy = enSiteCopy as LocaleCopy;
-const ptCopy = ptSiteCopy as LocaleCopy;
+const enCopy = getSiteCmsCopy('en') as LocaleCopy;
+const ptCopy = getSiteCmsCopy('pt') as LocaleCopy;
 
 export const copy: Record<Locale, LocaleCopy> = {
   en: enCopy,

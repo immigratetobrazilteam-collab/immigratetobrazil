@@ -1,5 +1,6 @@
 import enMap from '@/content/cms/navigation-map/en.json';
 import ptMap from '@/content/cms/navigation-map/pt.json';
+import { getMasterLocaleSection } from '@/lib/master-cms-content';
 import type { Locale } from '@/lib/types';
 
 export type NavigationRouteType = 'static' | 'dynamic' | 'hub' | 'external' | 'search' | 'conversion';
@@ -54,8 +55,8 @@ export type NavigationMap = {
 };
 
 const mapByLocale: Record<Locale, NavigationMap> = {
-  en: enMap as NavigationMap,
-  pt: ptMap as NavigationMap,
+  en: getMasterLocaleSection<NavigationMap>('navigationMap', 'en', enMap as NavigationMap),
+  pt: getMasterLocaleSection<NavigationMap>('navigationMap', 'pt', ptMap as NavigationMap),
 };
 
 function resolveCmsHref(locale: Locale, href: string) {

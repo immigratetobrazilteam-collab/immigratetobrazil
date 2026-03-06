@@ -1,4 +1,5 @@
 import siteSettings from '@/content/cms/settings/site-settings.json';
+import { getMasterPathWithFallback } from '@/lib/master-cms-content';
 
 type SiteBrandSettings = {
   name: string;
@@ -29,7 +30,7 @@ export type SiteSettings = {
   seo: SiteSeoSettings;
 };
 
-const typedSettings = siteSettings as SiteSettings;
+const typedSettings = getMasterPathWithFallback<SiteSettings>(['settings', 'site'], siteSettings as SiteSettings);
 
 export function getSiteSettings() {
   return typedSettings;

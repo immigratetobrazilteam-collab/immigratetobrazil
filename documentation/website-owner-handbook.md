@@ -19,6 +19,28 @@ Supported locales:
 - `en`
 - `pt`
 
+## 1.1) Single-file editing mode (your new default)
+
+If you want one file to edit almost everything, use:
+- `content/cms/master-site.json`
+
+What this controls now:
+- global site copy
+- navigation map
+- page-copy
+- state-copy
+- policies
+- state-guides
+- legacy-overrides
+- code-managed-pages
+- site + SEO settings
+
+For massive libraries (discover + managed-legacy), this master file now supports override maps by slug:
+- `discoverOverrides.pagesByLocale.<locale>.<slug>`
+- `managedLegacyOverrides.pagesByLocale.<locale>.<slug>`
+
+This keeps performance stable while still letting you edit those pages from one JSON file when needed.
+
 ## 2) Folder-by-folder map (what matters, what to ignore)
 
 Core app folders:
@@ -42,6 +64,7 @@ Operationally noisy / usually not edited for normal content updates:
 ## 3) Exact content source by page family
 
 Use this as your main \"where do I edit?\" reference.
+If a value exists in `content/cms/master-site.json`, that value wins over the files below.
 
 ### A) Global site text and shared homepage sections
 

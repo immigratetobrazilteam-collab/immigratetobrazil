@@ -1,5 +1,6 @@
 import enCodeManagedPages from '@/content/cms/code-managed-pages/en.json';
 import ptCodeManagedPages from '@/content/cms/code-managed-pages/pt.json';
+import { getMasterLocaleSection } from '@/lib/master-cms-content';
 import type { Locale } from '@/lib/types';
 
 export type ManagedOption = { value: string; label: string };
@@ -210,8 +211,8 @@ export type CodeManagedPagesCopy = {
 };
 
 const codeManagedPagesByLocale: Record<Locale, CodeManagedPagesCopy> = {
-  en: enCodeManagedPages as CodeManagedPagesCopy,
-  pt: ptCodeManagedPages as CodeManagedPagesCopy,
+  en: getMasterLocaleSection<CodeManagedPagesCopy>('codeManagedPages', 'en', enCodeManagedPages as CodeManagedPagesCopy),
+  pt: getMasterLocaleSection<CodeManagedPagesCopy>('codeManagedPages', 'pt', ptCodeManagedPages as CodeManagedPagesCopy),
 };
 
 export function getCodeManagedPagesCopy(locale: Locale): CodeManagedPagesCopy {

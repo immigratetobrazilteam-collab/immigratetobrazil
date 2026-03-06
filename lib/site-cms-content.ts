@@ -1,5 +1,6 @@
 import enSiteCopy from '@/content/cms/site-copy/en.json';
 import ptSiteCopy from '@/content/cms/site-copy/pt.json';
+import { deepMergeWithFallback, getMasterLocaleSection } from '@/lib/master-cms-content';
 import type { BlogHighlight, Locale, ProcessStep, ServiceCard, StatItem } from '@/lib/types';
 
 type HeroCopy = {
@@ -191,8 +192,8 @@ export type SiteCmsCopy = {
 };
 
 const siteCmsCopyByLocale: Record<Locale, SiteCmsCopy> = {
-  en: enSiteCopy as SiteCmsCopy,
-  pt: ptSiteCopy as SiteCmsCopy,
+  en: getMasterLocaleSection<SiteCmsCopy>('siteCopy', 'en', enSiteCopy as SiteCmsCopy),
+  pt: getMasterLocaleSection<SiteCmsCopy>('siteCopy', 'pt', ptSiteCopy as SiteCmsCopy),
 };
 
 export function getSiteCmsCopy(locale: Locale) {
@@ -219,39 +220,6 @@ export function getManagedPageCopy<T>(locale: Locale, key: string): T | null {
   const englishPages = siteCmsCopyByLocale.en.managedPages;
   const englishValue = englishPages[key] as T | undefined;
   return englishValue ?? null;
-}
-
-function deepMergeWithFallback<T>(fallback: T, override: unknown): T {
-  // If managed copy is missing, keep hardcoded fallback.
-  if (override == null) {
-    return fallback;
-  }
-
-  if (Array.isArray(fallback)) {
-    // Arrays are replaced only when override array is non-empty.
-    if (Array.isArray(override) && override.length > 0) {
-      return override as T;
-    }
-    return fallback;
-  }
-
-  if (typeof fallback === 'object' && fallback !== null) {
-    // Objects merge recursively so partial CMS overrides remain safe.
-    if (typeof override !== 'object' || override === null || Array.isArray(override)) {
-      return fallback;
-    }
-
-    const merged: Record<string, unknown> = { ...(fallback as Record<string, unknown>) };
-    for (const key of Object.keys(fallback as Record<string, unknown>)) {
-      merged[key] = deepMergeWithFallback(
-        (fallback as Record<string, unknown>)[key],
-        (override as Record<string, unknown>)[key],
-      );
-    }
-    return merged as T;
-  }
-
-  return override as T;
 }
 
 export function getManagedPageCopyWithFallback<T>(locale: Locale, key: string, fallback: T): T {

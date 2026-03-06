@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cache } from 'react';
 
+import { deepMergeWithFallback, getMasterPath } from '@/lib/master-cms-content';
 import type { LegacyDocument, Locale } from '@/lib/types';
 
 type ManagedLegacyPage = LegacyDocument & {
@@ -61,10 +62,30 @@ async function loadJsonIfExists<T>(absolutePath: string): Promise<T | null> {
   }
 }
 
+function mapManagedPageToLegacyDocument(page: Partial<ManagedLegacyPage>): LegacyDocument {
+  return {
+    sourcePath: page.sourcePath || '',
+    title: page.title || '',
+    description: page.description || '',
+    heading: page.heading || page.title || '',
+    heroImage: page.heroImage,
+    heroImageAlt: page.heroImageAlt,
+    sections: Array.isArray(page.sections) ? page.sections : [],
+    bullets: Array.isArray(page.bullets) ? page.bullets : [],
+  };
+}
+
 export const getManagedLegacyManifest = cache(async (): Promise<ManagedLegacyManifest | null> => {
   // EN manifest is canonical for aliases/slugs.
   const manifestPath = path.join(CONTENT_ROOT, 'en', '_manifest.json');
-  return loadJsonIfExists<ManagedLegacyManifest>(manifestPath);
+  const fileManifest = await loadJsonIfExists<ManagedLegacyManifest>(manifestPath);
+  const masterManifest = getMasterPath(['managedLegacyOverrides', 'manifest']);
+
+  if (fileManifest) {
+    return deepMergeWithFallback(fileManifest, masterManifest);
+  }
+
+  return (masterManifest as ManagedLegacyManifest | null) || null;
 });
 
 export async function getManagedLegacyDocument(locale: Locale, slugInput: string | string[]): Promise<LegacyDocument | null> {
@@ -74,36 +95,32 @@ export async function getManagedLegacyDocument(locale: Locale, slugInput: string
   const manifest = await getManagedLegacyManifest();
   // Old legacy slugs can map to new canonical slugs through manifest aliases.
   const canonicalSlug = manifest?.aliases?.[normalizedSlug] || normalizedSlug;
+  const englishOverride = getMasterPath(['managedLegacyOverrides', 'pagesByLocale', 'en', canonicalSlug]);
+  const localeOverride = getMasterPath(['managedLegacyOverrides', 'pagesByLocale', locale, canonicalSlug]);
 
   // First try locale-specific file.
   const localPath = filePathForSlug(locale, canonicalSlug);
   const local = await loadJsonIfExists<ManagedLegacyPage>(localPath);
   if (local) {
-    return {
-      sourcePath: local.sourcePath,
-      title: local.title,
-      description: local.description,
-      heading: local.heading,
-      heroImage: local.heroImage,
-      heroImageAlt: local.heroImageAlt,
-      sections: local.sections,
-      bullets: local.bullets,
-    };
+    const merged = deepMergeWithFallback(deepMergeWithFallback(local, englishOverride), localeOverride);
+    return mapManagedPageToLegacyDocument(merged as Partial<ManagedLegacyPage>);
   }
 
   // Fallback to EN when locale copy does not exist.
   const englishPath = filePathForSlug('en', canonicalSlug);
   const english = await loadJsonIfExists<ManagedLegacyPage>(englishPath);
-  if (!english) return null;
+  if (english) {
+    const merged = deepMergeWithFallback(deepMergeWithFallback(english, englishOverride), localeOverride);
+    return mapManagedPageToLegacyDocument(merged as Partial<ManagedLegacyPage>);
+  }
 
-  return {
-    sourcePath: english.sourcePath,
-    title: english.title,
-    description: english.description,
-    heading: english.heading,
-    heroImage: english.heroImage,
-    heroImageAlt: english.heroImageAlt,
-    sections: english.sections,
-    bullets: english.bullets,
-  };
+  const overrideOnly = deepMergeWithFallback(
+    deepMergeWithFallback({} as Partial<ManagedLegacyPage>, englishOverride),
+    localeOverride,
+  );
+  if (Object.keys(overrideOnly as Record<string, unknown>).length > 0) {
+    return mapManagedPageToLegacyDocument(overrideOnly as Partial<ManagedLegacyPage>);
+  }
+
+  return null;
 }

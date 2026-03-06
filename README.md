@@ -29,6 +29,7 @@ Production website and content platform for `immigratetobrazil.com`.
 
 ## Content editing quick start
 1. Identify URL family:
+- single-file master editor (recommended): `content/cms/master-site.json`
 - `discover/*` -> `content/cms/discover-pages/<locale>/...`
 - long-tail legacy/service/about/blog/contact/faq routes -> `content/cms/managed-legacy/<locale>/...`
 - global/hub page copy -> `content/cms/site-copy/<locale>.json` (`managedPages`)

@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cache } from 'react';
 
+import { deepMergeWithFallback, getMasterPath } from '@/lib/master-cms-content';
 import type { Locale } from '@/lib/types';
 
 export type DiscoverContentBlock =
@@ -174,14 +175,33 @@ export async function getDiscoverPage(locale: Locale, slugInput: string | string
     return null;
   }
 
+  const englishOverride = getMasterPath(['discoverOverrides', 'pagesByLocale', 'en', slug]);
+  const localeOverride = getMasterPath(['discoverOverrides', 'pagesByLocale', locale, slug]);
+
   // Locale-first lookup.
   const localPath = filePathForSlug(locale, slug);
   const local = await loadJsonIfExists<DiscoverPage>(localPath);
-  if (local) return local;
+  if (local) {
+    return deepMergeWithFallback(deepMergeWithFallback(local, englishOverride), localeOverride);
+  }
 
   // EN fallback keeps discover pages available even when locale file is missing.
   const englishPath = filePathForSlug('en', slug);
-  return loadJsonIfExists<DiscoverPage>(englishPath);
+  const english = await loadJsonIfExists<DiscoverPage>(englishPath);
+  if (english) {
+    return deepMergeWithFallback(deepMergeWithFallback(english, englishOverride), localeOverride);
+  }
+
+  const overrideOnly = deepMergeWithFallback(
+    deepMergeWithFallback({} as Partial<DiscoverPage>, englishOverride),
+    localeOverride,
+  );
+
+  if (Object.keys(overrideOnly as Record<string, unknown>).length > 0) {
+    return overrideOnly as DiscoverPage;
+  }
+
+  return null;
 }
 
 export async function getDiscoverManifest(_locale: Locale): Promise<DiscoverManifest> {
@@ -189,54 +209,75 @@ export async function getDiscoverManifest(_locale: Locale): Promise<DiscoverMani
   // EN manifest is canonical for static param generation.
   const englishManifestPath = path.join(CONTENT_ROOT, 'en', '_manifest.json');
   const english = await loadJsonIfExists<DiscoverManifest>(englishManifestPath);
+  const masterManifest = getMasterPath(['discoverOverrides', 'manifest']);
 
-  if (!english) {
-    return {
+  if (english) {
+    return deepMergeWithFallback(english, masterManifest);
+  }
+
+  const fallback: DiscoverManifest = {
       locale: 'en',
       generatedAt: new Date(0).toISOString(),
       pageCount: 0,
       statsByType: {},
       pages: [],
-    };
-  }
+  };
 
-  return english;
+  return deepMergeWithFallback(fallback, masterManifest);
 }
 
 export async function getDiscoverLabels(locale: Locale): Promise<Record<string, string>> {
   const localPath = path.join(CONTENT_ROOT, locale, '_labels.json');
   const local = await loadJsonIfExists<Record<string, string>>(localPath);
-  if (local) return local;
-
+  const englishMasterLabels = getMasterPath(['discoverOverrides', 'labelsByLocale', 'en']);
+  const localeMasterLabels = getMasterPath(['discoverOverrides', 'labelsByLocale', locale]);
   const englishPath = path.join(CONTENT_ROOT, 'en', '_labels.json');
-  return (await loadJsonIfExists<Record<string, string>>(englishPath)) || {};
+  const english = (await loadJsonIfExists<Record<string, string>>(englishPath)) || {};
+  const base = local || english;
+
+  return deepMergeWithFallback(
+    deepMergeWithFallback(base, englishMasterLabels),
+    localeMasterLabels,
+  );
 }
 
 export async function getDiscoverHubIndex(locale: Locale): Promise<DiscoverHubIndex> {
   const localPath = path.join(CONTENT_ROOT, locale, '_hub-index.json');
   const local = await loadJsonIfExists<DiscoverHubIndex>(localPath);
-  if (local) return local;
-
   const englishPath = path.join(CONTENT_ROOT, 'en', '_hub-index.json');
   const english = await loadJsonIfExists<DiscoverHubIndex>(englishPath);
-  if (english) return english;
-
-  return {
+  const fallback: DiscoverHubIndex = {
     locale,
     generatedAt: new Date(0).toISOString(),
     pageCount: 0,
     statePages: [],
     citySamples: [],
   };
+
+  const base = local || english || fallback;
+  const englishMasterIndex = getMasterPath(['discoverOverrides', 'hubIndexByLocale', 'en']);
+  const localeMasterIndex = getMasterPath(['discoverOverrides', 'hubIndexByLocale', locale]);
+
+  return deepMergeWithFallback(
+    deepMergeWithFallback(base, englishMasterIndex),
+    localeMasterIndex,
+  );
 }
 
 export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCopy> {
   const localPath = path.join(CONTENT_ROOT, locale, '_hub.json');
   const local = await loadJsonIfExists<Partial<DiscoverHubCopy>>(localPath);
+  const englishMasterHub = getMasterPath(['discoverOverrides', 'hubByLocale', 'en']);
+  const localeMasterHub = getMasterPath(['discoverOverrides', 'hubByLocale', locale]);
+  const applyMasterOverrides = (base: DiscoverHubCopy): DiscoverHubCopy =>
+    deepMergeWithFallback(
+      deepMergeWithFallback(base, englishMasterHub),
+      localeMasterHub,
+    );
 
   if (local) {
     // Merge locale hub copy over safe fallback defaults.
-    return {
+    const merged: DiscoverHubCopy = {
       locale: local.locale || locale,
       eyebrow: local.eyebrow || fallbackHubCopy.eyebrow,
       title: local.title || fallbackHubCopy.title,
@@ -246,6 +287,7 @@ export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCop
       browseRegionsLabel: local.browseRegionsLabel || fallbackHubCopy.browseRegionsLabel,
       consultationLabel: local.consultationLabel || fallbackHubCopy.consultationLabel,
     };
+    return applyMasterOverrides(merged);
   }
 
   const englishPath = path.join(CONTENT_ROOT, 'en', '_hub.json');
@@ -253,7 +295,7 @@ export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCop
 
   if (english) {
     // EN hub fallback if locale-specific hub copy is absent.
-    return {
+    const merged: DiscoverHubCopy = {
       locale: english.locale || 'en',
       eyebrow: english.eyebrow || fallbackHubCopy.eyebrow,
       title: english.title || fallbackHubCopy.title,
@@ -263,7 +305,8 @@ export async function getDiscoverHubCopy(locale: Locale): Promise<DiscoverHubCop
       browseRegionsLabel: english.browseRegionsLabel || fallbackHubCopy.browseRegionsLabel,
       consultationLabel: english.consultationLabel || fallbackHubCopy.consultationLabel,
     };
+    return applyMasterOverrides(merged);
   }
 
-  return fallbackHubCopy;
+  return applyMasterOverrides(fallbackHubCopy);
 }
