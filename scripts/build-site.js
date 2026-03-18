@@ -1296,17 +1296,14 @@ function renderPageMain(page, testimonials) {
 function renderUtilityBar() {
   return `<div class="utility-bar">
     <div class="container utility-inner">
-      <p class="utility-copy">
-        <span class="utility-copy__eyebrow">Brazil-wide remote advisory</span>
-        <span class="utility-copy__text">Premium immigration and relocation guidance, structured for international clients.</span>
-      </p>
+      <p class="utility-support">Supporting Immigrants <span aria-hidden="true">—</span> Promoting Brazil</p>
       <div class="utility-actions">
-        <button type="button" class="utility-link" data-open-accessibility="true">Accessibility</button>
-        <a class="utility-link" href="/legal/search/" data-search-open="true">Search</a>
-        <div class="lang-switcher" aria-label="Language switcher">
-          <button type="button" class="lang-chip active" data-language-toggle="en">EN</button>
-          <button type="button" class="lang-chip" data-language-toggle="pt-BR" ${PT_PRESENT ? "" : "disabled aria-disabled=\"true\""}>PT</button>
+        <div class="lang-switcher lang-switcher--minimal" aria-label="Language switcher">
+          <button type="button" class="lang-link active" data-language-toggle="en">EN</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="lang-link" data-language-toggle="pt-BR" ${PT_PRESENT ? "" : "disabled aria-disabled=\"true\""}>PT</button>
         </div>
+        <button type="button" class="utility-action utility-action--text" data-open-accessibility="true">Accessibility</button>
       </div>
     </div>
   </div>`;
@@ -1351,25 +1348,7 @@ function renderAccessibilityPanel() {
 }
 
 function renderBrandBar() {
-  return `<div class="brand-bar">
-    <div class="container brand-inner">
-      <a class="brand-lockup" href="/">
-        <img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="Immigrate to Brazil logo" width="48" height="48" />
-        <span>
-          <strong>${SITE.name}</strong>
-          <small>${SITE.tagline}</small>
-        </span>
-      </a>
-      <div class="brand-actions">
-        <div class="brand-note">
-          <span>Client experience</span>
-          <strong>Consultation-led, document-driven, authority-aware.</strong>
-        </div>
-        <a class="btn btn-secondary btn-sm" href="/legal/search/" data-search-open="true">Search</a>
-        <a class="btn btn-cta btn-sm" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
-      </div>
-    </div>
-  </div>`;
+  return "";
 }
 
 function chunkLinks(links, columns = 2) {
@@ -1461,10 +1440,27 @@ function renderFooterPanel(panel) {
   </section>`;
 }
 
+function serviceFamilyLabel(label) {
+  return label;
+}
+
+function serviceFamilyDescription(label) {
+  const descriptions = {
+    Visas: "Entry visas across work, investment, study, family, and specialist routes.",
+    Residencies: "Longer-term residence pathways, renewals, and post-arrival planning.",
+    Naturalisation: "Brazilian nationality routes, extraordinary cases, renunciation, and reacquisition.",
+    Defense: "Appeals, fines, deportation, expulsion, extradition, and litigation support.",
+    Services: "Consular records, sworn translation, and regularization matters outside the core route families.",
+    Advisory: "Consultation, strategy, compliance, representation, and corporate immigration support."
+  };
+  return descriptions[serviceFamilyLabel(label)] || "Explore this service category.";
+}
+
 function renderMobileFamily(title, items, options = {}) {
   const intro = options.intro ? `<p class="mobile-nav-group__intro">${escapeHtml(options.intro)}</p>` : "";
   const grouped = items.some((item) => Array.isArray(item.links));
-  return `<details class="mobile-nav-group">
+  const open = options.open ? " open" : "";
+  return `<details class="mobile-nav-group"${open}>
     <summary>${escapeHtml(title)}</summary>
     <div class="mobile-nav-group__body">
       ${intro}
@@ -1490,65 +1486,41 @@ function renderMobileFamily(title, items, options = {}) {
   </details>`;
 }
 
-function renderServicesColumn(group) {
-  const heading = group.label === "Services" ? "Other" : group.label;
-  const children = group.links.slice(1);
-  return `<section class="services-master__column">
-    <h3><a href="${group.links[0].route}">${escapeHtml(heading)}</a></h3>
-    <ul>
-      ${children
-        .map(
-          (item) => `<li><a href="${item.route}">${escapeHtml(item.label)}</a></li>`
-        )
-        .join("")}
-    </ul>
-  </section>`;
+function serviceFamilyIsActive(page, group) {
+  return page.family === "services" && page.route.startsWith(group.links[0].route);
 }
 
-function renderServiceFamilyDropdown(group) {
-  const heading = group.label === "Services" ? "Other" : group.label;
+function renderServiceFamilyDropdown(group, isActive = false) {
+  const heading = serviceFamilyLabel(group.label);
   const hubLink = group.links[0];
   const children = group.links.slice(1);
-  return `<li class="nav-item dropdown service-family-dropdown">
-    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">${escapeHtml(heading)}</a>
+  const columns = chunkLinks(children, children.length > 16 ? 4 : children.length > 9 ? 3 : 2);
+  return `<li class="nav-item dropdown service-family-dropdown${isActive ? " is-active" : ""}">
+    <a class="nav-link dropdown-toggle${isActive ? " is-active" : ""}" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">${escapeHtml(heading)}</a>
     <div class="dropdown-menu service-family-menu">
-      <div class="service-family-menu__inner">
-        <a class="service-family-menu__hub" href="${hubLink.route}">${escapeHtml(heading)}</a>
-        <div class="service-family-menu__links">
-          ${children.map((item) => `<a href="${item.route}">${escapeHtml(item.label)}</a>`).join("")}
+      <div class="service-family-menu__head">
+        <div>
+          <a class="service-family-menu__heading" href="${hubLink.route}"><h3>${escapeHtml(heading)}</h3></a>
+          <p>${escapeHtml(serviceFamilyDescription(group.label))}</p>
         </div>
+      </div>
+      <div class="service-family-menu__grid">
+        ${columns
+          .map(
+            (column) => `<div class="service-family-menu__column">
+              ${column
+                .map(
+                  (item) => `<a class="service-family-menu__link" href="${item.route}">
+                    <strong>${escapeHtml(item.label)}</strong>
+                  </a>`
+                )
+                .join("")}
+            </div>`
+          )
+          .join("")}
       </div>
     </div>
   </li>`;
-}
-
-function renderMobileServicesMenu() {
-  const groups = NAVIGATION.services.filter((group) => group.label !== "Overview");
-  return `<div class="mobile-nav-shell d-xl-none">
-    <div class="mobile-nav-actions">
-      <a class="btn btn-cta btn-sm" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
-      <a class="btn btn-secondary btn-sm" href="/legal/search/" data-search-open="true">Search</a>
-      <a class="btn btn-secondary btn-sm" href="${SITE.whatsappUrl}" data-whatsapp-click="true">WhatsApp</a>
-    </div>
-    <div class="mobile-services-nav">
-      ${groups
-        .map(
-          (group, index) => `<details class="mobile-nav-group"${index === 0 ? " open" : ""}>
-            <summary>${escapeHtml(group.label === "Services" ? "Other" : group.label)}</summary>
-            <div class="mobile-nav-group__body">
-              <div class="mobile-nav-links">
-                <a href="${group.links[0].route}">${escapeHtml(group.label === "Services" ? "Other" : group.links[0].label)}</a>
-                ${group.links
-                  .slice(1)
-                  .map((item) => `<a href="${item.route}">${escapeHtml(item.label)}</a>`)
-                  .join("")}
-              </div>
-            </div>
-          </details>`
-        )
-        .join("")}
-    </div>
-  </div>`;
 }
 
 function navDropdown(label, items) {
@@ -1602,46 +1574,46 @@ function navDropdown(label, items) {
   </li>`;
 }
 
-function renderMainNav() {
-  const groups = NAVIGATION.services
+function renderMainNav(page) {
+  const serviceGroups = NAVIGATION.services
     .filter((group) => group.label !== "Overview")
-    .map((group) => ({
-      ...group,
-      label: group.label === "Services" ? "Other" : group.label
-    }));
+    .map((group) => ({ ...group, label: serviceFamilyLabel(group.label) }));
   return `<nav class="navbar navbar-expand-xl main-nav" aria-label="Main navigation">
     <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="main-header">
+        <div class="main-header__left">
+          <a class="brand-lockup" href="/">
+            <img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="Immigrate to Brazil logo" width="48" height="48" />
+            <span>
+              <strong>${SITE.name}</strong>
+            </span>
+          </a>
+          <a class="main-header__home d-none d-xl-inline-flex${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
+          <a class="btn btn-cta btn-sm main-header__cta d-none d-xl-inline-flex" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
+        </div>
+        <div class="main-header__center d-none d-xl-flex">
+          <ul class="navbar-nav navbar-nav--services">
+            ${serviceGroups.map((group) => renderServiceFamilyDropdown(group, serviceFamilyIsActive(page, group))).join("")}
+          </ul>
+        </div>
+        <div class="main-header__right d-none d-xl-block" aria-hidden="true"></div>
+        <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
       <div class="collapse navbar-collapse" id="site-nav">
         <div class="mobile-nav-shell d-xl-none">
           <div class="mobile-nav-actions">
-            <a class="btn btn-cta btn-sm" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
-            <a class="btn btn-secondary btn-sm" href="/legal/search/" data-search-open="true">Search</a>
-            <a class="btn btn-secondary btn-sm" href="${SITE.whatsappUrl}" data-whatsapp-click="true">WhatsApp</a>
-          </div>
-          ${renderMobileFamily("About", NAVIGATION.about, { intro: "Identity, standards, and public-facing practice context." })}
-          ${renderMobileFamily("Brazil", NAVIGATION.brazil, { intro: "Relocation, cost, regions, and life in Brazil." })}
-          ${renderMobileFamily("Process", NAVIGATION.process, { intro: "Assessment, filing, approval, and later obligations." })}
-          ${renderMobileFamily("Services", groups, { intro: "Grouped by route family for faster comparison." })}
-          ${renderMobileFamily("Insights", NAVIGATION.insights, { intro: "Editorial explainers for readers still orienting themselves." })}
-          ${renderMobileFamily("Legal", NAVIGATION.legal, { intro: "Privacy, payment, accessibility, and operational notices." })}
-        </div>
-        <div class="nav-desktop d-none d-xl-flex">
-          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-            <li class="nav-item nav-item-home"><a class="nav-link" href="/">Home</a></li>
-            ${navDropdown("About", NAVIGATION.about)}
-            ${navDropdown("Brazil", NAVIGATION.brazil)}
-            ${navDropdown("Process", NAVIGATION.process)}
-            ${navDropdown("Services", groups)}
-            ${navDropdown("Insights", NAVIGATION.insights)}
-            ${navDropdown("Legal", NAVIGATION.legal)}
-          </ul>
-          <div class="nav-inline-actions">
-            <a class="utility-link utility-link--nav" href="${SITE.whatsappUrl}" data-whatsapp-click="true">WhatsApp</a>
+            <a class="mobile-nav-home${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
             <a class="btn btn-cta btn-sm" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
           </div>
+          <section class="mobile-nav-section">
+            <p class="mobile-nav-shell__eyebrow">Service categories</p>
+            <p class="mobile-nav-shell__intro">Choose the category first, then open the exact route.</p>
+            ${serviceGroups
+              .map((group) => renderMobileFamily(group.label, group.links, { intro: serviceFamilyDescription(group.label) }))
+              .join("")}
+          </section>
         </div>
       </div>
     </div>
@@ -1957,7 +1929,7 @@ function renderPage(page, template, testimonials) {
     .replace(/{{UTILITY_BAR}}/g, renderUtilityBar())
     .replace(/{{ACCESSIBILITY_PANEL}}/g, renderAccessibilityPanel())
     .replace(/{{BRAND_BAR}}/g, renderBrandBar())
-    .replace(/{{MAIN_NAV}}/g, renderMainNav())
+    .replace(/{{MAIN_NAV}}/g, renderMainNav(page))
     .replace(/{{MAIN_WRAPPER}}/g, `${mainContent}${renderFooter()}`)
     .replace(/{{FLOATING_WHATSAPP}}/g, renderFloatingWhatsApp())
     .replace(/{{BACK_TO_TOP}}/g, renderBackToTop())
