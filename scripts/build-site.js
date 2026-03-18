@@ -1581,25 +1581,26 @@ function renderMainNav(page) {
   return `<nav class="navbar navbar-expand-xl main-nav" aria-label="Main navigation">
     <div class="container">
       <div class="main-header">
-        <div class="main-header__left">
-          <a class="brand-lockup" href="/">
-            <img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="Immigrate to Brazil logo" width="48" height="48" />
-            <span>
-              <strong>${SITE.name}</strong>
-            </span>
-          </a>
-          <a class="main-header__home d-none d-xl-inline-flex${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
+        <div class="main-header__upper">
+          <div class="main-header__identity">
+            <a class="brand-lockup" href="/">
+              <img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="Immigrate to Brazil logo" width="48" height="48" />
+              <span>
+                <strong>${SITE.name}</strong>
+              </span>
+            </a>
+            <a class="main-header__home d-none d-xl-inline-flex${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
+          </div>
           <a class="btn btn-cta btn-sm main-header__cta d-none d-xl-inline-flex" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
+          <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div class="main-header__center d-none d-xl-flex">
+        <div class="main-header__lower d-none d-xl-flex">
           <ul class="navbar-nav navbar-nav--services">
             ${serviceGroups.map((group) => renderServiceFamilyDropdown(group, serviceFamilyIsActive(page, group))).join("")}
           </ul>
         </div>
-        <div class="main-header__right d-none d-xl-block" aria-hidden="true"></div>
-        <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       </div>
       <div class="collapse navbar-collapse" id="site-nav">
         <div class="mobile-nav-shell d-xl-none">

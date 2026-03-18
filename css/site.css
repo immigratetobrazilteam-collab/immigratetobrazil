@@ -631,37 +631,38 @@ body.is-scrolled .main-nav {
 
 .main-header {
   display: grid;
-  grid-template-columns: minmax(320px, 1fr) auto minmax(320px, 1fr);
-  align-items: center;
-  gap: 1.5rem;
-  padding: 1rem 0 1.02rem;
+  gap: 0.78rem;
+  padding: 0.95rem 0 1rem;
 }
 
-.main-header__left,
-.main-header__center {
+.main-header__upper,
+.main-header__identity,
+.main-header__lower {
   display: flex;
   align-items: center;
 }
 
-.main-header__left {
+.main-header__upper {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.main-header__identity {
   gap: 1rem;
   min-width: 0;
 }
 
-.main-header__center {
+.main-header__lower {
   position: relative;
   justify-content: center;
-  min-width: 0;
-}
-
-.main-header__right {
-  min-height: 1px;
+  padding-top: 0.78rem;
+  border-top: 1px solid rgba(21, 34, 49, 0.08);
 }
 
 .main-nav .navbar-nav {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.9rem;
   margin: 0;
 }
 
@@ -742,7 +743,7 @@ body.is-scrolled .main-nav {
 }
 
 .main-header__cta {
-  margin-left: 0.15rem;
+  margin-left: auto;
 }
 
 .mega .dropdown-menu {
@@ -2383,8 +2384,6 @@ body.reduced-motion *::after {
 
 @media (max-width: 1199px) {
   .main-header {
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 1rem;
     padding: 0.88rem 0;
   }
 
