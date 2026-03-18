@@ -1,0 +1,18 @@
+{
+  "name": "immigrate-to-brazil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.js",
+    "validate": "node scripts/validate-site.js",
+    "fetch:heroes": "node scripts/fetch-pixabay-images.js",
+    "generate:pt": "node scripts/generate-pt-br.js",
+    "qa:matrix": "node scripts/qa-matrix.js",
+    "qa:lighthouse": "node scripts/lighthouse-audit.js"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "lighthouse": "^13.0.3"
+  }
+}

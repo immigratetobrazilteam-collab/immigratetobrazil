@@ -1,0 +1,782 @@
+[
+  {
+    "route": "/",
+    "title": "Home",
+    "wordCount": 2227
+  },
+  {
+    "route": "/start-consultation/",
+    "title": "Start Consultation",
+    "wordCount": 2164
+  },
+  {
+    "route": "/about/profile/",
+    "title": "Profile",
+    "wordCount": 2147
+  },
+  {
+    "route": "/about/about/",
+    "title": "About",
+    "wordCount": 2131
+  },
+  {
+    "route": "/about/mission/",
+    "title": "Mission",
+    "wordCount": 2206
+  },
+  {
+    "route": "/about/philosophy/",
+    "title": "Philosophy",
+    "wordCount": 2206
+  },
+  {
+    "route": "/about/story/",
+    "title": "Story",
+    "wordCount": 2190
+  },
+  {
+    "route": "/about/values/",
+    "title": "Values",
+    "wordCount": 2131
+  },
+  {
+    "route": "/about/lawyer/",
+    "title": "Lawyer",
+    "wordCount": 2324
+  },
+  {
+    "route": "/about/whyus/",
+    "title": "Why Us",
+    "wordCount": 2143
+  },
+  {
+    "route": "/about/results/",
+    "title": "Results",
+    "wordCount": 2194
+  },
+  {
+    "route": "/about/stories/",
+    "title": "Stories",
+    "wordCount": 2186
+  },
+  {
+    "route": "/about/clients/",
+    "title": "Clients",
+    "wordCount": 2115
+  },
+  {
+    "route": "/about/testimonials/",
+    "title": "Testimonials",
+    "wordCount": 2199
+  },
+  {
+    "route": "/about/governance/",
+    "title": "Governance",
+    "wordCount": 2178
+  },
+  {
+    "route": "/about/compliance/",
+    "title": "Compliance",
+    "wordCount": 2186
+  },
+  {
+    "route": "/about/ethics/",
+    "title": "Ethics",
+    "wordCount": 2186
+  },
+  {
+    "route": "/about/standards/",
+    "title": "Standards",
+    "wordCount": 2178
+  },
+  {
+    "route": "/about/regulatory/",
+    "title": "Regulatory",
+    "wordCount": 2127
+  },
+  {
+    "route": "/brazil/brazil/",
+    "title": "Brazil",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/investment/",
+    "title": "Investment",
+    "wordCount": 2312
+  },
+  {
+    "route": "/brazil/economy/",
+    "title": "Economy",
+    "wordCount": 2297
+  },
+  {
+    "route": "/brazil/quality/",
+    "title": "Quality",
+    "wordCount": 2307
+  },
+  {
+    "route": "/brazil/living/",
+    "title": "Living",
+    "wordCount": 2297
+  },
+  {
+    "route": "/brazil/cost/",
+    "title": "Cost",
+    "wordCount": 2307
+  },
+  {
+    "route": "/brazil/housing/",
+    "title": "Housing",
+    "wordCount": 2282
+  },
+  {
+    "route": "/brazil/healthcare/",
+    "title": "Healthcare",
+    "wordCount": 2277
+  },
+  {
+    "route": "/brazil/education/",
+    "title": "Education",
+    "wordCount": 2302
+  },
+  {
+    "route": "/brazil/safety/",
+    "title": "Safety",
+    "wordCount": 2297
+  },
+  {
+    "route": "/brazil/north/",
+    "title": "North",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/northeast/",
+    "title": "Northeast",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/central-west/",
+    "title": "Central-West",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/southeast/",
+    "title": "Southeast",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/south/",
+    "title": "South",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/states/",
+    "title": "States",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/cities/",
+    "title": "Cities",
+    "wordCount": 2262
+  },
+  {
+    "route": "/brazil/directory/",
+    "title": "Directory",
+    "wordCount": 2267
+  },
+  {
+    "route": "/brazil/municipalities/",
+    "title": "Municipalities",
+    "wordCount": 2262
+  },
+  {
+    "route": "/brazil/search/",
+    "title": "Search",
+    "wordCount": 2272
+  },
+  {
+    "route": "/brazil/culture/",
+    "title": "Culture",
+    "wordCount": 2272
+  },
+  {
+    "route": "/brazil/festivals/",
+    "title": "Festivals",
+    "wordCount": 2277
+  },
+  {
+    "route": "/brazil/cuisine/",
+    "title": "Cuisine",
+    "wordCount": 2277
+  },
+  {
+    "route": "/brazil/events/",
+    "title": "Events",
+    "wordCount": 2282
+  },
+  {
+    "route": "/brazil/guides/",
+    "title": "Guides",
+    "wordCount": 2272
+  },
+  {
+    "route": "/brazil/faqs/",
+    "title": "Faqs",
+    "wordCount": 2220
+  },
+  {
+    "route": "/process/consultation/",
+    "title": "Consultation",
+    "wordCount": 2231
+  },
+  {
+    "route": "/process/assessment/",
+    "title": "Assessment",
+    "wordCount": 2195
+  },
+  {
+    "route": "/process/strategy/",
+    "title": "Strategy",
+    "wordCount": 2225
+  },
+  {
+    "route": "/process/filing/",
+    "title": "Filing",
+    "wordCount": 2189
+  },
+  {
+    "route": "/process/approval/",
+    "title": "Approval",
+    "wordCount": 2195
+  },
+  {
+    "route": "/process/mistakes/",
+    "title": "Mistakes",
+    "wordCount": 2207
+  },
+  {
+    "route": "/process/failures/",
+    "title": "Failures",
+    "wordCount": 2201
+  },
+  {
+    "route": "/process/deadlines/",
+    "title": "Deadlines",
+    "wordCount": 2189
+  },
+  {
+    "route": "/process/obligations/",
+    "title": "Obligations",
+    "wordCount": 2213
+  },
+  {
+    "route": "/process/alone/",
+    "title": "Alone",
+    "wordCount": 2195
+  },
+  {
+    "route": "/process/transparency/",
+    "title": "Transparency",
+    "wordCount": 2201
+  },
+  {
+    "route": "/process/fees/",
+    "title": "Fees",
+    "wordCount": 2231
+  },
+  {
+    "route": "/process/refund/",
+    "title": "Refund",
+    "wordCount": 2177
+  },
+  {
+    "route": "/process/timeline/",
+    "title": "Timeline",
+    "wordCount": 2207
+  },
+  {
+    "route": "/process/responsibilities/",
+    "title": "Responsibilities",
+    "wordCount": 2195
+  },
+  {
+    "route": "/process/rights/",
+    "title": "Rights",
+    "wordCount": 2183
+  },
+  {
+    "route": "/process/aftercare/",
+    "title": "Aftercare",
+    "wordCount": 2171
+  },
+  {
+    "route": "/process/renewal/",
+    "title": "Renewal",
+    "wordCount": 2183
+  },
+  {
+    "route": "/process/permanent/",
+    "title": "Permanent",
+    "wordCount": 2177
+  },
+  {
+    "route": "/process/naturalisation/",
+    "title": "Naturalisation",
+    "wordCount": 2171
+  },
+  {
+    "route": "/process/compliance/",
+    "title": "Compliance",
+    "wordCount": 2189
+  },
+  {
+    "route": "/process/conversion/",
+    "title": "Conversion",
+    "wordCount": 2207
+  },
+  {
+    "route": "/process/regularization/",
+    "title": "Regularization",
+    "wordCount": 2189
+  },
+  {
+    "route": "/process/planning/",
+    "title": "Planning",
+    "wordCount": 2219
+  },
+  {
+    "route": "/services/",
+    "title": "Services",
+    "wordCount": 2237
+  },
+  {
+    "route": "/services/visas/",
+    "title": "Visas",
+    "wordCount": 2644
+  },
+  {
+    "route": "/services/visas/artistic/",
+    "title": "Artistic Visa",
+    "wordCount": 2332
+  },
+  {
+    "route": "/services/visas/business/",
+    "title": "Business Visa",
+    "wordCount": 2312
+  },
+  {
+    "route": "/services/visas/educational/",
+    "title": "Educational Visa",
+    "wordCount": 2302
+  },
+  {
+    "route": "/services/visas/exchange/",
+    "title": "Exchange Visa",
+    "wordCount": 2319
+  },
+  {
+    "route": "/services/visas/nomad/",
+    "title": "Nomad Visa",
+    "wordCount": 2329
+  },
+  {
+    "route": "/services/visas/diplomatic/",
+    "title": "Diplomatic Visa",
+    "wordCount": 2339
+  },
+  {
+    "route": "/services/visas/family/",
+    "title": "Family Visa",
+    "wordCount": 2324
+  },
+  {
+    "route": "/services/visas/humanitarian/",
+    "title": "Humanitarian Visa",
+    "wordCount": 2101
+  },
+  {
+    "route": "/services/visas/investor/",
+    "title": "Investor Visa",
+    "wordCount": 2319
+  },
+  {
+    "route": "/services/visas/journalist/",
+    "title": "Journalist Visa",
+    "wordCount": 2329
+  },
+  {
+    "route": "/services/visas/medical/",
+    "title": "Medical Visa",
+    "wordCount": 2314
+  },
+  {
+    "route": "/services/visas/religious/",
+    "title": "Religious Visa",
+    "wordCount": 2314
+  },
+  {
+    "route": "/services/visas/research/",
+    "title": "Research Visa",
+    "wordCount": 2324
+  },
+  {
+    "route": "/services/visas/retiree/",
+    "title": "Retiree Visa",
+    "wordCount": 2324
+  },
+  {
+    "route": "/services/visas/sports/",
+    "title": "Sports Visa",
+    "wordCount": 2324
+  },
+  {
+    "route": "/services/visas/startup/",
+    "title": "Startup Visa",
+    "wordCount": 2329
+  },
+  {
+    "route": "/services/visas/student/",
+    "title": "Student Visa",
+    "wordCount": 2319
+  },
+  {
+    "route": "/services/visas/tourist/",
+    "title": "Tourist Visa",
+    "wordCount": 2123
+  },
+  {
+    "route": "/services/visas/transit/",
+    "title": "Transit Visa",
+    "wordCount": 2113
+  },
+  {
+    "route": "/services/visas/volunteer/",
+    "title": "Volunteer Visa",
+    "wordCount": 2314
+  },
+  {
+    "route": "/services/visas/work/",
+    "title": "Work Visa",
+    "wordCount": 2329
+  },
+  {
+    "route": "/services/residencies/",
+    "title": "Residencies",
+    "wordCount": 2354
+  },
+  {
+    "route": "/services/residencies/cplp/",
+    "title": "CPLP Residency",
+    "wordCount": 2346
+  },
+  {
+    "route": "/services/residencies/mercosul/",
+    "title": "MERCOSUL Residency",
+    "wordCount": 2336
+  },
+  {
+    "route": "/services/residencies/nomad/",
+    "title": "Nomad Residency",
+    "wordCount": 2346
+  },
+  {
+    "route": "/services/residencies/educational/",
+    "title": "Educational Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/exchange/",
+    "title": "Exchange Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/reunion/",
+    "title": "Reunion Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/health/",
+    "title": "Health Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/humanitarian/",
+    "title": "Humanitarian Residency",
+    "wordCount": 2346
+  },
+  {
+    "route": "/services/residencies/investor/",
+    "title": "Investor Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/religious/",
+    "title": "Religious Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/retiree/",
+    "title": "Retiree Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/research/",
+    "title": "Research Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/skilled/",
+    "title": "Skilled Residency",
+    "wordCount": 2346
+  },
+  {
+    "route": "/services/residencies/study/",
+    "title": "Study Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/work/",
+    "title": "Work Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/residencies/youth/",
+    "title": "Youth Residency",
+    "wordCount": 2346
+  },
+  {
+    "route": "/services/residencies/volunteer/",
+    "title": "Volunteer Residency",
+    "wordCount": 2351
+  },
+  {
+    "route": "/services/naturalisation/",
+    "title": "Naturalisation",
+    "wordCount": 2357
+  },
+  {
+    "route": "/services/naturalisation/ordinary/",
+    "title": "Ordinary Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/naturalisation/extraordinary/",
+    "title": "Extraordinary Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/naturalisation/provisional/",
+    "title": "Provisional Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/naturalisation/special/",
+    "title": "Special Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/naturalisation/renunciation/",
+    "title": "Renunciation Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/naturalisation/reacquisition/",
+    "title": "Reacquisition Naturalisation",
+    "wordCount": 2114
+  },
+  {
+    "route": "/services/defense/",
+    "title": "Defense",
+    "wordCount": 2350
+  },
+  {
+    "route": "/services/defense/deportation/",
+    "title": "Deportation",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/defense/expulsion/",
+    "title": "Expulsion",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/defense/extradition/",
+    "title": "Extradition",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/defense/appeals/",
+    "title": "Appeals",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/defense/fines/",
+    "title": "Fines",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/defense/litigation/",
+    "title": "Litigation",
+    "wordCount": 2116
+  },
+  {
+    "route": "/services/other/",
+    "title": "Other",
+    "wordCount": 2118
+  },
+  {
+    "route": "/services/other/consular/",
+    "title": "Consular",
+    "wordCount": 2111
+  },
+  {
+    "route": "/services/other/records/",
+    "title": "Records",
+    "wordCount": 2121
+  },
+  {
+    "route": "/services/other/translation/",
+    "title": "Translation",
+    "wordCount": 2106
+  },
+  {
+    "route": "/services/other/regularization/",
+    "title": "Regularization",
+    "wordCount": 2101
+  },
+  {
+    "route": "/services/advisory/",
+    "title": "Advisory",
+    "wordCount": 2112
+  },
+  {
+    "route": "/services/advisory/consultation/",
+    "title": "Consultation",
+    "wordCount": 2338
+  },
+  {
+    "route": "/services/advisory/strategy/",
+    "title": "Strategy",
+    "wordCount": 2343
+  },
+  {
+    "route": "/services/advisory/compliance/",
+    "title": "Compliance",
+    "wordCount": 2338
+  },
+  {
+    "route": "/services/advisory/representation/",
+    "title": "Representation",
+    "wordCount": 2338
+  },
+  {
+    "route": "/services/advisory/corporate/",
+    "title": "Corporate",
+    "wordCount": 2348
+  },
+  {
+    "route": "/insights/general/",
+    "title": "General",
+    "wordCount": 2353
+  },
+  {
+    "route": "/insights/visa/",
+    "title": "Visa",
+    "wordCount": 2149
+  },
+  {
+    "route": "/insights/residency/",
+    "title": "Residency",
+    "wordCount": 2344
+  },
+  {
+    "route": "/insights/naturalisation/",
+    "title": "Naturalisation",
+    "wordCount": 2329
+  },
+  {
+    "route": "/insights/process/",
+    "title": "Process",
+    "wordCount": 2144
+  },
+  {
+    "route": "/insights/blog/",
+    "title": "Blog",
+    "wordCount": 2184
+  },
+  {
+    "route": "/insights/updates/",
+    "title": "Updates",
+    "wordCount": 2174
+  },
+  {
+    "route": "/insights/guides/",
+    "title": "Guides",
+    "wordCount": 2179
+  },
+  {
+    "route": "/legal/payment/",
+    "title": "Payment",
+    "wordCount": 2202
+  },
+  {
+    "route": "/legal/form/",
+    "title": "Form",
+    "wordCount": 2282
+  },
+  {
+    "route": "/legal/emergency/",
+    "title": "Emergency",
+    "wordCount": 2306
+  },
+  {
+    "route": "/legal/search/",
+    "title": "Search",
+    "wordCount": 84
+  },
+  {
+    "route": "/legal/privacy/",
+    "title": "Privacy",
+    "wordCount": 2301
+  },
+  {
+    "route": "/legal/cookies/",
+    "title": "Cookies",
+    "wordCount": 2319
+  },
+  {
+    "route": "/legal/terms/",
+    "title": "Terms",
+    "wordCount": 2304
+  },
+  {
+    "route": "/legal/refund/",
+    "title": "Refund",
+    "wordCount": 2308
+  },
+  {
+    "route": "/legal/gdpr/",
+    "title": "Gdpr",
+    "wordCount": 2327
+  },
+  {
+    "route": "/legal/lgpd/",
+    "title": "Lgpd",
+    "wordCount": 2329
+  },
+  {
+    "route": "/legal/accessibility/",
+    "title": "Accessibility",
+    "wordCount": 2305
+  },
+  {
+    "route": "/legal/disclaimer/",
+    "title": "Disclaimer",
+    "wordCount": 2332
+  },
+  {
+    "route": "/legal/404/",
+    "title": "404",
+    "wordCount": 121
+  }
+]

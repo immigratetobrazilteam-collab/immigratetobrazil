@@ -1,4 +1,17 @@
 
 
-#Ignore vscode AI rules
+# Ignore editor-specific instructions
 .github/instructions/codacy.instructions.md
+
+# Ignore source material and local tooling
+monique-adv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore local reports and caches
+.cache/
+coverage/
+tmp/
+reports/

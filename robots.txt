@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /legal/search/
+
+Sitemap: https://immigratetobrazil.com/sitemap.xml

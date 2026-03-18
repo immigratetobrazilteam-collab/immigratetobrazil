@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Immigrate to Brazil logo">
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="#1B1D18" stroke="#D4AF37" stroke-width="12"/>
+  <path fill="#006400" d="M177 81l116-8 72 60 66 18-13 72 44 61-77 70-6 69-71 31-70-54-51 17-78-73 27-82-41-66 42-42 40-13z"/>
+  <path d="M126 320c82-42 162-85 250-147" stroke="#D4AF37" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="285" cy="182" r="23" fill="#F8F6F1" stroke="#D4AF37" stroke-width="8"/>
+</svg>

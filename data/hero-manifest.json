@@ -1,0 +1,1406 @@
+[
+  {
+    "key": "home",
+    "title": "Home",
+    "route": "/",
+    "family": "foundation",
+    "query": "Brazil atlantic coast sunrise",
+    "path": "/assets/images/heroes/foundation/home.webp",
+    "alt": "Home page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "start-consultation",
+    "title": "Start Consultation",
+    "route": "/start-consultation/",
+    "family": "foundation",
+    "query": "Brazil consultation planning landscape",
+    "path": "/assets/images/heroes/foundation/start-consultation.webp",
+    "alt": "Start Consultation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-profile",
+    "title": "Profile",
+    "route": "/about/profile/",
+    "family": "about",
+    "query": "Brazil legal practice profile landscape",
+    "path": "/assets/images/heroes/about/about-profile.webp",
+    "alt": "Profile page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-about",
+    "title": "About",
+    "route": "/about/about/",
+    "family": "about",
+    "query": "Brazil legal practice about landscape",
+    "path": "/assets/images/heroes/about/about-about.webp",
+    "alt": "About page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-mission",
+    "title": "Mission",
+    "route": "/about/mission/",
+    "family": "about",
+    "query": "Brazil legal practice mission landscape",
+    "path": "/assets/images/heroes/about/about-mission.webp",
+    "alt": "Mission page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-philosophy",
+    "title": "Philosophy",
+    "route": "/about/philosophy/",
+    "family": "about",
+    "query": "Brazil legal practice philosophy landscape",
+    "path": "/assets/images/heroes/about/about-philosophy.webp",
+    "alt": "Philosophy page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-story",
+    "title": "Story",
+    "route": "/about/story/",
+    "family": "about",
+    "query": "Brazil legal practice story landscape",
+    "path": "/assets/images/heroes/about/about-story.webp",
+    "alt": "Story page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-values",
+    "title": "Values",
+    "route": "/about/values/",
+    "family": "about",
+    "query": "Brazil legal practice values landscape",
+    "path": "/assets/images/heroes/about/about-values.webp",
+    "alt": "Values page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-lawyer",
+    "title": "Lawyer",
+    "route": "/about/lawyer/",
+    "family": "about",
+    "query": "Brazil legal practice lawyer landscape",
+    "path": "/assets/images/heroes/about/about-lawyer.webp",
+    "alt": "Lawyer page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-whyus",
+    "title": "Why Us",
+    "route": "/about/whyus/",
+    "family": "about",
+    "query": "Brazil legal practice why us landscape",
+    "path": "/assets/images/heroes/about/about-whyus.webp",
+    "alt": "Why Us page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-results",
+    "title": "Results",
+    "route": "/about/results/",
+    "family": "about",
+    "query": "Brazil legal practice results landscape",
+    "path": "/assets/images/heroes/about/about-results.webp",
+    "alt": "Results page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-stories",
+    "title": "Stories",
+    "route": "/about/stories/",
+    "family": "about",
+    "query": "Brazil legal practice stories landscape",
+    "path": "/assets/images/heroes/about/about-stories.webp",
+    "alt": "Stories page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-clients",
+    "title": "Clients",
+    "route": "/about/clients/",
+    "family": "about",
+    "query": "Brazil legal practice clients landscape",
+    "path": "/assets/images/heroes/about/about-clients.webp",
+    "alt": "Clients page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-testimonials",
+    "title": "Testimonials",
+    "route": "/about/testimonials/",
+    "family": "about",
+    "query": "Brazil legal practice testimonials landscape",
+    "path": "/assets/images/heroes/about/about-testimonials.webp",
+    "alt": "Testimonials page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-governance",
+    "title": "Governance",
+    "route": "/about/governance/",
+    "family": "about",
+    "query": "Brazil legal practice governance landscape",
+    "path": "/assets/images/heroes/about/about-governance.webp",
+    "alt": "Governance page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-compliance",
+    "title": "Compliance",
+    "route": "/about/compliance/",
+    "family": "about",
+    "query": "Brazil legal practice compliance landscape",
+    "path": "/assets/images/heroes/about/about-compliance.webp",
+    "alt": "Compliance page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-ethics",
+    "title": "Ethics",
+    "route": "/about/ethics/",
+    "family": "about",
+    "query": "Brazil legal practice ethics landscape",
+    "path": "/assets/images/heroes/about/about-ethics.webp",
+    "alt": "Ethics page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-standards",
+    "title": "Standards",
+    "route": "/about/standards/",
+    "family": "about",
+    "query": "Brazil legal practice standards landscape",
+    "path": "/assets/images/heroes/about/about-standards.webp",
+    "alt": "Standards page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "about-regulatory",
+    "title": "Regulatory",
+    "route": "/about/regulatory/",
+    "family": "about",
+    "query": "Brazil legal practice regulatory landscape",
+    "path": "/assets/images/heroes/about/about-regulatory.webp",
+    "alt": "Regulatory page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-brazil",
+    "title": "Brazil",
+    "route": "/brazil/brazil/",
+    "family": "brazil",
+    "query": "Brazil brazil cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-brazil.webp",
+    "alt": "Brazil page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-investment",
+    "title": "Investment",
+    "route": "/brazil/investment/",
+    "family": "brazil",
+    "query": "Brazil investment cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-investment.webp",
+    "alt": "Investment page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-economy",
+    "title": "Economy",
+    "route": "/brazil/economy/",
+    "family": "brazil",
+    "query": "Brazil economy cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-economy.webp",
+    "alt": "Economy page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-quality",
+    "title": "Quality",
+    "route": "/brazil/quality/",
+    "family": "brazil",
+    "query": "Brazil quality cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-quality.webp",
+    "alt": "Quality page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-living",
+    "title": "Living",
+    "route": "/brazil/living/",
+    "family": "brazil",
+    "query": "Brazil living cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-living.webp",
+    "alt": "Living page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-cost",
+    "title": "Cost",
+    "route": "/brazil/cost/",
+    "family": "brazil",
+    "query": "Brazil cost cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-cost.webp",
+    "alt": "Cost page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-housing",
+    "title": "Housing",
+    "route": "/brazil/housing/",
+    "family": "brazil",
+    "query": "Brazil housing cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-housing.webp",
+    "alt": "Housing page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-healthcare",
+    "title": "Healthcare",
+    "route": "/brazil/healthcare/",
+    "family": "brazil",
+    "query": "Brazil healthcare cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-healthcare.webp",
+    "alt": "Healthcare page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-education",
+    "title": "Education",
+    "route": "/brazil/education/",
+    "family": "brazil",
+    "query": "Brazil education cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-education.webp",
+    "alt": "Education page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-safety",
+    "title": "Safety",
+    "route": "/brazil/safety/",
+    "family": "brazil",
+    "query": "Brazil safety cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-safety.webp",
+    "alt": "Safety page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-north",
+    "title": "North",
+    "route": "/brazil/north/",
+    "family": "brazil",
+    "query": "Brazil north cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-north.webp",
+    "alt": "North page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-northeast",
+    "title": "Northeast",
+    "route": "/brazil/northeast/",
+    "family": "brazil",
+    "query": "Brazil northeast cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-northeast.webp",
+    "alt": "Northeast page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-central-west",
+    "title": "Central-West",
+    "route": "/brazil/central-west/",
+    "family": "brazil",
+    "query": "Brazil central-west cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-central-west.webp",
+    "alt": "Central-West page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-southeast",
+    "title": "Southeast",
+    "route": "/brazil/southeast/",
+    "family": "brazil",
+    "query": "Brazil southeast cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-southeast.webp",
+    "alt": "Southeast page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-south",
+    "title": "South",
+    "route": "/brazil/south/",
+    "family": "brazil",
+    "query": "Brazil south cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-south.webp",
+    "alt": "South page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-states",
+    "title": "States",
+    "route": "/brazil/states/",
+    "family": "brazil",
+    "query": "Brazil states cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-states.webp",
+    "alt": "States page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-cities",
+    "title": "Cities",
+    "route": "/brazil/cities/",
+    "family": "brazil",
+    "query": "Brazil cities cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-cities.webp",
+    "alt": "Cities page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-directory",
+    "title": "Directory",
+    "route": "/brazil/directory/",
+    "family": "brazil",
+    "query": "Brazil directory cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-directory.webp",
+    "alt": "Directory page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-municipalities",
+    "title": "Municipalities",
+    "route": "/brazil/municipalities/",
+    "family": "brazil",
+    "query": "Brazil municipalities cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-municipalities.webp",
+    "alt": "Municipalities page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-search",
+    "title": "Search",
+    "route": "/brazil/search/",
+    "family": "brazil",
+    "query": "Brazil search cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-search.webp",
+    "alt": "Search page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-culture",
+    "title": "Culture",
+    "route": "/brazil/culture/",
+    "family": "brazil",
+    "query": "Brazil culture cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-culture.webp",
+    "alt": "Culture page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-festivals",
+    "title": "Festivals",
+    "route": "/brazil/festivals/",
+    "family": "brazil",
+    "query": "Brazil festivals cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-festivals.webp",
+    "alt": "Festivals page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-cuisine",
+    "title": "Cuisine",
+    "route": "/brazil/cuisine/",
+    "family": "brazil",
+    "query": "Brazil cuisine cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-cuisine.webp",
+    "alt": "Cuisine page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-events",
+    "title": "Events",
+    "route": "/brazil/events/",
+    "family": "brazil",
+    "query": "Brazil events cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-events.webp",
+    "alt": "Events page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-guides",
+    "title": "Guides",
+    "route": "/brazil/guides/",
+    "family": "brazil",
+    "query": "Brazil guides cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-guides.webp",
+    "alt": "Guides page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "brazil-faqs",
+    "title": "Faqs",
+    "route": "/brazil/faqs/",
+    "family": "brazil",
+    "query": "Brazil faqs cinematic landscape",
+    "path": "/assets/images/heroes/brazil/brazil-faqs.webp",
+    "alt": "Faqs page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-consultation",
+    "title": "Consultation",
+    "route": "/process/consultation/",
+    "family": "process",
+    "query": "Brazil immigration consultation landscape",
+    "path": "/assets/images/heroes/process/process-consultation.webp",
+    "alt": "Consultation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-assessment",
+    "title": "Assessment",
+    "route": "/process/assessment/",
+    "family": "process",
+    "query": "Brazil immigration assessment landscape",
+    "path": "/assets/images/heroes/process/process-assessment.webp",
+    "alt": "Assessment page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-strategy",
+    "title": "Strategy",
+    "route": "/process/strategy/",
+    "family": "process",
+    "query": "Brazil immigration strategy landscape",
+    "path": "/assets/images/heroes/process/process-strategy.webp",
+    "alt": "Strategy page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-filing",
+    "title": "Filing",
+    "route": "/process/filing/",
+    "family": "process",
+    "query": "Brazil immigration filing landscape",
+    "path": "/assets/images/heroes/process/process-filing.webp",
+    "alt": "Filing page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-approval",
+    "title": "Approval",
+    "route": "/process/approval/",
+    "family": "process",
+    "query": "Brazil immigration approval landscape",
+    "path": "/assets/images/heroes/process/process-approval.webp",
+    "alt": "Approval page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-mistakes",
+    "title": "Mistakes",
+    "route": "/process/mistakes/",
+    "family": "process",
+    "query": "Brazil immigration mistakes landscape",
+    "path": "/assets/images/heroes/process/process-mistakes.webp",
+    "alt": "Mistakes page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-failures",
+    "title": "Failures",
+    "route": "/process/failures/",
+    "family": "process",
+    "query": "Brazil immigration failures landscape",
+    "path": "/assets/images/heroes/process/process-failures.webp",
+    "alt": "Failures page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-deadlines",
+    "title": "Deadlines",
+    "route": "/process/deadlines/",
+    "family": "process",
+    "query": "Brazil immigration deadlines landscape",
+    "path": "/assets/images/heroes/process/process-deadlines.webp",
+    "alt": "Deadlines page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-obligations",
+    "title": "Obligations",
+    "route": "/process/obligations/",
+    "family": "process",
+    "query": "Brazil immigration obligations landscape",
+    "path": "/assets/images/heroes/process/process-obligations.webp",
+    "alt": "Obligations page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-alone",
+    "title": "Alone",
+    "route": "/process/alone/",
+    "family": "process",
+    "query": "Brazil immigration alone landscape",
+    "path": "/assets/images/heroes/process/process-alone.webp",
+    "alt": "Alone page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-transparency",
+    "title": "Transparency",
+    "route": "/process/transparency/",
+    "family": "process",
+    "query": "Brazil immigration transparency landscape",
+    "path": "/assets/images/heroes/process/process-transparency.webp",
+    "alt": "Transparency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-fees",
+    "title": "Fees",
+    "route": "/process/fees/",
+    "family": "process",
+    "query": "Brazil immigration fees landscape",
+    "path": "/assets/images/heroes/process/process-fees.webp",
+    "alt": "Fees page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-refund",
+    "title": "Refund",
+    "route": "/process/refund/",
+    "family": "process",
+    "query": "Brazil immigration refund landscape",
+    "path": "/assets/images/heroes/process/process-refund.webp",
+    "alt": "Refund page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-timeline",
+    "title": "Timeline",
+    "route": "/process/timeline/",
+    "family": "process",
+    "query": "Brazil immigration timeline landscape",
+    "path": "/assets/images/heroes/process/process-timeline.webp",
+    "alt": "Timeline page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-responsibilities",
+    "title": "Responsibilities",
+    "route": "/process/responsibilities/",
+    "family": "process",
+    "query": "Brazil immigration responsibilities landscape",
+    "path": "/assets/images/heroes/process/process-responsibilities.webp",
+    "alt": "Responsibilities page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-rights",
+    "title": "Rights",
+    "route": "/process/rights/",
+    "family": "process",
+    "query": "Brazil immigration rights landscape",
+    "path": "/assets/images/heroes/process/process-rights.webp",
+    "alt": "Rights page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-aftercare",
+    "title": "Aftercare",
+    "route": "/process/aftercare/",
+    "family": "process",
+    "query": "Brazil immigration aftercare landscape",
+    "path": "/assets/images/heroes/process/process-aftercare.webp",
+    "alt": "Aftercare page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-renewal",
+    "title": "Renewal",
+    "route": "/process/renewal/",
+    "family": "process",
+    "query": "Brazil immigration renewal landscape",
+    "path": "/assets/images/heroes/process/process-renewal.webp",
+    "alt": "Renewal page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-permanent",
+    "title": "Permanent",
+    "route": "/process/permanent/",
+    "family": "process",
+    "query": "Brazil immigration permanent landscape",
+    "path": "/assets/images/heroes/process/process-permanent.webp",
+    "alt": "Permanent page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-naturalisation",
+    "title": "Naturalisation",
+    "route": "/process/naturalisation/",
+    "family": "process",
+    "query": "Brazil immigration naturalisation landscape",
+    "path": "/assets/images/heroes/process/process-naturalisation.webp",
+    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-compliance",
+    "title": "Compliance",
+    "route": "/process/compliance/",
+    "family": "process",
+    "query": "Brazil immigration compliance landscape",
+    "path": "/assets/images/heroes/process/process-compliance.webp",
+    "alt": "Compliance page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-conversion",
+    "title": "Conversion",
+    "route": "/process/conversion/",
+    "family": "process",
+    "query": "Brazil immigration conversion landscape",
+    "path": "/assets/images/heroes/process/process-conversion.webp",
+    "alt": "Conversion page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-regularization",
+    "title": "Regularization",
+    "route": "/process/regularization/",
+    "family": "process",
+    "query": "Brazil immigration regularization landscape",
+    "path": "/assets/images/heroes/process/process-regularization.webp",
+    "alt": "Regularization page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "process-planning",
+    "title": "Planning",
+    "route": "/process/planning/",
+    "family": "process",
+    "query": "Brazil immigration planning landscape",
+    "path": "/assets/images/heroes/process/process-planning.webp",
+    "alt": "Planning page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-home",
+    "title": "Services",
+    "route": "/services/",
+    "family": "services",
+    "query": "Brazil coastline panorama",
+    "path": "/assets/images/heroes/services/services.webp",
+    "alt": "Services page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-visas",
+    "title": "Visas",
+    "route": "/services/visas/",
+    "family": "services",
+    "query": "Brazil visas cinematic landscape",
+    "path": "/assets/images/heroes/services/services-visas.webp",
+    "alt": "Visas page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-artistic",
+    "title": "Artistic Visa",
+    "route": "/services/visas/artistic/",
+    "family": "services",
+    "query": "Brazil artistic travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-artistic.webp",
+    "alt": "Artistic Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-business",
+    "title": "Business Visa",
+    "route": "/services/visas/business/",
+    "family": "services",
+    "query": "Brazil business travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-business.webp",
+    "alt": "Business Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-educational",
+    "title": "Educational Visa",
+    "route": "/services/visas/educational/",
+    "family": "services",
+    "query": "Brazil educational travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-educational.webp",
+    "alt": "Educational Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-exchange",
+    "title": "Exchange Visa",
+    "route": "/services/visas/exchange/",
+    "family": "services",
+    "query": "Brazil exchange travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-exchange.webp",
+    "alt": "Exchange Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-nomad",
+    "title": "Nomad Visa",
+    "route": "/services/visas/nomad/",
+    "family": "services",
+    "query": "Brazil nomad travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-nomad.webp",
+    "alt": "Nomad Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-diplomatic",
+    "title": "Diplomatic Visa",
+    "route": "/services/visas/diplomatic/",
+    "family": "services",
+    "query": "Brazil diplomatic travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-diplomatic.webp",
+    "alt": "Diplomatic Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-family",
+    "title": "Family Visa",
+    "route": "/services/visas/family/",
+    "family": "services",
+    "query": "Brazil family travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-family.webp",
+    "alt": "Family Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-humanitarian",
+    "title": "Humanitarian Visa",
+    "route": "/services/visas/humanitarian/",
+    "family": "services",
+    "query": "Brazil humanitarian travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-humanitarian.webp",
+    "alt": "Humanitarian Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-investor",
+    "title": "Investor Visa",
+    "route": "/services/visas/investor/",
+    "family": "services",
+    "query": "Brazil investor travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-investor.webp",
+    "alt": "Investor Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-journalist",
+    "title": "Journalist Visa",
+    "route": "/services/visas/journalist/",
+    "family": "services",
+    "query": "Brazil journalist travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-journalist.webp",
+    "alt": "Journalist Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-medical",
+    "title": "Medical Visa",
+    "route": "/services/visas/medical/",
+    "family": "services",
+    "query": "Brazil medical travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-medical.webp",
+    "alt": "Medical Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-religious",
+    "title": "Religious Visa",
+    "route": "/services/visas/religious/",
+    "family": "services",
+    "query": "Brazil religious travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-religious.webp",
+    "alt": "Religious Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-research",
+    "title": "Research Visa",
+    "route": "/services/visas/research/",
+    "family": "services",
+    "query": "Brazil research travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-research.webp",
+    "alt": "Research Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-retiree",
+    "title": "Retiree Visa",
+    "route": "/services/visas/retiree/",
+    "family": "services",
+    "query": "Brazil retiree travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-retiree.webp",
+    "alt": "Retiree Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-sports",
+    "title": "Sports Visa",
+    "route": "/services/visas/sports/",
+    "family": "services",
+    "query": "Brazil sports travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-sports.webp",
+    "alt": "Sports Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-startup",
+    "title": "Startup Visa",
+    "route": "/services/visas/startup/",
+    "family": "services",
+    "query": "Brazil startup travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-startup.webp",
+    "alt": "Startup Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-student",
+    "title": "Student Visa",
+    "route": "/services/visas/student/",
+    "family": "services",
+    "query": "Brazil student travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-student.webp",
+    "alt": "Student Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-tourist",
+    "title": "Tourist Visa",
+    "route": "/services/visas/tourist/",
+    "family": "services",
+    "query": "Brazil tourist travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-tourist.webp",
+    "alt": "Tourist Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-transit",
+    "title": "Transit Visa",
+    "route": "/services/visas/transit/",
+    "family": "services",
+    "query": "Brazil transit travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-transit.webp",
+    "alt": "Transit Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-volunteer",
+    "title": "Volunteer Visa",
+    "route": "/services/visas/volunteer/",
+    "family": "services",
+    "query": "Brazil volunteer travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-volunteer.webp",
+    "alt": "Volunteer Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "visa-work",
+    "title": "Work Visa",
+    "route": "/services/visas/work/",
+    "family": "services",
+    "query": "Brazil work travel landscape",
+    "path": "/assets/images/heroes/services/services-visas-work.webp",
+    "alt": "Work Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-residencies",
+    "title": "Residencies",
+    "route": "/services/residencies/",
+    "family": "services",
+    "query": "Brazil residencies cinematic landscape",
+    "path": "/assets/images/heroes/services/services-residencies.webp",
+    "alt": "Residencies page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-cplp",
+    "title": "CPLP Residency",
+    "route": "/services/residencies/cplp/",
+    "family": "services",
+    "query": "Brazil cplp residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-cplp.webp",
+    "alt": "CPLP Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-mercosul",
+    "title": "MERCOSUL Residency",
+    "route": "/services/residencies/mercosul/",
+    "family": "services",
+    "query": "Brazil mercosul residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-mercosul.webp",
+    "alt": "MERCOSUL Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-nomad",
+    "title": "Nomad Residency",
+    "route": "/services/residencies/nomad/",
+    "family": "services",
+    "query": "Brazil nomad residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-nomad.webp",
+    "alt": "Nomad Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-educational",
+    "title": "Educational Residency",
+    "route": "/services/residencies/educational/",
+    "family": "services",
+    "query": "Brazil educational residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-educational.webp",
+    "alt": "Educational Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-exchange",
+    "title": "Exchange Residency",
+    "route": "/services/residencies/exchange/",
+    "family": "services",
+    "query": "Brazil exchange residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-exchange.webp",
+    "alt": "Exchange Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-reunion",
+    "title": "Reunion Residency",
+    "route": "/services/residencies/reunion/",
+    "family": "services",
+    "query": "Brazil reunion residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-reunion.webp",
+    "alt": "Reunion Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-health",
+    "title": "Health Residency",
+    "route": "/services/residencies/health/",
+    "family": "services",
+    "query": "Brazil health residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-health.webp",
+    "alt": "Health Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-humanitarian",
+    "title": "Humanitarian Residency",
+    "route": "/services/residencies/humanitarian/",
+    "family": "services",
+    "query": "Brazil humanitarian residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-humanitarian.webp",
+    "alt": "Humanitarian Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-investor",
+    "title": "Investor Residency",
+    "route": "/services/residencies/investor/",
+    "family": "services",
+    "query": "Brazil investor residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-investor.webp",
+    "alt": "Investor Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-religious",
+    "title": "Religious Residency",
+    "route": "/services/residencies/religious/",
+    "family": "services",
+    "query": "Brazil religious residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-religious.webp",
+    "alt": "Religious Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-retiree",
+    "title": "Retiree Residency",
+    "route": "/services/residencies/retiree/",
+    "family": "services",
+    "query": "Brazil retiree residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-retiree.webp",
+    "alt": "Retiree Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-research",
+    "title": "Research Residency",
+    "route": "/services/residencies/research/",
+    "family": "services",
+    "query": "Brazil research residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-research.webp",
+    "alt": "Research Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-skilled",
+    "title": "Skilled Residency",
+    "route": "/services/residencies/skilled/",
+    "family": "services",
+    "query": "Brazil skilled residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-skilled.webp",
+    "alt": "Skilled Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-study",
+    "title": "Study Residency",
+    "route": "/services/residencies/study/",
+    "family": "services",
+    "query": "Brazil study residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-study.webp",
+    "alt": "Study Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-work",
+    "title": "Work Residency",
+    "route": "/services/residencies/work/",
+    "family": "services",
+    "query": "Brazil work residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-work.webp",
+    "alt": "Work Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-youth",
+    "title": "Youth Residency",
+    "route": "/services/residencies/youth/",
+    "family": "services",
+    "query": "Brazil youth residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-youth.webp",
+    "alt": "Youth Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "residency-volunteer",
+    "title": "Volunteer Residency",
+    "route": "/services/residencies/volunteer/",
+    "family": "services",
+    "query": "Brazil volunteer residence landscape",
+    "path": "/assets/images/heroes/services/services-residencies-volunteer.webp",
+    "alt": "Volunteer Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-naturalisation",
+    "title": "Naturalisation",
+    "route": "/services/naturalisation/",
+    "family": "services",
+    "query": "Brazil naturalisation cinematic landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation.webp",
+    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-ordinary",
+    "title": "Ordinary Naturalisation",
+    "route": "/services/naturalisation/ordinary/",
+    "family": "services",
+    "query": "Brazil ordinary citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-ordinary.webp",
+    "alt": "Ordinary Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-extraordinary",
+    "title": "Extraordinary Naturalisation",
+    "route": "/services/naturalisation/extraordinary/",
+    "family": "services",
+    "query": "Brazil extraordinary citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-extraordinary.webp",
+    "alt": "Extraordinary Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-provisional",
+    "title": "Provisional Naturalisation",
+    "route": "/services/naturalisation/provisional/",
+    "family": "services",
+    "query": "Brazil provisional citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-provisional.webp",
+    "alt": "Provisional Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-special",
+    "title": "Special Naturalisation",
+    "route": "/services/naturalisation/special/",
+    "family": "services",
+    "query": "Brazil special citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-special.webp",
+    "alt": "Special Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-renunciation",
+    "title": "Renunciation Naturalisation",
+    "route": "/services/naturalisation/renunciation/",
+    "family": "services",
+    "query": "Brazil renunciation citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-renunciation.webp",
+    "alt": "Renunciation Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "naturalisation-reacquisition",
+    "title": "Reacquisition Naturalisation",
+    "route": "/services/naturalisation/reacquisition/",
+    "family": "services",
+    "query": "Brazil reacquisition citizenship landscape",
+    "path": "/assets/images/heroes/services/services-naturalisation-reacquisition.webp",
+    "alt": "Reacquisition Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-defense",
+    "title": "Defense",
+    "route": "/services/defense/",
+    "family": "services",
+    "query": "Brazil defense cinematic landscape",
+    "path": "/assets/images/heroes/services/services-defense.webp",
+    "alt": "Defense page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-deportation",
+    "title": "Deportation",
+    "route": "/services/defense/deportation/",
+    "family": "services",
+    "query": "Brazil deportation legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-deportation.webp",
+    "alt": "Deportation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-expulsion",
+    "title": "Expulsion",
+    "route": "/services/defense/expulsion/",
+    "family": "services",
+    "query": "Brazil expulsion legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-expulsion.webp",
+    "alt": "Expulsion page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-extradition",
+    "title": "Extradition",
+    "route": "/services/defense/extradition/",
+    "family": "services",
+    "query": "Brazil extradition legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-extradition.webp",
+    "alt": "Extradition page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-appeals",
+    "title": "Appeals",
+    "route": "/services/defense/appeals/",
+    "family": "services",
+    "query": "Brazil appeals legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-appeals.webp",
+    "alt": "Appeals page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-fines",
+    "title": "Fines",
+    "route": "/services/defense/fines/",
+    "family": "services",
+    "query": "Brazil fines legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-fines.webp",
+    "alt": "Fines page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "defense-litigation",
+    "title": "Litigation",
+    "route": "/services/defense/litigation/",
+    "family": "services",
+    "query": "Brazil litigation legal landscape",
+    "path": "/assets/images/heroes/services/services-defense-litigation.webp",
+    "alt": "Litigation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-other",
+    "title": "Other",
+    "route": "/services/other/",
+    "family": "services",
+    "query": "Brazil other cinematic landscape",
+    "path": "/assets/images/heroes/services/services-other.webp",
+    "alt": "Other page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "other-consular",
+    "title": "Consular",
+    "route": "/services/other/consular/",
+    "family": "services",
+    "query": "Brazil consular document landscape",
+    "path": "/assets/images/heroes/services/services-other-consular.webp",
+    "alt": "Consular page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "other-records",
+    "title": "Records",
+    "route": "/services/other/records/",
+    "family": "services",
+    "query": "Brazil records document landscape",
+    "path": "/assets/images/heroes/services/services-other-records.webp",
+    "alt": "Records page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "other-translation",
+    "title": "Translation",
+    "route": "/services/other/translation/",
+    "family": "services",
+    "query": "Brazil translation document landscape",
+    "path": "/assets/images/heroes/services/services-other-translation.webp",
+    "alt": "Translation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "other-regularization",
+    "title": "Regularization",
+    "route": "/services/other/regularization/",
+    "family": "services",
+    "query": "Brazil regularization document landscape",
+    "path": "/assets/images/heroes/services/services-other-regularization.webp",
+    "alt": "Regularization page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "services-advisory",
+    "title": "Advisory",
+    "route": "/services/advisory/",
+    "family": "services",
+    "query": "Brazil advisory cinematic landscape",
+    "path": "/assets/images/heroes/services/services-advisory.webp",
+    "alt": "Advisory page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "advisory-consultation",
+    "title": "Consultation",
+    "route": "/services/advisory/consultation/",
+    "family": "services",
+    "query": "Brazil consultation planning landscape",
+    "path": "/assets/images/heroes/services/services-advisory-consultation.webp",
+    "alt": "Consultation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "advisory-strategy",
+    "title": "Strategy",
+    "route": "/services/advisory/strategy/",
+    "family": "services",
+    "query": "Brazil strategy planning landscape",
+    "path": "/assets/images/heroes/services/services-advisory-strategy.webp",
+    "alt": "Strategy page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "advisory-compliance",
+    "title": "Compliance",
+    "route": "/services/advisory/compliance/",
+    "family": "services",
+    "query": "Brazil compliance planning landscape",
+    "path": "/assets/images/heroes/services/services-advisory-compliance.webp",
+    "alt": "Compliance page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "advisory-representation",
+    "title": "Representation",
+    "route": "/services/advisory/representation/",
+    "family": "services",
+    "query": "Brazil representation planning landscape",
+    "path": "/assets/images/heroes/services/services-advisory-representation.webp",
+    "alt": "Representation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "advisory-corporate",
+    "title": "Corporate",
+    "route": "/services/advisory/corporate/",
+    "family": "services",
+    "query": "Brazil corporate planning landscape",
+    "path": "/assets/images/heroes/services/services-advisory-corporate.webp",
+    "alt": "Corporate page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-general",
+    "title": "General",
+    "route": "/insights/general/",
+    "family": "insights",
+    "query": "Brazil general overview landscape",
+    "path": "/assets/images/heroes/insights/insights-general.webp",
+    "alt": "General page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-visa",
+    "title": "Visa",
+    "route": "/insights/visa/",
+    "family": "insights",
+    "query": "Brazil visa overview landscape",
+    "path": "/assets/images/heroes/insights/insights-visa.webp",
+    "alt": "Visa page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-residency",
+    "title": "Residency",
+    "route": "/insights/residency/",
+    "family": "insights",
+    "query": "Brazil residency overview landscape",
+    "path": "/assets/images/heroes/insights/insights-residency.webp",
+    "alt": "Residency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-naturalisation",
+    "title": "Naturalisation",
+    "route": "/insights/naturalisation/",
+    "family": "insights",
+    "query": "Brazil naturalisation overview landscape",
+    "path": "/assets/images/heroes/insights/insights-naturalisation.webp",
+    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-process",
+    "title": "Process",
+    "route": "/insights/process/",
+    "family": "insights",
+    "query": "Brazil process overview landscape",
+    "path": "/assets/images/heroes/insights/insights-process.webp",
+    "alt": "Process page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-blog",
+    "title": "Blog",
+    "route": "/insights/blog/",
+    "family": "insights",
+    "query": "Brazil blog overview landscape",
+    "path": "/assets/images/heroes/insights/insights-blog.webp",
+    "alt": "Blog page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-updates",
+    "title": "Updates",
+    "route": "/insights/updates/",
+    "family": "insights",
+    "query": "Brazil updates overview landscape",
+    "path": "/assets/images/heroes/insights/insights-updates.webp",
+    "alt": "Updates page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "insights-guides",
+    "title": "Guides",
+    "route": "/insights/guides/",
+    "family": "insights",
+    "query": "Brazil guides overview landscape",
+    "path": "/assets/images/heroes/insights/insights-guides.webp",
+    "alt": "Guides page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-payment",
+    "title": "Payment",
+    "route": "/legal/payment/",
+    "family": "legal",
+    "query": "Brazil night skyline secure payment",
+    "path": "/assets/images/heroes/legal/legal-payment.webp",
+    "alt": "Payment page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-form",
+    "title": "Form",
+    "route": "/legal/form/",
+    "family": "legal",
+    "query": "Brazil desk documents landscape",
+    "path": "/assets/images/heroes/legal/legal-form.webp",
+    "alt": "Form page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-emergency",
+    "title": "Emergency",
+    "route": "/legal/emergency/",
+    "family": "legal",
+    "query": "Brazil city lights urgent support",
+    "path": "/assets/images/heroes/legal/legal-emergency.webp",
+    "alt": "Emergency page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-search",
+    "title": "Search",
+    "route": "/legal/search/",
+    "family": "legal",
+    "query": "Brazil map search landscape",
+    "path": "/assets/images/heroes/legal/legal-search.webp",
+    "alt": "Search page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-privacy",
+    "title": "Privacy",
+    "route": "/legal/privacy/",
+    "family": "legal",
+    "query": "Brazil data privacy landscape",
+    "path": "/assets/images/heroes/legal/legal-privacy.webp",
+    "alt": "Privacy page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-cookies",
+    "title": "Cookies",
+    "route": "/legal/cookies/",
+    "family": "legal",
+    "query": "Brazil browser security landscape",
+    "path": "/assets/images/heroes/legal/legal-cookies.webp",
+    "alt": "Cookies page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-terms",
+    "title": "Terms",
+    "route": "/legal/terms/",
+    "family": "legal",
+    "query": "Brazil courthouse skyline landscape",
+    "path": "/assets/images/heroes/legal/legal-terms.webp",
+    "alt": "Terms page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-refund",
+    "title": "Refund",
+    "route": "/legal/refund/",
+    "family": "legal",
+    "query": "Brazil receipt compliance landscape",
+    "path": "/assets/images/heroes/legal/legal-refund.webp",
+    "alt": "Refund page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-gdpr",
+    "title": "Gdpr",
+    "route": "/legal/gdpr/",
+    "family": "legal",
+    "query": "Brazil international privacy landscape",
+    "path": "/assets/images/heroes/legal/legal-gdpr.webp",
+    "alt": "Gdpr page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-lgpd",
+    "title": "Lgpd",
+    "route": "/legal/lgpd/",
+    "family": "legal",
+    "query": "Brazil compliance data landscape",
+    "path": "/assets/images/heroes/legal/legal-lgpd.webp",
+    "alt": "Lgpd page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-accessibility",
+    "title": "Accessibility",
+    "route": "/legal/accessibility/",
+    "family": "legal",
+    "query": "Brazil inclusive access landscape",
+    "path": "/assets/images/heroes/legal/legal-accessibility.webp",
+    "alt": "Accessibility page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-disclaimer",
+    "title": "Disclaimer",
+    "route": "/legal/disclaimer/",
+    "family": "legal",
+    "query": "Brazil legal disclaimer landscape",
+    "path": "/assets/images/heroes/legal/legal-disclaimer.webp",
+    "alt": "Disclaimer page hero with a cinematic Brazil landscape"
+  },
+  {
+    "key": "legal-404",
+    "title": "404",
+    "route": "/legal/404/",
+    "family": "legal",
+    "query": "Brazil roadfinding landscape",
+    "path": "/assets/images/heroes/legal/legal-404.webp",
+    "alt": "404 page hero with a cinematic Brazil landscape"
+  }
+]

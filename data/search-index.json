@@ -1,0 +1,3504 @@
+[
+  {
+    "route": "/",
+    "title": "Home",
+    "family": "foundation",
+    "summary": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families.",
+    "topics": [
+      "Immigration pathways overview",
+      "Consultation flow",
+      "Trust markers",
+      "Nationwide online support",
+      "Service categories",
+      "Official-resource orientation",
+      "Process and compliance framing"
+    ],
+    "faq": [
+      "What does the home page mean by immigration pathways overview?",
+      "What does the home page mean by consultation flow?",
+      "What does the home page mean by trust markers?",
+      "What does the home page mean by nationwide online support?",
+      "What does the home page mean by service categories?"
+    ],
+    "keywords": "Immigration pathways overview Consultation flow Trust markers Nationwide online support Service categories Official-resource orientation Process and compliance framing Home foundation Home + consultation flow"
+  },
+  {
+    "route": "/start-consultation/",
+    "title": "Start Consultation",
+    "family": "foundation",
+    "summary": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps.",
+    "topics": [
+      "Consultation request flow",
+      "Payment before scheduling",
+      "36-hour timing rule",
+      "Manual review and confirmation",
+      "What to prepare",
+      "Intake fields",
+      "Document uploads",
+      "Scope boundaries"
+    ],
+    "faq": [
+      "What should a visitor know about consultation request flow on the start consultation page?",
+      "What should a visitor know about payment before scheduling on the start consultation page?",
+      "What should a visitor know about 36-hour timing rule on the start consultation page?",
+      "What should a visitor know about manual review and confirmation on the start consultation page?",
+      "What should a visitor know about what to prepare on the start consultation page?"
+    ],
+    "keywords": "Consultation request flow Payment before scheduling 36-hour timing rule Manual review and confirmation What to prepare Intake fields Document uploads Scope boundaries Start Consultation foundation Home + consultation flow"
+  },
+  {
+    "route": "/about/profile/",
+    "title": "Profile",
+    "family": "about",
+    "summary": "Contextual overview of profile within the Immigrate to Brazil platform.",
+    "topics": [
+      "Professional Identification",
+      "Areas of Practice",
+      "Immigration Focus",
+      "Types of Legal Matters",
+      "Jurisdiction and Scope",
+      "Languages of Service"
+    ],
+    "faq": [
+      "What does the profile page mean by professional identification?",
+      "What does the profile page mean by areas of practice?",
+      "What does the profile page mean by immigration focus?",
+      "What does the profile page mean by types of legal matters?",
+      "What does the profile page mean by jurisdiction and scope?"
+    ],
+    "keywords": "Professional Identification Areas of Practice Immigration Focus Types of Legal Matters Jurisdiction and Scope Languages of Service Profile about About pages"
+  },
+  {
+    "route": "/about/about/",
+    "title": "About",
+    "family": "about",
+    "summary": "Contextual overview of about within the Immigrate to Brazil platform.",
+    "topics": [
+      "Institutional Overview",
+      "Purpose",
+      "Scope of Services",
+      "Structure of Information",
+      "Target Audience",
+      "Operational Context"
+    ],
+    "faq": [
+      "What does the about page mean by institutional overview?",
+      "What does the about page mean by purpose?",
+      "What does the about page mean by scope of services?",
+      "What does the about page mean by structure of information?",
+      "What does the about page mean by target audience?"
+    ],
+    "keywords": "Institutional Overview Purpose Scope of Services Structure of Information Target Audience Operational Context About about About pages"
+  },
+  {
+    "route": "/about/mission/",
+    "title": "Mission",
+    "family": "about",
+    "summary": "Contextual overview of mission within the Immigrate to Brazil platform.",
+    "topics": [
+      "Defined Purpose",
+      "Role in Immigration Context",
+      "Approach to Service Delivery",
+      "Legal Boundaries of Activity",
+      "Relationship to Applicable Law"
+    ],
+    "faq": [
+      "What does the mission page mean by defined purpose?",
+      "What does the mission page mean by role in immigration context?",
+      "What does the mission page mean by approach to service delivery?",
+      "What does the mission page mean by legal boundaries of activity?",
+      "What does the mission page mean by relationship to applicable law?"
+    ],
+    "keywords": "Defined Purpose Role in Immigration Context Approach to Service Delivery Legal Boundaries of Activity Relationship to Applicable Law Mission about About pages"
+  },
+  {
+    "route": "/about/philosophy/",
+    "title": "Philosophy",
+    "family": "about",
+    "summary": "Contextual overview of philosophy within the Immigrate to Brazil platform.",
+    "topics": [
+      "Approach to Legal Interpretation",
+      "Perspective on Immigration Procedures",
+      "Method of Case Handling",
+      "Position on Documentation",
+      "View on Compliance"
+    ],
+    "faq": [
+      "What does the philosophy page mean by approach to legal interpretation?",
+      "What does the philosophy page mean by perspective on immigration procedures?",
+      "What does the philosophy page mean by method of case handling?",
+      "What does the philosophy page mean by position on documentation?",
+      "What does the philosophy page mean by view on compliance?"
+    ],
+    "keywords": "Approach to Legal Interpretation Perspective on Immigration Procedures Method of Case Handling Position on Documentation View on Compliance Philosophy about About pages"
+  },
+  {
+    "route": "/about/story/",
+    "title": "Story",
+    "family": "about",
+    "summary": "Contextual overview of story within the Immigrate to Brazil platform.",
+    "topics": [
+      "Origin of the Practice",
+      "Development Timeline",
+      "Expansion of Services",
+      "Evolution of Focus",
+      "Current Structure"
+    ],
+    "faq": [
+      "What does the story page mean by origin of the practice?",
+      "What does the story page mean by development timeline?",
+      "What does the story page mean by expansion of services?",
+      "What does the story page mean by evolution of focus?",
+      "What does the story page mean by current structure?"
+    ],
+    "keywords": "Origin of the Practice Development Timeline Expansion of Services Evolution of Focus Current Structure Story about About pages"
+  },
+  {
+    "route": "/about/values/",
+    "title": "Values",
+    "family": "about",
+    "summary": "Contextual overview of values within the Immigrate to Brazil platform.",
+    "topics": [
+      "Legal Integrity",
+      "Accuracy in Documentation",
+      "Procedural Consistency",
+      "Transparency in Communication",
+      "Confidentiality",
+      "Regulatory Compliance"
+    ],
+    "faq": [
+      "What does the values page mean by legal integrity?",
+      "What does the values page mean by accuracy in documentation?",
+      "What does the values page mean by procedural consistency?",
+      "What does the values page mean by transparency in communication?",
+      "What does the values page mean by confidentiality?"
+    ],
+    "keywords": "Legal Integrity Accuracy in Documentation Procedural Consistency Transparency in Communication Confidentiality Regulatory Compliance Values about About pages"
+  },
+  {
+    "route": "/about/lawyer/",
+    "title": "Lawyer",
+    "family": "about",
+    "summary": "Public professional profile of the named attorney reference used on this site.",
+    "topics": [
+      "Full Identification",
+      "Academic Background",
+      "Professional Qualifications",
+      "Areas of Practice",
+      "Immigration Experience",
+      "Languages"
+    ],
+    "faq": [
+      "What does the lawyer page mean by full identification?",
+      "What does the lawyer page mean by academic background?",
+      "What does the lawyer page mean by professional qualifications?",
+      "What does the lawyer page mean by areas of practice?",
+      "What does the lawyer page mean by immigration experience?"
+    ],
+    "keywords": "Full Identification Academic Background Professional Qualifications Areas of Practice Immigration Experience Languages Lawyer about About pages"
+  },
+  {
+    "route": "/about/whyus/",
+    "title": "Why Us",
+    "family": "about",
+    "summary": "Contextual overview of why us within the Immigrate to Brazil platform.",
+    "topics": [
+      "Structural Approach to Cases",
+      "Organization of Procedures",
+      "Documentation Methodology",
+      "Communication Structure",
+      "Compliance Orientation",
+      "Scope Limitations"
+    ],
+    "faq": [
+      "What does the why us page mean by structural approach to cases?",
+      "What does the why us page mean by organization of procedures?",
+      "What does the why us page mean by documentation methodology?",
+      "What does the why us page mean by communication structure?",
+      "What does the why us page mean by compliance orientation?"
+    ],
+    "keywords": "Structural Approach to Cases Organization of Procedures Documentation Methodology Communication Structure Compliance Orientation Scope Limitations Why Us about About pages"
+  },
+  {
+    "route": "/about/results/",
+    "title": "Results",
+    "family": "about",
+    "summary": "Contextual overview of results within the Immigrate to Brazil platform.",
+    "topics": [
+      "Nature of Administrative Outcomes",
+      "Factors Affecting Decisions",
+      "Variability of Processes",
+      "Case Dependency",
+      "Limitations of Predictability"
+    ],
+    "faq": [
+      "What does the results page mean by nature of administrative outcomes?",
+      "What does the results page mean by factors affecting decisions?",
+      "What does the results page mean by variability of processes?",
+      "What does the results page mean by case dependency?",
+      "What does the results page mean by limitations of predictability?"
+    ],
+    "keywords": "Nature of Administrative Outcomes Factors Affecting Decisions Variability of Processes Case Dependency Limitations of Predictability Results about About pages"
+  },
+  {
+    "route": "/about/stories/",
+    "title": "Stories",
+    "family": "about",
+    "summary": "Contextual overview of stories within the Immigrate to Brazil platform.",
+    "topics": [
+      "General Case Scenarios",
+      "Immigration Pathway Examples",
+      "Procedural Descriptions",
+      "Common Situations Observed",
+      "Informational Context"
+    ],
+    "faq": [
+      "What does the stories page mean by general case scenarios?",
+      "What does the stories page mean by immigration pathway examples?",
+      "What does the stories page mean by procedural descriptions?",
+      "What does the stories page mean by common situations observed?",
+      "What does the stories page mean by informational context?"
+    ],
+    "keywords": "General Case Scenarios Immigration Pathway Examples Procedural Descriptions Common Situations Observed Informational Context Stories about About pages"
+  },
+  {
+    "route": "/about/clients/",
+    "title": "Clients",
+    "family": "about",
+    "summary": "Contextual overview of clients within the Immigrate to Brazil platform.",
+    "topics": [
+      "Client Categories",
+      "Individuals",
+      "Families",
+      "Companies",
+      "Geographic Scope",
+      "Typical Needs"
+    ],
+    "faq": [
+      "What does the clients page mean by client categories?",
+      "What does the clients page mean by individuals?",
+      "What does the clients page mean by families?",
+      "What does the clients page mean by companies?",
+      "What does the clients page mean by geographic scope?"
+    ],
+    "keywords": "Client Categories Individuals Families Companies Geographic Scope Typical Needs Clients about About pages"
+  },
+  {
+    "route": "/about/testimonials/",
+    "title": "Testimonials",
+    "family": "about",
+    "summary": "Contextual overview of testimonials within the Immigrate to Brazil platform.",
+    "topics": [
+      "Nature of Statements",
+      "Context of Feedback",
+      "Format of Presentation",
+      "Representational Limitations",
+      "Neutrality Clarification"
+    ],
+    "faq": [
+      "What does the testimonials page mean by nature of statements?",
+      "What does the testimonials page mean by context of feedback?",
+      "What does the testimonials page mean by format of presentation?",
+      "What does the testimonials page mean by representational limitations?",
+      "What does the testimonials page mean by neutrality clarification?"
+    ],
+    "keywords": "Nature of Statements Context of Feedback Format of Presentation Representational Limitations Neutrality Clarification Testimonials about About pages"
+  },
+  {
+    "route": "/about/governance/",
+    "title": "Governance",
+    "family": "about",
+    "summary": "Contextual overview of governance within the Immigrate to Brazil platform.",
+    "topics": [
+      "Organizational Structure",
+      "Roles and Responsibilities",
+      "Decision-Making Process",
+      "Oversight Mechanisms",
+      "Administrative Coordination"
+    ],
+    "faq": [
+      "What does the governance page mean by organizational structure?",
+      "What does the governance page mean by roles and responsibilities?",
+      "What does the governance page mean by decision-making process?",
+      "What does the governance page mean by oversight mechanisms?",
+      "What does the governance page mean by administrative coordination?"
+    ],
+    "keywords": "Organizational Structure Roles and Responsibilities Decision-Making Process Oversight Mechanisms Administrative Coordination Governance about About pages"
+  },
+  {
+    "route": "/about/compliance/",
+    "title": "Compliance",
+    "family": "about",
+    "summary": "Contextual overview of compliance within the Immigrate to Brazil platform.",
+    "topics": [
+      "Legal Compliance Framework",
+      "Immigration Law Alignment",
+      "OAB Compliance",
+      "Data Protection (LGPD)",
+      "Documentation Control"
+    ],
+    "faq": [
+      "What does the compliance page mean by legal compliance framework?",
+      "What does the compliance page mean by immigration law alignment?",
+      "What does the compliance page mean by oab compliance?",
+      "What does the compliance page mean by data protection (lgpd)?",
+      "What does the compliance page mean by documentation control?"
+    ],
+    "keywords": "Legal Compliance Framework Immigration Law Alignment OAB Compliance Data Protection (LGPD) Documentation Control Compliance about About pages"
+  },
+  {
+    "route": "/about/ethics/",
+    "title": "Ethics",
+    "family": "about",
+    "summary": "Contextual overview of ethics within the Immigrate to Brazil platform.",
+    "topics": [
+      "Ethical Principles",
+      "Professional Conduct",
+      "Confidentiality Obligations",
+      "Conflict of Interest Handling",
+      "Client Relationship Boundaries"
+    ],
+    "faq": [
+      "What does the ethics page mean by ethical principles?",
+      "What does the ethics page mean by professional conduct?",
+      "What does the ethics page mean by confidentiality obligations?",
+      "What does the ethics page mean by conflict of interest handling?",
+      "What does the ethics page mean by client relationship boundaries?"
+    ],
+    "keywords": "Ethical Principles Professional Conduct Confidentiality Obligations Conflict of Interest Handling Client Relationship Boundaries Ethics about About pages"
+  },
+  {
+    "route": "/about/standards/",
+    "title": "Standards",
+    "family": "about",
+    "summary": "Contextual overview of standards within the Immigrate to Brazil platform.",
+    "topics": [
+      "Documentation Standards",
+      "Internal Procedures",
+      "Quality Control Measures",
+      "Review Processes",
+      "Consistency Framework"
+    ],
+    "faq": [
+      "What does the standards page mean by documentation standards?",
+      "What does the standards page mean by internal procedures?",
+      "What does the standards page mean by quality control measures?",
+      "What does the standards page mean by review processes?",
+      "What does the standards page mean by consistency framework?"
+    ],
+    "keywords": "Documentation Standards Internal Procedures Quality Control Measures Review Processes Consistency Framework Standards about About pages"
+  },
+  {
+    "route": "/about/regulatory/",
+    "title": "Regulatory",
+    "family": "about",
+    "summary": "Contextual overview of regulatory within the Immigrate to Brazil platform.",
+    "topics": [
+      "Applicable Laws",
+      "Immigration Regulations",
+      "Competent Authorities",
+      "OAB Framework",
+      "Administrative Rules",
+      "Legal Limitations"
+    ],
+    "faq": [
+      "What does the regulatory page mean by applicable laws?",
+      "What does the regulatory page mean by immigration regulations?",
+      "What does the regulatory page mean by competent authorities?",
+      "What does the regulatory page mean by oab framework?",
+      "What does the regulatory page mean by administrative rules?"
+    ],
+    "keywords": "Applicable Laws Immigration Regulations Competent Authorities OAB Framework Administrative Rules Legal Limitations Regulatory about About pages"
+  },
+  {
+    "route": "/brazil/brazil/",
+    "title": "Brazil",
+    "family": "brazil",
+    "summary": "Informational context on brazil in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Geographic Overview",
+      "Legal Environment",
+      "Institutional Framework",
+      "Migration Context",
+      "Economic Position",
+      "International Relations",
+      "Demographic Profile",
+      "Infrastructure Overview",
+      "Regional Diversity",
+      "Administrative Structure"
+    ],
+    "faq": [
+      "How should readers interpret geographic overview on the brazil page when planning life in Brazil?",
+      "How should readers interpret legal environment on the brazil page when planning life in Brazil?",
+      "How should readers interpret institutional framework on the brazil page when planning life in Brazil?",
+      "How should readers interpret migration context on the brazil page when planning life in Brazil?",
+      "How should readers interpret economic position on the brazil page when planning life in Brazil?"
+    ],
+    "keywords": "Geographic Overview Legal Environment Institutional Framework Migration Context Economic Position International Relations Demographic Profile Infrastructure Overview Regional Diversity Administrative Structure Brazil brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/investment/",
+    "title": "Investment",
+    "family": "brazil",
+    "summary": "Informational context on investment in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Foreign Investment Framework",
+      "Legal Structures for Investment",
+      "Regulatory Requirements",
+      "Entry of Foreign Capital",
+      "Corporate Structures in Brazil",
+      "Tax Considerations (general)",
+      "Sector Distribution",
+      "Licensing and Authorizations",
+      "Compliance Obligations",
+      "Reporting Requirements"
+    ],
+    "faq": [
+      "How should readers interpret foreign investment framework on the investment page when planning life in Brazil?",
+      "How should readers interpret legal structures for investment on the investment page when planning life in Brazil?",
+      "How should readers interpret regulatory requirements on the investment page when planning life in Brazil?",
+      "How should readers interpret entry of foreign capital on the investment page when planning life in Brazil?",
+      "How should readers interpret corporate structures in brazil on the investment page when planning life in Brazil?"
+    ],
+    "keywords": "Foreign Investment Framework Legal Structures for Investment Regulatory Requirements Entry of Foreign Capital Corporate Structures in Brazil Tax Considerations (general) Sector Distribution Licensing and Authorizations Compliance Obligations Reporting Requirements Investment brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/economy/",
+    "title": "Economy",
+    "family": "brazil",
+    "summary": "Informational context on economy in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Economic Structure",
+      "Key Sectors",
+      "Monetary System",
+      "Inflation and Currency Context",
+      "Trade Environment",
+      "Export and Import Structure",
+      "Labor Market Overview",
+      "Public Finance Context",
+      "Institutional Bodies",
+      "Economic Indicators"
+    ],
+    "faq": [
+      "How should readers interpret economic structure on the economy page when planning life in Brazil?",
+      "How should readers interpret key sectors on the economy page when planning life in Brazil?",
+      "How should readers interpret monetary system on the economy page when planning life in Brazil?",
+      "How should readers interpret inflation and currency context on the economy page when planning life in Brazil?",
+      "How should readers interpret trade environment on the economy page when planning life in Brazil?"
+    ],
+    "keywords": "Economic Structure Key Sectors Monetary System Inflation and Currency Context Trade Environment Export and Import Structure Labor Market Overview Public Finance Context Institutional Bodies Economic Indicators Economy brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/quality/",
+    "title": "Quality",
+    "family": "brazil",
+    "summary": "Informational context on quality in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Quality of Life Indicators",
+      "Public Infrastructure",
+      "Access to Services",
+      "Environmental Conditions",
+      "Urban versus Rural Differences",
+      "Social Development Indicators",
+      "Regional Disparities",
+      "Mobility and Transport",
+      "Public Utilities",
+      "Living Standards Context"
+    ],
+    "faq": [
+      "How should readers interpret quality of life indicators on the quality page when planning life in Brazil?",
+      "How should readers interpret public infrastructure on the quality page when planning life in Brazil?",
+      "How should readers interpret access to services on the quality page when planning life in Brazil?",
+      "How should readers interpret environmental conditions on the quality page when planning life in Brazil?",
+      "How should readers interpret urban versus rural differences on the quality page when planning life in Brazil?"
+    ],
+    "keywords": "Quality of Life Indicators Public Infrastructure Access to Services Environmental Conditions Urban versus Rural Differences Social Development Indicators Regional Disparities Mobility and Transport Public Utilities Living Standards Context Quality brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/living/",
+    "title": "Living",
+    "family": "brazil",
+    "summary": "Informational context on living in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Daily Life Structure",
+      "Legal Residency Context",
+      "Administrative Requirements",
+      "Access to Services",
+      "Transportation Systems",
+      "Communication and Connectivity",
+      "Cultural Adaptation",
+      "Language Environment",
+      "Urban versus Regional Living",
+      "Integration Considerations"
+    ],
+    "faq": [
+      "How should readers interpret daily life structure on the living page when planning life in Brazil?",
+      "How should readers interpret legal residency context on the living page when planning life in Brazil?",
+      "How should readers interpret administrative requirements on the living page when planning life in Brazil?",
+      "How should readers interpret access to services on the living page when planning life in Brazil?",
+      "How should readers interpret transportation systems on the living page when planning life in Brazil?"
+    ],
+    "keywords": "Daily Life Structure Legal Residency Context Administrative Requirements Access to Services Transportation Systems Communication and Connectivity Cultural Adaptation Language Environment Urban versus Regional Living Integration Considerations Living brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/cost/",
+    "title": "Cost",
+    "family": "brazil",
+    "summary": "Informational context on cost in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Cost Structure Overview",
+      "Housing Costs",
+      "Food and Daily Expenses",
+      "Utilities and Services",
+      "Transportation Costs",
+      "Regional Cost Variation",
+      "Currency and Exchange Impact",
+      "Inflation Considerations",
+      "Lifestyle Variables",
+      "Budget Planning Context"
+    ],
+    "faq": [
+      "How should readers interpret cost structure overview on the cost page when planning life in Brazil?",
+      "How should readers interpret housing costs on the cost page when planning life in Brazil?",
+      "How should readers interpret food and daily expenses on the cost page when planning life in Brazil?",
+      "How should readers interpret utilities and services on the cost page when planning life in Brazil?",
+      "How should readers interpret transportation costs on the cost page when planning life in Brazil?"
+    ],
+    "keywords": "Cost Structure Overview Housing Costs Food and Daily Expenses Utilities and Services Transportation Costs Regional Cost Variation Currency and Exchange Impact Inflation Considerations Lifestyle Variables Budget Planning Context Cost brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/housing/",
+    "title": "Housing",
+    "family": "brazil",
+    "summary": "Informational context on housing in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Property Types",
+      "Rental Framework",
+      "Lease Agreements",
+      "Purchase Regulations",
+      "Foreign Ownership Rules",
+      "Documentation Requirements",
+      "Financing Possibilities",
+      "Urban versus Regional Availability",
+      "Market Variations",
+      "Legal Considerations"
+    ],
+    "faq": [
+      "How should readers interpret property types on the housing page when planning life in Brazil?",
+      "How should readers interpret rental framework on the housing page when planning life in Brazil?",
+      "How should readers interpret lease agreements on the housing page when planning life in Brazil?",
+      "How should readers interpret purchase regulations on the housing page when planning life in Brazil?",
+      "How should readers interpret foreign ownership rules on the housing page when planning life in Brazil?"
+    ],
+    "keywords": "Property Types Rental Framework Lease Agreements Purchase Regulations Foreign Ownership Rules Documentation Requirements Financing Possibilities Urban versus Regional Availability Market Variations Legal Considerations Housing brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/healthcare/",
+    "title": "Healthcare",
+    "family": "brazil",
+    "summary": "Informational context on healthcare in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Public System (SUS)",
+      "Private Healthcare",
+      "Access Requirements",
+      "Health Insurance Structures",
+      "Emergency Services",
+      "Regional Availability",
+      "Quality Variations",
+      "Administrative Procedures",
+      "Cost Considerations",
+      "Regulatory Oversight"
+    ],
+    "faq": [
+      "How should readers interpret public system (sus) on the healthcare page when planning life in Brazil?",
+      "How should readers interpret private healthcare on the healthcare page when planning life in Brazil?",
+      "How should readers interpret access requirements on the healthcare page when planning life in Brazil?",
+      "How should readers interpret health insurance structures on the healthcare page when planning life in Brazil?",
+      "How should readers interpret emergency services on the healthcare page when planning life in Brazil?"
+    ],
+    "keywords": "Public System (SUS) Private Healthcare Access Requirements Health Insurance Structures Emergency Services Regional Availability Quality Variations Administrative Procedures Cost Considerations Regulatory Oversight Healthcare brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/education/",
+    "title": "Education",
+    "family": "brazil",
+    "summary": "Informational context on education in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Education System Structure",
+      "Public versus Private Education",
+      "Primary and Secondary Education",
+      "Higher Education",
+      "Enrollment Requirements",
+      "Language Requirements",
+      "Accreditation and Recognition",
+      "International Students",
+      "Costs and Funding",
+      "Regulatory Framework"
+    ],
+    "faq": [
+      "How should readers interpret education system structure on the education page when planning life in Brazil?",
+      "How should readers interpret public versus private education on the education page when planning life in Brazil?",
+      "How should readers interpret primary and secondary education on the education page when planning life in Brazil?",
+      "How should readers interpret higher education on the education page when planning life in Brazil?",
+      "How should readers interpret enrollment requirements on the education page when planning life in Brazil?"
+    ],
+    "keywords": "Education System Structure Public versus Private Education Primary and Secondary Education Higher Education Enrollment Requirements Language Requirements Accreditation and Recognition International Students Costs and Funding Regulatory Framework Education brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/safety/",
+    "title": "Safety",
+    "family": "brazil",
+    "summary": "Informational context on safety in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Public Safety Framework",
+      "Law Enforcement Structure",
+      "Crime Data Context (general)",
+      "Regional Differences",
+      "Urban versus Rural Safety",
+      "Preventive Measures",
+      "Emergency Services",
+      "Legal Protections",
+      "Institutional Responsibilities",
+      "Risk Awareness"
+    ],
+    "faq": [
+      "How should readers interpret public safety framework on the safety page when planning life in Brazil?",
+      "How should readers interpret law enforcement structure on the safety page when planning life in Brazil?",
+      "How should readers interpret crime data context (general) on the safety page when planning life in Brazil?",
+      "How should readers interpret regional differences on the safety page when planning life in Brazil?",
+      "How should readers interpret urban versus rural safety on the safety page when planning life in Brazil?"
+    ],
+    "keywords": "Public Safety Framework Law Enforcement Structure Crime Data Context (general) Regional Differences Urban versus Rural Safety Preventive Measures Emergency Services Legal Protections Institutional Responsibilities Risk Awareness Safety brazil Brazil overview pages"
+  },
+  {
+    "route": "/brazil/north/",
+    "title": "North",
+    "family": "brazil",
+    "summary": "Informational context on north in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Overview",
+      "States Composition",
+      "Geographic Characteristics",
+      "Climate Profile",
+      "Economic Activities",
+      "Infrastructure Development",
+      "Urban Centers",
+      "Demographic Profile",
+      "Cultural Characteristics",
+      "Development Indicators"
+    ],
+    "faq": [
+      "How should readers interpret regional overview on the north page when planning life in Brazil?",
+      "How should readers interpret states composition on the north page when planning life in Brazil?",
+      "How should readers interpret geographic characteristics on the north page when planning life in Brazil?",
+      "How should readers interpret climate profile on the north page when planning life in Brazil?",
+      "How should readers interpret economic activities on the north page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Overview States Composition Geographic Characteristics Climate Profile Economic Activities Infrastructure Development Urban Centers Demographic Profile Cultural Characteristics Development Indicators North brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/northeast/",
+    "title": "Northeast",
+    "family": "brazil",
+    "summary": "Informational context on northeast in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Overview",
+      "States Composition",
+      "Geographic Characteristics",
+      "Climate Profile",
+      "Economic Activities",
+      "Infrastructure Development",
+      "Urban Centers",
+      "Demographic Profile",
+      "Cultural Characteristics",
+      "Development Indicators"
+    ],
+    "faq": [
+      "How should readers interpret regional overview on the northeast page when planning life in Brazil?",
+      "How should readers interpret states composition on the northeast page when planning life in Brazil?",
+      "How should readers interpret geographic characteristics on the northeast page when planning life in Brazil?",
+      "How should readers interpret climate profile on the northeast page when planning life in Brazil?",
+      "How should readers interpret economic activities on the northeast page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Overview States Composition Geographic Characteristics Climate Profile Economic Activities Infrastructure Development Urban Centers Demographic Profile Cultural Characteristics Development Indicators Northeast brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/central-west/",
+    "title": "Central-West",
+    "family": "brazil",
+    "summary": "Informational context on central-west in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Overview",
+      "States Composition",
+      "Geographic Characteristics",
+      "Climate Profile",
+      "Economic Activities",
+      "Infrastructure Development",
+      "Urban Centers",
+      "Demographic Profile",
+      "Cultural Characteristics",
+      "Development Indicators"
+    ],
+    "faq": [
+      "How should readers interpret regional overview on the central-west page when planning life in Brazil?",
+      "How should readers interpret states composition on the central-west page when planning life in Brazil?",
+      "How should readers interpret geographic characteristics on the central-west page when planning life in Brazil?",
+      "How should readers interpret climate profile on the central-west page when planning life in Brazil?",
+      "How should readers interpret economic activities on the central-west page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Overview States Composition Geographic Characteristics Climate Profile Economic Activities Infrastructure Development Urban Centers Demographic Profile Cultural Characteristics Development Indicators Central-West brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/southeast/",
+    "title": "Southeast",
+    "family": "brazil",
+    "summary": "Informational context on southeast in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Overview",
+      "States Composition",
+      "Geographic Characteristics",
+      "Climate Profile",
+      "Economic Activities",
+      "Infrastructure Development",
+      "Urban Centers",
+      "Demographic Profile",
+      "Cultural Characteristics",
+      "Development Indicators"
+    ],
+    "faq": [
+      "How should readers interpret regional overview on the southeast page when planning life in Brazil?",
+      "How should readers interpret states composition on the southeast page when planning life in Brazil?",
+      "How should readers interpret geographic characteristics on the southeast page when planning life in Brazil?",
+      "How should readers interpret climate profile on the southeast page when planning life in Brazil?",
+      "How should readers interpret economic activities on the southeast page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Overview States Composition Geographic Characteristics Climate Profile Economic Activities Infrastructure Development Urban Centers Demographic Profile Cultural Characteristics Development Indicators Southeast brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/south/",
+    "title": "South",
+    "family": "brazil",
+    "summary": "Informational context on south in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Overview",
+      "States Composition",
+      "Geographic Characteristics",
+      "Climate Profile",
+      "Economic Activities",
+      "Infrastructure Development",
+      "Urban Centers",
+      "Demographic Profile",
+      "Cultural Characteristics",
+      "Development Indicators"
+    ],
+    "faq": [
+      "How should readers interpret regional overview on the south page when planning life in Brazil?",
+      "How should readers interpret states composition on the south page when planning life in Brazil?",
+      "How should readers interpret geographic characteristics on the south page when planning life in Brazil?",
+      "How should readers interpret climate profile on the south page when planning life in Brazil?",
+      "How should readers interpret economic activities on the south page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Overview States Composition Geographic Characteristics Climate Profile Economic Activities Infrastructure Development Urban Centers Demographic Profile Cultural Characteristics Development Indicators South brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/states/",
+    "title": "States",
+    "family": "brazil",
+    "summary": "Informational context on states in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Federal Structure",
+      "State-Level Governance",
+      "Legal Competencies",
+      "Economic Distribution",
+      "Population Distribution",
+      "Regional Roles",
+      "Infrastructure Differences",
+      "Administrative Autonomy",
+      "Public Services",
+      "Fiscal Context"
+    ],
+    "faq": [
+      "How should readers interpret federal structure on the states page when planning life in Brazil?",
+      "How should readers interpret state-level governance on the states page when planning life in Brazil?",
+      "How should readers interpret legal competencies on the states page when planning life in Brazil?",
+      "How should readers interpret economic distribution on the states page when planning life in Brazil?",
+      "How should readers interpret population distribution on the states page when planning life in Brazil?"
+    ],
+    "keywords": "Federal Structure State-Level Governance Legal Competencies Economic Distribution Population Distribution Regional Roles Infrastructure Differences Administrative Autonomy Public Services Fiscal Context States brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/cities/",
+    "title": "Cities",
+    "family": "brazil",
+    "summary": "Informational context on cities in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Urban Organization",
+      "Municipal Governance",
+      "Infrastructure Systems",
+      "Population Density",
+      "Economic Activities",
+      "Public Services",
+      "Transportation",
+      "Housing Context",
+      "Regional Differences",
+      "Administrative Structure"
+    ],
+    "faq": [
+      "How should readers interpret urban organization on the cities page when planning life in Brazil?",
+      "How should readers interpret municipal governance on the cities page when planning life in Brazil?",
+      "How should readers interpret infrastructure systems on the cities page when planning life in Brazil?",
+      "How should readers interpret population density on the cities page when planning life in Brazil?",
+      "How should readers interpret economic activities on the cities page when planning life in Brazil?"
+    ],
+    "keywords": "Urban Organization Municipal Governance Infrastructure Systems Population Density Economic Activities Public Services Transportation Housing Context Regional Differences Administrative Structure Cities brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/directory/",
+    "title": "Directory",
+    "family": "brazil",
+    "summary": "Informational context on directory in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Purpose of Directory",
+      "Categorization Criteria",
+      "Sector Classification",
+      "Geographic Organization",
+      "Data Sources",
+      "Inclusion Criteria",
+      "Navigation Structure",
+      "Update Methodology",
+      "User Interaction",
+      "Limitations"
+    ],
+    "faq": [
+      "How should readers interpret purpose of directory on the directory page when planning life in Brazil?",
+      "How should readers interpret categorization criteria on the directory page when planning life in Brazil?",
+      "How should readers interpret sector classification on the directory page when planning life in Brazil?",
+      "How should readers interpret geographic organization on the directory page when planning life in Brazil?",
+      "How should readers interpret data sources on the directory page when planning life in Brazil?"
+    ],
+    "keywords": "Purpose of Directory Categorization Criteria Sector Classification Geographic Organization Data Sources Inclusion Criteria Navigation Structure Update Methodology User Interaction Limitations Directory brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/municipalities/",
+    "title": "Municipalities",
+    "family": "brazil",
+    "summary": "Informational context on municipalities in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Municipal Structure",
+      "Governance Model",
+      "Administrative Responsibilities",
+      "Local Legislation",
+      "Public Services",
+      "Revenue Sources",
+      "Territorial Organization",
+      "Population Distribution",
+      "Infrastructure",
+      "Intergovernmental Relations"
+    ],
+    "faq": [
+      "How should readers interpret municipal structure on the municipalities page when planning life in Brazil?",
+      "How should readers interpret governance model on the municipalities page when planning life in Brazil?",
+      "How should readers interpret administrative responsibilities on the municipalities page when planning life in Brazil?",
+      "How should readers interpret local legislation on the municipalities page when planning life in Brazil?",
+      "How should readers interpret public services on the municipalities page when planning life in Brazil?"
+    ],
+    "keywords": "Municipal Structure Governance Model Administrative Responsibilities Local Legislation Public Services Revenue Sources Territorial Organization Population Distribution Infrastructure Intergovernmental Relations Municipalities brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/search/",
+    "title": "Search",
+    "family": "brazil",
+    "summary": "Informational context on search in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Search Function Purpose",
+      "Data Indexing",
+      "Filtering Options",
+      "Categorization Logic",
+      "Geographic Filters",
+      "Keyword Structure",
+      "Result Presentation",
+      "Navigation Flow",
+      "User Interaction",
+      "System Limitations"
+    ],
+    "faq": [
+      "How should readers interpret search function purpose on the search page when planning life in Brazil?",
+      "How should readers interpret data indexing on the search page when planning life in Brazil?",
+      "How should readers interpret filtering options on the search page when planning life in Brazil?",
+      "How should readers interpret categorization logic on the search page when planning life in Brazil?",
+      "How should readers interpret geographic filters on the search page when planning life in Brazil?"
+    ],
+    "keywords": "Search Function Purpose Data Indexing Filtering Options Categorization Logic Geographic Filters Keyword Structure Result Presentation Navigation Flow User Interaction System Limitations Search brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/culture/",
+    "title": "Culture",
+    "family": "brazil",
+    "summary": "Informational context on culture in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Cultural Diversity",
+      "Historical Influences",
+      "Regional Variations",
+      "Language Context",
+      "Social Practices",
+      "Arts and Expression",
+      "Institutional Support",
+      "Cultural Policies",
+      "Public Participation",
+      "International Influence"
+    ],
+    "faq": [
+      "How should readers interpret cultural diversity on the culture page when planning life in Brazil?",
+      "How should readers interpret historical influences on the culture page when planning life in Brazil?",
+      "How should readers interpret regional variations on the culture page when planning life in Brazil?",
+      "How should readers interpret language context on the culture page when planning life in Brazil?",
+      "How should readers interpret social practices on the culture page when planning life in Brazil?"
+    ],
+    "keywords": "Cultural Diversity Historical Influences Regional Variations Language Context Social Practices Arts and Expression Institutional Support Cultural Policies Public Participation International Influence Culture brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/festivals/",
+    "title": "Festivals",
+    "family": "brazil",
+    "summary": "Informational context on festivals in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Types of Festivals",
+      "Cultural Significance",
+      "Regional Distribution",
+      "Seasonal Calendar",
+      "Public versus Private Events",
+      "Participation Structure",
+      "Economic Impact",
+      "Regulatory Aspects",
+      "Tourism Context",
+      "Organization"
+    ],
+    "faq": [
+      "How should readers interpret types of festivals on the festivals page when planning life in Brazil?",
+      "How should readers interpret cultural significance on the festivals page when planning life in Brazil?",
+      "How should readers interpret regional distribution on the festivals page when planning life in Brazil?",
+      "How should readers interpret seasonal calendar on the festivals page when planning life in Brazil?",
+      "How should readers interpret public versus private events on the festivals page when planning life in Brazil?"
+    ],
+    "keywords": "Types of Festivals Cultural Significance Regional Distribution Seasonal Calendar Public versus Private Events Participation Structure Economic Impact Regulatory Aspects Tourism Context Organization Festivals brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/cuisine/",
+    "title": "Cuisine",
+    "family": "brazil",
+    "summary": "Informational context on cuisine in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Regional Food Traditions",
+      "Ingredients and Products",
+      "Preparation Methods",
+      "Cultural Influences",
+      "Dining Practices",
+      "Regional Variations",
+      "Market Availability",
+      "Agricultural Context",
+      "Food Industry",
+      "Consumption Patterns"
+    ],
+    "faq": [
+      "How should readers interpret regional food traditions on the cuisine page when planning life in Brazil?",
+      "How should readers interpret ingredients and products on the cuisine page when planning life in Brazil?",
+      "How should readers interpret preparation methods on the cuisine page when planning life in Brazil?",
+      "How should readers interpret cultural influences on the cuisine page when planning life in Brazil?",
+      "How should readers interpret dining practices on the cuisine page when planning life in Brazil?"
+    ],
+    "keywords": "Regional Food Traditions Ingredients and Products Preparation Methods Cultural Influences Dining Practices Regional Variations Market Availability Agricultural Context Food Industry Consumption Patterns Cuisine brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/events/",
+    "title": "Events",
+    "family": "brazil",
+    "summary": "Informational context on events in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Event Categories",
+      "Cultural Events",
+      "Business and Professional Events",
+      "Public versus Private",
+      "Regional Distribution",
+      "Scheduling Patterns",
+      "Participation Requirements",
+      "Organizational Structure",
+      "Regulatory Aspects",
+      "Economic Impact"
+    ],
+    "faq": [
+      "How should readers interpret event categories on the events page when planning life in Brazil?",
+      "How should readers interpret cultural events on the events page when planning life in Brazil?",
+      "How should readers interpret business and professional events on the events page when planning life in Brazil?",
+      "How should readers interpret public versus private on the events page when planning life in Brazil?",
+      "How should readers interpret regional distribution on the events page when planning life in Brazil?"
+    ],
+    "keywords": "Event Categories Cultural Events Business and Professional Events Public versus Private Regional Distribution Scheduling Patterns Participation Requirements Organizational Structure Regulatory Aspects Economic Impact Events brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/guides/",
+    "title": "Guides",
+    "family": "brazil",
+    "summary": "Informational context on guides in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "Purpose of Guides",
+      "Topic Organization",
+      "Information Structure",
+      "Navigation Logic",
+      "Practical Orientation",
+      "Reference Materials",
+      "Target Audience",
+      "Update Frequency",
+      "Content Limitations",
+      "Usage Context"
+    ],
+    "faq": [
+      "How should readers interpret purpose of guides on the guides page when planning life in Brazil?",
+      "How should readers interpret topic organization on the guides page when planning life in Brazil?",
+      "How should readers interpret information structure on the guides page when planning life in Brazil?",
+      "How should readers interpret navigation logic on the guides page when planning life in Brazil?",
+      "How should readers interpret practical orientation on the guides page when planning life in Brazil?"
+    ],
+    "keywords": "Purpose of Guides Topic Organization Information Structure Navigation Logic Practical Orientation Reference Materials Target Audience Update Frequency Content Limitations Usage Context Guides brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/brazil/faqs/",
+    "title": "Faqs",
+    "family": "brazil",
+    "summary": "Informational context on faqs in Brazil for relocation, compliance, and practical planning.",
+    "topics": [
+      "General relocation questions",
+      "Immigration context questions",
+      "Brazil-living questions",
+      "Service-boundary questions",
+      "Compliance questions"
+    ],
+    "faq": [
+      "How should readers interpret general relocation questions on the faqs page when planning life in Brazil?",
+      "How should readers interpret immigration context questions on the faqs page when planning life in Brazil?",
+      "How should readers interpret brazil-living questions on the faqs page when planning life in Brazil?",
+      "How should readers interpret service-boundary questions on the faqs page when planning life in Brazil?",
+      "How should readers interpret compliance questions on the faqs page when planning life in Brazil?"
+    ],
+    "keywords": "General relocation questions Immigration context questions Brazil-living questions Service-boundary questions Compliance questions Faqs brazil Brazil culture and location pages"
+  },
+  {
+    "route": "/process/consultation/",
+    "title": "Consultation",
+    "family": "process",
+    "summary": "Process guidance on consultation within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Purpose of Initial Consultation",
+      "Scope of Discussion",
+      "Information Provided by Client",
+      "Preliminary Legal Context",
+      "Limitations of Initial Analysis",
+      "Next Steps After Consultation"
+    ],
+    "faq": [
+      "Why does purpose of initial consultation matter in the consultation stage of the process?",
+      "Why does scope of discussion matter in the consultation stage of the process?",
+      "Why does information provided by client matter in the consultation stage of the process?",
+      "Why does preliminary legal context matter in the consultation stage of the process?",
+      "Why does limitations of initial analysis matter in the consultation stage of the process?"
+    ],
+    "keywords": "Purpose of Initial Consultation Scope of Discussion Information Provided by Client Preliminary Legal Context Limitations of Initial Analysis Next Steps After Consultation Consultation process Process core"
+  },
+  {
+    "route": "/process/assessment/",
+    "title": "Assessment",
+    "family": "process",
+    "summary": "Process guidance on assessment within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Case Evaluation Criteria",
+      "Review of Documents",
+      "Identification of Legal Options",
+      "Eligibility Considerations",
+      "Risk Identification",
+      "Outcome Variability"
+    ],
+    "faq": [
+      "Why does case evaluation criteria matter in the assessment stage of the process?",
+      "Why does review of documents matter in the assessment stage of the process?",
+      "Why does identification of legal options matter in the assessment stage of the process?",
+      "Why does eligibility considerations matter in the assessment stage of the process?",
+      "Why does risk identification matter in the assessment stage of the process?"
+    ],
+    "keywords": "Case Evaluation Criteria Review of Documents Identification of Legal Options Eligibility Considerations Risk Identification Outcome Variability Assessment process Process core"
+  },
+  {
+    "route": "/process/strategy/",
+    "title": "Strategy",
+    "family": "process",
+    "summary": "Process guidance on strategy within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Definition of Legal Approach",
+      "Selection of Immigration Pathway",
+      "Structuring of Application",
+      "Documentation Planning",
+      "Risk Mitigation Measures",
+      "Adjustment Based on Case Specifics"
+    ],
+    "faq": [
+      "Why does definition of legal approach matter in the strategy stage of the process?",
+      "Why does selection of immigration pathway matter in the strategy stage of the process?",
+      "Why does structuring of application matter in the strategy stage of the process?",
+      "Why does documentation planning matter in the strategy stage of the process?",
+      "Why does risk mitigation measures matter in the strategy stage of the process?"
+    ],
+    "keywords": "Definition of Legal Approach Selection of Immigration Pathway Structuring of Application Documentation Planning Risk Mitigation Measures Adjustment Based on Case Specifics Strategy process Process core"
+  },
+  {
+    "route": "/process/filing/",
+    "title": "Filing",
+    "family": "process",
+    "summary": "Process guidance on filing within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Preparation of Documentation",
+      "Review and Verification",
+      "Submission Procedures",
+      "Competent Authorities",
+      "Formal Requirements",
+      "Confirmation of Submission"
+    ],
+    "faq": [
+      "Why does preparation of documentation matter in the filing stage of the process?",
+      "Why does review and verification matter in the filing stage of the process?",
+      "Why does submission procedures matter in the filing stage of the process?",
+      "Why does competent authorities matter in the filing stage of the process?",
+      "Why does formal requirements matter in the filing stage of the process?"
+    ],
+    "keywords": "Preparation of Documentation Review and Verification Submission Procedures Competent Authorities Formal Requirements Confirmation of Submission Filing process Process core"
+  },
+  {
+    "route": "/process/approval/",
+    "title": "Approval",
+    "family": "process",
+    "summary": "Process guidance on approval within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Administrative Decision Process",
+      "Possible Outcomes",
+      "Conditions of Approval",
+      "Post-Approval Requirements",
+      "Registration Obligations",
+      "Legal Effects of Approval"
+    ],
+    "faq": [
+      "Why does administrative decision process matter in the approval stage of the process?",
+      "Why does possible outcomes matter in the approval stage of the process?",
+      "Why does conditions of approval matter in the approval stage of the process?",
+      "Why does post-approval requirements matter in the approval stage of the process?",
+      "Why does registration obligations matter in the approval stage of the process?"
+    ],
+    "keywords": "Administrative Decision Process Possible Outcomes Conditions of Approval Post-Approval Requirements Registration Obligations Legal Effects of Approval Approval process Process core"
+  },
+  {
+    "route": "/process/mistakes/",
+    "title": "Mistakes",
+    "family": "process",
+    "summary": "Process guidance on mistakes within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Common Application Errors",
+      "Documentation Issues",
+      "Incorrect Visa or Residency Selection",
+      "Procedural Missteps",
+      "Misinterpretation of Requirements",
+      "Impact on Applications"
+    ],
+    "faq": [
+      "Why does common application errors matter in the mistakes stage of the process?",
+      "Why does documentation issues matter in the mistakes stage of the process?",
+      "Why does incorrect visa or residency selection matter in the mistakes stage of the process?",
+      "Why does procedural missteps matter in the mistakes stage of the process?",
+      "Why does misinterpretation of requirements matter in the mistakes stage of the process?"
+    ],
+    "keywords": "Common Application Errors Documentation Issues Incorrect Visa or Residency Selection Procedural Missteps Misinterpretation of Requirements Impact on Applications Mistakes process Process risk"
+  },
+  {
+    "route": "/process/failures/",
+    "title": "Failures",
+    "family": "process",
+    "summary": "Process guidance on failures within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Reasons for Denial",
+      "Incomplete or Incorrect Submissions",
+      "Legal Ineligibility",
+      "Administrative Rejection",
+      "Consequences of Refusal",
+      "Possibility of Reapplication"
+    ],
+    "faq": [
+      "Why does reasons for denial matter in the failures stage of the process?",
+      "Why does incomplete or incorrect submissions matter in the failures stage of the process?",
+      "Why does legal ineligibility matter in the failures stage of the process?",
+      "Why does administrative rejection matter in the failures stage of the process?",
+      "Why does consequences of refusal matter in the failures stage of the process?"
+    ],
+    "keywords": "Reasons for Denial Incomplete or Incorrect Submissions Legal Ineligibility Administrative Rejection Consequences of Refusal Possibility of Reapplication Failures process Process risk"
+  },
+  {
+    "route": "/process/deadlines/",
+    "title": "Deadlines",
+    "family": "process",
+    "summary": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Legal Time Limits",
+      "Administrative Deadlines",
+      "Filing Windows",
+      "Renewal Deadlines",
+      "Consequences of Missing Deadlines",
+      "Monitoring Responsibilities"
+    ],
+    "faq": [
+      "Why does legal time limits matter in the deadlines stage of the process?",
+      "Why does administrative deadlines matter in the deadlines stage of the process?",
+      "Why does filing windows matter in the deadlines stage of the process?",
+      "Why does renewal deadlines matter in the deadlines stage of the process?",
+      "Why does consequences of missing deadlines matter in the deadlines stage of the process?"
+    ],
+    "keywords": "Legal Time Limits Administrative Deadlines Filing Windows Renewal Deadlines Consequences of Missing Deadlines Monitoring Responsibilities Deadlines process Process risk"
+  },
+  {
+    "route": "/process/obligations/",
+    "title": "Obligations",
+    "family": "process",
+    "summary": "Process guidance on obligations within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Legal Duties of the Applicant",
+      "Documentation Requirements",
+      "Reporting Obligations",
+      "Compliance with Visa Conditions",
+      "Updates to Authorities",
+      "Consequences of Non-Compliance"
+    ],
+    "faq": [
+      "Why does legal duties of the applicant matter in the obligations stage of the process?",
+      "Why does documentation requirements matter in the obligations stage of the process?",
+      "Why does reporting obligations matter in the obligations stage of the process?",
+      "Why does compliance with visa conditions matter in the obligations stage of the process?",
+      "Why does updates to authorities matter in the obligations stage of the process?"
+    ],
+    "keywords": "Legal Duties of the Applicant Documentation Requirements Reporting Obligations Compliance with Visa Conditions Updates to Authorities Consequences of Non-Compliance Obligations process Process risk"
+  },
+  {
+    "route": "/process/alone/",
+    "title": "Alone",
+    "family": "process",
+    "summary": "Process guidance on alone within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Self-Representation Possibility",
+      "Responsibilities Without Legal Assistance",
+      "Risks of Independent Filing",
+      "Procedural Complexity",
+      "Common Difficulties",
+      "Legal Implications"
+    ],
+    "faq": [
+      "Why does self-representation possibility matter in the alone stage of the process?",
+      "Why does responsibilities without legal assistance matter in the alone stage of the process?",
+      "Why does risks of independent filing matter in the alone stage of the process?",
+      "Why does procedural complexity matter in the alone stage of the process?",
+      "Why does common difficulties matter in the alone stage of the process?"
+    ],
+    "keywords": "Self-Representation Possibility Responsibilities Without Legal Assistance Risks of Independent Filing Procedural Complexity Common Difficulties Legal Implications Alone process Process risk"
+  },
+  {
+    "route": "/process/transparency/",
+    "title": "Transparency",
+    "family": "process",
+    "summary": "Process guidance on transparency within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Scope of Information Provided",
+      "Communication Structure",
+      "Case Updates",
+      "Limitations of Predictability",
+      "Documentation Clarity",
+      "Client Access to Information"
+    ],
+    "faq": [
+      "Why does scope of information provided matter in the transparency stage of the process?",
+      "Why does communication structure matter in the transparency stage of the process?",
+      "Why does case updates matter in the transparency stage of the process?",
+      "Why does limitations of predictability matter in the transparency stage of the process?",
+      "Why does documentation clarity matter in the transparency stage of the process?"
+    ],
+    "keywords": "Scope of Information Provided Communication Structure Case Updates Limitations of Predictability Documentation Clarity Client Access to Information Transparency process Process admin"
+  },
+  {
+    "route": "/process/fees/",
+    "title": "Fees",
+    "family": "process",
+    "summary": "Process guidance on fees within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Nature of Legal Fees",
+      "Structure of Charges",
+      "Scope of Services Included",
+      "Additional Costs (government fees, etc.)",
+      "Payment Conditions",
+      "Variability Based on Case"
+    ],
+    "faq": [
+      "Why does nature of legal fees matter in the fees stage of the process?",
+      "Why does structure of charges matter in the fees stage of the process?",
+      "Why does scope of services included matter in the fees stage of the process?",
+      "Why does additional costs (government fees, etc.) matter in the fees stage of the process?",
+      "Why does payment conditions matter in the fees stage of the process?"
+    ],
+    "keywords": "Nature of Legal Fees Structure of Charges Scope of Services Included Additional Costs (government fees, etc.) Payment Conditions Variability Based on Case Fees process Process admin"
+  },
+  {
+    "route": "/process/refund/",
+    "title": "Refund",
+    "family": "process",
+    "summary": "Process guidance on refund within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Conditions for Refund",
+      "Non-Refundable Services",
+      "Stage-Based Considerations",
+      "Contractual Terms",
+      "Legal Limitations",
+      "Administrative Handling"
+    ],
+    "faq": [
+      "Why does conditions for refund matter in the refund stage of the process?",
+      "Why does non-refundable services matter in the refund stage of the process?",
+      "Why does stage-based considerations matter in the refund stage of the process?",
+      "Why does contractual terms matter in the refund stage of the process?",
+      "Why does legal limitations matter in the refund stage of the process?"
+    ],
+    "keywords": "Conditions for Refund Non-Refundable Services Stage-Based Considerations Contractual Terms Legal Limitations Administrative Handling Refund process Process admin"
+  },
+  {
+    "route": "/process/timeline/",
+    "title": "Timeline",
+    "family": "process",
+    "summary": "Process guidance on timeline within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "General Processing Phases",
+      "Estimated Timeframes (where possible)",
+      "Variability Factors",
+      "Authority Processing Times",
+      "Delays and External Factors",
+      "Case-Specific Differences"
+    ],
+    "faq": [
+      "Why does general processing phases matter in the timeline stage of the process?",
+      "Why does estimated timeframes (where possible) matter in the timeline stage of the process?",
+      "Why does variability factors matter in the timeline stage of the process?",
+      "Why does authority processing times matter in the timeline stage of the process?",
+      "Why does delays and external factors matter in the timeline stage of the process?"
+    ],
+    "keywords": "General Processing Phases Estimated Timeframes (where possible) Variability Factors Authority Processing Times Delays and External Factors Case-Specific Differences Timeline process Process admin"
+  },
+  {
+    "route": "/process/responsibilities/",
+    "title": "Responsibilities",
+    "family": "process",
+    "summary": "Process guidance on responsibilities within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Responsibilities of the Lawyer",
+      "Responsibilities of the Client",
+      "Shared Responsibilities",
+      "Documentation Accuracy",
+      "Communication Duties",
+      "Procedural Cooperation"
+    ],
+    "faq": [
+      "Why does responsibilities of the lawyer matter in the responsibilities stage of the process?",
+      "Why does responsibilities of the client matter in the responsibilities stage of the process?",
+      "Why does shared responsibilities matter in the responsibilities stage of the process?",
+      "Why does documentation accuracy matter in the responsibilities stage of the process?",
+      "Why does communication duties matter in the responsibilities stage of the process?"
+    ],
+    "keywords": "Responsibilities of the Lawyer Responsibilities of the Client Shared Responsibilities Documentation Accuracy Communication Duties Procedural Cooperation Responsibilities process Process admin"
+  },
+  {
+    "route": "/process/rights/",
+    "title": "Rights",
+    "family": "process",
+    "summary": "Process guidance on rights within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Client Rights",
+      "Access to Information",
+      "Confidentiality",
+      "Right to Representation",
+      "Right to Withdraw",
+      "Legal Protections"
+    ],
+    "faq": [
+      "Why does client rights matter in the rights stage of the process?",
+      "Why does access to information matter in the rights stage of the process?",
+      "Why does confidentiality matter in the rights stage of the process?",
+      "Why does right to representation matter in the rights stage of the process?",
+      "Why does right to withdraw matter in the rights stage of the process?"
+    ],
+    "keywords": "Client Rights Access to Information Confidentiality Right to Representation Right to Withdraw Legal Protections Rights process Process admin"
+  },
+  {
+    "route": "/process/aftercare/",
+    "title": "Aftercare",
+    "family": "process",
+    "summary": "Process guidance on aftercare within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Post-Approval Guidance",
+      "Registration Requirements",
+      "Ongoing Compliance",
+      "Document Maintenance",
+      "Status Monitoring",
+      "Future Steps"
+    ],
+    "faq": [
+      "Why does post-approval guidance matter in the aftercare stage of the process?",
+      "Why does registration requirements matter in the aftercare stage of the process?",
+      "Why does ongoing compliance matter in the aftercare stage of the process?",
+      "Why does document maintenance matter in the aftercare stage of the process?",
+      "Why does status monitoring matter in the aftercare stage of the process?"
+    ],
+    "keywords": "Post-Approval Guidance Registration Requirements Ongoing Compliance Document Maintenance Status Monitoring Future Steps Aftercare process Process long-term"
+  },
+  {
+    "route": "/process/renewal/",
+    "title": "Renewal",
+    "family": "process",
+    "summary": "Process guidance on renewal within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Renewal Eligibility",
+      "Timing Requirements",
+      "Documentation for Renewal",
+      "Legal Conditions",
+      "Risks of Expiry",
+      "Administrative Process"
+    ],
+    "faq": [
+      "Why does renewal eligibility matter in the renewal stage of the process?",
+      "Why does timing requirements matter in the renewal stage of the process?",
+      "Why does documentation for renewal matter in the renewal stage of the process?",
+      "Why does legal conditions matter in the renewal stage of the process?",
+      "Why does risks of expiry matter in the renewal stage of the process?"
+    ],
+    "keywords": "Renewal Eligibility Timing Requirements Documentation for Renewal Legal Conditions Risks of Expiry Administrative Process Renewal process Process long-term"
+  },
+  {
+    "route": "/process/permanent/",
+    "title": "Permanent",
+    "family": "process",
+    "summary": "Process guidance on permanent within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Transition to Permanent Status",
+      "Eligibility Criteria",
+      "Legal Requirements",
+      "Time-Based Conditions",
+      "Documentation",
+      "Administrative Procedures"
+    ],
+    "faq": [
+      "Why does transition to permanent status matter in the permanent stage of the process?",
+      "Why does eligibility criteria matter in the permanent stage of the process?",
+      "Why does legal requirements matter in the permanent stage of the process?",
+      "Why does time-based conditions matter in the permanent stage of the process?",
+      "Why does documentation matter in the permanent stage of the process?"
+    ],
+    "keywords": "Transition to Permanent Status Eligibility Criteria Legal Requirements Time-Based Conditions Documentation Administrative Procedures Permanent process Process long-term"
+  },
+  {
+    "route": "/process/naturalisation/",
+    "title": "Naturalisation",
+    "family": "process",
+    "summary": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Eligibility for Citizenship",
+      "Legal Requirements",
+      "Residency Conditions",
+      "Documentation",
+      "Application Procedure",
+      "Legal Effects"
+    ],
+    "faq": [
+      "Why does eligibility for citizenship matter in the naturalisation stage of the process?",
+      "Why does legal requirements matter in the naturalisation stage of the process?",
+      "Why does residency conditions matter in the naturalisation stage of the process?",
+      "Why does documentation matter in the naturalisation stage of the process?",
+      "Why does application procedure matter in the naturalisation stage of the process?"
+    ],
+    "keywords": "Eligibility for Citizenship Legal Requirements Residency Conditions Documentation Application Procedure Legal Effects Naturalisation process Process long-term"
+  },
+  {
+    "route": "/process/compliance/",
+    "title": "Compliance",
+    "family": "process",
+    "summary": "Process guidance on compliance within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Immigration Law Compliance",
+      "Visa or Residency Conditions",
+      "Reporting Requirements",
+      "Documentation Maintenance",
+      "Monitoring Status",
+      "Legal Consequences"
+    ],
+    "faq": [
+      "Why does immigration law compliance matter in the compliance stage of the process?",
+      "Why does visa or residency conditions matter in the compliance stage of the process?",
+      "Why does reporting requirements matter in the compliance stage of the process?",
+      "Why does documentation maintenance matter in the compliance stage of the process?",
+      "Why does monitoring status matter in the compliance stage of the process?"
+    ],
+    "keywords": "Immigration Law Compliance Visa or Residency Conditions Reporting Requirements Documentation Maintenance Monitoring Status Legal Consequences Compliance process Process long-term"
+  },
+  {
+    "route": "/process/conversion/",
+    "title": "Conversion",
+    "family": "process",
+    "summary": "Process guidance on conversion within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Change of Visa or Residency Type",
+      "Legal Possibility of Conversion",
+      "Requirements",
+      "Timing Considerations",
+      "Administrative Procedure",
+      "Risks and Limitations"
+    ],
+    "faq": [
+      "Why does change of visa or residency type matter in the conversion stage of the process?",
+      "Why does legal possibility of conversion matter in the conversion stage of the process?",
+      "Why does requirements matter in the conversion stage of the process?",
+      "Why does timing considerations matter in the conversion stage of the process?",
+      "Why does administrative procedure matter in the conversion stage of the process?"
+    ],
+    "keywords": "Change of Visa or Residency Type Legal Possibility of Conversion Requirements Timing Considerations Administrative Procedure Risks and Limitations Conversion process Process long-term"
+  },
+  {
+    "route": "/process/regularization/",
+    "title": "Regularization",
+    "family": "process",
+    "summary": "Process guidance on regularization within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Irregular Status Situations",
+      "Legal Pathways to Regularization",
+      "Documentation Requirements",
+      "Administrative Procedures",
+      "Risks Involved",
+      "Legal Consequences"
+    ],
+    "faq": [
+      "Why does irregular status situations matter in the regularization stage of the process?",
+      "Why does legal pathways to regularization matter in the regularization stage of the process?",
+      "Why does documentation requirements matter in the regularization stage of the process?",
+      "Why does administrative procedures matter in the regularization stage of the process?",
+      "Why does risks involved matter in the regularization stage of the process?"
+    ],
+    "keywords": "Irregular Status Situations Legal Pathways to Regularization Documentation Requirements Administrative Procedures Risks Involved Legal Consequences Regularization process Process long-term"
+  },
+  {
+    "route": "/process/planning/",
+    "title": "Planning",
+    "family": "process",
+    "summary": "Process guidance on planning within Brazilian immigration procedures and compliance planning.",
+    "topics": [
+      "Long-Term Immigration Planning",
+      "Sequencing of Applications",
+      "Status Progression",
+      "Risk Anticipation",
+      "Legal Strategy Over Time",
+      "Alignment with Personal or Business Objectives"
+    ],
+    "faq": [
+      "Why does long-term immigration planning matter in the planning stage of the process?",
+      "Why does sequencing of applications matter in the planning stage of the process?",
+      "Why does status progression matter in the planning stage of the process?",
+      "Why does risk anticipation matter in the planning stage of the process?",
+      "Why does legal strategy over time matter in the planning stage of the process?"
+    ],
+    "keywords": "Long-Term Immigration Planning Sequencing of Applications Status Progression Risk Anticipation Legal Strategy Over Time Alignment with Personal or Business Objectives Planning process Process long-term"
+  },
+  {
+    "route": "/services/",
+    "title": "Services",
+    "family": "services",
+    "summary": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work.",
+    "topics": [
+      "Visa and residency pathways",
+      "Naturalisation and citizenship planning",
+      "Defense and regularization support",
+      "Document-driven advisory services",
+      "Nationwide online service delivery",
+      "Consultation and case-structuring flow"
+    ],
+    "faq": [
+      "What does the services page mean by visa and residency pathways?",
+      "What does the services page mean by naturalisation and citizenship planning?",
+      "What does the services page mean by defense and regularization support?",
+      "What does the services page mean by document-driven advisory services?",
+      "What does the services page mean by nationwide online service delivery?"
+    ],
+    "keywords": "Visa and residency pathways Naturalisation and citizenship planning Defense and regularization support Document-driven advisory services Nationwide online service delivery Consultation and case-structuring flow Services services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/visas/",
+    "title": "Visas",
+    "family": "services",
+    "summary": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning.",
+    "topics": [
+      "Scope of Visa Services",
+      "Identification of applicable visa categories",
+      "Legal analysis of intended activity and purpose of entry",
+      "Structuring of pathways",
+      "Regulatory and consular alignment",
+      "Application positioning",
+      "Coordination with consulates and authorities",
+      "Monitoring",
+      "Ongoing legal guidance",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the visas page address scope of visa services?",
+      "How does the visas page address identification of applicable visa categories?",
+      "How does the visas page address legal analysis of intended activity and purpose of entry?"
+    ],
+    "keywords": "Scope of Visa Services Identification of applicable visa categories Legal analysis of intended activity and purpose of entry Structuring of pathways Regulatory and consular alignment Application positioning Coordination with consulates and authorities Monitoring Ongoing legal guidance Child cards Visas services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/visas/artistic/",
+    "title": "Artistic Visa",
+    "family": "services",
+    "summary": "Service page for artistic visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Legal qualification of artistic or cultural activity",
+      "Assessment under visa rules",
+      "Participation structuring",
+      "Category alignment",
+      "Application positioning",
+      "Relevant-entity coordination",
+      "Monitoring",
+      "Ongoing guidance"
+    ],
+    "faq": [
+      "How does the artistic visa page address legal qualification of artistic or cultural activity?",
+      "How does the artistic visa page address assessment under visa rules?",
+      "How does the artistic visa page address participation structuring?",
+      "How does the artistic visa page address category alignment?",
+      "How does the artistic visa page address application positioning?"
+    ],
+    "keywords": "Legal qualification of artistic or cultural activity Assessment under visa rules Participation structuring Category alignment Application positioning Relevant-entity coordination Monitoring Ongoing guidance Artistic Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/business/",
+    "title": "Business Visa",
+    "family": "services",
+    "summary": "Service page for business visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Business-entry evaluation",
+      "Correct classification",
+      "Structuring within legal limits",
+      "Regulatory alignment",
+      "Permitted business actions",
+      "Case positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the business visa page address business-entry evaluation?",
+      "How does the business visa page address correct classification?",
+      "How does the business visa page address structuring within legal limits?",
+      "How does the business visa page address regulatory alignment?",
+      "How does the business visa page address permitted business actions?"
+    ],
+    "keywords": "Business-entry evaluation Correct classification Structuring within legal limits Regulatory alignment Permitted business actions Case positioning Monitoring Ongoing support Business Visa services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/visas/educational/",
+    "title": "Educational Visa",
+    "family": "services",
+    "summary": "Service page for educational visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Academic or training objectives",
+      "Institutional alignment",
+      "Study-path structuring",
+      "Educational classification",
+      "Positioning",
+      "Institutional coordination",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the educational visa page address academic or training objectives?",
+      "How does the educational visa page address institutional alignment?",
+      "How does the educational visa page address study-path structuring?",
+      "How does the educational visa page address educational classification?",
+      "How does the educational visa page address positioning?"
+    ],
+    "keywords": "Academic or training objectives Institutional alignment Study-path structuring Educational classification Positioning Institutional coordination Monitoring Ongoing support Educational Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/exchange/",
+    "title": "Exchange Visa",
+    "family": "services",
+    "summary": "Service page for exchange visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Exchange participation structuring",
+      "Program alignment",
+      "Temporary-activity framing",
+      "Rule evaluation",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the exchange visa page address exchange participation structuring?",
+      "How does the exchange visa page address program alignment?",
+      "How does the exchange visa page address temporary-activity framing?",
+      "How does the exchange visa page address rule evaluation?",
+      "How does the exchange visa page address positioning?"
+    ],
+    "keywords": "Exchange participation structuring Program alignment Temporary-activity framing Rule evaluation Positioning Monitoring Ongoing support Exchange Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/nomad/",
+    "title": "Nomad Visa",
+    "family": "services",
+    "summary": "Service page for nomad visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Remote-work eligibility",
+      "Brazilian requirements",
+      "Income and activity alignment",
+      "Category positioning",
+      "Compliance considerations",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the nomad visa page address remote-work eligibility?",
+      "How does the nomad visa page address brazilian requirements?",
+      "How does the nomad visa page address income and activity alignment?",
+      "How does the nomad visa page address category positioning?",
+      "How does the nomad visa page address compliance considerations?"
+    ],
+    "keywords": "Remote-work eligibility Brazilian requirements Income and activity alignment Category positioning Compliance considerations Monitoring Ongoing support Nomad Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/diplomatic/",
+    "title": "Diplomatic Visa",
+    "family": "services",
+    "summary": "Service page for diplomatic visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Diplomatic or official status",
+      "International and Brazilian frameworks",
+      "Entry structuring",
+      "Authority coordination",
+      "Procedural positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the diplomatic visa page address diplomatic or official status?",
+      "How does the diplomatic visa page address international and brazilian frameworks?",
+      "How does the diplomatic visa page address entry structuring?",
+      "How does the diplomatic visa page address authority coordination?",
+      "How does the diplomatic visa page address procedural positioning?"
+    ],
+    "keywords": "Diplomatic or official status International and Brazilian frameworks Entry structuring Authority coordination Procedural positioning Monitoring Ongoing support Diplomatic Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/family/",
+    "title": "Family Visa",
+    "family": "services",
+    "summary": "Service page for family visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Family relationship analysis",
+      "Family-tie structuring",
+      "Category alignment",
+      "Relationship recognition",
+      "Family-framework positioning",
+      "Monitoring",
+      "Ongoing assistance"
+    ],
+    "faq": [
+      "How does the family visa page address family relationship analysis?",
+      "How does the family visa page address family-tie structuring?",
+      "How does the family visa page address category alignment?",
+      "How does the family visa page address relationship recognition?",
+      "How does the family visa page address family-framework positioning?"
+    ],
+    "keywords": "Family relationship analysis Family-tie structuring Category alignment Relationship recognition Family-framework positioning Monitoring Ongoing assistance Family Visa services Visas family/retiree/humanitarian/religious/medical"
+  },
+  {
+    "route": "/services/visas/humanitarian/",
+    "title": "Humanitarian Visa",
+    "family": "services",
+    "summary": "Service page for humanitarian visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Humanitarian or protection context",
+      "Structuring under Brazilian provisions",
+      "Exceptional-framework alignment",
+      "Administrative positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the humanitarian visa page address humanitarian or protection context?",
+      "How does the humanitarian visa page address structuring under brazilian provisions?",
+      "How does the humanitarian visa page address exceptional-framework alignment?",
+      "How does the humanitarian visa page address administrative positioning?",
+      "How does the humanitarian visa page address monitoring?"
+    ],
+    "keywords": "Humanitarian or protection context Structuring under Brazilian provisions Exceptional-framework alignment Administrative positioning Monitoring Ongoing support Humanitarian Visa services Visas family/retiree/humanitarian/religious/medical"
+  },
+  {
+    "route": "/services/visas/investor/",
+    "title": "Investor Visa",
+    "family": "services",
+    "summary": "Service page for investor visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Investment-option analysis",
+      "Investment structuring",
+      "Regulatory alignment",
+      "Economic-activity positioning",
+      "Strategy review",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the investor visa page address investment-option analysis?",
+      "How does the investor visa page address investment structuring?",
+      "How does the investor visa page address regulatory alignment?",
+      "How does the investor visa page address economic-activity positioning?",
+      "How does the investor visa page address strategy review?"
+    ],
+    "keywords": "Investment-option analysis Investment structuring Regulatory alignment Economic-activity positioning Strategy review Monitoring Ongoing support Investor Visa services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/visas/journalist/",
+    "title": "Journalist Visa",
+    "family": "services",
+    "summary": "Service page for journalist visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Journalistic activity classification",
+      "Regulatory assessment",
+      "Professional-framework structuring",
+      "Media and institutional alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the journalist visa page address journalistic activity classification?",
+      "How does the journalist visa page address regulatory assessment?",
+      "How does the journalist visa page address professional-framework structuring?",
+      "How does the journalist visa page address media and institutional alignment?",
+      "How does the journalist visa page address positioning?"
+    ],
+    "keywords": "Journalistic activity classification Regulatory assessment Professional-framework structuring Media and institutional alignment Positioning Monitoring Ongoing support Journalist Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/medical/",
+    "title": "Medical Visa",
+    "family": "services",
+    "summary": "Service page for medical visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Medical-activity assessment",
+      "Immigration classification",
+      "Authorized-scope structuring",
+      "Institutional alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the medical visa page address medical-activity assessment?",
+      "How does the medical visa page address immigration classification?",
+      "How does the medical visa page address authorized-scope structuring?",
+      "How does the medical visa page address institutional alignment?",
+      "How does the medical visa page address positioning?"
+    ],
+    "keywords": "Medical-activity assessment Immigration classification Authorized-scope structuring Institutional alignment Positioning Monitoring Ongoing support Medical Visa services Visas family/retiree/humanitarian/religious/medical"
+  },
+  {
+    "route": "/services/visas/religious/",
+    "title": "Religious Visa",
+    "family": "services",
+    "summary": "Service page for religious visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Religious-activity qualification",
+      "Regulatory assessment",
+      "Institutional structuring",
+      "Category alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the religious visa page address religious-activity qualification?",
+      "How does the religious visa page address regulatory assessment?",
+      "How does the religious visa page address institutional structuring?",
+      "How does the religious visa page address category alignment?",
+      "How does the religious visa page address positioning?"
+    ],
+    "keywords": "Religious-activity qualification Regulatory assessment Institutional structuring Category alignment Positioning Monitoring Ongoing support Religious Visa services Visas family/retiree/humanitarian/religious/medical"
+  },
+  {
+    "route": "/services/visas/research/",
+    "title": "Research Visa",
+    "family": "services",
+    "summary": "Service page for research visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Research-activity assessment",
+      "Academic and institutional alignment",
+      "Pathway structuring",
+      "Legal classification",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the research visa page address research-activity assessment?",
+      "How does the research visa page address academic and institutional alignment?",
+      "How does the research visa page address pathway structuring?",
+      "How does the research visa page address legal classification?",
+      "How does the research visa page address positioning?"
+    ],
+    "keywords": "Research-activity assessment Academic and institutional alignment Pathway structuring Legal classification Positioning Monitoring Ongoing support Research Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/retiree/",
+    "title": "Retiree Visa",
+    "family": "services",
+    "summary": "Service page for retiree visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Retirement eligibility",
+      "Long-term stay structuring",
+      "Immigration alignment",
+      "Retirement-provision positioning",
+      "Compliance review",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the retiree visa page address retirement eligibility?",
+      "How does the retiree visa page address long-term stay structuring?",
+      "How does the retiree visa page address immigration alignment?",
+      "How does the retiree visa page address retirement-provision positioning?",
+      "How does the retiree visa page address compliance review?"
+    ],
+    "keywords": "Retirement eligibility Long-term stay structuring Immigration alignment Retirement-provision positioning Compliance review Monitoring Ongoing support Retiree Visa services Visas family/retiree/humanitarian/religious/medical"
+  },
+  {
+    "route": "/services/visas/sports/",
+    "title": "Sports Visa",
+    "family": "services",
+    "summary": "Service page for sports visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Sports-activity classification",
+      "Regulatory assessment",
+      "Club and organization structuring",
+      "Framework alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the sports visa page address sports-activity classification?",
+      "How does the sports visa page address regulatory assessment?",
+      "How does the sports visa page address club and organization structuring?",
+      "How does the sports visa page address framework alignment?",
+      "How does the sports visa page address positioning?"
+    ],
+    "keywords": "Sports-activity classification Regulatory assessment Club and organization structuring Framework alignment Positioning Monitoring Ongoing support Sports Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/startup/",
+    "title": "Startup Visa",
+    "family": "services",
+    "summary": "Service page for startup visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Startup-activity evaluation",
+      "Immigration structuring",
+      "Innovation and business alignment",
+      "Legal positioning",
+      "Strategy review",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the startup visa page address startup-activity evaluation?",
+      "How does the startup visa page address immigration structuring?",
+      "How does the startup visa page address innovation and business alignment?",
+      "How does the startup visa page address legal positioning?",
+      "How does the startup visa page address strategy review?"
+    ],
+    "keywords": "Startup-activity evaluation Immigration structuring Innovation and business alignment Legal positioning Strategy review Monitoring Ongoing support Startup Visa services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/visas/student/",
+    "title": "Student Visa",
+    "family": "services",
+    "summary": "Service page for student visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Study-based entry assessment",
+      "Institutional alignment",
+      "Academic-path structuring",
+      "Legal classification",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the student visa page address study-based entry assessment?",
+      "How does the student visa page address institutional alignment?",
+      "How does the student visa page address academic-path structuring?",
+      "How does the student visa page address legal classification?",
+      "How does the student visa page address positioning?"
+    ],
+    "keywords": "Study-based entry assessment Institutional alignment Academic-path structuring Legal classification Positioning Monitoring Ongoing support Student Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/tourist/",
+    "title": "Tourist Visa",
+    "family": "services",
+    "summary": "Service page for tourist visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Short-term entry framework",
+      "Permitted and restricted activities",
+      "Misuse risks",
+      "Travel-purpose positioning",
+      "Preventive orientation"
+    ],
+    "faq": [
+      "How does the tourist visa page address short-term entry framework?",
+      "How does the tourist visa page address permitted and restricted activities?",
+      "How does the tourist visa page address misuse risks?",
+      "How does the tourist visa page address travel-purpose positioning?",
+      "How does the tourist visa page address preventive orientation?"
+    ],
+    "keywords": "Short-term entry framework Permitted and restricted activities Misuse risks Travel-purpose positioning Preventive orientation Tourist Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/transit/",
+    "title": "Transit Visa",
+    "family": "services",
+    "summary": "Service page for transit visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Transit eligibility",
+      "Travel purpose and duration",
+      "Legal limitations",
+      "Positioning",
+      "Preventive guidance"
+    ],
+    "faq": [
+      "How does the transit visa page address transit eligibility?",
+      "How does the transit visa page address travel purpose and duration?",
+      "How does the transit visa page address legal limitations?",
+      "How does the transit visa page address positioning?",
+      "How does the transit visa page address preventive guidance?"
+    ],
+    "keywords": "Transit eligibility Travel purpose and duration Legal limitations Positioning Preventive guidance Transit Visa services Visas artistic/journalist/sports/tourist/transit/diplomatic"
+  },
+  {
+    "route": "/services/visas/volunteer/",
+    "title": "Volunteer Visa",
+    "family": "services",
+    "summary": "Service page for volunteer visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Volunteer-activity qualification",
+      "Category assessment",
+      "Institutional structuring",
+      "Rule alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the volunteer visa page address volunteer-activity qualification?",
+      "How does the volunteer visa page address category assessment?",
+      "How does the volunteer visa page address institutional structuring?",
+      "How does the volunteer visa page address rule alignment?",
+      "How does the volunteer visa page address positioning?"
+    ],
+    "keywords": "Volunteer-activity qualification Category assessment Institutional structuring Rule alignment Positioning Monitoring Ongoing support Volunteer Visa services Visas nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/visas/work/",
+    "title": "Work Visa",
+    "family": "services",
+    "summary": "Service page for work visa planning, documentation, authority interaction, and compliance framing.",
+    "topics": [
+      "Employment eligibility",
+      "Employer-sponsored path",
+      "Labor and immigration alignment",
+      "Work-authorization review",
+      "Authority coordination",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the work visa page address employment eligibility?",
+      "How does the work visa page address employer-sponsored path?",
+      "How does the work visa page address labor and immigration alignment?",
+      "How does the work visa page address work-authorization review?",
+      "How does the work visa page address authority coordination?"
+    ],
+    "keywords": "Employment eligibility Employer-sponsored path Labor and immigration alignment Work-authorization review Authority coordination Monitoring Ongoing support Work Visa services Visas hub + business/investor/work/startup"
+  },
+  {
+    "route": "/services/residencies/",
+    "title": "Residencies",
+    "family": "services",
+    "summary": "Service-centered overview of residence permits, eligibility analysis, registration logic, and long-term compliance.",
+    "topics": [
+      "Eligibility for residence",
+      "Category identification",
+      "Long-term path structuring",
+      "Visa-to-residency transition",
+      "Legal and regulatory alignment",
+      "Monitoring",
+      "Compliance guidance",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the residencies page address eligibility for residence?",
+      "How does the residencies page address category identification?",
+      "How does the residencies page address long-term path structuring?"
+    ],
+    "keywords": "Eligibility for residence Category identification Long-term path structuring Visa-to-residency transition Legal and regulatory alignment Monitoring Compliance guidance Child cards Residencies services Residencies hub + CPLP/MERCOSUL/youth"
+  },
+  {
+    "route": "/services/residencies/cplp/",
+    "title": "CPLP Residency",
+    "family": "services",
+    "summary": "Service page for cplp residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Eligibility under CPLP",
+      "Simplified structuring",
+      "Nationality-based alignment",
+      "Legal positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the cplp residency page address eligibility under cplp?",
+      "How does the cplp residency page address simplified structuring?",
+      "How does the cplp residency page address nationality-based alignment?",
+      "How does the cplp residency page address legal positioning?",
+      "How does the cplp residency page address monitoring?"
+    ],
+    "keywords": "Eligibility under CPLP Simplified structuring Nationality-based alignment Legal positioning Monitoring Ongoing support CPLP Residency services Residencies hub + CPLP/MERCOSUL/youth"
+  },
+  {
+    "route": "/services/residencies/mercosul/",
+    "title": "MERCOSUL Residency",
+    "family": "services",
+    "summary": "Service page for mercosul residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "MERCOSUL evaluation",
+      "Residency-path structuring",
+      "Regional-agreement alignment",
+      "Positioning",
+      "Monitoring",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the mercosul residency page address mercosul evaluation?",
+      "How does the mercosul residency page address residency-path structuring?",
+      "How does the mercosul residency page address regional-agreement alignment?",
+      "How does the mercosul residency page address positioning?",
+      "How does the mercosul residency page address monitoring?"
+    ],
+    "keywords": "MERCOSUL evaluation Residency-path structuring Regional-agreement alignment Positioning Monitoring Ongoing support MERCOSUL Residency services Residencies hub + CPLP/MERCOSUL/youth"
+  },
+  {
+    "route": "/services/residencies/nomad/",
+    "title": "Nomad Residency",
+    "family": "services",
+    "summary": "Service page for nomad residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Remote-work continuity",
+      "Residence-permit basis",
+      "Documentation alignment",
+      "Compliance monitoring",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the nomad residency page address remote-work continuity?",
+      "How does the nomad residency page address residence-permit basis?",
+      "How does the nomad residency page address documentation alignment?",
+      "How does the nomad residency page address compliance monitoring?",
+      "How does the nomad residency page address registration flow?"
+    ],
+    "keywords": "Remote-work continuity Residence-permit basis Documentation alignment Compliance monitoring Registration flow Ongoing support Nomad Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/educational/",
+    "title": "Educational Residency",
+    "family": "services",
+    "summary": "Service page for educational residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Educational residence basis",
+      "Institutional continuity",
+      "Documentation planning",
+      "Compliance monitoring",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the educational residency page address educational residence basis?",
+      "How does the educational residency page address institutional continuity?",
+      "How does the educational residency page address documentation planning?",
+      "How does the educational residency page address compliance monitoring?",
+      "How does the educational residency page address registration flow?"
+    ],
+    "keywords": "Educational residence basis Institutional continuity Documentation planning Compliance monitoring Registration flow Ongoing support Educational Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/exchange/",
+    "title": "Exchange Residency",
+    "family": "services",
+    "summary": "Service page for exchange residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Exchange-program residence basis",
+      "Rule alignment",
+      "Documentation planning",
+      "Compliance monitoring",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the exchange residency page address exchange-program residence basis?",
+      "How does the exchange residency page address rule alignment?",
+      "How does the exchange residency page address documentation planning?",
+      "How does the exchange residency page address compliance monitoring?",
+      "How does the exchange residency page address registration flow?"
+    ],
+    "keywords": "Exchange-program residence basis Rule alignment Documentation planning Compliance monitoring Registration flow Ongoing support Exchange Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/reunion/",
+    "title": "Reunion Residency",
+    "family": "services",
+    "summary": "Service page for reunion residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Family-based residence eligibility",
+      "Relationship recognition",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the reunion residency page address family-based residence eligibility?",
+      "How does the reunion residency page address relationship recognition?",
+      "How does the reunion residency page address documentation structure?",
+      "How does the reunion residency page address registration flow?",
+      "How does the reunion residency page address compliance duties?"
+    ],
+    "keywords": "Family-based residence eligibility Relationship recognition Documentation structure Registration flow Compliance duties Ongoing support Reunion Residency services Residencies reunion/health/humanitarian/religious/retiree"
+  },
+  {
+    "route": "/services/residencies/health/",
+    "title": "Health Residency",
+    "family": "services",
+    "summary": "Service page for health residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Health-treatment basis",
+      "Medical coordination context",
+      "Documentation planning",
+      "Residence viability",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the health residency page address health-treatment basis?",
+      "How does the health residency page address medical coordination context?",
+      "How does the health residency page address documentation planning?",
+      "How does the health residency page address residence viability?",
+      "How does the health residency page address registration flow?"
+    ],
+    "keywords": "Health-treatment basis Medical coordination context Documentation planning Residence viability Registration flow Ongoing support Health Residency services Residencies reunion/health/humanitarian/religious/retiree"
+  },
+  {
+    "route": "/services/residencies/humanitarian/",
+    "title": "Humanitarian Residency",
+    "family": "services",
+    "summary": "Service page for humanitarian residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Protection basis",
+      "Residence framing",
+      "Documentation planning",
+      "Administrative positioning",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the humanitarian residency page address protection basis?",
+      "How does the humanitarian residency page address residence framing?",
+      "How does the humanitarian residency page address documentation planning?",
+      "How does the humanitarian residency page address administrative positioning?",
+      "How does the humanitarian residency page address registration flow?"
+    ],
+    "keywords": "Protection basis Residence framing Documentation planning Administrative positioning Registration flow Ongoing support Humanitarian Residency services Residencies reunion/health/humanitarian/religious/retiree"
+  },
+  {
+    "route": "/services/residencies/investor/",
+    "title": "Investor Residency",
+    "family": "services",
+    "summary": "Service page for investor residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Investment residence basis",
+      "Capital-entry structure",
+      "Documentation planning",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the investor residency page address investment residence basis?",
+      "How does the investor residency page address capital-entry structure?",
+      "How does the investor residency page address documentation planning?",
+      "How does the investor residency page address registration flow?",
+      "How does the investor residency page address compliance duties?"
+    ],
+    "keywords": "Investment residence basis Capital-entry structure Documentation planning Registration flow Compliance duties Ongoing support Investor Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/religious/",
+    "title": "Religious Residency",
+    "family": "services",
+    "summary": "Service page for religious residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Religious residence basis",
+      "Institutional sponsorship",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the religious residency page address religious residence basis?",
+      "How does the religious residency page address institutional sponsorship?",
+      "How does the religious residency page address documentation structure?",
+      "How does the religious residency page address registration flow?",
+      "How does the religious residency page address compliance duties?"
+    ],
+    "keywords": "Religious residence basis Institutional sponsorship Documentation structure Registration flow Compliance duties Ongoing support Religious Residency services Residencies reunion/health/humanitarian/religious/retiree"
+  },
+  {
+    "route": "/services/residencies/retiree/",
+    "title": "Retiree Residency",
+    "family": "services",
+    "summary": "Service page for retiree residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Retirement income basis",
+      "Residence structuring",
+      "Documentation planning",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the retiree residency page address retirement income basis?",
+      "How does the retiree residency page address residence structuring?",
+      "How does the retiree residency page address documentation planning?",
+      "How does the retiree residency page address registration flow?",
+      "How does the retiree residency page address compliance duties?"
+    ],
+    "keywords": "Retirement income basis Residence structuring Documentation planning Registration flow Compliance duties Ongoing support Retiree Residency services Residencies reunion/health/humanitarian/religious/retiree"
+  },
+  {
+    "route": "/services/residencies/research/",
+    "title": "Research Residency",
+    "family": "services",
+    "summary": "Service page for research residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Research residence basis",
+      "Institutional affiliation",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the research residency page address research residence basis?",
+      "How does the research residency page address institutional affiliation?",
+      "How does the research residency page address documentation structure?",
+      "How does the research residency page address registration flow?",
+      "How does the research residency page address compliance duties?"
+    ],
+    "keywords": "Research residence basis Institutional affiliation Documentation structure Registration flow Compliance duties Ongoing support Research Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/skilled/",
+    "title": "Skilled Residency",
+    "family": "services",
+    "summary": "Service page for skilled residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Skilled-worker basis",
+      "Qualification alignment",
+      "Employer coordination",
+      "Documentation structure",
+      "Registration flow",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the skilled residency page address skilled-worker basis?",
+      "How does the skilled residency page address qualification alignment?",
+      "How does the skilled residency page address employer coordination?",
+      "How does the skilled residency page address documentation structure?",
+      "How does the skilled residency page address registration flow?"
+    ],
+    "keywords": "Skilled-worker basis Qualification alignment Employer coordination Documentation structure Registration flow Ongoing support Skilled Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/study/",
+    "title": "Study Residency",
+    "family": "services",
+    "summary": "Service page for study residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Study residence basis",
+      "Institutional continuity",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the study residency page address study residence basis?",
+      "How does the study residency page address institutional continuity?",
+      "How does the study residency page address documentation structure?",
+      "How does the study residency page address registration flow?",
+      "How does the study residency page address compliance duties?"
+    ],
+    "keywords": "Study residence basis Institutional continuity Documentation structure Registration flow Compliance duties Ongoing support Study Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/work/",
+    "title": "Work Residency",
+    "family": "services",
+    "summary": "Service page for work residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Employment residence basis",
+      "Employer coordination",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the work residency page address employment residence basis?",
+      "How does the work residency page address employer coordination?",
+      "How does the work residency page address documentation structure?",
+      "How does the work residency page address registration flow?",
+      "How does the work residency page address compliance duties?"
+    ],
+    "keywords": "Employment residence basis Employer coordination Documentation structure Registration flow Compliance duties Ongoing support Work Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/residencies/youth/",
+    "title": "Youth Residency",
+    "family": "services",
+    "summary": "Service page for youth residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Youth-mobility basis",
+      "Program alignment",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the youth residency page address youth-mobility basis?",
+      "How does the youth residency page address program alignment?",
+      "How does the youth residency page address documentation structure?",
+      "How does the youth residency page address registration flow?",
+      "How does the youth residency page address compliance duties?"
+    ],
+    "keywords": "Youth-mobility basis Program alignment Documentation structure Registration flow Compliance duties Ongoing support Youth Residency services Residencies hub + CPLP/MERCOSUL/youth"
+  },
+  {
+    "route": "/services/residencies/volunteer/",
+    "title": "Volunteer Residency",
+    "family": "services",
+    "summary": "Service page for volunteer residence planning, registration, status management, and compliance monitoring.",
+    "topics": [
+      "Volunteer residence basis",
+      "Institutional alignment",
+      "Documentation structure",
+      "Registration flow",
+      "Compliance duties",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the volunteer residency page address volunteer residence basis?",
+      "How does the volunteer residency page address institutional alignment?",
+      "How does the volunteer residency page address documentation structure?",
+      "How does the volunteer residency page address registration flow?",
+      "How does the volunteer residency page address compliance duties?"
+    ],
+    "keywords": "Volunteer residence basis Institutional alignment Documentation structure Registration flow Compliance duties Ongoing support Volunteer Residency services Residencies work/skilled/investor/nomad/study/exchange/research/volunteer"
+  },
+  {
+    "route": "/services/naturalisation/",
+    "title": "Naturalisation",
+    "family": "services",
+    "summary": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support.",
+    "topics": [
+      "Citizenship eligibility",
+      "Applicable categories",
+      "Residency-history review",
+      "Statutory alignment",
+      "Monitoring",
+      "Ongoing support",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the naturalisation page address citizenship eligibility?",
+      "How does the naturalisation page address applicable categories?",
+      "How does the naturalisation page address residency-history review?"
+    ],
+    "keywords": "Citizenship eligibility Applicable categories Residency-history review Statutory alignment Monitoring Ongoing support Child cards Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/ordinary/",
+    "title": "Ordinary Naturalisation",
+    "family": "services",
+    "summary": "Service page for ordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the ordinary naturalisation page address category basis?",
+      "How does the ordinary naturalisation page address legal context?",
+      "How does the ordinary naturalisation page address documentation framework?",
+      "How does the ordinary naturalisation page address authority review context?",
+      "How does the ordinary naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Ordinary Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/extraordinary/",
+    "title": "Extraordinary Naturalisation",
+    "family": "services",
+    "summary": "Service page for extraordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the extraordinary naturalisation page address category basis?",
+      "How does the extraordinary naturalisation page address legal context?",
+      "How does the extraordinary naturalisation page address documentation framework?",
+      "How does the extraordinary naturalisation page address authority review context?",
+      "How does the extraordinary naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Extraordinary Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/provisional/",
+    "title": "Provisional Naturalisation",
+    "family": "services",
+    "summary": "Service page for provisional naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the provisional naturalisation page address category basis?",
+      "How does the provisional naturalisation page address legal context?",
+      "How does the provisional naturalisation page address documentation framework?",
+      "How does the provisional naturalisation page address authority review context?",
+      "How does the provisional naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Provisional Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/special/",
+    "title": "Special Naturalisation",
+    "family": "services",
+    "summary": "Service page for special naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the special naturalisation page address category basis?",
+      "How does the special naturalisation page address legal context?",
+      "How does the special naturalisation page address documentation framework?",
+      "How does the special naturalisation page address authority review context?",
+      "How does the special naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Special Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/renunciation/",
+    "title": "Renunciation Naturalisation",
+    "family": "services",
+    "summary": "Service page for renunciation naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the renunciation naturalisation page address category basis?",
+      "How does the renunciation naturalisation page address legal context?",
+      "How does the renunciation naturalisation page address documentation framework?",
+      "How does the renunciation naturalisation page address authority review context?",
+      "How does the renunciation naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Renunciation Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/naturalisation/reacquisition/",
+    "title": "Reacquisition Naturalisation",
+    "family": "services",
+    "summary": "Service page for reacquisition naturalisation analysis, documentary preparation, filing context, and post-decision effects.",
+    "topics": [
+      "Category basis",
+      "Legal context",
+      "Documentation framework",
+      "Authority review context",
+      "Legal effects"
+    ],
+    "faq": [
+      "How does the reacquisition naturalisation page address category basis?",
+      "How does the reacquisition naturalisation page address legal context?",
+      "How does the reacquisition naturalisation page address documentation framework?",
+      "How does the reacquisition naturalisation page address authority review context?",
+      "How does the reacquisition naturalisation page address legal effects?"
+    ],
+    "keywords": "Category basis Legal context Documentation framework Authority review context Legal effects Reacquisition Naturalisation services Naturalisation pages"
+  },
+  {
+    "route": "/services/defense/",
+    "title": "Defense",
+    "family": "services",
+    "summary": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities.",
+    "topics": [
+      "Enforcement-situation analysis",
+      "Legal protections",
+      "Defense structuring",
+      "Representation before authorities",
+      "Monitoring",
+      "Ongoing support",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the defense page address enforcement-situation analysis?",
+      "How does the defense page address legal protections?",
+      "How does the defense page address defense structuring?"
+    ],
+    "keywords": "Enforcement-situation analysis Legal protections Defense structuring Representation before authorities Monitoring Ongoing support Child cards Defense services Defense pages"
+  },
+  {
+    "route": "/services/defense/deportation/",
+    "title": "Deportation",
+    "family": "services",
+    "summary": "Service page for deportation response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the deportation page address legal context?",
+      "How does the deportation page address response structure?",
+      "How does the deportation page address authority interaction?",
+      "How does the deportation page address evidence and document strategy?",
+      "How does the deportation page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Deportation services Defense pages"
+  },
+  {
+    "route": "/services/defense/expulsion/",
+    "title": "Expulsion",
+    "family": "services",
+    "summary": "Service page for expulsion response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the expulsion page address legal context?",
+      "How does the expulsion page address response structure?",
+      "How does the expulsion page address authority interaction?",
+      "How does the expulsion page address evidence and document strategy?",
+      "How does the expulsion page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Expulsion services Defense pages"
+  },
+  {
+    "route": "/services/defense/extradition/",
+    "title": "Extradition",
+    "family": "services",
+    "summary": "Service page for extradition response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the extradition page address legal context?",
+      "How does the extradition page address response structure?",
+      "How does the extradition page address authority interaction?",
+      "How does the extradition page address evidence and document strategy?",
+      "How does the extradition page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Extradition services Defense pages"
+  },
+  {
+    "route": "/services/defense/appeals/",
+    "title": "Appeals",
+    "family": "services",
+    "summary": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the appeals page address legal context?",
+      "How does the appeals page address response structure?",
+      "How does the appeals page address authority interaction?",
+      "How does the appeals page address evidence and document strategy?",
+      "How does the appeals page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Appeals services Defense pages"
+  },
+  {
+    "route": "/services/defense/fines/",
+    "title": "Fines",
+    "family": "services",
+    "summary": "Service page for fines response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the fines page address legal context?",
+      "How does the fines page address response structure?",
+      "How does the fines page address authority interaction?",
+      "How does the fines page address evidence and document strategy?",
+      "How does the fines page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Fines services Defense pages"
+  },
+  {
+    "route": "/services/defense/litigation/",
+    "title": "Litigation",
+    "family": "services",
+    "summary": "Service page for litigation response planning, evidence strategy, authority interaction, and ongoing support.",
+    "topics": [
+      "Legal context",
+      "Response structure",
+      "Authority interaction",
+      "Evidence and document strategy",
+      "Ongoing service support"
+    ],
+    "faq": [
+      "How does the litigation page address legal context?",
+      "How does the litigation page address response structure?",
+      "How does the litigation page address authority interaction?",
+      "How does the litigation page address evidence and document strategy?",
+      "How does the litigation page address ongoing service support?"
+    ],
+    "keywords": "Legal context Response structure Authority interaction Evidence and document strategy Ongoing service support Litigation services Defense pages"
+  },
+  {
+    "route": "/services/other/",
+    "title": "Other",
+    "family": "services",
+    "summary": "Service-centered overview of supporting legal services connected to immigration documentation, authority coordination, and procedural regularity.",
+    "topics": [
+      "Supporting-legal-services scope",
+      "Administrative and procedural requirements",
+      "Coordination with authorities",
+      "Documentation structuring",
+      "Alignment with Brazilian standards",
+      "Ongoing support",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the other page address supporting-legal-services scope?",
+      "How does the other page address administrative and procedural requirements?",
+      "How does the other page address coordination with authorities?"
+    ],
+    "keywords": "Supporting-legal-services scope Administrative and procedural requirements Coordination with authorities Documentation structuring Alignment with Brazilian standards Ongoing support Child cards Other services Other services pages"
+  },
+  {
+    "route": "/services/other/consular/",
+    "title": "Consular",
+    "family": "services",
+    "summary": "Service page for consular support, documentation structure, procedural coordination, and practical next steps.",
+    "topics": [
+      "Consular coordination",
+      "Appointment and document logic",
+      "Authentication context",
+      "Communication structure",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the consular page address consular coordination?",
+      "How does the consular page address appointment and document logic?",
+      "How does the consular page address authentication context?",
+      "How does the consular page address communication structure?",
+      "How does the consular page address ongoing support?"
+    ],
+    "keywords": "Consular coordination Appointment and document logic Authentication context Communication structure Ongoing support Consular services Other services pages"
+  },
+  {
+    "route": "/services/other/records/",
+    "title": "Records",
+    "family": "services",
+    "summary": "Service page for records support, documentation structure, procedural coordination, and practical next steps.",
+    "topics": [
+      "Record retrieval strategy",
+      "Civil and criminal record context",
+      "Authority interaction",
+      "Documentation chain",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the records page address record retrieval strategy?",
+      "How does the records page address civil and criminal record context?",
+      "How does the records page address authority interaction?",
+      "How does the records page address documentation chain?",
+      "How does the records page address ongoing support?"
+    ],
+    "keywords": "Record retrieval strategy Civil and criminal record context Authority interaction Documentation chain Ongoing support Records services Other services pages"
+  },
+  {
+    "route": "/services/other/translation/",
+    "title": "Translation",
+    "family": "services",
+    "summary": "Service page for translation support, documentation structure, procedural coordination, and practical next steps.",
+    "topics": [
+      "Translation scope",
+      "Sworn-translation context",
+      "Cross-border document use",
+      "Review process",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the translation page address translation scope?",
+      "How does the translation page address sworn-translation context?",
+      "How does the translation page address cross-border document use?",
+      "How does the translation page address review process?",
+      "How does the translation page address ongoing support?"
+    ],
+    "keywords": "Translation scope Sworn-translation context Cross-border document use Review process Ongoing support Translation services Other services pages"
+  },
+  {
+    "route": "/services/other/regularization/",
+    "title": "Regularization",
+    "family": "services",
+    "summary": "Service page for regularization support, documentation structure, procedural coordination, and practical next steps.",
+    "topics": [
+      "Status diagnosis",
+      "Route identification",
+      "Documentation structure",
+      "Authority interaction",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the regularization page address status diagnosis?",
+      "How does the regularization page address route identification?",
+      "How does the regularization page address documentation structure?",
+      "How does the regularization page address authority interaction?",
+      "How does the regularization page address ongoing support?"
+    ],
+    "keywords": "Status diagnosis Route identification Documentation structure Authority interaction Ongoing support Regularization services Other services pages"
+  },
+  {
+    "route": "/services/advisory/",
+    "title": "Advisory",
+    "family": "services",
+    "summary": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support.",
+    "topics": [
+      "Advisory scope",
+      "Preventive analysis",
+      "Strategy structuring",
+      "Compliance monitoring",
+      "Decision-making support",
+      "Child cards"
+    ],
+    "faq": [
+      "How does the advisory page address advisory scope?",
+      "How does the advisory page address preventive analysis?",
+      "How does the advisory page address strategy structuring?"
+    ],
+    "keywords": "Advisory scope Preventive analysis Strategy structuring Compliance monitoring Decision-making support Child cards Advisory services Advisory pages"
+  },
+  {
+    "route": "/services/advisory/consultation/",
+    "title": "Consultation",
+    "family": "services",
+    "summary": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making.",
+    "topics": [
+      "Advisory scope",
+      "Intake structure",
+      "Legal framing",
+      "Documentation review",
+      "Decision support",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the consultation page address advisory scope?",
+      "How does the consultation page address intake structure?",
+      "How does the consultation page address legal framing?",
+      "How does the consultation page address documentation review?",
+      "How does the consultation page address decision support?"
+    ],
+    "keywords": "Advisory scope Intake structure Legal framing Documentation review Decision support Ongoing support Consultation services Advisory pages"
+  },
+  {
+    "route": "/services/advisory/strategy/",
+    "title": "Strategy",
+    "family": "services",
+    "summary": "Service page for strategy advisory support, documentation planning, compliance visibility, and structured decision-making.",
+    "topics": [
+      "Strategic planning scope",
+      "Route comparison",
+      "Documentation sequencing",
+      "Risk calibration",
+      "Decision support",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the strategy page address strategic planning scope?",
+      "How does the strategy page address route comparison?",
+      "How does the strategy page address documentation sequencing?",
+      "How does the strategy page address risk calibration?",
+      "How does the strategy page address decision support?"
+    ],
+    "keywords": "Strategic planning scope Route comparison Documentation sequencing Risk calibration Decision support Ongoing support Strategy services Advisory pages"
+  },
+  {
+    "route": "/services/advisory/compliance/",
+    "title": "Compliance",
+    "family": "services",
+    "summary": "Service page for compliance advisory support, documentation planning, compliance visibility, and structured decision-making.",
+    "topics": [
+      "Monitoring scope",
+      "Legal duties",
+      "Status controls",
+      "Documentation upkeep",
+      "Decision support",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the compliance page address monitoring scope?",
+      "How does the compliance page address legal duties?",
+      "How does the compliance page address status controls?",
+      "How does the compliance page address documentation upkeep?",
+      "How does the compliance page address decision support?"
+    ],
+    "keywords": "Monitoring scope Legal duties Status controls Documentation upkeep Decision support Ongoing support Compliance services Advisory pages"
+  },
+  {
+    "route": "/services/advisory/representation/",
+    "title": "Representation",
+    "family": "services",
+    "summary": "Service page for representation advisory support, documentation planning, compliance visibility, and structured decision-making.",
+    "topics": [
+      "Representation scope",
+      "Authority interaction",
+      "File management",
+      "Response structure",
+      "Decision support",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the representation page address representation scope?",
+      "How does the representation page address authority interaction?",
+      "How does the representation page address file management?",
+      "How does the representation page address response structure?",
+      "How does the representation page address decision support?"
+    ],
+    "keywords": "Representation scope Authority interaction File management Response structure Decision support Ongoing support Representation services Advisory pages"
+  },
+  {
+    "route": "/services/advisory/corporate/",
+    "title": "Corporate",
+    "family": "services",
+    "summary": "Service page for corporate advisory support, documentation planning, compliance visibility, and structured decision-making.",
+    "topics": [
+      "Corporate advisory scope",
+      "Cross-border mobility context",
+      "Workforce planning",
+      "Employer-side compliance",
+      "Decision support",
+      "Ongoing support"
+    ],
+    "faq": [
+      "How does the corporate page address corporate advisory scope?",
+      "How does the corporate page address cross-border mobility context?",
+      "How does the corporate page address workforce planning?",
+      "How does the corporate page address employer-side compliance?",
+      "How does the corporate page address decision support?"
+    ],
+    "keywords": "Corporate advisory scope Cross-border mobility context Workforce planning Employer-side compliance Decision support Ongoing support Corporate services Advisory pages"
+  },
+  {
+    "route": "/insights/general/",
+    "title": "General",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering general in the Brazilian immigration context.",
+    "topics": [
+      "Overview of Brazilian immigration system and structure",
+      "General legal concepts",
+      "Institutional roles and administrative bodies",
+      "Distinction between visa, residency, and citizenship",
+      "Contextual explanation of immigration categories",
+      "Common misunderstandings",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the general page mean by overview of brazilian immigration system and structure?",
+      "What does the general page mean by general legal concepts?",
+      "What does the general page mean by institutional roles and administrative bodies?",
+      "What does the general page mean by distinction between visa, residency, and citizenship?",
+      "What does the general page mean by contextual explanation of immigration categories?"
+    ],
+    "keywords": "Overview of Brazilian immigration system and structure General legal concepts Institutional roles and administrative bodies Distinction between visa, residency, and citizenship Contextual explanation of immigration categories Common misunderstandings Orientation purpose General insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/visa/",
+    "title": "Visa",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering visa in the Brazilian immigration context.",
+    "topics": [
+      "General explanation of visa categories",
+      "Temporary versus specific-purpose distinctions",
+      "Institutional handling",
+      "Legal limitations",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the visa page mean by general explanation of visa categories?",
+      "What does the visa page mean by temporary versus specific-purpose distinctions?",
+      "What does the visa page mean by institutional handling?",
+      "What does the visa page mean by legal limitations?",
+      "What does the visa page mean by orientation purpose?"
+    ],
+    "keywords": "General explanation of visa categories Temporary versus specific-purpose distinctions Institutional handling Legal limitations Orientation purpose Visa insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/residency/",
+    "title": "Residency",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering residency in the Brazilian immigration context.",
+    "topics": [
+      "Residence-permit overview",
+      "Legal bases",
+      "Visa and residency relationship",
+      "Rights and obligations",
+      "Administrative structure",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the residency page mean by residence-permit overview?",
+      "What does the residency page mean by legal bases?",
+      "What does the residency page mean by visa and residency relationship?",
+      "What does the residency page mean by rights and obligations?",
+      "What does the residency page mean by administrative structure?"
+    ],
+    "keywords": "Residence-permit overview Legal bases Visa and residency relationship Rights and obligations Administrative structure Orientation purpose Residency insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/naturalisation/",
+    "title": "Naturalisation",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering naturalisation in the Brazilian immigration context.",
+    "topics": [
+      "Citizenship framework",
+      "Legal categories",
+      "Competent authority",
+      "High-level requirements",
+      "Legal consequences",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the naturalisation page mean by citizenship framework?",
+      "What does the naturalisation page mean by legal categories?",
+      "What does the naturalisation page mean by competent authority?",
+      "What does the naturalisation page mean by high-level requirements?",
+      "What does the naturalisation page mean by legal consequences?"
+    ],
+    "keywords": "Citizenship framework Legal categories Competent authority High-level requirements Legal consequences Orientation purpose Naturalisation insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/process/",
+    "title": "Process",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering process in the Brazilian immigration context.",
+    "topics": [
+      "Institutional roles",
+      "General sequence of procedures",
+      "Administrative versus judicial distinction",
+      "Compliance concept",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the process page mean by institutional roles?",
+      "What does the process page mean by general sequence of procedures?",
+      "What does the process page mean by administrative versus judicial distinction?",
+      "What does the process page mean by compliance concept?",
+      "What does the process page mean by orientation purpose?"
+    ],
+    "keywords": "Institutional roles General sequence of procedures Administrative versus judicial distinction Compliance concept Orientation purpose Process insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/blog/",
+    "title": "Blog",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering blog in the Brazilian immigration context.",
+    "topics": [
+      "Publication hub",
+      "Recurring immigration themes",
+      "Subject organization",
+      "Ongoing informational publishing"
+    ],
+    "faq": [
+      "What does the blog page mean by publication hub?",
+      "What does the blog page mean by recurring immigration themes?",
+      "What does the blog page mean by subject organization?",
+      "What does the blog page mean by ongoing informational publishing?"
+    ],
+    "keywords": "Publication hub Recurring immigration themes Subject organization Ongoing informational publishing Blog insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/updates/",
+    "title": "Updates",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering updates in the Brazilian immigration context.",
+    "topics": [
+      "Regulatory changes",
+      "Institutional announcements",
+      "Policy updates",
+      "Awareness purpose"
+    ],
+    "faq": [
+      "What does the updates page mean by regulatory changes?",
+      "What does the updates page mean by institutional announcements?",
+      "What does the updates page mean by policy updates?",
+      "What does the updates page mean by awareness purpose?"
+    ],
+    "keywords": "Regulatory changes Institutional announcements Policy updates Awareness purpose Updates insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/insights/guides/",
+    "title": "Guides",
+    "family": "insights",
+    "summary": "Editorial-style guidance page covering guides in the Brazilian immigration context.",
+    "topics": [
+      "Structured immigration overviews",
+      "Terminology clarification",
+      "Framework explanations",
+      "Orientation purpose"
+    ],
+    "faq": [
+      "What does the guides page mean by structured immigration overviews?",
+      "What does the guides page mean by terminology clarification?",
+      "What does the guides page mean by framework explanations?",
+      "What does the guides page mean by orientation purpose?"
+    ],
+    "keywords": "Structured immigration overviews Terminology clarification Framework explanations Orientation purpose Guides insights Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/payment/",
+    "title": "Payment",
+    "family": "legal",
+    "summary": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation.",
+    "topics": [
+      "Consultation payment explanation",
+      "Payment methods",
+      "Payment receiver email",
+      "Proof-of-payment instruction",
+      "WhatsApp assistance",
+      "Manual confirmation workflow",
+      "36-hour scheduling rule"
+    ],
+    "faq": [
+      "What does the payment page mean by consultation payment explanation?",
+      "What does the payment page mean by payment methods?",
+      "What does the payment page mean by payment receiver email?",
+      "What does the payment page mean by proof-of-payment instruction?",
+      "What does the payment page mean by whatsapp assistance?"
+    ],
+    "keywords": "Consultation payment explanation Payment methods Payment receiver email Proof-of-payment instruction WhatsApp assistance Manual confirmation workflow 36-hour scheduling rule Payment legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/form/",
+    "title": "Form",
+    "family": "legal",
+    "summary": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation.",
+    "topics": [
+      "Full Name",
+      "Email",
+      "Phone or WhatsApp",
+      "Occupation",
+      "Country",
+      "Current immigration stage",
+      "Select your service",
+      "Case reference optional",
+      "Upload documents",
+      "Notes and message"
+    ],
+    "faq": [
+      "What does the form page mean by full name?",
+      "What does the form page mean by email?",
+      "What does the form page mean by phone or whatsapp?",
+      "What does the form page mean by occupation?",
+      "What does the form page mean by country?"
+    ],
+    "keywords": "Full Name Email Phone or WhatsApp Occupation Country Current immigration stage Select your service Case reference optional Upload documents Notes and message Form legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/emergency/",
+    "title": "Emergency",
+    "family": "legal",
+    "summary": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency.",
+    "topics": [
+      "Email",
+      "Phone",
+      "WhatsApp instruction",
+      "Emergency-only guidance",
+      "Existing-client handling note",
+      "Nature of urgent immigration events",
+      "Immediate authority-first actions"
+    ],
+    "faq": [
+      "What does the emergency page mean by email?",
+      "What does the emergency page mean by phone?",
+      "What does the emergency page mean by whatsapp instruction?",
+      "What does the emergency page mean by emergency-only guidance?",
+      "What does the emergency page mean by existing-client handling note?"
+    ],
+    "keywords": "Email Phone WhatsApp instruction Emergency-only guidance Existing-client handling note Nature of urgent immigration events Immediate authority-first actions Emergency legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/search/",
+    "title": "Search",
+    "family": "legal",
+    "summary": "Functional site-search page for route discovery.",
+    "topics": [
+      "Search results"
+    ],
+    "faq": [],
+    "keywords": "Search results Search legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/privacy/",
+    "title": "Privacy",
+    "family": "legal",
+    "summary": "Privacy notice for site visitors and consultation inquirers, grounded in LGPD principles and operational transparency.",
+    "topics": [
+      "Privacy practices",
+      "Data collection",
+      "Lawful bases",
+      "Data retention",
+      "Rights",
+      "Contact channel"
+    ],
+    "faq": [
+      "How does the privacy legal page explain privacy practices?",
+      "How does the privacy legal page explain data collection?",
+      "How does the privacy legal page explain lawful bases?",
+      "How does the privacy legal page explain data retention?",
+      "How does the privacy legal page explain rights?"
+    ],
+    "keywords": "Privacy practices Data collection Lawful bases Data retention Rights Contact channel Privacy legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/cookies/",
+    "title": "Cookies",
+    "family": "legal",
+    "summary": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences.",
+    "topics": [
+      "Cookie categories",
+      "Consent management",
+      "Analytics logic",
+      "Essential cookies",
+      "Opt-in and opt-out",
+      "Retention and browser controls"
+    ],
+    "faq": [
+      "How does the cookies legal page explain cookie categories?",
+      "How does the cookies legal page explain consent management?",
+      "How does the cookies legal page explain analytics logic?",
+      "How does the cookies legal page explain essential cookies?",
+      "How does the cookies legal page explain opt-in and opt-out?"
+    ],
+    "keywords": "Cookie categories Consent management Analytics logic Essential cookies Opt-in and opt-out Retention and browser controls Cookies legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/terms/",
+    "title": "Terms",
+    "family": "legal",
+    "summary": "Terms governing the use of the informational website, contact channels, and public materials.",
+    "topics": [
+      "Informational-website terms",
+      "Acceptable use",
+      "Contact usage",
+      "Limitation language",
+      "Governing framework",
+      "Intellectual-property notice"
+    ],
+    "faq": [
+      "How does the terms legal page explain informational-website terms?",
+      "How does the terms legal page explain acceptable use?",
+      "How does the terms legal page explain contact usage?",
+      "How does the terms legal page explain limitation language?",
+      "How does the terms legal page explain governing framework?"
+    ],
+    "keywords": "Informational-website terms Acceptable use Contact usage Limitation language Governing framework Intellectual-property notice Terms legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/refund/",
+    "title": "Refund",
+    "family": "legal",
+    "summary": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries.",
+    "topics": [
+      "Refund conditions",
+      "Non-refundable stages",
+      "Timing and processing",
+      "Service boundaries",
+      "Contractual framing",
+      "Administrative handling"
+    ],
+    "faq": [
+      "How does the refund legal page explain refund conditions?",
+      "How does the refund legal page explain non-refundable stages?",
+      "How does the refund legal page explain timing and processing?",
+      "How does the refund legal page explain service boundaries?",
+      "How does the refund legal page explain contractual framing?"
+    ],
+    "keywords": "Refund conditions Non-refundable stages Timing and processing Service boundaries Contractual framing Administrative handling Refund legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/gdpr/",
+    "title": "Gdpr",
+    "family": "legal",
+    "summary": "International privacy guidance for visitors who may expect GDPR-style transparency in addition to Brazilian LGPD protections.",
+    "topics": [
+      "International-visitor privacy best practices",
+      "Rights summary",
+      "Lawful processing explanation",
+      "International transfer framing",
+      "Representative limitations",
+      "Contact route"
+    ],
+    "faq": [
+      "How does the gdpr legal page explain international-visitor privacy best practices?",
+      "How does the gdpr legal page explain rights summary?",
+      "How does the gdpr legal page explain lawful processing explanation?",
+      "How does the gdpr legal page explain international transfer framing?",
+      "How does the gdpr legal page explain representative limitations?"
+    ],
+    "keywords": "International-visitor privacy best practices Rights summary Lawful processing explanation International transfer framing Representative limitations Contact route Gdpr legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/lgpd/",
+    "title": "Lgpd",
+    "family": "legal",
+    "summary": "Brazil-first privacy page focused on LGPD concepts, rights, and handling of consultation requests.",
+    "topics": [
+      "Brazil-first privacy compliance",
+      "Legal bases",
+      "Data subject rights",
+      "Contact and requests",
+      "Brazil-centered processing framework",
+      "Retention and security"
+    ],
+    "faq": [
+      "How does the lgpd legal page explain brazil-first privacy compliance?",
+      "How does the lgpd legal page explain legal bases?",
+      "How does the lgpd legal page explain data subject rights?",
+      "How does the lgpd legal page explain contact and requests?",
+      "How does the lgpd legal page explain brazil-centered processing framework?"
+    ],
+    "keywords": "Brazil-first privacy compliance Legal bases Data subject rights Contact and requests Brazil-centered processing framework Retention and security Lgpd legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/accessibility/",
+    "title": "Accessibility",
+    "family": "legal",
+    "summary": "Accessibility statement covering the controls built into the site, compatibility goals, and support channels.",
+    "topics": [
+      "Accessibility commitment",
+      "Current measures",
+      "Compatibility goals",
+      "Known limitations",
+      "Support contact",
+      "Feedback mechanism"
+    ],
+    "faq": [
+      "How does the accessibility legal page explain accessibility commitment?",
+      "How does the accessibility legal page explain current measures?",
+      "How does the accessibility legal page explain compatibility goals?",
+      "How does the accessibility legal page explain known limitations?",
+      "How does the accessibility legal page explain support contact?"
+    ],
+    "keywords": "Accessibility commitment Current measures Compatibility goals Known limitations Support contact Feedback mechanism Accessibility legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/disclaimer/",
+    "title": "Disclaimer",
+    "family": "legal",
+    "summary": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making.",
+    "topics": [
+      "Informational only",
+      "Not legal advice",
+      "No guarantee",
+      "Case-specific variability",
+      "No lawyer-client relationship by website use alone",
+      "Authority-driven outcomes"
+    ],
+    "faq": [
+      "How does the disclaimer legal page explain informational only?",
+      "How does the disclaimer legal page explain not legal advice?",
+      "How does the disclaimer legal page explain no guarantee?",
+      "How does the disclaimer legal page explain case-specific variability?",
+      "How does the disclaimer legal page explain no lawyer-client relationship by website use alone?"
+    ],
+    "keywords": "Informational only Not legal advice No guarantee Case-specific variability No lawyer-client relationship by website use alone Authority-driven outcomes Disclaimer legal Insights + legal/policy pages"
+  },
+  {
+    "route": "/legal/404/",
+    "title": "404",
+    "family": "legal",
+    "summary": "Helpful recovery page for missing routes.",
+    "topics": [
+      "Page not found",
+      "Search",
+      "Main navigation",
+      "CTA",
+      "Helpful recovery links"
+    ],
+    "faq": [],
+    "keywords": "Page not found Search Main navigation CTA Helpful recovery links 404 legal Insights + legal/policy pages"
+  }
+]
