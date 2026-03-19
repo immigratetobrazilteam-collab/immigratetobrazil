@@ -117,7 +117,7 @@ async function main() {
     const actualSearchRoutes = [...new Set(searchIndex.map((item) => item.route))].sort();
     const expected = [...new Set(expectedSearchRoutes)].sort();
     if (!compareStringSets(actualSearchRoutes, expected)) {
-      failures.push("Search index is out of sync. Run `npm run build`.");
+      failures.push("Search index is out of sync. Run `npm run sync:data`.");
     }
   }
 
@@ -131,7 +131,7 @@ async function main() {
       .sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
     const expected = [...expectedFormMap].sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
     if (!compareFormEntries(actualFormEntries, expected)) {
-      failures.push("Formspree map is out of sync. Run `npm run build`.");
+      failures.push("Formspree map is out of sync. Run `npm run sync:data`.");
     }
   }
 
@@ -140,7 +140,7 @@ async function main() {
   } else if (legal404Html) {
     const root404Html = await fs.readFile(root404Path, "utf8");
     if (root404Html !== legal404Html) {
-      failures.push("Root 404.html is out of sync with /legal/404/. Run `npm run build`.");
+      failures.push("Root 404.html is out of sync with /legal/404/. Run `npm run sync:data`.");
     }
   }
 

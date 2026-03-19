@@ -233,15 +233,28 @@
   window.addEventListener("load", updateStickyMetrics);
   onScroll();
 
-  const revealTargets = document.querySelectorAll(
-    ".content-block, .official-resources, .faq-block, .related-block, .hero-panel, .hero-glance-card, .sidebar-card, .quick-scan__panel, .marker, .info-card, .resource-card, .related-card, .quote-card, .footer-panel, .footer-bottom, .footer-meta"
-  );
-  revealTargets.forEach((node, index) => {
+  const revealTargets = [
+    ...document.querySelectorAll(
+      ".content-block, .official-resources, .faq-block, .related-block, .hero-panel, .hero-glance-card, .sidebar-card, .marker, .info-card, .resource-card, .related-card, .quote-card, .footer-panel, .footer-bottom, .footer-meta"
+    )
+  ];
+
+  function revealNearViewport() {
+    const preloadBoundary = window.innerHeight * 1.18;
+    revealTargets.forEach((node) => {
+      if (node.classList.contains("is-visible")) return;
+      if (node.getBoundingClientRect().top <= preloadBoundary) {
+        node.classList.add("is-visible");
+      }
+    });
+  }
+
+  revealTargets.forEach((node) => {
     node.classList.add("reveal");
-    node.style.setProperty("--reveal-delay", `${Math.min((index % 6) * 40, 200)}ms`);
   });
 
   if (!body.classList.contains("reduced-motion") && "IntersectionObserver" in window) {
+    revealNearViewport();
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -251,10 +264,17 @@
           }
         });
       },
-      { threshold: 0.12 }
+      {
+        threshold: 0.01,
+        rootMargin: "12% 0px 18% 0px"
+      }
     );
 
-    revealTargets.forEach((node) => observer.observe(node));
+    revealTargets.forEach((node) => {
+      if (!node.classList.contains("is-visible")) {
+        observer.observe(node);
+      }
+    });
   } else {
     revealTargets.forEach((node) => node.classList.add("is-visible"));
   }

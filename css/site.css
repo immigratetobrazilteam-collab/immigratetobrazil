@@ -2170,6 +2170,12 @@ body.is-scrolled .main-nav {
   margin-top: 1.4rem;
 }
 
+.main-shell--intro {
+  position: relative;
+  z-index: 5;
+  margin-top: -3.5rem;
+}
+
 .content-column {
   min-width: 0;
 }
@@ -3444,21 +3450,12 @@ body.theme-dark .search-inline-form input::placeholder {
 }
 
 .reveal {
-  opacity: 1;
-  transform: none;
+  opacity: 0;
+  transition: opacity 160ms ease-out;
 }
 
 .reveal.is-visible {
-  animation: reveal-fade 460ms ease var(--reveal-delay, 0ms) both;
-}
-
-@keyframes reveal-fade {
-  from {
-    opacity: 0.24;
-  }
-  to {
-    opacity: 1;
-  }
+  opacity: 1;
 }
 
 body.a11y-contrast {
@@ -3760,6 +3757,10 @@ body.reduced-motion *::after {
   }
 
   .quick-scan {
+    margin-top: 1.25rem;
+  }
+
+  .main-shell--intro {
     margin-top: 1.25rem;
   }
 

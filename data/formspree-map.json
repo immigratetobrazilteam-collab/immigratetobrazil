@@ -1,1094 +1,772 @@
 [
   {
     "route": "/",
-    "title": "Home",
-    "formGroup": "xdawygld",
-    "formLabel": "Home + consultation flow",
+    "title": "Brazil Immigration Guidance",
     "endpoint": "https://formspree.io/f/xdawygld"
-  },
-  {
-    "route": "/start-consultation/",
-    "title": "Start Consultation",
-    "formGroup": "xdawygld",
-    "formLabel": "Home + consultation flow",
-    "endpoint": "https://formspree.io/f/xdawygld"
-  },
-  {
-    "route": "/about/profile/",
-    "title": "Profile",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/about/about/",
     "title": "About",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/mission/",
-    "title": "Mission",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/philosophy/",
-    "title": "Philosophy",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/story/",
-    "title": "Story",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/values/",
-    "title": "Values",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/lawyer/",
-    "title": "Lawyer",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/whyus/",
-    "title": "Why Us",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/results/",
-    "title": "Results",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/stories/",
-    "title": "Stories",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/about/clients/",
     "title": "Clients",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/testimonials/",
-    "title": "Testimonials",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/about/governance/",
-    "title": "Governance",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/about/compliance/",
     "title": "Compliance",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/about/ethics/",
     "title": "Ethics",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
-    "route": "/about/standards/",
-    "title": "Standards",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
+    "route": "/about/governance/",
+    "title": "Governance",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/lawyer/",
+    "title": "Lawyer",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/mission/",
+    "title": "Mission",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/philosophy/",
+    "title": "Philosophy",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/profile/",
+    "title": "Profile",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/about/regulatory/",
     "title": "Regulatory",
-    "formGroup": "xaqpaodd",
-    "formLabel": "About pages",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/results/",
+    "title": "Results",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/standards/",
+    "title": "Standards",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/stories/",
+    "title": "Stories",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/story/",
+    "title": "Story",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/testimonials/",
+    "title": "Testimonials",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/values/",
+    "title": "Values",
+    "endpoint": "https://formspree.io/f/xaqpaodd"
+  },
+  {
+    "route": "/about/whyus/",
+    "title": "Why Us",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
     "route": "/brazil/brazil/",
     "title": "Brazil",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
     "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/investment/",
-    "title": "Investment",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/economy/",
-    "title": "Economy",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/quality/",
-    "title": "Quality",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/living/",
-    "title": "Living",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/cost/",
-    "title": "Cost",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/housing/",
-    "title": "Housing",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/healthcare/",
-    "title": "Healthcare",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/education/",
-    "title": "Education",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/safety/",
-    "title": "Safety",
-    "formGroup": "mqeywqdy",
-    "formLabel": "Brazil overview pages",
-    "endpoint": "https://formspree.io/f/mqeywqdy"
-  },
-  {
-    "route": "/brazil/north/",
-    "title": "North",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/northeast/",
-    "title": "Northeast",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
     "route": "/brazil/central-west/",
     "title": "Central-West",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/southeast/",
-    "title": "Southeast",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/south/",
-    "title": "South",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/states/",
-    "title": "States",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
     "route": "/brazil/cities/",
     "title": "Cities",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/brazil/directory/",
-    "title": "Directory",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
+    "route": "/brazil/cost/",
+    "title": "Cost",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/brazil/municipalities/",
-    "title": "Municipalities",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/search/",
-    "title": "Search",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
+    "route": "/brazil/cuisine/",
+    "title": "Cuisine",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
     "route": "/brazil/culture/",
     "title": "Culture",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/brazil/festivals/",
-    "title": "Festivals",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
+    "route": "/brazil/directory/",
+    "title": "Directory",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/brazil/cuisine/",
-    "title": "Cuisine",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
+    "route": "/brazil/economy/",
+    "title": "Economy",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
+  },
+  {
+    "route": "/brazil/education/",
+    "title": "Education",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
     "route": "/brazil/events/",
     "title": "Events",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
-    "endpoint": "https://formspree.io/f/myknlwdl"
-  },
-  {
-    "route": "/brazil/guides/",
-    "title": "Guides",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
     "route": "/brazil/faqs/",
     "title": "Faqs",
-    "formGroup": "myknlwdl",
-    "formLabel": "Brazil culture and location pages",
     "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/consultation/",
-    "title": "Consultation",
-    "formGroup": "mzdjyrao",
-    "formLabel": "Process core",
-    "endpoint": "https://formspree.io/f/mzdjyrao"
+    "route": "/brazil/festivals/",
+    "title": "Festivals",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/assessment/",
-    "title": "Assessment",
-    "formGroup": "mzdjyrao",
-    "formLabel": "Process core",
-    "endpoint": "https://formspree.io/f/mzdjyrao"
+    "route": "/brazil/guides/",
+    "title": "Guides",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/strategy/",
-    "title": "Strategy",
-    "formGroup": "mzdjyrao",
-    "formLabel": "Process core",
-    "endpoint": "https://formspree.io/f/mzdjyrao"
+    "route": "/brazil/healthcare/",
+    "title": "Healthcare",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/filing/",
-    "title": "Filing",
-    "formGroup": "mzdjyrao",
-    "formLabel": "Process core",
-    "endpoint": "https://formspree.io/f/mzdjyrao"
+    "route": "/brazil/housing/",
+    "title": "Housing",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/approval/",
-    "title": "Approval",
-    "formGroup": "mzdjyrao",
-    "formLabel": "Process core",
-    "endpoint": "https://formspree.io/f/mzdjyrao"
+    "route": "/brazil/investment/",
+    "title": "Investment",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/mistakes/",
-    "title": "Mistakes",
-    "formGroup": "meervgld",
-    "formLabel": "Process risk",
-    "endpoint": "https://formspree.io/f/meervgld"
+    "route": "/brazil/living/",
+    "title": "Living",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/failures/",
-    "title": "Failures",
-    "formGroup": "meervgld",
-    "formLabel": "Process risk",
-    "endpoint": "https://formspree.io/f/meervgld"
+    "route": "/brazil/municipalities/",
+    "title": "Municipalities",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/deadlines/",
-    "title": "Deadlines",
-    "formGroup": "meervgld",
-    "formLabel": "Process risk",
-    "endpoint": "https://formspree.io/f/meervgld"
+    "route": "/brazil/north/",
+    "title": "North",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/obligations/",
-    "title": "Obligations",
-    "formGroup": "meervgld",
-    "formLabel": "Process risk",
-    "endpoint": "https://formspree.io/f/meervgld"
+    "route": "/brazil/northeast/",
+    "title": "Northeast",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/alone/",
-    "title": "Alone",
-    "formGroup": "meervgld",
-    "formLabel": "Process risk",
-    "endpoint": "https://formspree.io/f/meervgld"
+    "route": "/brazil/quality/",
+    "title": "Quality",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/transparency/",
-    "title": "Transparency",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
+    "route": "/brazil/safety/",
+    "title": "Safety",
+    "endpoint": "https://formspree.io/f/mqeywqdy"
   },
   {
-    "route": "/process/fees/",
-    "title": "Fees",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
+    "route": "/brazil/search/",
+    "title": "Search",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/refund/",
-    "title": "Refund",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
+    "route": "/brazil/south/",
+    "title": "South",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/timeline/",
-    "title": "Timeline",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
+    "route": "/brazil/southeast/",
+    "title": "Southeast",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
-    "route": "/process/responsibilities/",
-    "title": "Responsibilities",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
-  },
-  {
-    "route": "/process/rights/",
-    "title": "Rights",
-    "formGroup": "xojkydnz",
-    "formLabel": "Process admin",
-    "endpoint": "https://formspree.io/f/xojkydnz"
-  },
-  {
-    "route": "/process/aftercare/",
-    "title": "Aftercare",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/renewal/",
-    "title": "Renewal",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/permanent/",
-    "title": "Permanent",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/naturalisation/",
-    "title": "Naturalisation",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/compliance/",
-    "title": "Compliance",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/conversion/",
-    "title": "Conversion",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/regularization/",
-    "title": "Regularization",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/process/planning/",
-    "title": "Planning",
-    "formGroup": "mgonrklj",
-    "formLabel": "Process long-term",
-    "endpoint": "https://formspree.io/f/mgonrklj"
-  },
-  {
-    "route": "/services/",
-    "title": "Services",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/visas/",
-    "title": "Visas",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/visas/artistic/",
-    "title": "Artistic Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/business/",
-    "title": "Business Visa",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/visas/educational/",
-    "title": "Educational Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/exchange/",
-    "title": "Exchange Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/nomad/",
-    "title": "Nomad Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/diplomatic/",
-    "title": "Diplomatic Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/family/",
-    "title": "Family Visa",
-    "formGroup": "mreyrqyg",
-    "formLabel": "Visas family/retiree/humanitarian/religious/medical",
-    "endpoint": "https://formspree.io/f/mreyrqyg"
-  },
-  {
-    "route": "/services/visas/humanitarian/",
-    "title": "Humanitarian Visa",
-    "formGroup": "mreyrqyg",
-    "formLabel": "Visas family/retiree/humanitarian/religious/medical",
-    "endpoint": "https://formspree.io/f/mreyrqyg"
-  },
-  {
-    "route": "/services/visas/investor/",
-    "title": "Investor Visa",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/visas/journalist/",
-    "title": "Journalist Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/medical/",
-    "title": "Medical Visa",
-    "formGroup": "mreyrqyg",
-    "formLabel": "Visas family/retiree/humanitarian/religious/medical",
-    "endpoint": "https://formspree.io/f/mreyrqyg"
-  },
-  {
-    "route": "/services/visas/religious/",
-    "title": "Religious Visa",
-    "formGroup": "mreyrqyg",
-    "formLabel": "Visas family/retiree/humanitarian/religious/medical",
-    "endpoint": "https://formspree.io/f/mreyrqyg"
-  },
-  {
-    "route": "/services/visas/research/",
-    "title": "Research Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/retiree/",
-    "title": "Retiree Visa",
-    "formGroup": "mreyrqyg",
-    "formLabel": "Visas family/retiree/humanitarian/religious/medical",
-    "endpoint": "https://formspree.io/f/mreyrqyg"
-  },
-  {
-    "route": "/services/visas/sports/",
-    "title": "Sports Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/startup/",
-    "title": "Startup Visa",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/visas/student/",
-    "title": "Student Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/tourist/",
-    "title": "Tourist Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/transit/",
-    "title": "Transit Visa",
-    "formGroup": "xjgajway",
-    "formLabel": "Visas artistic/journalist/sports/tourist/transit/diplomatic",
-    "endpoint": "https://formspree.io/f/xjgajway"
-  },
-  {
-    "route": "/services/visas/volunteer/",
-    "title": "Volunteer Visa",
-    "formGroup": "mwvraore",
-    "formLabel": "Visas nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/mwvraore"
-  },
-  {
-    "route": "/services/visas/work/",
-    "title": "Work Visa",
-    "formGroup": "mvzwdabe",
-    "formLabel": "Visas hub + business/investor/work/startup",
-    "endpoint": "https://formspree.io/f/mvzwdabe"
-  },
-  {
-    "route": "/services/residencies/",
-    "title": "Residencies",
-    "formGroup": "mdawygwg",
-    "formLabel": "Residencies hub + CPLP/MERCOSUL/youth",
-    "endpoint": "https://formspree.io/f/mdawygwg"
-  },
-  {
-    "route": "/services/residencies/cplp/",
-    "title": "CPLP Residency",
-    "formGroup": "mdawygwg",
-    "formLabel": "Residencies hub + CPLP/MERCOSUL/youth",
-    "endpoint": "https://formspree.io/f/mdawygwg"
-  },
-  {
-    "route": "/services/residencies/mercosul/",
-    "title": "MERCOSUL Residency",
-    "formGroup": "mdawygwg",
-    "formLabel": "Residencies hub + CPLP/MERCOSUL/youth",
-    "endpoint": "https://formspree.io/f/mdawygwg"
-  },
-  {
-    "route": "/services/residencies/nomad/",
-    "title": "Nomad Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/educational/",
-    "title": "Educational Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/exchange/",
-    "title": "Exchange Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/reunion/",
-    "title": "Reunion Residency",
-    "formGroup": "xqeywqyl",
-    "formLabel": "Residencies reunion/health/humanitarian/religious/retiree",
-    "endpoint": "https://formspree.io/f/xqeywqyl"
-  },
-  {
-    "route": "/services/residencies/health/",
-    "title": "Health Residency",
-    "formGroup": "xqeywqyl",
-    "formLabel": "Residencies reunion/health/humanitarian/religious/retiree",
-    "endpoint": "https://formspree.io/f/xqeywqyl"
-  },
-  {
-    "route": "/services/residencies/humanitarian/",
-    "title": "Humanitarian Residency",
-    "formGroup": "xqeywqyl",
-    "formLabel": "Residencies reunion/health/humanitarian/religious/retiree",
-    "endpoint": "https://formspree.io/f/xqeywqyl"
-  },
-  {
-    "route": "/services/residencies/investor/",
-    "title": "Investor Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/religious/",
-    "title": "Religious Residency",
-    "formGroup": "xqeywqyl",
-    "formLabel": "Residencies reunion/health/humanitarian/religious/retiree",
-    "endpoint": "https://formspree.io/f/xqeywqyl"
-  },
-  {
-    "route": "/services/residencies/retiree/",
-    "title": "Retiree Residency",
-    "formGroup": "xqeywqyl",
-    "formLabel": "Residencies reunion/health/humanitarian/religious/retiree",
-    "endpoint": "https://formspree.io/f/xqeywqyl"
-  },
-  {
-    "route": "/services/residencies/research/",
-    "title": "Research Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/skilled/",
-    "title": "Skilled Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/study/",
-    "title": "Study Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/work/",
-    "title": "Work Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/residencies/youth/",
-    "title": "Youth Residency",
-    "formGroup": "mdawygwg",
-    "formLabel": "Residencies hub + CPLP/MERCOSUL/youth",
-    "endpoint": "https://formspree.io/f/mdawygwg"
-  },
-  {
-    "route": "/services/residencies/volunteer/",
-    "title": "Volunteer Residency",
-    "formGroup": "maqpaopj",
-    "formLabel": "Residencies work/skilled/investor/nomad/study/exchange/research/volunteer",
-    "endpoint": "https://formspree.io/f/maqpaopj"
-  },
-  {
-    "route": "/services/naturalisation/",
-    "title": "Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/ordinary/",
-    "title": "Ordinary Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/extraordinary/",
-    "title": "Extraordinary Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/provisional/",
-    "title": "Provisional Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/special/",
-    "title": "Special Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/renunciation/",
-    "title": "Renunciation Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/naturalisation/reacquisition/",
-    "title": "Reacquisition Naturalisation",
-    "formGroup": "xyknlwnn",
-    "formLabel": "Naturalisation pages",
-    "endpoint": "https://formspree.io/f/xyknlwnn"
-  },
-  {
-    "route": "/services/defense/",
-    "title": "Defense",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/deportation/",
-    "title": "Deportation",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/expulsion/",
-    "title": "Expulsion",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/extradition/",
-    "title": "Extradition",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/appeals/",
-    "title": "Appeals",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/fines/",
-    "title": "Fines",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/defense/litigation/",
-    "title": "Litigation",
-    "formGroup": "xzdjyrjk",
-    "formLabel": "Defense pages",
-    "endpoint": "https://formspree.io/f/xzdjyrjk"
-  },
-  {
-    "route": "/services/other/",
-    "title": "Other",
-    "formGroup": "xeervgrv",
-    "formLabel": "Other services pages",
-    "endpoint": "https://formspree.io/f/xeervgrv"
-  },
-  {
-    "route": "/services/other/consular/",
-    "title": "Consular",
-    "formGroup": "xeervgrv",
-    "formLabel": "Other services pages",
-    "endpoint": "https://formspree.io/f/xeervgrv"
-  },
-  {
-    "route": "/services/other/records/",
-    "title": "Records",
-    "formGroup": "xeervgrv",
-    "formLabel": "Other services pages",
-    "endpoint": "https://formspree.io/f/xeervgrv"
-  },
-  {
-    "route": "/services/other/translation/",
-    "title": "Translation",
-    "formGroup": "xeervgrv",
-    "formLabel": "Other services pages",
-    "endpoint": "https://formspree.io/f/xeervgrv"
-  },
-  {
-    "route": "/services/other/regularization/",
-    "title": "Regularization",
-    "formGroup": "xeervgrv",
-    "formLabel": "Other services pages",
-    "endpoint": "https://formspree.io/f/xeervgrv"
-  },
-  {
-    "route": "/services/advisory/",
-    "title": "Advisory",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/services/advisory/consultation/",
-    "title": "Consultation",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/services/advisory/strategy/",
-    "title": "Strategy",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/services/advisory/compliance/",
-    "title": "Compliance",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/services/advisory/representation/",
-    "title": "Representation",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/services/advisory/corporate/",
-    "title": "Corporate",
-    "formGroup": "mojkydkr",
-    "formLabel": "Advisory pages",
-    "endpoint": "https://formspree.io/f/mojkydkr"
-  },
-  {
-    "route": "/insights/general/",
-    "title": "General",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/insights/visa/",
-    "title": "Visa",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/insights/residency/",
-    "title": "Residency",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/insights/naturalisation/",
-    "title": "Naturalisation",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/insights/process/",
-    "title": "Process",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
+    "route": "/brazil/states/",
+    "title": "States",
+    "endpoint": "https://formspree.io/f/myknlwdl"
   },
   {
     "route": "/insights/blog/",
     "title": "Blog",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/insights/updates/",
-    "title": "Updates",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/general/",
+    "title": "General",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
     "route": "/insights/guides/",
     "title": "Guides",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/payment/",
-    "title": "Payment",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/naturalisation/",
+    "title": "Naturalisation",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/form/",
-    "title": "Form",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/process/",
+    "title": "Process",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/emergency/",
-    "title": "Emergency",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/residency/",
+    "title": "Residency",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/search/",
-    "title": "Search",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/updates/",
+    "title": "Updates",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/privacy/",
-    "title": "Privacy",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/legal/cookies/",
-    "title": "Cookies",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/legal/terms/",
-    "title": "Terms",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/legal/refund/",
-    "title": "Refund",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/legal/gdpr/",
-    "title": "Gdpr",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/legal/lgpd/",
-    "title": "Lgpd",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/insights/visa/",
+    "title": "Visa",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
     "route": "/legal/accessibility/",
     "title": "Accessibility",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/cookies/",
+    "title": "Cookies",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
     "route": "/legal/disclaimer/",
     "title": "Disclaimer",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {
-    "route": "/legal/404/",
-    "title": "404",
-    "formGroup": "xgonrknq",
-    "formLabel": "Insights + legal/policy pages",
+    "route": "/legal/emergency/",
+    "title": "Emergency",
     "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/form/",
+    "title": "Form",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/gdpr/",
+    "title": "Gdpr",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/lgpd/",
+    "title": "Lgpd",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/payment/",
+    "title": "Payment",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/privacy/",
+    "title": "Privacy",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/refund/",
+    "title": "Refund",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/legal/terms/",
+    "title": "Terms",
+    "endpoint": "https://formspree.io/f/xgonrknq"
+  },
+  {
+    "route": "/process/aftercare/",
+    "title": "Aftercare",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/alone/",
+    "title": "Alone",
+    "endpoint": "https://formspree.io/f/meervgld"
+  },
+  {
+    "route": "/process/approval/",
+    "title": "Approval",
+    "endpoint": "https://formspree.io/f/mzdjyrao"
+  },
+  {
+    "route": "/process/assessment/",
+    "title": "Assessment",
+    "endpoint": "https://formspree.io/f/mzdjyrao"
+  },
+  {
+    "route": "/process/compliance/",
+    "title": "Compliance",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/consultation/",
+    "title": "Consultation",
+    "endpoint": "https://formspree.io/f/mzdjyrao"
+  },
+  {
+    "route": "/process/conversion/",
+    "title": "Conversion",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/deadlines/",
+    "title": "Deadlines",
+    "endpoint": "https://formspree.io/f/meervgld"
+  },
+  {
+    "route": "/process/failures/",
+    "title": "Failures",
+    "endpoint": "https://formspree.io/f/meervgld"
+  },
+  {
+    "route": "/process/fees/",
+    "title": "Fees",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/process/filing/",
+    "title": "Filing",
+    "endpoint": "https://formspree.io/f/mzdjyrao"
+  },
+  {
+    "route": "/process/mistakes/",
+    "title": "Mistakes",
+    "endpoint": "https://formspree.io/f/meervgld"
+  },
+  {
+    "route": "/process/naturalisation/",
+    "title": "Naturalisation",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/obligations/",
+    "title": "Obligations",
+    "endpoint": "https://formspree.io/f/meervgld"
+  },
+  {
+    "route": "/process/permanent/",
+    "title": "Permanent",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/planning/",
+    "title": "Planning",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/refund/",
+    "title": "Refund",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/process/regularization/",
+    "title": "Regularization",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/renewal/",
+    "title": "Renewal",
+    "endpoint": "https://formspree.io/f/mgonrklj"
+  },
+  {
+    "route": "/process/responsibilities/",
+    "title": "Responsibilities",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/process/rights/",
+    "title": "Rights",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/process/strategy/",
+    "title": "Strategy",
+    "endpoint": "https://formspree.io/f/mzdjyrao"
+  },
+  {
+    "route": "/process/timeline/",
+    "title": "Timeline",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/process/transparency/",
+    "title": "Transparency",
+    "endpoint": "https://formspree.io/f/xojkydnz"
+  },
+  {
+    "route": "/services/",
+    "title": "Brazil Immigration Services",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/services/advisory/",
+    "title": "Advisory",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/advisory/compliance/",
+    "title": "Compliance",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/advisory/consultation/",
+    "title": "Consultation",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/advisory/corporate/",
+    "title": "Corporate",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/advisory/representation/",
+    "title": "Representation",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/advisory/strategy/",
+    "title": "Strategy",
+    "endpoint": "https://formspree.io/f/mojkydkr"
+  },
+  {
+    "route": "/services/defense/",
+    "title": "Defense",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/appeals/",
+    "title": "Appeals",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/deportation/",
+    "title": "Deportation",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/expulsion/",
+    "title": "Expulsion",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/extradition/",
+    "title": "Extradition",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/fines/",
+    "title": "Fines",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/defense/litigation/",
+    "title": "Litigation",
+    "endpoint": "https://formspree.io/f/xzdjyrjk"
+  },
+  {
+    "route": "/services/naturalisation/",
+    "title": "Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/extraordinary/",
+    "title": "Extraordinary Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/ordinary/",
+    "title": "Ordinary Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/provisional/",
+    "title": "Provisional Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/reacquisition/",
+    "title": "Reacquisition Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/renunciation/",
+    "title": "Renunciation Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/naturalisation/special/",
+    "title": "Special Naturalisation",
+    "endpoint": "https://formspree.io/f/xyknlwnn"
+  },
+  {
+    "route": "/services/other/",
+    "title": "Other",
+    "endpoint": "https://formspree.io/f/xeervgrv"
+  },
+  {
+    "route": "/services/other/consular/",
+    "title": "Consular",
+    "endpoint": "https://formspree.io/f/xeervgrv"
+  },
+  {
+    "route": "/services/other/records/",
+    "title": "Records",
+    "endpoint": "https://formspree.io/f/xeervgrv"
+  },
+  {
+    "route": "/services/other/regularization/",
+    "title": "Regularization",
+    "endpoint": "https://formspree.io/f/xeervgrv"
+  },
+  {
+    "route": "/services/other/translation/",
+    "title": "Translation",
+    "endpoint": "https://formspree.io/f/xeervgrv"
+  },
+  {
+    "route": "/services/residencies/",
+    "title": "Residencies",
+    "endpoint": "https://formspree.io/f/mdawygwg"
+  },
+  {
+    "route": "/services/residencies/cplp/",
+    "title": "CPLP Residency",
+    "endpoint": "https://formspree.io/f/mdawygwg"
+  },
+  {
+    "route": "/services/residencies/educational/",
+    "title": "Educational Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/exchange/",
+    "title": "Exchange Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/health/",
+    "title": "Health Residency",
+    "endpoint": "https://formspree.io/f/xqeywqyl"
+  },
+  {
+    "route": "/services/residencies/humanitarian/",
+    "title": "Humanitarian Residency",
+    "endpoint": "https://formspree.io/f/xqeywqyl"
+  },
+  {
+    "route": "/services/residencies/investor/",
+    "title": "Investor Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/mercosul/",
+    "title": "MERCOSUL Residency",
+    "endpoint": "https://formspree.io/f/mdawygwg"
+  },
+  {
+    "route": "/services/residencies/nomad/",
+    "title": "Nomad Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/religious/",
+    "title": "Religious Residency",
+    "endpoint": "https://formspree.io/f/xqeywqyl"
+  },
+  {
+    "route": "/services/residencies/research/",
+    "title": "Research Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/retiree/",
+    "title": "Retiree Residency",
+    "endpoint": "https://formspree.io/f/xqeywqyl"
+  },
+  {
+    "route": "/services/residencies/reunion/",
+    "title": "Reunion Residency",
+    "endpoint": "https://formspree.io/f/xqeywqyl"
+  },
+  {
+    "route": "/services/residencies/skilled/",
+    "title": "Skilled Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/study/",
+    "title": "Study Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/volunteer/",
+    "title": "Volunteer Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/work/",
+    "title": "Work Residency",
+    "endpoint": "https://formspree.io/f/maqpaopj"
+  },
+  {
+    "route": "/services/residencies/youth/",
+    "title": "Youth Residency",
+    "endpoint": "https://formspree.io/f/mdawygwg"
+  },
+  {
+    "route": "/services/visas/",
+    "title": "Visas",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/services/visas/artistic/",
+    "title": "Artistic Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/business/",
+    "title": "Business Visa",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/services/visas/diplomatic/",
+    "title": "Diplomatic Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/educational/",
+    "title": "Educational Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/exchange/",
+    "title": "Exchange Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/family/",
+    "title": "Family Visa",
+    "endpoint": "https://formspree.io/f/mreyrqyg"
+  },
+  {
+    "route": "/services/visas/humanitarian/",
+    "title": "Humanitarian Visa",
+    "endpoint": "https://formspree.io/f/mreyrqyg"
+  },
+  {
+    "route": "/services/visas/investor/",
+    "title": "Investor Visa",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/services/visas/journalist/",
+    "title": "Journalist Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/medical/",
+    "title": "Medical Visa",
+    "endpoint": "https://formspree.io/f/mreyrqyg"
+  },
+  {
+    "route": "/services/visas/nomad/",
+    "title": "Nomad Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/religious/",
+    "title": "Religious Visa",
+    "endpoint": "https://formspree.io/f/mreyrqyg"
+  },
+  {
+    "route": "/services/visas/research/",
+    "title": "Research Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/retiree/",
+    "title": "Retiree Visa",
+    "endpoint": "https://formspree.io/f/mreyrqyg"
+  },
+  {
+    "route": "/services/visas/sports/",
+    "title": "Sports Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/startup/",
+    "title": "Startup Visa",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/services/visas/student/",
+    "title": "Student Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/tourist/",
+    "title": "Tourist Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/transit/",
+    "title": "Transit Visa",
+    "endpoint": "https://formspree.io/f/xjgajway"
+  },
+  {
+    "route": "/services/visas/volunteer/",
+    "title": "Volunteer Visa",
+    "endpoint": "https://formspree.io/f/mwvraore"
+  },
+  {
+    "route": "/services/visas/work/",
+    "title": "Work Visa",
+    "endpoint": "https://formspree.io/f/mvzwdabe"
+  },
+  {
+    "route": "/start-consultation/",
+    "title": "Request a Consultation",
+    "endpoint": "https://formspree.io/f/xdawygld"
   }
 ]

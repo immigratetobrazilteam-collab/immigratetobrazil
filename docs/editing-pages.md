@@ -17,18 +17,18 @@ This site can now be edited page-by-page with plain HTML, CSS, JS, and Bootstrap
 1. Open the page you want to change.
 2. Edit the HTML directly.
 3. If needed, adjust shared CSS or JS.
-4. Run `npm run build` to refresh helper files such as the search index and form map.
+4. Run `npm run sync:data` to refresh helper files such as the search index and form map.
 5. Run `npm run validate` to check for broken links and missing metadata.
 
 If you want one command for both steps, run:
 
 ```bash
-npm run build:static
+npm run check
 ```
 
 ## Important note
 
-`npm run build` no longer rewrites your HTML pages.
+This repo no longer uses page generators in the active workflow.
 
 It only refreshes:
 
@@ -51,13 +51,3 @@ Find a specific route:
 ```bash
 rg --files -g 'index.html' | rg 'services/visas/work|brazil/cost|about/lawyer'
 ```
-
-## If you ever need the old generator
-
-The old generator is still available as:
-
-```bash
-npm run build:legacy
-```
-
-Do not run that unless you intentionally want to regenerate the site from the legacy content scripts.

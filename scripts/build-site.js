@@ -936,92 +936,12 @@ function topicNotes(page, topic, index) {
   ];
 }
 
-function pageJourneySteps(page) {
-  if (page.sectionStyle === "home") {
-    return [
-      ["Choose a pathway", "Compare route families."],
-      ["Read the framework", "Check official rules."],
-      ["Prepare your facts", "Gather key records."],
-      ["Request consultation", "Enter the intake flow."]
-    ];
-  }
-
-  if (page.sectionStyle === "consultation") {
-    return [
-      ["Submit request", "Send the intake request."],
-      ["Pay the fee", "Use an approved method."],
-      ["Send proof", "Email or WhatsApp it."],
-      ["Await confirmation", `Respect the ${SITE.consultationPolicy.minHoursAfterPayment}-hour rule.`]
-    ];
-  }
-
-  if (page.sectionStyle === "payment") {
-    return [
-      ["Choose method", "Pick an approved channel."],
-      ["Send proof", "Forward confirmation promptly."],
-      ["Hold scheduling", "Payment is not booking."],
-      ["Watch timing", `Keep the ${SITE.consultationPolicy.minHoursAfterPayment}-hour window in view.`]
-    ];
-  }
-
-  if (page.sectionStyle === "emergency") {
-    return [
-      ["Use WhatsApp first", "State the emergency clearly."],
-      ["Contact authorities", "Urgent risk goes first."],
-      ["Identify the file", "Share matter details."],
-      ["Expect triage", "Urgency is reviewed manually."]
-    ];
-  }
-
-  if (page.family === "services") {
-    return [
-      ["Clarify the objective", "Define the route goal."],
-      ["Check fit", "Test eligibility and timing."],
-      ["Prepare the file", "Organize the record."],
-      ["Move to intake", "Start the consultation flow."]
-    ];
-  }
-
-  if (page.family === "process") {
-    return [
-      ["Locate the stage", "Place yourself in sequence."],
-      ["Review timing", "Deadlines affect the next move."],
-      ["Check evidence", "Records shape viability."],
-      ["Track obligations", "Watch later duties."]
-    ];
-  }
-
-  if (page.family === "brazil") {
-    return [
-      ["Compare regions", "Look beyond one city."],
-      ["Check infrastructure", "Services vary by place."],
-      ["Estimate real costs", "Budget by region."],
-      ["Connect to immigration plan", "Match living context to status."]
-    ];
-  }
-
-  if (page.family === "legal") {
-    return [
-      ["Read the rule", "Understand the notice."],
-      ["Check boundaries", "Use, payment, and contact have limits."],
-      ["Adjust preferences", "Set consent and accessibility."],
-      ["Contact correctly", "Use the right channel."]
-    ];
-  }
-
-  return [
-    ["Start with the issue", "Use this for orientation."],
-    ["Check official sources", "Official rules come first."],
-    ["Explore related pages", "Move laterally where needed."],
-    ["Use the right CTA", "Choose the right next step."]
-  ];
-}
-
-function renderPageNavigator(page, { title = "Key topics", limit = 6, compact = false, icon = "compass" } = {}) {
+function renderPageNavigator(page, { title = "Key topics", limit = 6, compact = false, icon = "compass", id = null } = {}) {
   if (page.utility) return "";
   const topics = page.topics.slice(0, limit);
   if (!topics.length) return "";
-  return `<section class="page-map${compact ? " page-map--compact" : ""}"${compact ? "" : ' id="page-map"'}>
+  const anchorId = id ?? (compact ? null : "page-map");
+  return `<section class="page-map${compact ? " page-map--compact" : ""}"${anchorId ? ` id="${anchorId}"` : ""}>
     <div class="page-map__head">
       ${renderHeadingWithIcon("h2", title, icon, "page-map__title")}
       <p>Move directly to the question that matters.</p>
@@ -1038,46 +958,18 @@ function renderPageNavigator(page, { title = "Key topics", limit = 6, compact = 
   </section>`;
 }
 
-function renderQuickScan(page) {
-  if (page.utility) return "";
-  const steps = pageJourneySteps(page);
-  const stepIcons = ["route", "scan", "document", "next"];
-  return `<section class="quick-scan" aria-label="Page overview and journey">
-    <div class="quick-scan__shell">
-      <div class="quick-scan__panel quick-scan__panel--journey">
-        <div class="section-head">
-          ${renderHeadingWithIcon("h2", "Journey snapshot", "route")}
-          <p>How this issue fits into the broader process.</p>
-        </div>
-        <div class="journey-strip">
-          ${steps
-            .map(
-              ([title, text], index) => `<article class="journey-step">
-                <div class="journey-step__meta">
-                  <span class="journey-step__icon" aria-hidden="true">${uiIcon(stepIcons[index % stepIcons.length])}</span>
-                  <span class="journey-step__count">${String(index + 1).padStart(2, "0")}</span>
-                </div>
-                <div>
-                  <h3>${escapeHtml(title)}</h3>
-                  <p>${escapeHtml(text)}</p>
-                </div>
-              </article>`
-            )
-            .join("")}
-        </div>
-      </div>
-      <div class="quick-scan__panel quick-scan__panel--map">
-        ${renderPageNavigator(page, { title: "Page map", limit: 7, icon: "scan" })}
-      </div>
-    </div>
-  </section>`;
-}
-
 function renderSidebar(page) {
+  const quickNavigation = renderPageNavigator(page, {
+    title: "Quick navigation",
+    limit: 8,
+    compact: true,
+    icon: "compass",
+    id: "page-map"
+  });
   return `<aside class="sidebar-column">
-    <section class="sidebar-card sidebar-card--map">
-      ${renderPageNavigator(page, { title: "Quick navigation", limit: 8, compact: true, icon: "compass" })}
-    </section>
+    ${quickNavigation ? `<section class="sidebar-card sidebar-card--map">
+      ${quickNavigation}
+    </section>` : ""}
     <section class="sidebar-card sidebar-card--facts">
       ${renderHeadingWithIcon("h2", "At a glance", "scan")}
       <ul class="sidebar-list">
@@ -2204,10 +2096,7 @@ function renderPageMain(page, testimonials) {
     ${renderBreadcrumbs(page)}
     ${renderHero(page, getHero(page))}
     <main id="main-content" class="site-main" data-page-key="${page.key}">
-      <div class="container">
-        ${renderQuickScan(page)}
-      </div>
-      <div class="container main-shell">
+      <div class="container main-shell main-shell--intro">
         <article class="content-column">
           <section class="content-block intro-block">
             ${renderHeadingWithIcon("h2", "Overview", "book")}

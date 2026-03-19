@@ -4,13 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync-static-data.js",
-    "build": "npm run sync",
-    "build:static": "npm run build && npm run validate",
-    "build:legacy": "node scripts/build-site.js",
+    "sync:data": "node scripts/sync-static-data.js",
+    "check": "npm run sync:data && npm run validate",
     "validate": "node scripts/validate-site.js",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
-    "generate:pt": "node scripts/generate-pt-br.js",
     "qa:matrix": "node scripts/qa-matrix.js",
     "qa:lighthouse": "node scripts/lighthouse-audit.js"
   },
