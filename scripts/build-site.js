@@ -43,6 +43,18 @@ const STYLE_LABELS = {
   utility: "utility guidance"
 };
 
+const BRAND_ASSETS = {
+  markPng: "/assets/logo/immigrate-to-brazil-logo.png",
+  markTransparentPng: "/assets/logo/immigrate-to-brazil-logo-transparent.png",
+  markWithBackgroundPng: "/assets/logo/immigrate-to-brazil-logo-with-background.png",
+  logoPng: `${SITE.domain}/assets/logo/immigrate-to-brazil-logo.png`
+};
+
+const BRAND_ALT = {
+  mark: "Immigrate to Brazil circular logo",
+  lockup: "Immigrate to Brazil brand wordmark with the site logo"
+};
+
 function ensureOk(status, message) {
   if (!status) {
     throw new Error(message);
@@ -100,8 +112,423 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function renderBrandMark(options = {}) {
+  const {
+    className = "",
+    alt = BRAND_ALT.mark,
+    width = 52,
+    height = 52,
+    decorative = false
+  } = options;
+  return `<img${className ? ` class="${className}"` : ""} src="${BRAND_ASSETS.markTransparentPng}" alt="${
+    decorative ? "" : escapeHtml(alt)
+  }" width="${width}" height="${height}"${decorative ? ' aria-hidden="true"' : ""} />`;
+}
+
+function renderBrandLockup(options = {}) {
+  const {
+    className = "",
+    tone = "default"
+  } = options;
+  return `<span class="brand-wordmark ${className ? `${className} ` : ""}brand-wordmark--${tone}" aria-label="${escapeHtml(
+    BRAND_ALT.lockup
+  )}">
+    ${renderBrandMark({ className: "brand-wordmark__mark", width: 56, height: 56, decorative: true })}
+    <span class="brand-wordmark__text">
+      <span class="brand-wordmark__line brand-wordmark__line--top">Immigrate</span>
+      <span class="brand-wordmark__line brand-wordmark__line--bottom">to Brazil</span>
+    </span>
+  </span>`;
+}
+
 function renderLink(url, label) {
   return `<a href="${url}">${escapeHtml(label)}</a>`;
+}
+
+function hashString(value) {
+  let hash = 0;
+  for (let index = 0; index < value.length; index += 1) {
+    hash = (hash * 31 + value.charCodeAt(index)) | 0;
+  }
+  return hash;
+}
+
+function pickVariant(seed, options) {
+  return options[Math.abs(hashString(seed)) % options.length];
+}
+
+function normalizeTopic(topic) {
+  return topic
+    .toLowerCase()
+    .replace(/[()]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function topicProfile(topic) {
+  const lower = normalizeTopic(topic);
+  const has = (...phrases) => phrases.some((phrase) => lower.includes(phrase));
+
+  let theme = "general";
+  if (lower === "nationwide online support" || lower === "trust markers") {
+    theme = "institutional";
+  } else if (has("official-resource", "official source", "official-resource orientation")) {
+    theme = "authority";
+  } else if (has("what to prepare", "document uploads")) {
+    theme = "documents";
+  } else if (has("intake fields", "manual review", "manual review and confirmation", "scope boundaries", "limitations of initial analysis")) {
+    theme = "consultation";
+  } else if (has("ongoing support", "monitoring")) {
+    theme = "compliance";
+  } else if (has("payment", "proof-of-payment", "fee", "refund", "receiver email")) {
+    theme = "payment";
+  } else if (has("email", "phone", "whatsapp", "full name", "occupation", "country", "notes", "message", "case reference")) {
+    theme = "contact";
+  } else if (
+    has(
+      "deadline",
+      "timing",
+      "timeline",
+      "36-hour",
+      "scheduling",
+      "renewal",
+      "expiry",
+      "window",
+      "manual confirmation",
+      "next steps",
+      "next step",
+      "processing",
+      "sequence"
+    )
+  ) {
+    theme = "timing";
+  } else if (has("document", "documentation", "record", "records", "certificate", "upload", "proof", "translation", "evidence", "file")) {
+    theme = "documents";
+  } else if (has("federal police", "policia", "consular", "consulate", "authority", "authorities", "court", "jurisdiction", "competent", "registration", "ministry")) {
+    theme = "authority";
+  } else if (has("compliance", "obligation", "obligations", "duty", "duties", "maintenance", "monitoring", "conditions", "status", "regularization", "responsibilities")) {
+    theme = "compliance";
+  } else if (has("consultation", "intake", "initial analysis", "scope", "information provided by client", "what to prepare", "request flow", "manual review", "select your service", "current immigration stage")) {
+    theme = "consultation";
+  } else if (has("naturalisation", "citizenship", "renunciation", "reacquisition", "residency-history")) {
+    theme = "citizenship";
+  } else if (has("deportation", "expulsion", "extradition", "appeals", "fines", "litigation", "rights", "representation", "protection")) {
+    theme = "defense";
+  } else if (has("family", "reunion", "relationship", "spouse", "parent", "child")) {
+    theme = "family";
+  } else if (has("work", "employment", "employer", "business", "invest", "startup", "corporate", "economic", "retiree", "nomad", "sports", "journalist", "artistic", "medical", "religious", "labor", "sponsored", "authorization")) {
+    theme = "work";
+  } else if (has("study", "student", "research", "exchange", "educational", "academic", "school", "university")) {
+    theme = "education";
+  } else if (has("privacy", "lgpd", "gdpr", "cookies", "consent", "accessibility", "acceptable use", "data subject", "processing", "terms")) {
+    theme = "policy";
+  } else if (has("search", "directory", "guides", "faqs", "blog", "updates", "keyword", "navigation", "publication")) {
+    theme = "search";
+  } else if (
+    has(
+      "living",
+      "cost",
+      "housing",
+      "healthcare",
+      "education system",
+      "safety",
+      "culture",
+      "festivals",
+      "cuisine",
+      "events",
+      "cities",
+      "states",
+      "municipalities",
+      "regional",
+      "climate",
+      "infrastructure",
+      "quality of life",
+      "mobility",
+      "transport"
+    )
+  ) {
+    theme = "location";
+  } else if (
+    has(
+      "mission",
+      "values",
+      "philosophy",
+      "story",
+      "profile",
+      "lawyer",
+      "why us",
+      "clients",
+      "testimonials",
+      "governance",
+      "ethics",
+      "standards",
+      "regulatory",
+      "purpose",
+      "scope of services",
+      "organizational"
+    )
+  ) {
+    theme = "institutional";
+  } else if (has("results", "outcome", "outcomes", "approval", "limitations", "predictability", "denial", "failure", "mistakes", "decision")) {
+    theme = "outcome";
+  } else if (has("eligibility", "qualification", "applicable", "category", "categories", "pathway", "route", "classification", "legal basis", "selection", "visa", "residency", "residence")) {
+    theme = "route";
+  }
+
+  const profiles = {
+    payment: {
+      focus: "the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible",
+      review: "the payment method used, whether proof was sent correctly, and whether the requested timing respects the scheduling rule",
+      risk: "payment is treated as if it automatically books the consultation or confirms a slot before manual review",
+      why: "Payment steps need to be clear.",
+      action: "Pay correctly and send proof."
+    },
+    contact: {
+      focus: "clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed",
+      review: "how the client identifies the matter, how the team can respond, and whether the first message already contains the key facts",
+      risk: "the first contact is too vague to identify the route, the urgency, or the next practical step",
+      why: "Good contact details prevent avoidable delay.",
+      action: "Send a clear first summary."
+    },
+    timing: {
+      focus: "timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed",
+      review: "the present status, the relevant dates, and any appointment or filing windows already in play",
+      risk: "people spend money or make travel plans before the timeline is legally or administratively workable",
+      why: "Timing can change the route.",
+      action: "Check dates before acting."
+    },
+    documents: {
+      focus: "Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify",
+      review: "whether the records are current, consistent, translated where necessary, and strong enough for the authority or consular stage involved",
+      risk: "a route may look viable in theory but become fragile because the papers are incomplete, inconsistent, or not ready for use",
+      why: "Documents support the legal story.",
+      action: "Organize the file early."
+    },
+    authority: {
+      focus: "the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs",
+      review: "which authority or consular channel is actually involved, what that body handles, and what must be prepared for that specific interaction",
+      risk: "clients assume every immigration issue is handled by the same office and lose time following the wrong channel",
+      why: "The right authority matters.",
+      action: "Confirm who handles the step."
+    },
+    compliance: {
+      focus: "immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next",
+      review: "ongoing duties, reporting points, validity periods, and the practical steps needed to keep the file in order after the first decision",
+      risk: "a client treats the approval as the finish line and overlooks the duties that protect the status afterwards",
+      why: "Post-approval duties still matter.",
+      action: "Keep obligations visible."
+    },
+    consultation: {
+      focus: "the first review works best when the objective, the current status, and the available facts are clear from the beginning",
+      review: "what the client is trying to do, what documents already exist, and what questions must be clarified before any route is discussed seriously",
+      risk: "a short message is mistaken for a full case assessment, even though the real analysis depends on the documents and chronology",
+      why: "The first review sets the scope.",
+      action: "Prepare the core facts."
+    },
+    citizenship: {
+      focus: "citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used",
+      review: "the residence timeline, identity and civil records, the legal basis claimed, and any gap that may affect the category",
+      risk: "people speak about citizenship in broad terms while the actual route depends on technical requirements that need careful checking",
+      why: "Citizenship routes are technical.",
+      action: "Check the legal basis carefully."
+    },
+    defense: {
+      focus: "defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options",
+      review: "the authority act involved, the immediate risk, the response window, and the documents needed to support the client's position",
+      risk: "stress pushes the matter into rushed communication before the legal and factual posture is properly understood",
+      why: "Response quality matters quickly.",
+      action: "Clarify the risk and deadline."
+    },
+    family: {
+      focus: "family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority",
+      review: "the family tie, the civil records available, cross-border documents, and any fact that may need careful explanation",
+      risk: "the relationship is assumed to be enough on its own even though the authority still needs properly prepared evidence",
+      why: "The relationship must be documented.",
+      action: "Match the family story to the records."
+    },
+    work: {
+      focus: "work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely",
+      review: "the activity itself, the company or institutional context, the expected timeline, and the records needed to support the route",
+      risk: "the category is chosen from the label alone, while the actual facts point to a different route or a different preparation sequence",
+      why: "Activity and category must match.",
+      action: "Define the activity precisely."
+    },
+    education: {
+      focus: "study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly",
+      review: "the institution, the program or invitation, the student's current status, and the records needed for the chosen stage",
+      risk: "the academic objective is clear to the client but not yet documented in the way the authority expects",
+      why: "Academic purpose has to be shown.",
+      action: "Confirm the institution and records."
+    },
+    location: {
+      focus: "relocation planning is rarely abstract, because city, region, infrastructure, budget, and public-service access all affect how realistic a move feels after arrival",
+      review: "regional differences, living costs, service access, and the practical trade-offs between one part of Brazil and another",
+      risk: "Brazil is treated as if one city's reality applies everywhere, which usually leads to weak planning",
+      why: "Regional differences affect daily life.",
+      action: "Compare places realistically."
+    },
+    institutional: {
+      focus: "potential clients usually need to understand how the practice works before they decide whether the fit is right",
+      review: "how the practice organizes the work, what can be discussed publicly, and where general information ends and case-specific advice begins",
+      risk: "institutional language becomes marketing copy instead of helping readers evaluate standards, scope, and working method",
+      why: "Clarity builds trust.",
+      action: "Use the page to assess fit."
+    },
+    outcome: {
+      focus: "expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion",
+      review: "what the page can responsibly say about results, what remains outside the lawyer's control, and what preparation can realistically improve",
+      risk: "language becomes promotional and obscures the difference between good preparation and a certain outcome",
+      why: "Expectations need realistic framing.",
+      action: "Read outcome language carefully."
+    },
+    policy: {
+      focus: "policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them",
+      review: "what happens operationally, what the visitor can control, and how privacy, consent, or accessibility requests are handled",
+      risk: "a practical rule is hidden inside abstract legal language and becomes hard for a real person to follow",
+      why: "Operational rules should be readable.",
+      action: "Follow the stated rule directly."
+    },
+    search: {
+      focus: "navigation topics matter because readers should be able to find the right information without confusing broad guidance with case-specific advice",
+      review: "which questions belong to route guidance, which belong to process guidance, and when browsing should move into intake",
+      risk: "a reader stays in research mode too long or follows the wrong path for the issue that needs solving",
+      why: "Navigation changes the user journey.",
+      action: "Move to the right page quickly."
+    },
+    route: {
+      focus: "the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken",
+      review: "the stated goal, the legal category under consideration, and whether the documents and timing truly support that route",
+      risk: "a category is chosen too early because the label sounds right even though the facts need a different analysis",
+      why: "Route fit shapes the file.",
+      action: "Test the category before filing."
+    },
+    general: {
+      focus: "clients usually need the topic translated into practical terms before they can decide what to do with it",
+      review: "how the issue affects timing, documents, next steps, and the realistic scope of general guidance",
+      risk: "the topic sounds clear in theory but remains too abstract for a real decision",
+      why: "Practical clarity matters.",
+      action: "Turn the topic into a next step."
+    }
+  };
+
+  return { lower, theme, ...profiles[theme] };
+}
+
+function themeProcessExplanation(profile) {
+  switch (profile.theme) {
+    case "route":
+      return "A typical route review starts by confirming the client's objective, current status, and legal basis, then checking whether the next formal step belongs at a consulate, with the Federal Police, or at a later registration stage in Brazil.";
+    case "work":
+      return "A typical work-related file starts with the real activity in Brazil, the sponsoring company or business structure, and the category that best matches that activity before any supporting record is finalized.";
+    case "family":
+      return "A typical family-based case starts with the exact family relationship, the civil records that prove it, and the way the family history will be presented to the authority.";
+    case "education":
+      return "A typical academic case starts with the institution, the program or invitation, and the document trail showing why the study, research, or exchange purpose fits the chosen route.";
+    case "citizenship":
+      return "A typical citizenship review starts with the statutory basis, the residence timeline, and the continuity of the identity and civil records needed for the filing.";
+    case "documents":
+      return "A typical document review starts by separating identity and civil records from route-specific proof, then checking validity, consistency, apostille needs, and sworn translation needs before the file is assembled.";
+    case "timing":
+      return "A typical timing review starts with expiry dates, appointment windows, travel plans, and the client's current status before any filing or consular step is chosen.";
+    case "authority":
+      return "A typical procedural review starts by identifying which authority controls the next step, because consular posts, the Federal Police, ministries, and courts can each require a different sequence and a different record set.";
+    case "compliance":
+      return "A typical compliance review starts after the initial approval question, because registration, updates, renewals, and later duties usually determine whether the status remains protected.";
+    case "consultation":
+      return "A useful first consultation usually starts with the objective, the current immigration position, the key dates, the documents already available, and the questions the client most needs answered.";
+    case "defense":
+      return "A typical defense review starts with the authority act, the response deadline, the immediate risk, and the records needed to support the client's position before any message is sent in haste.";
+    case "policy":
+      return "A practical policy review starts with the rule itself, the action it changes, and the correct channel the client should use before moving forward.";
+    case "contact":
+      return "A useful first message usually starts with the route or issue, the client's location, the key dates, and the fastest reply channel.";
+    case "location":
+      return "A useful relocation comparison usually starts with budget, rent, transport, healthcare, school planning where relevant, and how daily administration works in the chosen city or state.";
+    case "institutional":
+      return "A serious client usually starts by checking who will handle the matter, how scope is set, how communication is documented, and how professional boundaries are kept clear.";
+    case "outcome":
+      return "A realistic outcome review starts by separating what preparation can improve from what still depends on authority discretion, documentary quality, and timing.";
+    default:
+      return "A practical review starts by linking the topic to the next legal step, the key dates, and the documents that will matter when the matter stops being theoretical.";
+  }
+}
+
+function themeRecordExplanation(profile) {
+  switch (profile.theme) {
+    case "route":
+      return "Typical records at this point include passports, current-status evidence, route-specific civil or corporate documents, and proof showing why the chosen category fits the facts.";
+    case "work":
+      return "Typical records include passports, corporate records, contracts or assignment material, proof of the proposed activity in Brazil, and any documents the sponsor must issue.";
+    case "family":
+      return "Typical records include passports, birth or marriage certificates, proof of the family tie, and any supporting documents needed to explain the relationship clearly and consistently.";
+    case "education":
+      return "Typical records include passports, enrollment or invitation letters, proof of the academic purpose, and the identity or civil documents required for the chosen route.";
+    case "citizenship":
+      return "Typical records include residence-history evidence, civil certificates, identity documents, and any document needed to show continuity of lawful residence or the precise legal basis.";
+    case "documents":
+      return "Strong files are built from clean civil records, route-specific proof, translations where required, and a chronology that tells one consistent story from start to finish.";
+    case "timing":
+      return "The decisive record set is often the one that proves current status validity, prior filings, appointment availability, and the dates that cannot safely be missed.";
+    case "authority":
+      return "The same client can face different forms, booking systems, and document expectations depending on which authority controls the next step.";
+    case "compliance":
+      return "The file often needs later registration records, renewal planning, update proofs, and evidence that the client kept the status aligned after the first approval.";
+    case "consultation":
+      return "The first review works best with passports, visas or cards, civil certificates, sponsor or company records where relevant, and a short timeline of key events.";
+    case "defense":
+      return "The critical record set usually includes the authority notice, the client's status records, proof supporting the response, and any deadlines or procedural notices already issued.";
+    case "policy":
+      return "The important point is not abstract legal vocabulary but whether the reader can identify the right channel, permission, payment, or consent step.";
+    case "contact":
+      return "A short summary with route, location, deadline, and available documents is more useful than a long message without chronology.";
+    case "location":
+      return "The most useful planning points are monthly budget, rent, transport, health access, school options where relevant, and how local administration affects daily life after arrival.";
+    case "institutional":
+      return "Clients usually look for clear professional identification, scope boundaries, languages of service, and a working method that can be understood before contact.";
+    case "outcome":
+      return "A realistic file separates what preparation can strengthen from what no lawyer can promise, especially where timing, documents, and official discretion still control the result.";
+    default:
+      return "The practical value comes from turning the topic into documents, dates, decisions, and a clearer next move.";
+  }
+}
+
+function themeGuardrail(profile) {
+  switch (profile.theme) {
+    case "route":
+      return "If the route is chosen too early, money is often spent on the wrong translations, bookings, or document requests.";
+    case "work":
+      return "Many avoidable problems begin when the visa label is chosen first and the factual structure is checked later.";
+    case "family":
+      return "Many delays come from treating the relationship itself as enough without building the record set the authority still expects.";
+    case "education":
+      return "Academic purpose is often clear to the client long before it is clear in the documents.";
+    case "citizenship":
+      return "Citizenship filings usually fail on continuity, timing, or statutory detail rather than on broad eligibility assumptions.";
+    case "documents":
+      return "A file that looks complete at first glance can still fail if dates, names, translations, or route-specific proof do not line up cleanly.";
+    case "timing":
+      return "The wrong sequence can create avoidable cost, expired status problems, or travel decisions that are hard to unwind later.";
+    case "authority":
+      return "Following the wrong authority or the wrong channel can waste weeks before the real issue is even reviewed.";
+    case "compliance":
+      return "A good result can still be undermined later if registrations, renewals, or update duties are treated as secondary.";
+    case "consultation":
+      return "The first conversation is most useful when it is treated as route assessment and risk review, not as a shortcut around document analysis.";
+    case "defense":
+      return "In defense matters, rushed language and incomplete chronology often cause more damage than a short delay used to organize the response properly.";
+    case "policy":
+      return "Operational rules only protect the client if the next action is clear and followed correctly.";
+    case "contact":
+      return "The first reply is much easier to give when the core facts, deadline, and communication channel are clear from the beginning.";
+    case "location":
+      return "Brazil usually stops looking like one market as soon as rent, transport, healthcare, and local administration are compared closely.";
+    case "institutional":
+      return "Clear professional boundaries are part of the service quality, not a formality added after the client makes contact.";
+    case "outcome":
+      return "The safest planning always starts from what can be prepared carefully, not from the assumption that good preparation guarantees the result.";
+    default:
+      return "The safest approach is to turn the topic into a practical next step instead of leaving it at the level of general interest.";
+  }
 }
 
 function uiIcon(key) {
@@ -210,9 +637,9 @@ function getOfficialSources(page) {
 function getFamilyLead(page) {
   switch (page.sectionStyle) {
     case "about":
-      return "This page sets out institutional context in a neutral, OAB-safe voice and avoids claims about outcomes or superiority.";
+      return "Practice information is presented in a neutral, OAB-safe voice and avoids claims about outcomes or superiority.";
     case "lawyer":
-      return "This page is the only location on the site where the named professional reference is used directly, and it stays limited to publicly available factual material.";
+      return "The lawyer profile stays limited to public, verifiable professional facts.";
     case "brazil":
     case "brazil-search":
       return "The goal here is orientation rather than promotion: readers get structured context about Brazil, authorities, variation between regions, and practical relocation considerations.";
@@ -231,133 +658,209 @@ function getFamilyLead(page) {
     case "emergency":
       return "Urgent situations are handled with a practical first-response logic: immediate threats go first to the competent authority, while legal follow-up is coordinated through WhatsApp.";
     case "legal":
-      return "Policy pages explain how the website operates, how data is handled, and how readers can understand the boundaries of the platform.";
+      return "Policy pages explain payment, contact, privacy, consent, and accessibility in operational terms.";
     case "insight":
       return "Insights pages are editorial explainers that clarify concepts, institutions, and distinctions often misunderstood by people planning a move to Brazil.";
     default:
-      return "The site is structured to give readers clear guidance, grounded in official sources and neutral language, before any consultation is requested.";
+      return "The content is structured to give readers clear guidance, grounded in official sources and neutral language, before any consultation is requested.";
   }
 }
 
 function buildIntroParagraph(page) {
-  const familyIntro =
-    page.family === "brazil"
-      ? "Brazil is large, institutionally layered, and regionally varied, so any useful explanation has to balance federal rules with local realities."
-      : page.family === "services"
-        ? "Advisory work in immigration matters is rarely about a single form or a single appointment; it usually involves timing, documentation, official channels, and a careful reading of purpose and eligibility."
-        : page.family === "process"
-          ? "A process view helps readers understand what happens before, during, and after filing, and where professional support can reduce avoidable risk without promising a result."
-          : page.family === "about"
-            ? "Institutional pages matter because readers need to understand the structure of the platform, its informational goals, and the professional boundaries that apply to legal content in Brazil."
-            : page.family === "legal"
-              ? "Operational and policy pages should be as readable as service pages, because expectations around data, payment, contact, and access directly affect user decisions."
-              : "People exploring immigration to Brazil often need a single page that brings together concept, procedure, documentation logic, and authority context.";
-
-  return `<p class="lead">${escapeHtml(page.summary)}</p>
-  <p>${escapeHtml(getFamilyLead(page))}</p>
-  <p>${escapeHtml(familyIntro)} ${escapeHtml(
+  let lead = page.summary;
+  let paragraphOne = getFamilyLead(page);
+  let paragraphTwo =
     page.route === "/about/lawyer/"
-      ? "Where the site references the lawyer profile, it does so only within the limited factual scope permitted by the brief."
-      : "Throughout the site, the language stays informational, avoids guarantees, and points readers back to official sources whenever a formal rule or authority decision controls the next step."
-  )}</p>`;
+      ? "Only limited, publicly verifiable professional facts are used, in line with the factual scope permitted by the brief."
+      : "The language stays client-facing, avoids guarantees, and points readers back to official sources whenever a formal rule or authority decision controls the next step.";
+
+  if (page.route === "/") {
+    lead = "Private-client legal guidance on visas, residency, citizenship, and relocation planning in Brazil.";
+    paragraphOne =
+      "If you are planning a move, regularization, or long-term status in Brazil, the first question is rarely which label sounds attractive. The real question is which legal route fits the facts, the timing, and the documents already available.";
+    paragraphTwo =
+      "A typical matter starts with route fit, then moves into chronology, documents, authority choice, and later compliance duties. Once the issue turns on personal facts or supporting records, the next step is consultation rather than guesswork.";
+  } else if (page.sectionStyle === "services-home" || page.sectionStyle === "service-hub" || page.sectionStyle === "service-child") {
+    lead = `Client-facing guidance on ${page.title.toLowerCase()} matters in Brazil.`;
+    paragraphOne =
+      "These pages explain how a Brazil immigration matter is usually built in practice: first the route is tested, then the chronology is checked, then the documents are reviewed, and only after that does the filing or appointment strategy become reliable.";
+    paragraphTwo =
+      "That sequence matters because the wrong category, the wrong timing, or the wrong document set can waste money before the authority ever looks at the file. The language stays careful because no responsible lawyer should treat an immigration category as a certain outcome.";
+  } else if (page.sectionStyle === "process") {
+    lead = `Practical guidance on the ${page.title.toLowerCase()} stage of a Brazil immigration matter.`;
+    paragraphOne =
+      "Clients often discover that the immigration process is less linear than they expected. A stage-by-stage explanation helps show what belongs to the applicant, what belongs to the authority, and which issues usually need attention before the next move is made.";
+    paragraphTwo =
+      "That is why these pages speak directly about deadlines, document control, follow-up duties, and common points of confusion. The result should be a more efficient consultation and fewer preventable mistakes, not a promise of administrative outcome.";
+  } else if (page.sectionStyle === "consultation") {
+    lead = "How the consultation request works, what to prepare, and what happens before a meeting is confirmed.";
+    paragraphOne =
+      "A consultation should begin with clear expectations. The request comes first, payment follows, and scheduling only moves ahead after proof is checked and the timing rule is respected.";
+    paragraphTwo =
+      "A useful first review usually begins with the objective, the current status, the key dates, and the documents already available. That is what allows route options, risks, and missing records to be identified in a structured way.";
+  } else if (page.sectionStyle === "payment") {
+    lead = "Consultation payment instructions written for real clients, not as fine print.";
+    paragraphOne =
+      "Payment pages are most useful when they remove uncertainty. A client should be able to see the accepted methods, where proof should be sent, and when scheduling can realistically move forward.";
+    paragraphTwo =
+      "The aim here is straightforward administration: clear steps, clear receiver details, and no implication that payment alone creates a booking, engagement, or guaranteed service outcome.";
+  } else if (page.sectionStyle === "form") {
+    lead = "A detailed intake form for sending the first summary of your matter.";
+    paragraphOne =
+      "The form is designed to collect the facts that usually change route analysis, timing, and document planning. That makes the first review more efficient and reduces avoidable follow-up questions.";
+    paragraphTwo =
+      "Submission on its own does not create representation. What it does create is a cleaner starting record, which helps the team identify the likely route, the missing information, and the right next operational step.";
+  } else if (page.sectionStyle === "emergency") {
+    lead = "How urgent immigration situations should be raised and what should be treated as genuinely urgent.";
+    paragraphOne =
+      "Urgent matters need short, useful communication. This page explains when WhatsApp is the right first contact, when an immediate public-authority response matters more, and what information helps the team understand the issue quickly.";
+    paragraphTwo =
+      "It also keeps the limits visible. An emergency message is a channel for triage, not a promise of immediate intervention, and the safest first step still depends on the type of risk involved.";
+  } else if (page.family === "brazil") {
+    lead = `Relocation guidance on ${page.title.toLowerCase()} for people planning life in Brazil.`;
+    paragraphOne =
+      "Brazil is large, institutionally layered, and regionally varied, so useful relocation content has to go beyond slogans. These pages are written to help readers compare places, costs, infrastructure, and day-to-day realities in a way that supports better immigration planning.";
+    paragraphTwo =
+      "The goal is not to sell a lifestyle. It is to connect practical relocation questions to official data, regional differences, and the kind of decisions that matter before choosing a city, a budget, or a longer-term route.";
+  } else if (page.family === "about") {
+    lead = `Professional guidance on ${page.title.toLowerCase()} for prospective clients.`;
+    paragraphOne =
+      "Institutional pages matter because readers need more than service lists. They need to understand the practice's working method, professional boundaries, and the standards used when handling immigration matters for international clients.";
+    paragraphTwo =
+      "These pages therefore emphasize factual clarity over marketing language. They help a reader assess fit, understand the style of communication, and see what belongs in public information versus what requires a proper legal review.";
+  } else if (page.family === "legal") {
+    lead = `Operational guidance on ${page.title.toLowerCase()} for clients and visitors.`;
+    paragraphOne =
+      "Policy and operational pages should be as readable as service pages, because decisions about contact, payment, consent, privacy, and platform use affect real people before any consultation takes place.";
+    paragraphTwo =
+      "For that reason, these notices are written to be usable first and compliant second, not the other way around. Visitors should be able to understand the rule, the boundary, and the next action without reading through filler.";
+  } else if (page.family === "insights") {
+    lead = `Plain-English guidance on ${page.title.toLowerCase()} in the Brazilian immigration context.`;
+    paragraphOne =
+      "Insights pages are meant to reduce confusion before a person decides whether they need a formal consultation. They explain the ideas, institutions, and distinctions that frequently sit behind a Brazil immigration question but are often misunderstood in broad online discussions.";
+    paragraphTwo =
+      "That makes them useful both for clients and for readers still in research mode. The content stays educational, but it is written with the practical reader in mind: someone who wants clearer terminology, better questions, and a more realistic picture of what comes next.";
+  }
+
+  return `<p class="lead">${escapeHtml(lead)}</p>
+  <p>${escapeHtml(paragraphOne)}</p>
+  <p>${escapeHtml(paragraphTwo)}</p>`;
 }
 
 function topicParagraphs(page, topic, index) {
-  const topicLower = topic.toLowerCase();
+  const topicLower = normalizeTopic(topic);
   const pageLower = page.title.toLowerCase();
+  const profile = topicProfile(topic);
+  const seed = `${page.key}:${topic}:${index}`;
 
   if (page.route === "/about/lawyer/") {
     const lawyerContent = {
-      "Full Identification": `Public source material reviewed for this website identifies ${LAWYER_FACTS.legalName} as a Brazilian attorney and names ${LAWYER_FACTS.oab} as the professional registration reference. That is the core identification detail used here. The page does not expand beyond public-facing material, and it deliberately avoids inventing biographical information that the source record does not state. Keeping this section limited is important for accuracy, for OAB-safe communication, and for preserving a clear distinction between public professional identification and unverified personal biography.`,
-      "Academic Background": `The brief asks for academic background, but the available source materials reviewed for this build do not publish a law-school name, degree date, or a public academic timeline. For that reason, this section is intentionally narrow: it explains that the site will not infer an institution, a degree sequence, or a credential list that was not clearly made public in the source material. In other words, factual restraint is treated as part of compliance. Where a future verified public record exists, this page can be updated with precise institutional details, but the current release stops at what is presently documented.`,
-      "Professional Qualifications": `The professionally relevant facts that can be stated with confidence are the OAB registration, the public identification as a Brazilian attorney, the stated service languages, and the public positioning of the practice in immigration-related matters. That is enough to explain qualification in a legally careful way without sliding into promotional language. The point of this page is not to market prestige; it is to tell readers what can be verified, how the professional role is framed, and where the boundaries of public information currently sit.`,
-      "Areas of Practice": `Source material indicates a practice focus that includes immigration, civil, family, and human-rights matters. This website, however, is built for immigration-focused guidance, so that broader range is mentioned only as contextual background. Readers should understand the difference between a public description of practice areas and the narrower editorial scope of this platform. The information architecture here keeps immigration front and center while acknowledging that cross-border cases sometimes intersect with family status, records, translations, or related civil questions.`,
-      "Immigration Experience": `Public-facing materials describe experience supporting immigration matters and reference a practice active since 2018. Rather than turning that into a comparative claim, this page uses it to situate the timeline of the work. Experience in this context means repeated exposure to documentation review, route assessment, status maintenance, and authority-led procedures. It does not remove uncertainty from any case, and it does not substitute for the formal rules issued by the competent authorities. The practical value of experience lies in organization, issue spotting, and communication discipline.`,
-      "Languages": `The reviewed source materials state that services are offered in English and Portuguese. On this site, that fact matters because many users are international readers navigating Brazilian institutions for the first time. Clear bilingual service capacity can reduce misunderstanding around document names, procedural expectations, and next-step instructions. It does not change the legal standards applied by Brazilian authorities, but it can improve how guidance is understood and how communication is sequenced between intake, review, and later stages of a matter.`
+      "Full Identification": `Public source material identifies ${LAWYER_FACTS.legalName} as a Brazilian attorney and names ${LAWYER_FACTS.oab} as the professional registration reference. That is the core professional identification currently verified. No additional biographical detail is added where the public record does not state it. That restraint protects accuracy, supports OAB-safe communication, and keeps a clear distinction between verified professional identification and unsupported biography.`,
+      "Academic Background": `The available public material reviewed for this build does not publish a law-school name, degree date, or public academic timeline. For that reason, no institution, degree sequence, or credential list is inferred here. Factual restraint is part of compliance. If verified public records later make those details available, they can be stated precisely rather than guessed from incomplete material.`,
+      "Professional Qualifications": `The professionally relevant facts that can be stated with confidence are the OAB registration, the public identification as a licensed Brazilian attorney, the stated service languages, and the public positioning of the practice in immigration-related matters. In practical terms, that means an OAB-registered lawyer handling Brazil immigration guidance within the limits of the public record. What matters here is what can be verified, how the professional role is framed, and where the public record ends.`,
+      "Areas of Practice": `Source material indicates a practice focus that includes immigration, civil, family, and human-rights matters. The client guidance here is immigration-focused, so the broader range appears only as contextual background. That distinction matters because cross-border cases sometimes overlap with family status, records, translations, or related civil issues, even when the primary question is immigration.`,
+      "Immigration Experience": `Public-facing materials describe experience supporting immigration matters and reference practice activity since 2018. Rather than turning that into a comparative claim, the safer reading is repeated exposure to document review, route assessment, status maintenance, and authority-led procedures. Experience does not remove uncertainty from any case, but it can improve organization, issue spotting, and communication discipline.`,
+      "Languages": `The reviewed source materials state that services are offered in English and Portuguese. For international clients navigating Brazilian institutions for the first time, bilingual communication can reduce misunderstanding around document names, procedural expectations, and next-step instructions. It does not change the legal standards applied by Brazilian authorities, but it can improve how guidance is understood and how communication is sequenced between intake, review, and later stages of a matter.`
     };
     const text =
       lawyerContent[topic] ||
-      `This section addresses ${topicLower} using only public, verifiable facts and avoids embellishment. That restraint is deliberate, because professional profile pages should remain accurate even when the underlying source material is limited.`;
+      `Only public, verifiable facts are used here and no embellishment is added. That restraint is deliberate, because a professional profile should remain accurate even when the available source material is limited.`;
     return [
       text,
-      `Viewed together, the lawyer profile on this site is intentionally modest: it confirms identity, registration reference, languages, and practice framing, but it avoids unsupported biography. That method aligns with the broader editorial approach of the project, which favors careful public facts over inferred credentials or persuasive claims.`
+      `Taken together, the profile confirms identity, registration reference, languages, and practice framing while avoiding unsupported biography. That approach favors careful public facts over inferred credentials or persuasive claims.`
     ];
   }
 
   const style = page.sectionStyle;
   if (style === "about") {
     return [
-      `${topic} is treated here as part of the platform's institutional architecture rather than as a marketing slogan. In practice, that means explaining how the site organizes information, where immigration guidance fits within Brazilian legal and administrative structures, and how readers should interpret the material before taking action. Because the platform is English-first and built for cross-border readers, each institutional topic also has to be usable by people who may not yet know the difference between a visa, a residence authorization, a Federal Police registration duty, and a later citizenship route. The narrative therefore focuses on definitions, scope, and operational clarity.`,
-      `From a compliance perspective, ${topicLower} also helps set boundaries. It tells readers what the site can do, what it cannot do, and why a later consultation may still be necessary for a case-specific answer. Institutional pages are where transparency becomes concrete: they explain nationwide online service delivery, acknowledge regional examples without narrowing the service area, and make clear that Brazilian authorities issue final decisions. That is especially important in immigration matters, where readers often arrive with urgent goals, incomplete document files, or assumptions drawn from another country's system.`
+      `${pickVariant(seed, [
+        `Before hiring any lawyer, a client should understand ${topicLower} in concrete terms.`,
+        `${topicLower} matters because it shows how the work is organized, how communication is handled, and what standards guide the representation.`,
+        `A serious client usually wants more than mission language, and ${topicLower} should make the practice easier to evaluate.`
+      ])} ${themeProcessExplanation(profile)} ${themeRecordExplanation(profile)}`,
+      `${themeGuardrail(profile)} ${topicLower} should make professional boundaries visible, make the working method easier to evaluate, and separate general information from case-specific legal advice.`
     ];
   }
 
   if (style === "brazil" || style === "brazil-search") {
     return [
-      `${topic} is best understood in a Brazil-wide frame first and a local frame second. Federal institutions set many of the rules that matter to migrants and residents, but living conditions, service availability, cost patterns, and administrative friction vary by state and municipality. That is why this page treats ${topicLower} as a contextual issue rather than a single nationwide fact. Readers thinking about Brazil need both the macro picture and the regional nuance: what is common across the country, what changes between capitals and interior cities, and what practical differences appear once a person starts dealing with housing, schooling, healthcare, mobility, or documentation.`,
-      `In relocation planning, ${topicLower} also connects directly with decision quality. A route that looks straightforward on paper can feel different once transport, safety, cost variation, climate, local infrastructure, and public-service access are taken into account. The value of this section is therefore not to rank places or make lifestyle promises. Instead, it gives a structured lens for comparing regions, understanding institutional responsibilities, and identifying where official datasets, municipal information, or national statistics should be consulted before making a move, renting property, or structuring a long-term immigration plan.`
+      `${pickVariant(seed, [
+        `The subject of ${topicLower} matters to relocation planning because ${profile.focus}.`,
+        `When people compare life in Brazil seriously, the issue of ${topicLower} usually matters because ${profile.focus}.`,
+        `For anyone planning a move, ${topicLower} matters because ${profile.focus}.`
+      ])} ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
     ];
   }
 
   if (style === "process") {
     return [
-      `${topic} is one of the points where readers often need a more realistic picture of how Brazilian immigration administration works. Procedures are not only about eligibility; they also depend on document consistency, timing, the correct authority, and the ability to respond to follow-up requests without creating contradictions in the file. This is why process guidance focuses on structure. By breaking ${topicLower} into its legal and administrative components, the page helps people understand what is in their control, what remains in the authority's control, and where professional review can prevent avoidable friction.`,
-      `A process-oriented reading of ${topicLower} is also useful because it counters a common misunderstanding: many applicants assume that once a route is chosen, the rest is mechanical. In reality, the sequence of preparation matters. Documents may need legalization, translation, updates, or consistency checks; timelines can move around authority backlogs; and some obligations only become visible after submission or after approval. The section therefore explains ${topicLower} as a management issue as much as a legal issue, which is often the difference between a coherent case file and a preventable setback.`
+      `${pickVariant(seed, [
+        `Clients often reach the ${pageLower} stage with more uncertainty than they expected.`,
+        `By the time a matter reaches the ${pageLower} stage, many clients assume the next move is obvious.`,
+        `The ${pageLower} stage usually looks simpler from the outside than it feels inside a real file.`
+      ])} ${themeProcessExplanation(profile)} ${themeRecordExplanation(profile)}`,
+      `Before moving forward, the review usually focuses on ${profile.review}. ${themeGuardrail(profile)} The common risk is that ${profile.risk}.`
     ];
   }
 
   if (style === "service-child" || style === "service-hub" || style === "services-home") {
     return [
-      `In a ${pageLower} matter, ${topicLower} usually begins with a disciplined review of purpose, status, timing, and supporting records. Brazil's immigration system distinguishes between entry, stay, registration, and later status management, so advisory work cannot be reduced to naming a category and filing a form. The legal value of this section lies in showing how the service is organized: what should be checked first, how the intended activity is framed, which documents normally need scrutiny, and where the line sits between a lawful plan and an avoidable compliance risk. That structure helps readers understand the service without implying certainty about an outcome.`,
-      `The same topic also matters after the first analysis, because service delivery continues beyond a checklist. ${topic} can affect how a case is positioned, how an applicant communicates with a consular or administrative authority, how later Federal Police obligations are anticipated, and whether the route still makes sense once facts change. For that reason, the page presents ${topicLower} as an ongoing part of file management. It is not presented as a guarantee, and it is not treated as a shortcut around official rules. Instead, it is framed as a way to reduce inconsistency, clarify expectations, and keep the matter aligned with Brazilian law and procedure.`
+      `${pickVariant(seed, [
+        `For a client considering a ${pageLower} matter, ${topicLower} is one of the issues that usually needs early attention.`,
+        `In a ${pageLower} matter, ${topicLower} is rarely just a label on a checklist.`,
+        `If you are comparing options on a ${pageLower} matter, ${topicLower} is one of the points that usually changes the strategy.`
+      ])} ${themeProcessExplanation(profile)} ${themeRecordExplanation(profile)}`,
+      `During consultation, the review usually focuses on ${profile.review}. ${themeGuardrail(profile)} The common problem is that ${profile.risk}.`
     ];
   }
 
   if (style === "consultation") {
     return [
-      `${topic} is important at the intake stage because consultations work best when expectations are clear before a meeting is confirmed. On this site, the request comes first, payment follows, and scheduling only moves ahead after proof of payment is checked and the team confirms that the requested slot respects the 36-hour minimum window. This sequence keeps operational steps visible and avoids the confusion that happens when a visitor assumes that form submission alone reserves time. By explaining ${topicLower} directly, the page reduces avoidable back-and-forth and helps clients arrive with the right documents and questions prepared.`,
-      `There is also a legal reason to describe ${topicLower} carefully. Early-stage communication often shapes how a later case file is organized, what the first document checklist looks like, and whether a person understands the limits of preliminary analysis. A consultation is a structured discussion, not an automatic engagement or a filing promise. The intake logic on this page therefore treats ${topicLower} as part of proper case scoping: enough information is gathered to identify issues, but final strategy still depends on review of the record, applicable law, current authority guidance, and the practical realities of the applicant's timeline.`
+      `Before a consultation is scheduled, ${topicLower} affects what can happen next. ${themeProcessExplanation(profile)} ${themeRecordExplanation(profile)}`,
+      `At this stage, we normally need ${profile.review}. ${themeGuardrail(profile)} The risk is that ${profile.risk}. A consultation can identify route options, document gaps, and priority issues, but it still depends on the facts actually provided and it is not a promise of outcome.`
     ];
   }
 
   if (style === "payment") {
     return [
-      `${topic} is explained in operational detail because payment misunderstandings quickly affect scheduling, expectations, and later communication. The consultation flow used on this site is simple on purpose: the client requests a consultation, pays the stated fee using one of the accepted channels, sends proof, and then waits for manual confirmation. By treating ${topicLower} as a documented operational step rather than an informal side note, the site helps visitors understand what has been done, what still needs confirmation, and when an appointment can realistically be set.`,
-      `This matters for fairness as well as efficiency. A payment page should not feel vague or improvised, particularly when visitors may be in different countries and using different transfer methods. That is why ${topicLower} is described alongside receiver details, proof-of-payment expectations, and WhatsApp support for practical issues. The objective is not to create urgency; it is to build a clear administrative trail so that payment, review, and scheduling line up cleanly with the team's manual confirmation workflow.`
+      `For ${topicLower}, the key point is that ${profile.focus}. Payment, proof, and scheduling work together, so a transfer alone does not reserve time.`,
+      `From the client side, the safest approach is simple: ${profile.action.replace(/\.$/, "").charAt(0).toLowerCase()}${profile.action.replace(/\.$/, "").slice(1)}. Clear payment records reduce confusion and make manual confirmation easier.`
     ];
   }
 
   if (style === "form") {
     return [
-      `${topic} appears in the intake form because the team needs a minimum factual basis before reviewing whether a consultation request is ready to move forward. Immigration matters often turn on small details such as nationality, current location, existing status, target timeline, document condition, and intended activity in Brazil. When ${topicLower} is captured early, it helps organize the first review and reduces the risk that a consultation begins with missing essentials. This is not about collecting more data than necessary; it is about receiving enough context to make the first conversation productive and properly scoped.`,
-      `The form also has to serve users who are uncertain about their category. Many people know their goal but not the precise legal label. That is why ${topicLower} is presented with practical explanations rather than technical shorthand wherever possible. The form page makes clear that submission does not create a lawyer-client relationship by itself, but it does create an orderly intake record that supports manual review, follow-up questions, and better preparation for the consultation stage if the request proceeds.`
+      `For ${topicLower}, the key point is that ${profile.focus}. Immigration matters are easier to review when the first message already contains the facts that change route analysis, timing, and document planning.`,
+      `${topicLower} helps structure the first review, reduce follow-up questions, and show what still needs clarification before consultation moves ahead.`
     ];
   }
 
   if (style === "emergency") {
     return [
-      `${topic} is framed here with urgency but also with discipline. Not every stressful immigration problem is a legal emergency, and not every emergency should start with a lawyer. When immediate danger, detention, health risk, or a time-critical authority event is involved, the first contact may need to be the competent public authority. This page explains ${topicLower} so that users understand when WhatsApp is the fastest way to alert the team and when an authority-first response is the safer first step. That distinction prevents delay and keeps legal follow-up aligned with the real nature of the event.`,
-      `Emergency guidance also needs limits. A site can explain channels, response expectations, and what information should be sent, but it cannot promise instant intervention in every situation. By describing ${topicLower} openly, the page gives users a practical escalation path: identify the emergency, send a concise message through WhatsApp, include the location and immediate issue, and understand that existing clients with active matters may require a different handling note than first-time contacts. Clarity is itself a form of support in urgent situations.`
+      `${topic} matters in urgent situations because ${profile.focus}. When time matters, the message has to show what is happening quickly and whether the safest first response belongs with the lawyer, the client, or the competent public authority.`,
+      `In urgent matters, the review focuses on ${profile.review}. The danger is that ${profile.risk}. Short, useful information and realistic expectations matter more than long explanations.`
     ];
   }
 
   if (style === "legal") {
     return [
-      `${topic} is discussed here in plain English because legal notices are only useful if readers can understand them before a problem arises. Whether the issue is privacy, cookies, terms, refunds, or accessibility, the page treats ${topicLower} as an operational commitment that shapes how the platform works. This includes the limits of website use, the lawful bases used for basic data handling, the role of consent for analytics, and the difference between receiving information through a website and formally engaging legal representation. A notice should reduce ambiguity, not create it.`,
-      `Policy content also has a trust function. Visitors deciding whether to contact the team need to know how their information is handled, what the site tracks after consent, and what rights or options they retain if they want to ask questions or withdraw. Explaining ${topicLower} in this context is therefore part of broader compliance. It also aligns with the Brazil-first nature of the site, which uses LGPD as the main framework while acknowledging international expectations when that is appropriate for global readers.`
+      `For privacy, payment, consent, or contact rules, ${topicLower} matters because ${profile.focus}. A visitor should understand the rule before using a form, sending payment, or relying on a platform feature.`,
+      `The next action should be obvious. ${topicLower} is therefore stated in operational terms, with clear boundaries and practical instructions rather than abstract compliance language.`
     ];
   }
 
   if (style === "insight") {
     return [
-      `${topic} is one of the concepts that often gets flattened or misunderstood in public discussions about immigration. An insights page has a different job from a service page: it gives readers a framework for thinking clearly before they decide whether they need case-specific assistance. In the Brazilian context, ${topicLower} is rarely only a matter of terminology. It can affect whether a person approaches a consulate, a ministry, or the Federal Police, and it can change how rights, duties, and timelines are interpreted. That is why this section explains the concept in narrative form instead of reducing it to a single definition.`,
-      `A second reason to isolate ${topicLower} is that migration planning often fails when people treat categories as interchangeable. Visa, residence, registration, renewal, and naturalisation all operate at different stages and under different logics. The purpose of this section is to slow that confusion down. It shows where distinctions matter, which institutional actors are usually involved, and why official guidance should be checked whenever a reader is moving from broad orientation into an actual filing or travel decision.`
+      `${topic} is one of the points that often sounds simple until a client tries to apply it to a real Brazil immigration plan. In practical terms, ${profile.focus}. Read it in plain English first, then decide whether case-specific advice is needed.`,
+      `The purpose is educational, but still practical. We connect ${topicLower} to the authority, document, timing, or route questions it usually affects so the reader can distinguish broad research from the point where a proper legal review becomes necessary.`
     ];
   }
 
   return [
-    `${topic} matters on this page because readers need structured guidance before they can judge what to do next. In the context of ${pageLower}, the subject is explained with attention to documentation, timing, official instructions, and the limits of website-based information. That approach helps keep the page neutral and practical at the same time.`,
-    `The wider point is that ${topicLower} should not be treated as a slogan or a shortcut. It is one part of a broader framework involving legal rules, administrative steps, and real-world preparation. This page therefore connects the topic back to official resources, related internal guidance, and clear next steps for readers who need deeper review.`
+    `The subject of ${topicLower} matters because ${profile.focus}. Many readers arrive with a goal but not yet with the right legal vocabulary, so the explanation is written to turn broad interest into a clearer next step.`,
+    `The approach stays structured and careful: practical information first, clear boundaries, and consultation when the issue becomes specific to one client. That helps readers ask better questions without overstating what general guidance can do.`
   ];
 }
 
@@ -386,57 +889,49 @@ function topicKicker(page, index) {
 }
 
 function topicStrap(page, topic, index) {
-  const topicLower = topic.toLowerCase();
+  const topicLower = normalizeTopic(topic);
   if (page.sectionStyle === "service-child" || page.sectionStyle === "service-hub" || page.sectionStyle === "services-home") {
-    return `Route fit, records, and next-step focus for ${topicLower}.`;
+    return `${topicLower} in terms of route fit, supporting records, and next steps.`;
   }
   if (page.sectionStyle === "process" || page.sectionStyle === "consultation") {
-    return `Sequence, timing, and expectations around ${topicLower}.`;
+    return `${topicLower}, the current stage, and the next practical check.`;
   }
   if (page.sectionStyle === "brazil" || page.sectionStyle === "brazil-search") {
-    return `Regional context and comparison points for ${topicLower}.`;
+    return `${topicLower}, regional comparison, and planning trade-offs.`;
   }
   if (page.sectionStyle === "legal" || ["payment", "form", "emergency"].includes(page.sectionStyle)) {
-    return `Operational guidance on ${topicLower}.`;
+    return `${topicLower} in direct, operational terms.`;
   }
   if (page.sectionStyle === "home") {
-    return `A high-level orientation to ${topicLower}.`;
+    return `${topicLower} for first-time Brazil immigration planning.`;
   }
-  return `Focused context for ${topicLower}.`;
+  return `${topicLower} in practical client terms.`;
 }
 
 function topicNotes(page, topic, index) {
-  const familyNote =
-    page.family === "services"
-      ? "Structured service framing."
-      : page.family === "process"
-        ? "Timing and sequencing matter."
-        : page.family === "brazil"
-          ? "Regional differences matter."
-          : page.family === "legal"
-            ? "Operational notice and limits."
-            : "Orientation before action.";
-
-  const actionNote =
+  const profile = topicProfile(topic);
+  const actionLabel =
     page.sectionStyle === "consultation"
-      ? "Prepare facts and documents."
+      ? "What to send first"
       : page.sectionStyle === "payment"
-        ? "Pay, then send proof."
+        ? "Best next step"
         : page.sectionStyle === "form"
-          ? "Complete the intake clearly."
+          ? "Why this field exists"
           : page.sectionStyle === "emergency"
-            ? "Use WhatsApp first."
+            ? "First response"
             : page.family === "services"
-              ? "Check fit and timing."
+              ? "What clients should do"
               : page.family === "process"
-                ? "Track duties and deadlines."
-                : "Follow official sources.";
+                ? "What to check next"
+                : page.family === "brazil"
+                  ? "Planning use"
+                  : "What to keep in view";
 
   return [
-    { label: "Why it matters", text: familyNote },
+    { label: "Why it matters", text: profile.why },
     {
-      label: index % 2 === 0 ? "What users should do" : "What to keep in view",
-      text: actionNote
+      label: actionLabel,
+      text: profile.action
     }
   ];
 }
@@ -508,28 +1003,28 @@ function pageJourneySteps(page) {
   if (page.family === "legal") {
     return [
       ["Read the rule", "Understand the notice."],
-      ["Check boundaries", "Website use has limits."],
+      ["Check boundaries", "Use, payment, and contact have limits."],
       ["Adjust preferences", "Set consent and accessibility."],
       ["Contact correctly", "Use the right channel."]
     ];
   }
 
   return [
-    ["Understand the page", "Use it for orientation."],
+    ["Start with the issue", "Use this for orientation."],
     ["Check official sources", "Official rules come first."],
     ["Explore related pages", "Move laterally where needed."],
     ["Use the right CTA", "Choose the right next step."]
   ];
 }
 
-function renderPageNavigator(page, { title = "On this page", limit = 6, compact = false, icon = "compass" } = {}) {
+function renderPageNavigator(page, { title = "Key topics", limit = 6, compact = false, icon = "compass" } = {}) {
   if (page.utility) return "";
   const topics = page.topics.slice(0, limit);
   if (!topics.length) return "";
   return `<section class="page-map${compact ? " page-map--compact" : ""}"${compact ? "" : ' id="page-map"'}>
     <div class="page-map__head">
       ${renderHeadingWithIcon("h2", title, icon, "page-map__title")}
-      <p>Jump between the main topics.</p>
+      <p>Move directly to the question that matters.</p>
     </div>
     <div class="page-map__links">
       ${topics
@@ -552,7 +1047,7 @@ function renderQuickScan(page) {
       <div class="quick-scan__panel quick-scan__panel--journey">
         <div class="section-head">
           ${renderHeadingWithIcon("h2", "Journey snapshot", "route")}
-          <p>Where this page sits in the flow.</p>
+          <p>How this issue fits into the broader process.</p>
         </div>
         <div class="journey-strip">
           ${steps
@@ -590,6 +1085,16 @@ function renderSidebar(page) {
         <li><strong>Coverage</strong><span>${escapeHtml(SITE.serviceArea)}</span></li>
         <li><strong>Intake route</strong><span>${escapeHtml(page.formGroupLabel)}</span></li>
       </ul>
+    </section>
+    <section class="sidebar-card sidebar-card--brand">
+      <div class="sidebar-brand">
+        ${renderBrandMark({ className: "sidebar-brand__mark", width: 68, height: 68 })}
+        <div class="sidebar-brand__copy">
+          <strong>${escapeHtml(SITE.name)}</strong>
+          <span>${escapeHtml(SITE.footerTagline)}</span>
+        </div>
+      </div>
+      <p class="sidebar-note">${escapeHtml(brandContextNote(page))}</p>
     </section>
     <section class="sidebar-card sidebar-card--action">
       ${renderHeadingWithIcon("h2", "Recommended next step", "next")}
@@ -634,13 +1139,134 @@ function renderTopicSection(page, topic, index) {
 }
 
 function renderExpansionSection(page, index) {
-  const label = [
-    "Practical implications",
-    "Documentation discipline",
-    "Authority interaction",
-    "Regional and case variation",
-    "Planning perspective"
-  ][index % 5];
+  const labelSets = {
+    home: [
+      "What first-time readers usually need first",
+      "Where public information stops",
+      "What makes an inquiry useful",
+      "How route planning becomes practical",
+      "Why source quality matters"
+    ],
+    services: [
+      "How the route is reviewed",
+      "What strengthens the file",
+      "Where clients usually lose time",
+      "How timing changes strategy",
+      "What consultation adds"
+    ],
+    process: [
+      "What usually causes delay",
+      "How the file stays coherent",
+      "Where deadlines matter most",
+      "How clients prepare better",
+      "Why sequence changes outcomes"
+    ],
+    consultation: [
+      "What makes the first review useful",
+      "Information that changes the answer",
+      "How scheduling and scope stay clear",
+      "What can be clarified quickly",
+      "What still needs deeper review"
+    ],
+    brazil: [
+      "Comparing regions realistically",
+      "What changes after arrival",
+      "How cost and legal planning interact",
+      "Why local variation matters",
+      "Questions to settle early"
+    ],
+    about: [
+      "How the practice communicates",
+      "How scope stays clear",
+      "What standards look like in practice",
+      "How clients assess fit",
+      "Why boundaries build trust"
+    ],
+    legal: [
+      "What the rule changes in practice",
+      "What to do first",
+      "What to avoid",
+      "How follow-up works",
+      "Why the boundary matters"
+    ],
+    insights: [
+      "Where the term gets confused",
+      "Why the distinction matters",
+      "How the concept appears in practice",
+      "Questions readers usually ask",
+      "When consultation becomes useful"
+    ]
+  };
+
+  const labelSource =
+    page.sectionStyle === "home"
+      ? labelSets.home
+      : page.sectionStyle === "consultation"
+        ? labelSets.consultation
+        : page.family === "services"
+          ? labelSets.services
+          : page.family === "process"
+            ? labelSets.process
+            : page.family === "brazil"
+              ? labelSets.brazil
+              : page.family === "about"
+                ? labelSets.about
+                : page.family === "legal"
+                  ? labelSets.legal
+                  : page.family === "insights"
+                    ? labelSets.insights
+                    : labelSets.home;
+  const label = labelSource[index % labelSource.length];
+  const profile = topicProfile(label);
+
+  let paragraphs;
+  if (page.sectionStyle === "home") {
+    paragraphs = [
+      `Most matters begin with the same practical questions: which route may fit, which authority controls the next step, which documents already exist, and which dates can safely be relied on. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "services") {
+    paragraphs = [
+      `In service work, the practical sequence is usually route fit first, chronology second, document quality third, and authority-specific preparation after that. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "process") {
+    paragraphs = [
+      `At a process stage, the legal question and the administrative question are not always the same. The next step may depend on filing sequence, appointment logic, record quality, or a duty that starts only after approval. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.sectionStyle === "consultation") {
+    paragraphs = [
+      `A useful consultation request usually follows the same order: objective, current status, key dates, documents already available, and the question that most needs to be answered first. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "brazil") {
+    paragraphs = [
+      `Relocation planning usually becomes real when budget, rent, transport, healthcare, schooling where relevant, and local administration are compared together instead of separately. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "about") {
+    paragraphs = [
+      `Practice information becomes useful when it answers the questions a real client asks before making contact: who handles the matter, how scope is set, how communication is documented, and what can be said publicly before the file is reviewed. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "legal" || ["payment", "form", "emergency"].includes(page.sectionStyle)) {
+    paragraphs = [
+      `Operational rules only help when the next step is obvious. In practice, payment, intake, privacy, emergency contact, and consent questions are easiest to follow when the client can see the action expected and the risk the rule is meant to avoid. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else if (page.family === "insights") {
+    paragraphs = [
+      `Editorial guidance is most useful when a label is translated into the practical questions it changes: route choice, timing, documents, authority choice, or the need for consultation. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  } else {
+    paragraphs = [
+      `${label} becomes useful once the reader is trying to act on the information rather than just read it. ${themeProcessExplanation(profile)}`,
+      `${themeRecordExplanation(profile)} ${themeGuardrail(profile)}`
+    ];
+  }
+
   return `<section class="content-block flow-section supplemental topic-section topic-section--frame" id="expansion-${index}">
     <div class="topic-section__shell">
       <div class="topic-section__heading">
@@ -649,12 +1275,8 @@ function renderExpansionSection(page, index) {
         <p class="section-strap">${escapeHtml(topicStrap(page, label, index + page.topics.length))}</p>
       </div>
       <div class="topic-section__body">
-        <p>${escapeHtml(
-      `${label} on ${page.title.toLowerCase()} matters is where general information becomes useful in practice. Readers moving to Brazil, regularizing status, or planning a longer stay usually need more than definitions: they need a way to connect the rule to their own documents, deadlines, locations, and decision points. That is why this extra section steps back from the page outline and highlights how the topic behaves when people move from research into action. It reinforces the distinction between public guidance and case-specific advice while still giving enough detail to reduce uncertainty. It also explains why strong preparation depends on chronology, document condition, and a realistic understanding of which issues can be clarified immediately and which only emerge after the file is reviewed in sequence.`
-    )}</p>
-        <p>${escapeHtml(
-      `This added perspective also supports the quality goal of the site. Rather than ending a page with broad statements, the platform uses supplemental analysis to show where official instructions, procedural variation, and factual complexity can change the path ahead. In Brazilian immigration and relocation matters, seemingly small differences often affect timing, compliance, or the correct authority. Keeping that nuance visible helps readers prepare better questions, build cleaner records, and approach later consultations with a more realistic understanding of the process. It is especially useful for international readers comparing Brazil with another jurisdiction, because terminology, evidence expectations, and administrative sequencing do not always translate neatly from one country to another.`
-    )}</p>
+        <p>${escapeHtml(paragraphs[0])}</p>
+        <p>${escapeHtml(paragraphs[1])}</p>
       </div>
       <aside class="topic-section__aside" aria-label="${escapeHtml(label)} quick notes">
         ${topicNotes(page, label, index + page.topics.length)
@@ -709,10 +1331,10 @@ function renderSpecialSections(page, testimonials) {
       <section class="content-block timeline-block">
         ${renderHeadingWithIcon("h2", "Consultation flow", "route")}
         <ol class="timeline-list">
-          <li>Submit the consultation request with your current situation, goals, and any available documents.</li>
-          <li>Pay the consultation fee using PayPal, Wise, PIX, or Payoneer to <strong>${SITE.consultationPolicy.paymentReceiverEmail}</strong>.</li>
-          <li>Send proof of payment by email or WhatsApp so the team can review the request manually.</li>
-          <li>Wait for confirmation. Appointments are only scheduled at least ${SITE.consultationPolicy.minHoursAfterPayment} hours after payment confirmation.</li>
+          <li>Send the first summary of your matter, including your objective, your current status in or outside Brazil, and any deadline already in view.</li>
+          <li>Attach or describe the main records already available, such as passports, visas, residence cards, civil certificates, or company documents relevant to the route.</li>
+          <li>Use the stated payment instructions and send proof to <strong>${SITE.consultationPolicy.paymentReceiverEmail}</strong> by email or WhatsApp so manual review can begin.</li>
+          <li>After the first review identifies the likely route, document gaps, and timing issues, the appointment is confirmed for a time at least ${SITE.consultationPolicy.minHoursAfterPayment} hours after payment confirmation.</li>
         </ol>
       </section>
       <section class="content-block testimonial-strip">
@@ -757,7 +1379,19 @@ function renderSpecialSections(page, testimonials) {
           .map(
             (item) => `<article class="info-card">
               <h3>${escapeHtml(item.title)}</h3>
-              <p>${escapeHtml(item.summary)}</p>
+              <p>${escapeHtml(
+                item.title === "Visas"
+                  ? "Guidance on entry routes, activity-based categories, and the documents usually reviewed before a client moves forward."
+                  : item.title === "Residencies"
+                    ? "Guidance on residence permits, registration issues, renewals, and the longer-term obligations that often follow approval."
+                    : item.title === "Naturalisation"
+                      ? "Guidance on citizenship routes, residence-history review, supporting records, and what usually needs technical checking first."
+                      : item.title === "Defense"
+                        ? "Guidance on deportation, fines, appeals, and other situations where response quality and timing matter quickly."
+                        : item.title === "Other"
+                          ? "Supporting services tied to immigration files, including records, translations, consular coordination, and regularization issues."
+                          : "Advisory support for strategy, compliance, representation, and corporate immigration planning."
+              )}</p>
               <a class="stretched-link" href="${item.route}">Open ${escapeHtml(item.title)}</a>
             </article>`
           )
@@ -774,7 +1408,7 @@ function renderSpecialSections(page, testimonials) {
           .map(
             (child) => `<article class="info-card">
               <h3>${escapeHtml(child.title)}</h3>
-              <p>Route overview for ${escapeHtml(child.title.toLowerCase())} planning.</p>
+              <p>Typical route review for ${escapeHtml(child.title.toLowerCase())} matters, including legal fit, document logic, timing, and the authority that controls the next formal step.</p>
               <a class="stretched-link" href="${child.route}">Read ${escapeHtml(child.title)}</a>
             </article>`
           )
@@ -791,7 +1425,7 @@ function renderSpecialSections(page, testimonials) {
           .map(
             (method) => `<article class="info-card">
               <h3>${escapeHtml(method)}</h3>
-              <p>Use this method for the consultation fee and send proof of payment afterwards.</p>
+              <p>Accepted for the consultation fee. After payment, send proof so manual confirmation can begin.</p>
             </article>`
           )
           .join("")}
@@ -810,8 +1444,8 @@ function renderSpecialSections(page, testimonials) {
     return `<section class="content-block alert-block">
       ${renderHeadingWithIcon("h2", "How to use the emergency channel", "alert")}
       <p>If the situation is urgent, use <a href="${SITE.whatsappUrl}">WhatsApp</a> first and state the nature of the emergency, your location, your current status, and any deadline or authority action already in progress.</p>
-      <p>If there is detention, an airport restriction, a health emergency, or immediate physical risk, contact the competent public authority first. Legal follow-up should then be coordinated through WhatsApp with the most concise possible summary.</p>
-      <p>Existing clients should identify themselves as current clients and include the matter reference if available. First-time contacts should understand that an emergency message does not itself create representation.</p>
+      <p>If there is detention, an airport restriction, a health emergency, or immediate physical risk, contact the competent public authority first. Legal follow-up should then be coordinated through WhatsApp with the shortest useful summary possible.</p>
+      <p>Existing clients should identify themselves as current clients and include the matter reference if available. First-time contacts should understand that an emergency message is a request for triage, not the creation of representation by itself.</p>
     </section>
     ${renderLeadForm(page, { compact: true })}`;
   }
@@ -836,7 +1470,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.route === "/about/lawyer/") {
     return `<section class="content-block profile-block">
-      ${renderHeadingWithIcon("h2", "Public professional record used on this page", "shield")}
+      ${renderHeadingWithIcon("h2", "Verified public professional record", "shield")}
       <div class="fact-sheet">
         <div><strong>Legal name</strong><span>${escapeHtml(LAWYER_FACTS.legalName)}</span></div>
         <div><strong>Public reference</strong><span>${escapeHtml(LAWYER_FACTS.publicName)}</span></div>
@@ -939,23 +1573,50 @@ function relatedPages(page) {
 function buildFaq(page) {
   if (page.utility) return [];
 
-  const baseQuestions = page.topics.slice(0, 5).map((topic) => {
-    const topicLower = topic.toLowerCase();
+  const baseQuestions = page.topics.slice(0, 5).map((topic, index) => {
+    const topicLower = normalizeTopic(topic);
+    const profile = topicProfile(topic);
+    const seed = `${page.key}:faq:${topic}:${index}`;
     let question;
     if (page.sectionStyle === "service-child" || page.sectionStyle === "service-hub") {
-      question = `How does the ${page.title.toLowerCase()} page address ${topicLower}?`;
+      question = `Why does ${topicLower} matter in a ${page.title.toLowerCase()} matter?`;
     } else if (page.sectionStyle === "process") {
-      question = `Why does ${topicLower} matter in the ${page.title.toLowerCase()} stage of the process?`;
+      question = `Why does ${topicLower} matter at the ${page.title.toLowerCase()} stage?`;
     } else if (page.sectionStyle === "brazil" || page.sectionStyle === "brazil-search") {
-      question = `How should readers interpret ${topicLower} on the ${page.title.toLowerCase()} page when planning life in Brazil?`;
-    } else if (page.sectionStyle === "legal") {
-      question = `How does the ${page.title.toLowerCase()} legal page explain ${topicLower}?`;
+      question = `How does ${topicLower} affect a move to Brazil in ${page.title.toLowerCase()} planning?`;
     } else if (page.sectionStyle === "consultation") {
-      question = `What should a visitor know about ${topicLower} on the start consultation page?`;
+      question = `What should you know about ${topicLower} before requesting consultation?`;
+    } else if (page.sectionStyle === "payment" || page.sectionStyle === "form" || page.sectionStyle === "emergency" || page.sectionStyle === "legal") {
+      question = `${page.title}: what should you know about ${topicLower}?`;
+    } else if (page.sectionStyle === "home") {
+      question = `Why does ${topicLower} matter when planning immigration to Brazil?`;
     } else {
-      question = `What does the ${page.title.toLowerCase()} page mean by ${topicLower}?`;
+      question = `${page.title}: what matters most about ${topicLower}?`;
     }
-    const answer = `This page treats ${topicLower} as part of a broader framework involving Brazilian law, administrative procedure, documentation quality, and case-specific facts. It explains the concept in neutral language, highlights where official instructions control the next step, and avoids promising outcomes that only a competent authority can determine.`;
+
+    let answer;
+    if (page.sectionStyle === "service-child" || page.sectionStyle === "service-hub" || page.sectionStyle === "services-home") {
+      answer = `${pickVariant(seed, [
+        `The practical point is that ${profile.focus}.`,
+        `In client terms, ${profile.focus}.`,
+        `The key point is that ${profile.focus}.`
+      ])} In real cases, ${topicLower} changes route fit, documents, and timing. No public explanation can replace a review of the actual file.`;
+    } else if (page.sectionStyle === "process") {
+      answer = `It matters because ${profile.focus}. Before the next step, ${topicLower} usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself.`;
+    } else if (page.sectionStyle === "consultation") {
+      answer = `You should understand that ${profile.focus}. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided.`;
+    } else if (page.sectionStyle === "brazil" || page.sectionStyle === "brazil-search") {
+      answer = `${topicLower} should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil.`;
+    } else if (page.sectionStyle === "payment" || page.sectionStyle === "form" || page.sectionStyle === "emergency" || page.sectionStyle === "legal") {
+      answer = `What matters is straightforward: ${profile.focus}. Follow the rule with the next action in view and without guesswork.`;
+    } else if (page.sectionStyle === "about") {
+      answer = `This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication.`;
+    } else if (page.sectionStyle === "insight") {
+      answer = `The answer is usually more practical than people expect: ${profile.focus}. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary.`;
+    } else {
+      answer = `The practical point is that ${profile.focus}. ${topicLower} affects next steps, official-source checking, and the boundary between general information and individual legal advice.`;
+    }
+
     return { question, answer };
   });
 
@@ -971,7 +1632,7 @@ function renderFaq(page, faqItems) {
   return `<section class="faq-block" id="faq" data-faq="true">
     <div class="section-head">
       ${renderHeadingWithIcon("h2", "Frequently asked questions", "faq")}
-      <p>Each page carries its own FAQ block so the answer stays tied to the topic at hand.</p>
+      <p>Short answers in direct client language.</p>
     </div>
     <div class="accordion" id="faq-accordion-${routeKey(page.route)}">
       ${faqItems
@@ -996,7 +1657,7 @@ function renderOfficialResources(page, resources) {
   return `<section class="official-resources" data-official-resources="true">
     <div class="section-head">
       ${renderHeadingWithIcon("h2", "Official resources", "document")}
-      <p>Primary government or institutional sources referenced when framing this page.</p>
+      <p>Government or institutional sources that help anchor this topic in the real rules and public guidance.</p>
     </div>
     <div class="resource-grid">
       ${resources
@@ -1015,19 +1676,34 @@ function renderTrustMarkers(page) {
   if (!["process", "service-hub", "service-child", "services-home", "consultation"].includes(page.sectionStyle)) {
     return "";
   }
+  const items =
+    page.sectionStyle === "consultation"
+      ? [
+          ["Licensed Brazilian attorney", `${LAWYER_FACTS.oab}.`],
+          ["Bilingual consultations", `Consultations are handled in ${LAWYER_FACTS.languages.join(" and ")}.`],
+          ["No false guarantees", "A consultation can clarify routes and risks, but no lawyer controls the authority's final decision."]
+        ]
+      : page.sectionStyle === "process"
+        ? [
+            ["Clear step-by-step guidance", "The process is reviewed in sequence: route fit, documents, timing, authority contact, and later compliance duties."],
+            ["Risk minimization focus", "Files are checked for chronology gaps, document weaknesses, and authority-specific requirements before the next move."],
+            ["No false guarantees", "Good preparation helps, but the final administrative decision still belongs to the competent authority."]
+          ]
+        : [
+            ["OAB-registered lawyer", `${LAWYER_FACTS.oab}.`],
+            ["Compliance-first approach", "Route fit, document quality, and filing sequence are reviewed before translations, appointments, or submissions move ahead."],
+            ["Remote support across Brazil", "Clients in Brazil or abroad can be assisted through a document-based remote process."]
+          ];
+
   return `<section class="trust-marker-block" data-trust-markers="true">
-    <div class="marker">
-      <strong>Nationwide online support</strong>
-      <span>Guidance can be organized for clients across Brazil, with local examples used only as illustrations.</span>
-    </div>
-    <div class="marker">
-      <strong>Document-driven workflow</strong>
-      <span>Case assessment centers on records, timing, and authority requirements rather than assumptions.</span>
-    </div>
-    <div class="marker">
-      <strong>Authority-led outcomes</strong>
-      <span>Final decisions remain with the competent authority, court, or consular post.</span>
-    </div>
+    ${items
+      .map(
+        ([title, text]) => `<div class="marker">
+      <strong>${escapeHtml(title)}</strong>
+      <span>${escapeHtml(text)}</span>
+    </div>`
+      )
+      .join("")}
   </section>`;
 }
 
@@ -1042,7 +1718,11 @@ function renderLeadForm(page, options = {}) {
   return `<section class="lead-form-block" id="consultation-form">
     <div class="section-head">
       ${renderHeadingWithIcon("h2", full ? "Request a consultation" : "Send an inquiry", "form")}
-      <p>The form posts to the grouped Formspree endpoint assigned to this route family.</p>
+      <p>${escapeHtml(
+        full
+          ? "Use this form to send the first summary of your matter. Requests are reviewed manually before consultation is confirmed."
+          : "Use this form to send the first summary of your matter. The team reviews requests manually and replies with the next practical step."
+      )}</p>
     </div>
     <form action="${action}" method="POST" class="lead-form ${full ? "lead-form-full" : "lead-form-compact"}" data-formspree-group="${page.formGroup}">
       <input type="hidden" name="_subject" value="${escapeHtml(`${page.title} inquiry | ${page.formGroupLabel}`)}" />
@@ -1066,9 +1746,9 @@ function renderLeadForm(page, options = {}) {
       ${full ? `<label>Upload documents<input type="file" name="documents" multiple /></label>` : ""}
       <label>Notes / message<textarea name="message" rows="${full ? 6 : 4}" required></textarea></label>
       <div class="form-note">
-        <p>Appointments are confirmed manually after payment verification, and consultation slots must be at least ${SITE.consultationPolicy.minHoursAfterPayment} hours after payment confirmation.</p>
+        <p>Requests are reviewed manually. Consultation appointments are only confirmed after payment verification, and the selected time must be at least ${SITE.consultationPolicy.minHoursAfterPayment} hours after confirmation.</p>
       </div>
-      <button type="submit" class="btn btn-cta" data-cta-click="true">Send request</button>
+      <button type="submit" class="btn btn-cta" data-cta-click="true">${full ? "Submit consultation request" : "Send request"}</button>
     </form>
   </section>`;
 }
@@ -1078,7 +1758,7 @@ function renderRelated(page) {
   return `<section class="related-block" data-related-links="true">
     <div class="section-head">
       ${renderHeadingWithIcon("h2", "See also", "related")}
-      <p>Related internal pages for the next part of the journey.</p>
+      <p>Related pages that usually answer the next client question.</p>
     </div>
     <div class="related-grid">
       ${items
@@ -1151,110 +1831,308 @@ function heroPrimaryAction(page) {
 
 function heroCollectionLabel(page) {
   const labels = {
-    foundation: "Private-client entry point",
-    services: "Brazil immigration concierge",
-    process: "Immigration process architecture",
-    brazil: "Brazil relocation editorial",
-    about: "Practice identity and standards",
-    insights: "Editorial immigration intelligence",
-    legal: "Operational policies and boundaries"
+    foundation: page.route === "/" ? "Lawyer-led immigration guidance" : "Consultation and intake",
+    services: "Route analysis and preparation",
+    process: "What the process means in practice",
+    brazil: "Relocation planning for Brazil",
+    about: "How the practice works",
+    insights: "Immigration concepts in plain English",
+    legal: "Client operations and legal notices"
   };
   return labels[page.family] || "Immigration guidance";
 }
 
+function addHeroSignal(signals, signal) {
+  if (!signal || !signal.label) return;
+  if (!signals.some((item) => item.label === signal.label)) {
+    signals.push(signal);
+  }
+}
+
+function heroPageSpecificSignal(page) {
+  if (page.route === "/") return { icon: "places", label: "Brazil-Wide Guidance" };
+  if (page.sectionStyle === "services-home") return { icon: "route", label: "Visa Residency Citizenship" };
+  if (page.sectionStyle === "service-hub") return { icon: "route", label: `${page.title} Pathways` };
+  if (page.sectionStyle === "service-child") return { icon: "route", label: `${page.title} Review` };
+  if (page.sectionStyle === "process") return { icon: "route", label: `${page.title} Stage Review` };
+  if (page.sectionStyle === "payment") return { icon: "payment", label: `Clear ${page.title} Rules` };
+  if (page.sectionStyle === "form") return { icon: "form", label: "Structured Intake" };
+  if (page.sectionStyle === "emergency") return { icon: "alert", label: "Urgency Reviewed First" };
+  if (page.sectionStyle === "brazil" || page.sectionStyle === "brazil-search") {
+    return { icon: "places", label: `${page.title} Planning Lens` };
+  }
+  if (page.sectionStyle === "about") return { icon: "shield", label: `${page.title} Practice Info` };
+  if (page.sectionStyle === "insight") return { icon: "book", label: `${page.title} Explained Clearly` };
+  if (page.sectionStyle === "legal") return { icon: "scales", label: `Clear ${page.title} Rules` };
+  return null;
+}
+
+function heroThemeSignal(profile, seed) {
+  switch (profile.theme) {
+    case "route":
+      return { icon: "route", label: pickVariant(seed, ["Route Fit Checked", "Eligibility Before Filing", "Legal Basis Review"]) };
+    case "work":
+      return { icon: "scan", label: pickVariant(seed, ["Activity-Route Match", "Sponsor File Review", "Work Authorization Logic"]) };
+    case "family":
+      return { icon: "responsibilities", label: pickVariant(seed, ["Family Tie Evidence", "Relationship Record Review", "Family Route Support"]) };
+    case "education":
+      return { icon: "book", label: pickVariant(seed, ["Academic Purpose Review", "Study Route Planning", "Institution Record Check"]) };
+    case "citizenship":
+      return { icon: "shield", label: pickVariant(seed, ["Residence History Review", "Naturalization Route Check", "Citizenship Eligibility Review"]) };
+    case "defense":
+      return { icon: "alert", label: pickVariant(seed, ["Response Deadline Review", "Rights Protection Focus", "Defense File Strategy"]) };
+    case "documents":
+      return { icon: "document", label: pickVariant(seed, ["Document Quality Review", "File Consistency Check", "Record Set Prepared"]) };
+    case "timing":
+      return { icon: "route", label: pickVariant(seed, ["Deadline Sensitivity", "Sequence Before Submission", "Timing Reviewed Early"]) };
+    case "authority":
+      return { icon: "responsibilities", label: pickVariant(seed, ["Authority-Specific Prep", "Correct Filing Channel", "Consular and PF Logic"]) };
+    case "compliance":
+      return { icon: "responsibilities", label: pickVariant(seed, ["Compliance-First Planning", "Post-Approval Duties", "Status Maintenance Focus"]) };
+    case "consultation":
+      return { icon: "form", label: pickVariant(seed, ["Structured First Review", "Document-Based Assessment", "Fact-Based Intake"]) };
+    case "policy":
+      return { icon: "shield", label: pickVariant(seed, ["Consent and Privacy Clarity", "Operational Rules Clear", "Privacy Protected"]) };
+    case "contact":
+      return { icon: "whatsapp", label: pickVariant(seed, ["Clear First Summary", "Fast Contact Logic", "Facts Before Messaging"]) };
+    case "location":
+      return { icon: "places", label: pickVariant(seed, ["Regional Cost Comparison", "State-Specific Planning", "Relocation Reality Check"]) };
+    case "institutional":
+      return { icon: "shield", label: pickVariant(seed, ["Professional Boundaries", "Public Record Verified", "Practice Standards Clear"]) };
+    case "outcome":
+      return { icon: "scales", label: pickVariant(seed, ["No False Guarantees", "Authority-Led Decisions", "Realistic Case Framing"]) };
+    case "search":
+      return { icon: "search", label: pickVariant(seed, ["Find the Right Route", "Search by Real Question", "Navigation Without Guesswork"]) };
+    default:
+      return { icon: "scan", label: pickVariant(seed, ["Risk Minimization Focus", "Clear Step-by-Step Guidance", "Practical Next-Step Planning"]) };
+  }
+}
+
+function heroSignalItems(page) {
+  const signals = [];
+  const add = (icon, label) => addHeroSignal(signals, { icon, label });
+
+  if (page.route === "/") {
+    add("shield", "Licensed Brazilian Attorney");
+    add("scales", "OAB Registered Lawyer");
+    add("spark", "Bilingual Support");
+    add("document", "Compliance-First Planning");
+  } else if (page.sectionStyle === "consultation") {
+    add("form", "Structured First Review");
+    add("scan", "Manual Confirmation");
+    add("spark", "Bilingual Consultations");
+    add("shield", "No False Guarantees");
+  } else if (page.sectionStyle === "payment") {
+    add("payment", "Transparent Fees Explained");
+    add("scan", "Proof Before Scheduling");
+    add("route", "36-Hour Timing Rule");
+    add("shield", "Privacy Protected");
+  } else if (page.sectionStyle === "form") {
+    add("form", "Structured Intake");
+    add("document", "Facts First");
+    add("shield", "Privacy Protected");
+    add("scan", "Manual Review");
+  } else if (page.sectionStyle === "emergency") {
+    add("alert", "Urgency Reviewed First");
+    add("responsibilities", "Rights Protection Focus");
+    add("whatsapp", "WhatsApp Triage");
+    add("shield", "No False Guarantees");
+  } else if (page.family === "services") {
+    add("scales", "OAB Registered Lawyer");
+    add("scan", "Compliance-First Approach");
+  } else if (page.family === "process") {
+    add("route", "Clear Step-by-Step Guidance");
+    add("document", "Deadline and File Review");
+  } else if (page.family === "brazil") {
+    add("places", "State-Specific Planning");
+    add("scan", "Relocation Reality Check");
+  } else if (page.family === "about") {
+    add("scales", "Brazilian Bar Member");
+    add("spark", "English and Portuguese");
+    add("quote", "Practice Active Since 2018");
+  } else if (page.family === "insights") {
+    add("book", "Plain-English Explanations");
+    add("document", "Official-Source Orientation");
+  } else if (page.family === "legal") {
+    add("shield", "Privacy Protected");
+    add("scales", "Clear Operational Rules");
+  } else {
+    add("shield", "Licensed Brazilian Attorney");
+    add("spark", "Bilingual Support");
+  }
+
+  addHeroSignal(signals, heroPageSpecificSignal(page));
+
+  const seenThemes = new Set();
+  for (const topic of page.topics.slice(0, 5)) {
+    const profile = topicProfile(topic);
+    if (seenThemes.has(profile.theme)) continue;
+    seenThemes.add(profile.theme);
+    addHeroSignal(signals, heroThemeSignal(profile, `${page.key}:${profile.theme}:hero`));
+    if (signals.length >= 5) break;
+  }
+
+  const fallbacks = [
+    { icon: "document", label: "Document-Based Planning" },
+    { icon: "scales", label: "Authority-Led Decisions" },
+    { icon: "scan", label: "Risk Minimization Focus" }
+  ];
+  for (const fallback of fallbacks) {
+    addHeroSignal(signals, fallback);
+    if (signals.length >= 5) break;
+  }
+
+  return signals.slice(0, 5);
+}
+
 function heroProofList(page) {
-  const lists = {
-    foundation: [
-      "Brazil-wide online support",
-      "English-first client guidance",
-      "Clear consultation protocol"
-    ],
-    services: [
-      "Document-led route planning",
-      "Eligibility and timing framed carefully",
-      "Authority-led outcomes kept explicit"
-    ],
-    process: [
-      "Procedure sequence made visible",
-      "Timing and obligations kept central",
-      "Structured next-step decisions"
-    ],
-    brazil: [
-      "Relocation context beyond visa rules",
-      "Regional variation treated seriously",
-      "Official-source orientation throughout"
-    ],
-    about: [
-      "Institutional clarity over hype",
-      "Public facts where required",
-      "Professional boundaries kept visible"
-    ],
-    insights: [
-      "Editorial explainers before casework",
-      "Concepts clarified in plain English",
-      "Built for informed planning"
-    ],
-    legal: [
-      "Operational transparency",
-      "Consent and privacy controls",
-      "Plain-English notices"
-    ]
-  };
-  return lists[page.family] || ["Structured guidance", "Clear boundaries", "Official-source orientation"];
+  return heroSignalItems(page).slice(0, 3);
+}
+
+function heroPanelItems(page) {
+  const signals = heroSignalItems(page);
+  const panelItems = signals.slice(3, 5);
+  return panelItems.length ? panelItems : signals.slice(1, 3);
 }
 
 function heroGlanceItems(page) {
+  if (page.route === "/") {
+    return [
+      ["Professional basis", `Licensed Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["Language support", `Consultations and client communication in ${LAWYER_FACTS.languages.join(" and ")}.`],
+      ["Working method", "Compliance-first route analysis, document review, and realistic next-step planning."]
+    ];
+  }
+
+  if (page.sectionStyle === "consultation") {
+    return [
+      ["Professional basis", `Licensed Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["What to send", "Your objective, current status, available documents, and any deadline already in view."],
+      ["What to expect", "A structured first review, bilingual support, and no promise of filing or approval."]
+    ];
+  }
+
   const base = {
     foundation: [
-      ["Client profile", "People planning a move, a filing, or a Brazil relocation strategy."],
-      ["Operating model", "Consultation-led, document-driven, and handled remotely across Brazil."],
-      ["Decision framework", "Authorities decide outcomes; the service focuses on structure and preparation."]
+      ["Client profile", "People planning a move, a filing, or regularization in Brazil."],
+      ["Operating model", "Consultation-led, document-based, and handled remotely across Brazil."],
+      ["Decision framework", "The focus is on preparation, clarity, and lawful next steps."]
     ],
     services: [
-      ["Service mode", "Route analysis, records review, and authority-facing preparation."],
+      ["Service mode", "Route analysis, records review, and preparation before filing or authority contact."],
       [
         "Best use",
         page.pageType === "service-child"
-          ? "Ideal when one immigration objective is already in view."
-          : "Ideal when comparing related pathways before committing."
+          ? "Best when one immigration objective is already in view and needs careful checking."
+          : "Best when comparing related pathways before committing to one route."
       ],
-      ["Coverage", "Brazil-wide online advisory support with clear next-step guidance."]
+      ["Coverage", "Remote client support for matters linked to Brazil immigration and relocation."]
     ],
     process: [
-      ["Main focus", "Sequence, timing, and obligations across a live or planned matter."],
-      ["Best use", "Useful when documents, deadlines, or later duties need to be clarified."],
-      ["Outcome model", "A better-prepared file, not a promised result."]
+      ["Main focus", "What this stage usually changes in timing, documents, and next-step decisions."],
+      ["Best use", "Useful when deadlines, obligations, or document gaps need to be clarified."],
+      ["Outcome model", "A clearer file and a better next step, not a promised result."]
     ],
     brazil: [
-      ["Reading lens", "Lifestyle, cost, infrastructure, and migration context read together."],
-      ["Best use", "For readers comparing regions before choosing a move or route."],
+      ["Reading lens", "Cost, infrastructure, public services, and migration planning read together."],
+      ["Best use", "Useful before choosing a city, a region, or a longer-term move strategy."],
       ["Coverage", "National perspective with regional nuance and official references."]
     ],
     about: [
-      ["Reading lens", "Institutional fit, working method, governance, and service philosophy."],
-      ["Best use", "For readers evaluating trust, standards, and professional alignment."],
-      ["Model", "Boutique advisory with explicit boundaries and remote delivery."]
+      ["Professional basis", `Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["Languages", `${LAWYER_FACTS.languages.join(" and ")} support for international clients.`],
+      ["Practice focus", "Immigration guidance with public materials that also reference civil, family, and human-rights matters."]
     ],
     insights: [
-      ["Reading lens", "Editorial clarification before any route or filing decision."],
-      ["Best use", "For readers who need terminology and structure before consulting."],
+      ["Reading lens", "Editorial clarification before a route or filing decision is made."],
+      ["Best use", "For readers who need terminology, structure, and context before consulting."],
       ["Use case", "Read first, then move into service pages or intake when needed."]
     ],
     legal: [
-      ["Reading lens", "Privacy, payment, access, and website-use rules in plain English."],
-      ["Best use", "For visitors checking how contact, consent, or intake works."],
-      ["Use case", "Reference material tied directly to site operations and client handling."]
+      ["Reading lens", "Privacy, payment, consent, access, and contact rules in plain English."],
+      ["Best use", "For visitors checking how contact, payment, or intake actually works."],
+      ["Use case", "Reference material tied directly to client handling and operational rules."]
     ]
   };
   return base[page.family] || base.foundation;
 }
 
+function heroDisplayTitle(page) {
+  if (page.route === "/") return "Brazil Immigration Guidance";
+  if (page.route === "/services/") return "Brazil Immigration Services";
+  if (page.route === "/start-consultation/") return "Request a Consultation";
+  return page.title;
+}
+
+function heroDisplaySummary(page) {
+  if (page.route === "/") {
+    return `Visa, residency, citizenship, and relocation guidance in Brazil, led by a licensed Brazilian attorney and OAB-registered lawyer with ${LAWYER_FACTS.languages.join(" and ")} support.`;
+  }
+  if (page.sectionStyle === "services-home") {
+    return "An overview of the main immigration service lines, with clear scope and next-step orientation.";
+  }
+  if (page.sectionStyle === "service-child" || page.sectionStyle === "service-hub") {
+    return "What this route or service usually involves, what clients should prepare, and where the authority keeps the final decision.";
+  }
+  if (page.sectionStyle === "process") {
+    return "What this stage usually means in practice, what often causes delay, and what should be checked next.";
+  }
+  if (page.sectionStyle === "consultation") {
+    return "How to send the first summary of your matter, pay correctly, and move into a structured first review.";
+  }
+  if (page.sectionStyle === "payment") {
+    return "Accepted payment methods, proof instructions, and the manual confirmation workflow for consultations.";
+  }
+  if (page.sectionStyle === "form") {
+    return "A structured intake form for sending the first facts, documents, and route questions.";
+  }
+  if (page.sectionStyle === "emergency") {
+    return "How urgent matters should be raised and when the competent authority should be contacted first.";
+  }
+  if (page.family === "brazil") {
+    return "Relocation guidance that treats Brazil as a set of real regions, costs, and public systems rather than a single generic destination.";
+  }
+  if (page.family === "about") {
+    return `Institutional information about the practice, its standards, public professional record, and how it communicates with prospective clients in ${LAWYER_FACTS.languages.join(" and ")}.`;
+  }
+  if (page.family === "legal") {
+    return "Practical rules on privacy, payment, contact, consent, and access.";
+  }
+  if (page.family === "insights") {
+    return "Plain-English explanations of Brazil immigration concepts before case-specific advice begins.";
+  }
+  return page.summary;
+}
+
+function brandContextNote(page) {
+  if (page.family === "services") {
+    return "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended.";
+  }
+  if (page.family === "process") {
+    return "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together.";
+  }
+  if (page.family === "brazil") {
+    return "Relocation planning is tied to legal context, regional variation, and the practical realities of living in Brazil.";
+  }
+  if (page.family === "legal") {
+    return "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds.";
+  }
+  if (page.family === "insights") {
+    return "Plain-English immigration explanations are provided so research can become a clearer and more informed next step.";
+  }
+  if (page.family === "about") {
+    return "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice.";
+  }
+  return "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning.";
+}
+
 function renderHero(page, hero) {
   const primaryAction = heroPrimaryAction(page);
   const proofItems = heroProofList(page);
+  const panelItems = heroPanelItems(page);
   const glanceItems = heroGlanceItems(page);
   const secondaryHref = page.utility ? "#main-content" : "#page-map";
-  const secondaryLabel = page.utility ? "Skip to content" : "Explore the page";
+  const secondaryLabel = page.utility ? "Skip to content" : "View sections";
   return `<header class="hero" style="--hero-image:url('${hero.path}')">
     <div class="hero-overlay"></div>
     <div class="container hero-inner">
@@ -1263,11 +2141,15 @@ function renderHero(page, hero) {
           <p class="eyebrow">${escapeHtml(page.family.toUpperCase())}</p>
           <p class="hero-kicker">${escapeHtml(heroCollectionLabel(page))}</p>
         </div>
-        <h1>${escapeHtml(page.title)}</h1>
-        <p class="hero-summary">${escapeHtml(page.summary)}</p>
+        <h1>${escapeHtml(heroDisplayTitle(page))}</h1>
+        <p class="hero-summary">${escapeHtml(heroDisplaySummary(page))}</p>
         <div class="hero-badges" aria-label="Page highlights">
           ${proofItems
-            .map((item) => `<span class="hero-badge">${escapeHtml(item)}</span>`)
+            .map(
+              (item) => `<span class="hero-badge"><span class="hero-badge__icon" aria-hidden="true">${uiIcon(
+                item.icon
+              )}</span><span>${escapeHtml(item.label)}</span></span>`
+            )
             .join("")}
         </div>
         <div class="hero-actions">
@@ -1276,16 +2158,22 @@ function renderHero(page, hero) {
         </div>
       </div>
       <div class="hero-meta">
-        <div class="hero-panel hero-panel--contact">
-          <strong>Contact</strong>
-          <p>Begin with a concise message, your objective, and any active deadline already in view.</p>
-          <a href="mailto:${SITE.email}">${SITE.email}</a>
-          <a href="${SITE.whatsappUrl}" data-whatsapp-click="true">WhatsApp ${SITE.phone}</a>
+        <div class="hero-panel hero-panel--brand">
+          ${renderBrandLockup({ className: "hero-brand-lockup", width: 272, height: 76, tone: "inverse" })}
+          <p class="hero-brand-tagline">${escapeHtml(SITE.footerTagline)}</p>
+          <p class="hero-brand-note">${escapeHtml(brandContextNote(page))}</p>
         </div>
-        <div class="hero-panel hero-panel--proof">
-          <strong>What this page is built to do</strong>
-          <ul class="hero-proof-list">
-            ${proofItems.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        <div class="hero-panel hero-panel--signals">
+          <strong>Positioning</strong>
+          <ul class="hero-panel-list">
+            ${panelItems
+              .map(
+                (item) => `<li class="hero-panel-item">
+              <span class="hero-panel-item__icon" aria-hidden="true">${uiIcon(item.icon)}</span>
+              <span>${escapeHtml(item.label)}</span>
+            </li>`
+              )
+              .join("")}
           </ul>
         </div>
       </div>
@@ -1351,7 +2239,7 @@ function renderPageMain(page, testimonials) {
   if (!page.utility && !WORD_COUNT_EXCEPTIONS.has(page.sectionStyle)) {
     let currentWords = articleWordCount(mainContent);
     let extraIndex = 0;
-    while (currentWords < WORD_COUNT_TARGET.min && extraIndex < 8) {
+    while (currentWords < WORD_COUNT_TARGET.min && extraIndex < 16) {
       const insertion = renderExpansionSection(page, extraIndex);
       mainContent = mainContent.replace("__EXPANSIONS__", `${insertion}__EXPANSIONS__`);
       currentWords = articleWordCount(mainContent);
@@ -1367,7 +2255,12 @@ function renderPageMain(page, testimonials) {
 function renderUtilityBar() {
   return `<div class="utility-bar">
     <div class="container utility-inner">
-      <p class="utility-support">Supporting Immigrants <span aria-hidden="true">—</span> Promoting Brazil</p>
+      <p class="utility-support">${renderBrandMark({
+        className: "utility-support__mark",
+        width: 18,
+        height: 18,
+        decorative: true
+      })}<span>${escapeHtml(SITE.footerTagline)}</span></p>
       <div class="utility-actions">
         <div class="lang-switcher lang-switcher--minimal" aria-label="Language switcher">
           <button type="button" class="lang-link active" data-language-toggle="en">EN</button>
@@ -1449,6 +2342,8 @@ function footerIcon(key) {
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h6v4H5V6Zm8 0h6v4h-6V6ZM5 14h6v4H5v-4Zm8 0h6v4h-6v-4Zm-1-3h2v2h-2z" fill="currentColor"/></svg>',
     responsibilities:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7v5c0 4.6 3 7.9 8 10 5-2.1 8-5.4 8-10V7l-8-4Zm-1 12.6-3.3-3.3 1.4-1.4 1.9 1.9 4.2-4.2 1.4 1.4-5.6 5.6Z" fill="currentColor"/></svg>',
+    aftercare:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-7-10.1C5 7.5 7.1 5 9.9 5c1.4 0 2.5.6 3.1 1.6C13.6 5.6 14.7 5 16.1 5 18.9 5 21 7.5 21 10.9 21 16.6 14 21 14 21h-2Zm-1-10V8H9v3H6v2h3v3h2v-3h3v-2h-3Z" fill="currentColor"/></svg>',
     insights:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-1 7h5l-6 13 1-8H7l6-12Z" fill="currentColor"/></svg>',
     legal:
@@ -1459,7 +2354,12 @@ function footerIcon(key) {
 
 function renderFooterPanel(panel) {
   const heading = panel.logo
-    ? `<h2 class="footer-brand-title"><img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="" width="44" height="44" /><span>${escapeHtml(panel.title)}</span></h2>`
+    ? `<h2 class="footer-brand-title">${renderBrandLockup({
+        className: "footer-brand-lockup",
+        width: 248,
+        height: 69,
+        tone: "inverse"
+      })}</h2>`
     : `<h2>${panel.icon ? `<span class="footer-heading-icon" aria-hidden="true">${footerIcon(panel.icon)}</span>` : ""}<span>${escapeHtml(panel.title)}</span></h2>`;
   return `<section class="footer-panel footer-panel--${slugify(panel.title)}${panel.accent ? ` footer-panel--${panel.accent}` : ""}">
     <div class="footer-panel__head">
@@ -1610,7 +2510,7 @@ function renderServiceFamilyDropdown(group, isActive = false) {
 function navDropdown(label, items) {
   const grouped = items.some((item) => Array.isArray(item.links));
   const descriptions = {
-    About: "Profile, governance, standards, and institutional pages.",
+    About: "Profile, governance, standards, and practice information.",
     Brazil: "Relocation, living, regional, and discovery guidance.",
     Process: "Procedure stages, obligations, risks, and timelines.",
     Services: "Visa, residency, citizenship, defense, and advisory pathways.",
@@ -1624,7 +2524,7 @@ function navDropdown(label, items) {
         <div>
           <p class="mega-label">${escapeHtml(label.toUpperCase())} directory</p>
           <h3>${escapeHtml(label)}</h3>
-          <p>${escapeHtml(descriptions[label] || "Explore the routes in this section.")}</p>
+          <p>${escapeHtml(descriptions[label] || "Explore the routes listed here.")}</p>
         </div>
         <span class="mega-count">${grouped ? `${items.length} groups` : `${items.length} pages`}</span>
       </div>
@@ -1667,10 +2567,10 @@ function renderMainNav(page) {
       <div class="main-header">
         <div class="main-header__upper">
           <div class="main-header__identity">
-            <a class="brand-lockup" href="/">
-              <img src="/assets/logo/immigrate-to-brazil-logo.svg" alt="Immigrate to Brazil logo" width="48" height="48" />
-              <span>
-                <strong>${SITE.name}</strong>
+            <a class="brand-lockup" href="/" aria-label="Immigrate to Brazil home">
+              ${renderBrandLockup({ className: "brand-lockup__image", width: 252, height: 70, tone: "inverse" })}
+              <span class="brand-lockup__meta">
+                <small>${escapeHtml(SITE.footerTagline)}</small>
               </span>
             </a>
           </div>
@@ -1783,8 +2683,8 @@ function renderFooter() {
       ]
     },
     {
-      title: "Responsibilities",
-      icon: "responsibilities",
+      title: "Aftercare",
+      icon: "aftercare",
       groups: [
         {
           links: responsibilityLinks.map((item) => [item.route, item.label])
@@ -1814,20 +2714,27 @@ function renderFooter() {
       ${panels.map((panel) => renderFooterPanel(panel)).join("")}
     </div>
     <div class="container footer-bottom">
-      <p>${SITE.copyright}</p>
+      <p class="footer-copyright">${renderBrandMark({
+        className: "footer-copyright__mark",
+        width: 14,
+        height: 14,
+        decorative: true
+      })}<span>${SITE.copyright}</span></p>
       <p>${SITE.notice}</p>
       <div class="footer-actions">
-        <a class="footer-search-trigger" href="/legal/search/" data-search-open="true">
-          <span class="footer-search-trigger__icon" aria-hidden="true">${uiIcon("search")}</span>
-          <span class="footer-search-trigger__hint">Search this site</span>
-        </a>
         <a class="footer-actions__cta" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
       </div>
     </div>
     <div class="container footer-meta">
-      <a href="/sitemap.xml">Sitemap</a>
-      <span>–</span>
-      <a href="/robots.txt">Robots</a>
+      <div class="footer-meta__links">
+        <a href="/sitemap.xml">Sitemap</a>
+        <span>–</span>
+        <a href="/robots.txt">Robots</a>
+      </div>
+      <a class="footer-search-trigger footer-search-trigger--mini" href="/legal/search/" data-search-open="true">
+        <span class="footer-search-trigger__icon" aria-hidden="true">${uiIcon("search")}</span>
+        <span class="footer-search-trigger__hint">Search this site</span>
+      </a>
     </div>
   </footer>`;
 }
@@ -1890,7 +2797,7 @@ function buildJsonLd(page, faqItems) {
       url: SITE.domain,
       email: SITE.email,
       telephone: SITE.phone,
-      logo: `${SITE.domain}/assets/logo/immigrate-to-brazil-logo.png`,
+      logo: BRAND_ASSETS.logoPng,
       sameAs: [SITE.whatsappUrl]
     },
     {
@@ -2159,6 +3066,8 @@ function requiredBrandAssets() {
   return [
     path.join("assets", "logo", "immigrate-to-brazil-logo.svg"),
     path.join("assets", "logo", "immigrate-to-brazil-logo.png"),
+    path.join("assets", "logo", "immigrate-to-brazil-logo-transparent.png"),
+    path.join("assets", "logo", "immigrate-to-brazil-logo-with-background.png"),
     path.join("assets", "favicons", "favicon-16x16.png"),
     path.join("assets", "favicons", "favicon-32x32.png"),
     path.join("assets", "favicons", "favicon.png"),
