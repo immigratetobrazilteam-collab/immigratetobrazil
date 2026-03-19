@@ -2020,15 +2020,45 @@ function buildSearchIndex(page, faqItems) {
   };
 }
 
-async function main() {
-  ensureOk(PAGES.length >= 150, `Expected at least 150 pages, found ${PAGES.length}`);
-  const template = await fs.readFile(TEMPLATE_PATH, "utf8");
-  const testimonials = JSON.parse(await fs.readFile(TESTIMONIALS_PATH, "utf8")).reviews;
+function requiredBrandAssets() {
+  return [
+    path.join("assets", "logo", "immigrate-to-brazil-logo.svg"),
+    path.join("assets", "logo", "immigrate-to-brazil-logo.png"),
+    path.join("assets", "favicons", "favicon-16x16.png"),
+    path.join("assets", "favicons", "favicon-32x32.png"),
+    path.join("assets", "favicons", "favicon.png"),
+    path.join("assets", "favicons", "apple-touch-icon.png"),
+    path.join("assets", "favicons", "android-chrome-192x192.png"),
+    path.join("assets", "favicons", "android-chrome-512x512.png"),
+    path.join("assets", "favicons", "site.webmanifest")
+  ];
+}
+
+function hasCommittedBrandAssets() {
+  return requiredBrandAssets().every((relativePath) => existsSync(path.join(ROOT, relativePath)));
+}
+
+function ensureBrandAssets() {
   const brandRun = spawnSync("python3", [path.join("scripts", "generate_brand_assets.py")], {
     cwd: ROOT,
     stdio: "inherit"
   });
-  ensureOk(brandRun.status === 0, "Brand asset generation failed");
+
+  if (brandRun.status === 0) return;
+
+  if (hasCommittedBrandAssets()) {
+    console.warn("Brand asset generation failed; using committed brand assets already present in the repository.");
+    return;
+  }
+
+  ensureOk(false, "Brand asset generation failed and committed brand assets are missing");
+}
+
+async function main() {
+  ensureOk(PAGES.length >= 150, `Expected at least 150 pages, found ${PAGES.length}`);
+  const template = await fs.readFile(TEMPLATE_PATH, "utf8");
+  const testimonials = JSON.parse(await fs.readFile(TESTIMONIALS_PATH, "utf8")).reviews;
+  ensureBrandAssets();
 
   const heroManifest = [];
   const formMap = [];
