@@ -128,6 +128,12 @@ function uiIcon(key) {
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18H6V3Zm2 2v14h8V5H8Zm1 2h6v2H9V7Zm0 4h6v2H9v-2Zm0 4h4v2H9v-2Z" fill="currentColor"/></svg>',
     search:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm8.9 11.5 2.6 2.6-1.4 1.4-2.6-2.6 1.4-1.4Z" fill="currentColor"/></svg>',
+    scales:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3h2v2.1c2.9.4 5.2 2.7 5.7 5.6h1.3v2h-3.2l1.8 3.5a3.5 3.5 0 0 1-6.3 0l1.8-3.5H13V19h4v2H7v-2h4v-6.3H8.9l1.8 3.5a3.5 3.5 0 0 1-6.3 0l1.8-3.5H3v-2h1.3c.5-2.9 2.8-5.2 5.7-5.6V3Zm6.2 9.7-1.7 3.4a1.5 1.5 0 0 0 2.7 0l-1.7-3.4h.7Zm-10.4 0-1.7 3.4a1.5 1.5 0 0 0 2.7 0l-1.7-3.4h.7Zm5.2-5.6a3.78 3.78 0 0 0-3.7 3.6h7.4A3.78 3.78 0 0 0 12 7.1Z" fill="currentColor"/></svg>',
+    whatsapp:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2a8.8 8.8 0 0 1 7.5 13.4 8.75 8.75 0 0 1-10.2 3.9l-4 1 1.1-3.8A8.8 8.8 0 1 1 12 3.2Zm0 1.9a6.9 6.9 0 0 0-5.9 10.4l.3.5-.7 2.3 2.4-.6.5.3a6.9 6.9 0 1 0 3.4-12.9Zm-2 3.1c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .6.5l.8 1.8c.1.2.1.4 0 .6-.1.2-.2.4-.4.5l-.4.3c-.1.1-.2.2-.1.4.3.5.7 1 1.2 1.5.6.5 1.2.9 1.9 1.2.2.1.3 0 .4-.1l.5-.6c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.4.4 0 .2 0 .9-.3 1.2-.3.2-.8.5-1.4.5-.4 0-.9-.1-1.5-.3-.9-.3-1.8-.8-2.7-1.4a9.15 9.15 0 0 1-2-2.1 8.21 8.21 0 0 1-1.3-2.8c-.2-.7-.2-1.2-.2-1.5 0-.6.3-1.1.5-1.4Z" fill="currentColor"/></svg>',
+    up:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20V8.8L6.4 13.4 5 12l7-7 7 7-1.4 1.4L13 8.8V20h-2Z" fill="currentColor"/></svg>',
     alert:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20L12 3Zm0 4.3 6.5 11.7H5.5L12 7.3Zm-1 3.2h2v4.5h-2v-4.5Zm0 6h2v2h-2v-2Z" fill="currentColor"/></svg>',
     quote:
@@ -148,6 +154,16 @@ function renderHeadingWithIcon(tag, label, icon, className = "") {
   return `<${tag} class="section-title${className ? ` ${className}` : ""}"><span class="section-title__icon" aria-hidden="true">${uiIcon(
     icon
   )}</span><span>${escapeHtml(label)}</span></${tag}>`;
+}
+
+function renderHeaderConsultationCta(className = "") {
+  return `<a class="btn btn-cta btn-sm main-header__cta${className ? ` ${className}` : ""}" href="/start-consultation/" data-cta-click="true">
+    <span class="main-header__cta-icons" aria-hidden="true">
+      <span class="main-header__cta-icon main-header__cta-icon--scales">${uiIcon("scales")}</span>
+      <span class="main-header__cta-icon main-header__cta-icon--book">${uiIcon("book")}</span>
+    </span>
+    <span class="main-header__cta-label">Start Consultation</span>
+  </a>`;
 }
 
 function buildMetaDescription(page) {
@@ -835,8 +851,11 @@ function renderSpecialSections(page, testimonials) {
       ${renderHeadingWithIcon("h2", "Search the site", "search")}
       <form class="search-inline-form" action="/legal/search/" method="GET" data-search-form="true">
         <label class="visually-hidden" for="legal-search-query">Search term</label>
-        <input id="legal-search-query" name="q" type="search" placeholder="Search visas, residencies, process pages, policies..." required />
-        <button type="submit">Search</button>
+        <input id="legal-search-query" name="q" type="search" placeholder="Search this site" required />
+        <button type="submit">
+          <span class="search-inline-form__submit-icon" aria-hidden="true">${uiIcon("search")}</span>
+          <span>Search</span>
+        </button>
       </form>
       <div id="search-results" data-search-results="true" aria-live="polite"></div>
     </section>`;
@@ -1445,6 +1464,7 @@ function renderFooterPanel(panel) {
   return `<section class="footer-panel footer-panel--${slugify(panel.title)}${panel.accent ? ` footer-panel--${panel.accent}` : ""}">
     <div class="footer-panel__head">
       ${heading}
+      ${panel.tagline ? `<p class="footer-brand-tagline">${escapeHtml(panel.tagline)}</p>` : ""}
       ${panel.description ? `<p>${escapeHtml(panel.description)}</p>` : ""}
     </div>
     ${
@@ -1658,7 +1678,7 @@ function renderMainNav(page) {
             <a class="main-header__home${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
           </div>
           <div class="main-header__actions">
-            <a class="btn btn-cta btn-sm main-header__cta d-none d-xl-inline-flex" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
+            ${renderHeaderConsultationCta("d-none d-xl-inline-flex")}
             <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -1711,6 +1731,7 @@ function renderFooter() {
     {
       title: SITE.name,
       logo: true,
+      tagline: SITE.footerTagline,
       description: "Private-client immigration and relocation guidance for Brazil, built around clarity, restraint, and careful preparation.",
       accent: "brand",
       actions: [
@@ -1796,8 +1817,11 @@ function renderFooter() {
       <p>${SITE.copyright}</p>
       <p>${SITE.notice}</p>
       <div class="footer-actions">
-        <a href="/legal/search/" data-search-open="true">Search</a>
-        <a href="/start-consultation/" data-cta-click="true">Start Consultation</a>
+        <a class="footer-search-trigger" href="/legal/search/" data-search-open="true">
+          <span class="footer-search-trigger__icon" aria-hidden="true">${uiIcon("search")}</span>
+          <span class="footer-search-trigger__hint">Search this site</span>
+        </a>
+        <a class="footer-actions__cta" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
       </div>
     </div>
     <div class="container footer-meta">
@@ -1825,16 +1849,21 @@ function renderCookieBanner() {
 
 function renderFloatingWhatsApp() {
   return `<a class="floating-whatsapp" href="${SITE.whatsappUrl}" data-whatsapp-click="true" aria-label="Open WhatsApp chat">
-    <img src="/assets/images/whatsapp-agent-avatar.svg" alt="" width="44" height="44" />
-    <span>
-      <strong>WhatsApp</strong>
-      <small>Private client contact</small>
+    <span class="floating-whatsapp__avatar-wrap">
+      <img src="/assets/images/whatsapp-agent-avatar.svg" alt="" width="52" height="52" />
+      <span class="floating-whatsapp__badge" aria-hidden="true">${uiIcon("whatsapp")}</span>
+    </span>
+    <span class="floating-whatsapp__content">
+      <small>Private client channel</small>
+      <strong>Chat on WhatsApp</strong>
     </span>
   </a>`;
 }
 
 function renderBackToTop() {
-  return `<button type="button" class="back-to-top" data-back-to-top="true" aria-label="Back to top">Top</button>`;
+  return `<button type="button" class="back-to-top" data-back-to-top="true" aria-label="Back to top">
+    <span class="back-to-top__icon" aria-hidden="true">${uiIcon("up")}</span>
+  </button>`;
 }
 
 function renderGtmNoscript() {
@@ -2054,7 +2083,7 @@ function renderPage(page, template, testimonials) {
 async function writeFile(relativePath, content) {
   const fullPath = path.join(ROOT, relativePath);
   await fs.mkdir(path.dirname(fullPath), { recursive: true });
-  await fs.writeFile(fullPath, content, "utf8");
+  await fs.writeFile(fullPath, content.replace(/[ \t]+$/gm, ""), "utf8");
 }
 
 function outputPathForRoute(route) {

@@ -3,6 +3,7 @@ export const SITE = {
   domain: "https://immigratetobrazil.com",
   titleSuffix: "Immigrate to Brazil",
   tagline: "Private guidance for Brazil visas, residency, and relocation",
+  footerTagline: "Supporting Immigrants — Promoting Brazil",
   description:
     "English-first premium guidance on Brazilian immigration pathways, procedures, compliance, and relocation, with Brazil-wide online advisory support.",
   email: "immigratetobrazilteam@gmail.com",
