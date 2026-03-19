@@ -104,6 +104,52 @@ function renderLink(url, label) {
   return `<a href="${url}">${escapeHtml(label)}</a>`;
 }
 
+function uiIcon(key) {
+  const icons = {
+    book:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17.5a2.5 2.5 0 0 0-2.5-2.5H5V4.5Zm2.5-.5a.5.5 0 0 0-.5.5V15h10.5c.53 0 1.04.13 1.5.36V4H7.5Zm-2.5 15h12.5c1.38 0 2.5 1.12 2.5 2.5H7.5A2.5 2.5 0 0 1 5 19Z" fill="currentColor"/></svg>',
+    compass:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm4.7 5.3-6.2 2.5-2.5 6.2 6.2-2.5 2.5-6.2Zm-4.05 4.05 1 1-2.3.92.92-2.3.38.38Z" fill="currentColor"/></svg>',
+    route:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm0 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm10-5a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM7 9v2c0 1.66 1.34 3 3 3h5v-2h-5a1 1 0 0 1-1-1V9H7Z" fill="currentColor"/></svg>',
+    scan:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4v2H6v2H4V4Zm12 0h4v4h-2V6h-2V4ZM4 16h2v2h2v2H4v-4Zm14 0h2v4h-4v-2h2v-2ZM8 7h8v2H8V7Zm0 4h8v2H8v-2Zm0 4h5v2H8v-2Z" fill="currentColor"/></svg>',
+    next:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.2 5.3 6 6-6 6-1.4-1.4 3.6-3.6H4v-2h11.4l-3.6-3.6 1.4-1.4Z" fill="currentColor"/></svg>',
+    shield:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 5 5v6c0 5 3 8.7 7 11 4-2.3 7-6 7-11V5l-7-3Zm0 3.2 4 1.7v4.2c0 3.4-1.8 6-4 7.8-2.2-1.8-4-4.4-4-7.8V6.9l4-1.7Z" fill="currentColor"/></svg>',
+    document:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7V3Zm2 2v14h8V9h-4V5H9Zm2 7h4v2h-4v-2Zm0 4h4v2h-4v-2Zm0-8h1v2h-1V8Z" fill="currentColor"/></svg>',
+    related:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3-3a3 3 0 1 1 4.2 4.2l-2.1 2.1-1.4-1.4 2.1-2.1a1 1 0 1 0-1.4-1.4l-3 3a1 1 0 0 1-1.4 0Zm2.8-2.8a1 1 0 0 1 0 1.4l-3 3a3 3 0 1 1-4.2-4.2l2.1-2.1 1.4 1.4-2.1 2.1a1 1 0 0 0 1.4 1.4l3-3a1 1 0 0 1 1.4 0Z" fill="currentColor"/></svg>',
+    faq:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 15.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm2.2-7.4c0 1.15-.7 1.8-1.54 2.36-.8.53-1.16.9-1.16 1.54v.5h-2v-.74c0-1.37.74-2.19 1.72-2.86.73-.5.98-.84.98-1.34 0-.78-.56-1.32-1.48-1.32-.93 0-1.6.4-2.2 1.08l-1.46-1.26C8.06 7.12 9.28 6.3 10.98 6.3c1.96 0 3.22 1.22 3.22 2.8Z" fill="currentColor"/></svg>',
+    form:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18H6V3Zm2 2v14h8V5H8Zm1 2h6v2H9V7Zm0 4h6v2H9v-2Zm0 4h4v2H9v-2Z" fill="currentColor"/></svg>',
+    search:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm8.9 11.5 2.6 2.6-1.4 1.4-2.6-2.6 1.4-1.4Z" fill="currentColor"/></svg>',
+    alert:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20L12 3Zm0 4.3 6.5 11.7H5.5L12 7.3Zm-1 3.2h2v4.5h-2v-4.5Zm0 6h2v2h-2v-2Z" fill="currentColor"/></svg>',
+    quote:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7H5v5h3c0 1.7-1.3 3-3 3v2c2.8 0 5-2.2 5-5V7Zm10 0h-4v5h3c0 1.7-1.3 3-3 3v2c2.8 0 5-2.2 5-5V7Z" fill="currentColor"/></svg>',
+    payment:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3V6Zm2 2v8h14V8H5Zm2 2h4v2H7v-2Zm8 0h2v4h-2v-4Z" fill="currentColor"/></svg>',
+    places:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 4.8-5.2 10.7-7 13-1.8-2.3-7-8.2-7-13a7 7 0 0 1 7-7Zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5Z" fill="currentColor"/></svg>',
+    responsibilities:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7v5c0 4.6 3 7.9 8 10 5-2.1 8-5.4 8-10V7l-8-4Zm-1 12.6-3.3-3.3 1.4-1.4 1.9 1.9 4.2-4.2 1.4 1.4-5.6 5.6Z" fill="currentColor"/></svg>',
+    spark:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2Zm6.5 13 1 2.5L22 18l-2.5 1-.5 2.5-1-2.5L15 18l2.5-1 .5-2Z" fill="currentColor"/></svg>'
+  };
+  return icons[key] || icons.book;
+}
+
+function renderHeadingWithIcon(tag, label, icon, className = "") {
+  return `<${tag} class="section-title${className ? ` ${className}` : ""}"><span class="section-title__icon" aria-hidden="true">${uiIcon(
+    icon
+  )}</span><span>${escapeHtml(label)}</span></${tag}>`;
+}
+
 function buildMetaDescription(page) {
   const topicList = page.topics.slice(0, 3).join(", ").toLowerCase();
   return truncate(
@@ -460,19 +506,21 @@ function pageJourneySteps(page) {
   ];
 }
 
-function renderPageNavigator(page, { title = "On this page", limit = 6, compact = false } = {}) {
+function renderPageNavigator(page, { title = "On this page", limit = 6, compact = false, icon = "compass" } = {}) {
   if (page.utility) return "";
   const topics = page.topics.slice(0, limit);
   if (!topics.length) return "";
   return `<section class="page-map${compact ? " page-map--compact" : ""}"${compact ? "" : ' id="page-map"'}>
     <div class="page-map__head">
-      <h2>${escapeHtml(title)}</h2>
+      ${renderHeadingWithIcon("h2", title, icon, "page-map__title")}
       <p>Jump between the main topics.</p>
     </div>
     <div class="page-map__links">
       ${topics
         .map(
-          (topic) => `<a class="page-map__link" href="#topic-${slugify(topic)}">${escapeHtml(topic)}</a>`
+          (topic) => `<a class="page-map__link" href="#topic-${slugify(topic)}"><span class="page-map__icon" aria-hidden="true">${uiIcon(
+            "next"
+          )}</span><span>${escapeHtml(topic)}</span></a>`
         )
         .join("")}
     </div>
@@ -482,18 +530,22 @@ function renderPageNavigator(page, { title = "On this page", limit = 6, compact 
 function renderQuickScan(page) {
   if (page.utility) return "";
   const steps = pageJourneySteps(page);
+  const stepIcons = ["route", "scan", "document", "next"];
   return `<section class="quick-scan" aria-label="Page overview and journey">
     <div class="quick-scan__shell">
       <div class="quick-scan__panel quick-scan__panel--journey">
         <div class="section-head">
-          <h2>Journey snapshot</h2>
+          ${renderHeadingWithIcon("h2", "Journey snapshot", "route")}
           <p>Where this page sits in the flow.</p>
         </div>
         <div class="journey-strip">
           ${steps
             .map(
               ([title, text], index) => `<article class="journey-step">
-                <span class="journey-step__count">${String(index + 1).padStart(2, "0")}</span>
+                <div class="journey-step__meta">
+                  <span class="journey-step__icon" aria-hidden="true">${uiIcon(stepIcons[index % stepIcons.length])}</span>
+                  <span class="journey-step__count">${String(index + 1).padStart(2, "0")}</span>
+                </div>
                 <div>
                   <h3>${escapeHtml(title)}</h3>
                   <p>${escapeHtml(text)}</p>
@@ -504,7 +556,7 @@ function renderQuickScan(page) {
         </div>
       </div>
       <div class="quick-scan__panel quick-scan__panel--map">
-        ${renderPageNavigator(page, { title: "Page map", limit: 7 })}
+        ${renderPageNavigator(page, { title: "Page map", limit: 7, icon: "scan" })}
       </div>
     </div>
   </section>`;
@@ -513,10 +565,10 @@ function renderQuickScan(page) {
 function renderSidebar(page) {
   return `<aside class="sidebar-column">
     <section class="sidebar-card sidebar-card--map">
-      ${renderPageNavigator(page, { title: "Quick navigation", limit: 8, compact: true })}
+      ${renderPageNavigator(page, { title: "Quick navigation", limit: 8, compact: true, icon: "compass" })}
     </section>
     <section class="sidebar-card sidebar-card--facts">
-      <h2>At a glance</h2>
+      ${renderHeadingWithIcon("h2", "At a glance", "scan")}
       <ul class="sidebar-list">
         <li><strong>Page model</strong><span>${escapeHtml(STYLE_LABELS[page.sectionStyle] || page.family)}</span></li>
         <li><strong>Coverage</strong><span>${escapeHtml(SITE.serviceArea)}</span></li>
@@ -524,7 +576,7 @@ function renderSidebar(page) {
       </ul>
     </section>
     <section class="sidebar-card sidebar-card--action">
-      <h2>Recommended next step</h2>
+      ${renderHeadingWithIcon("h2", "Recommended next step", "next")}
       <p>${escapeHtml(topicStrap(page, page.topics[0] || page.title, 0))}</p>
       <div class="sidebar-actions">
         <a class="btn btn-cta btn-sm" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
@@ -625,7 +677,7 @@ function renderSpecialSections(page, testimonials) {
     ];
     return `
       <section class="content-block highlight-block">
-        <h2>Service pathways at a glance</h2>
+        ${renderHeadingWithIcon("h2", "Service pathways at a glance", "compass")}
         <div class="card-grid">
           ${pathways
             .map(
@@ -639,7 +691,7 @@ function renderSpecialSections(page, testimonials) {
         </div>
       </section>
       <section class="content-block timeline-block">
-        <h2>Consultation flow</h2>
+        ${renderHeadingWithIcon("h2", "Consultation flow", "route")}
         <ol class="timeline-list">
           <li>Submit the consultation request with your current situation, goals, and any available documents.</li>
           <li>Pay the consultation fee using PayPal, Wise, PIX, or Payoneer to <strong>${SITE.consultationPolicy.paymentReceiverEmail}</strong>.</li>
@@ -648,7 +700,7 @@ function renderSpecialSections(page, testimonials) {
         </ol>
       </section>
       <section class="content-block testimonial-strip">
-        <h2>Selected client feedback</h2>
+        ${renderHeadingWithIcon("h2", "Selected client feedback", "quote")}
         <div class="quote-grid">
           ${safeTestimonials
             .slice(0, 3)
@@ -666,7 +718,7 @@ function renderSpecialSections(page, testimonials) {
   if (page.sectionStyle === "consultation") {
     return `
       <section class="content-block highlight-block">
-        <h2>What to prepare before requesting a consultation</h2>
+        ${renderHeadingWithIcon("h2", "What to prepare before requesting a consultation", "form")}
         <ul class="icon-list">
           <li>Your current country of residence and current immigration status.</li>
           <li>Any deadlines, travel dates, or appointment windows already known.</li>
@@ -683,7 +735,7 @@ function renderSpecialSections(page, testimonials) {
       .map((route) => pageLookup(route))
       .filter(Boolean);
     return `<section class="content-block highlight-block">
-      <h2>Organized by service family</h2>
+      ${renderHeadingWithIcon("h2", "Organized by service family", "compass")}
       <div class="card-grid">
         ${hubs
           .map(
@@ -700,7 +752,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.sectionStyle === "service-hub") {
     return `<section class="content-block child-grid-block">
-      <h2>Included routes</h2>
+      ${renderHeadingWithIcon("h2", "Included routes", "route")}
       <div class="card-grid">
         ${servicesChildren
           .map(
@@ -717,7 +769,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.sectionStyle === "payment") {
     return `<section class="content-block highlight-block">
-      <h2>Accepted payment methods</h2>
+      ${renderHeadingWithIcon("h2", "Accepted payment methods", "payment")}
       <div class="card-grid compact">
         ${SITE.consultationPolicy.paymentMethods
           .map(
@@ -740,7 +792,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.sectionStyle === "emergency") {
     return `<section class="content-block alert-block">
-      <h2>How to use the emergency channel</h2>
+      ${renderHeadingWithIcon("h2", "How to use the emergency channel", "alert")}
       <p>If the situation is urgent, use <a href="${SITE.whatsappUrl}">WhatsApp</a> first and state the nature of the emergency, your location, your current status, and any deadline or authority action already in progress.</p>
       <p>If there is detention, an airport restriction, a health emergency, or immediate physical risk, contact the competent public authority first. Legal follow-up should then be coordinated through WhatsApp with the most concise possible summary.</p>
       <p>Existing clients should identify themselves as current clients and include the matter reference if available. First-time contacts should understand that an emergency message does not itself create representation.</p>
@@ -750,7 +802,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.route === "/about/testimonials/") {
     return `<section class="content-block testimonial-strip">
-      <h2>Primary testimonial dataset</h2>
+      ${renderHeadingWithIcon("h2", "Primary testimonial dataset", "quote")}
       <p class="small-note">These statements are presented as feedback records, not as guarantees of future outcomes. Punctuation has been normalized lightly where needed, but the substance of each statement has not been rewritten.</p>
       <div class="quote-grid expanded">
         ${testimonials
@@ -768,7 +820,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.route === "/about/lawyer/") {
     return `<section class="content-block profile-block">
-      <h2>Public professional record used on this page</h2>
+      ${renderHeadingWithIcon("h2", "Public professional record used on this page", "shield")}
       <div class="fact-sheet">
         <div><strong>Legal name</strong><span>${escapeHtml(LAWYER_FACTS.legalName)}</span></div>
         <div><strong>Public reference</strong><span>${escapeHtml(LAWYER_FACTS.publicName)}</span></div>
@@ -780,7 +832,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.sectionStyle === "search") {
     return `<section class="content-block search-results-shell">
-      <h2>Search the site</h2>
+      ${renderHeadingWithIcon("h2", "Search the site", "search")}
       <form class="search-inline-form" action="/legal/search/" method="GET" data-search-form="true">
         <label class="visually-hidden" for="legal-search-query">Search term</label>
         <input id="legal-search-query" name="q" type="search" placeholder="Search visas, residencies, process pages, policies..." required />
@@ -792,7 +844,7 @@ function renderSpecialSections(page, testimonials) {
 
   if (page.sectionStyle === "404") {
     return `<section class="content-block alert-block">
-      <h2>The page could not be found</h2>
+      ${renderHeadingWithIcon("h2", "The page could not be found", "alert")}
       <p>The address may be outdated, the route may have changed, or the URL may have been typed incorrectly. Use the search tool, the main navigation, or one of the recovery links below.</p>
       <div class="inline-actions">
         <a class="btn btn-cta" href="/">Home</a>
@@ -899,7 +951,7 @@ function renderFaq(page, faqItems) {
   if (!faqItems.length) return "";
   return `<section class="faq-block" id="faq" data-faq="true">
     <div class="section-head">
-      <h2>Frequently asked questions</h2>
+      ${renderHeadingWithIcon("h2", "Frequently asked questions", "faq")}
       <p>Each page carries its own FAQ block so the answer stays tied to the topic at hand.</p>
     </div>
     <div class="accordion" id="faq-accordion-${routeKey(page.route)}">
@@ -924,7 +976,7 @@ function renderFaq(page, faqItems) {
 function renderOfficialResources(page, resources) {
   return `<section class="official-resources" data-official-resources="true">
     <div class="section-head">
-      <h2>Official resources</h2>
+      ${renderHeadingWithIcon("h2", "Official resources", "document")}
       <p>Primary government or institutional sources referenced when framing this page.</p>
     </div>
     <div class="resource-grid">
@@ -970,7 +1022,7 @@ function renderLeadForm(page, options = {}) {
   const full = Boolean(options.full);
   return `<section class="lead-form-block" id="consultation-form">
     <div class="section-head">
-      <h2>${full ? "Request a consultation" : "Send an inquiry"}</h2>
+      ${renderHeadingWithIcon("h2", full ? "Request a consultation" : "Send an inquiry", "form")}
       <p>The form posts to the grouped Formspree endpoint assigned to this route family.</p>
     </div>
     <form action="${action}" method="POST" class="lead-form ${full ? "lead-form-full" : "lead-form-compact"}" data-formspree-group="${page.formGroup}">
@@ -1006,7 +1058,7 @@ function renderRelated(page) {
   const items = relatedPages(page);
   return `<section class="related-block" data-related-links="true">
     <div class="section-head">
-      <h2>See also</h2>
+      ${renderHeadingWithIcon("h2", "See also", "related")}
       <p>Related internal pages for the next part of the journey.</p>
     </div>
     <div class="related-grid">
@@ -1251,7 +1303,7 @@ function renderPageMain(page, testimonials) {
       <div class="container main-shell">
         <article class="content-column">
           <section class="content-block intro-block">
-            <h2>Overview</h2>
+            ${renderHeadingWithIcon("h2", "Overview", "book")}
             ${buildIntroParagraph(page)}
           </section>
           ${renderTrustMarkers(page)}
@@ -1303,17 +1355,17 @@ function renderUtilityBar() {
           <span aria-hidden="true">|</span>
           <button type="button" class="lang-link" data-language-toggle="pt-BR" ${PT_PRESENT ? "" : "disabled aria-disabled=\"true\""}>PT</button>
         </div>
-        <button type="button" class="utility-action utility-action--text" data-open-accessibility="true">Accessibility</button>
+        <button type="button" class="utility-action utility-action--text" data-open-accessibility="true" aria-controls="accessibility-panel" aria-expanded="false">Accessibility</button>
       </div>
     </div>
   </div>`;
 }
 
 function renderAccessibilityPanel() {
-  return `<aside class="accessibility-panel" id="accessibility-panel" aria-hidden="true">
+  return `<aside class="accessibility-panel" id="accessibility-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="accessibility-title" tabindex="-1">
     <div class="accessibility-panel__inner">
       <div class="panel-header">
-        <h2>Accessibility</h2>
+        <h2 id="accessibility-title">Accessibility</h2>
         <button type="button" class="panel-close" data-close-accessibility="true">Close</button>
       </div>
       <div class="panel-actions">
@@ -1323,6 +1375,14 @@ function renderAccessibilityPanel() {
             <button type="button" data-accessibility-action="text-decrease">A-</button>
             <strong data-text-scale-value="true">100%</strong>
             <button type="button" data-accessibility-action="text-increase">A+</button>
+          </div>
+        </div>
+        <div class="scale-control">
+          <span>Color mode</span>
+          <div class="inline-actions inline-actions--choices" role="group" aria-label="Color mode">
+            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="light">Light</button>
+            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="dark">Dark</button>
+            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="system">Auto</button>
           </div>
         </div>
         ${[
@@ -1364,8 +1424,12 @@ function footerIcon(key) {
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 10c4.4 0 8 2.2 8 4.8V21H4v-3.2C4 15.2 7.6 13 12 13Z" fill="currentColor"/></svg>',
     brazil:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 7v10l8 5 8-5V7l-8-5Zm0 2.3 5.9 3.7-5.9 3.7L6.1 8 12 4.3Zm-6 5.5 5 3.1v6.1l-5-3.1V9.8Zm7 9.2v-6.1l5-3.1v6.1l-5 3.1Z" fill="currentColor"/></svg>',
+    places:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 4.8-5.2 10.7-7 13-1.8-2.3-7-8.2-7-13a7 7 0 0 1 7-7Zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5Z" fill="currentColor"/></svg>',
     process:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h6v4H5V6Zm8 0h6v4h-6V6ZM5 14h6v4H5v-4Zm8 0h6v4h-6v-4Zm-1-3h2v2h-2z" fill="currentColor"/></svg>',
+    responsibilities:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7v5c0 4.6 3 7.9 8 10 5-2.1 8-5.4 8-10V7l-8-4Zm-1 12.6-3.3-3.3 1.4-1.4 1.9 1.9 4.2-4.2 1.4 1.4-5.6 5.6Z" fill="currentColor"/></svg>',
     insights:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-1 7h5l-6 13 1-8H7l6-12Z" fill="currentColor"/></svg>',
     legal:
@@ -1589,12 +1653,16 @@ function renderMainNav(page) {
                 <strong>${SITE.name}</strong>
               </span>
             </a>
-            <a class="main-header__home d-none d-xl-inline-flex${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
           </div>
-          <a class="btn btn-cta btn-sm main-header__cta d-none d-xl-inline-flex" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
-          <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="main-header__center d-none d-xl-flex">
+            <a class="main-header__home${page.route === "/" ? " is-active" : ""}" href="/">Home</a>
+          </div>
+          <div class="main-header__actions">
+            <a class="btn btn-cta btn-sm main-header__cta d-none d-xl-inline-flex" href="/start-consultation/" data-cta-click="true">Start Consultation</a>
+            <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
         <div class="main-header__lower d-none d-xl-flex">
           <ul class="navbar-nav navbar-nav--services">
@@ -1622,6 +1690,23 @@ function renderMainNav(page) {
 }
 
 function renderFooter() {
+  const placeLabels = new Set(["North", "Northeast", "Central-West", "Southeast", "South", "States", "Cities", "Directory", "Municipalities", "Search"]);
+  const responsibilityLabels = new Set([
+    "Responsibilities",
+    "Rights",
+    "Aftercare",
+    "Renewal",
+    "Permanent",
+    "Naturalisation",
+    "Compliance",
+    "Conversion",
+    "Regularization",
+    "Planning"
+  ]);
+  const brazilCoreLinks = NAVIGATION.brazil.filter((item) => !placeLabels.has(item.label));
+  const placeLinks = NAVIGATION.brazil.filter((item) => placeLabels.has(item.label));
+  const processCoreLinks = NAVIGATION.process.filter((item) => !responsibilityLabels.has(item.label));
+  const responsibilityLinks = NAVIGATION.process.filter((item) => responsibilityLabels.has(item.label));
   const panels = [
     {
       title: SITE.name,
@@ -1654,7 +1739,16 @@ function renderFooter() {
       icon: "brazil",
       groups: [
         {
-          links: NAVIGATION.brazil.map((item) => [item.route, item.label])
+          links: brazilCoreLinks.map((item) => [item.route, item.label])
+        }
+      ]
+    },
+    {
+      title: "Places",
+      icon: "places",
+      groups: [
+        {
+          links: placeLinks.map((item) => [item.route, item.label])
         }
       ]
     },
@@ -1663,7 +1757,16 @@ function renderFooter() {
       icon: "process",
       groups: [
         {
-          links: NAVIGATION.process.map((item) => [item.route, item.label])
+          links: processCoreLinks.map((item) => [item.route, item.label])
+        }
+      ]
+    },
+    {
+      title: "Responsibilities",
+      icon: "responsibilities",
+      groups: [
+        {
+          links: responsibilityLinks.map((item) => [item.route, item.label])
         }
       ]
     },
@@ -1855,15 +1958,15 @@ function buildJsonLd(page, faqItems) {
 
 function themeColorForPage(page) {
   const colors = {
-    foundation: SITE.colors.emerald,
-    services: SITE.colors.green,
-    process: SITE.colors.gold,
-    brazil: SITE.colors.navy,
-    about: "#44506B",
-    insights: "#7A5536",
-    legal: "#4F5965"
+    foundation: "#52B788",
+    services: "#2D6A4F",
+    process: "#C7953C",
+    brazil: "#40916C",
+    about: "#6F4E8C",
+    insights: "#CD6C28",
+    legal: "#1B4332"
   };
-  return colors[page.family] || SITE.colors.green;
+  return colors[page.family] || "#2D6A4F";
 }
 
 function renderHead(page, faqItems, hero) {
@@ -1913,7 +2016,10 @@ function renderHead(page, faqItems, hero) {
         tracking: SITE.tracking,
         consultationPolicy: SITE.consultationPolicy,
         contact: { email: SITE.email, phone: SITE.phone, whatsappUrl: SITE.whatsappUrl },
-        accessibility: { dyslexiaFont: DYSLEXIA_FONT_STACK }
+        accessibility: {
+          dyslexiaFont: DYSLEXIA_FONT_STACK,
+          themeColors: { light: "#52B788", dark: "#081C15" }
+        }
       })};
     </script>`;
 }

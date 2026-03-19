@@ -96,16 +96,6 @@
         openDropdown();
       }
     });
-
-    dropdown.addEventListener("mouseenter", () => {
-      if (window.innerWidth < 1200 || body.classList.contains("reduced-motion")) return;
-      openDropdown();
-    });
-
-    dropdown.addEventListener("mouseleave", () => {
-      if (window.innerWidth < 1200) return;
-      closeDropdown();
-    });
   });
 
   document.addEventListener("click", (event) => {
