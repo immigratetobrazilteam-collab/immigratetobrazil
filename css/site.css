@@ -410,7 +410,144 @@ li {
 }
 
 .upgrade-banner {
-  display: none;
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2.8rem, 6vw, 4.5rem) 0;
+}
+
+.upgrade-banner::before,
+.upgrade-banner::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.upgrade-banner::before {
+  inset: -5rem auto auto -4rem;
+  width: 18rem;
+  height: 18rem;
+  background: radial-gradient(circle, rgba(235, 200, 126, 0.34), transparent 70%);
+}
+
+.upgrade-banner::after {
+  inset: auto -4rem -7rem auto;
+  width: 22rem;
+  height: 22rem;
+  background: radial-gradient(circle, rgba(82, 183, 136, 0.16), transparent 72%);
+}
+
+.upgrade-banner__shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 1.4rem;
+  align-items: stretch;
+  min-height: max(28rem, 50vh);
+  padding: clamp(2rem, 4.5vw, 3.4rem);
+  border: 1px solid rgba(199, 149, 60, 0.22);
+  border-radius: calc(var(--radius-lg) + 0.35rem);
+  background:
+    linear-gradient(140deg, rgba(255, 251, 243, 0.98) 0%, rgba(246, 239, 228, 0.96) 48%, rgba(216, 243, 220, 0.86) 100%);
+  box-shadow:
+    0 28px 60px rgba(73, 61, 45, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.42);
+}
+
+.upgrade-banner__content,
+.upgrade-banner__aside {
+  display: grid;
+}
+
+.upgrade-banner__content {
+  align-content: center;
+  gap: 1.05rem;
+}
+
+.upgrade-banner__content h2 {
+  max-width: 14ch;
+  margin-bottom: 0;
+  font-size: clamp(2.4rem, 5.5vw, 4.35rem);
+  line-height: 0.95;
+}
+
+.upgrade-banner__lead {
+  max-width: 60ch;
+  margin: 0;
+  font-size: 1.18rem;
+  color: var(--text-main);
+}
+
+.upgrade-banner__content p:not(.section-kicker):not(.upgrade-banner__lead) {
+  max-width: 62ch;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.upgrade-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.6rem;
+}
+
+.upgrade-banner__actions .btn {
+  min-width: 12rem;
+}
+
+.upgrade-banner__aside {
+  align-content: center;
+  gap: 1rem;
+}
+
+.upgrade-banner__card {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1.25rem 1.3rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(27, 67, 50, 0.12);
+  background:
+    linear-gradient(145deg, rgba(255, 253, 248, 0.95), rgba(255, 247, 230, 0.9));
+  box-shadow: 0 16px 34px rgba(73, 61, 45, 0.08);
+}
+
+.upgrade-banner__card span {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #7b521c;
+}
+
+.upgrade-banner__card strong {
+  color: var(--text-main);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body.theme-dark .upgrade-banner__shell {
+  border-color: rgba(235, 200, 126, 0.2);
+  background:
+    linear-gradient(140deg, rgba(16, 38, 29, 0.96) 0%, rgba(18, 46, 34, 0.94) 52%, rgba(88, 63, 22, 0.52) 100%);
+}
+
+body.theme-dark .upgrade-banner__card {
+  border-color: rgba(235, 200, 126, 0.16);
+  background:
+    linear-gradient(145deg, rgba(15, 35, 26, 0.96), rgba(28, 54, 40, 0.9));
+}
+
+body.theme-dark .upgrade-banner__card span {
+  color: var(--gold-300);
+}
+
+body.a11y-contrast .upgrade-banner__shell,
+body.a11y-contrast .upgrade-banner__card {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
 }
 
 .utility-bar {
@@ -2818,6 +2955,7 @@ body.reduced-motion *::after {
 @media (max-width: 1024px) {
   .hero-inner,
   .brand-inner,
+  .upgrade-banner__shell,
   .quick-scan__shell,
   .main-shell,
   .topic-section--split .topic-section__shell,
@@ -2831,6 +2969,14 @@ body.reduced-motion *::after {
 
   .hero {
     padding-bottom: 4rem;
+  }
+
+  .upgrade-banner__shell {
+    min-height: auto;
+  }
+
+  .upgrade-banner__content h2 {
+    max-width: 100%;
   }
 
   .quick-scan {
@@ -2892,6 +3038,23 @@ body.reduced-motion *::after {
 
   .hero {
     padding-top: 3.2rem;
+  }
+
+  .upgrade-banner {
+    padding: 1.8rem 0 1.35rem;
+  }
+
+  .upgrade-banner__shell {
+    padding: 1.55rem;
+  }
+
+  .upgrade-banner__content h2 {
+    font-size: clamp(2rem, 11vw, 3.1rem);
+  }
+
+  .upgrade-banner__actions .btn {
+    width: 100%;
+    min-width: 0;
   }
 
   .hero-meta {
