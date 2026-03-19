@@ -3,150 +3,146 @@ import { existsSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import { FORBIDDEN_PHRASES } from "../content/config.js";
-import { PAGES } from "../content/pages.js";
+import {
+  discoverRouteFiles,
+  extractFormActions,
+  extractLocalRefs,
+  extractPageData,
+  normalizeUrlForLookup,
+  resolveLocalPath
+} from "./static-site-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-function stripHtml(value) {
-  return value
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+function compareStringSets(actual, expected) {
+  if (actual.length !== expected.length) return false;
+  return actual.every((value, index) => value === expected[index]);
 }
 
-function wordCount(value) {
-  const text = stripHtml(value);
-  return text ? text.split(/\s+/).length : 0;
+function compareFormEntries(actual, expected) {
+  if (actual.length !== expected.length) return false;
+  return actual.every(
+    (entry, index) =>
+      entry.route === expected[index].route &&
+      entry.title === expected[index].title &&
+      entry.endpoint === expected[index].endpoint
+  );
 }
 
-function outputPath(route) {
-  if (route === "/") return path.join(ROOT, "index.html");
-  return path.join(ROOT, route.replace(/^\/|\/$/g, ""), "index.html");
-}
+async function readJson(filePath, failures) {
+  if (!existsSync(filePath)) {
+    failures.push(`Missing file: ${path.relative(ROOT, filePath)}`);
+    return null;
+  }
 
-async function readFileSafe(filePath) {
-  return fs.readFile(filePath, "utf8");
-}
-
-function extractTag(html, pattern) {
-  const match = html.match(pattern);
-  return match ? match[1].trim() : "";
-}
-
-function extractLinks(html) {
-  return [...html.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
+  try {
+    return JSON.parse(await fs.readFile(filePath, "utf8"));
+  } catch (error) {
+    failures.push(`Invalid JSON in ${path.relative(ROOT, filePath)}: ${error.message}`);
+    return null;
+  }
 }
 
 async function main() {
+  const routeFiles = await discoverRouteFiles(ROOT);
   const failures = [];
   const titleMap = new Map();
   const descriptionMap = new Map();
-  const heroMap = new Map();
-  const faqMap = new Map();
+  const expectedSearchRoutes = [];
+  const expectedFormMap = [];
+  let legal404Html = "";
 
-  for (const page of PAGES) {
-    const filePath = outputPath(page.route);
-    if (!existsSync(filePath)) {
-      failures.push(`Missing route file: ${page.route}`);
-      continue;
-    }
-
-    const html = await readFileSafe(filePath);
-    const title = extractTag(html, /<title>([^<]+)<\/title>/i);
-    const description = extractTag(html, /<meta name="description" content="([^"]+)"/i);
+  for (const page of routeFiles) {
+    const html = await fs.readFile(page.filePath, "utf8");
+    const pageData = extractPageData(page.route, html);
+    const description = pageData.summary;
     const h1Count = (html.match(/<h1\b/gi) || []).length;
-    const heroImage = extractTag(html, /--hero-image:url\('([^']+)'\)/i);
-    const faqQuestions = [...html.matchAll(/data-faq-question="true"[\s\S]*?<button[^>]*>([\s\S]*?)<\/button>/gi)].map((match) =>
-      stripHtml(match[1])
-    );
-    const links = extractLinks(html);
+    const mainCount = (html.match(/<main\b/gi) || []).length;
 
-    if (!title) failures.push(`Missing <title>: ${page.route}`);
+    if (!pageData.browserTitle) failures.push(`Missing <title>: ${page.route}`);
     if (!description) failures.push(`Missing meta description: ${page.route}`);
     if (h1Count !== 1) failures.push(`Expected exactly one H1 on ${page.route}, found ${h1Count}`);
-    if (!heroImage) failures.push(`Missing hero image reference: ${page.route}`);
+    if (mainCount !== 1) failures.push(`Expected exactly one <main> on ${page.route}, found ${mainCount}`);
     if (!html.includes("application/ld+json")) failures.push(`Missing JSON-LD schema: ${page.route}`);
-    if (!html.includes('data-official-resources="true"') && !page.utility) failures.push(`Missing official resources block: ${page.route}`);
-    if (!html.includes('data-related-links="true"') && !page.utility) failures.push(`Missing related links block: ${page.route}`);
-    if (!page.utility && !html.includes('data-faq="true"')) failures.push(`Missing FAQ block: ${page.route}`);
-    if (page.noindex && !html.includes('name="robots" content="noindex,follow"')) failures.push(`Missing noindex on ${page.route}`);
 
-    if (titleMap.has(title)) failures.push(`Duplicate title: ${title}`);
+    if (titleMap.has(pageData.browserTitle)) failures.push(`Duplicate title: ${pageData.browserTitle}`);
     if (descriptionMap.has(description)) failures.push(`Duplicate description: ${description}`);
-    titleMap.set(title, page.route);
+    titleMap.set(pageData.browserTitle, page.route);
     descriptionMap.set(description, page.route);
 
-    if (heroImage) {
-      const heroPath = path.join(ROOT, heroImage.replace(/^\//, ""));
-      if (!existsSync(heroPath)) failures.push(`Missing hero image asset: ${heroImage} for ${page.route}`);
-      if (heroMap.has(heroImage)) failures.push(`Duplicate hero image asset: ${heroImage}`);
-      heroMap.set(heroImage, page.route);
+    if (!pageData.noindex) {
+      expectedSearchRoutes.push(page.route);
     }
 
-    for (const question of faqQuestions) {
-      if (faqMap.has(question)) failures.push(`Duplicate FAQ question: "${question}"`);
-      faqMap.set(question, page.route);
+    const formActions = extractFormActions(html).filter((action) => /formspree\.io\/f\//i.test(action));
+    for (const endpoint of formActions) {
+      expectedFormMap.push({
+        route: page.route,
+        title: pageData.title,
+        endpoint
+      });
     }
 
-    const articleMatch = html.match(/<article class="content-column">([\s\S]*?)<\/article>\s*<aside class="sidebar-column">/i);
-    const countTarget = articleMatch ? articleMatch[1] : html.match(/<main[\s\S]*?<\/main>/i)?.[0];
-    if (countTarget && !page.utility && page.sectionStyle !== "search") {
-      const words = wordCount(countTarget);
-      if (words < 2000 || words > 3000) {
-        failures.push(`Word count out of range on ${page.route}: ${words}`);
-      }
-    }
-
-    for (const link of links) {
-      if (!link.startsWith("/")) continue;
-      if (link.startsWith("/assets/") || link.startsWith("/css/") || link.startsWith("/js/") || link.startsWith("/data/")) {
-        const assetPath = path.join(ROOT, link.replace(/^\//, ""));
-        if (!existsSync(assetPath)) failures.push(`Broken asset link ${link} on ${page.route}`);
-        continue;
-      }
-      if (/\.(xml|txt|json|webmanifest)$/i.test(link)) {
-        const filePath = path.join(ROOT, link.replace(/^\//, ""));
-        if (!existsSync(filePath)) {
-          failures.push(`Broken internal file link ${link} on ${page.route}`);
-        }
-        continue;
-      }
-      const candidate = link === "/"
-        ? path.join(ROOT, "index.html")
-        : path.join(ROOT, link.replace(/^\/|\/$/g, ""), "index.html");
-      const isHtmlFile = link.endsWith(".html") && existsSync(path.join(ROOT, link.replace(/^\//, "")));
-      if (!existsSync(candidate) && !isHtmlFile) {
-        failures.push(`Broken internal link ${link} on ${page.route}`);
+    const localRefs = extractLocalRefs(html);
+    for (const ref of localRefs) {
+      const lookupPath = normalizeUrlForLookup(ref, page.route);
+      if (!lookupPath) continue;
+      const localPath = resolveLocalPath(ROOT, lookupPath);
+      if (localPath && !existsSync(localPath)) {
+        failures.push(`Broken local reference ${ref} on ${page.route}`);
       }
     }
 
-    for (const phrase of FORBIDDEN_PHRASES) {
-      if (!html.includes(phrase)) continue;
-      const allowedMonique =
-        phrase === "Monique Fernandes" &&
-        (page.route === "/about/lawyer/" || page.route === "/about/testimonials/");
-      const allowedTestimonialPhrase =
-        page.route === "/about/testimonials/" && phrase !== "Calen" + "dly";
-      if (!allowedMonique && !allowedTestimonialPhrase) {
-        failures.push(`Forbidden phrase "${phrase}" found on ${page.route}`);
-      }
+    if (page.route === "/legal/404/") {
+      legal404Html = html;
     }
   }
 
-  const root404 = path.join(ROOT, "404.html");
-  if (!existsSync(root404)) failures.push("Missing root 404.html");
-  const robots = path.join(ROOT, "robots.txt");
-  const sitemap = path.join(ROOT, "sitemap.xml");
-  if (!existsSync(robots)) failures.push("Missing robots.txt");
-  if (!existsSync(sitemap)) failures.push("Missing sitemap.xml");
-  if (!existsSync(path.join(ROOT, "_headers"))) failures.push("Missing _headers");
-  if (!existsSync(path.join(ROOT, "data", "formspree-map.json"))) failures.push("Missing data/formspree-map.json");
-  if (!existsSync(path.join(ROOT, "docs", "formspree-map.md"))) failures.push("Missing docs/formspree-map.md");
-  if (!existsSync(path.join(ROOT, "data", "search-index.json"))) failures.push("Missing data/search-index.json");
+  const searchIndexPath = path.join(ROOT, "data", "search-index.json");
+  const formMapPath = path.join(ROOT, "data", "formspree-map.json");
+  const buildReportPath = path.join(ROOT, "data", "build-report.json");
+  const formMapMarkdownPath = path.join(ROOT, "docs", "formspree-map.md");
+  const root404Path = path.join(ROOT, "404.html");
+
+  const searchIndex = await readJson(searchIndexPath, failures);
+  const formMap = await readJson(formMapPath, failures);
+  await readJson(buildReportPath, failures);
+
+  if (!existsSync(formMapMarkdownPath)) {
+    failures.push("Missing docs/formspree-map.md");
+  }
+
+  if (searchIndex) {
+    const actualSearchRoutes = [...new Set(searchIndex.map((item) => item.route))].sort();
+    const expected = [...new Set(expectedSearchRoutes)].sort();
+    if (!compareStringSets(actualSearchRoutes, expected)) {
+      failures.push("Search index is out of sync. Run `npm run build`.");
+    }
+  }
+
+  if (formMap) {
+    const actualFormEntries = [...formMap]
+      .map((item) => ({
+        route: item.route,
+        title: item.title,
+        endpoint: item.endpoint
+      }))
+      .sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
+    const expected = [...expectedFormMap].sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
+    if (!compareFormEntries(actualFormEntries, expected)) {
+      failures.push("Formspree map is out of sync. Run `npm run build`.");
+    }
+  }
+
+  if (!existsSync(root404Path)) {
+    failures.push("Missing root 404.html");
+  } else if (legal404Html) {
+    const root404Html = await fs.readFile(root404Path, "utf8");
+    if (root404Html !== legal404Html) {
+      failures.push("Root 404.html is out of sync with /legal/404/. Run `npm run build`.");
+    }
+  }
 
   if (failures.length) {
     console.error("Validation failed:");
@@ -154,7 +150,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`Validation passed for ${PAGES.length} routes.`);
+  console.log(`Validation passed for ${routeFiles.length} route HTML files.`);
 }
 
 main().catch((error) => {

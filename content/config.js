@@ -55,12 +55,12 @@ export const SITE = {
 export const PROFESSIONAL_REFERENCE = {
   fullName: "Monique Lorran Lopes Fernandes",
   publicName: "Monique Fernandes",
-  oab: "OAB/PR 108.616",
+  oab: "OAB/PR",
   languages: ["English", "Portuguese"],
   publicSummary:
     "Brazilian attorney with a publicly stated practice focus on immigration, civil, family, and human-rights matters.",
   factualNotes: [
-    "Public materials identify Monique Lorran Lopes Fernandes as a Brazilian attorney registered as OAB/PR 108.616.",
+    "Public materials identify Monique Lorran Lopes Fernandes as a Brazilian attorney with a public OAB/PR professional registration reference.",
     "Public-facing source material states that services are offered in English and Portuguese.",
     "Public-facing source material also states that the practice has operated since 2018 and serves clients remotely."
   ]

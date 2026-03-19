@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-site.js",
+    "sync": "node scripts/sync-static-data.js",
+    "build": "npm run sync",
     "build:static": "npm run build && npm run validate",
+    "build:legacy": "node scripts/build-site.js",
     "validate": "node scripts/validate-site.js",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
     "generate:pt": "node scripts/generate-pt-br.js",

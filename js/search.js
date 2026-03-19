@@ -1,10 +1,12 @@
 (function () {
   const resultsNode = document.querySelector("[data-search-results='true']");
   const form = document.querySelector("[data-search-form='true']");
-  const searchPath = "/legal/search/";
+  const isPt = window.location.pathname.startsWith("/pt-br/");
+  const searchPath = isPt ? "/pt-br/legal/search/" : "/legal/search/";
+  const indexPath = isPt ? "/pt-br/data/search-index.json" : "/data/search-index.json";
 
   async function loadIndex() {
-    const response = await fetch("/data/search-index.json", { credentials: "same-origin" });
+    const response = await fetch(indexPath, { credentials: "same-origin" });
     if (!response.ok) throw new Error("Unable to load search index");
     return response.json();
   }

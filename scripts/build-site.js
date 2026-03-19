@@ -755,7 +755,7 @@ function topicParagraphs(page, topic, index) {
 
   if (page.route === "/about/lawyer/") {
     const lawyerContent = {
-      "Full Identification": `Public source material identifies ${LAWYER_FACTS.legalName} as a Brazilian attorney and names ${LAWYER_FACTS.oab} as the professional registration reference. That is the core professional identification currently verified. No additional biographical detail is added where the public record does not state it. That restraint protects accuracy, supports OAB-safe communication, and keeps a clear distinction between verified professional identification and unsupported biography.`,
+      "Full Identification": `Public source material identifies ${LAWYER_FACTS.legalName} as a Brazilian attorney and confirms a public ${LAWYER_FACTS.oab} professional registration reference. That is the core professional identification currently verified. No additional biographical detail is added where the public record does not state it. That restraint protects accuracy, supports OAB-safe communication, and keeps a clear distinction between verified professional identification and unsupported biography.`,
       "Academic Background": `The available public material reviewed for this build does not publish a law-school name, degree date, or public academic timeline. For that reason, no institution, degree sequence, or credential list is inferred here. Factual restraint is part of compliance. If verified public records later make those details available, they can be stated precisely rather than guessed from incomplete material.`,
       "Professional Qualifications": `The professionally relevant facts that can be stated with confidence are the OAB registration, the public identification as a licensed Brazilian attorney, the stated service languages, and the public positioning of the practice in immigration-related matters. In practical terms, that means an OAB-registered lawyer handling Brazil immigration guidance within the limits of the public record. What matters here is what can be verified, how the professional role is framed, and where the public record ends.`,
       "Areas of Practice": `Source material indicates a practice focus that includes immigration, civil, family, and human-rights matters. The client guidance here is immigration-focused, so the broader range appears only as contextual background. That distinction matters because cross-border cases sometimes overlap with family status, records, translations, or related civil issues, even when the primary question is immigration.`,
@@ -1679,7 +1679,7 @@ function renderTrustMarkers(page) {
   const items =
     page.sectionStyle === "consultation"
       ? [
-          ["Licensed Brazilian attorney", `${LAWYER_FACTS.oab}.`],
+          ["Licensed Brazilian attorney", `${LAWYER_FACTS.oab} registered.`],
           ["Bilingual consultations", `Consultations are handled in ${LAWYER_FACTS.languages.join(" and ")}.`],
           ["No false guarantees", "A consultation can clarify routes and risks, but no lawyer controls the authority's final decision."]
         ]
@@ -1690,7 +1690,7 @@ function renderTrustMarkers(page) {
             ["No false guarantees", "Good preparation helps, but the final administrative decision still belongs to the competent authority."]
           ]
         : [
-            ["OAB-registered lawyer", `${LAWYER_FACTS.oab}.`],
+            ["OAB-registered lawyer", `${LAWYER_FACTS.oab} registered.`],
             ["Compliance-first approach", "Route fit, document quality, and filing sequence are reviewed before translations, appointments, or submissions move ahead."],
             ["Remote support across Brazil", "Clients in Brazil or abroad can be assisted through a document-based remote process."]
           ];
@@ -1998,7 +1998,7 @@ function heroPanelItems(page) {
 function heroGlanceItems(page) {
   if (page.route === "/") {
     return [
-      ["Professional basis", `Licensed Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["Professional basis", "Licensed Brazilian attorney."],
       ["Language support", `Consultations and client communication in ${LAWYER_FACTS.languages.join(" and ")}.`],
       ["Working method", "Compliance-first route analysis, document review, and realistic next-step planning."]
     ];
@@ -2006,7 +2006,7 @@ function heroGlanceItems(page) {
 
   if (page.sectionStyle === "consultation") {
     return [
-      ["Professional basis", `Licensed Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["Professional basis", "Licensed Brazilian attorney."],
       ["What to send", "Your objective, current status, available documents, and any deadline already in view."],
       ["What to expect", "A structured first review, bilingual support, and no promise of filing or approval."]
     ];
@@ -2039,7 +2039,7 @@ function heroGlanceItems(page) {
       ["Coverage", "National perspective with regional nuance and official references."]
     ],
     about: [
-      ["Professional basis", `Brazilian attorney, ${LAWYER_FACTS.oab}.`],
+      ["Professional basis", "Brazilian attorney."],
       ["Languages", `${LAWYER_FACTS.languages.join(" and ")} support for international clients.`],
       ["Practice focus", "Immigration guidance with public materials that also reference civil, family, and human-rights matters."]
     ],
@@ -2255,12 +2255,7 @@ function renderPageMain(page, testimonials) {
 function renderUtilityBar() {
   return `<div class="utility-bar">
     <div class="container utility-inner">
-      <p class="utility-support">${renderBrandMark({
-        className: "utility-support__mark",
-        width: 18,
-        height: 18,
-        decorative: true
-      })}<span>${escapeHtml(SITE.footerTagline)}</span></p>
+      <p class="utility-support"><span>${escapeHtml(SITE.footerTagline)}</span></p>
       <div class="utility-actions">
         <div class="lang-switcher lang-switcher--minimal" aria-label="Language switcher">
           <button type="button" class="lang-link active" data-language-toggle="en">EN</button>

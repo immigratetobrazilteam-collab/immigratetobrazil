@@ -27,18 +27,15 @@ def git_has_changes() -> bool:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build, validate, optionally generate PT, and push main.")
+    parser = argparse.ArgumentParser(description="Sync static data, validate, optionally generate PT, and push main.")
     parser.add_argument("--message", help="Commit message. If omitted, a default is used.")
     parser.add_argument("--with-pt", action="store_true", help="Generate the /pt-br/ tree before release.")
     parser.add_argument("--skip-push", action="store_true", help="Commit without pushing.")
     args = parser.parse_args()
 
-    run("node", "scripts/build-site.js")
-    run("node", "scripts/fetch-pixabay-images.js")
-    run("node", "scripts/build-site.js")
+    run("npm", "run", "build:static")
     if args.with_pt:
         run("node", "scripts/generate-pt-br.js")
-    run("node", "scripts/validate-site.js")
     run("node", "scripts/qa-matrix.js")
     run("node", "scripts/lighthouse-audit.js")
 
@@ -47,7 +44,7 @@ def main() -> int:
       return 0
 
     run("git", "add", "-A")
-    message = args.message or "Build English static site release"
+    message = args.message or "Update static site release"
     run("git", "commit", "-m", message)
     if not args.skip_push:
         run("git", "push", "origin", "main")

@@ -1,6 +1,7 @@
 (function () {
   const config = window.ITB_SITE || {};
   const body = document.body;
+  const docEl = document.documentElement;
   const consentKey = "itb-consent";
   const analyticsAccepted = localStorage.getItem(consentKey) === "accepted";
   let gtmLoaded = false;
@@ -39,11 +40,33 @@
 
   const navbarToggle = document.querySelector(".navbar-toggler");
   const navbarCollapse = document.getElementById("site-nav");
+  const utilityBar = document.querySelector(".utility-bar");
+  const mainNav = document.querySelector(".main-nav");
+
+  function updateStickyMetrics() {
+    const utilityHeight = utilityBar ? Math.round(utilityBar.getBoundingClientRect().height) : 0;
+    const navHeight = mainNav ? Math.round(mainNav.getBoundingClientRect().height) : 0;
+    docEl.style.setProperty("--utility-bar-height", `${utilityHeight}px`);
+    docEl.style.setProperty("--main-nav-height", `${navHeight}px`);
+  }
 
   function setNavOpen(isOpen) {
     if (!navbarToggle || !navbarCollapse) return;
     navbarCollapse.classList.toggle("show", isOpen);
     navbarToggle.setAttribute("aria-expanded", String(isOpen));
+    window.requestAnimationFrame(updateStickyMetrics);
+  }
+
+  updateStickyMetrics();
+
+  if ("ResizeObserver" in window) {
+    const stickyObserver = new ResizeObserver(() => {
+      updateStickyMetrics();
+    });
+    if (utilityBar) stickyObserver.observe(utilityBar);
+    if (mainNav) stickyObserver.observe(mainNav);
+  } else {
+    window.addEventListener("resize", updateStickyMetrics);
   }
 
   navbarToggle?.addEventListener("click", () => {
@@ -207,6 +230,7 @@
   });
 
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("load", updateStickyMetrics);
   onScroll();
 
   const revealTargets = document.querySelectorAll(
