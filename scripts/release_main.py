@@ -29,9 +29,12 @@ def git_has_changes() -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Refresh static data, run checks, and push main.")
     parser.add_argument("--message", help="Commit message. If omitted, a default is used.")
+    parser.add_argument("--translate-pt", action="store_true", help="Regenerate pt-BR pages before checks.")
     parser.add_argument("--skip-push", action="store_true", help="Commit without pushing.")
     args = parser.parse_args()
 
+    if args.translate_pt:
+        run("python3", "scripts/generate_pt.py")
     run("npm", "run", "check")
     run("node", "scripts/qa-matrix.js")
     run("node", "scripts/lighthouse-audit.js")

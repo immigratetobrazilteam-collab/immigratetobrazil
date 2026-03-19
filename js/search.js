@@ -4,6 +4,32 @@
   const isPt = window.location.pathname.startsWith("/pt-br/");
   const searchPath = isPt ? "/pt-br/legal/search/" : "/legal/search/";
   const indexPath = isPt ? "/pt-br/data/search-index.json" : "/data/search-index.json";
+  const copy = isPt
+    ? {
+        prompt: "Use uma palavra-chave para pesquisar no site.",
+        unavailable: "A pesquisa esta temporariamente indisponivel.",
+        noResults:
+          "Nenhum resultado correspondeu a <strong>{query}</strong>. Tente um termo mais amplo, como visto, residencia, naturalizacao, custo ou consulta."
+      }
+    : {
+        prompt: "Use a keyword to search the site.",
+        unavailable: "Search is temporarily unavailable.",
+        noResults:
+          "No results matched <strong>{query}</strong>. Try a broader term such as visa, residency, naturalisation, cost, or consultation."
+      };
+  const familyLabels = isPt
+    ? {
+        foundation: "inicio",
+        about: "sobre",
+        services: "servicos",
+        process: "processo",
+        brazil: "brasil",
+        insights: "insights",
+        legal: "juridico",
+        consultation: "consulta",
+        site: "site"
+      }
+    : {};
 
   async function loadIndex() {
     const response = await fetch(indexPath, { credentials: "same-origin" });
@@ -18,7 +44,7 @@
   function renderResults(query, items) {
     if (!resultsNode) return;
     if (!query) {
-      resultsNode.innerHTML = "<p>Use a keyword to search the site.</p>";
+      resultsNode.innerHTML = `<p>${copy.prompt}</p>`;
       return;
     }
     const clean = normalize(query);
@@ -36,7 +62,7 @@
       .slice(0, 20);
 
     if (!matches.length) {
-      resultsNode.innerHTML = `<p>No results matched <strong>${query}</strong>. Try a broader term such as visa, residency, naturalisation, cost, or consultation.</p>`;
+      resultsNode.innerHTML = `<p>${copy.noResults.replace("{query}", query)}</p>`;
       return;
     }
 
@@ -44,7 +70,7 @@
       .map(
         ({ item }) => `<article class="search-result">
           <strong><a href="${item.route}">${item.title}</a></strong>
-          <span>${item.family}</span>
+          <span>${familyLabels[item.family] || item.family}</span>
           <p>${item.summary}</p>
         </article>`
       )
@@ -57,7 +83,7 @@
       const items = await loadIndex();
       renderResults(query, items);
     } catch (error) {
-      resultsNode.innerHTML = `<p>Search is temporarily unavailable.</p>`;
+      resultsNode.innerHTML = `<p>${copy.unavailable}</p>`;
       console.error(error);
     }
   }

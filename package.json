@@ -7,6 +7,8 @@
     "sync:data": "node scripts/sync-static-data.js",
     "check": "npm run sync:data && npm run validate",
     "validate": "node scripts/validate-site.js",
+    "translate:pt": "python3 scripts/generate_pt.py",
+    "translate:pt:all": "python3 scripts/generate_pt.py --force",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
     "qa:matrix": "node scripts/qa-matrix.js",
     "qa:lighthouse": "node scripts/lighthouse-audit.js"

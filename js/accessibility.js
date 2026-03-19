@@ -1,5 +1,8 @@
 (function () {
   const storageKey = "itb-accessibility";
+  const minTextScale = 0.2;
+  const maxTextScale = 2;
+  const textScaleStep = 0.1;
   const panel = document.getElementById("accessibility-panel");
   const body = document.body;
   const guide = document.querySelector("[data-reading-guide='true']");
@@ -8,9 +11,13 @@
   const closeButtons = document.querySelectorAll("[data-close-accessibility='true']");
   const motionMedia = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
   const themeMedia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  function clampTextScale(value) {
+    return Math.min(maxTextScale, Math.max(minTextScale, value));
+  }
+
   const defaultState = {
     textScale: 1,
-    theme: "system",
+    theme: "dark",
     contrast: false,
     invert: false,
     grayscale: false,
@@ -43,8 +50,8 @@
   const state = {
     ...defaultState,
     ...storedState,
-    theme: normalizeTheme(storedState.theme),
-    textScale: Number.isFinite(storedState.textScale) ? Math.min(1.35, Math.max(0.85, storedState.textScale)) : defaultState.textScale
+    theme: normalizeTheme(typeof storedState.theme === "string" ? storedState.theme : defaultState.theme),
+    textScale: Number.isFinite(storedState.textScale) ? clampTextScale(storedState.textScale) : defaultState.textScale
   };
 
   function persist() {
@@ -159,7 +166,7 @@
   function resetState() {
     Object.assign(state, defaultState, {
       textScale: 1,
-      theme: "system",
+      theme: "dark",
       motion: motionMedia ? motionMedia.matches : false
     });
   }
@@ -176,8 +183,8 @@
     button.addEventListener("click", () => {
       const action = button.getAttribute("data-accessibility-action");
       const value = button.getAttribute("data-accessibility-value");
-      if (action === "text-increase") state.textScale = Math.min(1.35, +(state.textScale + 0.05).toFixed(2));
-      if (action === "text-decrease") state.textScale = Math.max(0.85, +(state.textScale - 0.05).toFixed(2));
+      if (action === "text-increase") state.textScale = clampTextScale(+(state.textScale + textScaleStep).toFixed(2));
+      if (action === "text-decrease") state.textScale = clampTextScale(+(state.textScale - textScaleStep).toFixed(2));
       if (action === "theme") state.theme = normalizeTheme(value);
       if (action === "contrast") state.contrast = !state.contrast;
       if (action === "invert") state.invert = !state.invert;

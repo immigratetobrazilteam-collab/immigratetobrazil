@@ -4,10 +4,10 @@ Each page is assigned its own hero asset path under `assets/images/heroes/<famil
 
 Fallback order:
 
-1. Search Pixabay with the page-specific hero query.
-2. Retry with the page title plus `Brazil landscape`.
-3. Retry with the family plus `Brazil landscape`.
-4. Retry using curated Brazil destination and nature queries.
-5. If Pixabay results are weak, repetitive, or exhausted, generate a branded scenic fallback so the route still ships with a unique hero path and no missing image.
+1. Start from curated Brazil-only query pools covering cityscapes, capitals, coastlines, heritage sites, and nature landmarks.
+2. Add region-specific Brazil pools for North, Northeast, Central-West, Southeast, and South routes.
+3. Rotate query order deterministically per page so the site does not collapse onto the same landmark.
+4. Prefer unused Brazil photos first, then reuse a verified Brazil hit before considering any synthetic fallback.
+5. Only generate a branded scenic fallback if Pixabay has no usable Brazil-place result at all.
 
-This keeps the site buildable while preserving manual override room for later image swaps.
+This keeps every hero grounded in Brazil while preserving manual override room for later swaps.

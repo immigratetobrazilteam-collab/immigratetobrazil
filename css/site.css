@@ -148,7 +148,8 @@ body.family-legal {
   --hero-bottom: rgba(4, 14, 10, 0.72);
 }
 
-body.theme-dark {
+body.theme-dark,
+body:not(.theme-light) {
   color-scheme: dark;
   --surface-base: #071711;
   --surface-raised: rgba(10, 28, 20, 0.9);
@@ -234,7 +235,8 @@ body::before {
   opacity: 0.62;
 }
 
-body.theme-dark {
+body.theme-dark,
+body:not(.theme-light) {
   background:
     radial-gradient(circle at top left, rgba(82, 183, 136, 0.18), transparent 28%),
     radial-gradient(circle at 82% 12%, rgba(235, 200, 126, 0.12), transparent 24%),
@@ -242,7 +244,8 @@ body.theme-dark {
     linear-gradient(180deg, #06140f 0%, #091b14 42%, #0e261d 100%);
 }
 
-body.theme-dark::before {
+body.theme-dark::before,
+body:not(.theme-light)::before {
   background:
     linear-gradient(120deg, rgba(255, 255, 255, 0.05), transparent 34%),
     radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.08), transparent 22%);
@@ -1726,8 +1729,14 @@ body.is-scrolled .main-nav {
 }
 
 .hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6,
 .hero .eyebrow,
 .hero-kicker {
+  color: var(--text-inverse);
   text-shadow: 0 3px 18px rgba(0, 0, 0, 0.52);
 }
 
@@ -3524,6 +3533,12 @@ body.a11y-contrast .hero::after {
 }
 
 body.a11y-contrast .hero-summary,
+body.a11y-contrast .hero h1,
+body.a11y-contrast .hero h2,
+body.a11y-contrast .hero h3,
+body.a11y-contrast .hero h4,
+body.a11y-contrast .hero h5,
+body.a11y-contrast .hero h6,
 body.a11y-contrast .hero-panel p,
 body.a11y-contrast .hero-proof-list,
 body.a11y-contrast .hero-glance-card span,
@@ -3669,6 +3684,12 @@ body.a11y-hide-images .floating-whatsapp {
 }
 
 body.a11y-hide-images .eyebrow,
+body.a11y-hide-images .hero h1,
+body.a11y-hide-images .hero h2,
+body.a11y-hide-images .hero h3,
+body.a11y-hide-images .hero h4,
+body.a11y-hide-images .hero h5,
+body.a11y-hide-images .hero h6,
 body.a11y-hide-images .hero-summary,
 body.a11y-hide-images .hero-panel p,
 body.a11y-hide-images .hero-panel a,

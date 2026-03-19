@@ -15,6 +15,14 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+function localeForRoute(route) {
+  return route.startsWith("/pt-br/") ? "pt-br" : "en";
+}
+
+function localeDataPath(locale, fileName) {
+  return locale === "pt-br" ? path.join(ROOT, "pt-br", "data", fileName) : path.join(ROOT, "data", fileName);
+}
+
 function compareStringSets(actual, expected) {
   if (actual.length !== expected.length) return false;
   return actual.every((value, index) => value === expected[index]);
@@ -45,13 +53,16 @@ async function readJson(filePath, failures) {
 }
 
 async function main() {
-  const routeFiles = await discoverRouteFiles(ROOT);
+  const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
   const failures = [];
   const titleMap = new Map();
   const descriptionMap = new Map();
-  const expectedSearchRoutes = [];
-  const expectedFormMap = [];
+  const expectedByLocale = {
+    en: { searchRoutes: [], formMap: [] },
+    "pt-br": { searchRoutes: [], formMap: [] }
+  };
   let legal404Html = "";
+  let ptLegal404Html = "";
 
   for (const page of routeFiles) {
     const html = await fs.readFile(page.filePath, "utf8");
@@ -59,6 +70,7 @@ async function main() {
     const description = pageData.summary;
     const h1Count = (html.match(/<h1\b/gi) || []).length;
     const mainCount = (html.match(/<main\b/gi) || []).length;
+    const locale = localeForRoute(page.route);
 
     if (!pageData.browserTitle) failures.push(`Missing <title>: ${page.route}`);
     if (!description) failures.push(`Missing meta description: ${page.route}`);
@@ -72,12 +84,12 @@ async function main() {
     descriptionMap.set(description, page.route);
 
     if (!pageData.noindex) {
-      expectedSearchRoutes.push(page.route);
+      expectedByLocale[locale].searchRoutes.push(page.route);
     }
 
     const formActions = extractFormActions(html).filter((action) => /formspree\.io\/f\//i.test(action));
     for (const endpoint of formActions) {
-      expectedFormMap.push({
+      expectedByLocale[locale].formMap.push({
         route: page.route,
         title: pageData.title,
         endpoint
@@ -97,42 +109,45 @@ async function main() {
     if (page.route === "/legal/404/") {
       legal404Html = html;
     }
+    if (page.route === "/pt-br/legal/404/") {
+      ptLegal404Html = html;
+    }
   }
 
-  const searchIndexPath = path.join(ROOT, "data", "search-index.json");
-  const formMapPath = path.join(ROOT, "data", "formspree-map.json");
-  const buildReportPath = path.join(ROOT, "data", "build-report.json");
   const formMapMarkdownPath = path.join(ROOT, "docs", "formspree-map.md");
   const root404Path = path.join(ROOT, "404.html");
+  const pt404Path = path.join(ROOT, "pt-br", "404.html");
 
-  const searchIndex = await readJson(searchIndexPath, failures);
-  const formMap = await readJson(formMapPath, failures);
-  await readJson(buildReportPath, failures);
+  for (const locale of Object.keys(expectedByLocale)) {
+    const searchIndex = await readJson(localeDataPath(locale, "search-index.json"), failures);
+    const formMap = await readJson(localeDataPath(locale, "formspree-map.json"), failures);
+    await readJson(localeDataPath(locale, "build-report.json"), failures);
+
+    if (searchIndex) {
+      const actualSearchRoutes = [...new Set(searchIndex.map((item) => item.route))].sort();
+      const expected = [...new Set(expectedByLocale[locale].searchRoutes)].sort();
+      if (!compareStringSets(actualSearchRoutes, expected)) {
+        failures.push(`Search index is out of sync for ${locale}. Run \`npm run sync:data\`.`);
+      }
+    }
+
+    if (formMap) {
+      const actualFormEntries = [...formMap]
+        .map((item) => ({
+          route: item.route,
+          title: item.title,
+          endpoint: item.endpoint
+        }))
+        .sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
+      const expected = [...expectedByLocale[locale].formMap].sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
+      if (!compareFormEntries(actualFormEntries, expected)) {
+        failures.push(`Formspree map is out of sync for ${locale}. Run \`npm run sync:data\`.`);
+      }
+    }
+  }
 
   if (!existsSync(formMapMarkdownPath)) {
     failures.push("Missing docs/formspree-map.md");
-  }
-
-  if (searchIndex) {
-    const actualSearchRoutes = [...new Set(searchIndex.map((item) => item.route))].sort();
-    const expected = [...new Set(expectedSearchRoutes)].sort();
-    if (!compareStringSets(actualSearchRoutes, expected)) {
-      failures.push("Search index is out of sync. Run `npm run sync:data`.");
-    }
-  }
-
-  if (formMap) {
-    const actualFormEntries = [...formMap]
-      .map((item) => ({
-        route: item.route,
-        title: item.title,
-        endpoint: item.endpoint
-      }))
-      .sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
-    const expected = [...expectedFormMap].sort((a, b) => `${a.route}|${a.endpoint}`.localeCompare(`${b.route}|${b.endpoint}`));
-    if (!compareFormEntries(actualFormEntries, expected)) {
-      failures.push("Formspree map is out of sync. Run `npm run sync:data`.");
-    }
   }
 
   if (!existsSync(root404Path)) {
@@ -141,6 +156,17 @@ async function main() {
     const root404Html = await fs.readFile(root404Path, "utf8");
     if (root404Html !== legal404Html) {
       failures.push("Root 404.html is out of sync with /legal/404/. Run `npm run sync:data`.");
+    }
+  }
+
+  if (ptLegal404Html) {
+    if (!existsSync(pt404Path)) {
+      failures.push("Missing pt-br/404.html");
+    } else {
+      const pt404Html = await fs.readFile(pt404Path, "utf8");
+      if (pt404Html !== ptLegal404Html) {
+        failures.push("pt-br/404.html is out of sync with /pt-br/legal/404/. Run `npm run sync:data`.");
+      }
     }
   }
 
