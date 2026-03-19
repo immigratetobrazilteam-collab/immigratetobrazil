@@ -5,8 +5,24 @@
     "route": "/",
     "family": "foundation",
     "query": "Brazil atlantic coast sunrise",
-    "path": "/assets/images/heroes/foundation/home.webp",
-    "alt": "Home page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+    "alt": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Home page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration and relocation planning.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Home",
+      "Brazil immigration and relocation planning",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Home hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "start-consultation",
@@ -14,8 +30,24 @@
     "route": "/start-consultation/",
     "family": "foundation",
     "query": "Brazil consultation planning landscape",
-    "path": "/assets/images/heroes/foundation/start-consultation.webp",
-    "alt": "Start Consultation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+    "alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Start Consultation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration and relocation planning.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Start Consultation",
+      "Brazil immigration and relocation planning",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Start Consultation hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "about-profile",
@@ -23,8 +55,24 @@
     "route": "/about/profile/",
     "family": "about",
     "query": "Brazil legal practice profile landscape",
-    "path": "/assets/images/heroes/about/about-profile.webp",
-    "alt": "Profile page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+    "alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Profile page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Profile",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Profile hero image featuring National Congress in Brasilia"
   },
   {
     "key": "about-about",
@@ -32,8 +80,24 @@
     "route": "/about/about/",
     "family": "about",
     "query": "Brazil legal practice about landscape",
-    "path": "/assets/images/heroes/about/about-about.webp",
-    "alt": "About page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+    "alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the About page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "About",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "About hero image featuring Sao Paulo skyline"
   },
   {
     "key": "about-mission",
@@ -41,8 +105,24 @@
     "route": "/about/mission/",
     "family": "about",
     "query": "Brazil legal practice mission landscape",
-    "path": "/assets/images/heroes/about/about-mission.webp",
-    "alt": "Mission page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
+    "alt": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "description": "SEO hero image for the Mission page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Manaus",
+      "Teatro Amazonas",
+      "Amazonas",
+      "historic theater",
+      "northern Brazil",
+      "Teatro Amazonas in Manaus",
+      "Mission",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "manaus-theater",
+    "sourceName": "Teatro Amazonas in Manaus",
+    "imageTitle": "Mission hero image featuring Teatro Amazonas in Manaus"
   },
   {
     "key": "about-philosophy",
@@ -50,8 +130,24 @@
     "route": "/about/philosophy/",
     "family": "about",
     "query": "Brazil legal practice philosophy landscape",
-    "path": "/assets/images/heroes/about/about-philosophy.webp",
-    "alt": "Philosophy page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-curitiba-skyline-philosophy.webp",
+    "alt": "Hero image for the Philosophy page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Philosophy page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Philosophy",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Philosophy hero image featuring Curitiba skyline"
   },
   {
     "key": "about-story",
@@ -59,8 +155,24 @@
     "route": "/about/story/",
     "family": "about",
     "query": "Brazil legal practice story landscape",
-    "path": "/assets/images/heroes/about/about-story.webp",
-    "alt": "Story page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+    "alt": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil.",
+    "description": "SEO hero image for the Story page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Paraty",
+      "Rio de Janeiro state",
+      "colonial waterfront",
+      "Brazil heritage",
+      "southeast Brazil",
+      "Paraty's colonial waterfront",
+      "Story",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "paraty",
+    "sourceName": "Historic waterfront of Paraty",
+    "imageTitle": "Story hero image featuring Historic waterfront of Paraty"
   },
   {
     "key": "about-values",
@@ -68,8 +180,24 @@
     "route": "/about/values/",
     "family": "about",
     "query": "Brazil legal practice values landscape",
-    "path": "/assets/images/heroes/about/about-values.webp",
-    "alt": "Values page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+    "alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "description": "SEO hero image for the Values page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Ouro Preto",
+      "Minas Gerais",
+      "historic center",
+      "colonial Brazil",
+      "southeast Brazil",
+      "the historic hillside architecture of Ouro Preto",
+      "Values",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "ouro-preto",
+    "sourceName": "Historic center of Ouro Preto",
+    "imageTitle": "Values hero image featuring Historic center of Ouro Preto"
   },
   {
     "key": "about-lawyer",
@@ -77,8 +205,24 @@
     "route": "/about/lawyer/",
     "family": "about",
     "query": "Brazil legal practice lawyer landscape",
-    "path": "/assets/images/heroes/about/about-lawyer.webp",
-    "alt": "Lawyer page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+    "alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Lawyer page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Lawyer",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Lawyer hero image featuring Porto Alegre skyline"
   },
   {
     "key": "about-whyus",
@@ -86,8 +230,24 @@
     "route": "/about/whyus/",
     "family": "about",
     "query": "Brazil legal practice why us landscape",
-    "path": "/assets/images/heroes/about/about-whyus.webp",
-    "alt": "Why Us page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+    "alt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Why Us page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Why Us",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Why Us hero image featuring Sao Paulo skyline"
   },
   {
     "key": "about-results",
@@ -95,8 +255,24 @@
     "route": "/about/results/",
     "family": "about",
     "query": "Brazil legal practice results landscape",
-    "path": "/assets/images/heroes/about/about-results.webp",
-    "alt": "Results page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
+    "alt": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Results page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Results",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Results hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "about-stories",
@@ -104,8 +280,24 @@
     "route": "/about/stories/",
     "family": "about",
     "query": "Brazil legal practice stories landscape",
-    "path": "/assets/images/heroes/about/about-stories.webp",
-    "alt": "Stories page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-salvador-pelourinho-bahia-stories.webp",
+    "alt": "Hero image for the Stories page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Stories page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Stories",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Stories hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "about-clients",
@@ -113,8 +305,24 @@
     "route": "/about/clients/",
     "family": "about",
     "query": "Brazil legal practice clients landscape",
-    "path": "/assets/images/heroes/about/about-clients.webp",
-    "alt": "Clients page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-clients.webp",
+    "alt": "Hero image for the Clients page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "description": "SEO hero image for the Clients page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Manaus",
+      "Teatro Amazonas",
+      "Amazonas",
+      "historic theater",
+      "northern Brazil",
+      "Teatro Amazonas in Manaus",
+      "Clients",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "manaus-theater",
+    "sourceName": "Teatro Amazonas in Manaus",
+    "imageTitle": "Clients hero image featuring Teatro Amazonas in Manaus"
   },
   {
     "key": "about-testimonials",
@@ -122,8 +330,24 @@
     "route": "/about/testimonials/",
     "family": "about",
     "query": "Brazil legal practice testimonials landscape",
-    "path": "/assets/images/heroes/about/about-testimonials.webp",
-    "alt": "Testimonials page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+    "alt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "description": "SEO hero image for the Testimonials page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Ouro Preto",
+      "Minas Gerais",
+      "historic center",
+      "colonial Brazil",
+      "southeast Brazil",
+      "the historic hillside architecture of Ouro Preto",
+      "Testimonials",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "ouro-preto",
+    "sourceName": "Historic center of Ouro Preto",
+    "imageTitle": "Testimonials hero image featuring Historic center of Ouro Preto"
   },
   {
     "key": "about-governance",
@@ -131,8 +355,24 @@
     "route": "/about/governance/",
     "family": "about",
     "query": "Brazil legal practice governance landscape",
-    "path": "/assets/images/heroes/about/about-governance.webp",
-    "alt": "Governance page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-curitiba-skyline-governance.webp",
+    "alt": "Hero image for the Governance page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Governance page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Governance",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Governance hero image featuring Curitiba skyline"
   },
   {
     "key": "about-compliance",
@@ -140,8 +380,24 @@
     "route": "/about/compliance/",
     "family": "about",
     "query": "Brazil legal practice compliance landscape",
-    "path": "/assets/images/heroes/about/about-compliance.webp",
-    "alt": "Compliance page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-porto-alegre-skyline-compliance.webp",
+    "alt": "Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Compliance page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Compliance",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Compliance hero image featuring Porto Alegre skyline"
   },
   {
     "key": "about-ethics",
@@ -149,8 +405,24 @@
     "route": "/about/ethics/",
     "family": "about",
     "query": "Brazil legal practice ethics landscape",
-    "path": "/assets/images/heroes/about/about-ethics.webp",
-    "alt": "Ethics page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+    "alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Ethics page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Ethics",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Ethics hero image featuring National Congress in Brasilia"
   },
   {
     "key": "about-standards",
@@ -158,8 +430,24 @@
     "route": "/about/standards/",
     "family": "about",
     "query": "Brazil legal practice standards landscape",
-    "path": "/assets/images/heroes/about/about-standards.webp",
-    "alt": "Standards page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-curitiba-skyline-standards.webp",
+    "alt": "Hero image for the Standards page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Standards page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Standards",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Standards hero image featuring Curitiba skyline"
   },
   {
     "key": "about-regulatory",
@@ -167,8 +455,24 @@
     "route": "/about/regulatory/",
     "family": "about",
     "query": "Brazil legal practice regulatory landscape",
-    "path": "/assets/images/heroes/about/about-regulatory.webp",
-    "alt": "Regulatory page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/about/brazil-sao-paulo-skyline-regulatory.webp",
+    "alt": "Hero image for the Regulatory page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Regulatory page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Regulatory",
+      "a Brazil immigration law practice",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Regulatory hero image featuring Sao Paulo skyline"
   },
   {
     "key": "brazil-brazil",
@@ -176,8 +480,23 @@
     "route": "/brazil/brazil/",
     "family": "brazil",
     "query": "Brazil brazil cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-brazil.webp",
-    "alt": "Brazil page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+    "alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "description": "SEO hero image for the Brazil page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Amazon river",
+      "Amazon basin",
+      "Brazil rainforest",
+      "northern Brazil",
+      "Brazil nature",
+      "an aerial view of the Amazon river basin",
+      "Brazil",
+      "relocation guidance about life in Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "amazon-river",
+    "sourceName": "Amazon river basin",
+    "imageTitle": "Brazil hero image featuring Amazon river basin"
   },
   {
     "key": "brazil-investment",
@@ -185,8 +504,24 @@
     "route": "/brazil/investment/",
     "family": "brazil",
     "query": "Brazil investment cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-investment.webp",
-    "alt": "Investment page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+    "alt": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "description": "SEO hero image for the Investment page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Florianopolis",
+      "Praia Brava",
+      "Brazil beach",
+      "Atlantic coast",
+      "southern Brazil",
+      "Florianopolis and Praia Brava on the Atlantic coast",
+      "Investment",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "florianopolis-beach",
+    "sourceName": "Florianopolis coastline",
+    "imageTitle": "Investment hero image featuring Florianopolis coastline"
   },
   {
     "key": "brazil-economy",
@@ -194,8 +529,24 @@
     "route": "/brazil/economy/",
     "family": "brazil",
     "query": "Brazil economy cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-economy.webp",
-    "alt": "Economy page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+    "alt": "Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "description": "SEO hero image for the Economy page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Iguazu Falls",
+      "Foz do Iguacu",
+      "waterfalls",
+      "southern Brazil",
+      "Brazil nature",
+      "Iguazu Falls on the Brazilian side",
+      "Economy",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "iguazu-falls",
+    "sourceName": "Iguazu Falls on the Brazilian side",
+    "imageTitle": "Economy hero image featuring Iguazu Falls on the Brazilian side"
   },
   {
     "key": "brazil-quality",
@@ -203,8 +554,24 @@
     "route": "/brazil/quality/",
     "family": "brazil",
     "query": "Brazil quality cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-quality.webp",
-    "alt": "Quality page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-quality.webp",
+    "alt": "Hero image for the Quality page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "description": "SEO hero image for the Quality page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Lençois Maranhenses",
+      "Maranhao",
+      "sand dunes",
+      "lagoons",
+      "northeast Brazil",
+      "Lençois Maranhenses dunes and lagoons",
+      "Quality",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "lencois-maranhenses",
+    "sourceName": "Lençois Maranhenses dunes and lagoons",
+    "imageTitle": "Quality hero image featuring Lençois Maranhenses dunes and lagoons"
   },
   {
     "key": "brazil-living",
@@ -212,8 +579,24 @@
     "route": "/brazil/living/",
     "family": "brazil",
     "query": "Brazil living cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-living.webp",
-    "alt": "Living page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+    "alt": "Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "description": "SEO hero image for the Living page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Amazon river",
+      "Amazon basin",
+      "Brazil rainforest",
+      "northern Brazil",
+      "Brazil nature",
+      "an aerial view of the Amazon river basin",
+      "Living",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "amazon-river",
+    "sourceName": "Amazon river basin",
+    "imageTitle": "Living hero image featuring Amazon river basin"
   },
   {
     "key": "brazil-cost",
@@ -221,8 +604,24 @@
     "route": "/brazil/cost/",
     "family": "brazil",
     "query": "Brazil cost cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-cost.webp",
-    "alt": "Cost page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-cost.webp",
+    "alt": "Hero image for the Cost page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "description": "SEO hero image for the Cost page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Florianopolis",
+      "Praia Brava",
+      "Brazil beach",
+      "Atlantic coast",
+      "southern Brazil",
+      "Florianopolis and Praia Brava on the Atlantic coast",
+      "Cost",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "florianopolis-beach",
+    "sourceName": "Florianopolis coastline",
+    "imageTitle": "Cost hero image featuring Florianopolis coastline"
   },
   {
     "key": "brazil-housing",
@@ -230,8 +629,24 @@
     "route": "/brazil/housing/",
     "family": "brazil",
     "query": "Brazil housing cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-housing.webp",
-    "alt": "Housing page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+    "alt": "Hero image for the Housing page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "description": "SEO hero image for the Housing page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Iguazu Falls",
+      "Foz do Iguacu",
+      "waterfalls",
+      "southern Brazil",
+      "Brazil nature",
+      "Iguazu Falls on the Brazilian side",
+      "Housing",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "iguazu-falls",
+    "sourceName": "Iguazu Falls on the Brazilian side",
+    "imageTitle": "Housing hero image featuring Iguazu Falls on the Brazilian side"
   },
   {
     "key": "brazil-healthcare",
@@ -239,8 +654,24 @@
     "route": "/brazil/healthcare/",
     "family": "brazil",
     "query": "Brazil healthcare cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-healthcare.webp",
-    "alt": "Healthcare page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-healthcare.webp",
+    "alt": "Hero image for the Healthcare page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "description": "SEO hero image for the Healthcare page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Lençois Maranhenses",
+      "Maranhao",
+      "sand dunes",
+      "lagoons",
+      "northeast Brazil",
+      "Lençois Maranhenses dunes and lagoons",
+      "Healthcare",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "lencois-maranhenses",
+    "sourceName": "Lençois Maranhenses dunes and lagoons",
+    "imageTitle": "Healthcare hero image featuring Lençois Maranhenses dunes and lagoons"
   },
   {
     "key": "brazil-education",
@@ -248,8 +679,24 @@
     "route": "/brazil/education/",
     "family": "brazil",
     "query": "Brazil education cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-education.webp",
-    "alt": "Education page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-education.webp",
+    "alt": "Hero image for the Education page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "description": "SEO hero image for the Education page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Florianopolis",
+      "Praia Brava",
+      "Brazil beach",
+      "Atlantic coast",
+      "southern Brazil",
+      "Florianopolis and Praia Brava on the Atlantic coast",
+      "Education",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "florianopolis-beach",
+    "sourceName": "Florianopolis coastline",
+    "imageTitle": "Education hero image featuring Florianopolis coastline"
   },
   {
     "key": "brazil-safety",
@@ -257,8 +704,24 @@
     "route": "/brazil/safety/",
     "family": "brazil",
     "query": "Brazil safety cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-safety.webp",
-    "alt": "Safety page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-safety.webp",
+    "alt": "Hero image for the Safety page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "description": "SEO hero image for the Safety page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Iguazu Falls",
+      "Foz do Iguacu",
+      "waterfalls",
+      "southern Brazil",
+      "Brazil nature",
+      "Iguazu Falls on the Brazilian side",
+      "Safety",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "iguazu-falls",
+    "sourceName": "Iguazu Falls on the Brazilian side",
+    "imageTitle": "Safety hero image featuring Iguazu Falls on the Brazilian side"
   },
   {
     "key": "brazil-north",
@@ -266,8 +729,24 @@
     "route": "/brazil/north/",
     "family": "brazil",
     "query": "Brazil north cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-north.webp",
-    "alt": "North page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-manaus-teatro-amazonas-north.webp",
+    "alt": "Hero image for the North page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "description": "SEO hero image for the North page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Manaus",
+      "Teatro Amazonas",
+      "Amazonas",
+      "historic theater",
+      "northern Brazil",
+      "Teatro Amazonas in Manaus",
+      "North",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "manaus-theater",
+    "sourceName": "Teatro Amazonas in Manaus",
+    "imageTitle": "North hero image featuring Teatro Amazonas in Manaus"
   },
   {
     "key": "brazil-northeast",
@@ -275,8 +754,24 @@
     "route": "/brazil/northeast/",
     "family": "brazil",
     "query": "Brazil northeast cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-northeast.webp",
-    "alt": "Northeast page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+    "alt": "Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "description": "SEO hero image for the Northeast page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Lençois Maranhenses",
+      "Maranhao",
+      "sand dunes",
+      "lagoons",
+      "northeast Brazil",
+      "Lençois Maranhenses dunes and lagoons",
+      "Northeast",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "lencois-maranhenses",
+    "sourceName": "Lençois Maranhenses dunes and lagoons",
+    "imageTitle": "Northeast hero image featuring Lençois Maranhenses dunes and lagoons"
   },
   {
     "key": "brazil-central-west",
@@ -284,8 +779,24 @@
     "route": "/brazil/central-west/",
     "family": "brazil",
     "query": "Brazil central-west cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-central-west.webp",
-    "alt": "Central-West page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+    "alt": "Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil.",
+    "description": "SEO hero image for the Central-West page on Immigrate to Brazil, showing the Pantanal wetlands and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Pantanal",
+      "wetlands",
+      "Mato Grosso do Sul",
+      "Brazil nature",
+      "central-west Brazil",
+      "the Pantanal wetlands",
+      "Central-West",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "pantanal",
+    "sourceName": "Pantanal wetlands",
+    "imageTitle": "Central-West hero image featuring Pantanal wetlands"
   },
   {
     "key": "brazil-southeast",
@@ -293,8 +804,24 @@
     "route": "/brazil/southeast/",
     "family": "brazil",
     "query": "Brazil southeast cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-southeast.webp",
-    "alt": "Southeast page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-rio-de-janeiro-sugarloaf-mountain-southeast.webp",
+    "alt": "Hero image for the Southeast page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Southeast page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Southeast",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Southeast hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "brazil-south",
@@ -302,8 +829,24 @@
     "route": "/brazil/south/",
     "family": "brazil",
     "query": "Brazil south cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-south.webp",
-    "alt": "South page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+    "alt": "Hero image for the South page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the South page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "South",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "South hero image featuring Porto Alegre skyline"
   },
   {
     "key": "brazil-states",
@@ -311,8 +854,24 @@
     "route": "/brazil/states/",
     "family": "brazil",
     "query": "Brazil states cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-states.webp",
-    "alt": "States page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+    "alt": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the States page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "States",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "States hero image featuring National Congress in Brasilia"
   },
   {
     "key": "brazil-cities",
@@ -320,8 +879,24 @@
     "route": "/brazil/cities/",
     "family": "brazil",
     "query": "Brazil cities cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-cities.webp",
-    "alt": "Cities page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+    "alt": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Cities page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Cities",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Cities hero image featuring Porto Alegre skyline"
   },
   {
     "key": "brazil-directory",
@@ -329,8 +904,24 @@
     "route": "/brazil/directory/",
     "family": "brazil",
     "query": "Brazil directory cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-directory.webp",
-    "alt": "Directory page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+    "alt": "Hero image for the Directory page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Directory page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Directory",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Directory hero image featuring National Congress in Brasilia"
   },
   {
     "key": "brazil-municipalities",
@@ -338,8 +929,24 @@
     "route": "/brazil/municipalities/",
     "family": "brazil",
     "query": "Brazil municipalities cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-municipalities.webp",
-    "alt": "Municipalities page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+    "alt": "Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Municipalities page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Municipalities",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Municipalities hero image featuring Sao Paulo skyline"
   },
   {
     "key": "brazil-search",
@@ -347,8 +954,24 @@
     "route": "/brazil/search/",
     "family": "brazil",
     "query": "Brazil search cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-search.webp",
-    "alt": "Search page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-curitiba-skyline-search.webp",
+    "alt": "Hero image for the Search page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Search page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Search",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Search hero image featuring Curitiba skyline"
   },
   {
     "key": "brazil-culture",
@@ -356,8 +979,24 @@
     "route": "/brazil/culture/",
     "family": "brazil",
     "query": "Brazil culture cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-culture.webp",
-    "alt": "Culture page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-culture.webp",
+    "alt": "Hero image for the Culture page showing Paraty's colonial waterfront in southeast Brazil.",
+    "description": "SEO hero image for the Culture page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Paraty",
+      "Rio de Janeiro state",
+      "colonial waterfront",
+      "Brazil heritage",
+      "southeast Brazil",
+      "Paraty's colonial waterfront",
+      "Culture",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "paraty",
+    "sourceName": "Historic waterfront of Paraty",
+    "imageTitle": "Culture hero image featuring Historic waterfront of Paraty"
   },
   {
     "key": "brazil-festivals",
@@ -365,8 +1004,24 @@
     "route": "/brazil/festivals/",
     "family": "brazil",
     "query": "Brazil festivals cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-festivals.webp",
-    "alt": "Festivals page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+    "alt": "Hero image for the Festivals page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Festivals page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Festivals",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Festivals hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "brazil-cuisine",
@@ -374,8 +1029,24 @@
     "route": "/brazil/cuisine/",
     "family": "brazil",
     "query": "Brazil cuisine cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-cuisine.webp",
-    "alt": "Cuisine page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+    "alt": "Hero image for the Cuisine page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "description": "SEO hero image for the Cuisine page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Ouro Preto",
+      "Minas Gerais",
+      "historic center",
+      "colonial Brazil",
+      "southeast Brazil",
+      "the historic hillside architecture of Ouro Preto",
+      "Cuisine",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "ouro-preto",
+    "sourceName": "Historic center of Ouro Preto",
+    "imageTitle": "Cuisine hero image featuring Historic center of Ouro Preto"
   },
   {
     "key": "brazil-events",
@@ -383,8 +1054,24 @@
     "route": "/brazil/events/",
     "family": "brazil",
     "query": "Brazil events cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-events.webp",
-    "alt": "Events page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+    "alt": "Hero image for the Events page showing Paraty's colonial waterfront in southeast Brazil.",
+    "description": "SEO hero image for the Events page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Paraty",
+      "Rio de Janeiro state",
+      "colonial waterfront",
+      "Brazil heritage",
+      "southeast Brazil",
+      "Paraty's colonial waterfront",
+      "Events",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "paraty",
+    "sourceName": "Historic waterfront of Paraty",
+    "imageTitle": "Events hero image featuring Historic waterfront of Paraty"
   },
   {
     "key": "brazil-guides",
@@ -392,8 +1079,24 @@
     "route": "/brazil/guides/",
     "family": "brazil",
     "query": "Brazil guides cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-guides.webp",
-    "alt": "Guides page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+    "alt": "Hero image for the Guides page showing Paraty's colonial waterfront in southeast Brazil.",
+    "description": "SEO hero image for the Guides page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Paraty",
+      "Rio de Janeiro state",
+      "colonial waterfront",
+      "Brazil heritage",
+      "southeast Brazil",
+      "Paraty's colonial waterfront",
+      "Guides",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "paraty",
+    "sourceName": "Historic waterfront of Paraty",
+    "imageTitle": "Guides hero image featuring Historic waterfront of Paraty"
   },
   {
     "key": "brazil-faqs",
@@ -401,8 +1104,24 @@
     "route": "/brazil/faqs/",
     "family": "brazil",
     "query": "Brazil faqs cinematic landscape",
-    "path": "/assets/images/heroes/brazil/brazil-faqs.webp",
-    "alt": "Faqs page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+    "alt": "Hero image for the Faqs page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "description": "SEO hero image for the Faqs page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+    "keywords": [
+      "Amazon river",
+      "Amazon basin",
+      "Brazil rainforest",
+      "northern Brazil",
+      "Brazil nature",
+      "an aerial view of the Amazon river basin",
+      "Faqs",
+      "relocation guidance about life in Brazil",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "amazon-river",
+    "sourceName": "Amazon river basin",
+    "imageTitle": "Faqs hero image featuring Amazon river basin"
   },
   {
     "key": "process-consultation",
@@ -410,8 +1129,24 @@
     "route": "/process/consultation/",
     "family": "process",
     "query": "Brazil immigration consultation landscape",
-    "path": "/assets/images/heroes/process/process-consultation.webp",
-    "alt": "Consultation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+    "alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "description": "SEO hero image for the Consultation page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Lençois Maranhenses",
+      "Maranhao",
+      "sand dunes",
+      "lagoons",
+      "northeast Brazil",
+      "Lençois Maranhenses dunes and lagoons",
+      "Consultation",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "lencois-maranhenses",
+    "sourceName": "Lençois Maranhenses dunes and lagoons",
+    "imageTitle": "Consultation hero image featuring Lençois Maranhenses dunes and lagoons"
   },
   {
     "key": "process-assessment",
@@ -419,8 +1154,24 @@
     "route": "/process/assessment/",
     "family": "process",
     "query": "Brazil immigration assessment landscape",
-    "path": "/assets/images/heroes/process/process-assessment.webp",
-    "alt": "Assessment page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+    "alt": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Assessment page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Assessment",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Assessment hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "process-strategy",
@@ -428,8 +1179,24 @@
     "route": "/process/strategy/",
     "family": "process",
     "query": "Brazil immigration strategy landscape",
-    "path": "/assets/images/heroes/process/process-strategy.webp",
-    "alt": "Strategy page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-strategy.webp",
+    "alt": "Hero image for the Strategy page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Strategy page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Strategy",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Strategy hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "process-filing",
@@ -437,8 +1204,24 @@
     "route": "/process/filing/",
     "family": "process",
     "query": "Brazil immigration filing landscape",
-    "path": "/assets/images/heroes/process/process-filing.webp",
-    "alt": "Filing page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-porto-alegre-skyline-filing.webp",
+    "alt": "Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Filing page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Filing",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Filing hero image featuring Porto Alegre skyline"
   },
   {
     "key": "process-approval",
@@ -446,8 +1229,24 @@
     "route": "/process/approval/",
     "family": "process",
     "query": "Brazil immigration approval landscape",
-    "path": "/assets/images/heroes/process/process-approval.webp",
-    "alt": "Approval page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+    "alt": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Approval page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Approval",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Approval hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "process-mistakes",
@@ -455,8 +1254,24 @@
     "route": "/process/mistakes/",
     "family": "process",
     "query": "Brazil immigration mistakes landscape",
-    "path": "/assets/images/heroes/process/process-mistakes.webp",
-    "alt": "Mistakes page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-mistakes.webp",
+    "alt": "Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Mistakes page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Mistakes",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Mistakes hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "process-failures",
@@ -464,8 +1279,24 @@
     "route": "/process/failures/",
     "family": "process",
     "query": "Brazil immigration failures landscape",
-    "path": "/assets/images/heroes/process/process-failures.webp",
-    "alt": "Failures page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+    "alt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Failures page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Failures",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Failures hero image featuring Sao Paulo skyline"
   },
   {
     "key": "process-deadlines",
@@ -473,8 +1304,24 @@
     "route": "/process/deadlines/",
     "family": "process",
     "query": "Brazil immigration deadlines landscape",
-    "path": "/assets/images/heroes/process/process-deadlines.webp",
-    "alt": "Deadlines page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+    "alt": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Deadlines page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Deadlines",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Deadlines hero image featuring National Congress in Brasilia"
   },
   {
     "key": "process-obligations",
@@ -482,8 +1329,24 @@
     "route": "/process/obligations/",
     "family": "process",
     "query": "Brazil immigration obligations landscape",
-    "path": "/assets/images/heroes/process/process-obligations.webp",
-    "alt": "Obligations page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+    "alt": "Hero image for the Obligations page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Obligations page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Obligations",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Obligations hero image featuring Curitiba skyline"
   },
   {
     "key": "process-alone",
@@ -491,8 +1354,24 @@
     "route": "/process/alone/",
     "family": "process",
     "query": "Brazil immigration alone landscape",
-    "path": "/assets/images/heroes/process/process-alone.webp",
-    "alt": "Alone page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-porto-alegre-skyline-alone.webp",
+    "alt": "Hero image for the Alone page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Alone page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Alone",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Alone hero image featuring Porto Alegre skyline"
   },
   {
     "key": "process-transparency",
@@ -500,8 +1379,24 @@
     "route": "/process/transparency/",
     "family": "process",
     "query": "Brazil immigration transparency landscape",
-    "path": "/assets/images/heroes/process/process-transparency.webp",
-    "alt": "Transparency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-sao-paulo-skyline-transparency.webp",
+    "alt": "Hero image for the Transparency page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Transparency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Transparency",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Transparency hero image featuring Sao Paulo skyline"
   },
   {
     "key": "process-fees",
@@ -509,8 +1404,24 @@
     "route": "/process/fees/",
     "family": "process",
     "query": "Brazil immigration fees landscape",
-    "path": "/assets/images/heroes/process/process-fees.webp",
-    "alt": "Fees page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-fees.webp",
+    "alt": "Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Fees page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Fees",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Fees hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "process-refund",
@@ -518,8 +1429,24 @@
     "route": "/process/refund/",
     "family": "process",
     "query": "Brazil immigration refund landscape",
-    "path": "/assets/images/heroes/process/process-refund.webp",
-    "alt": "Refund page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-curitiba-skyline-refund.webp",
+    "alt": "Hero image for the Refund page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Refund page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Refund",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Refund hero image featuring Curitiba skyline"
   },
   {
     "key": "process-timeline",
@@ -527,8 +1454,24 @@
     "route": "/process/timeline/",
     "family": "process",
     "query": "Brazil immigration timeline landscape",
-    "path": "/assets/images/heroes/process/process-timeline.webp",
-    "alt": "Timeline page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+    "alt": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Timeline page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Timeline",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Timeline hero image featuring National Congress in Brasilia"
   },
   {
     "key": "process-responsibilities",
@@ -536,8 +1479,24 @@
     "route": "/process/responsibilities/",
     "family": "process",
     "query": "Brazil immigration responsibilities landscape",
-    "path": "/assets/images/heroes/process/process-responsibilities.webp",
-    "alt": "Responsibilities page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-responsibilities.webp",
+    "alt": "Hero image for the Responsibilities page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Responsibilities page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Responsibilities",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Responsibilities hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "process-rights",
@@ -545,8 +1504,24 @@
     "route": "/process/rights/",
     "family": "process",
     "query": "Brazil immigration rights landscape",
-    "path": "/assets/images/heroes/process/process-rights.webp",
-    "alt": "Rights page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-porto-alegre-skyline-rights.webp",
+    "alt": "Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Rights page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Rights",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Rights hero image featuring Porto Alegre skyline"
   },
   {
     "key": "process-aftercare",
@@ -554,8 +1529,24 @@
     "route": "/process/aftercare/",
     "family": "process",
     "query": "Brazil immigration aftercare landscape",
-    "path": "/assets/images/heroes/process/process-aftercare.webp",
-    "alt": "Aftercare page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+    "alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Aftercare page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Aftercare",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Aftercare hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "process-renewal",
@@ -563,8 +1554,24 @@
     "route": "/process/renewal/",
     "family": "process",
     "query": "Brazil immigration renewal landscape",
-    "path": "/assets/images/heroes/process/process-renewal.webp",
-    "alt": "Renewal page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+    "alt": "Hero image for the Renewal page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Renewal page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Renewal",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Renewal hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "process-permanent",
@@ -572,8 +1579,24 @@
     "route": "/process/permanent/",
     "family": "process",
     "query": "Brazil immigration permanent landscape",
-    "path": "/assets/images/heroes/process/process-permanent.webp",
-    "alt": "Permanent page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+    "alt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Permanent page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Permanent",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Permanent hero image featuring Sao Paulo skyline"
   },
   {
     "key": "process-naturalisation",
@@ -581,8 +1604,24 @@
     "route": "/process/naturalisation/",
     "family": "process",
     "query": "Brazil immigration naturalisation landscape",
-    "path": "/assets/images/heroes/process/process-naturalisation.webp",
-    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+    "alt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Naturalisation",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Naturalisation hero image featuring National Congress in Brasilia"
   },
   {
     "key": "process-compliance",
@@ -590,8 +1629,24 @@
     "route": "/process/compliance/",
     "family": "process",
     "query": "Brazil immigration compliance landscape",
-    "path": "/assets/images/heroes/process/process-compliance.webp",
-    "alt": "Compliance page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-curitiba-skyline-compliance.webp",
+    "alt": "Hero image for the Compliance page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Compliance page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Compliance",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Compliance hero image featuring Curitiba skyline"
   },
   {
     "key": "process-conversion",
@@ -599,8 +1654,24 @@
     "route": "/process/conversion/",
     "family": "process",
     "query": "Brazil immigration conversion landscape",
-    "path": "/assets/images/heroes/process/process-conversion.webp",
-    "alt": "Conversion page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+    "alt": "Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Conversion page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Conversion",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Conversion hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "process-regularization",
@@ -608,8 +1679,24 @@
     "route": "/process/regularization/",
     "family": "process",
     "query": "Brazil immigration regularization landscape",
-    "path": "/assets/images/heroes/process/process-regularization.webp",
-    "alt": "Regularization page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-sao-paulo-skyline-regularization.webp",
+    "alt": "Hero image for the Regularization page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Regularization page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Regularization",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Regularization hero image featuring Sao Paulo skyline"
   },
   {
     "key": "process-planning",
@@ -617,8 +1704,24 @@
     "route": "/process/planning/",
     "family": "process",
     "query": "Brazil immigration planning landscape",
-    "path": "/assets/images/heroes/process/process-planning.webp",
-    "alt": "Planning page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/process/brazil-porto-alegre-skyline-planning.webp",
+    "alt": "Hero image for the Planning page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Planning page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about the Brazil immigration process.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Planning",
+      "the Brazil immigration process",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Planning hero image featuring Porto Alegre skyline"
   },
   {
     "key": "services-home",
@@ -626,8 +1729,24 @@
     "route": "/services/",
     "family": "services",
     "query": "Brazil coastline panorama",
-    "path": "/assets/images/heroes/services/services.webp",
-    "alt": "Services page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+    "alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "description": "SEO hero image for the Services page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Amazon river",
+      "Amazon basin",
+      "Brazil rainforest",
+      "northern Brazil",
+      "Brazil nature",
+      "an aerial view of the Amazon river basin",
+      "Services",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "amazon-river",
+    "sourceName": "Amazon river basin",
+    "imageTitle": "Services hero image featuring Amazon river basin"
   },
   {
     "key": "services-visas",
@@ -635,8 +1754,24 @@
     "route": "/services/visas/",
     "family": "services",
     "query": "Brazil visas cinematic landscape",
-    "path": "/assets/images/heroes/services/services-visas.webp",
-    "alt": "Visas page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+    "alt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Visas page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Visas",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Visas hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "visa-artistic",
@@ -644,8 +1779,24 @@
     "route": "/services/visas/artistic/",
     "family": "services",
     "query": "Brazil artistic travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-artistic.webp",
-    "alt": "Artistic Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-artistic.webp",
+    "alt": "Hero image for the Artistic Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Artistic Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Artistic Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Artistic Visa hero image featuring National Congress in Brasilia"
   },
   {
     "key": "visa-business",
@@ -653,8 +1804,24 @@
     "route": "/services/visas/business/",
     "family": "services",
     "query": "Brazil business travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-business.webp",
-    "alt": "Business Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-business.webp",
+    "alt": "Hero image for the Business Visa page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Business Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Business Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Business Visa hero image featuring Curitiba skyline"
   },
   {
     "key": "visa-educational",
@@ -662,8 +1829,24 @@
     "route": "/services/visas/educational/",
     "family": "services",
     "query": "Brazil educational travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-educational.webp",
-    "alt": "Educational Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+    "alt": "Hero image for the Educational Visa page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "description": "SEO hero image for the Educational Visa page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Florianopolis",
+      "Praia Brava",
+      "Brazil beach",
+      "Atlantic coast",
+      "southern Brazil",
+      "Florianopolis and Praia Brava on the Atlantic coast",
+      "Educational Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "florianopolis-beach",
+    "sourceName": "Florianopolis coastline",
+    "imageTitle": "Educational Visa hero image featuring Florianopolis coastline"
   },
   {
     "key": "visa-exchange",
@@ -671,8 +1854,24 @@
     "route": "/services/visas/exchange/",
     "family": "services",
     "query": "Brazil exchange travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-exchange.webp",
-    "alt": "Exchange Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+    "alt": "Hero image for the Exchange Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Exchange Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Exchange Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Exchange Visa hero image featuring National Congress in Brasilia"
   },
   {
     "key": "visa-nomad",
@@ -680,8 +1879,24 @@
     "route": "/services/visas/nomad/",
     "family": "services",
     "query": "Brazil nomad travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-nomad.webp",
-    "alt": "Nomad Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-nomad.webp",
+    "alt": "Hero image for the Nomad Visa page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Nomad Visa page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Nomad Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Nomad Visa hero image featuring Porto Alegre skyline"
   },
   {
     "key": "visa-diplomatic",
@@ -689,8 +1904,24 @@
     "route": "/services/visas/diplomatic/",
     "family": "services",
     "query": "Brazil diplomatic travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-diplomatic.webp",
-    "alt": "Diplomatic Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+    "alt": "Hero image for the Diplomatic Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Diplomatic Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Diplomatic Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Diplomatic Visa hero image featuring Sao Paulo skyline"
   },
   {
     "key": "visa-family",
@@ -698,8 +1929,24 @@
     "route": "/services/visas/family/",
     "family": "services",
     "query": "Brazil family travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-family.webp",
-    "alt": "Family Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+    "alt": "Hero image for the Family Visa page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Family Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Family Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Family Visa hero image featuring Curitiba skyline"
   },
   {
     "key": "visa-humanitarian",
@@ -707,8 +1954,24 @@
     "route": "/services/visas/humanitarian/",
     "family": "services",
     "query": "Brazil humanitarian travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-humanitarian.webp",
-    "alt": "Humanitarian Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+    "alt": "Hero image for the Humanitarian Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Humanitarian Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Humanitarian Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Humanitarian Visa hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "visa-investor",
@@ -716,8 +1979,24 @@
     "route": "/services/visas/investor/",
     "family": "services",
     "query": "Brazil investor travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-investor.webp",
-    "alt": "Investor Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+    "alt": "Hero image for the Investor Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Investor Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Investor Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Investor Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "visa-journalist",
@@ -725,8 +2004,24 @@
     "route": "/services/visas/journalist/",
     "family": "services",
     "query": "Brazil journalist travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-journalist.webp",
-    "alt": "Journalist Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+    "alt": "Hero image for the Journalist Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Journalist Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Journalist Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Journalist Visa hero image featuring National Congress in Brasilia"
   },
   {
     "key": "visa-medical",
@@ -734,8 +2029,24 @@
     "route": "/services/visas/medical/",
     "family": "services",
     "query": "Brazil medical travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-medical.webp",
-    "alt": "Medical Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+    "alt": "Hero image for the Medical Visa page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Medical Visa page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Medical Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Medical Visa hero image featuring Porto Alegre skyline"
   },
   {
     "key": "visa-religious",
@@ -743,8 +2054,24 @@
     "route": "/services/visas/religious/",
     "family": "services",
     "query": "Brazil religious travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-religious.webp",
-    "alt": "Religious Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-religious.webp",
+    "alt": "Hero image for the Religious Visa page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Religious Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Religious Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Religious Visa hero image featuring Curitiba skyline"
   },
   {
     "key": "visa-research",
@@ -752,8 +2079,24 @@
     "route": "/services/visas/research/",
     "family": "services",
     "query": "Brazil research travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-research.webp",
-    "alt": "Research Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+    "alt": "Hero image for the Research Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Research Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Research Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Research Visa hero image featuring Sao Paulo skyline"
   },
   {
     "key": "visa-retiree",
@@ -761,8 +2104,24 @@
     "route": "/services/visas/retiree/",
     "family": "services",
     "query": "Brazil retiree travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-retiree.webp",
-    "alt": "Retiree Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "alt": "Hero image for the Retiree Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Retiree Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Retiree Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Retiree Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "visa-sports",
@@ -770,8 +2129,24 @@
     "route": "/services/visas/sports/",
     "family": "services",
     "query": "Brazil sports travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-sports.webp",
-    "alt": "Sports Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+    "alt": "Hero image for the Sports Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Sports Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Sports Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Sports Visa hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "visa-startup",
@@ -779,8 +2154,24 @@
     "route": "/services/visas/startup/",
     "family": "services",
     "query": "Brazil startup travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-startup.webp",
-    "alt": "Startup Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+    "alt": "Hero image for the Startup Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Startup Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Startup Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Startup Visa hero image featuring National Congress in Brasilia"
   },
   {
     "key": "visa-student",
@@ -788,8 +2179,24 @@
     "route": "/services/visas/student/",
     "family": "services",
     "query": "Brazil student travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-student.webp",
-    "alt": "Student Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+    "alt": "Hero image for the Student Visa page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Student Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Student Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Student Visa hero image featuring Curitiba skyline"
   },
   {
     "key": "visa-tourist",
@@ -797,8 +2204,24 @@
     "route": "/services/visas/tourist/",
     "family": "services",
     "query": "Brazil tourist travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-tourist.webp",
-    "alt": "Tourist Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-tourist.webp",
+    "alt": "Hero image for the Tourist Visa page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Tourist Visa page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Tourist Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Tourist Visa hero image featuring Porto Alegre skyline"
   },
   {
     "key": "visa-transit",
@@ -806,8 +2229,24 @@
     "route": "/services/visas/transit/",
     "family": "services",
     "query": "Brazil transit travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-transit.webp",
-    "alt": "Transit Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+    "alt": "Hero image for the Transit Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Transit Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Transit Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Transit Visa hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "visa-volunteer",
@@ -815,8 +2254,24 @@
     "route": "/services/visas/volunteer/",
     "family": "services",
     "query": "Brazil volunteer travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-volunteer.webp",
-    "alt": "Volunteer Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+    "alt": "Hero image for the Volunteer Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Volunteer Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Volunteer Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Volunteer Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "visa-work",
@@ -824,8 +2279,24 @@
     "route": "/services/visas/work/",
     "family": "services",
     "query": "Brazil work travel landscape",
-    "path": "/assets/images/heroes/services/services-visas-work.webp",
-    "alt": "Work Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+    "alt": "Hero image for the Work Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Work Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Work Visa",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Work Visa hero image featuring Sao Paulo skyline"
   },
   {
     "key": "services-residencies",
@@ -833,8 +2304,24 @@
     "route": "/services/residencies/",
     "family": "services",
     "query": "Brazil residencies cinematic landscape",
-    "path": "/assets/images/heroes/services/services-residencies.webp",
-    "alt": "Residencies page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-residencies.webp",
+    "alt": "Hero image for the Residencies page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Residencies page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Residencies",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Residencies hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "residency-cplp",
@@ -842,8 +2329,24 @@
     "route": "/services/residencies/cplp/",
     "family": "services",
     "query": "Brazil cplp residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-cplp.webp",
-    "alt": "CPLP Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+    "alt": "Hero image for the CPLP Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the CPLP Residency page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "CPLP Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "CPLP Residency hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "residency-mercosul",
@@ -851,8 +2354,24 @@
     "route": "/services/residencies/mercosul/",
     "family": "services",
     "query": "Brazil mercosul residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-mercosul.webp",
-    "alt": "MERCOSUL Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+    "alt": "Hero image for the MERCOSUL Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the MERCOSUL Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "MERCOSUL Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "MERCOSUL Residency hero image featuring Sao Paulo skyline"
   },
   {
     "key": "residency-nomad",
@@ -860,8 +2379,24 @@
     "route": "/services/residencies/nomad/",
     "family": "services",
     "query": "Brazil nomad residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-nomad.webp",
-    "alt": "Nomad Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+    "alt": "Hero image for the Nomad Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Nomad Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Nomad Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Nomad Residency hero image featuring National Congress in Brasilia"
   },
   {
     "key": "residency-educational",
@@ -869,8 +2404,24 @@
     "route": "/services/residencies/educational/",
     "family": "services",
     "query": "Brazil educational residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-educational.webp",
-    "alt": "Educational Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-iguazu-falls-brazil-educational.webp",
+    "alt": "Hero image for the Educational Residency page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "description": "SEO hero image for the Educational Residency page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Iguazu Falls",
+      "Foz do Iguacu",
+      "waterfalls",
+      "southern Brazil",
+      "Brazil nature",
+      "Iguazu Falls on the Brazilian side",
+      "Educational Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "iguazu-falls",
+    "sourceName": "Iguazu Falls on the Brazilian side",
+    "imageTitle": "Educational Residency hero image featuring Iguazu Falls on the Brazilian side"
   },
   {
     "key": "residency-exchange",
@@ -878,8 +2429,24 @@
     "route": "/services/residencies/exchange/",
     "family": "services",
     "query": "Brazil exchange residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-exchange.webp",
-    "alt": "Exchange Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-exchange.webp",
+    "alt": "Hero image for the Exchange Residency page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Exchange Residency page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Exchange Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Exchange Residency hero image featuring Curitiba skyline"
   },
   {
     "key": "residency-reunion",
@@ -887,8 +2454,24 @@
     "route": "/services/residencies/reunion/",
     "family": "services",
     "query": "Brazil reunion residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-reunion.webp",
-    "alt": "Reunion Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-reunion.webp",
+    "alt": "Hero image for the Reunion Residency page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Reunion Residency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Reunion Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Reunion Residency hero image featuring Porto Alegre skyline"
   },
   {
     "key": "residency-health",
@@ -896,8 +2479,24 @@
     "route": "/services/residencies/health/",
     "family": "services",
     "query": "Brazil health residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-health.webp",
-    "alt": "Health Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-health.webp",
+    "alt": "Hero image for the Health Residency page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Health Residency page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Health Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Health Residency hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "residency-humanitarian",
@@ -905,8 +2504,24 @@
     "route": "/services/residencies/humanitarian/",
     "family": "services",
     "query": "Brazil humanitarian residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-humanitarian.webp",
-    "alt": "Humanitarian Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-humanitarian.webp",
+    "alt": "Hero image for the Humanitarian Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Humanitarian Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Humanitarian Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Humanitarian Residency hero image featuring Sao Paulo skyline"
   },
   {
     "key": "residency-investor",
@@ -914,8 +2529,24 @@
     "route": "/services/residencies/investor/",
     "family": "services",
     "query": "Brazil investor residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-investor.webp",
-    "alt": "Investor Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-investor.webp",
+    "alt": "Hero image for the Investor Residency page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Investor Residency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Investor Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Investor Residency hero image featuring Porto Alegre skyline"
   },
   {
     "key": "residency-religious",
@@ -923,8 +2554,24 @@
     "route": "/services/residencies/religious/",
     "family": "services",
     "query": "Brazil religious residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-religious.webp",
-    "alt": "Religious Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-religious.webp",
+    "alt": "Hero image for the Religious Residency page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Religious Residency page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Religious Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Religious Residency hero image featuring Curitiba skyline"
   },
   {
     "key": "residency-retiree",
@@ -932,8 +2579,24 @@
     "route": "/services/residencies/retiree/",
     "family": "services",
     "query": "Brazil retiree residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-retiree.webp",
-    "alt": "Retiree Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "alt": "Hero image for the Retiree Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Retiree Residency page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Retiree Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Retiree Residency hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "residency-research",
@@ -941,8 +2604,24 @@
     "route": "/services/residencies/research/",
     "family": "services",
     "query": "Brazil research residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-research.webp",
-    "alt": "Research Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+    "alt": "Hero image for the Research Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Research Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Research Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Research Residency hero image featuring National Congress in Brasilia"
   },
   {
     "key": "residency-skilled",
@@ -950,8 +2629,24 @@
     "route": "/services/residencies/skilled/",
     "family": "services",
     "query": "Brazil skilled residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-skilled.webp",
-    "alt": "Skilled Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+    "alt": "Hero image for the Skilled Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Skilled Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Skilled Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Skilled Residency hero image featuring National Congress in Brasilia"
   },
   {
     "key": "residency-study",
@@ -959,8 +2654,24 @@
     "route": "/services/residencies/study/",
     "family": "services",
     "query": "Brazil study residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-study.webp",
-    "alt": "Study Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-study.webp",
+    "alt": "Hero image for the Study Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Study Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Study Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Study Residency hero image featuring Sao Paulo skyline"
   },
   {
     "key": "residency-work",
@@ -968,8 +2679,24 @@
     "route": "/services/residencies/work/",
     "family": "services",
     "query": "Brazil work residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-work.webp",
-    "alt": "Work Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-work.webp",
+    "alt": "Hero image for the Work Residency page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Work Residency page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Work Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Work Residency hero image featuring Curitiba skyline"
   },
   {
     "key": "residency-youth",
@@ -977,8 +2704,24 @@
     "route": "/services/residencies/youth/",
     "family": "services",
     "query": "Brazil youth residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-youth.webp",
-    "alt": "Youth Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+    "alt": "Hero image for the Youth Residency page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Youth Residency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Youth Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Youth Residency hero image featuring Porto Alegre skyline"
   },
   {
     "key": "residency-volunteer",
@@ -986,8 +2729,24 @@
     "route": "/services/residencies/volunteer/",
     "family": "services",
     "query": "Brazil volunteer residence landscape",
-    "path": "/assets/images/heroes/services/services-residencies-volunteer.webp",
-    "alt": "Volunteer Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+    "alt": "Hero image for the Volunteer Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Volunteer Residency page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Volunteer Residency",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Volunteer Residency hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "services-naturalisation",
@@ -995,8 +2754,24 @@
     "route": "/services/naturalisation/",
     "family": "services",
     "query": "Brazil naturalisation cinematic landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation.webp",
-    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+    "alt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Naturalisation hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "naturalisation-ordinary",
@@ -1004,8 +2779,24 @@
     "route": "/services/naturalisation/ordinary/",
     "family": "services",
     "query": "Brazil ordinary citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-ordinary.webp",
-    "alt": "Ordinary Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-ordinary.webp",
+    "alt": "Hero image for the Ordinary Naturalisation page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Ordinary Naturalisation page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Ordinary Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Ordinary Naturalisation hero image featuring Porto Alegre skyline"
   },
   {
     "key": "naturalisation-extraordinary",
@@ -1013,8 +2804,24 @@
     "route": "/services/naturalisation/extraordinary/",
     "family": "services",
     "query": "Brazil extraordinary citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-extraordinary.webp",
-    "alt": "Extraordinary Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+    "alt": "Hero image for the Extraordinary Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Extraordinary Naturalisation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Extraordinary Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Extraordinary Naturalisation hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "naturalisation-provisional",
@@ -1022,8 +2829,24 @@
     "route": "/services/naturalisation/provisional/",
     "family": "services",
     "query": "Brazil provisional citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-provisional.webp",
-    "alt": "Provisional Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-provisional.webp",
+    "alt": "Hero image for the Provisional Naturalisation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Provisional Naturalisation page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Provisional Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Provisional Naturalisation hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "naturalisation-special",
@@ -1031,8 +2854,24 @@
     "route": "/services/naturalisation/special/",
     "family": "services",
     "query": "Brazil special citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-special.webp",
-    "alt": "Special Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-special.webp",
+    "alt": "Hero image for the Special Naturalisation page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Special Naturalisation page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Special Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Special Naturalisation hero image featuring Sao Paulo skyline"
   },
   {
     "key": "naturalisation-renunciation",
@@ -1040,8 +2879,24 @@
     "route": "/services/naturalisation/renunciation/",
     "family": "services",
     "query": "Brazil renunciation citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-renunciation.webp",
-    "alt": "Renunciation Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+    "alt": "Hero image for the Renunciation Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Renunciation Naturalisation page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Renunciation Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Renunciation Naturalisation hero image featuring National Congress in Brasilia"
   },
   {
     "key": "naturalisation-reacquisition",
@@ -1049,8 +2904,24 @@
     "route": "/services/naturalisation/reacquisition/",
     "family": "services",
     "query": "Brazil reacquisition citizenship landscape",
-    "path": "/assets/images/heroes/services/services-naturalisation-reacquisition.webp",
-    "alt": "Reacquisition Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-reacquisition.webp",
+    "alt": "Hero image for the Reacquisition Naturalisation page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Reacquisition Naturalisation page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Reacquisition Naturalisation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Reacquisition Naturalisation hero image featuring Curitiba skyline"
   },
   {
     "key": "services-defense",
@@ -1058,8 +2929,24 @@
     "route": "/services/defense/",
     "family": "services",
     "query": "Brazil defense cinematic landscape",
-    "path": "/assets/images/heroes/services/services-defense.webp",
-    "alt": "Defense page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+    "alt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Defense page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Defense",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Defense hero image featuring National Congress in Brasilia"
   },
   {
     "key": "defense-deportation",
@@ -1067,8 +2954,24 @@
     "route": "/services/defense/deportation/",
     "family": "services",
     "query": "Brazil deportation legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-deportation.webp",
-    "alt": "Deportation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-deportation.webp",
+    "alt": "Hero image for the Deportation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Deportation page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Deportation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Deportation hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "defense-expulsion",
@@ -1076,8 +2979,24 @@
     "route": "/services/defense/expulsion/",
     "family": "services",
     "query": "Brazil expulsion legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-expulsion.webp",
-    "alt": "Expulsion page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-expulsion.webp",
+    "alt": "Hero image for the Expulsion page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Expulsion page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Expulsion",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Expulsion hero image featuring Curitiba skyline"
   },
   {
     "key": "defense-extradition",
@@ -1085,8 +3004,24 @@
     "route": "/services/defense/extradition/",
     "family": "services",
     "query": "Brazil extradition legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-extradition.webp",
-    "alt": "Extradition page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+    "alt": "Hero image for the Extradition page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Extradition page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Extradition",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Extradition hero image featuring Sao Paulo skyline"
   },
   {
     "key": "defense-appeals",
@@ -1094,8 +3029,24 @@
     "route": "/services/defense/appeals/",
     "family": "services",
     "query": "Brazil appeals legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-appeals.webp",
-    "alt": "Appeals page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
+    "alt": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Appeals page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Appeals",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Appeals hero image featuring Porto Alegre skyline"
   },
   {
     "key": "defense-fines",
@@ -1103,8 +3054,24 @@
     "route": "/services/defense/fines/",
     "family": "services",
     "query": "Brazil fines legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-fines.webp",
-    "alt": "Fines page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+    "alt": "Hero image for the Fines page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Fines page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Fines",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Fines hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "defense-litigation",
@@ -1112,8 +3079,24 @@
     "route": "/services/defense/litigation/",
     "family": "services",
     "query": "Brazil litigation legal landscape",
-    "path": "/assets/images/heroes/services/services-defense-litigation.webp",
-    "alt": "Litigation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+    "alt": "Hero image for the Litigation page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Litigation page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Litigation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Litigation hero image featuring Porto Alegre skyline"
   },
   {
     "key": "services-other",
@@ -1121,8 +3104,24 @@
     "route": "/services/other/",
     "family": "services",
     "query": "Brazil other cinematic landscape",
-    "path": "/assets/images/heroes/services/services-other.webp",
-    "alt": "Other page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-other.webp",
+    "alt": "Hero image for the Other page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Other page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Other",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Other hero image featuring National Congress in Brasilia"
   },
   {
     "key": "other-consular",
@@ -1130,8 +3129,24 @@
     "route": "/services/other/consular/",
     "family": "services",
     "query": "Brazil consular document landscape",
-    "path": "/assets/images/heroes/services/services-other-consular.webp",
-    "alt": "Consular page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+    "alt": "Hero image for the Consular page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Consular page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Consular",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Consular hero image featuring Sao Paulo skyline"
   },
   {
     "key": "other-records",
@@ -1139,8 +3154,24 @@
     "route": "/services/other/records/",
     "family": "services",
     "query": "Brazil records document landscape",
-    "path": "/assets/images/heroes/services/services-other-records.webp",
-    "alt": "Records page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+    "alt": "Hero image for the Records page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Records page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Records",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Records hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "other-translation",
@@ -1148,8 +3179,24 @@
     "route": "/services/other/translation/",
     "family": "services",
     "query": "Brazil translation document landscape",
-    "path": "/assets/images/heroes/services/services-other-translation.webp",
-    "alt": "Translation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-translation.webp",
+    "alt": "Hero image for the Translation page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Translation page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Translation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Translation hero image featuring Curitiba skyline"
   },
   {
     "key": "other-regularization",
@@ -1157,8 +3204,24 @@
     "route": "/services/other/regularization/",
     "family": "services",
     "query": "Brazil regularization document landscape",
-    "path": "/assets/images/heroes/services/services-other-regularization.webp",
-    "alt": "Regularization page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-regularization.webp",
+    "alt": "Hero image for the Regularization page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Regularization page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Regularization",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Regularization hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "services-advisory",
@@ -1166,8 +3229,24 @@
     "route": "/services/advisory/",
     "family": "services",
     "query": "Brazil advisory cinematic landscape",
-    "path": "/assets/images/heroes/services/services-advisory.webp",
-    "alt": "Advisory page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+    "alt": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Advisory page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Advisory",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Advisory hero image featuring Curitiba skyline"
   },
   {
     "key": "advisory-consultation",
@@ -1175,8 +3254,24 @@
     "route": "/services/advisory/consultation/",
     "family": "services",
     "query": "Brazil consultation planning landscape",
-    "path": "/assets/images/heroes/services/services-advisory-consultation.webp",
-    "alt": "Consultation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+    "alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "description": "SEO hero image for the Consultation page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Florianopolis",
+      "Praia Brava",
+      "Brazil beach",
+      "Atlantic coast",
+      "southern Brazil",
+      "Florianopolis and Praia Brava on the Atlantic coast",
+      "Consultation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "florianopolis-beach",
+    "sourceName": "Florianopolis coastline",
+    "imageTitle": "Consultation hero image featuring Florianopolis coastline"
   },
   {
     "key": "advisory-strategy",
@@ -1184,8 +3279,24 @@
     "route": "/services/advisory/strategy/",
     "family": "services",
     "query": "Brazil strategy planning landscape",
-    "path": "/assets/images/heroes/services/services-advisory-strategy.webp",
-    "alt": "Strategy page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+    "alt": "Hero image for the Strategy page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Strategy page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Strategy",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Strategy hero image featuring National Congress in Brasilia"
   },
   {
     "key": "advisory-compliance",
@@ -1193,8 +3304,24 @@
     "route": "/services/advisory/compliance/",
     "family": "services",
     "query": "Brazil compliance planning landscape",
-    "path": "/assets/images/heroes/services/services-advisory-compliance.webp",
-    "alt": "Compliance page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+    "alt": "Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Compliance page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Compliance",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Compliance hero image featuring Porto Alegre skyline"
   },
   {
     "key": "advisory-representation",
@@ -1202,8 +3329,24 @@
     "route": "/services/advisory/representation/",
     "family": "services",
     "query": "Brazil representation planning landscape",
-    "path": "/assets/images/heroes/services/services-advisory-representation.webp",
-    "alt": "Representation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-representation.webp",
+    "alt": "Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Representation page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Representation",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Representation hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "advisory-corporate",
@@ -1211,8 +3354,24 @@
     "route": "/services/advisory/corporate/",
     "family": "services",
     "query": "Brazil corporate planning landscape",
-    "path": "/assets/images/heroes/services/services-advisory-corporate.webp",
-    "alt": "Corporate page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-corporate.webp",
+    "alt": "Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Corporate page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Corporate",
+      "Brazil immigration services",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Corporate hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "insights-general",
@@ -1220,8 +3379,24 @@
     "route": "/insights/general/",
     "family": "insights",
     "query": "Brazil general overview landscape",
-    "path": "/assets/images/heroes/insights/insights-general.webp",
-    "alt": "General page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+    "alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the General page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "General",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "General hero image featuring Sao Paulo skyline"
   },
   {
     "key": "insights-visa",
@@ -1229,8 +3404,24 @@
     "route": "/insights/visa/",
     "family": "insights",
     "query": "Brazil visa overview landscape",
-    "path": "/assets/images/heroes/insights/insights-visa.webp",
-    "alt": "Visa page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp",
+    "alt": "Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "description": "SEO hero image for the Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Salvador",
+      "Pelourinho",
+      "Bahia",
+      "historic center",
+      "northeast Brazil",
+      "Pelourinho in Salvador, Bahia",
+      "Visa",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "salvador-pelourinho",
+    "sourceName": "Pelourinho in Salvador",
+    "imageTitle": "Visa hero image featuring Pelourinho in Salvador"
   },
   {
     "key": "insights-residency",
@@ -1238,8 +3429,24 @@
     "route": "/insights/residency/",
     "family": "insights",
     "query": "Brazil residency overview landscape",
-    "path": "/assets/images/heroes/insights/insights-residency.webp",
-    "alt": "Residency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+    "alt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Residency",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Residency hero image featuring Sao Paulo skyline"
   },
   {
     "key": "insights-naturalisation",
@@ -1247,8 +3454,24 @@
     "route": "/insights/naturalisation/",
     "family": "insights",
     "query": "Brazil naturalisation overview landscape",
-    "path": "/assets/images/heroes/insights/insights-naturalisation.webp",
-    "alt": "Naturalisation page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-curitiba-skyline-naturalisation.webp",
+    "alt": "Hero image for the Naturalisation page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Naturalisation",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Naturalisation hero image featuring Curitiba skyline"
   },
   {
     "key": "insights-process",
@@ -1256,8 +3479,24 @@
     "route": "/insights/process/",
     "family": "insights",
     "query": "Brazil process overview landscape",
-    "path": "/assets/images/heroes/insights/insights-process.webp",
-    "alt": "Process page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+    "alt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Process page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Process",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Process hero image featuring Porto Alegre skyline"
   },
   {
     "key": "insights-blog",
@@ -1265,8 +3504,24 @@
     "route": "/insights/blog/",
     "family": "insights",
     "query": "Brazil blog overview landscape",
-    "path": "/assets/images/heroes/insights/insights-blog.webp",
-    "alt": "Blog page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
+    "alt": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "description": "SEO hero image for the Blog page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Manaus",
+      "Teatro Amazonas",
+      "Amazonas",
+      "historic theater",
+      "northern Brazil",
+      "Teatro Amazonas in Manaus",
+      "Blog",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "manaus-theater",
+    "sourceName": "Teatro Amazonas in Manaus",
+    "imageTitle": "Blog hero image featuring Teatro Amazonas in Manaus"
   },
   {
     "key": "insights-updates",
@@ -1274,8 +3529,24 @@
     "route": "/insights/updates/",
     "family": "insights",
     "query": "Brazil updates overview landscape",
-    "path": "/assets/images/heroes/insights/insights-updates.webp",
-    "alt": "Updates page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+    "alt": "Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Updates page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Updates",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Updates hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "insights-guides",
@@ -1283,8 +3554,24 @@
     "route": "/insights/guides/",
     "family": "insights",
     "query": "Brazil guides overview landscape",
-    "path": "/assets/images/heroes/insights/insights-guides.webp",
-    "alt": "Guides page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+    "alt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "description": "SEO hero image for the Guides page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about Brazil immigration insights.",
+    "keywords": [
+      "Ouro Preto",
+      "Minas Gerais",
+      "historic center",
+      "colonial Brazil",
+      "southeast Brazil",
+      "the historic hillside architecture of Ouro Preto",
+      "Guides",
+      "Brazil immigration insights",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "ouro-preto",
+    "sourceName": "Historic center of Ouro Preto",
+    "imageTitle": "Guides hero image featuring Historic center of Ouro Preto"
   },
   {
     "key": "legal-payment",
@@ -1292,8 +3579,24 @@
     "route": "/legal/payment/",
     "family": "legal",
     "query": "Brazil night skyline secure payment",
-    "path": "/assets/images/heroes/legal/legal-payment.webp",
-    "alt": "Payment page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+    "alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Payment page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Payment",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Payment hero image featuring National Congress in Brasilia"
   },
   {
     "key": "legal-form",
@@ -1301,8 +3604,24 @@
     "route": "/legal/form/",
     "family": "legal",
     "query": "Brazil desk documents landscape",
-    "path": "/assets/images/heroes/legal/legal-form.webp",
-    "alt": "Form page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+    "alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Form page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Form",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Form hero image featuring Sao Paulo skyline"
   },
   {
     "key": "legal-emergency",
@@ -1310,8 +3629,24 @@
     "route": "/legal/emergency/",
     "family": "legal",
     "query": "Brazil city lights urgent support",
-    "path": "/assets/images/heroes/legal/legal-emergency.webp",
-    "alt": "Emergency page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+    "alt": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Emergency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Emergency",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Emergency hero image featuring Porto Alegre skyline"
   },
   {
     "key": "legal-search",
@@ -1319,8 +3654,24 @@
     "route": "/legal/search/",
     "family": "legal",
     "query": "Brazil map search landscape",
-    "path": "/assets/images/heroes/legal/legal-search.webp",
-    "alt": "Search page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+    "alt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Search page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Search",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Search hero image featuring National Congress in Brasilia"
   },
   {
     "key": "legal-privacy",
@@ -1328,8 +3679,24 @@
     "route": "/legal/privacy/",
     "family": "legal",
     "query": "Brazil data privacy landscape",
-    "path": "/assets/images/heroes/legal/legal-privacy.webp",
-    "alt": "Privacy page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+    "alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Privacy page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Privacy",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Privacy hero image featuring Curitiba skyline"
   },
   {
     "key": "legal-cookies",
@@ -1337,8 +3704,24 @@
     "route": "/legal/cookies/",
     "family": "legal",
     "query": "Brazil browser security landscape",
-    "path": "/assets/images/heroes/legal/legal-cookies.webp",
-    "alt": "Cookies page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
+    "alt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Cookies page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Cookies",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Cookies hero image featuring Porto Alegre skyline"
   },
   {
     "key": "legal-terms",
@@ -1346,8 +3729,24 @@
     "route": "/legal/terms/",
     "family": "legal",
     "query": "Brazil courthouse skyline landscape",
-    "path": "/assets/images/heroes/legal/legal-terms.webp",
-    "alt": "Terms page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+    "alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the Terms page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "Terms",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "Terms hero image featuring Sao Paulo skyline"
   },
   {
     "key": "legal-refund",
@@ -1355,8 +3754,24 @@
     "route": "/legal/refund/",
     "family": "legal",
     "query": "Brazil receipt compliance landscape",
-    "path": "/assets/images/heroes/legal/legal-refund.webp",
-    "alt": "Refund page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+    "alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "description": "SEO hero image for the Refund page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil legal information.",
+    "keywords": [
+      "Rio de Janeiro",
+      "Sugarloaf Mountain",
+      "Guanabara Bay",
+      "Brazil skyline",
+      "southeast Brazil",
+      "Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay",
+      "Refund",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "rio-sugarloaf",
+    "sourceName": "Rio de Janeiro skyline from Sugarloaf Mountain",
+    "imageTitle": "Refund hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain"
   },
   {
     "key": "legal-gdpr",
@@ -1364,8 +3779,24 @@
     "route": "/legal/gdpr/",
     "family": "legal",
     "query": "Brazil international privacy landscape",
-    "path": "/assets/images/heroes/legal/legal-gdpr.webp",
-    "alt": "Gdpr page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+    "alt": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "description": "SEO hero image for the Gdpr page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
+    "keywords": [
+      "Brasilia",
+      "National Congress",
+      "Brazil capital",
+      "Monumental Axis",
+      "central-west Brazil",
+      "the National Congress complex in Brasilia",
+      "Gdpr",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "brasilia-congress",
+    "sourceName": "National Congress in Brasilia",
+    "imageTitle": "Gdpr hero image featuring National Congress in Brasilia"
   },
   {
     "key": "legal-lgpd",
@@ -1373,8 +3804,24 @@
     "route": "/legal/lgpd/",
     "family": "legal",
     "query": "Brazil compliance data landscape",
-    "path": "/assets/images/heroes/legal/legal-lgpd.webp",
-    "alt": "Lgpd page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-curitiba-skyline-lgpd.webp",
+    "alt": "Hero image for the Lgpd page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Lgpd page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Lgpd",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Lgpd hero image featuring Curitiba skyline"
   },
   {
     "key": "legal-accessibility",
@@ -1382,8 +3829,24 @@
     "route": "/legal/accessibility/",
     "family": "legal",
     "query": "Brazil inclusive access landscape",
-    "path": "/assets/images/heroes/legal/legal-accessibility.webp",
-    "alt": "Accessibility page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-curitiba-skyline-accessibility.webp",
+    "alt": "Hero image for the Accessibility page showing the Curitiba skyline in southern Brazil.",
+    "description": "SEO hero image for the Accessibility page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Curitiba",
+      "Parana",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Curitiba skyline",
+      "Accessibility",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "curitiba-skyline",
+    "sourceName": "Curitiba skyline",
+    "imageTitle": "Accessibility hero image featuring Curitiba skyline"
   },
   {
     "key": "legal-disclaimer",
@@ -1391,8 +3854,24 @@
     "route": "/legal/disclaimer/",
     "family": "legal",
     "query": "Brazil legal disclaimer landscape",
-    "path": "/assets/images/heroes/legal/legal-disclaimer.webp",
-    "alt": "Disclaimer page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+    "alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil.",
+    "description": "SEO hero image for the Disclaimer page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Porto Alegre",
+      "Rio Grande do Sul",
+      "Brazil skyline",
+      "southern Brazil",
+      "urban Brazil",
+      "the Porto Alegre skyline",
+      "Disclaimer",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "porto-alegre",
+    "sourceName": "Porto Alegre skyline",
+    "imageTitle": "Disclaimer hero image featuring Porto Alegre skyline"
   },
   {
     "key": "legal-404",
@@ -1400,7 +3879,23 @@
     "route": "/legal/404/",
     "family": "legal",
     "query": "Brazil roadfinding landscape",
-    "path": "/assets/images/heroes/legal/legal-404.webp",
-    "alt": "404 page hero with a cinematic Brazil landscape"
+    "path": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+    "alt": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil.",
+    "description": "SEO hero image for the 404 page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
+    "keywords": [
+      "Sao Paulo",
+      "Brazil skyline",
+      "Avenida Paulista",
+      "urban Brazil",
+      "southeast Brazil",
+      "the Sao Paulo skyline",
+      "404",
+      "Brazil legal information",
+      "Brazil",
+      "Immigrate to Brazil"
+    ],
+    "sourceId": "saopaulo-skyline",
+    "sourceName": "Sao Paulo skyline",
+    "imageTitle": "404 hero image featuring Sao Paulo skyline"
   }
 ]

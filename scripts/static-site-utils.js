@@ -116,7 +116,7 @@ export function deriveFamily(html, route) {
 }
 
 export function isNoindex(html) {
-  return /<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html);
+  return /<meta\b(?=[^>]*\bname="robots")(?=[^>]*\bcontent="[^"]*noindex)[^>]*>/i.test(html);
 }
 
 export function extractTopics(html) {
@@ -144,7 +144,7 @@ export function extractFormActions(html) {
 
 export function extractPageData(route, html) {
   const browserTitle = extractSingle(html, /<title>([\s\S]*?)<\/title>/i);
-  const summary = extractSingle(html, /<meta[^>]+name="description"[^>]+content="([^"]+)"/i);
+  const summary = extractSingle(html, /<meta\b(?=[^>]*\bname="description")(?=[^>]*\bcontent="([^"]+)")[^>]*>/i);
   const h1 = extractSingle(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i);
   const topics = extractTopics(html);
   const faq = extractFaqQuestions(html);

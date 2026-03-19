@@ -1,0 +1,629 @@
+{
+  "generator_version": "2026-03-19-pt-br-v2",
+  "routes": {
+    "/": {
+      "pt_route": "/pt-br/",
+      "source_hash": "8580d31204da4d671c968d29f3b24fff8f5f1004de014bbe810b6dea39320a7f"
+    },
+    "/about/about/": {
+      "pt_route": "/pt-br/about/about/",
+      "source_hash": "fb401a5e5814df4ed8d7fe19321e88eb8e816c4c6355ba495a0c064fd09b692b"
+    },
+    "/about/clients/": {
+      "pt_route": "/pt-br/about/clients/",
+      "source_hash": "4e567f8e6015166bcc408ec85c4a158afea1e20d818a5c888fb59aa187db048a"
+    },
+    "/about/compliance/": {
+      "pt_route": "/pt-br/about/compliance/",
+      "source_hash": "0ab6e0203e6102e75765d3f7bf4ea71d2e6b10fbeccc44154b60171d82222049"
+    },
+    "/about/ethics/": {
+      "pt_route": "/pt-br/about/ethics/",
+      "source_hash": "52ed98a904796cc1effffb6d4f772e94241a438a99c1014b2e6d55139b7ba63b"
+    },
+    "/about/governance/": {
+      "pt_route": "/pt-br/about/governance/",
+      "source_hash": "606fc816f6ec26b3091d16995337080294dead6f343d86e0de02f94bca498fd5"
+    },
+    "/about/lawyer/": {
+      "pt_route": "/pt-br/about/lawyer/",
+      "source_hash": "3d155efabe0d9c182cef886b4eb323c0c11cf8a5ac3a8a733a75e297517f92bf"
+    },
+    "/about/mission/": {
+      "pt_route": "/pt-br/about/mission/",
+      "source_hash": "f2c5342d6c23b4bdbd7fee43a15f80af39817cb2b529dddcf931cf422845fd8a"
+    },
+    "/about/philosophy/": {
+      "pt_route": "/pt-br/about/philosophy/",
+      "source_hash": "750be8ca855922c75f014e4ba4c49c84528656fe785c0cccfcd186470dea70cf"
+    },
+    "/about/profile/": {
+      "pt_route": "/pt-br/about/profile/",
+      "source_hash": "ef9a6b62dfa9f0a55c35ce53be43f8e527aaf12943d8fb26c1c2b96ad1258bae"
+    },
+    "/about/regulatory/": {
+      "pt_route": "/pt-br/about/regulatory/",
+      "source_hash": "f98cf541d1908b93f84233af1a3e8a951ad0bd819f229569dcc26c659dfea706"
+    },
+    "/about/results/": {
+      "pt_route": "/pt-br/about/results/",
+      "source_hash": "8c812d8a0d81bb428ea5d9eefa220fa4d0e6506a135cfef3d4cabca23753cc21"
+    },
+    "/about/standards/": {
+      "pt_route": "/pt-br/about/standards/",
+      "source_hash": "80dcb78edec50591b02a608b1271cde2bf47547736259812bf73fd149e7b82fc"
+    },
+    "/about/stories/": {
+      "pt_route": "/pt-br/about/stories/",
+      "source_hash": "53495a2db96c479258c967fd804c97b9b87e8172d40d842d11fe9ffc0db0baa0"
+    },
+    "/about/story/": {
+      "pt_route": "/pt-br/about/story/",
+      "source_hash": "a9cec8f127421b8b65b4e756bb9ac12589ea79cef2e66a75568525e24bf52629"
+    },
+    "/about/testimonials/": {
+      "pt_route": "/pt-br/about/testimonials/",
+      "source_hash": "8620126212c7c47ff80854e701593244ab737da22762ffc9b588ef954e898157"
+    },
+    "/about/values/": {
+      "pt_route": "/pt-br/about/values/",
+      "source_hash": "5bd284bc6c648aae38752b8f21603a79140bbad4ac38e6528c4b837de8f22572"
+    },
+    "/about/whyus/": {
+      "pt_route": "/pt-br/about/whyus/",
+      "source_hash": "60b207dbe6fa3d2c580e437ff9529b153d1073ff6e128d7cbf46d4058d1233ec"
+    },
+    "/brazil/brazil/": {
+      "pt_route": "/pt-br/brazil/brazil/",
+      "source_hash": "73e2920839411a804d3e74545e14596888d35611f5fa7acaec49f9c337cb0f2a"
+    },
+    "/brazil/central-west/": {
+      "pt_route": "/pt-br/brazil/central-west/",
+      "source_hash": "b86db35eaef6cb02a0d42185582831f6ba3e1acc6f9b6c318511b6b0bc0469c7"
+    },
+    "/brazil/cities/": {
+      "pt_route": "/pt-br/brazil/cities/",
+      "source_hash": "84666fd7287c8ff44efb570988b5b1c5175ae848dec791fb1e58951f39275064"
+    },
+    "/brazil/cost/": {
+      "pt_route": "/pt-br/brazil/cost/",
+      "source_hash": "ac3b0350462f09d4438ad7be196eff25b33c0ba92500a95ba1cad29183675a55"
+    },
+    "/brazil/cuisine/": {
+      "pt_route": "/pt-br/brazil/cuisine/",
+      "source_hash": "c0abc91e7ebec51c86847797cf862771071a2e220fb515b43e24da07e1b07cb6"
+    },
+    "/brazil/culture/": {
+      "pt_route": "/pt-br/brazil/culture/",
+      "source_hash": "ab9f96a35b17da8e1e19e2ef119094c90724ba6c42e71a727fda4d4803a3b313"
+    },
+    "/brazil/directory/": {
+      "pt_route": "/pt-br/brazil/directory/",
+      "source_hash": "4511753d16b6c6fdc9048035b6c82e177cf9a7e352004eb979b701feb95ca4ef"
+    },
+    "/brazil/economy/": {
+      "pt_route": "/pt-br/brazil/economy/",
+      "source_hash": "7acbd7680bf9a1aad996755bfc36a2afad2836888d1971ac4aed3e241b874980"
+    },
+    "/brazil/education/": {
+      "pt_route": "/pt-br/brazil/education/",
+      "source_hash": "19bb8a2dac786c56fa2fbaca54d1b1bf301e05adbb52dd53f53634a1957eec33"
+    },
+    "/brazil/events/": {
+      "pt_route": "/pt-br/brazil/events/",
+      "source_hash": "036f8e4ceb9a5efa7229827f1c08ffacaa021b0a1584394843f578a04ad1acbd"
+    },
+    "/brazil/faqs/": {
+      "pt_route": "/pt-br/brazil/faqs/",
+      "source_hash": "c4fc7bc087a26aaac16268a8069beff0f52e5fff94772bdcf232527d6a156074"
+    },
+    "/brazil/festivals/": {
+      "pt_route": "/pt-br/brazil/festivals/",
+      "source_hash": "74b5b97d8067be189720a55236ee8c402bf2a7c0fb1ada2b323a19d57b8cb03e"
+    },
+    "/brazil/guides/": {
+      "pt_route": "/pt-br/brazil/guides/",
+      "source_hash": "6da73d86a9f3e770c8b95a2e9c0458eed8f0d759ea363719464e8aee6ea5768b"
+    },
+    "/brazil/healthcare/": {
+      "pt_route": "/pt-br/brazil/healthcare/",
+      "source_hash": "56688237007f01a58cd0bfa10d804519aa0cf0a1563426c80d0db58fea8eb029"
+    },
+    "/brazil/housing/": {
+      "pt_route": "/pt-br/brazil/housing/",
+      "source_hash": "9a9476deedea248c6216c21dbbaec3a9492a3dfec0b1b97902f6203e883d298f"
+    },
+    "/brazil/investment/": {
+      "pt_route": "/pt-br/brazil/investment/",
+      "source_hash": "05e12865d532398a8e601dda6de4eb46e978ffc1e7dd65ddb3d68018072733b9"
+    },
+    "/brazil/living/": {
+      "pt_route": "/pt-br/brazil/living/",
+      "source_hash": "c48192556ed05824e3832ad650ef0d52fed9f8e0ab0178fbaaf725c8167502c7"
+    },
+    "/brazil/municipalities/": {
+      "pt_route": "/pt-br/brazil/municipalities/",
+      "source_hash": "90f6f7a43bc85bff743d34b101898c2bce95c34fd8ed4f53db604199e3439a41"
+    },
+    "/brazil/north/": {
+      "pt_route": "/pt-br/brazil/north/",
+      "source_hash": "7cd00f243df4704a201dda7750c89849761ddc515e8d7f6688c99a228795aaf3"
+    },
+    "/brazil/northeast/": {
+      "pt_route": "/pt-br/brazil/northeast/",
+      "source_hash": "3e0f688c36f9bae30054b7b8a3fa4502754a40b33113f3cd2ad05e08a38b62ad"
+    },
+    "/brazil/quality/": {
+      "pt_route": "/pt-br/brazil/quality/",
+      "source_hash": "030f6509808684d589b832a5abe26273093ceb9a6833a401b5d6c5a6e3f91a48"
+    },
+    "/brazil/safety/": {
+      "pt_route": "/pt-br/brazil/safety/",
+      "source_hash": "2d72b515a2135721515701bd88c70d68f7b97fb4bf249ff3d782f5f39864e200"
+    },
+    "/brazil/search/": {
+      "pt_route": "/pt-br/brazil/search/",
+      "source_hash": "40a36ba4fc5701007ec0d36a91195be3eff3952f59749c054d52f4b06d194180"
+    },
+    "/brazil/south/": {
+      "pt_route": "/pt-br/brazil/south/",
+      "source_hash": "7505fb63e959a1ed28e7e248d4afa30d77e016c67a4d964209441dfd8c4fe2ef"
+    },
+    "/brazil/southeast/": {
+      "pt_route": "/pt-br/brazil/southeast/",
+      "source_hash": "852a58ab3901620c4c92357e9922c4ad18b5c2428c8ae06cbbf29bfdea178697"
+    },
+    "/brazil/states/": {
+      "pt_route": "/pt-br/brazil/states/",
+      "source_hash": "617c66cd9eab925c7b50a6139350e9158e19c7851f17ff6e3bf0d56350a7a84e"
+    },
+    "/insights/blog/": {
+      "pt_route": "/pt-br/insights/blog/",
+      "source_hash": "c85209740fa386ffe1d29af8d0491daf1f3e1389d2e5af3efc73fb2fed883990"
+    },
+    "/insights/general/": {
+      "pt_route": "/pt-br/insights/general/",
+      "source_hash": "9a0bdc4a0b82dee39a18a831c27f35d07186726f58857b979bc189b4c5b6ff6c"
+    },
+    "/insights/guides/": {
+      "pt_route": "/pt-br/insights/guides/",
+      "source_hash": "c33e1376f0effd36208872587fe26a2c28bdcb4b762ba9e72502b20ab03772d4"
+    },
+    "/insights/naturalisation/": {
+      "pt_route": "/pt-br/insights/naturalisation/",
+      "source_hash": "ed53ce24b64b98ad150df91a4e8a021f0ae28b8ec079a68a20b4fdb399a4ec3f"
+    },
+    "/insights/process/": {
+      "pt_route": "/pt-br/insights/process/",
+      "source_hash": "8b65639ba96365f267d8d0d234e5ddbfd564ec29c150c77b978d1ba45de00408"
+    },
+    "/insights/residency/": {
+      "pt_route": "/pt-br/insights/residency/",
+      "source_hash": "1c0ab829b0ba4758dff672a713e83d6f6a508569961bb20c2ca494b72cff7bf8"
+    },
+    "/insights/updates/": {
+      "pt_route": "/pt-br/insights/updates/",
+      "source_hash": "8c8b08a5fe11956e31f7d8680915553ff92157a15def93f21442e68dee13b45d"
+    },
+    "/insights/visa/": {
+      "pt_route": "/pt-br/insights/visa/",
+      "source_hash": "38595c65f5b122e885344ca544f383e4e13bbbaa8e8c21ad373c7ca5d492e0c7"
+    },
+    "/legal/404/": {
+      "pt_route": "/pt-br/legal/404/",
+      "source_hash": "d82e2be297730ad177eb7a91b3eb55c30286a46da2d5fadbad7405aede26560f"
+    },
+    "/legal/accessibility/": {
+      "pt_route": "/pt-br/legal/accessibility/",
+      "source_hash": "1f09da2077dd367badf4cdba19a31f73fd855a1b4a6fed0f21c18fb40735a4fa"
+    },
+    "/legal/cookies/": {
+      "pt_route": "/pt-br/legal/cookies/",
+      "source_hash": "5afe6a22b4212da6dbae8a1fac5f7c4e7afc2eddd4fe23522e73adbd3b1cc608"
+    },
+    "/legal/disclaimer/": {
+      "pt_route": "/pt-br/legal/disclaimer/",
+      "source_hash": "b2863cfff90227ab48a62ff08a5cf9c6be1b3f8cd32dc7d8a60c57cf50c5d5e7"
+    },
+    "/legal/emergency/": {
+      "pt_route": "/pt-br/legal/emergency/",
+      "source_hash": "ea3c27165cd7b61304022203a8fc15d9d4f546d4a38b2dfd3c40295c057a075a"
+    },
+    "/legal/form/": {
+      "pt_route": "/pt-br/legal/form/",
+      "source_hash": "8150a7f4418cade51de017e07a55223b6942ef7007c54f7fb3792b18bbfd8c7f"
+    },
+    "/legal/gdpr/": {
+      "pt_route": "/pt-br/legal/gdpr/",
+      "source_hash": "b64c13904deac4e2af49890d237112ba804cf8c38d292f8d58d65308e5f69915"
+    },
+    "/legal/lgpd/": {
+      "pt_route": "/pt-br/legal/lgpd/",
+      "source_hash": "e71e171068decc0384c15d69d19eef222e9b1112d6aa50306ec501e7527f3a3d"
+    },
+    "/legal/payment/": {
+      "pt_route": "/pt-br/legal/payment/",
+      "source_hash": "f2ef5a3934d0099f6f012c243e8ffcc2e68ebbb394ee4af9db23f85ee8e565ca"
+    },
+    "/legal/privacy/": {
+      "pt_route": "/pt-br/legal/privacy/",
+      "source_hash": "f539d44a698fff8572a7bccc0b29e80d85062e2f115d4885a7655596a76ba5c3"
+    },
+    "/legal/refund/": {
+      "pt_route": "/pt-br/legal/refund/",
+      "source_hash": "cc0a4fcdc5898301cee0efafbf8319a77a0bb170beb90185a5aab61167ef325e"
+    },
+    "/legal/search/": {
+      "pt_route": "/pt-br/legal/search/",
+      "source_hash": "96035cc1c8bc6747da3feecb19186d32c394d617f9c5ab323f777c59cb9cc500"
+    },
+    "/legal/terms/": {
+      "pt_route": "/pt-br/legal/terms/",
+      "source_hash": "79693841a54c94e046a1bb63ba516991eec0bdd9d702d775eaac5d5789c61ff1"
+    },
+    "/process/aftercare/": {
+      "pt_route": "/pt-br/process/aftercare/",
+      "source_hash": "43b66e5f33efb8bf1eda59a481831e4e372eee37d49ecac682a25c0e8f9c7cee"
+    },
+    "/process/alone/": {
+      "pt_route": "/pt-br/process/alone/",
+      "source_hash": "d2d609966955a0626ee71eb4bdea5bb0d46b8a9e5fa808ea397e220e71f3b764"
+    },
+    "/process/approval/": {
+      "pt_route": "/pt-br/process/approval/",
+      "source_hash": "bc5cab95706525bf20c93cc3de3602f5d4a4b4944471e82631d794f0967c9b43"
+    },
+    "/process/assessment/": {
+      "pt_route": "/pt-br/process/assessment/",
+      "source_hash": "3ee5a5d8e7ca762b332070d51cec05ba57268f8b927e90a40c69b0c2b945304e"
+    },
+    "/process/compliance/": {
+      "pt_route": "/pt-br/process/compliance/",
+      "source_hash": "9c8563406e4b088f0f635c0b8d196deb3349ab955413aae0ee38556092675ef1"
+    },
+    "/process/consultation/": {
+      "pt_route": "/pt-br/process/consultation/",
+      "source_hash": "cdcc57f957900eede0cc06047b91c3dfa1efddac7b943c2f908863e65431379f"
+    },
+    "/process/conversion/": {
+      "pt_route": "/pt-br/process/conversion/",
+      "source_hash": "cc596ea164dc8daf3ce91aa86472bade914c0aa6ceacd63c1a67432d958868a4"
+    },
+    "/process/deadlines/": {
+      "pt_route": "/pt-br/process/deadlines/",
+      "source_hash": "58d8955021d910d817a70d6fdd02997b6d0d9136655a5e9c766a1372bed6e92a"
+    },
+    "/process/failures/": {
+      "pt_route": "/pt-br/process/failures/",
+      "source_hash": "1293c27aae84a58a122cd89a4525cb6987f65d0bfd4d70af8cb3e699e8ac6a71"
+    },
+    "/process/fees/": {
+      "pt_route": "/pt-br/process/fees/",
+      "source_hash": "6b7ea4384ea25fac80a5f9451be921c72e2add646fd2a4f26529a956433d3946"
+    },
+    "/process/filing/": {
+      "pt_route": "/pt-br/process/filing/",
+      "source_hash": "c8d07c9c9e6fe707edf10457e976c8d7f158ca8cfaabb9a4ab51b950ab21f215"
+    },
+    "/process/mistakes/": {
+      "pt_route": "/pt-br/process/mistakes/",
+      "source_hash": "ae9112cbfefa488b85c434dc742983d68d87ef835d81a9dc0a56b0efd31edbcd"
+    },
+    "/process/naturalisation/": {
+      "pt_route": "/pt-br/process/naturalisation/",
+      "source_hash": "5ce31ae0b9e35e8e04b0dcbbc01ffc4ada2ff398f8f3f40eaa241551cf74e16b"
+    },
+    "/process/obligations/": {
+      "pt_route": "/pt-br/process/obligations/",
+      "source_hash": "dc1845da610fc4be6fbcaad9a27ea25aaf858b6a004d0e4f03aa603581b18427"
+    },
+    "/process/permanent/": {
+      "pt_route": "/pt-br/process/permanent/",
+      "source_hash": "40e2d360a58ec23ecc7ea63a7562f12619ba03aa46edc46e99c1a07685a33526"
+    },
+    "/process/planning/": {
+      "pt_route": "/pt-br/process/planning/",
+      "source_hash": "a3928bdcbce9f29f445237dc65204f0a10502f48b652d66aa3dc795b6ce909dc"
+    },
+    "/process/refund/": {
+      "pt_route": "/pt-br/process/refund/",
+      "source_hash": "d3efb67550e2fb4f25486487b4fd25b0bdf2c9e1adfab1a0dd2a3a2da975b5bc"
+    },
+    "/process/regularization/": {
+      "pt_route": "/pt-br/process/regularization/",
+      "source_hash": "f8e1fbabf1a2f669188bdda1214a2c95828b6ce52bdc07ddb4f46e2f415c25b8"
+    },
+    "/process/renewal/": {
+      "pt_route": "/pt-br/process/renewal/",
+      "source_hash": "14a41fdcde831e24db7ab1c38926a1881ab356df3b13f3d3e1fc007f9e081591"
+    },
+    "/process/responsibilities/": {
+      "pt_route": "/pt-br/process/responsibilities/",
+      "source_hash": "0847d2f95be240505c99ccf52d0ef1e6e1461c19ffc2fa2ba62708e575f0f270"
+    },
+    "/process/rights/": {
+      "pt_route": "/pt-br/process/rights/",
+      "source_hash": "cb312deb2d441d03420b4a59f0bfe8516a10463189f5858ccd8337c59c8814b4"
+    },
+    "/process/strategy/": {
+      "pt_route": "/pt-br/process/strategy/",
+      "source_hash": "f58082b818bdc7124a4109510389c3f063b0b74c027835fb7775150112313a06"
+    },
+    "/process/timeline/": {
+      "pt_route": "/pt-br/process/timeline/",
+      "source_hash": "e908079125a994f1325ccb965cee7e223e11a53aac003e1f95ae95a3826f0232"
+    },
+    "/process/transparency/": {
+      "pt_route": "/pt-br/process/transparency/",
+      "source_hash": "2665a024fd5a54e8765939954b596290a21a13f83ee2cc63415385642e42e1ae"
+    },
+    "/services/": {
+      "pt_route": "/pt-br/services/",
+      "source_hash": "7345382ac28b2a4d9ee1e713350dfa96e996daec87f78a811334dd76b7d55072"
+    },
+    "/services/advisory/": {
+      "pt_route": "/pt-br/services/advisory/",
+      "source_hash": "73bea3d6fe757552fed3e44caea8224b9e4fcada493c3c6471b200f77de4ee52"
+    },
+    "/services/advisory/compliance/": {
+      "pt_route": "/pt-br/services/advisory/compliance/",
+      "source_hash": "6d74134046e91a7e6eaada1cdc1801bd830a74fa02723a2eb7845b74614c3f9f"
+    },
+    "/services/advisory/consultation/": {
+      "pt_route": "/pt-br/services/advisory/consultation/",
+      "source_hash": "b59de0bc8b4c2464f5484625f7868b72d2ccf6513c05ba0cb1d1fed46c747fb9"
+    },
+    "/services/advisory/corporate/": {
+      "pt_route": "/pt-br/services/advisory/corporate/",
+      "source_hash": "c00bd9b01b22d422ed72b8e68d2aa44cf494bf3daecc5894dfd76a2d4e9d3572"
+    },
+    "/services/advisory/representation/": {
+      "pt_route": "/pt-br/services/advisory/representation/",
+      "source_hash": "794d9829f62029a911e63179d32668175c57a6d2d56218b33feab68686ed49c9"
+    },
+    "/services/advisory/strategy/": {
+      "pt_route": "/pt-br/services/advisory/strategy/",
+      "source_hash": "6ffbefa7dcae16ea096ed04b3c901febafc8a8e5aceeb0fa09a4e5b87c19c2f0"
+    },
+    "/services/defense/": {
+      "pt_route": "/pt-br/services/defense/",
+      "source_hash": "1c813cf1f62566ee71d665c057ff92e59f4a93f53c1f6432c588639cb2a1c967"
+    },
+    "/services/defense/appeals/": {
+      "pt_route": "/pt-br/services/defense/appeals/",
+      "source_hash": "69a7d947b9c3d356a93998e34967363c809a5a1cd016a5749487762e51456b9b"
+    },
+    "/services/defense/deportation/": {
+      "pt_route": "/pt-br/services/defense/deportation/",
+      "source_hash": "b3a707fe0c3fc8a09f10da970a68979d8cdf19bce015fe46445442eba94bc4da"
+    },
+    "/services/defense/expulsion/": {
+      "pt_route": "/pt-br/services/defense/expulsion/",
+      "source_hash": "4b4abdfc963ae800d508c526a74b3120e5c5bd5c7da6cfd09d0c824e1245c35a"
+    },
+    "/services/defense/extradition/": {
+      "pt_route": "/pt-br/services/defense/extradition/",
+      "source_hash": "231c0a57ec0bba19de2f1144aa7939225188a77515b81db7d5a066b622c9b7d8"
+    },
+    "/services/defense/fines/": {
+      "pt_route": "/pt-br/services/defense/fines/",
+      "source_hash": "340df623fad02fde8749655e36c9ff51d62f8caf166b3d289191ee56e12c4abd"
+    },
+    "/services/defense/litigation/": {
+      "pt_route": "/pt-br/services/defense/litigation/",
+      "source_hash": "651e613a9faeb5a42942f603457e309efe5b08f417a6344072ad4406c802c100"
+    },
+    "/services/naturalisation/": {
+      "pt_route": "/pt-br/services/naturalisation/",
+      "source_hash": "906ac246daff9bc4d0b08c97a1622ef231b41524ec52b4ce35dad3c84a056fec"
+    },
+    "/services/naturalisation/extraordinary/": {
+      "pt_route": "/pt-br/services/naturalisation/extraordinary/",
+      "source_hash": "581c9ac42e89299a6ca085e917b10ee1a9ba20671ef6f2738e32e46876caaab6"
+    },
+    "/services/naturalisation/ordinary/": {
+      "pt_route": "/pt-br/services/naturalisation/ordinary/",
+      "source_hash": "1e74d2f8527962c7747305d334331e6d68bd41e2b0e5713e63f0d9084586faaa"
+    },
+    "/services/naturalisation/provisional/": {
+      "pt_route": "/pt-br/services/naturalisation/provisional/",
+      "source_hash": "3d95b9ea746d39b473ffafae01e321ef5ca88c9ccdb2bb5534df962570c86cbf"
+    },
+    "/services/naturalisation/reacquisition/": {
+      "pt_route": "/pt-br/services/naturalisation/reacquisition/",
+      "source_hash": "9433aa63496c3e463300f4565150939c81bfc48db9fc5432c3aa6e7cf1448601"
+    },
+    "/services/naturalisation/renunciation/": {
+      "pt_route": "/pt-br/services/naturalisation/renunciation/",
+      "source_hash": "a6fe98a4336517748ef98057da2b9ae90c52bd6a28d181f29d8bc9137bce71d9"
+    },
+    "/services/naturalisation/special/": {
+      "pt_route": "/pt-br/services/naturalisation/special/",
+      "source_hash": "c6bde62afd712f44990571a182b17c64b6b58dcfd11d6892a43a293fb1b18735"
+    },
+    "/services/other/": {
+      "pt_route": "/pt-br/services/other/",
+      "source_hash": "8f8b64013666d5aa2e36ff17dddaff7bf85bfd679b077df826980e80cd015e2a"
+    },
+    "/services/other/consular/": {
+      "pt_route": "/pt-br/services/other/consular/",
+      "source_hash": "d2195cdfdb46f91fd9d072f99a1f18fdc2b887b8e25db570c8791b117cf3c466"
+    },
+    "/services/other/records/": {
+      "pt_route": "/pt-br/services/other/records/",
+      "source_hash": "d576435c04f1a641ee4858ecebe997fc677a3848b8adc257c2f7d012ee0e90df"
+    },
+    "/services/other/regularization/": {
+      "pt_route": "/pt-br/services/other/regularization/",
+      "source_hash": "ba0b0bc8b35a4999a0e60a55ad914745077f6467e13c08d88cfe36604968a141"
+    },
+    "/services/other/translation/": {
+      "pt_route": "/pt-br/services/other/translation/",
+      "source_hash": "5fb6b74c06f942eb1029e18fdd89539345f950b35022f2e5547ad335f69b0aa9"
+    },
+    "/services/residencies/": {
+      "pt_route": "/pt-br/services/residencies/",
+      "source_hash": "c3e864c40b4d46c54d0b1a6b9778ef8c51e3353e275ba48b05c1a0daa6c9baf7"
+    },
+    "/services/residencies/cplp/": {
+      "pt_route": "/pt-br/services/residencies/cplp/",
+      "source_hash": "dd4a2378a1e4eb7e94972a34ca24dbd9cd4b6f9f2c96aa5ff2f6679e95a63717"
+    },
+    "/services/residencies/educational/": {
+      "pt_route": "/pt-br/services/residencies/educational/",
+      "source_hash": "258c241c5fec58e8bffd74ac4750c40f755bc94dff3d2c1870dabc4fb9b7e1f5"
+    },
+    "/services/residencies/exchange/": {
+      "pt_route": "/pt-br/services/residencies/exchange/",
+      "source_hash": "a9733cc7114cddd3d3fedb292ae07ff58006a552676dc4b02b87a971aa7a5b34"
+    },
+    "/services/residencies/health/": {
+      "pt_route": "/pt-br/services/residencies/health/",
+      "source_hash": "7ac6ff97b3460091ba7f164bc85c61e3ba53f4ff53f3ef49a0b88470223826dc"
+    },
+    "/services/residencies/humanitarian/": {
+      "pt_route": "/pt-br/services/residencies/humanitarian/",
+      "source_hash": "3ab3b7a92c7393743a3509c359b80c39f5637dd2692ad54a1b98ea0c81f3abd2"
+    },
+    "/services/residencies/investor/": {
+      "pt_route": "/pt-br/services/residencies/investor/",
+      "source_hash": "3672a2fe2f3c377cf274bba88f78f6e06dca37d049fb910efd9772cac4ef5d16"
+    },
+    "/services/residencies/mercosul/": {
+      "pt_route": "/pt-br/services/residencies/mercosul/",
+      "source_hash": "366f9d9d2079d3af9449cecb2830608166633ea5bf9baca8aee25e812e80aa11"
+    },
+    "/services/residencies/nomad/": {
+      "pt_route": "/pt-br/services/residencies/nomad/",
+      "source_hash": "ab1cf15302d964defee8e2f81f536f5cbc5b83c2619d99f360f0a7822661a0f2"
+    },
+    "/services/residencies/religious/": {
+      "pt_route": "/pt-br/services/residencies/religious/",
+      "source_hash": "ced0fa9847b58ad2c89846d75d44d5c1067208046bfb6c8489c428283c4593c6"
+    },
+    "/services/residencies/research/": {
+      "pt_route": "/pt-br/services/residencies/research/",
+      "source_hash": "dbae06d11d6737ba8a83ea4ff70194343d637ef3cf76c0db99be3aaf5f2d3f26"
+    },
+    "/services/residencies/retiree/": {
+      "pt_route": "/pt-br/services/residencies/retiree/",
+      "source_hash": "586d5d7c71472f050d428eb5d1b05621a7f76b46b0642a16d697c62617e62be8"
+    },
+    "/services/residencies/reunion/": {
+      "pt_route": "/pt-br/services/residencies/reunion/",
+      "source_hash": "594d955a60a54eedcc88e37ebebdc953cfca1a498a7ed5aeb6ff6125c37c78e1"
+    },
+    "/services/residencies/skilled/": {
+      "pt_route": "/pt-br/services/residencies/skilled/",
+      "source_hash": "b0d1a68817c4bb5db78b03c6630b0edcd7ecc76cdbbe47dedde3f30a974dc146"
+    },
+    "/services/residencies/study/": {
+      "pt_route": "/pt-br/services/residencies/study/",
+      "source_hash": "c281dbc26252609af00ec9a2ed71f4f64c40014d7fa0229c9ca18cda9e0f0df8"
+    },
+    "/services/residencies/volunteer/": {
+      "pt_route": "/pt-br/services/residencies/volunteer/",
+      "source_hash": "7aaaa7d162b826ad614c57622c6a195258267d15ab07e7cd23f364f88c2450a1"
+    },
+    "/services/residencies/work/": {
+      "pt_route": "/pt-br/services/residencies/work/",
+      "source_hash": "a36152dfd21f55db0322daa24708901e2eb9abeec755f53f8fd6771b4bc28fbc"
+    },
+    "/services/residencies/youth/": {
+      "pt_route": "/pt-br/services/residencies/youth/",
+      "source_hash": "a3eabba170c8b0dc1b3aac48920c2768283919db8060ab583cc8e21dac77a445"
+    },
+    "/services/visas/": {
+      "pt_route": "/pt-br/services/visas/",
+      "source_hash": "27569299a0b5fd523036e4e3355c96ca3f5a17cb5b62b1efa9be2273a33a759c"
+    },
+    "/services/visas/artistic/": {
+      "pt_route": "/pt-br/services/visas/artistic/",
+      "source_hash": "53c05a877b7ae99be92b051247d3b6d9405b9ae32fe294c41d811a13cce1646f"
+    },
+    "/services/visas/business/": {
+      "pt_route": "/pt-br/services/visas/business/",
+      "source_hash": "9cff9da378ab3be9e147a8ca43111fd9d757786b21a4357006a5873ef3c2bb9a"
+    },
+    "/services/visas/diplomatic/": {
+      "pt_route": "/pt-br/services/visas/diplomatic/",
+      "source_hash": "9ce699fb41c006637179b8eb0a0802d4c61e6d89ad96d481ad8e21e7b0cd23e5"
+    },
+    "/services/visas/educational/": {
+      "pt_route": "/pt-br/services/visas/educational/",
+      "source_hash": "1e3b1b023bd80576472df0d9bb89e92f2a82d18eac157c0207fcb5c62d2241c6"
+    },
+    "/services/visas/exchange/": {
+      "pt_route": "/pt-br/services/visas/exchange/",
+      "source_hash": "8dd0d100743ff42df6c6db587bb40e53d37701e36e809813442f9ce299354607"
+    },
+    "/services/visas/family/": {
+      "pt_route": "/pt-br/services/visas/family/",
+      "source_hash": "0d6cddfc3994683fd4e9bf6cd1253e58302360fdde63b312e23ea453b3f7d15b"
+    },
+    "/services/visas/humanitarian/": {
+      "pt_route": "/pt-br/services/visas/humanitarian/",
+      "source_hash": "7eebc5e6517eae34f4cf5df7f0368c0fca9c88d0ceff1122dbf95b11f87bfe2f"
+    },
+    "/services/visas/investor/": {
+      "pt_route": "/pt-br/services/visas/investor/",
+      "source_hash": "ca254452a2830e784bed557e70737fad08e4709eda66bbf573027d77a00f798d"
+    },
+    "/services/visas/journalist/": {
+      "pt_route": "/pt-br/services/visas/journalist/",
+      "source_hash": "d4a47999e7b72bb4d1cc12d42359c1da7879a2a29aa8ba24509d4940b96e0d2e"
+    },
+    "/services/visas/medical/": {
+      "pt_route": "/pt-br/services/visas/medical/",
+      "source_hash": "f18ad19d374213790800055203eb0c73cbc5d5b20fa0fb2c651e1d17c8535183"
+    },
+    "/services/visas/nomad/": {
+      "pt_route": "/pt-br/services/visas/nomad/",
+      "source_hash": "334739b2639ac2939634e091c1aa06012d9ef95a9e5dc26ba3093b1dd02531f7"
+    },
+    "/services/visas/religious/": {
+      "pt_route": "/pt-br/services/visas/religious/",
+      "source_hash": "66a260e46ba496019f4a0bf2b56bc984f3ec2934b1978fbd0e8a68e9b18bcf93"
+    },
+    "/services/visas/research/": {
+      "pt_route": "/pt-br/services/visas/research/",
+      "source_hash": "6ec17b393c8f48773b745b4c6732211b9933b398b1da5ce28e84273d31850b99"
+    },
+    "/services/visas/retiree/": {
+      "pt_route": "/pt-br/services/visas/retiree/",
+      "source_hash": "a02b6075e8eeb7359b45383785e11f662e8ffe7b2b36b872f2fd1aba9eafc4e8"
+    },
+    "/services/visas/sports/": {
+      "pt_route": "/pt-br/services/visas/sports/",
+      "source_hash": "472ad5c112e1c772a7798f3000565eafd9819b3d22f59c25a8c156aa3b3e8877"
+    },
+    "/services/visas/startup/": {
+      "pt_route": "/pt-br/services/visas/startup/",
+      "source_hash": "40ffddee07f5b30598e651dff8314890329f8d73706c8e8c3683cbe37c756ebd"
+    },
+    "/services/visas/student/": {
+      "pt_route": "/pt-br/services/visas/student/",
+      "source_hash": "dcbcf2bd2f7c2f67f430358865c217e84f5a3c8ee590a0cf8a515201b371c8cd"
+    },
+    "/services/visas/tourist/": {
+      "pt_route": "/pt-br/services/visas/tourist/",
+      "source_hash": "dbb4a9263ddd2b1016911a1523867e93f04c152c0abc3acffbc1682f54242221"
+    },
+    "/services/visas/transit/": {
+      "pt_route": "/pt-br/services/visas/transit/",
+      "source_hash": "3ca3eb62fef98dab8cb6a4e26c1998f3f794f939b520adfdd0929c1f06d9f42b"
+    },
+    "/services/visas/volunteer/": {
+      "pt_route": "/pt-br/services/visas/volunteer/",
+      "source_hash": "b3ca432dd82275346969f46e75902c6ef457663fbef20ae10b8519f3d7181c22"
+    },
+    "/services/visas/work/": {
+      "pt_route": "/pt-br/services/visas/work/",
+      "source_hash": "285e2ad0c620e8fe6f58cc025e4fe6fbcbdb065757213f8d80064871ad60c84f"
+    },
+    "/start-consultation/": {
+      "pt_route": "/pt-br/start-consultation/",
+      "source_hash": "66bcf92b2ab321ae77a5d32d031fa2506f0a09e281635c0224f163764ad19d0e"
+    }
+  }
+}

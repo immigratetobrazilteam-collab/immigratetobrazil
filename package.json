@@ -10,6 +10,7 @@
     "translate:pt": "python3 scripts/generate_pt.py",
     "translate:pt:all": "python3 scripts/generate_pt.py --force",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
+    "seo:heroes": "node scripts/rewrite-hero-seo.js",
     "qa:matrix": "node scripts/qa-matrix.js",
     "qa:lighthouse": "node scripts/lighthouse-audit.js"
   },

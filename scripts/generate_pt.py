@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -11,10 +12,17 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from bs4 import BeautifulSoup, Comment
 
 
+CPU_COUNT = os.cpu_count() or 4
+os.environ.setdefault("ARGOS_DEVICE_TYPE", "cpu")
+os.environ.setdefault("ARGOS_INTER_THREADS", str(min(8, CPU_COUNT)))
+os.environ.setdefault("ARGOS_BATCH_SIZE", "4096")
+os.environ.setdefault("ARGOS_COMPUTE_TYPE", "int8")
+
+
 ROOT = Path(__file__).resolve().parents[1]
 SITE_DOMAIN = "https://immigratetobrazil.com"
 PT_PREFIX = "/pt-br"
-GENERATOR_VERSION = "2026-03-19-pt-br-v1"
+GENERATOR_VERSION = "2026-03-19-pt-br-v2"
 
 I18N_DIR = ROOT / "i18n" / "pt-br"
 GLOSSARY_PATH = I18N_DIR / "glossary.json"
@@ -49,14 +57,18 @@ TEXT_SKIP_TAGS = {
     "path",
     "code",
     "pre",
+    "title",
 }
 
 ATTRIBUTE_TRANSLATORS = (
     ("meta", {"name": "description"}, "content"),
-    ("meta", {"property": "og:title"}, "content"),
     ("meta", {"property": "og:description"}, "content"),
-    ("meta", {"name": "twitter:title"}, "content"),
     ("meta", {"name": "twitter:description"}, "content"),
+)
+
+TITLE_ATTRIBUTE_TRANSLATORS = (
+    ("meta", {"property": "og:title"}, "content"),
+    ("meta", {"name": "twitter:title"}, "content"),
 )
 
 TEXT_ATTRIBUTES = ("aria-label", "placeholder", "title", "alt")
@@ -164,6 +176,13 @@ def preserve_outer_whitespace(original: str, translated_core: str) -> str:
     return f"{match.group(1)}{translated_core}{match.group(3)}"
 
 
+def is_within_brand_wordmark(tag) -> bool:
+    if tag is None:
+        return False
+    classes = tag.get("class") or []
+    return "brand-wordmark" in classes or tag.find_parent(class_="brand-wordmark") is not None
+
+
 def localize_whatsapp_url(url: str, translate_text_fn) -> str:
     try:
         parts = urlsplit(url)
@@ -220,14 +239,23 @@ class ArgosEngine:
     def __init__(self) -> None:
         try:
             import argostranslate.package as argos_package
+            import argostranslate.settings as argos_settings
             import argostranslate.translate as argos_translate
+            from argostranslate.translate import ctranslate2
         except ImportError as error:
             raise RuntimeError(
                 "Missing Argos Translate. Install it with `python3 -m pip install --user argostranslate translatehtml`."
             ) from error
 
         self.argos_package = argos_package
+        self.argos_settings = argos_settings
         self.argos_translate = argos_translate
+        self.ctranslate2 = ctranslate2
+        self.argos_settings.device = os.environ["ARGOS_DEVICE_TYPE"]
+        self.argos_settings.inter_threads = int(os.environ["ARGOS_INTER_THREADS"])
+        self.argos_settings.batch_size = int(os.environ["ARGOS_BATCH_SIZE"])
+        self.argos_settings.compute_type = os.environ["ARGOS_COMPUTE_TYPE"]
+        self.argos_settings.beam_size = 1
         self.translation = self._ensure_translation()
 
     def _ensure_translation(self):
@@ -284,6 +312,49 @@ class ArgosEngine:
     def translate(self, value: str) -> str:
         return self.translation.translate(value)
 
+    def _underlying_translation(self):
+        return self.translation.underlying if hasattr(self.translation, "underlying") else self.translation
+
+    def _ensure_model_loaded(self):
+        underlying = self._underlying_translation()
+        if getattr(underlying, "translator", None) is None:
+            underlying.translator = self.ctranslate2.Translator(
+                str(underlying.pkg.package_path / "model"),
+                device=self.argos_settings.device,
+                inter_threads=self.argos_settings.inter_threads,
+                intra_threads=self.argos_settings.intra_threads,
+                compute_type=self.argos_settings.compute_type,
+            )
+        return underlying
+
+    def translate_many(self, values: list[str]) -> list[str]:
+        if not values:
+            return []
+
+        underlying = self._ensure_model_loaded()
+        tokenized = [underlying.pkg.tokenizer.encode(value) for value in values]
+        translated_batches = underlying.translator.translate_batch(
+            tokenized,
+            target_prefix=[[underlying.pkg.target_prefix]] * len(tokenized) if underlying.pkg.target_prefix != "" else None,
+            replace_unknowns=True,
+            max_batch_size=max(self.argos_settings.batch_size, 4096),
+            batch_type="tokens",
+            beam_size=1,
+            num_hypotheses=1,
+            length_penalty=0.2,
+            return_scores=False,
+        )
+
+        translated_values: list[str] = []
+        for batch in translated_batches:
+            value = underlying.pkg.tokenizer.decode(batch.hypotheses[0])
+            if underlying.pkg.target_prefix != "" and value.startswith(underlying.pkg.target_prefix):
+                value = value[len(underlying.pkg.target_prefix) :]
+            if value.startswith(" "):
+                value = value[1:]
+            translated_values.append(value)
+        return translated_values
+
 
 class PtGenerator:
     def __init__(self, force: bool = False, routes: set[str] | None = None) -> None:
@@ -333,6 +404,55 @@ class PtGenerator:
         cleaned = re.sub(r"\s{2,}", " ", cleaned)
         return cleaned.strip()
 
+    def translate_missing_batch(self, route: str, values: list[str]) -> None:
+        self._translate_missing(values, route=route, respect_route_overrides=True)
+
+    def translate_missing_global(self, values: list[str]) -> None:
+        self._translate_missing(values, route="", respect_route_overrides=False)
+
+    def _translate_missing(self, values: list[str], route: str, respect_route_overrides: bool) -> None:
+        pending_sources: list[str] = []
+        pending_inputs: list[str] = []
+        placeholder_sets: list[dict[str, str]] = []
+
+        for source in values:
+            if should_skip_translation(source):
+                continue
+            clean = normalize_translatable_text(source)
+            if not clean:
+                continue
+            has_override = self.lookup_override(route, clean) is not None if respect_route_overrides else clean in self.overrides.get("global", {})
+            if has_override or clean in self.memory:
+                continue
+            protected, placeholders = self.protect_glossary_terms(clean)
+            pending_sources.append(clean)
+            pending_inputs.append(protected)
+            placeholder_sets.append(placeholders)
+
+        if not pending_inputs:
+            return
+
+        chunk_size = 256
+        total_chunks = (len(pending_inputs) + chunk_size - 1) // chunk_size
+        for start in range(0, len(pending_inputs), chunk_size):
+            input_chunk = pending_inputs[start : start + chunk_size]
+            source_chunk = pending_sources[start : start + chunk_size]
+            placeholder_chunk = placeholder_sets[start : start + chunk_size]
+            chunk_number = (start // chunk_size) + 1
+            print(
+                f"Translating chunk {chunk_number}/{total_chunks} ({len(input_chunk)} strings)...",
+                flush=True,
+            )
+            try:
+                translated_chunk = self.engine.translate_many(input_chunk)
+            except Exception:
+                translated_chunk = [self.engine.translate(value) for value in input_chunk]
+
+            for source, translated, placeholders in zip(source_chunk, translated_chunk, placeholder_chunk):
+                restored = self.restore_glossary_terms(translated, placeholders)
+                self.memory[source] = self.clean_translation(restored)
+            write_json(MEMORY_PATH, self.memory)
+
     def translate_text(self, original: str, route: str) -> str:
         if should_skip_translation(original):
             return original
@@ -354,6 +474,107 @@ class PtGenerator:
             self.memory[source] = translated
 
         return preserve_outer_whitespace(original, translated)
+
+    def collect_json_ld_strings(self, value, bucket: set[str], key: str = "") -> None:
+        if isinstance(value, dict):
+            for item_key, item_value in value.items():
+                self.collect_json_ld_strings(item_value, bucket, item_key)
+            return
+        if isinstance(value, list):
+            for item in value:
+                self.collect_json_ld_strings(item, bucket, key)
+            return
+        if not isinstance(value, str):
+            return
+        if key in {"@context", "@type", "@id", "query-input", "logo", "email", "telephone", "url", "item", "target", "sameAs"}:
+            return
+        bucket.add(value)
+
+    def collect_title_like_strings(self, value: str, bucket: set[str]) -> None:
+        source = normalize_translatable_text(value)
+        if not source:
+            return
+        if "|" not in source:
+            bucket.add(value)
+            return
+        for part in source.split("|"):
+            clean_part = part.strip()
+            if clean_part:
+                bucket.add(clean_part)
+
+    def collect_page_strings(self, soup: BeautifulSoup) -> set[str]:
+        values: set[str] = set()
+
+        title_tag = soup.find("title")
+        if title_tag and title_tag.string:
+            self.collect_title_like_strings(title_tag.string, values)
+
+        for tag_name, attrs, attribute in ATTRIBUTE_TRANSLATORS:
+            tag = soup.find(tag_name, attrs=attrs)
+            if tag and tag.get(attribute):
+                values.add(tag[attribute])
+
+        for tag_name, attrs, attribute in TITLE_ATTRIBUTE_TRANSLATORS:
+            tag = soup.find(tag_name, attrs=attrs)
+            if tag and tag.get(attribute):
+                self.collect_title_like_strings(tag[attribute], values)
+
+        for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+            if not script.string:
+                continue
+            try:
+                data = json.loads(script.string)
+            except json.JSONDecodeError:
+                continue
+            self.collect_json_ld_strings(data, values)
+
+        for script in soup.find_all("script"):
+            if not script.string or "window.ITB_SITE" not in script.string:
+                continue
+            match = WINDOW_CONFIG_RE.search(script.string)
+            if not match:
+                continue
+            data = json.loads(match.group(1))
+            if data.get("pageTitle"):
+                values.add(data["pageTitle"])
+            contact = data.get("contact") or {}
+            whatsapp_url = contact.get("whatsappUrl")
+            if whatsapp_url:
+                try:
+                    params = dict(parse_qsl(urlsplit(whatsapp_url).query, keep_blank_values=True))
+                except ValueError:
+                    params = {}
+                if params.get("text"):
+                    values.add(params["text"])
+
+        for tag in soup.find_all(True):
+            if tag.find_parent(class_="lang-switcher") is not None or "lang-switcher" in (tag.get("class") or []):
+                continue
+            if tag.get("aria-hidden") == "true":
+                continue
+            for attribute in TEXT_ATTRIBUTES:
+                if tag.has_attr(attribute) and tag[attribute].strip():
+                    values.add(tag[attribute])
+
+        for node in soup.find_all(string=True):
+            if isinstance(node, Comment):
+                continue
+            parent = node.parent
+            if parent is None or parent.name in TEXT_SKIP_TAGS:
+                continue
+            if is_within_brand_wordmark(parent):
+                continue
+            if parent.find_parent(class_="lang-switcher") is not None or parent.get("data-language-toggle"):
+                continue
+            if parent.get("aria-hidden") == "true":
+                continue
+            if not should_skip_translation(str(node)):
+                values.add(str(node))
+
+        return values
+
+    def prime_translations(self, soup: BeautifulSoup, route: str) -> None:
+        self.translate_missing_batch(route, sorted(self.collect_page_strings(soup)))
 
     def translate_json_ld_value(self, value, route: str, key: str = ""):
         if isinstance(value, dict):
@@ -408,12 +629,17 @@ class PtGenerator:
 
         title_tag = soup.find("title")
         if title_tag and title_tag.string:
-            title_tag.string.replace_with(self.translate_text(title_tag.string, route))
+            title_tag.string.replace_with(self.translate_title_like(title_tag.string, route))
 
         for tag_name, attrs, attribute in ATTRIBUTE_TRANSLATORS:
             tag = soup.find(tag_name, attrs=attrs)
             if tag and tag.get(attribute):
                 tag[attribute] = normalize_translatable_text(self.translate_text(tag[attribute], route))
+
+        for tag_name, attrs, attribute in TITLE_ATTRIBUTE_TRANSLATORS:
+            tag = soup.find(tag_name, attrs=attrs)
+            if tag and tag.get(attribute):
+                tag[attribute] = normalize_translatable_text(self.translate_title_like(tag[attribute], route))
 
         og_url = soup.find("meta", attrs={"property": "og:url"})
         if og_url:
@@ -512,6 +738,8 @@ class PtGenerator:
             parent = node.parent
             if parent is None or parent.name in TEXT_SKIP_TAGS:
                 continue
+            if is_within_brand_wordmark(parent):
+                continue
             if parent.find_parent(class_="lang-switcher") is not None or parent.get("data-language-toggle"):
                 continue
             if parent.get("aria-hidden") == "true":
@@ -525,6 +753,7 @@ class PtGenerator:
 
     def render_pt_html(self, source_html: str, route: str) -> str:
         soup = BeautifulSoup(source_html, "lxml")
+        self.prime_translations(soup, route)
         self.patch_head_metadata(soup, route)
         self.patch_language_switcher(soup, route)
         self.rewrite_internal_links(soup)
@@ -534,11 +763,22 @@ class PtGenerator:
         self.translate_dom_text(soup, route)
 
         rendered = soup.decode(formatter="html")
+        rendered = re.sub(r"^\s*<!DOCTYPE[^>]*>\s*", "", rendered, count=1, flags=re.IGNORECASE)
         comment = (
             f"<!-- Generated pt-BR page from {route}. Edit the English HTML or i18n/pt-br/overrides.json, then rerun "
             "npm run translate:pt. -->"
         )
         return f"<!DOCTYPE html>\n{comment}\n{rendered}\n"
+
+    def translate_title_like(self, original: str, route: str) -> str:
+        source = normalize_translatable_text(original)
+        if "|" not in source:
+            return self.translate_text(original, route)
+
+        translated_parts: list[str] = []
+        for part in source.split("|"):
+            translated_parts.append(normalize_translatable_text(self.translate_text(part.strip(), route)))
+        return preserve_outer_whitespace(original, " | ".join(translated_parts))
 
     def patch_english_html(self, html: str, route: str) -> str:
         def replace_canonical(match: re.Match) -> str:
@@ -579,6 +819,7 @@ class PtGenerator:
 
         patched_english = 0
         generated_pt = 0
+        prepared_routes: list[tuple[str, str]] = []
 
         for route, file_path in route_files:
             if self.routes and route not in self.routes:
@@ -591,6 +832,18 @@ class PtGenerator:
                 source_html = patched_html
                 patched_english += 1
 
+            prepared_routes.append((route, source_html))
+
+        print(f"Prepared {len(prepared_routes)} English routes for pt-BR generation.", flush=True)
+        global_strings: set[str] = set()
+        for route, source_html in prepared_routes:
+            soup = BeautifulSoup(source_html, "lxml")
+            global_strings.update(self.collect_page_strings(soup))
+
+        print(f"Collected {len(global_strings)} unique strings for translation.", flush=True)
+        self.translate_missing_global(sorted(global_strings))
+
+        for route, source_html in prepared_routes:
             target_route = pt_route(route)
             target_file = route_to_file(target_route)
             target_file.parent.mkdir(parents=True, exist_ok=True)
@@ -608,6 +861,8 @@ class PtGenerator:
                 "source_hash": source_hash,
             }
             generated_pt += 1
+            if generated_pt % 10 == 0:
+                print(f"Generated {generated_pt}/{len(prepared_routes)} pt-BR pages...", flush=True)
 
         self.manifest["generator_version"] = GENERATOR_VERSION
         write_json(MEMORY_PATH, self.memory)
