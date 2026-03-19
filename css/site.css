@@ -218,7 +218,7 @@ body::before {
 body.theme-dark {
   background:
     radial-gradient(circle at top left, rgba(82, 183, 136, 0.18), transparent 28%),
-    radial-gradient(circle at 82% 12%, rgba(199, 176, 232, 0.12), transparent 24%),
+    radial-gradient(circle at 82% 12%, rgba(235, 200, 126, 0.12), transparent 24%),
     radial-gradient(circle at 72% 84%, rgba(245, 202, 163, 0.1), transparent 22%),
     linear-gradient(180deg, #06140f 0%, #091b14 42%, #0e261d 100%);
 }
@@ -958,8 +958,8 @@ body.is-scrolled .main-nav {
   min-height: 40px;
   padding: 0.55rem 0.9rem;
   border-radius: var(--radius-pill);
-  background: var(--accent-soft);
-  color: var(--accent-strong);
+  background: linear-gradient(135deg, var(--secondary-soft), rgba(255, 255, 255, 0.82));
+  color: #7b521c;
   font-size: 0.9rem;
   font-weight: 800;
 }
@@ -2172,7 +2172,7 @@ body.is-scrolled .main-nav {
 }
 
 .accordion-button:not(.collapsed) {
-  background: linear-gradient(135deg, var(--surface-card-contrast), var(--accent-soft));
+  background: linear-gradient(135deg, var(--surface-card-contrast), var(--secondary-soft));
   color: var(--text-main);
   box-shadow: none;
 }
