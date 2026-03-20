@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sync:data": "node scripts/sync-static-data.js",
+    "build:static": "npm run check",
     "check": "npm run sync:data && npm run validate",
     "validate": "node scripts/validate-site.js",
     "translate:pt": "python3 scripts/generate_pt.py",
