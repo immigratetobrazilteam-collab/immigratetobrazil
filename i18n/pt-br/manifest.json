@@ -227,11 +227,11 @@
     },
     "/legal/emergency/": {
       "pt_route": "/pt-br/legal/emergency/",
-      "source_hash": "ea3c27165cd7b61304022203a8fc15d9d4f546d4a38b2dfd3c40295c057a075a"
+      "source_hash": "a136be144cce393459ea23a7fb1e3ab9be67488360cb8d2539447cdca0b5e4cf"
     },
     "/legal/form/": {
       "pt_route": "/pt-br/legal/form/",
-      "source_hash": "8150a7f4418cade51de017e07a55223b6942ef7007c54f7fb3792b18bbfd8c7f"
+      "source_hash": "32afeae5c45e949c0bf48fccd20306409cee464fdb1658e357e70f8b945d1c52"
     },
     "/legal/gdpr/": {
       "pt_route": "/pt-br/legal/gdpr/",
@@ -243,7 +243,7 @@
     },
     "/legal/payment/": {
       "pt_route": "/pt-br/legal/payment/",
-      "source_hash": "f2ef5a3934d0099f6f012c243e8ffcc2e68ebbb394ee4af9db23f85ee8e565ca"
+      "source_hash": "0569fca82ee47be61b852c0bf51a7b82f0f5bce6744f99fb58ff5c93ddeb4b17"
     },
     "/legal/privacy/": {
       "pt_route": "/pt-br/legal/privacy/",
@@ -623,7 +623,7 @@
     },
     "/start-consultation/": {
       "pt_route": "/pt-br/start-consultation/",
-      "source_hash": "66bcf92b2ab321ae77a5d32d031fa2506f0a09e281635c0224f163764ad19d0e"
+      "source_hash": "b0adbd139b160a8e44fe233bf5a39783904de68e922c36d57ba5783669cea095"
     }
   }
 }

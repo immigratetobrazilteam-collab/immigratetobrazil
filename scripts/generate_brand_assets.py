@@ -4,6 +4,7 @@ import base64
 from collections import deque
 from io import BytesIO
 from pathlib import Path
+from statistics import median
 
 from PIL import Image
 
@@ -32,26 +33,40 @@ def average_color(pixels: list[tuple[int, int, int, int]]) -> tuple[int, int, in
     )
 
 
-def looks_like_background(pixel: tuple[int, int, int, int], background: tuple[int, int, int]) -> bool:
-    r, g, b, a = pixel
-    if a == 0:
-        return True
-    brightness = (r + g + b) / 3
-    spread = max(abs(r - background[0]), abs(g - background[1]), abs(b - background[2]))
-    low_chroma = max(r, g, b) - min(r, g, b) < 36
-    return brightness > 222 and spread < 58 and low_chroma
-
-
-def edge_background_mask(image: Image.Image) -> list[bool]:
-    width, height = image.size
+def background_color(image: Image.Image) -> tuple[int, int, int]:
     pixels = image.load()
+    width, height = image.size
     corners = [
         pixels[0, 0],
         pixels[width - 1, 0],
         pixels[0, height - 1],
         pixels[width - 1, height - 1],
     ]
-    background = average_color(corners)
+    return average_color(corners)
+
+
+def background_metrics(
+    pixel: tuple[int, int, int, int],
+    background: tuple[int, int, int],
+) -> tuple[float, int, bool]:
+    r, g, b, a = pixel
+    if a == 0:
+        return 255.0, 0, True
+    brightness = (r + g + b) / 3
+    spread = max(abs(r - background[0]), abs(g - background[1]), abs(b - background[2]))
+    low_chroma = max(r, g, b) - min(r, g, b) < 36
+    return brightness, spread, low_chroma
+
+
+def looks_like_background(pixel: tuple[int, int, int, int], background: tuple[int, int, int]) -> bool:
+    brightness, spread, low_chroma = background_metrics(pixel, background)
+    return brightness > 205 and spread < 38 and low_chroma
+
+
+def edge_background_mask(image: Image.Image) -> list[bool]:
+    width, height = image.size
+    pixels = image.load()
+    background = background_color(image)
     visited = [False] * (width * height)
     queue: deque[tuple[int, int]] = deque()
 
@@ -82,17 +97,74 @@ def edge_background_mask(image: Image.Image) -> list[bool]:
     return visited
 
 
+def neighbor_has_background(mask: list[bool], width: int, height: int, x: int, y: int) -> bool:
+    for nx, ny in (
+        (x - 1, y),
+        (x + 1, y),
+        (x, y - 1),
+        (x, y + 1),
+        (x - 1, y - 1),
+        (x + 1, y - 1),
+        (x - 1, y + 1),
+        (x + 1, y + 1),
+    ):
+        if 0 <= nx < width and 0 <= ny < height and mask[ny * width + nx]:
+            return True
+    return False
+
+
+def edge_alpha(pixel: tuple[int, int, int, int], background: tuple[int, int, int]) -> int | None:
+    brightness, spread, low_chroma = background_metrics(pixel, background)
+    if not low_chroma or brightness < 180:
+        return None
+    if spread <= 18:
+        return 0
+    if spread >= 58:
+        return None
+    return int((spread - 18) / (58 - 18) * 255)
+
+
+def decontaminate_matte(
+    pixel: tuple[int, int, int, int],
+    background: tuple[int, int, int],
+    alpha: int,
+) -> tuple[int, int, int, int]:
+    if alpha <= 0:
+        return (0, 0, 0, 0)
+    if alpha >= 255:
+        return pixel
+
+    def recover(channel: int, matte: int) -> int:
+        recovered = (channel * 255 - matte * (255 - alpha)) / alpha
+        return max(0, min(255, round(recovered)))
+
+    r, g, b, _ = pixel
+    return (
+        recover(r, background[0]),
+        recover(g, background[1]),
+        recover(b, background[2]),
+        alpha,
+    )
+
+
 def transparent_logo(image: Image.Image) -> Image.Image:
     width, height = image.size
     pixels = image.load()
+    background = background_color(image)
     bg_mask = edge_background_mask(image)
     transparent = image.copy()
     out = transparent.load()
     for y in range(height):
         for x in range(width):
             if bg_mask[y * width + x]:
-                r, g, b, _ = out[x, y]
-                out[x, y] = (r, g, b, 0)
+                out[x, y] = (0, 0, 0, 0)
+                continue
+            if not neighbor_has_background(bg_mask, width, height, x, y):
+                continue
+            alpha = edge_alpha(pixels[x, y], background)
+            if alpha is None:
+                continue
+            out[x, y] = decontaminate_matte(pixels[x, y], background, alpha)
     return transparent
 
 
@@ -138,6 +210,57 @@ def cropped_square_with_background(image: Image.Image, alpha_reference: Image.Im
     return canvas
 
 
+def logo_border_candidate(pixel: tuple[int, int, int, int], background: tuple[int, int, int]) -> bool:
+    brightness, spread, _ = background_metrics(pixel, background)
+    return brightness < 170 or spread > 90
+
+
+def estimate_circle_radius(image: Image.Image, background: tuple[int, int, int]) -> float:
+    pixels = image.load()
+    center_x = image.width // 2
+    center_y = image.height // 2
+    radii: list[int] = []
+
+    for offset in range(-8, 9, 2):
+        x = max(0, min(image.width - 1, center_x + offset))
+        for y in range(image.height):
+            if logo_border_candidate(pixels[x, y], background):
+                radii.append(center_y - y)
+                break
+
+    for offset in range(-8, 9, 2):
+        y = max(0, min(image.height - 1, center_y + offset))
+        for x in range(image.width):
+            if logo_border_candidate(pixels[x, y], background):
+                radii.append(center_x - x)
+                break
+
+    if not radii:
+        return min(image.width, image.height) / 2
+    return float(median(radii))
+
+
+def clip_to_circle(image: Image.Image, radius: float, feather: float = 1.5) -> Image.Image:
+    clipped = image.copy()
+    pixels = clipped.load()
+    center_x = (image.width - 1) / 2
+    center_y = (image.height - 1) / 2
+
+    for y in range(image.height):
+        for x in range(image.width):
+            distance = ((x - center_x) ** 2 + (y - center_y) ** 2) ** 0.5
+            if distance >= radius + feather:
+                pixels[x, y] = (0, 0, 0, 0)
+                continue
+            if distance <= radius - feather:
+                continue
+            r, g, b, a = pixels[x, y]
+            alpha_scale = max(0.0, min(1.0, (radius + feather - distance) / (feather * 2)))
+            pixels[x, y] = (r, g, b, round(a * alpha_scale))
+
+    return clipped
+
+
 def raster_svg(image: Image.Image, aria_label: str) -> str:
     width, height = image.size
     buffer = BytesIO()
@@ -163,9 +286,11 @@ def main() -> None:
     FAVICON_DIR.mkdir(parents=True, exist_ok=True)
 
     source = load_source()
+    source_background = background_color(source)
     transparent_raw = transparent_logo(source)
+    transparent_raw = clip_to_circle(transparent_raw, estimate_circle_radius(source, source_background))
     transparent = cropped_square(transparent_raw)
-    with_background = cropped_square_with_background(source, transparent_raw)
+    with_background = cropped_square_with_background(transparent_raw, transparent_raw)
 
     transparent.save(LOGO_DIR / "immigrate-to-brazil-logo.png")
     transparent.save(LOGO_DIR / "immigrate-to-brazil-logo-transparent.png")
@@ -187,6 +312,7 @@ def main() -> None:
             icon.save(FAVICON_DIR / "android-chrome-512x512.png")
 
     resized(transparent, 96).save(FAVICON_DIR / "favicon.png")
+    resized(transparent, 48).save(ROOT / "favicon.ico", format="ICO", sizes=[(16, 16), (32, 32), (48, 48)])
 
     (FAVICON_DIR / "site.webmanifest").write_text(
         """{
