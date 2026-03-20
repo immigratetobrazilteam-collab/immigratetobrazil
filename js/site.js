@@ -219,6 +219,7 @@
     const navbarToggle = document.querySelector(".navbar-toggler");
     const navbarCollapse = document.getElementById("site-nav");
     const dropdowns = document.querySelectorAll(".main-nav .nav-item.dropdown");
+    const mobileGroups = document.querySelectorAll(".mobile-nav-group");
 
     function setNavOpen(isOpen) {
       if (!navbarToggle || !navbarCollapse) return;
@@ -240,6 +241,21 @@
         if (window.innerWidth < 1200) setNavOpen(false);
       });
       link.dataset.itbBoundNavLink = "true";
+    });
+
+    mobileGroups.forEach((group) => {
+      const summary = group.querySelector("summary");
+      if (!summary || summary.dataset.itbBoundMobileSummary === "true") return;
+      summary.addEventListener("click", (event) => {
+        if (window.innerWidth >= 1200) return;
+        event.preventDefault();
+        const willOpen = !group.open;
+        mobileGroups.forEach((otherGroup) => {
+          if (otherGroup !== group) otherGroup.open = false;
+        });
+        group.open = willOpen;
+      });
+      summary.dataset.itbBoundMobileSummary = "true";
     });
 
     function closeDropdowns(except) {
