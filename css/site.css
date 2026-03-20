@@ -1663,13 +1663,26 @@ body.is-scrolled .main-nav {
 }
 
 .mobile-nav-group summary::after {
-  content: "+";
-  font-size: 1.2rem;
-  color: var(--text-soft);
+  content: "";
+  flex: 0 0 auto;
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  border-top: 0.42em solid var(--gold-300);
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
+  opacity: 0.92;
+  transform: translateY(0);
+  transform-origin: center;
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease,
+    border-top-color 220ms ease;
 }
 
 .mobile-nav-group[open] summary::after {
-  content: "-";
+  transform: translateY(1px) rotate(180deg);
+  border-top-color: var(--gold-100);
 }
 
 .mobile-nav-group__body {
