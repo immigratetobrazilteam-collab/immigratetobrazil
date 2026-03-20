@@ -5,6 +5,8 @@ import hashlib
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -83,6 +85,84 @@ CANONICAL_BLOCK_RE = re.compile(
     re.MULTILINE,
 )
 WINDOW_CONFIG_RE = re.compile(r"window\.ITB_SITE\s*=\s*(\{.*?\});", re.DOTALL)
+
+
+def current_runtime_has_argos() -> bool:
+    try:
+        import argostranslate.package  # noqa: F401
+        import argostranslate.translate  # noqa: F401
+    except ImportError:
+        return False
+    return True
+
+
+def runtime_supports_argos(executable: str) -> bool:
+    completed = subprocess.run(
+        [executable, "-c", "import argostranslate.package, argostranslate.translate"],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        check=False,
+    )
+    return completed.returncode == 0
+
+
+def candidate_python_runtimes() -> list[str]:
+    candidates: list[str] = []
+
+    preferred = os.environ.get("ITB_TRANSLATE_PYTHON")
+    if preferred:
+        candidates.append(preferred)
+
+    for candidate in (
+        shutil.which("python3"),
+        shutil.which("python"),
+        str(ROOT / ".venv" / "bin" / "python"),
+    ):
+        if not candidate:
+            continue
+        if candidate not in candidates:
+            candidates.append(candidate)
+
+    return candidates
+
+
+def ensure_argos_runtime() -> None:
+    if current_runtime_has_argos():
+        return
+
+    current = Path(sys.executable).resolve()
+    checked: list[str] = []
+
+    for candidate in candidate_python_runtimes():
+        candidate_path = Path(candidate)
+        if not candidate_path.exists():
+            continue
+
+        try:
+            resolved = candidate_path.resolve()
+        except OSError:
+            resolved = candidate_path
+
+        if resolved == current:
+            continue
+
+        checked.append(str(candidate_path))
+        if not runtime_supports_argos(str(candidate_path)):
+            continue
+
+        print(
+            f"Interpreter {sys.executable} is missing Argos Translate; re-running with {candidate_path}.",
+            file=sys.stderr,
+            flush=True,
+        )
+        os.execv(str(candidate_path), [str(candidate_path), str(Path(__file__).resolve()), *sys.argv[1:]])
+
+    checked_display = ", ".join(checked) if checked else "none"
+    raise RuntimeError(
+        f"Missing Argos Translate in {sys.executable}. Checked alternate Python runtimes: {checked_display}. "
+        "Install it with `python3 -m pip install --user argostranslate translatehtml`, "
+        "or rerun with the Python interpreter that already has Argos installed."
+    )
 
 
 def sha256_text(value: str) -> str:
@@ -237,6 +317,7 @@ def localize_internal_url(url: str) -> str:
 
 class ArgosEngine:
     def __init__(self) -> None:
+        ensure_argos_runtime()
         try:
             import argostranslate.package as argos_package
             import argostranslate.settings as argos_settings
@@ -364,7 +445,13 @@ class PtGenerator:
         self.overrides = load_json(OVERRIDES_PATH, {"global": {}, "routes": {}})
         self.memory = load_json(MEMORY_PATH, {})
         self.manifest = load_json(MANIFEST_PATH, {"generator_version": GENERATOR_VERSION, "routes": {}})
-        self.engine = ArgosEngine()
+        self._engine: ArgosEngine | None = None
+
+    @property
+    def engine(self) -> ArgosEngine:
+        if self._engine is None:
+            self._engine = ArgosEngine()
+        return self._engine
 
     def config_hash_for(self, route: str) -> str:
         payload = {

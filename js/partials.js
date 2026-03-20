@@ -15,10 +15,13 @@
     "accessibility-panel",
     "site-navigation",
     "site-footer",
+    "disclaimer",
     "floating-whatsapp",
     "back-to-top",
     "cookie-banner"
   ];
+
+  const PARTIAL_VERSION = "2026-03-20-shared-disclaimer-v1";
 
   /* ==========================================================================
    * 03. Locale and Route Helpers
@@ -78,7 +81,10 @@
   async function loadPartialNode(node) {
     const name = node.getAttribute("data-partial");
     if (!name || !PARTIAL_NAMES.includes(name)) return;
-    const response = await fetch(`/partials/${getLocale()}/${name}.html`, { credentials: "same-origin" });
+    const response = await fetch(`/partials/${getLocale()}/${name}.html?v=${encodeURIComponent(PARTIAL_VERSION)}`, {
+      credentials: "same-origin",
+      cache: "no-store"
+    });
     if (!response.ok) throw new Error(`Failed to load partial: ${name}`);
     const html = await response.text();
     const template = document.createElement("template");
