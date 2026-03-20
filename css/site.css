@@ -1,3 +1,7 @@
+/* ==========================================================================
+   01. Global Design Tokens
+   Core palette, spacing, typography, and shared custom properties.
+   ========================================================================== */
 :root {
   color-scheme: light;
   --mint-050: #d8f3dc;
@@ -85,6 +89,10 @@
   --content-stage-shadow: none;
 }
 
+/* ==========================================================================
+   02. Route Family Accent Tokens
+   Section-specific accent tuning used across heroes and emphasis blocks.
+   ========================================================================== */
 body.family-foundation {
   --accent: var(--mint-400);
   --accent-strong: var(--mint-700);
@@ -148,6 +156,10 @@ body.family-legal {
   --hero-bottom: rgba(4, 14, 10, 0.72);
 }
 
+/* ==========================================================================
+   03. Theme Token Overrides
+   Dark mode tokens are the default unless `theme-light` is explicitly present.
+   ========================================================================== */
 body.theme-dark,
 body:not(.theme-light) {
   color-scheme: dark;
@@ -199,6 +211,10 @@ body:not(.theme-light) {
     inset 0 -1px 0 rgba(123, 82, 28, 0.06);
 }
 
+/* ==========================================================================
+   04. Base Reset, Document Defaults, and Typography
+   Reset, page background, ambient layers, and type scale foundation.
+   ========================================================================== */
 *,
 *::before,
 *::after {
@@ -235,6 +251,7 @@ body::before {
   opacity: 0.62;
 }
 
+/* Dark theme page background and ambient overlays. */
 body.theme-dark,
 body:not(.theme-light) {
   background:
@@ -252,6 +269,7 @@ body:not(.theme-light)::before {
   opacity: 0.58;
 }
 
+/* Media, links, form-element inheritance, headings, and utility text styles. */
 img {
   max-width: 100%;
   height: auto;
@@ -368,6 +386,9 @@ li {
   color: var(--text-muted);
 }
 
+/* ==========================================================================
+   05. Buttons and Shared Interactive Controls
+   ========================================================================== */
 .btn {
   position: relative;
   isolation: isolate;
@@ -497,6 +518,9 @@ li {
   font-size: 0.78rem;
 }
 
+/* ==========================================================================
+   06. Upgrade Banner / Promo Surface
+   ========================================================================== */
 .upgrade-banner {
   position: relative;
   overflow: hidden;
@@ -638,6 +662,9 @@ body.a11y-contrast .upgrade-banner__card {
   box-shadow: none !important;
 }
 
+/* ==========================================================================
+   07. Utility Bar and Utility Actions
+   ========================================================================== */
 .utility-bar {
   position: sticky;
   top: 0;
@@ -652,6 +679,8 @@ body.is-scrolled .utility-bar {
   box-shadow: 0 14px 28px rgba(3, 13, 9, 0.24);
 }
 
+/* Shared shell primitives. Some selectors here are intentionally specialized
+   later in the file for component-specific layouts, such as `.hero-inner`. */
 .utility-inner,
 .brand-inner,
 .hero-inner,
@@ -816,6 +845,10 @@ body.is-scrolled .utility-bar {
   cursor: not-allowed;
 }
 
+/* ==========================================================================
+   08. Accessibility Panel
+   Modal controls, reading guide, and accessibility toggles.
+   ========================================================================== */
 .accessibility-panel {
   position: fixed;
   top: 0;
@@ -823,6 +856,8 @@ body.is-scrolled .utility-bar {
   bottom: 0;
   z-index: 1100;
   width: min(420px, 100vw);
+  max-width: 100vw;
+  overflow: hidden;
   visibility: hidden;
   pointer-events: none;
   transform: translateX(100%);
@@ -839,7 +874,15 @@ body.is-scrolled .utility-bar {
 }
 
 .accessibility-panel__inner {
-  padding: 1.55rem;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  height: 100%;
+  padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
 }
 
 .panel-header {
@@ -847,12 +890,23 @@ body.is-scrolled .utility-bar {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-bottom: 0.25rem;
+  background: inherit;
 }
 
 .panel-actions {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
+}
+
+.panel-actions > .scale-control,
+.panel-actions > .toggle-button.reset {
+  grid-column: 1 / -1;
 }
 
 .scale-control,
@@ -874,8 +928,15 @@ body.is-scrolled .utility-bar {
   align-items: center;
   justify-content: center;
   min-height: 46px;
-  padding: 0.78rem 1rem;
+  padding: 0.78rem 0.85rem;
   background: var(--surface-card-solid);
+  font-size: 0.92rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.toggle-button {
+  width: 100%;
 }
 
 .toggle-button.is-active {
@@ -918,6 +979,9 @@ body.is-accessibility-open {
   overflow: hidden;
 }
 
+/* ==========================================================================
+   09. Brand Lockup and Identity
+   ========================================================================== */
 .brand-bar {
   display: none;
 }
@@ -1025,6 +1089,10 @@ body.is-accessibility-open {
   line-height: 1.35;
 }
 
+/* ==========================================================================
+   10. Main Navigation
+   Desktop header, CTA, and primary navigation shell.
+   ========================================================================== */
 .main-nav {
   position: sticky;
   top: var(--utility-bar-height);
@@ -1304,6 +1372,10 @@ body.is-scrolled .main-nav {
   z-index: 1;
 }
 
+/* ==========================================================================
+   11. Desktop Dropdown Menus
+   Mega-menu style groupings for service families.
+   ========================================================================== */
 .mega .dropdown-menu {
   width: min(calc(var(--container-width) - 6rem), calc(100vw - clamp(1.4rem, 2.8vw, 3.4rem)));
   margin-top: 0.55rem;
@@ -1514,6 +1586,9 @@ body.is-scrolled .main-nav {
   color: var(--text-main);
 }
 
+/* ==========================================================================
+   12. Mobile Navigation
+   ========================================================================== */
 .mobile-nav-shell {
   width: 100%;
   padding: 1rem 0 1.25rem;
@@ -1638,6 +1713,11 @@ body.is-scrolled .main-nav {
   text-decoration: underline;
 }
 
+/* ==========================================================================
+   13. Performance and Render Hints
+   Rendering hints only. These selectors receive their visual styles later.
+   Footer sections are intentionally excluded after prior visibility conflicts.
+   ========================================================================== */
 .content-block,
 .official-resources,
 .faq-block,
@@ -1646,12 +1726,15 @@ body.is-scrolled .main-nav {
 .cta-pair,
 .site-disclaimer,
 .trust-marker-block,
-.sidebar-card,
-.site-footer section {
+.sidebar-card {
   content-visibility: auto;
   contain-intrinsic-size: 1px 960px;
 }
 
+/* ==========================================================================
+   14. Hero System
+   Page hero media, overlays, lockups, proof points, and glance cards.
+   ========================================================================== */
 .hero {
   position: relative;
   overflow: hidden;
@@ -1990,6 +2073,10 @@ body.is-scrolled .main-nav {
   color: rgba(255, 250, 242, 0.92);
 }
 
+/* ==========================================================================
+   15. Breadcrumbs and Main Content Stage
+   Shared page chrome immediately below the hero.
+   ========================================================================== */
 .breadcrumbs {
   position: relative;
   z-index: 10;
@@ -2032,6 +2119,10 @@ body.is-scrolled .main-nav {
   box-shadow: var(--content-stage-shadow);
 }
 
+/* ==========================================================================
+   16. Quick Scan, Journey Strip, and Page Map
+   Introductory overview surfaces that sit above the main content shell.
+   ========================================================================== */
 .quick-scan {
   position: relative;
   z-index: 5;
@@ -2191,6 +2282,10 @@ body.is-scrolled .main-nav {
   background: rgba(255, 250, 244, 0.98);
 }
 
+/* ==========================================================================
+   17. Main Shell and Sticky Sidebar
+   Two-column content layout used on interior pages.
+   ========================================================================== */
 .main-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(250px, 285px);
@@ -2216,6 +2311,11 @@ body.is-scrolled .main-nav {
   gap: 0.9rem;
 }
 
+/* ==========================================================================
+   18. Shared Content Surfaces
+   Core card-like wrappers for content, forms, resources, and side modules.
+   These selectors intentionally overlap the earlier performance-hint block.
+   ========================================================================== */
 .content-block,
 .sidebar-card,
 .official-resources,
@@ -2248,6 +2348,10 @@ body.is-scrolled .main-nav {
   max-width: var(--reading-width);
 }
 
+/* ==========================================================================
+   19. Sidebar Variants
+   Sticky navigation rail, sidebar brand treatment, and sidebar actions.
+   ========================================================================== */
 .sidebar-card {
   padding: 1.05rem;
   margin-bottom: 0;
@@ -2402,6 +2506,10 @@ body.is-scrolled .main-nav {
   font-size: 0.92rem;
 }
 
+/* ==========================================================================
+   20. Topic Sections and Editorial Layouts
+   Flexible content section patterns for split, banded, framed, and rail styles.
+   ========================================================================== */
 .topic-section {
   overflow: hidden;
 }
@@ -2554,6 +2662,10 @@ body.is-scrolled .main-nav {
     var(--surface-card-solid);
 }
 
+/* ==========================================================================
+   21. Card Grids and Reusable Card Surfaces
+   Resource cards, related cards, testimonial cards, and info blocks.
+   ========================================================================== */
 .card-grid,
 .resource-grid,
 .quote-grid,
@@ -2702,6 +2814,10 @@ body.is-scrolled .main-nav {
   color: var(--text-muted);
 }
 
+/* ==========================================================================
+   22. Forms and Search
+   Lead capture forms, inline search, and result listing presentation.
+   ========================================================================== */
 .lead-form {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2850,6 +2966,9 @@ body.is-scrolled .main-nav {
   color: var(--text-muted);
 }
 
+/* ==========================================================================
+   23. Accordions and Disclosure Blocks
+   ========================================================================== */
 .accordion-item {
   border: 1px solid var(--border-soft);
   border-radius: var(--radius-sm) !important;
@@ -2884,6 +3003,9 @@ body.is-scrolled .main-nav {
   background: var(--surface-card-solid);
 }
 
+/* ==========================================================================
+   24. CTA and Disclaimer Blocks
+   ========================================================================== */
 .cta-pair {
   display: flex;
   flex-wrap: wrap;
@@ -2900,319 +3022,180 @@ body.is-scrolled .main-nav {
   margin: 0;
 }
 
+/* ==========================================================================
+   25. Site Footer
+   Shared footer system for EN and PT partials. Keeps the eight-column desktop
+   layout on large screens, relaxes to four columns on tablet, and two columns
+   on mobile while letting the brand column span full width when needed.
+   ========================================================================== */
+/* =========================
+   FOOTER LAYOUT FIX
+   ========================= */
+
 .site-footer {
-  margin-top: 4rem;
-  padding: 3.25rem 0 1.6rem;
-  color: rgba(248, 244, 236, 0.88);
+  padding: 3rem 0 2rem;
   background:
-    radial-gradient(circle at top, rgba(235, 200, 126, 0.18), transparent 32%),
-    linear-gradient(180deg, var(--footer-surface-top) 0%, var(--footer-surface-bottom) 100%);
+    radial-gradient(circle at top, rgba(235,200,126,0.12), transparent 40%),
+    linear-gradient(180deg, #062019, #02110d);
+  color: rgba(248,244,236,0.85);
 }
 
-.site-footer .container {
-  width: calc(100% - clamp(1rem, 2vw, 2rem));
+.container {
+  width: min(1400px, 92%);
+  margin: auto;
 }
 
-.site-footer h2,
-.site-footer a {
-  color: #fffaf2;
-}
-
-.footer-grid--simple {
+/* ROW 1: 8 COLUMNS */
+.footer-grid {
   display: grid;
-  grid-template-columns: minmax(240px, 1.05fr) repeat(7, minmax(120px, 0.92fr));
-  gap: 1.4rem 1rem;
-  align-items: start;
+  grid-template-columns:
+    minmax(260px, 1.5fr)
+    repeat(7, minmax(120px, 1fr));
+  gap: 2rem;
 }
 
+/* PANELS */
 .footer-panel {
-  display: grid;
-  align-content: start;
-  gap: 0.8rem;
-  min-width: 0;
-  padding-left: 0.9rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.09);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255,255,255,0.08);
 }
 
 .footer-panel:first-child {
+  border-left: none;
   padding-left: 0;
-  border-left: 0;
 }
 
-.footer-panel__head {
-  display: grid;
-  gap: 0.45rem;
-}
-
-.footer-panel__head h2,
-.footer-panel__group h3 {
-  margin: 0;
-}
-
-.footer-panel__head h2 {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  font-size: 1rem;
-}
-
-.footer-brand-title {
-  display: block;
-}
-
-.footer-brand-lockup {
-  display: inline-flex;
-  width: auto;
-  max-width: 100%;
-}
-
-.footer-brand-lockup .brand-wordmark__mark {
-  width: 54px;
-  height: 54px;
-}
-
-.footer-brand-lockup .brand-wordmark__line--top,
-.footer-brand-lockup .brand-wordmark__line--bottom {
-  font-size: 1.08rem;
-}
-
-.footer-panel__head p {
-  margin: 0;
-  color: rgba(248, 244, 236, 0.68);
-  font-size: 0.95rem;
-  line-height: 1.55;
-}
-
-.footer-brand-tagline {
-  display: none;
-}
-
-.footer-heading-icon {
-  display: inline-flex;
-  width: 1rem;
-  height: 1rem;
-  color: rgba(235, 200, 126, 0.96);
-}
-
-.footer-heading-icon svg {
-  width: 100%;
-  height: 100%;
-}
-
-.footer-panel__actions {
+/* BRAND */
+.footer-brand-head {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.footer-panel__groups {
-  display: grid;
-  gap: 0.7rem;
+.footer-logo {
+  width: 48px;
 }
 
-.footer-panel__lines p {
-  margin: 0;
-  color: rgba(248, 244, 236, 0.74);
+.footer-description {
+  font-size: 0.85rem;
+  color: rgba(248,244,236,0.65);
 }
 
-.footer-panel__group {
-  display: grid;
-  gap: 0.35rem;
+/* BUTTONS */
+.footer-buttons {
+  display: flex;
+  gap: 0.5rem;
 }
 
-.footer-panel__group h3 {
-  color: rgba(235, 200, 126, 0.95);
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.btn-primary {
+  background: linear-gradient(135deg, #e7c77a, #b08a3c);
+  color: #1a1205;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-decoration: none;
 }
 
-.footer-panel__group ul,
-.footer-contact-list {
-  display: grid;
-  gap: 0.45rem;
+.btn-outline {
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* LISTS */
+.footer-panel ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-contact-list li {
-  display: grid;
-  gap: 0.12rem;
-}
-
-.footer-contact-list span {
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(235, 200, 126, 0.9);
-}
-
-.footer-contact-list strong,
-.footer-contact-list a,
-.footer-panel__group a {
-  color: rgba(248, 244, 236, 0.92);
+.footer-panel a {
+  font-size: 0.78rem;
+  color: rgba(248,244,236,0.85);
   text-decoration: none;
-  line-height: 1.45;
 }
 
-.footer-contact-list a:hover,
-.footer-contact-list a:focus-visible,
-.footer-panel__group a:hover,
-.footer-panel__group a:focus-visible {
-  color: #fffaf2;
+.footer-panel a:hover {
+  color: #fff;
 }
 
-.footer-bottom {
+/* ROW 2 */
+.footer-row--legal {
   margin-top: 2rem;
-  padding-top: 1.4rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 0.85rem;
   text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1.5rem;
 }
 
-.footer-bottom p {
-  margin: 0;
-  max-width: 72ch;
+.footer-row--legal p {
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
 }
 
-.footer-copyright {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.footer-copyright__mark {
-  display: block;
-  width: 14px;
-  height: 14px;
-  flex: 0 0 auto;
-}
-
-.footer-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.85rem;
-}
-
-.footer-actions a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 42px;
-  padding: 0.68rem 1rem;
-  border-radius: calc(var(--radius-xs) + 0.05rem);
-  border: 1px solid rgba(199, 176, 232, 0.32);
-  background: linear-gradient(135deg, rgba(199, 176, 232, 0.24), rgba(79, 45, 105, 0.94));
-  color: #fffaf2;
-  font-weight: 700;
+/* CTA */
+.footer-main-cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background: linear-gradient(135deg, #6b4ca3, #3d255e);
+  border-radius: 8px;
+  color: white;
   text-decoration: none;
-  transition:
-    transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 220ms ease,
-    border-color 220ms ease,
-    background-color 220ms ease,
-    color 220ms ease;
-  box-shadow: 0 16px 30px rgba(79, 45, 105, 0.22);
 }
 
-.footer-search-trigger {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  min-height: 38px;
-  padding: 0.52rem 0.9rem;
+/* ROW 3 */
+.footer-row--meta {
+  margin-top: 1.5rem;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 1rem;
+}
+
+.footer-links {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: rgba(248,244,236,0.85);
+  text-decoration: none;
+}
+
+.footer-search {
+  display: inline-block;
+  border: 1px solid rgba(235,200,126,0.3);
+  padding: 0.3rem 0.7rem;
   border-radius: 999px;
-  border: 1px solid rgba(235, 200, 126, 0.28);
-  background: linear-gradient(135deg, rgba(255, 251, 243, 0.16), rgba(255, 248, 236, 0.08));
-  box-shadow: 0 14px 26px rgba(8, 28, 21, 0.12);
-  text-decoration: none;
+  font-size: 0.75rem;
 }
 
-.footer-search-trigger__icon {
-  display: inline-flex;
-  width: 1rem;
-  height: 1rem;
-  flex: 0 0 auto;
-  color: var(--gold-300);
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.footer-search-trigger__icon svg {
-  width: 100%;
-  height: 100%;
+@media (max-width: 700px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-panel {
+    border-left: none;
+    padding-left: 0;
+  }
 }
 
-.footer-search-trigger__hint {
-  color: rgba(248, 244, 236, 0.64);
-  font-style: italic;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.footer-search-trigger--mini {
-  min-height: 34px;
-  padding: 0.42rem 0.76rem;
-}
-
-.footer-search-trigger--mini .footer-search-trigger__hint {
-  font-size: 0.76rem;
-}
-
-.footer-actions__cta {
-  background: linear-gradient(135deg, #b698d9 0%, var(--plum-500) 42%, var(--plum-700) 100%);
-}
-
-.footer-actions a:hover,
-.footer-actions a:focus-visible {
-  transform: translateY(-2px) scale(1.01);
-  border-color: rgba(199, 176, 232, 0.52);
-  background: linear-gradient(135deg, #b698d9 0%, var(--plum-500) 42%, var(--plum-700) 100%);
-  color: #fffaf2;
-  box-shadow: 0 24px 42px rgba(79, 45, 105, 0.28);
-}
-
-.footer-search-trigger:hover,
-.footer-search-trigger:focus-visible {
-  border-color: rgba(235, 200, 126, 0.52) !important;
-  background: linear-gradient(135deg, rgba(255, 251, 243, 0.24), rgba(255, 248, 236, 0.14)) !important;
-  color: #fffaf2;
-  box-shadow: 0 24px 42px rgba(8, 28, 21, 0.2) !important;
-}
-
-.footer-search-trigger:hover .footer-search-trigger__hint,
-.footer-search-trigger:focus-visible .footer-search-trigger__hint {
-  color: rgba(248, 244, 236, 0.86);
-}
-
-.footer-meta {
-  display: grid;
-  justify-items: center;
-  gap: 0.7rem;
-  margin-top: 0.9rem;
-  padding-top: 0.9rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  color: rgba(248, 244, 236, 0.68);
-  text-align: center;
-}
-
-.footer-meta__links {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.footer-meta a {
-  color: rgba(248, 244, 236, 0.92);
-  text-decoration: none;
-}
-
+/* ==========================================================================
+   26. Floating Utilities and Cookie Banner
+   Persistent global controls layered above page content.
+   ========================================================================== */
 .floating-whatsapp,
 .back-to-top {
   position: fixed;
@@ -3392,6 +3375,10 @@ body.is-scrolled .main-nav {
   gap: 0.75rem;
 }
 
+/* ==========================================================================
+   27. Dark Theme Component Overrides
+   Component-level dark surface adjustments layered after shared components.
+   ========================================================================== */
 body.theme-dark .utility-link,
 body.theme-dark .toggle-button,
 body.theme-dark .panel-close,
@@ -3504,6 +3491,9 @@ body.theme-dark .search-inline-form input::placeholder {
   color: rgba(231, 245, 235, 0.44);
 }
 
+/* ==========================================================================
+   28. Motion and Reveal Helpers
+   ========================================================================== */
 @keyframes hero-rise {
   from {
     opacity: 0;
@@ -3578,6 +3568,8 @@ body.theme-dark .search-inline-form input::placeholder {
   }
 }
 
+/* Shared reveal helper. Keep footer-specific sections out of this system to
+   avoid opacity-related clipping or hidden content after runtime injection. */
 .reveal {
   opacity: 0;
   transition: opacity 160ms ease-out;
@@ -3587,6 +3579,11 @@ body.theme-dark .search-inline-form input::placeholder {
   opacity: 1;
 }
 
+/* ==========================================================================
+   29. Accessibility Mode Overrides
+   These rules are intentionally forceful and rely on `!important` so they can
+   win against component-specific styling when an accessibility mode is active.
+   ========================================================================== */
 body.a11y-contrast {
   --surface-base: #ffffff;
   --surface-raised: #ffffff;
@@ -3828,6 +3825,9 @@ body.a11y-hide-images .hero-glance-card {
   box-shadow: none !important;
 }
 
+/* ==========================================================================
+   30. Motion Preferences
+   ========================================================================== */
 body.reduced-motion *,
 body.reduced-motion *::before,
 body.reduced-motion *::after {
@@ -3836,6 +3836,10 @@ body.reduced-motion *::after {
   scroll-behavior: auto !important;
 }
 
+/* ==========================================================================
+   31. Responsive Breakpoints
+   Ordered from broader desktop adjustments down to very small screens.
+   ========================================================================== */
 @media (max-width: 1199px) {
   .main-header {
     padding: 0.88rem 0;
@@ -3863,6 +3867,7 @@ body.reduced-motion *::after {
   }
 }
 
+/* Large desktop tightening for dense primary nav labels. */
 @media (max-width: 1399px) {
   .navbar-nav--services .nav-link,
   .navbar-nav--services .dropdown-toggle {
@@ -3870,6 +3875,15 @@ body.reduced-motion *::after {
   }
 }
 
+/* Footer wraps sooner here to protect the right-most columns from clipping. */
+@media (max-width: 1279px) {
+  .footer-grid,
+  .footer-grid--simple {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Tablet and small laptop stack transitions. */
 @media (max-width: 1024px) {
   .hero-inner,
   .brand-inner,
@@ -3918,11 +3932,9 @@ body.reduced-motion *::after {
     overflow: visible;
   }
 
-  .footer-grid--simple {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
 }
 
+/* Phone layout adjustments for spacing, buttons, and stacked controls. */
 @media (max-width: 767px) {
   .container,
   .container-xl,
@@ -4018,6 +4030,12 @@ body.reduced-motion *::after {
     align-items: flex-start;
   }
 
+  .sidebar-card--map,
+  .hero-actions a[href="#page-map"] {
+    display: none !important;
+  }
+
+  .footer-grid,
   .footer-grid--simple {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4036,9 +4054,18 @@ body.reduced-motion *::after {
   }
 }
 
+/* Extra-small screens tighten spacing, panel layout, and floating utilities. */
 @media (max-width: 479px) {
   h1 {
     font-size: clamp(2.7rem, 14vw, 4rem);
+  }
+
+  .accessibility-panel__inner {
+    padding-inline: 0.85rem;
+  }
+
+  .panel-actions {
+    grid-template-columns: 1fr;
   }
 
   .page-map__links,
@@ -4047,19 +4074,7 @@ body.reduced-motion *::after {
     display: grid;
   }
 
-  .footer-grid--simple {
-    grid-template-columns: 1fr;
-  }
 
-  .footer-panel {
-    padding-left: 0;
-    border-left: 0;
-  }
-
-  .footer-meta {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
   .cookie-banner {
     left: 0.75rem;

@@ -1,0 +1,51 @@
+<!-- Section: Accessibility Panel -->
+<aside
+  class="accessibility-panel"
+  id="accessibility-panel"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="accessibility-title"
+  tabindex="-1"
+>
+  <div class="accessibility-panel__inner">
+    <div class="panel-header">
+      <h2 id="accessibility-title">Accessibility</h2>
+      <button type="button" class="panel-close" data-close-accessibility="true">Close</button>
+    </div>
+
+    <div class="panel-actions">
+      <div class="scale-control">
+        <span>Text scale</span>
+        <div class="inline-actions">
+          <button type="button" data-accessibility-action="text-decrease">A-</button>
+          <strong data-text-scale-value="true">100%</strong>
+          <button type="button" data-accessibility-action="text-increase">A+</button>
+        </div>
+      </div>
+
+      <div class="scale-control">
+        <span>Color mode</span>
+        <div class="inline-actions inline-actions--choices" role="group" aria-label="Color mode">
+          <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="light">Light</button>
+          <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="dark">Dark</button>
+          <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="system">Auto</button>
+        </div>
+      </div>
+
+      <button type="button" class="toggle-button" data-accessibility-action="contrast">High contrast</button>
+      <button type="button" class="toggle-button" data-accessibility-action="invert">Invert colors</button>
+      <button type="button" class="toggle-button" data-accessibility-action="grayscale">Grayscale</button>
+      <button type="button" class="toggle-button" data-accessibility-action="dyslexia">Dyslexia font</button>
+      <button type="button" class="toggle-button" data-accessibility-action="links">Highlight links</button>
+      <button type="button" class="toggle-button" data-accessibility-action="headings">Highlight headings</button>
+      <button type="button" class="toggle-button" data-accessibility-action="guide">Reading guide</button>
+      <button type="button" class="toggle-button" data-accessibility-action="images">Hide images</button>
+      <button type="button" class="toggle-button" data-accessibility-action="motion">Reduce motion</button>
+      <button type="button" class="toggle-button reset" data-accessibility-action="reset">Reset all settings</button>
+    </div>
+  </div>
+
+  <!-- Section: Reading Guide -->
+  <div class="reading-guide" data-reading-guide="true" aria-hidden="true"></div>
+</aside>
