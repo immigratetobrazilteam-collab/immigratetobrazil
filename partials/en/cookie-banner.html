@@ -1,30 +1,50 @@
 <!-- Section: Cookie Banner -->
 <div class="cookie-banner" data-cookie-banner="true" hidden>
-  <div class="cookie-banner__inner">
-    
-    <div class="cookie-text">
+  <div class="cookie-banner__inner" 
+       style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+
+    <!-- LEFT: LOGO -->
+    <div class="cookie-logo" style="flex-shrink:0;">
+      <img src="/assets/logo/immigrate-to-brazil-logo-transparent.png" 
+           alt="Immigrate to Brazil"
+           style="height:40px; width:auto;">
+    </div>
+
+    <!-- CENTER: TEXT -->
+    <div class="cookie-text" style="max-width:60%;">
       <strong>Cookie settings</strong>
-      <p>
+      <p style="margin:4px 0;">
         Essential site settings support accessibility, search, and session preferences. 
         Analytics load only after consent is granted.
       </p>
 
       <!-- Small policy link -->
-      <p class="cookie-policy-text">
-        <a href="https://immigratetobrazil.com/legal/cookies/" target="_blank" rel="noopener">
+      <p style="margin:2px 0; font-size:0.75rem; opacity:0.8;">
+        <a href="https://immigratetobrazil.com/legal/cookies/" 
+           target="_blank" 
+           rel="noopener"
+           style="text-decoration:underline;">
           Read Cookie Policy
         </a>
       </p>
     </div>
 
-    <div class="cookie-actions">
-      <button type="button" class="btn btn-secondary" data-consent="decline">
+    <!-- RIGHT: ACTIONS -->
+    <div class="cookie-actions" 
+         style="display:flex; gap:10px; margin-left:auto;">
+
+      <button type="button" 
+              class="btn btn-secondary" 
+              data-consent="decline">
         Decline
       </button>
 
-      <button type="button" class="btn btn-cta" data-consent="accept">
+      <button type="button" 
+              class="btn btn-cta" 
+              data-consent="accept">
         Accept
       </button>
+
     </div>
 
   </div>
