@@ -682,6 +682,21 @@ class PtGenerator:
             return localize_internal_url(value)
         return normalize_translatable_text(self.translate_text(value, route))
 
+    def translate_shell_value(self, value, route: str, key: str = ""):
+        if isinstance(value, dict):
+            return {item_key: self.translate_shell_value(item_value, route, item_key) for item_key, item_value in value.items()}
+        if isinstance(value, list):
+            return [self.translate_shell_value(item, route, key) for item in value]
+        if not isinstance(value, str):
+            return value
+        if key in {"track", "className"}:
+            return value
+        if key == "href":
+            return localize_internal_url(value)
+        if value.startswith("http://") or value.startswith("https://"):
+            return localize_internal_url(value)
+        return normalize_translatable_text(self.translate_text(value, route))
+
     def patch_window_config(self, soup: BeautifulSoup, route: str) -> None:
         for script in soup.find_all("script"):
             if not script.string or "window.ITB_SITE" not in script.string:
@@ -698,6 +713,8 @@ class PtGenerator:
                     contact["whatsappUrl"], lambda text: normalize_translatable_text(self.translate_text(text, route))
                 )
             payload["contact"] = contact
+            if payload.get("shell"):
+                payload["shell"] = self.translate_shell_value(payload["shell"], route)
             replacement = f"window.ITB_SITE = {json.dumps(payload, ensure_ascii=False, separators=(',', ':'))};"
             script.string.replace_with(WINDOW_CONFIG_RE.sub(replacement, script.string, count=1))
             return

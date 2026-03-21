@@ -104,5 +104,84 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Cookies",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+      },
+      "nextStep": {
+        "lead": "cookie categories in direct, operational terms.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "title": "LGPD (Law No. 13.709/2018)",
+        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+      },
+      {
+        "href": "https://www.gov.br/anpd/pt-br",
+        "title": "Autoridade Nacional de Protecao de Dados",
+        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
+        "title": "European Commission GDPR overview",
+        "description": "Institutional reference page for GDPR context affecting international visitors."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+      },
+      {
+        "href": "/legal/form/",
+        "title": "Form",
+        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+      },
+      {
+        "href": "/legal/payment/",
+        "title": "Payment",
+        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+      },
+      {
+        "href": "/legal/emergency/",
+        "title": "Emergency",
+        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+      }
+    ]
+  }
 }

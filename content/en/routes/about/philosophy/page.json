@@ -104,5 +104,84 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Philosophy",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+      },
+      "nextStep": {
+        "lead": "approach to legal interpretation in practical client terms.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+      },
+      {
+        "href": "https://www.oab.org.br/",
+        "title": "Ordem dos Advogados do Brasil",
+        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+      },
+      {
+        "href": "/process/consultation/",
+        "title": "Consultation",
+        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+      },
+      {
+        "href": "/about/profile/",
+        "title": "Profile",
+        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
+      },
+      {
+        "href": "/about/about/",
+        "title": "About",
+        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+      }
+    ]
+  }
 }

@@ -10,7 +10,11 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
   Example: `/insights/blog/` maps to `content/en/routes/insights/blog/`.
 - Each route folder has:
   - `page.json` for metadata, social tags, runtime config, and page-specific schema.
+  - `page.json` also stores route shell data under `shell` for runtime-loaded breadcrumbs, sidebar content, official resources, and related links.
   - `body.html` for the rendered body markup.
+- Shared shell partials live in `partials/en/` and `partials/pt-br/`.
+  - Edit `site-navigation.html`, `site-footer.html`, `utility-bar.html`, and the other files in `partials/` when you want to change sitewide shared UI.
+  - Route pages now call the shared `breadcrumbs`, `sidebar-shell`, `official-resources`, and `related-links` partials at runtime instead of storing those blocks inline in every page body.
 
 ## Commands
 
@@ -18,6 +22,8 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
   Regenerates English `index.html` files from `content/en/...`.
 - `npm run sync:data`
   Regenerates English HTML and refreshes search/build/supporting JSON files.
+- `npm run generate:sitemap`
+  Regenerates `sitemap.xml` and `robots.txt` from the current checked-in HTML routes.
 - `npm run translate:pt`
   Regenerates English HTML first, then rebuilds the Portuguese output.
 - `npm run check`
@@ -28,3 +34,4 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
 - Treat English `index.html` files as generated output.
 - Portuguese `pt-br/...` pages remain generated output as well.
 - If you ever need to re-bootstrap the content tree from the current English HTML, run `npm run migrate:content`.
+- If you ever need to re-extract the route shell blocks from English route bodies into `page.json`, run `npm run extract:route-shell`.

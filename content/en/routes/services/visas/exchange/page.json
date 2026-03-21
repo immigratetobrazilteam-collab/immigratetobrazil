@@ -122,5 +122,98 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Exchange Visa",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended."
+      },
+      "nextStep": {
+        "lead": "exchange participation structuring in terms of route fit, supporting records, and next steps.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos-para-viajar-ao-brasil",
+        "title": "Brazilian consular and visa information",
+        "description": "Consular information about entry documentation and visas requested abroad."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Residence authorisation guidance",
+        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+        "title": "Policia Federal immigration services",
+        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/services/visas/",
+        "title": "Visas",
+        "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+      },
+      {
+        "href": "/process/consultation/",
+        "title": "Consultation",
+        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+      },
+      {
+        "href": "/legal/payment/",
+        "title": "Payment",
+        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+      }
+    ]
+  }
 }

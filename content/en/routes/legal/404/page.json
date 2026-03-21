@@ -58,5 +58,58 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "404",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+      },
+      "nextStep": {
+        "lead": "page not found in practical client terms.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "title": "LGPD (Law No. 13.709/2018)",
+        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+      },
+      {
+        "href": "https://www.gov.br/anpd/pt-br",
+        "title": "Autoridade Nacional de Protecao de Dados",
+        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
+        "title": "European Commission GDPR overview",
+        "description": "Institutional reference page for GDPR context affecting international visitors."
+      }
+    ],
+    "relatedLinks": []
+  }
 }

@@ -104,5 +104,94 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Cost",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Relocation planning is tied to legal context, regional variation, and the practical realities of living in Brazil."
+      },
+      "nextStep": {
+        "lead": "cost structure overview, regional comparison, and planning trade-offs.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.ibge.gov.br/",
+        "title": "IBGE institutional portal",
+        "description": "Primary institutional source for geography, population, economy, and regional reference information."
+      },
+      {
+        "href": "https://cidades.ibge.gov.br/",
+        "title": "IBGE Cities and States",
+        "description": "Official statistics and profiles for states, municipalities, demographics, and local indicators."
+      },
+      {
+        "href": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sus",
+        "title": "Ministry of Health and SUS information",
+        "description": "Government source for the public health system structure, access logic, and service organisation."
+      },
+      {
+        "href": "https://www.gov.br/mec/pt-br",
+        "title": "Ministry of Education",
+        "description": "Institutional source for education system structure, policy, and public education framework."
+      },
+      {
+        "href": "https://www.bcb.gov.br/",
+        "title": "Banco Central do Brasil",
+        "description": "Official source for currency, payments, exchange, and monetary system information."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+      },
+      {
+        "href": "/process/planning/",
+        "title": "Planning",
+        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+      },
+      {
+        "href": "/insights/general/",
+        "title": "General",
+        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+      },
+      {
+        "href": "/brazil/brazil/",
+        "title": "Brazil",
+        "description": "Informational context on brazil in Brazil for relocation, compliance, and practical planning."
+      }
+    ]
+  }
 }

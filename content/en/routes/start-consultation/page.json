@@ -116,5 +116,89 @@
       "representativeOfPage": true,
       "inLanguage": "en"
     }
-  ]
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Start Consultation",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning."
+      },
+      "nextStep": {
+        "lead": "consultation request flow, the current stage, and the next practical check.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+        "title": "Policia Federal immigration services",
+        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+      },
+      {
+        "href": "https://www.oab.org.br/",
+        "title": "Ordem dos Advogados do Brasil",
+        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/legal/payment/",
+        "title": "Payment",
+        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+      },
+      {
+        "href": "/legal/form/",
+        "title": "Form",
+        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+      },
+      {
+        "href": "/process/consultation/",
+        "title": "Consultation",
+        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+      },
+      {
+        "href": "/legal/refund/",
+        "title": "Refund",
+        "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries."
+      }
+    ]
+  }
 }

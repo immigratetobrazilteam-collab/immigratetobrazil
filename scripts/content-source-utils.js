@@ -324,6 +324,7 @@ export function renderEnglishPage(about, page, bodyHtml) {
     pageRoute: page.route,
     pageTitle: page.runtime.pageTitle,
     pageFamily: page.runtime.pageFamily,
+    ...(page.shell ? { shell: page.shell } : {}),
     ...about.runtime
   });
   const structuredData = JSON.stringify([about.schemas.organization, about.schemas.contactPoint, ...page.schemas]);

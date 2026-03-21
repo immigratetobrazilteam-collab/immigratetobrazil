@@ -14,6 +14,10 @@
     "utility-bar",
     "accessibility-panel",
     "site-navigation",
+    "breadcrumbs",
+    "sidebar-shell",
+    "official-resources",
+    "related-links",
     "site-footer",
     "disclaimer",
     "floating-whatsapp",
@@ -37,6 +41,120 @@
       en: isPt ? path.replace(/^\/pt-br/, "") || "/" : path,
       pt: isPt ? path : `/pt-br${path === "/" ? "/" : path}`
     };
+  }
+
+  function getShellConfig() {
+    return window.ITB_SITE?.shell || {};
+  }
+
+  function escapeHtml(value = "") {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function renderActionAttributes(action) {
+    const attrs = [`class="${escapeHtml(action.className || "btn btn-secondary btn-sm")}"`, `href="${escapeHtml(action.href || "#")}"`];
+    if (action.track === "cta") attrs.push('data-cta-click="true"');
+    if (action.track === "whatsapp") attrs.push('data-whatsapp-click="true"');
+    return attrs.join(" ");
+  }
+
+  function hydrateBreadcrumbs(root) {
+    const nav = root.querySelector("[data-breadcrumbs='true']");
+    if (!nav) return;
+    const items = getShellConfig().breadcrumbs || [];
+    if (!items.length) {
+      nav.hidden = true;
+      return;
+    }
+
+    const list = nav.querySelector("ol");
+    if (!list) return;
+    list.innerHTML = items
+      .map((item) => {
+        if (item.href && !item.current) {
+          return `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a></li>`;
+        }
+        return `<li aria-current="page">${escapeHtml(item.label)}</li>`;
+      })
+      .join("");
+  }
+
+  function hydrateSidebarShell(root) {
+    const sidebar = root.querySelector(".sidebar-column");
+    if (!sidebar) return;
+
+    const sidebarConfig = getShellConfig().sidebar || {};
+    const brandNote = sidebar.querySelector(".sidebar-card--brand .sidebar-note");
+    if (brandNote) {
+      brandNote.textContent = sidebarConfig.brand?.note || "";
+      brandNote.parentElement.hidden = !brandNote.textContent.trim();
+    }
+
+    const actionCard = sidebar.querySelector(".sidebar-card--action");
+    if (actionCard) {
+      const lead = actionCard.querySelector("p:not(.sidebar-note)");
+      const actions = actionCard.querySelector(".sidebar-actions");
+      const note = actionCard.querySelector(".sidebar-note");
+      const actionConfig = sidebarConfig.nextStep || {};
+
+      if (lead) lead.textContent = actionConfig.lead || "";
+      if (actions) {
+        actions.innerHTML = (actionConfig.actions || [])
+          .map((action) => `<a ${renderActionAttributes(action)}>${escapeHtml(action.label)}</a>`)
+          .join("");
+      }
+      if (note) note.textContent = actionConfig.note || "";
+
+      const hasActionContent =
+        Boolean(actionConfig.lead?.trim()) ||
+        Boolean(actionConfig.note?.trim()) ||
+        Boolean(actionConfig.actions?.length);
+      actionCard.hidden = !hasActionContent;
+    }
+  }
+
+  function hydrateOfficialResources(root) {
+    const section = root.querySelector("[data-official-resources='true']");
+    if (!section) return;
+    const cards = getShellConfig().officialResources || [];
+    const grid = section.querySelector(".resource-grid");
+    if (!grid || !cards.length) {
+      section.hidden = true;
+      return;
+    }
+
+    grid.innerHTML = cards
+      .map(
+        (card) => `<article class="resource-card">
+            <h3><a href="${escapeHtml(card.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(card.title)}</a></h3>
+            <p>${escapeHtml(card.description)}</p>
+          </article>`
+      )
+      .join("");
+  }
+
+  function hydrateRelatedLinks(root) {
+    const section = root.querySelector("[data-related-links='true']");
+    if (!section) return;
+    const cards = getShellConfig().relatedLinks || [];
+    const grid = section.querySelector(".related-grid");
+    if (!grid || !cards.length) {
+      section.hidden = true;
+      return;
+    }
+
+    grid.innerHTML = cards
+      .map(
+        (card) => `<a class="related-card" href="${escapeHtml(card.href)}">
+            <strong>${escapeHtml(card.title)}</strong>
+            <span>${escapeHtml(card.description)}</span>
+          </a>`
+      )
+      .join("");
   }
 
   /* ==========================================================================
@@ -71,6 +189,10 @@
   function hydratePartial(root) {
     updateLanguageSwitcher(root);
     setActiveHomeLink(root);
+    hydrateBreadcrumbs(root);
+    hydrateSidebarShell(root);
+    hydrateOfficialResources(root);
+    hydrateRelatedLinks(root);
   }
 
   /* ==========================================================================
