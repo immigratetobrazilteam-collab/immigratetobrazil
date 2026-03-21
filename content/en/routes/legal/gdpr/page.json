@@ -1,0 +1,108 @@
+{
+  "route": "/legal/gdpr/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-gdpr family-legal style-legal",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "International privacy guidance for visitors who may expect GDPR-style transparency in addition to Brazilian LGPD protections. Covers international-visitor pr…",
+    "robots": "index,follow",
+    "title": "Gdpr | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Gdpr | Legal Information | Immigrate to Brazil",
+    "ogDescription": "International privacy guidance for visitors who may expect GDPR-style transparency in addition to Brazilian LGPD protections. Covers international-visitor pr…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+    "ogImageAlt": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Gdpr | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "International privacy guidance for visitors who may expect GDPR-style transparency in addition to Brazilian LGPD protections. Covers international-visitor pr…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+    "twitterImageAlt": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Gdpr",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gdpr",
+          "item": "https://immigratetobrazil.com/legal/gdpr/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Gdpr: what should you know about international-visitor privacy best practices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdpr: what should you know about rights summary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdpr: what should you know about lawful processing explanation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdpr: what should you know about international transfer framing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdpr: what should you know about representative limitations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Follow the rule with the next action in view and without guesswork."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/gdpr/#hero-image",
+      "name": "Gdpr hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Gdpr page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
+      "caption": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Gdpr, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

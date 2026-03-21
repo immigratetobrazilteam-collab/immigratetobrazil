@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/directory/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-directory family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on directory in Brazil for relocation, compliance, and practical planning. Covers purpose of directory, categorization criteria, sector…",
+    "robots": "index,follow",
+    "title": "Directory | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Directory | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on directory in Brazil for relocation, compliance, and practical planning. Covers purpose of directory, categorization criteria, sector…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+    "ogImageAlt": "Hero image for the Directory page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Directory | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on directory in Brazil for relocation, compliance, and practical planning. Covers purpose of directory, categorization criteria, sector…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+    "twitterImageAlt": "Hero image for the Directory page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Directory",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Directory",
+          "item": "https://immigratetobrazil.com/brazil/directory/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does purpose of directory affect a move to Brazil in directory planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "purpose of directory should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does categorization criteria affect a move to Brazil in directory planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "categorization criteria should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does sector classification affect a move to Brazil in directory planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "sector classification should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does geographic organization affect a move to Brazil in directory planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "geographic organization should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does data sources affect a move to Brazil in directory planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "data sources should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/directory/#hero-image",
+      "name": "Directory hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Directory page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Directory page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Directory, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-directory.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "route": "/legal/emergency/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-emergency family-legal style-emergency",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "robots": "index,follow",
+    "title": "Emergency | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Emergency | Legal Information | Immigrate to Brazil",
+    "ogDescription": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+    "ogImageAlt": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Emergency | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+    "twitterImageAlt": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Emergency",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Emergency",
+          "item": "https://immigratetobrazil.com/legal/emergency/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Emergency: what should you know about email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Emergency: what should you know about phone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Emergency: what should you know about whatsapp instruction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Emergency: what should you know about emergency-only guidance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Emergency: what should you know about existing-client handling note?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/emergency/#hero-image",
+      "name": "Emergency hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Emergency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
+      "caption": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Emergency, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

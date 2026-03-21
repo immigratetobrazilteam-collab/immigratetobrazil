@@ -1,0 +1,120 @@
+{
+  "route": "/process/naturalisation/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-naturalisation family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
+    "robots": "index,follow",
+    "title": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+    "ogImageAlt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+    "twitterImageAlt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Naturalisation",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/process/naturalisation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Naturalisation | Immigrate to Brazil",
+      "serviceType": "Naturalisation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/naturalisation/",
+      "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does eligibility for citizenship matter at the naturalisation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. Before the next step, eligibility for citizenship usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal requirements matter at the naturalisation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does residency conditions matter at the naturalisation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, residency conditions usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation matter at the naturalisation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Before the next step, documentation usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does application procedure matter at the naturalisation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, application procedure usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/naturalisation/#hero-image",
+      "name": "Naturalisation hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Naturalisation, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

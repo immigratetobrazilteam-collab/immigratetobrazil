@@ -1,0 +1,120 @@
+{
+  "route": "/process/consultation/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-consultation family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning. Covers purpose of initial consultation, scope of discussion…",
+    "robots": "index,follow",
+    "title": "Consultation | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Consultation | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on consultation within Brazilian immigration procedures and compliance planning. Covers purpose of initial consultation, scope of discussion…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+    "ogImageAlt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Consultation | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on consultation within Brazilian immigration procedures and compliance planning. Covers purpose of initial consultation, scope of discussion…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+    "twitterImageAlt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Consultation",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Consultation",
+          "item": "https://immigratetobrazil.com/process/consultation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Consultation | Immigrate to Brazil",
+      "serviceType": "Consultation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/consultation/",
+      "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does purpose of initial consultation matter at the consultation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the first review works best when the objective, the current status, and the available facts are clear from the beginning. Before the next step, purpose of initial consultation usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does scope of discussion matter at the consultation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the first review works best when the objective, the current status, and the available facts are clear from the beginning. Before the next step, scope of discussion usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does information provided by client matter at the consultation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the first review works best when the objective, the current status, and the available facts are clear from the beginning. Before the next step, information provided by client usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does preliminary legal context matter at the consultation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, preliminary legal context usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does limitations of initial analysis matter at the consultation stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the first review works best when the objective, the current status, and the available facts are clear from the beginning. Before the next step, limitations of initial analysis usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/consultation/#hero-image",
+      "name": "Consultation hero image featuring Lençois Maranhenses dunes and lagoons",
+      "description": "SEO hero image for the Consultation page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+      "keywords": "Lençois Maranhenses, Maranhao, sand dunes, lagoons, northeast Brazil, Lençois Maranhenses dunes and lagoons, Consultation, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

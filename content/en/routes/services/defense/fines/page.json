@@ -1,0 +1,126 @@
+{
+  "route": "/services/defense/fines/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-defense-fines family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for fines response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authority…",
+    "robots": "index,follow",
+    "title": "Fines | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Fines | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for fines response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authority…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+    "ogImageAlt": "Hero image for the Fines page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Fines | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for fines response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authority…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+    "twitterImageAlt": "Hero image for the Fines page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Fines",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fines",
+          "item": "https://immigratetobrazil.com/services/defense/fines/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Fines | Immigrate to Brazil",
+      "serviceType": "Fines",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/defense/fines/",
+      "description": "Service page for fines response planning, evidence strategy, authority interaction, and ongoing support."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does legal context matter in a fines matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does response structure matter in a fines matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, response structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority interaction matter in a fines matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority interaction changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does evidence and document strategy matter in a fines matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, evidence and document strategy changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ongoing service support matter in a fines matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, ongoing service support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/defense/fines/#hero-image",
+      "name": "Fines hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Fines page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Fines page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Fines, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

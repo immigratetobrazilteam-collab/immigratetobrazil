@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/cplp/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-cplp family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for cplp residence planning, registration, status management, and compliance monitoring. Covers eligibility under cplp, simplified structuring,…",
+    "robots": "index,follow",
+    "title": "CPLP Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "CPLP Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for cplp residence planning, registration, status management, and compliance monitoring. Covers eligibility under cplp, simplified structuring,…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+    "ogImageAlt": "Hero image for the CPLP Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "CPLP Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for cplp residence planning, registration, status management, and compliance monitoring. Covers eligibility under cplp, simplified structuring,…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+    "twitterImageAlt": "Hero image for the CPLP Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "CPLP Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CPLP Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/cplp/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "CPLP Residency | Immigrate to Brazil",
+      "serviceType": "CPLP Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/cplp/",
+      "description": "Service page for cplp residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does eligibility under cplp matter in a cplp residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, eligibility under cplp changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does simplified structuring matter in a cplp residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, simplified structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does nationality-based alignment matter in a cplp residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, nationality-based alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal positioning matter in a cplp residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does monitoring matter in a cplp residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, monitoring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/cplp/#hero-image",
+      "name": "CPLP Residency hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the CPLP Residency page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the CPLP Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, CPLP Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-cplp.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "route": "/services/naturalisation/extraordinary/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-naturalisation-extraordinary family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for extraordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal cont…",
+    "robots": "index,follow",
+    "title": "Extraordinary Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Extraordinary Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for extraordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal cont…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+    "ogImageAlt": "Hero image for the Extraordinary Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Extraordinary Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for extraordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal cont…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+    "twitterImageAlt": "Hero image for the Extraordinary Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Extraordinary Naturalisation",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Extraordinary Naturalisation",
+          "item": "https://immigratetobrazil.com/services/naturalisation/extraordinary/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Extraordinary Naturalisation | Immigrate to Brazil",
+      "serviceType": "Extraordinary Naturalisation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/naturalisation/extraordinary/",
+      "description": "Service page for extraordinary naturalisation analysis, documentary preparation, filing context, and post-decision effects."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does category basis matter in a extraordinary naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, category basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal context matter in a extraordinary naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation framework matter in a extraordinary naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation framework changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority review context matter in a extraordinary naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority review context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal effects matter in a extraordinary naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal effects changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/naturalisation/extraordinary/#hero-image",
+      "name": "Extraordinary Naturalisation hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Extraordinary Naturalisation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Extraordinary Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Extraordinary Naturalisation, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

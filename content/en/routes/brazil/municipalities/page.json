@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/municipalities/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-municipalities family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on municipalities in Brazil for relocation, compliance, and practical planning. Covers municipal structure, governance model, administr…",
+    "robots": "index,follow",
+    "title": "Municipalities | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Municipalities | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on municipalities in Brazil for relocation, compliance, and practical planning. Covers municipal structure, governance model, administr…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+    "ogImageAlt": "Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Municipalities | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on municipalities in Brazil for relocation, compliance, and practical planning. Covers municipal structure, governance model, administr…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+    "twitterImageAlt": "Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Municipalities",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Municipalities",
+          "item": "https://immigratetobrazil.com/brazil/municipalities/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does municipal structure affect a move to Brazil in municipalities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "municipal structure should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does governance model affect a move to Brazil in municipalities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "governance model should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does administrative responsibilities affect a move to Brazil in municipalities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "administrative responsibilities should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does local legislation affect a move to Brazil in municipalities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "local legislation should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does public services affect a move to Brazil in municipalities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "public services should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/municipalities/#hero-image",
+      "name": "Municipalities hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Municipalities page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Municipalities, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

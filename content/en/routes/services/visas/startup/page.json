@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/startup/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-startup family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for startup visa planning, documentation, authority interaction, and compliance framing. Covers startup-activity evaluation, immigration structu…",
+    "robots": "index,follow",
+    "title": "Startup Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Startup Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for startup visa planning, documentation, authority interaction, and compliance framing. Covers startup-activity evaluation, immigration structu…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+    "ogImageAlt": "Hero image for the Startup Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Startup Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for startup visa planning, documentation, authority interaction, and compliance framing. Covers startup-activity evaluation, immigration structu…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+    "twitterImageAlt": "Hero image for the Startup Visa page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Startup Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Startup Visa",
+          "item": "https://immigratetobrazil.com/services/visas/startup/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Startup Visa | Immigrate to Brazil",
+      "serviceType": "Startup Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/startup/",
+      "description": "Service page for startup visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does startup-activity evaluation matter in a startup visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, startup-activity evaluation changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does immigration structuring matter in a startup visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, immigration structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does innovation and business alignment matter in a startup visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, innovation and business alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal positioning matter in a startup visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does strategy review matter in a startup visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, strategy review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/startup/#hero-image",
+      "name": "Startup Visa hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Startup Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Startup Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Startup Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-startup.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

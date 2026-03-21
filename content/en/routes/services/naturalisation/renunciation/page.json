@@ -1,0 +1,126 @@
+{
+  "route": "/services/naturalisation/renunciation/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-naturalisation-renunciation family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for renunciation naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal conte…",
+    "robots": "index,follow",
+    "title": "Renunciation Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Renunciation Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for renunciation naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal conte…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+    "ogImageAlt": "Hero image for the Renunciation Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Renunciation Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for renunciation naturalisation analysis, documentary preparation, filing context, and post-decision effects. Covers category basis, legal conte…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+    "twitterImageAlt": "Hero image for the Renunciation Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Renunciation Naturalisation",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Renunciation Naturalisation",
+          "item": "https://immigratetobrazil.com/services/naturalisation/renunciation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Renunciation Naturalisation | Immigrate to Brazil",
+      "serviceType": "Renunciation Naturalisation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/naturalisation/renunciation/",
+      "description": "Service page for renunciation naturalisation analysis, documentary preparation, filing context, and post-decision effects."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does category basis matter in a renunciation naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, category basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal context matter in a renunciation naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation framework matter in a renunciation naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation framework changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority review context matter in a renunciation naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority review context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal effects matter in a renunciation naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal effects changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/naturalisation/renunciation/#hero-image",
+      "name": "Renunciation Naturalisation hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Renunciation Naturalisation page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Renunciation Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Renunciation Naturalisation, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

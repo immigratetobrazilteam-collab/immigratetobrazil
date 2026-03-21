@@ -1,0 +1,110 @@
+{
+  "route": "/services/advisory/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-advisory family-services style-service-hub",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support. Covers advisory scope, preventive analysi…",
+    "robots": "index,follow",
+    "title": "Advisory | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Advisory | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support. Covers advisory scope, preventive analysi…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+    "ogImageAlt": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Advisory | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support. Covers advisory scope, preventive analysi…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+    "twitterImageAlt": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Advisory",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Advisory",
+          "item": "https://immigratetobrazil.com/services/advisory/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Advisory | Immigrate to Brazil",
+      "serviceType": "Advisory",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/advisory/",
+      "description": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does advisory scope matter in a advisory matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, advisory scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does preventive analysis matter in a advisory matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, preventive analysis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does strategy structuring matter in a advisory matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, strategy structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/advisory/#hero-image",
+      "name": "Advisory hero image featuring Curitiba skyline",
+      "description": "SEO hero image for the Advisory page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil.",
+      "keywords": "Curitiba, Parana, Brazil skyline, southern Brazil, urban Brazil, the Curitiba skyline, Advisory, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

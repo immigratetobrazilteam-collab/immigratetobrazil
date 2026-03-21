@@ -1,0 +1,114 @@
+{
+  "route": "/insights/updates/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights-updates family-insights style-insight",
+  "meta": {
+    "themeColor": "#CD6C28",
+    "description": "Editorial-style guidance page covering updates in the Brazilian immigration context. Covers regulatory changes, institutional announcements, policy updates,…",
+    "robots": "index,follow",
+    "title": "Updates | Immigration Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Updates | Immigration Insights | Immigrate to Brazil",
+    "ogDescription": "Editorial-style guidance page covering updates in the Brazilian immigration context. Covers regulatory changes, institutional announcements, policy updates,…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+    "ogImageAlt": "Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Updates | Immigration Insights | Immigrate to Brazil",
+    "twitterDescription": "Editorial-style guidance page covering updates in the Brazilian immigration context. Covers regulatory changes, institutional announcements, policy updates,…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+    "twitterImageAlt": "Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Updates",
+    "pageFamily": "insights"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Updates",
+          "item": "https://immigratetobrazil.com/insights/updates/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Updates",
+      "description": "Editorial-style guidance page covering updates in the Brazilian immigration context.",
+      "author": {
+        "@type": "Organization",
+        "name": "Immigrate to Brazil"
+      },
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": "https://immigratetobrazil.com/insights/updates/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Updates: what matters most about regulatory changes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Updates: what matters most about institutional announcements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Updates: what matters most about policy updates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: navigation topics matter because readers should be able to find the right information without confusing broad guidance with case-specific advice. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Updates: what matters most about awareness purpose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/insights/updates/#hero-image",
+      "name": "Updates hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Updates page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration insights.",
+      "caption": "Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Updates, Brazil immigration insights, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

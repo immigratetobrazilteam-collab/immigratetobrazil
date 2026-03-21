@@ -1,0 +1,120 @@
+{
+  "route": "/process/renewal/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-renewal family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on renewal within Brazilian immigration procedures and compliance planning. Covers renewal eligibility, timing requirements, documentation f…",
+    "robots": "index,follow",
+    "title": "Renewal | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Renewal | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on renewal within Brazilian immigration procedures and compliance planning. Covers renewal eligibility, timing requirements, documentation f…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+    "ogImageAlt": "Hero image for the Renewal page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Renewal | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on renewal within Brazilian immigration procedures and compliance planning. Covers renewal eligibility, timing requirements, documentation f…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+    "twitterImageAlt": "Hero image for the Renewal page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Renewal",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Renewal",
+          "item": "https://immigratetobrazil.com/process/renewal/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Renewal | Immigrate to Brazil",
+      "serviceType": "Renewal",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/renewal/",
+      "description": "Process guidance on renewal within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does renewal eligibility matter at the renewal stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, renewal eligibility usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does timing requirements matter at the renewal stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, timing requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation for renewal matter at the renewal stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, documentation for renewal usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal conditions matter at the renewal stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, legal conditions usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does risks of expiry matter at the renewal stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, risks of expiry usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/renewal/#hero-image",
+      "name": "Renewal hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Renewal page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Renewal page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Renewal, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

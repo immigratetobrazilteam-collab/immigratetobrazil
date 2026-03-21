@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/humanitarian/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-humanitarian family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for humanitarian visa planning, documentation, authority interaction, and compliance framing. Covers humanitarian or protection context, structu…",
+    "robots": "index,follow",
+    "title": "Humanitarian Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Humanitarian Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for humanitarian visa planning, documentation, authority interaction, and compliance framing. Covers humanitarian or protection context, structu…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+    "ogImageAlt": "Hero image for the Humanitarian Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Humanitarian Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for humanitarian visa planning, documentation, authority interaction, and compliance framing. Covers humanitarian or protection context, structu…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+    "twitterImageAlt": "Hero image for the Humanitarian Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Humanitarian Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Humanitarian Visa",
+          "item": "https://immigratetobrazil.com/services/visas/humanitarian/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Humanitarian Visa | Immigrate to Brazil",
+      "serviceType": "Humanitarian Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/humanitarian/",
+      "description": "Service page for humanitarian visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does humanitarian or protection context matter in a humanitarian visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. In real cases, humanitarian or protection context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does structuring under brazilian provisions matter in a humanitarian visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, structuring under brazilian provisions changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does exceptional-framework alignment matter in a humanitarian visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, exceptional-framework alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does administrative positioning matter in a humanitarian visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, administrative positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does monitoring matter in a humanitarian visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, monitoring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/humanitarian/#hero-image",
+      "name": "Humanitarian Visa hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Humanitarian Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Humanitarian Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Humanitarian Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-humanitarian.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

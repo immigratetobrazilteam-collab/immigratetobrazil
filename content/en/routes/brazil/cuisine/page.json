@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/cuisine/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-cuisine family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on cuisine in Brazil for relocation, compliance, and practical planning. Covers regional food traditions, ingredients and products, pre…",
+    "robots": "index,follow",
+    "title": "Cuisine | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Cuisine | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on cuisine in Brazil for relocation, compliance, and practical planning. Covers regional food traditions, ingredients and products, pre…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+    "ogImageAlt": "Hero image for the Cuisine page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Cuisine | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on cuisine in Brazil for relocation, compliance, and practical planning. Covers regional food traditions, ingredients and products, pre…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+    "twitterImageAlt": "Hero image for the Cuisine page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Cuisine",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cuisine",
+          "item": "https://immigratetobrazil.com/brazil/cuisine/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does regional food traditions affect a move to Brazil in cuisine planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional food traditions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does ingredients and products affect a move to Brazil in cuisine planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ingredients and products should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does preparation methods affect a move to Brazil in cuisine planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "preparation methods should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does cultural influences affect a move to Brazil in cuisine planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "cultural influences should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does dining practices affect a move to Brazil in cuisine planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "dining practices should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/cuisine/#hero-image",
+      "name": "Cuisine hero image featuring Historic center of Ouro Preto",
+      "description": "SEO hero image for the Cuisine page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Cuisine page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+      "keywords": "Ouro Preto, Minas Gerais, historic center, colonial Brazil, southeast Brazil, the historic hillside architecture of Ouro Preto, Cuisine, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-ouro-preto-historic-center-cuisine.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

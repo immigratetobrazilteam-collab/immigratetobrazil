@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/south/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-south family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on south in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic charact…",
+    "robots": "index,follow",
+    "title": "South | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "South | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on south in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic charact…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+    "ogImageAlt": "Hero image for the South page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "South | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on south in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic charact…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+    "twitterImageAlt": "Hero image for the South page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "South",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "South",
+          "item": "https://immigratetobrazil.com/brazil/south/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does regional overview affect a move to Brazil in south planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional overview should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does states composition affect a move to Brazil in south planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "states composition should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does geographic characteristics affect a move to Brazil in south planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "geographic characteristics should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does climate profile affect a move to Brazil in south planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "climate profile should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic activities affect a move to Brazil in south planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic activities should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/south/#hero-image",
+      "name": "South hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the South page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the South page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, South, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

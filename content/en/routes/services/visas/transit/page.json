@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/transit/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-transit family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for transit visa planning, documentation, authority interaction, and compliance framing. Covers transit eligibility, travel purpose and duration…",
+    "robots": "index,follow",
+    "title": "Transit Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Transit Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for transit visa planning, documentation, authority interaction, and compliance framing. Covers transit eligibility, travel purpose and duration…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+    "ogImageAlt": "Hero image for the Transit Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Transit Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for transit visa planning, documentation, authority interaction, and compliance framing. Covers transit eligibility, travel purpose and duration…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+    "twitterImageAlt": "Hero image for the Transit Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Transit Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Transit Visa",
+          "item": "https://immigratetobrazil.com/services/visas/transit/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Transit Visa | Immigrate to Brazil",
+      "serviceType": "Transit Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/transit/",
+      "description": "Service page for transit visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does transit eligibility matter in a transit visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, transit eligibility changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does travel purpose and duration matter in a transit visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, potential clients usually need to understand how the practice works before they decide whether the fit is right. In real cases, travel purpose and duration changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal limitations matter in a transit visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, legal limitations changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a transit visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does preventive guidance matter in a transit visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, preventive guidance changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/transit/#hero-image",
+      "name": "Transit Visa hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Transit Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Transit Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Transit Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-transit.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

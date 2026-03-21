@@ -1,0 +1,108 @@
+{
+  "route": "/about/testimonials/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-testimonials family-about style-about",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "robots": "index,follow",
+    "title": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+    "ogImageAlt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+    "twitterImageAlt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Testimonials",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Testimonials",
+          "item": "https://immigratetobrazil.com/about/testimonials/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Testimonials: what matters most about nature of statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Testimonials: what matters most about context of feedback?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Testimonials: what matters most about format of presentation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Testimonials: what matters most about representational limitations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Testimonials: what matters most about neutrality clarification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/testimonials/#hero-image",
+      "name": "Testimonials hero image featuring Historic center of Ouro Preto",
+      "description": "SEO hero image for the Testimonials page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about a Brazil immigration law practice.",
+      "caption": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+      "keywords": "Ouro Preto, Minas Gerais, historic center, colonial Brazil, southeast Brazil, the historic hillside architecture of Ouro Preto, Testimonials, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

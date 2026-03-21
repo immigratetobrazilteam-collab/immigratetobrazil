@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/investor/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-investor family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for investor visa planning, documentation, authority interaction, and compliance framing. Covers investment-option analysis, investment structur…",
+    "robots": "index,follow",
+    "title": "Investor Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Investor Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for investor visa planning, documentation, authority interaction, and compliance framing. Covers investment-option analysis, investment structur…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+    "ogImageAlt": "Hero image for the Investor Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Investor Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for investor visa planning, documentation, authority interaction, and compliance framing. Covers investment-option analysis, investment structur…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+    "twitterImageAlt": "Hero image for the Investor Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Investor Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Investor Visa",
+          "item": "https://immigratetobrazil.com/services/visas/investor/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Investor Visa | Immigrate to Brazil",
+      "serviceType": "Investor Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/investor/",
+      "description": "Service page for investor visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does investment-option analysis matter in a investor visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, investment-option analysis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does investment structuring matter in a investor visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, investment structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does regulatory alignment matter in a investor visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, potential clients usually need to understand how the practice works before they decide whether the fit is right. In real cases, regulatory alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does economic-activity positioning matter in a investor visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, economic-activity positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does strategy review matter in a investor visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, strategy review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/investor/#hero-image",
+      "name": "Investor Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Investor Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Investor Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Investor Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-investor.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

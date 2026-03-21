@@ -1,0 +1,62 @@
+{
+  "route": "/legal/404/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-404 family-legal style-404",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "Helpful recovery page for missing routes. Covers page not found, search, main navigation, practical documentation logic, official-resource orientation, and c…",
+    "robots": "noindex,follow",
+    "title": "404 | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "404 | Legal Information | Immigrate to Brazil",
+    "ogDescription": "Helpful recovery page for missing routes. Covers page not found, search, main navigation, practical documentation logic, official-resource orientation, and c…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+    "ogImageAlt": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "404 | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "Helpful recovery page for missing routes. Covers page not found, search, main navigation, practical documentation logic, official-resource orientation, and c…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+    "twitterImageAlt": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "404",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "404",
+          "item": "https://immigratetobrazil.com/legal/404/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/404/#hero-image",
+      "name": "404 hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the 404 page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
+      "caption": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, 404, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

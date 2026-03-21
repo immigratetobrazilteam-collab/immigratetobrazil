@@ -1,0 +1,120 @@
+{
+  "route": "/process/obligations/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-obligations family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on obligations within Brazilian immigration procedures and compliance planning. Covers legal duties of the applicant, documentation requirem…",
+    "robots": "index,follow",
+    "title": "Obligations | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Obligations | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on obligations within Brazilian immigration procedures and compliance planning. Covers legal duties of the applicant, documentation requirem…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+    "ogImageAlt": "Hero image for the Obligations page showing the Curitiba skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Obligations | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on obligations within Brazilian immigration procedures and compliance planning. Covers legal duties of the applicant, documentation requirem…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+    "twitterImageAlt": "Hero image for the Obligations page showing the Curitiba skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Obligations",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Obligations",
+          "item": "https://immigratetobrazil.com/process/obligations/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Obligations | Immigrate to Brazil",
+      "serviceType": "Obligations",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/obligations/",
+      "description": "Process guidance on obligations within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does legal duties of the applicant matter at the obligations stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, legal duties of the applicant usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation requirements matter at the obligations stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Before the next step, documentation requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does reporting obligations matter at the obligations stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, reporting obligations usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance with visa conditions matter at the obligations stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, compliance with visa conditions usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does updates to authorities matter at the obligations stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. Before the next step, updates to authorities usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/obligations/#hero-image",
+      "name": "Obligations hero image featuring Curitiba skyline",
+      "description": "SEO hero image for the Obligations page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Obligations page showing the Curitiba skyline in southern Brazil.",
+      "keywords": "Curitiba, Parana, Brazil skyline, southern Brazil, urban Brazil, the Curitiba skyline, Obligations, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-curitiba-skyline-obligations.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

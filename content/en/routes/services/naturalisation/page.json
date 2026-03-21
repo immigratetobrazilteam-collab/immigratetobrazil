@@ -1,0 +1,110 @@
+{
+  "route": "/services/naturalisation/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-naturalisation family-services style-service-hub",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
+    "robots": "index,follow",
+    "title": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+    "ogImageAlt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+    "twitterImageAlt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Naturalisation",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/services/naturalisation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Naturalisation | Immigrate to Brazil",
+      "serviceType": "Naturalisation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/naturalisation/",
+      "description": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does citizenship eligibility matter in a naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, citizenship eligibility changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does applicable categories matter in a naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, applicable categories changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does residency-history review matter in a naturalisation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, residency-history review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/naturalisation/#hero-image",
+      "name": "Naturalisation hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Naturalisation, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

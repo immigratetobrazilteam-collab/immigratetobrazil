@@ -1,0 +1,120 @@
+{
+  "route": "/process/approval/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-approval family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on approval within Brazilian immigration procedures and compliance planning. Covers administrative decision process, possible outcomes, cond…",
+    "robots": "index,follow",
+    "title": "Approval | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Approval | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on approval within Brazilian immigration procedures and compliance planning. Covers administrative decision process, possible outcomes, cond…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+    "ogImageAlt": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Approval | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on approval within Brazilian immigration procedures and compliance planning. Covers administrative decision process, possible outcomes, cond…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+    "twitterImageAlt": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Approval",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approval",
+          "item": "https://immigratetobrazil.com/process/approval/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Approval | Immigrate to Brazil",
+      "serviceType": "Approval",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/approval/",
+      "description": "Process guidance on approval within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does administrative decision process matter at the approval stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Before the next step, administrative decision process usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does possible outcomes matter at the approval stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Before the next step, possible outcomes usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does conditions of approval matter at the approval stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, conditions of approval usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does post-approval requirements matter at the approval stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Before the next step, post-approval requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration obligations matter at the approval stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. Before the next step, registration obligations usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/approval/#hero-image",
+      "name": "Approval hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Approval page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Approval, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

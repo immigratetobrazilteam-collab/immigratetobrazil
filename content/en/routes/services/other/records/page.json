@@ -1,0 +1,126 @@
+{
+  "route": "/services/other/records/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-other-records family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for records support, documentation structure, procedural coordination, and practical next steps. Covers record retrieval strategy, civil and cri…",
+    "robots": "index,follow",
+    "title": "Records | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Records | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for records support, documentation structure, procedural coordination, and practical next steps. Covers record retrieval strategy, civil and cri…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+    "ogImageAlt": "Hero image for the Records page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Records | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for records support, documentation structure, procedural coordination, and practical next steps. Covers record retrieval strategy, civil and cri…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+    "twitterImageAlt": "Hero image for the Records page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Records",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Records",
+          "item": "https://immigratetobrazil.com/services/other/records/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Records | Immigrate to Brazil",
+      "serviceType": "Records",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/other/records/",
+      "description": "Service page for records support, documentation structure, procedural coordination, and practical next steps."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does record retrieval strategy matter in a records matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, record retrieval strategy changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does civil and criminal record context matter in a records matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, civil and criminal record context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority interaction matter in a records matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority interaction changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation chain matter in a records matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation chain changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ongoing support matter in a records matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, ongoing support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/other/records/#hero-image",
+      "name": "Records hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Records page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Records page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Records, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-records.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "route": "/services/visas/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas family-services style-service-hub",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+    "robots": "index,follow",
+    "title": "Visas | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Visas | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+    "ogImageAlt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Visas | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+    "twitterImageAlt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Visas",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visas",
+          "item": "https://immigratetobrazil.com/services/visas/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Visas | Immigrate to Brazil",
+      "serviceType": "Visas",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/",
+      "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does scope of visa services matter in a visas matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, scope of visa services changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does identification of applicable visa categories matter in a visas matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, identification of applicable visa categories changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal analysis of intended activity and purpose of entry matter in a visas matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that potential clients usually need to understand how the practice works before they decide whether the fit is right. In real cases, legal analysis of intended activity and purpose of entry changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/#hero-image",
+      "name": "Visas hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Visas page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Visas, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

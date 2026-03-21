@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/research/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-research family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for research residence planning, registration, status management, and compliance monitoring. Covers research residence basis, institutional affi…",
+    "robots": "index,follow",
+    "title": "Research Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Research Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for research residence planning, registration, status management, and compliance monitoring. Covers research residence basis, institutional affi…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+    "ogImageAlt": "Hero image for the Research Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Research Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for research residence planning, registration, status management, and compliance monitoring. Covers research residence basis, institutional affi…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+    "twitterImageAlt": "Hero image for the Research Residency page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Research Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Research Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/research/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Research Residency | Immigrate to Brazil",
+      "serviceType": "Research Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/research/",
+      "description": "Service page for research residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does research residence basis matter in a research residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, research residence basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does institutional affiliation matter in a research residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, institutional affiliation changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation structure matter in a research residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration flow matter in a research residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, registration flow changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance duties matter in a research residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, compliance duties changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/research/#hero-image",
+      "name": "Research Residency hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Research Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Research Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Research Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-research.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

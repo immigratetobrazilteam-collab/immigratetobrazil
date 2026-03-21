@@ -1,0 +1,126 @@
+{
+  "route": "/services/advisory/compliance/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-advisory-compliance family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for compliance advisory support, documentation planning, compliance visibility, and structured decision-making. Covers monitoring scope, legal d…",
+    "robots": "index,follow",
+    "title": "Compliance | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Compliance | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for compliance advisory support, documentation planning, compliance visibility, and structured decision-making. Covers monitoring scope, legal d…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+    "ogImageAlt": "Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Compliance | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for compliance advisory support, documentation planning, compliance visibility, and structured decision-making. Covers monitoring scope, legal d…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+    "twitterImageAlt": "Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Compliance",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Compliance",
+          "item": "https://immigratetobrazil.com/services/advisory/compliance/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Compliance | Immigrate to Brazil",
+      "serviceType": "Compliance",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/advisory/compliance/",
+      "description": "Service page for compliance advisory support, documentation planning, compliance visibility, and structured decision-making."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does monitoring scope matter in a compliance matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, monitoring scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal duties matter in a compliance matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, legal duties changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does status controls matter in a compliance matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, status controls changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation upkeep matter in a compliance matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation upkeep changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does decision support matter in a compliance matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, decision support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/advisory/compliance/#hero-image",
+      "name": "Compliance hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Compliance page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Compliance, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-compliance.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

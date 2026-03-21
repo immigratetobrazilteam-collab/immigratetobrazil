@@ -1,0 +1,126 @@
+{
+  "route": "/services/defense/litigation/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-defense-litigation family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for litigation response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, autho…",
+    "robots": "index,follow",
+    "title": "Litigation | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Litigation | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for litigation response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, autho…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+    "ogImageAlt": "Hero image for the Litigation page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Litigation | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for litigation response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, autho…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+    "twitterImageAlt": "Hero image for the Litigation page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Litigation",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Litigation",
+          "item": "https://immigratetobrazil.com/services/defense/litigation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Litigation | Immigrate to Brazil",
+      "serviceType": "Litigation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/defense/litigation/",
+      "description": "Service page for litigation response planning, evidence strategy, authority interaction, and ongoing support."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does legal context matter in a litigation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does response structure matter in a litigation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, response structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority interaction matter in a litigation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority interaction changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does evidence and document strategy matter in a litigation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, evidence and document strategy changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ongoing service support matter in a litigation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, ongoing service support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/defense/litigation/#hero-image",
+      "name": "Litigation hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Litigation page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Litigation page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Litigation, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-litigation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

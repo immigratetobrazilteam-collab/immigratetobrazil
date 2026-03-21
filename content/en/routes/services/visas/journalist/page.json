@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/journalist/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-journalist family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for journalist visa planning, documentation, authority interaction, and compliance framing. Covers journalistic activity classification, regulat…",
+    "robots": "index,follow",
+    "title": "Journalist Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Journalist Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for journalist visa planning, documentation, authority interaction, and compliance framing. Covers journalistic activity classification, regulat…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+    "ogImageAlt": "Hero image for the Journalist Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Journalist Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for journalist visa planning, documentation, authority interaction, and compliance framing. Covers journalistic activity classification, regulat…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+    "twitterImageAlt": "Hero image for the Journalist Visa page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Journalist Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Journalist Visa",
+          "item": "https://immigratetobrazil.com/services/visas/journalist/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Journalist Visa | Immigrate to Brazil",
+      "serviceType": "Journalist Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/journalist/",
+      "description": "Service page for journalist visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does journalistic activity classification matter in a journalist visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, journalistic activity classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does regulatory assessment matter in a journalist visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, potential clients usually need to understand how the practice works before they decide whether the fit is right. In real cases, regulatory assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does professional-framework structuring matter in a journalist visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, professional-framework structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does media and institutional alignment matter in a journalist visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, media and institutional alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a journalist visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/journalist/#hero-image",
+      "name": "Journalist Visa hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Journalist Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Journalist Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Journalist Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-journalist.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

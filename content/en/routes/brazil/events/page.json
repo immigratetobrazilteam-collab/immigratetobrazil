@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/events/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-events family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on events in Brazil for relocation, compliance, and practical planning. Covers event categories, cultural events, business and professi…",
+    "robots": "index,follow",
+    "title": "Events | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Events | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on events in Brazil for relocation, compliance, and practical planning. Covers event categories, cultural events, business and professi…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+    "ogImageAlt": "Hero image for the Events page showing Paraty's colonial waterfront in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Events | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on events in Brazil for relocation, compliance, and practical planning. Covers event categories, cultural events, business and professi…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+    "twitterImageAlt": "Hero image for the Events page showing Paraty's colonial waterfront in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Events",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Events",
+          "item": "https://immigratetobrazil.com/brazil/events/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does event categories affect a move to Brazil in events planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "event categories should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does cultural events affect a move to Brazil in events planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "cultural events should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does business and professional events affect a move to Brazil in events planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "business and professional events should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does public versus private affect a move to Brazil in events planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "public versus private should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does regional distribution affect a move to Brazil in events planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional distribution should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/events/#hero-image",
+      "name": "Events hero image featuring Historic waterfront of Paraty",
+      "description": "SEO hero image for the Events page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Events page showing Paraty's colonial waterfront in southeast Brazil.",
+      "keywords": "Paraty, Rio de Janeiro state, colonial waterfront, Brazil heritage, southeast Brazil, Paraty's colonial waterfront, Events, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-events.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

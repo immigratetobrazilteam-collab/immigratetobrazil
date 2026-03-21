@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/medical/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-medical family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for medical visa planning, documentation, authority interaction, and compliance framing. Covers medical-activity assessment, immigration classif…",
+    "robots": "index,follow",
+    "title": "Medical Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Medical Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for medical visa planning, documentation, authority interaction, and compliance framing. Covers medical-activity assessment, immigration classif…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+    "ogImageAlt": "Hero image for the Medical Visa page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Medical Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for medical visa planning, documentation, authority interaction, and compliance framing. Covers medical-activity assessment, immigration classif…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+    "twitterImageAlt": "Hero image for the Medical Visa page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Medical Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Medical Visa",
+          "item": "https://immigratetobrazil.com/services/visas/medical/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Medical Visa | Immigrate to Brazil",
+      "serviceType": "Medical Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/medical/",
+      "description": "Service page for medical visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does medical-activity assessment matter in a medical visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, medical-activity assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does immigration classification matter in a medical visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, immigration classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authorized-scope structuring matter in a medical visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, authorized-scope structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does institutional alignment matter in a medical visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, institutional alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a medical visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/medical/#hero-image",
+      "name": "Medical Visa hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Medical Visa page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Medical Visa page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Medical Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-medical.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

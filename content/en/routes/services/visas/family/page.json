@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/family/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-family family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for family visa planning, documentation, authority interaction, and compliance framing. Covers family relationship analysis, family-tie structur…",
+    "robots": "index,follow",
+    "title": "Family Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-curitiba-skyline-family.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Family Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for family visa planning, documentation, authority interaction, and compliance framing. Covers family relationship analysis, family-tie structur…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+    "ogImageAlt": "Hero image for the Family Visa page showing the Curitiba skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Family Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for family visa planning, documentation, authority interaction, and compliance framing. Covers family relationship analysis, family-tie structur…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+    "twitterImageAlt": "Hero image for the Family Visa page showing the Curitiba skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Family Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Family Visa",
+          "item": "https://immigratetobrazil.com/services/visas/family/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Family Visa | Immigrate to Brazil",
+      "serviceType": "Family Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/family/",
+      "description": "Service page for family visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does family relationship analysis matter in a family visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. In real cases, family relationship analysis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does family-tie structuring matter in a family visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. In real cases, family-tie structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does category alignment matter in a family visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, category alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does relationship recognition matter in a family visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. In real cases, relationship recognition changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does family-framework positioning matter in a family visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. In real cases, family-framework positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/family/#hero-image",
+      "name": "Family Visa hero image featuring Curitiba skyline",
+      "description": "SEO hero image for the Family Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Family Visa page showing the Curitiba skyline in southern Brazil.",
+      "keywords": "Curitiba, Parana, Brazil skyline, southern Brazil, urban Brazil, the Curitiba skyline, Family Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

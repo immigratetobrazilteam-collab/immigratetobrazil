@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/housing/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-housing family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on housing in Brazil for relocation, compliance, and practical planning. Covers property types, rental framework, lease agreements, pra…",
+    "robots": "index,follow",
+    "title": "Housing | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Housing | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on housing in Brazil for relocation, compliance, and practical planning. Covers property types, rental framework, lease agreements, pra…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+    "ogImageAlt": "Hero image for the Housing page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Housing | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on housing in Brazil for relocation, compliance, and practical planning. Covers property types, rental framework, lease agreements, pra…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+    "twitterImageAlt": "Hero image for the Housing page showing Iguazu Falls on the Brazilian side in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Housing",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Housing",
+          "item": "https://immigratetobrazil.com/brazil/housing/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does property types affect a move to Brazil in housing planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "property types should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does rental framework affect a move to Brazil in housing planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "rental framework should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does lease agreements affect a move to Brazil in housing planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "lease agreements should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does purchase regulations affect a move to Brazil in housing planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "purchase regulations should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does foreign ownership rules affect a move to Brazil in housing planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "foreign ownership rules should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/housing/#hero-image",
+      "name": "Housing hero image featuring Iguazu Falls on the Brazilian side",
+      "description": "SEO hero image for the Housing page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Housing page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+      "keywords": "Iguazu Falls, Foz do Iguacu, waterfalls, southern Brazil, Brazil nature, Iguazu Falls on the Brazilian side, Housing, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-housing.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

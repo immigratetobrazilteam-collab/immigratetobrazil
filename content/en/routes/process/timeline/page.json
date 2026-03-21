@@ -1,0 +1,120 @@
+{
+  "route": "/process/timeline/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-timeline family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on timeline within Brazilian immigration procedures and compliance planning. Covers general processing phases, estimated timeframes (where p…",
+    "robots": "index,follow",
+    "title": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on timeline within Brazilian immigration procedures and compliance planning. Covers general processing phases, estimated timeframes (where p…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+    "ogImageAlt": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on timeline within Brazilian immigration procedures and compliance planning. Covers general processing phases, estimated timeframes (where p…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+    "twitterImageAlt": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Timeline",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Timeline",
+          "item": "https://immigratetobrazil.com/process/timeline/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Timeline | Immigrate to Brazil",
+      "serviceType": "Timeline",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/timeline/",
+      "description": "Process guidance on timeline within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does general processing phases matter at the timeline stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, general processing phases usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does estimated timeframes where possible matter at the timeline stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, estimated timeframes where possible usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does variability factors matter at the timeline stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, variability factors usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority processing times matter at the timeline stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, authority processing times usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does delays and external factors matter at the timeline stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, delays and external factors usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/timeline/#hero-image",
+      "name": "Timeline hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Timeline page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Timeline, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

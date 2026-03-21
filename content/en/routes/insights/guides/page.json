@@ -1,0 +1,114 @@
+{
+  "route": "/insights/guides/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights-guides family-insights style-insight",
+  "meta": {
+    "themeColor": "#CD6C28",
+    "description": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "robots": "index,follow",
+    "title": "Guides | Immigration Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Guides | Immigration Insights | Immigrate to Brazil",
+    "ogDescription": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+    "ogImageAlt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Guides | Immigration Insights | Immigrate to Brazil",
+    "twitterDescription": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+    "twitterImageAlt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Guides",
+    "pageFamily": "insights"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://immigratetobrazil.com/insights/guides/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Guides",
+      "description": "Editorial-style guidance page covering guides in the Brazilian immigration context.",
+      "author": {
+        "@type": "Organization",
+        "name": "Immigrate to Brazil"
+      },
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": "https://immigratetobrazil.com/insights/guides/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Guides: what matters most about structured immigration overviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Guides: what matters most about terminology clarification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Guides: what matters most about framework explanations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Guides: what matters most about orientation purpose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/insights/guides/#hero-image",
+      "name": "Guides hero image featuring Historic center of Ouro Preto",
+      "description": "SEO hero image for the Guides page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about Brazil immigration insights.",
+      "caption": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
+      "keywords": "Ouro Preto, Minas Gerais, historic center, colonial Brazil, southeast Brazil, the historic hillside architecture of Ouro Preto, Guides, Brazil immigration insights, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

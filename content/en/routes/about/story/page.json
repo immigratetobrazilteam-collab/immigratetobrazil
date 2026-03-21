@@ -1,0 +1,108 @@
+{
+  "route": "/about/story/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-story family-about style-about",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
+    "robots": "index,follow",
+    "title": "Story | Immigrate to Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Story | Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+    "ogImageAlt": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Story | Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+    "twitterImageAlt": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Story",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Story",
+          "item": "https://immigratetobrazil.com/about/story/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Story: what matters most about origin of the practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Story: what matters most about development timeline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Story: what matters most about expansion of services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Story: what matters most about evolution of focus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Story: what matters most about current structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/story/#hero-image",
+      "name": "Story hero image featuring Historic waterfront of Paraty",
+      "description": "SEO hero image for the Story page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about a Brazil immigration law practice.",
+      "caption": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil.",
+      "keywords": "Paraty, Rio de Janeiro state, colonial waterfront, Brazil heritage, southeast Brazil, Paraty's colonial waterfront, Story, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

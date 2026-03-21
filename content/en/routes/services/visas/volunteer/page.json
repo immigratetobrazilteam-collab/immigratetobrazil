@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/volunteer/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-volunteer family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for volunteer visa planning, documentation, authority interaction, and compliance framing. Covers volunteer-activity qualification, category ass…",
+    "robots": "index,follow",
+    "title": "Volunteer Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Volunteer Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for volunteer visa planning, documentation, authority interaction, and compliance framing. Covers volunteer-activity qualification, category ass…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+    "ogImageAlt": "Hero image for the Volunteer Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Volunteer Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for volunteer visa planning, documentation, authority interaction, and compliance framing. Covers volunteer-activity qualification, category ass…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+    "twitterImageAlt": "Hero image for the Volunteer Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Volunteer Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Volunteer Visa",
+          "item": "https://immigratetobrazil.com/services/visas/volunteer/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Volunteer Visa | Immigrate to Brazil",
+      "serviceType": "Volunteer Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/volunteer/",
+      "description": "Service page for volunteer visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does volunteer-activity qualification matter in a volunteer visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, volunteer-activity qualification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does category assessment matter in a volunteer visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, category assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does institutional structuring matter in a volunteer visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, institutional structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does rule alignment matter in a volunteer visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, rule alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a volunteer visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/volunteer/#hero-image",
+      "name": "Volunteer Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Volunteer Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Volunteer Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Volunteer Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-volunteer.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

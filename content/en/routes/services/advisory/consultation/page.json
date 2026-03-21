@@ -1,0 +1,126 @@
+{
+  "route": "/services/advisory/consultation/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-advisory-consultation family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+    "robots": "index,follow",
+    "title": "Consultation | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Consultation | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+    "ogImageAlt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Consultation | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+    "twitterImageAlt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Consultation",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Consultation",
+          "item": "https://immigratetobrazil.com/services/advisory/consultation/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Consultation | Immigrate to Brazil",
+      "serviceType": "Consultation",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/advisory/consultation/",
+      "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does advisory scope matter in a consultation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, advisory scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does intake structure matter in a consultation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, intake structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal framing matter in a consultation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal framing changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation review matter in a consultation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does decision support matter in a consultation matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, decision support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/advisory/consultation/#hero-image",
+      "name": "Consultation hero image featuring Florianopolis coastline",
+      "description": "SEO hero image for the Consultation page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+      "keywords": "Florianopolis, Praia Brava, Brazil beach, Atlantic coast, southern Brazil, Florianopolis and Praia Brava on the Atlantic coast, Consultation, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

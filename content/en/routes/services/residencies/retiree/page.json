@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/retiree/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-retiree family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for retiree residence planning, registration, status management, and compliance monitoring. Covers retirement income basis, residence structurin…",
+    "robots": "index,follow",
+    "title": "Retiree Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Retiree Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for retiree residence planning, registration, status management, and compliance monitoring. Covers retirement income basis, residence structurin…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "ogImageAlt": "Hero image for the Retiree Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Retiree Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for retiree residence planning, registration, status management, and compliance monitoring. Covers retirement income basis, residence structurin…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "twitterImageAlt": "Hero image for the Retiree Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Retiree Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Retiree Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/retiree/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Retiree Residency | Immigrate to Brazil",
+      "serviceType": "Retiree Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/retiree/",
+      "description": "Service page for retiree residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does retirement income basis matter in a retiree residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, retirement income basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does residence structuring matter in a retiree residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, residence structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation planning matter in a retiree residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation planning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration flow matter in a retiree residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, registration flow changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance duties matter in a retiree residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, compliance duties changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/retiree/#hero-image",
+      "name": "Retiree Residency hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Retiree Residency page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Retiree Residency page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Retiree Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

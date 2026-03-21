@@ -1,0 +1,122 @@
+{
+  "route": "/insights/process/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights-process family-insights style-insight",
+  "meta": {
+    "themeColor": "#CD6C28",
+    "description": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
+    "robots": "index,follow",
+    "title": "Process | Immigration Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Process | Immigration Insights | Immigrate to Brazil",
+    "ogDescription": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+    "ogImageAlt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Process | Immigration Insights | Immigrate to Brazil",
+    "twitterDescription": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+    "twitterImageAlt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Process",
+    "pageFamily": "insights"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Process",
+          "item": "https://immigratetobrazil.com/insights/process/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Process",
+      "description": "Editorial-style guidance page covering process in the Brazilian immigration context.",
+      "author": {
+        "@type": "Organization",
+        "name": "Immigrate to Brazil"
+      },
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": "https://immigratetobrazil.com/insights/process/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Process: what matters most about institutional roles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Process: what matters most about general sequence of procedures?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Process: what matters most about administrative versus judicial distinction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Process: what matters most about compliance concept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Process: what matters most about orientation purpose?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/insights/process/#hero-image",
+      "name": "Process hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Process page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration insights.",
+      "caption": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Process, Brazil immigration insights, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

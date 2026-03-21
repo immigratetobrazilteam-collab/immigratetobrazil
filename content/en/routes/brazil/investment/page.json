@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/investment/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-investment family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
+    "robots": "index,follow",
+    "title": "Investment | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Investment | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+    "ogImageAlt": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Investment | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+    "twitterImageAlt": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Investment",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Investment",
+          "item": "https://immigratetobrazil.com/brazil/investment/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does foreign investment framework affect a move to Brazil in investment planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "foreign investment framework should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does legal structures for investment affect a move to Brazil in investment planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "legal structures for investment should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does regulatory requirements affect a move to Brazil in investment planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regulatory requirements should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does entry of foreign capital affect a move to Brazil in investment planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "entry of foreign capital should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does corporate structures in brazil affect a move to Brazil in investment planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "corporate structures in brazil should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/investment/#hero-image",
+      "name": "Investment hero image featuring Florianopolis coastline",
+      "description": "SEO hero image for the Investment page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+      "keywords": "Florianopolis, Praia Brava, Brazil beach, Atlantic coast, southern Brazil, Florianopolis and Praia Brava on the Atlantic coast, Investment, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

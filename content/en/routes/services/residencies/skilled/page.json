@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/skilled/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-skilled family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for skilled residence planning, registration, status management, and compliance monitoring. Covers skilled-worker basis, qualification alignment…",
+    "robots": "index,follow",
+    "title": "Skilled Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Skilled Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for skilled residence planning, registration, status management, and compliance monitoring. Covers skilled-worker basis, qualification alignment…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+    "ogImageAlt": "Hero image for the Skilled Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Skilled Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for skilled residence planning, registration, status management, and compliance monitoring. Covers skilled-worker basis, qualification alignment…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+    "twitterImageAlt": "Hero image for the Skilled Residency page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Skilled Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Skilled Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/skilled/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Skilled Residency | Immigrate to Brazil",
+      "serviceType": "Skilled Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/skilled/",
+      "description": "Service page for skilled residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does skilled-worker basis matter in a skilled residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, skilled-worker basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does qualification alignment matter in a skilled residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, qualification alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does employer coordination matter in a skilled residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, employer coordination changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation structure matter in a skilled residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration flow matter in a skilled residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, registration flow changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/skilled/#hero-image",
+      "name": "Skilled Residency hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Skilled Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Skilled Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Skilled Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-skilled.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

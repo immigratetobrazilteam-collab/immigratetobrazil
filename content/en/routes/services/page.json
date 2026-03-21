@@ -1,0 +1,120 @@
+{
+  "route": "/services/",
+  "lang": "en",
+  "bodyClass": "site-root page-services family-services style-services-home",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+    "robots": "index,follow",
+    "title": "Services | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Services | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+    "ogImageAlt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Services | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+    "twitterImageAlt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Services",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Services | Immigrate to Brazil",
+      "serviceType": "Services",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/",
+      "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Services: what matters most about visa and residency pathways?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, visa and residency pathways changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Services: what matters most about naturalisation and citizenship planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, naturalisation and citizenship planning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Services: what matters most about defense and regularization support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, defense and regularization support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Services: what matters most about document-driven advisory services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, document-driven advisory services changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Services: what matters most about nationwide online service delivery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, nationwide online service delivery changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/#hero-image",
+      "name": "Services hero image featuring Amazon river basin",
+      "description": "SEO hero image for the Services page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil.",
+      "keywords": "Amazon river, Amazon basin, Brazil rainforest, northern Brazil, Brazil nature, an aerial view of the Amazon river basin, Services, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

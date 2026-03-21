@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/brazil/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-brazil family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on brazil in Brazil for relocation, compliance, and practical planning. Covers geographic overview, legal environment, institutional fr…",
+    "robots": "index,follow",
+    "title": "Brazil | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Brazil | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on brazil in Brazil for relocation, compliance, and practical planning. Covers geographic overview, legal environment, institutional fr…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+    "ogImageAlt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Brazil | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on brazil in Brazil for relocation, compliance, and practical planning. Covers geographic overview, legal environment, institutional fr…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+    "twitterImageAlt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Brazil",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil",
+          "item": "https://immigratetobrazil.com/brazil/brazil/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does geographic overview affect a move to Brazil in brazil planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "geographic overview should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does legal environment affect a move to Brazil in brazil planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "legal environment should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does institutional framework affect a move to Brazil in brazil planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "institutional framework should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does migration context affect a move to Brazil in brazil planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "migration context should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic position affect a move to Brazil in brazil planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic position should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/brazil/#hero-image",
+      "name": "Brazil hero image featuring Amazon river basin",
+      "description": "SEO hero image for the Brazil page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil.",
+      "keywords": "Amazon river, Amazon basin, Brazil rainforest, northern Brazil, Brazil nature, an aerial view of the Amazon river basin, Brazil, relocation guidance about life in Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

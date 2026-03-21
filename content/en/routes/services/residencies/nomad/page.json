@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/nomad/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-nomad family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for nomad residence planning, registration, status management, and compliance monitoring. Covers remote-work continuity, residence-permit basis,…",
+    "robots": "index,follow",
+    "title": "Nomad Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Nomad Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for nomad residence planning, registration, status management, and compliance monitoring. Covers remote-work continuity, residence-permit basis,…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+    "ogImageAlt": "Hero image for the Nomad Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Nomad Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for nomad residence planning, registration, status management, and compliance monitoring. Covers remote-work continuity, residence-permit basis,…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+    "twitterImageAlt": "Hero image for the Nomad Residency page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Nomad Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nomad Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/nomad/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Nomad Residency | Immigrate to Brazil",
+      "serviceType": "Nomad Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/nomad/",
+      "description": "Service page for nomad residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does remote-work continuity matter in a nomad residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, remote-work continuity changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does residence-permit basis matter in a nomad residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, residence-permit basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation alignment matter in a nomad residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance monitoring matter in a nomad residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, compliance monitoring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration flow matter in a nomad residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, registration flow changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/nomad/#hero-image",
+      "name": "Nomad Residency hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Nomad Residency page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Nomad Residency page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Nomad Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

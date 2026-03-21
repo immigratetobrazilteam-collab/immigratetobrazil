@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/retiree/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-retiree family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for retiree visa planning, documentation, authority interaction, and compliance framing. Covers retirement eligibility, long-term stay structuri…",
+    "robots": "index,follow",
+    "title": "Retiree Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Retiree Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for retiree visa planning, documentation, authority interaction, and compliance framing. Covers retirement eligibility, long-term stay structuri…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "ogImageAlt": "Hero image for the Retiree Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Retiree Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for retiree visa planning, documentation, authority interaction, and compliance framing. Covers retirement eligibility, long-term stay structuri…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+    "twitterImageAlt": "Hero image for the Retiree Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Retiree Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Retiree Visa",
+          "item": "https://immigratetobrazil.com/services/visas/retiree/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Retiree Visa | Immigrate to Brazil",
+      "serviceType": "Retiree Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/retiree/",
+      "description": "Service page for retiree visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does retirement eligibility matter in a retiree visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, retirement eligibility changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does long-term stay structuring matter in a retiree visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, long-term stay structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does immigration alignment matter in a retiree visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, immigration alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does retirement-provision positioning matter in a retiree visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, retirement-provision positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance review matter in a retiree visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, compliance review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/retiree/#hero-image",
+      "name": "Retiree Visa hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Retiree Visa page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Retiree Visa page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Retiree Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-retiree.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

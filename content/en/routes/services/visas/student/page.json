@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/student/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-student family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for student visa planning, documentation, authority interaction, and compliance framing. Covers study-based entry assessment, institutional alig…",
+    "robots": "index,follow",
+    "title": "Student Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-curitiba-skyline-student.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Student Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for student visa planning, documentation, authority interaction, and compliance framing. Covers study-based entry assessment, institutional alig…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+    "ogImageAlt": "Hero image for the Student Visa page showing the Curitiba skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Student Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for student visa planning, documentation, authority interaction, and compliance framing. Covers study-based entry assessment, institutional alig…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+    "twitterImageAlt": "Hero image for the Student Visa page showing the Curitiba skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Student Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Student Visa",
+          "item": "https://immigratetobrazil.com/services/visas/student/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Student Visa | Immigrate to Brazil",
+      "serviceType": "Student Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/student/",
+      "description": "Service page for student visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does study-based entry assessment matter in a student visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, study-based entry assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does institutional alignment matter in a student visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, institutional alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does academic-path structuring matter in a student visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, academic-path structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal classification matter in a student visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, legal classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a student visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/student/#hero-image",
+      "name": "Student Visa hero image featuring Curitiba skyline",
+      "description": "SEO hero image for the Student Visa page on Immigrate to Brazil, showing the Curitiba skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Student Visa page showing the Curitiba skyline in southern Brazil.",
+      "keywords": "Curitiba, Parana, Brazil skyline, southern Brazil, urban Brazil, the Curitiba skyline, Student Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-curitiba-skyline-student.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

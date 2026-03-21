@@ -1,0 +1,120 @@
+{
+  "route": "/process/permanent/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-permanent family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "robots": "index,follow",
+    "title": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+    "ogImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+    "twitterImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Permanent",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Permanent",
+          "item": "https://immigratetobrazil.com/process/permanent/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Permanent | Immigrate to Brazil",
+      "serviceType": "Permanent",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/permanent/",
+      "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does transition to permanent status matter at the permanent stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, transition to permanent status usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does eligibility criteria matter at the permanent stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, eligibility criteria usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal requirements matter at the permanent stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does time-based conditions matter at the permanent stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, time-based conditions usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation matter at the permanent stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Before the next step, documentation usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/permanent/#hero-image",
+      "name": "Permanent hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Permanent page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Permanent, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

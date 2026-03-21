@@ -1,0 +1,108 @@
+{
+  "route": "/legal/form/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-form family-legal style-form",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation. Covers full name, email, phone or whatsapp…",
+    "robots": "index,follow",
+    "title": "Form | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Form | Legal Information | Immigrate to Brazil",
+    "ogDescription": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation. Covers full name, email, phone or whatsapp…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+    "ogImageAlt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Form | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation. Covers full name, email, phone or whatsapp…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+    "twitterImageAlt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Form",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Form",
+          "item": "https://immigratetobrazil.com/legal/form/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Form: what should you know about full name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Form: what should you know about email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Form: what should you know about phone or whatsapp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Form: what should you know about occupation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Form: what should you know about country?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/form/#hero-image",
+      "name": "Form hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Form page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
+      "caption": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Form, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

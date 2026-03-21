@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/youth/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-youth family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for youth residence planning, registration, status management, and compliance monitoring. Covers youth-mobility basis, program alignment, docume…",
+    "robots": "index,follow",
+    "title": "Youth Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Youth Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for youth residence planning, registration, status management, and compliance monitoring. Covers youth-mobility basis, program alignment, docume…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+    "ogImageAlt": "Hero image for the Youth Residency page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Youth Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for youth residence planning, registration, status management, and compliance monitoring. Covers youth-mobility basis, program alignment, docume…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+    "twitterImageAlt": "Hero image for the Youth Residency page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Youth Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Youth Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/youth/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Youth Residency | Immigrate to Brazil",
+      "serviceType": "Youth Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/youth/",
+      "description": "Service page for youth residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does youth-mobility basis matter in a youth residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that relocation planning is rarely abstract, because city, region, infrastructure, budget, and public-service access all affect how realistic a move feels after arrival. In real cases, youth-mobility basis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does program alignment matter in a youth residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, program alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation structure matter in a youth residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does registration flow matter in a youth residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, registration flow changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does compliance duties matter in a youth residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, compliance duties changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/youth/#hero-image",
+      "name": "Youth Residency hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Youth Residency page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Youth Residency page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Youth Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-youth.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

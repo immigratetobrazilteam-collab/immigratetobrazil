@@ -38,6 +38,7 @@ IGNORED_DIRS = {
     ".codacy",
     ".github",
     "assets",
+    "content",
     "css",
     "data",
     "docs",
@@ -852,7 +853,8 @@ class PtGenerator:
         rendered = soup.decode(formatter="html")
         rendered = re.sub(r"^\s*<!DOCTYPE[^>]*>\s*", "", rendered, count=1, flags=re.IGNORECASE)
         comment = (
-            f"<!-- Generated pt-BR page from {route}. Edit the English HTML or i18n/pt-br/overrides.json, then rerun "
+            f"<!-- Generated pt-BR page from {route}. Edit the English content source under content/en/ or "
+            "i18n/pt-br/overrides.json, then rerun "
             "npm run translate:pt. -->"
         )
         return f"<!DOCTYPE html>\n{comment}\n{rendered}\n"
@@ -958,7 +960,7 @@ class PtGenerator:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate pt-BR static pages from the English HTML source.")
+    parser = argparse.ArgumentParser(description="Generate pt-BR static pages from the English content-driven build output.")
     parser.add_argument("--force", action="store_true", help="Regenerate every pt-BR page instead of only changed pages.")
     parser.add_argument(
         "--route",

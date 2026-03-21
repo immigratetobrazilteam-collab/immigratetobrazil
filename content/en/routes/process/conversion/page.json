@@ -1,0 +1,120 @@
+{
+  "route": "/process/conversion/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-conversion family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on conversion within Brazilian immigration procedures and compliance planning. Covers change of visa or residency type, legal possibility of…",
+    "robots": "index,follow",
+    "title": "Conversion | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Conversion | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on conversion within Brazilian immigration procedures and compliance planning. Covers change of visa or residency type, legal possibility of…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+    "ogImageAlt": "Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Conversion | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on conversion within Brazilian immigration procedures and compliance planning. Covers change of visa or residency type, legal possibility of…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+    "twitterImageAlt": "Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Conversion",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Conversion",
+          "item": "https://immigratetobrazil.com/process/conversion/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Conversion | Immigrate to Brazil",
+      "serviceType": "Conversion",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/conversion/",
+      "description": "Process guidance on conversion within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does change of visa or residency type matter at the conversion stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, change of visa or residency type usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal possibility of conversion matter at the conversion stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal possibility of conversion usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does requirements matter at the conversion stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does timing considerations matter at the conversion stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, timing considerations usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does administrative procedure matter at the conversion stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, administrative procedure usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/conversion/#hero-image",
+      "name": "Conversion hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Conversion page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Conversion, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

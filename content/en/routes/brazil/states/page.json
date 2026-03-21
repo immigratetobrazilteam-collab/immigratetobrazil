@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/states/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-states family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on states in Brazil for relocation, compliance, and practical planning. Covers federal structure, state-level governance, legal compete…",
+    "robots": "index,follow",
+    "title": "States | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "States | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on states in Brazil for relocation, compliance, and practical planning. Covers federal structure, state-level governance, legal compete…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+    "ogImageAlt": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "States | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on states in Brazil for relocation, compliance, and practical planning. Covers federal structure, state-level governance, legal compete…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+    "twitterImageAlt": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "States",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "States",
+          "item": "https://immigratetobrazil.com/brazil/states/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does federal structure affect a move to Brazil in states planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "federal structure should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does state-level governance affect a move to Brazil in states planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "state-level governance should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does legal competencies affect a move to Brazil in states planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "legal competencies should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic distribution affect a move to Brazil in states planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic distribution should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does population distribution affect a move to Brazil in states planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "population distribution should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/states/#hero-image",
+      "name": "States hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the States page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, States, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

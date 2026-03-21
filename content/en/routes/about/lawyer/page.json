@@ -1,0 +1,108 @@
+{
+  "route": "/about/lawyer/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-lawyer family-about style-lawyer",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Public professional profile of the named attorney reference used on this site. Covers full identification, academic background, professional qualifications,…",
+    "robots": "index,follow",
+    "title": "Lawyer | Immigrate to Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Lawyer | Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Public professional profile of the named attorney reference used on this site. Covers full identification, academic background, professional qualifications,…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+    "ogImageAlt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Lawyer | Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Public professional profile of the named attorney reference used on this site. Covers full identification, academic background, professional qualifications,…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+    "twitterImageAlt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Lawyer",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Lawyer",
+          "item": "https://immigratetobrazil.com/about/lawyer/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Lawyer: what matters most about full identification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. full identification affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lawyer: what matters most about academic background?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. academic background affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lawyer: what matters most about professional qualifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. professional qualifications affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lawyer: what matters most about areas of practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. areas of practice affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lawyer: what matters most about immigration experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. immigration experience affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/lawyer/#hero-image",
+      "name": "Lawyer hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Lawyer page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about a Brazil immigration law practice.",
+      "caption": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Lawyer, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

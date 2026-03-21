@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/economy/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-economy family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on economy in Brazil for relocation, compliance, and practical planning. Covers economic structure, key sectors, monetary system, pract…",
+    "robots": "index,follow",
+    "title": "Economy | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Economy | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on economy in Brazil for relocation, compliance, and practical planning. Covers economic structure, key sectors, monetary system, pract…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+    "ogImageAlt": "Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Economy | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on economy in Brazil for relocation, compliance, and practical planning. Covers economic structure, key sectors, monetary system, pract…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+    "twitterImageAlt": "Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Economy",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Economy",
+          "item": "https://immigratetobrazil.com/brazil/economy/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does economic structure affect a move to Brazil in economy planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic structure should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does key sectors affect a move to Brazil in economy planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "key sectors should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does monetary system affect a move to Brazil in economy planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "monetary system should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does inflation and currency context affect a move to Brazil in economy planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "inflation and currency context should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does trade environment affect a move to Brazil in economy planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "trade environment should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/economy/#hero-image",
+      "name": "Economy hero image featuring Iguazu Falls on the Brazilian side",
+      "description": "SEO hero image for the Economy page on Immigrate to Brazil, showing Iguazu Falls on the Brazilian side and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil.",
+      "keywords": "Iguazu Falls, Foz do Iguacu, waterfalls, southern Brazil, Brazil nature, Iguazu Falls on the Brazilian side, Economy, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

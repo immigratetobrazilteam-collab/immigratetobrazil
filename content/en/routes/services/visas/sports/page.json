@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/sports/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-sports family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for sports visa planning, documentation, authority interaction, and compliance framing. Covers sports-activity classification, regulatory assess…",
+    "robots": "index,follow",
+    "title": "Sports Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Sports Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for sports visa planning, documentation, authority interaction, and compliance framing. Covers sports-activity classification, regulatory assess…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+    "ogImageAlt": "Hero image for the Sports Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Sports Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for sports visa planning, documentation, authority interaction, and compliance framing. Covers sports-activity classification, regulatory assess…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+    "twitterImageAlt": "Hero image for the Sports Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Sports Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sports Visa",
+          "item": "https://immigratetobrazil.com/services/visas/sports/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Sports Visa | Immigrate to Brazil",
+      "serviceType": "Sports Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/sports/",
+      "description": "Service page for sports visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does sports-activity classification matter in a sports visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, sports-activity classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does regulatory assessment matter in a sports visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, potential clients usually need to understand how the practice works before they decide whether the fit is right. In real cases, regulatory assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does club and organization structuring matter in a sports visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, club and organization structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does framework alignment matter in a sports visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, framework alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a sports visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/sports/#hero-image",
+      "name": "Sports Visa hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Sports Visa page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Sports Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Sports Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-sports.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

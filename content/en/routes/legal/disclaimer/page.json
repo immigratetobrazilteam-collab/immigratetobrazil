@@ -1,0 +1,108 @@
+{
+  "route": "/legal/disclaimer/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-disclaimer family-legal style-legal",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "robots": "index,follow",
+    "title": "Disclaimer | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Disclaimer | Legal Information | Immigrate to Brazil",
+    "ogDescription": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+    "ogImageAlt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Disclaimer | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+    "twitterImageAlt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Disclaimer",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Disclaimer",
+          "item": "https://immigratetobrazil.com/legal/disclaimer/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Disclaimer: what should you know about informational only?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Disclaimer: what should you know about not legal advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Disclaimer: what should you know about no guarantee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Disclaimer: what should you know about case-specific variability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Disclaimer: what should you know about no lawyer-client relationship by website use alone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "What matters is straightforward: family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. Follow the rule with the next action in view and without guesswork."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/disclaimer/#hero-image",
+      "name": "Disclaimer hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Disclaimer page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
+      "caption": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Disclaimer, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

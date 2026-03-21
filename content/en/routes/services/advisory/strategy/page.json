@@ -1,0 +1,126 @@
+{
+  "route": "/services/advisory/strategy/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-advisory-strategy family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for strategy advisory support, documentation planning, compliance visibility, and structured decision-making. Covers strategic planning scope, r…",
+    "robots": "index,follow",
+    "title": "Strategy | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Strategy | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for strategy advisory support, documentation planning, compliance visibility, and structured decision-making. Covers strategic planning scope, r…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+    "ogImageAlt": "Hero image for the Strategy page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Strategy | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for strategy advisory support, documentation planning, compliance visibility, and structured decision-making. Covers strategic planning scope, r…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+    "twitterImageAlt": "Hero image for the Strategy page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Strategy",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Strategy",
+          "item": "https://immigratetobrazil.com/services/advisory/strategy/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Strategy | Immigrate to Brazil",
+      "serviceType": "Strategy",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/advisory/strategy/",
+      "description": "Service page for strategy advisory support, documentation planning, compliance visibility, and structured decision-making."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does strategic planning scope matter in a strategy matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, strategic planning scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does route comparison matter in a strategy matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, route comparison changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does documentation sequencing matter in a strategy matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation sequencing changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does risk calibration matter in a strategy matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, risk calibration changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does decision support matter in a strategy matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, decision support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/advisory/strategy/#hero-image",
+      "name": "Strategy hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Strategy page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Strategy page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Strategy, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-strategy.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

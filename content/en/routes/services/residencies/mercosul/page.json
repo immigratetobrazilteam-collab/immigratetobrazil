@@ -1,0 +1,126 @@
+{
+  "route": "/services/residencies/mercosul/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-residencies-mercosul family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for mercosul residence planning, registration, status management, and compliance monitoring. Covers mercosul evaluation, residency-path structur…",
+    "robots": "index,follow",
+    "title": "MERCOSUL Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "MERCOSUL Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for mercosul residence planning, registration, status management, and compliance monitoring. Covers mercosul evaluation, residency-path structur…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+    "ogImageAlt": "Hero image for the MERCOSUL Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "MERCOSUL Residency | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for mercosul residence planning, registration, status management, and compliance monitoring. Covers mercosul evaluation, residency-path structur…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+    "twitterImageAlt": "Hero image for the MERCOSUL Residency page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "MERCOSUL Residency",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MERCOSUL Residency",
+          "item": "https://immigratetobrazil.com/services/residencies/mercosul/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "MERCOSUL Residency | Immigrate to Brazil",
+      "serviceType": "MERCOSUL Residency",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/residencies/mercosul/",
+      "description": "Service page for mercosul residence planning, registration, status management, and compliance monitoring."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does mercosul evaluation matter in a mercosul residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, mercosul evaluation changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does residency-path structuring matter in a mercosul residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, residency-path structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does regional-agreement alignment matter in a mercosul residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that relocation planning is rarely abstract, because city, region, infrastructure, budget, and public-service access all affect how realistic a move feels after arrival. In real cases, regional-agreement alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a mercosul residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does monitoring matter in a mercosul residency matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, monitoring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/residencies/mercosul/#hero-image",
+      "name": "MERCOSUL Residency hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the MERCOSUL Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the MERCOSUL Residency page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, MERCOSUL Residency, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-mercosul.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

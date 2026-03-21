@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/faqs/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-faqs family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on faqs in Brazil for relocation, compliance, and practical planning. Covers general relocation questions, immigration context question…",
+    "robots": "index,follow",
+    "title": "Faqs | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Faqs | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on faqs in Brazil for relocation, compliance, and practical planning. Covers general relocation questions, immigration context question…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+    "ogImageAlt": "Hero image for the Faqs page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Faqs | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on faqs in Brazil for relocation, compliance, and practical planning. Covers general relocation questions, immigration context question…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+    "twitterImageAlt": "Hero image for the Faqs page showing an aerial view of the Amazon river basin in northern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Faqs",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Faqs",
+          "item": "https://immigratetobrazil.com/brazil/faqs/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does general relocation questions affect a move to Brazil in faqs planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "general relocation questions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does immigration context questions affect a move to Brazil in faqs planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "immigration context questions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does brazil-living questions affect a move to Brazil in faqs planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "brazil-living questions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does service-boundary questions affect a move to Brazil in faqs planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "service-boundary questions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does compliance questions affect a move to Brazil in faqs planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "compliance questions should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/faqs/#hero-image",
+      "name": "Faqs hero image featuring Amazon river basin",
+      "description": "SEO hero image for the Faqs page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Faqs page showing an aerial view of the Amazon river basin in northern Brazil.",
+      "keywords": "Amazon river, Amazon basin, Brazil rainforest, northern Brazil, Brazil nature, an aerial view of the Amazon river basin, Faqs, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-faqs.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "route": "/insights/residency/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights-residency family-insights style-insight",
+  "meta": {
+    "themeColor": "#CD6C28",
+    "description": "Editorial-style guidance page covering residency in the Brazilian immigration context. Covers residence-permit overview, legal bases, visa and residency rela…",
+    "robots": "index,follow",
+    "title": "Residency | Immigration Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Residency | Immigration Insights | Immigrate to Brazil",
+    "ogDescription": "Editorial-style guidance page covering residency in the Brazilian immigration context. Covers residence-permit overview, legal bases, visa and residency rela…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+    "ogImageAlt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Residency | Immigration Insights | Immigrate to Brazil",
+    "twitterDescription": "Editorial-style guidance page covering residency in the Brazilian immigration context. Covers residence-permit overview, legal bases, visa and residency rela…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+    "twitterImageAlt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Residency",
+    "pageFamily": "insights"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Residency",
+          "item": "https://immigratetobrazil.com/insights/residency/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Residency",
+      "description": "Editorial-style guidance page covering residency in the Brazilian immigration context.",
+      "author": {
+        "@type": "Organization",
+        "name": "Immigrate to Brazil"
+      },
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": "https://immigratetobrazil.com/insights/residency/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Residency: what matters most about residence-permit overview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Residency: what matters most about legal bases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Residency: what matters most about visa and residency relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: family-based matters depend on the exact relationship, the documents that prove it, and the way the family history is presented to the authority. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Residency: what matters most about rights and obligations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Residency: what matters most about administrative structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/insights/residency/#hero-image",
+      "name": "Residency hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Residency page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration insights.",
+      "caption": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Residency, Brazil immigration insights, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

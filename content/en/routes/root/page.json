@@ -1,0 +1,112 @@
+{
+  "route": "/",
+  "lang": "en",
+  "bodyClass": "site-root page-home family-foundation style-home",
+  "meta": {
+    "themeColor": "#52B788",
+    "description": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
+    "robots": "index,follow",
+    "title": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
+    "preloadImage": "/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
+    "ogDescription": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+    "ogImageAlt": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
+    "twitterDescription": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+    "twitterImageAlt": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Home",
+    "pageFamily": "foundation"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://immigratetobrazil.com#website",
+      "url": "https://immigratetobrazil.com",
+      "name": "Immigrate to Brazil",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://immigratetobrazil.com/legal/search/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://immigratetobrazil.com#localbusiness",
+      "name": "Immigrate to Brazil",
+      "areaServed": "Brazil",
+      "telephone": "+55 43 99132-4028",
+      "email": "immigratetobrazilteam@gmail.com",
+      "url": "https://immigratetobrazil.com"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does immigration pathways overview matter when planning immigration to Brazil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. immigration pathways overview affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does consultation flow matter when planning immigration to Brazil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. consultation flow affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does trust markers matter when planning immigration to Brazil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that potential clients usually need to understand how the practice works before they decide whether the fit is right. trust markers affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does nationwide online support matter when planning immigration to Brazil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that potential clients usually need to understand how the practice works before they decide whether the fit is right. nationwide online support affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does service categories matter when planning immigration to Brazil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. service categories affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com#hero-image",
+      "name": "Home hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Home page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration and relocation planning.",
+      "caption": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Home, Brazil immigration and relocation planning, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/festivals/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-festivals family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on festivals in Brazil for relocation, compliance, and practical planning. Covers types of festivals, cultural significance, regional d…",
+    "robots": "index,follow",
+    "title": "Festivals | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Festivals | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on festivals in Brazil for relocation, compliance, and practical planning. Covers types of festivals, cultural significance, regional d…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+    "ogImageAlt": "Hero image for the Festivals page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Festivals | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on festivals in Brazil for relocation, compliance, and practical planning. Covers types of festivals, cultural significance, regional d…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+    "twitterImageAlt": "Hero image for the Festivals page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Festivals",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Festivals",
+          "item": "https://immigratetobrazil.com/brazil/festivals/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does types of festivals affect a move to Brazil in festivals planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "types of festivals should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does cultural significance affect a move to Brazil in festivals planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "cultural significance should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does regional distribution affect a move to Brazil in festivals planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional distribution should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does seasonal calendar affect a move to Brazil in festivals planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "seasonal calendar should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does public versus private events affect a move to Brazil in festivals planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "public versus private events should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/festivals/#hero-image",
+      "name": "Festivals hero image featuring Pelourinho in Salvador",
+      "description": "SEO hero image for the Festivals page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Festivals page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Festivals, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-salvador-pelourinho-bahia-festivals.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

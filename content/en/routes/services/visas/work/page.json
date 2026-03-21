@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/work/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-work family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for work visa planning, documentation, authority interaction, and compliance framing. Covers employment eligibility, employer-sponsored path, la…",
+    "robots": "index,follow",
+    "title": "Work Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Work Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for work visa planning, documentation, authority interaction, and compliance framing. Covers employment eligibility, employer-sponsored path, la…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+    "ogImageAlt": "Hero image for the Work Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Work Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for work visa planning, documentation, authority interaction, and compliance framing. Covers employment eligibility, employer-sponsored path, la…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+    "twitterImageAlt": "Hero image for the Work Visa page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Work Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Work Visa",
+          "item": "https://immigratetobrazil.com/services/visas/work/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Work Visa | Immigrate to Brazil",
+      "serviceType": "Work Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/work/",
+      "description": "Service page for work visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does employment eligibility matter in a work visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, employment eligibility changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does employer-sponsored path matter in a work visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, employer-sponsored path changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does labor and immigration alignment matter in a work visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, labor and immigration alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does work-authorization review matter in a work visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, work-authorization review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority coordination matter in a work visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority coordination changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/work/#hero-image",
+      "name": "Work Visa hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Work Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Work Visa page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Work Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-work.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/exchange/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-exchange family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for exchange visa planning, documentation, authority interaction, and compliance framing. Covers exchange participation structuring, program ali…",
+    "robots": "index,follow",
+    "title": "Exchange Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Exchange Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for exchange visa planning, documentation, authority interaction, and compliance framing. Covers exchange participation structuring, program ali…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+    "ogImageAlt": "Hero image for the Exchange Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Exchange Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for exchange visa planning, documentation, authority interaction, and compliance framing. Covers exchange participation structuring, program ali…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+    "twitterImageAlt": "Hero image for the Exchange Visa page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Exchange Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Exchange Visa",
+          "item": "https://immigratetobrazil.com/services/visas/exchange/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Exchange Visa | Immigrate to Brazil",
+      "serviceType": "Exchange Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/exchange/",
+      "description": "Service page for exchange visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does exchange participation structuring matter in a exchange visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, exchange participation structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does program alignment matter in a exchange visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, program alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does temporary-activity framing matter in a exchange visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, temporary-activity framing changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does rule evaluation matter in a exchange visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, rule evaluation changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a exchange visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/exchange/#hero-image",
+      "name": "Exchange Visa hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Exchange Visa page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Exchange Visa page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Exchange Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-exchange.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

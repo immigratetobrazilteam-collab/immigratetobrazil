@@ -1,0 +1,110 @@
+{
+  "route": "/services/defense/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-defense family-services style-service-hub",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+    "robots": "index,follow",
+    "title": "Defense | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Defense | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+    "ogImageAlt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Defense | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+    "twitterImageAlt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Defense",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Defense",
+          "item": "https://immigratetobrazil.com/services/defense/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Defense | Immigrate to Brazil",
+      "serviceType": "Defense",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/defense/",
+      "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does enforcement-situation analysis matter in a defense matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, enforcement-situation analysis changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal protections matter in a defense matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. In real cases, legal protections changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does defense structuring matter in a defense matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, defense structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/defense/#hero-image",
+      "name": "Defense hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Defense page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Defense, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

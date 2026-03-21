@@ -1,0 +1,102 @@
+{
+  "site": {
+    "name": "Immigrate to Brazil",
+    "socialName": "Immigrate to Brazil",
+    "domain": "https://immigratetobrazil.com",
+    "lang": "en",
+    "author": "Immigrate to Brazil",
+    "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+    "formatDetection": "telephone=no,email=no,address=no"
+  },
+  "assets": {
+    "favicons": [
+      {
+        "rel": "icon",
+        "href": "/assets/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/assets/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/assets/favicons/apple-touch-icon.png"
+      },
+      {
+        "rel": "manifest",
+        "href": "/assets/favicons/site.webmanifest"
+      }
+    ],
+    "stylesheets": [
+      "/assets/vendor/bootstrap/bootstrap.min.css",
+      "/css/site.css"
+    ],
+    "scripts": [
+      "/js/partials.js",
+      "/js/search.js",
+      "/js/accessibility.js",
+      "/js/site.js"
+    ]
+  },
+  "schemas": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://immigratetobrazil.com#organization",
+      "name": "Immigrate to Brazil",
+      "url": "https://immigratetobrazil.com",
+      "email": "immigratetobrazilteam@gmail.com",
+      "telephone": "+55 43 99132-4028",
+      "logo": "https://immigratetobrazil.com/assets/logo/immigrate-to-brazil-logo.png",
+      "sameAs": [
+        "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!"
+      ]
+    },
+    "contactPoint": {
+      "@context": "https://schema.org",
+      "@type": "ContactPoint",
+      "@id": "https://immigratetobrazil.com#contactpoint",
+      "contactType": "customer support",
+      "email": "immigratetobrazilteam@gmail.com",
+      "telephone": "+55 43 99132-4028",
+      "availableLanguage": [
+        "English",
+        "Portuguese"
+      ]
+    }
+  },
+  "runtime": {
+    "tracking": {
+      "gtmId": "GTM-MN4RB6TP",
+      "ga4Id": "G-37FRQJWR68",
+      "unusedTag": "GT-MJWBXC3K"
+    },
+    "consultationPolicy": {
+      "summary": "A consultation request is submitted first, the consultation fee is then paid, appointments must be scheduled at least 36 hours after payment confirmation, and the team confirms each appointment manually by email.",
+      "minHoursAfterPayment": 36,
+      "paymentMethods": [
+        "PayPal",
+        "Wise",
+        "PIX",
+        "Payoneer"
+      ],
+      "paymentReceiverEmail": "immigratetobrazilteam@gmail.com"
+    },
+    "contact": {
+      "email": "immigratetobrazilteam@gmail.com",
+      "phone": "+55 43 99132-4028",
+      "whatsappUrl": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!"
+    },
+    "accessibility": {
+      "dyslexiaFont": "\"OpenDyslexic\",\"Atkinson Hyperlegible\",\"Trebuchet MS\",sans-serif",
+      "themeColors": {
+        "light": "#52B788",
+        "dark": "#081C15"
+      }
+    }
+  }
+}

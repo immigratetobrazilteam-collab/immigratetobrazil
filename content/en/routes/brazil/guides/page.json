@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/guides/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-guides family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on guides in Brazil for relocation, compliance, and practical planning. Covers purpose of guides, topic organization, information struc…",
+    "robots": "index,follow",
+    "title": "Guides | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Guides | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on guides in Brazil for relocation, compliance, and practical planning. Covers purpose of guides, topic organization, information struc…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+    "ogImageAlt": "Hero image for the Guides page showing Paraty's colonial waterfront in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Guides | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on guides in Brazil for relocation, compliance, and practical planning. Covers purpose of guides, topic organization, information struc…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+    "twitterImageAlt": "Hero image for the Guides page showing Paraty's colonial waterfront in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Guides",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://immigratetobrazil.com/brazil/guides/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does purpose of guides affect a move to Brazil in guides planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "purpose of guides should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does topic organization affect a move to Brazil in guides planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "topic organization should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does information structure affect a move to Brazil in guides planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "information structure should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does navigation logic affect a move to Brazil in guides planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "navigation logic should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does practical orientation affect a move to Brazil in guides planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "practical orientation should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/guides/#hero-image",
+      "name": "Guides hero image featuring Historic waterfront of Paraty",
+      "description": "SEO hero image for the Guides page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Guides page showing Paraty's colonial waterfront in southeast Brazil.",
+      "keywords": "Paraty, Rio de Janeiro state, colonial waterfront, Brazil heritage, southeast Brazil, Paraty's colonial waterfront, Guides, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-paraty-historic-waterfront-guides.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

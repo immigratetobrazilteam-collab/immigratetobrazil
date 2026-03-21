@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/central-west/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-central-west family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on central-west in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic…",
+    "robots": "index,follow",
+    "title": "Central-West | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Central-West | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on central-west in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+    "ogImageAlt": "Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Central-West | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on central-west in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+    "twitterImageAlt": "Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Central-West",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Central-West",
+          "item": "https://immigratetobrazil.com/brazil/central-west/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does regional overview affect a move to Brazil in central-west planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional overview should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does states composition affect a move to Brazil in central-west planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "states composition should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does geographic characteristics affect a move to Brazil in central-west planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "geographic characteristics should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does climate profile affect a move to Brazil in central-west planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "climate profile should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic activities affect a move to Brazil in central-west planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic activities should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/central-west/#hero-image",
+      "name": "Central-West hero image featuring Pantanal wetlands",
+      "description": "SEO hero image for the Central-West page on Immigrate to Brazil, showing the Pantanal wetlands and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil.",
+      "keywords": "Pantanal, wetlands, Mato Grosso do Sul, Brazil nature, central-west Brazil, the Pantanal wetlands, Central-West, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

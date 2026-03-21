@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/educational/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-educational family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for educational visa planning, documentation, authority interaction, and compliance framing. Covers academic or training objectives, institution…",
+    "robots": "index,follow",
+    "title": "Educational Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Educational Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for educational visa planning, documentation, authority interaction, and compliance framing. Covers academic or training objectives, institution…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+    "ogImageAlt": "Hero image for the Educational Visa page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Educational Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for educational visa planning, documentation, authority interaction, and compliance framing. Covers academic or training objectives, institution…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+    "twitterImageAlt": "Hero image for the Educational Visa page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Educational Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Educational Visa",
+          "item": "https://immigratetobrazil.com/services/visas/educational/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Educational Visa | Immigrate to Brazil",
+      "serviceType": "Educational Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/educational/",
+      "description": "Service page for educational visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does academic or training objectives matter in a educational visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, academic or training objectives changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does institutional alignment matter in a educational visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, institutional alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does study-path structuring matter in a educational visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, study-path structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does educational classification matter in a educational visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, educational classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a educational visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/educational/#hero-image",
+      "name": "Educational Visa hero image featuring Florianopolis coastline",
+      "description": "SEO hero image for the Educational Visa page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Educational Visa page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+      "keywords": "Florianopolis, Praia Brava, Brazil beach, Atlantic coast, southern Brazil, Florianopolis and Praia Brava on the Atlantic coast, Educational Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-florianopolis-praia-brava-educational.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

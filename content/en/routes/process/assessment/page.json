@@ -1,0 +1,120 @@
+{
+  "route": "/process/assessment/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-assessment family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on assessment within Brazilian immigration procedures and compliance planning. Covers case evaluation criteria, review of documents, identif…",
+    "robots": "index,follow",
+    "title": "Assessment | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Assessment | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on assessment within Brazilian immigration procedures and compliance planning. Covers case evaluation criteria, review of documents, identif…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+    "ogImageAlt": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Assessment | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on assessment within Brazilian immigration procedures and compliance planning. Covers case evaluation criteria, review of documents, identif…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+    "twitterImageAlt": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Assessment",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Assessment",
+          "item": "https://immigratetobrazil.com/process/assessment/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Assessment | Immigrate to Brazil",
+      "serviceType": "Assessment",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/assessment/",
+      "description": "Process guidance on assessment within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does case evaluation criteria matter at the assessment stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, case evaluation criteria usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does review of documents matter at the assessment stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Before the next step, review of documents usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does identification of legal options matter at the assessment stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, identification of legal options usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does eligibility considerations matter at the assessment stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, eligibility considerations usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does risk identification matter at the assessment stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, risk identification usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/assessment/#hero-image",
+      "name": "Assessment hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
+      "description": "SEO hero image for the Assessment page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Assessment, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

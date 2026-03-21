@@ -1,0 +1,108 @@
+{
+  "route": "/about/whyus/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-whyus family-about style-about",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "robots": "index,follow",
+    "title": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+    "ogImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+    "twitterImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Why Us",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Why Us",
+          "item": "https://immigratetobrazil.com/about/whyus/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why Us: what matters most about structural approach to cases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Us: what matters most about organization of procedures?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Us: what matters most about documentation methodology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Us: what matters most about communication structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Us: what matters most about compliance orientation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/whyus/#hero-image",
+      "name": "Why Us hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Why Us page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
+      "caption": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Why Us, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

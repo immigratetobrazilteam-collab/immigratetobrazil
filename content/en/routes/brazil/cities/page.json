@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/cities/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-cities family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
+    "robots": "index,follow",
+    "title": "Cities | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Cities | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+    "ogImageAlt": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Cities | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+    "twitterImageAlt": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Cities",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cities",
+          "item": "https://immigratetobrazil.com/brazil/cities/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does urban organization affect a move to Brazil in cities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "urban organization should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does municipal governance affect a move to Brazil in cities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "municipal governance should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does infrastructure systems affect a move to Brazil in cities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "infrastructure systems should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does population density affect a move to Brazil in cities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "population density should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic activities affect a move to Brazil in cities planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic activities should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/cities/#hero-image",
+      "name": "Cities hero image featuring Porto Alegre skyline",
+      "description": "SEO hero image for the Cities page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.",
+      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Cities, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "route": "/legal/search/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-search family-legal style-search",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
+    "robots": "noindex,follow",
+    "title": "Search | Legal Information | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Search | Legal Information | Immigrate to Brazil",
+    "ogDescription": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+    "ogImageAlt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Search | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+    "twitterImageAlt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Search",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Search",
+          "item": "https://immigratetobrazil.com/legal/search/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/search/#hero-image",
+      "name": "Search hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Search page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
+      "caption": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Search, Brazil legal information, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "route": "/process/failures/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-failures family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
+    "robots": "index,follow",
+    "title": "Failures | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Failures | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+    "ogImageAlt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Failures | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+    "twitterImageAlt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Failures",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Failures",
+          "item": "https://immigratetobrazil.com/process/failures/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Failures | Immigrate to Brazil",
+      "serviceType": "Failures",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/failures/",
+      "description": "Process guidance on failures within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does reasons for denial matter at the failures stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Before the next step, reasons for denial usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does incomplete or incorrect submissions matter at the failures stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because potential clients usually need to understand how the practice works before they decide whether the fit is right. Before the next step, incomplete or incorrect submissions usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal ineligibility matter at the failures stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, legal ineligibility usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does administrative rejection matter at the failures stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, administrative rejection usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does consequences of refusal matter at the failures stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, consequences of refusal usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/failures/#hero-image",
+      "name": "Failures hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Failures page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Failures, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

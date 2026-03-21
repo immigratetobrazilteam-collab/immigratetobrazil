@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/research/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-research family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for research visa planning, documentation, authority interaction, and compliance framing. Covers research-activity assessment, academic and inst…",
+    "robots": "index,follow",
+    "title": "Research Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Research Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for research visa planning, documentation, authority interaction, and compliance framing. Covers research-activity assessment, academic and inst…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+    "ogImageAlt": "Hero image for the Research Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Research Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for research visa planning, documentation, authority interaction, and compliance framing. Covers research-activity assessment, academic and inst…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+    "twitterImageAlt": "Hero image for the Research Visa page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Research Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Research Visa",
+          "item": "https://immigratetobrazil.com/services/visas/research/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Research Visa | Immigrate to Brazil",
+      "serviceType": "Research Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/research/",
+      "description": "Service page for research visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does research-activity assessment matter in a research visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, research-activity assessment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does academic and institutional alignment matter in a research visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. In real cases, academic and institutional alignment changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does pathway structuring matter in a research visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, pathway structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does legal classification matter in a research visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, legal classification changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does positioning matter in a research visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/research/#hero-image",
+      "name": "Research Visa hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Research Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Research Visa page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Research Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-research.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

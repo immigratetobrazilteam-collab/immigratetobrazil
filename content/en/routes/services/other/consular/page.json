@@ -1,0 +1,126 @@
+{
+  "route": "/services/other/consular/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-other-consular family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for consular support, documentation structure, procedural coordination, and practical next steps. Covers consular coordination, appointment and…",
+    "robots": "index,follow",
+    "title": "Consular | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Consular | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for consular support, documentation structure, procedural coordination, and practical next steps. Covers consular coordination, appointment and…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+    "ogImageAlt": "Hero image for the Consular page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Consular | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for consular support, documentation structure, procedural coordination, and practical next steps. Covers consular coordination, appointment and…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+    "twitterImageAlt": "Hero image for the Consular page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Consular",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Consular",
+          "item": "https://immigratetobrazil.com/services/other/consular/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Consular | Immigrate to Brazil",
+      "serviceType": "Consular",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/other/consular/",
+      "description": "Service page for consular support, documentation structure, procedural coordination, and practical next steps."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does consular coordination matter in a consular matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, consular coordination changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does appointment and document logic matter in a consular matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, appointment and document logic changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authentication context matter in a consular matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, authentication context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does communication structure matter in a consular matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, communication structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ongoing support matter in a consular matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, ongoing support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/other/consular/#hero-image",
+      "name": "Consular hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Consular page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Consular page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Consular, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-consular.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

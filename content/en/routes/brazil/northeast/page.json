@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/northeast/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-northeast family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on northeast in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic cha…",
+    "robots": "index,follow",
+    "title": "Northeast | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Northeast | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on northeast in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic cha…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+    "ogImageAlt": "Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Northeast | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on northeast in Brazil for relocation, compliance, and practical planning. Covers regional overview, states composition, geographic cha…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+    "twitterImageAlt": "Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Northeast",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Northeast",
+          "item": "https://immigratetobrazil.com/brazil/northeast/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does regional overview affect a move to Brazil in northeast planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "regional overview should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does states composition affect a move to Brazil in northeast planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "states composition should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does geographic characteristics affect a move to Brazil in northeast planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "geographic characteristics should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does climate profile affect a move to Brazil in northeast planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "climate profile should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does economic activities affect a move to Brazil in northeast planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "economic activities should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/northeast/#hero-image",
+      "name": "Northeast hero image featuring Lençois Maranhenses dunes and lagoons",
+      "description": "SEO hero image for the Northeast page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+      "keywords": "Lençois Maranhenses, Maranhao, sand dunes, lagoons, northeast Brazil, Lençois Maranhenses dunes and lagoons, Northeast, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "route": "/process/deadlines/",
+  "lang": "en",
+  "bodyClass": "site-root page-process-deadlines family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
+    "robots": "index,follow",
+    "title": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+    "ogImageAlt": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+    "twitterImageAlt": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Deadlines",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Deadlines",
+          "item": "https://immigratetobrazil.com/process/deadlines/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Deadlines | Immigrate to Brazil",
+      "serviceType": "Deadlines",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/process/deadlines/",
+      "description": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does legal time limits matter at the deadlines stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal time limits usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does administrative deadlines matter at the deadlines stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, administrative deadlines usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does filing windows matter at the deadlines stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, filing windows usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does renewal deadlines matter at the deadlines stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, renewal deadlines usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does consequences of missing deadlines matter at the deadlines stage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, consequences of missing deadlines usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/deadlines/#hero-image",
+      "name": "Deadlines hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Deadlines page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Deadlines, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

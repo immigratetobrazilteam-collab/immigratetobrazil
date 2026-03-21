@@ -1,0 +1,108 @@
+{
+  "route": "/about/profile/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-profile family-about style-about",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Contextual overview of profile within the Immigrate to Brazil platform. Covers professional identification, areas of practice, immigration focus, practical d…",
+    "robots": "index,follow",
+    "title": "Profile | Immigrate to Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Profile | Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Contextual overview of profile within the Immigrate to Brazil platform. Covers professional identification, areas of practice, immigration focus, practical d…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+    "ogImageAlt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Profile | Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Contextual overview of profile within the Immigrate to Brazil platform. Covers professional identification, areas of practice, immigration focus, practical d…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+    "twitterImageAlt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Profile",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Profile",
+          "item": "https://immigratetobrazil.com/about/profile/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Profile: what matters most about professional identification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Profile: what matters most about areas of practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Profile: what matters most about immigration focus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Profile: what matters most about types of legal matters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Profile: what matters most about jurisdiction and scope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/profile/#hero-image",
+      "name": "Profile hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Profile page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about a Brazil immigration law practice.",
+      "caption": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Profile, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

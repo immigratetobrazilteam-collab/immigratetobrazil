@@ -1,0 +1,108 @@
+{
+  "route": "/brazil/living/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-living family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#40916C",
+    "description": "Informational context on living in Brazil for relocation, compliance, and practical planning. Covers daily life structure, legal residency context, administr…",
+    "robots": "index,follow",
+    "title": "Living | Brazil Living Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Living | Brazil Living Guidance | Immigrate to Brazil",
+    "ogDescription": "Informational context on living in Brazil for relocation, compliance, and practical planning. Covers daily life structure, legal residency context, administr…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+    "ogImageAlt": "Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Living | Brazil Living Guidance | Immigrate to Brazil",
+    "twitterDescription": "Informational context on living in Brazil for relocation, compliance, and practical planning. Covers daily life structure, legal residency context, administr…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+    "twitterImageAlt": "Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Living",
+    "pageFamily": "brazil"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Living",
+          "item": "https://immigratetobrazil.com/brazil/living/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does daily life structure affect a move to Brazil in living planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "daily life structure should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does legal residency context affect a move to Brazil in living planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "legal residency context should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does administrative requirements affect a move to Brazil in living planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "administrative requirements should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does access to services affect a move to Brazil in living planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "access to services should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does transportation systems affect a move to Brazil in living planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "transportation systems should be treated as part of real relocation planning, not as lifestyle filler. It connects to regional variation, budgeting, public services, and the practical questions that often influence where and how a client plans to move in Brazil."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/brazil/living/#hero-image",
+      "name": "Living hero image featuring Amazon river basin",
+      "description": "SEO hero image for the Living page on Immigrate to Brazil, showing an aerial view of the Amazon river basin and supporting content about relocation guidance about life in Brazil.",
+      "caption": "Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil.",
+      "keywords": "Amazon river, Amazon basin, Brazil rainforest, northern Brazil, Brazil nature, an aerial view of the Amazon river basin, Living, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-amazon-river-basin-living.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "route": "/services/defense/extradition/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-defense-extradition family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for extradition response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, auth…",
+    "robots": "index,follow",
+    "title": "Extradition | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Extradition | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for extradition response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, auth…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+    "ogImageAlt": "Hero image for the Extradition page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Extradition | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for extradition response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, auth…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+    "twitterImageAlt": "Hero image for the Extradition page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Extradition",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Extradition",
+          "item": "https://immigratetobrazil.com/services/defense/extradition/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Extradition | Immigrate to Brazil",
+      "serviceType": "Extradition",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/defense/extradition/",
+      "description": "Service page for extradition response planning, evidence strategy, authority interaction, and ongoing support."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does legal context matter in a extradition matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does response structure matter in a extradition matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, response structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority interaction matter in a extradition matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority interaction changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does evidence and document strategy matter in a extradition matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, evidence and document strategy changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ongoing service support matter in a extradition matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, ongoing service support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/defense/extradition/#hero-image",
+      "name": "Extradition hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Extradition page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Extradition page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Extradition, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}

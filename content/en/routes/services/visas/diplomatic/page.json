@@ -1,0 +1,126 @@
+{
+  "route": "/services/visas/diplomatic/",
+  "lang": "en",
+  "bodyClass": "site-root page-services-visas-diplomatic family-services style-service-child",
+  "meta": {
+    "themeColor": "#2D6A4F",
+    "description": "Service page for diplomatic visa planning, documentation, authority interaction, and compliance framing. Covers diplomatic or official status, international…",
+    "robots": "index,follow",
+    "title": "Diplomatic Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Diplomatic Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "ogDescription": "Service page for diplomatic visa planning, documentation, authority interaction, and compliance framing. Covers diplomatic or official status, international…",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+    "ogImageAlt": "Hero image for the Diplomatic Visa page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Diplomatic Visa | Brazil Immigration Services | Immigrate to Brazil",
+    "twitterDescription": "Service page for diplomatic visa planning, documentation, authority interaction, and compliance framing. Covers diplomatic or official status, international…",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+    "twitterImageAlt": "Hero image for the Diplomatic Visa page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Diplomatic Visa",
+    "pageFamily": "services"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Diplomatic Visa",
+          "item": "https://immigratetobrazil.com/services/visas/diplomatic/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Diplomatic Visa | Immigrate to Brazil",
+      "serviceType": "Diplomatic Visa",
+      "areaServed": "Brazil",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "url": "https://immigratetobrazil.com/services/visas/diplomatic/",
+      "description": "Service page for diplomatic visa planning, documentation, authority interaction, and compliance framing."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does diplomatic or official status matter in a diplomatic visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In client terms, immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, diplomatic or official status changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does international and brazilian frameworks matter in a diplomatic visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The key point is that work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. In real cases, international and brazilian frameworks changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does entry structuring matter in a diplomatic visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, entry structuring changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does authority coordination matter in a diplomatic visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority coordination changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does procedural positioning matter in a diplomatic visa matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, procedural positioning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/services/visas/diplomatic/#hero-image",
+      "name": "Diplomatic Visa hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the Diplomatic Visa page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration services.",
+      "caption": "Hero image for the Diplomatic Visa page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Diplomatic Visa, Brazil immigration services, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-sao-paulo-skyline-diplomatic.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ]
+}
