@@ -271,7 +271,7 @@ async function writeGenericPartials() {
 
     const isPt = locale === "pt-br";
     const breadcrumbLabel = isPt ? "Trigo de pao" : "Breadcrumb";
-    const sidebarFactsTitle = isPt ? "De relance" : "At a glance";
+    const sidebarFactsTitle = ""; // removed: At a glance / De relance
     const actionTitle = isPt ? "Proxima etapa recomendada" : "Recommended next step";
     const brandAlt = isPt ? "Logotipo circular Immigrate to Brazil" : "Immigrate to Brazil circular logo";
     const brandTag = isPt ? "Apoiando imigrantes — promovendo o Brasil" : "Supporting Immigrants — Promoting Brazil";
@@ -288,11 +288,7 @@ async function writeGenericPartials() {
 <div class="page-map__links"></div>
 </section>
 </section>
-<section class="sidebar-card sidebar-card--facts">
-<h2 class="section-title"><span aria-hidden="true" class="section-title__icon"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 4h4v2H6v2H4V4Zm12 0h4v4h-2V6h-2V4ZM4 16h2v2h2v2H4v-4Zm14 0h2v4h-4v-2h2v-2ZM8 7h8v2H8V7Zm0 4h8v2H8v-2Zm0 4h5v2H8v-2Z" fill="currentColor"></path></svg></span><span>${sidebarFactsTitle}</span></h2>
-<ul class="sidebar-list"></ul>
-</section>
-<section class="sidebar-card sidebar-card--brand">
+    <section class="sidebar-card sidebar-card--brand">
 <div class="sidebar-brand">
 <img alt="${brandAlt}" class="sidebar-brand__mark" height="68" src="/assets/logo/immigrate-to-brazil-logo-transparent.png" width="68"/>
 <div class="sidebar-brand__copy">
@@ -319,10 +315,6 @@ async function writeGenericPartials() {
         </div>
         <div class="page-map__links"></div>
       </section>
-    </section>
-    <section class="sidebar-card sidebar-card--facts">
-      <h2 class="section-title"><span class="section-title__icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4v2H6v2H4V4Zm12 0h4v4h-2V6h-2V4ZM4 16h2v2h2v2H4v-4Zm14 0h2v4h-4v-2h2v-2ZM8 7h8v2H8V7Zm0 4h8v2H8v-2Zm0 4h5v2H8v-2Z" fill="currentColor"/></svg></span><span>${sidebarFactsTitle}</span></h2>
-      <ul class="sidebar-list"></ul>
     </section>
     <section class="sidebar-card sidebar-card--brand">
       <div class="sidebar-brand">

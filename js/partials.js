@@ -22,7 +22,16 @@
     "disclaimer",
     "floating-whatsapp",
     "back-to-top",
-    "cookie-banner"
+    "cookie-banner",
+    "search-results",
+    "newsletter-signup",
+    "pagination",
+    "social-sharing",
+    "loading-state",
+    "error-page",
+    "comments-system",
+    "testimonials",
+    "next-steps"
   ];
 
   const PARTIAL_VERSION = "2026-03-20-shared-disclaimer-v1";
@@ -96,23 +105,42 @@
 
     const actionCard = sidebar.querySelector(".sidebar-card--action");
     if (actionCard) {
+      const title = actionCard.querySelector(".section-title span:nth-child(2)");
       const lead = actionCard.querySelector("p:not(.sidebar-note)");
       const actions = actionCard.querySelector(".sidebar-actions");
       const note = actionCard.querySelector(".sidebar-note");
       const actionConfig = sidebarConfig.nextStep || {};
 
-      if (lead) lead.textContent = actionConfig.lead || "";
+      const defaultNextStep = {
+        title: "Next steps",
+        lead: "Immigration Consultation",
+        actions: [
+          { className: "btn btn-cta btn-sm", href: "/start-consultation/", label: "Start Consultation", track: "cta" },
+          { className: "btn btn-secondary btn-sm", href: "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!", label: "WhatsApp", track: "whatsapp" }
+        ],
+        note: "Your pathway to Brazil."
+      };
+
+      const nextStep = {
+        title: actionConfig.title?.trim() ? actionConfig.title : defaultNextStep.title,
+        lead: actionConfig.lead?.trim() ? actionConfig.lead : defaultNextStep.lead,
+        actions: Array.isArray(actionConfig.actions) && actionConfig.actions.length ? actionConfig.actions : defaultNextStep.actions,
+        note: actionConfig.note?.trim() ? actionConfig.note : defaultNextStep.note
+      };
+
+      if (title) title.textContent = nextStep.title;
+      if (lead) lead.textContent = nextStep.lead;
       if (actions) {
-        actions.innerHTML = (actionConfig.actions || [])
+        actions.innerHTML = nextStep.actions
           .map((action) => `<a ${renderActionAttributes(action)}>${escapeHtml(action.label)}</a>`)
           .join("");
       }
-      if (note) note.textContent = actionConfig.note || "";
+      if (note) note.textContent = nextStep.note;
 
       const hasActionContent =
-        Boolean(actionConfig.lead?.trim()) ||
-        Boolean(actionConfig.note?.trim()) ||
-        Boolean(actionConfig.actions?.length);
+        Boolean(nextStep.lead?.trim()) ||
+        Boolean(nextStep.note?.trim()) ||
+        Boolean(nextStep.actions?.length);
       actionCard.hidden = !hasActionContent;
     }
   }

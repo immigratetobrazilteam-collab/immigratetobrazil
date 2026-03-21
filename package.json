@@ -14,6 +14,8 @@
     "validate": "node scripts/validate-site.js",
     "translate:pt": "npm run generate:content && python3 scripts/generate_pt.py",
     "translate:pt:all": "npm run generate:content && python3 scripts/generate_pt.py --force",
+    "generate:text-map": "node scripts/extract-client-visible-text-map.js",
+    "sitemap:webhook": "node scripts/run-sitemap-webhook.js",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
     "seo:heroes": "node scripts/rewrite-hero-seo.js",
     "qa:matrix": "node scripts/qa-matrix.js",

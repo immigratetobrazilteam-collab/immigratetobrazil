@@ -2425,8 +2425,18 @@ body.is-scrolled .main-nav {
   min-height: 0;
 }
 
+..sidebar-card--map .page-map__head h2 {
+  color: rgba(248, 244, 236, 0.98);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.site-footer h3 {
+  color: #ffffff !important;
+}
+
 .sidebar-card--map .page-map__head p {
-  color: rgba(16, 37, 29, 0.72);
+  color: rgba(248, 244, 236, 0.92);
   font-size: 0.92rem;
 }
 
@@ -3916,6 +3926,12 @@ body.a11y-contrast .back-to-top {
 body.a11y-contrast .footer-search-trigger__hint,
 body.a11y-contrast .floating-whatsapp__logo {
   color: #000000 !important;
+}
+
+body.a11y-contrast .sidebar-card--map .page-map__head h2,
+body.a11y-contrast .sidebar-card--map .page-map__head p,
+body.a11y-contrast .sidebar-card--map .page-map__links a {
+  color: #f8f4ec !important;
 }
 
 body.a11y-contrast .floating-whatsapp__logo {

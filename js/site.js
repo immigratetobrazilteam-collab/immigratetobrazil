@@ -75,6 +75,11 @@
     return value.replace(/\s+/g, " ").trim();
   }
 
+  function shortenPageMapLabel(label) {
+    const words = label.split(' ');
+    return words[0] || label;
+  }
+
   function slugifyPageMapLabel(label) {
     return (
       label
@@ -93,7 +98,7 @@
 
   /* Only direct section headings inside content should appear in quick navigation. */
   function findPageMapHeading(section) {
-    return [...section.querySelectorAll("h2")].find((heading) => heading.closest("section") === section);
+    return [...section.querySelectorAll("h2")].find((heading) => heading.closest("section") === section) || null;
   }
 
   function isEligiblePageMapSection(section) {
@@ -102,7 +107,11 @@
     if (section.matches(".page-map, .site-disclaimer")) return false;
     if (section.hidden || section.getAttribute("aria-hidden") === "true") return false;
     const heading = findPageMapHeading(section);
-    return Boolean(heading && normalizePageMapText(heading.textContent || ""));
+    const label = normalizePageMapText(heading?.textContent || "");
+    if (!label) return false;
+    // Exclude specific sections that appear weird
+    if (label.toLowerCase().includes("official resources") || label.toLowerCase().includes("see also")) return false;
+    return true;
   }
 
   function createPageMapIdState(root) {
@@ -156,13 +165,20 @@
         const heading = findPageMapHeading(section);
         const label = normalizePageMapText(heading?.textContent || "");
         if (!label) return [];
-        return [{ id: ensurePageMapSectionId(section, label, state), label }];
+        return [{ id: ensurePageMapSectionId(section, label, state), label: shortenPageMapLabel(label) }];
       });
 
     if (!entries.length) {
       mapCard.hidden = true;
       return;
     }
+
+    // Add manual entries for partials
+    entries.push({ id: 'official-resources', label: 'Official' });
+    entries.push({ id: 'testimonials', label: 'See' });
+    entries.push({ id: 'newsletter-signup', label: 'Updates' });
+    entries.push({ id: 'social-sharing', label: 'Share' });
+    entries.push({ id: 'disclaimer', label: 'Disclaimer' });
 
     const copy = getPageMapLocaleCopy();
     mapCard.hidden = false;
@@ -479,7 +495,35 @@
   }
 
   /* ==========================================================================
-   * 12. Public Init API
+   * 12. Sitemap generator control
+   * Adds a client-friendly trigger in the footer for local/dev mode.
+   * ========================================================================== */
+  function initSitemapGenerator() {
+    const button = document.getElementById("generate-sitemap-button");
+    const status = document.getElementById("sitemap-status");
+    if (!button || !status || button.dataset.itbBoundSitemap === "true") return;
+
+    button.addEventListener("click", async () => {
+      status.textContent = "Requesting sitemap refresh...";
+      try {
+        // This endpoint is expected to be handled by deployment or local build tooling.
+        const resp = await fetch("/__refresh_sitemap", { method: "POST", credentials: "same-origin" });
+        if (resp.ok) {
+          status.textContent = "Sitemap refreshed. Fetch /sitemap.xml to confirm.";
+          return;
+        }
+        status.textContent = "Could not refresh sitemap from runtime endpoint. Run `npm run generate:sitemap`.";
+      } catch (error) {
+        console.error(error);
+        status.textContent = "Sitemap generator endpoint is unavailable. Run `npm run generate:sitemap` manually.";
+      }
+    });
+
+    button.dataset.itbBoundSitemap = "true";
+  }
+
+  /* ==========================================================================
+   * 13. Public Init API
    * Used both directly and after runtime partial injection.
    * ========================================================================== */
   function initSite() {
@@ -490,6 +534,7 @@
     buildPageMap();
     initBackToTop();
     initRevealTargets();
+    initSitemapGenerator();
   }
 
   /* Shared runtime API registration and non-partial fallback boot. */

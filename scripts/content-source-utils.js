@@ -177,9 +177,20 @@ export async function discoverContentRouteDirs() {
   return routeDirs.sort((a, b) => contentDirToRoute(a).localeCompare(contentDirToRoute(b)));
 }
 
+function purgeLegacySections(html) {
+  return html
+    // Remove legacy sidebar facts section (At a glance)
+    .replace(/<section[^>]+class="[^"]*sidebar-card--facts[^"]*"[\s\S]*?<\/section>/gi, "")
+    // Remove inline references to old UI labels
+    .replace(/<h2[^>]*>\s*(Service pathways at a glance|At a glance|Page model|Intake route|home guidance)[\s\S]*?<\/h2>/gi, "")
+    // Remove legacy page guidance block markers if present
+    .replace(/<!--\s*Legacy Home Guidance[\s\S]*?-->/gi, "");
+}
+
 export async function loadContentPage(routeDir) {
   const page = await loadJson(path.join(routeDir, "page.json"));
-  const bodyHtml = await fs.readFile(path.join(routeDir, "body.html"), "utf8");
+  let bodyHtml = await fs.readFile(path.join(routeDir, "body.html"), "utf8");
+  bodyHtml = purgeLegacySections(bodyHtml);
   return {
     route: contentDirToRoute(routeDir),
     page,
