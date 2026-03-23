@@ -4,7 +4,7 @@
   "bodyClass": "site-root page-insights-guides family-insights style-insight",
   "meta": {
     "themeColor": "#CD6C28",
-    "description": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "description": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
     "robots": "index,follow",
     "title": "Guides | Immigration Insights | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp"
@@ -12,12 +12,12 @@
   "social": {
     "ogType": "article",
     "ogTitle": "Guides | Immigration Insights | Immigrate to Brazil",
-    "ogDescription": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "ogDescription": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
     "ogImageAlt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Guides | Immigration Insights | Immigrate to Brazil",
-    "twitterDescription": "Editorial-style guidance page covering guides in the Brazilian immigration context. Covers structured immigration overviews, terminology clarification, frame…",
+    "twitterDescription": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
     "twitterImageAlt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
   },
@@ -39,6 +39,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Guides",
           "item": "https://immigratetobrazil.com/insights/guides/"
         }
@@ -47,15 +53,9 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "Guides",
-      "description": "Editorial-style guidance page covering guides in the Brazilian immigration context.",
-      "author": {
-        "@type": "Organization",
-        "name": "Immigrate to Brazil"
-      },
-      "publisher": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
+      "name": "Guides",
+      "description": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
+      "url": "https://immigratetobrazil.com/insights/guides/",
       "mainEntityOfPage": "https://immigratetobrazil.com/insights/guides/"
     },
     {
@@ -64,34 +64,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help me apply detailed guidance to my own situation?",
+          "name": "Is this page on guides meant as general guidance or individual advice?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. These pages give general orientation, but we can help connect detailed guidance to your actual plans, risks, timing, and next steps."
+            "text": "It is written as structured public guidance designed to improve understanding before your own facts, documents, or timing require individual review."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need a consultation if I am still only researching detailed guidance?",
+          "name": "How should I use this article on guides?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not always. But if detailed guidance is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
+            "text": "The strongest approach is to use it for orientation, vocabulary, and comparison, then move to consultation when the issue becomes personal or document-sensitive."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help me compare detailed guidance with other options?",
+          "name": "When does reading about guides stop being enough?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around detailed guidance."
+            "text": "Reading usually reaches its limit when the answer depends on your own chronology, route fit, deadlines, or records rather than on general public information."
           }
         }
       ]
@@ -118,16 +110,20 @@
         "href": "/"
       },
       {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
         "label": "Guides",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Plain-English immigration explanations are provided so research can become a clearer and more informed next step."
+        "note": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning."
       },
       "nextStep": {
-        "lead": "structured immigration overviews in practical client terms.",
+        "lead": "If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -142,56 +138,78 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
         "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with public guidance on authorisations and immigration administration."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
         "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal with entry, visa, and consular reference information."
+      },
+      {
+        "href": "https://cidades.ibge.gov.br/",
+        "title": "IBGE - Cidades do Brasil",
+        "description": "Official municipal profiles, indicators, and local statistics from IBGE."
+      },
+      {
+        "href": "https://www.gov.br/turismo/pt-br",
+        "title": "Ministerio do Turismo",
+        "description": "Official tourism portal covering destinations, sectors, and destination context."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/insights/",
+        "title": "Insights",
+        "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/insights/general/",
         "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+        "description": "Editorial-style guidance page covering general in the Brazilian immigration context. Covers overview of brazilian immigration system and structure, general l...",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/insights/visa/",
-        "title": "Visa",
-        "description": "Editorial-style guidance page covering visa in the Brazilian immigration context."
+        "href": "/insights/process/",
+        "title": "Process",
+        "description": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati...",
+        "image_src": "/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+        "image_alt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover...",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
+      },
+      {
+        "href": "/process/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where scattered facts start becoming an organized immigration question. We explain what this stage is for, what it can realistically clarify, and why a strong consultation often changes the quality of every later step.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
       }
     ]
   }

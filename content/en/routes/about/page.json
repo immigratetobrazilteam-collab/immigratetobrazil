@@ -1,0 +1,180 @@
+{
+  "route": "/about/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-hub family-about style-about",
+  "meta": {
+    "themeColor": "#6F4E8C",
+    "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+    "robots": "index,follow",
+    "title": "About | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "About | Immigrate to Brazil",
+    "ogDescription": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+    "ogImageAlt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "About | Immigrate to Brazil",
+    "twitterDescription": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+    "twitterImageAlt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "About",
+    "pageFamily": "about"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://immigratetobrazil.com/about/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/about/#hero-image",
+      "name": "About hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the About page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about trusted guidance for moving to Brazil.",
+      "caption": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, About, moving to Brazil, relocation support, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression."
+      },
+      "nextStep": {
+        "lead": "Use consultation if you want case-specific assessment and route analysis. Use WhatsApp if you need faster operational clarification before deciding on the next step.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
+      }
+    },
+    "officialResources": [
+      {
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm"
+      },
+      {
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm"
+      },
+      {
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for migration procedures, registration guidance, and authority-side updates.",
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao"
+      },
+      {
+        "title": "Migration Portal - Ministry of Justice",
+        "description": "Official Ministry of Justice migration portal with immigration guidance, institutional references, and route-level public information.",
+        "href": "https://portaldeimigracao.mj.gov.br/pt/"
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal for visas, consulates, and entry-related guidance."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/services/visas/",
+        "title": "Visas",
+        "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+        "image_alt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/residencies/",
+        "title": "Residencies",
+        "description": "Service-centered overview of residence permits, eligibility analysis, registration logic, and long-term compliance. Covers eligibility for residence, categor…",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-residencies.webp",
+        "image_alt": "Hero image for the Residencies page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/naturalisation/",
+        "title": "Naturalisation",
+        "description": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
+        "image_alt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/defense/",
+        "title": "Defense",
+        "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+        "image_alt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/services/advisory/",
+        "title": "Advisory",
+        "description": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support. Covers advisory scope, preventive analysi…",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+        "image_alt": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      }
+    ]
+  }
+}

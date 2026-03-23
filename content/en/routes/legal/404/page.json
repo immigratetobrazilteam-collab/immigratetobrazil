@@ -4,7 +4,7 @@
   "bodyClass": "site-root page-legal-404 family-legal style-404",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "This page could not be found. Return to Home, Services, Start Consultation, or Site Search to keep moving.",
+    "description": "The requested page is not available at this address. Use the recovery links below to return to the correct legal, service, or institutional route.",
     "robots": "noindex,follow",
     "title": "Page Not Found | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp"
@@ -12,12 +12,12 @@
   "social": {
     "ogType": "website",
     "ogTitle": "Page Not Found | Immigrate to Brazil",
-    "ogDescription": "This page could not be found. Return to Home, Services, Start Consultation, or Site Search to keep moving.",
+    "ogDescription": "The requested page is not available at this address. Use the recovery links below to return to the correct legal, service, or institutional route.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
     "ogImageAlt": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Page Not Found | Immigrate to Brazil",
-    "twitterDescription": "This page could not be found. Return to Home, Services, Start Consultation, or Site Search to keep moving.",
+    "twitterDescription": "The requested page is not available at this address. Use the recovery links below to return to the correct legal, service, or institutional route.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
     "twitterImageAlt": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil."
   },
@@ -72,64 +72,103 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "If you were trying to find support for a Brazil immigration or relocation matter, the links here will help you get back on track quickly."
+        "note": "A missing page should not block the next useful step. The platform should always provide a controlled recovery route."
       },
       "nextStep": {
-        "lead": "Go back to Home, Services, Consultation, or Search.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
-            "href": "/",
-            "label": "Go Home",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
             "track": "cta"
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "/legal/search/",
-            "label": "Site Search",
-            "track": "search"
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
           }
         ],
-        "note": "Use the recovery links or contact the team if you still cannot find what you need."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal for visas, consulates, and entry-related guidance."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, residence, rights, and duties in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree for migration procedures, public authorities, and administrative interpretation."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/",
-        "title": "Home",
-        "description": "Return to the main homepage to reach the site’s primary service and consultation paths."
+        "href": "/legal/",
+        "title": "ImmigrateToBrazil.com Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/search/",
+        "title": "Search",
+        "description": "Use search to locate the correct service route, legal notice, or institutional page when the problem is clear but the page name is not.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+        "image_alt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Go to the services hub to find visas, residencies, naturalisation, defense, advisory, and support pages."
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "Book a consultation if you are ready to discuss your situation and get a clear next step."
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       },
       {
-        "href": "/legal/search/",
-        "title": "Site Search",
-        "description": "Use the site search page to locate the page, service, or legal information you were trying to find."
+        "href": "/about/",
+        "title": "Ready to approach Brazil with more structure",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/clients/",
+        "title": "Clients",
+        "description": "Contextual overview of clients within the Immigrate to Brazil platform. Covers client categories, individuals, families, practical documentation logic, offic…",
+        "image_src": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-clients.webp",
+        "image_alt": "Hero image for the Clients page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/process/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where scattered facts start becoming an organized immigration question. We explain what this stage is for, what it can realistically clarify, and why a strong consultation often changes the quality of every later step.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
       }
     ]
   }

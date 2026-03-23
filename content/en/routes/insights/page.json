@@ -1,0 +1,213 @@
+{
+  "route": "/insights/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights family-insights style-insight",
+  "meta": {
+    "themeColor": "#CD6C28",
+    "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "robots": "index,follow",
+    "title": "Insights | Brazil Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Insights | Brazil Insights | Immigrate to Brazil",
+    "ogDescription": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+    "ogImageAlt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Insights | Brazil Insights | Immigrate to Brazil",
+    "twitterDescription": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+    "twitterImageAlt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Insights",
+    "pageFamily": "insights"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Insights",
+      "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+      "url": "https://immigratetobrazil.com/insights/",
+      "mainEntityOfPage": "https://immigratetobrazil.com/insights/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this page on insights meant as general guidance or individual advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is written as structured public guidance designed to improve understanding before your own facts, documents, or timing require individual review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I use this article on insights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The strongest approach is to use it for orientation, vocabulary, and comparison, then move to consultation when the issue becomes personal or document-sensitive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does reading about insights stop being enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reading usually reaches its limit when the answer depends on your own chronology, route fit, deadlines, or records rather than on general public information."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/insights/#hero-image",
+      "name": "General hero image featuring Sao Paulo skyline",
+      "description": "SEO hero image for the General page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil immigration insights.",
+      "caption": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil.",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, General, Brazil immigration insights, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Insights",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling."
+      },
+      "nextStep": {
+        "lead": "Read the article that matches the real question on your mind, and reach out when the answer now depends on your own chronology, route fit, documents, or deadlines.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, admission, residence, rights, and duties in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree used to interpret migration procedures, authorities, and administrative logic."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with public guidance on authorisations and immigration administration."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal with entry, visa, and consular reference information."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/insights/general/",
+        "title": "General",
+        "description": "Editorial-style guidance page covering general in the Brazilian immigration context. Covers overview of brazilian immigration system and structure, general l...",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/insights/visa/",
+        "title": "Visa",
+        "description": "Editorial-style guidance page covering visa in the Brazilian immigration context. Covers general explanation of visa categories, temporary versus specific-pu...",
+        "image_src": "/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp",
+        "image_alt": "Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/insights/residency/",
+        "title": "Residency",
+        "description": "Editorial-style guidance page covering residency in the Brazilian immigration context. Covers residence-permit overview, legal bases, visa and residency rela...",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+        "image_alt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/process/naturalisation/",
+        "title": "Naturalisation",
+        "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r...",
+        "image_src": "/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+        "image_alt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/insights/process/",
+        "title": "Process",
+        "description": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati...",
+        "image_src": "/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
+        "image_alt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/insights/blog/",
+        "title": "Blog",
+        "description": "Editorial-style guidance page covering blog in the Brazilian immigration context. Covers publication hub, recurring immigration themes, subject organization,...",
+        "image_src": "/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
+        "image_alt": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      }
+    ]
+  }
+}

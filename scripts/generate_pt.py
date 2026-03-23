@@ -19,6 +19,8 @@ os.environ.setdefault("ARGOS_DEVICE_TYPE", "cpu")
 os.environ.setdefault("ARGOS_INTER_THREADS", str(min(8, CPU_COUNT)))
 os.environ.setdefault("ARGOS_BATCH_SIZE", "4096")
 os.environ.setdefault("ARGOS_COMPUTE_TYPE", "int8")
+os.environ.setdefault("ITB_PT_ENABLE_BATCH", "1")
+os.environ.setdefault("ITB_PT_MICRO_BATCH_SIZE", "16")
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -521,6 +523,8 @@ class PtGenerator:
             return
 
         chunk_size = 256
+        batch_enabled = os.environ.get("ITB_PT_ENABLE_BATCH", "1").strip().lower() in {"1", "true", "yes", "on"}
+        micro_batch_size = max(1, int(os.environ.get("ITB_PT_MICRO_BATCH_SIZE", "16")))
         total_chunks = (len(pending_inputs) + chunk_size - 1) // chunk_size
         for start in range(0, len(pending_inputs), chunk_size):
             input_chunk = pending_inputs[start : start + chunk_size]
@@ -531,9 +535,15 @@ class PtGenerator:
                 f"Translating chunk {chunk_number}/{total_chunks} ({len(input_chunk)} strings)...",
                 flush=True,
             )
-            try:
-                translated_chunk = self.engine.translate_many(input_chunk)
-            except Exception:
+            if batch_enabled:
+                translated_chunk: list[str] = []
+                for micro_start in range(0, len(input_chunk), micro_batch_size):
+                    micro_chunk = input_chunk[micro_start : micro_start + micro_batch_size]
+                    try:
+                        translated_chunk.extend(self.engine.translate_many(micro_chunk))
+                    except Exception:
+                        translated_chunk.extend([self.engine.translate(value) for value in micro_chunk])
+            else:
                 translated_chunk = [self.engine.translate(value) for value in input_chunk]
 
             for source, translated, placeholders in zip(source_chunk, translated_chunk, placeholder_chunk):

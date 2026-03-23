@@ -4,25 +4,25 @@
   "bodyClass": "site-root page-legal-emergency family-legal style-emergency",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "description": "This page defines what qualifies as urgent, when authorities should be contacted first, and how emergency triage should be initiated with Immigrate to Brazil.",
     "robots": "index,follow",
-    "title": "Emergency | Legal Information | Immigrate to Brazil",
+    "title": "Emergency Resources | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Emergency | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "ogTitle": "Emergency Resources | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This page defines what qualifies as urgent, when authorities should be contacted first, and how emergency triage should be initiated with Immigrate to Brazil.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
     "ogImageAlt": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Emergency | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency. Covers email, phone, whatsapp inst…",
+    "twitterTitle": "Emergency Resources | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This page defines what qualifies as urgent, when authorities should be contacted first, and how emergency triage should be initiated with Immigrate to Brazil.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-emergency.webp",
     "twitterImageAlt": "Hero image for the Emergency page showing the Porto Alegre skyline in southern Brazil."
   },
   "runtime": {
-    "pageTitle": "Emergency",
+    "pageTitle": "Emergency Resources",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Emergency",
+          "name": "Emergency Resources",
           "item": "https://immigratetobrazil.com/legal/emergency/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What kinds of situations should be sent through the emergency route?",
+          "name": "Should I use this page for ordinary consultation questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use the emergency route for situations where delay may create a bigger problem and you need a faster first review of what should happen next."
+            "text": "No. It is intended for genuine urgency."
           }
         },
         {
           "@type": "Question",
-          "name": "What should I send first if my situation is urgent?",
+          "name": "What if a public authority must act immediately?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Start with a short clear summary of what is happening, why the matter feels urgent, and any immediate date, notice, or event that makes timing important."
+            "text": "The authority should be contacted first."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help if I do not have every detail yet?",
+          "name": "What helps most in an urgent message?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. In urgent matters, the first step is often understanding the immediate priority before everything is perfectly organized."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does emergency contact guarantee immediate representation or an outcome?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Emergency contact is a faster way to begin the first review of the situation. It does not guarantee a specific result or bypass the need for proper assessment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after the team receives an emergency message?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The message is reviewed manually, and the next step depends on the urgency, timing, and type of support that appears to be needed."
+            "text": "A short factual summary with the key document, deadline, or authority action involved."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Emergency",
+        "label": "Emergency Resources",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Urgency requires structure. In high-risk situations, the quality of the first message can materially affect what happens next."
       },
       "nextStep": {
-        "lead": "email in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,102 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for registration, migration procedures, and authority-side guidance."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal for visas, consulates, and entry-related guidance."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.defensoria.pr.def.br/",
+        "title": "Defensoria Publica do Parana",
+        "description": "Official public-defender portal for legal assistance information in Parana."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/process/rights/",
-        "title": "Rights",
-        "description": "Process guidance on rights within Brazilian immigration procedures and compliance planning."
+        "href": "/legal/disclaimer/",
+        "title": "Disclaimer & Legal Notice",
+        "description": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+        "image_alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/form/",
+        "title": "Form & Intake Policy",
+        "description": "This policy explains how our forms, uploads, and intake channels operate, what information they request, how submissions are reviewed, and what form submission does and does not mean.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/services/defense/",
         "title": "Defense",
-        "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities."
+        "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+        "image_alt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/legal/disclaimer/",
-        "title": "Disclaimer",
-        "description": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making."
+        "href": "/services/defense/appeals/",
+        "title": "Appeals",
+        "description": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authorit…",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
+        "image_alt": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil."
       },
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/services/defense/deportation/",
+        "title": "Deportation",
+        "description": "Service page for deportation response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, auth…",
+        "image_src": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-deportation.webp",
+        "image_alt": "Hero image for the Deportation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/services/defense/expulsion/",
+        "title": "Expulsion",
+        "description": "Service page for expulsion response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, author…",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-expulsion.webp",
+        "image_alt": "Hero image for the Expulsion page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

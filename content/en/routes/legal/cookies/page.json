@@ -1,28 +1,28 @@
 {
   "route": "/legal/cookies/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-cookies family-legal style-legal",
+  "bodyClass": "site-root page-legal-cookies family-legal style-cookies",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
+    "description": "This Cookies Policy explains how cookies and similar technologies operate within the platform, how they are categorized, when consent matters, and how users can control or restrict them.",
     "robots": "index,follow",
-    "title": "Cookies | Legal Information | Immigrate to Brazil",
+    "title": "Cookies Policy | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Cookies | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
+    "ogTitle": "Cookies Policy | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This Cookies Policy explains how cookies and similar technologies operate within the platform, how they are categorized, when consent matters, and how users can control or restrict them.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
     "ogImageAlt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Cookies | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
+    "twitterTitle": "Cookies Policy | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This Cookies Policy explains how cookies and similar technologies operate within the platform, how they are categorized, when consent matters, and how users can control or restrict them.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
     "twitterImageAlt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil."
   },
   "runtime": {
-    "pageTitle": "Cookies",
+    "pageTitle": "Cookies Policy",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Cookies",
+          "name": "Cookies Policy",
           "item": "https://immigratetobrazil.com/legal/cookies/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does Immigrate to Brazil use cookies in a way I should know about before contacting the team?",
+          "name": "Are all cookies treated the same way?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Cookie use should be transparent so you understand how the site works before deciding how you want to use it or contact the team."
+            "text": "No. Essential, analytical, optional, and third-party functions should be distinguished clearly."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I use the site without accepting every type of cookie?",
+          "name": "Can a user block cookies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In most cases, yes. The aim is to keep site use as clear and respectful as possible while explaining what is essential and what may be optional."
+            "text": "Yes, usually through browser or device settings, although doing so may affect functionality."
           }
         },
         {
           "@type": "Question",
-          "name": "Does cookie use affect how I contact or work with Immigrate to Brazil?",
+          "name": "Does this page replace the privacy policy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cookie settings mainly affect site behavior, not the core question of whether you can contact the team for guidance or support."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if I want more clarity before using the site further?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If anything about site behavior, privacy, or consent feels unclear, you can contact the team for clarification before proceeding."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where can I ask questions about privacy or cookie use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact the team directly if you want a clearer explanation of how cookie-related choices connect to site use and contact options."
+            "text": "No. It supplements the privacy policy and should be read together with it."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Cookies",
+        "label": "Cookies Policy",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Cookies are not treated as interchangeable. Their use is structured by function, necessity, and applicable consent requirements."
       },
       "nextStep": {
-        "lead": "cookie categories in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,7 +120,7 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
@@ -146,41 +130,83 @@
         "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "title": "Decree No. 7.962/2013",
+        "description": "Brazilian e-commerce decree governing transparency, information duties, and online consumer relations."
       },
       {
         "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "title": "European Commission GDPR Overview",
+        "description": "Institutional European reference page explaining the GDPR framework and personal-data protections."
+      },
+      {
+        "href": "https://www.gov.br/anpd/pt-br",
+        "title": "ANPD",
+        "description": "Brazilian National Data Protection Authority portal with public privacy and LGPD guidance."
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection_en",
+        "title": "European Commission - Data Protection",
+        "description": "Official European Commission overview of data protection and GDPR-related information."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "title": "Marco Civil da Internet",
+        "description": "Official text of Brazil's Internet Civil Framework law."
+      },
+      {
+        "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "title": "EUR-Lex - GDPR",
+        "description": "Official text of the GDPR regulation through the European Union legal portal."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree for migration procedures, public authorities, and administrative interpretation."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
       },
       {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/legal/accessibility/",
+        "title": "Accessibility Statement",
+        "description": "This Accessibility Statement explains how Immigrate to Brazil approaches accessibility as an operational requirement, the standards we use as reference, how issues can be reported, and how alternative access may be provided when barriers are identified.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-accessibility.webp",
+        "image_alt": "Hero image for the Accessibility page showing the Curitiba skyline in southern Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/legal/search/",
+        "title": "Search",
+        "description": "Use search to locate the correct service route, legal notice, or institutional page when the problem is clear but the page name is not.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+        "image_alt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

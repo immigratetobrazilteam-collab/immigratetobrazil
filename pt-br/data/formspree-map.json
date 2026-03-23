@@ -15,18 +15,8 @@
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
-    "route": "/pt-br/about/compliance/",
-    "title": "Conformidade",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
     "route": "/pt-br/about/ethics/",
     "title": "&Eacute;tica",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/pt-br/about/governance/",
-    "title": "Governan&ccedil;a",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
@@ -50,18 +40,8 @@
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
-    "route": "/pt-br/about/regulatory/",
-    "title": "Regulamenta&ccedil;&atilde;o",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
     "route": "/pt-br/about/results/",
     "title": "Resultados",
-    "endpoint": "https://formspree.io/f/xaqpaodd"
-  },
-  {
-    "route": "/pt-br/about/standards/",
-    "title": "Padr&otilde;es",
     "endpoint": "https://formspree.io/f/xaqpaodd"
   },
   {
@@ -257,61 +237,6 @@
   {
     "route": "/pt-br/insights/visa/",
     "title": "Visto",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/accessibility/",
-    "title": "Acessibilidade",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/cookies/",
-    "title": "Cookies",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/disclaimer/",
-    "title": "Disclaimer",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/emergency/",
-    "title": "Emerg&ecirc;ncia",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/form/",
-    "title": "Formul&aacute;rio",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/gdpr/",
-    "title": "GDPR",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/lgpd/",
-    "title": "LGPD",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/payment/",
-    "title": "Pagamento",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/privacy/",
-    "title": "Privacidade",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/refund/",
-    "title": "Reembolso",
-    "endpoint": "https://formspree.io/f/xgonrknq"
-  },
-  {
-    "route": "/pt-br/legal/terms/",
-    "title": "Termos",
     "endpoint": "https://formspree.io/f/xgonrknq"
   },
   {

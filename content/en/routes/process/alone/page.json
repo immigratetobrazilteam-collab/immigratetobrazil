@@ -4,7 +4,7 @@
   "bodyClass": "site-root page-process-alone family-process style-process",
   "meta": {
     "themeColor": "#C7953C",
-    "description": "Process guidance on alone within Brazilian immigration procedures and compliance planning. Covers self-representation possibility, responsibilities without l…",
+    "description": "Many readers try to carry the process alone for longer than is comfortable because they hope more reading will solve what is really a structure problem. We explain where solo navigation is still reasonable and where it usually starts to fail.",
     "robots": "index,follow",
     "title": "Alone | Brazil Immigration Process | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/process/brazil-porto-alegre-skyline-alone.webp"
@@ -12,12 +12,12 @@
   "social": {
     "ogType": "website",
     "ogTitle": "Alone | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on alone within Brazilian immigration procedures and compliance planning. Covers self-representation possibility, responsibilities without l…",
+    "ogDescription": "Many readers try to carry the process alone for longer than is comfortable because they hope more reading will solve what is really a structure problem. We explain where solo navigation is still reasonable and where it usually starts to fail.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-porto-alegre-skyline-alone.webp",
     "ogImageAlt": "Hero image for the Alone page showing the Porto Alegre skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Alone | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on alone within Brazilian immigration procedures and compliance planning. Covers self-representation possibility, responsibilities without l…",
+    "twitterDescription": "Many readers try to carry the process alone for longer than is comfortable because they hope more reading will solve what is really a structure problem. We explain where solo navigation is still reasonable and where it usually starts to fail.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-porto-alegre-skyline-alone.webp",
     "twitterImageAlt": "Hero image for the Alone page showing the Porto Alegre skyline in southern Brazil."
   },
@@ -39,6 +39,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Process",
+          "item": "https://immigratetobrazil.com/process/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Alone",
           "item": "https://immigratetobrazil.com/process/alone/"
         }
@@ -46,15 +52,11 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Alone | Immigrate to Brazil",
-      "serviceType": "Alone",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
+      "@type": "Article",
+      "name": "Alone",
+      "description": "Many readers try to carry the process alone for longer than is comfortable because they hope more reading will solve what is really a structure problem. We explain where solo navigation is still reasonable and where it usually starts to fail.",
       "url": "https://immigratetobrazil.com/process/alone/",
-      "description": "Process guidance on alone within Brazilian immigration procedures and compliance planning."
+      "mainEntityOfPage": "https://immigratetobrazil.com/process/alone/"
     },
     {
       "@context": "https://schema.org",
@@ -62,42 +64,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How can Immigrate to Brazil help at deciding whether to handle things alone?",
+          "name": "What is the practical value of understanding alone?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We help clients understand what deciding whether to handle things alone means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
+            "text": "Understanding the stage usually improves sequence, expectation control, document quality, and the next decision you take inside the wider immigration process."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need everything ready before getting help with deciding whether to handle things alone?",
+          "name": "Does this page mean my process is already in trouble?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
+            "text": "Not necessarily. Many readers use these pages simply to understand the stage better before acting. They become even more useful when timing, documents, or prior steps are starting to matter."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around deciding whether to handle things alone?",
+          "name": "When should alone move from public reading into consultation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at deciding whether to handle things alone?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with deciding whether to handle things alone."
+            "text": "That usually happens when the answer now depends on your own facts, deadlines, records, or route comparison rather than on general explanation alone."
           }
         }
       ]
@@ -124,16 +110,20 @@
         "href": "/"
       },
       {
+        "label": "Process",
+        "href": "/process/"
+      },
+      {
         "label": "Alone",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Many readers try to carry the process alone for longer than is comfortable because they hope more reading will solve what is really a structure problem. We explain where solo navigation is still reasonable and where it usually starts to fail."
       },
       "nextStep": {
-        "lead": "self-representation possibility, the current stage, and the next practical check.",
+        "lead": "If alone is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -148,56 +138,78 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
+        "href": "/process/",
+        "title": "Brazil Immigration Process Explained Step By Step",
+        "description": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
+      },
+      {
+        "href": "/process/planning/",
+        "title": "Planning",
+        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning. Covers long-term immigration planning, sequencing of applicatio...",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-planning.webp",
+        "image_alt": "Hero image for the Planning page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/process/rights/",
+        "title": "Rights",
+        "description": "Process guidance on rights within Brazilian immigration procedures and compliance planning. Covers client rights, access to information, confidentiality, pra...",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-rights.webp",
+        "image_alt": "Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/process/fees/",
+        "title": "Fees",
+        "description": "Process guidance on fees within Brazilian immigration procedures and compliance planning. Covers nature of legal fees, structure of charges, scope of service...",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-fees.webp",
+        "image_alt": "Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

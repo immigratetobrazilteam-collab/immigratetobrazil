@@ -1,28 +1,28 @@
 {
   "route": "/legal/accessibility/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-accessibility family-legal style-legal",
+  "bodyClass": "site-root page-legal-accessibility family-legal style-accessibility",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Accessibility statement covering the controls built into the site, compatibility goals, and support channels. Covers accessibility commitment, current measur…",
+    "description": "This Accessibility Statement explains how Immigrate to Brazil approaches accessibility as an operational requirement, the standards we use as reference, how issues can be reported, and how alternative access may be provided when barriers are identified.",
     "robots": "index,follow",
-    "title": "Accessibility | Legal Information | Immigrate to Brazil",
+    "title": "Accessibility Statement | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-curitiba-skyline-accessibility.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Accessibility | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Accessibility statement covering the controls built into the site, compatibility goals, and support channels. Covers accessibility commitment, current measur…",
+    "ogTitle": "Accessibility Statement | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This Accessibility Statement explains how Immigrate to Brazil approaches accessibility as an operational requirement, the standards we use as reference, how issues can be reported, and how alternative access may be provided when barriers are identified.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-curitiba-skyline-accessibility.webp",
     "ogImageAlt": "Hero image for the Accessibility page showing the Curitiba skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Accessibility | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Accessibility statement covering the controls built into the site, compatibility goals, and support channels. Covers accessibility commitment, current measur…",
+    "twitterTitle": "Accessibility Statement | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This Accessibility Statement explains how Immigrate to Brazil approaches accessibility as an operational requirement, the standards we use as reference, how issues can be reported, and how alternative access may be provided when barriers are identified.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-curitiba-skyline-accessibility.webp",
     "twitterImageAlt": "Hero image for the Accessibility page showing the Curitiba skyline in southern Brazil."
   },
   "runtime": {
-    "pageTitle": "Accessibility",
+    "pageTitle": "Accessibility Statement",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Accessibility",
+          "name": "Accessibility Statement",
           "item": "https://immigratetobrazil.com/legal/accessibility/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can I contact Immigrate to Brazil if I need help accessing the site?",
+          "name": "Does this page mean the site is perfectly accessible in every context?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If a page, form, or feature is making access difficult, you can contact the team directly and explain the barrier."
+            "text": "No. It means accessibility is being treated as an active control area with ongoing improvement."
           }
         },
         {
           "@type": "Question",
-          "name": "What if an accessibility issue makes it harder to use a page or form?",
+          "name": "What should I include in an accessibility report?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Let the team know. The goal is to make it easier for you to continue, not to leave you blocked by the site itself."
+            "text": "The page or section, the issue, the task you were trying to complete, and any relevant device or assistive-technology context."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I still reach the team another way?",
+          "name": "Can I contact you if a barrier stops me from finishing a form or booking?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If one route is difficult, other contact methods may still be available for practical follow-up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Immigrate to Brazil want feedback on accessibility barriers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Accessibility feedback is useful because it helps identify what should be improved for real users."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I report an accessibility issue?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The issue can be reviewed, and the team can respond with the most practical next step or an alternative way to keep the process moving."
+            "text": "Yes. Where reasonably possible, we will provide an alternative route so the issue does not block access to an essential step."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Accessibility",
+        "label": "Accessibility Statement",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Accessibility affects whether a person can actually understand, navigate, submit, and act. For that reason, it is treated as a functional standard, not a decorative claim."
       },
       "nextStep": {
-        "lead": "accessibility commitment in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,93 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
       {
-        "href": "https://emag.governoeletronico.gov.br/",
-        "title": "eMAG accessibility model",
-        "description": "Brazilian digital accessibility reference used as a benchmark for web accessibility measures."
+        "href": "https://www.gov.br/pt-br/acessibilidade",
+        "title": "Gov.br Accessibility",
+        "description": "Government accessibility page covering digital inclusion and access standards in the Brazilian public environment."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "https://www.gov.br/governodigitallogin/pt-br/acessibilidade-e-usuario/acessibilidade-digital/ferramentas",
+        "title": "Governo Digital Accessibility Tools",
+        "description": "Official digital-government accessibility tools and support references."
+      },
+      {
+        "href": "https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf",
+        "title": "Governo Digital Accessibility Guide",
+        "description": "Official digital accessibility guide covering standards and practical implementation guidance."
+      },
+      {
+        "href": "https://www.w3.org/TR/WCAG22/",
+        "title": "W3C - WCAG 2.2",
+        "description": "Official accessibility standard reference for WCAG 2.2."
+      },
+      {
+        "href": "https://www.w3.org/WAI/planning/statements/",
+        "title": "W3C - Accessibility Statements",
+        "description": "Official W3C guidance for accessibility statements and disclosure."
       },
       {
         "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "title": "ANPD",
+        "description": "Brazilian National Data Protection Authority portal with public privacy and LGPD guidance."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/search/",
+        "title": "Search",
+        "description": "Use search to locate the correct service route, legal notice, or institutional page when the problem is clear but the page name is not.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+        "image_alt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/legal/cookies/",
+        "title": "Cookies Policy",
+        "description": "This Cookies Policy explains how cookies and similar technologies operate within the platform, how they are categorized, when consent matters, and how users can control or restrict them.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
+        "image_alt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/about/values/",
+        "title": "The standards that shape how every process feels",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

@@ -5,774 +5,784 @@
     "wordCount": 2592
   },
   {
+    "route": "/about/",
+    "title": "The company, method, and people behind immigration to Brazil",
+    "wordCount": 929
+  },
+  {
     "route": "/about/about/",
-    "title": "About",
-    "wordCount": 1840
+    "title": "A structured company built to make immigration to Brazil clearer",
+    "wordCount": 613
   },
   {
     "route": "/about/clients/",
-    "title": "Clients",
-    "wordCount": 2070
-  },
-  {
-    "route": "/about/compliance/",
-    "title": "Compliance",
-    "wordCount": 1938
+    "title": "Individuals, families, and organizations navigating immigration to Brazil",
+    "wordCount": 787
   },
   {
     "route": "/about/ethics/",
-    "title": "Ethics",
-    "wordCount": 1970
-  },
-  {
-    "route": "/about/governance/",
-    "title": "Governance",
-    "wordCount": 1945
+    "title": "How immigration matters are handled with structure, clarity, and integrity",
+    "wordCount": 876
   },
   {
     "route": "/about/lawyer/",
-    "title": "Lawyer",
-    "wordCount": 2282
+    "title": "Monique Fernandes and the legal structure behind formal immigration matters in Brazil",
+    "wordCount": 648
   },
   {
     "route": "/about/mission/",
-    "title": "Mission",
-    "wordCount": 1960
+    "title": "Bringing clarity, structure, and reliable progression to Brazil-related decisions",
+    "wordCount": 786
   },
   {
     "route": "/about/philosophy/",
-    "title": "Philosophy",
-    "wordCount": 1969
+    "title": "Clarity before action. Structure before speed. Alignment before progression.",
+    "wordCount": 812
   },
   {
     "route": "/about/profile/",
-    "title": "Profile",
-    "wordCount": 1973
-  },
-  {
-    "route": "/about/regulatory/",
-    "title": "Regulatory",
-    "wordCount": 1931
+    "title": "Who we are, how we work, and the standard behind immigration to Brazil",
+    "wordCount": 1077
   },
   {
     "route": "/about/results/",
-    "title": "Results",
-    "wordCount": 1964
-  },
-  {
-    "route": "/about/standards/",
-    "title": "Standards",
-    "wordCount": 1889
+    "title": "Strong results begin with clarity, preparation, and alignment",
+    "wordCount": 805
   },
   {
     "route": "/about/stories/",
-    "title": "Stories",
-    "wordCount": 2009
+    "title": "Real moments where structure changed how a Brazil process felt",
+    "wordCount": 844
   },
   {
     "route": "/about/story/",
-    "title": "Story",
-    "wordCount": 1970
+    "title": "Why Immigrate to Brazil was built around structure, not noise",
+    "wordCount": 837
   },
   {
     "route": "/about/testimonials/",
-    "title": "Testimonials",
-    "wordCount": 2077
+    "title": "What clients remember when the process finally becomes clear",
+    "wordCount": 824
   },
   {
     "route": "/about/values/",
-    "title": "Values",
-    "wordCount": 1868
+    "title": "The standards that shape how every process feels",
+    "wordCount": 969
   },
   {
     "route": "/about/whyus/",
-    "title": "Why Us",
-    "wordCount": 1946
+    "title": "A more structured, reliable path to immigration in Brazil",
+    "wordCount": 670
+  },
+  {
+    "route": "/brazil/",
+    "title": "Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making",
+    "wordCount": 981
   },
   {
     "route": "/brazil/brazil/",
-    "title": "Brazil",
-    "wordCount": 2629
+    "title": "Brazil Explained As A Real Country To Plan Around",
+    "wordCount": 1895
   },
   {
     "route": "/brazil/central-west/",
-    "title": "Central-West",
-    "wordCount": 2498
+    "title": "Central-West Region In Brazil Through A Relocation Lens",
+    "wordCount": 1842
   },
   {
     "route": "/brazil/cities/",
-    "title": "Cities",
-    "wordCount": 2593
+    "title": "Cities In Brazil Compared Through Real Daily-Life Factors",
+    "wordCount": 1953
   },
   {
     "route": "/brazil/cost/",
-    "title": "Cost",
-    "wordCount": 2609
+    "title": "Cost Of Living In Brazil In Real Planning Terms",
+    "wordCount": 2069
   },
   {
     "route": "/brazil/cuisine/",
-    "title": "Cuisine",
-    "wordCount": 2599
+    "title": "Brazilian Cuisine As Part Of Everyday Life And Cultural Identity",
+    "wordCount": 1896
   },
   {
     "route": "/brazil/culture/",
-    "title": "Culture",
-    "wordCount": 2583
+    "title": "Brazilian Culture As A Real Part Of Relocation And Belonging",
+    "wordCount": 1808
   },
   {
     "route": "/brazil/directory/",
-    "title": "Directory",
-    "wordCount": 2600
+    "title": "Directory For Navigating Brazil By Location And Practical Need",
+    "wordCount": 1810
   },
   {
     "route": "/brazil/economy/",
-    "title": "Economy",
-    "wordCount": 2622
+    "title": "Brazil’s Economy In Practical Terms For Immigrants And Relocating Families",
+    "wordCount": 1971
   },
   {
     "route": "/brazil/education/",
-    "title": "Education",
-    "wordCount": 2492
+    "title": "Education In Brazil For Families, Students, And Future Planning",
+    "wordCount": 1928
   },
   {
     "route": "/brazil/events/",
-    "title": "Events",
-    "wordCount": 2513
+    "title": "Events In Brazil For Culture, Music, Sport, And Urban Energy",
+    "wordCount": 1874
   },
   {
     "route": "/brazil/faqs/",
-    "title": "Faqs",
-    "wordCount": 2563
+    "title": "Brazil FAQs In Clear, Practical Language",
+    "wordCount": 1844
   },
   {
     "route": "/brazil/festivals/",
-    "title": "Festivals",
-    "wordCount": 2604
+    "title": "Festivals In Brazil As Cultural Life Rather Than Simple Tourism",
+    "wordCount": 1886
   },
   {
     "route": "/brazil/guides/",
-    "title": "Guides",
-    "wordCount": 2569
+    "title": "Practical Guides For Settling Into Life In Brazil",
+    "wordCount": 1869
   },
   {
     "route": "/brazil/healthcare/",
-    "title": "Healthcare",
-    "wordCount": 2572
+    "title": "Healthcare In Brazil For Individuals, Families, And Long-Term Planning",
+    "wordCount": 1994
   },
   {
     "route": "/brazil/housing/",
-    "title": "Housing",
-    "wordCount": 2491
+    "title": "Housing In Brazil Through A Relocation Planning Lens",
+    "wordCount": 1994
   },
   {
     "route": "/brazil/investment/",
-    "title": "Investment",
-    "wordCount": 2509
+    "title": "Investment In Brazil Through A Realistic Foreign-Entry Lens",
+    "wordCount": 1875
   },
   {
     "route": "/brazil/living/",
-    "title": "Living",
-    "wordCount": 2608
+    "title": "Living In Brazil As Daily Life Rather Than A Travel Idea",
+    "wordCount": 2007
   },
   {
     "route": "/brazil/municipalities/",
-    "title": "Municipalities",
-    "wordCount": 2556
+    "title": "Municipalities In Brazil For Readers Thinking Beyond Major Capitals",
+    "wordCount": 1932
   },
   {
     "route": "/brazil/north/",
-    "title": "North",
-    "wordCount": 2497
+    "title": "North Region In Brazil Through A Relocation Lens",
+    "wordCount": 1846
   },
   {
     "route": "/brazil/northeast/",
-    "title": "Northeast",
-    "wordCount": 2499
+    "title": "Northeast Region In Brazil Through A Relocation Lens",
+    "wordCount": 1842
+  },
+  {
+    "route": "/brazil/places/",
+    "title": "Places In Brazil Compared Through Lifestyle, Cost, And Practical Fit",
+    "wordCount": 973
   },
   {
     "route": "/brazil/quality/",
-    "title": "Quality",
-    "wordCount": 2608
+    "title": "Quality Of Life In Brazil Beyond Slogans",
+    "wordCount": 1957
   },
   {
     "route": "/brazil/safety/",
-    "title": "Safety",
-    "wordCount": 2609
+    "title": "Safety In Brazil Beyond Stereotypes And Simplifications",
+    "wordCount": 1991
   },
   {
     "route": "/brazil/search/",
-    "title": "Search",
-    "wordCount": 2591
+    "title": "Search Brazil Topics, Places, And Immigration Planning Pages Faster",
+    "wordCount": 1809
   },
   {
     "route": "/brazil/south/",
-    "title": "South",
-    "wordCount": 2612
+    "title": "South Region In Brazil Through A Relocation Lens",
+    "wordCount": 1827
   },
   {
     "route": "/brazil/southeast/",
-    "title": "Southeast",
-    "wordCount": 2616
+    "title": "Southeast Region In Brazil Through A Relocation Lens",
+    "wordCount": 1865
   },
   {
     "route": "/brazil/states/",
-    "title": "States",
-    "wordCount": 2584
+    "title": "Brazilian States As A Practical Layer Of Relocation Planning",
+    "wordCount": 1918
+  },
+  {
+    "route": "/insights/",
+    "title": "Brazil Immigration Insights, Guides, Updates, And FAQs",
+    "wordCount": 926
   },
   {
     "route": "/insights/blog/",
-    "title": "Blog",
-    "wordCount": 2521
+    "title": "Brazil Immigration Blog: Evergreen Commentary, Explanations, And Planning Notes",
+    "wordCount": 1210
   },
   {
     "route": "/insights/general/",
-    "title": "General",
-    "wordCount": 2604
+    "title": "Brazil Immigration Basics: Visas, Residency, Documents, And Public Authorities",
+    "wordCount": 1832
   },
   {
     "route": "/insights/guides/",
-    "title": "Guides",
-    "wordCount": 2511
+    "title": "Brazil Guides: Moving, Settling, Documents, And Everyday Questions",
+    "wordCount": 1095
   },
   {
     "route": "/insights/naturalisation/",
-    "title": "Naturalisation",
-    "wordCount": 2542
+    "title": "Brazil Naturalisation Insights: Continuity, Eligibility, Records, And Timing",
+    "wordCount": 1493
   },
   {
     "route": "/insights/process/",
-    "title": "Process",
-    "wordCount": 2562
+    "title": "Brazil Immigration Process Insights: Strategy, Filing, Approval, And Aftercare",
+    "wordCount": 1320
   },
   {
     "route": "/insights/residency/",
-    "title": "Residency",
-    "wordCount": 2557
+    "title": "Brazil Residency Insights: Continuity, Renewal, Rights, And Long-Term Stay",
+    "wordCount": 1496
   },
   {
     "route": "/insights/updates/",
-    "title": "Updates",
-    "wordCount": 2517
+    "title": "Brazil Immigration Updates Explained Calmly",
+    "wordCount": 1135
   },
   {
     "route": "/insights/visa/",
-    "title": "Visa",
-    "wordCount": 2561
+    "title": "Brazil Visa Insights: Entry Categories, Consulates, Documents, And Timing",
+    "wordCount": 1691
+  },
+  {
+    "route": "/legal/",
+    "title": "ImmigrateToBrazil.com Legal Notices",
+    "wordCount": 916
   },
   {
     "route": "/legal/404/",
     "title": "Page Not Found",
-    "wordCount": 112
+    "wordCount": 380
   },
   {
     "route": "/legal/accessibility/",
-    "title": "Accessibility",
-    "wordCount": 2461
+    "title": "Accessibility Statement",
+    "wordCount": 898
   },
   {
     "route": "/legal/cookies/",
-    "title": "Cookies",
-    "wordCount": 2499
+    "title": "Cookies Policy",
+    "wordCount": 1140
   },
   {
     "route": "/legal/disclaimer/",
-    "title": "Disclaimer",
-    "wordCount": 2501
+    "title": "Disclaimer & Legal Notice",
+    "wordCount": 952
   },
   {
     "route": "/legal/emergency/",
-    "title": "Emergency",
-    "wordCount": 2543
+    "title": "Emergency Resources",
+    "wordCount": 452
   },
   {
     "route": "/legal/form/",
-    "title": "Form",
-    "wordCount": 2598
+    "title": "Form & Intake Policy",
+    "wordCount": 576
   },
   {
     "route": "/legal/gdpr/",
-    "title": "Gdpr",
-    "wordCount": 2495
+    "title": "GDPR Compliance Notice",
+    "wordCount": 1073
   },
   {
     "route": "/legal/lgpd/",
-    "title": "Lgpd",
-    "wordCount": 2495
+    "title": "LGPD Notice",
+    "wordCount": 580
   },
   {
     "route": "/legal/payment/",
-    "title": "Payment",
-    "wordCount": 2037
+    "title": "Payment Terms",
+    "wordCount": 1112
   },
   {
     "route": "/legal/privacy/",
-    "title": "Privacy",
-    "wordCount": 2472
+    "title": "Privacy Policy",
+    "wordCount": 1098
   },
   {
     "route": "/legal/refund/",
-    "title": "Refund",
-    "wordCount": 2455
+    "title": "Refund Policy",
+    "wordCount": 1043
   },
   {
     "route": "/legal/search/",
     "title": "Search",
-    "wordCount": 81
+    "wordCount": 459
   },
   {
     "route": "/legal/terms/",
-    "title": "Terms",
-    "wordCount": 2472
+    "title": "Terms & Conditions",
+    "wordCount": 1273
+  },
+  {
+    "route": "/process/",
+    "title": "Brazil Immigration Process Explained Step By Step",
+    "wordCount": 892
   },
   {
     "route": "/process/aftercare/",
-    "title": "Aftercare",
-    "wordCount": 2485
+    "title": "Aftercare As The Stage After Approval Where Stability Is Protected",
+    "wordCount": 1480
   },
   {
     "route": "/process/alone/",
-    "title": "Alone",
-    "wordCount": 2508
+    "title": "When Clients Try To Handle The Process Alone",
+    "wordCount": 1438
   },
   {
     "route": "/process/approval/",
-    "title": "Approval",
-    "wordCount": 2486
+    "title": "Approval Explained Without False Guarantees",
+    "wordCount": 1412
   },
   {
     "route": "/process/assessment/",
-    "title": "Assessment",
-    "wordCount": 2489
+    "title": "Assessment As A Structured Review Of The Real Situation",
+    "wordCount": 1443
   },
   {
     "route": "/process/compliance/",
-    "title": "Compliance",
-    "wordCount": 2489
+    "title": "Compliance As Ongoing Alignment Rather Than One-Time Checking",
+    "wordCount": 1392
   },
   {
     "route": "/process/consultation/",
-    "title": "Consultation",
-    "wordCount": 2571
+    "title": "Consultation As The Stage Where A Case Stops Being Vague",
+    "wordCount": 1471
   },
   {
     "route": "/process/conversion/",
-    "title": "Conversion",
-    "wordCount": 2490
+    "title": "Conversion Between Immigration Positions Or Route Logic",
+    "wordCount": 1527
   },
   {
     "route": "/process/deadlines/",
-    "title": "Deadlines",
-    "wordCount": 2607
+    "title": "Deadlines And Time Windows In Brazil Immigration Matters",
+    "wordCount": 1542
   },
   {
     "route": "/process/failures/",
-    "title": "Failures",
-    "wordCount": 2499
+    "title": "Failures In Process, Refusals, Delays, And Stalled Cases",
+    "wordCount": 1418
   },
   {
     "route": "/process/fees/",
-    "title": "Fees",
-    "wordCount": 2529
+    "title": "Fees Explained Through Stages, Scope, And Service Value",
+    "wordCount": 1472
   },
   {
     "route": "/process/filing/",
-    "title": "Filing",
-    "wordCount": 2482
+    "title": "Filing As Preparation, Submission, And Process Control",
+    "wordCount": 1477
   },
   {
     "route": "/process/mistakes/",
-    "title": "Mistakes",
-    "wordCount": 2507
+    "title": "Common Immigration Mistakes And How We Try To Prevent Them",
+    "wordCount": 1329
   },
   {
     "route": "/process/naturalisation/",
-    "title": "Naturalisation",
-    "wordCount": 2484
+    "title": "Naturalisation As A Long-Term Continuity Question",
+    "wordCount": 1409
   },
   {
     "route": "/process/obligations/",
-    "title": "Obligations",
-    "wordCount": 2508
+    "title": "Obligations That Continue Before And After Approval",
+    "wordCount": 1550
   },
   {
     "route": "/process/permanent/",
-    "title": "Permanent",
-    "wordCount": 2510
+    "title": "Permanent Status Planning In Brazil",
+    "wordCount": 1504
   },
   {
     "route": "/process/planning/",
-    "title": "Planning",
-    "wordCount": 2488
+    "title": "Planning As The Stage That Connects Goal To Sequence",
+    "wordCount": 1457
   },
   {
     "route": "/process/refund/",
-    "title": "Refund",
-    "wordCount": 2470
+    "title": "Refund Review Through Stage, Scope, And What Has Already Been Done",
+    "wordCount": 1355
   },
   {
     "route": "/process/regularization/",
-    "title": "Regularization",
-    "wordCount": 2486
+    "title": "Regularization When Status Or Process Needs Correction",
+    "wordCount": 1444
   },
   {
     "route": "/process/renewal/",
-    "title": "Renewal",
-    "wordCount": 2471
+    "title": "Renewal As A Continuity Stage Rather Than A Last-Minute Task",
+    "wordCount": 1563
   },
   {
     "route": "/process/responsibilities/",
-    "title": "Responsibilities",
-    "wordCount": 2492
+    "title": "Responsibilities Shared Across Client, Provider, And Legal Process",
+    "wordCount": 1533
   },
   {
     "route": "/process/rights/",
-    "title": "Rights",
-    "wordCount": 2505
+    "title": "Rights, Protections, And What Clients Should Understand Clearly",
+    "wordCount": 1461
   },
   {
     "route": "/process/strategy/",
-    "title": "Strategy",
-    "wordCount": 2509
+    "title": "Strategy As Route Selection With Better Sequencing",
+    "wordCount": 1538
   },
   {
     "route": "/process/timeline/",
-    "title": "Timeline",
-    "wordCount": 2603
+    "title": "Timeline Expectations In A Process That Authorities Still Control",
+    "wordCount": 1446
   },
   {
     "route": "/process/transparency/",
-    "title": "Transparency",
-    "wordCount": 2535
+    "title": "Transparency In Process, Communication, And Expectation Setting",
+    "wordCount": 1432
   },
   {
     "route": "/services/",
-    "title": "Brazil Immigration Services",
-    "wordCount": 2501
+    "title": "Brazil Immigration Services Organized By Route, Need, And Next Step",
+    "wordCount": 975
   },
   {
     "route": "/services/advisory/",
-    "title": "Advisory",
-    "wordCount": 2517
+    "title": "Advisory Services For Clarity, Strategy, And Better Early Decisions",
+    "wordCount": 937
   },
   {
     "route": "/services/advisory/compliance/",
-    "title": "Compliance",
-    "wordCount": 2602
+    "title": "Compliance Support For Clearer Immigration Decisions",
+    "wordCount": 1660
   },
   {
     "route": "/services/advisory/consultation/",
-    "title": "Consultation",
-    "wordCount": 2497
+    "title": "Consultation Support For Clearer Immigration Decisions",
+    "wordCount": 1649
   },
   {
     "route": "/services/advisory/corporate/",
-    "title": "Corporate",
-    "wordCount": 2603
+    "title": "Corporate Support For Clearer Immigration Decisions",
+    "wordCount": 1664
   },
   {
     "route": "/services/advisory/representation/",
-    "title": "Representation",
-    "wordCount": 2481
+    "title": "Representation Support For Clearer Immigration Decisions",
+    "wordCount": 1655
   },
   {
     "route": "/services/advisory/strategy/",
-    "title": "Strategy",
-    "wordCount": 2493
+    "title": "Strategy Support For Clearer Immigration Decisions",
+    "wordCount": 1656
   },
   {
     "route": "/services/defense/",
-    "title": "Defense",
-    "wordCount": 2553
+    "title": "Defense Services For Urgent, Sensitive, And Exposed Immigration Matters",
+    "wordCount": 942
   },
   {
     "route": "/services/defense/appeals/",
-    "title": "Appeals",
-    "wordCount": 2561
+    "title": "Appeals Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1569
   },
   {
     "route": "/services/defense/deportation/",
-    "title": "Deportation",
-    "wordCount": 2557
+    "title": "Deportation Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1551
   },
   {
     "route": "/services/defense/expulsion/",
-    "title": "Expulsion",
-    "wordCount": 2554
+    "title": "Expulsion Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1555
   },
   {
     "route": "/services/defense/extradition/",
-    "title": "Extradition",
-    "wordCount": 2561
+    "title": "Extradition Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1577
   },
   {
     "route": "/services/defense/fines/",
-    "title": "Fines",
-    "wordCount": 2561
+    "title": "Fines Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1584
   },
   {
     "route": "/services/defense/litigation/",
-    "title": "Litigation",
-    "wordCount": 2556
+    "title": "Litigation Support For Sensitive Immigration Defense Matters",
+    "wordCount": 1585
   },
   {
     "route": "/services/naturalisation/",
-    "title": "Naturalisation",
-    "wordCount": 2551
+    "title": "Naturalisation Services For Citizenship Planning And Long-Term Continuity",
+    "wordCount": 928
   },
   {
     "route": "/services/naturalisation/extraordinary/",
-    "title": "Extraordinary Naturalisation",
-    "wordCount": 2578
+    "title": "Extraordinary Support For Brazilian Citizenship Planning",
+    "wordCount": 1640
   },
   {
     "route": "/services/naturalisation/ordinary/",
-    "title": "Ordinary Naturalisation",
-    "wordCount": 2590
+    "title": "Ordinary Support For Brazilian Citizenship Planning",
+    "wordCount": 1635
   },
   {
     "route": "/services/naturalisation/provisional/",
-    "title": "Provisional Naturalisation",
-    "wordCount": 2599
+    "title": "Provisional Support For Brazilian Citizenship Planning",
+    "wordCount": 1687
   },
   {
     "route": "/services/naturalisation/reacquisition/",
-    "title": "Reacquisition Naturalisation",
-    "wordCount": 2583
+    "title": "Reacquisition Support For Brazilian Citizenship Planning",
+    "wordCount": 1695
   },
   {
     "route": "/services/naturalisation/renunciation/",
-    "title": "Renunciation Naturalisation",
-    "wordCount": 2571
+    "title": "Renunciation Support For Brazilian Citizenship Planning",
+    "wordCount": 1676
   },
   {
     "route": "/services/naturalisation/special/",
-    "title": "Special Naturalisation",
-    "wordCount": 2590
+    "title": "Special Support For Brazilian Citizenship Planning",
+    "wordCount": 1638
   },
   {
     "route": "/services/other/",
-    "title": "Other",
-    "wordCount": 2562
+    "title": "Supporting Services That Make Immigration Files Work In Practice",
+    "wordCount": 892
   },
   {
     "route": "/services/other/consular/",
-    "title": "Consular",
-    "wordCount": 2549
+    "title": "Consular Support For The Supporting Work That Keeps A Case Usable",
+    "wordCount": 1580
   },
   {
     "route": "/services/other/records/",
-    "title": "Records",
-    "wordCount": 2600
+    "title": "Records Support For The Supporting Work That Keeps A Case Usable",
+    "wordCount": 1587
   },
   {
     "route": "/services/other/regularization/",
-    "title": "Regularization",
-    "wordCount": 2574
+    "title": "Regularization Support For The Supporting Work That Keeps A Case Usable",
+    "wordCount": 1602
   },
   {
     "route": "/services/other/translation/",
-    "title": "Translation",
-    "wordCount": 2568
+    "title": "Translation Support For The Supporting Work That Keeps A Case Usable",
+    "wordCount": 1585
   },
   {
     "route": "/services/residencies/",
-    "title": "Residencies",
-    "wordCount": 2483
+    "title": "Residency Services For Longer-Term Legal Life In Brazil",
+    "wordCount": 930
   },
   {
     "route": "/services/residencies/cplp/",
-    "title": "CPLP Residency",
-    "wordCount": 2585
+    "title": "CPLP Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1714
   },
   {
     "route": "/services/residencies/educational/",
-    "title": "Educational Residency",
-    "wordCount": 2616
+    "title": "Educational Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1685
   },
   {
     "route": "/services/residencies/exchange/",
-    "title": "Exchange Residency",
-    "wordCount": 2502
+    "title": "Exchange Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1689
   },
   {
     "route": "/services/residencies/health/",
-    "title": "Health Residency",
-    "wordCount": 2513
+    "title": "Health Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1690
   },
   {
     "route": "/services/residencies/humanitarian/",
-    "title": "Humanitarian Residency",
-    "wordCount": 2513
+    "title": "Humanitarian Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1687
   },
   {
     "route": "/services/residencies/investor/",
-    "title": "Investor Residency",
-    "wordCount": 2612
+    "title": "Investor Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1700
   },
   {
     "route": "/services/residencies/mercosul/",
-    "title": "MERCOSUL Residency",
-    "wordCount": 2609
+    "title": "Mercosul Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1714
   },
   {
     "route": "/services/residencies/nomad/",
-    "title": "Nomad Residency",
-    "wordCount": 2527
+    "title": "Nomad Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1746
   },
   {
     "route": "/services/residencies/religious/",
-    "title": "Religious Residency",
-    "wordCount": 2619
+    "title": "Religious Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1689
   },
   {
     "route": "/services/residencies/research/",
-    "title": "Research Residency",
-    "wordCount": 2613
+    "title": "Research Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1689
   },
   {
     "route": "/services/residencies/retiree/",
-    "title": "Retiree Residency",
-    "wordCount": 2617
+    "title": "Retiree Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1676
   },
   {
     "route": "/services/residencies/reunion/",
-    "title": "Reunion Residency",
-    "wordCount": 2509
+    "title": "Reunion Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1732
   },
   {
     "route": "/services/residencies/skilled/",
-    "title": "Skilled Residency",
-    "wordCount": 2536
+    "title": "Skilled Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1697
   },
   {
     "route": "/services/residencies/study/",
-    "title": "Study Residency",
-    "wordCount": 2620
+    "title": "Study Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1685
   },
   {
     "route": "/services/residencies/volunteer/",
-    "title": "Volunteer Residency",
-    "wordCount": 2504
+    "title": "Volunteer Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1689
   },
   {
     "route": "/services/residencies/work/",
-    "title": "Work Residency",
-    "wordCount": 2520
+    "title": "Work Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1685
   },
   {
     "route": "/services/residencies/youth/",
-    "title": "Youth Residency",
-    "wordCount": 2611
+    "title": "Youth Residence Support For Long-Term Life In Brazil",
+    "wordCount": 1689
   },
   {
     "route": "/services/visas/",
-    "title": "Visas",
-    "wordCount": 2482
+    "title": "Visa Services For Entry Planning, Consular Preparation, And Category Fit",
+    "wordCount": 964
   },
   {
     "route": "/services/visas/artistic/",
-    "title": "Artistic Visa",
-    "wordCount": 2571
+    "title": "Artistic Visa Support For Structured Entry To Brazil",
+    "wordCount": 1644
   },
   {
     "route": "/services/visas/business/",
-    "title": "Business Visa",
-    "wordCount": 2575
+    "title": "Business Visa Support For Structured Entry To Brazil",
+    "wordCount": 1677
   },
   {
     "route": "/services/visas/diplomatic/",
-    "title": "Diplomatic Visa",
-    "wordCount": 2510
+    "title": "Diplomatic Visa Support For Structured Entry To Brazil",
+    "wordCount": 1644
   },
   {
     "route": "/services/visas/educational/",
-    "title": "Educational Visa",
-    "wordCount": 2515
+    "title": "Educational Visa Support For Structured Entry To Brazil",
+    "wordCount": 1668
   },
   {
     "route": "/services/visas/exchange/",
-    "title": "Exchange Visa",
-    "wordCount": 2615
+    "title": "Exchange Visa Support For Structured Entry To Brazil",
+    "wordCount": 1671
   },
   {
     "route": "/services/visas/family/",
-    "title": "Family Visa",
-    "wordCount": 2545
+    "title": "Family Visa Support For Structured Entry To Brazil",
+    "wordCount": 1686
   },
   {
     "route": "/services/visas/humanitarian/",
-    "title": "Humanitarian Visa",
-    "wordCount": 2611
+    "title": "Humanitarian Visa Support For Structured Entry To Brazil",
+    "wordCount": 1670
   },
   {
     "route": "/services/visas/investor/",
-    "title": "Investor Visa",
-    "wordCount": 2533
+    "title": "Investor Visa Support For Structured Entry To Brazil",
+    "wordCount": 1662
   },
   {
     "route": "/services/visas/journalist/",
-    "title": "Journalist Visa",
-    "wordCount": 2511
+    "title": "Journalist Visa Support For Structured Entry To Brazil",
+    "wordCount": 1644
   },
   {
     "route": "/services/visas/medical/",
-    "title": "Medical Visa",
-    "wordCount": 2519
+    "title": "Medical Visa Support For Structured Entry To Brazil",
+    "wordCount": 1657
   },
   {
     "route": "/services/visas/nomad/",
-    "title": "Nomad Visa",
-    "wordCount": 2519
+    "title": "Nomad Visa Support For Structured Entry To Brazil",
+    "wordCount": 1739
   },
   {
     "route": "/services/visas/religious/",
-    "title": "Religious Visa",
-    "wordCount": 2509
+    "title": "Religious Visa Support For Structured Entry To Brazil",
+    "wordCount": 1671
   },
   {
     "route": "/services/visas/research/",
-    "title": "Research Visa",
-    "wordCount": 2542
+    "title": "Research Visa Support For Structured Entry To Brazil",
+    "wordCount": 1671
   },
   {
     "route": "/services/visas/retiree/",
-    "title": "Retiree Visa",
-    "wordCount": 2498
+    "title": "Retiree Visa Support For Structured Entry To Brazil",
+    "wordCount": 1658
   },
   {
     "route": "/services/visas/sports/",
-    "title": "Sports Visa",
-    "wordCount": 2516
+    "title": "Sports Visa Support For Structured Entry To Brazil",
+    "wordCount": 1644
   },
   {
     "route": "/services/visas/startup/",
-    "title": "Startup Visa",
-    "wordCount": 2521
+    "title": "Startup Visa Support For Structured Entry To Brazil",
+    "wordCount": 1662
   },
   {
     "route": "/services/visas/student/",
-    "title": "Student Visa",
-    "wordCount": 2494
+    "title": "Student Visa Support For Structured Entry To Brazil",
+    "wordCount": 1668
   },
   {
     "route": "/services/visas/tourist/",
-    "title": "Tourist Visa",
-    "wordCount": 2557
+    "title": "Tourist Visa Support For Structured Entry To Brazil",
+    "wordCount": 1702
   },
   {
     "route": "/services/visas/transit/",
-    "title": "Transit Visa",
-    "wordCount": 2566
+    "title": "Transit Visa Support For Structured Entry To Brazil",
+    "wordCount": 1674
   },
   {
     "route": "/services/visas/volunteer/",
-    "title": "Volunteer Visa",
-    "wordCount": 2520
+    "title": "Volunteer Visa Support For Structured Entry To Brazil",
+    "wordCount": 1671
   },
   {
     "route": "/services/visas/work/",
-    "title": "Work Visa",
-    "wordCount": 2567
+    "title": "Work Visa Support For Structured Entry To Brazil",
+    "wordCount": 1663
   },
   {
     "route": "/start-consultation/",

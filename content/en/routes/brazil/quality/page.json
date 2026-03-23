@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-brazil-quality family-brazil style-brazil",
   "meta": {
     "themeColor": "#40916C",
-    "description": "Informational context on quality in Brazil for relocation, compliance, and practical planning. Covers quality of life indicators, public infrastructure, acce…",
+    "description": "Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.",
     "robots": "index,follow",
     "title": "Quality | Brazil Living Guidance | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-quality.webp"
   },
   "social": {
-    "ogType": "website",
+    "ogType": "article",
     "ogTitle": "Quality | Brazil Living Guidance | Immigrate to Brazil",
-    "ogDescription": "Informational context on quality in Brazil for relocation, compliance, and practical planning. Covers quality of life indicators, public infrastructure, acce…",
+    "ogDescription": "Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-quality.webp",
     "ogImageAlt": "Hero image for the Quality page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Quality | Brazil Living Guidance | Immigrate to Brazil",
-    "twitterDescription": "Informational context on quality in Brazil for relocation, compliance, and practical planning. Covers quality of life indicators, public infrastructure, acce…",
+    "twitterDescription": "Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-lencois-maranhenses-quality.webp",
     "twitterImageAlt": "Hero image for the Quality page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
   },
@@ -39,6 +39,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Brazil",
+          "item": "https://immigratetobrazil.com/brazil/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Quality",
           "item": "https://immigratetobrazil.com/brazil/quality/"
         }
@@ -46,46 +52,38 @@
     },
     {
       "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Quality",
+      "description": "Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.",
+      "url": "https://immigratetobrazil.com/brazil/quality/",
+      "mainEntityOfPage": "https://immigratetobrazil.com/brazil/quality/"
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help me use this information for quality of life in Brazil?",
+          "name": "How can this page help me plan quality more realistically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. These pages are meant to help you think more clearly about quality of life in Brazil, and we can help connect that thinking to immigration, relocation, and next-step planning."
+            "text": "The goal is to connect attraction to Brazil with more grounded planning around place, cost, services, routine, and long-term fit."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need to decide everything about quality of life in Brazil before I contact Immigrate to Brazil?",
+          "name": "Is this page meant to replace personalized relocation or immigration planning for quality?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Many clients reach out while they are still comparing options. Part of the support is helping you narrow decisions down more safely and with better context."
+            "text": "No. It is meant to make your research stronger before your own route, documents, city choice, or family context require individualized support."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help with both immigration and practical relocation questions related to quality of life in Brazil?",
+          "name": "When does it make sense to contact Immigrate to Brazil after reading about quality?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Many real moves involve both. We help clients think about how legal steps, timing, and day-to-day planning affect each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients usually need help with quality of life in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Remote workers, families, investors, retirees, students, and professionals often need help connecting quality of life in Brazil to a real move rather than treating it as abstract research."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance toward the most useful next action."
+            "text": "It usually makes sense once your Brazil research is no longer broad and now depends on route, city, budget, family, or long-term planning decisions being tested together."
           }
         }
       ]
@@ -112,16 +110,20 @@
         "href": "/"
       },
       {
+        "label": "Brazil",
+        "href": "/brazil/"
+      },
+      {
         "label": "Quality",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Relocation planning is tied to legal context, regional variation, and the practical realities of living in Brazil."
+        "note": "Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time."
       },
       "nextStep": {
-        "lead": "quality of life indicators, regional comparison, and planning trade-offs.",
+        "lead": "If this page is changing how you think about Brazil, the next step is to turn that research into a real plan.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,61 +138,78 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.ibge.gov.br/",
-        "title": "IBGE institutional portal",
-        "description": "Primary institutional source for geography, population, economy, and regional reference information."
-      },
-      {
-        "href": "https://cidades.ibge.gov.br/",
-        "title": "IBGE Cities and States",
-        "description": "Official statistics and profiles for states, municipalities, demographics, and local indicators."
+        "href": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html",
+        "title": "IBGE - Censo Demografico 2022",
+        "description": "Official demographic baseline for population, territory, and place comparison."
       },
       {
         "href": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sus",
-        "title": "Ministry of Health and SUS information",
-        "description": "Government source for the public health system structure, access logic, and service organisation."
+        "title": "Ministerio da Saude - SUS",
+        "description": "Official public-health reference portal for the Brazilian health system."
       },
       {
         "href": "https://www.gov.br/mec/pt-br",
-        "title": "Ministry of Education",
-        "description": "Institutional source for education system structure, policy, and public education framework."
+        "title": "Ministerio da Educacao",
+        "description": "Official reference for national education policy and public-education structure."
       },
       {
-        "href": "https://www.bcb.gov.br/",
-        "title": "Banco Central do Brasil",
-        "description": "Official source for currency, payments, exchange, and monetary system information."
+        "href": "https://www.gov.br/turismo/pt-br",
+        "title": "Ministerio do Turismo",
+        "description": "Official tourism portal covering destinations, sectors, and destination context."
+      },
+      {
+        "href": "https://portal.inmet.gov.br/",
+        "title": "INMET",
+        "description": "Official weather and climate reference portal for Brazil."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/brazil/",
+        "title": "Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making",
+        "description": "Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.",
+        "image_src": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+        "image_alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/process/planning/",
-        "title": "Planning",
-        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning."
+        "href": "/brazil/places/",
+        "title": "Places",
+        "description": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.",
+        "image_src": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+        "image_alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
       },
       {
-        "href": "/insights/general/",
-        "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+        "href": "/services/",
+        "title": "Services",
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover...",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/brazil/brazil/",
-        "title": "Brazil",
-        "description": "Informational context on brazil in Brazil for relocation, compliance, and practical planning."
+        "href": "/process/planning/",
+        "title": "Planning",
+        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning. Covers long-term immigration planning, sequencing of applicatio...",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-planning.webp",
+        "image_alt": "Hero image for the Planning page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/insights/",
+        "title": "Insights",
+        "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       }
     ]
   }

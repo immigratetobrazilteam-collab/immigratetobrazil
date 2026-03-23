@@ -1,28 +1,28 @@
 {
   "route": "/legal/refund/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-refund family-legal style-legal",
+  "bodyClass": "site-root page-legal-refund family-legal style-refund",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
+    "description": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
     "robots": "index,follow",
-    "title": "Refund | Legal Information | Immigrate to Brazil",
+    "title": "Refund Policy | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Refund | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
+    "ogTitle": "Refund Policy | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
     "ogImageAlt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Refund | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
+    "twitterTitle": "Refund Policy | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
     "twitterImageAlt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
   },
   "runtime": {
-    "pageTitle": "Refund",
+    "pageTitle": "Refund Policy",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Refund",
+          "name": "Refund Policy",
           "item": "https://immigratetobrazil.com/legal/refund/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "When should I ask about refund rules?",
+          "name": "Are consultations refundable after delivery?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should ask before proceeding if anything about payment boundaries, cancellation, or service stages feels unclear."
+            "text": "Ordinarily no, because the booked professional time has already been consumed."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Immigrate to Brazil explain payment boundaries before work begins?",
+          "name": "Do government refusals create refund rights automatically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "That is the goal. Clients should understand how payment and refund boundaries work before they commit, not only after a problem arises."
+            "text": "No. Outcomes are authority-controlled and do not create automatic refund rights."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I ask questions about refund terms before paying?",
+          "name": "Can a refund still be reviewed if work did not begin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If you need clarity first, ask. Clear expectations are part of a safer and more professional service relationship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are refund requests handled?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Requests are handled through a review of the specific payment and service stage involved, rather than through assumptions or informal promises."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where should I contact the team about a refund or payment concern?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Use the contact details provided for the site or the relevant payment-related page so the issue can be reviewed properly."
+            "text": "Yes. That is one of the situations in which refund review may be appropriate."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Refund",
+        "label": "Refund Policy",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Refund analysis is tied to the actual status of work, reserved capacity, and documented service delivery."
       },
       "nextStep": {
-        "lead": "refund conditions in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,83 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "https://www.gov.br/mj/pt-br/assuntos/noticias/consumidor-tem-direito-ao-arrependimento-em-compras-on-line",
+        "title": "Ministry of Justice Consumer Guidance",
+        "description": "Official guidance on withdrawal rights and online consumer protection in Brazil."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "title": "Decree No. 7.962/2013",
+        "description": "Brazilian e-commerce decree governing transparency, information duties, and online consumer relations."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://www.bcb.gov.br/estatisticas",
+        "title": "Banco Central do Brasil - Estatisticas",
+        "description": "Official Central Bank statistics portal for payments and financial reference information."
+      },
+      {
+        "href": "https://www.defensoria.pr.def.br/",
+        "title": "Defensoria Publica do Parana",
+        "description": "Official public-defender portal for legal assistance information in Parana."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, residence, rights, and duties in Brazil."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/payment/",
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "title": "Form & Intake Policy",
+        "description": "This policy explains how our forms, uploads, and intake channels operate, what information they request, how submissions are reviewed, and what form submission does and does not mean.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

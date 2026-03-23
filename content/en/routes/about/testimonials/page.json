@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-about-testimonials family-about style-about",
   "meta": {
     "themeColor": "#6F4E8C",
-    "description": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "description": "These testimonials show how clients describe the experience of moving from confusion to structure, from pressure to calm progression, and from scattered information to a clearer path into Brazil.",
     "robots": "index,follow",
-    "title": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
+    "title": "Testimonials | About Immigrate to Brazil | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "ogTitle": "Testimonials | About Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "These testimonials show how clients describe the experience of moving from confusion to structure, from pressure to calm progression, and from scattered information to a clearer path into Brazil.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
     "ogImageAlt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Testimonials | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of testimonials within the Immigrate to Brazil platform. Covers nature of statements, context of feedback, format of presentation, practi…",
+    "twitterTitle": "Testimonials | About Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "These testimonials show how clients describe the experience of moving from confusion to structure, from pressure to calm progression, and from scattered information to a clearer path into Brazil.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
     "twitterImageAlt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
   },
@@ -39,54 +39,14 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "About",
+          "item": "https://immigratetobrazil.com/about/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Testimonials",
           "item": "https://immigratetobrazil.com/about/testimonials/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What do these testimonials show about Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They show the kinds of things clients value most: clarity, responsiveness, honest guidance, and support that makes the process feel more manageable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do the testimonials guarantee the same result for me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Every situation depends on its own facts, timing, and formal review. Testimonials show the client experience, not a promise of identical outcomes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I still contact Immigrate to Brazil if my situation is different from the examples I have read?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Most real cases are not identical. The point is to understand how we support clients, then apply that support to your own circumstances."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What matters most before I decide whether to work with Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "What matters most is whether you want clear English communication, careful support, realistic guidance, and a calmer way to approach Brazil-related decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to solve. That may mean consultation, clarification, or guidance toward the most useful action."
-          }
         }
       ]
     },
@@ -112,16 +72,20 @@
         "href": "/"
       },
       {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
         "label": "Testimonials",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "These testimonials show how clients describe the experience of moving from confusion to structure, from pressure to calm progression, and from scattered information to a clearer path into Brazil."
       },
       "nextStep": {
-        "lead": "nature of statements in practical client terms.",
+        "lead": "If the themes in these testimonials feel familiar, consultation is the right place to turn that recognition into a defined next step. Use WhatsApp if you need quick operational clarification first.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +100,90 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
         "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm"
+      },
+      {
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for migration procedures, registration guidance, and authority-side updates.",
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao"
       },
       {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree for migration procedures, public authorities, and administrative interpretation."
       },
       {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://cidades.ibge.gov.br/",
+        "title": "IBGE - Cidades do Brasil",
+        "description": "Official municipal profiles, indicators, and local statistics from IBGE."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/about/",
+        "title": "The company, method, and people behind immigration to Brazil",
+        "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/whyus/",
+        "title": "A more structured, reliable path to immigration in Brazil",
+        "description": "Choosing how to immigrate to Brazil is as important as choosing to immigrate at all. This page explains what makes our process calmer, clearer, and more reliable from the beginning.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+        "image_alt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/results/",
+        "title": "Strong results begin with clarity, preparation, and alignment",
+        "description": "Results are not only defined by formal outcomes. They are shaped by how clearly a case is positioned, how well documents are prepared, and how closely the process aligns with Brazil from the beginning.",
+        "image_src": "/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
+        "image_alt": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/stories/",
+        "title": "Real moments where structure changed how a Brazil process felt",
+        "description": "These stories show how confusion, misinformation, and scattered planning can be turned into clear direction, steadier movement, and a process that becomes manageable again.",
+        "image_src": "/assets/images/heroes/about/brazil-salvador-pelourinho-bahia-stories.webp",
+        "image_alt": "Hero image for the Stories page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/about/clients/",
+        "title": "Individuals, families, and organizations navigating immigration to Brazil",
+        "description": "Our clients include visa applicants, residents, families, digital nomads, entrepreneurs, and people facing more complex legal or cross-border situations connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-clients.webp",
+        "image_alt": "Hero image for the Clients page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/services/advisory/",
+        "title": "Advisory",
+        "description": "Service-centered overview of preventive analysis, strategic structuring, monitoring, and informed decision support. Covers advisory scope, preventive analysi…",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-advisory.webp",
+        "image_alt": "Hero image for the Advisory page showing the Curitiba skyline in southern Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/about/profile/",
-        "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
-      },
-      {
-        "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

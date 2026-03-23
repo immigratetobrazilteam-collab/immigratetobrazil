@@ -4,7 +4,7 @@
   "bodyClass": "site-root page-insights-visa family-insights style-insight",
   "meta": {
     "themeColor": "#CD6C28",
-    "description": "Editorial-style guidance page covering visa in the Brazilian immigration context. Covers general explanation of visa categories, temporary versus specific-pu…",
+    "description": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
     "robots": "index,follow",
     "title": "Visa | Immigration Insights | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp"
@@ -12,12 +12,12 @@
   "social": {
     "ogType": "article",
     "ogTitle": "Visa | Immigration Insights | Immigrate to Brazil",
-    "ogDescription": "Editorial-style guidance page covering visa in the Brazilian immigration context. Covers general explanation of visa categories, temporary versus specific-pu…",
+    "ogDescription": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp",
     "ogImageAlt": "Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Visa | Immigration Insights | Immigrate to Brazil",
-    "twitterDescription": "Editorial-style guidance page covering visa in the Brazilian immigration context. Covers general explanation of visa categories, temporary versus specific-pu…",
+    "twitterDescription": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp",
     "twitterImageAlt": "Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
   },
@@ -39,6 +39,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Visa",
           "item": "https://immigratetobrazil.com/insights/visa/"
         }
@@ -47,15 +53,9 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "Visa",
-      "description": "Editorial-style guidance page covering visa in the Brazilian immigration context.",
-      "author": {
-        "@type": "Organization",
-        "name": "Immigrate to Brazil"
-      },
-      "publisher": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
+      "name": "Visa",
+      "description": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
+      "url": "https://immigratetobrazil.com/insights/visa/",
       "mainEntityOfPage": "https://immigratetobrazil.com/insights/visa/"
     },
     {
@@ -64,42 +64,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help me apply visa planning to my own situation?",
+          "name": "Is this page on visa meant as general guidance or individual advice?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. These pages give general orientation, but we can help connect visa planning to your actual plans, risks, timing, and next steps."
+            "text": "It is written as structured public guidance designed to improve understanding before your own facts, documents, or timing require individual review."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need a consultation if I am still only researching visa planning?",
+          "name": "How should I use this article on visa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not always. But if visa planning is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
+            "text": "The strongest approach is to use it for orientation, vocabulary, and comparison, then move to consultation when the issue becomes personal or document-sensitive."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help me compare visa planning with other options?",
+          "name": "When does reading about visa stop being enough?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around visa planning."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Immigrate to Brazil tell me honestly if this is not the right direction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Part of good guidance is saying when a different route, timing, or strategy may be better than the one you first had in mind."
+            "text": "Reading usually reaches its limit when the answer depends on your own chronology, route fit, deadlines, or records rather than on general public information."
           }
         }
       ]
@@ -126,16 +110,20 @@
         "href": "/"
       },
       {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
         "label": "Visa",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Plain-English immigration explanations are provided so research can become a clearer and more informed next step."
+        "note": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process."
       },
       "nextStep": {
-        "lead": "general explanation of visa categories in practical client terms.",
+        "lead": "If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -150,56 +138,78 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal with entry, visa, and consular reference information."
+      },
+      {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, admission, residence, rights, and duties in Brazil."
       },
       {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree used to interpret migration procedures, authorities, and administrative logic."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
       },
       {
         "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with public guidance on authorisations and immigration administration."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/insights/",
+        "title": "Insights",
+        "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/insights/general/",
         "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+        "description": "Editorial-style guidance page covering general in the Brazilian immigration context. Covers overview of brazilian immigration system and structure, general l...",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/insights/residency/",
         "title": "Residency",
-        "description": "Editorial-style guidance page covering residency in the Brazilian immigration context."
+        "description": "Editorial-style guidance page covering residency in the Brazilian immigration context. Covers residence-permit overview, legal bases, visa and residency rela...",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+        "image_alt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/visas/",
+        "title": "Visas",
+        "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic...",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+        "image_alt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

@@ -1,28 +1,28 @@
 {
   "route": "/legal/terms/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-terms family-legal style-legal",
+  "bodyClass": "site-root page-legal-terms family-legal style-terms",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
+    "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
     "robots": "index,follow",
-    "title": "Terms | Legal Information | Immigrate to Brazil",
+    "title": "Terms & Conditions | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Terms | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
+    "ogTitle": "Terms & Conditions | Legal Information | Immigrate to Brazil",
+    "ogDescription": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
     "ogImageAlt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Terms | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
+    "twitterTitle": "Terms & Conditions | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
     "twitterImageAlt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
   },
   "runtime": {
-    "pageTitle": "Terms",
+    "pageTitle": "Terms & Conditions",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Terms",
+          "name": "Terms & Conditions",
           "item": "https://immigratetobrazil.com/legal/terms/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What should I understand before using the site or contacting Immigrate to Brazil?",
+          "name": "Does using the site create representation automatically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that the site provides general information and contact pathways, while case-specific guidance depends on your actual facts and a proper review."
+            "text": "No. Representation begins only after scope is accepted in writing."
           }
         },
         {
           "@type": "Question",
-          "name": "Does the website create a client relationship by itself?",
+          "name": "Does payment for one stage open all later stages?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Reading the site or sending a first message does not by itself create a formal client relationship."
+            "text": "No. Each stage is tied to defined deliverables and its own accepted scope."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I rely on the site instead of case-specific guidance?",
+          "name": "Do these terms override government authority decisions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The site is useful for orientation, but important decisions should be based on your actual situation rather than general public information alone."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Immigrate to Brazil handle third-party services or links?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Third-party services or links may be relevant, but they do not replace direct guidance on your own situation or create control over outside services."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if I need clarification before using a service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Contact the team directly. It is better to clarify expectations early than to proceed on the basis of guesswork."
+            "text": "No. Authorities remain responsible for substantive outcomes."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Terms",
+        "label": "Terms & Conditions",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "These terms are designed to establish legal certainty before reliance, payment, or procedural work begins."
       },
       "nextStep": {
-        "lead": "informational-website terms in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,97 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+      },
       {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
         "title": "LGPD (Law No. 13.709/2018)",
         "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.gov.br/mj/pt-br/assuntos/noticias/consumidor-tem-direito-ao-arrependimento-em-compras-on-line",
+        "title": "Consumer Right to Regret Online Purchases",
+        "description": "Official Brazilian government consumer-rights reference about online purchases."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "href": "/legal/disclaimer/",
+        "title": "Disclaimer & Legal Notice",
+        "description": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+        "image_alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
       },
       {
         "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/refund/",
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+      },
+      {
+        "href": "/about/profile/",
+        "title": "Who we are, how we work, and the standard behind immigration to Brazil",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/values/",
+        "title": "The standards that shape how every process feels",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-about-whyus family-about style-about",
   "meta": {
     "themeColor": "#6F4E8C",
-    "description": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "description": "Choosing how to immigrate to Brazil is as important as choosing to immigrate at all. This page explains what makes our process calmer, clearer, and more reliable from the beginning.",
     "robots": "index,follow",
-    "title": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
+    "title": "Why Us | About Immigrate to Brazil | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "ogTitle": "Why Us | About Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Choosing how to immigrate to Brazil is as important as choosing to immigrate at all. This page explains what makes our process calmer, clearer, and more reliable from the beginning.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
     "ogImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "twitterTitle": "Why Us | About Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Choosing how to immigrate to Brazil is as important as choosing to immigrate at all. This page explains what makes our process calmer, clearer, and more reliable from the beginning.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
     "twitterImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
   },
@@ -39,54 +39,14 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "About",
+          "item": "https://immigratetobrazil.com/about/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Why Us",
           "item": "https://immigratetobrazil.com/about/whyus/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why do clients choose Immigrate to Brazil instead of handling everything alone?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Clients usually choose us because they want clearer guidance, better sequencing, and support that feels careful and human rather than confusing or generic."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What makes Immigrate to Brazil different from a general information site?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We do more than explain topics. We help clients connect those topics to their real situation, reduce wrong turns, and move toward a practical next step."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Immigrate to Brazil tell me honestly if I need a different route or a deeper review?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Good support includes saying when a different direction, timing, or level of help may be better than the one you first had in mind."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help with both legal and practical coordination questions?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients need help with legal direction, timing, translation, relocation planning, and understanding how several decisions affect each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. The next step may be a consultation, a request for more context, or guidance toward the most useful action based on your situation."
-          }
         }
       ]
     },
@@ -112,16 +72,20 @@
         "href": "/"
       },
       {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
         "label": "Why Us",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "Choosing how to immigrate to Brazil is as important as choosing to immigrate at all. This page explains what makes our process calmer, clearer, and more reliable from the beginning."
       },
       "nextStep": {
-        "lead": "structural approach to cases in practical client terms.",
+        "lead": "If you want a more structured way to approach Brazil, consultation can position your route and next steps. WhatsApp is available if you need operational clarification before you book.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +100,90 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
         "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm"
+      },
+      {
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for migration procedures, registration guidance, and authority-side updates.",
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao"
       },
       {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree for migration procedures, public authorities, and administrative interpretation."
       },
       {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal for visas, consulates, and entry-related guidance."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/about/",
+        "title": "The company, method, and people behind immigration to Brazil",
+        "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/profile/",
+        "title": "Who we are, how we work, and the standard behind immigration to Brazil",
+        "description": "Our profile defines who we are, how we operate, and the standard of work we are built to deliver across immigration, relocation, and Brazil-focused legal coordination.",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Monique Fernandes and the legal structure behind formal immigration matters in Brazil",
+        "description": "This page explains how Monique Fernandes approaches immigration, residency, nationality, and connected civil matters within Brazilian legal frameworks and cross-border case structures.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/about/results/",
+        "title": "Strong results begin with clarity, preparation, and alignment",
+        "description": "Results are not only defined by formal outcomes. They are shaped by how clearly a case is positioned, how well documents are prepared, and how closely the process aligns with Brazil from the beginning.",
+        "image_src": "/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
+        "image_alt": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/clients/",
+        "title": "Individuals, families, and organizations navigating immigration to Brazil",
+        "description": "Our clients include visa applicants, residents, families, digital nomads, entrepreneurs, and people facing more complex legal or cross-border situations connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-clients.webp",
+        "image_alt": "Hero image for the Clients page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/services/visas/",
+        "title": "Visas",
+        "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+        "image_alt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/about/profile/",
-        "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
-      },
-      {
-        "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

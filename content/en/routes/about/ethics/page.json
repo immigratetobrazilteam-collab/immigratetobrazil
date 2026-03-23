@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-about-ethics family-about style-about",
   "meta": {
     "themeColor": "#6F4E8C",
-    "description": "Contextual overview of ethics within the Immigrate to Brazil platform. Covers ethical principles, professional conduct, confidentiality obligations, practica…",
+    "description": "Our ethical approach is embedded in how we explain Brazil, how we position expectations, how we define scope, and how we handle legal, personal, and procedural responsibilities across every stage.",
     "robots": "index,follow",
-    "title": "Ethics | Immigrate to Brazil | Immigrate to Brazil",
+    "title": "Ethics | About Immigrate to Brazil | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Ethics | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of ethics within the Immigrate to Brazil platform. Covers ethical principles, professional conduct, confidentiality obligations, practica…",
+    "ogTitle": "Ethics | About Immigrate to Brazil | Immigrate to Brazil",
+    "ogDescription": "Our ethical approach is embedded in how we explain Brazil, how we position expectations, how we define scope, and how we handle legal, personal, and procedural responsibilities across every stage.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
     "ogImageAlt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Ethics | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of ethics within the Immigrate to Brazil platform. Covers ethical principles, professional conduct, confidentiality obligations, practica…",
+    "twitterTitle": "Ethics | About Immigrate to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Our ethical approach is embedded in how we explain Brazil, how we position expectations, how we define scope, and how we handle legal, personal, and procedural responsibilities across every stage.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
     "twitterImageAlt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
   },
@@ -39,54 +39,14 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "About",
+          "item": "https://immigratetobrazil.com/about/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Ethics",
           "item": "https://immigratetobrazil.com/about/ethics/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does this page show about ethical standards?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "This page is meant to help you understand how Immigrate to Brazil approaches ethical standards, what kind of support philosophy sits behind it, and why that matters for clients who want clearer guidance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I contact Immigrate to Brazil even if I am still unsure what I need?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients reach out while they are still trying to understand their situation, compare options, or decide what kind of support makes the most sense."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this page replace case-specific guidance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. These pages help you understand how we work and what we value, but real next steps still depend on your facts, timing, and goals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients is this usually relevant for?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is usually relevant for international clients who want clear English communication, practical support, and a more trustworthy way to approach Brazil-related decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on what should happen first."
-          }
         }
       ]
     },
@@ -112,16 +72,20 @@
         "href": "/"
       },
       {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
         "label": "Ethics",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "Our ethical approach is embedded in how we explain Brazil, how we position expectations, how we define scope, and how we handle legal, personal, and procedural responsibilities across every stage."
       },
       "nextStep": {
-        "lead": "ethical principles in practical client terms.",
+        "lead": "If you want immigration support that is honest about scope, realistic about outcomes, and structured from the beginning, consultation is the strongest next step. Use WhatsApp if you need quick operational clarification first.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +100,95 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
         "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm"
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
         "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration.",
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm"
+      },
+      {
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for migration procedures, registration guidance, and authority-side updates.",
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao"
       },
       {
         "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+        "title": "OAB Nacional",
+        "description": "Official national bar association portal for professional standards and institutional information."
+      },
+      {
+        "href": "https://www.oabpr.org.br/",
+        "title": "OAB Parana",
+        "description": "Official Parana section of the Brazilian Bar Association."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/about/",
+        "title": "The company, method, and people behind immigration to Brazil",
+        "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/values/",
+        "title": "The standards that shape how every process feels",
+        "description": "Our values are not abstract statements. They shape how communication is handled, how trust is built, how Brazil is represented, and how each immigration process is structured from start to finish.",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Monique Fernandes and the legal structure behind formal immigration matters in Brazil",
+        "description": "This page explains how Monique Fernandes approaches immigration, residency, nationality, and connected civil matters within Brazilian legal frameworks and cross-border case structures.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/about/profile/",
+        "title": "Who we are, how we work, and the standard behind immigration to Brazil",
+        "description": "Our profile defines who we are, how we operate, and the standard of work we are built to deliver across immigration, relocation, and Brazil-focused legal coordination.",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/disclaimer/",
+        "title": "Disclaimer & Legal Notice",
+        "description": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+        "image_alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/about/profile/",
-        "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
-      },
-      {
-        "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

@@ -4,7 +4,7 @@
   "bodyClass": "site-root page-process-permanent family-process style-process",
   "meta": {
     "themeColor": "#C7953C",
-    "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "description": "Permanent status changes the long-term shape of life in Brazil, but it still depends on route fit, continuity, and proper preparation. We explain the practical meaning of that transition here.",
     "robots": "index,follow",
     "title": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp"
@@ -12,12 +12,12 @@
   "social": {
     "ogType": "website",
     "ogTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "ogDescription": "Permanent status changes the long-term shape of life in Brazil, but it still depends on route fit, continuity, and proper preparation. We explain the practical meaning of that transition here.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
     "ogImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "twitterDescription": "Permanent status changes the long-term shape of life in Brazil, but it still depends on route fit, continuity, and proper preparation. We explain the practical meaning of that transition here.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
     "twitterImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil."
   },
@@ -39,6 +39,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Process",
+          "item": "https://immigratetobrazil.com/process/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "Permanent",
           "item": "https://immigratetobrazil.com/process/permanent/"
         }
@@ -46,15 +52,11 @@
     },
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Permanent | Immigrate to Brazil",
-      "serviceType": "Permanent",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
+      "@type": "Article",
+      "name": "Permanent",
+      "description": "Permanent status changes the long-term shape of life in Brazil, but it still depends on route fit, continuity, and proper preparation. We explain the practical meaning of that transition here.",
       "url": "https://immigratetobrazil.com/process/permanent/",
-      "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning."
+      "mainEntityOfPage": "https://immigratetobrazil.com/process/permanent/"
     },
     {
       "@context": "https://schema.org",
@@ -62,42 +64,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How can Immigrate to Brazil help at permanent residence planning?",
+          "name": "What is the practical value of understanding permanent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We help clients understand what permanent residence planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
+            "text": "Understanding the stage usually improves sequence, expectation control, document quality, and the next decision you take inside the wider immigration process."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need everything ready before getting help with permanent residence planning?",
+          "name": "Does this page mean my process is already in trouble?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
+            "text": "Not necessarily. Many readers use these pages simply to understand the stage better before acting. They become even more useful when timing, documents, or prior steps are starting to matter."
           }
         },
         {
           "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around permanent residence planning?",
+          "name": "When should permanent move from public reading into consultation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at permanent residence planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with permanent residence planning."
+            "text": "That usually happens when the answer now depends on your own facts, deadlines, records, or route comparison rather than on general explanation alone."
           }
         }
       ]
@@ -124,16 +110,20 @@
         "href": "/"
       },
       {
+        "label": "Process",
+        "href": "/process/"
+      },
+      {
         "label": "Permanent",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Permanent status changes the long-term shape of life in Brazil, but it still depends on route fit, continuity, and proper preparation. We explain the practical meaning of that transition here."
       },
       "nextStep": {
-        "lead": "transition to permanent status, the current stage, and the next practical check.",
+        "lead": "If permanent is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -148,56 +138,78 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
+        "href": "/process/",
+        "title": "Brazil Immigration Process Explained Step By Step",
+        "description": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/aftercare/",
+        "title": "Aftercare",
+        "description": "Process guidance on aftercare within Brazilian immigration procedures and compliance planning. Covers post-approval guidance, registration requirements, ongo...",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+        "image_alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/renewal/",
+        "title": "Renewal",
+        "description": "Process guidance on renewal within Brazilian immigration procedures and compliance planning. Covers renewal eligibility, timing requirements, documentation f...",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-renewal.webp",
+        "image_alt": "Hero image for the Renewal page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/process/naturalisation/",
+        "title": "Naturalisation",
+        "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r...",
+        "image_src": "/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
+        "image_alt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       }
     ]
   }

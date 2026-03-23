@@ -1,28 +1,28 @@
 {
   "route": "/legal/disclaimer/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-disclaimer family-legal style-legal",
+  "bodyClass": "site-root page-legal-disclaimer family-legal style-disclaimer",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "description": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
     "robots": "index,follow",
-    "title": "Disclaimer | Legal Information | Immigrate to Brazil",
+    "title": "Disclaimer & Legal Notice | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Disclaimer | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "ogTitle": "Disclaimer & Legal Notice | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
     "ogImageAlt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Disclaimer | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Core disclaimer for informational website use, scope boundaries, and authority-driven decision-making. Covers informational only, not legal advice, no guaran…",
+    "twitterTitle": "Disclaimer & Legal Notice | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This Disclaimer & Legal Notice defines the limits of general information, clarifies that public content is not individualized legal advice, and explains the boundary between orientation, formal engagement, and authority-controlled outcomes.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
     "twitterImageAlt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
   },
   "runtime": {
-    "pageTitle": "Disclaimer",
+    "pageTitle": "Disclaimer & Legal Notice",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Disclaimer",
+          "name": "Disclaimer & Legal Notice",
           "item": "https://immigratetobrazil.com/legal/disclaimer/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Does the information on this site replace case-specific guidance from Immigrate to Brazil?",
+          "name": "Does this site provide legal advice automatically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. The site is meant to guide and inform, but real decisions should still be based on your specific facts, timing, and proper review."
+            "text": "No. Public content is informational unless individualized advice has been given in the proper context."
           }
         },
         {
           "@type": "Question",
-          "name": "When should I contact the team instead of relying on general information?",
+          "name": "Can payment alone create representation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should contact the team when the topic affects a real decision, deadline, payment, family plan, business step, or anything else where guesswork could create a problem."
+            "text": "No. Use of the site, first contact, form submission, consultation, or payment for an early-stage service does not by itself create formal representation."
           }
         },
         {
           "@type": "Question",
-          "name": "Does reading the site create a client relationship?",
+          "name": "Who controls the final immigration outcome?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Public information and a first enquiry do not by themselves create a formal client relationship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil guarantee results or outcomes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. No responsible service should promise outcomes that depend on authorities, formal review, or facts that still need assessment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if I need guidance for my own situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Contact the team directly so your situation can be reviewed in context and the next step can be based on your actual needs."
+            "text": "The competent government authority."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Disclaimer",
+        "label": "Disclaimer & Legal Notice",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "In immigration matters, clarity about what public information can and cannot do is part of responsible professional practice."
       },
       "nextStep": {
-        "lead": "informational only in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,90 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
+        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
+        "title": "Policia Federal Immigration Portal",
+        "description": "Official federal police immigration portal for registration, migration procedures, and authority-side guidance."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
+        "title": "Portal Consular - Ministerio das Relacoes Exteriores",
+        "description": "Official consular portal for visas, consulates, and entry-related guidance."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work. Cover…",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/services/defense/",
+        "title": "Defense",
+        "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+        "image_alt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/profile/",
+        "title": "Who we are, how we work, and the standard behind immigration to Brazil",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/ethics/",
+        "title": "Ethics",
+        "description": "Contextual overview of ethics within the Immigrate to Brazil platform. Covers ethical principles, professional conduct, confidentiality obligations, practica…",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

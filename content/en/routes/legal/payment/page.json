@@ -4,25 +4,25 @@
   "bodyClass": "site-root page-legal-payment family-legal style-payment",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
+    "description": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
     "robots": "index,follow",
-    "title": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
+    "title": "Payment Terms | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
-    "ogDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
+    "ogTitle": "Payment Terms | Legal Information | Immigrate to Brazil",
+    "ogDescription": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
     "ogImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
-    "twitterDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
+    "twitterTitle": "Payment Terms | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
     "twitterImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
   },
   "runtime": {
-    "pageTitle": "Payment",
+    "pageTitle": "Payment Terms",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Payment",
+          "name": "Payment Terms",
           "item": "https://immigratetobrazil.com/legal/payment/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Which payment methods does Immigrate to Brazil accept?",
+          "name": "Does payment alone reserve my consultation slot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Consultations and agreed services may be paid through PIX, PayPal, Payoneer, Wise, direct bank transfer, Bitcoin, or USDT. Some methods require current written details before payment is sent."
+            "text": "No. Confirmation requires manual verification and written confirmation."
           }
         },
         {
           "@type": "Question",
-          "name": "When does Immigrate to Brazil treat a consultation as confirmed?",
+          "name": "Can I rely on an old transfer detail from a previous conversation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A consultation is only confirmed after payment has been verified, matched to the enquiry, and confirmed manually in writing. Payment alone is not treated as a confirmed booking."
+            "text": "No. Current written instructions should always be used."
           }
         },
         {
           "@type": "Question",
-          "name": "What proof should I send after paying Immigrate to Brazil?",
+          "name": "What if I need urgent help with a payment issue?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a clear screenshot, receipt, or transfer record showing the amount, date, sender, and any reference that helps identify the payment. Clear proof allows faster confirmation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I arrange bank transfer, Bitcoin, or USDT with Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, but those methods should be arranged first. Use only current written details shared directly for your payment, not outdated screenshots or forwarded wallet information."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if my timing is urgent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Contact the team before paying if your timing is urgent. The 36-hour scheduling rule still applies, and it is better to confirm what is realistic before sending funds."
+            "text": "Contact us immediately with the payment details and proof available."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Payment",
+        "label": "Payment Terms",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Payments are handled with written confirmation, traceable records, and clear scheduling rules so clients know exactly where they stand."
+        "note": "Payment is a controlled operational step tied to scope, verification, and scheduling discipline. It is not treated as automatic service confirmation."
       },
       "nextStep": {
-        "lead": "Use an accepted payment method, send clear proof, and wait for written confirmation before treating the appointment as booked.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,51 +120,88 @@
             "track": "whatsapp"
           }
         ],
-        "note": "If timing, method, or payment details are unclear, contact the team before sending funds."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "title": "Decree No. 7.962/2013",
+        "description": "Brazilian e-commerce decree governing transparency, information duties, and online consumer relations."
+      },
+      {
+        "href": "https://www.gov.br/mj/pt-br/assuntos/noticias/consumidor-tem-direito-ao-arrependimento-em-compras-on-line",
+        "title": "Ministry of Justice Consumer Guidance",
+        "description": "Official guidance on withdrawal rights and online consumer protection in Brazil."
+      },
       {
         "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
         "title": "LGPD (Law No. 13.709/2018)",
         "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "https://www.bcb.gov.br/estatisticas",
+        "title": "Banco Central do Brasil - Estatisticas",
+        "description": "Official Central Bank statistics portal for payments and financial reference information."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, residence, rights, and duties in Brazil."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
         "href": "/legal/refund/",
-        "title": "Refund",
-        "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries."
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/legal/form/",
+        "title": "Form & Intake Policy",
+        "description": "This policy explains how our forms, uploads, and intake channels operate, what information they request, how submissions are reviewed, and what form submission does and does not mean.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+      },
+      {
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

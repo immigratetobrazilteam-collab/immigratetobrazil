@@ -198,6 +198,13 @@
         "href": "/legal/refund/",
         "title": "Refund",
         "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries."
+      },
+      {
+        "href": "/about/",
+        "title": "About",
+        "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       }
     ]
   }

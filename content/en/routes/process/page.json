@@ -1,0 +1,213 @@
+{
+  "route": "/process/",
+  "lang": "en",
+  "bodyClass": "site-root page-process family-process style-process",
+  "meta": {
+    "themeColor": "#C7953C",
+    "description": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+    "robots": "index,follow",
+    "title": "Brazil Immigration Process Explained Step By Step | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Brazil Immigration Process Explained Step By Step | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+    "ogImageAlt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Brazil Immigration Process Explained Step By Step | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+    "twitterImageAlt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Brazil Immigration Process Explained Step By Step",
+    "pageFamily": "process"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Process",
+          "item": "https://immigratetobrazil.com/process/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Brazil Immigration Process Explained Step By Step",
+      "description": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity.",
+      "url": "https://immigratetobrazil.com/process/",
+      "mainEntityOfPage": "https://immigratetobrazil.com/process/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the practical value of understanding brazil immigration process explained step by step?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Understanding the stage usually improves sequence, expectation control, document quality, and the next decision you take inside the wider immigration process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this page mean my process is already in trouble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Many readers use these pages simply to understand the stage better before acting. They become even more useful when timing, documents, or prior steps are starting to matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should brazil immigration process explained step by step move from public reading into consultation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That usually happens when the answer now depends on your own facts, deadlines, records, or route comparison rather than on general explanation alone."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/process/#hero-image",
+      "name": "Consultation hero image featuring Lençois Maranhenses dunes and lagoons",
+      "description": "SEO hero image for the Consultation page on Immigrate to Brazil, showing Lençois Maranhenses dunes and lagoons and supporting content about the Brazil immigration process.",
+      "caption": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.",
+      "keywords": "Lençois Maranhenses, Maranhao, sand dunes, lagoons, northeast Brazil, Lençois Maranhenses dunes and lagoons, Consultation, the Brazil immigration process, Brazil, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Process",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Use this hub to understand how immigration work actually moves: from consultation and assessment into strategy, filing, approval, aftercare, and long-term continuity."
+      },
+      "nextStep": {
+        "lead": "Open the process page that matches your current stage, then reach out when the next move depends on deadlines, chronology, or route comparison that cannot be resolved by general reading alone.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
+      },
+      {
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "Structured intake for route analysis, chronology review, and immigration planning in Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Immigrate to Brazil consultation hero image for structured immigration planning."
+      },
+      {
+        "href": "/process/assessment/",
+        "title": "Assessment",
+        "description": "Process guidance on assessment within Brazilian immigration procedures and compliance planning. Covers case evaluation criteria, review of documents, identif...",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+        "image_alt": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/strategy/",
+        "title": "Strategy",
+        "description": "Process guidance on strategy within Brazilian immigration procedures and compliance planning. Covers definition of legal approach, selection of immigration p...",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-strategy.webp",
+        "image_alt": "Hero image for the Strategy page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/process/filing/",
+        "title": "Filing",
+        "description": "Process guidance on filing within Brazilian immigration procedures and compliance planning. Covers preparation of documentation, review and verification, sub...",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-filing.webp",
+        "image_alt": "Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/process/approval/",
+        "title": "Approval",
+        "description": "Process guidance on approval within Brazilian immigration procedures and compliance planning. Covers administrative decision process, possible outcomes, cond...",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+        "image_alt": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/process/aftercare/",
+        "title": "Aftercare",
+        "description": "Process guidance on aftercare within Brazilian immigration procedures and compliance planning. Covers post-approval guidance, registration requirements, ongo...",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+        "image_alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      }
+    ]
+  }
+}

@@ -2,781 +2,771 @@
   {
     "route": "/pt-br/",
     "title": "Brasil Guia de Imigra&ccedil;&atilde;o",
-    "wordCount": 3039
+    "wordCount": 2961
+  },
+  {
+    "route": "/pt-br/about/",
+    "title": "A empresa, m&eacute;todo e pessoas por tr&aacute;s da imigra&ccedil;&atilde;o para Brasil",
+    "wordCount": 1030
   },
   {
     "route": "/pt-br/about/about/",
     "title": "Sobre",
-    "wordCount": 2832
+    "wordCount": 2049
   },
   {
     "route": "/pt-br/about/clients/",
     "title": "Clientes",
-    "wordCount": 2846
-  },
-  {
-    "route": "/pt-br/about/compliance/",
-    "title": "Conformidade",
-    "wordCount": 2888
+    "wordCount": 2277
   },
   {
     "route": "/pt-br/about/ethics/",
     "title": "&Eacute;tica",
-    "wordCount": 2873
-  },
-  {
-    "route": "/pt-br/about/governance/",
-    "title": "Governan&ccedil;a",
-    "wordCount": 2839
+    "wordCount": 2203
   },
   {
     "route": "/pt-br/about/lawyer/",
     "title": "Advogada",
-    "wordCount": 2979
+    "wordCount": 2581
   },
   {
     "route": "/pt-br/about/mission/",
     "title": "Miss&atilde;o",
-    "wordCount": 2882
+    "wordCount": 2187
   },
   {
     "route": "/pt-br/about/philosophy/",
     "title": "Filosofia",
-    "wordCount": 2879
+    "wordCount": 2203
   },
   {
     "route": "/pt-br/about/profile/",
     "title": "Perfil",
-    "wordCount": 2848
-  },
-  {
-    "route": "/pt-br/about/regulatory/",
-    "title": "Regulamenta&ccedil;&atilde;o",
-    "wordCount": 2870
+    "wordCount": 2213
   },
   {
     "route": "/pt-br/about/results/",
     "title": "Resultados",
-    "wordCount": 2878
-  },
-  {
-    "route": "/pt-br/about/standards/",
-    "title": "Padr&otilde;es",
-    "wordCount": 2900
+    "wordCount": 2202
   },
   {
     "route": "/pt-br/about/stories/",
     "title": "Hist&oacute;rias",
-    "wordCount": 2862
+    "wordCount": 2221
   },
   {
     "route": "/pt-br/about/story/",
     "title": "Hist&oacute;ria",
-    "wordCount": 2852
+    "wordCount": 2211
   },
   {
     "route": "/pt-br/about/testimonials/",
     "title": "Depoimentos",
-    "wordCount": 2767
+    "wordCount": 2261
   },
   {
     "route": "/pt-br/about/values/",
     "title": "Valores",
-    "wordCount": 2813
+    "wordCount": 2110
   },
   {
     "route": "/pt-br/about/whyus/",
     "title": "Por que n&oacute;s",
-    "wordCount": 2857
+    "wordCount": 2185
   },
   {
     "route": "/pt-br/brazil/brazil/",
     "title": "Brasil",
-    "wordCount": 2995
+    "wordCount": 2951
   },
   {
     "route": "/pt-br/brazil/central-west/",
     "title": "Centro-Oeste",
-    "wordCount": 2880
+    "wordCount": 2821
   },
   {
     "route": "/pt-br/brazil/cities/",
     "title": "Cidades",
-    "wordCount": 2977
+    "wordCount": 2913
   },
   {
     "route": "/pt-br/brazil/cost/",
     "title": "Custo",
-    "wordCount": 3014
+    "wordCount": 2934
   },
   {
     "route": "/pt-br/brazil/cuisine/",
     "title": "Cozinha",
-    "wordCount": 2942
+    "wordCount": 2881
   },
   {
     "route": "/pt-br/brazil/culture/",
     "title": "Cultura",
-    "wordCount": 2904
+    "wordCount": 2847
   },
   {
     "route": "/pt-br/brazil/directory/",
     "title": "Pasta",
-    "wordCount": 2962
+    "wordCount": 2892
   },
   {
     "route": "/pt-br/brazil/economy/",
     "title": "Economia",
-    "wordCount": 2946
+    "wordCount": 2896
   },
   {
     "route": "/pt-br/brazil/education/",
     "title": "Educa&ccedil;&atilde;o",
-    "wordCount": 2848
+    "wordCount": 2771
   },
   {
     "route": "/pt-br/brazil/events/",
     "title": "Eventos",
-    "wordCount": 2908
+    "wordCount": 2842
   },
   {
     "route": "/pt-br/brazil/faqs/",
     "title": "Faqs",
-    "wordCount": 2966
+    "wordCount": 2886
   },
   {
     "route": "/pt-br/brazil/festivals/",
     "title": "Festas",
-    "wordCount": 2973
+    "wordCount": 2911
   },
   {
     "route": "/pt-br/brazil/guides/",
     "title": "Guias",
-    "wordCount": 2918
+    "wordCount": 2850
   },
   {
     "route": "/pt-br/brazil/healthcare/",
     "title": "Cuidados de sa&uacute;de",
-    "wordCount": 2953
+    "wordCount": 2881
   },
   {
     "route": "/pt-br/brazil/housing/",
     "title": "Habita&ccedil;&atilde;o",
-    "wordCount": 2866
+    "wordCount": 2792
   },
   {
     "route": "/pt-br/brazil/investment/",
     "title": "Investimento",
-    "wordCount": 2894
+    "wordCount": 2817
   },
   {
     "route": "/pt-br/brazil/living/",
     "title": "Viver",
-    "wordCount": 2986
+    "wordCount": 2908
   },
   {
     "route": "/pt-br/brazil/municipalities/",
     "title": "Munic&iacute;pios",
-    "wordCount": 2907
+    "wordCount": 2838
   },
   {
     "route": "/pt-br/brazil/north/",
     "title": "Norte",
-    "wordCount": 2875
+    "wordCount": 2814
   },
   {
     "route": "/pt-br/brazil/northeast/",
     "title": "Nordeste",
-    "wordCount": 2881
+    "wordCount": 2822
   },
   {
     "route": "/pt-br/brazil/quality/",
     "title": "Qualidade",
-    "wordCount": 3019
+    "wordCount": 2945
   },
   {
     "route": "/pt-br/brazil/safety/",
     "title": "Seguran&ccedil;a",
-    "wordCount": 3029
+    "wordCount": 2946
   },
   {
     "route": "/pt-br/brazil/search/",
     "title": "Busca",
-    "wordCount": 2971
+    "wordCount": 2896
   },
   {
     "route": "/pt-br/brazil/south/",
     "title": "Sul",
-    "wordCount": 3007
+    "wordCount": 2946
   },
   {
     "route": "/pt-br/brazil/southeast/",
     "title": "Sudeste",
-    "wordCount": 3006
+    "wordCount": 2947
   },
   {
     "route": "/pt-br/brazil/states/",
     "title": "Estados",
-    "wordCount": 2947
+    "wordCount": 2882
   },
   {
     "route": "/pt-br/insights/blog/",
     "title": "Blog",
-    "wordCount": 2830
+    "wordCount": 2746
   },
   {
     "route": "/pt-br/insights/general/",
     "title": "Geral",
-    "wordCount": 2942
+    "wordCount": 2813
   },
   {
     "route": "/pt-br/insights/guides/",
     "title": "Guias",
-    "wordCount": 2824
+    "wordCount": 2725
   },
   {
     "route": "/pt-br/insights/naturalisation/",
     "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2900
+    "wordCount": 2775
   },
   {
     "route": "/pt-br/insights/process/",
     "title": "Processo",
-    "wordCount": 2894
+    "wordCount": 2777
   },
   {
     "route": "/pt-br/insights/residency/",
     "title": "Resid&ecirc;ncia",
-    "wordCount": 2916
+    "wordCount": 2791
   },
   {
     "route": "/pt-br/insights/updates/",
     "title": "Atualiza&ccedil;&otilde;es",
-    "wordCount": 2798
+    "wordCount": 2731
   },
   {
     "route": "/pt-br/insights/visa/",
     "title": "Visto",
-    "wordCount": 2901
+    "wordCount": 2779
+  },
+  {
+    "route": "/pt-br/legal/",
+    "title": "Imigrar para o ToBrasil.com Avisos Legais",
+    "wordCount": 1037
   },
   {
     "route": "/pt-br/legal/404/",
-    "title": "404",
-    "wordCount": 129
+    "title": "P&aacute;gina N&atilde;o Encontrada",
+    "wordCount": 428
   },
   {
     "route": "/pt-br/legal/accessibility/",
-    "title": "Acessibilidade",
-    "wordCount": 2809
+    "title": "Declara&ccedil;&atilde;o Acessibilidade",
+    "wordCount": 1000
   },
   {
     "route": "/pt-br/legal/cookies/",
-    "title": "Cookies",
-    "wordCount": 2822
+    "title": "Pol&iacute;tica de Cookies",
+    "wordCount": 1267
   },
   {
     "route": "/pt-br/legal/disclaimer/",
-    "title": "Disclaimer",
-    "wordCount": 2820
+    "title": "Aviso legal e de responsabilidade",
+    "wordCount": 1126
   },
   {
     "route": "/pt-br/legal/emergency/",
-    "title": "Emerg&ecirc;ncia",
-    "wordCount": 2825
+    "title": "Recursos de emerg&ecirc;ncia",
+    "wordCount": 497
   },
   {
     "route": "/pt-br/legal/form/",
-    "title": "Formul&aacute;rio",
-    "wordCount": 2982
+    "title": "Pol&iacute;tica de & Ingest&atilde;o de Formul&aacute;rios",
+    "wordCount": 669
   },
   {
     "route": "/pt-br/legal/gdpr/",
-    "title": "GDPR",
-    "wordCount": 2848
+    "title": "Aviso de conformidade do GDPR",
+    "wordCount": 1226
   },
   {
     "route": "/pt-br/legal/lgpd/",
-    "title": "LGPD",
-    "wordCount": 2841
+    "title": "Aviso LGPD",
+    "wordCount": 689
   },
   {
     "route": "/pt-br/legal/payment/",
-    "title": "Pagamento",
-    "wordCount": 2872
+    "title": "Termos de Pagamento",
+    "wordCount": 1329
   },
   {
     "route": "/pt-br/legal/privacy/",
-    "title": "Privacidade",
-    "wordCount": 2803
+    "title": "Pol&iacute;tica de Privacidade",
+    "wordCount": 1250
   },
   {
     "route": "/pt-br/legal/refund/",
-    "title": "Reembolso",
-    "wordCount": 2809
+    "title": "Pol&iacute;tica de restitui&ccedil;&otilde;es",
+    "wordCount": 1197
   },
   {
     "route": "/pt-br/legal/search/",
     "title": "Busca",
-    "wordCount": 92
+    "wordCount": 561
   },
   {
     "route": "/pt-br/legal/terms/",
-    "title": "Termos",
-    "wordCount": 2820
+    "title": "Termos e Condi&ccedil;&otilde;es",
+    "wordCount": 1417
   },
   {
     "route": "/pt-br/process/aftercare/",
     "title": "Ap&oacute;s o tratamento",
-    "wordCount": 2893
+    "wordCount": 2792
   },
   {
     "route": "/pt-br/process/alone/",
     "title": "Sozinho",
-    "wordCount": 2851
+    "wordCount": 2782
   },
   {
     "route": "/pt-br/process/approval/",
     "title": "Aprova&ccedil;&atilde;o",
-    "wordCount": 2930
+    "wordCount": 2815
   },
   {
     "route": "/pt-br/process/assessment/",
     "title": "Avalia&ccedil;&atilde;o",
-    "wordCount": 2898
+    "wordCount": 2783
   },
   {
     "route": "/pt-br/process/compliance/",
     "title": "Conformidade",
-    "wordCount": 2974
+    "wordCount": 2864
   },
   {
     "route": "/pt-br/process/consultation/",
     "title": "Consulta",
-    "wordCount": 2954
+    "wordCount": 2856
   },
   {
     "route": "/pt-br/process/conversion/",
     "title": "Convers&atilde;o",
-    "wordCount": 2886
+    "wordCount": 2788
   },
   {
     "route": "/pt-br/process/deadlines/",
     "title": "Prazos",
-    "wordCount": 3098
+    "wordCount": 2983
   },
   {
     "route": "/pt-br/process/failures/",
     "title": "Falhas",
-    "wordCount": 2898
+    "wordCount": 2802
   },
   {
     "route": "/pt-br/process/fees/",
     "title": "Taxas",
-    "wordCount": 2879
+    "wordCount": 2790
   },
   {
     "route": "/pt-br/process/filing/",
     "title": "Apresenta&ccedil;&atilde;o",
-    "wordCount": 2877
+    "wordCount": 2766
   },
   {
     "route": "/pt-br/process/mistakes/",
     "title": "Erros",
-    "wordCount": 2885
+    "wordCount": 2783
   },
   {
     "route": "/pt-br/process/naturalisation/",
     "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2866
+    "wordCount": 2771
   },
   {
     "route": "/pt-br/process/obligations/",
     "title": "Obriga&ccedil;&otilde;es",
-    "wordCount": 2973
+    "wordCount": 2849
   },
   {
     "route": "/pt-br/process/permanent/",
     "title": "Permanente",
-    "wordCount": 2902
+    "wordCount": 2808
   },
   {
     "route": "/pt-br/process/planning/",
     "title": "Planejamento",
-    "wordCount": 2869
+    "wordCount": 2778
   },
   {
     "route": "/pt-br/process/refund/",
     "title": "Reembolso",
-    "wordCount": 2852
+    "wordCount": 2753
   },
   {
     "route": "/pt-br/process/regularization/",
     "title": "Regulariza&ccedil;&atilde;o",
-    "wordCount": 2899
+    "wordCount": 2793
   },
   {
     "route": "/pt-br/process/renewal/",
     "title": "Renova&ccedil;&atilde;o",
-    "wordCount": 2932
+    "wordCount": 2819
   },
   {
     "route": "/pt-br/process/responsibilities/",
     "title": "Responsabilidades",
-    "wordCount": 2923
+    "wordCount": 2802
   },
   {
     "route": "/pt-br/process/rights/",
     "title": "Direitos",
-    "wordCount": 2887
+    "wordCount": 2798
   },
   {
     "route": "/pt-br/process/strategy/",
     "title": "Estrat&eacute;gia",
-    "wordCount": 2894
+    "wordCount": 2778
   },
   {
     "route": "/pt-br/process/timeline/",
     "title": "Prazo",
-    "wordCount": 3041
+    "wordCount": 2955
   },
   {
     "route": "/pt-br/process/transparency/",
     "title": "Transpar&ecirc;ncia",
-    "wordCount": 2920
+    "wordCount": 2823
   },
   {
     "route": "/pt-br/services/",
     "title": "Brasil Servi&ccedil;os de Imigra&ccedil;&atilde;o",
-    "wordCount": 3009
+    "wordCount": 2888
   },
   {
     "route": "/pt-br/services/advisory/",
     "title": "Consultoria",
-    "wordCount": 2903
+    "wordCount": 2884
   },
   {
     "route": "/pt-br/services/advisory/compliance/",
     "title": "Conformidade",
-    "wordCount": 3117
+    "wordCount": 3022
   },
   {
     "route": "/pt-br/services/advisory/consultation/",
     "title": "Consulta",
-    "wordCount": 2950
+    "wordCount": 2868
   },
   {
     "route": "/pt-br/services/advisory/corporate/",
     "title": "Empresa",
-    "wordCount": 3144
+    "wordCount": 3021
   },
   {
     "route": "/pt-br/services/advisory/representation/",
     "title": "Representa&ccedil;&atilde;o",
-    "wordCount": 2938
+    "wordCount": 2857
   },
   {
     "route": "/pt-br/services/advisory/strategy/",
     "title": "Estrat&eacute;gia",
-    "wordCount": 2964
+    "wordCount": 2869
   },
   {
     "route": "/pt-br/services/defense/",
     "title": "Defesa",
-    "wordCount": 2946
+    "wordCount": 2939
   },
   {
     "route": "/pt-br/services/defense/appeals/",
     "title": "Recursos",
-    "wordCount": 3002
+    "wordCount": 2933
   },
   {
     "route": "/pt-br/services/defense/deportation/",
     "title": "Deporta&ccedil;&atilde;o",
-    "wordCount": 3021
+    "wordCount": 2935
   },
   {
     "route": "/pt-br/services/defense/expulsion/",
     "title": "Expuls&atilde;o",
-    "wordCount": 3013
+    "wordCount": 2929
   },
   {
     "route": "/pt-br/services/defense/extradition/",
     "title": "Extradi&ccedil;&atilde;o",
-    "wordCount": 3021
+    "wordCount": 2933
   },
   {
     "route": "/pt-br/services/defense/fines/",
     "title": "Multas",
-    "wordCount": 3006
+    "wordCount": 2929
   },
   {
     "route": "/pt-br/services/defense/litigation/",
     "title": "Contencioso",
-    "wordCount": 2998
+    "wordCount": 2925
   },
   {
     "route": "/pt-br/services/naturalisation/",
     "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2938
+    "wordCount": 2928
   },
   {
     "route": "/pt-br/services/naturalisation/extraordinary/",
     "title": "Naturaliza&ccedil;&atilde;o extraordin&aacute;ria",
-    "wordCount": 3031
+    "wordCount": 2960
   },
   {
     "route": "/pt-br/services/naturalisation/ordinary/",
     "title": "Naturaliza&ccedil;&atilde;o Ordin&aacute;ria",
-    "wordCount": 3043
+    "wordCount": 2959
   },
   {
     "route": "/pt-br/services/naturalisation/provisional/",
     "title": "Naturaliza&ccedil;&atilde;o Provis&oacute;ria",
-    "wordCount": 3044
+    "wordCount": 2959
   },
   {
     "route": "/pt-br/services/naturalisation/reacquisition/",
     "title": "Naturaliza&ccedil;&atilde;o da reaquisi&ccedil;&atilde;o",
-    "wordCount": 3042
+    "wordCount": 2972
   },
   {
     "route": "/pt-br/services/naturalisation/renunciation/",
     "title": "Naturaliza&ccedil;&atilde;o da Ren&uacute;ncia",
-    "wordCount": 3036
+    "wordCount": 2965
   },
   {
     "route": "/pt-br/services/naturalisation/special/",
     "title": "Naturaliza&ccedil;&atilde;o Especial",
-    "wordCount": 3048
+    "wordCount": 2957
   },
   {
     "route": "/pt-br/services/other/",
     "title": "Outros",
-    "wordCount": 2973
+    "wordCount": 2942
   },
   {
     "route": "/pt-br/services/other/consular/",
     "title": "Consular",
-    "wordCount": 3007
+    "wordCount": 2908
   },
   {
     "route": "/pt-br/services/other/records/",
     "title": "Registros",
-    "wordCount": 3105
+    "wordCount": 3007
   },
   {
     "route": "/pt-br/services/other/regularization/",
     "title": "Regulariza&ccedil;&atilde;o",
-    "wordCount": 3070
+    "wordCount": 2972
   },
   {
     "route": "/pt-br/services/other/translation/",
     "title": "Tradu&ccedil;&atilde;o",
-    "wordCount": 3088
+    "wordCount": 2986
   },
   {
     "route": "/pt-br/services/residencies/",
     "title": "Resid&ecirc;ncias",
-    "wordCount": 2895
+    "wordCount": 2869
   },
   {
     "route": "/pt-br/services/residencies/cplp/",
     "title": "CPLP Resid&ecirc;ncia",
-    "wordCount": 3020
+    "wordCount": 2956
   },
   {
     "route": "/pt-br/services/residencies/educational/",
     "title": "Resid&ecirc;ncia Educativa",
-    "wordCount": 3076
+    "wordCount": 3000
   },
   {
     "route": "/pt-br/services/residencies/exchange/",
     "title": "Resid&ecirc;ncia de interc&acirc;mbio",
-    "wordCount": 2964
+    "wordCount": 2887
   },
   {
     "route": "/pt-br/services/residencies/health/",
     "title": "Resid&ecirc;ncia em Sa&uacute;de",
-    "wordCount": 2991
+    "wordCount": 2908
   },
   {
     "route": "/pt-br/services/residencies/humanitarian/",
     "title": "Resid&ecirc;ncia humanit&aacute;ria",
-    "wordCount": 2962
+    "wordCount": 2883
   },
   {
     "route": "/pt-br/services/residencies/investor/",
     "title": "Resid&ecirc;ncia dos Investidores",
-    "wordCount": 3120
+    "wordCount": 3034
   },
   {
     "route": "/pt-br/services/residencies/mercosul/",
     "title": "Resid&ecirc;ncia MERCOSUL",
-    "wordCount": 3054
+    "wordCount": 2988
   },
   {
     "route": "/pt-br/services/residencies/nomad/",
     "title": "Resid&ecirc;ncia N&ocirc;made",
-    "wordCount": 3018
+    "wordCount": 2925
   },
   {
     "route": "/pt-br/services/residencies/religious/",
     "title": "Resid&ecirc;ncia Religiosa",
-    "wordCount": 3095
+    "wordCount": 3007
   },
   {
     "route": "/pt-br/services/residencies/research/",
     "title": "Resid&ecirc;ncia de pesquisa",
-    "wordCount": 3092
+    "wordCount": 3019
   },
   {
     "route": "/pt-br/services/residencies/retiree/",
     "title": "Resid&ecirc;ncia para aposentados",
-    "wordCount": 3101
+    "wordCount": 3023
   },
   {
     "route": "/pt-br/services/residencies/reunion/",
     "title": "Resid&ecirc;ncia da Reuni&atilde;o",
-    "wordCount": 2976
+    "wordCount": 2893
   },
   {
     "route": "/pt-br/services/residencies/skilled/",
     "title": "Resid&ecirc;ncia qualificada",
-    "wordCount": 3002
+    "wordCount": 2911
   },
   {
     "route": "/pt-br/services/residencies/study/",
     "title": "Resid&ecirc;ncia do Estudo",
-    "wordCount": 3087
+    "wordCount": 3018
   },
   {
     "route": "/pt-br/services/residencies/volunteer/",
     "title": "Resid&ecirc;ncia Volunt&aacute;ria",
-    "wordCount": 2948
+    "wordCount": 2874
   },
   {
     "route": "/pt-br/services/residencies/work/",
     "title": "Resid&ecirc;ncia no Trabalho",
-    "wordCount": 2999
+    "wordCount": 2913
   },
   {
     "route": "/pt-br/services/residencies/youth/",
     "title": "Resid&ecirc;ncia para jovens",
-    "wordCount": 3101
+    "wordCount": 3018
   },
   {
     "route": "/pt-br/services/visas/",
     "title": "Vistos",
-    "wordCount": 2868
+    "wordCount": 2820
   },
   {
     "route": "/pt-br/services/visas/artistic/",
     "title": "Visto Art&iacute;stico",
-    "wordCount": 3027
+    "wordCount": 2923
   },
   {
     "route": "/pt-br/services/visas/business/",
     "title": "Visto de neg&oacute;cios",
-    "wordCount": 3045
+    "wordCount": 2958
   },
   {
     "route": "/pt-br/services/visas/diplomatic/",
     "title": "Visto Diplom&aacute;tico",
-    "wordCount": 2966
+    "wordCount": 2873
   },
   {
     "route": "/pt-br/services/visas/educational/",
     "title": "Visto Educacional",
-    "wordCount": 2914
+    "wordCount": 2848
   },
   {
     "route": "/pt-br/services/visas/exchange/",
     "title": "Visto de troca",
-    "wordCount": 3071
+    "wordCount": 2997
   },
   {
     "route": "/pt-br/services/visas/family/",
     "title": "Visto de Fam&iacute;lia",
-    "wordCount": 2989
+    "wordCount": 2903
   },
   {
     "route": "/pt-br/services/visas/humanitarian/",
     "title": "Visto Humanit&aacute;rio",
-    "wordCount": 3094
+    "wordCount": 3005
   },
   {
     "route": "/pt-br/services/visas/investor/",
     "title": "Visto para Investidores",
-    "wordCount": 3002
+    "wordCount": 2922
   },
   {
     "route": "/pt-br/services/visas/journalist/",
     "title": "Visto Jornalista",
-    "wordCount": 2965
+    "wordCount": 2900
   },
   {
     "route": "/pt-br/services/visas/medical/",
     "title": "Visto m&eacute;dico",
-    "wordCount": 2956
+    "wordCount": 2878
   },
   {
     "route": "/pt-br/services/visas/nomad/",
     "title": "Visto n&ocirc;made",
-    "wordCount": 2981
+    "wordCount": 2892
   },
   {
     "route": "/pt-br/services/visas/religious/",
     "title": "Visto Religioso",
-    "wordCount": 2932
+    "wordCount": 2858
   },
   {
     "route": "/pt-br/services/visas/research/",
     "title": "Visto de pesquisa",
-    "wordCount": 2971
+    "wordCount": 2899
   },
   {
     "route": "/pt-br/services/visas/retiree/",
     "title": "Visto de aposenta&ccedil;&atilde;o",
-    "wordCount": 2946
+    "wordCount": 2875
   },
   {
     "route": "/pt-br/services/visas/sports/",
     "title": "Visto esportivo",
-    "wordCount": 2951
+    "wordCount": 2879
   },
   {
     "route": "/pt-br/services/visas/startup/",
     "title": "Visto para startup",
-    "wordCount": 2956
+    "wordCount": 2886
   },
   {
     "route": "/pt-br/services/visas/student/",
     "title": "Visto de estudante",
-    "wordCount": 2938
+    "wordCount": 2868
   },
   {
     "route": "/pt-br/services/visas/tourist/",
     "title": "Visto de turista",
-    "wordCount": 3024
+    "wordCount": 2944
   },
   {
     "route": "/pt-br/services/visas/transit/",
     "title": "Visto de tr&acirc;nsito",
-    "wordCount": 3028
+    "wordCount": 2958
   },
   {
     "route": "/pt-br/services/visas/volunteer/",
     "title": "Visto de Volunt&aacute;rio",
-    "wordCount": 2928
+    "wordCount": 2864
   },
   {
     "route": "/pt-br/services/visas/work/",
     "title": "Visto de trabalho",
-    "wordCount": 3070
+    "wordCount": 2956
   },
   {
     "route": "/pt-br/start-consultation/",
     "title": "Solicitar uma consulta",
-    "wordCount": 2954
+    "wordCount": 2852
   }
 ]

@@ -1,0 +1,192 @@
+{
+  "route": "/legal/",
+  "lang": "en",
+  "bodyClass": "site-root page-legal-hub family-legal style-legal",
+  "meta": {
+    "themeColor": "#1B4332",
+    "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+    "robots": "index,follow",
+    "title": "Legal Notices | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Legal Notices | Immigrate to Brazil",
+    "ogDescription": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+    "ogImageAlt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Legal Notices | Immigrate to Brazil",
+    "twitterDescription": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+    "twitterImageAlt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Legal Notices",
+    "pageFamily": "legal"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Legal Notices",
+          "item": "https://immigratetobrazil.com/legal/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": "https://immigratetobrazil.com/legal/#hero-image",
+      "name": "Legal Notices hero image featuring National Congress in Brasilia",
+      "description": "SEO hero image for the Legal Notices hub on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about legal notices and compliance standards.",
+      "caption": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil.",
+      "keywords": "Brasilia, National Congress, Brazil legal notices, privacy policy, terms and conditions, refund policy, cookies policy, Immigrate to Brazil",
+      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+      "representativeOfPage": true,
+      "inLanguage": "en"
+    }
+  ],
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "ImmigrateToBrazil.com Legal Notices",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "We believe legal pages should increase clarity, reduce uncertainty, and make our operating standards visible before a client relies on us."
+      },
+      "nextStep": {
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
+      }
+    },
+    "officialResources": [
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
+        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "title": "LGPD (Law No. 13.709/2018)",
+        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "title": "Decree No. 7.962/2013",
+        "description": "Brazilian e-commerce decree governing transparency, information duties, and online consumer relations."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+        "title": "Migration Regulation Decree",
+        "description": "Regulatory decree for migration procedures, public authorities, and administrative interpretation."
+      },
+      {
+        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao/inicio",
+        "title": "Policia Federal - Imigracao",
+        "description": "Official Federal Police portal for immigration registration and post-arrival obligations."
+      },
+      {
+        "href": "https://portaldeimigracao.mj.gov.br/pt/",
+        "title": "Portal de Imigracao - Ministerio da Justica",
+        "description": "Official migration portal with residence-authorisation and immigration reference materials."
+      },
+      {
+        "href": "https://www.gov.br/anpd/pt-br",
+        "title": "ANPD",
+        "description": "Brazilian National Data Protection Authority portal with public privacy and LGPD guidance."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions define the nature of our immigration advisory and execution-support services, the limits of platform use, the obligations of clients, and the contractual boundaries that govern each service stage.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/payment/",
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/refund/",
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how refund eligibility is assessed by service stage, when fees are treated as earned, when conditional refunds may be considered, and why outcomes do not create refund rights.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/values/",
+        "title": "The standards that shape how every process feels",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+      },
+      {
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Service page for consultation advisory support, documentation planning, compliance visibility, and structured decision-making. Covers advisory scope, intake…",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+      },
+      {
+        "href": "/about/",
+        "title": "About",
+        "description": "Understand how Immigrate to Brazil operates, what defines our working method, how legal and advisory stages connect, and why our process is built around clarity, structure, and disciplined progression.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      }
+    ]
+  }
+}

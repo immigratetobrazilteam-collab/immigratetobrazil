@@ -1,28 +1,28 @@
 {
   "route": "/legal/privacy/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-privacy family-legal style-legal",
+  "bodyClass": "site-root page-legal-privacy family-legal style-privacy",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Privacy notice for site visitors and consultation inquirers, grounded in LGPD principles and operational transparency. Covers privacy practices, data collect…",
+    "description": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
     "robots": "index,follow",
-    "title": "Privacy | Legal Information | Immigrate to Brazil",
+    "title": "Privacy Policy | Legal Information | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Privacy | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Privacy notice for site visitors and consultation inquirers, grounded in LGPD principles and operational transparency. Covers privacy practices, data collect…",
+    "ogTitle": "Privacy Policy | Legal Information | Immigrate to Brazil",
+    "ogDescription": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
     "ogImageAlt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Privacy | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Privacy notice for site visitors and consultation inquirers, grounded in LGPD principles and operational transparency. Covers privacy practices, data collect…",
+    "twitterTitle": "Privacy Policy | Legal Information | Immigrate to Brazil",
+    "twitterDescription": "This Privacy Policy explains how Immigrate to Brazil collects, processes, stores, protects, shares, and governs personal information across intake, communication, advisory work, and execution support.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
     "twitterImageAlt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
   },
   "runtime": {
-    "pageTitle": "Privacy",
+    "pageTitle": "Privacy Policy",
     "pageFamily": "legal"
   },
   "schemas": [
@@ -39,7 +39,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Privacy",
+          "name": "Privacy Policy",
           "item": "https://immigratetobrazil.com/legal/privacy/"
         }
       ]
@@ -50,42 +50,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How does Immigrate to Brazil handle your information if I contact the team?",
+          "name": "Does first contact create a right to unlimited disclosure?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We handle your information with care, clear internal boundaries, and the aim of using only what is reasonably needed to review or support your enquiry."
+            "text": "No. We encourage proportionate disclosure tied to the current stage of the matter."
           }
         },
         {
           "@type": "Question",
-          "name": "What information do I usually need to share to get help?",
+          "name": "Do you sell personal information?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "That depends on your situation. Usually, the first step is a short practical summary, not every possible document or detail all at once."
+            "text": "No. Sharing is limited to lawful operational, professional, or authority-related necessity."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I ask questions before sending sensitive details?",
+          "name": "How should a privacy request be sent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If you are unsure what to share first, contact the team and explain that you want to understand the safest way to proceed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Immigrate to Brazil share my information automatically?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Information is not treated casually. Any sharing should be tied to the service context and handled with clear purpose and care."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I ask for clarification about your information?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact the team directly if you need more clarity about how your information is handled or what is appropriate to send at the current stage."
+            "text": "By email, with enough information to identify the record and the request clearly."
           }
         }
       ]
@@ -112,16 +96,16 @@
         "href": "/"
       },
       {
-        "label": "Privacy",
+        "label": "Privacy Policy",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Privacy in immigration work is not a marketing statement. It is part of how we protect records, process chronology, and control sensitive information from first contact onward."
       },
       "nextStep": {
-        "lead": "privacy practices in direct, operational terms.",
+        "lead": "Use consultation for case-specific review, or WhatsApp for operational clarification and route support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,7 +120,7 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and timing remain case-specific and follow review of chronology, documents, and procedural posture."
       }
     },
     "officialResources": [
@@ -146,41 +130,90 @@
         "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
+        "href": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes/perguntas-frequentes",
+        "title": "ANPD Frequently Asked Questions",
         "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular",
+        "title": "ANPD Petition Route",
+        "description": "Official ANPD route for data-subject petitions and complaints under the Brazilian privacy framework."
+      },
+      {
+        "href": "https://www.gov.br/anpd/pt-br",
+        "title": "ANPD",
+        "description": "Brazilian National Data Protection Authority portal with public privacy and LGPD guidance."
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection_en",
+        "title": "European Commission - Data Protection",
+        "description": "Official European Commission overview of data protection and GDPR-related information."
+      },
+      {
+        "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "title": "EUR-Lex - GDPR",
+        "description": "Official text of the GDPR regulation through the European Union legal portal."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "title": "Marco Civil da Internet",
+        "description": "Official text of Brazil's Internet Civil Framework law."
+      },
+      {
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "title": "Brazilian Migration Law",
+        "description": "Primary statutory framework for migration, residence, rights, and duties in Brazil."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/lgpd/",
+        "title": "LGPD Notice",
+        "description": "This LGPD Notice explains how Immigrate to Brazil approaches personal-data processing under Brazilian standards, including the role of the controlador, lawful bases, rights, retention, sharing, and ANPD-related context.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-lgpd.webp",
+        "image_alt": "Hero image for the Lgpd page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/gdpr/",
+        "title": "GDPR Compliance Notice",
+        "description": "This GDPR Compliance Notice is a supplemental notice for individuals in the EEA, the United Kingdom, Switzerland, and similar jurisdictions who expect GDPR-style transparency regarding controller identity, legal basis, rights, retention, and cross-border transfers.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
         "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "title": "Form & Intake Policy",
+        "description": "This policy explains how our forms, uploads, and intake channels operate, what information they request, how submissions are reviewed, and what form submission does and does not mean.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how pricing, accepted methods, verification, booking confirmation, and payment-related controls operate across consultation and execution-stage services.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/about/ethics/",
+        "title": "How immigration matters are handled with structure, clarity, and integrity",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
+        "image_alt": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/about/values/",
+        "title": "The standards that shape how every process feels",
+        "description": "",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This is our legal hub. Here you can review the policies, disclosures, and operational standards that govern how we handle privacy, payments, forms, accessibility, urgent contact, and public information.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }
