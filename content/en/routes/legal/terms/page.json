@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Terms: what should you know about informational-website terms?",
+          "name": "What should I understand before using the site or contacting Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "You should understand that the site provides general information and contact pathways, while case-specific guidance depends on your actual facts and a proper review."
           }
         },
         {
           "@type": "Question",
-          "name": "Terms: what should you know about acceptable use?",
+          "name": "Does the website create a client relationship by itself?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "No. Reading the site or sending a first message does not by itself create a formal client relationship."
           }
         },
         {
           "@type": "Question",
-          "name": "Terms: what should you know about contact usage?",
+          "name": "Can I rely on the site instead of case-specific guidance?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "The site is useful for orientation, but important decisions should be based on your actual situation rather than general public information alone."
           }
         },
         {
           "@type": "Question",
-          "name": "Terms: what should you know about limitation language?",
+          "name": "How does Immigrate to Brazil handle third-party services or links?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Third-party services or links may be relevant, but they do not replace direct guidance on your own situation or create control over outside services."
           }
         },
         {
           "@type": "Question",
-          "name": "Terms: what should you know about governing framework?",
+          "name": "What should I do if I need clarification before using a service?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. Follow the rule with the next action in view and without guesswork."
+            "text": "Contact the team directly. It is better to clarify expectations early than to proceed on the basis of guesswork."
           }
         }
       ]

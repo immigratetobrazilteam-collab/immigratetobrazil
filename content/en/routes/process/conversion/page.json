@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does change of visa or residency type matter at the conversion stage?",
+          "name": "How can Immigrate to Brazil help at status conversion?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, change of visa or residency type usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "We help clients understand what status conversion means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does legal possibility of conversion matter at the conversion stage?",
+          "name": "Do I need everything ready before getting help with status conversion?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal possibility of conversion usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does requirements matter at the conversion stage?",
+          "name": "Can Immigrate to Brazil help if something has already gone wrong around status conversion?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, requirements usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does timing considerations matter at the conversion stage?",
+          "name": "What does good support usually change at status conversion?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, timing considerations usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does administrative procedure matter at the conversion stage?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, administrative procedure usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with status conversion."
           }
         }
       ]

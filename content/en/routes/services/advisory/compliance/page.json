@@ -68,42 +68,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does monitoring scope matter in a compliance matter?",
+          "name": "Can Immigrate to Brazil help me understand whether I need compliance support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, monitoring scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Many clients contact us because they know something needs attention but are not yet sure what level of compliance support makes sense. We help clarify that before the wrong step is taken."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does legal duties matter in a compliance matter?",
+          "name": "What kind of clients usually contact Immigrate to Brazil about compliance support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, legal duties changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Clients usually reach out about compliance support when they want clearer direction, better timing, and calmer support before a problem becomes more complicated."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does status controls matter in a compliance matter?",
+          "name": "Do I need everything ready before I ask for compliance support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, status controls changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "No. Early contact is often useful precisely because the client still needs help identifying priorities, understanding risk, and deciding what should happen first."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does documentation upkeep matter in a compliance matter?",
+          "name": "What does Immigrate to Brazil actually do in a compliance support matter?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation upkeep changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We help clients understand the situation, reduce confusion, prepare next steps, and coordinate the kind of support that makes compliance support more manageable in practice."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does decision support matter in a compliance matter?",
+          "name": "What happens after I contact Immigrate to Brazil about compliance support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, decision support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually. The next step may be a consultation, a request for more detail, or guidance on the most useful way to approach compliance support."
           }
         }
       ]

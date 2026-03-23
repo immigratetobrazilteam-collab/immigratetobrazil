@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does client rights matter at the rights stage?",
+          "name": "How can Immigrate to Brazil help at rights questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. Before the next step, client rights usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "We help clients understand what rights questions means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does access to information matter at the rights stage?",
+          "name": "Do I need everything ready before getting help with rights questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, access to information usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does confidentiality matter at the rights stage?",
+          "name": "Can Immigrate to Brazil help if something has already gone wrong around rights questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, confidentiality usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does right to representation matter at the rights stage?",
+          "name": "What does good support usually change at rights questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. Before the next step, right to representation usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does right to withdraw matter at the rights stage?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, right to withdraw usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with rights questions."
           }
         }
       ]

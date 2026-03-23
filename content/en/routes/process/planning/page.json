@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does long-term immigration planning matter at the planning stage?",
+          "name": "How can Immigrate to Brazil help at long-term planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, long-term immigration planning usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "We help clients understand what long-term planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does sequencing of applications matter at the planning stage?",
+          "name": "Do I need everything ready before getting help with long-term planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, sequencing of applications usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does status progression matter at the planning stage?",
+          "name": "Can Immigrate to Brazil help if something has already gone wrong around long-term planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Before the next step, status progression usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does risk anticipation matter at the planning stage?",
+          "name": "What does good support usually change at long-term planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, risk anticipation usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does legal strategy over time matter at the planning stage?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, legal strategy over time usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with long-term planning."
           }
         }
       ]

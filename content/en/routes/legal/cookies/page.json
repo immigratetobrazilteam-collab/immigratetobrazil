@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Cookies: what should you know about cookie categories?",
+          "name": "Does Immigrate to Brazil use cookies in a way I should know about before contacting the team?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. Cookie use should be transparent so you understand how the site works before deciding how you want to use it or contact the team."
           }
         },
         {
           "@type": "Question",
-          "name": "Cookies: what should you know about consent management?",
+          "name": "Can I use the site without accepting every type of cookie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "In most cases, yes. The aim is to keep site use as clear and respectful as possible while explaining what is essential and what may be optional."
           }
         },
         {
           "@type": "Question",
-          "name": "Cookies: what should you know about analytics logic?",
+          "name": "Does cookie use affect how I contact or work with Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Cookie settings mainly affect site behavior, not the core question of whether you can contact the team for guidance or support."
           }
         },
         {
           "@type": "Question",
-          "name": "Cookies: what should you know about essential cookies?",
+          "name": "What if I want more clarity before using the site further?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "If anything about site behavior, privacy, or consent feels unclear, you can contact the team for clarification before proceeding."
           }
         },
         {
           "@type": "Question",
-          "name": "Cookies: what should you know about opt-in and opt-out?",
+          "name": "Where can I ask questions about privacy or cookie use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "You can contact the team directly if you want a clearer explanation of how cookie-related choices connect to site use and contact options."
           }
         }
       ]

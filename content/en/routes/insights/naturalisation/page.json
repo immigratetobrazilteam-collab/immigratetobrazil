@@ -64,42 +64,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Naturalisation: what matters most about citizenship framework?",
+          "name": "Can Immigrate to Brazil help me apply naturalisation planning to my own situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. These pages give general orientation, but we can help connect naturalisation planning to your actual plans, risks, timing, and next steps."
           }
         },
         {
           "@type": "Question",
-          "name": "Naturalisation: what matters most about legal categories?",
+          "name": "Do I need a consultation if I am still only researching naturalisation planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Not always. But if naturalisation planning is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
           }
         },
         {
           "@type": "Question",
-          "name": "Naturalisation: what matters most about competent authority?",
+          "name": "Can Immigrate to Brazil help me compare naturalisation planning with other options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Naturalisation: what matters most about high-level requirements?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around naturalisation planning."
           }
         },
         {
           "@type": "Question",
-          "name": "Naturalisation: what matters most about legal consequences?",
+          "name": "Will Immigrate to Brazil tell me honestly if this is not the right direction?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Part of good guidance is saying when a different route, timing, or strategy may be better than the one you first had in mind."
           }
         }
       ]

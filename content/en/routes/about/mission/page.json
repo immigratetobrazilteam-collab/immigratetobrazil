@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Mission: what matters most about defined purpose?",
+          "name": "What does this page show about the company mission?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "This page is meant to help you understand how Immigrate to Brazil approaches the company mission, what kind of support philosophy sits behind it, and why that matters for clients who want clearer guidance."
           }
         },
         {
           "@type": "Question",
-          "name": "Mission: what matters most about role in immigration context?",
+          "name": "Can I contact Immigrate to Brazil even if I am still unsure what I need?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients reach out while they are still trying to understand their situation, compare options, or decide what kind of support makes the most sense."
           }
         },
         {
           "@type": "Question",
-          "name": "Mission: what matters most about approach to service delivery?",
+          "name": "Does this page replace case-specific guidance?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. These pages help you understand how we work and what we value, but real next steps still depend on your facts, timing, and goals."
           }
         },
         {
           "@type": "Question",
-          "name": "Mission: what matters most about legal boundaries of activity?",
+          "name": "What kind of clients is this usually relevant for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "It is usually relevant for international clients who want clear English communication, practical support, and a more trustworthy way to approach Brazil-related decisions."
           }
         },
         {
           "@type": "Question",
-          "name": "Mission: what matters most about relationship to applicable law?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on what should happen first."
           }
         }
       ]

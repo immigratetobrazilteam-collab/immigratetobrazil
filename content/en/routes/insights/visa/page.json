@@ -64,42 +64,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Visa: what matters most about general explanation of visa categories?",
+          "name": "Can Immigrate to Brazil help me apply visa planning to my own situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. These pages give general orientation, but we can help connect visa planning to your actual plans, risks, timing, and next steps."
           }
         },
         {
           "@type": "Question",
-          "name": "Visa: what matters most about temporary versus specific-purpose distinctions?",
+          "name": "Do I need a consultation if I am still only researching visa planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Not always. But if visa planning is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
           }
         },
         {
           "@type": "Question",
-          "name": "Visa: what matters most about institutional handling?",
+          "name": "Can Immigrate to Brazil help me compare visa planning with other options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Visa: what matters most about legal limitations?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around visa planning."
           }
         },
         {
           "@type": "Question",
-          "name": "Visa: what matters most about orientation purpose?",
+          "name": "Will Immigrate to Brazil tell me honestly if this is not the right direction?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Part of good guidance is saying when a different route, timing, or strategy may be better than the one you first had in mind."
           }
         }
       ]

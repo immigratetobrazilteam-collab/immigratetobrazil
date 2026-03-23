@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Refund: what should you know about refund conditions?",
+          "name": "When should I ask about refund rules?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "You should ask before proceeding if anything about payment boundaries, cancellation, or service stages feels unclear."
           }
         },
         {
           "@type": "Question",
-          "name": "Refund: what should you know about non-refundable stages?",
+          "name": "Does Immigrate to Brazil explain payment boundaries before work begins?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "That is the goal. Clients should understand how payment and refund boundaries work before they commit, not only after a problem arises."
           }
         },
         {
           "@type": "Question",
-          "name": "Refund: what should you know about timing and processing?",
+          "name": "Can I ask questions about refund terms before paying?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. If you need clarity first, ask. Clear expectations are part of a safer and more professional service relationship."
           }
         },
         {
           "@type": "Question",
-          "name": "Refund: what should you know about service boundaries?",
+          "name": "How are refund requests handled?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Requests are handled through a review of the specific payment and service stage involved, rather than through assumptions or informal promises."
           }
         },
         {
           "@type": "Question",
-          "name": "Refund: what should you know about contractual framing?",
+          "name": "Where should I contact the team about a refund or payment concern?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Use the contact details provided for the site or the relevant payment-related page so the issue can be reviewed properly."
           }
         }
       ]

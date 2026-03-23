@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-about-about family-about style-about",
   "meta": {
     "themeColor": "#6F4E8C",
-    "description": "Contextual overview of about within the Immigrate to Brazil platform. Covers institutional overview, purpose, scope of services, practical documentation logi…",
+    "description": "Learn how Immigrate to Brazil helps international clients move forward with clear guidance, trusted support, and a more human path into life in Brazil.",
     "robots": "index,follow",
-    "title": "About | Immigrate to Brazil | Immigrate to Brazil",
+    "title": "About | Your Bridge to Brazil | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "About | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of about within the Immigrate to Brazil platform. Covers institutional overview, purpose, scope of services, practical documentation logi…",
+    "ogTitle": "About | Your Bridge to Brazil | Immigrate to Brazil",
+    "ogDescription": "Learn how Immigrate to Brazil helps international clients move forward with clear guidance, trusted support, and a more human path into life in Brazil.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
     "ogImageAlt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "About | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of about within the Immigrate to Brazil platform. Covers institutional overview, purpose, scope of services, practical documentation logi…",
+    "twitterTitle": "About | Your Bridge to Brazil | Immigrate to Brazil",
+    "twitterDescription": "Learn how Immigrate to Brazil helps international clients move forward with clear guidance, trusted support, and a more human path into life in Brazil.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
     "twitterImageAlt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
   },
@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "About: what matters most about institutional overview?",
+          "name": "What does this page show about how Immigrate to Brazil works?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "This page is meant to help you understand how Immigrate to Brazil approaches how Immigrate to Brazil works, what kind of support philosophy sits behind it, and why that matters for clients who want clearer guidance."
           }
         },
         {
           "@type": "Question",
-          "name": "About: what matters most about purpose?",
+          "name": "Can I contact Immigrate to Brazil even if I am still unsure what I need?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients reach out while they are still trying to understand their situation, compare options, or decide what kind of support makes the most sense."
           }
         },
         {
           "@type": "Question",
-          "name": "About: what matters most about scope of services?",
+          "name": "Does this page replace case-specific guidance?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. These pages help you understand how we work and what we value, but real next steps still depend on your facts, timing, and goals."
           }
         },
         {
           "@type": "Question",
-          "name": "About: what matters most about structure of information?",
+          "name": "What kind of clients is this usually relevant for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "It is usually relevant for international clients who want clear English communication, practical support, and a more trustworthy way to approach Brazil-related decisions."
           }
         },
         {
           "@type": "Question",
-          "name": "About: what matters most about target audience?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on what should happen first."
           }
         }
       ]
@@ -95,9 +95,9 @@
       "@type": "ImageObject",
       "@id": "https://immigratetobrazil.com/about/about/#hero-image",
       "name": "About hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the About page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
+      "description": "SEO hero image for the About page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about trusted guidance for moving to Brazil.",
       "caption": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, About, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
+      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, About, moving to Brazil, relocation support, Immigrate to Brazil",
       "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
       "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
       "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
@@ -118,10 +118,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "We help international clients move through Brazilian systems with more clarity, less stress, and better support at each stage."
       },
       "nextStep": {
-        "lead": "institutional overview in practical client terms.",
+        "lead": "See how Immigrate to Brazil helps clients move from uncertainty to a clear next step.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,7 +136,7 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Tell us what you are planning, what is unclear, or what kind of support you need, and we will guide you to the next practical step."
       }
     },
     "officialResources": [
@@ -170,17 +170,17 @@
       {
         "href": "/process/consultation/",
         "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "See what the consultation stage gives you, how it creates clarity early, and what happens after the call."
       },
       {
         "href": "/about/profile/",
         "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
+        "description": "Read how Immigrate to Brazil works as a hands-on connector and guide for people moving to Brazil."
       },
       {
         "href": "/about/mission/",
         "title": "Mission",
-        "description": "Contextual overview of mission within the Immigrate to Brazil platform."
+        "description": "See the mission behind clearer, safer, and more personal support for international clients."
       }
     ]
   }

@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Emergency: what should you know about email?",
+          "name": "What kinds of situations should be sent through the emergency route?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Use the emergency route for situations where delay may create a bigger problem and you need a faster first review of what should happen next."
           }
         },
         {
           "@type": "Question",
-          "name": "Emergency: what should you know about phone?",
+          "name": "What should I send first if my situation is urgent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Start with a short clear summary of what is happening, why the matter feels urgent, and any immediate date, notice, or event that makes timing important."
           }
         },
         {
           "@type": "Question",
-          "name": "Emergency: what should you know about whatsapp instruction?",
+          "name": "Can Immigrate to Brazil help if I do not have every detail yet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. In urgent matters, the first step is often understanding the immediate priority before everything is perfectly organized."
           }
         },
         {
           "@type": "Question",
-          "name": "Emergency: what should you know about emergency-only guidance?",
+          "name": "Does emergency contact guarantee immediate representation or an outcome?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "No. Emergency contact is a faster way to begin the first review of the situation. It does not guarantee a specific result or bypass the need for proper assessment."
           }
         },
         {
           "@type": "Question",
-          "name": "Emergency: what should you know about existing-client handling note?",
+          "name": "What happens after the team receives an emergency message?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "The message is reviewed manually, and the next step depends on the urgency, timing, and type of support that appears to be needed."
           }
         }
       ]

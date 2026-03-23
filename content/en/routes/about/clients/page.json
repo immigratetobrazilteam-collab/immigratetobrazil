@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Clients: what matters most about client categories?",
+          "name": "Who does Immigrate to Brazil usually help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "We support international clients including remote workers, families, investors, retirees, students, skilled professionals, and people dealing with Brazil-related cross-border decisions."
           }
         },
         {
           "@type": "Question",
-          "name": "Clients: what matters most about individuals?",
+          "name": "Can Immigrate to Brazil help me even if I do not know which route fits me yet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients contact us because they are still trying to understand which route or type of support fits their situation. That early clarity is often one of the most valuable parts of the process."
           }
         },
         {
           "@type": "Question",
-          "name": "Clients: what matters most about families?",
+          "name": "Do you only help with one type of client?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. We work with a range of client profiles, and the support is shaped around the real situation rather than forcing everyone into one template."
           }
         },
         {
           "@type": "Question",
-          "name": "Clients: what matters most about companies?",
+          "name": "What if my situation does not fit neatly into one category?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "That is common. Many real cases overlap across family, work, business, timing, and relocation questions. We help clients see the bigger picture instead of treating each piece in isolation."
           }
         },
         {
           "@type": "Question",
-          "name": "Clients: what matters most about geographic scope?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to solve. That may mean a consultation, a clarification request, or guidance on the safest next move."
           }
         }
       ]

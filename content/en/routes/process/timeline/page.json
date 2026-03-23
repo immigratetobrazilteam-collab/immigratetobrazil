@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does general processing phases matter at the timeline stage?",
+          "name": "How can Immigrate to Brazil help at timeline planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, general processing phases usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "We help clients understand what timeline planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does estimated timeframes where possible matter at the timeline stage?",
+          "name": "Do I need everything ready before getting help with timeline planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, estimated timeframes where possible usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does variability factors matter at the timeline stage?",
+          "name": "Can Immigrate to Brazil help if something has already gone wrong around timeline planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, variability factors usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does authority processing times matter at the timeline stage?",
+          "name": "What does good support usually change at timeline planning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Before the next step, authority processing times usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does delays and external factors matter at the timeline stage?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, delays and external factors usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with timeline planning."
           }
         }
       ]

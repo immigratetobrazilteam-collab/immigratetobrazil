@@ -54,42 +54,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does immigration pathways overview matter when planning immigration to Brazil?",
+          "name": "How do I know which Immigrate to Brazil service fits my situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. immigration pathways overview affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "You do not need to know the exact route before you contact us. We help clients understand what they are trying to solve, what options may fit, and what the most useful next step should be."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does consultation flow matter when planning immigration to Brazil?",
+          "name": "What kinds of clients does Immigrate to Brazil usually help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. consultation flow affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "We support international clients including remote workers, families, investors, retirees, students, skilled professionals, and people dealing with Brazil-related cross-border decisions."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does trust markers matter when planning immigration to Brazil?",
+          "name": "Can I contact Immigrate to Brazil before I have everything figured out?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that potential clients usually need to understand how the practice works before they decide whether the fit is right. trust markers affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "Yes. Many clients get in touch at the stage where they are still comparing options, worrying about timing, or trying to avoid a costly wrong turn. Early clarity is often part of the value."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does nationwide online support matter when planning immigration to Brazil?",
+          "name": "Does Immigrate to Brazil only help with legal questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that potential clients usually need to understand how the practice works before they decide whether the fit is right. nationwide online support affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "No. Some clients need legal guidance, while others need broader support with relocation planning, coordination, translation accuracy, or understanding how different parts of the move connect."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does service categories matter when planning immigration to Brazil?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. service categories affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "Your enquiry is reviewed manually. From there, the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully based on your situation."
           }
         }
       ]

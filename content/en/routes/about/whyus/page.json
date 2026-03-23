@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why Us: what matters most about structural approach to cases?",
+          "name": "Why do clients choose Immigrate to Brazil instead of handling everything alone?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Clients usually choose us because they want clearer guidance, better sequencing, and support that feels careful and human rather than confusing or generic."
           }
         },
         {
           "@type": "Question",
-          "name": "Why Us: what matters most about organization of procedures?",
+          "name": "What makes Immigrate to Brazil different from a general information site?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "We do more than explain topics. We help clients connect those topics to their real situation, reduce wrong turns, and move toward a practical next step."
           }
         },
         {
           "@type": "Question",
-          "name": "Why Us: what matters most about documentation methodology?",
+          "name": "Will Immigrate to Brazil tell me honestly if I need a different route or a deeper review?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Good support includes saying when a different direction, timing, or level of help may be better than the one you first had in mind."
           }
         },
         {
           "@type": "Question",
-          "name": "Why Us: what matters most about communication structure?",
+          "name": "Can Immigrate to Brazil help with both legal and practical coordination questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients need help with legal direction, timing, translation, relocation planning, and understanding how several decisions affect each other."
           }
         },
         {
           "@type": "Question",
-          "name": "Why Us: what matters most about compliance orientation?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually. The next step may be a consultation, a request for more context, or guidance toward the most useful action based on your situation."
           }
         }
       ]

@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Results: what matters most about nature of administrative outcomes?",
+          "name": "What kind of results can Immigrate to Brazil help clients work toward?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "We help clients work toward clearer decisions, better preparation, less confusion, and a safer path through immigration and relocation questions. Good results often start with better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Results: what matters most about factors affecting decisions?",
+          "name": "Does Immigrate to Brazil guarantee approvals or outcomes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. No responsible service should guarantee outcomes that depend on authorities, formal review, or facts that still need to be assessed."
           }
         },
         {
           "@type": "Question",
-          "name": "Results: what matters most about variability of processes?",
+          "name": "What does a strong result usually look like for a client?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Often it means fewer wrong turns, better timing, better preparation, clearer expectations, and more confidence about what should happen next."
           }
         },
         {
           "@type": "Question",
-          "name": "Results: what matters most about case dependency?",
+          "name": "Can Immigrate to Brazil help even if I feel behind or confused right now?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients reach out because they feel uncertain or overloaded. One of the main goals is to create order and clarity before the situation becomes more difficult."
           }
         },
         {
           "@type": "Question",
-          "name": "Results: what matters most about limitations of predictability?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on the safest next move."
           }
         }
       ]

@@ -68,42 +68,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does legal context matter in a litigation matter?",
+          "name": "Can Immigrate to Brazil help if I am dealing with litigation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal context changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Clients often reach out in litigation situations because they need calm, clear direction before urgency or confusion makes the situation harder to manage."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does response structure matter in a litigation matter?",
+          "name": "Should I contact Immigrate to Brazil early even if the litigation situation still feels unclear?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, response structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Early guidance can help you understand urgency, reduce avoidable mistakes, and decide what information or support matters first."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does authority interaction matter in a litigation matter?",
+          "name": "What kind of support does Immigrate to Brazil provide in litigation matters?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, authority interaction changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We help clients bring order to the situation, understand the real priority, and move toward a safer next step with clearer communication and better coordination."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does evidence and document strategy matter in a litigation matter?",
+          "name": "Can Immigrate to Brazil help me understand timing and next steps in a litigation situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, evidence and document strategy changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. In stressful situations, one of the main forms of support is turning confusion into a clear sequence so you can see what needs attention now and what should happen next."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does ongoing service support matter in a litigation matter?",
+          "name": "What happens after I contact Immigrate to Brazil about litigation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, ongoing service support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually, and the next step depends on urgency, timing, and what you are dealing with. That may mean consultation, follow-up questions, or direction toward the most useful immediate action."
           }
         }
       ]

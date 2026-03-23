@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Lgpd: what should you know about brazil-first privacy compliance?",
+          "name": "How does Immigrate to Brazil handle LGPD rights if I contact the team?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Follow the rule with the next action in view and without guesswork."
+            "text": "We handle LGPD rights with care, clear internal boundaries, and the aim of using only what is reasonably needed to review or support your enquiry."
           }
         },
         {
           "@type": "Question",
-          "name": "Lgpd: what should you know about legal bases?",
+          "name": "What information do I usually need to share to get help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "That depends on your situation. Usually, the first step is a short practical summary, not every possible document or detail all at once."
           }
         },
         {
           "@type": "Question",
-          "name": "Lgpd: what should you know about data subject rights?",
+          "name": "Can I ask questions before sending sensitive details?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. If you are unsure what to share first, contact the team and explain that you want to understand the safest way to proceed."
           }
         },
         {
           "@type": "Question",
-          "name": "Lgpd: what should you know about contact and requests?",
+          "name": "Does Immigrate to Brazil share my information automatically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "No. Information is not treated casually. Any sharing should be tied to the service context and handled with clear purpose and care."
           }
         },
         {
           "@type": "Question",
-          "name": "Lgpd: what should you know about brazil-centered processing framework?",
+          "name": "How can I ask for clarification about LGPD rights?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Follow the rule with the next action in view and without guesswork."
+            "text": "You can contact the team directly if you need more clarity about how your information is handled or what is appropriate to send at the current stage."
           }
         }
       ]

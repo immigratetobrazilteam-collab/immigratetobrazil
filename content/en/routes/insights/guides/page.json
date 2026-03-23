@@ -64,34 +64,34 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Guides: what matters most about structured immigration overviews?",
+          "name": "Can Immigrate to Brazil help me apply detailed guidance to my own situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. These pages give general orientation, but we can help connect detailed guidance to your actual plans, risks, timing, and next steps."
           }
         },
         {
           "@type": "Question",
-          "name": "Guides: what matters most about terminology clarification?",
+          "name": "Do I need a consultation if I am still only researching detailed guidance?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Not always. But if detailed guidance is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
           }
         },
         {
           "@type": "Question",
-          "name": "Guides: what matters most about framework explanations?",
+          "name": "Can Immigrate to Brazil help me compare detailed guidance with other options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: work and business routes depend on the real activity in Brazil, the structure around it, and documents that match the proposed purpose closely. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Guides: what matters most about orientation purpose?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around detailed guidance."
           }
         }
       ]

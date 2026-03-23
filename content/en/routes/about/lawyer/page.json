@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Lawyer: what matters most about full identification?",
+          "name": "How does legal support work through Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. full identification affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "When legal guidance is needed, support is coordinated through the company so clients can understand what kind of help is required and how the next step should be approached."
           }
         },
         {
           "@type": "Question",
-          "name": "Lawyer: what matters most about academic background?",
+          "name": "Can I contact Immigrate to Brazil even if I am not sure whether I need legal support yet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that study, research, and exchange matters usually depend on the institution, the program, and documents that show the academic purpose clearly. academic background affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "Yes. Many clients contact us before they know whether the issue needs legal guidance, broader coordination support, or a clearer first review."
           }
         },
         {
           "@type": "Question",
-          "name": "Lawyer: what matters most about professional qualifications?",
+          "name": "Can I receive support in clear English?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. professional qualifications affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "Yes. Clear English communication is one of the main reasons international clients contact Immigrate to Brazil, especially when they want to understand Brazilian systems without confusion."
           }
         },
         {
           "@type": "Question",
-          "name": "Lawyer: what matters most about areas of practice?",
+          "name": "Does this page mean every matter starts with the same kind of legal service?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. areas of practice affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "No. The right level of support depends on the facts, timing, and what you are actually trying to solve. Good guidance starts by clarifying that first."
           }
         },
         {
           "@type": "Question",
-          "name": "Lawyer: what matters most about immigration experience?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. immigration experience affects next steps, official-source checking, and the boundary between general information and individual legal advice."
+            "text": "Your enquiry is reviewed manually, and the next step may be consultation, clarification, or guidance toward the most appropriate type of support for your situation."
           }
         }
       ]

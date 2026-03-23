@@ -76,13 +76,16 @@
       "unusedTag": "GT-MJWBXC3K"
     },
     "consultationPolicy": {
-      "summary": "A consultation request is submitted first, the consultation fee is then paid, appointments must be scheduled at least 36 hours after payment confirmation, and the team confirms each appointment manually by email.",
+      "summary": "A consultation request is reviewed first, payment is then completed using an approved method, clear proof must be sent for verification, appointments must be scheduled at least 36 hours after confirmation, and the team confirms each booking manually in writing.",
       "minHoursAfterPayment": 36,
       "paymentMethods": [
-        "PayPal",
-        "Wise",
         "PIX",
-        "Payoneer"
+        "PayPal",
+        "Payoneer",
+        "Wise",
+        "Direct bank transfer",
+        "Bitcoin",
+        "USDT"
       ],
       "paymentReceiverEmail": "immigratetobrazilteam@gmail.com"
     },

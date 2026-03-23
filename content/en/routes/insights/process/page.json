@@ -64,42 +64,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Process: what matters most about institutional roles?",
+          "name": "Can Immigrate to Brazil help me apply the immigration process to my own situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. These pages give general orientation, but we can help connect the immigration process to your actual plans, risks, timing, and next steps."
           }
         },
         {
           "@type": "Question",
-          "name": "Process: what matters most about general sequence of procedures?",
+          "name": "Do I need a consultation if I am still only researching the immigration process?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Not always. But if the immigration process is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
           }
         },
         {
           "@type": "Question",
-          "name": "Process: what matters most about administrative versus judicial distinction?",
+          "name": "Can Immigrate to Brazil help me compare the immigration process with other options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: clients usually need the topic translated into practical terms before they can decide what to do with it. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Process: what matters most about compliance concept?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around the immigration process."
           }
         },
         {
           "@type": "Question",
-          "name": "Process: what matters most about orientation purpose?",
+          "name": "Will Immigrate to Brazil tell me honestly if this is not the right direction?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The answer is usually more practical than people expect: potential clients usually need to understand how the practice works before they decide whether the fit is right. Read the concept in plain English first so broad research can be separated from the point where a case-specific review becomes necessary."
+            "text": "Yes. Part of good guidance is saying when a different route, timing, or strategy may be better than the one you first had in mind."
           }
         }
       ]

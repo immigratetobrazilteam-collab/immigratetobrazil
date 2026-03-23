@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Privacy: what should you know about privacy practices?",
+          "name": "How does Immigrate to Brazil handle your information if I contact the team?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "We handle your information with care, clear internal boundaries, and the aim of using only what is reasonably needed to review or support your enquiry."
           }
         },
         {
           "@type": "Question",
-          "name": "Privacy: what should you know about data collection?",
+          "name": "What information do I usually need to share to get help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "That depends on your situation. Usually, the first step is a short practical summary, not every possible document or detail all at once."
           }
         },
         {
           "@type": "Question",
-          "name": "Privacy: what should you know about lawful bases?",
+          "name": "Can I ask questions before sending sensitive details?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. If you are unsure what to share first, contact the team and explain that you want to understand the safest way to proceed."
           }
         },
         {
           "@type": "Question",
-          "name": "Privacy: what should you know about data retention?",
+          "name": "Does Immigrate to Brazil share my information automatically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "No. Information is not treated casually. Any sharing should be tied to the service context and handled with clear purpose and care."
           }
         },
         {
           "@type": "Question",
-          "name": "Privacy: what should you know about rights?",
+          "name": "How can I ask for clarification about your information?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: defense and rights issues require calm, precise handling because the wrong response can affect status, deadlines, and later options. Follow the rule with the next action in view and without guesswork."
+            "text": "You can contact the team directly if you need more clarity about how your information is handled or what is appropriate to send at the current stage."
           }
         }
       ]

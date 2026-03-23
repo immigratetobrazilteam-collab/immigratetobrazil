@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does definition of legal approach matter at the strategy stage?",
+          "name": "How can Immigrate to Brazil help at strategy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, definition of legal approach usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "We help clients understand what strategy means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does selection of immigration pathway matter at the strategy stage?",
+          "name": "Do I need everything ready before getting help with strategy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. Before the next step, selection of immigration pathway usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does structuring of application matter at the strategy stage?",
+          "name": "Can Immigrate to Brazil help if something has already gone wrong around strategy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, structuring of application usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does documentation planning matter at the strategy stage?",
+          "name": "What does good support usually change at strategy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Before the next step, documentation planning usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does risk mitigation measures matter at the strategy stage?",
+          "name": "What happens after I contact Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It matters because clients usually need the topic translated into practical terms before they can decide what to do with it. Before the next step, risk mitigation measures usually has to be checked for delay, inconsistency, and procedural risk as much as for the legal rule itself."
+            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with strategy."
           }
         }
       ]

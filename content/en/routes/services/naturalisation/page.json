@@ -68,26 +68,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does citizenship eligibility matter in a naturalisation matter?",
+          "name": "Can Immigrate to Brazil help me understand which naturalisation and citizenship planning option fits my situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, citizenship eligibility changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. The first step is usually to understand your goals, timing, and current position so the right direction becomes clearer before you commit to a path in naturalisation and citizenship planning."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does applicable categories matter in a naturalisation matter?",
+          "name": "What kind of support does Immigrate to Brazil provide for naturalisation and citizenship planning matters?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, applicable categories changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We help clients understand options, reduce confusion, prepare next steps, and coordinate the right kind of support around naturalisation and citizenship planning in a calmer and more organized way."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does residency-history review matter in a naturalisation matter?",
+          "name": "What happens after I contact Immigrate to Brazil about naturalisation and citizenship planning support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, residency-history review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually. From there, the next step may be clarifying details, recommending a consultation, or guiding you toward the most useful action based on your situation and the naturalisation and citizenship planning issue you are facing."
           }
         }
       ]

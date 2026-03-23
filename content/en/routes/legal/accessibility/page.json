@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Accessibility: what should you know about accessibility commitment?",
+          "name": "Can I contact Immigrate to Brazil if I need help accessing the site?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: policy and privacy topics matter because clients should understand contact, consent, payment, and data-handling rules before relying on them. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. If a page, form, or feature is making access difficult, you can contact the team directly and explain the barrier."
           }
         },
         {
           "@type": "Question",
-          "name": "Accessibility: what should you know about current measures?",
+          "name": "What if an accessibility issue makes it harder to use a page or form?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Let the team know. The goal is to make it easier for you to continue, not to leave you blocked by the site itself."
           }
         },
         {
           "@type": "Question",
-          "name": "Accessibility: what should you know about compatibility goals?",
+          "name": "Can I still reach the team another way?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. If one route is difficult, other contact methods may still be available for practical follow-up."
           }
         },
         {
           "@type": "Question",
-          "name": "Accessibility: what should you know about known limitations?",
+          "name": "Does Immigrate to Brazil want feedback on accessibility barriers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. Accessibility feedback is useful because it helps identify what should be improved for real users."
           }
         },
         {
           "@type": "Question",
-          "name": "Accessibility: what should you know about support contact?",
+          "name": "What happens after I report an accessibility issue?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clients usually need the topic translated into practical terms before they can decide what to do with it. Follow the rule with the next action in view and without guesswork."
+            "text": "The issue can be reviewed, and the team can respond with the most practical next step or an alternative way to keep the process moving."
           }
         }
       ]

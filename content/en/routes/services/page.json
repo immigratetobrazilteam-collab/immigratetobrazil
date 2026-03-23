@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Services: what matters most about visa and residency pathways?",
+          "name": "How do I know which Immigrate to Brazil service fits my situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the route has to match the client's real objective, present status, and supporting facts before any serious next step is taken. In real cases, visa and residency pathways changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "You do not need to arrive already knowing whether you need a visa, residency, naturalisation, defense, advisory, or supporting service. We help clients narrow that down more clearly."
           }
         },
         {
           "@type": "Question",
-          "name": "Services: what matters most about naturalisation and citizenship planning?",
+          "name": "Can I contact Immigrate to Brazil if I am still comparing options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, citizenship issues usually depend on legal category, residence history, documentary continuity, and the precise statutory route being used. In real cases, naturalisation and citizenship planning changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Many clients reach out while they are still deciding which route, sequence, or type of support makes the most sense. That kind of early clarity is one of the main reasons people contact us."
           }
         },
         {
           "@type": "Question",
-          "name": "Services: what matters most about defense and regularization support?",
+          "name": "Does Immigrate to Brazil help with both legal and practical coordination questions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that immigration matters do not end at approval, because status maintenance, registrations, updates, and later duties can shape what happens next. In real cases, defense and regularization support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Some matters are mainly legal. Others involve planning, timing, translation, relocation support, or understanding how several decisions affect each other. We help clients see the whole picture more clearly."
           }
         },
         {
           "@type": "Question",
-          "name": "Services: what matters most about document-driven advisory services?",
+          "name": "What kind of clients usually use Immigrate to Brazil services?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, document-driven advisory services changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We support international clients including remote workers, families, investors, retirees, students, skilled professionals, and people facing urgent or uncertain Brazil-related situations."
           }
         },
         {
           "@type": "Question",
-          "name": "Services: what matters most about nationwide online service delivery?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, nationwide online service delivery changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to solve. That may mean a consultation, a request for clarification, or guidance toward the most useful service path."
           }
         }
       ]

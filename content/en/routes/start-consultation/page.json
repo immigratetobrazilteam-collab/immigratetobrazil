@@ -62,42 +62,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What should you know about consultation request flow before requesting consultation?",
+          "name": "Is a consultation the right first step if I am not sure which route fits me?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that the first review works best when the objective, the current status, and the available facts are clear from the beginning. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided."
+            "text": "Yes. Many people book a consultation because they need clarity before choosing a route, paying for the wrong service, or moving too quickly without understanding the bigger picture."
           }
         },
         {
           "@type": "Question",
-          "name": "What should you know about payment before scheduling before requesting consultation?",
+          "name": "What can Immigrate to Brazil help me understand in a consultation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided."
+            "text": "A consultation can help you understand which options may fit, what risks or timing issues matter most, what should happen first, and where more focused support may be needed afterward."
           }
         },
         {
           "@type": "Question",
-          "name": "What should you know about 36-hour timing rule before requesting consultation?",
+          "name": "Do I need every document ready before I book?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that timing often changes what can be done immediately, what must wait, and what becomes risky if a date is missed. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided."
+            "text": "No. You do not need a perfect file before booking. What helps most is a clear summary of your situation, your main questions, and any key documents or timing details you already have."
           }
         },
         {
           "@type": "Question",
-          "name": "What should you know about manual review and confirmation before requesting consultation?",
+          "name": "How does booking and confirmation work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that the first review works best when the objective, the current status, and the available facts are clear from the beginning. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided."
+            "text": "Consultation requests are reviewed manually. Payment, proof, and scheduling are handled in sequence, and a time is only treated as confirmed after manual confirmation in writing."
           }
         },
         {
           "@type": "Question",
-          "name": "What should you know about what to prepare before requesting consultation?",
+          "name": "What happens after the consultation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You should understand that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. Send the core facts first, leave room for document review, and remember that the first assessment still depends on what is actually provided."
+            "text": "After the consultation, the next step depends on your situation. That may mean moving into a clearer plan, preparing for a service, gathering more information, or deciding that a different direction makes more sense."
           }
         }
       ]

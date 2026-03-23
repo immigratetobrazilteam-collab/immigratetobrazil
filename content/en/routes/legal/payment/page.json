@@ -4,20 +4,20 @@
   "bodyClass": "site-root page-legal-payment family-legal style-payment",
   "meta": {
     "themeColor": "#1B4332",
-    "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation. Covers consultation payment explanation, payment methods…",
+    "description": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
     "robots": "index,follow",
-    "title": "Payment | Legal Information | Immigrate to Brazil",
+    "title": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
     "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Payment | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation. Covers consultation payment explanation, payment methods…",
+    "ogTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
+    "ogDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
     "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
     "ogImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Payment | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation. Covers consultation payment explanation, payment methods…",
+    "twitterTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
+    "twitterDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
     "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
     "twitterImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
   },
@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Payment: what should you know about consultation payment explanation?",
+          "name": "Which payment methods does Immigrate to Brazil accept?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "Consultations and agreed services may be paid through PIX, PayPal, Payoneer, Wise, direct bank transfer, Bitcoin, or USDT. Some methods require current written details before payment is sent."
           }
         },
         {
           "@type": "Question",
-          "name": "Payment: what should you know about payment methods?",
+          "name": "When does Immigrate to Brazil treat a consultation as confirmed?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "A consultation is only confirmed after payment has been verified, matched to the enquiry, and confirmed manually in writing. Payment alone is not treated as a confirmed booking."
           }
         },
         {
           "@type": "Question",
-          "name": "Payment: what should you know about payment receiver email?",
+          "name": "What proof should I send after paying Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "Send a clear screenshot, receipt, or transfer record showing the amount, date, sender, and any reference that helps identify the payment. Clear proof allows faster confirmation."
           }
         },
         {
           "@type": "Question",
-          "name": "Payment: what should you know about proof-of-payment instruction?",
+          "name": "Can I arrange bank transfer, Bitcoin, or USDT with Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: the visitor should know exactly how payment is made, how proof is sent, and when scheduling actually becomes possible. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes, but those methods should be arranged first. Use only current written details shared directly for your payment, not outdated screenshots or forwarded wallet information."
           }
         },
         {
           "@type": "Question",
-          "name": "Payment: what should you know about whatsapp assistance?",
+          "name": "What should I do if my timing is urgent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Contact the team before paying if your timing is urgent. The 36-hour scheduling rule still applies, and it is better to confirm what is realistic before sending funds."
           }
         }
       ]
@@ -118,10 +118,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Payments are handled with written confirmation, traceable records, and clear scheduling rules so clients know exactly where they stand."
       },
       "nextStep": {
-        "lead": "consultation payment explanation in direct, operational terms.",
+        "lead": "Use an accepted payment method, send clear proof, and wait for written confirmation before treating the appointment as booked.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -136,7 +136,7 @@
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "If timing, method, or payment details are unclear, contact the team before sending funds."
       }
     },
     "officialResources": [

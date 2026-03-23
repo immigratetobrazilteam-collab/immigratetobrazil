@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Stories: what matters most about general case scenarios?",
+          "name": "What does Immigrate to Brazil actually help with?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "We help international clients understand their options, make better decisions, and move forward with clearer support around immigration, relocation, and practical next steps connected to life in Brazil."
           }
         },
         {
           "@type": "Question",
-          "name": "Stories: what matters most about immigration pathway examples?",
+          "name": "Do I need to know exactly which route fits me before I contact you?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. Many clients contact us because they are not sure which route makes sense. Part of the value is helping you understand what fits your situation and what should be reviewed first."
           }
         },
         {
           "@type": "Question",
-          "name": "Stories: what matters most about procedural descriptions?",
+          "name": "Can you help me if I am still outside Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Many clients contact us while planning from abroad, while others are already in Brazil and need help understanding what comes next. Support can be useful at both stages."
           }
         },
         {
           "@type": "Question",
-          "name": "Stories: what matters most about common situations observed?",
+          "name": "Do you only help with legal matters?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. Some clients need legal guidance, while others need broader support with relocation planning, coordination, translation accuracy, or understanding how several parts of the move connect."
           }
         },
         {
           "@type": "Question",
-          "name": "Stories: what matters most about informational context?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may be a consultation, a clarification request, or guidance on what should happen first."
           }
         }
       ]

@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Form: what should you know about full name?",
+          "name": "What should I include when I contact Immigrate to Brazil through the form?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Share the clearest short summary you can: what you are trying to solve, what is urgent, and any timing or background details that matter most."
           }
         },
         {
           "@type": "Question",
-          "name": "Form: what should you know about email?",
+          "name": "Do I need to know my exact route before I submit the form?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "No. Many clients use the form because they are still trying to understand what route or type of support fits their situation."
           }
         },
         {
           "@type": "Question",
-          "name": "Form: what should you know about phone or whatsapp?",
+          "name": "Can I use the form if my matter is urgent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes, but if the situation is genuinely urgent, it is best to make that clear in the message and use the emergency contact path where appropriate."
           }
         },
         {
           "@type": "Question",
-          "name": "Form: what should you know about occupation?",
+          "name": "What happens after the form is submitted?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Your submission is reviewed manually, and the next step depends on your situation. That may mean clarification, consultation, or guidance toward the most useful action."
           }
         },
         {
           "@type": "Question",
-          "name": "Form: what should you know about country?",
+          "name": "Can I contact Immigrate to Brazil another way if needed?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "What matters is straightforward: clear contact details and a concise first summary usually determine how efficiently the matter can be reviewed. Follow the rule with the next action in view and without guesswork."
+            "text": "Yes. Email and WhatsApp may also be used where appropriate, especially if you need to follow up, clarify something quickly, or ask about urgency."
           }
         }
       ]

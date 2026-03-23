@@ -50,42 +50,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Testimonials: what matters most about nature of statements?",
+          "name": "What do these testimonials show about Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "They show the kinds of things clients value most: clarity, responsiveness, honest guidance, and support that makes the process feel more manageable."
           }
         },
         {
           "@type": "Question",
-          "name": "Testimonials: what matters most about context of feedback?",
+          "name": "Do the testimonials guarantee the same result for me?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "No. Every situation depends on its own facts, timing, and formal review. Testimonials show the client experience, not a promise of identical outcomes."
           }
         },
         {
           "@type": "Question",
-          "name": "Testimonials: what matters most about format of presentation?",
+          "name": "Can I still contact Immigrate to Brazil if my situation is different from the examples I have read?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Yes. Most real cases are not identical. The point is to understand how we support clients, then apply that support to your own circumstances."
           }
         },
         {
           "@type": "Question",
-          "name": "Testimonials: what matters most about representational limitations?",
+          "name": "What matters most before I decide whether to work with Immigrate to Brazil?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "What matters most is whether you want clear English communication, careful support, realistic guidance, and a calmer way to approach Brazil-related decisions."
           }
         },
         {
           "@type": "Question",
-          "name": "Testimonials: what matters most about neutrality clarification?",
+          "name": "What happens after I send an enquiry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "This topic matters because clients need to see how the practice works in concrete terms. Standards, scope, and working method should be visible without drifting into exaggeration or claims that would be inappropriate under OAB-safe communication."
+            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to solve. That may mean consultation, clarification, or guidance toward the most useful action."
           }
         }
       ]

@@ -68,26 +68,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does supporting-legal-services scope matter in a other matter?",
+          "name": "Can Immigrate to Brazil help me understand which supporting services option fits my situation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, supporting-legal-services scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. The first step is usually to understand your goals, timing, and current position so the right direction becomes clearer before you commit to a path in supporting services."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does administrative and procedural requirements matter in a other matter?",
+          "name": "What kind of support does Immigrate to Brazil provide for supporting services matters?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, administrative and procedural requirements changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We help clients understand options, reduce confusion, prepare next steps, and coordinate the right kind of support around supporting services in a calmer and more organized way."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does coordination with authorities matter in a other matter?",
+          "name": "What happens after I contact Immigrate to Brazil about supporting services support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The practical point is that the competent authority matters because the same objective can involve different procedures, booking systems, and expectations depending on where the step occurs. In real cases, coordination with authorities changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually. From there, the next step may be clarifying details, recommending a consultation, or guiding you toward the most useful action based on your situation and the supporting services issue you are facing."
           }
         }
       ]

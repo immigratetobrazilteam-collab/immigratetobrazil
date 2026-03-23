@@ -68,42 +68,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why does advisory scope matter in a consultation matter?",
+          "name": "Can Immigrate to Brazil help me understand whether I need consultation support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, advisory scope changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Yes. Many clients contact us because they know something needs attention but are not yet sure what level of consultation support makes sense. We help clarify that before the wrong step is taken."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does intake structure matter in a consultation matter?",
+          "name": "What kind of clients usually contact Immigrate to Brazil about consultation support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In client terms, the first review works best when the objective, the current status, and the available facts are clear from the beginning. In real cases, intake structure changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Clients usually reach out about consultation support when they want clearer direction, better timing, and calmer support before a problem becomes more complicated."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does legal framing matter in a consultation matter?",
+          "name": "Do I need everything ready before I ask for consultation support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that clients usually need the topic translated into practical terms before they can decide what to do with it. In real cases, legal framing changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "No. Early contact is often useful precisely because the client still needs help identifying priorities, understanding risk, and deciding what should happen first."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does documentation review matter in a consultation matter?",
+          "name": "What does Immigrate to Brazil actually do in a consultation support matter?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that Brazil immigration work usually turns on how well the documents support the facts, not only on whether a person believes they qualify. In real cases, documentation review changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "We help clients understand the situation, reduce confusion, prepare next steps, and coordinate the kind of support that makes consultation support more manageable in practice."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does decision support matter in a consultation matter?",
+          "name": "What happens after I contact Immigrate to Brazil about consultation support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The key point is that expectations stay healthier when outcomes are described honestly, with the real limits created by documents, timing, and authority discretion. In real cases, decision support changes route fit, documents, and timing. No public explanation can replace a review of the actual file."
+            "text": "Your enquiry is reviewed manually. The next step may be a consultation, a request for more detail, or guidance on the most useful way to approach consultation support."
           }
         }
       ]
