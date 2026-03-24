@@ -1,48 +1,55 @@
 <!-- Section: Cookie Banner -->
-<div class="cookie-banner" data-cookie-banner="true" hidden>
-  <div class="cookie-banner__inner" 
-       style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+<div class="cookie-banner" data-cookie-banner="true" hidden
+     style="position:fixed; bottom:20px; left:20px; right:20px; 
+            background:#ffffff; border-radius:12px; 
+            box-shadow:0 10px 30px rgba(0,0,0,0.12); 
+            padding:18px 22px; z-index:9999; font-size:0.9rem;">
 
-    <!-- LEFT: LOGO -->
+  <div class="cookie-banner__inner"
+       style="display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
+
+    <!-- Logo -->
     <div class="cookie-logo" style="flex-shrink:0;">
-      <img src="/assets/logo/immigrate-to-brazil-logo-transparent.png" 
+      <img src="/assets/logo/immigrate-to-brazil-logo-transparent.png"
            alt="Immigrate to Brazil"
            style="height:40px; width:auto;">
     </div>
 
-    <!-- CENTER: TEXT -->
-    <div class="cookie-text" style="max-width:60%;">
-      <strong>Cookie settings</strong>
-      <p style="margin:4px 0;">
-        Essential site settings support accessibility, search, and session preferences. 
-        Analytics load only after consent is granted.
+    <!-- Text -->
+    <div class="cookie-text" style="flex:1; min-width:220px;">
+      <strong style="display:block; margin-bottom:4px;">
+        Cookie Preferences
+      </strong>
+
+      <p style="margin:0 0 6px 0; font-size:0.85rem; color:#555;">
+        We use essential cookies to ensure this Brazil immigration website works properly. 
+        Optional analytics help improve our immigration resources and site experience.
       </p>
 
-      <!-- Small policy link -->
-      <p style="margin:2px 0; font-size:0.75rem; opacity:0.8;">
-        <a href="https://immigratetobrazil.com/legal/cookies/" 
-           target="_blank" 
-           rel="noopener"
-           style="text-decoration:underline;">
-          Read Cookie Policy
-        </a>
-      </p>
+      <a href="https://immigratetobrazil.com/legal/cookies/"
+         target="_blank"
+         rel="noopener"
+         style="font-size:0.8rem; color:#666; text-decoration:underline;">
+        View Cookie Policy
+      </a>
     </div>
 
-    <!-- RIGHT: ACTIONS -->
-    <div class="cookie-actions" 
+    <!-- Actions -->
+    <div class="cookie-actions"
          style="display:flex; gap:10px; margin-left:auto;">
 
-      <button type="button" 
-              class="btn btn-secondary" 
-              data-consent="decline">
+      <button type="button"
+              class="btn btn-secondary"
+              data-consent="decline"
+              style="padding:8px 14px; border-radius:6px; cursor:pointer;">
         Decline
       </button>
 
-      <button type="button" 
-              class="btn btn-cta" 
-              data-consent="accept">
-        Accept
+      <button type="button"
+              class="btn btn-cta"
+              data-consent="accept"
+              style="padding:8px 16px; border-radius:6px; cursor:pointer;">
+        Accept Cookies
       </button>
 
     </div>

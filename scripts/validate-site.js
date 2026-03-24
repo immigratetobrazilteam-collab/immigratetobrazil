@@ -14,6 +14,14 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+const JSON_LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
+const PAGE_SCHEMA_TYPES = new Set(["WebPage", "CollectionPage", "AboutPage", "ContactPage", "SearchResultsPage"]);
+const ROOT_ORGANIZATION_URL = "https://immigratetobrazil.com";
+const SHARED_IDS = {
+  organization: `${ROOT_ORGANIZATION_URL}#organization`,
+  website: `${ROOT_ORGANIZATION_URL}#website`,
+  contactPoint: `${ROOT_ORGANIZATION_URL}#contact-primary`,
+};
 
 function localeForRoute(route) {
   return route.startsWith("/pt-br/") ? "pt-br" : "en";
@@ -52,6 +60,30 @@ async function readJson(filePath, failures) {
   }
 }
 
+function extractSchemaItems(route, html, failures) {
+  const match = html.match(JSON_LD_RE);
+  if (!match) {
+    failures.push(`Missing JSON-LD schema: ${route}`);
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(match[1]);
+    if (Array.isArray(parsed)) return parsed;
+    if (parsed && Array.isArray(parsed["@graph"])) return parsed["@graph"];
+    return parsed ? [parsed] : [];
+  } catch (error) {
+    failures.push(`Invalid JSON-LD on ${route}: ${error.message}`);
+    return [];
+  }
+}
+
+function hasType(item, type) {
+  if (!item || !item["@type"]) return false;
+  if (Array.isArray(item["@type"])) return item["@type"].includes(type);
+  return item["@type"] === type;
+}
+
 async function main() {
   const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
   const failures = [];
@@ -76,7 +108,57 @@ async function main() {
     if (!description) failures.push(`Missing meta description: ${page.route}`);
     if (h1Count !== 1) failures.push(`Expected exactly one H1 on ${page.route}, found ${h1Count}`);
     if (mainCount !== 1) failures.push(`Expected exactly one <main> on ${page.route}, found ${mainCount}`);
-    if (!html.includes("application/ld+json")) failures.push(`Missing JSON-LD schema: ${page.route}`);
+
+    const schemaItems = extractSchemaItems(page.route, html, failures);
+    const pageSchemas = schemaItems.filter((item) => [...PAGE_SCHEMA_TYPES].some((type) => hasType(item, type)));
+    const organization = schemaItems.find((item) => hasType(item, "Organization"));
+    const website = schemaItems.find((item) => hasType(item, "WebSite"));
+    const contactPoint = schemaItems.find((item) => hasType(item, "ContactPoint"));
+    const faqSchema = schemaItems.find((item) => hasType(item, "FAQPage"));
+    const heroImage = schemaItems.find((item) => hasType(item, "ImageObject"));
+    const hasVisibleFaq = html.includes('class="faq-block"');
+
+    if (!organization || organization["@id"] !== SHARED_IDS.organization) {
+      failures.push(`Missing shared Organization schema on ${page.route}`);
+    }
+    if (!website || website["@id"] !== SHARED_IDS.website) {
+      failures.push(`Missing shared WebSite schema on ${page.route}`);
+    }
+    if (!contactPoint || contactPoint["@id"] !== SHARED_IDS.contactPoint) {
+      failures.push(`Missing shared ContactPoint schema on ${page.route}`);
+    }
+    if (pageSchemas.length !== 1) {
+      failures.push(`Expected exactly one primary page schema on ${page.route}, found ${pageSchemas.length}`);
+    }
+    if (hasVisibleFaq && !faqSchema) {
+      failures.push(`Visible FAQ block is missing FAQPage schema on ${page.route}`);
+    }
+    if (!hasVisibleFaq && faqSchema) {
+      failures.push(`FAQPage schema does not match visible content on ${page.route}`);
+    }
+
+    if (heroImage && heroImage.inLanguage !== (locale === "pt-br" ? "pt-BR" : "en")) {
+      failures.push(`Hero image language is incorrect on ${page.route}`);
+    }
+
+    if (locale === "pt-br") {
+      const pageSchema = pageSchemas[0];
+      if (organization?.url !== ROOT_ORGANIZATION_URL) {
+        failures.push(`PT Organization.url must stay on the root domain: ${page.route}`);
+      }
+      if (website?.url !== ROOT_ORGANIZATION_URL) {
+        failures.push(`PT WebSite.url must stay on the root domain: ${page.route}`);
+      }
+      if (pageSchema?.inLanguage !== "pt-BR") {
+        failures.push(`PT page schema language is incorrect on ${page.route}`);
+      }
+      if (pageSchema?.["@id"] && !pageSchema["@id"].includes("/pt-br/")) {
+        failures.push(`PT page schema id must be localized on ${page.route}`);
+      }
+      if (heroImage?.["@id"] && !heroImage["@id"].includes("/pt-br/")) {
+        failures.push(`PT hero image id must be localized on ${page.route}`);
+      }
+    }
 
     if (titleMap.has(pageData.browserTitle)) failures.push(`Duplicate title: ${pageData.browserTitle}`);
     if (descriptionMap.has(description)) failures.push(`Duplicate description: ${description}`);

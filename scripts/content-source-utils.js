@@ -3,6 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 import { outputPathForRoute } from "./static-site-utils.js";
+import { decorateBodyHtmlWithSectionImages } from "./section-image-utils.js";
+import { buildStructuredData } from "./schema-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -328,7 +330,7 @@ function renderScriptLinks(scripts) {
     .join("\n");
 }
 
-export function renderEnglishPage(about, page, bodyHtml) {
+export function renderEnglishPage(about, page, bodyHtml, structuredData) {
   const canonicalUrl = routeToUrl(page.route, about.site.domain);
   const ptUrl = routeToUrl(routeToPt(page.route), about.site.domain);
   const runtimeConfig = JSON.stringify({
@@ -338,7 +340,7 @@ export function renderEnglishPage(about, page, bodyHtml) {
     ...(page.shell ? { shell: page.shell } : {}),
     ...about.runtime
   });
-  const structuredData = JSON.stringify([about.schemas.organization, about.schemas.contactPoint, ...page.schemas]);
+  const structuredDataJson = JSON.stringify(structuredData);
 
   return `<!DOCTYPE html>
 
@@ -390,7 +392,7 @@ ${renderStylesheetLinks(about.assets.stylesheets)}
 <meta name="twitter:image:alt" content="${escapeAttribute(page.social.twitterImageAlt)}" />
 
 <!-- Section: Structured Data -->
-<script type="application/ld+json">${structuredData}</script>
+<script type="application/ld+json">${structuredDataJson}</script>
 
 <!-- Section: Site Runtime Config -->
 <script>
@@ -404,9 +406,17 @@ ${renderScriptLinks(about.assets.scripts)}
 `;
 }
 
-export async function generateEnglishPage(route, about, page, bodyHtml) {
+export async function generateEnglishPage(route, about, page, bodyHtml, siteCatalog) {
   const outputPath = outputPathForRoute(ROOT, route);
-  const rendered = renderEnglishPage(about, { ...page, route }, bodyHtml);
+  const decoratedBodyHtml = await decorateBodyHtmlWithSectionImages(route, bodyHtml);
+  const structuredData = buildStructuredData({
+    about,
+    page: { ...page, route },
+    route,
+    bodyHtml,
+    siteCatalog
+  });
+  const rendered = renderEnglishPage(about, { ...page, route }, decoratedBodyHtml, structuredData);
   const changed = await writeFileIfChanged(outputPath, rendered);
   return { outputPath, changed };
 }

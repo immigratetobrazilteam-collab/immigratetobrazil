@@ -78,6 +78,17 @@ TITLE_ATTRIBUTE_TRANSLATORS = (
 
 TEXT_ATTRIBUTES = ("aria-label", "placeholder", "title", "alt")
 SAME_SITE_HOSTS = {"immigratetobrazil.com", "www.immigratetobrazil.com"}
+SHARED_SCHEMA_FRAGMENT_PREFIXES = (
+    "organization",
+    "website",
+    "contact-primary",
+    "legal-practice",
+    "person-",
+    "service-family-",
+    "service-",
+    "catalog-",
+    "place-brazil",
+)
 
 LANG_SWITCHER_RE = re.compile(
     r"(?P<indent>[ \t]*)<div class=\"lang-switcher lang-switcher--minimal\" aria-label=\"Language switcher\">[\s\S]*?</div>",
@@ -316,6 +327,42 @@ def localize_internal_url(url: str) -> str:
     if parts.netloc:
         return urlunsplit((parts.scheme, parts.netloc, localized_path, parts.query, parts.fragment))
     return urlunsplit(("", "", localized_path, parts.query, parts.fragment))
+
+
+def is_same_site_url(value: str) -> bool:
+    try:
+        parts = urlsplit(value)
+    except ValueError:
+        return False
+    if not parts.scheme and not parts.netloc and value.startswith("/"):
+        return True
+    return bool(parts.netloc and parts.netloc.lower() in SAME_SITE_HOSTS)
+
+
+def is_shared_schema_fragment(fragment: str) -> bool:
+    return any(
+        fragment == prefix or fragment.startswith(prefix)
+        for prefix in SHARED_SCHEMA_FRAGMENT_PREFIXES
+    )
+
+
+def localize_schema_id(value: str) -> str:
+    if not value or not is_same_site_url(value):
+        return value
+
+    try:
+        parts = urlsplit(value)
+    except ValueError:
+        return value
+
+    fragment = parts.fragment or ""
+    path_value = parts.path or "/"
+
+    if fragment and path_value in {"", "/"} and is_shared_schema_fragment(fragment):
+        normalized_path = parts.path or ""
+        return urlunsplit((parts.scheme, parts.netloc, normalized_path, parts.query, parts.fragment))
+
+    return localize_internal_url(value)
 
 
 class ArgosEngine:
@@ -674,15 +721,33 @@ class PtGenerator:
     def prime_translations(self, soup: BeautifulSoup, route: str) -> None:
         self.translate_missing_batch(route, sorted(self.collect_page_strings(soup)))
 
-    def translate_json_ld_value(self, value, route: str, key: str = ""):
+    def translate_json_ld_value(self, value, route: str, key: str = "", parent: dict | None = None):
         if isinstance(value, dict):
-            return {item_key: self.translate_json_ld_value(item_value, route, item_key) for item_key, item_value in value.items()}
+            return {
+                item_key: self.translate_json_ld_value(item_value, route, item_key, value)
+                for item_key, item_value in value.items()
+            }
         if isinstance(value, list):
-            return [self.translate_json_ld_value(item, route, key) for item in value]
+            if key == "availableLanguage":
+                return value
+            return [self.translate_json_ld_value(item, route, key, parent) for item in value]
         if not isinstance(value, str):
             return value
 
-        if key in {"@context", "@type", "@id", "query-input", "logo", "email", "telephone"}:
+        parent_id = ""
+        if isinstance(parent, dict):
+            parent_id = parent.get("@id", "")
+        parent_is_shared = bool(parent_id and is_shared_schema_fragment(urlsplit(parent_id).fragment or ""))
+
+        if key in {"@context", "@type", "query-input", "logo", "email", "telephone"}:
+            return value
+        if key == "@id":
+            return localize_schema_id(value)
+        if key == "inLanguage":
+            return "pt-BR"
+        if key == "availableLanguage":
+            return value
+        if key in {"url", "target"} and parent_is_shared:
             return value
         if key in {"url", "item", "target"}:
             return localize_internal_url(value)

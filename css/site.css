@@ -2726,7 +2726,123 @@ body.is-scrolled .main-nav {
 }
 
 /* ==========================================================================
-   21. Card Grids and Reusable Card Surfaces
+   21. Section Image Backdrops
+   Manifest-driven background images for long-form content sections.
+   ========================================================================== */
+[data-section-image="true"] {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(6, 14, 12, 0.14);
+  box-shadow: 0 24px 44px rgba(5, 16, 12, 0.18);
+}
+
+[data-section-image="true"]::before,
+[data-section-image="true"]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+[data-section-image="true"]::before {
+  z-index: -2;
+  background-image: var(--section-image), var(--section-image);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-color: rgba(6, 14, 12, 0.34);
+  filter: saturate(0.98) contrast(1.04);
+}
+
+[data-section-image="true"]::after {
+  z-index: -1;
+  background: var(
+    --section-overlay,
+    linear-gradient(180deg, rgba(6, 14, 12, 0.72), rgba(8, 18, 16, 0.58)),
+      linear-gradient(128deg, rgba(14, 58, 52, 0.34), rgba(25, 55, 77, 0.24))
+  );
+}
+
+[data-section-image="true"] > * {
+  position: relative;
+  z-index: 1;
+}
+
+[data-section-image="true"] h2,
+[data-section-image="true"] h3,
+[data-section-image="true"] p,
+[data-section-image="true"] li,
+[data-section-image="true"] strong,
+[data-section-image="true"] span,
+[data-section-image="true"] label,
+[data-section-image="true"] legend,
+[data-section-image="true"] .section-kicker,
+[data-section-image="true"] .section-strap,
+[data-section-image="true"] .section-title,
+[data-section-image="true"] .section-head p {
+  color: rgba(249, 245, 236, 0.96);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.34);
+}
+
+[data-section-image="true"] .section-title__icon,
+[data-section-image="true"] .page-map__icon {
+  color: rgba(247, 221, 160, 0.94);
+}
+
+[data-section-image="true"] a:not(.btn) {
+  color: #fff4cb;
+  text-decoration-color: rgba(255, 244, 203, 0.72);
+}
+
+[data-section-image="true"] a:not(.btn):hover,
+[data-section-image="true"] a:not(.btn):focus-visible {
+  color: #ffffff;
+  text-decoration-color: rgba(255, 255, 255, 0.88);
+}
+
+[data-section-image="true"] .topic-section__shell {
+  padding: 1.45rem;
+  border-radius: inherit;
+  background:
+    linear-gradient(145deg, rgba(5, 16, 12, 0.46), rgba(5, 16, 12, 0.12)),
+    rgba(5, 16, 12, 0.12);
+  backdrop-filter: blur(3px);
+}
+
+[data-section-image="true"].intro-block,
+[data-section-image="true"].highlight-block {
+  backdrop-filter: blur(4px);
+}
+
+[data-section-image="true"] .topic-note,
+[data-section-image="true"] .info-card,
+[data-section-image="true"] .resource-card,
+[data-section-image="true"] .related-card {
+  border-color: rgba(255, 255, 255, 0.16);
+  background:
+    linear-gradient(145deg, rgba(6, 14, 12, 0.56), rgba(10, 24, 20, 0.24)),
+    rgba(6, 14, 12, 0.3);
+  box-shadow: 0 16px 32px rgba(5, 16, 12, 0.16);
+}
+
+[data-section-image="true"] .topic-note strong,
+[data-section-image="true"] .info-card h3,
+[data-section-image="true"] .resource-card h3,
+[data-section-image="true"] .related-card strong {
+  color: rgba(249, 245, 236, 0.98);
+}
+
+[data-section-image="true"] .topic-note span,
+[data-section-image="true"] .info-card p,
+[data-section-image="true"] .resource-card p,
+[data-section-image="true"] .related-card span {
+  color: rgba(249, 245, 236, 0.82);
+}
+
+/* ==========================================================================
+   22. Card Grids and Reusable Card Surfaces
    Resource cards, related cards, testimonial cards, and info blocks.
    ========================================================================== */
 .card-grid,
@@ -3840,6 +3956,11 @@ body.a11y-contrast .hero::after {
   display: none !important;
 }
 
+body.a11y-contrast [data-section-image="true"]::before,
+body.a11y-contrast [data-section-image="true"]::after {
+  display: none !important;
+}
+
 body.a11y-contrast .hero-summary,
 body.a11y-contrast .hero h1,
 body.a11y-contrast .hero h2,
@@ -4006,6 +4127,17 @@ body.a11y-hide-images .hero-overlay,
 body.a11y-hide-images .hero::before,
 body.a11y-hide-images .hero::after {
   display: none !important;
+}
+
+body.a11y-hide-images [data-section-image="true"]::before,
+body.a11y-hide-images [data-section-image="true"]::after {
+  display: none !important;
+}
+
+body.a11y-hide-images [data-section-image="true"] {
+  background:
+    linear-gradient(180deg, var(--surface-card-start), var(--surface-card-end)),
+    var(--surface-card-solid) !important;
 }
 
 body.a11y-hide-images .eyebrow,

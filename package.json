@@ -17,6 +17,9 @@
     "generate:text-map": "node scripts/extract-client-visible-text-map.js",
     "sitemap:webhook": "node scripts/run-sitemap-webhook.js",
     "fetch:heroes": "node scripts/fetch-pixabay-images.js",
+    "images:sections": "python3 scripts/generate_section_images.py",
+    "images:sections:bootstrap": "python3 scripts/generate_section_images.py --bootstrap-curated-library",
+    "images:sections:download": "python3 scripts/generate_section_images.py --download",
     "seo:heroes": "node scripts/rewrite-hero-seo.js",
     "qa:matrix": "node scripts/qa-matrix.js",
     "qa:lighthouse": "node scripts/lighthouse-audit.js"
