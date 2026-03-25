@@ -2,879 +2,1105 @@
 
 Last updated: March 24, 2026
 
-This document is the developer-facing schema blueprint for `immigratetobrazil.com`. It is based on a repo crawl, generated-page audit, current JSON-LD review, content-template review, and a light benchmark of live immigration/legal sites.
+This document is the verified sitewide structured-data audit and rollout blueprint for `immigratetobrazil.com`.
 
-Audit basis:
+It does two jobs at once:
 
-- 316 built HTML pages total
-- 158 English routes in `content/en/routes/`
-- 158 Portuguese built routes under `pt-br/`
-- 7 English route families: `foundation`, `about`, `brazil`, `insights`, `legal`, `process`, `services`
-- current schema generation driven from `content/en/about/about.json`, `content/en/routes/**/page.json`, and `scripts/content-source-utils.js`
+1. It records the current schema implementation as it exists in the repo and built HTML today.
+2. It defines the next-phase entity, template, QA, and content roadmap so the schema system can scale cleanly.
+
+The current implementation is materially stronger than an early draft of this plan. Page typing, multilingual page ids, visible FAQ alignment, and service-family graphing are already live. The remaining work is mostly refinement, content support, and graph discipline rather than basic rescue.
+
+## Audit Basis
+
+- repo crawl date: March 24, 2026
+- built HTML pages: 318
+- English built pages: 159
+- Portuguese built pages: 159
+- English source routes in `content/en/routes/`: 159
+- route roots: `root`, `start-consultation`, `about`, `brazil`, `insights`, `legal`, `process`, `services`
+- current generator entry points:
+  - `scripts/generate-content.js`
+  - `scripts/content-source-utils.js`
+  - `scripts/schema-utils.js`
+- core content sources:
+  - `content/en/about/about.json`
+  - `content/en/routes/**/page.json`
+  - `content/en/routes/**/body.html`
+- benchmark check date: March 24, 2026
+- benchmark sample pages reviewed:
+  - `https://www.fragomen.com/`
+  - `https://www.bal.com/`
+  - `https://www.boundless.com/`
+  - `https://www.visalaw.com/`
 
 ## 1. Deep Sitewide Schema Audit
 
 ### Crawl Summary
 
-- English family counts:
-  - `foundation`: 2 pages
-  - `about`: 14 pages
-  - `brazil`: 28 pages
-  - `insights`: 9 pages
-  - `legal`: 14 pages
-  - `process`: 25 pages
-  - `services`: 66 pages
-- Built HTML mirrors all 158 English routes into Portuguese.
-- Every built page has a hero image.
-- Every built page also carries section-image decorations in generated HTML.
-- Current built section-image volume is large: 2,976 decorated section-image instances across EN/PT.
+English route counts by root:
 
-### Page Template Reality
+- `root`: 1
+- `start-consultation`: 1
+- `about`: 14
+- `brazil`: 28
+- `insights`: 9
+- `legal`: 14
+- `process`: 25
+- `services`: 66
+
+Built output mirrors all 159 English routes into 159 Portuguese routes under `pt-br/`.
+
+### Current Page Template Reality
 
 Current live template groups are:
 
 - homepage
+- static root 404 fallback
 - start-consultation intake page
-- service family home
-- service hubs
+- services home
+- service family hubs
 - service child pages
 - about hub
 - about trust pages
 - lawyer profile page
 - testimonials page
-- brazil hub pages
-- long-form brazil guidance pages
-- insights hub pages
-- process hub and process explainer pages
+- Brazil planning hub
+- Brazil navigation hubs for places, states, and cities
+- Brazil macro-region pages
+- Brazil evergreen topic guides
+- process hub
+- process explainer pages
+- insights hub
+- insights topic pages
 - legal hub
 - legal policy pages
-- internal search pages
-- 404 page
+- search utility pages
 
 Not currently present as dedicated templates:
 
 - standalone `/contact/` page
-- standalone commercial landing-page family outside current service/intake pages
+- standalone commercial landing-page family outside current service and intake routes
 - individual state detail pages
 - individual city detail pages
-- single dated blog-post template
+- dated single-post editorial template
 
 ### Reusable Section Inventory
 
-Most pages are built from a stable reusable section system:
+English source-page section usage:
 
-- `hero` on all 158 English source pages
-- `content-block intro-block` on all 158 English source pages
-- `content-block flow-section topic-section topic-section--split` used 446 times
-- `content-block flow-section topic-section topic-section--frame` used 443 times
-- `content-block flow-section topic-section topic-section--band` used 437 times
-- `lead-form-block` used on 159 built pages across EN/PT
-- `faq-block` used on only 13 English source pages
-- `content-block highlight-block` used 17 times
-- `trust-marker-block` used once
-- `testimonial-strip` used once
-- `search-results-shell` on search utility templates
+- `hero`: 158
+- `content-block intro-block`: 158
+- `content-block flow-section topic-section topic-section--split`: 446
+- `content-block flow-section topic-section topic-section--frame`: 443
+- `content-block flow-section topic-section topic-section--band`: 437
+- `lead-form-block`: 159 built instances across EN/PT shell output
+- `content-block highlight-block`: 17
+- `faq-block`: 13
+- `content-block flow-section supplemental topic-section topic-section--frame`: 10
+- `content-block flow-section topic-section topic-section--rail`: 3
+- `content-block search-results-shell`: 1
+- `content-block timeline-block`: 1
+- `content-block testimonial-strip`: 1
+- `trust-marker-block`: 1
+- `cta-pair`: 1
 
-Common reusable partials:
+Common partials relevant to schema decisions:
 
-- `site-navigation`
 - `breadcrumbs`
-- `sidebar-shell`
-- `official-resources`
+- `site-navigation`
 - `related-links`
-- `site-footer`
+- `official-resources`
+- `testimonials`
 - `floating-whatsapp`
+- `sidebar-shell`
+- `site-footer`
 
 ### Current Schema Inventory
 
-Shared objects currently injected on every generated page:
+#### Output counts in English built HTML
+
+- total JSON-LD nodes across EN pages: 2,616
+- page entities present on EN pages: 159 of 159
+- page entities by type:
+  - `WebPage`: 128
+  - `AboutPage`: 14
+  - `CollectionPage`: 14
+  - `SearchResultsPage`: 2
+  - `ContactPage`: 1
+- `BreadcrumbList`: 158 output nodes
+- `ImageObject`: 159 output nodes
+- `FAQPage`: 13 output nodes
+- `ItemList`: 15 output nodes
+
+All English pages currently emit:
 
 - `Organization`
+- `WebSite`
 - `ContactPoint`
+- `Country`
+- practice-level `LegalService`
+- service-family `OfferCatalog`
+- six service-family `Service` nodes
+- one page-scoped hero `ImageObject`
+- one page entity
 
-English page-level object counts:
+That shared layer is consistent, but it is heavier than necessary on many non-service pages.
 
-- `BreadcrumbList`: 157
+#### Unique entity inventory by `@id` in English output
+
+- `Organization`: 1
 - `WebSite`: 1
-- `LocalBusiness`: 1
-- `WebPage`: 11
-- `Article`: 58
-- `LegalService`: 60
-- `FAQPage`: 141
-- `ImageObject`: 158
+- `ContactPoint`: 1
+- `Country`: 1
+- practice-level `LegalService`: 1
+- child `LegalService` entities: 50
+- `Service` entities: 15
+  - 6 service families
+  - 5 advisory child services
+  - 4 other-support child services
+- `Person`: 1
+- `AdministrativeArea`: 5
+- page-scoped `Thing` topic entities: 69
+- `OfferCatalog`: 7
+  - 1 global family catalog
+  - 6 family-specific child-service catalogs
+- `ItemList`: 15
+- `FAQPage`: 13
+- `BreadcrumbList`: 157 unique ids
+- hero `ImageObject`: 158 unique ids
+- page ids across all page types: 158 unique ids
+
+Important special case:
+
+- `404.html` reuses the `/legal/404/` page id, breadcrumb id, topic id, and hero id.
+- This is acceptable if treated as a non-indexed fallback shell, but QA must treat it as an intentional duplicate.
 
 ### Current Strengths
 
-- Stable shared `Organization` and `ContactPoint` ids already exist.
-- Breadcrumb coverage is nearly complete.
-- The site has clean EN/PT route mirroring.
-- Service, process, legal, and trust content is already strong enough to support a better entity graph.
-- Hero image coverage is consistent and technically easy to keep.
+- Every English and Portuguese built page now has a primary page entity.
+- Page types are already sensibly separated:
+  - home as `WebPage`
+  - hubs as `CollectionPage`
+  - intake as `ContactPage`
+  - about pages as `AboutPage`
+  - search pages as `SearchResultsPage`
+- FAQ is now aligned with visible content:
+  - 13 pages with visible FAQ blocks
+  - 13 `FAQPage` objects
+  - 0 visible-content mismatches in the current build
+- Portuguese schema localization is currently healthy:
+  - 159 of 159 PT page ids localized correctly
+  - 159 of 159 PT hero image ids localized correctly
+  - 159 of 159 PT page and hero `inLanguage` values set to `pt-BR`
+  - shared organization url remains root-domain canonical
+- Shared ids are stable and reused:
+  - organization
+  - website
+  - contact point
+  - practice
+  - service families
+  - child services
+- The site already has a meaningful entity graph instead of isolated page snippets.
+- No `Review` or `AggregateRating` overreach is present.
+- No premature `Article` rollout is present on pages that lack bylines and dates.
 
-### Current Weaknesses
+### Current Weaknesses And Remaining Risks
 
-- 28 English pages in the `about` and `legal` families have no real primary page entity beyond `BreadcrumbList` and `ImageObject`.
-- missing primary page entity pages:
-  - `/about/`
-  - `/about/about/`
-  - `/about/clients/`
-  - `/about/ethics/`
-  - `/about/lawyer/`
-  - `/about/mission/`
-  - `/about/philosophy/`
-  - `/about/profile/`
-  - `/about/results/`
-  - `/about/stories/`
-  - `/about/story/`
-  - `/about/testimonials/`
-  - `/about/values/`
-  - `/about/whyus/`
-  - `/legal/`
-  - `/legal/404/`
-  - `/legal/accessibility/`
-  - `/legal/cookies/`
-  - `/legal/disclaimer/`
-  - `/legal/emergency/`
-  - `/legal/form/`
-  - `/legal/gdpr/`
-  - `/legal/lgpd/`
-  - `/legal/payment/`
-  - `/legal/privacy/`
-  - `/legal/refund/`
-  - `/legal/search/`
-  - `/legal/terms/`
-- 58 `Article` objects are missing article-grade properties such as `headline`, `author`, `publisher`, `datePublished`, `dateModified`, `image`, and `mainEntity`.
-- 60 `LegalService` objects are missing stable `@id`, and almost all are missing stronger service semantics such as `serviceType`, `areaServed`, `availableLanguage`, `audience`, and `hasOfferCatalog`.
-- 11 `WebPage` objects are missing `@id`, `isPartOf`, `breadcrumb`, `primaryImageOfPage`, and `inLanguage`.
-- 129 current page entities have no `mainEntity`, so the graph is page-snippet-driven rather than entity-driven.
-- `mainEntityOfPage` is usually a plain string URL instead of a referenced page object.
-- FAQ is heavily overused. There are 141 English `FAQPage` objects, but only 13 English source pages with a visible `faq-block`.
-- visible FAQ pages today:
-  - `/`
-  - `/start-consultation/`
-  - `/legal/accessibility/`
-  - `/legal/cookies/`
-  - `/legal/disclaimer/`
-  - `/legal/emergency/`
-  - `/legal/form/`
-  - `/legal/gdpr/`
-  - `/legal/lgpd/`
-  - `/legal/payment/`
-  - `/legal/privacy/`
-  - `/legal/refund/`
-  - `/legal/terms/`
-- The homepage uses `LocalBusiness` without a visible postal address. That is weak and unnecessary.
-- The lawyer page names a real person, `Monique Fernandes`, but no `Person` entity exists.
-- The site claims attorney-led and OAB-linked work in visible copy, but structured data does not model that trust layer.
-- There is no dedicated contact-page template. Contact flow is split across homepage form, intake form, WhatsApp, sidebars, and legal policy pages.
-
-### Portuguese Layer Audit
-
-- All 158 Portuguese pages currently use hero `ImageObject` entries with `inLanguage: "en"`.
-- All 158 Portuguese pages currently use non-PT hero image ids such as `https://immigratetobrazil.com/about/lawyer/#hero-image`.
-- All 158 Portuguese pages currently change `Organization.url` to the `/pt-br/` folder instead of keeping the organization entity language-neutral.
-- Page URLs inside PT `WebPage` / `Article` / `LegalService` objects are correctly PT-localized.
+- The sitewide layer is oversized.
+  - Every page emits the practice node, global service catalog, and all six family nodes even when the page is about privacy, accessibility, or culture.
+  - This is not invalid, but it adds graph noise and node weight without always adding meaning.
+- 70 page entities still use a generic page-scoped `Thing` as the main entity.
+  - This is acceptable for phase 1.
+  - It is also the clearest place for selective future upgrades.
+- 17 page entities currently omit `about`.
+  - mostly homepage, about pages, and top-level Brazil pages
+  - not broken, but additional `about` relationships would strengthen graph context
+- The site still has no true dated editorial template.
+  - no visible author module
+  - no visible published date
+  - no visible modified date
+  - no `reviewedBy` module
+- The site still has no dedicated `/contact/` template.
+- There are no state-detail or city-detail content templates yet.
+- The current public trust layer is still thin for richer person and credential modeling.
+  - named attorney exists
+  - job title exists
+  - public credential detail is still limited
+- `content/en/about/about.json` still contains a legacy `schemas` block that no longer matches the live generator output.
+  - example mismatch: legacy `#contactpoint` vs live `#contact-primary`
+  - this is internal configuration drift and should not be treated as the schema source of truth
 
 ## 2. Page Template Schema Mapping
 
-| Template | Current status | Recommended primary page markup | Supporting markup | Notes |
+| Template | Current primary page markup | Main entity model | Supporting markup | Status / notes |
 | --- | --- | --- | --- | --- |
-| Homepage `/` | current | `WebPage` | `WebSite`, `Organization`, `ContactPoint`, `BreadcrumbList` optional, `ImageObject`, selective `FAQPage` | remove `LocalBusiness`; homepage is not a local-office page |
-| Service family home `/services/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList`, family entities | this page should organize families, not behave like one service |
-| Service hub pages `/services/{family}/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList`, shared family entity | use hub pages to expose taxonomy and child-service relationships |
-| Visa pages | current | `WebPage` with `mainEntity` = `LegalService` | `BreadcrumbList`, `ImageObject`, optional `FAQPage` only when visible | use distinct entities for each visa route |
-| Residency pages | current | `WebPage` with `mainEntity` = `LegalService` | `BreadcrumbList`, `ImageObject`, optional `FAQPage` only when visible | keep visa and residency entities separate even when slugs match |
-| Citizenship / naturalisation hub | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList`, family entity | hub should not be typed as one service |
-| Citizenship / naturalisation child pages | current | `WebPage` with `mainEntity` = `LegalService` | `BreadcrumbList`, `ImageObject`, optional `FAQPage` only when visible | use service entities for ordinary, extraordinary, special, etc. |
-| Defense / legal support hub | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList`, family entity | high-risk family should still use hub semantics |
-| Defense / legal support child pages | current | `WebPage` with `mainEntity` = `LegalService` | `BreadcrumbList`, `ImageObject`, selective `FAQPage` | best place for explicit legal-service modeling |
-| Advisory hub | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList`, family entity | advisory is a service family, not an article |
-| Advisory child pages | current | `WebPage` with `mainEntity` = `Service` | `BreadcrumbList`, `ImageObject`, selective `FAQPage` | use generic `Service` for mixed advisory/support work unless formal legal scope is explicit |
-| About hub `/about/` | current | `AboutPage` or `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | current page is missing a page entity entirely |
-| About trust pages | current | `AboutPage` | `BreadcrumbList`, `ImageObject`, references to `Organization`, `Person`, service families | `whyus`, `ethics`, `values`, `mission`, `story`, etc. |
-| Lawyer profile page `/about/lawyer/` | current | `AboutPage` with `mainEntity` = `Person` | `BreadcrumbList`, `ImageObject`, `Organization`, practice entity | should become the canonical attorney page |
-| Testimonials page `/about/testimonials/` | current | `AboutPage` or `WebPage` | `BreadcrumbList`, `ImageObject` | no review markup in phase 1 |
-| Legal hub `/legal/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | this is a legal-notices collection page |
-| Legal / policy pages | current | `WebPage` | `BreadcrumbList`, `ImageObject`, selective `FAQPage` only when visible | do not type policy pages as `Article` or `LegalService` |
-| FAQ hub pages | current but limited | `FAQPage` only when visible Q&A is the page's actual structure | `BreadcrumbList`, `ImageObject` | `/brazil/faqs/` can use `FAQPage` if the questions are visible and unique |
-| Insights hub `/insights/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | current page is a topical hub, not a single article |
-| Insight topic pages | current | `CollectionPage` or `WebPage` in phase 1 | `BreadcrumbList`, `ImageObject`, optional article upgrade later | current pages are not true dated articles yet |
-| Future single blog / editorial posts | future-ready | `BlogPosting` or `Article` | `BreadcrumbList`, `ImageObject`, `author`, `publisher`, dates, `about` refs | requires visible byline and date modules |
-| Brazil hub `/brazil/` and `/brazil/places/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | these are navigation hubs |
-| Country / relocation guide detail pages | current | `WebPage` in phase 1, `Article` in phase 2 once bylines and dates exist | `BreadcrumbList`, `ImageObject`, `about` Place and topic entities | current `brazil/*` explainers are guide-like but under-modeled |
-| State hub `/brazil/states/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | current page is a hub, not a state detail page |
-| Future state detail pages | future-ready | `WebPage` with `mainEntity` = `AdministrativeArea` | `BreadcrumbList`, `ImageObject`, optional `ItemList` | connect place entity to relevant service families via `about`/`mentions` |
-| City hub `/brazil/cities/` | current | `CollectionPage` | `BreadcrumbList`, `ImageObject`, `ItemList` | current page is a hub, not a city detail page |
-| Future city detail pages | future-ready | `WebPage` with `mainEntity` = `City` | `BreadcrumbList`, `ImageObject` | keep city pages place-centered, not service-centered |
-| Start consultation `/start-consultation/` | current | `ContactPage` | `BreadcrumbList`, `ImageObject`, `ContactPoint`, consultation service entity, visible FAQ if retained | this page is intake-first, not just a service page |
-| Legal form policy `/legal/form/` | current | `WebPage` | `BreadcrumbList`, `ImageObject`, visible `FAQPage` optional | policy page about forms, not the actual contact page |
-| Search pages | current | `WebPage` | `BreadcrumbList`, `ImageObject` | utility page, not article/service/FAQ |
-| Landing pages | future-ready | `WebPage` with one clear `mainEntity` | `BreadcrumbList`, `ImageObject` | use same rules as service or editorial pages, depending intent |
+| Homepage `/` | `WebPage` | practice-level `LegalService` | `Organization`, `WebSite`, `ContactPoint`, `Country`, hero `ImageObject`, optional visible `FAQPage` | live and sensible |
+| Static `404.html` fallback | `WebPage` reusing `/legal/404/` ids | page-scoped topic `Thing` | `BreadcrumbList`, hero `ImageObject` | special-case duplicate, keep noindex |
+| Start consultation `/start-consultation/` | `ContactPage` | advisory consultation service | `ContactPoint`, hero `ImageObject`, visible `FAQPage` | live and correct |
+| Services home `/services/` | `CollectionPage` | practice-level `LegalService` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Service family hubs `/services/{family}/` | `CollectionPage` | family `Service` | family `OfferCatalog`, `ItemList`, `BreadcrumbList`, hero image | live |
+| Visa child pages | `WebPage` | child `LegalService` | `BreadcrumbList`, hero image, family/practice references | live |
+| Residency child pages | `WebPage` | child `LegalService` | `BreadcrumbList`, hero image, family/practice references | live |
+| Naturalisation child pages | `WebPage` | child `LegalService` | `BreadcrumbList`, hero image, family/practice references | live |
+| Defense child pages | `WebPage` | child `LegalService` | `BreadcrumbList`, hero image, family/practice references | live |
+| Advisory child pages | `WebPage` | child `Service` | `BreadcrumbList`, hero image, family/practice references | live |
+| Other-support child pages | `WebPage` | child `Service` | `BreadcrumbList`, hero image, family/practice references | live |
+| About hub `/about/` | `AboutPage` | `Organization` | `BreadcrumbList`, hero image | live |
+| About trust pages | `AboutPage` | `Organization` | `BreadcrumbList`, hero image | live |
+| Lawyer profile `/about/lawyer/` | `AboutPage` | `Person` | `Organization`, `BreadcrumbList`, hero image | live |
+| Testimonials page | `AboutPage` | `Organization` | `BreadcrumbList`, hero image | live, no review markup |
+| Brazil hub `/brazil/` | `CollectionPage` | `Country` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Brazil navigation hubs `/brazil/places/`, `/states/`, `/cities/` | `CollectionPage` | page-scoped topic `Thing` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Brazil country guide `/brazil/brazil/` | `WebPage` | `Country` | `BreadcrumbList`, hero image | live |
+| Brazil region pages | `WebPage` | `AdministrativeArea` | `BreadcrumbList`, hero image | live |
+| Brazil evergreen topic pages | `WebPage` | page-scoped topic `Thing` | `BreadcrumbList`, hero image | live |
+| Process hub `/process/` | `CollectionPage` | page-scoped topic `Thing` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Process topic pages | `WebPage` | page-scoped topic `Thing` | `BreadcrumbList`, hero image | live |
+| Insights hub `/insights/` | `CollectionPage` | page-scoped topic `Thing` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Insights topic pages | `WebPage` | page-scoped topic `Thing` | `BreadcrumbList`, hero image | live |
+| Legal hub `/legal/` | `CollectionPage` | page-scoped topic `Thing` | `ItemList`, `BreadcrumbList`, hero image | live |
+| Legal policy pages | `WebPage` | page-scoped topic `Thing` | `BreadcrumbList`, hero image, visible `FAQPage` only where present | live |
+| Search utility pages | `SearchResultsPage` | page-scoped topic `Thing` | `BreadcrumbList`, hero image | live |
+| FAQ-first pages | `WebPage` or `ContactPage` plus `FAQPage` | same as page intent | `Question` / `Answer` objects only when visible | live and restrained |
+| Future state detail pages | `WebPage` | `AdministrativeArea` | `BreadcrumbList`, hero image, optional `ItemList` | not yet present |
+| Future city detail pages | `WebPage` | `City` | `BreadcrumbList`, hero image | not yet present |
+| Future single editorial posts | `BlogPosting` or `Article` | article entity | `author`, `publisher`, dates, image, breadcrumbs | not yet present |
+| Future `/contact/` page | `ContactPage` | `ContactPoint` plus consultation service relation | `BreadcrumbList`, hero image | not yet present |
 
 ## 3. Full Entity Architecture
 
-### Core entities that should exist
+### Canonical Shared Entities
 
-- `Organization`: Immigrate to Brazil as the canonical brand and operating entity.
-- `WebSite`: the site as a searchable publishing surface.
-- `ContactPoint`: primary support / intake contact entity.
-- `Service` / `LegalService`: one practice-level service node plus family and child service entities.
-- `Person`: Monique Fernandes as the named attorney profile.
-- `CollectionPage` entities: hubs for services, legal notices, insights, and location navigation.
-- `Place` entities: Brazil as a country entity, macro-regions as `AdministrativeArea`, future state and city entities as those templates are created.
-- `FAQ` entities: page-scoped `Question` objects only where visible.
-- `ImageObject`: hero images, logo, and future author headshots.
-- `Testimonial` / `Review`: future-only, contingent on stronger visible evidence.
+- `Organization`
+  - brand and operating identity: Immigrate to Brazil
+- `WebSite`
+  - site-wide publishing/search surface
+- `ContactPoint`
+  - primary support and intake contact
+- practice-level `LegalService`
+  - umbrella legal and advisory offering
+- service-family `Service` entities
+  - visas
+  - residencies
+  - naturalisation
+  - defense
+  - advisory
+  - other support
+- child service entities
+  - `LegalService` where formal legal handling is clear
+  - `Service` where support/advisory scope is mixed
+- `Person`
+  - Monique Fernandes
+- `Country`
+  - Brazil
+- `AdministrativeArea`
+  - North
+  - Northeast
+  - Central-West
+  - Southeast
+  - South
 
-### Service entity set
+### Page-Scoped Entities
 
-Family entities:
+- page entities:
+  - `WebPage`
+  - `AboutPage`
+  - `CollectionPage`
+  - `SearchResultsPage`
+  - `ContactPage`
+- page-scoped topic `Thing`
+- `BreadcrumbList`
+- hero `ImageObject`
+- page-scoped `ItemList`
+- page-scoped `FAQPage`
+
+### Service Entity Set
+
+Service families:
 
 - visas
 - residencies
 - naturalisation
 - defense
 - advisory
-- other support services
+- other
 
-Child entities:
+Child services:
 
-- visas: artistic, business, diplomatic, educational, exchange, family, humanitarian, investor, journalist, medical, nomad, religious, research, retiree, sports, startup, student, tourist, transit, volunteer, work
-- residencies: CPLP, educational, exchange, health, humanitarian, investor, MERCOSUL, nomad, religious, research, retiree, reunion, skilled, study, volunteer, work, youth
-- naturalisation: ordinary, extraordinary, provisional, special, renunciation, reacquisition
-- defense: appeals, deportation, expulsion, extradition, fines, litigation
-- advisory: consultation, strategy, compliance, representation, corporate
-- other: consular, records, regularization, translation
+- visas:
+  - artistic
+  - business
+  - diplomatic
+  - educational
+  - exchange
+  - family
+  - humanitarian
+  - investor
+  - journalist
+  - medical
+  - nomad
+  - religious
+  - research
+  - retiree
+  - sports
+  - startup
+  - student
+  - tourist
+  - transit
+  - volunteer
+  - work
+- residencies:
+  - cplp
+  - educational
+  - exchange
+  - health
+  - humanitarian
+  - investor
+  - mercosul
+  - nomad
+  - religious
+  - research
+  - retiree
+  - reunion
+  - skilled
+  - study
+  - volunteer
+  - work
+  - youth
+- naturalisation:
+  - ordinary
+  - extraordinary
+  - provisional
+  - special
+  - renunciation
+  - reacquisition
+- defense:
+  - appeals
+  - deportation
+  - expulsion
+  - extradition
+  - fines
+  - litigation
+- advisory:
+  - consultation
+  - strategy
+  - compliance
+  - representation
+  - corporate
+- other:
+  - consular
+  - records
+  - regularization
+  - translation
 
-### Non-service content entities
+### Non-Service Entity Set
 
-- process topics: aftercare, alone, approval, assessment, compliance, consultation, conversion, deadlines, failures, fees, filing, mistakes, naturalisation, obligations, permanent, planning, refund, regularization, renewal, responsibilities, rights, strategy, timeline, transparency
-- insights clusters: blog, updates, guides, general, process, visa, residency, naturalisation
-- brazil clusters: brazil, places, states, cities, north, northeast, central-west, southeast, south, living, cost, housing, safety, education, economy, healthcare, culture, cuisine, events, festivals, investment, directory, municipalities, quality, faqs, search
-- about / trust clusters: about, profile, story, stories, mission, whyus, values, ethics, results, clients, lawyer, testimonials
-- legal / policy clusters: privacy, cookies, terms, payment, refund, form, gdpr, lgpd, accessibility, disclaimer, emergency, search, 404
+- about and trust pages:
+  - about
+  - profile
+  - story
+  - stories
+  - mission
+  - philosophy
+  - whyus
+  - values
+  - ethics
+  - results
+  - clients
+  - lawyer
+  - testimonials
+- process topics:
+  - aftercare
+  - alone
+  - approval
+  - assessment
+  - compliance
+  - consultation
+  - conversion
+  - deadlines
+  - failures
+  - fees
+  - filing
+  - mistakes
+  - naturalisation
+  - obligations
+  - permanent
+  - planning
+  - refund
+  - regularization
+  - renewal
+  - responsibilities
+  - rights
+  - strategy
+  - timeline
+  - transparency
+- insights topics:
+  - blog
+  - updates
+  - guides
+  - general
+  - process
+  - visa
+  - residency
+  - naturalisation
+- Brazil topics and hubs:
+  - brazil
+  - places
+  - states
+  - cities
+  - living
+  - cost
+  - housing
+  - safety
+  - education
+  - economy
+  - healthcare
+  - culture
+  - cuisine
+  - events
+  - festivals
+  - investment
+  - directory
+  - municipalities
+  - quality
+  - faqs
+  - guides
+  - search
+- legal topics:
+  - privacy
+  - cookies
+  - terms
+  - payment
+  - refund
+  - form
+  - gdpr
+  - lgpd
+  - accessibility
+  - disclaimer
+  - emergency
+  - search
+  - 404
 
-### Relationship rules
+### Relationship Rules
 
-- `Organization` owns `WebSite`.
-- `Organization` operates the practice entity.
-- `Person` works for or is associated with `Organization`.
-- practice entity has service-family entities.
-- service-family entities have child-service entities.
-- service pages point to shared service entities via `mainEntity`.
-- hub pages point to family or collection entities via `mainEntity`.
+- `Organization` publishes `WebSite`.
+- `Organization` operates the practice-level `LegalService`.
+- practice `LegalService` has the family `OfferCatalog`.
+- family `Service` nodes are related to the practice.
+- family-specific `OfferCatalog` nodes list child services on family hubs.
+- child service pages point to their shared child service entity with `mainEntity`.
+- service hubs point to the shared family entity with `mainEntity`.
 - about pages point to `Organization` or `Person`.
-- editorial and process pages point to topic entities via `mainEntity`, and to related service or place entities via `about` / `mentions`.
-- legal pages point to `Organization`, `ContactPoint`, and policy-topic entities via `about`.
+- location pages point to `Country`, `AdministrativeArea`, or page-scoped location topic entities.
+- process, insight, and legal pages point to page-scoped topic entities.
+- page entities connect to the graph through:
+  - `isPartOf`
+  - `mainEntity`
+  - `about`
+  - `breadcrumb`
+  - `primaryImageOfPage`
 
 ## 4. Knowledge Graph Design
 
-### Graph spine
+### Graph Spine
 
 Recommended graph spine:
 
-`Organization` -> `WebSite` -> page entities -> main entity -> supporting entities
+`Organization` -> `WebSite` -> page entity -> main entity -> supporting entities
 
 Expanded:
 
 - `Organization` -> publishes -> `WebSite`
-- `Organization` -> provides -> practice entity
-- practice entity -> hasOfferCatalog -> service families
-- service family -> itemListElement -> child services
-- `Person` -> worksFor -> `Organization`
+- `Organization` -> provides -> practice `LegalService`
+- practice `LegalService` -> hasOfferCatalog -> family catalog
+- family catalog -> points to -> family `Service` entities
+- family `Service` -> optionally hasOfferCatalog -> child-service catalog
+- child-service catalog -> points to -> child service entities
 - page entity -> isPartOf -> `WebSite`
-- page entity -> mainEntity -> service / person / place / policy / collection entity
+- page entity -> mainEntity -> service / person / place / topic / organization entity
+- page entity -> about -> related services, places, or organization entities
 - page entity -> breadcrumb -> `BreadcrumbList`
-- page entity -> primaryImageOfPage -> `ImageObject`
-- page entity -> about / mentions -> related services, places, process topics, or policies
-- `FAQPage` -> `Question` -> about -> the page's true main entity
+- page entity -> primaryImageOfPage -> hero `ImageObject`
 
-### Intent separation inside the graph
+### Current-State Assessment
 
-- service pages must point to service entities
-- editorial pages must point to editorial topic entities, then mention services secondarily
-- legal pages must point to policy entities, not to service entities
-- about pages must point to organization or person entities
-- location pages must point to place entities first, then mention immigration services only as secondary related context
+The site already behaves like a graph, not like isolated snippets.
 
-### Why the current graph is not enough
+What is already working:
 
-The current system mostly publishes isolated snippets:
+- shared global ids
+- service-family hierarchy
+- child service ids
+- person entity
+- multilingual page-local ids
+- page-level `mainEntity`
 
-- organization
-- contact point
-- page breadcrumb
-- one weak page type
-- FAQ
-- hero image
+What still needs refinement:
 
-That helps parsers find fragments, but it does not tell search engines how pages, services, people, trust pages, legal notices, intake flows, and location content belong to the same knowledge graph.
+- reduce unnecessary global node repetition on pages where it adds little meaning
+- selectively upgrade `Thing` where a stronger entity is justified by visible content
+- add better `about` relationships on pages that are still graph-thin
+- add future editorial byline/date/reviewer fields before any article rollout
 
 ## 5. Internal Entity ID / `@id` System
 
-### Rule set
+### Current Canonical ID Rules
 
-- Use root-fragment ids for global, language-neutral entities.
-- Use page-fragment ids for language-specific page entities.
-- Use page-fragment ids for page-scoped breadcrumbs, FAQs, and hero images.
-- Never use the same `@id` for two different semantic roles.
-- Never create separate EN/PT ids for the same organization, contact point, person, service family, or child service.
-- Do not use page URLs as both page ids and main-entity ids.
+- global shared entities use root-fragment ids
+- page-scoped entities use page-fragment ids
+- EN and PT page ids differ by page path only
+- shared entities do not split by language
 
-### Global id pattern
-
-Use language-neutral root ids like:
+### Canonical Shared IDs
 
 - `https://immigratetobrazil.com#organization`
 - `https://immigratetobrazil.com#website`
 - `https://immigratetobrazil.com#contact-primary`
-- `https://immigratetobrazil.com#practice`
+- `https://immigratetobrazil.com#place-brazil`
+- `https://immigratetobrazil.com#legal-practice`
 - `https://immigratetobrazil.com#person-monique-fernandes`
+- `https://immigratetobrazil.com#catalog-service-families`
 - `https://immigratetobrazil.com#service-family-visas`
-- `https://immigratetobrazil.com#service-visa-nomad`
-- `https://immigratetobrazil.com#service-residency-nomad`
-- `https://immigratetobrazil.com#service-naturalisation-ordinary`
-- `https://immigratetobrazil.com#service-defense-deportation`
+- `https://immigratetobrazil.com#service-family-residencies`
+- `https://immigratetobrazil.com#service-family-naturalisation`
+- `https://immigratetobrazil.com#service-family-defense`
+- `https://immigratetobrazil.com#service-family-advisory`
+- `https://immigratetobrazil.com#service-family-other`
+- `https://immigratetobrazil.com#catalog-service-family-visas`
+- `https://immigratetobrazil.com#catalog-service-family-residencies`
+- `https://immigratetobrazil.com#catalog-service-family-naturalisation`
+- `https://immigratetobrazil.com#catalog-service-family-defense`
+- `https://immigratetobrazil.com#catalog-service-family-advisory`
+- `https://immigratetobrazil.com#catalog-service-family-other`
+- child-service examples:
+  - `https://immigratetobrazil.com#service-visas-nomad`
+  - `https://immigratetobrazil.com#service-residencies-nomad`
+  - `https://immigratetobrazil.com#service-naturalisation-ordinary`
+  - `https://immigratetobrazil.com#service-defense-deportation`
+  - `https://immigratetobrazil.com#service-advisory-consultation`
 
-### Page id pattern
+### Page ID Pattern
 
-Use language-specific page ids:
+English page ids:
 
-- English page: `https://immigratetobrazil.com/services/visas/nomad/#webpage`
-- Portuguese page: `https://immigratetobrazil.com/pt-br/services/visas/nomad/#webpage`
+- `https://immigratetobrazil.com/services/visas/nomad/#webpage`
+- `https://immigratetobrazil.com/about/lawyer/#webpage`
+- `https://immigratetobrazil.com/brazil/south/#webpage`
+
+Portuguese page ids:
+
+- `https://immigratetobrazil.com/pt-br/services/visas/nomad/#webpage`
+- `https://immigratetobrazil.com/pt-br/about/lawyer/#webpage`
+- `https://immigratetobrazil.com/pt-br/brazil/south/#webpage`
 
 Derived page-scoped ids:
 
-- breadcrumb: `.../#breadcrumb`
-- hero image: `.../#hero-image`
-- FAQ item 1: `.../#faq-1`
-- FAQ item 2: `.../#faq-2`
-- consultation form block: `.../#consultation-form`
+- `.../#breadcrumb`
+- `.../#hero-image`
+- `.../#page-list`
+- `.../#faq`
+- `.../#faq-question-1`
+- `.../#topic`
 
-### ID mapping rules for duplicated slugs
+### Hard Rules
 
-These must not collapse into one id:
+- never reuse one `@id` for two semantic roles
+- never create separate EN/PT ids for organization, website, contact point, person, or shared services
+- never collapse similarly named but different services into one id
 
-- `nomad visa` vs `nomad residency`
-- `consultation` service vs `consultation` process topic vs `start consultation` intake page
-- `regularization` service vs `regularization` process topic
-- `naturalisation` service family vs `naturalisation` insights topic vs `naturalisation` process topic
+These must stay separate:
+
+- nomad visa vs nomad residency
+- consultation service vs consultation process topic vs start-consultation page
+- regularization service vs regularization process topic
+- strategy advisory service vs strategy process topic
+- naturalisation family vs naturalisation process topic vs naturalisation insights topic
 
 ## 6. Sitewide Core Schema Layer
 
-### Foundation layer
+### Current Shared Layer
 
-Recommended foundation objects:
+Current all-page shared layer:
 
 1. `Organization`
 2. `WebSite`
 3. `ContactPoint`
-4. page entity (`WebPage`, `CollectionPage`, `AboutPage`, or `ContactPage`)
-5. `BreadcrumbList`
-6. `ImageObject`
+4. `Country`
+5. practice `LegalService`
+6. family `OfferCatalog`
+7. six service-family `Service` nodes
 
-Conditional foundation object:
+This is valid, but not always necessary.
 
-- practice-level `LegalService` or `Service`
+### Recommended Core Layer For Long-Term Maintainability
 
-### Core layer decisions
+Keep on all indexable pages:
 
-- Keep `Organization` as the canonical identity node.
-- Replace the current homepage `LocalBusiness`.
-- Keep `WebSite` on the homepage and reference it from all page entities using `isPartOf`.
-- Keep one primary `ContactPoint` entity reused across the site.
-- Add one shared practice entity for the attorney-led immigration practice.
-- Add one shared `Person` entity for `Monique Fernandes` once the credential block is finalized.
+1. `Organization`
+2. `WebSite`
+3. `ContactPoint`
+4. page entity
+5. hero `ImageObject`
+6. `BreadcrumbList` when visible
 
-### Search-action note
+Keep conditionally:
 
-Keep `WebSite` because it helps site identity and site-name understanding.
+- `Country`
+  - keep on Brazil, service, process, and most sitewide planning pages
+  - optional on some legal/about pages if graph weight needs trimming
+- practice `LegalService`
+  - keep on homepage, services home, service hubs, service child pages, about/lawyer, and intake pages
+  - optional on some narrow legal-policy pages
+- family catalog and family nodes
+  - keep on services home and service-related pages
+  - do not require them on every legal, about, or Brazil guide page
 
-Do not treat sitelinks search box as a 2026 rich-result target. Google retired that visual feature starting November 21, 2024.
+### Core-Layer Recommendation
 
-### Language note
+Phase 2 should slim the universal layer without changing ids.
 
-For `ContactPoint.availableLanguage`, use language codes or explicit language entities consistently. Do not mix English text on EN pages and translated labels on PT pages while keeping the same global id.
-
-Preferred values:
-
-- `en`
-- `pt-BR`
+The improvement is not an id rewrite. It is conditional publishing discipline.
 
 ## 7. Section-Level Schema Blueprint
 
-| Section type | Schema? | Recommended approach | Notes |
+| Section type | Schema? | Current status | Recommended handling |
 | --- | --- | --- | --- |
-| Hero | yes, indirectly | page entity + `ImageObject` + `primaryImageOfPage` | do not create a separate page-type object just for hero copy |
-| Intro / value proposition | no standalone block | fold into page `description`, `about`, and main entity fields | visible copy still matters for support |
-| Service family grid | yes, selectively | `ItemList` on hubs or `hasOfferCatalog` on family entity | only when cards are visible and curated |
-| Quick navigation block | sometimes | `ItemList` only if order and membership are editorially meaningful | skip for tiny utility nav |
-| FAQ section | yes, only when visible | `FAQPage` with page-scoped `Question` ids | current site overuses this badly |
-| Testimonial section | not in phase 1 | plain visible content; future `Review` only if stronger evidence exists | no `AggregateRating` now |
-| Trust / authority section | no standalone block | use `Organization`, `Person`, `reviewedBy`, and page copy | trust lives in the graph spine, not in isolated snippets |
-| Contact section | yes, via shared entity | reference shared `ContactPoint` from the page | do not emit duplicate contact objects per CTA card |
-| Consultation CTA | no standalone block | keep inside page copy | CTAs are not separate entities |
-| Inquiry form | page-level only | use `ContactPage` on true intake pages; do not mark up Formspree endpoint | page can still link to consultation service entity |
-| Comparison table | future-only | use `Table` or `ItemList` only if actual comparison tables are added | current site has no real comparison tables |
-| State / city snapshot | future-only | use `AdministrativeArea` / `City` on detail pages | current `/states/` and `/cities/` are hubs |
-| Editorial callout | no | keep plain HTML | low semantic value |
-| Internal link hub | yes, selectively | `ItemList` on major hub sections | useful on `/services/`, `/legal/`, `/brazil/` |
-| Official resource list | usually no | optional `ItemList` if needed for internal QA only | do not over-model outbound citations |
+| Hero | yes, indirectly | live on all pages | keep one hero `ImageObject` per page and link via `primaryImageOfPage` |
+| Intro / value proposition | no standalone block | live | fold into page `description` and main-entity language |
+| Service family grid | yes, selectively | live on hubs | use `ItemList` or family `OfferCatalog` where cards are visible |
+| Quick navigation block | sometimes | limited | use `ItemList` only where order and membership matter |
+| FAQ block | yes, only when visible | live on 13 pages | current policy is correct, keep it strict |
+| Testimonial strip | not as review in phase 1 | live but sparse | keep visible only until provenance and review fields improve |
+| Trust / authority section | no standalone type | live | reinforce via `Organization`, `Person`, and page copy |
+| Contact section | yes, through shared entity | live | reference shared `ContactPoint`, do not create per-CTA contact nodes |
+| Consultation CTA | no standalone entity | live | keep as page copy and link context |
+| Inquiry form | page-level only | live | use `ContactPage` on true intake pages only |
+| Comparison table | future-only | not currently real | add markup only when real structured tables exist |
+| State / city snapshot | future-only | not yet present | tie to `AdministrativeArea` or `City` detail templates |
+| Editorial callout | no | live | keep plain HTML |
+| Internal link hub | yes, selectively | live on 15 pages | `ItemList` is appropriate on major hub pages |
+| Official resource list | usually no | live | optional internal QA value, low public graph value |
 
 ## 8. Advanced Service Modeling
 
-### Parent service model
+### Top-Level Commercial Model
 
-Top-level commercial umbrella:
+Umbrella practice:
 
-- Immigration to Brazil practice
+- Brazil immigration legal and advisory services
 
 Service families:
 
-- Visas
-- Residencies
-- Naturalisation
-- Defense
-- Advisory
-- Other support services
+- visas
+- residencies
+- naturalisation
+- defense
+- advisory
+- other support
 
-### Child-service hierarchy
+### Child-Service Modeling Rules
 
-Visas:
+Use `LegalService` for:
 
-- artistic
-- business
-- diplomatic
-- educational
-- exchange
-- family
-- humanitarian
-- investor
-- journalist
-- medical
-- nomad
-- religious
-- research
-- retiree
-- sports
-- startup
-- student
-- tourist
-- transit
-- volunteer
-- work
+- visas
+- residencies
+- naturalisation pathways
+- defense / enforcement matters
 
-Residencies:
-
-- CPLP
-- educational
-- exchange
-- health
-- humanitarian
-- investor
-- MERCOSUL
-- nomad
-- religious
-- research
-- retiree
-- reunion
-- skilled
-- study
-- volunteer
-- work
-- youth
-
-Naturalisation:
-
-- ordinary
-- extraordinary
-- provisional
-- special
-- renunciation
-- reacquisition
-
-Defense:
-
-- appeals
-- deportation
-- expulsion
-- extradition
-- fines
-- litigation
-
-Advisory:
+Use `Service` for:
 
 - consultation
 - strategy
-- compliance
-- representation
-- corporate
-
-Other support:
-
-- consular
+- compliance advisory
+- representation support
+- corporate support
+- consular support
 - records
-- regularization
+- regularization support
 - translation
 
-### Commercial vs educational boundaries
+### Educational vs Commercial Boundary
 
-- commercial service pages: `/services/**`
-- public process explainers: `/process/**`
-- public editorial explainers: `/insights/**`
-- public location / relocation explainers: `/brazil/**`
-- intake / conversion: `/start-consultation/`
-- legal / policy: `/legal/**`
+- commercial service routes: `/services/**`
+- intake / conversion routes: `/start-consultation/`
+- educational process routes: `/process/**`
+- educational insights routes: `/insights/**`
+- relocation / place guides: `/brazil/**`
+- legal / policy routes: `/legal/**`
 
-### Modeling rule
+### Modeling Rule
 
-Every commercial route gets one canonical service entity.
+Every commercial service page gets exactly one canonical shared service entity.
 
-Supporting pages do not create duplicate service entities. They reference the service entity with:
+Supporting pages should reference service entities with:
 
 - `about`
 - `mentions`
 - `isRelatedTo`
 
+Supporting pages should not generate duplicate service entities for the same service.
+
 ## 9. Service Taxonomy Framework
 
-### Taxonomy levels
+### Taxonomy Levels
 
-- Level 0: organization / practice
+- Level 0: organization and practice
 - Level 1: service family
 - Level 2: service offering
-- Level 3: page instance by language and intent
+- Level 3: language-specific page instance
 - Level 4: supporting educational clusters
 - Level 5: location context
 
-### Taxonomy naming rules
+### Naming Rules
 
-- Use canonical English labels for shared service ids.
-- Use localized page names for EN/PT page entities.
-- Use singular service entities even when hub pages are plural.
-- Keep service-family hubs plural, child-service entities singular.
-- Separate legal route entities from editorial topic entities even when the visible label matches.
+- use canonical English family slugs for shared ids
+- use localized titles for page `name`
+- keep family ids plural because the live implementation already does so
+- keep child-service ids tied to their family slug
+- do not let matching words force shared ids across different intents
 
-### Taxonomy consistency rules
+### Consistency Rules
 
-- one family per child service
-- no service entity should belong to two families
-- location pages never become child-service entities
-- legal notices never become service entities
-- intake pages never replace the consultation service entity
+- one child service belongs to one family only
+- a location page is never a service entity
+- a legal notice is never a service entity
+- an intake page never replaces the consultation service entity
+- a process topic never replaces a commercial service entity
 
 ## 10. Multilingual Schema Plan
 
-### Shared across EN/PT
+### Current State
 
-These ids must be identical across English and Portuguese:
+Multilingual schema is currently in good shape.
+
+Verified in the built HTML:
+
+- 159 of 159 PT page ids are localized correctly
+- 159 of 159 PT hero image ids are localized correctly
+- 159 of 159 PT page `inLanguage` values are `pt-BR`
+- 159 of 159 PT hero image `inLanguage` values are `pt-BR`
+- shared organization url remains root-domain canonical
+- shared service and person ids remain language-neutral
+
+### Shared Across EN/PT
+
+These ids must remain shared:
 
 - organization
 - website
 - contact point
+- Brazil country entity
 - practice entity
 - person entity
 - service families
 - child services
 
-### Language-specific
+### Language-Specific
 
-These ids must be language-specific:
+These ids must remain page-local:
 
-- page entities
-- page breadcrumbs
-- page hero images
-- FAQ item ids
-- page-scoped `ItemList` objects
+- page ids
+- hero image ids
+- breadcrumb ids
+- page list ids
+- FAQ ids
+- page-scoped topic ids
 
-### Required multilingual rules
+### Multilingual Rules
 
-- use `inLanguage: "en"` on English page objects and page-scoped images
-- use `inLanguage: "pt-BR"` on Portuguese page objects and page-scoped images
-- keep `Organization.url` on the root domain, not `/pt-br/`
-- keep page canonical urls language-appropriate
-- keep `hreflang` and page schema aligned
-- use the same service/person ids on EN/PT variants
-- use PT-localized page names, breadcrumbs, and FAQ text on PT pages
+- English page nodes use `inLanguage: "en"`
+- Portuguese page nodes use `inLanguage: "pt-BR"`
+- page names, breadcrumb labels, and FAQ text localize by page language
+- shared entities stay language-neutral
+- page canonicals and `hreflang` must stay aligned with page schema
 
-### Current multilingual fixes required
+### Optional Future Upgrade
 
-- fix all 158 PT hero `ImageObject` language values
-- fix all 158 PT hero image ids
-- stop fragmenting the organization entity by language-folder url
-- normalize `ContactPoint.availableLanguage`
+If the site adds a formal EN/PT pairing registry in the generator, it can expose stronger alternate-language linkage for internal QA and future markup decisions. That is an enhancement, not a blocker.
 
 ## 11. Advanced FAQ Schema Strategy
 
-### Current state
+### Current State
 
-- English `FAQPage` count: 141
-- English visible `faq-block` count: 13
-- visible FAQ usage is concentrated on the homepage, intake page, and legal-policy pages rather than on service or guide templates
+Current FAQ usage is disciplined:
 
-This means FAQ is currently being used on many pages without visible matching FAQ sections. That is the single biggest visible-content mismatch in the current schema implementation.
+- visible FAQ blocks in English source pages: 13
+- `FAQPage` objects in English built pages: 13
+- pages with FAQ schema but no visible FAQ: 0
+- pages with visible FAQ but no FAQ schema: 0
 
-### Recommended policy
+### Approved FAQ Pattern
 
 Use `FAQPage` only when:
 
-- the page has visible FAQ content
-- the questions are unique to that page or template
-- the answers are stable, public, and non-case-specific
-- the Q&A is part of the main user experience, not hidden boilerplate
+- the questions are visibly present
+- the answers are public and stable
+- the Q&A is part of the actual page experience
+- the answers are not case-specific legal advice
 
 Strong candidates:
 
-- homepage, if the visible FAQ block remains
+- homepage, if the visible FAQ remains
 - `/start-consultation/`
-- `/legal/form/`
-- selected legal policy pages with visible FAQ blocks
-- `/brazil/faqs/` if it remains a true FAQ page
+- legal-policy pages with real FAQ blocks
+- `/brazil/faqs/` if it remains truly FAQ-first
 
 Weak candidates:
 
-- repetitive service-child pages with cloned three-question sets
-- editorial hubs with generic "when should I contact you" questions
-- process pages without visible accordion or FAQ formatting
+- cloned service-child FAQ sets
+- guide pages without visible accordions
+- editorial pages where FAQ is only a conversion add-on
 
-### Search-result realism
+### Search-Result Reality
 
-FAQ markup may still help entity understanding, but Google has sharply limited FAQ rich results. Current Google guidance says FAQ rich results are mainly shown for well-known government and health sites, not typical commercial legal sites.
+FAQ rich-result expectations should stay low.
 
-Result:
+Use FAQ primarily for:
 
-- use FAQ for semantic clarity only where content truly supports it
-- do not build the schema program around FAQ rich-result expectations
+- page comprehension
+- entity support
+- parser clarity
+
+Do not build the schema program around FAQ SERP features.
 
 ## 12. Testimonial / Review Schema Strategy
 
-### Current state
+### Current State
 
-- testimonials exist visibly on the homepage and `/about/testimonials/`
-- the current site does not expose structured review markup
-- testimonial content lacks dates, rating values, and item-reviewed metadata
+- visible testimonial content exists
+- no `Review` markup is currently live
+- no `AggregateRating` is currently live
 
-### Recommended phase-1 policy
+That is the correct current posture.
+
+### Phase-1 Policy
 
 - no `AggregateRating`
-- no `Review` on the organization
-- no review-rich-result targeting for service or organization pages
+- no self-serving organization review snippets
+- no review markup on the testimonials page yet
 
-Why:
+### Conditions For Future Review Markup
 
-- Google does not show self-serving review snippets for `Organization` and `LocalBusiness`
-- the visible testimonial data is not yet structured enough for safe review markup
+Only add `Review` if the visible page includes:
 
-### Future-safe policy
-
-Only add `Review` if the page visibly provides:
-
-- reviewer name or stable alias
+- reviewer name or durable alias
 - review body
-- item reviewed
 - review date
-- clear consent / provenance policy
+- item reviewed
+- clear provenance or consent handling
 
 Even then:
 
 - keep reviews page-specific
-- do not use `AggregateRating` until there is a consistent, countable, auditable ratings system
+- do not add `AggregateRating` until the site has an auditable ratings system
 
-## 13. Contact, Consultation, and Inquiry Flow Schema
+## 13. Contact, Consultation, And Inquiry Flow Schema
 
-### Current contact-flow reality
+### Current Lead Paths
 
-There is no dedicated `/contact/` page.
-
-Current lead / intake touchpoints:
-
-- homepage compact inquiry form
-- `/start-consultation/` full intake form
+- homepage inquiry form
+- `/start-consultation/` intake form
 - `/legal/form/` intake-policy page
-- repeated consultation CTA blocks
-- email contact
-- WhatsApp / phone contact
-- `floating-whatsapp`
+- repeated consultation CTAs
+- email
+- phone / WhatsApp
+- floating WhatsApp widget
 
-Form endpoint currently used:
+Current visible form endpoint:
 
-- homepage: `https://formspree.io/f/xdawygld`
-- start-consultation: `https://formspree.io/f/xdawygld`
+- `https://formspree.io/f/xdawygld`
 
-### Recommended modeling
+### Current Modeling
 
-- shared `ContactPoint` as canonical contact entity
-- `/start-consultation/` as `ContactPage`
-- consultation service entity linked from `/start-consultation/`
-- `/legal/form/` as `WebPage` about intake policy, not a contact-page replacement
-- homepage references `ContactPoint` and consultation service, but stays a homepage
+- canonical contact entity: shared `ContactPoint`
+- true intake page: `/start-consultation/` as `ContactPage`
+- consultation service remains a separate service entity
+- homepage is not treated as a contact page
+- `/legal/form/` stays a policy page, not a contact-page replacement
 
-### Low-priority markup
+### Recommendation
+
+Keep the current model.
+
+If a future `/contact/` route is introduced:
+
+- type it as `ContactPage`
+- point it to the shared `ContactPoint`
+- optionally reference the consultation service as a related entity
 
 Avoid over-modeling:
 
 - third-party form endpoints
-- every CTA card
-- floating WhatsApp widget as a separate entity
+- CTA cards
+- floating widgets as standalone entities
 
 ## 14. Legal Compliance Schema Strategy
 
-### Legal hub
+### Current Legal Template Strategy
 
-- `/legal/` should be `CollectionPage`
-- its visible notice cards can be represented as `ItemList`
+- `/legal/`: `CollectionPage`
+- `/legal/search/`: `SearchResultsPage`
+- legal policy routes: `WebPage`
+- FAQ only where visibly present
 
-### Legal policy pages
+This is directionally correct.
 
-Use:
+### What To Keep
 
 - `WebPage`
 - `BreadcrumbList`
-- `ImageObject`
-- `FAQPage` only where a visible FAQ block exists
+- hero `ImageObject`
+- visible FAQ markup where truly present
 
-Do not use:
+### What To Avoid
 
 - `Article` by default
-- `LegalService`
+- `LegalService` on policy pages
 - `Review`
 - `AggregateRating`
 
-### YMYL support fields
-
-Add visible fields before richer policy schema:
+### Content Fields Worth Adding Later
 
 - effective date
 - last reviewed date
-- legal / editorial reviewer
-- contact route for policy questions
-- supplier-identification details if legal sign-off allows publication
+- reviewer name or role
+- policy-contact route
 
-## 15. Content-to-Schema Gap Analysis
+These fields would strengthen trust without requiring inflated schema types.
 
-### High-priority gaps
+## 15. Content-To-Schema Gap Analysis
 
-- about and legal pages are missing true page entities
-- FAQ markup often does not match visible content
-- insights / process / guide pages lack visible author modules
-- insights / process / guide pages lack visible published and modified dates
-- there is no true single-post editorial template yet, so current `Article` usage is structurally premature
-- lawyer page lacks visible structured credential block rich enough for a strong person entity
-- homepage trust claims are stronger than the supporting structured data
-- no dedicated contact-page template exists
-- no address or legal supplier details are visibly published for stronger business/service typing
+### High-Priority Gaps
 
-### Medium-priority gaps
+- no true author module on insights, process, or Brazil guide pages
+- no visible published dates
+- no visible modified / reviewed dates
+- no formal reviewed-by module on YMYL pages
+- no dedicated contact page
+- no state-detail or city-detail template
+- no date-rich editorial template
+- public credential detail on the lawyer page is still limited for a stronger professional profile
+- 70 pages still rely on generic `Thing`
 
-- no consistent reviewed-by module on YMYL content
-- no visible state or city structured-summary modules because detail pages do not exist yet
-- testimonials lack dates and provenance
-- service hubs do not expose an explicit visible taxonomy module beyond cards
+### Medium-Priority Gaps
 
-### Graph-quality gaps
+- about pages could carry stronger `about` relationships
+- homepage could carry stronger `about` context
+- legal and about pages do not need full service-family graph on every page
+- testimonial content lacks provenance fields for future review markup
+- no visible business hours or broader contact module
+- organization `sameAs` is currently very limited
 
-- no shared service-family ids
-- no child-service ids
-- no person entity
-- no place entity layer
-- no clean `mainEntity` / `about` relationships on most pages
+### Internal Maintenance Gaps
+
+- legacy unused schema seed in `content/en/about/about.json`
+- no dedicated schema-audit script capturing counts and edge cases automatically
+- no explicit QA rule in code for the `404.html` duplicate-id exception
 
 ## 16. Schema-Safe Content Recommendations
 
-- Add visible author and reviewer modules on editorial, process, and policy pages.
+- Add a reusable visible author / reviewer block for future editorial templates.
 - Add visible `Published` and `Last reviewed` dates where freshness matters.
-- Add a reusable attorney credentials block on homepage and lawyer page.
-- If legally acceptable, publish OAB/PR registration details in a controlled trust module.
-- Add a standardized visible contact / support module with email, phone, business hours, and languages.
-- Only keep FAQ on pages where a visible accordion or FAQ block exists.
-- Add explicit "who this is for / not for / next step" modules on service pages.
-- Add family-relationship copy on overlapping pages such as nomad visa vs nomad residency.
-- If review markup is ever desired, add visible testimonial dates, reviewer consent policy, and item-reviewed structure first.
-- If future state and city pages are launched, add visible structured overview modules so place entities are well supported.
+- Add a stronger public attorney credentials block on the lawyer page and homepage.
+- If legally acceptable, add visible OAB registration detail in a controlled trust module.
+- Add a reusable visible contact block with languages, channels, and response framing.
+- Keep FAQ only where a visible FAQ component exists.
+- Add clear “who this page is for” and “next step” framing on overlapping service pages.
+- Add stronger intent statements on overlap clusters such as nomad, consultation, compliance, strategy, and regularization.
+- If future state and city pages launch, add visible quick facts modules so place entities have real support.
 
 ## 17. Rich Result Opportunity Map
 
 | Feature | Realistic? | Priority | Notes |
 | --- | --- | --- | --- |
-| Breadcrumb rich results | yes | high | current site is already close |
-| Organization / logo understanding | yes | high | especially for homepage and about/lawyer |
-| Article rich results | future-only | medium | requires true article templates with byline/date/image discipline |
-| FAQ rich results | low | low | Google now limits FAQ rich results heavily for non-government/non-health sites |
-| Review rich results | not a target | low | self-serving org/business review snippets are not a safe target |
-| Sitelinks search box | no | none | Google retired this in November 2024 |
-| Place/entity understanding | yes, but not classic rich result | medium | useful for location hubs and future state/city pages |
-| ContactPoint understanding | yes, but not classic rich result | medium | helpful for machine understanding, not a featured SERP objective |
+| Breadcrumb rich results | yes | high | already close and well supported |
+| Organization / site identity | yes | high | current organization and website layer supports this |
+| Logo understanding | yes | high | current org logo exists, can be upgraded to an `ImageObject` later |
+| FAQ rich results | low | low | use FAQ for semantic support, not SERP expectations |
+| Article rich results | future-only | medium | requires visible bylines, dates, and real article templates |
+| Review rich results | not a target | low | self-serving org/business review snippets are not a safe goal |
+| Place/entity understanding | yes | medium | especially for country, region, and future city/state content |
+| Contact understanding | yes | medium | useful for parsers, not a classic rich result |
+| Sitelinks search box | no | none | Google retired this feature in November 2024 |
 
 ## 18. Editorial / Insights Schema Strategy
 
-### Current-state recommendation
+### Current-State Recommendation
 
-The current `insights` pages are topic hubs and explainers, not true single posts.
+Current insight pages are topical hubs and evergreen explainers, not dated posts.
 
-Use in phase 1:
+Current live modeling is acceptable:
 
 - `/insights/`: `CollectionPage`
-- `/insights/{topic}/`: `CollectionPage` or `WebPage`
+- `/insights/{topic}/`: `WebPage`
 
-Do not force `Article` on these templates until the visible page components support:
+The same logic broadly applies to `/process/**` and many `/brazil/**` explainers.
+
+### What Not To Do Yet
+
+Do not force:
+
+- `Article`
+- `BlogPosting`
+- `NewsArticle`
+
+until the visible page components support:
 
 - author
 - publisher
 - date published
 - date modified
-- representative image
+- representative image discipline
 
-### Future editorial model
+### Future Editorial Model
 
-For future single editorial pages:
+When true editorial posts exist:
 
-- use `BlogPosting` for blog-style posts
-- use `Article` for evergreen explainers
-- use `NewsArticle` only for true time-sensitive reporting
+- `BlogPosting` for blog-style posts
+- `Article` for evergreen explainers with visible bylines and dates
+- `NewsArticle` only for time-sensitive reporting
 
-Article pages should connect to:
+Future article pages should connect to:
 
-- service entities via `about`
-- location entities via `about` / `mentions`
+- service entities through `about`
+- place entities through `about` or `mentions`
 - organization via `publisher`
 - person via `author` and optional `reviewedBy`
 
-## 19. Guide, State, and City Content Schema Strategy
+## 19. Guide, State, And City Content Schema Strategy
 
-### Current guide model
+### Current Guide Model
 
-Current location / relocation content splits into:
+Current location and relocation content splits into:
 
-- country and hub pages
+- country and navigation hubs
 - macro-region pages
 - evergreen topic guides
-- state and city hubs
+- state and city navigation hubs
 
-### Recommended entity model
+### Current Entity Model
 
 - Brazil: `Country`
-- regions: `AdministrativeArea`
-- future state pages: `AdministrativeArea`
-- future city pages: `City`
+- five macro-regions: `AdministrativeArea`
+- topic guide pages: page-scoped `Thing`
 
-### Page model
+### Future State And City Plan
 
-- `/brazil/`, `/brazil/places/`, `/brazil/states/`, `/brazil/cities/`: `CollectionPage`
-- macro-region pages: `WebPage` with `mainEntity` = region entity
-- evergreen topic guides such as cost, safety, housing, healthcare: `WebPage` in phase 1, optional `Article` in phase 2
+When detail pages exist:
 
-### Connection rule
+- state pages: `WebPage` with `mainEntity` = `AdministrativeArea`
+- city pages: `WebPage` with `mainEntity` = `City`
 
-Location pages should connect to immigration services through `about` or `mentions`, not by pretending the page itself is a service page.
+### Connection Rule
 
-Example:
+Location pages should reference immigration services as related context only.
 
-- `brazil/cities/` may mention `nomad residency`, `investor residency`, or `family visa` as related planning context
-- it should not use those service entities as its primary page type
+Location pages should not pretend to be service pages.
 
 ## 20. About / Trust / Authority Schema Framework
 
-### Current pages
+### Current Pages
 
 - `/about/`
 - `/about/about/`
@@ -882,6 +1108,7 @@ Example:
 - `/about/story/`
 - `/about/stories/`
 - `/about/mission/`
+- `/about/philosophy/`
 - `/about/whyus/`
 - `/about/values/`
 - `/about/ethics/`
@@ -890,295 +1117,349 @@ Example:
 - `/about/lawyer/`
 - `/about/testimonials/`
 
-### Recommended model
+### Current Modeling
 
-- about hub: `AboutPage` or `CollectionPage`
-- about trust pages: `AboutPage`
-- lawyer page: `AboutPage` + `Person`
-- testimonials page: `AboutPage` with visible testimonial content only
+- about hub and trust pages: `AboutPage`
+- lawyer page: `AboutPage` with `Person` main entity
+- testimonials page: `AboutPage` without review markup
 
-### Trust reinforcement targets
+### Trust Reinforcement Targets
 
 - organization clarity
-- named attorney entity
-- service legitimacy
+- named attorney clarity
 - bilingual support
-- legal / advisory boundary clarity
-- authority and ethics signals
+- legal and advisory boundary clarity
+- ethical positioning
+- realistic authority framing
 
-## 21. Media and Image Schema Strategy
+### Next-Step Improvement
 
-### Keep
+Add stronger `about` relationships and a stronger visible credential block. The page-type choices themselves are already sound.
 
-- hero `ImageObject` on indexable pages
+## 21. Media And Image Schema Strategy
+
+### Current State
+
+- one hero `ImageObject` per built page
+- current PT hero ids and languages are correct
+- organization logo exists as a string URL on the organization entity
+- section images are not modeled individually
+
+### What To Keep
+
+- hero image as the page’s primary image
 - organization logo on the organization entity
-- future author photos on person entities
+- future author photo support on the person entity
 
-### Fix
+### Recommended Improvement
 
-- page-scoped hero image ids on PT pages
-- `inLanguage` on all page-scoped hero images
-- `primaryImageOfPage` link from page objects
+Consider upgrading the logo from a string URL to a reusable `ImageObject` with its own `@id`, but treat this as an enhancement, not a priority issue.
 
-### Do not do in phase 1
+### What Not To Do
 
-Do not emit 2,976 section-image `ImageObject` nodes across the site.
+Do not model the decorative section-image system as thousands of `ImageObject` nodes.
 
-Reason:
+That would add noise without meaningful search value.
 
-- the graph would become noisy
-- these images are decorative support assets, not primary page entities
-- hero images, logo, and future author photos are the high-value media objects
+## 22. Editorial Vs Service Boundary Framework
 
-## 22. Editorial vs Service Boundary Framework
+### Service Pages
 
-### Service pages
-
-- purpose: commercial route or support offering
-- primary entity: `Service` or `LegalService`
+- purpose: commercial route or formal support offer
+- primary entity: `LegalService` or `Service`
 - CTA intensity: high
 
-### Commercial landing / intake pages
+### Intake / Conversion Pages
 
-- purpose: contact or conversion
-- primary entity: `ContactPage` or `WebPage`
-- main relation: consultation service + contact point
+- purpose: contact or consultation initiation
+- primary entity: `ContactPage` or page entity about contact
+- relation: consultation service and `ContactPoint`
 
-### Editorial / guide pages
+### Editorial / Guide Pages
 
-- purpose: public explanation
-- primary entity: topic or place page
-- service entities stay secondary
+- purpose: explanation and planning support
+- primary entity: topic or place entity
+- service entities: secondary
 
-### Legal / policy pages
+### Legal / Policy Pages
 
-- purpose: platform governance and compliance
-- primary entity: policy page
+- purpose: governance and compliance
+- primary entity: policy topic
 - no service markup
 
-### FAQ pages
+### FAQ Pages
 
-- purpose: visible Q&A
-- only use `FAQPage` when the page is truly Q&A-first
+- purpose: visible question-and-answer experience
+- use `FAQPage` only when the page is actually FAQ-first or contains visible FAQ content
 
-### About / trust pages
+### About / Trust Pages
 
-- purpose: organization, attorney, method, standards
+- purpose: organization, method, people, standards, credibility
 - primary entity: `Organization` or `Person`
 
-## 23. Cannibalization and Duplication Cleanup
+## 23. Cannibalization And Duplication Cleanup
 
-### Current overlap clusters
+### Overlap Clusters
 
-- `naturalisation`: insights vs process vs service family
-- `consultation`: process vs advisory service vs start-consultation page
-- `regularization`: process vs support service
-- `strategy`: process vs advisory service
-- `compliance`: process vs advisory service
-- `refund`: legal policy vs process concept
+- `naturalisation`: service family vs process topic vs insights topic
+- `consultation`: advisory service vs process topic vs start-consultation page
+- `regularization`: support service vs process topic
+- `strategy`: advisory service vs process topic
+- `compliance`: advisory service vs process topic
+- `refund`: legal policy vs process topic
 - `about` vs `/about/about/`
 - `brazil` vs `/brazil/brazil/`
-- `nomad`, `investor`, `educational`, `exchange`, `humanitarian`, `religious`, `research`, `retiree`, `volunteer`, `work`: visa vs residency versions
+- paired visa and residency slugs:
+  - nomad
+  - investor
+  - educational
+  - exchange
+  - humanitarian
+  - religious
+  - research
+  - retiree
+  - volunteer
+  - work
 
-### Cleanup rules
+### Current Positive Signal
 
-- each overlapping page needs a distinct visible intent statement
-- each overlapping page needs a distinct main entity
-- duplicated FAQ sets must be removed
-- duplicated service descriptions must be differentiated
-- page titles and H1s should make the boundary obvious
+The current `mainEntity` separation already helps:
 
-### High-risk overlap pairs
+- services map to service entities
+- process pages map to topic entities
+- about pages map to organization/person entities
+- region pages map to `AdministrativeArea`
 
-- `/about/` vs `/about/about/`
-- `/brazil/` vs `/brazil/brazil/`
-- `/process/consultation/` vs `/services/advisory/consultation/` vs `/start-consultation/`
+### Cleanup Rules
 
-These should be explicitly disambiguated in page copy and schema.
+- each overlap page needs an explicit visible intent statement
+- page titles and H1s should keep the boundary obvious
+- FAQ sets should not be cloned across overlap pages
+- service summaries should explain how similar routes differ
 
 ## 24. Schema Validation Framework
 
-### Validation workflow
+### Validation Workflow
 
 1. validate JSON-LD syntax in generated HTML
-2. validate supported rich-result features in Google's Rich Results Test
-3. validate graph completeness in Schema.org Validator
-4. compare JSON-LD to visible page content
-5. check entity-id reuse and collision risk
-6. check EN/PT parity
-7. check template consistency across all generated pages
+2. validate eligible rich-result features in Google Rich Results Test
+3. validate graph structure in Schema.org Validator
+4. compare JSON-LD against visible page content
+5. verify `@id` reuse and collision safety
+6. verify EN/PT parity
+7. verify template consistency
+8. verify edge-case handling for `404.html`
 
-### What must be checked
+### Must-Check Items
 
 - syntax validity
 - page-type correctness
-- `@id` uniqueness
-- reuse of global entities
+- one clear `mainEntity`
 - visible-content match
 - FAQ visibility
-- breadcrumb accuracy
-- language accuracy
-- correct canonical / localized page references
+- multilingual page-id correctness
+- breadcrumb correctness
+- reuse of global ids
+- no accidental duplicate entity ids
+- no unnecessary graph inflation on low-need pages
 
-### Template consistency checks
+### Recommended Automation Targets
 
-- all service child pages use the same service-page scaffold
-- all hub pages use the same hub-page scaffold
-- all policy pages use the same policy scaffold
-- lawyer/about pages point to organization/person entities consistently
+- route-by-route page-type audit
+- FAQ visibility vs FAQ schema audit
+- PT id and `inLanguage` audit
+- duplicate-id detector
+- node-count warning for oversized pages
+- root 404 duplicate-id exception audit
 
 ## 25. QA Checklist
 
 - Does the page use the correct page type?
 - Does the page have one clear `mainEntity`?
-- Do all global entities reuse the same `@id` values?
-- Does the page reference the shared organization and contact point correctly?
+- Does the page reuse the canonical organization, website, contact, and service ids?
 - Does the schema match visible content exactly?
-- Are FAQ and review objects used only where the content visibly supports them?
-- Are EN/PT page ids localized while shared entities remain shared?
-- Are breadcrumbs accurate and page-specific?
-- Are article pages carrying visible authorship and dates before `Article` is used?
-- Are lawyer and trust claims linked to the correct person and organization entities?
-- Are hero images linked with correct language and page ids?
-- Are there any duplicate service entities caused by overlapping slugs?
+- Is FAQ markup present only when visible?
+- Is review markup absent unless fully supported?
+- Are EN/PT page ids localized while shared ids remain shared?
+- Do breadcrumbs match the visible path?
+- Is the page’s hero image correctly linked and language-tagged?
+- Is this page intentionally carrying the full service-family layer, or should it be slimmer?
+- If the page is editorial, does visible content justify article markup yet?
+- If the page is legal/policy, is service markup being avoided?
+- If the page is a 404 shell, is it noindex and treated as a special case?
 
 ## 26. Competitor-Style Schema Benchmarking
 
-### Sites sampled
+### Benchmark Snapshot
 
-Sampled public pages on:
+Public homepage HTML sampled on March 24, 2026:
 
-- `https://www.fragomen.com/`
-- `https://www.fragomen.com/countries/united-states.html`
-- `https://www.bal.com/`
-- `https://www.bal.com/perspectives-and-news/`
-- `https://www.boundless.com/`
-- `https://www.boundless.com/immigration-resources/`
-- `https://www.visalaw.com/`
-- `https://www.visalaw.com/category/immigration-news/`
+- Fragomen:
+  - JSON-LD detected
+  - observed types: `Organization`, `BreadcrumbList`
+- BAL:
+  - JSON-LD detected
+  - observed types: `WebPage`, `BreadcrumbList`, `WebSite`, `Organization`, `SiteNavigationElement`
+- Boundless:
+  - no homepage JSON-LD detected at fetch time
+- VisaLaw:
+  - JSON-LD detected
+  - observed types: `WebPage`, `ImageObject`, `BreadcrumbList`, `WebSite`
 
-### Benchmark observations
+### Benchmark Takeaways
 
-- sampled immigration/legal sites were generally conservative with schema
-- breadcrumb usage was common
-- organization-level data was common
-- deep service graphing was uncommon in public source HTML
-- strong multilingual id reuse was not obvious in the sampled set
-- sampled sites did not show the kind of attorney + service-family + editorial + location graph that this site can implement
+- conservative schema is still common on strong immigration/legal sites
+- organization, website, page, and breadcrumb markup are more common than deep service graphing
+- deep public service-family graphing is still uncommon
+- this site already exposes more service and entity depth than most sampled homepages
 
-### Where immigratetobrazil.com can outperform
+### Where immigratetobrazil.com Can Outperform
 
-- clearer service-family hierarchy
-- stronger distinction between service, process, editorial, and legal pages
-- cleaner EN/PT entity reuse
-- explicit attorney entity connected to trust pages and legal-service pages
-- safer FAQ and review restraint
-- stronger page-to-service and page-to-place relationships
+- clean service-family and child-service hierarchy
+- clearer separation of service vs process vs insight vs legal pages
+- consistent EN/PT shared-entity reuse
+- person entity linked to trust pages and intake pages
+- disciplined FAQ restraint
 
-## 27. Legal and Non-Local Service Positioning
+### Where The Site Must Stay Careful
 
-### Recommended positioning
+- avoid turning “more schema” into graph noise
+- avoid publishing every shared entity on every page if the page intent does not support it
+- avoid upgrading topic pages into article or review types before the visible layer supports them
+
+## 27. Legal And Non-Local Service Positioning
+
+### Recommended Positioning
 
 - canonical identity: `Organization`
-- commercial practice model: one shared practice entity
-- service families: `Service` / `LegalService` children depending scope
+- umbrella practice: shared `LegalService`
+- family entities: `Service`
+- child entities:
+  - `LegalService` where formal legal handling is explicit
+  - `Service` where the offering is advisory or operational support
 
-### Type recommendation
+### Geographic Positioning
 
-Use `LegalService` for:
+- jurisdictional focus: Brazil-related immigration and nationality matters
+- client support model: remote and international support by channel
+- do not imply local walk-in office behavior or local-pack targeting
 
-- visa route execution
-- residency route execution
-- nationality / naturalisation routes
-- defense and enforcement matters
-- any page where formal legal handling is clearly visible in the copy
+### What To Avoid
 
-Use generic `Service` for:
+- `LocalBusiness` as the main brand type
+- address-dependent local-office claims without visible public support
+- overcommitted geographic specificity that the site does not visibly support
 
-- consultation
-- strategy
-- compliance monitoring
-- corporate support
-- records
-- translation
-- consular support
-- other mixed advisory / coordination offerings
+## 28. Claim Verification And Trust-Signal Review
 
-### Geographic positioning
-
-- serve Brazil-related matters
-- support international clients remotely
-- do not invent local-office schema or local-pack signals
-- use `areaServed` carefully: Brazil as service jurisdiction, plus international client support by channel
-
-### What to avoid
-
-- `LocalBusiness` as the main brand type without public address details
-- overly narrow city-based claims
-- any markup that implies local walk-in office behavior not visible on the site
-
-## 28. Claim Verification and Trust-Signal Review
-
-### Claims currently visible and usable
-
-- licensed Brazilian attorney
-- OAB / OAB-registered lawyer
-- bilingual consultations in English and Portuguese
-- manual review and manual confirmation
-- no false guarantees
-- authority-controlled outcomes
-
-### Claims that are safe for schema support
+### Claims Currently Safe To Support
 
 - bilingual support
-- manual review / confirmation flow
-- named attorney identity
+- attorney-led work
+- manual review and manual confirmation
+- no guaranteed outcomes
+- authority-controlled outcomes
 - legal and advisory boundary language
-- authority-control disclaimers
 
-### Claims that need stronger visible evidence before heavier markup
+### Claims That Need Stronger Public Evidence Before Heavier Markup
 
-- OAB status without a visible registration number or formal credential block
-- testimonial-based outcomes
-- any implied speed, approval likelihood, or success-rate claims
-- any supplier-identification details needed for stronger business/service schema
+- OAB status without a fuller public credential block
+- testimonial-based outcome claims
+- speed or success-rate implications
+- supplier-identification details that are not yet visibly published
 
 ### Recommendation
 
-Keep trust claims visible, but only upgrade them into richer structured data after the public page layer exposes the supporting facts cleanly.
+Keep trust claims visible in copy.
+
+Only promote them into richer structured data when the public page layer clearly exposes the supporting facts.
 
 ## 29. Full Developer-Ready Schema Blueprint
 
-### What should be generated globally
+### Current Source Of Truth
 
-- shared organization entity
-- shared website entity
-- shared contact point
-- shared practice entity
-- shared person entity
-- shared service-family and child-service dictionary
+Operational sources of truth:
 
-### What should be generated per page
+- `scripts/schema-utils.js`
+- `scripts/content-source-utils.js`
+- `content/en/routes/**/page.json`
+- `content/en/routes/**/body.html`
+- `content/en/about/about.json`
+
+Do not treat this as a source of truth:
+
+- legacy `about.json.schemas` block
+
+### What Should Be Generated Globally
+
+Always or near-always reusable:
+
+- organization
+- website
+- contact point
+- practice entity
+- service-family entities
+- service-family catalog
+
+Conditional reusable entities:
+
+- family-specific child-service catalogs
+- child service entities
+- country entity
+- person entity
+
+### What Should Be Generated Per Page
 
 - page entity
 - breadcrumb
 - hero image
-- page-specific `mainEntity`
-- page-specific `ItemList` for hub sections where useful
-- page-specific `FAQPage` only when visible
+- page-scoped topic entity where needed
+- page-scoped `ItemList` where the visible section supports it
+- page-scoped `FAQPage` only when visible
 
-### Dynamic field mapping
+### Dynamic Field Mapping
 
-- `page.route` -> page url and page `@id`
-- `meta.title` -> page `name` / `headline`
+- route -> page url and page `@id`
+- `meta.title` -> page `name`
 - `meta.description` -> page `description`
-- `meta.preloadImage` or social image -> hero `ImageObject`
-- `shell.breadcrumbs` -> `BreadcrumbList`
-- service route slug -> shared service id lookup
-- PT route pair -> alternate-language page reference
-- lawyer / reviewer module -> person id reference
+- route classification -> page type and main-entity strategy
+- hero image path -> hero `ImageObject`
+- breadcrumb config -> `BreadcrumbList`
+- service slug -> shared child-service id
+- family slug -> shared family id
+- page language -> `inLanguage`
+- visible FAQ block -> `FAQPage`
 
-### Example: core page frame
+### Current Implementation Notes
+
+Current route classification already does most of the hard work:
+
+- `/` -> `WebPage`
+- `/start-consultation/` -> `ContactPage`
+- `/services/` -> `CollectionPage`
+- `/services/{family}/` -> `CollectionPage`
+- `/services/{family}/{child}/` -> `WebPage`
+- `/about/**` -> `AboutPage`
+- `/legal/search/` and `/brazil/search/` -> `SearchResultsPage`
+- `/legal/`, `/process/`, `/insights/`, `/brazil/` hubs -> `CollectionPage`
+- content detail pages -> `WebPage`
+
+### Recommended Next Refactors
+
+1. Keep the current id system.
+2. Slim the universal graph layer so service-family nodes are not emitted on every page by default.
+3. Keep full family and child-service graphing on service pages and service hubs.
+4. Add a schema-audit script that reproduces counts and flags regressions.
+5. Add future content fields for:
+   - `publishedAt`
+   - `updatedAt`
+   - `author`
+   - `reviewedBy`
+   - attorney credentials
+6. Decide whether some `Thing` entities should remain generic or get richer entity types as content evolves.
+7. Either sync or remove the legacy `about.json.schemas` block to avoid internal confusion.
+
+### Example: Child Service Page
 
 ```json
 {
@@ -1189,31 +1470,9 @@ Keep trust claims visible, but only upgrade them into richer structured data aft
       "@id": "https://immigratetobrazil.com#organization",
       "name": "Immigrate to Brazil",
       "url": "https://immigratetobrazil.com",
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://immigratetobrazil.com#logo",
-        "contentUrl": "https://immigratetobrazil.com/assets/logo/immigrate-to-brazil-logo.png"
-      },
       "contactPoint": {
         "@id": "https://immigratetobrazil.com#contact-primary"
       }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://immigratetobrazil.com#website",
-      "url": "https://immigratetobrazil.com",
-      "name": "Immigrate to Brazil",
-      "publisher": {
-        "@id": "https://immigratetobrazil.com#organization"
-      }
-    },
-    {
-      "@type": "ContactPoint",
-      "@id": "https://immigratetobrazil.com#contact-primary",
-      "contactType": "customer support",
-      "email": "immigratetobrazilteam@gmail.com",
-      "telephone": "+55 43 99132-4028",
-      "availableLanguage": ["en", "pt-BR"]
     },
     {
       "@type": "WebPage",
@@ -1231,15 +1490,44 @@ Keep trust claims visible, but only upgrade them into richer structured data aft
         "@id": "https://immigratetobrazil.com/services/visas/nomad/#hero-image"
       },
       "mainEntity": {
-        "@id": "https://immigratetobrazil.com#service-visa-nomad"
+        "@id": "https://immigratetobrazil.com#service-visas-nomad"
       },
+      "about": [
+        {
+          "@id": "https://immigratetobrazil.com#service-family-visas"
+        },
+        {
+          "@id": "https://immigratetobrazil.com#place-brazil"
+        },
+        {
+          "@id": "https://immigratetobrazil.com#legal-practice"
+        }
+      ],
       "inLanguage": "en"
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://immigratetobrazil.com#service-visas-nomad",
+      "name": "Nomad Visa",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "areaServed": {
+        "@id": "https://immigratetobrazil.com#place-brazil"
+      },
+      "availableLanguage": ["en", "pt-BR"],
+      "isRelatedTo": {
+        "@id": "https://immigratetobrazil.com#service-family-visas"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/services/visas/nomad/#webpage"
+      }
     }
   ]
 }
 ```
 
-### Example: service family hub
+### Example: Service Family Hub
 
 ```json
 {
@@ -1251,64 +1539,29 @@ Keep trust claims visible, but only upgrade them into richer structured data aft
     "@id": "https://immigratetobrazil.com#service-family-visas"
   },
   "hasPart": {
-    "@type": "ItemList",
-    "@id": "https://immigratetobrazil.com/services/visas/#service-list",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "url": "https://immigratetobrazil.com/services/visas/tourist/",
-        "item": {
-          "@id": "https://immigratetobrazil.com#service-visa-tourist"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "url": "https://immigratetobrazil.com/services/visas/nomad/",
-        "item": {
-          "@id": "https://immigratetobrazil.com#service-visa-nomad"
-        }
-      }
-    ]
+    "@id": "https://immigratetobrazil.com/services/visas/#page-list"
   }
 }
 ```
 
-### Example: child service entity
-
-```json
-{
-  "@type": "LegalService",
-  "@id": "https://immigratetobrazil.com#service-visa-nomad",
-  "name": "Nomad Visa",
-  "alternateName": ["Digital Nomad Visa", "Visto Nomade Digital"],
-  "provider": {
-    "@id": "https://immigratetobrazil.com#organization"
-  },
-  "serviceType": "Brazil immigration legal service",
-  "areaServed": "Brazil",
-  "availableLanguage": ["en", "pt-BR"],
-  "isRelatedTo": {
-    "@id": "https://immigratetobrazil.com#service-family-visas"
-  }
-}
-```
-
-### Example: lawyer page
+### Example: Lawyer Page
 
 ```json
 {
   "@type": "AboutPage",
   "@id": "https://immigratetobrazil.com/about/lawyer/#webpage",
   "url": "https://immigratetobrazil.com/about/lawyer/",
-  "name": "Lawyer",
+  "name": "Monique Fernandes and the legal structure behind formal immigration matters in Brazil",
   "mainEntity": {
     "@id": "https://immigratetobrazil.com#person-monique-fernandes"
   },
-  "about": {
-    "@id": "https://immigratetobrazil.com#organization"
-  }
+  "isPartOf": {
+    "@id": "https://immigratetobrazil.com#website"
+  },
+  "primaryImageOfPage": {
+    "@id": "https://immigratetobrazil.com/about/lawyer/#hero-image"
+  },
+  "inLanguage": "en"
 }
 ```
 
@@ -1321,11 +1574,14 @@ Keep trust claims visible, but only upgrade them into richer structured data aft
   "worksFor": {
     "@id": "https://immigratetobrazil.com#organization"
   },
-  "knowsLanguage": ["en", "pt-BR"]
+  "knowsLanguage": ["en", "pt-BR"],
+  "mainEntityOfPage": {
+    "@id": "https://immigratetobrazil.com/about/lawyer/#webpage"
+  }
 }
 ```
 
-### Example: start consultation page
+### Example: Start Consultation
 
 ```json
 {
@@ -1336,41 +1592,47 @@ Keep trust claims visible, but only upgrade them into richer structured data aft
   "mainEntity": {
     "@id": "https://immigratetobrazil.com#service-advisory-consultation"
   },
-  "about": {
-    "@id": "https://immigratetobrazil.com#contact-primary"
-  },
+  "about": [
+    {
+      "@id": "https://immigratetobrazil.com#contact-primary"
+    },
+    {
+      "@id": "https://immigratetobrazil.com#legal-practice"
+    }
+  ],
   "inLanguage": "en"
 }
 ```
 
-### Priority rollout order
+### Priority Rollout Order
 
-1. fix PT language and image-id issues
-2. remove unsupported FAQ usage
-3. replace weak page types and add missing about/legal page entities
-4. introduce shared service-family and child-service ids
-5. introduce attorney person entity and trust-page linking
-6. convert hubs to `CollectionPage` with `ItemList`
-7. add contact-page modeling to `/start-consultation/`
-8. add editorial author/date modules, then upgrade true editorial pages
-9. expand place entities when state/city detail templates exist
+1. preserve the current id architecture
+2. clean internal config drift around legacy schema seed data
+3. slim the universal graph layer
+4. keep strong service-family and child-service graphing on service pages
+5. strengthen about relationships on graph-thin pages
+6. add content fields for bylines, dates, and reviewers
+7. launch true editorial schema only when the visible template supports it
+8. launch state/city detail entities only when those templates exist
+9. keep FAQ and review discipline intact during all future changes
 
 ## 30. Final Goal
 
-The finished system should describe one coherent attorney-led Brazil immigration brand, one clean multilingual site, one reusable set of shared entities, and many clearly differentiated page roles.
+The final structured-data system should define one coherent, attorney-led, multilingual Brazil immigration brand and one reusable entity graph that scales cleanly.
 
-It should help search engines understand:
+It should make search engines understand:
 
 - who Immigrate to Brazil is
-- what the organization actually offers
-- which pages are service pages
-- which pages are editorial or educational
-- which pages are legal/policy pages
-- how service families, child services, legal notices, trust pages, guides, locations, FAQs, and intake flows all connect
+- what the organization does
+- which routes are legal services
+- which routes are advisory or intake flows
+- which routes are editorial or process explainers
+- which routes are legal/policy pages
+- how service families, child services, trust pages, guides, regions, FAQs, and contact flows relate
 
-The target is not "more schema."
+The target is not more markup.
 
-The target is a cleaner, safer, reusable knowledge-graph system that matches the visible site and can scale without creating duplication, cannibalization, or unsupported markup.
+The target is a cleaner, safer, reusable knowledge-graph system that matches visible content, avoids duplication, avoids schema misuse, and can expand into richer editorial and location entities only when the public page layer supports them.
 
 ## Appendix A: Current Route Inventory
 
@@ -1378,18 +1640,19 @@ The target is a cleaner, safer, reusable knowledge-graph system that matches the
 
 - `/`
 - `/start-consultation/`
+- static fallback: `/404.html`
 
 ### Services
 
 - `/services/`
-- `/services/visas/` and 21 visa child pages
-- `/services/residencies/` and 17 residency child pages
-- `/services/naturalisation/` and 6 naturalisation child pages
-- `/services/defense/` and 6 defense child pages
-- `/services/advisory/` and 5 advisory child pages
-- `/services/other/` and 4 support child pages
+- `/services/visas/` plus 21 child pages
+- `/services/residencies/` plus 17 child pages
+- `/services/naturalisation/` plus 6 child pages
+- `/services/defense/` plus 6 child pages
+- `/services/advisory/` plus 5 child pages
+- `/services/other/` plus 4 child pages
 
-### Brazil / relocation
+### Brazil / Relocation
 
 - `/brazil/`
 - `/brazil/brazil/`
@@ -1406,7 +1669,7 @@ The target is a cleaner, safer, reusable knowledge-graph system that matches the
 ### Process
 
 - `/process/`
-- 24 process-topic pages, including consultation, planning, filing, approval, rights, fees, deadlines, naturalisation, regularization, refund, and aftercare
+- 24 process-topic pages
 
 ### Insights
 
@@ -1454,7 +1717,40 @@ The target is a cleaner, safer, reusable knowledge-graph system that matches the
 - `/legal/search/`
 - `/legal/404/`
 
-## Appendix B: External References Used
+## Appendix B: Current Page-Type Count Snapshot
+
+English built-page page types:
+
+- `WebPage`: 128
+- `AboutPage`: 14
+- `CollectionPage`: 14
+- `SearchResultsPage`: 2
+- `ContactPage`: 1
+
+English unique entity snapshot:
+
+- shared brand / site / contact entities: 3
+- shared practice / place / person entities: 3
+- family `Service` entities: 6
+- family-specific `OfferCatalog` entities: 6
+- child `LegalService` entities: 50
+- child `Service` entities: 9
+- macro-region `AdministrativeArea` entities: 5
+- page-scoped topic `Thing` entities: 69
+
+## Appendix C: Current Special Cases
+
+- `404.html` is a noindex fallback shell that reuses `/legal/404/` schema ids.
+- `/legal/search/` is noindex and typed as `SearchResultsPage`.
+- the homepage intentionally has no breadcrumb.
+- person schema currently appears on:
+  - `/about/`
+  - `/about/lawyer/`
+  - `/`
+  - `/start-consultation/`
+  because attorney-led language is visible on those pages.
+
+## Appendix D: External References Used
 
 Google Search Central:
 
@@ -1462,23 +1758,24 @@ Google Search Central:
 - https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
 - https://developers.google.com/search/docs/appearance/structured-data/faqpage
 - https://developers.google.com/search/docs/appearance/structured-data/organization
+- https://developers.google.com/search/docs/appearance/structured-data/review-snippet
 - https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 - https://developers.google.com/search/blog/2023/08/howto-faq-changes
 - https://developers.google.com/search/blog/2024/10/sitelinks-search-box
-- https://developers.google.com/search/blog/2019/09/making-review-rich-results-more-helpful
 
 Schema.org:
 
 - https://schema.org/ContactPoint
+- https://schema.org/LegalService
 - https://schema.org/Service
+- https://schema.org/AboutPage
+- https://schema.org/CollectionPage
+- https://schema.org/ContactPage
+- https://schema.org/AdministrativeArea
 
 Benchmark pages:
 
 - https://www.fragomen.com/
-- https://www.fragomen.com/countries/united-states.html
 - https://www.bal.com/
-- https://www.bal.com/perspectives-and-news/
 - https://www.boundless.com/
-- https://www.boundless.com/immigration-resources/
 - https://www.visalaw.com/
-- https://www.visalaw.com/category/immigration-news/

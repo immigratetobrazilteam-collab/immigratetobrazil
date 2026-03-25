@@ -25,46 +25,6 @@
     "pageTitle": "Results",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Results",
-          "item": "https://immigratetobrazil.com/about/results/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/results/#hero-image",
-      "name": "Results hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
-      "description": "SEO hero image for the Results page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
-      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Results, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

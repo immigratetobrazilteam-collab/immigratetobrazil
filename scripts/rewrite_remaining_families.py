@@ -340,11 +340,9 @@ def image_for(route: str, family: str, existing: dict[str, dict]) -> dict:
         "insights": "/insights/general/",
     }.get(family, "/")
     data = existing.get(route) or existing.get(fallback_route) or next(iter(existing.values()))
-    image_schema = next((item for item in data.get("schemas", []) if item.get("@type") == "ImageObject"), None) or {}
     return {
         "src": data["meta"]["preloadImage"],
         "alt": data["social"]["ogImageAlt"],
-        "schema": image_schema,
     }
 
 
@@ -652,72 +650,6 @@ def breadcrumb_items(page: Page) -> list[dict]:
     return items
 
 
-def breadcrumb_schema(page: Page) -> dict:
-    elements = [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://immigratetobrazil.com"}]
-    parts = [part for part in page.path.strip("/").split("/") if part]
-    built = ""
-    pos = 2
-    for part in parts:
-        built += f"/{part}"
-        href = built + "/"
-        elements.append({"@type": "ListItem", "position": pos, "name": part.replace("-", " ").title(), "item": route_url(href)})
-        pos += 1
-    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": elements}
-
-
-def faq_schema(page: Page, runtime_title: str, family: str) -> dict:
-    label = runtime_title
-    if family == "services":
-        questions = [
-            (f"Who usually benefits from {label.lower()} support?", f"We use this page to explain who usually needs {label.lower()} support, what situations often fit it, and when another starting point may be better first."),
-            (f"Does this page replace case-specific legal advice on {label.lower()}?", "No. The page is designed to improve general understanding and decision quality, but real strategy still depends on your own facts, documents, timing, and route fit."),
-            (f"When should I contact Immigrate to Brazil about {label.lower()}?", "It usually makes sense to reach out when the route, service, or next step now depends on your own chronology, records, urgency, or long-term planning."),
-        ]
-    elif family == "brazil":
-        questions = [
-            (f"How can this page help me plan {label.lower()} more realistically?", "The goal is to connect attraction to Brazil with more grounded planning around place, cost, services, routine, and long-term fit."),
-            (f"Is this page meant to replace personalized relocation or immigration planning for {label.lower()}?", "No. It is meant to make your research stronger before your own route, documents, city choice, or family context require individualized support."),
-            (f"When does it make sense to contact Immigrate to Brazil after reading about {label.lower()}?", "It usually makes sense once your Brazil research is no longer broad and now depends on route, city, budget, family, or long-term planning decisions being tested together."),
-        ]
-    elif family == "process":
-        questions = [
-            (f"What is the practical value of understanding {label.lower()}?", "Understanding the stage usually improves sequence, expectation control, document quality, and the next decision you take inside the wider immigration process."),
-            (f"Does this page mean my process is already in trouble?", "Not necessarily. Many readers use these pages simply to understand the stage better before acting. They become even more useful when timing, documents, or prior steps are starting to matter."),
-            (f"When should {label.lower()} move from public reading into consultation?", "That usually happens when the answer now depends on your own facts, deadlines, records, or route comparison rather than on general explanation alone."),
-        ]
-    else:
-        questions = [
-            (f"Is this page on {label.lower()} meant as general guidance or individual advice?", "It is written as structured public guidance designed to improve understanding before your own facts, documents, or timing require individual review."),
-            (f"How should I use this article on {label.lower()}?", "The strongest approach is to use it for orientation, vocabulary, and comparison, then move to consultation when the issue becomes personal or document-sensitive."),
-            (f"When does reading about {label.lower()} stop being enough?", "Reading usually reaches its limit when the answer depends on your own chronology, route fit, deadlines, or records rather than on general public information."),
-        ]
-    return {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in questions
-        ],
-    }
-
-
-def image_schema(page: Page, image: dict) -> dict:
-    schema = image["schema"]
-    return {
-        "@context": "https://schema.org",
-        "@type": "ImageObject",
-        "@id": f"{route_url(page.path)}#hero-image",
-        "name": schema.get("name", f"{page.hero_title} hero image"),
-        "description": schema.get("description", f"SEO hero image for the {page.hero_title} page on Immigrate to Brazil."),
-        "caption": schema.get("caption", image["alt"]),
-        "keywords": schema.get("keywords", f"{page.hero_title}, Immigrate to Brazil, Brazil"),
-        "contentUrl": route_url(image["src"]),
-        "url": route_url(image["src"]),
-        "thumbnailUrl": route_url(image["src"]),
-        "representativeOfPage": True,
-        "inLanguage": "en",
-    }
-
-
 def resolve_related_routes(page: Page, route_lookup: dict[str, str]) -> list[str]:
     routes = []
     family = family_for(page.path)
@@ -767,20 +699,6 @@ def page_json(page: Page, preview_map: dict[str, Page], existing: dict[str, dict
             "pageTitle": runtime_title,
             "pageFamily": family,
         },
-        "schemas": [
-            breadcrumb_schema(page),
-            {
-                "@context": "https://schema.org",
-                "@type": "WebPage" if is_hub(page) else ("LegalService" if family == "services" else "Article"),
-                "name": runtime_title,
-                "description": description(page),
-                "url": route_url(page.path),
-                "mainEntityOfPage": route_url(page.path),
-                **({"provider": {"@id": "https://immigratetobrazil.com#organization"}} if family == "services" else {}),
-            },
-            faq_schema(page, runtime_title, family),
-            image_schema(page, image),
-        ],
         "shell": {
             "breadcrumbs": breadcrumb_items(page),
             "sidebar": {

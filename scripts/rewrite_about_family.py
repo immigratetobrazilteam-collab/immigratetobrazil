@@ -481,11 +481,9 @@ def existing_route_data() -> dict[str, dict]:
 def hero_image_for(route: str, existing: dict[str, dict]) -> dict:
     fallback = existing.get("/about/about/") or next(iter(existing.values()))
     page = existing.get(route, fallback)
-    image_schema = next((item for item in page.get("schemas", []) if item.get("@type") == "ImageObject"), None)
     return {
         "src": page["meta"]["preloadImage"],
         "og_alt": page["social"]["ogImageAlt"],
-        "schema": image_schema or {},
     }
 
 
@@ -826,43 +824,6 @@ def breadcrumbs_for(page: dict) -> list[dict]:
     ]
 
 
-def breadcrumb_schema_for(page: dict) -> dict:
-    items = [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://immigratetobrazil.com"},
-    ]
-    if page["route"] == "/about/":
-        items.append({"@type": "ListItem", "position": 2, "name": "About", "item": route_url(page["route"])})
-    else:
-        items.append({"@type": "ListItem", "position": 2, "name": "About", "item": "https://immigratetobrazil.com/about/"})
-        items.append({"@type": "ListItem", "position": 3, "name": page["label"], "item": route_url(page["route"])})
-    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
-
-
-def image_schema_for(page: dict, image: dict) -> dict:
-    schema = image["schema"] or {}
-    title = page["hero"].get("title", page["label"])
-    return {
-        "@context": "https://schema.org",
-        "@type": "ImageObject",
-        "@id": f"{route_url(page['route'])}#hero-image",
-        "name": schema.get("name", f"{page['label']} hero image"),
-        "description": schema.get(
-            "description",
-            f"SEO hero image for the {title} page on Immigrate to Brazil, supporting content about Brazil immigration, relocation, and structured advisory support.",
-        ),
-        "caption": schema.get("caption", image["og_alt"]),
-        "keywords": schema.get(
-            "keywords",
-            f"{page['label']}, Immigrate to Brazil, Brazil immigration, relocation to Brazil, structured advisory support",
-        ),
-        "contentUrl": route_url(image["src"]),
-        "url": route_url(image["src"]),
-        "thumbnailUrl": route_url(image["src"]),
-        "representativeOfPage": True,
-        "inLanguage": "en",
-    }
-
-
 def related_routes_for(page: dict) -> list[str]:
     routes = []
     if page["route"] != "/about/":
@@ -906,10 +867,6 @@ def page_json(page: dict, preview_pages: dict[str, dict], existing: dict[str, di
             "pageTitle": page_title,
             "pageFamily": "about",
         },
-        "schemas": [
-            breadcrumb_schema_for(page),
-            image_schema_for(page, image),
-        ],
         "shell": {
             "breadcrumbs": breadcrumbs_for(page),
             "sidebar": {

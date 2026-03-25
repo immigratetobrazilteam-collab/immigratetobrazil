@@ -432,13 +432,6 @@ def parse_preview() -> list[dict]:
     return pages
 
 
-def load_existing_json(route: str) -> dict | None:
-    page_path = route_dir(route) / "page.json"
-    if not page_path.exists():
-        return None
-    return json.loads(page_path.read_text(encoding="utf-8"))
-
-
 def existing_route_data() -> dict[str, dict]:
     data = {}
     for path in ROUTES_ROOT.rglob("page.json"):
@@ -452,21 +445,13 @@ def existing_route_data() -> dict[str, dict]:
 def hero_image_for(route: str, existing: dict[str, dict]) -> dict:
     if route in existing:
         page = existing[route]
-        image_schema = next((item for item in page.get("schemas", []) if item.get("@type") == "ImageObject"), None)
         return {
             "src": page["meta"]["preloadImage"],
             "og_alt": page["social"]["ogImageAlt"],
-            "schema": image_schema or {},
         }
     return {
         "src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
         "og_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil.",
-        "schema": {
-            "name": "Legal Notices hero image featuring National Congress in Brasilia",
-            "description": "SEO hero image for the Legal Notices hub on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about legal notices and compliance standards.",
-            "caption": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil.",
-            "keywords": "Brasilia, National Congress, Brazil legal notices, privacy policy, terms and conditions, refund policy, cookies policy, Immigrate to Brazil",
-        },
     }
 
 
@@ -943,65 +928,6 @@ def build_page_json(page: dict, image: dict, preview_pages: dict[str, dict], exi
         runtime_title = "Page Not Found"
     else:
         runtime_title = title
-    breadcrumbs = [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://immigratetobrazil.com",
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": runtime_title,
-            "item": f"https://immigratetobrazil.com{page['route']}",
-        },
-    ]
-    schemas = [
-        {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": breadcrumbs,
-        }
-    ]
-    if page["faq"]:
-        schemas.append(
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": item["question"],
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": item["answer"],
-                        },
-                    }
-                    for item in page["faq"]
-                ],
-            }
-        )
-    schema_meta = image["schema"]
-    schemas.append(
-        {
-            "@context": "https://schema.org",
-            "@type": "ImageObject",
-            "@id": f"https://immigratetobrazil.com{page['route']}#hero-image",
-            "name": schema_meta.get("name")
-            or f"{runtime_title} hero image for Immigrate to Brazil",
-            "description": schema_meta.get("description")
-            or f"SEO hero image for the {runtime_title} page on Immigrate to Brazil.",
-            "caption": schema_meta.get("caption") or image["og_alt"],
-            "keywords": schema_meta.get("keywords")
-            or f"{runtime_title}, Brazil immigration, legal notices, Immigrate to Brazil",
-            "contentUrl": f"https://immigratetobrazil.com{image['src']}",
-            "url": f"https://immigratetobrazil.com{image['src']}",
-            "thumbnailUrl": f"https://immigratetobrazil.com{image['src']}",
-            "representativeOfPage": True,
-            "inLanguage": "en",
-        }
-    )
     robots = "noindex,follow" if noindex_route(page["route"]) else "index,follow"
     return {
         "route": page["route"],
@@ -1030,7 +956,6 @@ def build_page_json(page: dict, image: dict, preview_pages: dict[str, dict], exi
             "pageTitle": runtime_title,
             "pageFamily": "legal",
         },
-        "schemas": schemas,
         "shell": build_shell(page, preview_pages, existing),
     }
 

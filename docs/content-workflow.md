@@ -9,8 +9,7 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
 - Any other route maps directly to `content/en/routes/...`.
   Example: `/insights/blog/` maps to `content/en/routes/insights/blog/`.
 - Each route folder has:
-  - `page.json` for metadata, social tags, runtime config, and page-specific schema.
-  - `page.json` also stores route shell data under `shell` for runtime-loaded breadcrumbs, sidebar content, official resources, and related links.
+  - `page.json` for metadata, social tags, runtime config, and route shell data under `shell` for runtime-loaded breadcrumbs, sidebar content, official resources, and related links.
   - `body.html` for the rendered body markup.
 - Shared shell partials live in `partials/en/` and `partials/pt-br/`.
   - Edit `site-navigation.html`, `site-footer.html`, `utility-bar.html`, and the other files in `partials/` when you want to change sitewide shared UI.
@@ -43,5 +42,3 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
   Example: `/about/about/` section 2 now maps to `assets/images/sections/about/about/section-02-.../`.
 - Section image filenames now use `page-section-number-section-name-scene-keywords-brazil-bg-primary.webp`.
 - `data/section-image-index.csv` is the human-readable lookup file for route, page, section number, section title, selected option, scene, and asset path.
-- If you ever need to re-bootstrap the content tree from the current English HTML, run `npm run migrate:content`.
-- If you ever need to re-extract the route shell blocks from English route bodies into `page.json`, run `npm run extract:route-shell`.

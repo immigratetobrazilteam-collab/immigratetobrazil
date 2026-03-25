@@ -12,6 +12,7 @@ ROUTES_DIR = ROOT / "content" / "en" / "routes"
 
 BUTTON_RE = re.compile(r'(<button class="accordion-button[^>]*>\s*)(.*?)(\s*</button>)', re.S)
 BODY_RE = re.compile(r'(<div class="accordion-body">)(.*?)(</div>)', re.S)
+QUESTION_MARKER_RE = re.compile(r'data-faq-question="true"')
 INTRO_RE = re.compile(
     r'(<section class="faq-block".*?<div class="section-head">\s*<h2 class="section-title">.*?</h2>\s*<p>)(.*?)(</p>)',
     re.S,
@@ -992,44 +993,29 @@ def rewrite_body(body_path: Path, faqs: list[dict[str, str]], intro_text: str) -
     return True
 
 
-def rewrite_page_json(page_json_path: Path, faqs: list[dict[str, str]]) -> bool:
-    data = json.loads(page_json_path.read_text())
-    changed = False
-    for schema in data.get("schemas", []):
-        if schema.get("@type") == "FAQPage":
-            schema["mainEntity"] = [
-                {
-                    "@type": "Question",
-                    "name": item["question"],
-                    "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
-                }
-                for item in faqs
-            ]
-            changed = True
-    if changed:
-        page_json_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    return changed
-
-
 def main() -> None:
     updated = 0
     for page_json_path in sorted(ROUTES_DIR.rglob("page.json")):
         data = json.loads(page_json_path.read_text())
-        faq_schema = next((schema for schema in data.get("schemas", []) if schema.get("@type") == "FAQPage"), None)
-        if not faq_schema:
-            continue
-
         route = data.get("route", "")
         title = data.get("runtime", {}).get("pageTitle", "")
         family = data.get("runtime", {}).get("pageFamily", "")
-        count = len(faq_schema.get("mainEntity", []))
+        body_path = page_json_path.with_name("body.html")
+        if not body_path.exists():
+            continue
+        body_text = body_path.read_text()
+        if 'class="faq-block"' not in body_text:
+            continue
+
+        count = len(QUESTION_MARKER_RE.findall(body_text))
+        if not count:
+            continue
+
         faqs = build_faqs(route, title, family, count)
         intro_text = faq_intro(route, family, nice_title(title))
-        body_path = page_json_path.with_name("body.html")
 
         changed_body = rewrite_body(body_path, faqs, intro_text)
-        changed_json = rewrite_page_json(page_json_path, faqs)
-        if changed_body or changed_json:
+        if changed_body:
             updated += 1
 
     print(f"Rewrote FAQs for {updated} English route sources.")

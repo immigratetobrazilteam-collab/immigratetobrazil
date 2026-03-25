@@ -12,7 +12,7 @@ import { buildSiteCatalog } from "./schema-utils.js";
 
 async function main() {
   if (!existsSync(ABOUT_PATH) || !existsSync(ROUTES_ROOT)) {
-    throw new Error("Missing content sources. Run `npm run migrate:content` first.");
+    throw new Error("Missing content sources under content/en/. Restore the checked-in content tree before generating HTML.");
   }
 
   const about = await loadAboutContent();

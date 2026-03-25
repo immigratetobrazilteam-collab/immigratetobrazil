@@ -25,46 +25,6 @@
     "pageTitle": "Ethics",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Ethics",
-          "item": "https://immigratetobrazil.com/about/ethics/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/ethics/#hero-image",
-      "name": "Ethics hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Ethics page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Ethics page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Ethics, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-brasilia-national-congress-ethics.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

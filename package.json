@@ -6,8 +6,6 @@
   "scripts": {
     "generate:content": "node scripts/generate-content.js",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "extract:route-shell": "node scripts/extract-route-shell.js",
-    "migrate:content": "node scripts/migrate-content.js",
     "sync:data": "npm run generate:content && node scripts/sync-static-data.js",
     "build:static": "npm run check",
     "check": "npm run sync:data && npm run validate",

@@ -25,46 +25,6 @@
     "pageTitle": "Lawyer",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Lawyer",
-          "item": "https://immigratetobrazil.com/about/lawyer/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/lawyer/#hero-image",
-      "name": "Lawyer hero image featuring Porto Alegre skyline",
-      "description": "SEO hero image for the Lawyer page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil.",
-      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Lawyer, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

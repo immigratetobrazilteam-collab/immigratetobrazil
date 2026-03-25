@@ -2734,8 +2734,9 @@ body.is-scrolled .main-nav {
   overflow: hidden;
   isolation: isolate;
   border-color: rgba(255, 255, 255, 0.14);
-  background: rgba(6, 14, 12, 0.14);
-  box-shadow: 0 24px 44px rgba(5, 16, 12, 0.18);
+  background: rgba(6, 14, 12, 0.08);
+  box-shadow: 0 24px 44px rgba(5, 16, 12, 0.14);
+  backdrop-filter: none;
 }
 
 [data-section-image="true"]::before,
@@ -2752,12 +2753,13 @@ body.is-scrolled .main-nav {
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, cover;
-  background-color: rgba(6, 14, 12, 0.34);
-  filter: saturate(0.98) contrast(1.04);
+  background-color: rgba(6, 14, 12, 0.1);
+  filter: saturate(1.03) contrast(1.02) brightness(1.05);
 }
 
 [data-section-image="true"]::after {
   z-index: -1;
+  opacity: 0.68;
   background: var(
     --section-overlay,
     linear-gradient(180deg, rgba(6, 14, 12, 0.72), rgba(8, 18, 16, 0.58)),
@@ -2806,14 +2808,14 @@ body.is-scrolled .main-nav {
   padding: 1.45rem;
   border-radius: inherit;
   background:
-    linear-gradient(145deg, rgba(5, 16, 12, 0.46), rgba(5, 16, 12, 0.12)),
-    rgba(5, 16, 12, 0.12);
-  backdrop-filter: blur(3px);
+    linear-gradient(102deg, rgba(5, 16, 12, 0.34), rgba(5, 16, 12, 0.22) 56%, rgba(5, 16, 12, 0.12)),
+    rgba(5, 16, 12, 0.08);
+  backdrop-filter: blur(1.px) saturate(1.03);
 }
 
 [data-section-image="true"].intro-block,
 [data-section-image="true"].highlight-block {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(1.px) saturate(1.02);
 }
 
 [data-section-image="true"] .topic-note,
@@ -2822,9 +2824,10 @@ body.is-scrolled .main-nav {
 [data-section-image="true"] .related-card {
   border-color: rgba(255, 255, 255, 0.16);
   background:
-    linear-gradient(145deg, rgba(6, 14, 12, 0.56), rgba(10, 24, 20, 0.24)),
-    rgba(6, 14, 12, 0.3);
+    linear-gradient(145deg, rgba(6, 14, 12, 0.42), rgba(10, 24, 20, 0.18)),
+    rgba(6, 14, 12, 0.2);
   box-shadow: 0 16px 32px rgba(5, 16, 12, 0.16);
+  backdrop-filter: blur(1.3px) saturate(1.03);
 }
 
 [data-section-image="true"] .topic-note strong,

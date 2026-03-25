@@ -25,40 +25,6 @@
     "pageTitle": "About",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/#hero-image",
-      "name": "About hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the About page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about trusted guidance for moving to Brazil.",
-      "caption": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, About, moving to Brazil, relocation support, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

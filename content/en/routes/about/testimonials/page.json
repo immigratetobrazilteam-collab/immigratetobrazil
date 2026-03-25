@@ -25,46 +25,6 @@
     "pageTitle": "Testimonials",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Testimonials",
-          "item": "https://immigratetobrazil.com/about/testimonials/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/testimonials/#hero-image",
-      "name": "Testimonials hero image featuring Historic center of Ouro Preto",
-      "description": "SEO hero image for the Testimonials page on Immigrate to Brazil, showing the historic hillside architecture of Ouro Preto and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil.",
-      "keywords": "Ouro Preto, Minas Gerais, historic center, colonial Brazil, southeast Brazil, the historic hillside architecture of Ouro Preto, Testimonials, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

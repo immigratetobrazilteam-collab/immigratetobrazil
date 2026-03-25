@@ -25,46 +25,6 @@
     "pageTitle": "Why Us",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Why Us",
-          "item": "https://immigratetobrazil.com/about/whyus/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/whyus/#hero-image",
-      "name": "Why Us hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the Why Us page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Why Us, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

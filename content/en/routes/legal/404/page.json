@@ -25,40 +25,6 @@
     "pageTitle": "Page Not Found",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Page Not Found",
-          "item": "https://immigratetobrazil.com/legal/404/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/404/#hero-image",
-      "name": "Page not found hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the page not found screen on Immigrate to Brazil, showing the Sao Paulo skyline and supporting recovery navigation.",
-      "caption": "Hero image for the 404 page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, page not found, recovery page, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-404.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {

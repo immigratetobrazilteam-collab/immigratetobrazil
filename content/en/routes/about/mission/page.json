@@ -25,46 +25,6 @@
     "pageTitle": "Mission",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About",
-          "item": "https://immigratetobrazil.com/about/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Mission",
-          "item": "https://immigratetobrazil.com/about/mission/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/mission/#hero-image",
-      "name": "Mission hero image featuring Teatro Amazonas in Manaus",
-      "description": "SEO hero image for the Mission page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil.",
-      "keywords": "Manaus, Teatro Amazonas, Amazonas, historic theater, northern Brazil, Teatro Amazonas in Manaus, Mission, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
