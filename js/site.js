@@ -31,6 +31,79 @@
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.2 5.3 6 6-6 6-1.4-1.4 3.6-3.6H4v-2h11.4l-3.6-3.6 1.4-1.4Z" fill="currentColor"/></svg>';
   const pageMapCompassIcon =
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm4.7 5.3-6.2 2.5-2.5 6.2 6.2-2.5 2.5-6.2Zm-4.05 4.05 1 1-2.3.92.92-2.3.38.38Z" fill="currentColor"/></svg>';
+  const iconLibrary = {
+    archive:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v3H5V5Zm1 5h12v9H6v-9Zm3 2v2h6v-2H9Zm0 4v1h4v-1H9Z" fill="currentColor"/></svg>',
+    award:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 9.7 6.6 4.6 7.3l3.7 3.6-.9 5.1L12 13.8l4.6 2.2-.9-5.1 3.7-3.6-5.1-.7L12 2Zm-2 16h4l2 4H8l2-4Z" fill="currentColor"/></svg>',
+    balance:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3h2v2h4.1l2.4 4.2A2.8 2.8 0 0 1 17 13h-4v7h3v2H8v-2h3v-7H7a2.8 2.8 0 0 1-2.5-3.8L6.9 5H11V3Zm-3.2 4-1.4 2.5c-.3.5.1 1.2.7 1.2h3.8L9.5 7H7.8Zm6.7 0 1.4 3.7h3.8c.6 0 1-.7.7-1.2L19 7h-4.5Z" fill="currentColor"/></svg>',
+    book:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17.5a2.5 2.5 0 0 0-2.5-2.5H5V4.5Zm2.5-.5a.5.5 0 0 0-.5.5V15h10.5c.53 0 1.04.13 1.5.36V4H7.5Zm-2.5 15h12.5c1.38 0 2.5 1.12 2.5 2.5H7.5A2.5 2.5 0 0 1 5 19Z" fill="currentColor"/></svg>',
+    chat:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4.3 3.22A1 1 0 0 1 4 17.42V5.5Zm4 3.5a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8Zm0-3a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2H8Z" fill="currentColor"/></svg>',
+    check:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.55 18.2 4.8 13.45l1.41-1.41 3.34 3.33 8.24-8.24 1.41 1.42-9.65 9.65Z" fill="currentColor"/></svg>',
+    city:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l5-2v14H4Zm7 0V4l7 3v13h-7Zm2-11v2h2V9h-2Zm0 4v2h2v-2h-2ZM6 10v2h1v-2H6Zm0 4v2h1v-2H6Z" fill="currentColor"/></svg>',
+    coin:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4.42 0 8 1.79 8 4s-3.58 4-8 4-8-1.79-8-4 3.58-4 8-4Zm-8 6v4c0 2.21 3.58 4 8 4s8-1.79 8-4V9c-1.74 1.34-4.71 2-8 2s-6.26-.66-8-2Zm0 6v2c0 2.21 3.58 4 8 4s8-1.79 8-4v-2c-1.74 1.34-4.71 2-8 2s-6.26-.66-8-2Z" fill="currentColor"/></svg>',
+    compass: pageMapCompassIcon,
+    document:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7V3Zm2 2v14h8V9h-4V5H9Zm2 7h4v2h-4v-2Zm0 4h4v2h-4v-2Zm0-8h1v2h-1V8Z" fill="currentColor"/></svg>',
+    family:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm8 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM8 10c-2.76 0-5 1.57-5 3.5V17h10v-3.5C13 11.57 10.76 10 8 10Zm8 1c-1.08 0-2.05.28-2.79.74.67.73 1.08 1.66 1.08 2.76V17H21v-2c0-2.21-2.24-4-5-4Z" fill="currentColor"/></svg>',
+    globe:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 9h-3.12a15.7 15.7 0 0 0-1.19-4.17A8.02 8.02 0 0 1 18.93 11ZM12 4.07c.78 1.01 1.67 3.02 1.94 5.93h-3.88C10.33 7.09 11.22 5.08 12 4.07ZM9.38 6.83A15.7 15.7 0 0 0 8.19 11H5.07a8.02 8.02 0 0 1 4.31-4.17ZM5.07 13h3.12c.16 1.5.57 2.95 1.19 4.17A8.02 8.02 0 0 1 5.07 13Zm6.93 6.93c-.78-1.01-1.67-3.02-1.94-5.93h3.88c-.27 2.91-1.16 4.92-1.94 5.93Zm2.62-2.76c.62-1.22 1.03-2.67 1.19-4.17h3.12a8.02 8.02 0 0 1-4.31 4.17Z" fill="currentColor"/></svg>',
+    guide:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5a1 1 0 1 0-2 0v5c0 .27.1.52.29.71l3 3a1 1 0 1 0 1.42-1.42L13 11.59V7Z" fill="currentColor"/></svg>',
+    heart:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-7-10.1C5 7.5 7.1 5 9.9 5c1.4 0 2.5.6 3.1 1.6C13.6 5.6 14.7 5 16.1 5 18.9 5 21 7.5 21 10.9 21 16.6 14 21 14 21h-2Z" fill="currentColor"/></svg>',
+    home:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 6v11h-5v-6H9v6H4V9l8-6Z" fill="currentColor"/></svg>',
+    link:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3-3a3 3 0 1 1 4.2 4.2l-2.1 2.1-1.4-1.4 2.1-2.1a1 1 0 1 0-1.4-1.4l-3 3a1 1 0 0 1-1.4 0Zm2.8-2.8a1 1 0 0 1 0 1.4l-3 3a3 3 0 1 1-4.2-4.2l2.1-2.1 1.4 1.4-2.1 2.1a1 1 0 0 0 1.4 1.4l3-3a1 1 0 0 1 1.4 0Z" fill="currentColor"/></svg>',
+    map:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5.2 9 3 3 5.2v15.6L9 18l6 2.8 6-2.2V3L15 5.2Zm-8 .7 2-.7v10.9l-2 .7V5.9Zm8 12.9-4-1.9V6.1l4 1.9v10.8Zm2-.3V7.2l2-.7v11.3l-2 .7Z" fill="currentColor"/></svg>',
+    news:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h12a2 2 0 0 1 2 2v10a4 4 0 0 0 .25 1.4A3 3 0 0 1 17 20H7a4 4 0 0 1-4-4V6a2 2 0 0 1 2-2Zm2 3v2h8V7H7Zm0 4v2h8v-2H7Zm0 4v2h5v-2H7Z" fill="currentColor"/></svg>',
+    passport:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm1 2v14h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H8Zm4 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM9 15c.84-1 1.93-1.5 3-1.5S14.16 14 15 15v1H9v-1Z" fill="currentColor"/></svg>',
+    shield:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5.25 3.44 10.03 8 11 4.56-.97 8-5.75 8-11V5l-8-3Zm3.78 7.72-4.5 4.5a1 1 0 0 1-1.42 0l-1.64-1.64a1 1 0 1 1 1.42-1.42l.93.93 3.79-3.8a1 1 0 0 1 1.42 1.43Z" fill="currentColor"/></svg>',
+    star:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.46 6.03.88-4.36 4.24 1.03 5.98L12 16.7l-5.4 2.84 1.03-5.98L3.27 9.34l6.03-.88L12 3Z" fill="currentColor"/></svg>',
+    user:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 10c4.4 0 8 2.2 8 4.8V21H4v-3.2C4 15.2 7.6 13 12 13Z" fill="currentColor"/></svg>',
+    workflow:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h5v4H5V5Zm9 0h5v4h-5V5Zm-4 5h4v4h-4v-4Zm-5 5h5v4H5v-4Zm9 0h5v4h-5v-4Zm-7-4h10v2H7v-2Zm4-4h2v3h-2V7Zm0 7h2v3h-2v-3Z" fill="currentColor"/></svg>'
+  };
+  const iconTones = {
+    archive: { background: "rgba(125, 89, 58, 0.24)", color: "#f2d7b0" },
+    award: { background: "rgba(176, 132, 61, 0.2)", color: "#f3d37d" },
+    balance: { background: "rgba(120, 79, 62, 0.22)", color: "#f0c6a1" },
+    book: { background: "rgba(98, 74, 46, 0.2)", color: "#f1d6a6" },
+    chat: { background: "rgba(46, 102, 95, 0.24)", color: "#9fe0d4" },
+    check: { background: "rgba(59, 107, 86, 0.24)", color: "#a6e5bf" },
+    city: { background: "rgba(75, 93, 135, 0.24)", color: "#c3d4ff" },
+    coin: { background: "rgba(133, 97, 40, 0.24)", color: "#ffd47d" },
+    compass: { background: "rgba(67, 97, 132, 0.24)", color: "#bcd8ff" },
+    document: { background: "rgba(114, 93, 69, 0.24)", color: "#efd8bb" },
+    family: { background: "rgba(117, 73, 95, 0.24)", color: "#f3bfd7" },
+    globe: { background: "rgba(42, 102, 95, 0.24)", color: "#99e0d1" },
+    guide: { background: "rgba(58, 78, 120, 0.24)", color: "#bad0ff" },
+    heart: { background: "rgba(125, 58, 81, 0.24)", color: "#ffbfd1" },
+    home: { background: "rgba(91, 82, 66, 0.24)", color: "#f3d9b5" },
+    link: { background: "rgba(63, 87, 126, 0.24)", color: "#bfd5ff" },
+    map: { background: "rgba(47, 92, 72, 0.24)", color: "#aee2c2" },
+    news: { background: "rgba(110, 80, 54, 0.24)", color: "#f1cf9c" },
+    passport: { background: "rgba(62, 81, 136, 0.24)", color: "#bfd0ff" },
+    shield: { background: "rgba(100, 75, 119, 0.24)", color: "#d6c0ff" },
+    star: { background: "rgba(135, 98, 48, 0.24)", color: "#ffd67e" },
+    user: { background: "rgba(97, 69, 84, 0.24)", color: "#f4c8d8" },
+    workflow: { background: "rgba(63, 95, 126, 0.24)", color: "#bcd8ff" }
+  };
+  const iconCycle = ["compass", "book", "chat", "passport", "shield", "map", "coin", "award", "guide", "star", "workflow", "family"];
 
   /* ==========================================================================
    * 03. Config and Analytics Helpers
@@ -566,7 +639,85 @@
   }
 
   /* ==========================================================================
-   * 12. Sitemap generator control
+   * 12. Shared Icon Refresh
+   * Replaces repeated generic SVGs with context-aware icons after partial load.
+   * ========================================================================== */
+  function initIconRefresh() {
+    function iconKeyFromText(label, fallback = "compass") {
+      const text = String(label || "").toLowerCase();
+      if (/about|lawyer|profile|monique|client|testimonial|story|mission|value|ethic|why us|why work/.test(text)) return "user";
+      if (/approval|compliance|obligation|responsibilit|rights|defense|appeal|deport|expulsion|extradition|fine|litigation|protect/.test(text)) return "shield";
+      if (/assessment|consult|consultation|talk|whatsapp|contact|support/.test(text)) return "chat";
+      if (/award|proof|result|trust|review/.test(text)) return "award";
+      if (/blog|update|fyi|news|insight/.test(text)) return "news";
+      if (/book|overview|guide|faq|read|reading|resource|official/.test(text)) return "book";
+      if (/brazil|country|globe|living|culture|economy|investment|quality/.test(text)) return "globe";
+      if (/city|state|municipal|region|north|south|northeast|southeast|central-west|place/.test(text)) return "map";
+      if (/cost|fee|payment|refund|invest|price|budget/.test(text)) return "coin";
+      if (/education|study|student|research/.test(text)) return "book";
+      if (/family|children|parent|spouse/.test(text)) return "family";
+      if (/filing|timeline|deadline|planning|strategy|process|route|next step|start/.test(text)) return "workflow";
+      if (/home|permanent|residenc|housing/.test(text)) return "home";
+      if (/link|related/.test(text)) return "link";
+      if (/map|directory/.test(text)) return "map";
+      if (/naturalisation|naturalization|citizenship|passport/.test(text)) return "passport";
+      if (/visa|entry|consular|tourist|nomad/.test(text)) return "passport";
+      if (/archive|history|source date/.test(text)) return "archive";
+      if (/culture|festival|event|featured/.test(text)) return "star";
+      if (/success|approved|check|ready/.test(text)) return "check";
+      if (/city/.test(text)) return "city";
+      if (/document|record|form/.test(text)) return "document";
+      if (/ethic|law|rights|obligation/.test(text)) return "balance";
+      if (/aftercare|care|health|humanitarian/.test(text)) return "heart";
+      return fallback;
+    }
+
+    function applyTone(node, key) {
+      const tone = iconTones[key];
+      if (!tone) return;
+      node.style.color = tone.color;
+      if (
+        node.classList.contains("hero-panel-item__icon") ||
+        node.classList.contains("hero-badge__icon") ||
+        node.classList.contains("page-map__icon")
+      ) {
+        node.style.background = tone.background;
+      }
+    }
+
+    function assignIcons(selector, textSelector, fallback) {
+      document.querySelectorAll(selector).forEach((node) => {
+        const parent = node.parentElement;
+        const group = parent?.parentElement;
+        const siblings = group ? [...group.querySelectorAll(selector)] : [node];
+        const used = new Set();
+
+        siblings.forEach((iconNode) => {
+          if (iconNode.dataset.itbIconBound === "true") return;
+          const item = iconNode.parentElement;
+          const labelNode = textSelector ? item?.querySelector(textSelector) : item;
+          const label = labelNode?.textContent?.trim() || item?.textContent?.trim() || "";
+          let key = iconKeyFromText(label, fallback);
+          if (used.has(key)) {
+            key = iconCycle.find((candidate) => !used.has(candidate)) || key;
+          }
+          used.add(key);
+          iconNode.innerHTML = iconLibrary[key] || iconLibrary[fallback];
+          applyTone(iconNode, key);
+          iconNode.dataset.itbIconKey = key;
+          iconNode.dataset.itbIconBound = "true";
+        });
+      });
+    }
+
+    assignIcons(".hero-panel-list .hero-panel-item__icon", "span:last-child", "check");
+    assignIcons(".hero-badges .hero-badge__icon", "span:last-child", "compass");
+    assignIcons(".section-title__icon", "span:last-child", "book");
+    assignIcons(".page-map__icon", "span:last-child", "link");
+  }
+
+  /* ==========================================================================
+   * 13. Sitemap generator control
    * Adds a client-friendly trigger in the footer for local/dev mode.
    * ========================================================================== */
   function initSitemapGenerator() {
@@ -594,7 +745,7 @@
   }
 
   /* ==========================================================================
-   * 13. Public Init API
+   * 14. Public Init API
    * Used both directly and after runtime partial injection.
    * ========================================================================== */
   function initSite() {
@@ -606,6 +757,7 @@
     buildPageMap();
     initBackToTop();
     initRevealTargets();
+    initIconRefresh();
     initSitemapGenerator();
   }
 

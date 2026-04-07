@@ -8435,12 +8435,25 @@ body.site-root .home-proof-shell {
 
 body.site-root .home-proof-media {
   margin: 0;
+  align-self: start;
+  display: grid;
+  padding: clamp(0.9rem, 1.8vw, 1.3rem);
   border-radius: 1.85rem;
   overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(7, 16, 28, 0.96), rgba(19, 33, 42, 0.84)),
+    rgba(7, 16, 28, 0.92);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.26);
 }
 
-body.site-root .home-proof-media img,
+body.site-root .home-proof-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center top;
+}
+
 body.site-root .home-next-step__portrait img {
   display: block;
   width: 100%;
@@ -9130,6 +9143,10 @@ body.site-root.theme-light .home-bullet-list--light li {
   color: rgba(42, 33, 24, 0.82);
 }
 
+body.site-root.theme-light .home-proof-media {
+  background: rgba(255, 252, 248, 0.92);
+}
+
 @media (max-width: 1199px) {
   body.site-root .hero-glance,
   body.site-root .home-map-grid,
@@ -9255,5 +9272,45 @@ body.site-root.theme-light .home-bullet-list--light li {
 
   body.site-root .home-process-step {
     min-height: 3.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  body.site-root .footer-grid.footer-grid--directory,
+  body.site-root .footer-grid.footer-grid--simple {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  body.site-root .footer-grid.footer-grid--directory .footer-brand,
+  body.site-root .footer-grid.footer-grid--simple .footer-panel--brand,
+  body.site-root .footer-grid.footer-grid--directory .footer-panel--stacked {
+    grid-column: 1 / -1;
+  }
+
+  body.site-root .footer-grid.footer-grid--directory .footer-panel,
+  body.site-root .footer-grid.footer-grid--simple .footer-panel {
+    min-width: 0;
+  }
+
+  body.site-root .footer-grid.footer-grid--directory .footer-link-list,
+  body.site-root .footer-grid.footer-grid--simple .footer-panel__group ul {
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  body.site-root .footer-grid.footer-grid--directory,
+  body.site-root .footer-grid.footer-grid--simple {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body.site-root .footer-grid.footer-grid--directory .footer-brand,
+  body.site-root .footer-grid.footer-grid--simple .footer-panel--brand {
+    grid-column: 1 / -1;
+  }
+
+  body.site-root .footer-grid.footer-grid--directory .footer-panel--stacked {
+    grid-column: span 2;
   }
 }
