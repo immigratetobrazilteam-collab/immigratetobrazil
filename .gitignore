@@ -15,3 +15,6 @@ __pycache__/
 coverage/
 tmp/
 reports/
+.codex-debug/
+.tmp/
+.vscode/
