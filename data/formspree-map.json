@@ -5,46 +5,6 @@
     "endpoint": "https://formspree.io/f/xdawygld"
   },
   {
-    "route": "/site/src/",
-    "title": "<span class=\"home-hero__title-line\">Monique</span><span class=\"home-hero__title-line home-hero__title-line--surname\">Fernandes</span>",
-    "endpoint": "https://formspree.io/f/myzlnerw"
-  },
-  {
-    "route": "/site/src/es/",
-    "title": "<span class=\"home-hero__title-line\">Monique</span><span class=\"home-hero__title-line home-hero__title-line--surname\">Fernandes</span>",
-    "endpoint": "https://formspree.io/f/myzlnerw"
-  },
-  {
-    "route": "/site/src/es/services/immigration-to-brazil/by-country/",
-    "title": "Moviéndose a Brasil por País",
-    "endpoint": "https://formspree.io/f/maqpbgqe"
-  },
-  {
-    "route": "/site/src/fr/",
-    "title": "<span class=\"home-hero__title-line\">Monique</span><span class=\"home-hero__title-line home-hero__title-line--surname\">Fernandes</span>",
-    "endpoint": "https://formspree.io/f/myzlnerw"
-  },
-  {
-    "route": "/site/src/fr/services/immigration-to-brazil/by-country/",
-    "title": "Déménagement au Brésil par pays",
-    "endpoint": "https://formspree.io/f/maqpbgqe"
-  },
-  {
-    "route": "/site/src/pt/",
-    "title": "<span class=\"home-hero__title-line\">Monique</span><span class=\"home-hero__title-line home-hero__title-line--surname\">Fernandes</span>",
-    "endpoint": "https://formspree.io/f/myzlnerw"
-  },
-  {
-    "route": "/site/src/pt/services/immigration-to-brazil/by-country/",
-    "title": "Mudar para o Brasil por País",
-    "endpoint": "https://formspree.io/f/maqpbgqe"
-  },
-  {
-    "route": "/site/src/services/immigration-to-brazil/by-country/",
-    "title": "Moving to Brazil by Country",
-    "endpoint": "https://formspree.io/f/maqpbgqe"
-  },
-  {
     "route": "/start-consultation/",
     "title": "Request a Consultation",
     "endpoint": "https://formspree.io/f/xdawygld"

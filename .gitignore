@@ -18,3 +18,7 @@ reports/
 .codex-debug/
 .tmp/
 .vscode/
+
+# Ignore imported source trees that do not belong to this repo
+site/
+pt-br/site/
