@@ -5,7 +5,7 @@
   "meta": {
     "themeColor": "#2E2E2E",
     "description": "Search works best when the reader already knows the kind of question they are trying to answer. We explain how to use it more efficiently and when search has reached its limit.",
-    "robots": "index,follow",
+    "robots": "noindex,follow",
     "title": "Search | Brazil Living Guidance | Immigrate to Brazil",
     "preloadImage": "/assets/images/sections/brazil/search/section-01-overview/search-section-01-overview-skyline-civic-spaces-bridge-brazil-bg-primary.webp"
   },

@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "normalize:html": "node scripts/normalize-route-html.js",
+    "seo:audit": "node scripts/seo-audit.js",
     "sync:data": "node scripts/sync-static-data.js",
     "build:static": "npm run sync:data",
     "check": "npm run sync:data",

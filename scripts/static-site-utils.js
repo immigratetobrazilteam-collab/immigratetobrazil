@@ -94,6 +94,10 @@ export function decodeHtml(value = "") {
     .replace(/&nbsp;/g, " ");
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 export function extractSingle(html, pattern, group = 1) {
   const match = html.match(pattern);
   return match ? decodeHtml(match[group].trim()) : "";
@@ -108,7 +112,7 @@ export function unique(values) {
 }
 
 export function deriveFamily(html, route) {
-  const bodyClass = extractSingle(html, /<body[^>]*class="([^"]+)"/i);
+  const bodyClass = extractSingle(html, /<body[^>]*class=(["'])([\s\S]*?)\1/i, 2);
   const familyMatch = bodyClass.match(/\bfamily-([a-z0-9-]+)/i);
   if (familyMatch) return familyMatch[1];
   if (route === "/") return "foundation";
@@ -116,7 +120,18 @@ export function deriveFamily(html, route) {
 }
 
 export function isNoindex(html) {
-  return /<meta\b(?=[^>]*\bname="robots")(?=[^>]*\bcontent="[^"]*noindex)[^>]*>/i.test(html);
+  return /<meta\b(?=[^>]*\bname=(["'])robots\1)(?=[^>]*\bcontent=(["'])[\s\S]*?noindex[\s\S]*?\2)[^>]*>/i.test(html);
+}
+
+export function extractMetaContent(html, name) {
+  return extractSingle(
+    html,
+    new RegExp(
+      `<meta\\b(?=[^>]*\\bname=(["'])${escapeRegExp(name)}\\1)(?=[^>]*\\bcontent=(["'])([\\s\\S]*?)\\2)[^>]*>`,
+      "i"
+    ),
+    3
+  );
 }
 
 export function extractTopics(html) {
@@ -144,7 +159,7 @@ export function extractFormActions(html) {
 
 export function extractPageData(route, html) {
   const browserTitle = extractSingle(html, /<title>([\s\S]*?)<\/title>/i);
-  const summary = extractSingle(html, /<meta\b(?=[^>]*\bname="description")(?=[^>]*\bcontent="([^"]+)")[^>]*>/i);
+  const summary = extractMetaContent(html, "description");
   const h1 = extractSingle(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i);
   const topics = extractTopics(html);
   const faq = extractFaqQuestions(html);

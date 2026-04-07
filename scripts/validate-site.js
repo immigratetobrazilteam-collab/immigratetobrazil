@@ -15,7 +15,16 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const JSON_LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
-const PAGE_SCHEMA_TYPES = new Set(["WebPage", "CollectionPage", "AboutPage", "ContactPage", "SearchResultsPage"]);
+const PAGE_SCHEMA_TYPES = new Set([
+  "WebPage",
+  "CollectionPage",
+  "AboutPage",
+  "ContactPage",
+  "SearchResultsPage",
+  "Article",
+  "BlogPosting",
+  "NewsArticle"
+]);
 const ROOT_ORGANIZATION_URL = "https://immigratetobrazil.com";
 const SHARED_IDS = {
   organization: `${ROOT_ORGANIZATION_URL}#organization`,

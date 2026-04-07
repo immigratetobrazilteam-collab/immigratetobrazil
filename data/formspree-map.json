@@ -1,10 +1,5 @@
 [
   {
-    "route": "/",
-    "title": "Brazil Immigration Guidance",
-    "endpoint": "https://formspree.io/f/xdawygld"
-  },
-  {
     "route": "/start-consultation/",
     "title": "Request a Consultation",
     "endpoint": "https://formspree.io/f/xdawygld"

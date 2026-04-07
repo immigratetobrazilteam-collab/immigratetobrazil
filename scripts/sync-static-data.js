@@ -10,6 +10,7 @@ import {
   extractPageData,
   wordCount
 } from "./static-site-utils.js";
+import { normalizeRouteHtmlFiles } from "./html-normalize-utils.js";
 import { buildRobots, buildSitemap, localeForRoute } from "./sitemap-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -52,6 +53,7 @@ async function sync404(routeFilesByRoute) {
 
 async function main() {
   const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
+  const normalization = await normalizeRouteHtmlFiles(ROOT, routeFiles);
   const routeFilesByRoute = new Map(routeFiles.map((item) => [item.route, item]));
   const localeBuckets = {
     en: { searchIndex: [], buildReport: [], formMap: [] },
@@ -98,7 +100,7 @@ async function main() {
   const enSearchCount = localeBuckets.en.searchIndex.length;
   const ptSearchCount = localeBuckets["pt-br"].searchIndex.length;
   console.log(
-    `Synced static site data for ${routeFiles.length} HTML routes (${enSearchCount} EN search entries, ${ptSearchCount} PT search entries).`
+    `Synced static site data for ${routeFiles.length} HTML routes (${enSearchCount} EN search entries, ${ptSearchCount} PT search entries, ${normalization.changed} normalized HTML routes).`
   );
 }
 

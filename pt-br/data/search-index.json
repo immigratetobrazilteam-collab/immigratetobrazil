@@ -1135,36 +1135,6 @@
     "noindex": false
   },
   {
-    "route": "/pt-br/brazil/search/",
-    "title": "Busca",
-    "browserTitle": "Busca | Brasil Orienta&ccedil;&atilde;o para a vida | Immigrate to Brazil",
-    "family": "brazil",
-    "summary": "A pesquisa funciona melhor quando o leitor j&aacute; sabe o tipo de pergunta que est&aacute; tentando responder. Explicamos como us&aacute;-la de forma mais eficiente e quando a busca atingiu seu limite.",
-    "topics": [
-      "Filtros",
-      "Categorias",
-      "Servi&ccedil;os",
-      "Locais",
-      "Palavras- Chave",
-      "Resultados",
-      "Dicas",
-      "Efici&ecirc;ncia",
-      "Suporte",
-      "Filters",
-      "Categories",
-      "Services",
-      "Locations",
-      "Keywords",
-      "Results",
-      "Tips",
-      "Efficiency",
-      "Support"
-    ],
-    "faq": [],
-    "keywords": "Busca | Brasil Orienta&ccedil;&atilde;o para a vida | Immigrate to Brazil Busca Filtros Categorias Servi&ccedil;os Locais Palavras- Chave Resultados Dicas Efici&ecirc;ncia Suporte Filters Categories Services Locations Keywords Results Tips Efficiency Support brazil",
-    "noindex": false
-  },
-  {
     "route": "/pt-br/brazil/south/",
     "title": "Sul",
     "browserTitle": "Sul | Brasil Orienta&ccedil;&atilde;o para a vida | Immigrate to Brazil",
@@ -4868,7 +4838,7 @@
     "title": "Cidadania Benina: O \"Retorno\" Simb&oacute;lico de Milhares de Afro-Brasilianos",
     "browserTitle": "Cidadania Benina: O \"Retorno\" Simb&oacute;lico de Milhares de Afro-Brasilianos | FYI | Immigrate to Brazil",
     "family": "insights",
-    "summary": "",
+    "summary": "Cidadania Beninese: O \"Retorno\" Simb&oacute;lico de Milhares de Afro-Brasilians para Eles. Um artigo de curta dura&ccedil;&atilde;o sobre cidadania e planejamento de status de longo prazo para",
     "topics": [
       "Por que isso importa para o planejamento da imigra&ccedil;&atilde;o",
       "Why It Matters"
@@ -4882,7 +4852,7 @@
     "title": "Piada de \"Bomba em Mala\" leva passageiros a prenderem no Aeroporto de Bras&iacute;lia em not&iacute;cias recentes",
     "browserTitle": "Piada de \"Bomba em Mala\" leva passageiros a prenderem no Aeroporto de Bras&iacute;lia em not&iacute;cias recentes | FYI | Immigrate to Brazil",
     "family": "insights",
-    "summary": "",
+    "summary": "\"Bomba na Mala\" Piada leva Passageiro a Deten&ccedil;&atilde;o no Aeroporto de Bras&iacute;lia Em Not&iacute;cias Recentemente. Um artigo curto sobre visto e planejamento de viagens para leitores que querem",
     "topics": [
       "Por que isso importa para o planejamento da imigra&ccedil;&atilde;o",
       "Why It Matters"
