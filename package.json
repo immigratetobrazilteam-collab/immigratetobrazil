@@ -2,7 +2,11 @@
   "name": "immigrate-to-brazil",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "sync:data": "node scripts/sync-static-data.js",
+    "build:static": "npm run sync:data",
+    "check": "npm run sync:data",
     "translate:pt": "python3 scripts/generate_pt.py",
     "translate:pt:all": "python3 scripts/generate_pt.py --force"
   }

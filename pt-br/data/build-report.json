@@ -6,248 +6,2483 @@
   },
   {
     "route": "/pt-br/about/",
-    "title": "A empresa, m&eacute;todo e pessoas por tr&aacute;s da imigra&ccedil;&atilde;o para Brasil",
-    "wordCount": 1025
+    "title": "Sobre Monique",
+    "wordCount": 949
   },
   {
     "route": "/pt-br/about/about/",
-    "title": "Conhe&ccedil;a Monique Fernandes, o advogado de imigra&ccedil;&atilde;o Brasilian por tr&aacute;s de Immigrate to Brazil",
-    "wordCount": 1023
+    "title": "Conhe&ccedil;a Monique Fernandes",
+    "wordCount": 915
   },
   {
     "route": "/pt-br/about/clients/",
-    "title": "Indiv&iacute;duos, fam&iacute;lias e organiza&ccedil;&otilde;es navegam pela imigra&ccedil;&atilde;o para o Brasil",
-    "wordCount": 875
+    "title": "Quem Monique Fernandes Ajuda",
+    "wordCount": 937
   },
   {
     "route": "/pt-br/about/ethics/",
-    "title": "Como as quest&otilde;es de imigra&ccedil;&atilde;o s&atilde;o tratadas com estrutura, clareza e integridade",
-    "wordCount": 1031
+    "title": "&Eacute;tica",
+    "wordCount": 687
   },
   {
     "route": "/pt-br/about/lawyer/",
-    "title": "Monique Fernandes e a estrutura jur&iacute;dica por tr&aacute;s das quest&otilde;es formais de imigra&ccedil;&atilde;o em Brasil",
-    "wordCount": 717
+    "title": "Advogada",
+    "wordCount": 820
   },
   {
     "route": "/pt-br/about/mission/",
-    "title": "Trazendo clareza, estrutura e progress&atilde;o confi&aacute;vel para decis&otilde;es relacionadas ao Brasil",
-    "wordCount": 909
+    "title": "Miss&atilde;o",
+    "wordCount": 723
   },
   {
     "route": "/pt-br/about/philosophy/",
-    "title": "Clareza antes da ac&ccedil;&atilde;o, estrutura antes da velocidade, alinhamento antes da progress&atilde;o.",
-    "wordCount": 981
+    "title": "Filosofia",
+    "wordCount": 691
   },
   {
     "route": "/pt-br/about/profile/",
-    "title": "Quem somos, como trabalhamos, eo padr&atilde;o por tr&aacute;s da imigra&ccedil;&atilde;o para Brasil",
-    "wordCount": 1224
+    "title": "Perfil",
+    "wordCount": 799
   },
   {
     "route": "/pt-br/about/results/",
-    "title": "Resultados fortes come&ccedil;am com clareza, prepara&ccedil;&atilde;o e alinhamento",
-    "wordCount": 933
+    "title": "Resultados",
+    "wordCount": 674
   },
   {
     "route": "/pt-br/about/stories/",
-    "title": "Momentos reais onde a estrutura mudou como um processo Brasil se sentiu",
-    "wordCount": 972
+    "title": "Hist&oacute;rias",
+    "wordCount": 955
   },
   {
     "route": "/pt-br/about/story/",
-    "title": "Por que Immigrate to Brazil foi constru&iacute;do em torno da estrutura, n&atilde;o ru&iacute;do",
-    "wordCount": 919
+    "title": "Hist&oacute;ria",
+    "wordCount": 738
   },
   {
     "route": "/pt-br/about/testimonials/",
-    "title": "O que os clientes lembram quando o processo finalmente se torna claro",
-    "wordCount": 858
+    "title": "Depoimentos",
+    "wordCount": 713
   },
   {
     "route": "/pt-br/about/values/",
-    "title": "Os padr&otilde;es que moldam como cada processo se sente",
-    "wordCount": 1167
+    "title": "Valores",
+    "wordCount": 654
   },
   {
     "route": "/pt-br/about/whyus/",
-    "title": "Um caminho mais estruturado e confi&aacute;vel para a imigra&ccedil;&atilde;o em Brasil",
-    "wordCount": 778
+    "title": "Por que trabalhar com Monique",
+    "wordCount": 777
   },
   {
     "route": "/pt-br/brazil/",
-    "title": "Brasil Centro de Planejamento para Relocaliza&ccedil;&atilde;o, Estilo de Vida e Tomada de Decis&atilde;o Regional",
-    "wordCount": 1119
+    "title": "Brasil Hub",
+    "wordCount": 1218
   },
   {
     "route": "/pt-br/brazil/brazil/",
-    "title": "Brasil explicado como um pa&iacute;s real para planejar em torno",
+    "title": "Brasil",
     "wordCount": 2174
   },
   {
     "route": "/pt-br/brazil/central-west/",
-    "title": "Regi&atilde;o Centro-Oeste em Brasil Atrav&eacute;s de uma lente de reloca&ccedil;&atilde;o",
+    "title": "Centro-Oeste",
     "wordCount": 2078
   },
   {
     "route": "/pt-br/brazil/cities/",
-    "title": "Cidades em Brasil comparadas atrav&eacute;s de fatores reais da vida di&aacute;ria",
+    "title": "Cidades",
     "wordCount": 2253
   },
   {
     "route": "/pt-br/brazil/cost/",
-    "title": "Custo de viver em Brasil em termos de planejamento real",
+    "title": "Custo",
     "wordCount": 2360
   },
   {
     "route": "/pt-br/brazil/cuisine/",
-    "title": "Brasilian Cuisine Como parte da vida di&aacute;ria e identidade cultural",
+    "title": "Cozinha",
     "wordCount": 2130
   },
   {
     "route": "/pt-br/brazil/culture/",
-    "title": "Brasilian cultura como uma parte real da relocaliza&ccedil;&atilde;o e do pertencimento",
+    "title": "Cultura",
     "wordCount": 2079
   },
   {
     "route": "/pt-br/brazil/directory/",
-    "title": "Diret&oacute;rio para navegar Brasil por localiza&ccedil;&atilde;o e necessidade pr&aacute;tica",
+    "title": "Pasta",
     "wordCount": 2049
   },
   {
     "route": "/pt-br/brazil/economy/",
-    "title": "Economia do Brasil em termos pr&aacute;ticos para imigrantes e deslocaliza&ccedil;&otilde;es de fam&iacute;lias",
+    "title": "Economia",
     "wordCount": 2232
   },
   {
     "route": "/pt-br/brazil/education/",
-    "title": "Forma&ccedil;&atilde;o em Brasil para fam&iacute;lias, estudantes e planejamento futuro",
+    "title": "Educa&ccedil;&atilde;o",
     "wordCount": 2227
   },
   {
     "route": "/pt-br/brazil/events/",
-    "title": "Eventos em Brasil para a cultura, m&uacute;sica, esporte e energia urbana",
+    "title": "Eventos",
     "wordCount": 2120
   },
   {
     "route": "/pt-br/brazil/faqs/",
-    "title": "Perguntas frequentes sobre Brasil Em linguagem clara e pr&aacute;tica",
+    "title": "Faqs",
     "wordCount": 2100
   },
   {
     "route": "/pt-br/brazil/festivals/",
-    "title": "Festivais em Brasil como vida cultural em vez de turismo simples",
+    "title": "Festas",
     "wordCount": 2122
   },
   {
     "route": "/pt-br/brazil/guides/",
-    "title": "Guias pr&aacute;ticos para se fixar na vida em Brasil",
+    "title": "Guias",
     "wordCount": 2123
   },
   {
     "route": "/pt-br/brazil/healthcare/",
-    "title": "Sa&uacute;de em Brasil para indiv&iacute;duos, fam&iacute;lias e planejamento de longo prazo",
+    "title": "Cuidados de sa&uacute;de",
     "wordCount": 2301
   },
   {
     "route": "/pt-br/brazil/housing/",
-    "title": "Habita&ccedil;&atilde;o em Brasil atrav&eacute;s de uma lente de planejamento de relocaliza&ccedil;&atilde;o",
+    "title": "Habita&ccedil;&atilde;o",
     "wordCount": 2277
   },
   {
     "route": "/pt-br/brazil/investment/",
-    "title": "Investimento em Brasil atrav&eacute;s de uma lente realista de entrada estrangeira",
+    "title": "Investimento",
     "wordCount": 2082
   },
   {
     "route": "/pt-br/brazil/living/",
-    "title": "Viver em Brasil como vida di&aacute;ria, em vez de uma id&eacute;ia de viagem",
+    "title": "Viver",
     "wordCount": 2280
   },
   {
     "route": "/pt-br/brazil/municipalities/",
-    "title": "Munic&iacute;pios em Brasil para leitores pensando al&eacute;m das capitais principais",
+    "title": "Munic&iacute;pios",
     "wordCount": 2188
   },
   {
     "route": "/pt-br/brazil/north/",
-    "title": "Regi&atilde;o Norte em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "title": "Norte",
     "wordCount": 2128
   },
   {
     "route": "/pt-br/brazil/northeast/",
-    "title": "Regi&atilde;o Nordeste em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "title": "Nordeste",
     "wordCount": 2107
   },
   {
     "route": "/pt-br/brazil/places/",
-    "title": "Locais em Brasil Comparado atrav&eacute;s de estilo de vida, custo e ajuste pr&aacute;tico",
-    "wordCount": 1092
+    "title": "Locais",
+    "wordCount": 1172
   },
   {
     "route": "/pt-br/brazil/quality/",
-    "title": "Qualidade de vida em Brasil Al&eacute;m de Slogans",
+    "title": "Qualidade",
     "wordCount": 2276
   },
   {
     "route": "/pt-br/brazil/safety/",
-    "title": "Seguran&ccedil;a em Brasil Al&eacute;m de estere&oacute;tipos e simplifica&ccedil;&otilde;es",
+    "title": "Seguran&ccedil;a",
     "wordCount": 2244
   },
   {
     "route": "/pt-br/brazil/search/",
-    "title": "Pesquisar Brasil T&oacute;picos, Locais e P&aacute;ginas de Planejamento de Imigra&ccedil;&atilde;o mais r&aacute;pido",
+    "title": "Busca",
     "wordCount": 2046
   },
   {
     "route": "/pt-br/brazil/south/",
-    "title": "Regi&atilde;o Sul em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "title": "Sul",
     "wordCount": 2114
   },
   {
     "route": "/pt-br/brazil/southeast/",
-    "title": "Regi&atilde;o Sudeste em Brasil atrav&eacute;s de uma lente de reloca&ccedil;&atilde;o",
+    "title": "Sudeste",
     "wordCount": 2132
   },
   {
     "route": "/pt-br/brazil/states/",
-    "title": "Brasilian Estados como uma camada pr&aacute;tica de planejamento de relocaliza&ccedil;&atilde;o",
+    "title": "Estados",
     "wordCount": 2228
   },
   {
+    "route": "/pt-br/countries/",
+    "title": "Planejamento de imigra&ccedil;&atilde;o espec&iacute;fico para o pa&iacute;s para se mudar para Brasil",
+    "wordCount": 4104
+  },
+  {
+    "route": "/pt-br/countries/afghanistan/",
+    "title": "Passando ao Brasil do Afeganist&atilde;o",
+    "wordCount": 1070
+  },
+  {
+    "route": "/pt-br/countries/albania/",
+    "title": "Passando para Brasil da Alb&acirc;nia",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/algeria/",
+    "title": "Passando para Brasil da Arg&eacute;lia",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/andorra/",
+    "title": "Passando para Brasil de Andorra",
+    "wordCount": 1068
+  },
+  {
+    "route": "/pt-br/countries/angola/",
+    "title": "Passando para Brasil de Angola",
+    "wordCount": 1073
+  },
+  {
+    "route": "/pt-br/countries/antigua-and-barbuda/",
+    "title": "Passando para Brasil de Ant&iacute;gua e Barbuda",
+    "wordCount": 1086
+  },
+  {
+    "route": "/pt-br/countries/argentina/",
+    "title": "Mudando-se para Brasil da Argentina",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/armenia/",
+    "title": "Passando para Brasil da Arm&eacute;nia",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/australia/",
+    "title": "Mudando-se para Brasil da Austr&aacute;lia",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/austria/",
+    "title": "Mudar para Brasil da &Aacute;ustria",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/azerbaijan/",
+    "title": "Passando para Brasil do Azerbaij&atilde;o",
+    "wordCount": 1075
+  },
+  {
+    "route": "/pt-br/countries/bahamas/",
+    "title": "Mudar para Brasil a partir das Bahamas",
+    "wordCount": 1056
+  },
+  {
+    "route": "/pt-br/countries/bahrain/",
+    "title": "Mudar-se para Brasil do Bahrein",
+    "wordCount": 1070
+  },
+  {
+    "route": "/pt-br/countries/bangladesh/",
+    "title": "Mudar para Brasil a partir de Bangladesh",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/barbados/",
+    "title": "Mudar para Brasil de Barbados",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/belarus/",
+    "title": "Passando para Brasil da Bielorr&uacute;ssia",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/belgium/",
+    "title": "Passando para Brasil da B&eacute;lgica",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/belize/",
+    "title": "Mudar-se para Brasil de Belize",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/benin/",
+    "title": "A mudar-se para Brasil do Benim",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/bhutan/",
+    "title": "Mudar para Brasil do But&atilde;o",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/bolivia/",
+    "title": "Mudando-se para Brasil da Bol&iacute;via",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/bosnia-and-herzegovina/",
+    "title": "Passando para Brasil da B&oacute;snia e Herzegovina",
+    "wordCount": 1089
+  },
+  {
+    "route": "/pt-br/countries/botswana/",
+    "title": "Passando para Brasil a partir de Botsuana",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/brazil/",
+    "title": "Movendo-se para Brasil de Brasil",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/brunei/",
+    "title": "Passando para Brasil de Brunei",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/bulgaria/",
+    "title": "Passando para Brasil da Bulg&aacute;ria",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/burkina-faso/",
+    "title": "Passando para Brasil a partir de Burkina Faso",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/burundi/",
+    "title": "Passando para Brasil a partir do Burundi",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/cabo-verde/",
+    "title": "Passando para Brasil de Cabo Verde",
+    "wordCount": 1075
+  },
+  {
+    "route": "/pt-br/countries/cambodia/",
+    "title": "Passando para Brasil do Camboja",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/cameroon/",
+    "title": "Passando para Brasil de Camar&otilde;es",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/canada/",
+    "title": "Mudar-se para Brasil do Canad&aacute;",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/central-african-republic/",
+    "title": "Passando para Brasil da Rep&uacute;blica Centro-Africana",
+    "wordCount": 1078
+  },
+  {
+    "route": "/pt-br/countries/chad/",
+    "title": "A mudar-se para Brasil do Chade",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/chile/",
+    "title": "Mudando-se para Brasil do Chile",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/china/",
+    "title": "Passando para Brasil da China",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/colombia/",
+    "title": "Mudando-se para Brasil da Col&ocirc;mbia",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/comoros/",
+    "title": "A mover-se para Brasil a partir das Comores",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/congo-democratic-republic-of-the-congo/",
+    "title": "Passando a Brasil do Congo (Rep&uacute;blica Democr&aacute;tica do Congo)",
+    "wordCount": 1120
+  },
+  {
+    "route": "/pt-br/countries/congo-republic-of-the-congo/",
+    "title": "Passagem para Brasil do Congo (Rep&uacute;blica do Congo)",
+    "wordCount": 1105
+  },
+  {
+    "route": "/pt-br/countries/costa-rica/",
+    "title": "Mudando-se para Brasil da Costa Rica",
+    "wordCount": 1071
+  },
+  {
+    "route": "/pt-br/countries/croatia/",
+    "title": "Passando para Brasil da Cro&aacute;cia",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/cuba/",
+    "title": "Mudar-se para Brasil de Cuba",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/cyprus/",
+    "title": "Passando a Brasil de Chipre",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/czechia/",
+    "title": "Mudar para Brasil da Chech&eacute;nia",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/denmark/",
+    "title": "Passando para Brasil da Dinamarca",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/djibouti/",
+    "title": "Mudar para Brasil de Djibouti",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/dominica/",
+    "title": "Mudando-se para Brasil da Dominica",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/dominican-republic/",
+    "title": "Mudar-se para Brasil da Rep&uacute;blica Dominicana",
+    "wordCount": 1074
+  },
+  {
+    "route": "/pt-br/countries/ecuador/",
+    "title": "Mudar para Brasil do Equador",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/egypt/",
+    "title": "Passando para Brasil do Egito",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/el-salvador/",
+    "title": "Mudar-se para Brasil de El Salvador",
+    "wordCount": 1076
+  },
+  {
+    "route": "/pt-br/countries/equatorial-guinea/",
+    "title": "Passando para Brasil da Guin&eacute; Equatorial",
+    "wordCount": 1078
+  },
+  {
+    "route": "/pt-br/countries/eritrea/",
+    "title": "A passar para Brasil da Eritreia",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/estonia/",
+    "title": "Passando para Brasil da Est&oacute;nia",
+    "wordCount": 1072
+  },
+  {
+    "route": "/pt-br/countries/eswatini/",
+    "title": "A mudar-se para Brasil de Eswatini",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/ethiopia/",
+    "title": "Passando para Brasil da Eti&oacute;pia",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/fiji/",
+    "title": "Mudar-se para Brasil a partir de Fiji",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/finland/",
+    "title": "Passando para Brasil da Finl&acirc;ndia",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/france/",
+    "title": "Passando para Brasil da Fran&ccedil;a",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/gabon/",
+    "title": "A mudar-se para Brasil do Gab&atilde;o",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/gambia/",
+    "title": "Passando para Brasil da G&acirc;mbia",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/georgia/",
+    "title": "Passando para Brasil da Ge&oacute;rgia",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/germany/",
+    "title": "Passando para Brasil da Alemanha",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/ghana/",
+    "title": "Passando para Brasil a partir de Gana",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/greece/",
+    "title": "Passando para Brasil da Gr&eacute;cia",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/grenada/",
+    "title": "Passando para Brasil de Granada",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/guatemala/",
+    "title": "Mudar-se para Brasil da Guatemala",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/guinea-bissau/",
+    "title": "Passando para Brasil da Guin&eacute;-Bissau",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/guinea/",
+    "title": "Passando para Brasil da Guin&eacute;",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/guyana/",
+    "title": "Mudar-se para Brasil da Guiana",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/haiti/",
+    "title": "Passando para Brasil do Haiti",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/honduras/",
+    "title": "Mudar-se para Brasil de Honduras",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/hungary/",
+    "title": "Passando para Brasil da Hungria",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/iceland/",
+    "title": "Mudar para Brasil da Isl&acirc;ndia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/india/",
+    "title": "Passando para Brasil da &Iacute;ndia",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/indonesia/",
+    "title": "Mudar-se para Brasil da Indon&eacute;sia",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/iran/",
+    "title": "Passando para Brasil do Ir&atilde;o",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/iraq/",
+    "title": "Passando para Brasil do Iraque",
+    "wordCount": 1056
+  },
+  {
+    "route": "/pt-br/countries/ireland/",
+    "title": "Passando para Brasil da Irlanda",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/israel/",
+    "title": "Passando a Brasil de Israel",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/italy/",
+    "title": "Mudar para Brasil da It&aacute;lia",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/jamaica/",
+    "title": "Mudar-se para Brasil da Jamaica",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/japan/",
+    "title": "Mudar para Brasil do Jap&atilde;o",
+    "wordCount": 1071
+  },
+  {
+    "route": "/pt-br/countries/jordan/",
+    "title": "Passando para Brasil a partir da Jord&acirc;nia",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/kazakhstan/",
+    "title": "Passando para Brasil do Cazaquist&atilde;o",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/kenya/",
+    "title": "Mudar-se para Brasil do Qu&eacute;nia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/kiribati/",
+    "title": "Passando para Brasil de Kiribati",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/kuwait/",
+    "title": "Passando para Brasil do Kuwait",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/kyrgyzstan/",
+    "title": "Passando para Brasil do Quirguist&atilde;o",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/laos/",
+    "title": "Mudar para Brasil do Laos",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/latvia/",
+    "title": "Passando para Brasil da Let&oacute;nia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/lebanon/",
+    "title": "Passando para Brasil do L&iacute;bano",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/lesotho/",
+    "title": "A mover-se para Brasil a partir de Lesoto",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/liberia/",
+    "title": "Passando para Brasil da Lib&eacute;ria",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/libya/",
+    "title": "Passando para Brasil da L&iacute;bia",
+    "wordCount": 1068
+  },
+  {
+    "route": "/pt-br/countries/liechtenstein/",
+    "title": "Passando para Brasil a partir do Liechtenstein",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/lithuania/",
+    "title": "Passando para Brasil da Litu&acirc;nia",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/luxembourg/",
+    "title": "Mudar para Brasil do Luxemburgo",
+    "wordCount": 1071
+  },
+  {
+    "route": "/pt-br/countries/madagascar/",
+    "title": "Mudar-se para Brasil de Madag&aacute;scar",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/malawi/",
+    "title": "Mudar para Brasil do Malawi",
+    "wordCount": 1068
+  },
+  {
+    "route": "/pt-br/countries/malaysia/",
+    "title": "Mudar para Brasil da Mal&aacute;sia",
+    "wordCount": 1068
+  },
+  {
+    "route": "/pt-br/countries/maldives/",
+    "title": "Passando para Brasil de Maldivas",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/mali/",
+    "title": "Passando para Brasil a partir do Mali",
+    "wordCount": 1071
+  },
+  {
+    "route": "/pt-br/countries/malta/",
+    "title": "Passando para Brasil de Malta",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/marshall-islands/",
+    "title": "Mudar-se para Brasil de Ilhas Marshall",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/mauritania/",
+    "title": "Passando para Brasil da Maurit&acirc;nia",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/mauritius/",
+    "title": "Mudar para Brasil a partir de Maur&iacute;cio",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/mexico/",
+    "title": "Mudar-se para Brasil do M&eacute;xico",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/micronesia/",
+    "title": "Passando para Brasil da Micron&eacute;sia",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/moldova/",
+    "title": "Passando para Brasil da Mold&aacute;via",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/monaco/",
+    "title": "Mudando-se para Brasil de M&ocirc;naco",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/mongolia/",
+    "title": "Passando para Brasil da Mong&oacute;lia",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/montenegro/",
+    "title": "Passando para Brasil a partir de Montenegro",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/morocco/",
+    "title": "Mudar-se para Brasil de Marrocos",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/mozambique/",
+    "title": "Mudar para Brasil de Mo&ccedil;ambique",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/myanmar/",
+    "title": "Passando a Brasil de Mianmar",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/namibia/",
+    "title": "Passando para Brasil da Nam&iacute;bia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/nauru/",
+    "title": "Mudar para Brasil de Nauru",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/nepal/",
+    "title": "Passando para Brasil do Nepal",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/netherlands/",
+    "title": "Mudar para Brasil da Holanda",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/new-zealand/",
+    "title": "Mudar-se para Brasil da Nova Zel&acirc;ndia",
+    "wordCount": 1080
+  },
+  {
+    "route": "/pt-br/countries/nicaragua/",
+    "title": "Mudar-se para Brasil da Nicar&aacute;gua",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/niger/",
+    "title": "Passando para Brasil a partir do N&iacute;ger",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/nigeria/",
+    "title": "Mudar-se para Brasil da Nig&eacute;ria",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/north-korea/",
+    "title": "Passando para Brasil da Coreia do Norte",
+    "wordCount": 1093
+  },
+  {
+    "route": "/pt-br/countries/north-macedonia/",
+    "title": "Passando para Brasil do Norte da Maced&oacute;nia",
+    "wordCount": 1088
+  },
+  {
+    "route": "/pt-br/countries/norway/",
+    "title": "Passando para Brasil da Noruega",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/oman/",
+    "title": "A mudar para Brasil de Om&atilde;",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/pakistan/",
+    "title": "Passando para Brasil do Paquist&atilde;o",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/palau/",
+    "title": "A mudar-se para Brasil de Palau",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/palestine/",
+    "title": "Passando para Brasil da Palestina",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/panama/",
+    "title": "Mudando-se para Brasil do Panam&aacute;",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/papua-new-guinea/",
+    "title": "Passando para Brasil de Papua-Nova Guin&eacute;",
+    "wordCount": 1088
+  },
+  {
+    "route": "/pt-br/countries/paraguay/",
+    "title": "Mudar para Brasil do Paraguai",
+    "wordCount": 1066
+  },
+  {
+    "route": "/pt-br/countries/peru/",
+    "title": "Mudando-se para Brasil do Peru",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/philippines/",
+    "title": "Mudar-se para Brasil das Filipinas",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/poland/",
+    "title": "Passando para Brasil da Pol&oacute;nia",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/portugal/",
+    "title": "Passando para Brasil de Portugal",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/qatar/",
+    "title": "Mudar-se para Brasil do Catar",
+    "wordCount": 1071
+  },
+  {
+    "route": "/pt-br/countries/romania/",
+    "title": "Passando para Brasil da Rom&eacute;nia",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/russia/",
+    "title": "Passando para Brasil da R&uacute;ssia",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/rwanda/",
+    "title": "Passando para Brasil de Ruanda",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/saint-kitts-and-nevis/",
+    "title": "Passando para Brasil de Saint Kitts e Nevis",
+    "wordCount": 1102
+  },
+  {
+    "route": "/pt-br/countries/saint-lucia/",
+    "title": "Mudando-se para Brasil de Santa L&uacute;cia",
+    "wordCount": 1077
+  },
+  {
+    "route": "/pt-br/countries/saint-vincent-and-the-grenadines/",
+    "title": "Passando para Brasil de S&atilde;o Vicente e Granadinas",
+    "wordCount": 1103
+  },
+  {
+    "route": "/pt-br/countries/samoa/",
+    "title": "Mudar para Brasil de Samoa",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/san-marino/",
+    "title": "Passando para Brasil de San Marino",
+    "wordCount": 1072
+  },
+  {
+    "route": "/pt-br/countries/sao-tome-and-principe/",
+    "title": "Mudar para Brasil de S&atilde;o Tom&eacute; e Pr&iacute;ncipe",
+    "wordCount": 1107
+  },
+  {
+    "route": "/pt-br/countries/saudi-arabia/",
+    "title": "Mudar-se para Brasil da Ar&aacute;bia Saudita",
+    "wordCount": 1073
+  },
+  {
+    "route": "/pt-br/countries/senegal/",
+    "title": "Passando para Brasil do Senegal",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/serbia/",
+    "title": "Passando para Brasil da S&eacute;rvia",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/seychelles/",
+    "title": "Passando para Brasil das Seicheles",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/sierra-leone/",
+    "title": "Passando para Brasil a partir da Serra Leoa",
+    "wordCount": 1083
+  },
+  {
+    "route": "/pt-br/countries/singapore/",
+    "title": "Mudar para Brasil de Singapura",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/slovakia/",
+    "title": "Passando para Brasil da Eslov&aacute;quia",
+    "wordCount": 1070
+  },
+  {
+    "route": "/pt-br/countries/slovenia/",
+    "title": "Passando para Brasil da Eslov&eacute;nia",
+    "wordCount": 1068
+  },
+  {
+    "route": "/pt-br/countries/solomon-islands/",
+    "title": "Passagem para Brasil das Ilhas Salom&atilde;o",
+    "wordCount": 1075
+  },
+  {
+    "route": "/pt-br/countries/somalia/",
+    "title": "Passando para Brasil da Som&aacute;lia",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/south-africa/",
+    "title": "Mudar-se para Brasil da &Aacute;frica do Sul",
+    "wordCount": 1085
+  },
+  {
+    "route": "/pt-br/countries/south-korea/",
+    "title": "Passando para Brasil da Coreia do Sul",
+    "wordCount": 1086
+  },
+  {
+    "route": "/pt-br/countries/south-sudan/",
+    "title": "Passando para Brasil do Sud&atilde;o do Sul",
+    "wordCount": 1087
+  },
+  {
+    "route": "/pt-br/countries/spain/",
+    "title": "Mudar para Brasil da Espanha",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/sri-lanka/",
+    "title": "Passando para Brasil do Sri Lanka",
+    "wordCount": 1081
+  },
+  {
+    "route": "/pt-br/countries/sudan/",
+    "title": "Passando para Brasil do Sud&atilde;o",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/suriname/",
+    "title": "A mover- se para Brasil a partir do Suriname",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/sweden/",
+    "title": "Mudar para Brasil da Su&eacute;cia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/switzerland/",
+    "title": "Mudar para Brasil da Su&iacute;&ccedil;a",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/syria/",
+    "title": "Passando para Brasil da S&iacute;ria",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/tajikistan/",
+    "title": "Passando para Brasil do Tajiquist&atilde;o",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/tanzania/",
+    "title": "Mudar-se para Brasil da Tanz&acirc;nia",
+    "wordCount": 1060
+  },
+  {
+    "route": "/pt-br/countries/thailand/",
+    "title": "Mudar-se para Brasil da Tail&acirc;ndia",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/timor-leste/",
+    "title": "Passando para Brasil de Timor-Leste",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/togo/",
+    "title": "A mover-se para Brasil do Togo",
+    "wordCount": 1064
+  },
+  {
+    "route": "/pt-br/countries/tonga/",
+    "title": "Mudar para Brasil de Tonga",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/trinidad-and-tobago/",
+    "title": "Mudar-se para Brasil de Trinidad e Tobago",
+    "wordCount": 1083
+  },
+  {
+    "route": "/pt-br/countries/tunisia/",
+    "title": "Passando para Brasil da Tun&iacute;sia",
+    "wordCount": 1069
+  },
+  {
+    "route": "/pt-br/countries/turkey/",
+    "title": "Passando para Brasil da Turquia",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/turkmenistan/",
+    "title": "Passando para Brasil do Turquemenist&atilde;o",
+    "wordCount": 1062
+  },
+  {
+    "route": "/pt-br/countries/tuvalu/",
+    "title": "Mudar para Brasil de Tuvalu",
+    "wordCount": 1059
+  },
+  {
+    "route": "/pt-br/countries/uganda/",
+    "title": "Passando para Brasil a partir de Uganda",
+    "wordCount": 1063
+  },
+  {
+    "route": "/pt-br/countries/ukraine/",
+    "title": "Passando para Brasil da Ucr&acirc;nia",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/united-arab-emirates/",
+    "title": "Mudar-se para Brasil a partir dos Emirados &Aacute;rabes Unidos",
+    "wordCount": 1094
+  },
+  {
+    "route": "/pt-br/countries/united-kingdom/",
+    "title": "Mudar para Brasil a partir do Reino Unido",
+    "wordCount": 1074
+  },
+  {
+    "route": "/pt-br/countries/united-states/",
+    "title": "Mudar para Brasil a partir dos Estados Unidos",
+    "wordCount": 1081
+  },
+  {
+    "route": "/pt-br/countries/uruguay/",
+    "title": "Mudar para Brasil do Uruguai",
+    "wordCount": 1061
+  },
+  {
+    "route": "/pt-br/countries/uzbekistan/",
+    "title": "Passando para Brasil do Uzbequist&atilde;o",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/vanuatu/",
+    "title": "Mudar para Brasil de Vanuatu",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/vatican-city/",
+    "title": "Mudando-se para Brasil da Cidade do Vaticano",
+    "wordCount": 1091
+  },
+  {
+    "route": "/pt-br/countries/venezuela/",
+    "title": "Mudar para Brasil da Venezuela",
+    "wordCount": 1065
+  },
+  {
+    "route": "/pt-br/countries/vietnam/",
+    "title": "Passando para Brasil do Vietname",
+    "wordCount": 1057
+  },
+  {
+    "route": "/pt-br/countries/yemen/",
+    "title": "Passando para Brasil do I&eacute;men",
+    "wordCount": 1067
+  },
+  {
+    "route": "/pt-br/countries/zambia/",
+    "title": "Mudar-se para Brasil da Z&acirc;mbia",
+    "wordCount": 1058
+  },
+  {
+    "route": "/pt-br/countries/zimbabwe/",
+    "title": "Passando para Brasil do Zimbabu&eacute;",
+    "wordCount": 1061
+  },
+  {
     "route": "/pt-br/insights/",
-    "title": "Biblioteca de Insights de Imigra&ccedil;&atilde;o de Monique Fernandes Brasil",
-    "wordCount": 822
+    "title": "Insights",
+    "wordCount": 1198
   },
   {
     "route": "/pt-br/insights/blog/",
-    "title": "Monique Fernandes' Brasil Imigra&ccedil;&atilde;o Blog e Biblioteca de artigos",
-    "wordCount": 20373
+    "title": "Blog",
+    "wordCount": 1307
+  },
+  {
+    "route": "/pt-br/insights/fyi/",
+    "title": "Arquivo FYI: notas de imigra&ccedil;&atilde;o mais curtas, mudan&ccedil;as de viagem, e sinais de planejamento Brasil",
+    "wordCount": 2002
+  },
+  {
+    "route": "/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/",
+    "title": "Antonio Prado (Rs) ganha selo de turismo Un e torna-se uma refer&ecirc;ncia mundial O Encantador",
+    "wordCount": 464
+  },
+  {
+    "route": "/pt-br/insights/fyi/ant-nio-prado-village-brazil-s-italian-heritage-gains-global-recognition-the-charming/",
+    "title": "Vila Antonio Prado: Patrim&oacute;nio Italiano da Brasil ganha reconhecimento global O Encantador",
+    "wordCount": 447
+  },
+  {
+    "route": "/pt-br/insights/fyi/attention-what-to-avoid-in-the-airport-restricted-area-being-in-a-restricted-area-of/",
+    "title": "Aten&ccedil;&atilde;o! O que evitar na &aacute;rea restrita do aeroporto. Estar em uma &aacute;rea restrita de",
+    "wordCount": 475
+  },
+  {
+    "route": "/pt-br/insights/fyi/beninese-citizenship-the-symbolic-return-of-thousands-of-afro-brazilians-to-their/",
+    "title": "Cidadania Benina: O \"Retorno\" Simb&oacute;lico de Milhares de Afro-Brasilianos",
+    "wordCount": 461
+  },
+  {
+    "route": "/pt-br/insights/fyi/bomb-in-suitcase-joke-leads-passenger-to-arrest-at-bras-lia-airport-in-news-recently/",
+    "title": "Piada de \"Bomba em Mala\" leva passageiros a prenderem no Aeroporto de Bras&iacute;lia em not&iacute;cias recentes",
+    "wordCount": 399
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-and-india-extend-visa-validity-to-10-years-brazil-and-india-signed-a/",
+    "title": "Brasil e &Iacute;ndia estender a validade do visto para 10 anos Brasil e &Iacute;ndia assinado A",
+    "wordCount": 394
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-broadens-visitor-visa-rules-to-allow-technical-and-technology-transfer-work/",
+    "title": "Brasil amplia as regras de visto do visitante para permitir o trabalho t&eacute;cnico e de transfer&ecirc;ncia de tecnologia",
+    "wordCount": 445
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/",
+    "title": "Brasil Perspectiva Legal do Instagram Post □ Variante 2",
+    "wordCount": 358
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-3/",
+    "title": "Brasil Perspectiva Legal do Instagram Post □ Variante 3",
+    "wordCount": 359
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post/",
+    "title": "Brasil Perspectiva Legal do Instagram Post.",
+    "wordCount": 358
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-makes-the-top-10/",
+    "title": "Brasil faz o Top 10!",
+    "wordCount": 388
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-s-carnival-holiday-carnival-in-brazil-is-a-vibrant-festival-that/",
+    "title": "Brasil Carnaval Carnaval Carnaval em Brasil &eacute; um festival vibrante que",
+    "wordCount": 378
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-s-digital-nomad-visa-is-a-trending-choice/",
+    "title": "O visto digital de N&ocirc;made da Brasil &eacute; uma escolha de tend&ecirc;ncia.",
+    "wordCount": 396
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-s-paraty-city-recognised-as-one-of-the-world-s-most-beautiful-villages-paraty/",
+    "title": "Brasil's Paraty City reconhecida como uma das vilas mais bonitas do mundo Paraty,",
+    "wordCount": 436
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazil-s-working-holiday-visa-for-young-travellers-from-select-countries/",
+    "title": "Visto de trabalho de f&eacute;rias da Brasil para jovens viajantes de pa&iacute;ses selecionados,",
+    "wordCount": 430
+  },
+  {
+    "route": "/pt-br/insights/fyi/brazilians-around-the-world-where-of-the-largest-communities-live/",
+    "title": "Brasilians Around The World: Onde vivem as maiores comunidades?",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/fyi/china-extends-visa-exemption-for-brazilians-until-the-end-of-2026-china/",
+    "title": "China estende isen&ccedil;&atilde;o de visto para Brasilians at&eacute; o fim de 2026 China",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/fyi/did-you-know-portugal-signed-a-historic-decree-to-recognize-the-national-driving/",
+    "title": "Portugal assinou um decreto hist&oacute;rico para reconhecer a condu&ccedil;&atilde;o nacional",
+    "wordCount": 426
+  },
+  {
+    "route": "/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/",
+    "title": "Governo Federal lan&ccedil;a p&aacute;gina oficial sobre a sa&iacute;da definitiva do imposto de Brasil",
+    "wordCount": 456
+  },
+  {
+    "route": "/pt-br/insights/fyi/guarulhos-airport-reinforces-liquid-inspection-attention-travelers/",
+    "title": "Aeroporto de Guarulhos Refor&ccedil;a a Inspe&ccedil;&atilde;o L&iacute;quida Aten&ccedil;&atilde;o, Viajantes!",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/fyi/happy-new-year-happy-new-year-if-you-haven-t-started-planning-your-year-yet-this-is/",
+    "title": "Feliz Ano Novo! Feliz Ano Novo! Se voc&ecirc; ainda n&atilde;o come&ccedil;ou a planejar seu ano, este &eacute;",
+    "wordCount": 389
+  },
+  {
+    "route": "/pt-br/insights/fyi/immigrant-children-in-brazil-how-provisional-naturalization-works-it-is-a-form-of/",
+    "title": "Crian&ccedil;as imigrantes em Brasil: Como funciona a naturaliza&ccedil;&atilde;o provis&oacute;ria &Eacute; uma forma de",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/fyi/international-buyers-can-purchase-property-in-brazil-how-does-it-work/",
+    "title": "Compradores internacionais podem comprar im&oacute;veis em Brasil: Como funciona?",
+    "wordCount": 448
+  },
+  {
+    "route": "/pt-br/insights/fyi/italy-allows-large-dogs-in-the-airplane-cabin-for-the-first-time-in-the-world/",
+    "title": "It&aacute;lia permite c&atilde;es grandes na cabine de avi&atilde;o pela primeira vez no mundo",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/fyi/italy-plans-almost-500-000-work-visas-for-non-europeans-by-2028-the-government/",
+    "title": "It&aacute;lia planeja quase 500 mil vistos de trabalho para n&atilde;o europeus at&eacute; 2028 O governo",
+    "wordCount": 426
+  },
+  {
+    "route": "/pt-br/insights/fyi/new-criteria-on-health-could-restrict-the-granting-of-us-visas-the-government-of-the/",
+    "title": "Novos crit&eacute;rios de sa&uacute;de poderia restringir a concess&atilde;o de n&oacute;s vistos o governo do",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/fyi/new-fee-on-international-connections-in-peru-could-change-the-game-for-those-stopping/",
+    "title": "Novas taxas sobre conex&otilde;es internacionais no Peru poderiam mudar o jogo para aqueles que param",
+    "wordCount": 437
+  },
+  {
+    "route": "/pt-br/insights/fyi/pathways-to-brazilian-citizenship-for-parents-and-siblings-of-brazilian-children/",
+    "title": "Caminhos para a cidadania Brasilian para pais e irm&atilde;os de crian&ccedil;as Brasilian",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/fyi/portugal-ends-the-old-work-search-visa-and-creates-a-new-modality-visa-to-search/",
+    "title": "Portugal termina a antiga busca de trabalho Visa e cria uma nova modalidade: visto para pesquisar",
+    "wordCount": 452
+  },
+  {
+    "route": "/pt-br/insights/fyi/sistema-ees-entra-em-vigor-nos-aeroportos-europa-aperta-o-cerco-a-quem-ultrapassa-o/",
+    "title": "Sistema Ees Entra Em vigor Nos Aeroportos: Europa Aperta O Cerca A Quem Ultrapassa O",
+    "wordCount": 504
+  },
+  {
+    "route": "/pt-br/insights/fyi/things-you-should-never-of-in-the-airport-s-restricted-area-being-in-an-airport-s/",
+    "title": "Coisas que voc&ecirc; nunca deve de na &aacute;rea restrita do aeroporto estar em um aeroporto",
+    "wordCount": 465
+  },
+  {
+    "route": "/pt-br/insights/fyi/tourism-in-brazil-hits-historic-record-with-nearly-8-million-international-arrivals-in/",
+    "title": "Turismo em Brasil atinge recorde hist&oacute;rico com quase 8 milh&otilde;es de chegadas internacionais em",
+    "wordCount": 466
+  },
+  {
+    "route": "/pt-br/insights/fyi/travelling-solo-with-your-child-important-name-mismatch-considerations-a-parent/",
+    "title": "Viajando Solo com seu filho: Considera&ccedil;&otilde;es importantes nome-mismas um pai",
+    "wordCount": 477
+  },
+  {
+    "route": "/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/",
+    "title": "Reino Unido faz altera&ccedil;&otilde;es &agrave; sua pol&iacute;tica de asilo O Reino Unido anunciou,",
+    "wordCount": 371
+  },
+  {
+    "route": "/pt-br/insights/fyi/usa-suspends-issuing-immigrant-visas-to-brazilians-the-united-states-announced-the/",
+    "title": "Usa Suspends Emiss&atilde;o de Vistos de Imigrantes para Brasilians Os Estados Unidos anunciaram o",
+    "wordCount": 440
+  },
+  {
+    "route": "/pt-br/insights/fyi/valorizando-o-brazil-a-vila-brasileira-reconhecida-entre-as-mais-bonitas-of-mundo/",
+    "title": "Valorizando O Brasil: A Vila Brasileira Reconhecida Entre As Mais Bonitas de Mundo",
+    "wordCount": 452
+  },
+  {
+    "route": "/pt-br/insights/fyi/volunteer-visa-for-work-in-non-profit-and-international-organisations-in-brazil/",
+    "title": "Visto de Volunt&aacute;rio para Trabalho em Organiza&ccedil;&otilde;es N&atilde;o Profit e Internacionais em Brasil",
+    "wordCount": 443
+  },
+  {
+    "route": "/pt-br/insights/fyi/what-are-the-steps-to-legally-move-and-live-in-brazil/",
+    "title": "Quais s&atilde;o os passos para legalmente mover e viver em Brasil?",
+    "wordCount": 315
+  },
+  {
+    "route": "/pt-br/insights/fyi/when-that-traveler-from-a-cold-country-comes-to-brazil-and-feels-amazed-with-the/",
+    "title": "Quando esse viajante de um pa&iacute;s frio vem para Brasil e se sente espantado com o",
+    "wordCount": 335
+  },
+  {
+    "route": "/pt-br/insights/fyi/why-brazil-s-student-visa-vitem-iv-absolutely-beats-the-us-f-1-you-land/",
+    "title": "Por que o visto de estudante do Brasil (Vitem-Iv) &eacute; absolutamente melhor que o nosso F-1 voc&ecirc; aterra",
+    "wordCount": 409
   },
   {
     "route": "/pt-br/insights/general/",
-    "title": "Brasil Bases de Imigra&ccedil;&atilde;o: Vistos, Resid&ecirc;ncia, Documentos e Autoridades P&uacute;blicas",
+    "title": "Geral",
     "wordCount": 2022
   },
   {
     "route": "/pt-br/insights/guides/",
-    "title": "Guias Brasil: Movendo, Setting, Documentos e Perguntas Todos os Dias",
+    "title": "Guias",
     "wordCount": 1273
   },
   {
+    "route": "/pt-br/insights/guides/are-you-a-tourist-in-brazil-and-want-to-live-here/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 22 de agosto de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/are-you-dreaming-of-getting-a-green-card-but-worried-about-the-sponsor/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 11 de julho de 2023",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/can-football-fans-sing-homophobic-chants/",
+    "title": "Os f&atilde;s de futebol podem cantar c&acirc;nticos homof&oacute;bicos?",
+    "wordCount": 258
+  },
+  {
+    "route": "/pt-br/insights/guides/can-i-bring-my-familia-family-to-brazil-if-i-have-a-work-visa/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 16 de abril de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/did-the-bank-lower-your-credit-limit-or-cancel-your-account-suddenly/",
+    "title": "O banco baixou o seu limite de cr&eacute;dito ou cancelou a sua conta de repente?",
+    "wordCount": 295
+  },
+  {
+    "route": "/pt-br/insights/guides/did-you-know-that-anyone-who-buys-their-first-residential-property-fin/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 11 de agosto de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl-2/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento.",
+    "wordCount": 423
+  },
+  {
+    "route": "/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 29 de agosto de 2023",
+    "wordCount": 427
+  },
+  {
+    "route": "/pt-br/insights/guides/do-i-need-to-get-my-diploma-from-my-home-country-validated-in-brazil/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 23 de maio de 2025",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 2 de agosto de 2023",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 17 de outubro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/have-you-ever-wondered-what-happens-if-a-child-support-decision-for-a/",
+    "title": "J&aacute; se perguntou o que acontece se uma decis&atilde;o de pens&atilde;o de alimentos para uma crian&ccedil;a",
+    "wordCount": 258
+  },
+  {
+    "route": "/pt-br/insights/guides/have-you-paid-a-debt-at-a-discount-but-your-name-remains-subject-to-in/",
+    "title": "Voc&ecirc; pagou uma d&iacute;vida com um desconto, mas seu nome permanece sujeito a interna",
+    "wordCount": 295
+  },
+  {
+    "route": "/pt-br/insights/guides/how-can-i-keep-in-touch-with-my-child-in-brazil-if-i-dont-live-there/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 21 de novembro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/how-can-i-keep-in-touch-with-my-child-located-in-brazil-if-i-don-t-liv/",
+    "title": "Como posso manter contato com meu filho localizado no Brasil se eu n&atilde;o morar l&aacute;?",
+    "wordCount": 258
+  },
+  {
+    "route": "/pt-br/insights/guides/how-long-does-it-take-to-get-brazilian-passport/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 28 de novembro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/how-long-does-it-take-to-obtain-brazilian-citizenship/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 19 de dezembro de 2025",
+    "wordCount": 428
+  },
+  {
+    "route": "/pt-br/insights/guides/how-to-schedule-an-immigration-interview-for-residency-with-the-federa/",
+    "title": "Procedimentos da Pol&iacute;cia Federal para imigrantes em Brasil.",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/guides/if-a-foreigner-has-a-child-in-brazil-does-he-have-the-automatic-right/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento □ 30 de Maio de 2025",
+    "wordCount": 423
+  },
+  {
+    "route": "/pt-br/insights/guides/immigration-x-emigration-do-you-know-the-difference/",
+    "title": "Imigra&ccedil;&atilde;o x Emigra&ccedil;&atilde;o: voc&ecirc; sabe a diferen&ccedil;a?",
+    "wordCount": 431
+  },
+  {
+    "route": "/pt-br/insights/guides/is-a-marriage-celebrated-abroad-valid-in-brazil/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil □ 13 de junho de 2023",
+    "wordCount": 252
+  },
+  {
+    "route": "/pt-br/insights/guides/is-it-necessary-to-speak-portuguese-to-live-in-brazil/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 9 de junho de 2025",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/is-it-true-that-there-were-changes-to-obtaining-an-american-visa/",
+    "title": "&Eacute; verdade que houve mudan&ccedil;as na obten&ccedil;&atilde;o de um visto americano?",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/guides/living-in-brazil-and-had-an-issue-with-a-product-or-service/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 8 de julho de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/the-visa-has-expired-will-i-have-to-pay-a-fine/",
+    "title": "O visto expirou, terei de pagar uma multa?",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/guides/this-way-in-the-event-of-an-end-to-the-relationship-they-will-have-to/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 12 de junho de 2023",
+    "wordCount": 250
+  },
+  {
+    "route": "/pt-br/insights/guides/tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 10 de julho de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/want-to-live-in-brazil-while-investing-in-the-countrys-growth/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 6 de agosto de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/want-to-turn-your-investment-into-residency-in-brazil/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 7 de outubro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/what-happens-during-an-immigration-consultation/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 9 de outubro de 2023",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/what-rights-do-immigrants-have-in-brazil/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 10 de abril de 2025",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 13 de novembro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 6 de fevereiro de 2025",
+    "wordCount": 287
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-brazilian-resides-in-another-country-and-works-there-without-ea/",
+    "title": "Quando um Brasilian reside em outro pa&iacute;s e trabalha l&aacute;, sem sal&aacute;rio",
+    "wordCount": 258
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-intends-to/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 4 de julho de 2024",
+    "wordCount": 427
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-plans-to-g/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 19 de junho de 2024",
+    "wordCount": 423
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-person-from-abroad-arrives-in-brazil-this-person-has-the-right/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil . 30 de mar&ccedil;o de 2023",
+    "wordCount": 282
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-person-stays-in-the-united-states-beyond-the-time-allowed-as-a/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 8 de maio de 2025",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-temporary-brazilian-visa-is-nearing-its-expiry-it-is-necessary/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 21 de outubro de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/when-a-us-visa-is-denied-the-consulate-does-not-provide-specific-detai/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 3 de dezembro de 2024",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/guides/when-exchanging-money-during-international-travel-it-is-essential-to-b/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 10 de fevereiro de 2025",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/when-exchanging-money-on-international-trips-it-is-essential-to-be-car/",
+    "title": "Ao trocar dinheiro em viagens internacionais, &eacute; essencial ter cuidado",
+    "wordCount": 295
+  },
+  {
+    "route": "/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/",
+    "title": "Passos consulares conectados ao Brasil , 20 de mar&ccedil;o de 2024",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/guides/when-requested-the-resident-immigrant-card-may-take-60-to-90-days-to-b/",
+    "title": "Brasil orienta&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 7 de fevereiro de 2024",
+    "wordCount": 291
+  },
+  {
+    "route": "/pt-br/insights/guides/when-the-temporary-visa-granted-is-close-to-expiry-it-is-necessary-to/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 16 de outubro de 2025",
+    "wordCount": 422
+  },
+  {
     "route": "/pt-br/insights/naturalisation/",
-    "title": "Brasil Naturaliza&ccedil;&atilde;o Insights: Continuidade, Elegibilidade, Registros e Timing",
+    "title": "Naturaliza&ccedil;&atilde;o",
     "wordCount": 1709
   },
   {
+    "route": "/pt-br/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento □ 29 de setembro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/a-recent-case-in-brazil-where-a-tourist-was-fined-the-equivalent-of-ne/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 26 de novembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/a-very-important-public-body-that-foreigners-should-know-about-when-li/",
+    "title": "Um organismo p&uacute;blico muito importante que os estrangeiros devem saber quando vivem em",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/after-an-application-for-naturalization-was-denied-through-the-adminis/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 16 de Janeiro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/after-the-naturalization-request-was-denied-administratively-an-action/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 12 de dezembro de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/aire-is-a-vital-and-mandatory-registration-for-italian-citizens-living/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 21 de novembro de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/as-of-late-july-2024-the-ministry-of-justice-and-public-security-mjsp/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 12 de novembro de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/at-the-beginning-of-the-search-and-with-little-information-identifying/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 30 de novembro de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-grants-permanent-residence-to-foreigners-through-different-type/",
+    "title": "Planejamento de Imigra&ccedil;&atilde;o de Investidores para Brasil.",
+    "wordCount": 420
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-2/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 25 de Junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-3/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 5 de junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-4/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 14 de Maio de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 19 de Setembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-offers-a-special-form-of-naturalisation-for-foreigners-who-have/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 24 de junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-offers-a-special-form-of-naturalization-for-those-who-have-prov/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 9 de julho de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-offers-a-specific-visa-and-residence-permit-for-artists-and-ath/",
+    "title": "Brasil oferece um visto espec&iacute;fico e permiss&atilde;o de resid&ecirc;ncia para artistas e atletas",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-offers-the-possibility-of-permanent-residence-for-foreign-famil/",
+    "title": "Brasil oferece a possibilidade de resid&ecirc;ncia permanente para fam&iacute;lias estrangeiras que",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-recognises-various-types-of-travel-documents-for-the-purposes-o/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 23 de julho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-recognizes-several-types-of-travel-documents-for-purposes-of-en/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 10 de julho de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazil-s-rise-in-global-mobility-rankings-and-the-usa-passport-drops-o/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 24 de novembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazilian-nationality-is-not-always-determined-automatically/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 21 de outubro de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-2/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning .",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-3/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 30 de mar&ccedil;o de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento.",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/brazilians-have-reported-problems-processing-expressions-of-interest-t/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 4 de junho de 2024",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/companies-and-individuals-in-brazil-can-hire-foreigners-through-a-form/",
+    "title": "Empresas e indiv&iacute;duos em Brasil podem contratar estrangeiros atrav&eacute;s de um",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/despite-the-international-names-these-delicacies-are-very-brazilian-or/",
+    "title": "Apesar dos nomes internacionais, estas iguarias s&atilde;o muito Brasilian, ou, em",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/establishing-yourself-in-brazil-with-your-family-is-entirely-possible/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil □ 24 de setembro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/etias-european-travel-information-and-authorization-system-will-be-a-r/",
+    "title": "Regras de passaporte e de viagem ligadas &agrave; Brasil □ 6 de novembro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/firstly-it-is-essential-to-understand-that-both-brazil-and-the-united/",
+    "title": "Imigra&ccedil;&atilde;o baseada no estudo para Brasil □ 18 de outubro de 2023",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/for-those-who-have-fallen-in-love-with-brazil-and-wish-to-make-it-thei/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 11 de junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 26 de Junho de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/foreigners-must-prove-legal-residence-in-portugal-for-at-least-five-ye/",
+    "title": "Os estrangeiros devem provar resid&ecirc;ncia legal em Portugal durante, pelo menos, cinco anos a",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/foreigners-who-exceed-the-permitted-time-of-stay-in-brazil-either-by-e/",
+    "title": "Estrangeiros que excedam o tempo permitido de estadia em Brasil, quer por",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/having-a-valid-american-visa-does-not-automatically-guarantee-entry-in/",
+    "title": "Ter um visto americano v&aacute;lido n&atilde;o garante automaticamente a entrada no",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/i-am-a-regular-resident-but-i-am-outside-brazil/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 27 de junho de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 2 de julho de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/if-you-have-a-luxembourgish-parent-or-grandparent-you-also-would-not-n/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento □ 20 de dezembro de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 18 de Abril de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-brazil-deportation-is-an-administrative-measure-applied-to-people-w/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 20 de outubro de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-brazil-undergraduate-and-postgraduate-diplomas-obtained-abroad-must/",
+    "title": "Em Brasil, os diplomas de gradua&ccedil;&atilde;o e p&oacute;s-gradua&ccedil;&atilde;o obtidos no exterior devem ir",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-other-words-even-if-the-birth-took-place-years-ago-registration-can/",
+    "title": "Regras de passaporte e de viagem ligadas ao Brasil.",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-principle-yes-but-it-is-not-recommended/",
+    "title": "Regras de passaporte e de viagem ligadas &agrave; Brasil □ 1 de agosto de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-some-cases-there-is-the-possibility-for-the-great-grandchildren-of/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento.",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-the-context-of-relations-between-brazil-and-portugal-the-request-fo/",
+    "title": "No contexto das rela&ccedil;&otilde;es entre a Brasil e Portugal, o pedido de",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/in-the-event-of-deportation-it-is-essential-that-the-immigrant-is-awar/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 7 de Agosto de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-of-the/",
+    "title": "A guarda internacional de crian&ccedil;as pode tornar-se uma quest&atilde;o complexa quando uma das",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-parent/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 25 de Fevereiro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/investing-in-brazil-with-an-investor-visa-offers-a-dynamic-blend-of-ec/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 27 de Maio de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-is-an-important-date-to-reinforce-the-fight-against-all-forms-of-ra/",
+    "title": "&Eacute; uma data importante para refor&ccedil;ar a luta contra todas as formas de racismo e de",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-is-important-to-highlight-that-the-process-of-obtaining-luxembourg/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 23 de novembro de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-is-possible-for-a-brazilian-person-to-request-recognition-of-irish/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 3 de julho de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli-2/",
+    "title": "Ficando mais tempo em Brasil Ap&oacute;s a entrada tur&iacute;stica.",
+    "wordCount": 421
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 4 de Abril de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/it-should-be-noted-that-no-one-will-be-prevented-from-entering-the-cou/",
+    "title": "&Eacute; de notar que ningu&eacute;m ser&aacute; impedido de entrar no pa&iacute;s",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/large-universities-outside-brazil-allow-admission-without-the-need-to/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 14 de Agosto de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-2/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 8 de Outubro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-3/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 29 de setembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-4/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 14 de Agosto de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-5/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 1 de Julho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-6/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 17 de junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-7/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 13 de Junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-8/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 12 de junho de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 25 de Outubro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/luso-brazilian-community-day-celebrates-the-strong-ties-between-portug/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil.",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/military-enlistment-is-mandatory-for-brazilians-even-abroad-even-livin/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 4 de novembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/my-immigrant-card-is-valid-until-2030-but-my-stable-union-is-over/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil.25 de julho de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/naturalized-brazilian-men-aged-between-18-and-45-must-enlist-in-the-mi/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento.30 de janeiro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/",
+    "title": "20 de novembro - Dia da Consci&ecirc;ncia Negra* O Dia da Consci&ecirc;ncia Negra &eacute; um hist&oacute;rico e",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/on-december-19-2023-the-french-senate-approved-a-controversial-immigra/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil . 6 de mar&ccedil;o de 2024",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/on-teacher-s-day-celebrated-on-october-15th-we-honor-those-who-with-de/",
+    "title": "No Dia dos Professores, celebrado em 15 de Outubro, honramos aqueles que, com",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/on-this-date-we-reinforce-our-commitment-to-valuing-and-protecting-eld/",
+    "title": "Nesta data, refor&ccedil;amos nosso compromisso de valorizar e proteger os idosos.",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/",
+    "title": "Neste dia, expressamos gratid&atilde;o a cada um que confia no nosso trabalho jur&iacute;dico",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/once-approved-this-process-grants-you-full-brazilian-citizenship-with/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 25 de setembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/parents-of-minor-children-with-dual-nationality-can-and-should-maintai/",
+    "title": "Os pais de crian&ccedil;as menores de dupla nacionalidade podem e devem manter",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/people-living-in-brazil-can-apply-for-naturalisation-to-become-brazili/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 17 de novembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat-2/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento □ 12 de mar&ccedil;o de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 26 de Mar&ccedil;o de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/pix-a-brazilian-instant-payment-system-is-expanding-internationally-th/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 19 de agosto de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/portugal-recently-approved-a-set-of-changes-to-immigration-legislation/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 18 de setembro de 2025",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/pregnant-women-that-come-to-brazil-to-have-their-baby-can-apply-for-re/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 5 de setembro de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 10 de julho de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/recently-the-united-states-lost-its-position-in-the-top-10-of-the-most/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 8 de dezembro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/rectification-of-settlements-is-an-essential-procedure-in-citizenship/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil , 10 de abril de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/refugees-unlike-other-immigrants-are-those-who-suffer-compulsory-displ/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil . 8 de abril de 2024",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/registering-a-childs-birth-at-a-brazilian-consular-office-abroad-is-no/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 19 de Mar&ccedil;o de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/relocating-to-brazil-with-your-family-is-certainly-possible-as-long-as/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 3 de Outubro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/searching-for-certificates-is-an-essential-step-in-the-citizenship-pro/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil . 5 de dezembro de 2024",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/seeking-legal-advice-from-an-immigration-lawyer-in-brazil-is-crucial-d/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 6 de Fevereiro de 2024",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/sporadic-trips-abroad-for-which-the-sum-of-periods-does-not-exceed-12/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 30 de agosto de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/sporadic-trips-abroad-the-sum-of-which-does-not-exceed-12-months-durin/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 4 de setembro de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/starting-september-2-2025-the-u-s-department-of-state-will-require-an/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil , 4 de dezembro de 2025",
+    "wordCount": 411
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-certificate-of-proficiency-in-portuguese-language-for-foreigners-c/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 31 de julho de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-chamber-of-deputies-has-just-approved-a-proposed-amendment-to-the/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 7 de dezembro de 2023",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-date-invites-reflection-on-one-of-the-darkest-pages-in-human-histo/",
+    "title": "A data convida a reflex&atilde;o sobre uma das p&aacute;ginas mais escuras da hist&oacute;ria humana:",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-deadline-to-begin-the-process-of-recognizing-spanish-citizenship-f/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil.",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-humanitarian-and-institutional-crisis-that-is-plaguing-venezuela-h/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 31 de julho de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil.25 de janeiro de 2024",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-mobility-agreement-between-cplp-member-states-communities-of-portu/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 25 de outubro de 2023",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-new-naturalization-law-in-germany-approved-by-the-bundestag-simpli/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 23 de maio de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-new-visa-and-residence-permit-agreement-between-angola-brazil-cape/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 31 de outubro de 2023",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-portuguese-language-plays-a-fundamental-role-in-brazil-s-culture-a/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 13 de Dezembro de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-recently-announced-innovation-allows-brazilian-tourists-to-pay-for/",
+    "title": "A inova&ccedil;&atilde;o recentemente anunciada permite aos turistas Brasilian pagar por sua",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-renewal-of-the-resident-card-in-brazil-may-be-prevented-in-some-sp/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 6 de agosto de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/the-voluntary-renunciation-of-brazilian-nationality-provided-for-in-th/",
+    "title": "A ren&uacute;ncia volunt&aacute;ria da nacionalidade Brasilian, prevista no",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/this-is-an-important-opportunity-for-people-with-brazilian-ancestry-to/",
+    "title": "Passos Consulares Conectados ao Brasil □ 8 de setembro de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/to-do-this-it-is-possible-to-register-your-birth-at-any-time-at-a-braz/",
+    "title": "Passos consulares conectados ao Brasil □ 9 de setembro de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/to-formalise-this-status-their-birth-can-be-registered-at-any-time-at/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 17 de setembro de 2025",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/to-obtain-brazilian-citizenship-individuals-generally-must-meet-specif/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 11 de junho de 2024",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/today-we-recognize-the-resilience-wisdom-and-diversity-of-indigenous-p/",
+    "title": "Hoje reconhecemos a resili&ecirc;ncia, a sabedoria e a diversidade dos povos ind&iacute;genas",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/under-the-new-spanish-law-on-obtaining-citizenship-more-people-have-th/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 6 de Setembro de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/us-imposes-new-visa-restrictions-on-12-countries-since-june-9-2025-an/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 10 de julho de 2025",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/we-celebrate-the-achievements-of-women-around-the-world-and-reaffirm-t/",
+    "title": "Celebramos as conquistas das mulheres em todo o mundo e reafirmamos o",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/whether-you-re-travelling-to-brazil-for-a-short-stay-or-planning-a-lon/",
+    "title": "Planejamento digital de n&oacute;madas Brasil □ 6 de outubro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/why-contact-with-marine-animals-is-prohibited-in-tourist-areas-the-epi/",
+    "title": "Por que o contato com animais marinhos &eacute; proibido em &aacute;reas tur&iacute;sticas O epis&oacute;dio em",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/with-the-democratic-memory-law-in-force-now-the-adult-grandchildren-of/",
+    "title": "Guia de naturaliza&ccedil;&atilde;o Brasil □ 21 de Agosto de 2023",
+    "wordCount": 419
+  },
+  {
+    "route": "/pt-br/insights/naturalisation/work-in-finland-an-initiative-supported-by-the-finnish-government-netw/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil.",
+    "wordCount": 412
+  },
+  {
     "route": "/pt-br/insights/process/",
-    "title": "Brasil Perspectivas do processo de imigra&ccedil;&atilde;o: Estrat&eacute;gia, Arquivamento, Aprova&ccedil;&atilde;o e P&oacute;s-Cuidado",
+    "title": "Processo",
     "wordCount": 1467
   },
   {
+    "route": "/pt-br/insights/process/airports-are-busy-places-it-is-important-to-always-be-aware/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens □ 26 de setembro de 2023",
+    "wordCount": 293
+  },
+  {
+    "route": "/pt-br/insights/process/all-passengers-have-the-right-to-take-their-hand-luggage-and-personal/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens □ 17 de outubro de 2023",
+    "wordCount": 293
+  },
+  {
+    "route": "/pt-br/insights/process/an-honorary-consulate-is-a-voluntary-diplomatic-representation-of-a-co/",
+    "title": "Passos consulares conectados ao Brasil □ 17 de junho de 2024",
+    "wordCount": 288
+  },
+  {
+    "route": "/pt-br/insights/process/appealing-a-traffic-fine-is-your-right/",
+    "title": "Apelar a uma multa de tr&acirc;nsito &eacute; o seu direito",
+    "wordCount": 292
+  },
+  {
+    "route": "/pt-br/insights/process/bulgaria-and-romania-will-partially-join-the-european-union-s-schengen/",
+    "title": "A Bulg&aacute;ria e a Rom&eacute;nia aderir&atilde;o parcialmente ao Espa&ccedil;o Schengen da Uni&atilde;o Europeia",
+    "wordCount": 292
+  },
+  {
+    "route": "/pt-br/insights/process/deportation-as-defined-by-brazilian-legislation-is-an-administrative-p/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 1 de Abril de 2024",
+    "wordCount": 286
+  },
+  {
+    "route": "/pt-br/insights/process/deportation-is-a-measure-provided-for-by-law-for-the-compulsory-remova/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 8 de novembro de 2023",
+    "wordCount": 286
+  },
+  {
+    "route": "/pt-br/insights/process/each-federal-police-immigration-service-point-has-a-different-procedur/",
+    "title": "Procedimentos da Pol&iacute;cia Federal para imigrantes em Brasil.",
+    "wordCount": 288
+  },
+  {
+    "route": "/pt-br/insights/process/for-biological-children-and-minor-adopted-children-of-italian-citizens/",
+    "title": "Regras de passaporte e de viagem ligadas &agrave; Brasil.",
+    "wordCount": 290
+  },
+  {
+    "route": "/pt-br/insights/process/if-you-are-getting-married-to-a-brazilian-person-and-need-a-document-s/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil , 5 de setembro de 2024",
+    "wordCount": 289
+  },
+  {
+    "route": "/pt-br/insights/process/it-doesn-t-matter-where-the-bill-or-billing-is-from/",
+    "title": "N&atilde;o importa de onde vem a conta ou a factura.",
+    "wordCount": 292
+  },
+  {
+    "route": "/pt-br/insights/process/it-was-established-by-the-un-to-promote-equality-respect-for-human-rig/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil . 20 de fevereiro de 2025",
+    "wordCount": 287
+  },
+  {
+    "route": "/pt-br/insights/process/technically-yes-but-its-not-advisable/",
+    "title": "Por que motivo a avalia&ccedil;&atilde;o jur&iacute;dica individual &eacute; importante: Tecnicamente, sim, mas n&atilde;o &eacute; aconselh&aacute;vel",
+    "wordCount": 293
+  },
+  {
+    "route": "/pt-br/insights/process/the-consular-declaration-of-civil-status-is-a-document-issued-by-the-c/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 8 de agosto de 2024",
+    "wordCount": 289
+  },
+  {
+    "route": "/pt-br/insights/process/the-expulsion-of-a-foreigner-is-an-extreme-measure-and-can-only-occur/",
+    "title": "Risco de expuls&atilde;o em Brasil",
+    "wordCount": 287
+  },
+  {
+    "route": "/pt-br/insights/process/the-right-to-come-and-go-is-provided-for-in-the-federal-constitution-f/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens.",
+    "wordCount": 293
+  },
+  {
+    "route": "/pt-br/insights/process/the-text-of-the-brazil-uruguay-convention-for-the-elimination-of-doubl/",
+    "title": "O texto da Conven&ccedil;&atilde;o Brasil-Uruguai para a Elimina&ccedil;&atilde;o do Duplo",
+    "wordCount": 292
+  },
+  {
+    "route": "/pt-br/insights/process/the-transformation-of-the-italian-consulate-in-belo-horizonte-to-consu/",
+    "title": "Passos consulares conectados ao Brasil □ 10 de julho de 2024",
+    "wordCount": 288
+  },
+  {
+    "route": "/pt-br/insights/process/this-is-an-illegal-extremely-dangerous-practice-that-can-have-serious/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 18 de dezembro de 2024",
+    "wordCount": 286
+  },
+  {
+    "route": "/pt-br/insights/process/yes-brazilian-law-protects-passengers-much-more-than-other-countries/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens □ 14 de mar&ccedil;o de 2023",
+    "wordCount": 293
+  },
+  {
+    "route": "/pt-br/insights/process/you-should-request-for-your-brazilian-id-to-be-renewed-at-least-90-day/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 13 de abril de 2023",
+    "wordCount": 286
+  },
+  {
     "route": "/pt-br/insights/residency/",
-    "title": "Brasil Residency Insights: Continuidade, Renova&ccedil;&atilde;o, Direitos e Perman&ecirc;ncia de Longo Prazo",
+    "title": "Resid&ecirc;ncia",
     "wordCount": 1694
+  },
+  {
+    "route": "/pt-br/insights/residency/a-stable-union-formed-abroad-can-be-recognized-in-brazil-through-regis/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 3 de abril de 2025",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/brazilian-immigration-legislation-reflects-the-country-s-commitment-to/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 22 de fevereiro de 2024",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/firstly-you-will-need-to-register-at-the-brazilian-consulate-or-embass/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 2 de junho de 2023",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/for-those-who-still-cannot-marry-in-their-home-countries-because-of-di/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 13 de setembro de 2023",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/",
+    "title": "Eu tenho uma autoriza&ccedil;&atilde;o de resid&ecirc;ncia Brasilian e eu quero mudar para outra regi&atilde;o em",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/residency/if-the-person-has-a-residence-permit-in-brazil-it-is-important-to-obse/",
+    "title": "Se a pessoa tem uma autoriza&ccedil;&atilde;o de resid&ecirc;ncia em Brasil, &eacute; importante observar o",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/residency/if-the-person-holds-a-brazilian-residence-permit-it-s-important-to-obs/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 6 de novembro de 2024",
+    "wordCount": 423
+  },
+  {
+    "route": "/pt-br/insights/residency/if-you-have-chosen-brazil-as-your-new-place-of-residency-and-are-inqui/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 7 de novembro de 2023",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/if-you-need-to-stay-outside-of-portugal-for-a-longer-period-than-requi/",
+    "title": "Resid&ecirc;ncia Renovadora em Brasil □ 19 de maio de 2023",
+    "wordCount": 411
+  },
+  {
+    "route": "/pt-br/insights/residency/in-brazil-the-national-migration-registry-rnm-is-the-registry-of-immig/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil......................................................................................................................",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/residency/in-brazil-the-registro-nacional-de-migrante-rnm-is-the-registration-of/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 30 de setembro de 2024",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/in-temporary-residence-you-can-only-be-absent-for-less-than-6-consecut/",
+    "title": "Resid&ecirc;ncia Renovadora em Brasil □ 16 de Maio de 2023",
+    "wordCount": 411
+  },
+  {
+    "route": "/pt-br/insights/residency/in-the-context-of-a-profound-political-economic-and-institutional-cris/",
+    "title": "Passaporte e regras de viagem conectados a Brasil □ 21 de julho de 2025",
+    "wordCount": 416
+  },
+  {
+    "route": "/pt-br/insights/residency/it-is-important-to-note-that-one-of-the-legal-prerequisites-for-obtain/",
+    "title": "Orienta&ccedil;&atilde;o de resid&ecirc;ncia Brasil □ 31 de julho de 2023",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/it-s-crucial-to-note-that-one-of-the-legal-prerequisites-for-obtaining/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 19 de julho de 2023",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/loss-of-residence-permit-may-occur-due-to-prolonged-absence-or-failure/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 27 de dezembro de 2023",
+    "wordCount": 413
+  },
+  {
+    "route": "/pt-br/insights/residency/not-right-away-the-law-determines-the-exact-time-a-resident-can-stay-o/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 11 de janeiro de 2024",
+    "wordCount": 418
+  },
+  {
+    "route": "/pt-br/insights/residency/popularly-it-is-understood-that-an-immigrant-is-a-person-who-migrates/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 28 de fevereiro de 2024",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/renewal-of-the-brazilian-residence-permit-applies-to-those-who-have-a/",
+    "title": "Resid&ecirc;ncia Renovadora em Brasil □ 4 de setembro de 2024",
+    "wordCount": 411
+  },
+  {
+    "route": "/pt-br/insights/residency/residence-permit-in-brazil-due-to-the-mercosur-agreement-this-residenc/",
+    "title": "Autoriza&ccedil;&atilde;o de resid&ecirc;ncia em Brasil devido ao acordo MERCOSUL",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/residency/strict-entry-requirements-the-legislation-introduced-specific-entry-re/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 26 de dezembro de 2023",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/the-agreement-between-brazil-and-uruguay-deals-with-permanent-residenc/",
+    "title": "Estrat&eacute;gia Documentos Transfronteiri&ccedil;os para Brasil.",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 18 de novembro de 2024",
+    "wordCount": 422
+  },
+  {
+    "route": "/pt-br/insights/residency/the-person-applying-for-a-residence-permit-to-live-in-brazil-will-also/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 18 de setembro de 2023",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/residency/the-person-who-will-apply-for-a-residence-permit-to-live-in-brazil-wil/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil.",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/residency/the-renewal-of-brazilian-residency-permit-applies-to-those-holding-a-t/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 19 de agosto de 2024",
+    "wordCount": 417
+  },
+  {
+    "route": "/pt-br/insights/residency/the-request-for-reconsideration-when-a-request-for-a-residence-permit/",
+    "title": "O pedido de reexame, quando o pedido de autoriza&ccedil;&atilde;o de resid&ecirc;ncia for apresentado",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/residency/upon-your-return-to-brazil-the-legal-process-for-revoking-your-residen/",
+    "title": "Brasil orienta&ccedil;&atilde;o de resid&ecirc;ncia □ 5 de dezembro de 2023",
+    "wordCount": 418
   },
   {
     "route": "/pt-br/insights/updates/",
@@ -255,474 +2490,1699 @@
     "wordCount": 1260
   },
   {
+    "route": "/pt-br/insights/updates/2026-03-09-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planeamento □ 16 de outubro de 2024",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 27 de dezembro de 2023",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-autism-awareness-month-5-rights-of-autistic-people-people-with-autism/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil . 16 de abril de 2025",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens.",
+    "wordCount": 406
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/",
+    "title": "Compliance aeroporto e viagens para Brasil Viagens , 27 de abril de 2024",
+    "wordCount": 239
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/",
+    "title": "Altera&ccedil;&otilde;es nas regras de bagagem LATAM e Gol t&ecirc;m uma □ 9 de janeiro de 2025",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/",
+    "title": "China anunciou o lan&ccedil;amento do visto K, destinado □ 30 de outubro de 2025",
+    "wordCount": 415
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ 26 de junho de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/",
+    "title": "Brasil an&aacute;lise de atualiza&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 18 de novembro de 2025",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/",
+    "title": "Passaporte e regras de viagem conectados a Brasil □ 14 de outubro de 2024",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 8 de julho de 2024",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/",
+    "title": "A partir de 1 de junho de 2025, os cidad&atilde;os Brasilian poder&atilde;o.",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil . 20 de mar&ccedil;o de 2025",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-immigrants-when-attended-in-brazilian-public-services-should-be-treate/",
+    "title": "Brasil an&aacute;lise de atualiza&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 15 de maio de 2024",
+    "wordCount": 277
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/",
+    "title": "Imigrantes, ao receberem cuidados em p&uacute;blico Brasilian □ 21 de maio de 2024",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-in-2011-the-date-was-officially-established-through-law-no-12-519-with/",
+    "title": "Em 2011, a data foi oficialmente estabelecida , 20 de novembro de 2023",
+    "wordCount": 241
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 1 de dezembro de 2025",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/",
+    "title": "Compliance de aeroporto e viagens para Brasil Viagens.",
+    "wordCount": 406
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 3 de setembro de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil.",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-british-government-has-announced-a-significant-change-to-visa-rule/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 23 de dezembro de 2025",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 14 de abril de 2023",
+    "wordCount": 236
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/",
+    "title": "Brasil an&aacute;lise de atualiza&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ 17 de dezembro de 2025",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-president-of-the-republic-signed-a-new-decree-that-amends-article/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 27 de junho de 2025",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil......................................................................................................................",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 30 de setembro de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-on-june-18-2025-that-it-will-re/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 28 de julho de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 21 de agosto de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil.",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/",
+    "title": "Assim, a empresa deixa de fazer alguns pagamentos obrigat&oacute;rios , 2 de maio de 2023",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil.",
+    "wordCount": 276
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-09-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 20 de junho de 2025",
+    "wordCount": 410
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o P......................................................................................................................",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil , Uma conversa entre Jes",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-autism-awareness-month-5-rights-of-autistic-people-people-with-autism/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ Pessoas com autismo",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/",
+    "title": "Compliance aeroporto e viagens para Brasil Tr... de passageiros de tr&acirc;nsito com",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/",
+    "title": "Aeroporto e Conformidade de Viagem para Brasil Viagens.",
+    "wordCount": 239
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/",
+    "title": "Altera&ccedil;&otilde;es nas regras de bagagem LATAM e Gol t&ecirc;m impacto direto.",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/",
+    "title": "China anunciou o lan&ccedil;amento do visto K , especialmente no Young Pro",
+    "wordCount": 414
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/",
+    "title": "Brasilian Cidadania e Naturaliza&ccedil;&atilde;o Planning □ Chamado para um P",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/",
+    "title": "Brasil an&aacute;lise de atualiza&ccedil;&atilde;o de imigra&ccedil;&atilde;o □ Para a Europa A partir de outubro",
+    "wordCount": 413
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/",
+    "title": "Regras de passaporte e de viagem ligadas &agrave; Brasil □ Ser&aacute; necess&aacute;rio F",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Br , Passaporte sob Circunsta Espec&iacute;fica",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/",
+    "title": "A partir de 1 de junho de 2025, os cidad&atilde;os Brasilian ser&atilde;o.",
+    "wordCount": 405
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil.",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-immigrants-when-attended-in-brazilian-public-services-should-be-treate/",
+    "title": "Brasil imigra&ccedil;&atilde;o atualiza&ccedil;&atilde;o an&aacute;lise □ Servi&ccedil;os devem ser tratados",
+    "wordCount": 277
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/",
+    "title": "Imigrantes, ao receber cuidados em Brasilian □ Servi&ccedil;os devem ser Tr",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-in-2011-the-date-was-officially-established-through-law-no-12-519-with/",
+    "title": "Em 2011, a data foi oficialmente estabelecida atrav&eacute;s do..",
+    "wordCount": 241
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil . Visto para ZXQITBTERM8QZians De",
+    "wordCount": 412
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/",
+    "title": "Compliance de aeroporto e viagens para o suti&atilde; , em regulamentos de migra&ccedil;&atilde;o mexicana",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil .",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-brazilian-government-presented-new-guidelines-for-the-transport-of/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil □ Para o transporte de",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-british-government-has-announced-a-significant-change-to-visa-rule/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ Mudan&ccedil;a para regra de visto",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil .",
+    "wordCount": 236
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/",
+    "title": "Brasil imigra&ccedil;&atilde;o atualiza&ccedil;&atilde;o an&aacute;lise □ Risco or&ccedil;amental grave Accor",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-president-of-the-republic-signed-a-new-decree-that-amends-article/",
+    "title": "Imigra&ccedil;&atilde;o de base familiar para Brasil □ Decreto que altera o artigo",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil , Novo Programa de Deporta&ccedil;&atilde;o Fo",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-announced-a-new-guideline-from-the-citize/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil.",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-announced-on-june-18-2025-that-it-will-re/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ Que ele vai Re",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ De n&oacute;s 250 Calle",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil □ Em compras on-line de",
+    "wordCount": 273
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/",
+    "title": "Assim, a empresa deixa de fazer alguns obrigat&oacute;rios , e O trabalhador L",
+    "wordCount": 278
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil.",
+    "wordCount": 276
+  },
+  {
+    "route": "/pt-br/insights/updates/2026-03-10-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/",
+    "title": "RNM e planejamento de cart&atilde;o residente em Brasil □ Estabelecido pelo U",
+    "wordCount": 409
+  },
+  {
     "route": "/pt-br/insights/visa/",
-    "title": "Brasil Visa Insights: Categorias de entrada, Consulados, Documentos e Calend&aacute;rio",
+    "title": "Visto",
     "wordCount": 1919
   },
   {
+    "route": "/pt-br/insights/visa/a-brazilian-visa-is-valid-for-a-set-period-during-which-youre-allowed/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 16 de junho de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/a-recent-study-conducted-by-embratur-in-partnership-with-visa-and-ipso/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 20 de dezembro de 2025",
+    "wordCount": 403
+  },
+  {
+    "route": "/pt-br/insights/visa/according-to-brazilian-regulations-all-visa-applications-for-minors-mu/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 5 de dezembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/according-to-recent-news-as-an-indigenous-immigrant-in-the-united-stat/",
+    "title": "Compliance de aeroporto e viagens para Brasil Viagens □ 2 de setembro de 2024",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/according-to-this-news-as-an-indigenous-immigrant-in-the-united-states/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 23 de setembro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/acquiring-a-student-visa-to-become-an-exchange-student-in-brazil-prese/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 28 de fevereiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/although-brazilian-migration-legislation-does-not-mention-the-right-to/",
+    "title": "Embora a legisla&ccedil;&atilde;o sobre migra&ccedil;&atilde;o Brasilian n&atilde;o mencione o direito de",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/always-consult-an-immigration-lawyer-for-instructions-based-on-your-ca/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 22 de agosto de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/anyone-purchasing-their-first-residential-property-through-financing-u/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 13 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residence/",
+    "title": "Chegando em Brasil como turista e, posteriormente, obtendo uma autoriza&ccedil;&atilde;o de resid&ecirc;ncia",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residency/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 7 de maio de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/assai-located-in-the-state-of-parana-brazil-was-established-in-the-ear/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 10 de dezembro de 2025",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/visa/before-submitting-your-visa-application-it-is-essential-to-first-prepa/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 18 de mar&ccedil;o de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/before-submitting-your-visa-application-it-s-essential-to-first-beggin/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 10 de mar&ccedil;o de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/before-you-travel-or-live-in-another-country-you-need-to-carry-out-leg/",
+    "title": "Antes de viajar ou viver noutro pa&iacute;s, tem de cumprir as suas obriga&ccedil;&otilde;es legais",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/behind-each-visa-there-is-a-lifetime-of-expectations-memories-and-drea/",
+    "title": "Por tr&aacute;s de cada visto, h&aacute; uma vida de expectativas, mem&oacute;rias e sonhos",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-does-not-offer-specific-fiance-or-spouse-visas-but-has-provisio/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 22 de novembro de 2023",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-doesn-t-offer-specific-fiance-or-spouse-visas-it-does-have-prov/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 27 de setembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-grants-a-temporary-visa-to-foreigners-who-come-to-the-country-w/",
+    "title": "Permanecendo mais tempo em Brasil Ap&oacute;s a entrada tur&iacute;stica □ 21 de maio de 2025",
+    "wordCount": 409
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-grants-permanent-residency-to-foreign-nationals-through-various/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 29 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-issues-the-cplp-temporary-visa-only-in-some-specific-cities/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 23 de julho de 2024",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process-2/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 26 de outubro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process-3/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 14 de junho de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process/",
+    "title": "Guia de visto Brasil □ 30 de junho de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/",
+    "title": "Brasil Digital N&ocirc;mades Planeamento □ 27 de fevereiro de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-offers-a-specific-visa-and-residency-for-artists-and-athletes-c/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 14 de outubro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-offers-humanitarian-visa-to-individuals-in-situations-of-extrem/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 18 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-offers-student-visa-for-foreign-medical-residents-who-wish-to-p/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 18 de junho de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-offers-the-possibility-of-permanent-residency-for-families-wish/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 4 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-s-digital-nomad-visa-is-your-ticket-to-an-incredible-experience/",
+    "title": "Planejamento de N&ocirc;mades Digitais Brasil □ 8 de fevereiro de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 12 de fevereiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazilian-law-permits-students-on-a-student-visa-to-work-while-studyin/",
+    "title": "Brasil orienta&ccedil;&atilde;o de visto □ 16 de abril de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazilian-student-visa-for-medical-studies-the-brazilian-student-visa/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 2 de dezembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 14 de novembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-2/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 25 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-3/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 15 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 11 de outubro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/due-to-the-political-crises-in-syria-the-brazilian-embassy-in-syria-ha/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 10 de abril de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/entering-brazil-as-a-tourist-can-be-a-valid-starting-point-for-anyone/",
+    "title": "Brasil Digital N&ocirc;mades Planning □ 22 de setembro de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/entering-brazil-as-a-tourist-can-serve-as-a-valid-starting-point-for-t/",
+    "title": "Brasil Digital N&ocirc;made Planning □ 5 de setembro de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/even-though-this-visa-offers-permanent-residency-it-comes-with-conditi/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 3 de novembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/every-visa-applicant-has-the-right-to-receive-a-justification/",
+    "title": "Passos consulares conectados ao Brasil □ 24 de outubro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/expanding-a-business-into-brazil-requires-careful-planning-and-complia/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 15 de maio de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/explore-tax-friendly-destinations-and-optimize-your-tax-situation-whil/",
+    "title": "Brasil Planejamento digital de n&oacute;madas □ 22 de maio de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/for-brazilians-wishing-to-go-to-new-zealand-the-brazil-new-zealand-wor/",
+    "title": "Rotas de trabalho de f&eacute;rias conectadas ao Brasil",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/for-certain-nationalities-a-visa-for-this-is-not-required/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 27 de janeiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/for-those-planning-to-travel-to-the-united-states-to-watch-the-2026-wo/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 22 de dezembro de 2025",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/foreign-nationals-who-come-to-brazil-for-research-teaching-or-academic/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 28 de outubro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/hiring-foreign-workers-has-become-an-increasingly-common-practice-amon/",
+    "title": "Passos consulares conectados a Brasil □ 3 de junho de 2025",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/i-will-be-working-remotely-in-brazil/",
+    "title": "Brasil Digital N&ocirc;mades Planeamento □ 10 de julho de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/if-a-person-received-a-portuguese-residence-visa-without-making-an-app/",
+    "title": "Se uma pessoa recebeu um visto de resid&ecirc;ncia portugu&ecirc;s sem fazer um",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/if-an-artist-charges-a-fee-for-their-performance-a-work-visa-is-requir/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 28 de janeiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-an-investor-an-individual-is-looking-for-opportunities-and-to-be-ab/",
+    "title": "Planejamento de Imigra&ccedil;&atilde;o de Investidores para Brasil.",
+    "wordCount": 406
+  },
+  {
+    "route": "/pt-br/insights/visa/if-the-brazilian-consulate-does-not-provide-a-justification-for-the-vi/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 8 de outubro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-the-couple-wishes-to-live-in-brazil-after-marriage-the-foreigner-wi/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 10 de outubro de 2023",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-are-an-investor-looking-to-reside-in-brazil-with-foreign-resour/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 19 de fevereiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/",
+    "title": "Brasil Digital N&ocirc;mades Planning □ 24 de julho de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-wish-to-stay-longer-than-ori/",
+    "title": "Brasil Digital N&ocirc;mades Planning □ 11 de julho de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 19 de dezembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-hold-a-temporary-visa-or-residence-permit-it-s-imperative-to-co/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 1 de novembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-hold-a-temporary-visa-or-residency-permit-it-s-imperative-to-co/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 9 de janeiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day-2/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 30 de outubro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 12 de dezembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-your-american-visa-is-denied-the-first-recommended-action-is-to-loo/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 1 de abril de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/if-youve-studied-in-brazil-and-are-thinking-about-staying-to-work-ther/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 10 de julho de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/immigrating-to-a-new-country-is-a-life-altering-decision-and-seeking-p/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 16 de fevereiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/immigration-planning-involves-strategic-and-thoughtful-consideration-o/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 29 de fevereiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/in-a-prestigious-international-ranking-organized-by-the-1000-libraries/",
+    "title": "Em um ranking internacional de prest&iacute;gio organizado pelas 1000 Bibliotecas",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-deportation-is-an-administrative-measure-applied-to-individu/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 9 de outubro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-eligible-people-holding-a-temporary-visa-have-the-opportunit/",
+    "title": "Em Brasil, pessoas eleg&iacute;veis que possuem um visto tempor&aacute;rio t&ecirc;m a oportunidade de",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-homeschooling-is-prohibited-and-the-parents-must-go-to-the-n/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 8 de abril de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-priests-must-go-to-the-nearest-public-school-and-request-the/",
+    "title": "Imigra&ccedil;&atilde;o com base em estudo para Brasil □ Escola e Pedido",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on-2/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil , 12 de agosto de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil , 29 de agosto de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/in-brazilian-immigration-matters-foreign-nationals-could-apply-for-a-f/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 27 de novembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/in-exceptional-cases-a-brazilian-visa-application-may-be-denied-under/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 27 de novembro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/in-general-many-countries-do-not-have-a-specific-dating-visa-but-offer/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 12 de junho de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/in-situations-where-a-brazilian-needs-emergency-consular-assistance-ou/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 29 de janeiro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/in-some-cases-of-vulnerable-situations-brazilian-migration-law-waives/",
+    "title": "Em alguns casos de situa&ccedil;&otilde;es vulner&aacute;veis, a lei de migra&ccedil;&atilde;o Brasilian renuncia a alguns",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/individuals-seeking-to-work-in-brazil-through-a-formal-employment-rela/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 12 de novembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/it-can-be-possible-to-bring-a-companion-to-brazil-on-a-health-treatmen/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 19 de dezembro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/it-is-not-necessary-in-cases-of-a-stopover-or-connecting-flight-in-bra/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 24 de outubro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/it-is-now-possible-to-apply-for-a-digital-nomad-visa-for-italy/",
+    "title": "Brasil Planejamento digital de n&oacute;madas □ 28 de maio de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/it-is-possible-for-a-foreign-person-to-purchase-property-in-brazil-but/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 20 de maio de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/it-is-possible-to-bring-a-companion-to-brazil-with-a-health-treatment/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil.",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/it-is-possible-to-go-to-brazil-as-a-tourist-and-get-married-or-recogni/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 4 de dezembro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/japan-has-announced-measures-to-attract-digital-nomads-aligning-with-a/",
+    "title": "Brasil Planejamento N&ocirc;made Digital □ 6 de janeiro de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/legal-guidance-eligibility-requirements-and-filing-steps/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 20 de agosto de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/many-people-risk-staying-in-portugal-with-just-a-tourist-visa-and-then/",
+    "title": "Muitas pessoas arriscam ficar em Portugal com apenas um visto de turista e depois",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/may-5th-is-celebrated-as-portuguese-language-and-lusophone-culture-day/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil.",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/my-immigrant-id-card-is-valid-until-2030-but-my-civil-partnership-has/",
+    "title": "Brasil orienta&ccedil;&atilde;o de visto □ Minha parceria civil tem",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/news-visa-fees-for-the-usa-will-become-more-expensive-from-may-30th-to/",
+    "title": "Planejamento de Imigra&ccedil;&atilde;o de Investidores para Brasil.",
+    "wordCount": 406
+  },
+  {
+    "route": "/pt-br/insights/visa/no-a-work-visa-requires-prior-approval-from-the-brazilian-ministry-of/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 23 de janeiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/no-dependents-can-arrive-with-or-after-the-main-visa-holder-in-the-usa/",
+    "title": "Passos Consulares Conectados ao Brasil □ 19 de setembro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/not-everything-is-what-it-seems-especially-in-brazilian-cuisine/",
+    "title": "Nem tudo &eacute; o que parece, especialmente na cozinha Brasilian!",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/nowadays-technology-allows-us-to-work-from-anywhere-in-the-world/",
+    "title": "Brasil Planejamento N&ocirc;made Digital □ 28 de setembro de 2023",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/obtaining-a-permanent-residence-permit-indefinite-period-in-brazil-is/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil □ 13 de agosto de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/obtaining-a-residency-permit-as-a-retiree-or-pensioner-in-brazil-provi/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 2 de abril de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/obtaining-a-student-visa-to-be-an-exchange-student-in-brazil-offers-a/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil . 4 de mar&ccedil;o de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/obtaining-an-immigrant-identity-card-rnm-is-extremely-important-for-im/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 25 de julho de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 4 de julho de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/permanent-residency-through-the-investor-visa-individual-investment-in/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 10 de novembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/premium-processing-is-a-service-offered-by-the-us-immigration-agency-t/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 7 de agosto de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/professionals-can-have-the-eb2-niw-visa-as-a-gateway-to-continue-their/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 26 de julho de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/qualified-professionals-can-use-the-eb2-niw-visa-as-a-gateway-to-conti/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 17 de julho de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/repatriation-also-known-as-national-recovery-operation-represents-the/",
+    "title": "A repatria&ccedil;&atilde;o, tamb&eacute;m conhecida como Opera&ccedil;&atilde;o de Recupera&ccedil;&atilde;o Nacional, representa o",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/retirees-and-pensioners-who-want-to-live-in-brazil-can-request-a-tempo/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil , 9 de abril de 2025",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/rio-de-janeiro-has-recently-been-named-the-world-s-top-destination-for/",
+    "title": "Brasil Planejamento N&ocirc;made Digital □ 29 de maio de 2025",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/since-april-10-2025-tourists-from-the-united-states-canada-and-austral/",
+    "title": "Desde 10 de abril de 2025, turistas dos Estados Unidos, Canad&aacute; e Austr&aacute;lia",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/technical-completion-involves-legal-analysis-of-the-rules-and-circumst/",
+    "title": "Passos consulares conectados ao Brasil.",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-american-visa-interview-aims-to-assess-whether-you-are-a-qualified/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil.......................................................................................................................",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-authorization-of-indefinite-term-residence-in-brazil-can-be-obtain/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 27 de junho de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-biggest-cause-of-losing-an-irish-student-visa-is-when-the-immigran/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 21 de junho de 2023",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/the-brazilian-retirement-visa-is-an-excellent-choice-for-retirees-and/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 7 de maio de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-brazilian-visa-for-digital-nomads-allows-you-to-stay-for-up-to-one/",
+    "title": "Brasil Digital N&ocirc;mades Planeamento □ 16 de outubro de 2023",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/the-brazilian-work-visa-for-employment-is-granted-to-foreign-nationals/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 26 de mar&ccedil;o de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-cplp-community-of-portuguese-speaking-countries-visa-is-an-option/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil.",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/the-cplp-temporary-residence-visa-is-intended-for-citizens-of-the-coun/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 15 de julho de 2024",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 1 de fevereiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-duration-for-which-a-foreigner-can-be-absent-from-the-country-with/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 27 de mar&ccedil;o de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-eb-2-niw-national-interest-waiver-visa-is-not-limited-exclusively/",
+    "title": "O visto EB-2 NIW (National Interest Waiver) n&atilde;o se limita exclusivamente a",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/the-eb2-niw-visa-is-a-great-opportunity-to-internationalize-your-caree/",
+    "title": "O visto EB2-NIW &eacute; uma grande oportunidade para internacionalizar sua carreira e",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/the-end-of-the-expression-of-interest-for-immigrants-in-portugal-marks/",
+    "title": "RNM e Planejamento de Cart&atilde;o Residente em Brasil □ 17 de setembro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-future-fee-for-travelers-entering-europe-known-as-etias-had-its-la/",
+    "title": "Passaporte e regras de viagem conectados a Brasil.",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/the-granting-of-a-religious-visa-can-be-issued-to-a-foreign-national-e/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 9 de dezembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-holiday-work-visa-program-between-brazil-and-new-zealand-offers-ne/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 11 de setembro de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/the-importance-of-getting-legal-guidance-from-a-lawyer-in-travel-and-i/",
+    "title": "Brasil orienta&ccedil;&atilde;o de visto □ 9 de setembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o-2/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 18 de dezembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 17 de janeiro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-international-immunisation-certificate-is-necessary-for-individual/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 17 de dezembro de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-interview-for-the-american-visa-in-brazil-is-carried-out-in-portug/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 26 de novembro de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/the-japanese-immigration-service-has-announced-a-new-visa-the-digital/",
+    "title": "Brasil Digital N&ocirc;mades Planeamento □ 11 de mar&ccedil;o de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/the-joint-family-visa-for-spouses-and-partners-in-a-recognized-stable/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 31 de outubro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-k-1-visa-is-intended-for-foreign-fiances-of-united-states-citizens/",
+    "title": "Passos consulares conectados a Brasil □ 30 de outubro de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-legislation-outlines-the-specific-functions-and-sets-forth-several/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 28 de novembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-main-hypotheses-are-travel-document-that-is-not-valid-for-brazil-t/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 6 de dezembro de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-recent-interministerial-ordinance-represents-a-significant-advance/",
+    "title": "CPLP Visto de resid&ecirc;ncia tempor&aacute;ria para Brasil □ 26 de fevereiro de 2024",
+    "wordCount": 407
+  },
+  {
+    "route": "/pt-br/insights/visa/the-residence-permit-for-an-indefinite-period-in-brazil-can-be-obtaine/",
+    "title": "Planejamento de Imigra&ccedil;&atilde;o de Investidores para Brasil.25 de junho de 2024",
+    "wordCount": 406
+  },
+  {
+    "route": "/pt-br/insights/visa/the-retirement-visa-for-brazil-is-designed-for-individuals-who-wish-to/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil □ 21 de agosto de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/the-retirement-visa-for-brazil-is-intended-for-individuals-who-wish-to/",
+    "title": "Reforma Imigra&ccedil;&atilde;o para Brasil □ 12 de setembro de 2024",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/the-rules-for-work-immigration-allow-individuals-to-obtain-a-visa-or-r/",
+    "title": "Brasil Digital N&ocirc;mades Planeamento □ 24 de junho de 2024",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/the-time-a-foreigner-can-be-absent-from-the-country-without-losing-the/",
+    "title": "O tempo que um estrangeiro pode estar ausente do pa&iacute;s sem perder o seu",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/the-undergraduate-student-agreement-program-pec-g-is-a-brazilian-gover/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 21 de janeiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/the-visa-and-residence-for-the-purpose-of-working-without-employment-i/",
+    "title": "Passos consulares conectados ao Brasil □ 18 de julho de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/the-work-holiday-visa-agreement-between-brazil-and-france-allows-young/",
+    "title": "O acordo de visto de f&eacute;rias entre Brasil e Fran&ccedil;a permite aos jovens",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/the-working-and-holiday-visa-agreement-between-brazil-and-france-allow/",
+    "title": "Imigra&ccedil;&atilde;o com base na fam&iacute;lia para Brasil □ 27 de agosto de 2024",
+    "wordCount": 402
+  },
+  {
+    "route": "/pt-br/insights/visa/this-brazilian-visa-is-intended-for-those-who-wish-to-carry-out-academ/",
+    "title": "Este visto Brasilian destina-se a quem deseja realizar academic",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/insights/visa/this-can-be-done-at-the-consulate-or-embassy-of-the-country-that-issue/",
+    "title": "Regras de passaporte e de viagem ligadas ao Brasil.",
+    "wordCount": 404
+  },
+  {
+    "route": "/pt-br/insights/visa/this-day-established-by-the-un-reinforces-the-importance-of-joining-fo/",
+    "title": "Imigra&ccedil;&atilde;o baseada em estudo para Brasil □ 30 de julho de 2025",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/this-is-an-illegal-and-extremely-risky-practice-that-can-lead-to-sever/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 15 de janeiro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/to-obtain-a-brazilian-study-visa-you-must-be-enrolled-in-an-educationa/",
+    "title": "Brasil orienta&ccedil;&atilde;o para o visto □ 17 de julho de 2024",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/to-prove-your-civil-union-status-with-a-foreign-person-a-certificate-i/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 23 de junho de 2023",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/travellers-in-brazil-can-access-a-variety-of-basic-healthcare-services/",
+    "title": "Brasil orienta&ccedil;&atilde;o para vistos □ 24 de setembro de 2025",
+    "wordCount": 408
+  },
+  {
+    "route": "/pt-br/insights/visa/upon-arriving-in-brazil-with-a-visa-you-will-have-90-days-to-register/",
+    "title": "Risco de deporta&ccedil;&atilde;o em Brasil □ 20 de setembro de 2023",
+    "wordCount": 401
+  },
+  {
+    "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-2/",
+    "title": "Estrat&eacute;gia de Documentos Transfronteiri&ccedil;os para Brasil .....................................................................................................................",
+    "wordCount": 405
+  },
+  {
+    "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-3/",
+    "title": "Estrat&eacute;gia Documentos Transfronteiri&ccedil;os para Brasil.15 de fevereiro de 2024",
+    "wordCount": 405
+  },
+  {
+    "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil/",
+    "title": "Estrat&eacute;gia Documentos Transfrontais para Brasil.",
+    "wordCount": 405
+  },
+  {
     "route": "/pt-br/legal/",
-    "title": "Imigrar para o ToBrasil.com Avisos Legais",
-    "wordCount": 1037
+    "title": "Avisos Legais",
+    "wordCount": 921
   },
   {
     "route": "/pt-br/legal/404/",
     "title": "P&aacute;gina N&atilde;o Encontrada",
-    "wordCount": 428
+    "wordCount": 381
   },
   {
     "route": "/pt-br/legal/accessibility/",
     "title": "Declara&ccedil;&atilde;o Acessibilidade",
-    "wordCount": 1000
+    "wordCount": 607
   },
   {
     "route": "/pt-br/legal/cookies/",
     "title": "Pol&iacute;tica de Cookies",
-    "wordCount": 1267
+    "wordCount": 662
   },
   {
     "route": "/pt-br/legal/disclaimer/",
     "title": "Aviso legal e de responsabilidade",
-    "wordCount": 1126
+    "wordCount": 681
   },
   {
     "route": "/pt-br/legal/emergency/",
     "title": "Recursos de emerg&ecirc;ncia",
-    "wordCount": 497
+    "wordCount": 496
   },
   {
     "route": "/pt-br/legal/form/",
     "title": "Pol&iacute;tica de & Ingest&atilde;o de Formul&aacute;rios",
-    "wordCount": 669
+    "wordCount": 562
   },
   {
     "route": "/pt-br/legal/gdpr/",
-    "title": "Aviso de conformidade do GDPR",
-    "wordCount": 1226
+    "title": "Aviso do GDPR",
+    "wordCount": 725
   },
   {
     "route": "/pt-br/legal/lgpd/",
     "title": "Aviso LGPD",
-    "wordCount": 689
+    "wordCount": 600
   },
   {
     "route": "/pt-br/legal/payment/",
     "title": "Termos de Pagamento",
-    "wordCount": 1329
+    "wordCount": 729
   },
   {
     "route": "/pt-br/legal/privacy/",
     "title": "Pol&iacute;tica de Privacidade",
-    "wordCount": 1250
+    "wordCount": 821
   },
   {
     "route": "/pt-br/legal/refund/",
     "title": "Pol&iacute;tica de restitui&ccedil;&otilde;es",
-    "wordCount": 1197
+    "wordCount": 701
   },
   {
     "route": "/pt-br/legal/search/",
     "title": "Busca",
-    "wordCount": 561
+    "wordCount": 650
   },
   {
     "route": "/pt-br/legal/terms/",
     "title": "Termos e Condi&ccedil;&otilde;es",
-    "wordCount": 1417
+    "wordCount": 751
   },
   {
     "route": "/pt-br/process/",
-    "title": "Processo de Imigra&ccedil;&atilde;o Brasil explicado passo a passo",
-    "wordCount": 1013
+    "title": "Processo de Imigra&ccedil;&atilde;o Brasil",
+    "wordCount": 1213
   },
   {
     "route": "/pt-br/process/aftercare/",
-    "title": "Ap&oacute;s o cuidado como o est&aacute;gio ap&oacute;s a aprova&ccedil;&atilde;o onde a estabilidade &eacute; protegida",
-    "wordCount": 1643
+    "title": "Ap&oacute;s o tratamento",
+    "wordCount": 1024
   },
   {
     "route": "/pt-br/process/alone/",
-    "title": "Quando os clientes tentam lidar com o processo sozinhos",
-    "wordCount": 1585
+    "title": "Sozinho",
+    "wordCount": 1046
   },
   {
     "route": "/pt-br/process/approval/",
-    "title": "Aprova&ccedil;&atilde;o explicada sem falsas garantias",
-    "wordCount": 1559
+    "title": "Aprova&ccedil;&atilde;o",
+    "wordCount": 1005
   },
   {
     "route": "/pt-br/process/assessment/",
-    "title": "Avalia&ccedil;&atilde;o como uma revis&atilde;o estruturada da situa&ccedil;&atilde;o real",
-    "wordCount": 1581
+    "title": "Avalia&ccedil;&atilde;o",
+    "wordCount": 1013
   },
   {
     "route": "/pt-br/process/compliance/",
-    "title": "Conformidade como alinhamento cont&iacute;nuo em vez de verifica&ccedil;&atilde;o &uacute;nica",
-    "wordCount": 1534
+    "title": "Conformidade",
+    "wordCount": 929
   },
   {
     "route": "/pt-br/process/consultation/",
-    "title": "Consulta Como a Etapa Em que Um Caso Para de Ser Vaga",
-    "wordCount": 1605
+    "title": "Consulta",
+    "wordCount": 1100
   },
   {
     "route": "/pt-br/process/conversion/",
-    "title": "Convers&atilde;o entre posi&ccedil;&otilde;es de imigra&ccedil;&atilde;o ou l&oacute;gica de rota",
-    "wordCount": 1685
+    "title": "Convers&atilde;o",
+    "wordCount": 981
   },
   {
     "route": "/pt-br/process/deadlines/",
-    "title": "Prazos e tempo Windows em Brasil Importa a imigra&ccedil;&atilde;o",
-    "wordCount": 1708
+    "title": "Prazos",
+    "wordCount": 988
   },
   {
     "route": "/pt-br/process/failures/",
-    "title": "Falhas no processo, recusas, atrasos e casos empatados",
-    "wordCount": 1567
+    "title": "Falhas",
+    "wordCount": 965
   },
   {
     "route": "/pt-br/process/fees/",
-    "title": "Taxas explicadas atrav&eacute;s de est&aacute;gios, escopo e valor de servi&ccedil;o",
-    "wordCount": 1626
+    "title": "Taxas",
+    "wordCount": 1034
   },
   {
     "route": "/pt-br/process/filing/",
-    "title": "Arquivamento como prepara&ccedil;&atilde;o, submiss&atilde;o e controle de processo",
-    "wordCount": 1644
+    "title": "Apresenta&ccedil;&atilde;o",
+    "wordCount": 991
   },
   {
     "route": "/pt-br/process/mistakes/",
-    "title": "Erros comuns de imigra&ccedil;&atilde;o e como tentamos evit&aacute;-los",
-    "wordCount": 1464
+    "title": "Erros",
+    "wordCount": 951
+  },
+  {
+    "route": "/pt-br/process/naturalisation/",
+    "title": "Naturaliza&ccedil;&atilde;o",
+    "wordCount": 400
+  },
+  {
+    "route": "/pt-br/process/obligations/",
+    "title": "Obriga&ccedil;&otilde;es",
+    "wordCount": 362
+  },
+  {
+    "route": "/pt-br/process/permanent/",
+    "title": "Permanente",
+    "wordCount": 379
+  },
+  {
+    "route": "/pt-br/process/planning/",
+    "title": "Planejamento",
+    "wordCount": 336
+  },
+  {
+    "route": "/pt-br/process/refund/",
+    "title": "Reembolso",
+    "wordCount": 323
+  },
+  {
+    "route": "/pt-br/process/regularization/",
+    "title": "Regulariza&ccedil;&atilde;o",
+    "wordCount": 296
+  },
+  {
+    "route": "/pt-br/process/renewal/",
+    "title": "Renova&ccedil;&atilde;o",
+    "wordCount": 305
+  },
+  {
+    "route": "/pt-br/process/responsibilities/",
+    "title": "Responsabilidades",
+    "wordCount": 301
+  },
+  {
+    "route": "/pt-br/process/rights/",
+    "title": "Direitos",
+    "wordCount": 487
+  },
+  {
+    "route": "/pt-br/process/strategy/",
+    "title": "Estrat&eacute;gia",
+    "wordCount": 315
+  },
+  {
+    "route": "/pt-br/process/timeline/",
+    "title": "Prazo",
+    "wordCount": 321
+  },
+  {
+    "route": "/pt-br/process/transparency/",
+    "title": "Transpar&ecirc;ncia",
+    "wordCount": 310
+  },
+  {
+    "route": "/pt-br/rights/",
+    "title": "Hub de Direitos",
+    "wordCount": 1639
+  },
+  {
+    "route": "/pt-br/rights/naturalisation/",
+    "title": "Naturaliza&ccedil;&atilde;o",
+    "wordCount": 1562
+  },
+  {
+    "route": "/pt-br/rights/obligations/",
+    "title": "Obriga&ccedil;&otilde;es",
+    "wordCount": 1752
+  },
+  {
+    "route": "/pt-br/rights/permanent/",
+    "title": "Planejamento permanente do estado em Brasil",
+    "wordCount": 1666
+  },
+  {
+    "route": "/pt-br/rights/planning/",
+    "title": "Planejamento",
+    "wordCount": 1596
+  },
+  {
+    "route": "/pt-br/rights/refund/",
+    "title": "Reembolso",
+    "wordCount": 1486
+  },
+  {
+    "route": "/pt-br/rights/regularization/",
+    "title": "Regulariza&ccedil;&atilde;o",
+    "wordCount": 1590
+  },
+  {
+    "route": "/pt-br/rights/renewal/",
+    "title": "Renova&ccedil;&atilde;o",
+    "wordCount": 1742
+  },
+  {
+    "route": "/pt-br/rights/responsibilities/",
+    "title": "Responsabilidades",
+    "wordCount": 1722
+  },
+  {
+    "route": "/pt-br/rights/strategy/",
+    "title": "Estrat&eacute;gia",
+    "wordCount": 1682
+  },
+  {
+    "route": "/pt-br/rights/timeline/",
+    "title": "Prazo",
+    "wordCount": 1611
+  },
+  {
+    "route": "/pt-br/rights/transparency/",
+    "title": "Transpar&ecirc;ncia",
+    "wordCount": 1590
   },
   {
     "route": "/pt-br/services/",
-    "title": "Brasil Servi&ccedil;os de Imigra&ccedil;&atilde;o Organizados por Rota, Necessidade e Pr&oacute;ximo Passo",
-    "wordCount": 1143
+    "title": "Servi&ccedil;os",
+    "wordCount": 2483
   },
   {
     "route": "/pt-br/services/advisory/",
-    "title": "Servi&ccedil;os de consultoria para clareza, estrat&eacute;gia e melhores decis&otilde;es antecipadas",
-    "wordCount": 1036
+    "title": "Consultoria",
+    "wordCount": 2186
   },
   {
     "route": "/pt-br/services/advisory/compliance/",
-    "title": "Suporte de conformidade para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
-    "wordCount": 1873
+    "title": "Conformidade",
+    "wordCount": 1184
   },
   {
     "route": "/pt-br/services/advisory/consultation/",
-    "title": "Apoio &agrave; consulta para decis&otilde;es mais claras em mat&eacute;ria de imigra&ccedil;&atilde;o",
-    "wordCount": 1852
+    "title": "Consulta",
+    "wordCount": 1190
   },
   {
     "route": "/pt-br/services/advisory/corporate/",
-    "title": "Suporte Corporativo para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
-    "wordCount": 1865
+    "title": "Empresa",
+    "wordCount": 1187
   },
   {
     "route": "/pt-br/services/advisory/representation/",
-    "title": "Representa&ccedil;&atilde;o Apoio para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
-    "wordCount": 1846
+    "title": "Representa&ccedil;&atilde;o",
+    "wordCount": 1184
   },
   {
     "route": "/pt-br/services/advisory/strategy/",
-    "title": "Apoio estrat&eacute;gico para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
-    "wordCount": 1862
+    "title": "Estrat&eacute;gia",
+    "wordCount": 1186
   },
   {
     "route": "/pt-br/services/defense/",
-    "title": "Servi&ccedil;os de Defesa para quest&otilde;es de imigra&ccedil;&atilde;o urgentes, sens&iacute;veis e expostas",
-    "wordCount": 1045
+    "title": "Defesa",
+    "wordCount": 2297
   },
   {
     "route": "/pt-br/services/defense/appeals/",
-    "title": "Apela para apoio para quest&otilde;es de defesa de imigra&ccedil;&atilde;o sens&iacute;veis",
-    "wordCount": 1741
+    "title": "Recursos",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/defense/deportation/",
-    "title": "Apoio &agrave; deporta&ccedil;&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
-    "wordCount": 1751
+    "title": "Deporta&ccedil;&atilde;o",
+    "wordCount": 1216
   },
   {
     "route": "/pt-br/services/defense/expulsion/",
-    "title": "Apoio &agrave; expuls&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
-    "wordCount": 1746
+    "title": "Expuls&atilde;o",
+    "wordCount": 1207
   },
   {
     "route": "/pt-br/services/defense/extradition/",
-    "title": "Apoio &agrave; extradi&ccedil;&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
-    "wordCount": 1788
+    "title": "Extradi&ccedil;&atilde;o",
+    "wordCount": 1213
   },
   {
     "route": "/pt-br/services/defense/fines/",
-    "title": "Fines Apoio para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
-    "wordCount": 1769
+    "title": "Multas",
+    "wordCount": 1211
   },
   {
     "route": "/pt-br/services/defense/litigation/",
-    "title": "Apoio a Contencioso para Assuntos de Defesa da Imigra&ccedil;&atilde;o Sens&iacute;veis",
-    "wordCount": 1751
+    "title": "Contencioso",
+    "wordCount": 1206
   },
   {
     "route": "/pt-br/services/naturalisation/",
-    "title": "Servi&ccedil;os de Naturaliza&ccedil;&atilde;o para o Planejamento da Cidadania e Continuidade de Longo Prazo",
-    "wordCount": 1026
+    "title": "Naturaliza&ccedil;&atilde;o",
+    "wordCount": 2363
   },
   {
     "route": "/pt-br/services/naturalisation/extraordinary/",
-    "title": "Apoio Extraordin&aacute;rio ao Planejamento de Cidadania Brasilian",
-    "wordCount": 1867
+    "title": "Naturaliza&ccedil;&atilde;o extraordin&aacute;ria",
+    "wordCount": 1180
   },
   {
     "route": "/pt-br/services/naturalisation/ordinary/",
-    "title": "Apoio Ordin&aacute;rio ao Planejamento de Cidadania Brasilian",
-    "wordCount": 1857
+    "title": "Naturaliza&ccedil;&atilde;o Ordin&aacute;ria",
+    "wordCount": 1182
   },
   {
     "route": "/pt-br/services/naturalisation/provisional/",
-    "title": "Apoio Provis&oacute;rio ao Planejamento de Cidadania Brasilian",
-    "wordCount": 1890
+    "title": "Naturaliza&ccedil;&atilde;o Provis&oacute;ria",
+    "wordCount": 1180
   },
   {
     "route": "/pt-br/services/naturalisation/reacquisition/",
-    "title": "Suporte &agrave; reaquisi&ccedil;&atilde;o para o planejamento da cidadania Brasilian",
-    "wordCount": 1907
+    "title": "Naturaliza&ccedil;&atilde;o da reaquisi&ccedil;&atilde;o",
+    "wordCount": 1184
   },
   {
     "route": "/pt-br/services/naturalisation/renunciation/",
-    "title": "Apoio &agrave; Ren&uacute;ncia para o Planejamento de Cidadania Brasilian",
-    "wordCount": 1879
+    "title": "Naturaliza&ccedil;&atilde;o da Ren&uacute;ncia",
+    "wordCount": 1179
   },
   {
     "route": "/pt-br/services/naturalisation/special/",
-    "title": "Apoio Especial para o Planejamento de Cidadania Brasilian",
-    "wordCount": 1854
+    "title": "Naturaliza&ccedil;&atilde;o Especial",
+    "wordCount": 1178
   },
   {
     "route": "/pt-br/services/other/",
-    "title": "Servi&ccedil;os de suporte que fazem os arquivos de imigra&ccedil;&atilde;o funcionarem na pr&aacute;tica",
-    "wordCount": 985
+    "title": "Outros",
+    "wordCount": 2127
   },
   {
     "route": "/pt-br/services/other/consular/",
-    "title": "Suporte consular para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
-    "wordCount": 1776
+    "title": "Consular",
+    "wordCount": 1191
   },
   {
     "route": "/pt-br/services/other/records/",
-    "title": "Registros de suporte para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
-    "wordCount": 1774
+    "title": "Registros",
+    "wordCount": 1205
   },
   {
     "route": "/pt-br/services/other/regularization/",
-    "title": "Suporte de Regulariza&ccedil;&atilde;o para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
-    "wordCount": 1792
+    "title": "Regulariza&ccedil;&atilde;o",
+    "wordCount": 1213
   },
   {
     "route": "/pt-br/services/other/translation/",
-    "title": "Suporte de tradu&ccedil;&atilde;o para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
-    "wordCount": 1780
+    "title": "Tradu&ccedil;&atilde;o",
+    "wordCount": 1205
   },
   {
     "route": "/pt-br/services/residencies/",
-    "title": "Servi&ccedil;os de Resid&ecirc;ncia para Vida Legal de Longo Prazo em Brasil",
-    "wordCount": 1057
+    "title": "Resid&ecirc;ncias",
+    "wordCount": 2600
   },
   {
     "route": "/pt-br/services/residencies/cplp/",
-    "title": "CPLP Apoio &agrave; resid&ecirc;ncia para a vida a longo prazo em Brasil",
-    "wordCount": 1937
+    "title": "CPLP Resid&ecirc;ncia",
+    "wordCount": 1175
   },
   {
     "route": "/pt-br/services/residencies/educational/",
-    "title": "Apoio &agrave; resid&ecirc;ncia educacional para a vida a longo prazo em Brasil",
-    "wordCount": 1881
+    "title": "Resid&ecirc;ncia Educativa",
+    "wordCount": 1174
   },
   {
     "route": "/pt-br/services/residencies/exchange/",
-    "title": "Suporte de resid&ecirc;ncia de troca para a vida a longo prazo em Brasil",
-    "wordCount": 1884
+    "title": "Resid&ecirc;ncia de interc&acirc;mbio",
+    "wordCount": 1183
   },
   {
     "route": "/pt-br/services/residencies/health/",
-    "title": "Apoio &agrave; resid&ecirc;ncia em sa&uacute;de para uma vida longa em Brasil",
-    "wordCount": 1925
+    "title": "Resid&ecirc;ncia em Sa&uacute;de",
+    "wordCount": 1200
   },
   {
     "route": "/pt-br/services/residencies/humanitarian/",
-    "title": "Apoio &agrave; resid&ecirc;ncia humanit&aacute;ria para uma vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1877
+    "title": "Resid&ecirc;ncia humanit&aacute;ria",
+    "wordCount": 1181
   },
   {
     "route": "/pt-br/services/residencies/investor/",
-    "title": "Apoio &agrave; resid&ecirc;ncia dos investidores para uma vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1922
+    "title": "Resid&ecirc;ncia dos Investidores",
+    "wordCount": 1186
   },
   {
     "route": "/pt-br/services/residencies/mercosul/",
-    "title": "Apoio &agrave; resid&ecirc;ncia Mercosul para a vida de longo prazo em Brasil",
-    "wordCount": 1931
+    "title": "Resid&ecirc;ncia MERCOSUL",
+    "wordCount": 1172
   },
   {
     "route": "/pt-br/services/residencies/nomad/",
-    "title": "Suporte de resid&ecirc;ncia n&ocirc;made para a vida a longo prazo em Brasil",
-    "wordCount": 1954
+    "title": "Resid&ecirc;ncia N&ocirc;made",
+    "wordCount": 1182
   },
   {
     "route": "/pt-br/services/residencies/religious/",
-    "title": "Apoio &agrave; resid&ecirc;ncia religiosa para a vida a longo prazo em Brasil",
-    "wordCount": 1884
+    "title": "Resid&ecirc;ncia Religiosa",
+    "wordCount": 1176
   },
   {
     "route": "/pt-br/services/residencies/research/",
-    "title": "Apoio &agrave; resid&ecirc;ncia de pesquisa para a vida a longo prazo em Brasil",
-    "wordCount": 1892
+    "title": "Resid&ecirc;ncia de pesquisa",
+    "wordCount": 1180
   },
   {
     "route": "/pt-br/services/residencies/retiree/",
-    "title": "Apoio &agrave; resid&ecirc;ncia de reforma para a vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1878
+    "title": "Resid&ecirc;ncia para aposentados",
+    "wordCount": 1187
   },
   {
     "route": "/pt-br/services/residencies/reunion/",
-    "title": "Reunion Residence Support para a vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1922
+    "title": "Resid&ecirc;ncia da Reuni&atilde;o",
+    "wordCount": 1196
   },
   {
     "route": "/pt-br/services/residencies/skilled/",
-    "title": "Suporte de resid&ecirc;ncia qualificada para a vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1914
+    "title": "Resid&ecirc;ncia qualificada",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/residencies/study/",
-    "title": "Suporte de resid&ecirc;ncia de estudo para a vida a longo prazo em Brasil",
-    "wordCount": 1891
+    "title": "Resid&ecirc;ncia do Estudo",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/residencies/volunteer/",
-    "title": "Apoio &agrave; resid&ecirc;ncia volunt&aacute;ria para a vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1883
+    "title": "Resid&ecirc;ncia Volunt&aacute;ria",
+    "wordCount": 1185
   },
   {
     "route": "/pt-br/services/residencies/work/",
-    "title": "Apoio &agrave; resid&ecirc;ncia de trabalho para a vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1918
+    "title": "Resid&ecirc;ncia no Trabalho",
+    "wordCount": 1170
   },
   {
     "route": "/pt-br/services/residencies/youth/",
-    "title": "Apoio &agrave; resid&ecirc;ncia juvenil para uma vida de longa dura&ccedil;&atilde;o em Brasil",
-    "wordCount": 1895
+    "title": "Resid&ecirc;ncia para jovens",
+    "wordCount": 1188
   },
   {
     "route": "/pt-br/services/visas/",
-    "title": "Servi&ccedil;os de visto para planejamento de entrada, prepara&ccedil;&atilde;o consular e ajuste de categoria",
-    "wordCount": 1066
+    "title": "Vistos",
+    "wordCount": 2574
   },
   {
     "route": "/pt-br/services/visas/artistic/",
-    "title": "Suporte a Visa Art&iacute;stico para entrada estruturada para Brasil",
-    "wordCount": 1835
+    "title": "Visto Art&iacute;stico",
+    "wordCount": 1169
   },
   {
     "route": "/pt-br/services/visas/business/",
-    "title": "Suporte de visto de neg&oacute;cios para entrada estruturada para Brasil",
-    "wordCount": 1919
+    "title": "Visto de neg&oacute;cios",
+    "wordCount": 1174
   },
   {
     "route": "/pt-br/services/visas/diplomatic/",
-    "title": "Suporte a Visa Diplom&aacute;tico para entrada estruturada para Brasil",
-    "wordCount": 1818
+    "title": "Visto Diplom&aacute;tico",
+    "wordCount": 1178
   },
   {
     "route": "/pt-br/services/visas/educational/",
-    "title": "Suporte educacional para visto para entrada estruturada para Brasil",
-    "wordCount": 1870
+    "title": "Visto Educacional",
+    "wordCount": 1179
   },
   {
     "route": "/pt-br/services/visas/exchange/",
-    "title": "Troca de suporte Visa para entrada estruturada para Brasil",
-    "wordCount": 1880
+    "title": "Visto de troca",
+    "wordCount": 1185
   },
   {
     "route": "/pt-br/services/visas/family/",
-    "title": "Apoio ao visto da fam&iacute;lia para entrada estruturada para Brasil",
-    "wordCount": 1902
+    "title": "Visto de Fam&iacute;lia",
+    "wordCount": 1181
   },
   {
     "route": "/pt-br/services/visas/humanitarian/",
-    "title": "Apoio Humanit&aacute;rio ao Visto para Entrada Estruturada em Brasil",
-    "wordCount": 1876
+    "title": "Visto Humanit&aacute;rio",
+    "wordCount": 1196
   },
   {
     "route": "/pt-br/services/visas/investor/",
-    "title": "Suporte Visa para Investidores para entrada estruturada na Brasil",
-    "wordCount": 1867
+    "title": "Visto para Investidores",
+    "wordCount": 1185
   },
   {
     "route": "/pt-br/services/visas/journalist/",
-    "title": "Suporte Visa Jornalista para entrada estruturada para Brasil",
-    "wordCount": 1837
+    "title": "Visto Jornalista",
+    "wordCount": 1183
   },
   {
     "route": "/pt-br/services/visas/medical/",
-    "title": "Suporte m&eacute;dico para visto para entrada estruturada para Brasil",
-    "wordCount": 1870
+    "title": "Visto m&eacute;dico",
+    "wordCount": 1180
   },
   {
     "route": "/pt-br/services/visas/nomad/",
-    "title": "Suporte Visa Nomad para entrada estruturada para Brasil",
-    "wordCount": 1957
+    "title": "Visto n&ocirc;made",
+    "wordCount": 1181
   },
   {
     "route": "/pt-br/services/visas/religious/",
-    "title": "Apoio religioso Visa para entrada estruturada para Brasil",
-    "wordCount": 1878
+    "title": "Visto Religioso",
+    "wordCount": 1175
   },
   {
     "route": "/pt-br/services/visas/research/",
-    "title": "Pesquisa de suporte a visto para entrada estruturada para Brasil",
-    "wordCount": 1886
+    "title": "Visto de pesquisa",
+    "wordCount": 1172
   },
   {
     "route": "/pt-br/services/visas/retiree/",
-    "title": "Aposentadoria de Visa para entrada estruturada para Brasil",
-    "wordCount": 1872
+    "title": "Visto de aposenta&ccedil;&atilde;o",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/visas/sports/",
-    "title": "Suporte de visto para esportes para entrada estruturada para Brasil",
-    "wordCount": 1831
+    "title": "Visto esportivo",
+    "wordCount": 1174
   },
   {
     "route": "/pt-br/services/visas/startup/",
-    "title": "Suporte Visa Startup para entrada estruturada para Brasil",
-    "wordCount": 1868
+    "title": "Visto para startup",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/visas/student/",
-    "title": "Suporte de visto de estudante para entrada estruturada para Brasil",
-    "wordCount": 1876
+    "title": "Visto de estudante",
+    "wordCount": 1194
   },
   {
     "route": "/pt-br/services/visas/tourist/",
-    "title": "Suporte a Vistos Tur&iacute;sticos para Entrada Estruturada para Brasil",
-    "wordCount": 1925
+    "title": "Visto de turista",
+    "wordCount": 1180
   },
   {
     "route": "/pt-br/services/visas/transit/",
-    "title": "Suporte de visto de tr&acirc;nsito para entrada estruturada para Brasil",
-    "wordCount": 1891
+    "title": "Visto de tr&acirc;nsito",
+    "wordCount": 1193
   },
   {
     "route": "/pt-br/services/visas/volunteer/",
-    "title": "Suporte volunt&aacute;rio para visto para entrada estruturada para Brasil",
-    "wordCount": 1871
+    "title": "Visto de Volunt&aacute;rio",
+    "wordCount": 1185
   },
   {
     "route": "/pt-br/services/visas/work/",
-    "title": "Suporte de visto de trabalho para entrada estruturada para Brasil",
-    "wordCount": 1901
+    "title": "Visto de trabalho",
+    "wordCount": 1176
   },
   {
     "route": "/pt-br/start-consultation/",
