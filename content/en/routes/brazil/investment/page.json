@@ -3,113 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-brazil-investment family-brazil style-brazil",
   "meta": {
-    "themeColor": "#40916C",
-    "description": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
+    "themeColor": "#2E2E2E",
+    "description": "Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing.",
     "robots": "index,follow",
     "title": "Investment | Brazil Living Guidance | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp"
+    "preloadImage": "/assets/images/sections/brazil/investment/section-01-overview/investment-section-01-overview-madeira-riverfront-porto-velho-brazil-bg-primary.webp"
   },
   "social": {
-    "ogType": "website",
+    "ogType": "article",
     "ogTitle": "Investment | Brazil Living Guidance | Immigrate to Brazil",
-    "ogDescription": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
-    "ogImageAlt": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
+    "ogDescription": "Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/brazil/investment/section-01-overview/investment-section-01-overview-madeira-riverfront-porto-velho-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Investment page showing Madeira river in Porto Velho in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Investment | Brazil Living Guidance | Immigrate to Brazil",
-    "twitterDescription": "Informational context on investment in Brazil for relocation, compliance, and practical planning. Covers foreign investment framework, legal structures for i…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
-    "twitterImageAlt": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
+    "twitterDescription": "Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/brazil/investment/section-01-overview/investment-section-01-overview-madeira-riverfront-porto-velho-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Investment page showing Madeira river in Porto Velho in Brazil."
   },
   "runtime": {
     "pageTitle": "Investment",
     "pageFamily": "brazil"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Investment",
-          "item": "https://immigratetobrazil.com/brazil/investment/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me use this information for investment planning in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. These pages are meant to help you think more clearly about investment planning in Brazil, and we can help connect that thinking to immigration, relocation, and next-step planning."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to decide everything about investment planning in Brazil before I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out while they are still comparing options. Part of the support is helping you narrow decisions down more safely and with better context."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help with both immigration and practical relocation questions related to investment planning in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many real moves involve both. We help clients think about how legal steps, timing, and day-to-day planning affect each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients usually need help with investment planning in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Remote workers, families, investors, retirees, students, and professionals often need help connecting investment planning in Brazil to a real move rather than treating it as abstract research."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance toward the most useful next action."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/brazil/investment/#hero-image",
-      "name": "Investment hero image featuring Florianopolis coastline",
-      "description": "SEO hero image for the Investment page on Immigrate to Brazil, showing Florianopolis and Praia Brava on the Atlantic coast and supporting content about relocation guidance about life in Brazil.",
-      "caption": "Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.",
-      "keywords": "Florianopolis, Praia Brava, Brazil beach, Atlantic coast, southern Brazil, Florianopolis and Praia Brava on the Atlantic coast, Investment, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-investment.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Brazil",
+        "href": "/brazil/"
       },
       {
         "label": "Investment",
@@ -118,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Relocation planning is tied to legal context, regional variation, and the practical realities of living in Brazil."
+        "note": "Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
-        "lead": "foreign investment framework, regional comparison, and planning trade-offs.",
+        "lead": "If this page is changing how you think about Brazil, the next step is to turn that research into a real plan.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,66 +55,50 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.ibge.gov.br/",
-        "title": "IBGE institutional portal",
-        "description": "Primary institutional source for geography, population, economy, and regional reference information."
-      },
-      {
-        "href": "https://cidades.ibge.gov.br/",
-        "title": "IBGE Cities and States",
-        "description": "Official statistics and profiles for states, municipalities, demographics, and local indicators."
-      },
-      {
-        "href": "https://www.bcb.gov.br/",
-        "title": "Banco Central do Brasil",
-        "description": "Official source for currency, payments, exchange, and monetary system information."
-      },
-      {
-        "href": "https://www.gov.br/turismo/pt-br",
-        "title": "Ministry of Tourism",
-        "description": "Official tourism portal covering destinations, events, and tourism-sector context."
-      },
-      {
-        "href": "https://embratur.com.br/",
-        "title": "Embratur",
-        "description": "Official tourism promotion institution with destination and travel context."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/brazil/",
+        "title": "Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making",
+        "description": "Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.",
+        "image_src": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+        "image_alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/process/planning/",
-        "title": "Planning",
-        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning."
+        "href": "/brazil/economy/",
+        "title": "Economy",
+        "description": "Brazil's economy affects work, business, purchasing power, and long-term planning. We explain the practical side of that economic picture for readers considering a life, project, or move here.",
+        "image_src": "/assets/images/heroes/brazil/brazil-iguazu-falls-brazil-economy.webp",
+        "image_alt": "Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil."
+      },
+      {
+        "href": "/services/advisory/corporate/",
+        "title": "Corporate",
+        "description": "Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-corporate.webp",
+        "image_alt": "Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/residencies/investor/",
+        "title": "Investor Residency",
+        "description": "Investor residency support matters when lawful stay in Brazil is becoming a real life question rather than a broad idea. We explain who this support is for, how the route is usually read, where people get stuck, and how we help bring structure to it.",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-investor.webp",
+        "image_alt": "Hero image for the Investor Residency page showing the Porto Alegre skyline in southern Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/insights/general/",
-        "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
-      },
-      {
-        "href": "/brazil/brazil/",
-        "title": "Brazil",
-        "description": "Informational context on brazil in Brazil for relocation, compliance, and practical planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

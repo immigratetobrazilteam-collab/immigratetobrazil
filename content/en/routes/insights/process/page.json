@@ -3,127 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-insights-process family-insights style-insight",
   "meta": {
-    "themeColor": "#CD6C28",
-    "description": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
+    "themeColor": "#2E2E2E",
+    "description": "Brazil immigration work becomes easier to understand when it is slowed down into practical stages. We explain how a matter usually moves once it becomes real, where mistakes happen, what each phase is meant to produce, and why sequence matters so much.",
     "robots": "index,follow",
     "title": "Process | Immigration Insights | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp"
+    "preloadImage": "/assets/images/sections/insights/process/section-01-overview/process-section-01-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "article",
     "ogTitle": "Process | Immigration Insights | Immigrate to Brazil",
-    "ogDescription": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
-    "ogImageAlt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil.",
+    "ogDescription": "Brazil immigration work becomes easier to understand when it is slowed down into practical stages. We explain how a matter usually moves once it becomes real, where mistakes happen, what each phase is meant to produce, and why sequence matters so much.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/insights/process/section-01-overview/process-section-01-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Process page showing Teatro Amazonas in Manaus at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Process | Immigration Insights | Immigrate to Brazil",
-    "twitterDescription": "Editorial-style guidance page covering process in the Brazilian immigration context. Covers institutional roles, general sequence of procedures, administrati…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
-    "twitterImageAlt": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil."
+    "twitterDescription": "Brazil immigration work becomes easier to understand when it is slowed down into practical stages. We explain how a matter usually moves once it becomes real, where mistakes happen, what each phase is meant to produce, and why sequence matters so much.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/insights/process/section-01-overview/process-section-01-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Process page showing Teatro Amazonas in Manaus at sunrise in Brazil."
   },
   "runtime": {
     "pageTitle": "Process",
     "pageFamily": "insights"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Process",
-          "item": "https://immigratetobrazil.com/insights/process/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Process",
-      "description": "Editorial-style guidance page covering process in the Brazilian immigration context.",
-      "author": {
-        "@type": "Organization",
-        "name": "Immigrate to Brazil"
-      },
-      "publisher": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "mainEntityOfPage": "https://immigratetobrazil.com/insights/process/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me apply the immigration process to my own situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. These pages give general orientation, but we can help connect the immigration process to your actual plans, risks, timing, and next steps."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need a consultation if I am still only researching the immigration process?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not always. But if the immigration process is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me compare the immigration process with other options?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around the immigration process."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Immigrate to Brazil tell me honestly if this is not the right direction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Part of good guidance is saying when a different route, timing, or strategy may be better than the one you first had in mind."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/insights/process/#hero-image",
-      "name": "Process hero image featuring Porto Alegre skyline",
-      "description": "SEO hero image for the Process page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration insights.",
-      "caption": "Hero image for the Process page showing the Porto Alegre skyline in southern Brazil.",
-      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Process, Brazil immigration insights, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-porto-alegre-skyline-process.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
       },
       {
         "label": "Process",
@@ -132,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Plain-English immigration explanations are provided so research can become a clearer and more informed next step."
+        "note": "Brazil immigration work becomes easier to understand when it is slowed down into practical stages. We explain how a matter usually moves once it becomes real, where mistakes happen, what each phase is meant to produce, and why sequence matters so much. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
-        "lead": "institutional roles in practical client terms.",
+        "lead": "If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -145,61 +55,50 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/insights/",
+        "title": "Insights",
+        "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/insights/general/",
         "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+        "description": "Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/insights/visa/",
-        "title": "Visa",
-        "description": "Editorial-style guidance page covering visa in the Brazilian immigration context."
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

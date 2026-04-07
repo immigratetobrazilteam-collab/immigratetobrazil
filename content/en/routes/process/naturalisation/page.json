@@ -3,125 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-process-naturalisation family-process style-process",
   "meta": {
-    "themeColor": "#C7953C",
-    "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.",
     "robots": "index,follow",
-    "title": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp"
+    "title": "Naturalisation With Monique Fernandes | Brazil Immigration Process",
+    "preloadImage": "/assets/images/sections/process/naturalisation/section-01-overview/naturalisation-section-01-overview-fortaleza-beira-coastline-ceara-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
-    "ogImageAlt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "ogTitle": "Naturalisation With Monique Fernandes | Brazil Immigration Process",
+    "ogDescription": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/process/naturalisation/section-01-overview/naturalisation-section-01-overview-fortaleza-beira-coastline-ceara-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Naturalisation page showing Fortaleza Beira Mar in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Naturalisation | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning. Covers eligibility for citizenship, legal requirements, r…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
-    "twitterImageAlt": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
+    "twitterTitle": "Naturalisation With Monique Fernandes | Brazil Immigration Process",
+    "twitterDescription": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/process/naturalisation/section-01-overview/naturalisation-section-01-overview-fortaleza-beira-coastline-ceara-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Naturalisation page showing Fortaleza Beira Mar in Brazil."
   },
   "runtime": {
     "pageTitle": "Naturalisation",
     "pageFamily": "process"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Naturalisation",
-          "item": "https://immigratetobrazil.com/process/naturalisation/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Naturalisation | Immigrate to Brazil",
-      "serviceType": "Naturalisation",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/process/naturalisation/",
-      "description": "Process guidance on naturalisation within Brazilian immigration procedures and compliance planning."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How can Immigrate to Brazil help at naturalisation planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand what naturalisation planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need everything ready before getting help with naturalisation planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around naturalisation planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at naturalisation planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with naturalisation planning."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/process/naturalisation/#hero-image",
-      "name": "Naturalisation hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
-      "caption": "Hero image for the Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Naturalisation, the Brazil immigration process, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-naturalisation.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
       },
       {
         "label": "Naturalisation",
@@ -130,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation."
       },
       "nextStep": {
-        "lead": "eligibility for citizenship, the current stage, and the next practical check.",
+        "lead": "Long-term citizenship planning consultation.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -143,61 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/permanent/",
+        "title": "Permanent",
+        "description": "Monique helps clients understand when permanent residence may become realistic and how current decisions affect long-term stability.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/renewal/",
+        "title": "Renewal",
+        "description": "Monique treats renewal as continuity work that protects future options, not just a last-minute administrative task.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/compliance/",
+        "title": "Compliance",
+        "description": "Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.",
+        "image_src": "/assets/images/heroes/process/brazil-curitiba-skyline-compliance.webp",
+        "image_alt": "Hero image for the Compliance page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/process/aftercare/",
+        "title": "Aftercare",
+        "description": "Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+        "image_alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

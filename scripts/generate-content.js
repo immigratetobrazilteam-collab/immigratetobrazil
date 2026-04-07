@@ -8,19 +8,26 @@ import {
   loadAboutContent,
   loadContentPage
 } from "./content-source-utils.js";
+import { buildSiteCatalog } from "./schema-utils.js";
 
 async function main() {
   if (!existsSync(ABOUT_PATH) || !existsSync(ROUTES_ROOT)) {
-    throw new Error("Missing content sources. Run `npm run migrate:content` first.");
+    throw new Error("Missing content sources under content/en/. Restore the checked-in content tree before generating HTML.");
   }
 
   const about = await loadAboutContent();
   const routeDirs = await discoverContentRouteDirs();
+  const contentPages = [];
   let changedCount = 0;
 
   for (const routeDir of routeDirs) {
-    const { route, page, bodyHtml } = await loadContentPage(routeDir);
-    const { changed } = await generateEnglishPage(route, about, page, bodyHtml);
+    contentPages.push(await loadContentPage(routeDir));
+  }
+
+  const siteCatalog = buildSiteCatalog(contentPages);
+
+  for (const { route, page, bodyHtml } of contentPages) {
+    const { changed } = await generateEnglishPage(route, about, page, bodyHtml, siteCatalog);
     if (changed) changedCount += 1;
   }
 

@@ -2,781 +2,731 @@
   {
     "route": "/pt-br/",
     "title": "Brasil Guia de Imigra&ccedil;&atilde;o",
-    "wordCount": 3039
+    "wordCount": 2961
+  },
+  {
+    "route": "/pt-br/about/",
+    "title": "A empresa, m&eacute;todo e pessoas por tr&aacute;s da imigra&ccedil;&atilde;o para Brasil",
+    "wordCount": 1025
   },
   {
     "route": "/pt-br/about/about/",
-    "title": "Sobre",
-    "wordCount": 2832
+    "title": "Conhe&ccedil;a Monique Fernandes, o advogado de imigra&ccedil;&atilde;o Brasilian por tr&aacute;s de Immigrate to Brazil",
+    "wordCount": 1023
   },
   {
     "route": "/pt-br/about/clients/",
-    "title": "Clientes",
-    "wordCount": 2846
-  },
-  {
-    "route": "/pt-br/about/compliance/",
-    "title": "Conformidade",
-    "wordCount": 2888
+    "title": "Indiv&iacute;duos, fam&iacute;lias e organiza&ccedil;&otilde;es navegam pela imigra&ccedil;&atilde;o para o Brasil",
+    "wordCount": 875
   },
   {
     "route": "/pt-br/about/ethics/",
-    "title": "&Eacute;tica",
-    "wordCount": 2873
-  },
-  {
-    "route": "/pt-br/about/governance/",
-    "title": "Governan&ccedil;a",
-    "wordCount": 2839
+    "title": "Como as quest&otilde;es de imigra&ccedil;&atilde;o s&atilde;o tratadas com estrutura, clareza e integridade",
+    "wordCount": 1031
   },
   {
     "route": "/pt-br/about/lawyer/",
-    "title": "Advogada",
-    "wordCount": 2979
+    "title": "Monique Fernandes e a estrutura jur&iacute;dica por tr&aacute;s das quest&otilde;es formais de imigra&ccedil;&atilde;o em Brasil",
+    "wordCount": 717
   },
   {
     "route": "/pt-br/about/mission/",
-    "title": "Miss&atilde;o",
-    "wordCount": 2882
+    "title": "Trazendo clareza, estrutura e progress&atilde;o confi&aacute;vel para decis&otilde;es relacionadas ao Brasil",
+    "wordCount": 909
   },
   {
     "route": "/pt-br/about/philosophy/",
-    "title": "Filosofia",
-    "wordCount": 2879
+    "title": "Clareza antes da ac&ccedil;&atilde;o, estrutura antes da velocidade, alinhamento antes da progress&atilde;o.",
+    "wordCount": 981
   },
   {
     "route": "/pt-br/about/profile/",
-    "title": "Perfil",
-    "wordCount": 2848
-  },
-  {
-    "route": "/pt-br/about/regulatory/",
-    "title": "Regulamenta&ccedil;&atilde;o",
-    "wordCount": 2870
+    "title": "Quem somos, como trabalhamos, eo padr&atilde;o por tr&aacute;s da imigra&ccedil;&atilde;o para Brasil",
+    "wordCount": 1224
   },
   {
     "route": "/pt-br/about/results/",
-    "title": "Resultados",
-    "wordCount": 2878
-  },
-  {
-    "route": "/pt-br/about/standards/",
-    "title": "Padr&otilde;es",
-    "wordCount": 2900
+    "title": "Resultados fortes come&ccedil;am com clareza, prepara&ccedil;&atilde;o e alinhamento",
+    "wordCount": 933
   },
   {
     "route": "/pt-br/about/stories/",
-    "title": "Hist&oacute;rias",
-    "wordCount": 2862
+    "title": "Momentos reais onde a estrutura mudou como um processo Brasil se sentiu",
+    "wordCount": 972
   },
   {
     "route": "/pt-br/about/story/",
-    "title": "Hist&oacute;ria",
-    "wordCount": 2852
+    "title": "Por que Immigrate to Brazil foi constru&iacute;do em torno da estrutura, n&atilde;o ru&iacute;do",
+    "wordCount": 919
   },
   {
     "route": "/pt-br/about/testimonials/",
-    "title": "Depoimentos",
-    "wordCount": 2767
+    "title": "O que os clientes lembram quando o processo finalmente se torna claro",
+    "wordCount": 858
   },
   {
     "route": "/pt-br/about/values/",
-    "title": "Valores",
-    "wordCount": 2813
+    "title": "Os padr&otilde;es que moldam como cada processo se sente",
+    "wordCount": 1167
   },
   {
     "route": "/pt-br/about/whyus/",
-    "title": "Por que n&oacute;s",
-    "wordCount": 2857
+    "title": "Um caminho mais estruturado e confi&aacute;vel para a imigra&ccedil;&atilde;o em Brasil",
+    "wordCount": 778
+  },
+  {
+    "route": "/pt-br/brazil/",
+    "title": "Brasil Centro de Planejamento para Relocaliza&ccedil;&atilde;o, Estilo de Vida e Tomada de Decis&atilde;o Regional",
+    "wordCount": 1119
   },
   {
     "route": "/pt-br/brazil/brazil/",
-    "title": "Brasil",
-    "wordCount": 2995
+    "title": "Brasil explicado como um pa&iacute;s real para planejar em torno",
+    "wordCount": 2174
   },
   {
     "route": "/pt-br/brazil/central-west/",
-    "title": "Centro-Oeste",
-    "wordCount": 2880
+    "title": "Regi&atilde;o Centro-Oeste em Brasil Atrav&eacute;s de uma lente de reloca&ccedil;&atilde;o",
+    "wordCount": 2078
   },
   {
     "route": "/pt-br/brazil/cities/",
-    "title": "Cidades",
-    "wordCount": 2977
+    "title": "Cidades em Brasil comparadas atrav&eacute;s de fatores reais da vida di&aacute;ria",
+    "wordCount": 2253
   },
   {
     "route": "/pt-br/brazil/cost/",
-    "title": "Custo",
-    "wordCount": 3014
+    "title": "Custo de viver em Brasil em termos de planejamento real",
+    "wordCount": 2360
   },
   {
     "route": "/pt-br/brazil/cuisine/",
-    "title": "Cozinha",
-    "wordCount": 2942
+    "title": "Brasilian Cuisine Como parte da vida di&aacute;ria e identidade cultural",
+    "wordCount": 2130
   },
   {
     "route": "/pt-br/brazil/culture/",
-    "title": "Cultura",
-    "wordCount": 2904
+    "title": "Brasilian cultura como uma parte real da relocaliza&ccedil;&atilde;o e do pertencimento",
+    "wordCount": 2079
   },
   {
     "route": "/pt-br/brazil/directory/",
-    "title": "Pasta",
-    "wordCount": 2962
+    "title": "Diret&oacute;rio para navegar Brasil por localiza&ccedil;&atilde;o e necessidade pr&aacute;tica",
+    "wordCount": 2049
   },
   {
     "route": "/pt-br/brazil/economy/",
-    "title": "Economia",
-    "wordCount": 2946
+    "title": "Economia do Brasil em termos pr&aacute;ticos para imigrantes e deslocaliza&ccedil;&otilde;es de fam&iacute;lias",
+    "wordCount": 2232
   },
   {
     "route": "/pt-br/brazil/education/",
-    "title": "Educa&ccedil;&atilde;o",
-    "wordCount": 2848
+    "title": "Forma&ccedil;&atilde;o em Brasil para fam&iacute;lias, estudantes e planejamento futuro",
+    "wordCount": 2227
   },
   {
     "route": "/pt-br/brazil/events/",
-    "title": "Eventos",
-    "wordCount": 2908
+    "title": "Eventos em Brasil para a cultura, m&uacute;sica, esporte e energia urbana",
+    "wordCount": 2120
   },
   {
     "route": "/pt-br/brazil/faqs/",
-    "title": "Faqs",
-    "wordCount": 2966
+    "title": "Perguntas frequentes sobre Brasil Em linguagem clara e pr&aacute;tica",
+    "wordCount": 2100
   },
   {
     "route": "/pt-br/brazil/festivals/",
-    "title": "Festas",
-    "wordCount": 2973
+    "title": "Festivais em Brasil como vida cultural em vez de turismo simples",
+    "wordCount": 2122
   },
   {
     "route": "/pt-br/brazil/guides/",
-    "title": "Guias",
-    "wordCount": 2918
+    "title": "Guias pr&aacute;ticos para se fixar na vida em Brasil",
+    "wordCount": 2123
   },
   {
     "route": "/pt-br/brazil/healthcare/",
-    "title": "Cuidados de sa&uacute;de",
-    "wordCount": 2953
+    "title": "Sa&uacute;de em Brasil para indiv&iacute;duos, fam&iacute;lias e planejamento de longo prazo",
+    "wordCount": 2301
   },
   {
     "route": "/pt-br/brazil/housing/",
-    "title": "Habita&ccedil;&atilde;o",
-    "wordCount": 2866
+    "title": "Habita&ccedil;&atilde;o em Brasil atrav&eacute;s de uma lente de planejamento de relocaliza&ccedil;&atilde;o",
+    "wordCount": 2277
   },
   {
     "route": "/pt-br/brazil/investment/",
-    "title": "Investimento",
-    "wordCount": 2894
+    "title": "Investimento em Brasil atrav&eacute;s de uma lente realista de entrada estrangeira",
+    "wordCount": 2082
   },
   {
     "route": "/pt-br/brazil/living/",
-    "title": "Viver",
-    "wordCount": 2986
+    "title": "Viver em Brasil como vida di&aacute;ria, em vez de uma id&eacute;ia de viagem",
+    "wordCount": 2280
   },
   {
     "route": "/pt-br/brazil/municipalities/",
-    "title": "Munic&iacute;pios",
-    "wordCount": 2907
+    "title": "Munic&iacute;pios em Brasil para leitores pensando al&eacute;m das capitais principais",
+    "wordCount": 2188
   },
   {
     "route": "/pt-br/brazil/north/",
-    "title": "Norte",
-    "wordCount": 2875
+    "title": "Regi&atilde;o Norte em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "wordCount": 2128
   },
   {
     "route": "/pt-br/brazil/northeast/",
-    "title": "Nordeste",
-    "wordCount": 2881
+    "title": "Regi&atilde;o Nordeste em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "wordCount": 2107
+  },
+  {
+    "route": "/pt-br/brazil/places/",
+    "title": "Locais em Brasil Comparado atrav&eacute;s de estilo de vida, custo e ajuste pr&aacute;tico",
+    "wordCount": 1092
   },
   {
     "route": "/pt-br/brazil/quality/",
-    "title": "Qualidade",
-    "wordCount": 3019
+    "title": "Qualidade de vida em Brasil Al&eacute;m de Slogans",
+    "wordCount": 2276
   },
   {
     "route": "/pt-br/brazil/safety/",
-    "title": "Seguran&ccedil;a",
-    "wordCount": 3029
+    "title": "Seguran&ccedil;a em Brasil Al&eacute;m de estere&oacute;tipos e simplifica&ccedil;&otilde;es",
+    "wordCount": 2244
   },
   {
     "route": "/pt-br/brazil/search/",
-    "title": "Busca",
-    "wordCount": 2971
+    "title": "Pesquisar Brasil T&oacute;picos, Locais e P&aacute;ginas de Planejamento de Imigra&ccedil;&atilde;o mais r&aacute;pido",
+    "wordCount": 2046
   },
   {
     "route": "/pt-br/brazil/south/",
-    "title": "Sul",
-    "wordCount": 3007
+    "title": "Regi&atilde;o Sul em Brasil atrav&eacute;s de uma lente de relocaliza&ccedil;&atilde;o",
+    "wordCount": 2114
   },
   {
     "route": "/pt-br/brazil/southeast/",
-    "title": "Sudeste",
-    "wordCount": 3006
+    "title": "Regi&atilde;o Sudeste em Brasil atrav&eacute;s de uma lente de reloca&ccedil;&atilde;o",
+    "wordCount": 2132
   },
   {
     "route": "/pt-br/brazil/states/",
-    "title": "Estados",
-    "wordCount": 2947
+    "title": "Brasilian Estados como uma camada pr&aacute;tica de planejamento de relocaliza&ccedil;&atilde;o",
+    "wordCount": 2228
+  },
+  {
+    "route": "/pt-br/insights/",
+    "title": "Biblioteca de Insights de Imigra&ccedil;&atilde;o de Monique Fernandes Brasil",
+    "wordCount": 822
   },
   {
     "route": "/pt-br/insights/blog/",
-    "title": "Blog",
-    "wordCount": 2830
+    "title": "Monique Fernandes' Brasil Imigra&ccedil;&atilde;o Blog e Biblioteca de artigos",
+    "wordCount": 20373
   },
   {
     "route": "/pt-br/insights/general/",
-    "title": "Geral",
-    "wordCount": 2942
+    "title": "Brasil Bases de Imigra&ccedil;&atilde;o: Vistos, Resid&ecirc;ncia, Documentos e Autoridades P&uacute;blicas",
+    "wordCount": 2022
   },
   {
     "route": "/pt-br/insights/guides/",
-    "title": "Guias",
-    "wordCount": 2824
+    "title": "Guias Brasil: Movendo, Setting, Documentos e Perguntas Todos os Dias",
+    "wordCount": 1273
   },
   {
     "route": "/pt-br/insights/naturalisation/",
-    "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2900
+    "title": "Brasil Naturaliza&ccedil;&atilde;o Insights: Continuidade, Elegibilidade, Registros e Timing",
+    "wordCount": 1709
   },
   {
     "route": "/pt-br/insights/process/",
-    "title": "Processo",
-    "wordCount": 2894
+    "title": "Brasil Perspectivas do processo de imigra&ccedil;&atilde;o: Estrat&eacute;gia, Arquivamento, Aprova&ccedil;&atilde;o e P&oacute;s-Cuidado",
+    "wordCount": 1467
   },
   {
     "route": "/pt-br/insights/residency/",
-    "title": "Resid&ecirc;ncia",
-    "wordCount": 2916
+    "title": "Brasil Residency Insights: Continuidade, Renova&ccedil;&atilde;o, Direitos e Perman&ecirc;ncia de Longo Prazo",
+    "wordCount": 1694
   },
   {
     "route": "/pt-br/insights/updates/",
-    "title": "Atualiza&ccedil;&otilde;es",
-    "wordCount": 2798
+    "title": "Brasil Imigra&ccedil;&atilde;o atualiza&ccedil;&otilde;es explicado calmamente",
+    "wordCount": 1260
   },
   {
     "route": "/pt-br/insights/visa/",
-    "title": "Visto",
-    "wordCount": 2901
+    "title": "Brasil Visa Insights: Categorias de entrada, Consulados, Documentos e Calend&aacute;rio",
+    "wordCount": 1919
+  },
+  {
+    "route": "/pt-br/legal/",
+    "title": "Imigrar para o ToBrasil.com Avisos Legais",
+    "wordCount": 1037
   },
   {
     "route": "/pt-br/legal/404/",
-    "title": "404",
-    "wordCount": 129
+    "title": "P&aacute;gina N&atilde;o Encontrada",
+    "wordCount": 428
   },
   {
     "route": "/pt-br/legal/accessibility/",
-    "title": "Acessibilidade",
-    "wordCount": 2809
+    "title": "Declara&ccedil;&atilde;o Acessibilidade",
+    "wordCount": 1000
   },
   {
     "route": "/pt-br/legal/cookies/",
-    "title": "Cookies",
-    "wordCount": 2822
+    "title": "Pol&iacute;tica de Cookies",
+    "wordCount": 1267
   },
   {
     "route": "/pt-br/legal/disclaimer/",
-    "title": "Disclaimer",
-    "wordCount": 2820
+    "title": "Aviso legal e de responsabilidade",
+    "wordCount": 1126
   },
   {
     "route": "/pt-br/legal/emergency/",
-    "title": "Emerg&ecirc;ncia",
-    "wordCount": 2825
+    "title": "Recursos de emerg&ecirc;ncia",
+    "wordCount": 497
   },
   {
     "route": "/pt-br/legal/form/",
-    "title": "Formul&aacute;rio",
-    "wordCount": 2982
+    "title": "Pol&iacute;tica de & Ingest&atilde;o de Formul&aacute;rios",
+    "wordCount": 669
   },
   {
     "route": "/pt-br/legal/gdpr/",
-    "title": "GDPR",
-    "wordCount": 2848
+    "title": "Aviso de conformidade do GDPR",
+    "wordCount": 1226
   },
   {
     "route": "/pt-br/legal/lgpd/",
-    "title": "LGPD",
-    "wordCount": 2841
+    "title": "Aviso LGPD",
+    "wordCount": 689
   },
   {
     "route": "/pt-br/legal/payment/",
-    "title": "Pagamento",
-    "wordCount": 2872
+    "title": "Termos de Pagamento",
+    "wordCount": 1329
   },
   {
     "route": "/pt-br/legal/privacy/",
-    "title": "Privacidade",
-    "wordCount": 2803
+    "title": "Pol&iacute;tica de Privacidade",
+    "wordCount": 1250
   },
   {
     "route": "/pt-br/legal/refund/",
-    "title": "Reembolso",
-    "wordCount": 2809
+    "title": "Pol&iacute;tica de restitui&ccedil;&otilde;es",
+    "wordCount": 1197
   },
   {
     "route": "/pt-br/legal/search/",
     "title": "Busca",
-    "wordCount": 92
+    "wordCount": 561
   },
   {
     "route": "/pt-br/legal/terms/",
-    "title": "Termos",
-    "wordCount": 2820
+    "title": "Termos e Condi&ccedil;&otilde;es",
+    "wordCount": 1417
+  },
+  {
+    "route": "/pt-br/process/",
+    "title": "Processo de Imigra&ccedil;&atilde;o Brasil explicado passo a passo",
+    "wordCount": 1013
   },
   {
     "route": "/pt-br/process/aftercare/",
-    "title": "Ap&oacute;s o tratamento",
-    "wordCount": 2893
+    "title": "Ap&oacute;s o cuidado como o est&aacute;gio ap&oacute;s a aprova&ccedil;&atilde;o onde a estabilidade &eacute; protegida",
+    "wordCount": 1643
   },
   {
     "route": "/pt-br/process/alone/",
-    "title": "Sozinho",
-    "wordCount": 2851
+    "title": "Quando os clientes tentam lidar com o processo sozinhos",
+    "wordCount": 1585
   },
   {
     "route": "/pt-br/process/approval/",
-    "title": "Aprova&ccedil;&atilde;o",
-    "wordCount": 2930
+    "title": "Aprova&ccedil;&atilde;o explicada sem falsas garantias",
+    "wordCount": 1559
   },
   {
     "route": "/pt-br/process/assessment/",
-    "title": "Avalia&ccedil;&atilde;o",
-    "wordCount": 2898
+    "title": "Avalia&ccedil;&atilde;o como uma revis&atilde;o estruturada da situa&ccedil;&atilde;o real",
+    "wordCount": 1581
   },
   {
     "route": "/pt-br/process/compliance/",
-    "title": "Conformidade",
-    "wordCount": 2974
+    "title": "Conformidade como alinhamento cont&iacute;nuo em vez de verifica&ccedil;&atilde;o &uacute;nica",
+    "wordCount": 1534
   },
   {
     "route": "/pt-br/process/consultation/",
-    "title": "Consulta",
-    "wordCount": 2954
+    "title": "Consulta Como a Etapa Em que Um Caso Para de Ser Vaga",
+    "wordCount": 1605
   },
   {
     "route": "/pt-br/process/conversion/",
-    "title": "Convers&atilde;o",
-    "wordCount": 2886
+    "title": "Convers&atilde;o entre posi&ccedil;&otilde;es de imigra&ccedil;&atilde;o ou l&oacute;gica de rota",
+    "wordCount": 1685
   },
   {
     "route": "/pt-br/process/deadlines/",
-    "title": "Prazos",
-    "wordCount": 3098
+    "title": "Prazos e tempo Windows em Brasil Importa a imigra&ccedil;&atilde;o",
+    "wordCount": 1708
   },
   {
     "route": "/pt-br/process/failures/",
-    "title": "Falhas",
-    "wordCount": 2898
+    "title": "Falhas no processo, recusas, atrasos e casos empatados",
+    "wordCount": 1567
   },
   {
     "route": "/pt-br/process/fees/",
-    "title": "Taxas",
-    "wordCount": 2879
+    "title": "Taxas explicadas atrav&eacute;s de est&aacute;gios, escopo e valor de servi&ccedil;o",
+    "wordCount": 1626
   },
   {
     "route": "/pt-br/process/filing/",
-    "title": "Apresenta&ccedil;&atilde;o",
-    "wordCount": 2877
+    "title": "Arquivamento como prepara&ccedil;&atilde;o, submiss&atilde;o e controle de processo",
+    "wordCount": 1644
   },
   {
     "route": "/pt-br/process/mistakes/",
-    "title": "Erros",
-    "wordCount": 2885
-  },
-  {
-    "route": "/pt-br/process/naturalisation/",
-    "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2866
-  },
-  {
-    "route": "/pt-br/process/obligations/",
-    "title": "Obriga&ccedil;&otilde;es",
-    "wordCount": 2973
-  },
-  {
-    "route": "/pt-br/process/permanent/",
-    "title": "Permanente",
-    "wordCount": 2902
-  },
-  {
-    "route": "/pt-br/process/planning/",
-    "title": "Planejamento",
-    "wordCount": 2869
-  },
-  {
-    "route": "/pt-br/process/refund/",
-    "title": "Reembolso",
-    "wordCount": 2852
-  },
-  {
-    "route": "/pt-br/process/regularization/",
-    "title": "Regulariza&ccedil;&atilde;o",
-    "wordCount": 2899
-  },
-  {
-    "route": "/pt-br/process/renewal/",
-    "title": "Renova&ccedil;&atilde;o",
-    "wordCount": 2932
-  },
-  {
-    "route": "/pt-br/process/responsibilities/",
-    "title": "Responsabilidades",
-    "wordCount": 2923
-  },
-  {
-    "route": "/pt-br/process/rights/",
-    "title": "Direitos",
-    "wordCount": 2887
-  },
-  {
-    "route": "/pt-br/process/strategy/",
-    "title": "Estrat&eacute;gia",
-    "wordCount": 2894
-  },
-  {
-    "route": "/pt-br/process/timeline/",
-    "title": "Prazo",
-    "wordCount": 3041
-  },
-  {
-    "route": "/pt-br/process/transparency/",
-    "title": "Transpar&ecirc;ncia",
-    "wordCount": 2920
+    "title": "Erros comuns de imigra&ccedil;&atilde;o e como tentamos evit&aacute;-los",
+    "wordCount": 1464
   },
   {
     "route": "/pt-br/services/",
-    "title": "Brasil Servi&ccedil;os de Imigra&ccedil;&atilde;o",
-    "wordCount": 3009
+    "title": "Brasil Servi&ccedil;os de Imigra&ccedil;&atilde;o Organizados por Rota, Necessidade e Pr&oacute;ximo Passo",
+    "wordCount": 1143
   },
   {
     "route": "/pt-br/services/advisory/",
-    "title": "Consultoria",
-    "wordCount": 2903
+    "title": "Servi&ccedil;os de consultoria para clareza, estrat&eacute;gia e melhores decis&otilde;es antecipadas",
+    "wordCount": 1036
   },
   {
     "route": "/pt-br/services/advisory/compliance/",
-    "title": "Conformidade",
-    "wordCount": 3117
+    "title": "Suporte de conformidade para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
+    "wordCount": 1873
   },
   {
     "route": "/pt-br/services/advisory/consultation/",
-    "title": "Consulta",
-    "wordCount": 2950
+    "title": "Apoio &agrave; consulta para decis&otilde;es mais claras em mat&eacute;ria de imigra&ccedil;&atilde;o",
+    "wordCount": 1852
   },
   {
     "route": "/pt-br/services/advisory/corporate/",
-    "title": "Empresa",
-    "wordCount": 3144
+    "title": "Suporte Corporativo para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
+    "wordCount": 1865
   },
   {
     "route": "/pt-br/services/advisory/representation/",
-    "title": "Representa&ccedil;&atilde;o",
-    "wordCount": 2938
+    "title": "Representa&ccedil;&atilde;o Apoio para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
+    "wordCount": 1846
   },
   {
     "route": "/pt-br/services/advisory/strategy/",
-    "title": "Estrat&eacute;gia",
-    "wordCount": 2964
+    "title": "Apoio estrat&eacute;gico para decis&otilde;es de imigra&ccedil;&atilde;o mais claras",
+    "wordCount": 1862
   },
   {
     "route": "/pt-br/services/defense/",
-    "title": "Defesa",
-    "wordCount": 2946
+    "title": "Servi&ccedil;os de Defesa para quest&otilde;es de imigra&ccedil;&atilde;o urgentes, sens&iacute;veis e expostas",
+    "wordCount": 1045
   },
   {
     "route": "/pt-br/services/defense/appeals/",
-    "title": "Recursos",
-    "wordCount": 3002
+    "title": "Apela para apoio para quest&otilde;es de defesa de imigra&ccedil;&atilde;o sens&iacute;veis",
+    "wordCount": 1741
   },
   {
     "route": "/pt-br/services/defense/deportation/",
-    "title": "Deporta&ccedil;&atilde;o",
-    "wordCount": 3021
+    "title": "Apoio &agrave; deporta&ccedil;&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
+    "wordCount": 1751
   },
   {
     "route": "/pt-br/services/defense/expulsion/",
-    "title": "Expuls&atilde;o",
-    "wordCount": 3013
+    "title": "Apoio &agrave; expuls&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
+    "wordCount": 1746
   },
   {
     "route": "/pt-br/services/defense/extradition/",
-    "title": "Extradi&ccedil;&atilde;o",
-    "wordCount": 3021
+    "title": "Apoio &agrave; extradi&ccedil;&atilde;o para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
+    "wordCount": 1788
   },
   {
     "route": "/pt-br/services/defense/fines/",
-    "title": "Multas",
-    "wordCount": 3006
+    "title": "Fines Apoio para quest&otilde;es sens&iacute;veis de defesa da imigra&ccedil;&atilde;o",
+    "wordCount": 1769
   },
   {
     "route": "/pt-br/services/defense/litigation/",
-    "title": "Contencioso",
-    "wordCount": 2998
+    "title": "Apoio a Contencioso para Assuntos de Defesa da Imigra&ccedil;&atilde;o Sens&iacute;veis",
+    "wordCount": 1751
   },
   {
     "route": "/pt-br/services/naturalisation/",
-    "title": "Naturaliza&ccedil;&atilde;o",
-    "wordCount": 2938
+    "title": "Servi&ccedil;os de Naturaliza&ccedil;&atilde;o para o Planejamento da Cidadania e Continuidade de Longo Prazo",
+    "wordCount": 1026
   },
   {
     "route": "/pt-br/services/naturalisation/extraordinary/",
-    "title": "Naturaliza&ccedil;&atilde;o extraordin&aacute;ria",
-    "wordCount": 3031
+    "title": "Apoio Extraordin&aacute;rio ao Planejamento de Cidadania Brasilian",
+    "wordCount": 1867
   },
   {
     "route": "/pt-br/services/naturalisation/ordinary/",
-    "title": "Naturaliza&ccedil;&atilde;o Ordin&aacute;ria",
-    "wordCount": 3043
+    "title": "Apoio Ordin&aacute;rio ao Planejamento de Cidadania Brasilian",
+    "wordCount": 1857
   },
   {
     "route": "/pt-br/services/naturalisation/provisional/",
-    "title": "Naturaliza&ccedil;&atilde;o Provis&oacute;ria",
-    "wordCount": 3044
+    "title": "Apoio Provis&oacute;rio ao Planejamento de Cidadania Brasilian",
+    "wordCount": 1890
   },
   {
     "route": "/pt-br/services/naturalisation/reacquisition/",
-    "title": "Naturaliza&ccedil;&atilde;o da reaquisi&ccedil;&atilde;o",
-    "wordCount": 3042
+    "title": "Suporte &agrave; reaquisi&ccedil;&atilde;o para o planejamento da cidadania Brasilian",
+    "wordCount": 1907
   },
   {
     "route": "/pt-br/services/naturalisation/renunciation/",
-    "title": "Naturaliza&ccedil;&atilde;o da Ren&uacute;ncia",
-    "wordCount": 3036
+    "title": "Apoio &agrave; Ren&uacute;ncia para o Planejamento de Cidadania Brasilian",
+    "wordCount": 1879
   },
   {
     "route": "/pt-br/services/naturalisation/special/",
-    "title": "Naturaliza&ccedil;&atilde;o Especial",
-    "wordCount": 3048
+    "title": "Apoio Especial para o Planejamento de Cidadania Brasilian",
+    "wordCount": 1854
   },
   {
     "route": "/pt-br/services/other/",
-    "title": "Outros",
-    "wordCount": 2973
+    "title": "Servi&ccedil;os de suporte que fazem os arquivos de imigra&ccedil;&atilde;o funcionarem na pr&aacute;tica",
+    "wordCount": 985
   },
   {
     "route": "/pt-br/services/other/consular/",
-    "title": "Consular",
-    "wordCount": 3007
+    "title": "Suporte consular para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
+    "wordCount": 1776
   },
   {
     "route": "/pt-br/services/other/records/",
-    "title": "Registros",
-    "wordCount": 3105
+    "title": "Registros de suporte para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
+    "wordCount": 1774
   },
   {
     "route": "/pt-br/services/other/regularization/",
-    "title": "Regulariza&ccedil;&atilde;o",
-    "wordCount": 3070
+    "title": "Suporte de Regulariza&ccedil;&atilde;o para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
+    "wordCount": 1792
   },
   {
     "route": "/pt-br/services/other/translation/",
-    "title": "Tradu&ccedil;&atilde;o",
-    "wordCount": 3088
+    "title": "Suporte de tradu&ccedil;&atilde;o para o trabalho de apoio que mant&eacute;m um caso utiliz&aacute;vel",
+    "wordCount": 1780
   },
   {
     "route": "/pt-br/services/residencies/",
-    "title": "Resid&ecirc;ncias",
-    "wordCount": 2895
+    "title": "Servi&ccedil;os de Resid&ecirc;ncia para Vida Legal de Longo Prazo em Brasil",
+    "wordCount": 1057
   },
   {
     "route": "/pt-br/services/residencies/cplp/",
-    "title": "CPLP Resid&ecirc;ncia",
-    "wordCount": 3020
+    "title": "CPLP Apoio &agrave; resid&ecirc;ncia para a vida a longo prazo em Brasil",
+    "wordCount": 1937
   },
   {
     "route": "/pt-br/services/residencies/educational/",
-    "title": "Resid&ecirc;ncia Educativa",
-    "wordCount": 3076
+    "title": "Apoio &agrave; resid&ecirc;ncia educacional para a vida a longo prazo em Brasil",
+    "wordCount": 1881
   },
   {
     "route": "/pt-br/services/residencies/exchange/",
-    "title": "Resid&ecirc;ncia de interc&acirc;mbio",
-    "wordCount": 2964
+    "title": "Suporte de resid&ecirc;ncia de troca para a vida a longo prazo em Brasil",
+    "wordCount": 1884
   },
   {
     "route": "/pt-br/services/residencies/health/",
-    "title": "Resid&ecirc;ncia em Sa&uacute;de",
-    "wordCount": 2991
+    "title": "Apoio &agrave; resid&ecirc;ncia em sa&uacute;de para uma vida longa em Brasil",
+    "wordCount": 1925
   },
   {
     "route": "/pt-br/services/residencies/humanitarian/",
-    "title": "Resid&ecirc;ncia humanit&aacute;ria",
-    "wordCount": 2962
+    "title": "Apoio &agrave; resid&ecirc;ncia humanit&aacute;ria para uma vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1877
   },
   {
     "route": "/pt-br/services/residencies/investor/",
-    "title": "Resid&ecirc;ncia dos Investidores",
-    "wordCount": 3120
+    "title": "Apoio &agrave; resid&ecirc;ncia dos investidores para uma vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1922
   },
   {
     "route": "/pt-br/services/residencies/mercosul/",
-    "title": "Resid&ecirc;ncia MERCOSUL",
-    "wordCount": 3054
+    "title": "Apoio &agrave; resid&ecirc;ncia Mercosul para a vida de longo prazo em Brasil",
+    "wordCount": 1931
   },
   {
     "route": "/pt-br/services/residencies/nomad/",
-    "title": "Resid&ecirc;ncia N&ocirc;made",
-    "wordCount": 3018
+    "title": "Suporte de resid&ecirc;ncia n&ocirc;made para a vida a longo prazo em Brasil",
+    "wordCount": 1954
   },
   {
     "route": "/pt-br/services/residencies/religious/",
-    "title": "Resid&ecirc;ncia Religiosa",
-    "wordCount": 3095
+    "title": "Apoio &agrave; resid&ecirc;ncia religiosa para a vida a longo prazo em Brasil",
+    "wordCount": 1884
   },
   {
     "route": "/pt-br/services/residencies/research/",
-    "title": "Resid&ecirc;ncia de pesquisa",
-    "wordCount": 3092
+    "title": "Apoio &agrave; resid&ecirc;ncia de pesquisa para a vida a longo prazo em Brasil",
+    "wordCount": 1892
   },
   {
     "route": "/pt-br/services/residencies/retiree/",
-    "title": "Resid&ecirc;ncia para aposentados",
-    "wordCount": 3101
+    "title": "Apoio &agrave; resid&ecirc;ncia de reforma para a vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1878
   },
   {
     "route": "/pt-br/services/residencies/reunion/",
-    "title": "Resid&ecirc;ncia da Reuni&atilde;o",
-    "wordCount": 2976
+    "title": "Reunion Residence Support para a vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1922
   },
   {
     "route": "/pt-br/services/residencies/skilled/",
-    "title": "Resid&ecirc;ncia qualificada",
-    "wordCount": 3002
+    "title": "Suporte de resid&ecirc;ncia qualificada para a vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1914
   },
   {
     "route": "/pt-br/services/residencies/study/",
-    "title": "Resid&ecirc;ncia do Estudo",
-    "wordCount": 3087
+    "title": "Suporte de resid&ecirc;ncia de estudo para a vida a longo prazo em Brasil",
+    "wordCount": 1891
   },
   {
     "route": "/pt-br/services/residencies/volunteer/",
-    "title": "Resid&ecirc;ncia Volunt&aacute;ria",
-    "wordCount": 2948
+    "title": "Apoio &agrave; resid&ecirc;ncia volunt&aacute;ria para a vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1883
   },
   {
     "route": "/pt-br/services/residencies/work/",
-    "title": "Resid&ecirc;ncia no Trabalho",
-    "wordCount": 2999
+    "title": "Apoio &agrave; resid&ecirc;ncia de trabalho para a vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1918
   },
   {
     "route": "/pt-br/services/residencies/youth/",
-    "title": "Resid&ecirc;ncia para jovens",
-    "wordCount": 3101
+    "title": "Apoio &agrave; resid&ecirc;ncia juvenil para uma vida de longa dura&ccedil;&atilde;o em Brasil",
+    "wordCount": 1895
   },
   {
     "route": "/pt-br/services/visas/",
-    "title": "Vistos",
-    "wordCount": 2868
+    "title": "Servi&ccedil;os de visto para planejamento de entrada, prepara&ccedil;&atilde;o consular e ajuste de categoria",
+    "wordCount": 1066
   },
   {
     "route": "/pt-br/services/visas/artistic/",
-    "title": "Visto Art&iacute;stico",
-    "wordCount": 3027
+    "title": "Suporte a Visa Art&iacute;stico para entrada estruturada para Brasil",
+    "wordCount": 1835
   },
   {
     "route": "/pt-br/services/visas/business/",
-    "title": "Visto de neg&oacute;cios",
-    "wordCount": 3045
+    "title": "Suporte de visto de neg&oacute;cios para entrada estruturada para Brasil",
+    "wordCount": 1919
   },
   {
     "route": "/pt-br/services/visas/diplomatic/",
-    "title": "Visto Diplom&aacute;tico",
-    "wordCount": 2966
+    "title": "Suporte a Visa Diplom&aacute;tico para entrada estruturada para Brasil",
+    "wordCount": 1818
   },
   {
     "route": "/pt-br/services/visas/educational/",
-    "title": "Visto Educacional",
-    "wordCount": 2914
+    "title": "Suporte educacional para visto para entrada estruturada para Brasil",
+    "wordCount": 1870
   },
   {
     "route": "/pt-br/services/visas/exchange/",
-    "title": "Visto de troca",
-    "wordCount": 3071
+    "title": "Troca de suporte Visa para entrada estruturada para Brasil",
+    "wordCount": 1880
   },
   {
     "route": "/pt-br/services/visas/family/",
-    "title": "Visto de Fam&iacute;lia",
-    "wordCount": 2989
+    "title": "Apoio ao visto da fam&iacute;lia para entrada estruturada para Brasil",
+    "wordCount": 1902
   },
   {
     "route": "/pt-br/services/visas/humanitarian/",
-    "title": "Visto Humanit&aacute;rio",
-    "wordCount": 3094
+    "title": "Apoio Humanit&aacute;rio ao Visto para Entrada Estruturada em Brasil",
+    "wordCount": 1876
   },
   {
     "route": "/pt-br/services/visas/investor/",
-    "title": "Visto para Investidores",
-    "wordCount": 3002
+    "title": "Suporte Visa para Investidores para entrada estruturada na Brasil",
+    "wordCount": 1867
   },
   {
     "route": "/pt-br/services/visas/journalist/",
-    "title": "Visto Jornalista",
-    "wordCount": 2965
+    "title": "Suporte Visa Jornalista para entrada estruturada para Brasil",
+    "wordCount": 1837
   },
   {
     "route": "/pt-br/services/visas/medical/",
-    "title": "Visto m&eacute;dico",
-    "wordCount": 2956
+    "title": "Suporte m&eacute;dico para visto para entrada estruturada para Brasil",
+    "wordCount": 1870
   },
   {
     "route": "/pt-br/services/visas/nomad/",
-    "title": "Visto n&ocirc;made",
-    "wordCount": 2981
+    "title": "Suporte Visa Nomad para entrada estruturada para Brasil",
+    "wordCount": 1957
   },
   {
     "route": "/pt-br/services/visas/religious/",
-    "title": "Visto Religioso",
-    "wordCount": 2932
+    "title": "Apoio religioso Visa para entrada estruturada para Brasil",
+    "wordCount": 1878
   },
   {
     "route": "/pt-br/services/visas/research/",
-    "title": "Visto de pesquisa",
-    "wordCount": 2971
+    "title": "Pesquisa de suporte a visto para entrada estruturada para Brasil",
+    "wordCount": 1886
   },
   {
     "route": "/pt-br/services/visas/retiree/",
-    "title": "Visto de aposenta&ccedil;&atilde;o",
-    "wordCount": 2946
+    "title": "Aposentadoria de Visa para entrada estruturada para Brasil",
+    "wordCount": 1872
   },
   {
     "route": "/pt-br/services/visas/sports/",
-    "title": "Visto esportivo",
-    "wordCount": 2951
+    "title": "Suporte de visto para esportes para entrada estruturada para Brasil",
+    "wordCount": 1831
   },
   {
     "route": "/pt-br/services/visas/startup/",
-    "title": "Visto para startup",
-    "wordCount": 2956
+    "title": "Suporte Visa Startup para entrada estruturada para Brasil",
+    "wordCount": 1868
   },
   {
     "route": "/pt-br/services/visas/student/",
-    "title": "Visto de estudante",
-    "wordCount": 2938
+    "title": "Suporte de visto de estudante para entrada estruturada para Brasil",
+    "wordCount": 1876
   },
   {
     "route": "/pt-br/services/visas/tourist/",
-    "title": "Visto de turista",
-    "wordCount": 3024
+    "title": "Suporte a Vistos Tur&iacute;sticos para Entrada Estruturada para Brasil",
+    "wordCount": 1925
   },
   {
     "route": "/pt-br/services/visas/transit/",
-    "title": "Visto de tr&acirc;nsito",
-    "wordCount": 3028
+    "title": "Suporte de visto de tr&acirc;nsito para entrada estruturada para Brasil",
+    "wordCount": 1891
   },
   {
     "route": "/pt-br/services/visas/volunteer/",
-    "title": "Visto de Volunt&aacute;rio",
-    "wordCount": 2928
+    "title": "Suporte volunt&aacute;rio para visto para entrada estruturada para Brasil",
+    "wordCount": 1871
   },
   {
     "route": "/pt-br/services/visas/work/",
-    "title": "Visto de trabalho",
-    "wordCount": 3070
+    "title": "Suporte de visto de trabalho para entrada estruturada para Brasil",
+    "wordCount": 1901
   },
   {
     "route": "/pt-br/start-consultation/",
     "title": "Solicitar uma consulta",
-    "wordCount": 2954
+    "wordCount": 2852
   }
 ]

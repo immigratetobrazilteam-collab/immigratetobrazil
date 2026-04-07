@@ -3,120 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-start-consultation family-foundation style-consultation",
   "meta": {
-    "themeColor": "#52B788",
-    "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps. Covers consultation request flow, pay…",
+    "themeColor": "#2E2E2E",
+    "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
     "robots": "index,follow",
     "title": "Start Consultation | Immigrate to Brazil | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp"
+    "preloadImage": "/assets/images/sections/start-consultation/section-01-consultation-request-flow/start-consultation-section-01-consultation-request-flow-iguazu-iguacu-southern-economy-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Start Consultation | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps. Covers consultation request flow, pay…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
-    "ogImageAlt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "ogDescription": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/start-consultation/section-01-consultation-request-flow/start-consultation-section-01-consultation-request-flow-iguazu-iguacu-southern-economy-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Start Consultation page showing Iguazu Falls on the Brazilian side in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Start Consultation | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps. Covers consultation request flow, pay…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
-    "twitterImageAlt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+    "twitterDescription": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/start-consultation/section-01-consultation-request-flow/start-consultation-section-01-consultation-request-flow-iguazu-iguacu-southern-economy-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Start Consultation page showing Iguazu Falls on the Brazilian side in Brazil."
   },
   "runtime": {
     "pageTitle": "Start Consultation",
     "pageFamily": "foundation"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Start Consultation",
-          "item": "https://immigratetobrazil.com/start-consultation/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Start Consultation | Immigrate to Brazil",
-      "serviceType": "Start Consultation",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/start-consultation/",
-      "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is a consultation the right first step if I am not sure which route fits me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many people book a consultation because they need clarity before choosing a route, paying for the wrong service, or moving too quickly without understanding the bigger picture."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What can Immigrate to Brazil help me understand in a consultation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A consultation can help you understand which options may fit, what risks or timing issues matter most, what should happen first, and where more focused support may be needed afterward."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need every document ready before I book?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. You do not need a perfect file before booking. What helps most is a clear summary of your situation, your main questions, and any key documents or timing details you already have."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does booking and confirmation work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Consultation requests are reviewed manually. Payment, proof, and scheduling are handled in sequence, and a time is only treated as confirmed after manual confirmation in writing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after the consultation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "After the consultation, the next step depends on your situation. That may mean moving into a clearer plan, preparing for a service, gathering more information, or deciding that a different direction makes more sense."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/start-consultation/#hero-image",
-      "name": "Start Consultation hero image featuring Pelourinho in Salvador",
-      "description": "SEO hero image for the Start Consultation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration and relocation planning.",
-      "caption": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
-      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Start Consultation, Brazil immigration and relocation planning, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -130,7 +38,7 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning."
+        "note": "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning. Attorney Monique Fernandes and Immigration Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
         "lead": "consultation request flow, the current stage, and the next practical check.",
@@ -143,7 +51,7 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
@@ -151,53 +59,49 @@
         "note": "Representation and filing strategy remain case-specific and follow review of the record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
         "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
         "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "title": "Form & Intake Policy",
+        "description": "This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/process/consultation/",
         "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
       },
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
         "href": "/legal/refund/",
-        "title": "Refund",
-        "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries."
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/",
+        "title": "About",
+        "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       }
     ]
   }

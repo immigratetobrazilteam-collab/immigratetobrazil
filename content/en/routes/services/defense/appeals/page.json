@@ -3,126 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-services-defense-appeals family-services style-service-child",
   "meta": {
-    "themeColor": "#2D6A4F",
-    "description": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authorit…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes helps clients challenging refusals, adverse decisions, or weak earlier outcomes understand what her appeals service can do, whether it is the right fit, and what the next step may be in Brazil.",
     "robots": "index,follow",
     "title": "Appeals | Brazil Immigration Services | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp"
+    "preloadImage": "/assets/images/sections/services/defense/appeals/section-01-overview/appeals-section-01-overview-ponta-negra-riverfront-manaus-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Appeals | Brazil Immigration Services | Immigrate to Brazil",
-    "ogDescription": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authorit…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
-    "ogImageAlt": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil.",
+    "ogDescription": "Monique Fernandes helps clients challenging refusals, adverse decisions, or weak earlier outcomes understand what her appeals service can do, whether it is the right fit, and what the next step may be in Brazil.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/services/defense/appeals/section-01-overview/appeals-section-01-overview-ponta-negra-riverfront-manaus-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Appeals page showing Ponta Negra in Manaus in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Appeals | Brazil Immigration Services | Immigrate to Brazil",
-    "twitterDescription": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support. Covers legal context, response structure, authorit…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
-    "twitterImageAlt": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil."
+    "twitterDescription": "Monique Fernandes helps clients challenging refusals, adverse decisions, or weak earlier outcomes understand what her appeals service can do, whether it is the right fit, and what the next step may be in Brazil.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/services/defense/appeals/section-01-overview/appeals-section-01-overview-ponta-negra-riverfront-manaus-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Appeals page showing Ponta Negra in Manaus in Brazil."
   },
   "runtime": {
     "pageTitle": "Appeals",
     "pageFamily": "services"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://immigratetobrazil.com/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Appeals",
-          "item": "https://immigratetobrazil.com/services/defense/appeals/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Appeals | Immigrate to Brazil",
-      "serviceType": "Appeals",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/services/defense/appeals/",
-      "description": "Service page for appeals response planning, evidence strategy, authority interaction, and ongoing support."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help if I am dealing with appeals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Clients often reach out in appeals situations because they need calm, clear direction before urgency or confusion makes the situation harder to manage."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I contact Immigrate to Brazil early even if the appeals situation still feels unclear?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Early guidance can help you understand urgency, reduce avoidable mistakes, and decide what information or support matters first."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of support does Immigrate to Brazil provide in appeals matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients bring order to the situation, understand the real priority, and move toward a safer next step with clearer communication and better coordination."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me understand timing and next steps in a appeals situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. In stressful situations, one of the main forms of support is turning confusion into a clear sequence so you can see what needs attention now and what should happen next."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil about appeals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on urgency, timing, and what you are dealing with. That may mean consultation, follow-up questions, or direction toward the most useful immediate action."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/services/defense/appeals/#hero-image",
-      "name": "Appeals hero image featuring Porto Alegre skyline",
-      "description": "SEO hero image for the Appeals page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil immigration services.",
-      "caption": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil.",
-      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Appeals, Brazil immigration services, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -134,16 +36,20 @@
         "href": "/services/"
       },
       {
+        "label": "Defense",
+        "href": "/services/defense/"
+      },
+      {
         "label": "Appeals",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended."
+        "note": "Monique Fernandes helps clients challenging refusals, adverse decisions, or weak earlier outcomes understand what her appeals service can do, whether it is the right fit, and what the next step may be in Brazil. Her approach focuses on calmer judgment, stronger structure, and safer next steps in Brazil."
       },
       "nextStep": {
-        "lead": "legal context in terms of route fit, supporting records, and next steps.",
+        "lead": "If Monique's appeals service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -153,61 +59,76 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
         "href": "/services/defense/",
         "title": "Defense",
-        "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities."
+        "description": "Use this hub when the matter is already sensitive, urgent, or exposed. Defense work is about stabilizing the situation, protecting chronology, and making sure the next move is careful rather than reactive.",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
+        "image_alt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       },
       {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/services/advisory/representation/",
+        "title": "Representation",
+        "description": "Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-representation.webp",
+        "image_alt": "Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/process/failures/",
+        "title": "Failures",
+        "description": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
+        "image_src": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+        "image_alt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil."
       }
     ]
   }

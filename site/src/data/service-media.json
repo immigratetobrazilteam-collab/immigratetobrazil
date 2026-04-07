@@ -1,0 +1,2000 @@
+{
+  "generated_at": "2026-03-25T01:29:40.220089+00:00",
+  "services": {
+    "/services/civil/apostille.html": {
+      "image": "/assets/img/services/cards/civil/apostille.webp",
+      "alts": {
+        "en": "Vibrant illustration of document authentication process for Apostille in Brazilian civil law services",
+        "pt": "Ilustração vibrante do processo de autenticação de documentos para Apostila nos serviços de direito civil brasileiros",
+        "es": "Ejemplo vibrante del proceso de autenticación de documentos para la Apostilla en los servicios de derecho civil brasileños",
+        "fr": "Illustration vibrante du processus d'authentification des documents pour l'Apostille dans les services de droit civil brésiliens"
+      },
+      "names": {
+        "en": "Apostille",
+        "pt": "Apostila",
+        "es": "Apostilla",
+        "fr": "Apostille"
+      },
+      "summaries": {
+        "en": "Document authentication for international use in Brazil.",
+        "pt": "Autenticação de documentos para uso internacional no Brasil.",
+        "es": "Autenticación de documentos para uso internacional en Brasil.",
+        "fr": "Authentification de documents pour une utilisation internationale au Brésil."
+      }
+    },
+    "/services/civil/cnpj.html": {
+      "image": "/assets/img/services/cards/civil/cnpj.webp",
+      "alts": {
+        "en": "Dynamic graphic depicting CNPJ registration for businesses in Brazilian legal framework",
+        "pt": "Gráfico dinâmico representando o registro de CNPJ para empresas no âmbito jurídico brasileiro",
+        "es": "Gráfico dinámico que representa el registro del CNPJ para empresas en el marco legal brasileño",
+        "fr": "Graphique dynamique illustrant l'enregistrement CNPJ pour les entreprises dans le cadre juridique brésilien"
+      },
+      "names": {
+        "en": "CNPJ",
+        "pt": "CNPJ",
+        "es": "CNPJ",
+        "fr": "CNPJ"
+      },
+      "summaries": {
+        "en": "Business tax ID registration services in Brazil.",
+        "pt": "Serviços de registro de identificação fiscal empresarial no Brasil.",
+        "es": "Servicios de registro de identificación fiscal de empresas en Brasil.",
+        "fr": "Services d'enregistrement d'identité fiscale professionnelle au Brésil."
+      }
+    },
+    "/services/civil/contracts.html": {
+      "image": "/assets/img/services/cards/civil/contracts.webp",
+      "alts": {
+        "en": "Engaging visual of contract drafting and review in the context of Brazilian civil law",
+        "pt": "Visual envolvente da elaboração e revisão de contratos no contexto do direito civil brasileiro",
+        "es": "Visual interesante de la redacción y revisión de contratos en el contexto del derecho civil brasileño",
+        "fr": "Visuel attrayant de la rédaction et de la révision du contrat dans le contexte du droit civil brésilien"
+      },
+      "names": {
+        "en": "Contracts",
+        "pt": "Contratos",
+        "es": "Contratos",
+        "fr": "Contrats"
+      },
+      "summaries": {
+        "en": "Drafting and reviewing legal agreements in Brazil.",
+        "pt": "Elaboração e revisão de acordos jurídicos no Brasil.",
+        "es": "Redacción y revisión de acuerdos legales en Brasil.",
+        "fr": "Rédaction et révision d'accords juridiques au Brésil."
+      }
+    },
+    "/services/civil/cpf.html": {
+      "image": "/assets/img/services/cards/civil/cpf.webp",
+      "alts": {
+        "en": "Illustrative scene showing CPF tax ID registration for individuals under Brazilian law",
+        "pt": "Cena ilustrativa mostrando registro de CPF de pessoa física sob a legislação brasileira",
+        "es": "Escena ilustrativa que muestra el registro de identificación fiscal CPF para personas físicas según la ley brasileña",
+        "fr": "Scène d'illustration montrant l'enregistrement d'un numéro d'identification fiscale CPF pour les particuliers relevant de la loi brésilienne"
+      },
+      "names": {
+        "en": "CPF",
+        "pt": "CPF",
+        "es": "CPF",
+        "fr": "CPF"
+      },
+      "summaries": {
+        "en": "Individual tax ID registration assistance in Brazil.",
+        "pt": "Assistência para registro de identificação fiscal de pessoa física no Brasil.",
+        "es": "Asistencia en el registro de identificación fiscal individual en Brasil.",
+        "fr": "Assistance à l'enregistrement d'un numéro d'identification fiscale individuel au Brésil."
+      }
+    },
+    "/services/civil/debt.html": {
+      "image": "/assets/img/services/cards/civil/debt.webp",
+      "alts": {
+        "en": "Compelling image representing debt recovery and negotiation in Brazilian civil legal services",
+        "pt": "Imagem convincente que representa a recuperação e negociação de dívidas nos serviços jurídicos civis brasileiros",
+        "es": "Imagen convincente que representa la recuperación y negociación de deudas en los servicios jurídicos civiles brasileños.",
+        "fr": "Image convaincante représentant le recouvrement et la négociation de dettes dans les services juridiques civils brésiliens"
+      },
+      "names": {
+        "en": "Debt",
+        "pt": "Dívida",
+        "es": "Deuda",
+        "fr": "Dette"
+      },
+      "summaries": {
+        "en": "Debt recovery and negotiation services in Brazil.",
+        "pt": "Serviços de recuperação e negociação de dívidas no Brasil.",
+        "es": "Servicios de recuperación y negociación de deudas en Brasil.",
+        "fr": "Services de recouvrement et de négociation de créances au Brésil."
+      }
+    },
+    "/services/civil/defences.html": {
+      "image": "/assets/img/services/cards/civil/defences.webp",
+      "alts": {
+        "en": "Striking depiction of legal defenses in civil cases within the Brazilian judicial system",
+        "pt": "Representação impressionante de defesas legais em casos civis no sistema judiciário brasileiro",
+        "es": "Sorprendente descripción de las defensas legales en casos civiles dentro del sistema judicial brasileño",
+        "fr": "Représentation frappante des défenses juridiques dans les affaires civiles au sein du système judiciaire brésilien"
+      },
+      "names": {
+        "en": "Defences",
+        "pt": "Defesas",
+        "es": "Defensas",
+        "fr": "Défenses"
+      },
+      "summaries": {
+        "en": "Legal defense strategies in civil litigation cases.",
+        "pt": "Estratégias de defesa jurídica em casos de contencioso cível.",
+        "es": "Estrategias de defensa jurídica en casos de litigios civiles.",
+        "fr": "Stratégies de défense juridique dans les litiges civils."
+      }
+    },
+    "/services/civil/indemnification.html": {
+      "image": "/assets/img/services/cards/civil/indemnification.webp",
+      "alts": {
+        "en": "Captivating visual of indemnification and compensation claims in Brazilian civil law",
+        "pt": "Visual cativante dos pedidos de indenização e indenização no direito civil brasileiro",
+        "es": "Visual cautivante de las reclamaciones de indemnización y compensación en el derecho civil brasileño",
+        "fr": "Visuel captivant des demandes d’indemnisation et d’indemnisation en droit civil brésilien"
+      },
+      "names": {
+        "en": "Indemnification",
+        "pt": "Indenização",
+        "es": "Indemnización",
+        "fr": "Indemnité"
+      },
+      "summaries": {
+        "en": "Compensation claims handling in civil matters.",
+        "pt": "Tratamento de pedidos de indemnização em matéria civil.",
+        "es": "Tramitación de reclamaciones de indemnización en materia civil.",
+        "fr": "Traitement des demandes d'indemnisation en matière civile."
+      }
+    },
+    "/services/civil/leasing.html": {
+      "image": "/assets/img/services/cards/civil/leasing.webp",
+      "alts": {
+        "en": "Intriguing illustration of leasing agreements under Brazilian civil law regulations",
+        "pt": "Ilustração intrigante de contratos de arrendamento sob as regulamentações do direito civil brasileiro",
+        "es": "Un ejemplo intrigante de los contratos de arrendamiento según las normas del derecho civil brasileño",
+        "fr": "Illustration fascinante de contrats de location régis par la réglementation du droit civil brésilien"
+      },
+      "names": {
+        "en": "Leasing",
+        "pt": "Locação",
+        "es": "Arrendamiento",
+        "fr": "Location"
+      },
+      "summaries": {
+        "en": "Legal support for leasing contracts in Brazil.",
+        "pt": "Suporte jurídico para contratos de locação no Brasil.",
+        "es": "Soporte legal para contratos de arrendamiento en Brasil.",
+        "fr": "Assistance juridique pour les contrats de location au Brésil."
+      }
+    },
+    "/services/civil/licenses.html": {
+      "image": "/assets/img/services/cards/civil/licenses.webp",
+      "alts": {
+        "en": "Vivid representation of obtaining business licenses through Brazilian legal processes",
+        "pt": "Representação vívida da obtenção de licenças comerciais através de processos legais brasileiros",
+        "es": "Representación vívida de la obtención de licencias comerciales a través de procesos legales brasileños.",
+        "fr": "Représentation vivante de l'obtention de licences commerciales par le biais des processus juridiques brésiliens"
+      },
+      "names": {
+        "en": "Licenses",
+        "pt": "Licenças",
+        "es": "Licencias",
+        "fr": "Licences"
+      },
+      "summaries": {
+        "en": "Assistance in obtaining business licenses in Brazil.",
+        "pt": "Auxílio na obtenção de licenças comerciais no Brasil.",
+        "es": "Asistencia en la obtención de licencias comerciales en Brasil.",
+        "fr": "Assistance pour l'obtention de licences commerciales au Brésil."
+      }
+    },
+    "/services/civil/name-change.html": {
+      "image": "/assets/img/services/cards/civil/name-change.webp",
+      "alts": {
+        "en": "Engaging graphic illustrating name change procedures in Brazilian civil law",
+        "pt": "Gráfico envolvente ilustrando os procedimentos de mudança de nome no direito civil brasileiro",
+        "es": "Gráfico atractivo que ilustra los procedimientos de cambio de nombre en el derecho civil brasileño",
+        "fr": "Graphique attrayant illustrant les procédures de changement de nom dans le droit civil brésilien"
+      },
+      "names": {
+        "en": "Name Change",
+        "pt": "Mudança de nome",
+        "es": "Cambio de nombre",
+        "fr": "Changement de nom"
+      },
+      "summaries": {
+        "en": "Legal procedures for changing names in Brazil.",
+        "pt": "Procedimentos legais para alteração de nomes no Brasil.",
+        "es": "Procedimientos legales para el cambio de nombres en Brasil.",
+        "fr": "Procédures légales pour changer de nom au Brésil."
+      }
+    },
+    "/services/civil/notarization.html": {
+      "image": "/assets/img/services/cards/civil/notarization.webp",
+      "alts": {
+        "en": "Descriptive image of notarization services in the Brazilian legal context",
+        "pt": "Imagem descritiva dos serviços de notarização no contexto jurídico brasileiro",
+        "es": "Imagen descriptiva de los servicios de notarización en el contexto jurídico brasileño.",
+        "fr": "Image descriptive des services de notarisation dans le contexte juridique brésilien"
+      },
+      "names": {
+        "en": "Notarization",
+        "pt": "Notarização",
+        "es": "notarización",
+        "fr": "Notarisation"
+      },
+      "summaries": {
+        "en": "Notary services for document verification in Brazil.",
+        "pt": "Serviços notariais para verificação de documentos no Brasil.",
+        "es": "Servicios notariales para verificación de documentos en Brasil.",
+        "fr": "Services notariaux pour la vérification de documents au Brésil."
+      }
+    },
+    "/services/civil/power-of-attorney.html": {
+      "image": "/assets/img/services/cards/civil/power-of-attorney.webp",
+      "alts": {
+        "en": "Illustrative depiction of power of attorney documents in Brazilian civil law",
+        "pt": "Representação ilustrativa de documentos de procuração no direito civil brasileiro",
+        "es": "Representación ilustrativa de los documentos de poder en el derecho civil brasileño",
+        "fr": "Représentation illustrative des documents de procuration dans le droit civil brésilien"
+      },
+      "names": {
+        "en": "Power of Attorney",
+        "pt": "Procuração",
+        "es": "Poder legal",
+        "fr": "Procuration"
+      },
+      "summaries": {
+        "en": "Legal authorization documents preparation in Brazil.",
+        "pt": "Preparação de documentos de autorização legal no Brasil.",
+        "es": "Preparación de documentos de autorización legal en Brasil.",
+        "fr": "Préparation des documents d'autorisation légale au Brésil."
+      }
+    },
+    "/services/civil/property.html": {
+      "image": "/assets/img/services/cards/civil/property.webp",
+      "alts": {
+        "en": "Dynamic visual of property and real estate transactions in Brazilian law",
+        "pt": "Visual dinâmico das transações patrimoniais e imobiliárias no direito brasileiro",
+        "es": "Visualización dinámica de transacciones inmobiliarias y de bienes raíces en el derecho brasileño.",
+        "fr": "Visuel dynamique de la propriété et des transactions immobilières en droit brésilien"
+      },
+      "names": {
+        "en": "Property",
+        "pt": "Propriedade",
+        "es": "Propiedad",
+        "fr": "Propriété"
+      },
+      "summaries": {
+        "en": "Legal handling of real estate transactions in Brazil.",
+        "pt": "Tratamento jurídico de transações imobiliárias no Brasil.",
+        "es": "Manejo legal de transacciones inmobiliarias en Brasil.",
+        "fr": "Traitement juridique des transactions immobilières au Brésil."
+      }
+    },
+    "/services/family/adoption.html": {
+      "image": "/assets/img/services/cards/family/adoption.webp",
+      "alts": {
+        "en": "Heartwarming illustration of adoption processes in Brazilian family law",
+        "pt": "Ilustração comovente dos processos de adoção no direito de família brasileiro",
+        "es": "Conmovedora ilustración de los procesos de adopción en el derecho de familia brasileño",
+        "fr": "Illustration réconfortante des processus d’adoption dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Adoption",
+        "pt": "Adoção",
+        "es": "Adopción",
+        "fr": "Adoption"
+      },
+      "summaries": {
+        "en": "Legal processes for adopting children in Brazil.",
+        "pt": "Processoos legais para adoção de crianças no Brasil.",
+        "es": "Procesos legales para la adopción de niños en Brasil.",
+        "fr": "Procedureus juridiques pour adopter des enfants au Brésil."
+      }
+    },
+    "/services/family/alimony.html": {
+      "image": "/assets/img/services/cards/family/alimony.webp",
+      "alts": {
+        "en": "Informative graphic on alimony and support payments in Brazilian family law",
+        "pt": "Gráfico informativo sobre pagamentos de pensão alimentícia e apoio no direito de família brasileiro",
+        "es": "Gráfico informativo sobre pagos de alimentos y alimentos en el derecho de familia brasileño",
+        "fr": "Graphique informatif sur les pensions alimentaires et les pensions alimentaires en droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Alimony",
+        "pt": "Pensão alimentícia",
+        "es": "Pensión alimenticia",
+        "fr": "Pension"
+      },
+      "summaries": {
+        "en": "Legal handling of spousal support payments in Brazil.",
+        "pt": "Tratamento legal de pagamentos de pensão alimentícia no Brasil.",
+        "es": "Manejo legal de pagos de manutención conyugal en Brasil.",
+        "fr": "Traitement juridique des paiements de pension alimentaire pour conjoint au Brésil."
+      }
+    },
+    "/services/family/birth.html": {
+      "image": "/assets/img/services/cards/family/birth.webp",
+      "alts": {
+        "en": "Joyful image representing birth registration in Brazilian family legal services",
+        "pt": "Imagem alegre representando registro de nascimento nos serviços jurídicos de família brasileiros",
+        "es": "Imagen alegre que representa el registro de nacimiento en los servicios legales de familia brasileños",
+        "fr": "Image joyeuse représentant l’enregistrement des naissances dans les services juridiques de la famille brésiliens"
+      },
+      "names": {
+        "en": "Birth",
+        "pt": "Aniversário",
+        "es": "Nacimiento",
+        "fr": "Naissance"
+      },
+      "summaries": {
+        "en": "Registration and certificates for births in Brazil.",
+        "pt": "Registro e certidões de nascimento no Brasil.",
+        "es": "Inscripciones y actas de nacimiento en Brasil.",
+        "fr": "Enregistrement et actes de naissance au Brésil."
+      }
+    },
+    "/services/family/custody.html": {
+      "image": "/assets/img/services/cards/family/custody.webp",
+      "alts": {
+        "en": "Thought-provoking visual of child custody arrangements in Brazilian family law",
+        "pt": "Visual instigante sobre os acordos de guarda dos filhos no direito de família brasileiro",
+        "es": "Imagen que invita a la reflexión sobre los acuerdos de custodia de los hijos en el derecho de familia brasileño",
+        "fr": "Visuel stimulant sur les modalités de garde des enfants dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Custody",
+        "pt": "Custódia",
+        "es": "Custodia",
+        "fr": "Garde à vue"
+      },
+      "summaries": {
+        "en": "Arrangements for child custody disputes in Brazil.",
+        "pt": "Arranjos para disputas de custódia de crianças no Brasil.",
+        "es": "Arreglos para disputas por la custodia de los hijos en Brasil.",
+        "fr": "Dispositions en cas de litiges concernant la garde des enfants au Brésil."
+      }
+    },
+    "/services/family/divorce.html": {
+      "image": "/assets/img/services/cards/family/divorce.webp",
+      "alts": {
+        "en": "Reflective illustration of divorce proceedings in Brazilian family law",
+        "pt": "Ilustração reflexiva do processo de divórcio no direito de família brasileiro",
+        "es": "Ilustración reflexiva del proceso de divorcio en el derecho de familia brasileño",
+        "fr": "Illustration réflexive des procédures de divorce dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Divorce",
+        "pt": "Divórcio",
+        "es": "Divorcio",
+        "fr": "Divorce"
+      },
+      "summaries": {
+        "en": "Legal dissolution of marriages in Brazil.",
+        "pt": "Dissolução legal de casamentos no Brasil.",
+        "es": "Disolución legal de matrimonios en Brasil.",
+        "fr": "Dissolution légale des mariages au Brésil."
+      }
+    },
+    "/services/family/domestic-violence.html": {
+      "image": "/assets/img/services/cards/family/domestic-violence.webp",
+      "alts": {
+        "en": "Empowering image highlighting protection against domestic violence in Brazilian law",
+        "pt": "Imagem fortalecedora que destaca a proteção contra a violência doméstica na legislação brasileira",
+        "es": "Imagen empoderadora que destaca la protección contra la violencia doméstica en la legislación brasileña",
+        "fr": "Image valorisante mettant en avant la protection contre la violence domestique dans la loi brésilienne"
+      },
+      "names": {
+        "en": "Domestic Violence",
+        "pt": "Violência Doméstica",
+        "es": "Violencia Doméstica",
+        "fr": "Violence Domestique"
+      },
+      "summaries": {
+        "en": "Protection orders against domestic abuse in Brazil.",
+        "pt": "Ordens de proteção contra violência doméstica no Brasil.",
+        "es": "Órdenes de protección contra la violencia doméstica en Brasil.",
+        "fr": "Ordonnances de protection contre la violence domestique au Brésil."
+      }
+    },
+    "/services/family/foreign-divorce.html": {
+      "image": "/assets/img/services/cards/family/foreign-divorce.webp",
+      "alts": {
+        "en": "Global perspective on foreign divorce recognition in Brazilian family law",
+        "pt": "Perspectiva global sobre o reconhecimento do divórcio estrangeiro no direito de família brasileiro",
+        "es": "Perspectiva global sobre el reconocimiento del divorcio extranjero en el derecho de familia brasileño",
+        "fr": "Perspective mondiale sur la reconnaissance du divorce étranger dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Foreign Divorce",
+        "pt": "Divórcio Estrangeiro",
+        "es": "Divorcio extranjero",
+        "fr": "Divorce à l'étranger"
+      },
+      "summaries": {
+        "en": "Recognition of divorces granted outside Brazil.",
+        "pt": "Reconhecimento de divórcios concedidos fora do Brasil.",
+        "es": "Reconocimiento de divorcios otorgados fuera de Brasil.",
+        "fr": "Reconnaissance des divorces prononcés hors du Brésil."
+      }
+    },
+    "/services/family/guardianship.html": {
+      "image": "/assets/img/services/cards/family/guardianship.webp",
+      "alts": {
+        "en": "Protective illustration of guardianship appointments in Brazilian family law",
+        "pt": "Ilustração protetiva das nomeações tutelares no direito de família brasileiro",
+        "es": "Ilustración protectora de los nombramientos de tutela en el derecho de familia brasileño",
+        "fr": "Illustration protectrice des nominations de tutelle dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Guardianship",
+        "pt": "Tutela",
+        "es": "Tutela",
+        "fr": "Tutelle"
+      },
+      "summaries": {
+        "en": "Appointment of legal guardians in Brazil.",
+        "pt": "Nomeação de responsáveis ​​legais no Brasil.",
+        "es": "Designación de tutores legales en Brasil.",
+        "fr": "Désignation de tuteurs légaux au Brésil."
+      }
+    },
+    "/services/family/hague-convention.html": {
+      "image": "/assets/img/services/cards/family/hague-convention.webp",
+      "alts": {
+        "en": "International scope image for Hague Convention on child abduction in Brazil",
+        "pt": "Imagem de alcance internacional da Convenção de Haia sobre sequestro de crianças no Brasil",
+        "es": "Imagen de alcance internacional para la Convención de La Haya sobre sustracción de menores en Brasil",
+        "fr": "Image de portée internationale pour la Convention de La Haye sur l’enlèvement d’enfants au Brésil"
+      },
+      "names": {
+        "en": "Hague Convention",
+        "pt": "Convenção de Haia",
+        "es": "Convenio de La Haya",
+        "fr": "Convention de La Haye"
+      },
+      "summaries": {
+        "en": "Handling international child abduction cases in Brazil.",
+        "pt": "Tratamento de casos de sequestro internacional de crianças no Brasil.",
+        "es": "Manejo de casos de sustracción internacional de menores en Brasil.",
+        "fr": "Traitement des cas d'enlèvement international d'enfants au Brésil."
+      }
+    },
+    "/services/family/inheritance.html": {
+      "image": "/assets/img/services/cards/family/inheritance.webp",
+      "alts": {
+        "en": "Legacy-focused visual for inheritance and succession in Brazilian family law",
+        "pt": "Visual focado no legado para herança e sucessão no direito de família brasileiro",
+        "es": "Visual centrado en el legado para herencias y sucesiones en el derecho de familia brasileño",
+        "fr": "Visuel axé sur l'héritage pour l'héritage et la succession dans le droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Inheritance",
+        "pt": "Herança",
+        "es": "Herencia",
+        "fr": "Héritage"
+      },
+      "summaries": {
+        "en": "Succession planning and will execution in Brazil.",
+        "pt": "Planejamento sucessório e execução de testamentos no Brasil.",
+        "es": "Planificación de sucesión y ejecución testamentaria en Brasil.",
+        "fr": "Planification de la succession et exécution du testament au Brésil."
+      }
+    },
+    "/services/family/marriage-by-proxy.html": {
+      "image": "/assets/img/services/cards/family/marriage-by-proxy.webp",
+      "alts": {
+        "en": "Unique illustration of proxy marriage in the Brazilian legal system",
+        "pt": "Ilustração única do casamento por procuração no ordenamento jurídico brasileiro",
+        "es": "Ejemplo único del matrimonio por poderes en el sistema jurídico brasileño",
+        "fr": "Illustration unique du mariage par procuration dans le système juridique brésilien"
+      },
+      "names": {
+        "en": "Marriage by Proxy",
+        "pt": "Casamento por procuração",
+        "es": "Matrimonio por poder",
+        "fr": "Mariage par procuration"
+      },
+      "summaries": {
+        "en": "Legal proxy marriage arrangements in Brazil.",
+        "pt": "Arranjos legais de casamento por procuração no Brasil.",
+        "es": "Arreglos de matrimonio por poder legal en Brasil.",
+        "fr": "Mariages légaux par procuration au Brésil."
+      }
+    },
+    "/services/family/marriage.html": {
+      "image": "/assets/img/services/cards/family/marriage.webp",
+      "alts": {
+        "en": "Romantic depiction of marriage registration in Brazilian family legal services",
+        "pt": "Representação romântica do registro de casamento nos serviços jurídicos de família brasileiros",
+        "es": "Representación romántica del registro de matrimonio en los servicios jurídicos familiares brasileños",
+        "fr": "Représentation romantique de l’enregistrement du mariage dans les services juridiques familiaux brésiliens"
+      },
+      "names": {
+        "en": "Marriage",
+        "pt": "Casado",
+        "es": "Casamiento",
+        "fr": "Mariage"
+      },
+      "summaries": {
+        "en": "Registration of marriages legally in Brazil.",
+        "pt": "Registro de casamento legalmente no Brasil.",
+        "es": "Registro de matrimonios legalmente en Brasil.",
+        "fr": "Enregistrement légal des mariages au Brésil."
+      }
+    },
+    "/services/family/paternity.html": {
+      "image": "/assets/img/services/cards/family/paternity.webp",
+      "alts": {
+        "en": "Family-oriented image for paternity establishment in Brazilian law",
+        "pt": "Imagem de orientação familiar para estabelecimento de paternidade no direito brasileiro",
+        "es": "Imagen orientada a la familia para el establecimiento de la paternidad en la legislación brasileña",
+        "fr": "Image axée sur la famille pour l'établissement de la paternité dans le droit brésilien"
+      },
+      "names": {
+        "en": "Paternity",
+        "pt": "Paternidade",
+        "es": "Paternidad",
+        "fr": "Paternité"
+      },
+      "summaries": {
+        "en": "Establishing legal paternity in Brazil cases.",
+        "pt": "Estabelecendo a paternidade legal nos casos do Brasil.",
+        "es": "Establecimiento de la paternidad legal en casos de Brasil.",
+        "fr": "Établir la paternité légale dans les affaires brésiliennes."
+      }
+    },
+    "/services/family/prenup.html": {
+      "image": "/assets/img/services/cards/family/prenup.webp",
+      "alts": {
+        "en": "Strategic visual of prenuptial agreements in Brazilian family law",
+        "pt": "Visual estratégico dos acordos pré-nupciais no direito de família brasileiro",
+        "es": "Visual estratégica de los acuerdos prenupciales en el derecho de familia brasileño",
+        "fr": "Visuel stratégique des accords prénuptiaux en droit de la famille brésilien"
+      },
+      "names": {
+        "en": "Prenup",
+        "pt": "Pré-nupcial",
+        "es": "acuerdo prenupcial",
+        "fr": "Prénuptial"
+      },
+      "summaries": {
+        "en": "Drafting prenuptial agreements legally in Brazil.",
+        "pt": "Elaboração de acordos pré-nupciais legalmente no Brasil.",
+        "es": "Redacción de acuerdos prenupciales legalmente en Brasil.",
+        "fr": "Rédaction légale d'accords prénuptiaux au Brésil."
+      }
+    },
+    "/services/family/stable-union.html": {
+      "image": "/assets/img/services/cards/family/stable-union.webp",
+      "alts": {
+        "en": "Harmonious image representing stable union recognition in Brazil",
+        "pt": "Imagem harmoniosa que representa o reconhecimento da união estável no Brasil",
+        "es": "Imagen armoniosa que representa reconocimiento sindical estable en Brasil",
+        "fr": "Image harmonieuse représentant une reconnaissance syndicale stable au Brésil"
+      },
+      "names": {
+        "en": "Stable Union",
+        "pt": "União Estável",
+        "es": "Unión estable",
+        "fr": "Union stable"
+      },
+      "summaries": {
+        "en": "Recognition of cohabitation unions in Brazil.",
+        "pt": "Reconhecimento das uniões de convivência no Brasil.",
+        "es": "Reconocimiento de las uniones de convivencia en Brasil.",
+        "fr": "Reconnaissance des unions de cohabitation au Brésil."
+      }
+    },
+    "/services/human-rights/asylum.html": {
+      "image": "/assets/img/services/cards/human-rights/asylum.webp",
+      "alts": {
+        "en": "Compassionate illustration of asylum protection in Brazilian human rights law",
+        "pt": "Ilustração compassiva da proteção do asilo na legislação brasileira de direitos humanos",
+        "es": "Un ejemplo compasivo de la protección del asilo en el derecho brasileño de derechos humanos",
+        "fr": "Illustration compatissante de la protection de l’asile dans la législation brésilienne relative aux droits de l’homme"
+      },
+      "names": {
+        "en": "Asylum",
+        "pt": "Asilo",
+        "es": "Asilo",
+        "fr": "Asile"
+      },
+      "summaries": {
+        "en": "Legal protection for refugees seeking asylum in Brazil.",
+        "pt": "Proteção jurídica para refugiados em busca de asilo no Brasil.",
+        "es": "Protección legal para refugiados que buscan asilo en Brasil.",
+        "fr": "Protection juridique des réfugiés demandeurs d'asile au Brésil."
+      }
+    },
+    "/services/human-rights/children.html": {
+      "image": "/assets/img/services/cards/human-rights/children.webp",
+      "alts": {
+        "en": "Inspiring visual advocating for children's rights in Brazil",
+        "pt": "Inspiradora defesa visual dos direitos das crianças no Brasil",
+        "es": "Inspiradora defensa visual de los derechos del niño en Brasil",
+        "fr": "Un visuel inspirant pour défendre les droits des enfants au Brésil"
+      },
+      "names": {
+        "en": "Children",
+        "pt": "Crianças",
+        "es": "Niños",
+        "fr": "Enfants"
+      },
+      "summaries": {
+        "en": "Advocacy for children's rights protection in Brazil.",
+        "pt": "Defesa da proteção dos direitos da criança no Brasil.",
+        "es": "Promoción de la protección de los derechos del niño en Brasil.",
+        "fr": "Plaidoyer pour la protection des droits de l'enfant au Brésil."
+      }
+    },
+    "/services/human-rights/disability.html": {
+      "image": "/assets/img/services/cards/human-rights/disability.webp",
+      "alts": {
+        "en": "Empowering image for disability rights enforcement in Brazil",
+        "pt": "Fortalecendo a imagem para a aplicação dos direitos das pessoas com deficiência no Brasil",
+        "es": "Imagen empoderadora para la aplicación de los derechos de las personas con discapacidad en Brasil",
+        "fr": "Image habilitante pour l’application des droits des personnes handicapées au Brésil"
+      },
+      "names": {
+        "en": "Disability",
+        "pt": "Inabilidade",
+        "es": "Discapacidad",
+        "fr": "Invalidité"
+      },
+      "summaries": {
+        "en": "Legal rights enforcement for disabled individuals in Brazil.",
+        "pt": "Aplicação de direitos legais para pessoas com deficiência no Brasil.",
+        "es": "Aplicación de los derechos legales de las personas con discapacidad en Brasil.",
+        "fr": "Application des droits légaux pour les personnes handicapées au Brésil."
+      }
+    },
+    "/services/human-rights/discrimination.html": {
+      "image": "/assets/img/services/cards/human-rights/discrimination.webp",
+      "alts": {
+        "en": "Bold graphic against discrimination in Brazilian human rights law",
+        "pt": "Gráfico ousado contra a discriminação na legislação brasileira de direitos humanos",
+        "es": "Gráfico audaz contra la discriminación en la legislación brasileña de derechos humanos",
+        "fr": "Graphique audacieux contre la discrimination dans la loi brésilienne sur les droits de l'homme"
+      },
+      "names": {
+        "en": "Discrimination",
+        "pt": "Discriminação",
+        "es": "Discriminación",
+        "fr": "Discrimination"
+      },
+      "summaries": {
+        "en": "Anti-discrimination legal measures in Brazil.",
+        "pt": "Medidas legais antidiscriminação no Brasil.",
+        "es": "Medidas legales antidiscriminatorias en Brasil.",
+        "fr": "Mesures juridiques anti-discrimination au Brésil."
+      }
+    },
+    "/services/human-rights/gender.html": {
+      "image": "/assets/img/services/cards/human-rights/gender.webp",
+      "alts": {
+        "en": "Vibrant representation of gender equality promotion in Brazil",
+        "pt": "Representação vibrante da promoção da igualdade de gênero no Brasil",
+        "es": "Vibrante representación de la promoción de la igualdad de género en Brasil",
+        "fr": "Représentation dynamique de la promotion de l’égalité des sexes au Brésil"
+      },
+      "names": {
+        "en": "Gender",
+        "pt": "Gênero",
+        "es": "Género",
+        "fr": "Genre"
+      },
+      "summaries": {
+        "en": "Promotion of gender equality rights in Brazil.",
+        "pt": "Promoção dos direitos de igualdade de gênero no Brasil.",
+        "es": "Promoción de los derechos de igualdad de género en Brasil.",
+        "fr": "Promotion des droits à l'égalité des sexes au Brésil."
+      }
+    },
+    "/services/human-rights/indigenous.html": {
+      "image": "/assets/img/services/cards/human-rights/indigenous.webp",
+      "alts": {
+        "en": "Cultural tribute to indigenous rights protection in Brazilian law",
+        "pt": "Homenagem cultural à proteção dos direitos indígenas no direito brasileiro",
+        "es": "Homenaje cultural a la protección de los derechos indígenas en la legislación brasileña",
+        "fr": "Hommage culturel à la protection des droits autochtones dans la loi brésilienne"
+      },
+      "names": {
+        "en": "Indigenous",
+        "pt": "Indígena",
+        "es": "Indígena",
+        "fr": "Indigène"
+      },
+      "summaries": {
+        "en": "Protection of indigenous peoples' rights in Brazil.",
+        "pt": "Proteção dos direitos dos povos indígenas no Brasil.",
+        "es": "Protección de los derechos de los pueblos indígenas en Brasil.",
+        "fr": "Protection des droits des peuples autochtones au Brésil."
+      }
+    },
+    "/services/human-rights/lgbtq.html": {
+      "image": "/assets/img/services/cards/human-rights/lgbtq.webp",
+      "alts": {
+        "en": "Colorful advocacy image for LGBTQ+ rights in Brazil",
+        "pt": "Imagem colorida de defesa dos direitos LGBTQ+ no Brasil",
+        "es": "Colorida imagen de defensa de los derechos LGBTQ+ en Brasil",
+        "fr": "Image colorée de plaidoyer pour les droits LGBTQ+ au Brésil"
+      },
+      "names": {
+        "en": "LGBTQ+",
+        "pt": "LGBTQ+",
+        "es": "LGBTQ+",
+        "fr": "LGBTQ+"
+      },
+      "summaries": {
+        "en": "Advocacy for LGBTQ+ community rights in Brazil.",
+        "pt": "Defesa dos direitos da comunidade LGBTQ+ no Brasil.",
+        "es": "Defensa de los derechos de la comunidad LGBTQ+ en Brasil.",
+        "fr": "Plaidoyer pour les droits de la communauté LGBTQ+ au Brésil."
+      }
+    },
+    "/services/human-rights/privacy.html": {
+      "image": "/assets/img/services/cards/human-rights/privacy.webp",
+      "alts": {
+        "en": "Secure visual emphasizing privacy rights in Brazilian human rights law",
+        "pt": "Visual seguro enfatizando os direitos de privacidade na legislação brasileira de direitos humanos",
+        "es": "Imagen segura que enfatiza los derechos de privacidad en la legislación brasileña de derechos humanos",
+        "fr": "Visuel sécurisé mettant l'accent sur le droit à la vie privée dans la loi brésilienne sur les droits de l'homme"
+      },
+      "names": {
+        "en": "Privacy",
+        "pt": "Privacidade",
+        "es": "Privacidad",
+        "fr": "Confidentialité"
+      },
+      "summaries": {
+        "en": "Enforcement of privacy rights laws in Brazil.",
+        "pt": "Aplicação das leis de direitos de privacidade no Brasil.",
+        "es": "Aplicación de las leyes de derechos de privacidad en Brasil.",
+        "fr": "Application des lois sur le droit à la vie privée au Brésil."
+      }
+    },
+    "/services/human-rights/refugee.html": {
+      "image": "/assets/img/services/cards/human-rights/refugee.webp",
+      "alts": {
+        "en": "Supportive image for refugee protection in Brazilian human rights services",
+        "pt": "Imagem de apoio à proteção de refugiados nos serviços brasileiros de direitos humanos",
+        "es": "Imagen de apoyo a la protección de refugiados en los servicios brasileños de derechos humanos",
+        "fr": "Image favorable à la protection des réfugiés dans les services brésiliens des droits de l’homme"
+      },
+      "names": {
+        "en": "Refugee",
+        "pt": "Refugiado",
+        "es": "Refugiado",
+        "fr": "Réfugié"
+      },
+      "summaries": {
+        "en": "Legal protections for refugees residing in Brazil.",
+        "pt": "Proteções legais para refugiados residentes no Brasil.",
+        "es": "Protecciones legales para refugiados que residen en Brasil.",
+        "fr": "Protections juridiques pour les réfugiés résidant au Brésil."
+      }
+    },
+    "/services/human-rights/trafficking.html": {
+      "image": "/assets/img/services/cards/human-rights/trafficking.webp",
+      "alts": {
+        "en": "Strong stand against trafficking in Brazilian human rights law illustration",
+        "pt": "Forte posição contra o tráfico na ilustração da legislação brasileira de direitos humanos",
+        "es": "Fuerte postura contra la trata en la ilustración del derecho brasileño de derechos humanos",
+        "fr": "Une position ferme contre la traite dans l'illustration de la loi brésilienne sur les droits de l'homme"
+      },
+      "names": {
+        "en": "Trafficking",
+        "pt": "Tráfico",
+        "es": "Trata",
+        "fr": "Trafic"
+      },
+      "summaries": {
+        "en": "Anti-trafficking legal measures in Brazil.",
+        "pt": "Medidas legais antitráfico no Brasil.",
+        "es": "Medidas legales contra la trata en Brasil.",
+        "fr": "Mesures juridiques anti-traite au Brésil."
+      }
+    },
+    "/services/human-rights/workers.html": {
+      "image": "/assets/img/services/cards/human-rights/workers.webp",
+      "alts": {
+        "en": "Empowering workers' rights image in Brazilian human rights context",
+        "pt": "Fortalecendo a imagem dos direitos dos trabalhadores no contexto brasileiro de direitos humanos",
+        "es": "Empoderar la imagen de los derechos de los trabajadores en el contexto brasileño de los derechos humanos",
+        "fr": "Renforcer l'image des droits des travailleurs dans le contexte des droits de l'homme au Brésil"
+      },
+      "names": {
+        "en": "Workers",
+        "pt": "Trabalhadores",
+        "es": "Trabajadores",
+        "fr": "Ouvriers"
+      },
+      "summaries": {
+        "en": "Protection of labor and workers' rights in Brazil.",
+        "pt": "Proteção dos direitos trabalhistas e dos trabalhadores no Brasil.",
+        "es": "Protección del trabajo y de los derechos de los trabajadores en Brasil.",
+        "fr": "Protection du travail et des droits des travailleurs au Brésil."
+      }
+    },
+    "/services/immigration-abroad-services/africa.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/africa.webp",
+      "alts": {
+        "en": "Africa immigration support image for Brazilian expats",
+        "pt": "Imagem de apoio à imigração na África para expatriados brasileiros",
+        "es": "Imagen de apoyo a la inmigración en África para los expatriados brasileños",
+        "fr": "Image de soutien à l'immigration en Afrique pour les expatriés brésiliens"
+      },
+      "names": {
+        "en": "Africa",
+        "pt": "África",
+        "es": "África",
+        "fr": "Afrique"
+      },
+      "summaries": {
+        "en": "Immigration services for moving to Africa.",
+        "pt": "Serviços de imigração para mudança para África.",
+        "es": "Servicios de inmigración para mudarse a África.",
+        "fr": "Services d'immigration pour déménager en Afrique."
+      }
+    },
+    "/services/immigration-abroad-services/asia.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/asia.webp",
+      "alts": {
+        "en": "Asia relocation visual for Brazilian immigrants",
+        "pt": "Visual de realocação na Ásia para imigrantes brasileiros",
+        "es": "Visualización de reubicación en Asia para inmigrantes brasileños",
+        "fr": "Visuel de relocalisation en Asie pour les immigrants brésiliens"
+      },
+      "names": {
+        "en": "Asia",
+        "pt": "Ásia",
+        "es": "Asia",
+        "fr": "Asie"
+      },
+      "summaries": {
+        "en": "Immigration support for relocating to Asia.",
+        "pt": "Apoio à imigração para mudança para a Ásia.",
+        "es": "Apoyo a la inmigración para trasladarse a Asia.",
+        "fr": "Aide à l'immigration pour s'installer en Asie."
+      }
+    },
+    "/services/immigration-abroad-services/europe.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/europe.webp",
+      "alts": {
+        "en": "Europe immigration graphic for Brazilians seeking new horizons",
+        "pt": "Gráfico de imigração na Europa para brasileiros que buscam novos horizontes",
+        "es": "Gráfico de inmigración en Europa para brasileños que buscan nuevos horizontes",
+        "fr": "Graphique d'immigration en Europe pour les Brésiliens à la recherche de nouveaux horizons"
+      },
+      "names": {
+        "en": "Europe",
+        "pt": "Europa",
+        "es": "Europa",
+        "fr": "Europe"
+      },
+      "summaries": {
+        "en": "Immigration assistance for moving to Europe.",
+        "pt": "Assistência de imigração para mudança para a Europa.",
+        "es": "Asistencia de inmigración para mudarse a Europa.",
+        "fr": "Aide à l'immigration pour déménager en Europe."
+      }
+    },
+    "/services/immigration-abroad-services/mercosul.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/mercosul.webp",
+      "alts": {
+        "en": "MERCOSUL migration image for Brazilians in South America",
+        "pt": "Imagem da migração MERCOSUL para brasileiros na América do Sul",
+        "es": "Imagen de la migración del MERCOSUR para los brasileños en América del Sur",
+        "fr": "Image de migration du MERCOSUL pour les Brésiliens en Amérique du Sud"
+      },
+      "names": {
+        "en": "MERCOSUL",
+        "pt": "MERCOSUL",
+        "es": "MERCOSUL",
+        "fr": "MERCOSUL"
+      },
+      "summaries": {
+        "en": "Immigration services for moving to MERCOSUL nations.",
+        "pt": "Serviços de imigração para mudança para países do MERCOSUL.",
+        "es": "Servicios de inmigración para traslado a países del MERCOSUR.",
+        "fr": "Services d'immigration pour déménager dans les pays du MERCOSUL."
+      }
+    },
+    "/services/immigration-abroad-services/uk.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/uk.webp",
+      "alts": {
+        "en": "UK immigration visual for Brazilian expats",
+        "pt": "Visual de imigração do Reino Unido para expatriados brasileiros",
+        "es": "Visual de inmigración en el Reino Unido para expatriados brasileños",
+        "fr": "Visuel d'immigration britannique pour les expatriés brésiliens"
+      },
+      "names": {
+        "en": "UK",
+        "pt": "UK",
+        "es": "UK",
+        "fr": "UK"
+      },
+      "summaries": {
+        "en": "Immigration support for moving to the UK.",
+        "pt": "Apoio à imigração para mudança para o Reino Unido.",
+        "es": "Apoyo de inmigración para mudarse al Reino Unido.",
+        "fr": "Aide à l'immigration pour déménager au Royaume-Uni."
+      }
+    },
+    "/services/immigration-abroad-services/usa.html": {
+      "image": "/assets/img/services/cards/immigration-abroad-services/usa.webp",
+      "alts": {
+        "en": "USA immigration image for Brazilians pursuing American dreams",
+        "pt": "Imagem da imigração dos EUA para brasileiros que buscam sonhos americanos",
+        "es": "Imagen de la inmigración estadounidense para los brasileños que persiguen el sueño americano",
+        "fr": "Image de l'immigration américaine pour les Brésiliens poursuivant leurs rêves américains"
+      },
+      "names": {
+        "en": "USA",
+        "pt": "USA",
+        "es": "USA",
+        "fr": "USA"
+      },
+      "summaries": {
+        "en": "Immigration services for moving to the USA.",
+        "pt": "Serviços de imigração para mudança para os EUA.",
+        "es": "Servicios de inmigración para mudarse a Estados Unidos.",
+        "fr": "Services d'immigration pour déménager aux États-Unis."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/extraordinary.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/extraordinary.webp",
+      "alts": {
+        "en": "Extraordinary naturalisation image for exceptional citizenship in Brazil",
+        "pt": "Imagem extraordinária de naturalização para cidadania excepcional no Brasil",
+        "es": "Extraordinaria imagen de naturalización para una ciudadanía excepcional en Brasil",
+        "fr": "Image de naturalisation extraordinaire pour une citoyenneté exceptionnelle au Brésil"
+      },
+      "names": {
+        "en": "Extraordinary",
+        "pt": "Extraordinário",
+        "es": "Extraordinario",
+        "fr": "Extraordinaire"
+      },
+      "summaries": {
+        "en": "Citizenship grants for exceptional and unique cases.",
+        "pt": "Bolsas de cidadania para casos excepcionais e únicos.",
+        "es": "Becas de ciudadanía para casos excepcionales y únicos.",
+        "fr": "Bourses de citoyenneté pour cas exceptionnels et uniques."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/ordinary.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/ordinary.webp",
+      "alts": {
+        "en": "Ordinary naturalisation visual for residency-based citizenship in Brazil",
+        "pt": "Visual de naturalização ordinária para cidadania baseada em residência no Brasil",
+        "es": "Visual de naturalización ordinaria para ciudadanía basada en residencia en Brasil",
+        "fr": "Visuel de naturalisation ordinaire pour la citoyenneté basée sur la résidence au Brésil"
+      },
+      "names": {
+        "en": "Ordinary",
+        "pt": "Ordinário",
+        "es": "Común",
+        "fr": "Ordinaire"
+      },
+      "summaries": {
+        "en": "Citizenship acquired through extended legal residence.",
+        "pt": "Cidadania adquirida através de residência legal prolongada.",
+        "es": "Ciudadanía adquirida mediante residencia legal prolongada.",
+        "fr": "Citoyenneté acquise grâce à une résidence légale prolongée."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/provisional.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/provisional.webp",
+      "alts": {
+        "en": "Provisional naturalisation illustration for minors in Brazil",
+        "pt": "Ilustração provisória de naturalização de menores no Brasil",
+        "es": "Ilustración de naturalización provisional para menores en Brasil",
+        "fr": "Illustration de naturalisation provisoire pour mineurs au Brésil"
+      },
+      "names": {
+        "en": "Provisional",
+        "pt": "Provisório",
+        "es": "Provisional",
+        "fr": "Provisoire"
+      },
+      "summaries": {
+        "en": "Citizenship for minors and designated special cases.",
+        "pt": "Cidadania para menores e casos especiais designados.",
+        "es": "Ciudadanía para menores y casos especiales designados.",
+        "fr": "Citoyenneté pour les mineurs et cas spéciaux désignés."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/reacquisition.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/reacquisition.webp",
+      "alts": {
+        "en": "Citizenship reacquisition visual for restoring Brazilian nationality",
+        "pt": "Visual de reaquisição da cidadania para restituição da nacionalidade brasileira",
+        "es": "Visual de readquisición de la ciudadanía para recuperar la nacionalidad brasileña",
+        "fr": "Visuel de réacquisition de la citoyenneté pour restaurer la nationalité brésilienne"
+      },
+      "names": {
+        "en": "Reacquisition Citizenship",
+        "pt": "Reaquisição de Cidadania",
+        "es": "Readquisición de la ciudadanía",
+        "fr": "Réacquisition de la citoyenneté"
+      },
+      "summaries": {
+        "en": "Legal restoration of lost Brazilian citizenship.",
+        "pt": "Restauração legal da cidadania brasileira perdida.",
+        "es": "Restauración legal de la ciudadanía brasileña perdida.",
+        "fr": "Restauration légale de la citoyenneté brésilienne perdue."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/renunciation.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/renunciation.webp",
+      "alts": {
+        "en": "Citizenship renunciation image for relinquishing Brazilian nationality",
+        "pt": "Imagem de renúncia à cidadania para renúncia à nacionalidade brasileira",
+        "es": "Imagen de renuncia a la ciudadanía por renunciar a la nacionalidad brasileña",
+        "fr": "Image de renonciation à la citoyenneté pour l'abandon de la nationalité brésilienne"
+      },
+      "names": {
+        "en": "Renouncing Citizenship",
+        "pt": "Renunciando à Cidadania",
+        "es": "Renunciar a la ciudadanía",
+        "fr": "Renoncer à la citoyenneté"
+      },
+      "summaries": {
+        "en": "Legal process to give up Brazilian citizenship.",
+        "pt": "Processoo legal para renúncia à cidadania brasileira.",
+        "es": "Proceso legal para renunciar a la ciudadanía brasileña.",
+        "fr": "Procédure légale pour renoncer à la citoyenneté brésilienne."
+      }
+    },
+    "/services/immigration-to-brazil/citizenship/special.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/citizenship/special.webp",
+      "alts": {
+        "en": "Special naturalisation graphic for marriage-based citizenship in Brazil",
+        "pt": "Gráfico especial de naturalização para cidadania baseada no casamento no Brasil",
+        "es": "Gráfico de naturalización especial para la ciudadanía basada en el matrimonio en Brasil",
+        "fr": "Graphique de naturalisation spécial pour la citoyenneté basée sur le mariage au Brésil"
+      },
+      "names": {
+        "en": "Special",
+        "pt": "Especial",
+        "es": "Especial",
+        "fr": "Spécial"
+      },
+      "summaries": {
+        "en": "Citizenship based on marriage or national service.",
+        "pt": "Cidadania baseada no casamento ou serviço nacional.",
+        "es": "Ciudadanía basada en matrimonio o servicio nacional.",
+        "fr": "Citoyenneté basée sur le mariage ou le service national."
+      }
+    },
+    "/services/immigration-to-brazil/other/appeals.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/appeals.webp",
+      "alts": {
+        "en": "Immigration appeals illustration for challenging decisions in Brazil",
+        "pt": "Ilustração de recursos de imigração para contestar decisões no Brasil",
+        "es": "Apelaciones de inmigración ilustran la impugnación de decisiones en Brasil",
+        "fr": "L'immigration fait appel d'une illustration pour contester des décisions au Brésil"
+      },
+      "names": {
+        "en": "Appeals",
+        "pt": "Recursos",
+        "es": "Apelaciones",
+        "fr": "Appels"
+      },
+      "summaries": {
+        "en": "Legal defense against immigration administrative rulings.",
+        "pt": "Defesa legal contra decisões administrativas de imigração.",
+        "es": "Defensa jurídica frente a resoluciones administrativas migratorias.",
+        "fr": "Défense juridique contre les décisions administratives en matière d'immigration."
+      }
+    },
+    "/services/immigration-to-brazil/other/consular-services.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/consular-services.webp",
+      "alts": {
+        "en": "Consular services image for embassy support in Brazil",
+        "pt": "Imagem dos serviços consulares para apoio da embaixada no Brasil",
+        "es": "Imagen de servicios consulares para apoyo de la embajada en Brasil",
+        "fr": "Image des services consulaires pour le soutien de l'ambassade au Brésil"
+      },
+      "names": {
+        "en": "Consular Services",
+        "pt": "Serviços Consulares",
+        "es": "Servicios Consulares",
+        "fr": "Services consulaires"
+      },
+      "summaries": {
+        "en": "Legal support for embassies and consulates in Brazil.",
+        "pt": "Apoio jurídico para embaixadas e consulados no Brasil.",
+        "es": "Soporte legal para embajadas y consulados en Brasil.",
+        "fr": "Assistance juridique aux ambassades et consulats au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/other/criminal-records.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/criminal-records.webp",
+      "alts": {
+        "en": "Criminal records visual for background checks in Brazilian immigration",
+        "pt": "Antecedentes criminais visuais para verificação de antecedentes na imigração brasileira",
+        "es": "Visualización de antecedentes penales para verificación de antecedentes en inmigración brasileña",
+        "fr": "Visuel de casier judiciaire pour la vérification des antécédents dans l'immigration brésilienne"
+      },
+      "names": {
+        "en": "Criminal Records",
+        "pt": "Registos criminais",
+        "es": "Antecedentes penales",
+        "fr": "Casier judiciaire"
+      },
+      "summaries": {
+        "en": "Obtaining criminal background checks for immigration.",
+        "pt": "Obtenção de verificações de antecedentes criminais para imigração.",
+        "es": "Obtención de verificaciones de antecedentes penales para inmigración.",
+        "fr": "Obtention de vérifications d'antécédents criminels pour l'immigration."
+      }
+    },
+    "/services/immigration-to-brazil/other/deportation.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/deportation.webp",
+      "alts": {
+        "en": "Deportation defense image in Brazilian immigration law",
+        "pt": "Imagem de defesa de deportação na lei de imigração brasileira",
+        "es": "Imagen de defensa de la deportación en la ley de inmigración brasileña",
+        "fr": "Image de la défense contre l'expulsion dans la loi brésilienne sur l'immigration"
+      },
+      "names": {
+        "en": "Deportation",
+        "pt": "Deportação",
+        "es": "Deportación",
+        "fr": "Déportation"
+      },
+      "summaries": {
+        "en": "Defense against deportation proceedings in Brazil.",
+        "pt": "Defesa contra processos de deportação no Brasil.",
+        "es": "Defensa contra procesos de deportación en Brasil.",
+        "fr": "Défense contre une procédure d'expulsion au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/other/expulsion.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/expulsion.webp",
+      "alts": {
+        "en": "Expulsion defense visual in Brazilian immigration services",
+        "pt": "Visual de defesa de expulsão nos serviços de imigração brasileiros",
+        "es": "Visual defensa de expulsión en los servicios de inmigración brasileños",
+        "fr": "Visuel de défense contre l'expulsion dans les services d'immigration brésiliens"
+      },
+      "names": {
+        "en": "Expulsion",
+        "pt": "Expulsão",
+        "es": "Expulsión",
+        "fr": "Expulsion"
+      },
+      "summaries": {
+        "en": "Defense against expulsion orders in Brazil.",
+        "pt": "Defesa contra ordens de expulsão no Brasil.",
+        "es": "Defensa contra órdenes de expulsión en Brasil.",
+        "fr": "Défense contre les ordres d'expulsion au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/other/extradition.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/extradition.webp",
+      "alts": {
+        "en": "Extradition handling illustration in Brazilian law",
+        "pt": "Ilustração do tratamento de extradição no direito brasileiro",
+        "es": "Ilustración del manejo de la extradición en la legislación brasileña",
+        "fr": "Illustration du traitement de l'extradition dans le droit brésilien"
+      },
+      "names": {
+        "en": "Extradition",
+        "pt": "Extradição",
+        "es": "Extradición",
+        "fr": "Extradition"
+      },
+      "summaries": {
+        "en": "Handling of international extradition requests in Brazil.",
+        "pt": "Tratamento de pedidos de extradição internacional no Brasil.",
+        "es": "Tramitación de solicitudes de extradición internacional en Brasil.",
+        "fr": "Traitement des demandes d'extradition internationale au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/other/fines.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/fines.webp",
+      "alts": {
+        "en": "Immigration fines management image in Brazil",
+        "pt": "Imagem da gestão de multas de imigração no Brasil",
+        "es": "Imagen de gestión de multas de inmigración en Brasil",
+        "fr": "Image de la gestion des amendes liées à l'immigration au Brésil"
+      },
+      "names": {
+        "en": "Fines",
+        "pt": "Multas",
+        "es": "Multas",
+        "fr": "Amendes"
+      },
+      "summaries": {
+        "en": "Handling immigration-related fines in Brazil.",
+        "pt": "Tratamento de multas relacionadas à imigração no Brasil.",
+        "es": "Manejo de multas relacionadas con la inmigración en Brasil.",
+        "fr": "Gestion des amendes liées à l'immigration au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/other/translation.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/other/translation.webp",
+      "alts": {
+        "en": "Certified translation image for legal documents in Brazil",
+        "pt": "Imagem de tradução juramentada de documentos jurídicos no Brasil",
+        "es": "Imagen de traducción jurada de documentos legales en Brasil",
+        "fr": "Image de traduction certifiée pour les documents juridiques au Brésil"
+      },
+      "names": {
+        "en": "Translation",
+        "pt": "Tradução",
+        "es": "Traducción",
+        "fr": "Traduction"
+      },
+      "summaries": {
+        "en": "Certified translations for legal documents in Brazil.",
+        "pt": "Traduções juramentadas de documentos jurídicos no Brasil.",
+        "es": "Traducciones juradas de documentos legales en Brasil.",
+        "fr": "Traductions certifiées de documents juridiques au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/cplp.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/cplp.webp",
+      "alts": {
+        "en": "CPLP residency image for Portuguese-speaking nationals in Brazil",
+        "pt": "Imagem de residência da CPLP para cidadãos de língua portuguesa no Brasil",
+        "es": "Imagen de residencia de la CPLP para nacionales de habla portuguesa en Brasil",
+        "fr": "Image de résidence CPLP pour les ressortissants lusophones au Brésil"
+      },
+      "names": {
+        "en": "CPLP",
+        "pt": "CPLP",
+        "es": "CPLP",
+        "fr": "CPLP"
+      },
+      "summaries": {
+        "en": "Residency services for Portuguese-speaking country nationals in Brazil.",
+        "pt": "Serviços de residência para nacionais de países de língua portuguesa no Brasil.",
+        "es": "Servicios de residencia para nacionales de países de habla portuguesa en Brasil.",
+        "fr": "Services de résidence pour les ressortissants des pays lusophones au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/digital-nomad.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/digital-nomad.webp",
+      "alts": {
+        "en": "Digital nomad residency illustration for remote work in Brazil",
+        "pt": "Ilustração de residência nômade digital para trabalho remoto no Brasil",
+        "es": "Ilustración de residencia nómada digital para trabajo remoto en Brasil",
+        "fr": "Illustration de résidence nomade numérique pour le travail à distance au Brésil"
+      },
+      "names": {
+        "en": "Digital Nomad",
+        "pt": "Nômade Digital",
+        "es": "Nómada digital",
+        "fr": "Nomade numérique"
+      },
+      "summaries": {
+        "en": "Extended residency for remote workers living in Brazil.",
+        "pt": "Residência estendida para trabalhadores remotos que moram no Brasil.",
+        "es": "Residencia extendida para trabajadores remotos que viven en Brasil.",
+        "fr": "Résidence prolongée pour les travailleurs à distance vivant au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/educational-exchange.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/educational-exchange.webp",
+      "alts": {
+        "en": "Cultural exchange residency visual for long-term programs in Brazil",
+        "pt": "Residência visual de intercâmbio cultural para programas de longa duração no Brasil",
+        "es": "Residencia de intercambio cultural visual para programas de larga duración en Brasil",
+        "fr": "Visuel de résidence d'échange culturel pour des programmes de longue durée au Brésil"
+      },
+      "names": {
+        "en": "Educational Exchange",
+        "pt": "Intercâmbio Educacional",
+        "es": "Intercambio Educativo",
+        "fr": "Échange éducatif"
+      },
+      "summaries": {
+        "en": "Long-term residency for exchange program participants in Brazil.",
+        "pt": "Residência de longa duração para participantes de programas de intercâmbio no Brasil.",
+        "es": "Residencia de larga duración para participantes de programas de intercambio en Brasil.",
+        "fr": "Résidence de longue durée pour les participants au programme d'échange au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/family-reunion.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/family-reunion.webp",
+      "alts": {
+        "en": "Family reunion residency image for uniting loved ones in Brazil",
+        "pt": "Imagem de residência de reunião familiar para unir entes queridos no Brasil",
+        "es": "Imagen de residencia de reunión familiar para unir a los seres queridos en Brasil",
+        "fr": "Image de résidence de regroupement familial pour réunir des êtres chers au Brésil"
+      },
+      "names": {
+        "en": "Family Reunion",
+        "pt": "Reunião de família",
+        "es": "Reunión familiar",
+        "fr": "Réunion de famille"
+      },
+      "summaries": {
+        "en": "Residency options for reuniting with family in Brazil.",
+        "pt": "Opções de residência para reunir a família no Brasil.",
+        "es": "Opciones de residencia para reunirse con familiares en Brasil.",
+        "fr": "Options de résidence pour réunir sa famille au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/health-treatment.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/health-treatment.webp",
+      "alts": {
+        "en": "Health treatment residency visual for medical care in Brazil",
+        "pt": "Residência visual em tratamento de saúde para assistência médica no Brasil",
+        "es": "Residencia de tratamiento de salud visual para atención médica en Brasil",
+        "fr": "Visuel de résidence de soins de santé pour les soins médicaux au Brésil"
+      },
+      "names": {
+        "en": "Health Treatment",
+        "pt": "Tratamento de Saúde",
+        "es": "Tratamiento de salud",
+        "fr": "Traitement de santé"
+      },
+      "summaries": {
+        "en": "Residency permits for medical care seekers in Brazil.",
+        "pt": "Autorizações de residência para requerentes de assistência médica no Brasil.",
+        "es": "Permisos de residencia para solicitantes de atención médica en Brasil.",
+        "fr": "Permis de séjour pour les demandeurs de soins médicaux au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/humanitarian.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/humanitarian.webp",
+      "alts": {
+        "en": "Humanitarian residency graphic for vulnerable individuals in Brazil",
+        "pt": "Gráfico de residência humanitária para pessoas vulneráveis ​​no Brasil",
+        "es": "Gráfico de residencia humanitaria para personas vulnerables en Brasil",
+        "fr": "Graphique de résidence humanitaire pour les personnes vulnérables au Brésil"
+      },
+      "names": {
+        "en": "Humanitarian",
+        "pt": "Humanitário",
+        "es": "Humanitario",
+        "fr": "Humanitaire"
+      },
+      "summaries": {
+        "en": "Protection residency for at-risk foreigners in Brazil.",
+        "pt": "Residência de proteção para estrangeiros em situação de risco no Brasil.",
+        "es": "Residencia de protección para extranjeros en situación de riesgo en Brasil.",
+        "fr": "Résidence de protection pour étrangers à risque au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/investor.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/investor.webp",
+      "alts": {
+        "en": "Investor residency illustration for investment-based residence in Brazil",
+        "pt": "Ilustração de residência de investidor para residência baseada em investimento no Brasil",
+        "es": "Ilustración de residencia de inversores para residencia basada en inversiones en Brasil",
+        "fr": "Illustration de la résidence des investisseurs pour la résidence basée sur l'investissement au Brésil"
+      },
+      "names": {
+        "en": "Investor",
+        "pt": "Investidor",
+        "es": "Inversor",
+        "fr": "Investisseur"
+      },
+      "summaries": {
+        "en": "Permanent residency via foreign investment in Brazil.",
+        "pt": "Residência permanente via investimento estrangeiro no Brasil.",
+        "es": "Residencia permanente vía inversión extranjera en Brasil.",
+        "fr": "Résidence permanente via investissement étranger au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/mercosul.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/mercosul.webp",
+      "alts": {
+        "en": "MERCOSUL residency image for South American nationals in Brazil",
+        "pt": "Imagem de residência MERCOSUL para cidadãos sul-americanos no Brasil",
+        "es": "Imagen de residencia del MERCOSUR para nacionales sudamericanos en Brasil",
+        "fr": "Image de résidence MERCOSUL pour les ressortissants sud-américains au Brésil"
+      },
+      "names": {
+        "en": "MERCOSUL",
+        "pt": "MERCOSUL",
+        "es": "MERCOSUL",
+        "fr": "MERCOSUL"
+      },
+      "summaries": {
+        "en": "Residency rights for South American nationals in Brazil.",
+        "pt": "Direitos de residência para cidadãos sul-americanos no Brasil.",
+        "es": "Derechos de residencia de nacionales sudamericanos en Brasil.",
+        "fr": "Droits de séjour des ressortissants sud-américains au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/religious.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/religious.webp",
+      "alts": {
+        "en": "Religious residency visual for missionaries in Brazil",
+        "pt": "Visual de residência religiosa para missionários no Brasil",
+        "es": "Visual de residencia religiosa para misioneros en Brasil",
+        "fr": "Visuel de résidence religieuse pour les missionnaires au Brésil"
+      },
+      "names": {
+        "en": "Religious",
+        "pt": "Religioso",
+        "es": "Religioso",
+        "fr": "Religieux"
+      },
+      "summaries": {
+        "en": "Residency permits for religious workers in Brazil.",
+        "pt": "Autorizações de residência para trabalhadores religiosos no Brasil.",
+        "es": "Permisos de residencia para trabajadores religiosos en Brasil.",
+        "fr": "Permis de séjour pour les travailleurs religieux au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/retiree.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/retiree.webp",
+      "alts": {
+        "en": "Retiree residency illustration for peaceful retirement in Brazil",
+        "pt": "Ilustração de residência de aposentados para uma aposentadoria tranquila no Brasil",
+        "es": "Ilustración de residencia de jubilados para una jubilación pacífica en Brasil",
+        "fr": "Illustration de résidence de retraités pour une retraite paisible au Brésil"
+      },
+      "names": {
+        "en": "Retiree",
+        "pt": "Aposentado",
+        "es": "Jubilado",
+        "fr": "Retraité"
+      },
+      "summaries": {
+        "en": "Long-term residency for foreign retirees in Brazil.",
+        "pt": "Residência de longa duração para aposentados estrangeiros no Brasil.",
+        "es": "Residencia de larga duración para jubilados extranjeros en Brasil.",
+        "fr": "Résidence de longue durée pour retraités étrangers au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/scientific.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/scientific.webp",
+      "alts": {
+        "en": "Scientific research residency graphic for innovators in Brazil",
+        "pt": "Gráfico de residência em pesquisa científica para inovadores no Brasil",
+        "es": "Gráfico de residencia de investigación científica para innovadores en Brasil",
+        "fr": "Graphique de résidence de recherche scientifique pour les innovateurs au Brésil"
+      },
+      "names": {
+        "en": "Scientific Research",
+        "pt": "Pesquisa Científica",
+        "es": "Investigación científica",
+        "fr": "Recherche scientifique"
+      },
+      "summaries": {
+        "en": "Residency permits for research and innovation in Brazil.",
+        "pt": "Autorizações de residência para pesquisa e inovação no Brasil.",
+        "es": "Permisos de residencia para investigación e innovación en Brasil.",
+        "fr": "Permis de séjour pour la recherche et l'innovation au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/skilled-worker.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/skilled-worker.webp",
+      "alts": {
+        "en": "Skilled worker residency image for professionals in Brazil",
+        "pt": "Imagem de residência de trabalhador qualificado para profissionais no Brasil",
+        "es": "Imagen de residencia de trabajadores calificados para profesionales en Brasil",
+        "fr": "Image de résidence de travailleur qualifié pour les professionnels au Brésil"
+      },
+      "names": {
+        "en": "Skilled Worker",
+        "pt": "Trabalhador Qualificado",
+        "es": "Trabajador calificado",
+        "fr": "Ouvrier qualifié"
+      },
+      "summaries": {
+        "en": "Residency for qualified professionals working in Brazil.",
+        "pt": "Residência para profissionais qualificados que atuam no Brasil.",
+        "es": "Residencia para profesionales calificados que trabajan en Brasil.",
+        "fr": "Résidence pour professionnels qualifiés travaillant au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/study.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/study.webp",
+      "alts": {
+        "en": "Study residency visual for academic pursuits in Brazil",
+        "pt": "Estude residência visual para atividades acadêmicas no Brasil",
+        "es": "Residencia de estudio visual para actividades académicas en Brasil",
+        "fr": "Visuel de résidence d'études pour les activités académiques au Brésil"
+      },
+      "names": {
+        "en": "Study",
+        "pt": "Estudar",
+        "es": "Estudiar",
+        "fr": "Étude"
+      },
+      "summaries": {
+        "en": "Residency permits for educational programs in Brazil.",
+        "pt": "Autorizações de residência para programas educacionais no Brasil.",
+        "es": "Permisos de residencia para programas educativos en Brasil.",
+        "fr": "Permis de séjour pour les programmes éducatifs au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/volunteer.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/volunteer.webp",
+      "alts": {
+        "en": "Volunteer residency visual for social projects in Brazil",
+        "pt": "Residência visual voluntária para projetos sociais no Brasil",
+        "es": "Visual de residencia voluntaria para proyectos sociales en Brasil",
+        "fr": "Visuel de résidence bénévole pour des projets sociaux au Brésil"
+      },
+      "names": {
+        "en": "Volunteer",
+        "pt": "Voluntário",
+        "es": "Voluntario",
+        "fr": "Bénévole"
+      },
+      "summaries": {
+        "en": "Residency for nonprofit and social initiatives in Brazil.",
+        "pt": "Residência para iniciativas sociais e sem fins lucrativos no Brasil.",
+        "es": "Residencia para iniciativas sociales y sin fines de lucro en Brasil.",
+        "fr": "Résidence pour des initiatives à but non lucratif et sociales au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/work.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/work.webp",
+      "alts": {
+        "en": "Work residency illustration for long-term employment in Brazil",
+        "pt": "Ilustração de residência de trabalho para emprego de longo prazo no Brasil",
+        "es": "Ilustración de residencia laboral para empleo a largo plazo en Brasil",
+        "fr": "Illustration de résidence de travail pour un emploi à long terme au Brésil"
+      },
+      "names": {
+        "en": "Work",
+        "pt": "Trabalhar",
+        "es": "Trabajar",
+        "fr": "Travail"
+      },
+      "summaries": {
+        "en": "Employment-based long-term residency in Brazil.",
+        "pt": "Residência de longa duração baseada no emprego no Brasil.",
+        "es": "Residencia de larga duración basada en el empleo en Brasil.",
+        "fr": "Résidence de longue durée basée sur l'emploi au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/residencies/youth-exchange.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/residencies/youth-exchange.webp",
+      "alts": {
+        "en": "Youth exchange residency image for international youth in Brazil",
+        "pt": "Imagem de residência de intercâmbio juvenil para jovens internacionais no Brasil",
+        "es": "Imagen de residencia de intercambio juvenil para jóvenes internacionales en Brasil",
+        "fr": "Image de résidence d'échange de jeunes pour les jeunes internationaux au Brésil"
+      },
+      "names": {
+        "en": "Youth Exchange",
+        "pt": "Intercâmbio Juvenil",
+        "es": "Intercambio Juvenil",
+        "fr": "Échange de jeunes"
+      },
+      "summaries": {
+        "en": "Residency for international youth programs in Brazil.",
+        "pt": "Residência para programas internacionais de juventude no Brasil.",
+        "es": "Residencia para programas juveniles internacionales en Brasil.",
+        "fr": "Résidence pour les programmes internationaux de jeunesse au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/artistic.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/artistic.webp",
+      "alts": {
+        "en": "Artistic visa illustration for performers and artists immigrating to Brazil",
+        "pt": "Ilustração artística de visto para performers e artistas imigrando para o Brasil",
+        "es": "Ilustración de visa artística para intérpretes y artistas que emigran a Brasil",
+        "fr": "Illustration de visa artistique pour les artistes interprètes et exécutants immigrés au Brésil"
+      },
+      "names": {
+        "en": "Artistic",
+        "pt": "Artístico",
+        "es": "Artístico",
+        "fr": "Artistique"
+      },
+      "summaries": {
+        "en": "Visa services for professional artists and performers entering Brazil.",
+        "pt": "Serviços de vistos para artistas e performers profissionais que ingressam no Brasil.",
+        "es": "Servicios de visa para artistas e intérpretes profesionales que ingresan a Brasil.",
+        "fr": "Services de visa pour les artistes et interprètes professionnels entrant au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/business.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/business.webp",
+      "alts": {
+        "en": "Business visa graphic for corporate immigration to Brazil",
+        "pt": "Gráfico de visto de negócios para imigração corporativa para o Brasil",
+        "es": "Gráfico de visa de negocios para inmigración corporativa a Brasil",
+        "fr": "Graphique de visa d'affaires pour l'immigration d'entreprise au Brésil"
+      },
+      "names": {
+        "en": "Business",
+        "pt": "Negócios",
+        "es": "Negocio",
+        "fr": "Entreprise"
+      },
+      "summaries": {
+        "en": "Visa advice for corporate activities and foreign companies in Brazil.",
+        "pt": "Assessoria em vistos para atividades corporativas e empresas estrangeiras no Brasil.",
+        "es": "Asesoramiento en visas para actividades corporativas y empresas extranjeras en Brasil.",
+        "fr": "Conseils en matière de visa pour les activités d'entreprise et les entreprises étrangères au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/cultural-exchange.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/cultural-exchange.webp",
+      "alts": {
+        "en": "Educational visa image for international programs in Brazil",
+        "pt": "Imagem de visto educacional para programas internacionais no Brasil",
+        "es": "Imagen de visa educativa para programas internacionales en Brasil",
+        "fr": "Image de visa éducatif pour les programmes internationaux au Brésil"
+      },
+      "names": {
+        "en": "Educational",
+        "pt": "Educacional",
+        "es": "Educativo",
+        "fr": "Pédagogique"
+      },
+      "summaries": {
+        "en": "Visa guidance for educational exchange programs in Brazil.",
+        "pt": "Orientação sobre vistos para programas de intercâmbio educacional no Brasil.",
+        "es": "Orientación de visas para programas de intercambio educativo en Brasil.",
+        "fr": "Conseils en matière de visa pour les programmes d'échange éducatif au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/digital-nomad.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/digital-nomad.webp",
+      "alts": {
+        "en": "Digital nomad visa visual for remote workers in Brazil",
+        "pt": "Visto visual de nômade digital para trabalhadores remotos no Brasil",
+        "es": "Visa de nómada digital visual para trabajadores remotos en Brasil",
+        "fr": "Visuel de visa de nomade numérique pour les travailleurs à distance au Brésil"
+      },
+      "names": {
+        "en": "Digital Nomad",
+        "pt": "Nômade Digital",
+        "es": "Nómada digital",
+        "fr": "Nomade numérique"
+      },
+      "summaries": {
+        "en": "Visa support for remote workers and freelancers residing in Brazil.",
+        "pt": "Suporte de visto para trabalhadores remotos e freelancers residentes no Brasil.",
+        "es": "Soporte de visas para trabajadores remotos y autónomos residentes en Brasil.",
+        "fr": "Prise en charge des visas pour les travailleurs à distance et les indépendants résidant au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/diplomatic.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/diplomatic.webp",
+      "alts": {
+        "en": "Diplomatic visa illustration for government officials in Brazil",
+        "pt": "Ilustração de visto diplomático para funcionários do governo no Brasil",
+        "es": "Ilustración de visa diplomática para funcionarios gubernamentales en Brasil",
+        "fr": "Illustration de visa diplomatique pour les représentants du gouvernement au Brésil"
+      },
+      "names": {
+        "en": "Diplomatic",
+        "pt": "Diplomático",
+        "es": "Diplomático",
+        "fr": "Diplomatique"
+      },
+      "summaries": {
+        "en": "Visa services for foreign officials and diplomatic representatives in Brazil.",
+        "pt": "Serviços de vistos para autoridades estrangeiras e representantes diplomáticos no Brasil.",
+        "es": "Servicios de visas para funcionarios extranjeros y representantes diplomáticos en Brasil.",
+        "fr": "Services de visa pour les fonctionnaires étrangers et les représentants diplomatiques au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/family.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/family.webp",
+      "alts": {
+        "en": "Family reunion visa image for loved ones immigrating to Brazil",
+        "pt": "Imagem de visto de reunião familiar para entes queridos imigrando para o Brasil",
+        "es": "Imagen de visa de reunión familiar para seres queridos que emigran a Brasil",
+        "fr": "Image de visa de regroupement familial pour les proches immigrant au Brésil"
+      },
+      "names": {
+        "en": "Family",
+        "pt": "Família",
+        "es": "Familia",
+        "fr": "Famille"
+      },
+      "summaries": {
+        "en": "Visa assistance for family members joining relatives in Brazil.",
+        "pt": "Assistência com visto para familiares que se juntam a parentes no Brasil.",
+        "es": "Asistencia de visa para familiares que se reúnen con familiares en Brasil.",
+        "fr": "Assistance en matière de visa pour les membres de la famille rejoignant des proches au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/humanitarian.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/humanitarian.webp",
+      "alts": {
+        "en": "Humanitarian visa graphic for refugees seeking protection in Brazil",
+        "pt": "Gráfico de visto humanitário para refugiados em busca de proteção no Brasil",
+        "es": "Gráfico de visas humanitarias para refugiados que buscan protección en Brasil",
+        "fr": "Graphique de visa humanitaire pour les réfugiés cherchant protection au Brésil"
+      },
+      "names": {
+        "en": "Humanitarian",
+        "pt": "Humanitário",
+        "es": "Humanitario",
+        "fr": "Humanitaire"
+      },
+      "summaries": {
+        "en": "Visa protection for refugees and vulnerable individuals in Brazil.",
+        "pt": "Proteção de vistos para refugiados e indivíduos vulneráveis ​​no Brasil.",
+        "es": "Protección de visas para refugiados y personas vulnerables en Brasil.",
+        "fr": "Protection des visas pour les réfugiés et les personnes vulnérables au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/investor.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/investor.webp",
+      "alts": {
+        "en": "Investor visa illustration for business investments in Brazil",
+        "pt": "Ilustração de visto de investidor para investimentos empresariais no Brasil",
+        "es": "Ilustración de visa de inversionista para inversiones comerciales en Brasil",
+        "fr": "Illustration de visa d'investisseur pour les investissements commerciaux au Brésil"
+      },
+      "names": {
+        "en": "Investor",
+        "pt": "Investidor",
+        "es": "Inversor",
+        "fr": "Investisseur"
+      },
+      "summaries": {
+        "en": "Visa structures for foreign investments and capital in Brazil.",
+        "pt": "Estruturas de vistos para investimentos e capitais estrangeiros no Brasil.",
+        "es": "Estructuras de visas para inversiones y capitales extranjeros en Brasil.",
+        "fr": "Structures de visa pour les investissements et capitaux étrangers au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/journalist.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/journalist.webp",
+      "alts": {
+        "en": "Journalist visa image for media professionals in Brazil",
+        "pt": "Imagem de visto de jornalista para profissionais de mídia no Brasil",
+        "es": "Imagen de visa de periodista para profesionales de los medios en Brasil",
+        "fr": "Image de visa de journaliste pour les professionnels des médias au Brésil"
+      },
+      "names": {
+        "en": "Journalist",
+        "pt": "Jornalista",
+        "es": "Periodista",
+        "fr": "Journaliste"
+      },
+      "summaries": {
+        "en": "Visa representation for media and press professionals in Brazil.",
+        "pt": "Representação de vistos para profissionais de mídia e imprensa no Brasil.",
+        "es": "Representación de visas para medios y profesionales de la prensa en Brasil.",
+        "fr": "Représentation de visa pour les professionnels des médias et de la presse au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/medical.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/medical.webp",
+      "alts": {
+        "en": "Medical visa visual for healthcare seekers in Brazil",
+        "pt": "Visto médico visual para quem busca assistência médica no Brasil",
+        "es": "Visa médica visual para solicitantes de atención médica en Brasil",
+        "fr": "Visuel de visa médical pour les demandeurs de soins de santé au Brésil"
+      },
+      "names": {
+        "en": "Medical",
+        "pt": "Médico",
+        "es": "Médico",
+        "fr": "Médical"
+      },
+      "summaries": {
+        "en": "Visa assistance for healthcare and treatment seekers in Brazil.",
+        "pt": "Assistência com vistos para requerentes de cuidados de saúde e tratamento no Brasil.",
+        "es": "Asistencia de visa para solicitantes de atención médica y tratamiento en Brasil.",
+        "fr": "Assistance en matière de visa pour les demandeurs de soins de santé et de traitement au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/religious.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/religious.webp",
+      "alts": {
+        "en": "Religious visa illustration for missionaries in Brazil",
+        "pt": "Ilustração de visto religioso para missionários no Brasil",
+        "es": "Ilustración de visa religiosa para misioneros en Brasil",
+        "fr": "Illustration de visa religieux pour les missionnaires au Brésil"
+      },
+      "names": {
+        "en": "Religious",
+        "pt": "Religioso",
+        "es": "Religioso",
+        "fr": "Religieux"
+      },
+      "summaries": {
+        "en": "Visa services for missionaries and religious groups in Brazil.",
+        "pt": "Serviços de vistos para missionários e grupos religiosos no Brasil.",
+        "es": "Servicios de visas para misioneros y grupos religiosos en Brasil.",
+        "fr": "Services de visa pour les missionnaires et les groupes religieux au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/research.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/research.webp",
+      "alts": {
+        "en": "Research visa graphic for academic pursuits in Brazil",
+        "pt": "Gráfico de visto de pesquisa para atividades acadêmicas no Brasil",
+        "es": "Gráfico de visas de investigación para actividades académicas en Brasil",
+        "fr": "Graphique de visa de recherche pour les activités universitaires au Brésil"
+      },
+      "names": {
+        "en": "Research",
+        "pt": "Pesquisar",
+        "es": "Investigación",
+        "fr": "Recherche"
+      },
+      "summaries": {
+        "en": "Visa support for academic and scientific researchers in Brazil.",
+        "pt": "Apoio a vistos para pesquisadores acadêmicos e científicos no Brasil.",
+        "es": "Soporte de visas para investigadores académicos y científicos en Brasil.",
+        "fr": "Aide au visa pour les chercheurs universitaires et scientifiques au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/retiree.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/retiree.webp",
+      "alts": {
+        "en": "Retiree visa image for golden years in Brazil",
+        "pt": "Imagem do visto de aposentado para anos dourados no Brasil",
+        "es": "Imagen de visa de jubilado para los años dorados en Brasil",
+        "fr": "Image de visa de retraité pour les années d'or au Brésil"
+      },
+      "names": {
+        "en": "Retiree",
+        "pt": "Aposentado",
+        "es": "Jubilado",
+        "fr": "Retraité"
+      },
+      "summaries": {
+        "en": "Visa planning for retirees and pension holders in Brazil.",
+        "pt": "Planejamento de vistos para aposentados e pensionistas no Brasil.",
+        "es": "Planificación de visas para jubilados y pensionados en Brasil.",
+        "fr": "Planification de visa pour les retraités et les titulaires de pension au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/sports.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/sports.webp",
+      "alts": {
+        "en": "Sports visa visual for athletes competing in Brazil",
+        "pt": "Visto esportivo visual para atletas que competem no Brasil",
+        "es": "Visa deportiva visual para deportistas que compiten en Brasil",
+        "fr": "Visuel de visa sportif pour les athlètes concourant au Brésil"
+      },
+      "names": {
+        "en": "Sports",
+        "pt": "Esportes",
+        "es": "Deportes",
+        "fr": "Sportif"
+      },
+      "summaries": {
+        "en": "Visa representation for athletes and coaches in Brazil.",
+        "pt": "Representação de vistos para atletas e treinadores no Brasil.",
+        "es": "Representación de visas para atletas y entrenadores en Brasil.",
+        "fr": "Représentation de visa pour les athlètes et entraîneurs au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/startup.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/startup.webp",
+      "alts": {
+        "en": "Startup visa illustration for innovative ventures in Brazil",
+        "pt": "Ilustração de visto de startup para empreendimentos inovadores no Brasil",
+        "es": "Ilustración de visa de inicio para emprendimientos innovadores en Brasil",
+        "fr": "Illustration de visa de démarrage pour les entreprises innovantes au Brésil"
+      },
+      "names": {
+        "en": "Startup",
+        "pt": "Comece",
+        "es": "Puesta en marcha",
+        "fr": "Démarrer"
+      },
+      "summaries": {
+        "en": "Visa advice for entrepreneurs and innovators in Brazil.",
+        "pt": "Assessoria em vistos para empreendedores e inovadores no Brasil.",
+        "es": "Asesoramiento en visas para emprendedores e innovadores en Brasil.",
+        "fr": "Conseils en matière de visa pour les entrepreneurs et les innovateurs au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/student.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/student.webp",
+      "alts": {
+        "en": "Student visa graphic for educational opportunities in Brazil",
+        "pt": "Gráfico de visto de estudante para oportunidades educacionais no Brasil",
+        "es": "Gráfico de visas de estudiantes para oportunidades educativas en Brasil",
+        "fr": "Graphique de visa étudiant pour les opportunités éducatives au Brésil"
+      },
+      "names": {
+        "en": "Student",
+        "pt": "Estudante",
+        "es": "Alumno",
+        "fr": "Étudiant"
+      },
+      "summaries": {
+        "en": "Visa guidance for students and exchange participants in Brazil.",
+        "pt": "Orientação sobre vistos para estudantes e intercambistas no Brasil.",
+        "es": "Orientación sobre visas para estudiantes y participantes de intercambio en Brasil.",
+        "fr": "Conseils en matière de visa pour les étudiants et les participants aux échanges au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/tourist.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/tourist.webp",
+      "alts": {
+        "en": "Tourist visa image showcasing Brazilian landmarks and entry info",
+        "pt": "Imagem do visto de turista mostrando pontos turísticos brasileiros e informações de entrada",
+        "es": "Imagen de visa de turista que muestra lugares emblemáticos de Brasil e información de entrada",
+        "fr": "Image de visa touristique présentant les monuments brésiliens et les informations d'entrée"
+      },
+      "names": {
+        "en": "Tourist",
+        "pt": "Turista",
+        "es": "Turístico",
+        "fr": "Touristique"
+      },
+      "summaries": {
+        "en": "Visa info on entry and extensions for tourism in Brazil.",
+        "pt": "Informações sobre vistos de entrada e prorrogações para turismo no Brasil.",
+        "es": "Información de visas de entrada y prórrogas para turismo en Brasil.",
+        "fr": "Informations sur les visas d'entrée et de prolongation pour le tourisme au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/transit.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/transit.webp",
+      "alts": {
+        "en": "Transit visa visual for travelers passing through Brazil",
+        "pt": "Visto visual de trânsito para viajantes de passagem pelo Brasil",
+        "es": "Visa de tránsito visual para viajeros que pasan por Brasil",
+        "fr": "Visuel de visa de transit pour les voyageurs transitant par le Brésil"
+      },
+      "names": {
+        "en": "Transit",
+        "pt": "Trânsito",
+        "es": "Tránsito",
+        "fr": "Transit"
+      },
+      "summaries": {
+        "en": "Visa support for short-term stopovers and entry in Brazil.",
+        "pt": "Apoio a vistos para escalas de curta duração e entrada no Brasil.",
+        "es": "Soporte de visa para escalas de corta duración y entrada a Brasil.",
+        "fr": "Prise en charge des visas pour les escales de courte durée et l'entrée au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/volunteer.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/volunteer.webp",
+      "alts": {
+        "en": "Volunteer visa illustration for humanitarian efforts in Brazil",
+        "pt": "Ilustração de visto voluntário para esforços humanitários no Brasil",
+        "es": "Ilustración de visa de voluntario para esfuerzos humanitarios en Brasil",
+        "fr": "Illustration de visa de volontaire pour les efforts humanitaires au Brésil"
+      },
+      "names": {
+        "en": "Volunteer",
+        "pt": "Voluntário",
+        "es": "Voluntario",
+        "fr": "Bénévole"
+      },
+      "summaries": {
+        "en": "Visa assistance for nonprofit and humanitarian work in Brazil.",
+        "pt": "Assistência com vistos para trabalhos humanitários e sem fins lucrativos no Brasil.",
+        "es": "Asistencia de visa para trabajos humanitarios y sin fines de lucro en Brasil.",
+        "fr": "Assistance visa pour le travail à but non lucratif et humanitaire au Brésil."
+      }
+    },
+    "/services/immigration-to-brazil/visas/work.html": {
+      "image": "/assets/img/services/cards/immigration-to-brazil/visas/work.webp",
+      "alts": {
+        "en": "Work visa graphic for employment opportunities in Brazil",
+        "pt": "Gráfico de visto de trabalho para oportunidades de emprego no Brasil",
+        "es": "Gráfico de visas de trabajo para oportunidades de empleo en Brasil",
+        "fr": "Graphique de visa de travail pour les opportunités d'emploi au Brésil"
+      },
+      "names": {
+        "en": "Work",
+        "pt": "Trabalhar",
+        "es": "Trabajar",
+        "fr": "Travail"
+      },
+      "summaries": {
+        "en": "Visa authorization for foreign employment in Brazil.",
+        "pt": "Autorização de visto para emprego estrangeiro no Brasil.",
+        "es": "Autorización de visa para empleo extranjero en Brasil.",
+        "fr": "Autorisation de visa pour un emploi étranger au Brésil."
+      }
+    }
+  }
+}

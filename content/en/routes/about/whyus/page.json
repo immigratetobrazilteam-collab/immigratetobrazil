@@ -3,108 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-about-whyus family-about style-about",
   "meta": {
-    "themeColor": "#6F4E8C",
-    "description": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
+    "themeColor": "#2E2E2E",
+    "description": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.",
     "robots": "index,follow",
-    "title": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp"
+    "title": "Why Work With Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/about/whyus/section-01-overview/why-us-section-01-overview-beachfront-cliffs-canoa-quebrada-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-    "ogImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
+    "ogTitle": "Why Work With Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "ogDescription": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/about/whyus/section-01-overview/why-us-section-01-overview-beachfront-cliffs-canoa-quebrada-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Why Work With Monique page showing Cliffs of Canoa Quebrada beachfront view in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Why Us | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of why us within the Immigrate to Brazil platform. Covers structural approach to cases, organization of procedures, documentation methodo…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-    "twitterImageAlt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
+    "twitterTitle": "Why Work With Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "twitterDescription": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/about/whyus/section-01-overview/why-us-section-01-overview-beachfront-cliffs-canoa-quebrada-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Why Work With Monique page showing Cliffs of Canoa Quebrada beachfront view in Brazil."
   },
   "runtime": {
-    "pageTitle": "Why Us",
+    "pageTitle": "Why Work With Monique",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Why Us",
-          "item": "https://immigratetobrazil.com/about/whyus/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why do clients choose Immigrate to Brazil instead of handling everything alone?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Clients usually choose us because they want clearer guidance, better sequencing, and support that feels careful and human rather than confusing or generic."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What makes Immigrate to Brazil different from a general information site?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We do more than explain topics. We help clients connect those topics to their real situation, reduce wrong turns, and move toward a practical next step."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Immigrate to Brazil tell me honestly if I need a different route or a deeper review?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Good support includes saying when a different direction, timing, or level of help may be better than the one you first had in mind."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help with both legal and practical coordination questions?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients need help with legal direction, timing, translation, relocation planning, and understanding how several decisions affect each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. The next step may be a consultation, a request for more context, or guidance toward the most useful action based on your situation."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/whyus/#hero-image",
-      "name": "Why Us hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the Why Us page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Why Us, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -112,16 +32,20 @@
         "href": "/"
       },
       {
-        "label": "Why Us",
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Why Work With Monique",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration."
       },
       "nextStep": {
-        "lead": "structural approach to cases in practical client terms.",
+        "lead": "If you want to work with Monique Fernandes on a route that matches your real facts and goals, consultation is the right next step. Use WhatsApp if you want help deciding whether your matter is ready for formal review.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/about/",
+        "title": "About",
+        "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/about/profile/",
         "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
+        "description": "A professional profile of Monique Fernandes, including how her immigration practice is structured and what clients can expect from attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "href": "/about/lawyer/",
+        "title": "Lawyer",
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/about/results/",
+        "title": "Results",
+        "description": "Monique Fernandes defines results through clarity, preparation, stronger legal positioning, and better-managed immigration progress, not through unrealistic guarantees.",
+        "image_src": "/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
+        "image_alt": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/clients/",
+        "title": "Clients",
+        "description": "Monique Fernandes works with immigrants, families, companies, entrepreneurs, remote professionals, and cross-border clients who need attorney-led guidance for Brazil-related immigration decisions.",
+        "image_src": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-clients.webp",
+        "image_alt": "Hero image for the Clients page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/about/testimonials/",
+        "title": "Testimonials",
+        "description": "Public reviews show how clients describe Monique Fernandes' clarity, professionalism, responsiveness, and support across Brazil-related legal matters.",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+        "image_alt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
       }
     ]
   }

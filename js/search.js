@@ -7,18 +7,63 @@
   let cachedIndex = null;
   let pendingIndex = null;
 
+  function getUrls() {
+    if (window.ITB_URLS) return window.ITB_URLS;
+
+    function normalizeSitePath(pathname) {
+      if (!pathname) return "/";
+      let clean = String(pathname).trim();
+      if (!clean) return "/";
+      clean = clean.replace(/\/index\.html$/i, "/");
+      if (!clean.startsWith("/")) clean = `/${clean}`;
+      if (!clean.endsWith("/") && !/\.[a-z0-9]+$/i.test(clean)) clean = `${clean}/`;
+      return clean;
+    }
+
+    function getSitePath() {
+      const canonical = document.querySelector("link[rel='canonical']")?.getAttribute("href");
+      if (canonical) {
+        try {
+          return normalizeSitePath(new URL(canonical).pathname || "/");
+        } catch {
+          /* fall through */
+        }
+      }
+      return normalizeSitePath(window.location.pathname || "/");
+    }
+
+    function getRootPrefix() {
+      const parts = getSitePath().replace(/^\/|\/$/g, "").split("/").filter(Boolean);
+      return parts.length ? "../".repeat(parts.length) : "./";
+    }
+
+    function resolveSiteUrl(value) {
+      const raw = String(value || "");
+      if (!raw || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i.test(raw) || !raw.startsWith("/")) return raw;
+      return `${getRootPrefix()}${raw.replace(/^\/+/, "")}`;
+    }
+
+    function getLocale() {
+      const path = getSitePath();
+      return path === "/pt-br/" || path.startsWith("/pt-br/") ? "pt-br" : "en";
+    }
+
+    return { getSitePath, getLocale, resolveSiteUrl };
+  }
+
   /* ==========================================================================
    * 02. Locale-Aware Context
    * DOM lookups stay inside the context helper because partial injection can
    * recreate the search form and results container.
    * ========================================================================== */
   function getContext() {
-    const isPt = window.location.pathname.startsWith("/pt-br/");
+    const urls = getUrls();
+    const isPt = urls.getLocale() === "pt-br";
     return {
       resultsNode: document.querySelector("[data-search-results='true']"),
       form: document.querySelector("[data-search-form='true']"),
       searchPath: isPt ? "/pt-br/legal/search/" : "/legal/search/",
-      indexPath: isPt ? "/pt-br/data/search-index.json" : "/data/search-index.json",
+      indexPath: urls.resolveSiteUrl(isPt ? "/pt-br/data/search-index.json" : "/data/search-index.json"),
       copy: isPt
         ? {
             prompt: "Use uma palavra-chave para pesquisar no site.",
@@ -79,6 +124,7 @@
 
   function renderResults(query, items, context) {
     const { resultsNode, copy, familyLabels } = context;
+    const urls = getUrls();
     if (!resultsNode) return;
     if (!query) {
       resultsNode.innerHTML = `<p>${copy.prompt}</p>`;
@@ -102,7 +148,7 @@
       ? matches
           .map(
             ({ item }) => `<article class="search-result">
-          <strong><a href="${item.route}">${item.title}</a></strong>
+          <strong><a href="${urls.resolveSiteUrl(item.route)}" data-itb-route="${item.route}">${item.title}</a></strong>
           <span>${familyLabels[item.family] || item.family}</span>
           <p>${item.summary}</p>
         </article>`
@@ -130,13 +176,14 @@
    * Used both on static pages and after runtime partial injection.
    * ========================================================================== */
   function initSearch() {
+    const urls = getUrls();
     const context = getContext();
     const { form, resultsNode, searchPath } = context;
 
     if (form && form.dataset.itbBoundSearchForm !== "true") {
       form.addEventListener("submit", (event) => {
         const input = form.querySelector("input[name='q']");
-        if (!input || window.location.pathname !== searchPath) return;
+        if (!input || urls.getSitePath() !== searchPath) return;
         event.preventDefault();
         const query = input.value.trim();
         const url = new URL(window.location.href);
@@ -148,7 +195,7 @@
       form.dataset.itbBoundSearchForm = "true";
     }
 
-    if (window.location.pathname === searchPath && resultsNode) {
+    if (urls.getSitePath() === searchPath && resultsNode) {
       const params = new URLSearchParams(window.location.search);
       const query = params.get("q") || "";
       const input = document.querySelector("input[name='q']");

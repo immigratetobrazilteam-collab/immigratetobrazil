@@ -3,113 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-about-mission family-about style-about",
   "meta": {
-    "themeColor": "#6F4E8C",
-    "description": "Contextual overview of mission within the Immigrate to Brazil platform. Covers defined purpose, role in immigration context, approach to service delivery, pr…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care.",
     "robots": "index,follow",
-    "title": "Mission | Immigrate to Brazil | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp"
+    "title": "Monique Fernandes Mission | Empowering Immigrants in Brazil | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/about/mission/section-01-overview/mission-section-01-overview-francisco-canyons-canions-alagoas-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Mission | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of mission within the Immigrate to Brazil platform. Covers defined purpose, role in immigration context, approach to service delivery, pr…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-    "ogImageAlt": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "ogTitle": "Monique Fernandes Mission | Empowering Immigrants in Brazil | Immigrate to Brazil",
+    "ogDescription": "Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/about/mission/section-01-overview/mission-section-01-overview-francisco-canyons-canions-alagoas-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Mission page showing Canions do Sao Francisco in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Mission | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of mission within the Immigrate to Brazil platform. Covers defined purpose, role in immigration context, approach to service delivery, pr…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-    "twitterImageAlt": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil."
+    "twitterTitle": "Monique Fernandes Mission | Empowering Immigrants in Brazil | Immigrate to Brazil",
+    "twitterDescription": "Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/about/mission/section-01-overview/mission-section-01-overview-francisco-canyons-canions-alagoas-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Mission page showing Canions do Sao Francisco in Brazil."
   },
   "runtime": {
     "pageTitle": "Mission",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Mission",
-          "item": "https://immigratetobrazil.com/about/mission/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does this page show about the company mission?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "This page is meant to help you understand how Immigrate to Brazil approaches the company mission, what kind of support philosophy sits behind it, and why that matters for clients who want clearer guidance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I contact Immigrate to Brazil even if I am still unsure what I need?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients reach out while they are still trying to understand their situation, compare options, or decide what kind of support makes the most sense."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this page replace case-specific guidance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. These pages help you understand how we work and what we value, but real next steps still depend on your facts, timing, and goals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients is this usually relevant for?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is usually relevant for international clients who want clear English communication, practical support, and a more trustworthy way to approach Brazil-related decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on what should happen first."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/mission/#hero-image",
-      "name": "Mission hero image featuring Teatro Amazonas in Manaus",
-      "description": "SEO hero image for the Mission page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil.",
-      "keywords": "Manaus, Teatro Amazonas, Amazonas, historic theater, northern Brazil, Teatro Amazonas in Manaus, Mission, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
       },
       {
         "label": "Mission",
@@ -118,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care."
       },
       "nextStep": {
-        "lead": "defined purpose in practical client terms.",
+        "lead": "If Monique Fernandes' mission and approach feel aligned with what you need, consultation is the right next step. Use WhatsApp if you want help understanding whether your matter fits her immigration practice.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/about/profile/",
-        "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
+        "href": "/about/",
+        "title": "About",
+        "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "title": "About Monique Fernandes",
+        "description": "Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/philosophy/",
+        "title": "Philosophy",
+        "description": "Monique Fernandes builds immigration strategy around clarity before action, structure before speed, and documentation that supports the route.",
+        "image_src": "/assets/images/heroes/about/brazil-curitiba-skyline-philosophy.webp",
+        "image_alt": "Hero image for the Philosophy page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/about/values/",
+        "title": "Values",
+        "description": "Monique Fernandes' values shape how she communicates, prepares cases, protects dignity, and helps clients move through Brazilian immigration processes with more trust and clarity.",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-values.webp",
+        "image_alt": "Hero image for the Values page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
+      },
+      {
+        "href": "/about/whyus/",
+        "title": "Why Work With Monique",
+        "description": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+        "image_alt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Lawyer",
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
       }
     ]
   }

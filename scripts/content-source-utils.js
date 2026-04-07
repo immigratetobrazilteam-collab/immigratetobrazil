@@ -3,6 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 import { outputPathForRoute } from "./static-site-utils.js";
+import { decorateBodyHtmlWithSectionImages } from "./section-image-utils.js";
+import { buildStructuredData } from "./schema-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -13,18 +15,6 @@ export const ROUTES_ROOT = path.join(EN_CONTENT_ROOT, "routes");
 export const ABOUT_PATH = path.join(EN_CONTENT_ROOT, "about", "about.json");
 export const SITE_DOMAIN = "https://immigratetobrazil.com";
 
-const BODY_AND_SCRIPTS_RE =
-  /<body[^>]*class="([^"]+)"[^>]*>([\s\S]*?)<!-- Section: Site Scripts -->\s*<script defer src="([^"]+)"><\/script>\s*<script defer src="([^"]+)"><\/script>\s*<script defer src="([^"]+)"><\/script>\s*<script defer src="([^"]+)"><\/script>\s*<\/body>\s*<\/html>\s*$/i;
-const JSON_LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
-const WINDOW_CONFIG_RE = /window\.ITB_SITE\s*=\s*(\{.*?\});/s;
-
-function assertMatch(route, label, value) {
-  if (!value) {
-    throw new Error(`Could not extract ${label} for ${route}.`);
-  }
-  return value;
-}
-
 function escapeHtml(value = "") {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -34,82 +24,6 @@ function escapeHtml(value = "") {
 
 function escapeAttribute(value = "") {
   return escapeHtml(value).replace(/"/g, "&quot;");
-}
-
-function extractSingle(route, html, label, pattern, group = 1) {
-  const match = html.match(pattern);
-  return assertMatch(route, label, match?.[group]);
-}
-
-function extractSection(route, html, label, startMarker, endMarker) {
-  const startIndex = html.indexOf(startMarker);
-  if (startIndex === -1) {
-    throw new Error(`Could not find ${label} start marker for ${route}.`);
-  }
-
-  const afterStart = startIndex + startMarker.length;
-  const endIndex = html.indexOf(endMarker, afterStart);
-  if (endIndex === -1) {
-    throw new Error(`Could not find ${label} end marker for ${route}.`);
-  }
-
-  return html.slice(afterStart, endIndex);
-}
-
-function parseLinkAttributes(source) {
-  const attributes = {};
-  for (const match of source.matchAll(/([a-zA-Z:-]+)="([^"]*)"/g)) {
-    attributes[match[1]] = match[2];
-  }
-  return attributes;
-}
-
-function parseLinkList(section) {
-  return [...section.matchAll(/<link\s+([^>]+?)\s*\/>/g)].map((match) => parseLinkAttributes(match[1]));
-}
-
-function normalizeSharedSchemaObjects(route, schemas) {
-  const organization = schemas.find((item) => item?.["@type"] === "Organization");
-  const contactPoint = schemas.find((item) => item?.["@type"] === "ContactPoint");
-
-  if (!organization || !contactPoint) {
-    throw new Error(`Expected Organization and ContactPoint schema objects on ${route}.`);
-  }
-
-  return {
-    organization,
-    contactPoint,
-    pageSchemas: schemas.filter((item) => item !== organization && item !== contactPoint)
-  };
-}
-
-function parseScripts(route, html) {
-  const match = html.match(BODY_AND_SCRIPTS_RE);
-  if (!match) {
-    throw new Error(`Could not extract body/scripts block for ${route}.`);
-  }
-
-  return {
-    bodyClass: match[1],
-    bodyHtml: match[2],
-    scripts: [match[3], match[4], match[5], match[6]]
-  };
-}
-
-function pageTitleFromRuntime(route, runtime) {
-  if (!runtime?.pageTitle || !runtime?.pageFamily) {
-    throw new Error(`Missing pageTitle/pageFamily in window.ITB_SITE for ${route}.`);
-  }
-
-  return {
-    pageTitle: runtime.pageTitle,
-    pageFamily: runtime.pageFamily
-  };
-}
-
-export function routeToContentDir(route) {
-  if (route === "/") return path.join(ROUTES_ROOT, "root");
-  return path.join(ROUTES_ROOT, route.replace(/^\/|\/$/g, ""));
 }
 
 export function contentDirToRoute(contentDir) {
@@ -124,14 +38,6 @@ export function routeToUrl(route, domain = SITE_DOMAIN) {
 
 export function routeToPt(route) {
   return route === "/" ? "/pt-br/" : `/pt-br${route}`;
-}
-
-export function pageJsonPathForRoute(route) {
-  return path.join(routeToContentDir(route), "page.json");
-}
-
-export function bodyHtmlPathForRoute(route) {
-  return path.join(routeToContentDir(route), "body.html");
 }
 
 export async function writeFileIfChanged(filePath, content) {
@@ -198,112 +104,6 @@ export async function loadContentPage(routeDir) {
   };
 }
 
-export function parseEnglishPage(route, html) {
-  const lang = extractSingle(route, html, "html lang", /<html lang="([^"]+)">/i);
-  const metaTitle = extractSingle(route, html, "title", /<title>([\s\S]*?)<\/title>/i);
-  const themeColor = extractSingle(route, html, "theme color", /<meta name="theme-color" content="([^"]+)" \/>/i);
-  const description = extractSingle(route, html, "meta description", /<meta name="description" content="([^"]+)" \/>/i);
-  const author = extractSingle(route, html, "author", /<meta name="author" content="([^"]+)" \/>/i);
-  const robots = extractSingle(route, html, "robots", /<meta name="robots" content="([^"]+)" \/>/i);
-  const viewport = extractSingle(route, html, "viewport", /<meta name="viewport" content="([^"]+)" \/>/i);
-  const formatDetection = extractSingle(
-    route,
-    html,
-    "format detection",
-    /<meta name="format-detection" content="([^"]+)" \/>/i
-  );
-  const preloadImage = extractSingle(route, html, "preload image", /<link rel="preload" as="image" href="([^"]+)" fetchpriority="high" \/>/i);
-  const ogType = extractSingle(route, html, "og:type", /<meta property="og:type" content="([^"]+)" \/>/i);
-  const ogTitle = extractSingle(route, html, "og:title", /<meta property="og:title" content="([^"]+)" \/>/i);
-  const ogDescription = extractSingle(route, html, "og:description", /<meta property="og:description" content="([^"]+)" \/>/i);
-  const ogImage = extractSingle(route, html, "og:image", /<meta property="og:image" content="([^"]+)" \/>/i);
-  const ogImageAlt = extractSingle(route, html, "og:image:alt", /<meta property="og:image:alt" content="([^"]+)" \/>/i);
-  const ogSiteName = extractSingle(route, html, "og:site_name", /<meta property="og:site_name" content="([^"]+)" \/>/i);
-  const twitterCard = extractSingle(route, html, "twitter:card", /<meta name="twitter:card" content="([^"]+)" \/>/i);
-  const twitterTitle = extractSingle(route, html, "twitter:title", /<meta name="twitter:title" content="([^"]+)" \/>/i);
-  const twitterDescription = extractSingle(route, html, "twitter:description", /<meta name="twitter:description" content="([^"]+)" \/>/i);
-  const twitterImage = extractSingle(route, html, "twitter:image", /<meta name="twitter:image" content="([^"]+)" \/>/i);
-  const twitterImageAlt = extractSingle(route, html, "twitter:image:alt", /<meta name="twitter:image:alt" content="([^"]+)" \/>/i);
-
-  const jsonLdRaw = extractSingle(route, html, "JSON-LD", JSON_LD_RE);
-  const runtimeRaw = extractSingle(route, html, "window.ITB_SITE", WINDOW_CONFIG_RE);
-  const runtime = JSON.parse(runtimeRaw);
-  const schemas = JSON.parse(jsonLdRaw);
-  const { bodyClass, bodyHtml, scripts } = parseScripts(route, html);
-  const { organization, contactPoint, pageSchemas } = normalizeSharedSchemaObjects(route, schemas);
-
-  const faviconSection = extractSection(
-    route,
-    html,
-    "favicons section",
-    "<!-- Section: Favicons And Manifest -->",
-    "<!-- Section: Stylesheets -->"
-  );
-  const stylesheetSection = extractSection(
-    route,
-    html,
-    "stylesheets section",
-    "<!-- Section: Stylesheets -->",
-    "<!-- Section: Open Graph Metadata -->"
-  );
-
-  return {
-    page: {
-      route,
-      lang,
-      bodyClass,
-      meta: {
-        themeColor,
-        description,
-        robots,
-        title: metaTitle,
-        preloadImage
-      },
-      social: {
-        ogType,
-        ogTitle,
-        ogDescription,
-        ogImage,
-        ogImageAlt,
-        twitterCard,
-        twitterTitle,
-        twitterDescription,
-        twitterImage,
-        twitterImageAlt
-      },
-      runtime: pageTitleFromRuntime(route, runtime),
-      schemas: pageSchemas
-    },
-    bodyHtml,
-    aboutCandidate: {
-      site: {
-        name: author,
-        socialName: ogSiteName,
-        domain: SITE_DOMAIN,
-        lang,
-        author,
-        viewport,
-        formatDetection
-      },
-      assets: {
-        favicons: parseLinkList(faviconSection),
-        stylesheets: parseLinkList(stylesheetSection).map((item) => item.href),
-        scripts
-      },
-      schemas: {
-        organization,
-        contactPoint
-      },
-      runtime: {
-        tracking: runtime.tracking,
-        consultationPolicy: runtime.consultationPolicy,
-        contact: runtime.contact,
-        accessibility: runtime.accessibility
-      }
-    }
-  };
-}
-
 function renderFaviconLinks(favicons) {
   return favicons
     .map((item) => {
@@ -328,7 +128,7 @@ function renderScriptLinks(scripts) {
     .join("\n");
 }
 
-export function renderEnglishPage(about, page, bodyHtml) {
+export function renderEnglishPage(about, page, bodyHtml, structuredData) {
   const canonicalUrl = routeToUrl(page.route, about.site.domain);
   const ptUrl = routeToUrl(routeToPt(page.route), about.site.domain);
   const runtimeConfig = JSON.stringify({
@@ -338,7 +138,7 @@ export function renderEnglishPage(about, page, bodyHtml) {
     ...(page.shell ? { shell: page.shell } : {}),
     ...about.runtime
   });
-  const structuredData = JSON.stringify([about.schemas.organization, about.schemas.contactPoint, ...page.schemas]);
+  const structuredDataJson = JSON.stringify(structuredData);
 
   return `<!DOCTYPE html>
 
@@ -390,7 +190,7 @@ ${renderStylesheetLinks(about.assets.stylesheets)}
 <meta name="twitter:image:alt" content="${escapeAttribute(page.social.twitterImageAlt)}" />
 
 <!-- Section: Structured Data -->
-<script type="application/ld+json">${structuredData}</script>
+<script type="application/ld+json">${structuredDataJson}</script>
 
 <!-- Section: Site Runtime Config -->
 <script>
@@ -404,9 +204,17 @@ ${renderScriptLinks(about.assets.scripts)}
 `;
 }
 
-export async function generateEnglishPage(route, about, page, bodyHtml) {
+export async function generateEnglishPage(route, about, page, bodyHtml, siteCatalog) {
   const outputPath = outputPathForRoute(ROOT, route);
-  const rendered = renderEnglishPage(about, { ...page, route }, bodyHtml);
+  const decoratedBodyHtml = await decorateBodyHtmlWithSectionImages(route, bodyHtml);
+  const structuredData = buildStructuredData({
+    about,
+    page: { ...page, route },
+    route,
+    bodyHtml,
+    siteCatalog
+  });
+  const rendered = renderEnglishPage(about, { ...page, route }, decoratedBodyHtml, structuredData);
   const changed = await writeFileIfChanged(outputPath, rendered);
   return { outputPath, changed };
 }

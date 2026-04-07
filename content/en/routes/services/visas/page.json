@@ -3,110 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-services-visas family-services style-service-hub",
   "meta": {
-    "themeColor": "#2D6A4F",
-    "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps.",
     "robots": "index,follow",
     "title": "Visas | Brazil Immigration Services | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp"
+    "preloadImage": "/assets/images/sections/services/visas/section-01-overview/visas-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Visas | Brazil Immigration Services | Immigrate to Brazil",
-    "ogDescription": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
-    "ogImageAlt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "ogDescription": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/services/visas/section-01-overview/visas-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Visas page showing Anavilhanas archipelago at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Visas | Brazil Immigration Services | Immigrate to Brazil",
-    "twitterDescription": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning. Covers scope of visa services, identification of applic…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
-    "twitterImageAlt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+    "twitterDescription": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/services/visas/section-01-overview/visas-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Visas page showing Anavilhanas archipelago at sunrise in Brazil."
   },
   "runtime": {
     "pageTitle": "Visas",
     "pageFamily": "services"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://immigratetobrazil.com/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Visas",
-          "item": "https://immigratetobrazil.com/services/visas/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Visas | Immigrate to Brazil",
-      "serviceType": "Visas",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/services/visas/",
-      "description": "Service-centered overview of visa categories, purpose analysis, documentation logic, and positioning."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me understand which visa options option fits my situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The first step is usually to understand your goals, timing, and current position so the right direction becomes clearer before you commit to a path in visa options."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of support does Immigrate to Brazil provide for visa options matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand options, reduce confusion, prepare next steps, and coordinate the right kind of support around visa options in a calmer and more organized way."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil about visa options support?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. From there, the next step may be clarifying details, recommending a consultation, or guiding you toward the most useful action based on your situation and the visa options issue you are facing."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/services/visas/#hero-image",
-      "name": "Visas hero image featuring Pelourinho in Salvador",
-      "description": "SEO hero image for the Visas page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
-      "caption": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
-      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Visas, Brazil immigration services, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -124,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended."
+        "note": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps. Her approach focuses on clear explanation, practical next steps, and attorney-led support in English and Portuguese."
       },
       "nextStep": {
-        "lead": "scope of visa services in terms of route fit, supporting records, and next steps.",
+        "lead": "If more than one visa route feels relevant, a consultation can help clarify fit, timing, and the strongest next step.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -137,66 +55,83 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos-para-viajar-ao-brasil",
-        "title": "Brazilian consular and visa information",
-        "description": "Consular information about entry documentation and visas requested abroad."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/services/visas/tourist/",
+        "title": "Tourist Visa",
+        "description": "Tourist visa guidance only works well when the purpose of entry, the documents, and the later plan still make sense together. We explain how we approach that support at Immigrate to Brazil so the route can be judged more carefully from the start.",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-tourist.webp",
+        "image_alt": "Hero image for the Tourist Visa page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/services/residencies/nomad/",
+        "title": "Nomad Residency",
+        "description": "Digital nomad residency support matters when lawful stay in Brazil is becoming a real life question rather than a broad idea. We explain who this support is for, how the route is usually read, where people get stuck, and how we help bring structure to it.",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-nomad.webp",
+        "image_alt": "Hero image for the Nomad Residency page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/services/residencies/work/",
+        "title": "Work Residency",
+        "description": "Work residency support matters when lawful stay in Brazil is becoming a real life question rather than a broad idea. We explain who this support is for, how the route is usually read, where people get stuck, and how we help bring structure to it.",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-work.webp",
+        "image_alt": "Hero image for the Work Residency page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/services/visas/family/",
+        "title": "Family Visa",
+        "description": "Family visa support only works well when the purpose of entry, the documents, and the later plan still make sense together. We explain how we approach that support at Immigrate to Brazil so the route can be judged more carefully from the start.",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-family.webp",
+        "image_alt": "Hero image for the Family Visa page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/services/residencies/investor/",
+        "title": "Investor Residency",
+        "description": "Investor residency support matters when lawful stay in Brazil is becoming a real life question rather than a broad idea. We explain who this support is for, how the route is usually read, where people get stuck, and how we help bring structure to it.",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-investor.webp",
+        "image_alt": "Hero image for the Investor Residency page showing the Porto Alegre skyline in southern Brazil."
       }
     ]
   }

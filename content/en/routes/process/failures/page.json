@@ -3,125 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-process-failures family-process style-process",
   "meta": {
-    "themeColor": "#C7953C",
-    "description": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
     "robots": "index,follow",
-    "title": "Failures | Brazil Immigration Process | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp"
+    "title": "Failures With Monique Fernandes | Brazil Immigration Process",
+    "preloadImage": "/assets/images/sections/process/failures/section-01-overview/failures-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Failures | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
-    "ogImageAlt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil.",
+    "ogTitle": "Failures With Monique Fernandes | Brazil Immigration Process",
+    "ogDescription": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/process/failures/section-01-overview/failures-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Failures page showing Anavilhanas archipelago at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Failures | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on failures within Brazilian immigration procedures and compliance planning. Covers reasons for denial, incomplete or incorrect submissions,…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
-    "twitterImageAlt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil."
+    "twitterTitle": "Failures With Monique Fernandes | Brazil Immigration Process",
+    "twitterDescription": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/process/failures/section-01-overview/failures-section-01-overview-sunrise-anavilhanas-archipelago-amazonas-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Failures page showing Anavilhanas archipelago at sunrise in Brazil."
   },
   "runtime": {
     "pageTitle": "Failures",
     "pageFamily": "process"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Failures",
-          "item": "https://immigratetobrazil.com/process/failures/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Failures | Immigrate to Brazil",
-      "serviceType": "Failures",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/process/failures/",
-      "description": "Process guidance on failures within Brazilian immigration procedures and compliance planning."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How can Immigrate to Brazil help at recovering after setbacks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand what recovering after setbacks means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need everything ready before getting help with recovering after setbacks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around recovering after setbacks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at recovering after setbacks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with recovering after setbacks."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/process/failures/#hero-image",
-      "name": "Failures hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the Failures page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
-      "caption": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Failures, the Brazil immigration process, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
       },
       {
         "label": "Failures",
@@ -130,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure."
       },
       "nextStep": {
-        "lead": "reasons for denial, the current stage, and the next practical check.",
+        "lead": "Contact Monique Fernandes when your Brazil immigration matter has been refused, delayed, weakened, or stalled and you need a serious review of recovery options before moving again.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -143,61 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/assessment/",
+        "title": "Assessment",
+        "description": "Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-assessment.webp",
+        "image_alt": "Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/approval/",
+        "title": "Approval",
+        "description": "Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-approval.webp",
+        "image_alt": "Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/process/conversion/",
+        "title": "Conversion",
+        "description": "Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-conversion.webp",
+        "image_alt": "Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/mistakes/",
+        "title": "Mistakes",
+        "description": "Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-mistakes.webp",
+        "image_alt": "Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

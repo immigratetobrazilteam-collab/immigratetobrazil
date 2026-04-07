@@ -3,113 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-brazil-cities family-brazil style-brazil",
   "meta": {
-    "themeColor": "#40916C",
-    "description": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
+    "themeColor": "#2E2E2E",
+    "description": "City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another.",
     "robots": "index,follow",
     "title": "Cities | Brazil Living Guidance | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp"
+    "preloadImage": "/assets/images/sections/brazil/cities/section-01-overview/cities-section-01-overview-natural-iguazu-iguacu-southern-brazil-bg-primary.webp"
   },
   "social": {
-    "ogType": "website",
+    "ogType": "article",
     "ogTitle": "Cities | Brazil Living Guidance | Immigrate to Brazil",
-    "ogDescription": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
-    "ogImageAlt": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.",
+    "ogDescription": "City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/brazil/cities/section-01-overview/cities-section-01-overview-natural-iguazu-iguacu-southern-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Cities page showing Iguazu Falls on the Brazilian side wide landscape in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Cities | Brazil Living Guidance | Immigrate to Brazil",
-    "twitterDescription": "Informational context on cities in Brazil for relocation, compliance, and practical planning. Covers urban organization, municipal governance, infrastructure…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
-    "twitterImageAlt": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil."
+    "twitterDescription": "City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/brazil/cities/section-01-overview/cities-section-01-overview-natural-iguazu-iguacu-southern-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Cities page showing Iguazu Falls on the Brazilian side wide landscape in Brazil."
   },
   "runtime": {
     "pageTitle": "Cities",
     "pageFamily": "brazil"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Cities",
-          "item": "https://immigratetobrazil.com/brazil/cities/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me use this information for choosing a city in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. These pages are meant to help you think more clearly about choosing a city in Brazil, and we can help connect that thinking to immigration, relocation, and next-step planning."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to decide everything about choosing a city in Brazil before I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out while they are still comparing options. Part of the support is helping you narrow decisions down more safely and with better context."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help with both immigration and practical relocation questions related to choosing a city in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many real moves involve both. We help clients think about how legal steps, timing, and day-to-day planning affect each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients usually need help with choosing a city in Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Remote workers, families, investors, retirees, students, and professionals often need help connecting choosing a city in Brazil to a real move rather than treating it as abstract research."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance toward the most useful next action."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/brazil/cities/#hero-image",
-      "name": "Cities hero image featuring Porto Alegre skyline",
-      "description": "SEO hero image for the Cities page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about relocation guidance about life in Brazil.",
-      "caption": "Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.",
-      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Cities, relocation guidance about life in Brazil, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/brazil/brazil-porto-alegre-skyline-cities.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Brazil",
+        "href": "/brazil/"
       },
       {
         "label": "Cities",
@@ -118,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Relocation planning is tied to legal context, regional variation, and the practical realities of living in Brazil."
+        "note": "City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
-        "lead": "urban organization, regional comparison, and planning trade-offs.",
+        "lead": "If this page is changing how you think about Brazil, the next step is to turn that research into a real plan.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,66 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.ibge.gov.br/",
-        "title": "IBGE institutional portal",
-        "description": "Primary institutional source for geography, population, economy, and regional reference information."
-      },
-      {
-        "href": "https://cidades.ibge.gov.br/",
-        "title": "IBGE Cities and States",
-        "description": "Official statistics and profiles for states, municipalities, demographics, and local indicators."
-      },
-      {
-        "href": "https://www.bcb.gov.br/",
-        "title": "Banco Central do Brasil",
-        "description": "Official source for currency, payments, exchange, and monetary system information."
-      },
-      {
-        "href": "https://www.gov.br/turismo/pt-br",
-        "title": "Ministry of Tourism",
-        "description": "Official tourism portal covering destinations, events, and tourism-sector context."
-      },
-      {
-        "href": "https://embratur.com.br/",
-        "title": "Embratur",
-        "description": "Official tourism promotion institution with destination and travel context."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/brazil/",
+        "title": "Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making",
+        "description": "Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.",
+        "image_src": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+        "image_alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "/process/planning/",
-        "title": "Planning",
-        "description": "Process guidance on planning within Brazilian immigration procedures and compliance planning."
+        "href": "/brazil/places/",
+        "title": "Places",
+        "description": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.",
+        "image_src": "/assets/images/heroes/brazil/brazil-amazon-river-basin-brazil-overview.webp",
+        "image_alt": "Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/brazil/states/",
+        "title": "States",
+        "description": "State-level comparison helps readers move from country-wide fascination to more realistic shortlists. State identity affects services, culture, administration, and how cities are experienced.",
+        "image_src": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+        "image_alt": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/brazil/municipalities/",
+        "title": "Municipalities",
+        "description": "Municipal boundaries matter more than many readers expect. They affect schools, services, taxation, commuting, and the ordinary feel of daily life.",
+        "image_src": "/assets/images/heroes/brazil/brazil-sao-paulo-skyline-municipalities.webp",
+        "image_alt": "Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/brazil/cost/",
+        "title": "Cost",
+        "description": "Cost of living in Brazil cannot be reduced to one headline number. We break it into housing, transport, healthcare, food, education, and lifestyle so planning can become more realistic.",
+        "image_src": "/assets/images/heroes/brazil/brazil-florianopolis-praia-brava-cost.webp",
+        "image_alt": "Hero image for the Cost page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/insights/general/",
-        "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
-      },
-      {
-        "href": "/brazil/brazil/",
-        "title": "Brazil",
-        "description": "Informational context on brazil in Brazil for relocation, compliance, and practical planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

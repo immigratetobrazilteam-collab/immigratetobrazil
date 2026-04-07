@@ -3,117 +3,33 @@
   "lang": "en",
   "bodyClass": "site-root page-home family-foundation style-home",
   "meta": {
-    "themeColor": "#52B788",
-    "description": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
+    "themeColor": "#2E2E2E",
+    "description": "Visa, residency, citizenship, and relocation guidance in Brazil, led by a licensed Brazilian attorney and OAB-registered lawyer with English and Portuguese support.",
     "robots": "index,follow",
     "title": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
-    "preloadImage": "/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp"
+    "preloadImage": "/assets/images/sections/home/section-01-immigration-pathways-overview/home-section-01-immigration-pathways-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
-    "ogDescription": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
-    "ogImageAlt": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "ogDescription": "Visa, residency, citizenship, and relocation guidance in Brazil, led by a licensed Brazilian attorney and OAB-registered lawyer with English and Portuguese support.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/home/section-01-immigration-pathways-overview/home-section-01-immigration-pathways-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Home page showing Teatro Amazonas in Manaus at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
-    "twitterDescription": "Home page introducing immigration pathways, advisory boundaries, consultation flow, and cross-linked route families. Covers immigration pathways overview, co…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
-    "twitterImageAlt": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+    "twitterDescription": "Visa, residency, citizenship, and relocation guidance in Brazil, led by a licensed Brazilian attorney and OAB-registered lawyer with English and Portuguese support.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/home/section-01-immigration-pathways-overview/home-section-01-immigration-pathways-overview-sunrise-amazonas-manaus-northern-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Home page showing Teatro Amazonas in Manaus at sunrise in Brazil."
   },
   "runtime": {
     "pageTitle": "Home",
     "pageFamily": "foundation"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "@id": "https://immigratetobrazil.com#website",
-      "url": "https://immigratetobrazil.com",
-      "name": "Immigrate to Brazil",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://immigratetobrazil.com/legal/search/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://immigratetobrazil.com#localbusiness",
-      "name": "Immigrate to Brazil",
-      "areaServed": "Brazil",
-      "telephone": "+55 43 99132-4028",
-      "email": "immigratetobrazilteam@gmail.com",
-      "url": "https://immigratetobrazil.com"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How do I know which Immigrate to Brazil service fits my situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You do not need to know the exact route before you contact us. We help clients understand what they are trying to solve, what options may fit, and what the most useful next step should be."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kinds of clients does Immigrate to Brazil usually help?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We support international clients including remote workers, families, investors, retirees, students, skilled professionals, and people dealing with Brazil-related cross-border decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I contact Immigrate to Brazil before I have everything figured out?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients get in touch at the stage where they are still comparing options, worrying about timing, or trying to avoid a costly wrong turn. Early clarity is often part of the value."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Immigrate to Brazil only help with legal questions?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Some clients need legal guidance, while others need broader support with relocation planning, coordination, translation accuracy, or understanding how different parts of the move connect."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. From there, the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully based on your situation."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com#hero-image",
-      "name": "Home hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
-      "description": "SEO hero image for the Home page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil immigration and relocation planning.",
-      "caption": "Hero image for the Home page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
-      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Home, Brazil immigration and relocation planning, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/foundation/brazil-rio-de-janeiro-sugarloaf-mountain-home.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [],
     "sidebar": {
       "brand": {
-        "note": "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning."
+        "note": "Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning. Attorney Monique Fernandes and Immigration Lawyer Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
         "lead": "immigration pathways overview for first-time Brazil immigration planning.",
@@ -126,7 +42,7 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
@@ -134,53 +50,49 @@
         "note": "Representation and filing strategy remain case-specific and follow review of the record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
         "href": "/process/consultation/",
         "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       },
       {
         "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
         "href": "/about/lawyer/",
         "title": "Lawyer",
-        "description": "Public professional profile of the named attorney reference used on this site."
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/about/",
+        "title": "About",
+        "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       }
     ]
   }

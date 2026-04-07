@@ -3,113 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-about-story family-about style-about",
   "meta": {
-    "themeColor": "#6F4E8C",
-    "description": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
+    "themeColor": "#2E2E2E",
+    "description": "This page traces how Monique Fernandes built an immigration practice centered on clarity, dignity, and better guidance for people building a future in Brazil.",
     "robots": "index,follow",
-    "title": "Story | Immigrate to Brazil | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp"
+    "title": "Monique Fernandes Story | Brazil Immigration Attorney | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/about/story/section-01-overview/story-section-01-overview-rock-formations-parks-serra-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Story | Immigrate to Brazil | Immigrate to Brazil",
-    "ogDescription": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
-    "ogImageAlt": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil.",
+    "ogTitle": "Monique Fernandes Story | Brazil Immigration Attorney | Immigrate to Brazil",
+    "ogDescription": "This page traces how Monique Fernandes built an immigration practice centered on clarity, dignity, and better guidance for people building a future in Brazil.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/about/story/section-01-overview/story-section-01-overview-rock-formations-parks-serra-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Story page showing Serra da Capivara in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Story | Immigrate to Brazil | Immigrate to Brazil",
-    "twitterDescription": "Contextual overview of story within the Immigrate to Brazil platform. Covers origin of the practice, development timeline, expansion of services, practical d…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
-    "twitterImageAlt": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil."
+    "twitterTitle": "Monique Fernandes Story | Brazil Immigration Attorney | Immigrate to Brazil",
+    "twitterDescription": "This page traces how Monique Fernandes built an immigration practice centered on clarity, dignity, and better guidance for people building a future in Brazil.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/about/story/section-01-overview/story-section-01-overview-rock-formations-parks-serra-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Story page showing Serra da Capivara in Brazil."
   },
   "runtime": {
     "pageTitle": "Story",
     "pageFamily": "about"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Story",
-          "item": "https://immigratetobrazil.com/about/story/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does this page show about why Immigrate to Brazil exists?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "This page is meant to help you understand how Immigrate to Brazil approaches why Immigrate to Brazil exists, what kind of support philosophy sits behind it, and why that matters for clients who want clearer guidance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I contact Immigrate to Brazil even if I am still unsure what I need?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients reach out while they are still trying to understand their situation, compare options, or decide what kind of support makes the most sense."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this page replace case-specific guidance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. These pages help you understand how we work and what we value, but real next steps still depend on your facts, timing, and goals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of clients is this usually relevant for?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is usually relevant for international clients who want clear English communication, practical support, and a more trustworthy way to approach Brazil-related decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I send an enquiry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step depends on your situation. That may mean consultation, clarification, or guidance on what should happen first."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/about/story/#hero-image",
-      "name": "Story hero image featuring Historic waterfront of Paraty",
-      "description": "SEO hero image for the Story page on Immigrate to Brazil, showing Paraty's colonial waterfront and supporting content about a Brazil immigration law practice.",
-      "caption": "Hero image for the Story page showing Paraty's colonial waterfront in southeast Brazil.",
-      "keywords": "Paraty, Rio de Janeiro state, colonial waterfront, Brazil heritage, southeast Brazil, Paraty's colonial waterfront, Story, a Brazil immigration law practice, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/about/brazil-paraty-historic-waterfront-story.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
       },
       {
         "label": "Story",
@@ -118,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Professional identity, standards, and client communication are presented with the restraint expected of an OAB-registered practice."
+        "note": "This page traces how Monique Fernandes built an immigration practice centered on clarity, dignity, and better guidance for people building a future in Brazil."
       },
       "nextStep": {
-        "lead": "origin of the practice in practical client terms.",
+        "lead": "If Attorney Monique Fernandes' story and approach feel right for your situation, consultation is the best next step. Use WhatsApp if you want quick help deciding how to begin.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, timing, and the legal facts of the matter."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/about/profile/",
-        "title": "Profile",
-        "description": "Contextual overview of profile within the Immigrate to Brazil platform."
+        "href": "/about/",
+        "title": "About",
+        "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
         "href": "/about/about/",
-        "title": "About",
-        "description": "Contextual overview of about within the Immigrate to Brazil platform."
+        "title": "About Monique Fernandes",
+        "description": "Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/mission/",
+        "title": "Mission",
+        "description": "Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care.",
+        "image_src": "/assets/images/heroes/about/brazil-manaus-teatro-amazonas-mission.webp",
+        "image_alt": "Hero image for the Mission page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/about/results/",
+        "title": "Results",
+        "description": "Monique Fernandes defines results through clarity, preparation, stronger legal positioning, and better-managed immigration progress, not through unrealistic guarantees.",
+        "image_src": "/assets/images/heroes/about/brazil-rio-de-janeiro-sugarloaf-mountain-results.webp",
+        "image_alt": "Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/about/stories/",
+        "title": "Stories",
+        "description": "Examples of the client situations Immigration Attorney Monique Fernandes most often helps with across Brazil visas, residency, family routes, and long-term immigration planning.",
+        "image_src": "/assets/images/heroes/about/brazil-salvador-pelourinho-bahia-stories.webp",
+        "image_alt": "Hero image for the Stories page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/about/testimonials/",
+        "title": "Testimonials",
+        "description": "Public reviews show how clients describe Monique Fernandes' clarity, professionalism, responsiveness, and support across Brazil-related legal matters.",
+        "image_src": "/assets/images/heroes/about/brazil-ouro-preto-historic-center-testimonials.webp",
+        "image_alt": "Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
       }
     ]
   }

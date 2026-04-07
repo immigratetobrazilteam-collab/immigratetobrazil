@@ -3,110 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-services-defense family-services style-service-hub",
   "meta": {
-    "themeColor": "#2D6A4F",
-    "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes uses defense services to help clients stabilize urgent or exposed Brazil immigration matters with more structure and calmer next steps.",
     "robots": "index,follow",
     "title": "Defense | Brazil Immigration Services | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp"
+    "preloadImage": "/assets/images/sections/services/defense/section-01-overview/defense-section-01-overview-sunrise-negro-palace-manaus-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Defense | Brazil Immigration Services | Immigrate to Brazil",
-    "ogDescription": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
-    "ogImageAlt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "ogDescription": "Monique Fernandes uses defense services to help clients stabilize urgent or exposed Brazil immigration matters with more structure and calmer next steps.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/services/defense/section-01-overview/defense-section-01-overview-sunrise-negro-palace-manaus-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Defense page showing Rio Negro Palace in Manaus at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Defense | Brazil Immigration Services | Immigrate to Brazil",
-    "twitterDescription": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities. Covers enforcement-situa…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
-    "twitterImageAlt": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil."
+    "twitterDescription": "Monique Fernandes uses defense services to help clients stabilize urgent or exposed Brazil immigration matters with more structure and calmer next steps.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/services/defense/section-01-overview/defense-section-01-overview-sunrise-negro-palace-manaus-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Defense page showing Rio Negro Palace in Manaus at sunrise in Brazil."
   },
   "runtime": {
     "pageTitle": "Defense",
     "pageFamily": "services"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://immigratetobrazil.com/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Defense",
-          "item": "https://immigratetobrazil.com/services/defense/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Defense | Immigrate to Brazil",
-      "serviceType": "Defense",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/services/defense/",
-      "description": "Service-centered overview of enforcement situations, response planning, documentary strategy, and representation before authorities."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me understand which defense and urgent-matter support option fits my situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The first step is usually to understand your goals, timing, and current position so the right direction becomes clearer before you commit to a path in defense and urgent-matter support."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of support does Immigrate to Brazil provide for defense and urgent-matter support matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand options, reduce confusion, prepare next steps, and coordinate the right kind of support around defense and urgent-matter support in a calmer and more organized way."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil about defense and urgent-matter support support?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. From there, the next step may be clarifying details, recommending a consultation, or guiding you toward the most useful action based on your situation and the defense and urgent-matter support issue you are facing."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/services/defense/#hero-image",
-      "name": "Defense hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Defense page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil immigration services.",
-      "caption": "Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Defense, Brazil immigration services, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-brasilia-national-congress-defense.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -124,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended."
+        "note": "Monique Fernandes uses defense services to help clients stabilize urgent or exposed Brazil immigration matters with more structure and calmer next steps. Her approach focuses on clear explanation, practical next steps, and attorney-led support in English and Portuguese."
       },
       "nextStep": {
-        "lead": "enforcement-situation analysis in terms of route fit, supporting records, and next steps.",
+        "lead": "If more than one service feels relevant, a consultation can help clarify fit, timing, and the strongest next step.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -137,61 +55,83 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://www.oab.org.br/",
-        "title": "Ordem dos Advogados do Brasil",
-        "description": "Institutional source for professional regulation, ethics, and legal profession standards in Brazil."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/services/defense/appeals/",
+        "title": "Appeals",
+        "description": "Appeals requires calmer judgment under pressure. We explain when urgency is real, how we stabilize the situation, what records usually matter first, and where legal structure becomes essential.",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-appeals.webp",
+        "image_alt": "Hero image for the Appeals page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/services/defense/deportation/",
+        "title": "Deportation",
+        "description": "Deportation defense requires calmer judgment under pressure. We explain when urgency is real, how we stabilize the situation, what records usually matter first, and where legal structure becomes essential.",
+        "image_src": "/assets/images/heroes/services/brazil-rio-de-janeiro-sugarloaf-mountain-deportation.webp",
+        "image_alt": "Hero image for the Deportation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/services/defense/expulsion/",
+        "title": "Expulsion",
+        "description": "Expulsion defense requires calmer judgment under pressure. We explain when urgency is real, how we stabilize the situation, what records usually matter first, and where legal structure becomes essential.",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-expulsion.webp",
+        "image_alt": "Hero image for the Expulsion page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/services/defense/extradition/",
+        "title": "Extradition",
+        "description": "Extradition-related defense requires calmer judgment under pressure. We explain when urgency is real, how we stabilize the situation, what records usually matter first, and where legal structure becomes essential.",
+        "image_src": "/assets/images/heroes/services/brazil-sao-paulo-skyline-extradition.webp",
+        "image_alt": "Hero image for the Extradition page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/defense/fines/",
+        "title": "Fines",
+        "description": "Immigration fines defense requires calmer judgment under pressure. We explain when urgency is real, how we stabilize the situation, what records usually matter first, and where legal structure becomes essential.",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-fines.webp",
+        "image_alt": "Hero image for the Fines page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

@@ -1,0 +1,91 @@
+<div aria-label="Acessibilidade e controlos linguísticos" class="utility-bar" role="navigation">
+<div class="container-fluid container-xxl utility-row py-2">
+<div class="utility-left d-flex align-items-center gap-2">
+<button aria-controls="a11y-panel" aria-expanded="false" class="btn btn-sm btn-outline-gold utility-button" id="a11y-toggle" type="button">
+<i aria-hidden="true" class="fas fa-universal-access me-2"></i>
+<span data-i18n="utility.accessibility">Acessibilidade</span>
+</button>
+</div>
+<div class="utility-center">
+<a aria-label="Monique Fernandes home" class="utility-brand" href="/pt/">
+<span class="utility-brand-icon utility-brand-icon-left"><picture><source srcset="/assets/img/logo/brazil-immigration-expert-monique-30.webp 1x, /assets/img/logo/brazil-immigration-expert-monique-60.webp 2x" type="image/webp"/><img alt="Monique Fernandes brasão de lei logotipo esquerda emblema" class="utility-brand-icon-img" decoding="async" height="30" src="/assets/img/logo/brazil-immigration-expert-monique.jpg" width="30"/></picture></span>
+<span class="utility-brand-copy">
+<span class="utility-brand-name">MONIQUE FERNANDES</span>
+<span class="utility-brand-subtitle" data-i18n="brand.tagline">Procuradora Brasileira de Clientes Internacionais</span>
+</span>
+<span class="utility-brand-icon utility-brand-icon-right"><picture><source srcset="/assets/img/logo/brazil-immigration-expert-monique-30.webp 1x, /assets/img/logo/brazil-immigration-expert-monique-60.webp 2x" type="image/webp"/><img alt="Monique Fernandes brasão direito logotipo emblema" class="utility-brand-icon-img" decoding="async" height="30" src="/assets/img/logo/brazil-immigration-expert-monique.jpg" width="30"/></picture></span>
+</a>
+</div>
+<div class="utility-right">
+<nav aria-label="Comutador de idiomas" class="language-switcher">
+<a aria-label="Mudar o idioma para o inglês" class="utility-lang-link" data-i18n="lang.en" data-locale="en" href="/pt/" hreflang="en" lang="en">EN</a>
+<a aria-label="Mudar a língua para o português" class="utility-lang-link" data-i18n="lang.pt" data-locale="pt" href="/pt/" hreflang="pt" lang="pt">PT</a>
+<a aria-label="Mudar o idioma para o espanhol" class="utility-lang-link" data-i18n="lang.es" data-locale="es" href="/pt/" hreflang="es" lang="es">ES</a>
+<a aria-label="Mudar a língua para o francês" class="utility-lang-link" data-i18n="lang.fr" data-locale="fr" href="/pt/" hreflang="fr" lang="fr">FR</a>
+</nav>
+</div>
+</div>
+<div class="utility-panel" hidden="" id="a11y-panel">
+<div class="container-fluid container-xxl py-3">
+<div class="row g-3">
+<div class="col-12 col-md-4 col-lg-3">
+<div class="form-check form-switch">
+<input class="form-check-input" id="a11y-dyslexia" type="checkbox"/>
+<label class="form-check-label" data-i18n="a11y.dyslexia" for="a11y-dyslexia">Leitura amigável à dislexia</label>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<div class="form-check form-switch">
+<input class="form-check-input" id="a11y-autism" type="checkbox"/>
+<label class="form-check-label" data-i18n="a11y.autism" for="a11y-autism">Baixo estímulo favorável ao autismo</label>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<div class="form-check form-switch">
+<input class="form-check-input" id="a11y-blind" type="checkbox"/>
+<label class="form-check-label" data-i18n="a11y.blind" for="a11y-blind">Foco do leitor cego/televisão</label>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<div class="form-check form-switch">
+<input class="form-check-input" id="a11y-high-contrast" type="checkbox"/>
+<label class="form-check-label" data-i18n="a11y.contrast" for="a11y-high-contrast">Alto contraste</label>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<div class="form-check form-switch">
+<input class="form-check-input" id="a11y-grayscale" type="checkbox"/>
+<label class="form-check-label" data-i18n="a11y.grayscale" for="a11y-grayscale">Modo de escala de cinza</label>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<label class="form-label mb-1" data-i18n="a11y.color_profile" for="a11y-color-profile">Perfil de cor-cego</label>
+<select class="form-select form-select-sm" id="a11y-color-profile">
+<option data-i18n="a11y.default" value="none">Padrão</option>
+<option data-i18n="a11y.protanopia" value="protanopia">Amparado pela Protanopia</option>
+<option data-i18n="a11y.deuteranopia" value="deuteranopia">Deuteranopia-amigável</option>
+<option data-i18n="a11y.tritanopia" value="tritanopia">Amigável à tritanopia</option>
+</select>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<label class="form-label mb-1" data-i18n="a11y.text_size">Tamanho do texto</label>
+<div aria-label="Controlos de tamanho de texto" class="btn-group w-100" role="group">
+<button class="btn btn-sm btn-outline-gold" data-font-scale="95" type="button">A-</button>
+<button class="btn btn-sm btn-outline-gold" data-font-scale="100" type="button">A</button>
+<button class="btn btn-sm btn-outline-gold" data-font-scale="115" type="button">A+</button>
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-3">
+<label class="form-label mb-1 d-block" data-i18n="a11y.theme">Modo de tema</label>
+<div aria-label="Controlos de temas" class="btn-group" role="group">
+<button class="btn btn-sm btn-outline-gold" data-i18n="a11y.theme_dark" data-theme-mode="dark" type="button">Escuro</button>
+<button class="btn btn-sm btn-outline-gold" data-i18n="a11y.theme_light" data-theme-mode="light" type="button">Luz</button>
+</div>
+</div>
+<div class="col-12 col-lg-3 d-flex align-items-end">
+<button class="btn btn-sm btn-gold w-100" data-i18n="a11y.reset" id="a11y-reset" type="button">Reiniciar as configurações de acessibilidade</button>
+</div>
+</div>
+</div>
+</div>
+</div>

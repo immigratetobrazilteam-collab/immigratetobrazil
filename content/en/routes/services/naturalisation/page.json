@@ -3,110 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-services-naturalisation family-services style-service-hub",
   "meta": {
-    "themeColor": "#2D6A4F",
-    "description": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps.",
     "robots": "index,follow",
     "title": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp"
+    "preloadImage": "/assets/images/sections/services/naturalisation/section-01-overview/naturalisation-section-01-overview-coastline-rosa-santa-catarina-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
     "ogTitle": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
-    "ogDescription": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
-    "ogImageAlt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
+    "ogDescription": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/services/naturalisation/section-01-overview/naturalisation-section-01-overview-coastline-rosa-santa-catarina-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Naturalisation page showing Praia do Rosa in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Naturalisation | Brazil Immigration Services | Immigrate to Brazil",
-    "twitterDescription": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support. Covers citizens…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
-    "twitterImageAlt": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+    "twitterDescription": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/services/naturalisation/section-01-overview/naturalisation-section-01-overview-coastline-rosa-santa-catarina-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Naturalisation page showing Praia do Rosa in Brazil."
   },
   "runtime": {
     "pageTitle": "Naturalisation",
     "pageFamily": "services"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://immigratetobrazil.com/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Naturalisation",
-          "item": "https://immigratetobrazil.com/services/naturalisation/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Naturalisation | Immigrate to Brazil",
-      "serviceType": "Naturalisation",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/services/naturalisation/",
-      "description": "Service-centered overview of citizenship categories, residence-history review, documentary preparation, and authority-facing process support."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me understand which naturalisation and citizenship planning option fits my situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The first step is usually to understand your goals, timing, and current position so the right direction becomes clearer before you commit to a path in naturalisation and citizenship planning."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of support does Immigrate to Brazil provide for naturalisation and citizenship planning matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand options, reduce confusion, prepare next steps, and coordinate the right kind of support around naturalisation and citizenship planning in a calmer and more organized way."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil about naturalisation and citizenship planning support?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually. From there, the next step may be clarifying details, recommending a consultation, or guiding you toward the most useful action based on your situation and the naturalisation and citizenship planning issue you are facing."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/services/naturalisation/#hero-image",
-      "name": "Naturalisation hero image featuring Pelourinho in Salvador",
-      "description": "SEO hero image for the Naturalisation page on Immigrate to Brazil, showing Pelourinho in Salvador, Bahia and supporting content about Brazil immigration services.",
-      "caption": "Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil.",
-      "keywords": "Salvador, Pelourinho, Bahia, historic center, northeast Brazil, Pelourinho in Salvador, Bahia, Naturalisation, Brazil immigration services, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-naturalisation.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -124,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Route selection, record quality, filing sequence, and authority control are reviewed before the next legal step is recommended."
+        "note": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps. Her approach focuses on clear explanation, practical next steps, and attorney-led support in English and Portuguese."
       },
       "nextStep": {
-        "lead": "citizenship eligibility in terms of route fit, supporting records, and next steps.",
+        "lead": "If more than one citizenship route feels relevant, a consultation can help clarify fit, timing, and the strongest next step.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -137,61 +55,83 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
     "officialResources": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
+        "href": "https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13445.htm",
+        "title": "Lei de Migracao - Lei 13.445/2017",
+        "description": "Official public reference for lei de migracao - lei 13.445/2017."
       },
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
+        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9199.htm",
+        "title": "Decreto 9.199/2017",
+        "description": "Official public reference for decreto 9.199/2017."
       },
       {
-        "href": "https://www.gov.br/pt-br/servicos/solicitar-naturalizacao",
-        "title": "Naturalisation service information",
-        "description": "Federal public service page describing the naturalisation request channel and core requirements."
+        "href": "https://www.gov.br/pf/pt-br/assuntos/carta-de-servicos/migracao",
+        "title": "Policia Federal - Migracao",
+        "description": "Official public reference for policia federal - migracao."
       },
       {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
+        "href": "https://www.gov.br/mre/pt-br",
+        "title": "Ministerio das Relacoes Exteriores",
+        "description": "Official public reference for ministerio das relacoes exteriores."
+      },
+      {
+        "href": "https://www.gov.br/mj",
+        "title": "Ministerio da Justica e Seguranca Publica",
+        "description": "Official justice and public-security portal with federal institutional references."
       }
     ],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
         "href": "/services/",
         "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/services/naturalisation/ordinary/",
+        "title": "Ordinary Naturalisation",
+        "description": "Ordinary naturalisation should be read through continuity, records, timing, and long-range legal planning rather than hope alone. We explain how we approach that work at Immigrate to Brazil and what usually changes once the path is reviewed properly.",
+        "image_src": "/assets/images/heroes/services/brazil-porto-alegre-skyline-ordinary.webp",
+        "image_alt": "Hero image for the Ordinary Naturalisation page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/services/naturalisation/extraordinary/",
+        "title": "Extraordinary Naturalisation",
+        "description": "Extraordinary naturalisation should be read through continuity, records, timing, and long-range legal planning rather than hope alone. We explain how we approach that work at Immigrate to Brazil and what usually changes once the path is reviewed properly.",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-extraordinary.webp",
+        "image_alt": "Hero image for the Extraordinary Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/naturalisation/special/",
+        "title": "Special Naturalisation",
+        "description": "Special naturalisation should be read through continuity, records, timing, and long-range legal planning rather than hope alone. We explain how we approach that work at Immigrate to Brazil and what usually changes once the path is reviewed properly.",
+        "image_src": "/assets/images/heroes/services/brazil-sao-paulo-skyline-special.webp",
+        "image_alt": "Hero image for the Special Naturalisation page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/naturalisation/reacquisition/",
+        "title": "Reacquisition Naturalisation",
+        "description": "Reacquisition of brazilian nationality should be read through continuity, records, timing, and long-range legal planning rather than hope alone. We explain how we approach that work at Immigrate to Brazil and what usually changes once the path is reviewed properly.",
+        "image_src": "/assets/images/heroes/services/brazil-curitiba-skyline-reacquisition.webp",
+        "image_alt": "Hero image for the Reacquisition Naturalisation page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/services/naturalisation/renunciation/",
+        "title": "Renunciation Naturalisation",
+        "description": "Renunciation of brazilian nationality should be read through continuity, records, timing, and long-range legal planning rather than hope alone. We explain how we approach that work at Immigrate to Brazil and what usually changes once the path is reviewed properly.",
+        "image_src": "/assets/images/heroes/services/brazil-brasilia-national-congress-renunciation.webp",
+        "image_alt": "Hero image for the Renunciation Naturalisation page showing the National Congress complex in Brasilia in central-west Brazil."
       }
     ]
   }

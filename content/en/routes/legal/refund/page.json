@@ -1,110 +1,30 @@
 {
   "route": "/legal/refund/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-refund family-legal style-legal",
+  "bodyClass": "site-root page-legal-refund family-legal style-refund",
   "meta": {
-    "themeColor": "#1B4332",
-    "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
+    "themeColor": "#2E2E2E",
+    "description": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
     "robots": "index,follow",
-    "title": "Refund | Legal Information | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp"
+    "title": "Refund Policy | Monique Fernandes | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/legal/refund/section-01-general-principle/refund-policy-section-01-general-principle-cabo-branco-seafront-joao-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Refund | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
-    "ogImageAlt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "ogTitle": "Refund Policy | Monique Fernandes | Immigrate to Brazil",
+    "ogDescription": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/legal/refund/section-01-general-principle/refund-policy-section-01-general-principle-cabo-branco-seafront-joao-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Refund Policy page showing Cabo Branco in Joao Pessoa in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Refund | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries. Covers refund conditions, non-refundable stages, timing an…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
-    "twitterImageAlt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+    "twitterTitle": "Refund Policy | Monique Fernandes | Immigrate to Brazil",
+    "twitterDescription": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/legal/refund/section-01-general-principle/refund-policy-section-01-general-principle-cabo-branco-seafront-joao-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Refund Policy page showing Cabo Branco in Joao Pessoa in Brazil."
   },
   "runtime": {
-    "pageTitle": "Refund",
+    "pageTitle": "Refund Policy",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Refund",
-          "item": "https://immigratetobrazil.com/legal/refund/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When should I ask about refund rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You should ask before proceeding if anything about payment boundaries, cancellation, or service stages feels unclear."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Immigrate to Brazil explain payment boundaries before work begins?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "That is the goal. Clients should understand how payment and refund boundaries work before they commit, not only after a problem arises."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I ask questions about refund terms before paying?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If you need clarity first, ask. Clear expectations are part of a safer and more professional service relationship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are refund requests handled?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Requests are handled through a review of the specific payment and service stage involved, rather than through assumptions or informal promises."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where should I contact the team about a refund or payment concern?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Use the contact details provided for the site or the relevant payment-related page so the issue can be reviewed properly."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/refund/#hero-image",
-      "name": "Refund hero image featuring Rio de Janeiro skyline from Sugarloaf Mountain",
-      "description": "SEO hero image for the Refund page on Immigrate to Brazil, showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay and supporting content about Brazil legal information.",
-      "caption": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
-      "keywords": "Rio de Janeiro, Sugarloaf Mountain, Guanabara Bay, Brazil skyline, southeast Brazil, Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay, Refund, Brazil legal information, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -112,16 +32,20 @@
         "href": "/"
       },
       {
-        "label": "Refund",
+        "label": "Legal",
+        "href": "/legal/"
+      },
+      {
+        "label": "Refund Policy",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Refund questions should be handled with the same clarity as the service itself. Monique Fernandes reviews refunds according to the stage of work, time reserved, and the actual facts of the request."
       },
       "nextStep": {
-        "lead": "refund conditions in direct, operational terms.",
+        "lead": "Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
-      },
-      {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
-      },
-      {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/legal/payment/",
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/disclaimer/",
+        "title": "Disclaimer & Legal Notice",
+        "description": "This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+        "image_alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
       },
       {
         "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "title": "Form & Intake Policy",
+        "description": "This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

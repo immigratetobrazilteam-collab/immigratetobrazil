@@ -3,108 +3,28 @@
   "lang": "en",
   "bodyClass": "site-root page-legal-payment family-legal style-payment",
   "meta": {
-    "themeColor": "#1B4332",
-    "description": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
+    "themeColor": "#2E2E2E",
+    "description": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
     "robots": "index,follow",
-    "title": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp"
+    "title": "Payment Terms | Monique Fernandes | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/legal/payment/section-01-pricing-model/payment-terms-section-01-pricing-model-meeting-negro-solimoes-near-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
-    "ogDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
-    "ogImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "ogTitle": "Payment Terms | Monique Fernandes | Immigrate to Brazil",
+    "ogDescription": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/legal/payment/section-01-pricing-model/payment-terms-section-01-pricing-model-meeting-negro-solimoes-near-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Payment Terms page showing Meeting of the Waters in Manaus in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Payment | Consultation Payment and Confirmation | Immigrate to Brazil",
-    "twitterDescription": "Accepted payment methods, proof requirements, confirmation steps, and the 36-hour scheduling rule for consultations and agreed services.",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
-    "twitterImageAlt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
+    "twitterTitle": "Payment Terms | Monique Fernandes | Immigrate to Brazil",
+    "twitterDescription": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/legal/payment/section-01-pricing-model/payment-terms-section-01-pricing-model-meeting-negro-solimoes-near-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Payment Terms page showing Meeting of the Waters in Manaus in Brazil."
   },
   "runtime": {
-    "pageTitle": "Payment",
+    "pageTitle": "Payment Terms",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Payment",
-          "item": "https://immigratetobrazil.com/legal/payment/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which payment methods does Immigrate to Brazil accept?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Consultations and agreed services may be paid through PIX, PayPal, Payoneer, Wise, direct bank transfer, Bitcoin, or USDT. Some methods require current written details before payment is sent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does Immigrate to Brazil treat a consultation as confirmed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A consultation is only confirmed after payment has been verified, matched to the enquiry, and confirmed manually in writing. Payment alone is not treated as a confirmed booking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What proof should I send after paying Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Send a clear screenshot, receipt, or transfer record showing the amount, date, sender, and any reference that helps identify the payment. Clear proof allows faster confirmation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I arrange bank transfer, Bitcoin, or USDT with Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, but those methods should be arranged first. Use only current written details shared directly for your payment, not outdated screenshots or forwarded wallet information."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if my timing is urgent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Contact the team before paying if your timing is urgent. The 36-hour scheduling rule still applies, and it is better to confirm what is realistic before sending funds."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/payment/#hero-image",
-      "name": "Payment hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Payment page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
-      "caption": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Payment, Brazil legal information, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -112,16 +32,20 @@
         "href": "/"
       },
       {
-        "label": "Payment",
+        "label": "Legal",
+        "href": "/legal/"
+      },
+      {
+        "label": "Payment Terms",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Payments are handled with written confirmation, traceable records, and clear scheduling rules so clients know exactly where they stand."
+        "note": "Monique Fernandes wants payment to be clear, verified, and tied to the correct stage of service so clients understand what they are paying for and when work begins."
       },
       "nextStep": {
-        "lead": "Use an accepted payment method, send clear proof, and wait for written confirmation before treating the appointment as booked.",
+        "lead": "Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "If timing, method, or payment details are unclear, contact the team before sending funds."
+        "note": "Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
-      },
-      {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
-      },
-      {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
+        "href": "/legal/refund/",
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
         "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "title": "Form & Intake Policy",
+        "description": "This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
-      },
-      {
-        "href": "/legal/refund/",
-        "title": "Refund",
-        "description": "Refund framework tied to staged work, consultation completion, and explicit engagement boundaries."
-      },
-      {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

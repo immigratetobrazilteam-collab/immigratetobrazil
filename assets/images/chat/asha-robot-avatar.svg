@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Asha robot avatar</title>
+  <desc id="desc">A feminine robot guide with long wavy copper-red hair, green eyes, and warm metallic facial details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10261d" />
+      <stop offset="50%" stop-color="#18362b" />
+      <stop offset="100%" stop-color="#5b2c22" />
+    </linearGradient>
+    <linearGradient id="halo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4d9b2" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#cf7b46" stop-opacity="0.25" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffbc84" />
+      <stop offset="18%" stop-color="#ef7e4d" />
+      <stop offset="52%" stop-color="#b5382a" />
+      <stop offset="100%" stop-color="#5e1d1c" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbe8da" />
+      <stop offset="100%" stop-color="#e6baa2" />
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d8d2" />
+      <stop offset="100%" stop-color="#6f8e86" />
+    </linearGradient>
+    <linearGradient id="chassis" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a4031" />
+      <stop offset="100%" stop-color="#0b1d17" />
+    </linearGradient>
+    <radialGradient id="visor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d7fff0" />
+      <stop offset="60%" stop-color="#74c69d" />
+      <stop offset="100%" stop-color="#1f7b60" />
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="120" fill="url(#bg)" />
+  <circle cx="256" cy="238" r="190" fill="url(#halo)" opacity="0.34" />
+
+  <g opacity="0.95">
+    <path d="M100 248c4-86 69-154 147-166-36 42-48 86-42 134-23 11-44 32-58 60-17 32-21 69-20 106-31-35-31-84-27-134Z" fill="url(#hair)" />
+    <path d="M412 248c-4-86-69-154-147-166 36 42 48 86 42 134 23 11 44 32 58 60 17 32 21 69 20 106 31-35 31-84 27-134Z" fill="url(#hair)" />
+    <path d="M138 185c26-73 90-121 118-121s92 48 118 121c-11 12-20 25-26 40-20-20-50-33-92-33s-72 13-92 33c-6-15-15-28-26-40Z" fill="url(#hair)" />
+  </g>
+
+  <g>
+    <path d="M185 292c0-60 32-105 71-116 39-11 71 7 71 7s32-18 71-7c39 11 71 56 71 116v72H185Z" fill="url(#chassis)" opacity="0.96" />
+    <path d="M161 420c18-57 52-92 95-105 43 13 77 48 95 105H161Z" fill="#102a20" />
+    <path d="M180 409c24-39 49-61 76-61s52 22 76 61" fill="none" stroke="#2d6a4f" stroke-width="16" stroke-linecap="round" />
+  </g>
+
+  <g>
+    <path d="M256 101c-70 0-126 56-126 126 0 72 57 136 126 136s126-64 126-136c0-70-56-126-126-126Z" fill="url(#skin)" />
+    <path d="M256 111c-63 0-114 52-114 116 0 29 10 56 27 79 14-27 37-48 68-59 10-4 17-14 17-25v-4h4v4c0 11 7 21 17 25 31 11 54 32 68 59 17-23 27-50 27-79 0-64-51-116-114-116Z" fill="url(#skin)" opacity="0.82" />
+  </g>
+
+  <g>
+    <path d="M172 191c26-55 65-78 84-92-6 29 2 55 22 79-25-4-49 2-67 16-10 8-19 18-28 29-4-10-7-21-11-32Z" fill="url(#hair)" />
+    <path d="M340 191c-26-55-65-78-84-92 6 29-2 55-22 79 25-4 49 2 67 16 10 8 19 18 28 29 4-10 7-21 11-32Z" fill="url(#hair)" />
+    <path d="M178 228c-9 23-11 52-4 77 13 48 42 73 82 78-42 8-89-13-112-53-21-37-18-81 8-118 9 5 18 10 26 16Z" fill="url(#hair)" opacity="0.9" />
+    <path d="M334 228c9 23 11 52 4 77-13 48-42 73-82 78 42 8 89-13 112-53 21-37 18-81-8-118-9 5-18 10-26 16Z" fill="url(#hair)" opacity="0.9" />
+  </g>
+
+  <g>
+    <path d="M170 248c8-33 35-58 65-58h42c30 0 57 25 65 58-10 12-28 19-42 16l-17-4c-18-4-36-4-54 0l-17 4c-14 3-32-4-42-16Z" fill="#f2cfba" />
+    <path d="M188 244c15 0 27-12 27-27 0-5-1-10-4-14-19 10-33 29-38 51 4-6 10-10 15-10Z" fill="#edc4ad" />
+    <path d="M324 244c-15 0-27-12-27-27 0-5 1-10 4-14 19 10 33 29 38 51-4-6-10-10-15-10Z" fill="#edc4ad" />
+  </g>
+
+  <g filter="url(#glow)">
+    <ellipse cx="217" cy="231" rx="32" ry="22" fill="#11281f" opacity="0.72" />
+    <ellipse cx="295" cy="231" rx="32" ry="22" fill="#11281f" opacity="0.72" />
+    <ellipse cx="217" cy="231" rx="24" ry="16" fill="url(#visor)" />
+    <ellipse cx="295" cy="231" rx="24" ry="16" fill="url(#visor)" />
+    <circle cx="210" cy="228" r="7" fill="#f5fff9" opacity="0.95" />
+    <circle cx="288" cy="228" r="7" fill="#f5fff9" opacity="0.95" />
+  </g>
+
+  <g>
+    <path d="M188 207c14-14 31-20 50-18" fill="none" stroke="#7a3128" stroke-width="10" stroke-linecap="round" />
+    <path d="M324 207c-14-14-31-20-50-18" fill="none" stroke="#7a3128" stroke-width="10" stroke-linecap="round" />
+    <path d="M211 284c14 11 39 17 45 17s31-6 45-17" fill="none" stroke="#6a2d2b" stroke-width="10" stroke-linecap="round" />
+    <path d="M224 315c10 9 20 14 32 14s22-5 32-14" fill="none" stroke="#c85d4d" stroke-width="8" stroke-linecap="round" />
+  </g>
+
+  <g>
+    <path d="M256 165v188" fill="none" stroke="url(#metal)" stroke-width="8" stroke-linecap="round" />
+    <path d="M209 199c11 9 19 12 30 12s19-3 30-12" fill="none" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" />
+    <path d="M243 274c-5 10-16 15-33 16" fill="none" stroke="url(#metal)" stroke-width="6" stroke-linecap="round" />
+    <path d="M269 274c5 10 16 15 33 16" fill="none" stroke="url(#metal)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="256" cy="186" r="10" fill="#133326" stroke="#bfd5ce" stroke-width="5" />
+    <circle cx="256" cy="186" r="4" fill="#74c69d" />
+    <rect x="241" y="337" width="30" height="46" rx="14" fill="#0e261d" stroke="#c7d8d2" stroke-width="6" />
+    <circle cx="256" cy="360" r="6" fill="#74c69d" />
+  </g>
+
+  <g opacity="0.82">
+    <path d="M154 148c25-18 48-28 70-31-31 22-51 50-60 85-12-15-18-33-10-54Z" fill="#ffb27e" />
+    <path d="M358 148c-25-18-48-28-70-31 31 22 51 50 60 85 12-15 18-33 10-54Z" fill="#ffb27e" />
+  </g>
+
+  <g opacity="0.28">
+    <circle cx="104" cy="104" r="34" fill="#f7e8c6" />
+    <circle cx="420" cy="130" r="26" fill="#74c69d" />
+    <circle cx="403" cy="398" r="40" fill="#ebc87e" />
+  </g>
+</svg>

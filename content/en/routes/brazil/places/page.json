@@ -1,0 +1,112 @@
+{
+  "route": "/brazil/places/",
+  "lang": "en",
+  "bodyClass": "site-root page-brazil-places family-brazil style-brazil",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.",
+    "robots": "index,follow",
+    "title": "Places | Brazil Guidance | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/brazil/places/section-01-overview/places-section-01-overview-iguazu-iguacu-southern-economy-brazil-bg-primary.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Places | Brazil Guidance | Immigrate to Brazil",
+    "ogDescription": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/brazil/places/section-01-overview/places-section-01-overview-iguazu-iguacu-southern-economy-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Places page showing Iguazu Falls on the Brazilian side in Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Places | Brazil Guidance | Immigrate to Brazil",
+    "twitterDescription": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/brazil/places/section-01-overview/places-section-01-overview-iguazu-iguacu-southern-economy-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Places page showing Iguazu Falls on the Brazilian side in Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Places",
+    "pageFamily": "brazil"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Brazil",
+        "href": "/brazil/"
+      },
+      {
+        "label": "Places",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
+      },
+      "nextStep": {
+        "lead": "Open the region, state, city, or municipality page that most closely matches your shortlist, and contact us when place choice now needs to be read together with immigration route, daily routine, or long-term planning.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/brazil/north/",
+        "title": "North",
+        "description": "North Brazil has its own geography, logistics, climate, and urban rhythm. We explain what makes the region distinctive for readers considering travel, living, or investment.",
+        "image_src": "/assets/images/heroes/brazil/brazil-manaus-teatro-amazonas-north.webp",
+        "image_alt": "Hero image for the North page showing Teatro Amazonas in Manaus in northern Brazil."
+      },
+      {
+        "href": "/brazil/northeast/",
+        "title": "Northeast",
+        "description": "Northeast Brazil brings together strong regional identity, major coastal capitals, tourism, and very different realities between one city and another.",
+        "image_src": "/assets/images/heroes/brazil/brazil-lencois-maranhenses-northeast.webp",
+        "image_alt": "Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/brazil/central-west/",
+        "title": "Central-West",
+        "description": "Central-West Brazil combines the federal capital, agribusiness influence, interior geography, and a pace of life that often surprises readers who imagine Brazil only through the coast.",
+        "image_src": "/assets/images/heroes/brazil/brazil-pantanal-wetlands-central-west.webp",
+        "image_alt": "Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil."
+      },
+      {
+        "href": "/brazil/southeast/",
+        "title": "Southeast",
+        "description": "Southeast Brazil concentrates business, infrastructure, and some of the country’s most diverse urban experiences. It is often the entry point for foreigners, but never a single reality.",
+        "image_src": "/assets/images/heroes/brazil/brazil-rio-de-janeiro-sugarloaf-mountain-southeast.webp",
+        "image_alt": "Hero image for the Southeast page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/brazil/south/",
+        "title": "South",
+        "description": "South Brazil is often associated with cooler weather, mid-sized city life, and a different rhythm from tropical stereotypes. We explain what that means in practical terms.",
+        "image_src": "/assets/images/heroes/brazil/brazil-porto-alegre-skyline-south.webp",
+        "image_alt": "Hero image for the South page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/brazil/states/",
+        "title": "States",
+        "description": "State-level comparison helps readers move from country-wide fascination to more realistic shortlists. State identity affects services, culture, administration, and how cities are experienced.",
+        "image_src": "/assets/images/heroes/brazil/brazil-brasilia-national-congress-states.webp",
+        "image_alt": "Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil."
+      }
+    ]
+  }
+}

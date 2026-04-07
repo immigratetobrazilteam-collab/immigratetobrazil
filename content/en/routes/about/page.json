@@ -1,0 +1,108 @@
+{
+  "route": "/about/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-hub family-about style-about",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+    "robots": "index,follow",
+    "title": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/about/section-01-overview/about-section-01-overview-cliffs-valleys-chapada-guimaraes-brazil-bg-primary.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "ogDescription": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/about/section-01-overview/about-section-01-overview-cliffs-valleys-chapada-guimaraes-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the About page showing Chapada dos Guimaraes in Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "twitterDescription": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/about/section-01-overview/about-section-01-overview-cliffs-valleys-chapada-guimaraes-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the About page showing Chapada dos Guimaraes in Brazil."
+  },
+  "runtime": {
+    "pageTitle": "About",
+    "pageFamily": "about"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking."
+      },
+      "nextStep": {
+        "lead": "Use consultation if you want Monique Fernandes to review your route, chronology, and documentation strategy. Use WhatsApp if you need quick guidance on whether consultation is the right next step.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/about/profile/",
+        "title": "Profile",
+        "description": "A professional profile of Monique Fernandes, including how her immigration practice is structured and what clients can expect from attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-brasilia-national-congress-profile.webp",
+        "image_alt": "Hero image for the Profile page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/about/about/",
+        "title": "About Monique Fernandes",
+        "description": "Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Lawyer",
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/about/whyus/",
+        "title": "Why Work With Monique",
+        "description": "Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-whyus.webp",
+        "image_alt": "Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/services/visas/",
+        "title": "Visas",
+        "description": "Use this hub when the main question is entry, consular preparation, or short-to-medium-term route fit. Visa pages help readers understand purpose, sequence, documents, and the logic behind each category.",
+        "image_src": "/assets/images/heroes/services/brazil-salvador-pelourinho-bahia-visas.webp",
+        "image_alt": "Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      }
+    ]
+  }
+}

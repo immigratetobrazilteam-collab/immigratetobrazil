@@ -3,119 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-insights-blog family-insights style-insight",
   "meta": {
-    "themeColor": "#CD6C28",
-    "description": "Editorial-style guidance page covering blog in the Brazilian immigration context. Covers publication hub, recurring immigration themes, subject organization,…",
+    "themeColor": "#2E2E2E",
+    "description": "Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.",
     "robots": "index,follow",
     "title": "Blog | Immigration Insights | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp"
+    "preloadImage": "/assets/images/sections/insights/blog/section-01-overview/blog-section-01-overview-cliffs-shore-morro-branco-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "article",
     "ogTitle": "Blog | Immigration Insights | Immigrate to Brazil",
-    "ogDescription": "Editorial-style guidance page covering blog in the Brazilian immigration context. Covers publication hub, recurring immigration themes, subject organization,…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
-    "ogImageAlt": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil.",
+    "ogDescription": "Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/insights/blog/section-01-overview/blog-section-01-overview-cliffs-shore-morro-branco-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Blog page showing Cliffs of Morro Branco in Brazil.",
     "twitterCard": "summary_large_image",
     "twitterTitle": "Blog | Immigration Insights | Immigrate to Brazil",
-    "twitterDescription": "Editorial-style guidance page covering blog in the Brazilian immigration context. Covers publication hub, recurring immigration themes, subject organization,…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
-    "twitterImageAlt": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil."
+    "twitterDescription": "Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/insights/blog/section-01-overview/blog-section-01-overview-cliffs-shore-morro-branco-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Blog page showing Cliffs of Morro Branco in Brazil."
   },
   "runtime": {
     "pageTitle": "Blog",
     "pageFamily": "insights"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Blog",
-          "item": "https://immigratetobrazil.com/insights/blog/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Blog",
-      "description": "Editorial-style guidance page covering blog in the Brazilian immigration context.",
-      "author": {
-        "@type": "Organization",
-        "name": "Immigrate to Brazil"
-      },
-      "publisher": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "mainEntityOfPage": "https://immigratetobrazil.com/insights/blog/"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me apply practical Brazil guidance to my own situation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. These pages give general orientation, but we can help connect practical Brazil guidance to your actual plans, risks, timing, and next steps."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need a consultation if I am still only researching practical Brazil guidance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not always. But if practical Brazil guidance is affecting a real decision, a consultation can help you stop guessing and understand what actually matters in your case."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help me compare practical Brazil guidance with other options?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many clients are not choosing between one obvious path and no path; they are choosing between several possibilities. We help make that comparison clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually and the next step depends on what you are trying to decide. That may mean clarification, consultation, or guidance on what to review first around practical Brazil guidance."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/insights/blog/#hero-image",
-      "name": "Blog hero image featuring Teatro Amazonas in Manaus",
-      "description": "SEO hero image for the Blog page on Immigrate to Brazil, showing Teatro Amazonas in Manaus and supporting content about Brazil immigration insights.",
-      "caption": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil.",
-      "keywords": "Manaus, Teatro Amazonas, Amazonas, historic theater, northern Brazil, Teatro Amazonas in Manaus, Blog, Brazil immigration insights, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
       },
       {
         "label": "Blog",
@@ -124,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Plain-English immigration explanations are provided so research can become a clearer and more informed next step."
+        "note": "Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
       },
       "nextStep": {
-        "lead": "publication hub in practical client terms.",
+        "lead": "If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -137,61 +55,50 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
+        "href": "/insights/",
+        "title": "Insights",
+        "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/insights/updates/",
+        "title": "Updates",
+        "description": "Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.",
+        "image_src": "/assets/images/heroes/insights/brazil-rio-de-janeiro-sugarloaf-mountain-updates.webp",
+        "image_alt": "Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "href": "/insights/guides/",
+        "title": "Guides",
+        "description": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
+        "image_src": "/assets/images/heroes/insights/brazil-ouro-preto-historic-center-guides.webp",
+        "image_alt": "Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil."
       },
       {
         "href": "/insights/general/",
         "title": "General",
-        "description": "Editorial-style guidance page covering general in the Brazilian immigration context."
+        "description": "Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
       },
       {
-        "href": "/insights/visa/",
-        "title": "Visa",
-        "description": "Editorial-style guidance page covering visa in the Brazilian immigration context."
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

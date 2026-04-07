@@ -76,8 +76,23 @@
   }
 
   function shortenPageMapLabel(label) {
-    const words = label.split(' ');
-    return words[0] || label;
+    const words = label
+      .replace(/[/:|()[\],]+/g, " ")
+      .split(" ")
+      .filter(Boolean);
+    const leadingStopWords = new Set(["a", "an", "and", "for", "how", "of", "or", "the", "what", "when", "where", "which", "who", "why"]);
+    let start = 0;
+
+    while (start < words.length - 1 && leadingStopWords.has(words[start].toLowerCase())) start += 1;
+
+    return words.slice(start, Math.min(words.length, start + 3)).join(" ") || label;
+  }
+
+  function getPageMapEntryLabel(section) {
+    const kicker = normalizePageMapText(findPageMapKicker(section)?.textContent || "");
+    if (isUsablePageMapKicker(kicker)) return kicker;
+    const heading = findPageMapHeading(section);
+    return shortenPageMapLabel(normalizePageMapText(heading?.textContent || ""));
   }
 
   function slugifyPageMapLabel(label) {
@@ -97,6 +112,17 @@
   }
 
   /* Only direct section headings inside content should appear in quick navigation. */
+  function findPageMapKicker(section) {
+    return [...section.querySelectorAll(".section-kicker")].find((kicker) => kicker.closest("section") === section) || null;
+  }
+
+  function isUsablePageMapKicker(kicker) {
+    if (!kicker) return false;
+    if (/\d/.test(kicker)) return false;
+    if (/^(section|step|part|chapter)\b/i.test(kicker)) return false;
+    return kicker.split(" ").filter(Boolean).length <= 3;
+  }
+
   function findPageMapHeading(section) {
     return [...section.querySelectorAll("h2")].find((heading) => heading.closest("section") === section) || null;
   }
@@ -105,13 +131,22 @@
     if (!(section instanceof HTMLElement)) return false;
     if (section.closest(".sidebar-column, .sidebar-card, .page-map")) return false;
     if (section.matches(".page-map, .site-disclaimer")) return false;
+    if (section.matches(".highlight-block, .search-results-shell, .faq-block, .lead-form-block, .related-block")) return false;
+    if (section.id && ["hub-menu", "about-menu", "legal-notices-menu", "site-search", "faq", "consultation-form"].includes(section.id)) return false;
     if (section.hidden || section.getAttribute("aria-hidden") === "true") return false;
     const heading = findPageMapHeading(section);
     const label = normalizePageMapText(heading?.textContent || "");
     if (!label) return false;
-    // Exclude specific sections that appear weird
-    if (label.toLowerCase().includes("official resources") || label.toLowerCase().includes("see also")) return false;
     return true;
+  }
+
+  function findPageMapSections(main) {
+    const contentColumn = main.querySelector(".content-column");
+    if (!contentColumn) return [];
+
+    return [...contentColumn.children].filter(
+      (node) => node instanceof HTMLElement && node.tagName === "SECTION" && isEligiblePageMapSection(node)
+    );
   }
 
   function createPageMapIdState(root) {
@@ -154,31 +189,19 @@
     if (!main || !mapCard) return;
 
     const state = createPageMapIdState(document);
-    let hasPrimaryForm = false;
-    const entries = [...main.querySelectorAll("section")]
-      .filter(isEligiblePageMapSection)
+    const entries = findPageMapSections(main)
       .flatMap((section) => {
-        if (section.matches(".lead-form-block")) {
-          if (hasPrimaryForm) return [];
-          hasPrimaryForm = true;
-        }
         const heading = findPageMapHeading(section);
-        const label = normalizePageMapText(heading?.textContent || "");
+        const headingText = normalizePageMapText(heading?.textContent || "");
+        const label = getPageMapEntryLabel(section);
         if (!label) return [];
-        return [{ id: ensurePageMapSectionId(section, label, state), label: shortenPageMapLabel(label) }];
+        return [{ id: ensurePageMapSectionId(section, headingText || label, state), label }];
       });
 
     if (!entries.length) {
       mapCard.hidden = true;
       return;
     }
-
-    // Add manual entries for partials
-    entries.push({ id: 'official-resources', label: 'Official' });
-    entries.push({ id: 'testimonials', label: 'See' });
-    entries.push({ id: 'newsletter-signup', label: 'Updates' });
-    entries.push({ id: 'social-sharing', label: 'Share' });
-    entries.push({ id: 'disclaimer', label: 'Disclaimer' });
 
     const copy = getPageMapLocaleCopy();
     mapCard.hidden = false;
@@ -225,6 +248,37 @@
       window.addEventListener("resize", updateStickyMetrics);
       resizeFallbackBound = true;
     }
+  }
+
+  function normalizeRoute(route) {
+    let normalized = String(route || "").trim();
+    if (!normalized) return "/";
+
+    try {
+      normalized = new URL(normalized, window.location.origin).pathname || normalized;
+    } catch (error) {
+      // Leave relative paths untouched when URL parsing is not needed.
+    }
+
+    normalized = normalized.replace(/\/index\.html?$/i, "/");
+    normalized = normalized.replace(/\/{2,}/g, "/");
+    if (!normalized.startsWith("/")) normalized = `/${normalized}`;
+    if (normalized !== "/" && !/\.[a-z0-9]+$/i.test(normalized) && !normalized.endsWith("/")) normalized += "/";
+    return normalized || "/";
+  }
+
+  /* Exact-route activation keeps the centered Home link accurate across partial-driven pages. */
+  function initActiveRouteState() {
+    const currentRoute = normalizeRoute(getConfig().pageRoute || window.location.pathname);
+
+    document.querySelectorAll("[data-itb-route]").forEach((node) => {
+      const targetRoute = normalizeRoute(node.getAttribute("data-itb-route"));
+      const isActive = targetRoute === currentRoute;
+      node.classList.toggle("is-active", isActive);
+
+      if (isActive) node.setAttribute("aria-current", "page");
+      else if (node.getAttribute("aria-current") === "page") node.removeAttribute("aria-current");
+    });
   }
 
   /* ==========================================================================
@@ -291,12 +345,14 @@
         if (window.innerWidth < 1200) return;
         event.preventDefault();
         const open = dropdown.classList.contains("show");
-        closeDropdowns(dropdown);
-        if (!open) {
-          dropdown.classList.add("show");
-          menu.classList.add("show");
-          toggle.setAttribute("aria-expanded", "true");
+        if (open) {
+          closeDropdowns();
+          return;
         }
+        closeDropdowns(dropdown);
+        dropdown.classList.add("show");
+        menu.classList.add("show");
+        toggle.setAttribute("aria-expanded", "true");
       });
       toggle.dataset.itbBoundDropdown = "true";
     });
@@ -438,6 +494,16 @@
   function initBackToTop() {
     const body = document.body;
     const button = document.querySelector("[data-back-to-top='true']");
+    let progressBar = document.querySelector("[data-scroll-progress='true']");
+
+    if (!progressBar) {
+      progressBar = document.createElement("div");
+      progressBar.className = "scroll-progress";
+      progressBar.setAttribute("data-scroll-progress", "true");
+      progressBar.setAttribute("aria-hidden", "true");
+      document.body.appendChild(progressBar);
+    }
+
     if (button && button.dataset.itbBoundBackToTop !== "true") {
       button.addEventListener("click", () => {
         window.scrollTo({ top: 0, behavior: body.classList.contains("reduced-motion") ? "auto" : "smooth" });
@@ -447,8 +513,13 @@
 
     function onScroll() {
       const liveButton = document.querySelector("[data-back-to-top='true']");
+      const showThreshold = Math.max(200, Math.min(360, Math.round(window.innerHeight * 0.35)));
+      const scrollableHeight = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+      const scrollRatio = Math.max(0, Math.min(1, window.scrollY / scrollableHeight));
       body.classList.toggle("is-scrolled", window.scrollY > 16);
-      liveButton?.classList.toggle("is-visible", window.scrollY > 420);
+      liveButton?.classList.toggle("is-visible", window.scrollY > showThreshold);
+      progressBar?.style.setProperty("--scroll-progress", scrollRatio.toFixed(4));
+      progressBar?.classList.toggle("is-active", scrollRatio > 0.01);
     }
 
     if (!scrollBound) {
@@ -528,6 +599,7 @@
    * ========================================================================== */
   function initSite() {
     initStickyMetrics();
+    initActiveRouteState();
     initNav();
     initAccordion();
     initConsentAndTracking();

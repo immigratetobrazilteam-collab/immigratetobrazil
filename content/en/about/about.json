@@ -12,6 +12,11 @@
     "favicons": [
       {
         "rel": "icon",
+        "href": "/assets/favicons/favicon.ico",
+        "sizes": "any"
+      },
+      {
+        "rel": "icon",
         "href": "/assets/favicons/favicon-32x32.png",
         "sizes": "32x32",
         "type": "image/png"
@@ -24,7 +29,8 @@
       },
       {
         "rel": "apple-touch-icon",
-        "href": "/assets/favicons/apple-touch-icon.png"
+        "href": "/assets/favicons/apple-touch-icon.png",
+        "sizes": "180x180"
       },
       {
         "rel": "manifest",
@@ -49,11 +55,11 @@
       "@id": "https://immigratetobrazil.com#organization",
       "name": "Immigrate to Brazil",
       "url": "https://immigratetobrazil.com",
-      "email": "immigratetobrazilteam@gmail.com",
-      "telephone": "+55 43 99132-4028",
-      "logo": "https://immigratetobrazil.com/assets/logo/immigrate-to-brazil-logo.png",
+      "email": "moniquefadv@gmail.com",
+      "telephone": "+55 43 9961-4034",
+      "logo": "https://immigratetobrazil.com/assets/logo/logo.png",
       "sameAs": [
-        "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!"
+        "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0"
       ]
     },
     "contactPoint": {
@@ -61,8 +67,8 @@
       "@type": "ContactPoint",
       "@id": "https://immigratetobrazil.com#contactpoint",
       "contactType": "customer support",
-      "email": "immigratetobrazilteam@gmail.com",
-      "telephone": "+55 43 99132-4028",
+      "email": "moniquefadv@gmail.com",
+      "telephone": "+55 43 9961-4034",
       "availableLanguage": [
         "English",
         "Portuguese"
@@ -87,19 +93,16 @@
         "Bitcoin",
         "USDT"
       ],
-      "paymentReceiverEmail": "immigratetobrazilteam@gmail.com"
+      "paymentReceiverEmail": "moniquefadv@gmail.com"
     },
     "contact": {
-      "email": "immigratetobrazilteam@gmail.com",
-      "phone": "+55 43 99132-4028",
-      "whatsappUrl": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!"
+      "email": "moniquefadv@gmail.com",
+      "phone": "+55 43 9961-4034",
+      "whatsappUrl": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0"
     },
     "accessibility": {
       "dyslexiaFont": "\"OpenDyslexic\",\"Atkinson Hyperlegible\",\"Trebuchet MS\",sans-serif",
-      "themeColors": {
-        "light": "#52B788",
-        "dark": "#081C15"
-      }
+      "themeColors": {"light": "#F9F6F1", "dark": "#2E2E2E"}
     }
   }
 }

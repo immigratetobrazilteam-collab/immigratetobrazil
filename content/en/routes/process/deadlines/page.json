@@ -3,125 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-process-deadlines family-process style-process",
   "meta": {
-    "themeColor": "#C7953C",
-    "description": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.",
     "robots": "index,follow",
-    "title": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp"
+    "title": "Deadlines With Monique Fernandes | Brazil Immigration Process",
+    "preloadImage": "/assets/images/sections/process/deadlines/section-01-overview/deadlines-section-01-overview-forests-waters-meeting-manaus-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
-    "ogImageAlt": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "ogTitle": "Deadlines With Monique Fernandes | Brazil Immigration Process",
+    "ogDescription": "Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/process/deadlines/section-01-overview/deadlines-section-01-overview-forests-waters-meeting-manaus-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Deadlines page showing Meeting of the Waters in Manaus forests and waters in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Deadlines | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning. Covers legal time limits, administrative deadlines, filing win…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
-    "twitterImageAlt": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil."
+    "twitterTitle": "Deadlines With Monique Fernandes | Brazil Immigration Process",
+    "twitterDescription": "Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/process/deadlines/section-01-overview/deadlines-section-01-overview-forests-waters-meeting-manaus-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Deadlines page showing Meeting of the Waters in Manaus forests and waters in Brazil."
   },
   "runtime": {
     "pageTitle": "Deadlines",
     "pageFamily": "process"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Deadlines",
-          "item": "https://immigratetobrazil.com/process/deadlines/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Deadlines | Immigrate to Brazil",
-      "serviceType": "Deadlines",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/process/deadlines/",
-      "description": "Process guidance on deadlines within Brazilian immigration procedures and compliance planning."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How can Immigrate to Brazil help at deadline planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand what deadline planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need everything ready before getting help with deadline planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around deadline planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at deadline planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with deadline planning."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/process/deadlines/#hero-image",
-      "name": "Deadlines hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Deadlines page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about the Brazil immigration process.",
-      "caption": "Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Deadlines, the Brazil immigration process, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-deadlines.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
       },
       {
         "label": "Deadlines",
@@ -130,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control."
       },
       "nextStep": {
-        "lead": "legal time limits, the current stage, and the next practical check.",
+        "lead": "Work with Monique Fernandes before deadline pressure becomes a bigger problem, especially if your Brazil immigration matter now depends on timing, filing windows, renewals, or response obligations.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -143,61 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/filing/",
+        "title": "Filing",
+        "description": "Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-filing.webp",
+        "image_alt": "Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/process/compliance/",
+        "title": "Compliance",
+        "description": "Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.",
+        "image_src": "/assets/images/heroes/process/brazil-curitiba-skyline-compliance.webp",
+        "image_alt": "Hero image for the Compliance page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/process/aftercare/",
+        "title": "Aftercare",
+        "description": "Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+        "image_alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/failures/",
+        "title": "Failures",
+        "description": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
+        "image_src": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+        "image_alt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil."
+      },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

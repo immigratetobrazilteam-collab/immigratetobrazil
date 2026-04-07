@@ -1,0 +1,119 @@
+{
+  "route": "/rights/responsibilities/",
+  "lang": "en",
+  "bodyClass": "site-root page-rights-responsibilities family-rights style-rights",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself.",
+    "robots": "index,follow",
+    "title": "Responsibilities | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-responsibilities.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Responsibilities | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-responsibilities.webp",
+    "ogImageAlt": "Hero image for the Responsibilities page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Responsibilities | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-responsibilities.webp",
+    "twitterImageAlt": "Hero image for the Responsibilities page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Responsibilities",
+    "pageFamily": "process"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
+      },
+      {
+        "label": "Responsibilities",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
+      },
+      "nextStep": {
+        "lead": "If responsibilities is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/rights/transparency/",
+        "title": "Transparency",
+        "description": "Transparency matters because immigration work becomes unstable when scope, timing, risk, and responsibility are left vague. We explain how clearer communication protects the process on both sides.",
+        "image_src": "/assets/images/heroes/process/brazil-sao-paulo-skyline-transparency.webp",
+        "image_alt": "Hero image for the Transparency page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/process/fees/",
+        "title": "Fees",
+        "description": "Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-fees.webp",
+        "image_alt": "Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/rights/refund/",
+        "title": "Refund",
+        "description": "Refund questions need clarity, not guesswork. We explain how stage-based work, fairness, timing, and review logic fit together when a refund request is made.",
+        "image_src": "/assets/images/heroes/process/brazil-curitiba-skyline-refund.webp",
+        "image_alt": "Hero image for the Refund page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/rights/",
+        "title": "Rights",
+        "description": "Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life.",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-rights.webp",
+        "image_alt": "Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      }
+    ]
+  }
+}

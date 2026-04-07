@@ -34,21 +34,99 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-03-20-shared-disclaimer-v1";
+  const PARTIAL_VERSION = "2026-04-02-asha-chat-whatsapp-refresh-v1";
+  const URL_ATTRS = ["href", "src", "action", "poster"];
+  const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
 
   /* ==========================================================================
    * 03. Locale and Route Helpers
    * ========================================================================== */
+  function getCanonicalPath() {
+    const canonical = document.querySelector("link[rel='canonical']")?.getAttribute("href");
+    if (!canonical) return null;
+    try {
+      return new URL(canonical).pathname || "/";
+    } catch {
+      return null;
+    }
+  }
+
+  function normalizeSitePath(pathname) {
+    if (!pathname) return "/";
+    let clean = String(pathname).trim();
+    if (!clean) return "/";
+    clean = clean.replace(/\/index\.html$/i, "/");
+    if (!clean.startsWith("/")) clean = `/${clean}`;
+    if (!clean.endsWith("/") && !/\.[a-z0-9]+$/i.test(clean)) clean = `${clean}/`;
+    return clean;
+  }
+
+  function getSitePath() {
+    return normalizeSitePath(getCanonicalPath() || window.location.pathname || "/");
+  }
+
+  function getRootPrefix() {
+    const parts = getSitePath().replace(/^\/|\/$/g, "").split("/").filter(Boolean);
+    return parts.length ? "../".repeat(parts.length) : "./";
+  }
+
   function getLocale() {
-    return window.location.pathname.startsWith("/pt-br/") ? "pt-br" : "en";
+    const path = getSitePath();
+    return path === "/pt-br/" || path.startsWith("/pt-br/") ? "pt-br" : "en";
+  }
+
+  function resolveSiteUrl(value) {
+    if (!value) return value;
+    const raw = String(value);
+    if (ABSOLUTE_URL_RE.test(raw)) return raw;
+    if (!raw.startsWith("/")) return raw;
+    return `${getRootPrefix()}${raw.replace(/^\/+/, "")}`;
+  }
+
+  function resolveStyleUrls(value) {
+    return String(value).replace(/url\((['"]?)\/([^'")]+)\1\)/g, (_match, quote, path) => {
+      const wrappedQuote = quote || "";
+      return `url(${wrappedQuote}${resolveSiteUrl(`/${path}`)}${wrappedQuote})`;
+    });
+  }
+
+  function rewriteSrcset(value) {
+    return value
+      .split(",")
+      .map((entry) => {
+        const trimmed = entry.trim();
+        if (!trimmed) return trimmed;
+        const [url, descriptor] = trimmed.split(/\s+/, 2);
+        if (!url?.startsWith("/")) return trimmed;
+        return [resolveSiteUrl(url), descriptor].filter(Boolean).join(" ");
+      })
+      .join(", ");
+  }
+
+  function rewriteNodeUrls(root) {
+    if (!root?.querySelectorAll) return;
+    root.querySelectorAll("*").forEach((node) => {
+      URL_ATTRS.forEach((attr) => {
+        const value = node.getAttribute(attr);
+        if (!value?.startsWith("/")) return;
+        if (attr === "href" || attr === "action") node.setAttribute("data-itb-route", value);
+        node.setAttribute(attr, resolveSiteUrl(value));
+      });
+
+      const srcset = node.getAttribute("srcset");
+      if (srcset?.includes("/")) node.setAttribute("srcset", rewriteSrcset(srcset));
+
+      const style = node.getAttribute("style");
+      if (style?.includes("url(")) node.setAttribute("style", resolveStyleUrls(style));
+    });
   }
 
   function buildLanguageRoutes() {
-    const path = window.location.pathname;
-    const isPt = path.startsWith("/pt-br/");
+    const path = getSitePath();
+    const isPt = path === "/pt-br/" || path.startsWith("/pt-br/");
     return {
-      en: isPt ? path.replace(/^\/pt-br/, "") || "/" : path,
-      pt: isPt ? path : `/pt-br${path === "/" ? "/" : path}`
+      en: isPt ? normalizeSitePath(path.replace(/^\/pt-br/, "") || "/") : path,
+      pt: isPt ? path : normalizeSitePath(`/pt-br${path === "/" ? "/" : path}`)
     };
   }
 
@@ -65,7 +143,12 @@
   }
 
   function renderActionAttributes(action) {
-    const attrs = [`class="${escapeHtml(action.className || "btn btn-secondary btn-sm")}"`, `href="${escapeHtml(action.href || "#")}"`];
+    const href = resolveSiteUrl(action.href || "#");
+    const attrs = [
+      `class="${escapeHtml(action.className || "btn btn-secondary btn-sm")}"`,
+      `href="${escapeHtml(href)}"`
+    ];
+    if ((action.href || "").startsWith("/")) attrs.push(`data-itb-route="${escapeHtml(action.href)}"`);
     if (action.track === "cta") attrs.push('data-cta-click="true"');
     if (action.track === "whatsapp") attrs.push('data-whatsapp-click="true"');
     return attrs.join(" ");
@@ -85,7 +168,7 @@
     list.innerHTML = items
       .map((item) => {
         if (item.href && !item.current) {
-          return `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a></li>`;
+          return `<li><a href="${escapeHtml(resolveSiteUrl(item.href))}" data-itb-route="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a></li>`;
         }
         return `<li aria-current="page">${escapeHtml(item.label)}</li>`;
       })
@@ -116,7 +199,7 @@
         lead: "Immigration Consultation",
         actions: [
           { className: "btn btn-cta btn-sm", href: "/start-consultation/", label: "Start Consultation", track: "cta" },
-          { className: "btn btn-secondary btn-sm", href: "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!", label: "WhatsApp", track: "whatsapp" }
+          { className: "btn btn-secondary btn-sm", href: "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0", label: "WhatsApp", track: "whatsapp" }
         ],
         note: "Your pathway to Brazil."
       };
@@ -177,12 +260,21 @@
 
     grid.innerHTML = cards
       .map(
-        (card) => `<a class="related-card" href="${escapeHtml(card.href)}">
+        (card) => `<a class="related-card" href="${escapeHtml(resolveSiteUrl(card.href))}" data-itb-route="${escapeHtml(card.href)}">
+            ${card.image_src ? `<img class="related-card__media" src="${escapeHtml(card.image_src)}" alt="${escapeHtml(card.image_alt || card.title)}" loading="lazy" decoding="async" />` : ""}
             <strong>${escapeHtml(card.title)}</strong>
             <span>${escapeHtml(card.description)}</span>
           </a>`
       )
       .join("");
+  }
+
+  function createLanguageLink(route, label, lang, isActive) {
+    const currentAttr = isActive ? ' aria-current="page"' : "";
+    const activeClass = isActive ? " active" : "";
+    return `<a class="lang-link${activeClass}" data-language-toggle="${escapeHtml(lang)}" data-itb-route="${escapeHtml(route)}" href="${escapeHtml(
+      resolveSiteUrl(route)
+    )}" lang="${escapeHtml(lang)}" hreflang="${escapeHtml(lang)}"${currentAttr}>${escapeHtml(label)}</a>`;
   }
 
   /* ==========================================================================
@@ -195,19 +287,19 @@
     const isPt = getLocale() === "pt-br";
     switcher.setAttribute("aria-label", isPt ? "Alternador de idioma" : "Language switcher");
     switcher.innerHTML = isPt
-      ? `<a class="lang-link" data-language-toggle="en" href="${routes.en}" lang="en" hreflang="en">EN</a>
+      ? `${createLanguageLink(routes.en, "EN", "en", false)}
 <span aria-hidden="true">|</span>
-<a class="lang-link active" data-language-toggle="pt-BR" href="${routes.pt}" lang="pt-BR" hreflang="pt-BR" aria-current="page">PT</a>`
-      : `<a class="lang-link active" data-language-toggle="en" href="${routes.en}" lang="en" hreflang="en" aria-current="page">EN</a>
+${createLanguageLink(routes.pt, "PT", "pt-BR", true)}`
+      : `${createLanguageLink(routes.en, "EN", "en", true)}
 <span aria-hidden="true">|</span>
-<a class="lang-link" data-language-toggle="pt-BR" href="${routes.pt}" lang="pt-BR" hreflang="pt-BR">PT</a>`;
+${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
   }
 
-  /* Keeps the home link visually aligned with the current route after injection. */
   function setActiveHomeLink(root) {
-    const currentPath = window.location.pathname;
+    const currentPath = getSitePath();
     root.querySelectorAll(".main-header__home").forEach((link) => {
-      const isActive = link.getAttribute("href") === currentPath;
+      const linkRoute = normalizeSitePath(link.getAttribute("data-itb-route") || "");
+      const isActive = Boolean(linkRoute) && linkRoute === currentPath;
       link.classList.toggle("is-active", isActive);
       if (isActive) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
@@ -223,6 +315,15 @@
     hydrateRelatedLinks(root);
   }
 
+  window.ITB_URLS = window.ITB_URLS || {
+    getSitePath,
+    getLocale,
+    getRootPrefix,
+    normalizeSitePath,
+    resolveSiteUrl,
+    rewriteNodeUrls
+  };
+
   /* ==========================================================================
    * 05. Partial Fetching and Replacement
    * Fetch-and-replace is used instead of nested injection so the DOM shape
@@ -231,7 +332,7 @@
   async function loadPartialNode(node) {
     const name = node.getAttribute("data-partial");
     if (!name || !PARTIAL_NAMES.includes(name)) return;
-    const response = await fetch(`/partials/${getLocale()}/${name}.html?v=${encodeURIComponent(PARTIAL_VERSION)}`, {
+    const response = await fetch(resolveSiteUrl(`/partials/${getLocale()}/${name}.html?v=${encodeURIComponent(PARTIAL_VERSION)}`), {
       credentials: "same-origin",
       cache: "no-store"
     });
@@ -240,8 +341,29 @@
     const template = document.createElement("template");
     template.innerHTML = html.trim();
     const fragment = template.content;
+    rewriteNodeUrls(fragment);
     hydratePartial(fragment);
     node.replaceWith(fragment);
+  }
+
+  function ensureGlobalUtilityPlaceholders() {
+    const body = document.body;
+    if (!body) return;
+
+    const requiredPartials = [
+      { name: "floating-whatsapp", selector: ".floating-whatsapp" },
+      { name: "back-to-top", selector: "[data-back-to-top='true']" },
+      { name: "cookie-banner", selector: "[data-cookie-banner='true']" }
+    ];
+
+    const insertionPoint = body.querySelector("script");
+    requiredPartials.forEach(({ name, selector }) => {
+      if (body.querySelector(`[data-partial="${name}"]`) || body.querySelector(selector)) return;
+      const placeholder = document.createElement("div");
+      placeholder.setAttribute("data-partial", name);
+      if (insertionPoint) body.insertBefore(placeholder, insertionPoint);
+      else body.appendChild(placeholder);
+    });
   }
 
   /* ==========================================================================
@@ -250,11 +372,13 @@
    * injection as well as on pages without any partial placeholders.
    * ========================================================================== */
   async function initPartials() {
+    ensureGlobalUtilityPlaceholders();
     const placeholders = [...document.querySelectorAll("[data-partial]")];
     if (!placeholders.length) {
       window.ITB?.initAccessibility?.();
       window.ITB?.initSite?.();
       window.ITB?.initSearch?.();
+      window.ITB?.initAshaChat?.();
       return;
     }
     for (const node of placeholders) {
@@ -263,6 +387,7 @@
     window.ITB?.initAccessibility?.();
     window.ITB?.initSite?.();
     window.ITB?.initSearch?.();
+    window.ITB?.initAshaChat?.();
   }
 
   /* ==========================================================================

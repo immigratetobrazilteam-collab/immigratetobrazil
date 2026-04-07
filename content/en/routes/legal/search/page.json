@@ -3,67 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-legal-search family-legal style-search",
   "meta": {
-    "themeColor": "#1B4332",
-    "description": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
+    "themeColor": "#2E2E2E",
+    "description": "Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.",
     "robots": "noindex,follow",
-    "title": "Search | Legal Information | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp"
+    "title": "Search | Monique Fernandes | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/legal/search/section-01-overview/search-section-01-overview-natural-emas-goias-cerrado-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Search | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
-    "ogImageAlt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "ogTitle": "Search | Monique Fernandes | Immigrate to Brazil",
+    "ogDescription": "Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/legal/search/section-01-overview/search-section-01-overview-natural-emas-goias-cerrado-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Search page showing Emas National Park wide landscape in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Search | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Functional site-search page for route discovery. Covers search results, practical documentation logic, official-resource orientation, and clear advisory boun…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
-    "twitterImageAlt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
+    "twitterTitle": "Search | Monique Fernandes | Immigrate to Brazil",
+    "twitterDescription": "Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/legal/search/section-01-overview/search-section-01-overview-natural-emas-goias-cerrado-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Search page showing Emas National Park wide landscape in Brazil."
   },
   "runtime": {
     "pageTitle": "Search",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Search",
-          "item": "https://immigratetobrazil.com/legal/search/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/search/#hero-image",
-      "name": "Search hero image featuring National Congress in Brasilia",
-      "description": "SEO hero image for the Search page on Immigrate to Brazil, showing the National Congress complex in Brasilia and supporting content about Brazil legal information.",
-      "caption": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.",
-      "keywords": "Brasilia, National Congress, Brazil capital, Monumental Axis, central-west Brazil, the National Congress complex in Brasilia, Search, Brazil legal information, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Legal",
+        "href": "/legal/"
       },
       {
         "label": "Search",
@@ -72,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Search should reduce friction, not replace legal guidance. Monique Fernandes uses this page to help people reach the right content faster when they already know what they are looking for."
       },
       "nextStep": {
-        "lead": "search results in practical client terms.",
+        "lead": "Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -85,31 +55,58 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law."
       }
     },
-    "officialResources": [
+    "officialResources": [],
+    "relatedLinks": [
       {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
       },
       {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This legal hub explains how Monique Fernandes handles privacy, payments, intake, accessibility, urgent contact, and service boundaries for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
+        "href": "/about/about/",
+        "title": "About Monique Fernandes",
+        "description": "Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.",
+        "image_src": "/assets/images/heroes/about/brazil-sao-paulo-skyline-about-overview.webp",
+        "image_alt": "Hero image for the About page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Lawyer",
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       }
-    ],
-    "relatedLinks": []
+    ]
   }
 }

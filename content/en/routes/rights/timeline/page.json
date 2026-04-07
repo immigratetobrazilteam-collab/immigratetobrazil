@@ -1,0 +1,112 @@
+{
+  "route": "/rights/timeline/",
+  "lang": "en",
+  "bodyClass": "site-root page-rights-timeline family-rights style-rights",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities.",
+    "robots": "index,follow",
+    "title": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+    "ogImageAlt": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Timeline | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-brasilia-national-congress-timeline.webp",
+    "twitterImageAlt": "Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Timeline",
+    "pageFamily": "process"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
+      },
+      {
+        "label": "Timeline",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
+      },
+      "nextStep": {
+        "lead": "If timeline is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/rights/planning/",
+        "title": "Planning",
+        "description": "Planning is where goals, route fit, documents, timing, and life design begin to align. We explain why strong planning changes the whole feel of a Brazil immigration process.",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-planning.webp",
+        "image_alt": "Hero image for the Planning page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/rights/",
+        "title": "Rights",
+        "description": "Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life.",
+        "image_src": "/assets/images/heroes/process/brazil-porto-alegre-skyline-rights.webp",
+        "image_alt": "Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/process/fees/",
+        "title": "Fees",
+        "description": "Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.",
+        "image_src": "/assets/images/heroes/process/brazil-salvador-pelourinho-bahia-fees.webp",
+        "image_alt": "Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      }
+    ]
+  }
+}

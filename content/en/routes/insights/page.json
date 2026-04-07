@@ -1,0 +1,108 @@
+{
+  "route": "/insights/",
+  "lang": "en",
+  "bodyClass": "site-root page-insights family-insights style-insight",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "robots": "index,follow",
+    "title": "Insights | Brazil Insights | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/insights/section-01-overview/insights-section-01-overview-island-village-beaches-morro-brazil-bg-primary.webp"
+  },
+  "social": {
+    "ogType": "article",
+    "ogTitle": "Insights | Brazil Insights | Immigrate to Brazil",
+    "ogDescription": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/insights/section-01-overview/insights-section-01-overview-island-village-beaches-morro-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Insights page showing Morro de Sao Paulo in Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Insights | Brazil Insights | Immigrate to Brazil",
+    "twitterDescription": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/insights/section-01-overview/insights-section-01-overview-island-village-beaches-morro-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Insights page showing Morro de Sao Paulo in Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Insights",
+    "pageFamily": "insights"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Insights",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
+      },
+      "nextStep": {
+        "lead": "Read the article that matches the real question on your mind, and reach out when the answer now depends on your own chronology, route fit, documents, or deadlines.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/insights/general/",
+        "title": "General",
+        "description": "Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-general.webp",
+        "image_alt": "Hero image for the General page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/insights/visa/",
+        "title": "Visa",
+        "description": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
+        "image_src": "/assets/images/heroes/insights/brazil-salvador-pelourinho-bahia-visa.webp",
+        "image_alt": "Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/insights/residency/",
+        "title": "Residency",
+        "description": "Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure.",
+        "image_src": "/assets/images/heroes/insights/brazil-sao-paulo-skyline-residency.webp",
+        "image_alt": "Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/process/naturalisation/",
+        "title": "Naturalisation",
+        "description": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/insights/blog/",
+        "title": "Blog",
+        "description": "Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.",
+        "image_src": "/assets/images/heroes/insights/brazil-manaus-teatro-amazonas-blog.webp",
+        "image_alt": "Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil."
+      }
+    ]
+  }
+}

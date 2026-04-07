@@ -1,0 +1,146 @@
+version: "1.0"
+api:
+  pixabay_key: "53976019-99062c7a900b6b10aae3becf4"
+  per_page: 8
+  orientation: "horizontal"
+  safesearch: true
+  order: "popular"
+  retry_attempts: 3
+  retry_delay_seconds: 2
+  fallback_sources:
+    - "wikimedia"
+global:
+  images_per_section: 2
+  output_root: "assets/brazil"
+  metadata_file: "assets/brazil/image-metadata.json"
+sections:
+  - id: topic-immigration-pathways-overview
+    page: home
+    title: "Immigration Pathways Overview"
+    overlay:
+      color: "rgba(0, 51, 102, 0.45)"
+      style: "dark"
+    queries:
+      en:
+        - "cinematic Brazil immigration pathway skyline"
+        - "Brazil passport visa map cinematic light"
+      pt:
+        - "cinematográfico Brasil caminhos imigração horizonte"
+        - "passaporte visto Brasil mapa cinematográfico"
+  - id: topic-consultation-flow
+    page: home
+    title: "Consultation Flow"
+    overlay:
+      color: "rgba(0, 0, 0, 0.40)"
+      style: "deep-sea"
+    queries:
+      en:
+        - "Brazil immigration consultation advisor desk"
+        - "lawyer consultation plan Brazil cinematic"
+      pt:
+        - "consulta imigração Brasil advogado escritório"
+        - "planejamento consulta imigração Brasil"
+  - id: topic-trust-markers
+    page: home
+    title: "Trust Markers & Credentials"
+    overlay:
+      color: "rgba(20, 20, 20, 0.42)"
+      style: "trust"
+    queries:
+      en:
+        - "trusted professional badge Brazil immigration"
+        - "certificate seal model cinematic Brazil"
+      pt:
+        - "marcadores confiança imigração Brasil"
+        - "certificado selo profissional Brasil"
+  - id: topic-nationwide-online-support
+    page: home
+    title: "Nationwide Online Support"
+    overlay:
+      color: "rgba(0, 70, 80, 0.45)"
+      style: "online"
+    queries:
+      en:
+        - "Brazil remote support online immigration"
+        - "video call help desk Brazil lifestyle"
+      pt:
+        - "suporte online Brasil imigração"
+        - "chamada vídeo assistência Brasil"
+  - id: topic-service-categories
+    page: home
+    title: "Service Categories"
+    overlay:
+      color: "rgba(0, 80, 60, 0.42)"
+      style: "categories"
+    queries:
+      en:
+        - "Brazil service categories immigration visas"
+        - "row of icons service categories Brazil"
+      pt:
+        - "categorias serviços Brasil imigração"
+        - "ícones serviços Brasil"
+  - id: topic-official-resource-orientation
+    page: home
+    title: "Official Resource Orientation"
+    overlay:
+      color: "rgba(32, 30, 90, 0.46)"
+      style: "official"
+    queries:
+      en:
+        - "Brazil government building official immigration"
+        - "Federal Police Brazil paperwork concept"
+      pt:
+        - "governo Brasil edifício oficial"
+        - "PF Brasil documentos imigração"
+  - id: topic-process-and-compliance-framing
+    page: home
+    title: "Process and Compliance Framework"
+    overlay:
+      color: "rgba(45, 45, 45, 0.45)"
+      style: "compliance"
+    queries:
+      en:
+        - "Brazil workflow process planning compliance"
+        - "legal angle Brazil migration compliance"
+      pt:
+        - "processo conformidade Brasil imigração"
+        - "planejamento legal Brasil"
+  - id: section-1-overview
+    page: brazil
+    title: "Brazil Hub Overview"
+    overlay:
+      color: "rgba(3, 105, 80, 0.36)"
+      style: "nature"
+    queries:
+      en:
+        - "Brazil cinematic landscape Rio de Janeiro"
+        - "Amazon rainforest cinematic Brazil aerial"
+      pt:
+        - "paisagem Brasil cinema Rio de Janeiro"
+        - "floresta Amazônica Brasil cinematográfica"
+  - id: section-2-explore-the-main-topics
+    page: brazil
+    title: "Explore the Main Topics"
+    overlay:
+      color: "rgba(63, 81, 181, 0.40)"
+      style: "topic"
+    queries:
+      en:
+        - "Brazil investment economy living cost city"
+        - "Brazil lifestyle map path cinematic"
+      pt:
+        - "investimento economia Brasil custo de vida"
+        - "estilo de vida Brasil mapa cinematográfico"
+  - id: section-3-how-to-use-this-hub
+    page: brazil
+    title: "How To Use This Hub"
+    overlay:
+      color: "rgba(33, 150, 243, 0.38)"
+      style: "guide"
+    queries:
+      en:
+        - "map compass help guide how to use"
+        - "digital hub navigation Brazil"
+      pt:
+        - "guia hub Brasil como usar"
+        - "navegação mapa Brasil"

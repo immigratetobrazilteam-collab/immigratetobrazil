@@ -1,110 +1,30 @@
 {
   "route": "/legal/terms/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-terms family-legal style-legal",
+  "bodyClass": "site-root page-legal-terms family-legal style-terms",
   "meta": {
-    "themeColor": "#1B4332",
-    "description": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
+    "themeColor": "#2E2E2E",
+    "description": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
     "robots": "index,follow",
-    "title": "Terms | Legal Information | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp"
+    "title": "Terms & Conditions | Monique Fernandes | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/legal/terms/section-01-nature-of-service/terms-conditions-section-01-nature-of-service-island-coastline-ilhabela-paulo-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Terms | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
-    "ogImageAlt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil.",
+    "ogTitle": "Terms & Conditions | Monique Fernandes | Immigrate to Brazil",
+    "ogDescription": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/legal/terms/section-01-nature-of-service/terms-conditions-section-01-nature-of-service-island-coastline-ilhabela-paulo-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Terms & Conditions page showing Ilhabela coastline in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Terms | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Terms governing the use of the informational website, contact channels, and public materials. Covers informational-website terms, acceptable use, contact usa…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
-    "twitterImageAlt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+    "twitterTitle": "Terms & Conditions | Monique Fernandes | Immigrate to Brazil",
+    "twitterDescription": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/legal/terms/section-01-nature-of-service/terms-conditions-section-01-nature-of-service-island-coastline-ilhabela-paulo-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Terms & Conditions page showing Ilhabela coastline in Brazil."
   },
   "runtime": {
-    "pageTitle": "Terms",
+    "pageTitle": "Terms & Conditions",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Terms",
-          "item": "https://immigratetobrazil.com/legal/terms/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What should I understand before using the site or contacting Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You should understand that the site provides general information and contact pathways, while case-specific guidance depends on your actual facts and a proper review."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the website create a client relationship by itself?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Reading the site or sending a first message does not by itself create a formal client relationship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I rely on the site instead of case-specific guidance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The site is useful for orientation, but important decisions should be based on your actual situation rather than general public information alone."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Immigrate to Brazil handle third-party services or links?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Third-party services or links may be relevant, but they do not replace direct guidance on your own situation or create control over outside services."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if I need clarification before using a service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Contact the team directly. It is better to clarify expectations early than to proceed on the basis of guesswork."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/terms/#hero-image",
-      "name": "Terms hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the Terms page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about Brazil legal information.",
-      "caption": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Terms, Brazil legal information, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -112,16 +32,20 @@
         "href": "/"
       },
       {
-        "label": "Terms",
+        "label": "Legal",
+        "href": "/legal/"
+      },
+      {
+        "label": "Terms & Conditions",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Monique Fernandes wants clients to understand the difference between using the site, booking a consultation, and entering a formal legal service relationship."
       },
       "nextStep": {
-        "lead": "informational-website terms in direct, operational terms.",
+        "lead": "Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
-      },
-      {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
-      },
-      {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
       {
-        "href": "/start-consultation/",
-        "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
+        "href": "/legal/disclaimer/",
+        "title": "Disclaimer & Legal Notice",
+        "description": "This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-disclaimer.webp",
+        "image_alt": "Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil."
       },
       {
         "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
+        "title": "Payment Terms",
+        "description": "These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-payment.webp",
+        "image_alt": "Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil."
       },
       {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
+        "href": "/legal/refund/",
+        "title": "Refund Policy",
+        "description": "This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-rio-de-janeiro-sugarloaf-mountain-refund.webp",
+        "image_alt": "Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
       },
       {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "href": "/legal/form/",
+        "title": "Form & Intake Policy",
+        "description": "This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-form.webp",
+        "image_alt": "Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/about/lawyer/",
+        "title": "Lawyer",
+        "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+        "image_src": "/assets/images/heroes/about/brazil-porto-alegre-skyline-lawyer.webp",
+        "image_alt": "Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil."
+      },
+      {
+        "href": "/services/advisory/consultation/",
+        "title": "Consultation",
+        "description": "Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.",
+        "image_src": "/assets/images/heroes/services/brazil-florianopolis-praia-brava-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil."
       }
     ]
   }

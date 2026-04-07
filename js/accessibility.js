@@ -10,6 +10,10 @@
   const textScaleStep = 0.1;
   const motionMedia = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
   const themeMedia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+  const defaultThemeColors = {
+    dark: "#2E2E2E",
+    light: "#F9F6F1"
+  };
   let lastFocusedElement = null;
   let pointerBound = false;
   let clickOutsideBound = false;
@@ -150,7 +154,7 @@
     document.documentElement.dataset.theme = theme;
     document.documentElement.style.colorScheme = theme;
 
-    const themeColor = window.ITB_SITE?.accessibility?.themeColors?.[theme];
+    const themeColor = window.ITB_SITE?.accessibility?.themeColors?.[theme] || defaultThemeColors[theme];
     if (themeColor) document.querySelector('meta[name="theme-color"]')?.setAttribute("content", themeColor);
 
     document.documentElement.style.setProperty("--text-scale", String(state.textScale));

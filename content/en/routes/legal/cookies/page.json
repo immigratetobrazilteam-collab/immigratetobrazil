@@ -1,110 +1,30 @@
 {
   "route": "/legal/cookies/",
   "lang": "en",
-  "bodyClass": "site-root page-legal-cookies family-legal style-legal",
+  "bodyClass": "site-root page-legal-cookies family-legal style-cookies",
   "meta": {
-    "themeColor": "#1B4332",
-    "description": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
+    "themeColor": "#2E2E2E",
+    "description": "This Cookies Policy explains how Monique Fernandes uses cookies and similar technologies to keep the site working, understand usage, and manage optional tracking transparently.",
     "robots": "index,follow",
-    "title": "Cookies | Legal Information | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp"
+    "title": "Cookies Policy | Monique Fernandes | Immigrate to Brazil",
+    "preloadImage": "/assets/images/sections/legal/cookies/section-01-purpose-of-cookies-in-platform-operation/cookies-policy-section-01-purpose-of-cookies-in-platform-operation-sunrise-negro-palace-manaus-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Cookies | Legal Information | Immigrate to Brazil",
-    "ogDescription": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
-    "ogImageAlt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil.",
+    "ogTitle": "Cookies Policy | Monique Fernandes | Immigrate to Brazil",
+    "ogDescription": "This Cookies Policy explains how Monique Fernandes uses cookies and similar technologies to keep the site working, understand usage, and manage optional tracking transparently.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/legal/cookies/section-01-purpose-of-cookies-in-platform-operation/cookies-policy-section-01-purpose-of-cookies-in-platform-operation-sunrise-negro-palace-manaus-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Cookies Policy page showing Rio Negro Palace in Manaus at sunrise in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Cookies | Legal Information | Immigrate to Brazil",
-    "twitterDescription": "Cookie notice describing essential behaviour, analytics consent, and how visitors can revisit preferences. Covers cookie categories, consent management, anal…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
-    "twitterImageAlt": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil."
+    "twitterTitle": "Cookies Policy | Monique Fernandes | Immigrate to Brazil",
+    "twitterDescription": "This Cookies Policy explains how Monique Fernandes uses cookies and similar technologies to keep the site working, understand usage, and manage optional tracking transparently.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/legal/cookies/section-01-purpose-of-cookies-in-platform-operation/cookies-policy-section-01-purpose-of-cookies-in-platform-operation-sunrise-negro-palace-manaus-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Cookies Policy page showing Rio Negro Palace in Manaus at sunrise in Brazil."
   },
   "runtime": {
-    "pageTitle": "Cookies",
+    "pageTitle": "Cookies Policy",
     "pageFamily": "legal"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Cookies",
-          "item": "https://immigratetobrazil.com/legal/cookies/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Does Immigrate to Brazil use cookies in a way I should know about before contacting the team?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Cookie use should be transparent so you understand how the site works before deciding how you want to use it or contact the team."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use the site without accepting every type of cookie?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In most cases, yes. The aim is to keep site use as clear and respectful as possible while explaining what is essential and what may be optional."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does cookie use affect how I contact or work with Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Cookie settings mainly affect site behavior, not the core question of whether you can contact the team for guidance or support."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if I want more clarity before using the site further?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If anything about site behavior, privacy, or consent feels unclear, you can contact the team for clarification before proceeding."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where can I ask questions about privacy or cookie use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact the team directly if you want a clearer explanation of how cookie-related choices connect to site use and contact options."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/legal/cookies/#hero-image",
-      "name": "Cookies hero image featuring Porto Alegre skyline",
-      "description": "SEO hero image for the Cookies page on Immigrate to Brazil, showing the Porto Alegre skyline and supporting content about Brazil legal information.",
-      "caption": "Hero image for the Cookies page showing the Porto Alegre skyline in southern Brazil.",
-      "keywords": "Porto Alegre, Rio Grande do Sul, Brazil skyline, southern Brazil, urban Brazil, the Porto Alegre skyline, Cookies, Brazil legal information, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/legal/brazil-porto-alegre-skyline-cookies.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
@@ -112,16 +32,20 @@
         "href": "/"
       },
       {
-        "label": "Cookies",
+        "label": "Legal",
+        "href": "/legal/"
+      },
+      {
+        "label": "Cookies Policy",
         "current": true
       }
     ],
     "sidebar": {
       "brand": {
-        "note": "Operational rules on privacy, payment, consent, and contact are written to be clear before a client proceeds."
+        "note": "Cookies should be explained in plain language. Monique Fernandes wants visitors to understand what is necessary for site operation and what is optional."
       },
       "nextStep": {
-        "lead": "cookie categories in direct, operational terms.",
+        "lead": "Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -131,56 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "title": "LGPD (Law No. 13.709/2018)",
-        "description": "Brazilian General Data Protection Law, relevant to privacy, lawful bases, rights, and data governance."
-      },
-      {
-        "href": "https://www.gov.br/anpd/pt-br",
-        "title": "Autoridade Nacional de Protecao de Dados",
-        "description": "National Data Protection Authority guidance on data-subject rights, interpretation, and compliance."
-      },
-      {
-        "href": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
-        "title": "European Commission GDPR overview",
-        "description": "Institutional reference page for GDPR context affecting international visitors."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
+      {
+        "href": "/legal/privacy/",
+        "title": "Privacy Policy",
+        "description": "This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-privacy.webp",
+        "image_alt": "Hero image for the Privacy page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/lgpd/",
+        "title": "LGPD Notice",
+        "description": "This LGPD Notice explains how Monique Fernandes handles personal data under Brazil's data-protection framework when people contact her practice or use immigration services related to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-curitiba-skyline-lgpd.webp",
+        "image_alt": "Hero image for the Lgpd page showing the Curitiba skyline in southern Brazil."
+      },
+      {
+        "href": "/legal/gdpr/",
+        "title": "GDPR Notice",
+        "description": "This GDPR Notice explains how Monique Fernandes handles personal data where an EU or EEA user expects GDPR-style transparency, rights information, and cross-border transfer disclosure.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
+      {
+        "href": "/legal/terms/",
+        "title": "Terms & Conditions",
+        "description": "These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.",
+        "image_src": "/assets/images/heroes/legal/brazil-sao-paulo-skyline-terms.webp",
+        "image_alt": "Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/legal/search/",
+        "title": "Search",
+        "description": "Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-search.webp",
+        "image_alt": "Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil."
+      },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/emergency/",
-        "title": "Emergency",
-        "description": "Emergency contact guidance directing urgent matters to WhatsApp with context about what should be treated as an emergency."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

@@ -3,125 +3,37 @@
   "lang": "en",
   "bodyClass": "site-root page-process-permanent family-process style-process",
   "meta": {
-    "themeColor": "#C7953C",
-    "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
+    "themeColor": "#2E2E2E",
+    "description": "Monique helps clients understand when permanent residence may become realistic and how current decisions affect long-term stability.",
     "robots": "index,follow",
-    "title": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
-    "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp"
+    "title": "Permanent With Monique Fernandes | Brazil Immigration Process",
+    "preloadImage": "/assets/images/sections/process/permanent/section-01-overview/permanent-section-01-overview-coastline-water-pajucara-waterfront-brazil-bg-primary.webp"
   },
   "social": {
     "ogType": "website",
-    "ogTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
-    "ogDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
-    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
-    "ogImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
+    "ogTitle": "Permanent With Monique Fernandes | Brazil Immigration Process",
+    "ogDescription": "Monique helps clients understand when permanent residence may become realistic and how current decisions affect long-term stability.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/sections/process/permanent/section-01-overview/permanent-section-01-overview-coastline-water-pajucara-waterfront-brazil-bg-primary.webp",
+    "ogImageAlt": "Hero image for the Permanent page showing Pajucara waterfront in Maceio coastline panorama in Brazil.",
     "twitterCard": "summary_large_image",
-    "twitterTitle": "Permanent | Brazil Immigration Process | Immigrate to Brazil",
-    "twitterDescription": "Process guidance on permanent within Brazilian immigration procedures and compliance planning. Covers transition to permanent status, eligibility criteria, l…",
-    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
-    "twitterImageAlt": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil."
+    "twitterTitle": "Permanent With Monique Fernandes | Brazil Immigration Process",
+    "twitterDescription": "Monique helps clients understand when permanent residence may become realistic and how current decisions affect long-term stability.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/sections/process/permanent/section-01-overview/permanent-section-01-overview-coastline-water-pajucara-waterfront-brazil-bg-primary.webp",
+    "twitterImageAlt": "Hero image for the Permanent page showing Pajucara waterfront in Maceio coastline panorama in Brazil."
   },
   "runtime": {
     "pageTitle": "Permanent",
     "pageFamily": "process"
   },
-  "schemas": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://immigratetobrazil.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Permanent",
-          "item": "https://immigratetobrazil.com/process/permanent/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Permanent | Immigrate to Brazil",
-      "serviceType": "Permanent",
-      "areaServed": "Brazil",
-      "provider": {
-        "@id": "https://immigratetobrazil.com#organization"
-      },
-      "url": "https://immigratetobrazil.com/process/permanent/",
-      "description": "Process guidance on permanent within Brazilian immigration procedures and compliance planning."
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How can Immigrate to Brazil help at permanent residence planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We help clients understand what permanent residence planning means in practice, what usually goes wrong, and what kind of support makes the next decision clearer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need everything ready before getting help with permanent residence planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Many clients reach out because they are unsure what belongs now and what belongs later. Early guidance often prevents wasted time and wrong turns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Immigrate to Brazil help if something has already gone wrong around permanent residence planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We can help bring order to a situation, clarify the real priority, and guide you toward the safest next step based on what is happening now."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does good support usually change at permanent residence planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It usually creates clearer sequencing, better expectations, and less avoidable stress. The value is not just more information, but better direction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I contact Immigrate to Brazil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your enquiry is reviewed manually, and the next step may be a consultation, a request for more context, or guidance on how to move forward more carefully with permanent residence planning."
-          }
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "@id": "https://immigratetobrazil.com/process/permanent/#hero-image",
-      "name": "Permanent hero image featuring Sao Paulo skyline",
-      "description": "SEO hero image for the Permanent page on Immigrate to Brazil, showing the Sao Paulo skyline and supporting content about the Brazil immigration process.",
-      "caption": "Hero image for the Permanent page showing the Sao Paulo skyline in southeast Brazil.",
-      "keywords": "Sao Paulo, Brazil skyline, Avenida Paulista, urban Brazil, southeast Brazil, the Sao Paulo skyline, Permanent, the Brazil immigration process, Brazil, Immigrate to Brazil",
-      "contentUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
-      "url": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
-      "thumbnailUrl": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-permanent.webp",
-      "representativeOfPage": true,
-      "inLanguage": "en"
-    }
-  ],
   "shell": {
     "breadcrumbs": [
       {
         "label": "Home",
         "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
       },
       {
         "label": "Permanent",
@@ -130,10 +42,10 @@
     ],
     "sidebar": {
       "brand": {
-        "note": "The process is explained in sequence so timing, documents, compliance, and authority expectations can be understood together."
+        "note": "Monique helps clients understand when permanent residence may become realistic and how current decisions affect long-term stability."
       },
       "nextStep": {
-        "lead": "transition to permanent status, the current stage, and the next practical check.",
+        "lead": "Consultation for permanent residence pathway planning.",
         "actions": [
           {
             "className": "btn btn-cta btn-sm",
@@ -143,61 +55,57 @@
           },
           {
             "className": "btn btn-secondary btn-sm",
-            "href": "https://wa.me/5543991324028?text=Hello%2C%20Immigrate%20to%20Brazil%20team!",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
             "label": "WhatsApp",
             "track": "whatsapp"
           }
         ],
-        "note": "Representation and filing strategy remain case-specific and follow review of the record."
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
       }
     },
-    "officialResources": [
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
-        "title": "Brazilian Migration Law (Law No. 13.445/2017)",
-        "description": "Primary statutory framework for migration, admission, residence, rights, duties, and administrative measures in Brazil."
-      },
-      {
-        "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
-        "title": "Migration Regulation Decree (Decree No. 9.199/2017)",
-        "description": "Regulatory decree used to interpret procedures, authorities, documentation logic, and migration administration."
-      },
-      {
-        "href": "https://www.gov.br/pf/pt-br/assuntos/imigracao",
-        "title": "Policia Federal immigration services",
-        "description": "Federal Police portal for registration, migration documentation, and post-arrival obligations."
-      },
-      {
-        "href": "https://portaldeimigracao.mj.gov.br/pt/",
-        "title": "Residence authorisation guidance",
-        "description": "Ministry of Justice immigration portal with administrative guidance and reference materials for residence authorisations."
-      }
-    ],
+    "officialResources": [],
     "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/renewal/",
+        "title": "Renewal",
+        "description": "Monique treats renewal as continuity work that protects future options, not just a last-minute administrative task.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/naturalisation/",
+        "title": "Naturalisation",
+        "description": "Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/aftercare/",
+        "title": "Aftercare",
+        "description": "Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-aftercare.webp",
+        "image_alt": "Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/compliance/",
+        "title": "Compliance",
+        "description": "Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.",
+        "image_src": "/assets/images/heroes/process/brazil-curitiba-skyline-compliance.webp",
+        "image_alt": "Hero image for the Compliance page showing the Curitiba skyline in southern Brazil."
+      },
       {
         "href": "/start-consultation/",
         "title": "Start Consultation",
-        "description": "High-intent intake page explaining the consultation workflow, payment sequence, scheduling rule, and preparation steps."
-      },
-      {
-        "href": "/services/",
-        "title": "Services",
-        "description": "Hub page for immigration advisory pathways, organized by visas, residencies, naturalisation, defense, supporting services, and strategic advisory work."
-      },
-      {
-        "href": "/legal/payment/",
-        "title": "Payment",
-        "description": "Operational payment page for consultations, proof-of-payment handling, and appointment confirmation."
-      },
-      {
-        "href": "/legal/form/",
-        "title": "Form",
-        "description": "Detailed intake form page describing required fields, file uploads, and what the team reviews before confirmation."
-      },
-      {
-        "href": "/process/consultation/",
-        "title": "Consultation",
-        "description": "Process guidance on consultation within Brazilian immigration procedures and compliance planning."
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
       }
     ]
   }

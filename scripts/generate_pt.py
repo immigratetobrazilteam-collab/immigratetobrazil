@@ -19,6 +19,8 @@ os.environ.setdefault("ARGOS_DEVICE_TYPE", "cpu")
 os.environ.setdefault("ARGOS_INTER_THREADS", str(min(8, CPU_COUNT)))
 os.environ.setdefault("ARGOS_BATCH_SIZE", "4096")
 os.environ.setdefault("ARGOS_COMPUTE_TYPE", "int8")
+os.environ.setdefault("ITB_PT_ENABLE_BATCH", "1")
+os.environ.setdefault("ITB_PT_MICRO_BATCH_SIZE", "16")
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -76,6 +78,17 @@ TITLE_ATTRIBUTE_TRANSLATORS = (
 
 TEXT_ATTRIBUTES = ("aria-label", "placeholder", "title", "alt")
 SAME_SITE_HOSTS = {"immigratetobrazil.com", "www.immigratetobrazil.com"}
+SHARED_SCHEMA_FRAGMENT_PREFIXES = (
+    "organization",
+    "website",
+    "contact-primary",
+    "legal-practice",
+    "person-",
+    "service-family-",
+    "service-",
+    "catalog-",
+    "place-brazil",
+)
 
 LANG_SWITCHER_RE = re.compile(
     r"(?P<indent>[ \t]*)<div class=\"lang-switcher lang-switcher--minimal\" aria-label=\"Language switcher\">[\s\S]*?</div>",
@@ -316,6 +329,42 @@ def localize_internal_url(url: str) -> str:
     return urlunsplit(("", "", localized_path, parts.query, parts.fragment))
 
 
+def is_same_site_url(value: str) -> bool:
+    try:
+        parts = urlsplit(value)
+    except ValueError:
+        return False
+    if not parts.scheme and not parts.netloc and value.startswith("/"):
+        return True
+    return bool(parts.netloc and parts.netloc.lower() in SAME_SITE_HOSTS)
+
+
+def is_shared_schema_fragment(fragment: str) -> bool:
+    return any(
+        fragment == prefix or fragment.startswith(prefix)
+        for prefix in SHARED_SCHEMA_FRAGMENT_PREFIXES
+    )
+
+
+def localize_schema_id(value: str) -> str:
+    if not value or not is_same_site_url(value):
+        return value
+
+    try:
+        parts = urlsplit(value)
+    except ValueError:
+        return value
+
+    fragment = parts.fragment or ""
+    path_value = parts.path or "/"
+
+    if fragment and path_value in {"", "/"} and is_shared_schema_fragment(fragment):
+        normalized_path = parts.path or ""
+        return urlunsplit((parts.scheme, parts.netloc, normalized_path, parts.query, parts.fragment))
+
+    return localize_internal_url(value)
+
+
 class ArgosEngine:
     def __init__(self) -> None:
         ensure_argos_runtime()
@@ -521,6 +570,8 @@ class PtGenerator:
             return
 
         chunk_size = 256
+        batch_enabled = os.environ.get("ITB_PT_ENABLE_BATCH", "1").strip().lower() in {"1", "true", "yes", "on"}
+        micro_batch_size = max(1, int(os.environ.get("ITB_PT_MICRO_BATCH_SIZE", "16")))
         total_chunks = (len(pending_inputs) + chunk_size - 1) // chunk_size
         for start in range(0, len(pending_inputs), chunk_size):
             input_chunk = pending_inputs[start : start + chunk_size]
@@ -531,9 +582,15 @@ class PtGenerator:
                 f"Translating chunk {chunk_number}/{total_chunks} ({len(input_chunk)} strings)...",
                 flush=True,
             )
-            try:
-                translated_chunk = self.engine.translate_many(input_chunk)
-            except Exception:
+            if batch_enabled:
+                translated_chunk: list[str] = []
+                for micro_start in range(0, len(input_chunk), micro_batch_size):
+                    micro_chunk = input_chunk[micro_start : micro_start + micro_batch_size]
+                    try:
+                        translated_chunk.extend(self.engine.translate_many(micro_chunk))
+                    except Exception:
+                        translated_chunk.extend([self.engine.translate(value) for value in micro_chunk])
+            else:
                 translated_chunk = [self.engine.translate(value) for value in input_chunk]
 
             for source, translated, placeholders in zip(source_chunk, translated_chunk, placeholder_chunk):
@@ -664,15 +721,33 @@ class PtGenerator:
     def prime_translations(self, soup: BeautifulSoup, route: str) -> None:
         self.translate_missing_batch(route, sorted(self.collect_page_strings(soup)))
 
-    def translate_json_ld_value(self, value, route: str, key: str = ""):
+    def translate_json_ld_value(self, value, route: str, key: str = "", parent: dict | None = None):
         if isinstance(value, dict):
-            return {item_key: self.translate_json_ld_value(item_value, route, item_key) for item_key, item_value in value.items()}
+            return {
+                item_key: self.translate_json_ld_value(item_value, route, item_key, value)
+                for item_key, item_value in value.items()
+            }
         if isinstance(value, list):
-            return [self.translate_json_ld_value(item, route, key) for item in value]
+            if key == "availableLanguage":
+                return value
+            return [self.translate_json_ld_value(item, route, key, parent) for item in value]
         if not isinstance(value, str):
             return value
 
-        if key in {"@context", "@type", "@id", "query-input", "logo", "email", "telephone"}:
+        parent_id = ""
+        if isinstance(parent, dict):
+            parent_id = parent.get("@id", "")
+        parent_is_shared = bool(parent_id and is_shared_schema_fragment(urlsplit(parent_id).fragment or ""))
+
+        if key in {"@context", "@type", "query-input", "logo", "email", "telephone"}:
+            return value
+        if key == "@id":
+            return localize_schema_id(value)
+        if key == "inLanguage":
+            return "pt-BR"
+        if key == "availableLanguage":
+            return value
+        if key in {"url", "target"} and parent_is_shared:
             return value
         if key in {"url", "item", "target"}:
             return localize_internal_url(value)
@@ -977,7 +1052,7 @@ class PtGenerator:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate pt-BR static pages from the English content-driven build output.")
+    parser = argparse.ArgumentParser(description="Generate pt-BR static pages from the handwritten English HTML site.")
     parser.add_argument("--force", action="store_true", help="Regenerate every pt-BR page instead of only changed pages.")
     parser.add_argument(
         "--route",

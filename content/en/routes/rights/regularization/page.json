@@ -1,0 +1,112 @@
+{
+  "route": "/rights/regularization/",
+  "lang": "en",
+  "bodyClass": "site-root page-rights-regularization family-rights style-rights",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value.",
+    "robots": "index,follow",
+    "title": "Regularization | Brazil Immigration Process | Immigrate to Brazil",
+    "preloadImage": "/assets/images/heroes/process/brazil-sao-paulo-skyline-regularization.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "Regularization | Brazil Immigration Process | Immigrate to Brazil",
+    "ogDescription": "Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value.",
+    "ogImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-regularization.webp",
+    "ogImageAlt": "Hero image for the Regularization page showing the Sao Paulo skyline in southeast Brazil.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Regularization | Brazil Immigration Process | Immigrate to Brazil",
+    "twitterDescription": "Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value.",
+    "twitterImage": "https://immigratetobrazil.com/assets/images/heroes/process/brazil-sao-paulo-skyline-regularization.webp",
+    "twitterImageAlt": "Hero image for the Regularization page showing the Sao Paulo skyline in southeast Brazil."
+  },
+  "runtime": {
+    "pageTitle": "Regularization",
+    "pageFamily": "process"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Process",
+        "href": "/process/"
+      },
+      {
+        "label": "Regularization",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil."
+      },
+      "nextStep": {
+        "lead": "If regularization is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": [
+      {
+        "href": "/process/",
+        "title": "Brazil Immigration Process",
+        "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+        "image_src": "/assets/images/heroes/process/brazil-lencois-maranhenses-consultation.webp",
+        "image_alt": "Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil."
+      },
+      {
+        "href": "/process/mistakes/",
+        "title": "Mistakes",
+        "description": "Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.",
+        "image_src": "/assets/images/heroes/process/brazil-rio-de-janeiro-sugarloaf-mountain-mistakes.webp",
+        "image_alt": "Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil."
+      },
+      {
+        "href": "/process/failures/",
+        "title": "Failures",
+        "description": "Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.",
+        "image_src": "/assets/images/heroes/process/brazil-sao-paulo-skyline-failures.webp",
+        "image_alt": "Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil."
+      },
+      {
+        "href": "/start-consultation/",
+        "title": "Start Consultation",
+        "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+        "image_src": "/assets/images/heroes/foundation/brazil-salvador-pelourinho-bahia-start-consultation.webp",
+        "image_alt": "Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil."
+      },
+      {
+        "href": "/services/",
+        "title": "Services",
+        "description": "Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.",
+        "image_src": "/assets/images/heroes/services/brazil-amazon-river-basin-services.webp",
+        "image_alt": "Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil."
+      },
+      {
+        "href": "/legal/",
+        "title": "Legal Notices",
+        "description": "This legal hub explains how Monique Fernandes handles privacy, payments, intake, accessibility, urgent contact, and service boundaries for immigration matters connected to Brazil.",
+        "image_src": "/assets/images/heroes/legal/brazil-brasilia-national-congress-gdpr.webp",
+        "image_alt": "Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil."
+      }
+    ]
+  }
+}
