@@ -8553,6 +8553,583 @@ body.site-root .home-next-step__actions {
   align-items: center;
 }
 
+body.site-root {
+  --home-icon-scale: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4v16'/%3E%3Cpath d='M5 7h14'/%3E%3Cpath d='M7 7l-3 5h6l-3-5z'/%3E%3Cpath d='M17 7l-3 5h6l-3-5z'/%3E%3Cpath d='M9.5 19h5'/%3E%3C/svg%3E");
+  --home-icon-globe: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M12 4a12 12 0 0 1 0 16'/%3E%3Cpath d='M12 4a12 12 0 0 0 0 16'/%3E%3C/svg%3E");
+  --home-icon-message: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 11.5A7.5 7.5 0 0 1 12.5 19H8l-4 2 1.3-3.3A7.5 7.5 0 0 1 12 4a8 8 0 0 1 8 7.5z'/%3E%3Cpath d='M8.5 11.5h7'/%3E%3Cpath d='M8.5 14.5H13'/%3E%3C/svg%3E");
+  --home-icon-compass: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M14.8 9.2l-2 5.6-5.6 2 2-5.6 5.6-2z'/%3E%3C/svg%3E");
+  --home-icon-file: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3.5h6l4 4V20a1 1 0 0 1-1 1H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z'/%3E%3Cpath d='M14 3.5V8h4'/%3E%3Cpath d='M9 12h6'/%3E%3Cpath d='M9 16h6'/%3E%3C/svg%3E");
+  --home-icon-shield: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12.5l1.7 1.7 3.3-3.4'/%3E%3C/svg%3E");
+  --home-icon-calendar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='5.5' width='16' height='14' rx='2'/%3E%3Cpath d='M8 3.5v4'/%3E%3Cpath d='M16 3.5v4'/%3E%3Cpath d='M4 9.5h16'/%3E%3C/svg%3E");
+  --home-icon-badge: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12l1.6 1.6 3.4-3.6'/%3E%3C/svg%3E");
+  --home-icon-briefcase: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='7' width='16' height='11' rx='2'/%3E%3Cpath d='M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7'/%3E%3Cpath d='M4 11h16'/%3E%3C/svg%3E");
+  --home-icon-passport: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='6' y='4' width='12' height='16' rx='2'/%3E%3Cpath d='M9 4v16'/%3E%3Ccircle cx='13' cy='10' r='2.4'/%3E%3Cpath d='M10.8 10h4.4'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 1 0 4.8'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 0 0 4.8'/%3E%3C/svg%3E");
+  --home-icon-house: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 11.5L12 5l8 6.5'/%3E%3Cpath d='M6.5 10.5V19h11v-8.5'/%3E%3Cpath d='M10 19v-4.5h4V19'/%3E%3C/svg%3E");
+  --home-icon-spark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l1.9 4.9L19 9.8l-4.1 3.2 1.4 5L12 15.2 7.7 18l1.4-5L5 9.8l5.1-1.9L12 3z'/%3E%3C/svg%3E");
+  --home-icon-alert: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4l8 14H4L12 4z'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 16h.01'/%3E%3C/svg%3E");
+  --home-icon-folder: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 7.5A2.5 2.5 0 0 1 6 5h4l2 2h6a2.5 2.5 0 0 1 2.5 2.5V17A2.5 2.5 0 0 1 18 19.5H6A2.5 2.5 0 0 1 3.5 17V7.5z'/%3E%3C/svg%3E");
+  --home-icon-map: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6.5l5-2 6 2 5-2v13l-5 2-6-2-5 2v-13z'/%3E%3Cpath d='M9 4.5v13'/%3E%3Cpath d='M15 6.5v13'/%3E%3C/svg%3E");
+  --home-icon-city: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20h16'/%3E%3Cpath d='M6 20V9l5-2v13'/%3E%3Cpath d='M11 20V5l7 3v12'/%3E%3Cpath d='M8 12h.01'/%3E%3Cpath d='M8 15h.01'/%3E%3Cpath d='M14 10h.01'/%3E%3Cpath d='M14 13h.01'/%3E%3C/svg%3E");
+  --home-icon-heart: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z'/%3E%3C/svg%3E");
+  --home-icon-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M13 6l6 6-6 6'/%3E%3C/svg%3E");
+}
+
+body.site-root .page-home-atlas {
+  background:
+    radial-gradient(circle at top right, rgba(210, 166, 60, 0.12), transparent 24%),
+    linear-gradient(180deg, #111721 0%, #16202d 36%, #18252c 100%);
+}
+
+body.site-root .home-manifesto-shell {
+  border-color: rgba(210, 166, 60, 0.24);
+  background:
+    radial-gradient(circle at top right, rgba(210, 166, 60, 0.14), transparent 28%),
+    linear-gradient(145deg, rgba(17, 23, 33, 0.99), rgba(26, 37, 44, 0.97));
+  color: #f7f1e6;
+  box-shadow: 0 32px 70px rgba(6, 10, 18, 0.38);
+}
+
+body.site-root .home-editorial--dark {
+  background:
+    radial-gradient(circle at top left, rgba(210, 166, 60, 0.12), transparent 28%),
+    linear-gradient(135deg, rgba(18, 34, 40, 0.98), rgba(24, 37, 44, 0.96));
+  color: #f7f1e6;
+}
+
+body.site-root .home-editorial--ink {
+  background:
+    radial-gradient(circle at top right, rgba(210, 166, 60, 0.12), transparent 26%),
+    linear-gradient(135deg, rgba(15, 20, 30, 0.99), rgba(22, 28, 38, 0.97));
+  color: #f7f1e6;
+}
+
+body.site-root .home-manifesto-shell .home-section-head h2,
+body.site-root .home-editorial .home-section-head h2,
+body.site-root .home-atlas-feature__content h3,
+body.site-root .home-service-family h3,
+body.site-root .home-service-band h3,
+body.site-root .home-brazil-cluster__body h3,
+body.site-root .home-link-group h3 {
+  color: #fff7ea;
+}
+
+body.site-root .home-manifesto-shell .home-section-head p,
+body.site-root .home-editorial .home-section-head p,
+body.site-root .home-atlas-feature__content p,
+body.site-root .home-link-group,
+body.site-root .home-service-family p,
+body.site-root .home-service-family li,
+body.site-root .home-process-chapter li,
+body.site-root .home-brazil-cluster__body p,
+body.site-root .home-brazil-cluster__body li,
+body.site-root .home-service-band__content p,
+body.site-root .home-service-band__links a,
+body.site-root .home-route-option span,
+body.site-root .home-highlight-link span {
+  color: rgba(247, 241, 230, 0.8);
+}
+
+body.site-root .home-manifesto-subhead,
+body.site-root .home-chapter-card span,
+body.site-root .home-link-group h3 {
+  color: rgba(223, 190, 118, 0.9);
+}
+
+body.site-root .hero-glance-card,
+body.site-root .home-chapter-card,
+body.site-root .home-mini-section,
+body.site-root .home-highlight-link,
+body.site-root .home-link-group,
+body.site-root .home-service-family,
+body.site-root .home-brazil-cluster,
+body.site-root .home-route-option {
+  border-color: rgba(210, 166, 60, 0.18);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)),
+    rgba(13, 20, 31, 0.7);
+  color: #f7f1e6;
+  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.22);
+}
+
+body.site-root .home-chapter-card p,
+body.site-root .hero-glance-card strong {
+  color: rgba(247, 241, 230, 0.82);
+}
+
+body.site-root .hero-glance-card span {
+  color: rgba(223, 190, 118, 0.88);
+}
+
+body.site-root .home-highlight-links--dark .home-highlight-link {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    rgba(12, 18, 28, 0.78);
+}
+
+body.site-root .home-service-band,
+body.site-root .home-process-chapter,
+body.site-root .home-proof-quote {
+  border-color: rgba(210, 166, 60, 0.2);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
+    rgba(12, 18, 28, 0.72);
+  color: #f7f1e6;
+}
+
+body.site-root .home-process-step {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+body.site-root .home-proof-quote footer {
+  color: rgba(247, 241, 230, 0.72);
+}
+
+body.site-root .home-signal-list li,
+body.site-root .home-bullet-list li,
+body.site-root .home-service-family li,
+body.site-root .home-process-chapter li,
+body.site-root .home-brazil-cluster__body li,
+body.site-root .home-service-band__links li {
+  padding-left: 1.45rem;
+}
+
+body.site-root .home-signal-list li::before,
+body.site-root .home-bullet-list li::before,
+body.site-root .home-service-family li::before,
+body.site-root .home-process-chapter li::before,
+body.site-root .home-brazil-cluster__body li::before,
+body.site-root .home-service-band__links li::before {
+  top: 0.26rem;
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 0;
+  background: transparent;
+  background-image: var(--home-item-icon, var(--home-icon-spark));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: none;
+}
+
+body.site-root .home-signal-list--hero li:nth-child(1) {
+  --home-item-icon: var(--home-icon-scale);
+}
+
+body.site-root .home-signal-list--hero li:nth-child(2) {
+  --home-item-icon: var(--home-icon-message);
+}
+
+body.site-root .home-signal-list--hero li:nth-child(3) {
+  --home-item-icon: var(--home-icon-globe);
+}
+
+body.site-root .home-signal-list--hero li:nth-child(4) {
+  --home-item-icon: var(--home-icon-briefcase);
+}
+
+body.site-root .home-bullet-list--route-needs li:nth-child(1) {
+  --home-item-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-bullet-list--route-needs li:nth-child(2) {
+  --home-item-icon: var(--home-icon-file);
+}
+
+body.site-root .home-bullet-list--route-needs li:nth-child(3) {
+  --home-item-icon: var(--home-icon-house);
+}
+
+body.site-root .home-bullet-list--route-needs li:nth-child(4) {
+  --home-item-icon: var(--home-icon-alert);
+}
+
+body.site-root .home-bullet-list--route-needs li:nth-child(5) {
+  --home-item-icon: var(--home-icon-map);
+}
+
+body.site-root .home-bullet-list--trust li:nth-child(1) {
+  --home-item-icon: var(--home-icon-scale);
+}
+
+body.site-root .home-bullet-list--trust li:nth-child(2) {
+  --home-item-icon: var(--home-icon-message);
+}
+
+body.site-root .home-bullet-list--trust li:nth-child(3) {
+  --home-item-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-bullet-list--trust li:nth-child(4) {
+  --home-item-icon: var(--home-icon-globe);
+}
+
+body.site-root .home-bullet-list--trust li:nth-child(5) {
+  --home-item-icon: var(--home-icon-shield);
+}
+
+body.site-root .home-bullet-list--highlights li:nth-child(1) {
+  --home-item-icon: var(--home-icon-calendar);
+}
+
+body.site-root .home-bullet-list--highlights li:nth-child(2) {
+  --home-item-icon: var(--home-icon-badge);
+}
+
+body.site-root .home-bullet-list--highlights li:nth-child(3) {
+  --home-item-icon: var(--home-icon-message);
+}
+
+body.site-root .home-bullet-list--highlights li:nth-child(4) {
+  --home-item-icon: var(--home-icon-briefcase);
+}
+
+body.site-root .home-bullet-list--highlights li:nth-child(5) {
+  --home-item-icon: var(--home-icon-globe);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(1) {
+  --home-item-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(2) {
+  --home-item-icon: var(--home-icon-passport);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(3) {
+  --home-item-icon: var(--home-icon-house);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(4) {
+  --home-item-icon: var(--home-icon-spark);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(5) {
+  --home-item-icon: var(--home-icon-alert);
+}
+
+body.site-root .home-bullet-list--services li:nth-child(6) {
+  --home-item-icon: var(--home-icon-folder);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(1) {
+  --home-item-icon: var(--home-icon-calendar);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(2) {
+  --home-item-icon: var(--home-icon-badge);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(3) {
+  --home-item-icon: var(--home-icon-briefcase);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(4) {
+  --home-item-icon: var(--home-icon-globe);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(5) {
+  --home-item-icon: var(--home-icon-map);
+}
+
+body.site-root .home-bullet-list--proof li:nth-child(6) {
+  --home-item-icon: var(--home-icon-shield);
+}
+
+body.site-root .home-service-family--advisory li {
+  --home-item-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-service-family--visas li {
+  --home-item-icon: var(--home-icon-passport);
+}
+
+body.site-root .home-service-family--residency li {
+  --home-item-icon: var(--home-icon-house);
+}
+
+body.site-root .home-service-family--naturalisation li {
+  --home-item-icon: var(--home-icon-spark);
+}
+
+body.site-root .home-service-family--defense li {
+  --home-item-icon: var(--home-icon-alert);
+}
+
+body.site-root .home-service-family--other li,
+body.site-root .home-service-band__links--permanent li {
+  --home-item-icon: var(--home-icon-folder);
+}
+
+body.site-root .home-process-chapter--before li {
+  --home-item-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-process-chapter--during li {
+  --home-item-icon: var(--home-icon-file);
+}
+
+body.site-root .home-process-chapter--protection li {
+  --home-item-icon: var(--home-icon-shield);
+}
+
+body.site-root .home-process-chapter--aftercare li {
+  --home-item-icon: var(--home-icon-heart);
+}
+
+body.site-root .home-brazil-cluster--fit li {
+  --home-item-icon: var(--home-icon-map);
+}
+
+body.site-root .home-brazil-cluster--regions li {
+  --home-item-icon: var(--home-icon-city);
+}
+
+body.site-root .home-brazil-cluster--systems li {
+  --home-item-icon: var(--home-icon-house);
+}
+
+body.site-root .home-hero-proof strong {
+  margin-bottom: 0.2rem;
+  font-size: 1.08rem;
+}
+
+body.site-root .home-hero-proof__list {
+  gap: 0.72rem;
+}
+
+body.site-root .home-hero-proof .hero-panel-item {
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+body.site-root .home-hero-proof .hero-panel-item__icon {
+  margin-top: 0.05rem;
+  background:
+    linear-gradient(145deg, rgba(212, 180, 140, 0.22), rgba(212, 180, 140, 0.08)),
+    rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px rgba(210, 166, 60, 0.16);
+}
+
+body.site-root .hero-glance-card,
+body.site-root .home-chapter-card,
+body.site-root .home-route-option {
+  position: relative;
+  overflow: hidden;
+}
+
+body.site-root .hero-glance-card::before,
+body.site-root .home-chapter-card::before,
+body.site-root .home-route-option::before {
+  content: "";
+  display: block;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-bottom: 0.85rem;
+  background-image: var(--home-card-icon, var(--home-icon-arrow));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.site-root .hero-glance-card--about,
+body.site-root .home-chapter-card--about,
+body.site-root .home-route-option--about {
+  --home-card-icon: var(--home-icon-scale);
+}
+
+body.site-root .hero-glance-card--services,
+body.site-root .home-chapter-card--services,
+body.site-root .home-route-option--services {
+  --home-card-icon: var(--home-icon-briefcase);
+}
+
+body.site-root .hero-glance-card--process,
+body.site-root .home-chapter-card--process,
+body.site-root .home-route-option--process {
+  --home-card-icon: var(--home-icon-file);
+}
+
+body.site-root .hero-glance-card--brazil,
+body.site-root .home-chapter-card--brazil,
+body.site-root .home-route-option--brazil {
+  --home-card-icon: var(--home-icon-map);
+}
+
+body.site-root .home-route-option--consultation {
+  --home-card-icon: var(--home-icon-message);
+}
+
+body.site-root .home-service-family h3,
+body.site-root .home-process-chapter h3,
+body.site-root .home-brazil-cluster__body h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+body.site-root .home-service-family h3::before,
+body.site-root .home-process-chapter h3::before,
+body.site-root .home-brazil-cluster__body h3::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+  background-image: var(--home-heading-icon, var(--home-icon-spark));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.site-root .home-service-family--advisory {
+  --home-heading-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-service-family--visas {
+  --home-heading-icon: var(--home-icon-passport);
+}
+
+body.site-root .home-service-family--residency {
+  --home-heading-icon: var(--home-icon-house);
+}
+
+body.site-root .home-service-family--naturalisation {
+  --home-heading-icon: var(--home-icon-spark);
+}
+
+body.site-root .home-service-family--defense {
+  --home-heading-icon: var(--home-icon-alert);
+}
+
+body.site-root .home-service-family--other {
+  --home-heading-icon: var(--home-icon-folder);
+}
+
+body.site-root .home-process-chapter--before {
+  --home-heading-icon: var(--home-icon-compass);
+}
+
+body.site-root .home-process-chapter--during {
+  --home-heading-icon: var(--home-icon-file);
+}
+
+body.site-root .home-process-chapter--protection {
+  --home-heading-icon: var(--home-icon-shield);
+}
+
+body.site-root .home-process-chapter--aftercare {
+  --home-heading-icon: var(--home-icon-heart);
+}
+
+body.site-root .home-brazil-cluster--fit {
+  --home-heading-icon: var(--home-icon-map);
+}
+
+body.site-root .home-brazil-cluster--regions {
+  --home-heading-icon: var(--home-icon-city);
+}
+
+body.site-root .home-brazil-cluster--systems {
+  --home-heading-icon: var(--home-icon-house);
+}
+
+body.site-root.theme-light .page-home-atlas {
+  background:
+    radial-gradient(circle at top right, rgba(210, 166, 60, 0.12), transparent 30%),
+    linear-gradient(180deg, #f6f0e6 0%, #f5efe7 28%, #ede2d2 100%);
+}
+
+body.site-root.theme-light .home-manifesto-shell {
+  background:
+    linear-gradient(160deg, rgba(255, 252, 246, 0.99), rgba(242, 226, 198, 0.96));
+  color: #1b1612;
+  box-shadow: 0 32px 70px rgba(34, 26, 14, 0.12);
+}
+
+body.site-root.theme-light .home-editorial--dark {
+  background: linear-gradient(180deg, #f7f2ea 0%, #efe5d8 100%);
+  color: #1d1814;
+}
+
+body.site-root.theme-light .home-editorial--ink {
+  background: linear-gradient(180deg, #f4eadb 0%, #ecddc9 100%);
+  color: #1d1814;
+}
+
+body.site-root.theme-light .home-manifesto-shell .home-section-head h2,
+body.site-root.theme-light .home-editorial .home-section-head h2,
+body.site-root.theme-light .home-atlas-feature__content h3,
+body.site-root.theme-light .home-service-family h3,
+body.site-root.theme-light .home-service-band h3,
+body.site-root.theme-light .home-brazil-cluster__body h3,
+body.site-root.theme-light .home-link-group h3 {
+  color: #1d1712;
+}
+
+body.site-root.theme-light .home-manifesto-shell .home-section-head p,
+body.site-root.theme-light .home-editorial .home-section-head p,
+body.site-root.theme-light .home-atlas-feature__content p,
+body.site-root.theme-light .home-link-group,
+body.site-root.theme-light .home-service-family p,
+body.site-root.theme-light .home-service-family li,
+body.site-root.theme-light .home-process-chapter li,
+body.site-root.theme-light .home-brazil-cluster__body p,
+body.site-root.theme-light .home-brazil-cluster__body li,
+body.site-root.theme-light .home-service-band__content p,
+body.site-root.theme-light .home-service-band__links a,
+body.site-root.theme-light .home-route-option span,
+body.site-root.theme-light .home-highlight-link span,
+body.site-root.theme-light .home-chapter-card p,
+body.site-root.theme-light .hero-glance-card strong {
+  color: rgba(42, 33, 24, 0.86);
+}
+
+body.site-root.theme-light .home-manifesto-subhead,
+body.site-root.theme-light .home-chapter-card span,
+body.site-root.theme-light .hero-glance-card span,
+body.site-root.theme-light .home-link-group h3 {
+  color: rgba(117, 87, 27, 0.86);
+}
+
+body.site-root.theme-light .hero-glance-card,
+body.site-root.theme-light .home-chapter-card,
+body.site-root.theme-light .home-mini-section,
+body.site-root.theme-light .home-highlight-link,
+body.site-root.theme-light .home-link-group,
+body.site-root.theme-light .home-service-family,
+body.site-root.theme-light .home-brazil-cluster,
+body.site-root.theme-light .home-route-option,
+body.site-root.theme-light .home-service-band,
+body.site-root.theme-light .home-process-chapter,
+body.site-root.theme-light .home-proof-quote {
+  background: rgba(255, 252, 248, 0.92);
+  color: #1b1714;
+  box-shadow: 0 18px 44px rgba(37, 28, 18, 0.08);
+}
+
+body.site-root.theme-light .home-highlight-links--dark .home-highlight-link {
+  background: rgba(255, 252, 248, 0.92);
+  color: #1b1714;
+}
+
+body.site-root.theme-light .home-process-step {
+  background: rgba(255, 255, 255, 0.74);
+  color: #1b1714;
+}
+
+body.site-root.theme-light .home-process-step:hover,
+body.site-root.theme-light .home-process-step:focus-visible {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+body.site-root.theme-light .home-proof-quote footer,
+body.site-root.theme-light .home-route-option span {
+  color: rgba(42, 33, 24, 0.72);
+}
+
+body.site-root.theme-light .home-bullet-list--light li {
+  color: rgba(42, 33, 24, 0.82);
+}
+
 @media (max-width: 1199px) {
   body.site-root .hero-glance,
   body.site-root .home-map-grid,
