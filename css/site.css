@@ -18,6 +18,8 @@
   --cream-000: #fffaf2;
   --cream-050: #f7f0e4;
   --cream-100: #efe3cf;
+  --logo-gold: #c89832;
+  --icon-gold: var(--logo-gold);
   --gold-100: #f2dfaf;
   --gold-300: #d2a63c;
   --gold-500: #bc871f;
@@ -74,6 +76,7 @@
   --font-body: var(--font-body-default);
   --font-label: var(--font-label-default);
   --font-mono: "SFMono-Regular", ui-monospace, monospace;
+  --navbar-toggler-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23c89832' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --accent: var(--mint-400);
   --accent-strong: var(--mint-700);
   --accent-soft: rgba(116, 198, 157, 0.1);
@@ -352,12 +355,16 @@ li {
   width: 1.12rem;
   height: 1.12rem;
   flex: 0 0 auto;
-  color: var(--gold-500);
+  color: var(--icon-gold);
 }
 
 .section-title__icon svg {
   width: 100%;
   height: 100%;
+}
+
+.footer-heading-icon {
+  color: var(--icon-gold);
 }
 
 ::selection {
@@ -1126,7 +1133,8 @@ body.is-scrolled .main-nav {
 }
 
 .main-nav .navbar-toggler-icon {
-  filter: invert(1);
+  background-image: var(--navbar-toggler-icon);
+  filter: none;
   opacity: 0.92;
 }
 
@@ -1234,7 +1242,7 @@ body.is-scrolled .main-nav {
 .navbar-nav--services .dropdown-toggle::after {
   margin-left: 0.42rem;
   opacity: 0.92;
-  border-top-color: var(--gold-300);
+  border-top-color: var(--icon-gold);
   border-top-width: 0.42em;
   border-right-width: 0.32em;
   border-left-width: 0.32em;
@@ -1260,7 +1268,7 @@ body.is-scrolled .main-nav {
 .service-family-dropdown.is-active > .dropdown-toggle::after,
 .service-family-dropdown.show > .dropdown-toggle::after {
   opacity: 0.9;
-  border-top-color: var(--gold-100);
+  border-top-color: var(--icon-gold);
 }
 
 .service-family-dropdown.show > .dropdown-toggle::after {
@@ -1398,7 +1406,7 @@ body.is-scrolled .main-nav {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: rgba(34, 20, 9, 0.94);
+  color: var(--icon-gold);
 }
 
 .main-header__cta-icon svg {
@@ -1712,7 +1720,7 @@ body.is-scrolled .main-nav {
   width: 0;
   height: 0;
   margin-left: auto;
-  border-top: 0.42em solid var(--gold-300);
+  border-top: 0.42em solid var(--icon-gold);
   border-right: 0.32em solid transparent;
   border-left: 0.32em solid transparent;
   opacity: 0.92;
@@ -1726,7 +1734,7 @@ body.is-scrolled .main-nav {
 
 .mobile-nav-group[open] summary::after {
   transform: translateY(1px) rotate(180deg);
-  border-top-color: var(--gold-100);
+  border-top-color: var(--icon-gold);
 }
 
 .mobile-nav-group__body {
@@ -1954,7 +1962,7 @@ body.is-scrolled .main-nav {
   width: 0.95rem;
   height: 0.95rem;
   flex: 0 0 auto;
-  color: rgba(247, 232, 198, 0.95);
+  color: var(--icon-gold);
 }
 
 .hero-badge__icon svg {
@@ -2059,7 +2067,7 @@ body.is-scrolled .main-nav {
   flex: 0 0 1.9rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.12);
-  color: rgba(247, 232, 198, 0.96);
+  color: var(--icon-gold);
 }
 
 .hero-panel-item__icon svg {
@@ -2248,7 +2256,7 @@ body.is-scrolled .main-nav {
   height: 2.8rem;
   border-radius: 50%;
   background: rgba(255, 250, 244, 0.9);
-  color: var(--gold-500);
+  color: var(--icon-gold);
   box-shadow: inset 0 0 0 1px rgba(199, 149, 60, 0.18);
 }
 
@@ -2324,7 +2332,7 @@ body.is-scrolled .main-nav {
   width: 0.82rem;
   height: 0.82rem;
   flex: 0 0 auto;
-  color: var(--gold-500);
+  color: var(--icon-gold);
 }
 
 .page-map__icon svg {
@@ -2865,7 +2873,7 @@ body:not(.theme-light) .asha-chat__best {
 
 .sidebar-card--map .page-map__title .section-title__icon,
 .sidebar-card--map .page-map__icon {
-  color: var(--mint-700);
+  color: var(--icon-gold);
 }
 
 .sidebar-card--map .page-map__links {
@@ -3213,7 +3221,7 @@ body:not(.theme-light) .asha-chat__best {
 
 [data-section-image="true"] .section-title__icon,
 [data-section-image="true"] .page-map__icon {
-  color: rgba(247, 221, 160, 0.94);
+  color: var(--icon-gold);
 }
 
 [data-section-image="true"] a:not(.btn) {
@@ -3604,7 +3612,7 @@ body:not(.theme-light) .asha-chat__best {
   display: inline-flex;
   width: 1rem;
   height: 1rem;
-  color: var(--gold-500);
+  color: var(--icon-gold);
 }
 
 .search-inline-form__submit-icon svg {
@@ -3884,7 +3892,7 @@ body:not(.theme-light) .asha-chat__best {
 .footer-disclosure summary::after {
   content: "+";
   flex: none;
-  color: rgba(231, 199, 122, 0.92);
+  color: var(--icon-gold);
   font-size: 1.05rem;
   line-height: 1;
 }
@@ -4157,7 +4165,7 @@ body:not(.theme-light) .asha-chat__best {
   height: 100%;
   border-radius: 50%;
   background: linear-gradient(180deg, #25d366, #1eba57);
-  color: #ffffff;
+  color: var(--icon-gold);
   box-shadow:
     0 0 0 0.22rem rgba(255, 255, 255, 0.08),
     0 12px 24px rgba(37, 211, 102, 0.24);
@@ -4183,6 +4191,7 @@ body:not(.theme-light) .asha-chat__best {
   height: auto;
   border: 0;
   background: transparent;
+  color: var(--icon-gold);
   box-shadow: none;
 }
 
@@ -4220,7 +4229,7 @@ body:not(.theme-light) .asha-chat__best {
   border: 1px solid rgba(235, 200, 126, 0.62);
   border-radius: 50%;
   background: radial-gradient(circle at 30% 30%, rgba(255, 250, 242, 0.18), transparent 42%), linear-gradient(180deg, rgba(16, 37, 29, 0.98), rgba(12, 28, 22, 0.94));
-  color: var(--gold-300);
+  color: var(--icon-gold);
   box-shadow:
     0 18px 34px rgba(8, 28, 21, 0.28),
     inset 0 0 0 1px rgba(255, 255, 255, 0.08);
@@ -4253,7 +4262,7 @@ body:not(.theme-light) .asha-chat__best {
   transform: translateY(-3px) scale(1.01);
   border-color: rgba(235, 200, 126, 0.84);
   background: radial-gradient(circle at 30% 30%, rgba(255, 250, 242, 0.22), transparent 42%), linear-gradient(180deg, rgba(22, 47, 37, 0.98), rgba(12, 28, 22, 0.98));
-  color: var(--gold-100);
+  color: var(--icon-gold);
   box-shadow: 0 26px 46px rgba(8, 28, 21, 0.34);
 }
 
@@ -4353,7 +4362,7 @@ body.theme-dark .btn::before {
 body.theme-dark .section-title__icon,
 body.theme-dark .journey-step__icon,
 body.theme-dark .page-map__icon {
-  color: var(--gold-300);
+  color: var(--icon-gold);
 }
 
 body.theme-dark .sidebar-card--map,
@@ -4374,7 +4383,7 @@ body.theme-dark .sidebar-card--map .page-map__title .section-title__icon,
 body.theme-dark .sidebar-card--map .page-map__icon,
 body:not(.theme-light) .sidebar-card--map .page-map__title .section-title__icon,
 body:not(.theme-light) .sidebar-card--map .page-map__icon {
-  color: var(--mint-200);
+  color: var(--icon-gold);
 }
 
 body.theme-dark .sidebar-card--map .page-map__link,
@@ -4723,6 +4732,7 @@ body.a11y-contrast .main-nav .navbar-toggler {
 }
 
 body.a11y-contrast .main-nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
   filter: none !important;
 }
 
@@ -5219,14 +5229,14 @@ body.site-root:not(.theme-light) {
   --shadow-sm: 0 20px 40px rgba(0, 0, 0, 0.26);
   --shadow-md: 0 32px 70px rgba(0, 0, 0, 0.34);
   --shadow-lg: 0 54px 104px rgba(0, 0, 0, 0.42);
-  --accent: #6b2235;
-  --accent-strong: #d9b9c1;
-  --accent-soft: rgba(107, 34, 53, 0.24);
-  --accent-wash: rgba(107, 34, 53, 0.22);
-  --accent-contrast: #fff7f8;
+  --accent: var(--logo-gold);
+  --accent-strong: var(--gold-100);
+  --accent-soft: rgba(200, 152, 50, 0.24);
+  --accent-wash: rgba(200, 152, 50, 0.18);
+  --accent-contrast: #2a1907;
   --secondary-accent: #1c4b3e;
   --secondary-soft: rgba(28, 75, 62, 0.24);
-  --sun-accent: #d4b48c;
+  --sun-accent: var(--logo-gold);
   --hero-top: rgba(28, 18, 22, 0.44);
   --hero-bottom: rgba(22, 16, 18, 0.82);
   --hero-side-left: rgba(43, 20, 29, 0.78);
@@ -5277,16 +5287,16 @@ body.site-root.theme-light {
   --text-soft: rgba(74, 74, 74, 0.74);
   --text-inverse: #f9f6f1;
   --heading-color: #211d1d;
-  --border-soft: rgba(107, 34, 53, 0.12);
-  --border-strong: rgba(107, 34, 53, 0.24);
-  --accent: #6b2235;
-  --accent-strong: #6b2235;
-  --accent-soft: rgba(107, 34, 53, 0.12);
-  --accent-wash: rgba(107, 34, 53, 0.08);
-  --accent-contrast: #fff8f8;
+  --border-soft: rgba(200, 152, 50, 0.12);
+  --border-strong: rgba(200, 152, 50, 0.24);
+  --accent: var(--logo-gold);
+  --accent-strong: #7b521c;
+  --accent-soft: rgba(200, 152, 50, 0.16);
+  --accent-wash: rgba(200, 152, 50, 0.1);
+  --accent-contrast: #2a1907;
   --secondary-accent: #1c4b3e;
   --secondary-soft: rgba(28, 75, 62, 0.12);
-  --sun-accent: #d4b48c;
+  --sun-accent: var(--logo-gold);
   --hero-top: rgba(41, 22, 29, 0.24);
   --hero-bottom: rgba(41, 22, 29, 0.62);
   --hero-side-left: rgba(107, 34, 53, 0.48);
@@ -5339,7 +5349,7 @@ body.site-root .hero-badge {
 
 body.site-root .hero-badge__icon,
 body.site-root .hero-panel-item__icon {
-  color: #d4b48c;
+  color: var(--lion-gold);
 }
 
 body.site-root .hero-panel--brand {
@@ -5382,11 +5392,11 @@ body.site-root .btn {
 body.site-root .btn-cta,
 body.site-root .btn-cta:visited,
 body.site-root .btn-primary {
-  color: #fff6f7;
-  background: linear-gradient(135deg, #8d314b 0%, #6b2235 56%, #521728 100%);
-  border-color: rgba(212, 180, 140, 0.24);
+  color: var(--lion-gold-ink);
+  background: var(--lion-gold-button);
+  border-color: rgba(200, 152, 50, 0.34);
   box-shadow:
-    0 24px 44px rgba(107, 34, 53, 0.28),
+    0 24px 44px rgba(122, 77, 22, 0.26),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -5394,8 +5404,12 @@ body.site-root .btn-cta:hover,
 body.site-root .btn-cta:focus-visible,
 body.site-root .btn-primary:hover,
 body.site-root .btn-primary:focus-visible {
-  color: #fff9fa;
-  background: linear-gradient(135deg, #9c3955 0%, #7c2940 56%, #5b1a2d 100%);
+  color: #241406;
+  background: var(--lion-gold-button-hover);
+  border-color: rgba(200, 152, 50, 0.48);
+  box-shadow:
+    0 30px 50px rgba(122, 77, 22, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
 body.site-root .btn-secondary,
@@ -5492,7 +5506,7 @@ body.site-root .sidebar-note {
 
 body.site-root .sidebar-card--map .page-map__title .section-title__icon,
 body.site-root .sidebar-card--map .page-map__icon {
-  color: #d4b48c;
+  color: var(--lion-gold);
 }
 
 body.site-root .sidebar-card--map .page-map__link {
@@ -5630,7 +5644,7 @@ body.site-root .quote-card p {
 body.site-root .section-title__icon,
 body.site-root .page-map__icon,
 body.site-root .footer-heading-icon {
-  color: #d4b48c;
+  color: var(--lion-gold);
 }
 
 body.site-root .utility-bar {
@@ -5713,9 +5727,10 @@ body.site-root .lang-link:focus-visible {
 
 body.site-root .utility-theme-button.is-active,
 body.site-root .lang-link.active {
-  background: linear-gradient(135deg, #8d314b 0%, #6b2235 56%, #521728 100%);
-  box-shadow: 0 14px 28px rgba(107, 34, 53, 0.24);
-  color: #fff7f8;
+  border-color: rgba(200, 152, 50, 0.34);
+  background: var(--lion-gold-button);
+  box-shadow: 0 14px 28px rgba(122, 77, 22, 0.24);
+  color: var(--lion-gold-ink);
 }
 
 body.site-root .utility-action--text {
@@ -5775,9 +5790,10 @@ body.site-root.theme-light .panel-close {
 }
 
 body.site-root .toggle-button.is-active {
-  background: linear-gradient(135deg, #8d314b 0%, #6b2235 56%, #521728 100%);
-  box-shadow: 0 18px 34px rgba(107, 34, 53, 0.24);
-  color: #fff8f8;
+  border-color: rgba(200, 152, 50, 0.34);
+  background: var(--lion-gold-button);
+  box-shadow: 0 18px 34px rgba(122, 77, 22, 0.24);
+  color: var(--lion-gold-ink);
 }
 
 body.site-root .main-nav {
@@ -5811,7 +5827,7 @@ body.site-root .main-nav .navbar-toggler-icon {
 }
 
 body.site-root:not(.theme-light) .main-nav .navbar-toggler-icon {
-  filter: invert(1);
+  filter: none;
 }
 
 body.site-root.theme-light .main-nav .navbar-toggler-icon {
@@ -5847,7 +5863,7 @@ body.site-root .main-nav .main-header__home:focus-visible {
 }
 
 body.site-root .navbar-nav--services .dropdown-toggle::after {
-  border-top-color: #d4b48c;
+  border-top-color: var(--lion-gold);
 }
 
 body.site-root .main-nav .dropdown-menu,
@@ -6291,7 +6307,7 @@ body.site-root .utility-support {
   grid-column: 2;
   justify-self: center;
   text-align: center;
-  color: rgba(245, 245, 245, 0.84);
+  color: rgba(200, 152, 50, 0.82);
   font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -6322,7 +6338,7 @@ body.site-root .utility-action--text {
   padding: 0.34rem 0.74rem;
   border: 1px solid transparent;
   border-radius: 999px;
-  color: rgba(245, 245, 245, 0.82);
+  color: var(--lion-gold);
   font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.11em;
@@ -6332,11 +6348,11 @@ body.site-root .utility-action--text {
 }
 
 body.site-root .lang-link.active {
-  color: #fff8f5;
-  border-color: rgba(212, 180, 140, 0.18);
-  background: linear-gradient(135deg, rgba(122, 41, 64, 0.98), rgba(86, 28, 46, 0.96));
+  color: var(--lion-gold-ink);
+  border-color: rgba(200, 152, 50, 0.34);
+  background: var(--lion-gold-button);
   box-shadow:
-    0 10px 24px rgba(63, 18, 34, 0.24),
+    0 10px 24px rgba(122, 77, 22, 0.22),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
@@ -6349,11 +6365,17 @@ body.site-root .lang-link:hover,
 body.site-root .lang-link:focus-visible,
 body.site-root .utility-action--text:hover,
 body.site-root .utility-action--text:focus-visible {
-  color: #fff8f5;
-  border-color: rgba(212, 180, 140, 0.28);
-  background: rgba(255, 255, 255, 0.06);
+  color: var(--lion-gold-soft);
+  border-color: rgba(200, 152, 50, 0.36);
+  background: rgba(200, 152, 50, 0.08);
   transform: translateY(-1px);
   text-decoration: none;
+}
+
+body.site-root .lang-link.active:hover,
+body.site-root .lang-link.active:focus-visible {
+  color: var(--lion-gold-ink);
+  background: var(--lion-gold-button-hover);
 }
 
 body.site-root .main-nav {
@@ -6384,8 +6406,8 @@ body.site-root .main-header__identity {
   align-items: flex-start;
 }
 
-body.site-root .brand-lockup {
-  gap: 0.2rem;
+body.site-root .main-nav .brand-lockup {
+  gap: 0.1rem;
 }
 
 body.site-root .brand-wordmark {
@@ -6416,6 +6438,11 @@ body.site-root .site-footer .brand-wordmark--inverse .brand-wordmark__line--bott
   color: #f6eee6;
 }
 
+body.site-root .main-nav .brand-wordmark__line--top,
+body.site-root .main-nav .brand-wordmark__line--bottom {
+  letter-spacing: -0.01em;
+}
+
 body.site-root .main-nav .brand-lockup__meta,
 body.site-root .main-nav .brand-lockup__meta small {
   display: block;
@@ -6434,12 +6461,17 @@ body.site-root .main-header__actions {
 body.site-root .main-header__cta {
   gap: 0.58rem;
   padding: 0.62rem 0.98rem;
-  border: 1px solid rgba(212, 180, 140, 0.22);
-  background: linear-gradient(135deg, #7a2940 0%, #6b2235 52%, #4d1727 100%);
+  border: 1px solid rgba(200, 152, 50, 0.34);
+  background: var(--lion-gold-button);
+  color: var(--lion-gold-ink);
   box-shadow:
-    0 18px 34px rgba(56, 17, 31, 0.32),
+    0 18px 34px rgba(122, 77, 22, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
   animation: none;
+}
+
+body.site-root .main-header__cta .main-header__cta-icon {
+  color: inherit;
 }
 
 body.site-root .main-header__cta-label {
@@ -6450,8 +6482,9 @@ body.site-root .main-header__cta-label {
 body.site-root .main-header__cta:hover,
 body.site-root .main-header__cta:focus-visible {
   transform: translateY(-1px);
+  background: var(--lion-gold-button-hover);
   box-shadow:
-    0 22px 40px rgba(56, 17, 31, 0.38),
+    0 22px 40px rgba(122, 77, 22, 0.38),
     inset 0 1px 0 rgba(255, 255, 255, 0.14);
 }
 
@@ -6476,16 +6509,21 @@ body.site-root .main-nav .dropdown-toggle,
 body.site-root .main-nav .main-header__home {
   padding: 0.38rem 0 0.48rem;
   border-bottom: 2px solid transparent;
-  color: rgba(245, 245, 245, 0.84);
+  color: var(--lion-gold);
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.03em;
 }
 
 body.site-root .main-nav .brand-lockup__meta small {
-  font-size: 0.58rem;
-  letter-spacing: 0.12em;
-  line-height: 1.32;
+  color: rgba(246, 238, 230, 0.8);
+  font-family: var(--font-display);
+  font-size: 0.64rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+  text-transform: none;
   white-space: nowrap;
 }
 
@@ -6495,8 +6533,8 @@ body.site-root .main-nav .dropdown.show > .nav-link,
 body.site-root .main-nav .dropdown.show > .dropdown-toggle,
 body.site-root .main-nav .main-header__home:hover,
 body.site-root .main-nav .main-header__home:focus-visible {
-  color: #fff8f5;
-  border-color: rgba(212, 180, 140, 0.78);
+  color: var(--lion-gold-soft);
+  border-color: rgba(200, 152, 50, 0.78);
 }
 
 body.site-root .main-header__home.is-active,
@@ -6505,8 +6543,8 @@ body.site-root .navbar-nav--services .dropdown-toggle.is-active,
 body.site-root .service-family-dropdown.is-active > .nav-link,
 body.site-root .service-family-dropdown.show > .nav-link,
 body.site-root .service-family-dropdown.show > .dropdown-toggle {
-  color: #fff8f5;
-  border-color: rgba(212, 180, 140, 0.88);
+  color: var(--lion-gold-soft);
+  border-color: rgba(200, 152, 50, 0.88);
 }
 
 body.site-root .navbar-nav--services .dropdown-toggle::after {
@@ -6657,7 +6695,7 @@ body.site-root .footer-grid.footer-grid--directory .footer-panel:not(.footer-bra
 body.site-root .footer-grid.footer-grid--directory .footer-panel:not(.footer-brand) a:focus-visible,
 body.site-root .footer-panel__group a:hover,
 body.site-root .footer-panel__group a:focus-visible {
-  color: #fff8f5;
+  color: var(--lion-gold-soft);
 }
 
 body.site-root .footer-contact-list,
@@ -6699,7 +6737,7 @@ body.site-root .footer-disclosure summary {
 }
 
 body.site-root .footer-disclosure summary::after {
-  color: #d4b48c;
+  color: var(--lion-gold);
   font-size: 1.1rem;
 }
 
@@ -6728,12 +6766,18 @@ body.site-root .footer-main-cta {
   align-items: center;
   justify-content: center;
   padding: 0.8rem 1.2rem;
-  border: 1px solid rgba(212, 180, 140, 0.22);
+  border: 1px solid rgba(200, 152, 50, 0.34);
   border-radius: 999px;
-  background: linear-gradient(135deg, #7a2940 0%, #6b2235 52%, #4d1727 100%);
-  color: #fff8f5;
+  background: var(--lion-gold-button);
+  color: var(--lion-gold-ink);
   text-decoration: none;
-  box-shadow: 0 18px 34px rgba(56, 17, 31, 0.28);
+  box-shadow: 0 18px 34px rgba(122, 77, 22, 0.28);
+}
+
+body.site-root .footer-main-cta:hover,
+body.site-root .footer-main-cta:focus-visible {
+  background: var(--lion-gold-button-hover);
+  color: #241406;
 }
 
 body.site-root .footer-search {
@@ -6762,11 +6806,11 @@ body.site-root .floating-whatsapp:focus-visible {
 }
 
 body.site-root .back-to-top {
-  border: 1px solid rgba(212, 180, 140, 0.26);
-  background: linear-gradient(135deg, rgba(107, 34, 53, 0.98), rgba(64, 22, 36, 0.96));
-  color: #f4d4a0;
+  border: 1px solid rgba(200, 152, 50, 0.34);
+  background: var(--lion-gold-button);
+  color: var(--lion-gold-ink);
   box-shadow:
-    0 18px 34px rgba(40, 16, 25, 0.34),
+    0 18px 34px rgba(122, 77, 22, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -6777,10 +6821,10 @@ body.site-root .back-to-top__icon {
 
 body.site-root .back-to-top:hover,
 body.site-root .back-to-top:focus-visible {
-  border-color: rgba(212, 180, 140, 0.42);
-  background: linear-gradient(135deg, rgba(122, 41, 64, 0.98), rgba(80, 28, 44, 0.98));
-  color: #fff2dc;
-  box-shadow: 0 24px 42px rgba(40, 16, 25, 0.4);
+  border-color: rgba(200, 152, 50, 0.48);
+  background: var(--lion-gold-button-hover);
+  color: #241406;
+  box-shadow: 0 24px 42px rgba(122, 77, 22, 0.34);
 }
 
 @media (max-width: 1199px) {
@@ -7075,8 +7119,11 @@ body.site-root .back-to-top:focus-visible {
    ========================================================================== */
 body.site-root {
   --lion-gold-soft: var(--gold-100);
-  --lion-gold: var(--gold-300);
+  --lion-gold: var(--logo-gold);
   --lion-gold-deep: var(--gold-700);
+  --lion-gold-ink: #2e1a07;
+  --lion-gold-button: linear-gradient(135deg, #f8e4b7 0%, #ddb25a 48%, #c89832 100%);
+  --lion-gold-button-hover: linear-gradient(135deg, #fbecc9 0%, #e5bd67 48%, #d1a043 100%);
 }
 
 body.site-root a {
@@ -7197,7 +7244,7 @@ body.site-root .main-header__consult-prompt::after {
 }
 
 body.site-root .main-header__consult-kicker {
-  color: rgba(245, 236, 219, 0.56);
+  color: rgba(200, 152, 50, 0.74);
   font-size: 0.54rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -7324,7 +7371,7 @@ body.site-root .mobile-nav-consult {
 }
 
 body.site-root .mobile-nav-home {
-  color: rgba(245, 236, 219, 0.84);
+  color: var(--lion-gold);
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -7332,7 +7379,7 @@ body.site-root .mobile-nav-home {
 }
 
 body.site-root .mobile-nav-home.is-active {
-  color: var(--lion-gold);
+  color: var(--lion-gold-soft);
 }
 
 body.site-root .mobile-nav-consult {
@@ -8566,25 +8613,71 @@ body.site-root .home-next-step__actions {
   align-items: center;
 }
 
+body.site-root.page-home .site-disclaimer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem 0.45rem;
+  margin-top: clamp(0.7rem, 1.4vw, 1rem);
+  padding: 0.22rem 0.55rem;
+  border: 0;
+  border-top: 1px solid rgba(200, 152, 50, 0.18);
+  border-bottom: 1px solid rgba(200, 152, 50, 0.1);
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  box-shadow: none;
+  color: rgba(247, 241, 230, 0.62);
+  font-size: clamp(0.48rem, 0.46rem + 0.06vw, 0.54rem);
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+}
+
+body.site-root.page-home .site-disclaimer p {
+  display: inline;
+}
+
+body.site-root.page-home .site-disclaimer p + p {
+  margin-top: 0;
+}
+
+body.site-root.page-home .site-disclaimer p + p::before {
+  content: "•";
+  display: inline-block;
+  margin: 0 0.34rem 0 0.04rem;
+  color: rgba(200, 152, 50, 0.48);
+}
+
+body.site-root.page-home.theme-light .site-disclaimer {
+  border-top-color: rgba(123, 82, 28, 0.16);
+  border-bottom-color: rgba(123, 82, 28, 0.09);
+  background: linear-gradient(180deg, rgba(123, 82, 28, 0.03), rgba(123, 82, 28, 0));
+  color: rgba(56, 40, 24, 0.76);
+}
+
+body.site-root.page-home.theme-light .site-disclaimer p + p::before {
+  color: rgba(123, 82, 28, 0.4);
+}
+
 body.site-root {
-  --home-icon-scale: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4v16'/%3E%3Cpath d='M5 7h14'/%3E%3Cpath d='M7 7l-3 5h6l-3-5z'/%3E%3Cpath d='M17 7l-3 5h6l-3-5z'/%3E%3Cpath d='M9.5 19h5'/%3E%3C/svg%3E");
-  --home-icon-globe: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M12 4a12 12 0 0 1 0 16'/%3E%3Cpath d='M12 4a12 12 0 0 0 0 16'/%3E%3C/svg%3E");
-  --home-icon-message: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 11.5A7.5 7.5 0 0 1 12.5 19H8l-4 2 1.3-3.3A7.5 7.5 0 0 1 12 4a8 8 0 0 1 8 7.5z'/%3E%3Cpath d='M8.5 11.5h7'/%3E%3Cpath d='M8.5 14.5H13'/%3E%3C/svg%3E");
-  --home-icon-compass: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M14.8 9.2l-2 5.6-5.6 2 2-5.6 5.6-2z'/%3E%3C/svg%3E");
-  --home-icon-file: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3.5h6l4 4V20a1 1 0 0 1-1 1H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z'/%3E%3Cpath d='M14 3.5V8h4'/%3E%3Cpath d='M9 12h6'/%3E%3Cpath d='M9 16h6'/%3E%3C/svg%3E");
-  --home-icon-shield: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12.5l1.7 1.7 3.3-3.4'/%3E%3C/svg%3E");
-  --home-icon-calendar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='5.5' width='16' height='14' rx='2'/%3E%3Cpath d='M8 3.5v4'/%3E%3Cpath d='M16 3.5v4'/%3E%3Cpath d='M4 9.5h16'/%3E%3C/svg%3E");
-  --home-icon-badge: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12l1.6 1.6 3.4-3.6'/%3E%3C/svg%3E");
-  --home-icon-briefcase: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='7' width='16' height='11' rx='2'/%3E%3Cpath d='M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7'/%3E%3Cpath d='M4 11h16'/%3E%3C/svg%3E");
-  --home-icon-passport: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='6' y='4' width='12' height='16' rx='2'/%3E%3Cpath d='M9 4v16'/%3E%3Ccircle cx='13' cy='10' r='2.4'/%3E%3Cpath d='M10.8 10h4.4'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 1 0 4.8'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 0 0 4.8'/%3E%3C/svg%3E");
-  --home-icon-house: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 11.5L12 5l8 6.5'/%3E%3Cpath d='M6.5 10.5V19h11v-8.5'/%3E%3Cpath d='M10 19v-4.5h4V19'/%3E%3C/svg%3E");
-  --home-icon-spark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l1.9 4.9L19 9.8l-4.1 3.2 1.4 5L12 15.2 7.7 18l1.4-5L5 9.8l5.1-1.9L12 3z'/%3E%3C/svg%3E");
-  --home-icon-alert: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4l8 14H4L12 4z'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 16h.01'/%3E%3C/svg%3E");
-  --home-icon-folder: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 7.5A2.5 2.5 0 0 1 6 5h4l2 2h6a2.5 2.5 0 0 1 2.5 2.5V17A2.5 2.5 0 0 1 18 19.5H6A2.5 2.5 0 0 1 3.5 17V7.5z'/%3E%3C/svg%3E");
-  --home-icon-map: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6.5l5-2 6 2 5-2v13l-5 2-6-2-5 2v-13z'/%3E%3Cpath d='M9 4.5v13'/%3E%3Cpath d='M15 6.5v13'/%3E%3C/svg%3E");
-  --home-icon-city: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20h16'/%3E%3Cpath d='M6 20V9l5-2v13'/%3E%3Cpath d='M11 20V5l7 3v12'/%3E%3Cpath d='M8 12h.01'/%3E%3Cpath d='M8 15h.01'/%3E%3Cpath d='M14 10h.01'/%3E%3Cpath d='M14 13h.01'/%3E%3C/svg%3E");
-  --home-icon-heart: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z'/%3E%3C/svg%3E");
-  --home-icon-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d2a63c' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M13 6l6 6-6 6'/%3E%3C/svg%3E");
+  --home-icon-scale: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4v16'/%3E%3Cpath d='M5 7h14'/%3E%3Cpath d='M7 7l-3 5h6l-3-5z'/%3E%3Cpath d='M17 7l-3 5h6l-3-5z'/%3E%3Cpath d='M9.5 19h5'/%3E%3C/svg%3E");
+  --home-icon-globe: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M4 12h16'/%3E%3Cpath d='M12 4a12 12 0 0 1 0 16'/%3E%3Cpath d='M12 4a12 12 0 0 0 0 16'/%3E%3C/svg%3E");
+  --home-icon-message: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 11.5A7.5 7.5 0 0 1 12.5 19H8l-4 2 1.3-3.3A7.5 7.5 0 0 1 12 4a8 8 0 0 1 8 7.5z'/%3E%3Cpath d='M8.5 11.5h7'/%3E%3Cpath d='M8.5 14.5H13'/%3E%3C/svg%3E");
+  --home-icon-compass: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='8'/%3E%3Cpath d='M14.8 9.2l-2 5.6-5.6 2 2-5.6 5.6-2z'/%3E%3C/svg%3E");
+  --home-icon-file: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3.5h6l4 4V20a1 1 0 0 1-1 1H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z'/%3E%3Cpath d='M14 3.5V8h4'/%3E%3Cpath d='M9 12h6'/%3E%3Cpath d='M9 16h6'/%3E%3C/svg%3E");
+  --home-icon-shield: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12.5l1.7 1.7 3.3-3.4'/%3E%3C/svg%3E");
+  --home-icon-calendar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='5.5' width='16' height='14' rx='2'/%3E%3Cpath d='M8 3.5v4'/%3E%3Cpath d='M16 3.5v4'/%3E%3Cpath d='M4 9.5h16'/%3E%3C/svg%3E");
+  --home-icon-badge: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l6 3v6c0 4.2-2.6 7.7-6 9-3.4-1.3-6-4.8-6-9V6l6-3z'/%3E%3Cpath d='M9.5 12l1.6 1.6 3.4-3.6'/%3E%3C/svg%3E");
+  --home-icon-briefcase: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='4' y='7' width='16' height='11' rx='2'/%3E%3Cpath d='M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7'/%3E%3Cpath d='M4 11h16'/%3E%3C/svg%3E");
+  --home-icon-passport: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='6' y='4' width='12' height='16' rx='2'/%3E%3Cpath d='M9 4v16'/%3E%3Ccircle cx='13' cy='10' r='2.4'/%3E%3Cpath d='M10.8 10h4.4'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 1 0 4.8'/%3E%3Cpath d='M13 7.6a3.8 3.8 0 0 0 0 4.8'/%3E%3C/svg%3E");
+  --home-icon-house: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 11.5L12 5l8 6.5'/%3E%3Cpath d='M6.5 10.5V19h11v-8.5'/%3E%3Cpath d='M10 19v-4.5h4V19'/%3E%3C/svg%3E");
+  --home-icon-spark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l1.9 4.9L19 9.8l-4.1 3.2 1.4 5L12 15.2 7.7 18l1.4-5L5 9.8l5.1-1.9L12 3z'/%3E%3C/svg%3E");
+  --home-icon-alert: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 4l8 14H4L12 4z'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 16h.01'/%3E%3C/svg%3E");
+  --home-icon-folder: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 7.5A2.5 2.5 0 0 1 6 5h4l2 2h6a2.5 2.5 0 0 1 2.5 2.5V17A2.5 2.5 0 0 1 18 19.5H6A2.5 2.5 0 0 1 3.5 17V7.5z'/%3E%3C/svg%3E");
+  --home-icon-map: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6.5l5-2 6 2 5-2v13l-5 2-6-2-5 2v-13z'/%3E%3Cpath d='M9 4.5v13'/%3E%3Cpath d='M15 6.5v13'/%3E%3C/svg%3E");
+  --home-icon-city: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 20h16'/%3E%3Cpath d='M6 20V9l5-2v13'/%3E%3Cpath d='M11 20V5l7 3v12'/%3E%3Cpath d='M8 12h.01'/%3E%3Cpath d='M8 15h.01'/%3E%3Cpath d='M14 10h.01'/%3E%3Cpath d='M14 13h.01'/%3E%3C/svg%3E");
+  --home-icon-heart: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z'/%3E%3C/svg%3E");
+  --home-icon-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c89832' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M13 6l6 6-6 6'/%3E%3C/svg%3E");
 }
 
 body.site-root .page-home-atlas {
@@ -9254,6 +9347,19 @@ body.site-root.theme-light .home-proof-media {
   body.site-root .home-brazil-cluster__body ul {
     grid-template-columns: 1fr;
   }
+
+  body.site-root.page-home .site-disclaimer {
+    justify-content: flex-start;
+    gap: 0.12rem 0.3rem;
+    padding: 0.22rem 0;
+    font-size: 0.46rem;
+    line-height: 1.14;
+    text-align: left;
+  }
+
+  body.site-root.page-home .site-disclaimer p + p::before {
+    margin: 0 0.28rem 0 0.04rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -9312,5 +9418,801 @@ body.site-root.theme-light .home-proof-media {
 
   body.site-root .footer-grid.footer-grid--directory .footer-panel--stacked {
     grid-column: span 2;
+  }
+}
+
+/* ==========================================================================
+   58. Nina Concierge
+   Premium floating route-guidance widget shared across the site.
+   ========================================================================== */
+.floating-whatsapp--concierge,
+body.site-root .floating-whatsapp--concierge {
+  --nina-text: #f8efe2;
+  --nina-muted: rgba(248, 239, 226, 0.76);
+  --nina-subtle: rgba(248, 239, 226, 0.58);
+  --nina-border: rgba(236, 201, 157, 0.16);
+  --nina-border-strong: rgba(236, 201, 157, 0.28);
+  --nina-panel: linear-gradient(180deg, rgba(13, 25, 37, 0.98), rgba(7, 18, 28, 0.98));
+  --nina-card: linear-gradient(180deg, rgba(21, 38, 53, 0.94), rgba(14, 28, 40, 0.94));
+  --nina-card-soft: rgba(20, 35, 48, 0.88);
+  --nina-launcher: linear-gradient(135deg, rgba(18, 38, 56, 0.98), rgba(9, 22, 33, 0.98));
+  --nina-highlight: #f0c68c;
+  --nina-emerald: #73d9a5;
+  --nina-shadow: 0 28px 60px rgba(5, 14, 23, 0.42);
+  --nina-glow: 0 0 0 1px rgba(255, 255, 255, 0.04), 0 10px 26px rgba(9, 30, 45, 0.28);
+  position: fixed;
+  right: 1rem;
+  bottom: 10.35rem;
+  z-index: 1060;
+  display: grid;
+  justify-items: end;
+  gap: 0;
+  width: auto;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--nina-text);
+  text-decoration: none;
+  backdrop-filter: none;
+  animation: none;
+  overflow: visible !important;
+  align-items: end;
+  justify-content: end;
+}
+
+.floating-whatsapp--direct .floating-whatsapp__icon {
+  width: 2.55rem;
+  height: 2.55rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.floating-whatsapp--direct .floating-whatsapp__avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  background: transparent;
+  transform: scale(1.33);
+  transform-origin: center;
+}
+
+body.theme-light .floating-whatsapp--concierge,
+body.site-root.theme-light .floating-whatsapp--concierge {
+  --nina-text: #1f2530;
+  --nina-muted: rgba(31, 37, 48, 0.76);
+  --nina-subtle: rgba(31, 37, 48, 0.56);
+  --nina-border: rgba(114, 92, 66, 0.18);
+  --nina-border-strong: rgba(114, 92, 66, 0.28);
+  --nina-panel: linear-gradient(180deg, rgba(255, 250, 242, 0.98), rgba(247, 240, 231, 0.98));
+  --nina-card: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(247, 241, 233, 0.95));
+  --nina-card-soft: rgba(255, 255, 255, 0.94);
+  --nina-launcher: linear-gradient(135deg, rgba(255, 251, 245, 0.98), rgba(243, 236, 226, 0.98));
+  --nina-highlight: #936129;
+  --nina-emerald: #0d7d53;
+  --nina-shadow: 0 24px 50px rgba(74, 58, 40, 0.18);
+  --nina-glow: 0 0 0 1px rgba(255, 255, 255, 0.4), 0 10px 26px rgba(111, 85, 54, 0.12);
+}
+
+.floating-whatsapp--concierge::before,
+.floating-whatsapp--concierge::after,
+body.site-root .floating-whatsapp--concierge::before,
+body.site-root .floating-whatsapp--concierge::after {
+  display: none !important;
+  content: none;
+}
+
+.floating-whatsapp--concierge:not(:has(.floating-whatsapp__icon)) {
+  overflow: visible;
+}
+
+.floating-whatsapp--concierge .nina-concierge__launcher {
+  position: relative;
+  width: 3.78rem;
+  height: 3.78rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid rgba(240, 198, 140, 0.28);
+  border-radius: 50%;
+  background: linear-gradient(160deg, rgba(12, 25, 37, 0.98), rgba(7, 18, 28, 0.98));
+  color: var(--nina-text);
+  box-shadow: 0 18px 36px rgba(5, 14, 23, 0.32);
+  overflow: hidden;
+  cursor: pointer;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease,
+    background-color 220ms ease;
+}
+
+.floating-whatsapp--concierge .nina-concierge__launcher:hover,
+.floating-whatsapp--concierge .nina-concierge__launcher:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(240, 198, 140, 0.42);
+  box-shadow:
+    0 24px 44px rgba(5, 14, 23, 0.36),
+    0 0 0 0.3rem rgba(240, 198, 140, 0.08);
+}
+
+.floating-whatsapp--concierge .nina-concierge__launcher-image,
+.floating-whatsapp--concierge .nina-concierge__hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  padding: 0.12rem;
+  background: radial-gradient(circle at 32% 22%, rgba(255, 255, 255, 0.18), transparent 44%), rgba(8, 18, 28, 0.6);
+}
+
+.floating-whatsapp--concierge .nina-concierge__launcher-status {
+  position: absolute;
+  right: 0.22rem;
+  bottom: 0.22rem;
+  width: 0.84rem;
+  height: 0.84rem;
+  border: 2px solid rgba(7, 18, 28, 0.96);
+  border-radius: 50%;
+  background: #74c69d;
+  box-shadow: 0 0 0 0.15rem rgba(116, 198, 157, 0.2);
+}
+
+.floating-whatsapp--concierge .nina-concierge__launcher-arrow svg,
+.floating-whatsapp--concierge .nina-concierge__close svg,
+.floating-whatsapp--concierge .nina-concierge__option-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.floating-whatsapp--concierge .nina-concierge__panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.78rem);
+  width: min(22.5rem, calc(100vw - 1.25rem));
+  max-width: calc(100vw - 0.9rem);
+  max-height: min(38rem, calc(100dvh - 2rem));
+  opacity: 0;
+  transform: translateY(14px) scale(0.985);
+  transform-origin: bottom right;
+  pointer-events: none;
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.floating-whatsapp--concierge.is-live .nina-concierge__panel {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.floating-whatsapp--concierge .nina-concierge__shell {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  max-height: inherit;
+  overflow: hidden;
+  border: 1px solid var(--nina-border-strong);
+  border-radius: 1.35rem;
+  background: var(--nina-panel);
+  box-shadow: var(--nina-shadow);
+}
+
+.floating-whatsapp--concierge .nina-concierge__header,
+.floating-whatsapp--concierge .nina-concierge__footer {
+  padding: 0.92rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.9rem;
+  border-bottom: 1px solid var(--nina-border);
+}
+
+.floating-whatsapp--concierge .nina-concierge__identity {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.85rem;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__hero-image {
+  width: 2.8rem;
+  height: 2.8rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(240, 198, 140, 0.2);
+  box-shadow: 0 12px 28px rgba(7, 18, 28, 0.24);
+}
+
+.floating-whatsapp--concierge .nina-concierge__eyebrow {
+  margin: 0 0 0.22rem;
+  color: var(--nina-highlight);
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.floating-whatsapp--concierge .nina-concierge__header h2,
+.floating-whatsapp--concierge .nina-concierge__recommendations-head h3 {
+  margin: 0;
+  color: var(--nina-text);
+  font-size: clamp(0.98rem, 0.94rem + 0.22vw, 1.16rem);
+  line-height: 1.12;
+}
+
+.floating-whatsapp--concierge .nina-concierge__subhead,
+.floating-whatsapp--concierge .nina-concierge__recommendations-head p,
+.floating-whatsapp--concierge .nina-concierge__search-note,
+.floating-whatsapp--concierge .nina-concierge__result p,
+.floating-whatsapp--concierge .nina-concierge__result small {
+  color: var(--nina-muted);
+}
+
+.floating-whatsapp--concierge .nina-concierge__subhead {
+  margin: 0.28rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.floating-whatsapp--concierge .nina-concierge__close,
+.floating-whatsapp--concierge .nina-concierge__reset {
+  border: 0;
+  background: transparent;
+  color: var(--nina-subtle);
+  cursor: pointer;
+}
+
+.floating-whatsapp--concierge .nina-concierge__close {
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--nina-border);
+  background: var(--nina-card-soft);
+  color: var(--icon-gold);
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.floating-whatsapp--concierge .nina-concierge__close:hover,
+.floating-whatsapp--concierge .nina-concierge__close:focus-visible,
+.floating-whatsapp--concierge .nina-concierge__reset:hover,
+.floating-whatsapp--concierge .nina-concierge__reset:focus-visible {
+  color: var(--nina-text);
+  border-color: var(--nina-border-strong);
+}
+
+.floating-whatsapp--concierge .nina-concierge__close:hover,
+.floating-whatsapp--concierge .nina-concierge__close:focus-visible,
+.floating-whatsapp--concierge .nina-concierge__launcher-arrow,
+.floating-whatsapp--concierge .nina-concierge__option-icon {
+  color: var(--icon-gold);
+}
+
+.floating-whatsapp--concierge .nina-concierge__body {
+  display: grid;
+  gap: 1rem;
+  min-height: 0;
+  max-height: min(26rem, calc(100dvh - 11rem));
+  padding: 0.8rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
+}
+
+.floating-whatsapp--concierge .nina-concierge__transcript {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__bubble {
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 1.1rem;
+  background: var(--nina-card);
+  color: var(--nina-text);
+  line-height: 1.5;
+  box-shadow: var(--nina-glow);
+  overflow-wrap: anywhere;
+}
+
+.floating-whatsapp--concierge .nina-concierge__bubble--user {
+  margin-left: auto;
+  background: linear-gradient(180deg, rgba(102, 58, 39, 0.95), rgba(66, 35, 27, 0.95));
+  border-color: rgba(227, 175, 122, 0.24);
+}
+
+.floating-whatsapp--concierge .nina-concierge__bubble--note {
+  color: var(--nina-subtle);
+  font-size: 0.88rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__bubble--typing::after {
+  content: "";
+  display: inline-block;
+  width: 0.55ch;
+  height: 1.05em;
+  margin-left: 0.08rem;
+  vertical-align: -0.12em;
+  border-right: 2px solid currentColor;
+  animation: nina-cursor 900ms steps(1, end) infinite;
+}
+
+.floating-whatsapp--concierge .nina-concierge__prompt-shell,
+.floating-whatsapp--concierge .nina-concierge__recommendations,
+.floating-whatsapp--concierge .nina-concierge__lead-shell,
+.floating-whatsapp--concierge .nina-concierge__search-shell,
+.floating-whatsapp--concierge .nina-concierge__search-results {
+  display: grid;
+  gap: 0.8rem;
+  padding: 0.88rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 1.1rem;
+  background: var(--nina-card-soft);
+}
+
+.floating-whatsapp--concierge .nina-concierge__prompt-label,
+.floating-whatsapp--concierge .nina-concierge__search label {
+  margin: 0;
+  color: var(--nina-text);
+  font-family: var(--font-label);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.floating-whatsapp--concierge .nina-concierge__options {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.85rem;
+  align-items: flex-start;
+  padding: 0.82rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 1rem;
+  background: var(--nina-card);
+  color: var(--nina-text);
+  text-align: left;
+  box-shadow: var(--nina-glow);
+  cursor: pointer;
+  min-width: 0;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.floating-whatsapp--concierge .nina-concierge__option:hover,
+.floating-whatsapp--concierge .nina-concierge__option:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(240, 198, 140, 0.34);
+  box-shadow: 0 18px 34px rgba(5, 14, 23, 0.3);
+}
+
+.floating-whatsapp--concierge .nina-concierge__option-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  padding: 0.48rem;
+  border-radius: 0.85rem;
+  background: linear-gradient(160deg, rgba(126, 211, 167, 0.18), rgba(57, 116, 161, 0.18));
+  flex-shrink: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__option-copy {
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__option-copy strong,
+.floating-whatsapp--concierge .nina-concierge__result strong {
+  color: var(--nina-text);
+  font-size: 0.98rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__option-copy small,
+.floating-whatsapp--concierge .nina-concierge__result small,
+.floating-whatsapp--concierge .nina-concierge__search-status p + p {
+  color: var(--nina-muted);
+  line-height: 1.45;
+}
+
+.floating-whatsapp--concierge .nina-concierge__results {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__result {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.82rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 1rem;
+  background: var(--nina-card);
+}
+
+.floating-whatsapp--concierge .nina-concierge__result-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.floating-whatsapp--concierge .nina-concierge__family,
+.floating-whatsapp--concierge .nina-concierge__best {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.7rem;
+  padding: 0.16rem 0.62rem;
+  border-radius: 999px;
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.floating-whatsapp--concierge .nina-concierge__family {
+  border: 1px solid rgba(115, 217, 165, 0.18);
+  background: rgba(115, 217, 165, 0.12);
+  color: var(--nina-emerald);
+}
+
+.floating-whatsapp--concierge .nina-concierge__best {
+  border: 1px solid rgba(240, 198, 140, 0.2);
+  background: rgba(240, 198, 140, 0.12);
+  color: var(--nina-highlight);
+}
+
+.floating-whatsapp--concierge .nina-concierge__result strong a {
+  color: var(--nina-text);
+  text-decoration: none;
+}
+
+.floating-whatsapp--concierge .nina-concierge__result strong a:hover,
+.floating-whatsapp--concierge .nina-concierge__result strong a:focus-visible {
+  color: var(--nina-highlight);
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-head {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-head h3,
+.floating-whatsapp--concierge .nina-concierge__lead-head p {
+  margin: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-form {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.floating-whatsapp--concierge .nina-concierge__field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__field span,
+.floating-whatsapp--concierge .nina-concierge__lead-status {
+  margin: 0;
+  color: var(--nina-text);
+  font-family: var(--font-label);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.floating-whatsapp--concierge .nina-concierge__field-input {
+  width: 100%;
+  min-width: 0;
+  padding: 0.8rem 0.92rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 0.88rem;
+  background: var(--nina-card);
+  color: var(--nina-text);
+  font: inherit;
+}
+
+.floating-whatsapp--concierge .nina-concierge__field-input::placeholder {
+  color: var(--nina-subtle);
+}
+
+.floating-whatsapp--concierge .nina-concierge__field-input:focus-visible {
+  outline: 3px solid rgba(240, 198, 140, 0.18);
+  outline-offset: 2px;
+  border-color: rgba(240, 198, 140, 0.34);
+}
+
+.floating-whatsapp--concierge .nina-concierge__field-input--textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.floating-whatsapp--concierge .nina-concierge__lead-status {
+  color: var(--nina-muted);
+  line-height: 1.45;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.7rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-input {
+  width: 100%;
+  min-width: 0;
+  padding: 0.8rem 0.92rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 0.88rem;
+  background: var(--nina-card);
+  color: var(--nina-text);
+  font: inherit;
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-input::placeholder {
+  color: var(--nina-subtle);
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-input:focus-visible {
+  outline: 3px solid rgba(240, 198, 140, 0.18);
+  outline-offset: 2px;
+  border-color: rgba(240, 198, 140, 0.34);
+}
+
+.floating-whatsapp--concierge .nina-concierge__suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__suggestion {
+  padding: 0.52rem 0.8rem;
+  border: 1px solid var(--nina-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--nina-text);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 180ms ease, transform 180ms ease, background-color 180ms ease;
+}
+
+.floating-whatsapp--concierge .nina-concierge__suggestion:hover,
+.floating-whatsapp--concierge .nina-concierge__suggestion:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(240, 198, 140, 0.3);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-status {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.floating-whatsapp--concierge .nina-concierge__search-status p,
+.floating-whatsapp--concierge .nina-concierge__result p,
+.floating-whatsapp--concierge .nina-concierge__result small {
+  margin: 0;
+}
+
+.floating-whatsapp--concierge .nina-concierge__footer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  border-top: 1px solid var(--nina-border);
+  align-items: center;
+}
+
+.floating-whatsapp--concierge .nina-concierge__footer .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.floating-whatsapp--concierge .nina-concierge__reset {
+  grid-column: 1 / -1;
+  justify-self: center;
+  padding: 0.2rem 0.5rem;
+  color: var(--nina-subtle);
+  font-family: var(--font-label);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.floating-whatsapp--concierge.is-nudging .nina-concierge__launcher {
+  animation: nina-concierge-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes nina-concierge-pulse {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: var(--nina-shadow);
+  }
+
+  50% {
+    transform: translateY(-2px);
+    box-shadow:
+      0 34px 70px rgba(5, 14, 23, 0.5),
+      0 0 0 8px rgba(115, 217, 165, 0.08);
+  }
+}
+
+@keyframes nina-cursor {
+  0%,
+  49% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+body.a11y-contrast .floating-whatsapp--concierge,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__launcher,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__shell,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__prompt-shell,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__recommendations,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__lead-shell,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__search-shell,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__search-results,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__bubble,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__option,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__result,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__field-input,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__search-input,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__suggestion,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__close {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+  box-shadow: none !important;
+}
+
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__teaser,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__launcher-copy small,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__subhead,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__lead-head p,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__lead-head h3,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__field span,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__lead-status,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__search-note,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__result p,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__result small {
+  color: #000000 !important;
+}
+
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__option-icon,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__launcher,
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__hero-image {
+  background: #ffffff !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+}
+
+body.a11y-contrast .floating-whatsapp--concierge .nina-concierge__launcher-status {
+  border-color: #ffffff !important;
+  background: #000000 !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .floating-whatsapp--concierge,
+  body.site-root .floating-whatsapp--concierge {
+    right: 0.75rem;
+    bottom: 10.15rem;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__panel {
+    width: min(24.5rem, calc(100vw - 2rem));
+    max-height: min(39rem, calc(100dvh - 2rem));
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__body {
+    max-height: min(27rem, calc(100dvh - 11.5rem));
+  }
+}
+
+@media (max-width: 767px) {
+  .floating-whatsapp--concierge,
+  body.site-root .floating-whatsapp--concierge {
+    right: 0.5rem;
+    bottom: 9.95rem;
+    width: auto;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__launcher {
+    width: 3.48rem;
+    height: 3.48rem;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__panel {
+    width: min(23.5rem, calc(100vw - 1rem));
+    max-width: calc(100vw - 1rem);
+    max-height: min(35rem, calc(100dvh - 1rem));
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__search-row,
+  .floating-whatsapp--concierge .nina-concierge__footer {
+    grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__lead-grid--two {
+    grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__header,
+  .floating-whatsapp--concierge .nina-concierge__footer {
+    padding: 0.8rem;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__body {
+    gap: 0.85rem;
+    padding: 0.72rem;
+    max-height: min(24rem, calc(100dvh - 10.5rem));
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__option {
+    gap: 0.72rem;
+    padding: 0.76rem;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__option-icon {
+    width: 2.15rem;
+    height: 2.15rem;
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__hero-image {
+    width: 2.45rem;
+    height: 2.45rem;
+  }
+}
+
+@media (max-height: 760px) {
+  .floating-whatsapp--concierge .nina-concierge__panel {
+    max-height: calc(100dvh - 0.75rem);
+  }
+
+  .floating-whatsapp--concierge .nina-concierge__body {
+    max-height: calc(100dvh - 9.75rem);
   }
 }

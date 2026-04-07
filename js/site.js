@@ -48,6 +48,8 @@
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l5-2v14H4Zm7 0V4l7 3v13h-7Zm2-11v2h2V9h-2Zm0 4v2h2v-2h-2ZM6 10v2h1v-2H6Zm0 4v2h1v-2H6Z" fill="currentColor"/></svg>',
     coin:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4.42 0 8 1.79 8 4s-3.58 4-8 4-8-1.79-8-4 3.58-4 8-4Zm-8 6v4c0 2.21 3.58 4 8 4s8-1.79 8-4V9c-1.74 1.34-4.71 2-8 2s-6.26-.66-8-2Zm0 6v2c0 2.21 3.58 4 8 4s8-1.79 8-4v-2c-1.74 1.34-4.71 2-8 2s-6.26-.66-8-2Z" fill="currentColor"/></svg>',
+    calendar:
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h2a2 2 0 0 1 2 2v13a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2h2V2Zm12 8H5v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9ZM5 8h14V6H5v2Zm3 4h3v3H8v-3Z" fill="currentColor"/></svg>',
     compass: pageMapCompassIcon,
     document:
       '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7V3Zm2 2v14h8V9h-4V5H9Zm2 7h4v2h-4v-2Zm0 4h4v2h-4v-2Zm0-8h1v2h-1V8Z" fill="currentColor"/></svg>',
@@ -87,6 +89,7 @@
     check: { background: "rgba(59, 107, 86, 0.24)", color: "#a6e5bf" },
     city: { background: "rgba(75, 93, 135, 0.24)", color: "#c3d4ff" },
     coin: { background: "rgba(133, 97, 40, 0.24)", color: "#ffd47d" },
+    calendar: { background: "rgba(101, 83, 131, 0.24)", color: "#d8c5ff" },
     compass: { background: "rgba(67, 97, 132, 0.24)", color: "#bcd8ff" },
     document: { background: "rgba(114, 93, 69, 0.24)", color: "#efd8bb" },
     family: { background: "rgba(117, 73, 95, 0.24)", color: "#f3bfd7" },
@@ -103,7 +106,58 @@
     user: { background: "rgba(97, 69, 84, 0.24)", color: "#f4c8d8" },
     workflow: { background: "rgba(63, 95, 126, 0.24)", color: "#bcd8ff" }
   };
-  const iconCycle = ["compass", "book", "chat", "passport", "shield", "map", "coin", "award", "guide", "star", "workflow", "family"];
+  const iconCycle = [
+    "compass",
+    "balance",
+    "document",
+    "chat",
+    "passport",
+    "shield",
+    "map",
+    "globe",
+    "coin",
+    "award",
+    "guide",
+    "calendar",
+    "workflow",
+    "family",
+    "home",
+    "city",
+    "archive",
+    "news",
+    "heart",
+    "user",
+    "link",
+    "book",
+    "star",
+    "check"
+  ];
+  const iconAlternatives = {
+    archive: ["document", "calendar", "link", "book"],
+    award: ["star", "check", "user"],
+    balance: ["shield", "document", "guide", "award"],
+    book: ["guide", "document", "news", "archive"],
+    calendar: ["guide", "archive", "document", "news"],
+    chat: ["globe", "user", "guide", "workflow"],
+    check: ["shield", "award", "document", "workflow"],
+    city: ["map", "globe", "home"],
+    coin: ["award", "document", "guide"],
+    compass: ["guide", "map", "globe", "workflow"],
+    document: ["workflow", "book", "archive", "link"],
+    family: ["heart", "user", "home"],
+    globe: ["map", "link", "guide", "home"],
+    guide: ["calendar", "workflow", "compass", "book"],
+    heart: ["family", "chat", "globe"],
+    home: ["map", "family", "globe"],
+    link: ["document", "guide", "globe", "map"],
+    map: ["globe", "city", "compass", "home"],
+    news: ["book", "archive", "document"],
+    passport: ["compass", "document", "globe", "guide"],
+    shield: ["balance", "check", "award", "document"],
+    star: ["award", "heart", "guide"],
+    user: ["chat", "family", "award"],
+    workflow: ["document", "guide", "compass", "link"]
+  };
 
   /* ==========================================================================
    * 03. Config and Analytics Helpers
@@ -643,33 +697,68 @@
    * Replaces repeated generic SVGs with context-aware icons after partial load.
    * ========================================================================== */
   function initIconRefresh() {
+    const pageUsed = new Set(
+      [...document.querySelectorAll("[data-itb-icon-key]")]
+        .map((node) => node.dataset.itbIconKey)
+        .filter(Boolean)
+    );
+
+    function normalizeIconLabel(label) {
+      return String(label || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+    }
+
     function iconKeyFromText(label, fallback = "compass") {
-      const text = String(label || "").toLowerCase();
-      if (/about|lawyer|profile|monique|client|testimonial|story|mission|value|ethic|why us|why work/.test(text)) return "user";
-      if (/approval|compliance|obligation|responsibilit|rights|defense|appeal|deport|expulsion|extradition|fine|litigation|protect/.test(text)) return "shield";
-      if (/assessment|consult|consultation|talk|whatsapp|contact|support/.test(text)) return "chat";
-      if (/award|proof|result|trust|review/.test(text)) return "award";
-      if (/blog|update|fyi|news|insight/.test(text)) return "news";
-      if (/book|overview|guide|faq|read|reading|resource|official/.test(text)) return "book";
-      if (/brazil|country|globe|living|culture|economy|investment|quality/.test(text)) return "globe";
-      if (/city|state|municipal|region|north|south|northeast|southeast|central-west|place/.test(text)) return "map";
-      if (/cost|fee|payment|refund|invest|price|budget/.test(text)) return "coin";
-      if (/education|study|student|research/.test(text)) return "book";
-      if (/family|children|parent|spouse/.test(text)) return "family";
-      if (/filing|timeline|deadline|planning|strategy|process|route|next step|start/.test(text)) return "workflow";
-      if (/home|permanent|residenc|housing/.test(text)) return "home";
-      if (/link|related/.test(text)) return "link";
-      if (/map|directory/.test(text)) return "map";
-      if (/naturalisation|naturalization|citizenship|passport/.test(text)) return "passport";
-      if (/visa|entry|consular|tourist|nomad/.test(text)) return "passport";
-      if (/archive|history|source date/.test(text)) return "archive";
-      if (/culture|festival|event|featured/.test(text)) return "star";
-      if (/success|approved|check|ready/.test(text)) return "check";
-      if (/city/.test(text)) return "city";
-      if (/document|record|form/.test(text)) return "document";
-      if (/ethic|law|rights|obligation/.test(text)) return "balance";
-      if (/aftercare|care|health|humanitarian/.test(text)) return "heart";
+      const text = normalizeIconLabel(label);
+      if (/source date|data de origem|published|updated|calendar|\bdate\b/.test(text)) return "calendar";
+      if (/archive|history|historico|arquivo|original source/.test(text)) return "archive";
+      if (/rewrite|rewritten|new domain|migrated to|site migration|migracao do dominio|reescrit|domain refresh/.test(text)) return "link";
+      if (/about|sobre|lawyer|attorney|advogad|profile|perfil|monique|testimonial|depoimento|story|mission|missao|value|valor|ethic|etica|why us|why work|quem somos/.test(text)) return "user";
+      if (/humanitarian|humanitario|care|cuidado|health|saude|refuge|refug|asylum/.test(text)) return "heart";
+      if (/legal|law|guidance|orientacao|rights|direitos|obligation|obrigac|ethic|etica|justice|representa/.test(text)) return "balance";
+      if (/approval|approved|aprovad|compliance|cumprimento|defense|defesa|appeal|recurso|deport|expuls|extrad|fine|multa|litigation|litig|protect|protec|regulariz/.test(text)) return "shield";
+      if (/assessment|avaliac|eligib|route review|review route|fit|compare|comparison|which route|qual rota/.test(text)) return "compass";
+      if (/filing|application|prepare|preparation|preparac|document|record|registro|form|formulario|paperwork|case file|dossier/.test(text)) return "document";
+      if (/follow up|followup|aftercare|ongoing|renewal|renov|timeline|prazo|deadline|planning|planejamento|strategy|estrategia|process|processo|route|rota|sequence|sequencia|next step|proximo passo/.test(text)) return "workflow";
+      if (/english|portuguese|portugues|bilingual|language|idioma|communication|comunicacao|translation|traduc|speak|fala/.test(text)) return "chat";
+      if (/abroad|international|internacional|global|cross border|overseas|outside brazil|fora do brasil|remote|remoto/.test(text)) return "globe";
+      if (/consult|consulta|talk|whatsapp|contact|contato|support|suporte|atendimento|call|message|mensagem/.test(text)) return "chat";
+      if (/award|proof|prova|result|resultado|trust|confianca|recognition|reconhecimento|credential|credencial/.test(text)) return "award";
+      if (/blog|update|atualiz|fyi|news|noticia|insight/.test(text)) return "news";
+      if (/book|overview|visao geral|guide|guia|faq|perguntas|read|reading|resource|recurso|official|oficial|reference|referencia/.test(text)) return "book";
+      if (/brazil|brasil|country|pais|living|morar|culture|cultura|economy|economia|investment|investimento|quality|qualidade/.test(text)) return "globe";
+      if (/city|cidade|state|estado|municipal|municipio|region|regiao|north|norte|south|sul|northeast|nordeste|southeast|sudeste|central west|centro oeste|place|local|location/.test(text)) return "map";
+      if (/cost|custo|fee|taxa|payment|pagamento|refund|reembolso|price|preco|budget|orcamento|financial|financeir/.test(text)) return "coin";
+      if (/education|educac|study|estudo|student|estudante|research|pesquisa|school|escola/.test(text)) return "book";
+      if (/family|familia|children|crianc|parent|spouse|conjuge/.test(text)) return "family";
+      if (/home|casa|housing|moradia|permanent|permanente|residenc|residencia|settle/.test(text)) return "home";
+      if (/related|relacionad|link|connect|conexao|domain|dominio/.test(text)) return "link";
+      if (/directory|diretorio|atlas|mapa|map/.test(text)) return "map";
+      if (/naturalisation|naturalization|naturaliz|citizenship|cidadania|passport|passaporte|visa|visto|entry|entrada|consular|tourist|turist|nomad|nomade/.test(text)) return "passport";
+      if (/featured|destaque|festival|evento|event|celebrat/.test(text)) return "star";
+      if (/success|sucesso|check|ready|pronto|clear|claro|verified|verificado/.test(text)) return "check";
+      if (/city|cidade/.test(text)) return "city";
       return fallback;
+    }
+
+    function resolveUniqueIconKey(key, used) {
+      if (!used.has(key) && !pageUsed.has(key)) return key;
+
+      const alternates = iconAlternatives[key] || [];
+      const freshAlternate = alternates.find((candidate) => !used.has(candidate) && !pageUsed.has(candidate));
+      if (freshAlternate) return freshAlternate;
+
+      const localAlternate = alternates.find((candidate) => !used.has(candidate));
+      if (localAlternate) return localAlternate;
+
+      const freshCycle = iconCycle.find((candidate) => !used.has(candidate) && !pageUsed.has(candidate));
+      if (freshCycle) return freshCycle;
+
+      return iconCycle.find((candidate) => !used.has(candidate)) || key;
     }
 
     function applyTone(node, key) {
@@ -690,7 +779,7 @@
         const parent = node.parentElement;
         const group = parent?.parentElement;
         const siblings = group ? [...group.querySelectorAll(selector)] : [node];
-        const used = new Set();
+        const used = new Set(siblings.map((iconNode) => iconNode.dataset.itbIconKey).filter(Boolean));
 
         siblings.forEach((iconNode) => {
           if (iconNode.dataset.itbIconBound === "true") return;
@@ -698,10 +787,9 @@
           const labelNode = textSelector ? item?.querySelector(textSelector) : item;
           const label = labelNode?.textContent?.trim() || item?.textContent?.trim() || "";
           let key = iconKeyFromText(label, fallback);
-          if (used.has(key)) {
-            key = iconCycle.find((candidate) => !used.has(candidate)) || key;
-          }
+          key = resolveUniqueIconKey(key, used);
           used.add(key);
+          pageUsed.add(key);
           iconNode.innerHTML = iconLibrary[key] || iconLibrary[fallback];
           applyTone(iconNode, key);
           iconNode.dataset.itbIconKey = key;

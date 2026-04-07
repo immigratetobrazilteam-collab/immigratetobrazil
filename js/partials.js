@@ -34,9 +34,10 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-04-02-asha-chat-whatsapp-refresh-v1";
+  const PARTIAL_VERSION = "2026-04-07-nina-chatbot-v4";
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
+  const sharedScriptPromises = new Map();
 
   /* ==========================================================================
    * 03. Locale and Route Helpers
@@ -346,6 +347,43 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     node.replaceWith(fragment);
   }
 
+  function ensureSharedScript(name, src) {
+    if (!name || !src) return Promise.resolve();
+    if (sharedScriptPromises.has(name)) return sharedScriptPromises.get(name);
+
+    const existing = document.querySelector(`script[data-itb-shared-script="${name}"]`);
+    if (existing?.dataset.loaded === "true") return Promise.resolve();
+
+    const pending = new Promise((resolve, reject) => {
+      if (existing) {
+        existing.addEventListener("load", () => resolve(), { once: true });
+        existing.addEventListener("error", () => reject(new Error(`Failed to load shared script: ${name}`)), { once: true });
+        return;
+      }
+
+      const script = document.createElement("script");
+      script.src = src;
+      script.async = false;
+      script.defer = true;
+      script.dataset.itbSharedScript = name;
+      script.addEventListener(
+        "load",
+        () => {
+          script.dataset.loaded = "true";
+          resolve();
+        },
+        { once: true }
+      );
+      script.addEventListener("error", () => reject(new Error(`Failed to load shared script: ${name}`)), { once: true });
+      document.head.appendChild(script);
+    }).finally(() => {
+      sharedScriptPromises.delete(name);
+    });
+
+    sharedScriptPromises.set(name, pending);
+    return pending;
+  }
+
   function ensureGlobalUtilityPlaceholders() {
     const body = document.body;
     if (!body) return;
@@ -373,6 +411,7 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
    * ========================================================================== */
   async function initPartials() {
     ensureGlobalUtilityPlaceholders();
+    await ensureSharedScript("asha-chat", resolveSiteUrl(`/js/asha-chat.js?v=${encodeURIComponent(PARTIAL_VERSION)}`));
     const placeholders = [...document.querySelectorAll("[data-partial]")];
     if (!placeholders.length) {
       window.ITB?.initAccessibility?.();
