@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import os
@@ -8,11 +9,13 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
+import time
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
-
-from bs4 import BeautifulSoup, Comment
-
+from urllib.parse import urlencode as form_urlencode
+from urllib.request import Request, urlopen
 
 CPU_COUNT = os.cpu_count() or 4
 os.environ.setdefault("ARGOS_DEVICE_TYPE", "cpu")
@@ -26,13 +29,124 @@ os.environ.setdefault("ITB_PT_MICRO_BATCH_SIZE", "16")
 ROOT = Path(__file__).resolve().parents[1]
 SITE_DOMAIN = "https://immigratetobrazil.com"
 PT_PREFIX = "/pt-br"
-GENERATOR_VERSION = "2026-03-19-pt-br-v2"
+GENERATOR_VERSION = "2026-04-08-pt-br-v7"
+TRANSLATION_MEMORY_VERSION = "2026-04-08-hybrid-cache-v2"
+BASE_RUNTIME_MODULES = ("bs4",)
+ARGOS_RUNTIME_MODULES = ("argostranslate.package", "argostranslate.translate")
+DEFAULT_PROVIDER = os.environ.get("ITB_PT_PROVIDER", "hybrid").strip().lower() or "hybrid"
+GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
+GOOGLE_SPLIT_TOKEN = "ZXQITBSPLITQXZ"
+GOOGLE_BATCH_CHAR_LIMIT = max(500, int(os.environ.get("ITB_PT_GOOGLE_BATCH_CHARS", "3500")))
+GOOGLE_MAX_RETRIES = max(1, int(os.environ.get("ITB_PT_GOOGLE_MAX_RETRIES", "5")))
+GOOGLE_REQUEST_TIMEOUT = max(5, int(os.environ.get("ITB_PT_GOOGLE_TIMEOUT", "60")))
+GOOGLE_WORKERS = max(1, int(os.environ.get("ITB_PT_GOOGLE_WORKERS", "4")))
+PT_BR_NORMALIZATION_RULES = (
+    (r"\badvogada de imigração Brasilian\b", "advogada de imigração brasileira"),
+    (r"\bBrasilian advogado de imigração\b", "advogada de imigração para o Brasil"),
+    (r"\bcidadania Brasilian\b", "cidadania brasileira"),
+    (r"\blei de imigração Brasiliana\b", "lei de imigração brasileira"),
+    (r"\blado Brasilian\b", "lado brasileiro"),
+    (r"\bBrasilians\b", "brasileiros"),
+    (r"\bBrasilianos\b", "brasileiros"),
+    (r"\bBrasiliano\b", "brasileiro"),
+    (r"\bBrasiliana\b", "brasileira"),
+    (r"\bem Brasil\b", "no Brasil"),
+    (r"\bpara Brasil\b", "para o Brasil"),
+    (r"\bde Brasil\b", "do Brasil"),
+    (r"\bFactos\b", "Fatos"),
+    (r"\bfactos\b", "fatos"),
+    (r"\bRegistos\b", "Registros"),
+    (r"\bregistos\b", "registros"),
+    (r"\bRegisto\b", "Registro"),
+    (r"\bregisto\b", "registro"),
+    (r"\bPlaneamento\b", "Planejamento"),
+    (r"\bplaneamento\b", "planejamento"),
+    (r"\bComprovativo\b", "Comprovante"),
+    (r"\bcomprovativo\b", "comprovante"),
+    (r"\bComprovativos\b", "Comprovantes"),
+    (r"\bcomprovativos\b", "comprovantes"),
+    (r"\bObjectivo\b", "Objetivo"),
+    (r"\bobjectivo\b", "objetivo"),
+    (r"\bObjectivos\b", "Objetivos"),
+    (r"\bobjectivos\b", "objetivos"),
+    (r"\bAfecta\b", "Afeta"),
+    (r"\bafecta\b", "afeta"),
+    (r"\bAfectam\b", "Afetam"),
+    (r"\bafectam\b", "afetam"),
+    (r"\bAfectar\b", "Afetar"),
+    (r"\bafectar\b", "afetar"),
+    (r"\bo Brasilian\b", "o brasileiro"),
+    (r"\ba Brasilian\b", "a brasileira"),
+    (r"\bos Brasilian\b", "os brasileiros"),
+    (r"\bas Brasilian\b", "as brasileiras"),
+    (r"\bum Brasilian\b", "um brasileiro"),
+    (r"\buma Brasilian\b", "uma brasileira"),
+    (r"\bem Brasilian\b", "no Brasil"),
+    (r"\bTempo entre Brasilian e etapas estrangeiras\b", "Tempo entre etapas brasileiras e estrangeiras"),
+    (r"\bBrasilian os municípios\b", "Os municípios brasileiros"),
+    (r"\bdo Brasilian do exterior\b", "brasileiras no exterior"),
+    (r"\bpratica juridica\b", "prática jurídica"),
+    (r"\bPratica juridica\b", "Prática jurídica"),
+    (r"\bbrasileira lei de imigração\b", "lei de imigração brasileira"),
+    (r"\bcronometragem\b", "prazo"),
+)
+BRAZILIAN_PREFIX_NOUN_MAP = {
+    "Autorização": "Autorização",
+    "autorização": "autorização",
+    "Cidades": "Cidades",
+    "cidades": "cidades",
+    "Culture": "Cultura",
+    "culture": "cultura",
+    "Cuisine": "Culinária",
+    "cuisine": "culinária",
+    "Cultura": "Cultura",
+    "cultura": "cultura",
+    "Estados": "Estados",
+    "estados": "estados",
+    "municípios": "municípios",
+    "Municípios": "Municípios",
+    "Requisitos": "Requisitos",
+    "requisitos": "requisitos",
+    "States": "Estados",
+    "states": "estados",
+}
+BRAZILIAN_STOPWORDS = {
+    "a",
+    "ao",
+    "as",
+    "com",
+    "da",
+    "das",
+    "de",
+    "do",
+    "dos",
+    "e",
+    "em",
+    "entre",
+    "na",
+    "nas",
+    "no",
+    "nos",
+    "o",
+    "os",
+    "para",
+    "por",
+    "sem",
+    "sob",
+    "um",
+    "uma",
+}
 
 I18N_DIR = ROOT / "i18n" / "pt-br"
 GLOSSARY_PATH = I18N_DIR / "glossary.json"
 OVERRIDES_PATH = I18N_DIR / "overrides.json"
 MEMORY_PATH = I18N_DIR / "translation-memory.json"
 MANIFEST_PATH = I18N_DIR / "manifest.json"
+TRANSLATION_REQUIREMENTS_PATH = ROOT / "requirements-pt-translation.txt"
+
+BeautifulSoup = None
+Comment = None
+HTML_PARSER = "html.parser"
 
 IGNORED_DIRS = {
     ".git",
@@ -101,36 +215,79 @@ CANONICAL_BLOCK_RE = re.compile(
 WINDOW_CONFIG_RE = re.compile(r"window\.ITB_SITE\s*=\s*(\{.*?\});", re.DOTALL)
 
 
-def current_runtime_has_argos() -> bool:
+def import_translation_runtime_modules() -> None:
+    global BeautifulSoup, Comment, HTML_PARSER
+
+    if BeautifulSoup is not None and Comment is not None:
+        return
+
+    import importlib
+
+    bs4 = importlib.import_module("bs4")
     try:
-        import argostranslate.package  # noqa: F401
-        import argostranslate.translate  # noqa: F401
+        importlib.import_module("lxml")
+        HTML_PARSER = "lxml"
+    except ImportError:
+        HTML_PARSER = "html.parser"
+    BeautifulSoup = bs4.BeautifulSoup
+    Comment = bs4.Comment
+
+
+def current_runtime_has_base_runtime() -> bool:
+    try:
+        import_translation_runtime_modules()
     except ImportError:
         return False
     return True
 
 
-def runtime_supports_argos(executable: str) -> bool:
-    completed = subprocess.run(
-        [executable, "-c", "import argostranslate.package, argostranslate.translate"],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-        check=False,
-    )
+def runtime_supports_modules(executable: str, modules: tuple[str, ...]) -> bool:
+    probe = f"import importlib; [importlib.import_module(module) for module in {list(modules)!r}]"
+    try:
+        completed = subprocess.run(
+            [executable, "-c", probe],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=False,
+        )
+    except OSError:
+        return False
     return completed.returncode == 0
+
+
+def missing_modules_for_runtime(executable: str) -> list[str]:
+    missing: list[str] = []
+    for module in BASE_RUNTIME_MODULES:
+        if not runtime_supports_modules(executable, (module,)):
+            missing.append(module)
+    return missing
+
+
+def discover_local_python_runtimes() -> list[str]:
+    candidates: list[str] = []
+    seen: set[str] = set()
+
+    for pattern in (".venv", ".venv-*", ".venv*", "venv", "venv-*", "venv*"):
+        for directory in sorted(ROOT.glob(pattern), key=lambda item: item.name):
+            python_path = directory / "bin" / "python"
+            candidate = str(python_path)
+            if not python_path.exists() or candidate in seen:
+                continue
+            seen.add(candidate)
+            candidates.append(candidate)
+
+    return candidates
 
 
 def candidate_python_runtimes() -> list[str]:
     candidates: list[str] = []
 
-    preferred = os.environ.get("ITB_TRANSLATE_PYTHON")
-    if preferred:
-        candidates.append(preferred)
-
     for candidate in (
+        os.path.join(os.environ.get("VIRTUAL_ENV", ""), "bin", "python") if os.environ.get("VIRTUAL_ENV") else None,
+        os.environ.get("ITB_TRANSLATE_PYTHON"),
+        *discover_local_python_runtimes(),
         shutil.which("python3"),
         shutil.which("python"),
-        str(ROOT / ".venv" / "bin" / "python"),
     ):
         if not candidate:
             continue
@@ -140,42 +297,50 @@ def candidate_python_runtimes() -> list[str]:
     return candidates
 
 
-def ensure_argos_runtime() -> None:
-    if current_runtime_has_argos():
+def install_hint_for(executable: str) -> str:
+    requirements_target = TRANSLATION_REQUIREMENTS_PATH.relative_to(ROOT).as_posix()
+    return (
+        f"`{executable} -m pip install -r {requirements_target}` "
+        f"from {ROOT}"
+    )
+
+
+def ensure_base_runtime() -> None:
+    if current_runtime_has_base_runtime():
         return
 
-    current = Path(sys.executable).resolve()
+    current = Path(sys.executable).absolute()
     checked: list[str] = []
 
     for candidate in candidate_python_runtimes():
-        candidate_path = Path(candidate)
+        candidate_path = Path(candidate).absolute()
         if not candidate_path.exists():
             continue
 
-        try:
-            resolved = candidate_path.resolve()
-        except OSError:
-            resolved = candidate_path
-
-        if resolved == current:
+        # A venv Python can resolve to the same underlying system interpreter
+        # while still carrying a different site-packages environment, so compare
+        # the actual executable path instead of the resolved target.
+        if candidate_path == current:
             continue
 
         checked.append(str(candidate_path))
-        if not runtime_supports_argos(str(candidate_path)):
+        if not runtime_supports_modules(str(candidate_path), BASE_RUNTIME_MODULES):
             continue
 
         print(
-            f"Interpreter {sys.executable} is missing Argos Translate; re-running with {candidate_path}.",
+            f"Interpreter {sys.executable} is missing PT HTML parsing dependencies; re-running with {candidate_path}.",
             file=sys.stderr,
             flush=True,
         )
         os.execv(str(candidate_path), [str(candidate_path), str(Path(__file__).resolve()), *sys.argv[1:]])
 
     checked_display = ", ".join(checked) if checked else "none"
+    missing_display = ", ".join(missing_modules_for_runtime(str(current))) or "unknown"
     raise RuntimeError(
-        f"Missing Argos Translate in {sys.executable}. Checked alternate Python runtimes: {checked_display}. "
-        "Install it with `python3 -m pip install --user argostranslate translatehtml`, "
-        "or rerun with the Python interpreter that already has Argos installed."
+        f"Missing PT translation dependencies in {sys.executable}: {missing_display}. "
+        f"Checked alternate Python runtimes: {checked_display}. "
+        f"Install them with {install_hint_for(sys.executable)}, or rerun with a Python interpreter "
+        "that already has BeautifulSoup available."
     )
 
 
@@ -192,9 +357,56 @@ def load_json(path: Path, default):
 
 def write_json(path: Path, payload) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf8") as handle:
+    with tempfile.NamedTemporaryFile("w", encoding="utf8", dir=path.parent, delete=False) as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2, sort_keys=True)
         handle.write("\n")
+        temp_name = handle.name
+    os.replace(temp_name, path)
+
+
+def load_translation_memory(path: Path, *, provider: str) -> dict[str, str]:
+    payload = load_json(path, {})
+    if not isinstance(payload, dict):
+        return {}
+
+    if "_meta" in payload or "entries" in payload:
+        meta = payload.get("_meta", {})
+        entries = payload.get("entries", {})
+        version = str(meta.get("version", ""))
+        cached_provider = str(meta.get("provider", ""))
+        if (
+            version == TRANSLATION_MEMORY_VERSION
+            and cached_provider == provider
+            and isinstance(entries, dict)
+        ):
+            return {key: value for key, value in entries.items() if isinstance(key, str) and isinstance(value, str)}
+        print(
+            f"Discarding stale translation memory cache from {path.name} "
+            f"(version={version or 'unknown'}, provider={cached_provider or 'unknown'}).",
+            flush=True,
+        )
+        return {}
+
+    if payload:
+        print(
+            f"Discarding legacy translation memory from {path.name} so the {provider} provider can rebuild clean PT-BR text.",
+            flush=True,
+        )
+    return {}
+
+
+def write_translation_memory(path: Path, entries: dict[str, str], *, provider: str) -> None:
+    write_json(
+        path,
+        {
+            "_meta": {
+                "generator_version": GENERATOR_VERSION,
+                "provider": provider,
+                "version": TRANSLATION_MEMORY_VERSION,
+            },
+            "entries": entries,
+        },
+    )
 
 
 def route_from_file(file_path: Path) -> str:
@@ -230,7 +442,7 @@ def discover_english_routes() -> list[tuple[str, Path]]:
     def walk(directory: Path) -> None:
         for entry in sorted(directory.iterdir(), key=lambda item: item.name):
             if entry.is_dir():
-                if entry.name in IGNORED_DIRS:
+                if entry.name in IGNORED_DIRS or entry.name.startswith(".venv") or entry.name.startswith("venv"):
                     continue
                 walk(entry)
                 continue
@@ -244,6 +456,36 @@ def discover_english_routes() -> list[tuple[str, Path]]:
 
 def normalize_translatable_text(value: str) -> str:
     return value.strip()
+
+
+def adjective_for_brazilian_noun(noun: str) -> str:
+    lower = noun.lower()
+    if lower.endswith(("ções", "sões", "dades", "gens", "agens", "tudes", "ices", "izes", "as")):
+        return "brasileiras"
+    if lower.endswith(("ção", "são", "dade", "gem", "agem", "tude", "ice", "iz", "a")):
+        return "brasileira"
+    if lower.endswith("s"):
+        return "brasileiros"
+    return "brasileiro"
+
+
+def normalize_brazilian_phrases(value: str) -> str:
+    def replace_postfixed(match: re.Match) -> str:
+        noun = match.group("noun")
+        if noun.lower() in BRAZILIAN_STOPWORDS:
+            return match.group(0)
+        return f"{noun} {adjective_for_brazilian_noun(noun)}"
+
+    def replace_prefixed(match: re.Match) -> str:
+        noun = match.group("noun")
+        mapped = BRAZILIAN_PREFIX_NOUN_MAP.get(noun)
+        if not mapped:
+            return match.group(0)
+        return f"{mapped} {adjective_for_brazilian_noun(mapped)}"
+
+    normalized = re.sub(r"\b(?P<noun>[A-Za-zÀ-ÿ-]+)\s+Brasilian(?:a|as|o|os)?\b", replace_postfixed, value)
+    normalized = re.sub(r"\bBrasilian(?:a|as|o|os)?\s+(?P<noun>[A-Za-zÀ-ÿ-]+)\b", replace_prefixed, normalized)
+    return normalized
 
 
 def should_skip_translation(value: str) -> bool:
@@ -365,9 +607,101 @@ def localize_schema_id(value: str) -> str:
     return localize_internal_url(value)
 
 
+def current_runtime_has_argos_runtime() -> bool:
+    return runtime_supports_modules(sys.executable, ARGOS_RUNTIME_MODULES)
+
+
+def google_joined_separator() -> str:
+    return f"\n\n{GOOGLE_SPLIT_TOKEN}\n\n"
+
+
+def google_split_translations(value: str) -> list[str]:
+    return [item.strip() for item in re.split(rf"\s*{GOOGLE_SPLIT_TOKEN}\s*", value)]
+
+
+class GoogleTranslateEngine:
+    def __init__(self) -> None:
+        self.batch_char_limit = GOOGLE_BATCH_CHAR_LIMIT
+        self.max_retries = GOOGLE_MAX_RETRIES
+        self.request_timeout = GOOGLE_REQUEST_TIMEOUT
+        self.workers = GOOGLE_WORKERS
+
+    def translate(self, value: str) -> str:
+        return self._translate_text(value)
+
+    def translate_many(self, values: list[str]) -> list[str]:
+        if not values:
+            return []
+
+        translated_values: list[str] = []
+        batch: list[str] = []
+        batch_chars = 0
+        separator = google_joined_separator()
+        grouped_batches: list[list[str]] = []
+
+        for value in values:
+            projected = len(value) if not batch else batch_chars + len(separator) + len(value)
+            if batch and projected > self.batch_char_limit:
+                grouped_batches.append(batch)
+                batch = []
+                batch_chars = 0
+            batch.append(value)
+            batch_chars = len(value) if len(batch) == 1 else batch_chars + len(separator) + len(value)
+
+        if batch:
+            grouped_batches.append(batch)
+
+        if len(grouped_batches) == 1 or self.workers == 1:
+            for grouped_batch in grouped_batches:
+                translated_values.extend(self._translate_batch(grouped_batch))
+            return translated_values
+
+        with ThreadPoolExecutor(max_workers=self.workers) as executor:
+            for translated_batch in executor.map(self._translate_batch, grouped_batches):
+                translated_values.extend(translated_batch)
+
+        return translated_values
+
+    def _translate_batch(self, values: list[str]) -> list[str]:
+        if len(values) == 1:
+            return [self.translate(values[0])]
+
+        joined = google_joined_separator().join(values)
+        translated = self._translate_text(joined)
+        split_values = google_split_translations(translated)
+        if len(split_values) != len(values):
+            return [self.translate(value) for value in values]
+        return split_values
+
+    def _translate_text(self, value: str) -> str:
+        params = form_urlencode(
+            [("client", "gtx"), ("sl", "en"), ("tl", "pt-BR"), ("dt", "t"), ("q", value)],
+            doseq=True,
+        )
+        request = Request(f"{GOOGLE_TRANSLATE_URL}?{params}", headers={"User-Agent": "Mozilla/5.0"})
+
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                with urlopen(request, timeout=self.request_timeout) as response:
+                    payload = json.loads(response.read().decode("utf8"))
+                segments = payload[0] if payload and isinstance(payload[0], list) else []
+                translated = "".join(segment[0] for segment in segments if segment and segment[0] is not None).strip()
+                if translated:
+                    return translated
+                raise RuntimeError("Google Translate returned an empty response.")
+            except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as error:
+                if attempt == self.max_retries:
+                    raise RuntimeError(f"Google Translate request failed after {attempt} attempts: {error}") from error
+                time.sleep(min(2 ** (attempt - 1), 8))
+
+
 class ArgosEngine:
     def __init__(self) -> None:
-        ensure_argos_runtime()
+        if not current_runtime_has_argos_runtime():
+            raise RuntimeError(
+                f"Argos Translate is not available in {sys.executable}. "
+                "Use the `google` or `hybrid` provider, or install Argos in this interpreter."
+            )
         try:
             import argostranslate.package as argos_package
             import argostranslate.settings as argos_settings
@@ -375,7 +709,7 @@ class ArgosEngine:
             from argostranslate.translate import ctranslate2
         except ImportError as error:
             raise RuntimeError(
-                "Missing Argos Translate. Install it with `python3 -m pip install --user argostranslate translatehtml`."
+                "Missing Argos Translate modules in the active interpreter."
             ) from error
 
         self.argos_package = argos_package
@@ -487,25 +821,74 @@ class ArgosEngine:
         return translated_values
 
 
+class HybridTranslateEngine:
+    def __init__(self) -> None:
+        self.google = GoogleTranslateEngine()
+        self.argos: ArgosEngine | None = None
+        if current_runtime_has_argos_runtime():
+            try:
+                self.argos = ArgosEngine()
+            except RuntimeError:
+                self.argos = None
+
+    def translate(self, value: str) -> str:
+        try:
+            return self.google.translate(value)
+        except RuntimeError:
+            if self.argos is not None:
+                return self.argos.translate(value)
+            raise
+
+    def translate_many(self, values: list[str]) -> list[str]:
+        try:
+            return self.google.translate_many(values)
+        except RuntimeError:
+            if self.argos is not None:
+                return self.argos.translate_many(values)
+            raise
+
+
 class PtGenerator:
-    def __init__(self, force: bool = False, routes: set[str] | None = None) -> None:
+    def __init__(
+        self,
+        force: bool = False,
+        resume: bool = False,
+        clear_memory: bool = False,
+        provider: str = DEFAULT_PROVIDER,
+        routes: set[str] | None = None,
+    ) -> None:
+        ensure_base_runtime()
         self.force = force
+        self.resume = resume
+        self.provider = provider
         self.routes = routes or set()
         self.glossary = load_json(GLOSSARY_PATH, {})
         self.overrides = load_json(OVERRIDES_PATH, {"global": {}, "routes": {}})
-        self.memory = load_json(MEMORY_PATH, {})
+        self.memory = load_translation_memory(MEMORY_PATH, provider=self.provider)
         self.manifest = load_json(MANIFEST_PATH, {"generator_version": GENERATOR_VERSION, "routes": {}})
-        self._engine: ArgosEngine | None = None
+        self._engine = None
+
+        if clear_memory:
+            self.memory = {}
+            write_translation_memory(MEMORY_PATH, self.memory, provider=self.provider)
 
     @property
-    def engine(self) -> ArgosEngine:
+    def engine(self):
         if self._engine is None:
-            self._engine = ArgosEngine()
+            if self.provider == "google":
+                self._engine = GoogleTranslateEngine()
+            elif self.provider == "argos":
+                self._engine = ArgosEngine()
+            elif self.provider == "hybrid":
+                self._engine = HybridTranslateEngine()
+            else:
+                raise RuntimeError(f"Unsupported PT translation provider: {self.provider}")
         return self._engine
 
     def config_hash_for(self, route: str) -> str:
         payload = {
             "generator_version": GENERATOR_VERSION,
+            "provider": self.provider,
             "glossary": self.glossary,
             "global_overrides": self.overrides.get("global", {}),
             "route_overrides": self.overrides.get("routes", {}).get(route, {}),
@@ -539,6 +922,9 @@ class PtGenerator:
         cleaned = value.replace(" ,", ",").replace(" .", ".").replace(" :", ":").replace(" ;", ";")
         cleaned = cleaned.replace(" !", "!").replace(" ?", "?")
         cleaned = re.sub(r"\s{2,}", " ", cleaned)
+        for pattern, replacement in PT_BR_NORMALIZATION_RULES:
+            cleaned = re.sub(pattern, replacement, cleaned)
+        cleaned = normalize_brazilian_phrases(cleaned)
         return cleaned.strip()
 
     def translate_missing_batch(self, route: str, values: list[str]) -> None:
@@ -596,7 +982,7 @@ class PtGenerator:
             for source, translated, placeholders in zip(source_chunk, translated_chunk, placeholder_chunk):
                 restored = self.restore_glossary_terms(translated, placeholders)
                 self.memory[source] = self.clean_translation(restored)
-            write_json(MEMORY_PATH, self.memory)
+            write_translation_memory(MEMORY_PATH, self.memory, provider=self.provider)
 
     def translate_text(self, original: str, route: str) -> str:
         if should_skip_translation(original):
@@ -610,7 +996,8 @@ class PtGenerator:
         if override is not None:
             translated = override
         elif source in self.memory:
-            translated = self.memory[source]
+            translated = self.clean_translation(self.memory[source])
+            self.memory[source] = translated
         else:
             protected, placeholders = self.protect_glossary_terms(source)
             translated = self.engine.translate(protected)
@@ -647,6 +1034,27 @@ class PtGenerator:
             if clean_part:
                 bucket.add(clean_part)
 
+    def collect_shell_strings(self, value, bucket: set[str], key: str = "") -> None:
+        if isinstance(value, dict):
+            for item_key, item_value in value.items():
+                self.collect_shell_strings(item_value, bucket, item_key)
+            return
+        if isinstance(value, list):
+            for item in value:
+                self.collect_shell_strings(item, bucket, key)
+            return
+        if not isinstance(value, str):
+            return
+        if key in {"track", "className", "image_src", "src", "logo", "icon"}:
+            return
+        if key == "href":
+            return
+        if value.startswith("/assets/"):
+            return
+        if value.startswith("http://") or value.startswith("https://"):
+            return
+        bucket.add(value)
+
     def collect_page_strings(self, soup: BeautifulSoup) -> set[str]:
         values: set[str] = set()
 
@@ -682,6 +1090,8 @@ class PtGenerator:
             data = json.loads(match.group(1))
             if data.get("pageTitle"):
                 values.add(data["pageTitle"])
+            if data.get("shell"):
+                self.collect_shell_strings(data["shell"], values)
             contact = data.get("contact") or {}
             whatsapp_url = contact.get("whatsappUrl")
             if whatsapp_url:
@@ -764,10 +1174,12 @@ class PtGenerator:
             return [self.translate_shell_value(item, route, key) for item in value]
         if not isinstance(value, str):
             return value
-        if key in {"track", "className"}:
+        if key in {"track", "className", "image_src", "src", "logo", "icon"}:
             return value
         if key == "href":
             return localize_internal_url(value)
+        if value.startswith("/assets/"):
+            return value
         if value.startswith("http://") or value.startswith("https://"):
             return localize_internal_url(value)
         return normalize_translatable_text(self.translate_text(value, route))
@@ -790,8 +1202,12 @@ class PtGenerator:
             payload["contact"] = contact
             if payload.get("shell"):
                 payload["shell"] = self.translate_shell_value(payload["shell"], route)
+            if payload.get("consultationPolicy"):
+                payload["consultationPolicy"] = self.translate_shell_value(payload["consultationPolicy"], route)
+            if payload.get("practice"):
+                payload["practice"] = self.translate_shell_value(payload["practice"], route)
             replacement = f"window.ITB_SITE = {json.dumps(payload, ensure_ascii=False, separators=(',', ':'))};"
-            script.string.replace_with(WINDOW_CONFIG_RE.sub(replacement, script.string, count=1))
+            script.string.replace_with(WINDOW_CONFIG_RE.sub(lambda _match: replacement, script.string, count=1))
             return
 
     def patch_json_ld(self, soup: BeautifulSoup, route: str) -> None:
@@ -932,7 +1348,7 @@ class PtGenerator:
                 node.replace_with(translated)
 
     def render_pt_html(self, source_html: str, route: str) -> str:
-        soup = BeautifulSoup(source_html, "lxml")
+        soup = BeautifulSoup(source_html, HTML_PARSER)
         self.prime_translations(soup, route)
         self.patch_head_metadata(soup, route)
         self.patch_language_switcher(soup, route)
@@ -993,13 +1409,19 @@ class PtGenerator:
                 target_file.unlink()
             self.manifest["routes"].pop(route, None)
 
-    def generate(self) -> tuple[int, int]:
+    def persist_state(self) -> None:
+        self.manifest["generator_version"] = GENERATOR_VERSION
+        write_translation_memory(MEMORY_PATH, self.memory, provider=self.provider)
+        write_json(MANIFEST_PATH, self.manifest)
+
+    def generate(self) -> tuple[int, int, int]:
         route_files = discover_english_routes()
         current_routes = {route for route, _ in route_files}
         self.prune_removed_routes(current_routes)
 
         patched_english = 0
         generated_pt = 0
+        skipped_cached = 0
         prepared_routes: list[tuple[str, str]] = []
 
         for route, file_path in route_files:
@@ -1015,14 +1437,18 @@ class PtGenerator:
 
             prepared_routes.append((route, source_html))
 
+        print(f"Using PT translation provider: {self.provider}.", flush=True)
         print(f"Prepared {len(prepared_routes)} English routes for pt-BR generation.", flush=True)
         global_strings: set[str] = set()
         for route, source_html in prepared_routes:
-            soup = BeautifulSoup(source_html, "lxml")
+            soup = BeautifulSoup(source_html, HTML_PARSER)
             global_strings.update(self.collect_page_strings(soup))
 
         print(f"Collected {len(global_strings)} unique strings for translation.", flush=True)
         self.translate_missing_global(sorted(global_strings))
+
+        if self.force and self.resume:
+            print("Resume mode is enabled for this full-site PT run.", flush=True)
 
         for route, source_html in prepared_routes:
             target_route = pt_route(route)
@@ -1032,7 +1458,10 @@ class PtGenerator:
             source_hash = sha256_text(source_html + self.config_hash_for(route))
             manifest_entry = self.manifest.get("routes", {}).get(route, {})
 
-            if not self.force and manifest_entry.get("source_hash") == source_hash and target_file.exists():
+            cache_matches = manifest_entry.get("source_hash") == source_hash and target_file.exists()
+
+            if (not self.force and cache_matches) or (self.force and self.resume and cache_matches):
+                skipped_cached += 1
                 continue
 
             rendered_html = self.render_pt_html(source_html, route)
@@ -1041,19 +1470,79 @@ class PtGenerator:
                 "pt_route": target_route,
                 "source_hash": source_hash,
             }
+            self.persist_state()
             generated_pt += 1
             if generated_pt % 10 == 0:
                 print(f"Generated {generated_pt}/{len(prepared_routes)} pt-BR pages...", flush=True)
 
-        self.manifest["generator_version"] = GENERATOR_VERSION
-        write_json(MEMORY_PATH, self.memory)
-        write_json(MANIFEST_PATH, self.manifest)
-        return patched_english, generated_pt
+        self.persist_state()
+        return patched_english, generated_pt, skipped_cached
+
+
+def normalize_route_input(route: str) -> str:
+    normalized = route.strip()
+    if not normalized:
+        return "/"
+    if not normalized.startswith("/"):
+        normalized = f"/{normalized}"
+    if normalized != "/" and not normalized.endswith("/"):
+        normalized = f"{normalized}/"
+    return normalized
+
+
+def print_runtime_doctor() -> None:
+    print("PT translation runtime check")
+    print(f"Current interpreter: {sys.executable}")
+    print(f"Workspace: {ROOT}")
+    print(f"Requirements file: {TRANSLATION_REQUIREMENTS_PATH}")
+    print(f"Default provider: {DEFAULT_PROVIDER}")
+
+    candidates = candidate_python_runtimes()
+    if not candidates:
+        print("No candidate Python runtimes found.")
+    else:
+        print("Candidate runtimes:")
+        for candidate in candidates:
+            missing = missing_modules_for_runtime(candidate)
+            argos_status = "argos ready" if runtime_supports_modules(candidate, ARGOS_RUNTIME_MODULES) else "argos optional"
+            status = "ready" if not missing else f"missing {', '.join(missing)}"
+            marker = " (current)" if Path(candidate).absolute() == Path(sys.executable).absolute() else ""
+            print(f"- {candidate}: {status}; {argos_status}{marker}")
+
+    try:
+        sample = GoogleTranslateEngine().translate("Start Consultation")
+        print(f"Google provider check: ok ({sample})")
+    except RuntimeError as error:
+        print(f"Google provider check: failed ({error})")
+
+    print("Install missing packages with:")
+    print(f"  {install_hint_for(sys.executable)}")
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate pt-BR static pages from the handwritten English HTML site.")
     parser.add_argument("--force", action="store_true", help="Regenerate every pt-BR page instead of only changed pages.")
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="When used with --force, skip routes already regenerated with the same source/config hash.",
+    )
+    parser.add_argument(
+        "--clear-memory",
+        action="store_true",
+        help="Clear the translation-memory cache before running. Useful after major glossary or global override changes.",
+    )
+    parser.add_argument(
+        "--doctor",
+        action="store_true",
+        help="Print Python runtime and dependency status for the PT translator, then exit.",
+    )
+    parser.add_argument(
+        "--provider",
+        default=DEFAULT_PROVIDER,
+        choices=("hybrid", "google", "argos"),
+        help="Translation provider to use. `hybrid` prefers Google Translate and falls back to Argos if available.",
+    )
     parser.add_argument(
         "--route",
         action="append",
@@ -1065,10 +1554,24 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
+    if args.doctor:
+        print_runtime_doctor()
+        return 0
+
     I18N_DIR.mkdir(parents=True, exist_ok=True)
-    generator = PtGenerator(force=args.force, routes=set(args.route))
-    patched_english, generated_pt = generator.generate()
-    print(f"Patched {patched_english} English pages and generated {generated_pt} pt-BR pages.")
+    normalized_routes = {normalize_route_input(route) for route in args.route}
+    generator = PtGenerator(
+        force=args.force,
+        resume=args.resume,
+        clear_memory=args.clear_memory,
+        provider=args.provider,
+        routes=normalized_routes,
+    )
+    patched_english, generated_pt, skipped_cached = generator.generate()
+    print(
+        f"Patched {patched_english} English pages, generated {generated_pt} pt-BR pages, "
+        f"and skipped {skipped_cached} cached routes."
+    )
     return 0
 
 

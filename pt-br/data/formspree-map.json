@@ -1,12 +1,7 @@
 [
   {
-    "route": "/pt-br/",
-    "title": "Brasil Guia de Imigra&ccedil;&atilde;o",
-    "endpoint": "https://formspree.io/f/xdawygld"
-  },
-  {
     "route": "/pt-br/start-consultation/",
-    "title": "Solicitar uma consulta",
+    "title": "Solicite uma Consulta",
     "endpoint": "https://formspree.io/f/xdawygld"
   }
 ]

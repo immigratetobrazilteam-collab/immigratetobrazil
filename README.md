@@ -39,12 +39,23 @@ Static data still used by the live site:
 
 PT-BR translation workflow:
 ```bash
+python3 scripts/generate_pt.py --doctor
 python3 scripts/generate_pt.py
-python3 scripts/generate_pt.py --force
+python3 scripts/generate_pt.py --force --resume
+python3 scripts/generate_pt.py --force --clear-memory --provider hybrid
 ```
 
 Or with npm shortcuts:
 ```bash
 npm run translate:pt
 npm run translate:pt:all
+npm run translate:pt:doctor
 ```
+
+If the translator complains about missing Python packages, install them with:
+
+```bash
+python3 -m pip install -r requirements-pt-translation.txt
+```
+
+The default provider is now `hybrid`: it prefers higher-quality online translation and falls back to Argos only if that runtime is available and needed.

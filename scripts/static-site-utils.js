@@ -26,6 +26,7 @@ function sortByRoute(a, b) {
 function shouldIgnoreDir(name, options = {}) {
   const ignoredDirs = options.ignoredDirs || DEFAULT_IGNORED_DIRS;
   if (ignoredDirs.has(name)) return true;
+  if (name.startsWith(".venv") || name.startsWith("venv")) return true;
   if (!options.includePt && name === "pt-br") return true;
   return false;
 }
