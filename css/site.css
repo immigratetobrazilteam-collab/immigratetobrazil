@@ -7300,9 +7300,10 @@ body.site-root .main-header__center .main-header__home {
   line-height: 1;
 }
 
-@media (max-width: 1199px) {
-  body.site-root .main-header__center {
-    display: none;
+@media (max-width: 767px) {
+  body.site-root .main-header__center,
+  body.site-root .main-header__home {
+    display: none !important;
   }
 }
 
@@ -7371,6 +7372,7 @@ body.site-root .mobile-nav-consult {
 }
 
 body.site-root .mobile-nav-home {
+  display: none;
   color: var(--lion-gold);
   font-size: 0.9rem;
   font-weight: 700;
