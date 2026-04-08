@@ -7620,6 +7620,10 @@ body.site-root .scroll-progress.is-active {
     align-items: flex-start;
   }
 
+  body.site-root .mobile-nav-home {
+    display: none;
+  }
+
   body.site-root .mobile-nav-consult {
     font-size: 0.92rem;
   }
@@ -8294,7 +8298,7 @@ body.site-root .home-brazil-cluster__body p {
 }
 
 body.site-root .home-service-list--dense {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
   gap: 0.55rem 0.95rem;
 }
 
@@ -8308,7 +8312,15 @@ body.site-root .home-service-family li,
 body.site-root .home-process-chapter li,
 body.site-root .home-brazil-cluster__body li {
   position: relative;
+  min-width: 0;
   padding-left: 1rem;
+}
+
+body.site-root .home-service-family li a,
+body.site-root .home-process-chapter li a,
+body.site-root .home-brazil-cluster__body li a {
+  display: block;
+  min-width: 0;
 }
 
 body.site-root .home-service-family li::before,
