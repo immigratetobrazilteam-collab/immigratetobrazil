@@ -1,19 +1,22 @@
-import os
-from datetime import datetime
+from __future__ import annotations
 
-status = os.popen("git status --porcelain").read().strip()
-now = datetime.now()
+import subprocess
+import sys
+from pathlib import Path
 
-if status:
-    commit_message = now.strftime("Update - %Y-%m-%d %H:%M:%S")
-    print(f"Changes detected. Commit: {commit_message}")
-    
-    os.system("git add .")
-    os.system(f'git commit -m "{commit_message}"')
-else:
-    commit_message = now.strftime("Deploy trigger - %Y-%m-%d %H:%M:%S")
-    print(f"No changes. Creating empty commit: {commit_message}")
-    
-    os.system(f'git commit --allow-empty -m "{commit_message}"')
 
-os.system("git push origin main")
+ROOT = Path(__file__).resolve().parents[1]
+SCRIPT = ROOT / "scripts" / "git.py"
+
+
+def main() -> int:
+    completed = subprocess.run(
+        [sys.executable, str(SCRIPT), "--allow-empty"],
+        cwd=ROOT,
+        check=False,
+    )
+    return completed.returncode
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

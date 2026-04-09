@@ -122,6 +122,20 @@
     return value.toLowerCase().trim();
   }
 
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function safeRoute(route) {
+    const clean = String(route || "");
+    return clean.startsWith("/") ? clean : "/";
+  }
+
   function renderResults(query, items, context) {
     const { resultsNode, copy, familyLabels } = context;
     const urls = getUrls();
@@ -146,15 +160,20 @@
 
     resultsNode.innerHTML = matches.length
       ? matches
-          .map(
-            ({ item }) => `<article class="search-result">
-          <strong><a href="${urls.resolveSiteUrl(item.route)}" data-itb-route="${item.route}">${item.title}</a></strong>
-          <span>${familyLabels[item.family] || item.family}</span>
-          <p>${item.summary}</p>
-        </article>`
-          )
+          .map(({ item }) => {
+            const route = safeRoute(item.route);
+            const href = escapeHtml(urls.resolveSiteUrl(route));
+            const title = escapeHtml(item.title);
+            const family = escapeHtml(familyLabels[item.family] || item.family);
+            const summary = escapeHtml(item.summary);
+            return `<article class="search-result">
+          <strong><a href="${href}" data-itb-route="${escapeHtml(route)}">${title}</a></strong>
+          <span>${family}</span>
+          <p>${summary}</p>
+        </article>`;
+          })
           .join("")
-      : `<p>${copy.noResults.replace("{query}", query)}</p>`;
+      : `<p>${copy.noResults.replace("{query}", escapeHtml(query))}</p>`;
   }
 
   /* ==========================================================================

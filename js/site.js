@@ -132,6 +132,15 @@
     "star",
     "check"
   ];
+
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
   const iconAlternatives = {
     archive: ["document", "calendar", "link", "book"],
     award: ["star", "check", "user"],
@@ -334,14 +343,14 @@
     mapCard.hidden = false;
     mapCard.innerHTML = `<section class="page-map page-map--compact" id="page-map">
   <div class="page-map__head">
-    <h2 class="section-title page-map__title"><span class="section-title__icon" aria-hidden="true">${pageMapCompassIcon}</span><span>${copy.title}</span></h2>
-    <p>${copy.strap}</p>
+    <h2 class="section-title page-map__title"><span class="section-title__icon" aria-hidden="true">${pageMapCompassIcon}</span><span>${escapeHtml(copy.title)}</span></h2>
+    <p>${escapeHtml(copy.strap)}</p>
   </div>
   <div class="page-map__links">
     ${entries
       .map(
         (entry) =>
-          `<a class="page-map__link" href="#${entry.id}"><span class="page-map__icon" aria-hidden="true">${pageMapArrowIcon}</span><span>${entry.label}</span></a>`
+          `<a class="page-map__link" href="#${escapeHtml(entry.id)}"><span class="page-map__icon" aria-hidden="true">${pageMapArrowIcon}</span><span>${escapeHtml(entry.label)}</span></a>`
       )
       .join("")}
   </div>
