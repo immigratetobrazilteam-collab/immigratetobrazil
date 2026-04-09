@@ -23,6 +23,8 @@ const HERO_SRC_RE = /<img class="hero-media"[^>]*src="([^"]*)"/i;
 const TITLE_SECTION_RE = /<!-- Section: Title -->/i;
 const SITE_RUNTIME_SECTION_RE = /<!-- Section: Site Runtime Config -->/i;
 const GOOGLE_TAG_SECTION_RE = /<!-- Section: Google Tag -->[\s\S]*?(?=<!-- Section: Site Runtime Config -->)/i;
+const GTM_NOSCRIPT_BLOCK_RE =
+  /(?:<div\s+data-partial=["']gtm-noscript["']\s*>\s*<\/div>|<!-- Section: Google Tag Fallback -->[\s\S]*?<\/noscript>)/i;
 const ROBOTS_ROUTE_SEGMENTS = new Set(["search", "404", "client-feedback"]);
 const GOOGLE_SITE_VERIFICATION_TOKEN = "V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo";
 const GOOGLE_SITE_VERIFICATION_ROUTES = new Set(["/", "/pt-br/"]);
@@ -282,23 +284,27 @@ function ensureGoogleSiteVerification(html, route) {
 
 function trackingConfigFromHtml(html) {
   const match = html.match(ITB_SITE_RE);
-  if (!match) return { ga4Id: "" };
+  if (!match) return { ga4Id: "", gtmId: "" };
 
   try {
     const config = JSON.parse(match[1]);
     const tracking = config?.tracking || {};
     return {
-      ga4Id: typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : ""
+      ga4Id: typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : "",
+      gtmId: typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : ""
     };
   } catch {
-    return { ga4Id: "" };
+    return { ga4Id: "", gtmId: "" };
   }
 }
 
-function buildGoogleTagSection(ga4Id) {
+function buildGoogleTagSection(tracking = {}) {
+  const ga4Id = typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : "";
+  const gtmId = typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : "";
   const safeGa4Id = escapeAttribute(ga4Id);
+  const jsGa4Id = JSON.stringify(ga4Id);
+  const jsGtmId = JSON.stringify(gtmId);
   return `<!-- Section: Google Tag -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
 <script>
       window.dataLayer = window.dataLayer || [];
       window.gtag =
@@ -306,7 +312,6 @@ function buildGoogleTagSection(ga4Id) {
         function gtag() {
           window.dataLayer.push(arguments);
         };
-      window.__ITB_GA_BOOTSTRAPPED__ = true;
       window.gtag("set", "ads_data_redaction", true);
       window.gtag("consent", "default", {
         ad_storage: "denied",
@@ -315,19 +320,39 @@ function buildGoogleTagSection(ga4Id) {
         ad_personalization: "denied",
         wait_for_update: 500
       });
+    </script>
+${gtmId
+  ? `<script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l !== "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", ${jsGtmId});
+    </script>
+`
+  : ""}${ga4Id
+  ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
+<script>
+      window.__ITB_GA_BOOTSTRAPPED__ = true;
       window.gtag("js", new Date());
-      window.gtag("config", "${safeGa4Id}", { send_page_view: false });
+      window.gtag("config", ${jsGa4Id}, { send_page_view: false });
       window.__ITB_GA_CONFIGURED__ = true;
     </script>
-
+`
+  : ""}
 `;
 }
 
 function ensureGoogleTagSection(html) {
-  const { ga4Id } = trackingConfigFromHtml(html);
-  if (!ga4Id) return html;
+  const tracking = trackingConfigFromHtml(html);
+  if (!tracking.ga4Id && !tracking.gtmId) return html;
 
-  const section = buildGoogleTagSection(ga4Id);
+  const section = buildGoogleTagSection(tracking);
   if (GOOGLE_TAG_SECTION_RE.test(html)) {
     return html.replace(GOOGLE_TAG_SECTION_RE, section);
   }
@@ -338,6 +363,21 @@ function ensureGoogleTagSection(html) {
     return html.replace(HEAD_CLOSE_RE, `${section}</head>`);
   }
   return html;
+}
+
+function buildGoogleTagFallback(gtmId) {
+  if (!gtmId) return "";
+  const safeGtmId = escapeAttribute(gtmId);
+  return `<!-- Section: Google Tag Fallback -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${safeGtmId}" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>`;
+}
+
+function ensureGoogleTagFallback(html) {
+  const { gtmId } = trackingConfigFromHtml(html);
+  if (!gtmId) return html;
+  const fallback = buildGoogleTagFallback(gtmId);
+  if (GTM_NOSCRIPT_BLOCK_RE.test(html)) return html.replace(GTM_NOSCRIPT_BLOCK_RE, fallback);
+  return html.replace(/<body\b([^>]*)>/i, `<body$1>${fallback}`);
 }
 
 function replaceTitle(html, value) {
@@ -926,6 +966,7 @@ async function main() {
     html = replaceMetaTag(html, "name", "robots", expectedRobots(entry.route));
     html = ensureGoogleSiteVerification(html, entry.route);
     html = ensureGoogleTagSection(html);
+    html = ensureGoogleTagFallback(html);
 
     let archiveMeta = null;
     if (isInsightArticleRoute(entry.route)) {

@@ -7287,9 +7287,6 @@ body.site-root .back-to-top:focus-visible::after {
     flex: 1 1 0;
   }
 
-  body.site-root.page-home .cookie-banner {
-    display: none;
-  }
 }
 
 @media (max-width: 479px) {

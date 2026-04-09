@@ -122,11 +122,16 @@ function renderStylesheetLinks(stylesheets) {
   return stylesheets.map((href) => `<link rel="stylesheet" href="${escapeAttribute(href)}" />`).join("\n");
 }
 
-function buildGoogleTagSection(ga4Id) {
-  if (!ga4Id) return "";
+function buildGoogleTagSection(tracking = {}) {
+  const ga4Id = typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : "";
+  const gtmId = typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : "";
+  if (!ga4Id && !gtmId) return "";
+
   const safeGa4Id = escapeAttribute(ga4Id);
+  const jsGa4Id = JSON.stringify(ga4Id);
+  const jsGtmId = JSON.stringify(gtmId);
+
   return `<!-- Section: Google Tag -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
 <script>
       window.dataLayer = window.dataLayer || [];
       window.gtag =
@@ -134,7 +139,6 @@ function buildGoogleTagSection(ga4Id) {
         function gtag() {
           window.dataLayer.push(arguments);
         };
-      window.__ITB_GA_BOOTSTRAPPED__ = true;
       window.gtag("set", "ads_data_redaction", true);
       window.gtag("consent", "default", {
         ad_storage: "denied",
@@ -143,10 +147,45 @@ function buildGoogleTagSection(ga4Id) {
         ad_personalization: "denied",
         wait_for_update: 500
       });
+    </script>
+${gtmId
+  ? `<script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l !== "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", ${jsGtmId});
+    </script>
+`
+  : ""}${ga4Id
+  ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
+<script>
+      window.__ITB_GA_BOOTSTRAPPED__ = true;
       window.gtag("js", new Date());
-      window.gtag("config", "${safeGa4Id}", { send_page_view: false });
+      window.gtag("config", ${jsGa4Id}, { send_page_view: false });
       window.__ITB_GA_CONFIGURED__ = true;
-    </script>`;
+    </script>`
+  : ""}`;
+}
+
+function buildGoogleTagFallback(gtmId) {
+  if (!gtmId) return "";
+  const safeGtmId = escapeAttribute(gtmId);
+  return `<!-- Section: Google Tag Fallback -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${safeGtmId}" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>`;
+}
+
+function injectGoogleTagFallback(bodyHtml, gtmId) {
+  if (!gtmId) return bodyHtml;
+  const fallback = buildGoogleTagFallback(gtmId);
+  const placeholderRe = /<div\s+data-partial=["']gtm-noscript["']\s*>\s*<\/div>/i;
+  if (placeholderRe.test(bodyHtml)) return bodyHtml.replace(placeholderRe, fallback);
+  return `${fallback}\n${bodyHtml}`;
 }
 
 function renderScriptLinks(scripts) {
@@ -158,7 +197,8 @@ function renderScriptLinks(scripts) {
 export function renderEnglishPage(about, page, bodyHtml, structuredData) {
   const canonicalUrl = routeToUrl(page.route, about.site.domain);
   const ptUrl = routeToUrl(routeToPt(page.route), about.site.domain);
-  const ga4Id = about.runtime?.tracking?.ga4Id || "";
+  const tracking = about.runtime?.tracking || {};
+  const decoratedBodyHtml = injectGoogleTagFallback(bodyHtml, tracking.gtmId || "");
   const runtimeConfig = JSON.stringify({
     pageRoute: page.route,
     pageTitle: page.runtime.pageTitle,
@@ -220,14 +260,14 @@ ${renderStylesheetLinks(about.assets.stylesheets)}
 <!-- Section: Structured Data -->
 <script type="application/ld+json">${structuredDataJson}</script>
 
-${buildGoogleTagSection(ga4Id)}
+${buildGoogleTagSection(tracking)}
 
 <!-- Section: Site Runtime Config -->
 <script>
       window.ITB_SITE = ${runtimeConfig};
     </script>
 </head>
-<body class="${escapeAttribute(page.bodyClass)}">${bodyHtml}<!-- Section: Site Scripts -->
+<body class="${escapeAttribute(page.bodyClass)}">${decoratedBodyHtml}<!-- Section: Site Scripts -->
 ${renderScriptLinks(about.assets.scripts)}
 </body>
 </html>

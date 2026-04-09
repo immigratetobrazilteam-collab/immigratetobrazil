@@ -5,11 +5,13 @@
    * the module keeps its own observer/listener state and idempotent bindings.
    * ========================================================================== */
   const consentKey = "itb-consent";
+  const autoConsentDelayMs = 12000;
   const emailCaptureEndpoint = "https://formspree.io/f/xdawygld";
   const exitIntentSessionKey = "itb-insights-exit-intent-seen";
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
+  let autoConsentTimer = null;
   let stickyObserver = null;
   let scrollBound = false;
   let escapeBound = false;
@@ -406,6 +408,12 @@
     window.gtag("event", eventName, payload || {});
   }
 
+  function clearAutoConsentTimer() {
+    if (autoConsentTimer === null) return;
+    window.clearTimeout(autoConsentTimer);
+    autoConsentTimer = null;
+  }
+
   /* ==========================================================================
    * 04. Page Map Text and ID Helpers
    * ========================================================================== */
@@ -772,16 +780,43 @@
     const cookieBanner = document.querySelector("[data-cookie-banner]");
     const syncCookieBannerVisibility = () => {
       if (!cookieBanner) return;
-      const suppressOnMobileHome =
-        document.body.classList.contains("page-home") && window.matchMedia("(max-width: 767px)").matches;
-      cookieBanner.hidden = Boolean(localStorage.getItem(consentKey)) || suppressOnMobileHome;
+      cookieBanner.hidden = Boolean(localStorage.getItem(consentKey));
+    };
+
+    const applyConsentChoice = (choice, source = "manual") => {
+      const accepted = choice === "accept";
+      localStorage.setItem(consentKey, accepted ? "accepted" : "declined");
+      clearAutoConsentTimer();
+      syncCookieBannerVisibility();
+      if (accepted) {
+        updateAnalyticsConsent(true);
+        track(source === "auto" ? "analytics_consent_auto_accepted" : "analytics_consent_granted", {
+          page_route: config.pageRoute
+        });
+      } else {
+        updateAnalyticsConsent(false);
+        track("analytics_consent_declined", { page_route: config.pageRoute });
+      }
+      trackPageView();
+    };
+
+    const armAutoConsent = () => {
+      if (!cookieBanner || localStorage.getItem(consentKey)) return;
+      clearAutoConsentTimer();
+      autoConsentTimer = window.setTimeout(() => {
+        if (!localStorage.getItem(consentKey)) applyConsentChoice("accept", "auto");
+      }, autoConsentDelayMs);
     };
 
     syncCookieBannerVisibility();
+    armAutoConsent();
 
     if (cookieBanner && cookieBanner.dataset.itbBoundConsentViewport !== "true") {
       const viewportQuery = window.matchMedia("(max-width: 767px)");
-      const handleViewportChange = () => syncCookieBannerVisibility();
+      const handleViewportChange = () => {
+        syncCookieBannerVisibility();
+        armAutoConsent();
+      };
 
       if (typeof viewportQuery.addEventListener === "function") viewportQuery.addEventListener("change", handleViewportChange);
       else if (typeof viewportQuery.addListener === "function") viewportQuery.addListener(handleViewportChange);
@@ -793,15 +828,7 @@
       if (button.dataset.itbBoundConsent === "true") return;
       button.addEventListener("click", () => {
         const choice = button.getAttribute("data-consent");
-        localStorage.setItem(consentKey, choice === "accept" ? "accepted" : "declined");
-        syncCookieBannerVisibility();
-        if (choice === "accept") {
-          updateAnalyticsConsent(true);
-          track("analytics_consent_granted", { page_route: config.pageRoute });
-        } else {
-          updateAnalyticsConsent(false);
-          track("analytics_consent_declined", { page_route: config.pageRoute });
-        }
+        applyConsentChoice(choice === "accept" ? "accept" : "decline");
       });
       button.dataset.itbBoundConsent = "true";
     });
