@@ -5,7 +5,6 @@
    * the module keeps its own observer/listener state and idempotent bindings.
    * ========================================================================== */
   const consentKey = "itb-consent";
-  const autoConsentDelayMs = 12000;
   const attributionSessionKey = "itb-attribution";
   const emailCaptureEndpoint = "https://formspree.io/f/xdawygld";
   const exitIntentSessionKey = "itb-insights-exit-intent-seen";
@@ -13,7 +12,6 @@
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
-  let autoConsentTimer = null;
   let trackedScrollMilestones = new Set();
   let stickyObserver = null;
   let scrollBound = false;
@@ -552,6 +550,7 @@
   function updateAnalyticsConsent(granted) {
     const { ga4Id } = getTrackingConfig();
     if (!ga4Id) return;
+    if (!granted && !analyticsBootstrapped) return;
 
     bootstrapAnalytics();
     if (typeof window.gtag !== "function") return;
@@ -580,12 +579,6 @@
   function track(eventName, payload) {
     if (!analyticsEnabled()) return;
     window.gtag("event", eventName, buildAnalyticsContext(payload));
-  }
-
-  function clearAutoConsentTimer() {
-    if (autoConsentTimer === null) return;
-    window.clearTimeout(autoConsentTimer);
-    autoConsentTimer = null;
   }
 
   /* ==========================================================================
@@ -943,16 +936,13 @@
    * Consent-aware GA4 loading and shared analytics click bindings.
    * ========================================================================== */
   function initConsentAndTracking() {
-    const config = getConfig();
     const storedConsent = localStorage.getItem(consentKey);
-    bootstrapAnalytics();
     if (storedConsent === "accepted") {
+      configureAnalytics();
       updateAnalyticsConsent(true);
       persistAttributionContext();
+      trackPageView();
     }
-    else if (storedConsent === "declined") updateAnalyticsConsent(false);
-    configureAnalytics();
-    trackPageView();
 
     const cookieBanner = document.querySelector("[data-cookie-banner]");
     const syncCookieBannerVisibility = () => {
@@ -963,37 +953,27 @@
     const applyConsentChoice = (choice, source = "manual") => {
       const accepted = choice === "accept";
       localStorage.setItem(consentKey, accepted ? "accepted" : "declined");
-      clearAutoConsentTimer();
       syncCookieBannerVisibility();
       if (accepted) {
+        configureAnalytics();
         updateAnalyticsConsent(true);
         persistAttributionContext();
         track(source === "auto" ? "analytics_consent_auto_accepted" : "analytics_consent_granted", {
           consent_source: source
         });
+        trackPageView();
       } else {
         updateAnalyticsConsent(false);
         track("analytics_consent_declined", { consent_source: source });
       }
-      trackPageView();
-    };
-
-    const armAutoConsent = () => {
-      if (!cookieBanner || localStorage.getItem(consentKey)) return;
-      clearAutoConsentTimer();
-      autoConsentTimer = window.setTimeout(() => {
-        if (!localStorage.getItem(consentKey)) applyConsentChoice("accept", "auto");
-      }, autoConsentDelayMs);
     };
 
     syncCookieBannerVisibility();
-    armAutoConsent();
 
     if (cookieBanner && cookieBanner.dataset.itbBoundConsentViewport !== "true") {
       const viewportQuery = window.matchMedia("(max-width: 767px)");
       const handleViewportChange = () => {
         syncCookieBannerVisibility();
-        armAutoConsent();
       };
 
       if (typeof viewportQuery.addEventListener === "function") viewportQuery.addEventListener("change", handleViewportChange);
@@ -1375,8 +1355,11 @@
     }
   }
 
-  function openNinaFromLead(source) {
+  async function openNinaFromLead(source) {
     let opened = false;
+    if (typeof window.ITB?.openAshaChat !== "function" && typeof window.ITB?.loadAshaChat === "function") {
+      await window.ITB.loadAshaChat();
+    }
     if (typeof window.ITB?.openAshaChat === "function") opened = window.ITB.openAshaChat();
     if (!opened) {
       const launcher = document.querySelector("[data-nina-launcher]");
@@ -1408,7 +1391,7 @@
       if (!ninaButton) return;
       event.preventDefault();
       if (isInsightsExitModalOpen()) closeInsightsExitModal();
-      openNinaFromLead(ninaButton.getAttribute("data-itb-nina-source") || "lead-capture");
+      void openNinaFromLead(ninaButton.getAttribute("data-itb-nina-source") || "lead-capture");
     });
 
     document.addEventListener("keydown", (event) => {

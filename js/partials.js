@@ -363,7 +363,7 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     if (!name || !PARTIAL_NAMES.includes(name)) return;
     const response = await fetch(resolveSiteUrl(`/partials/${getLocale()}/${name}.html?v=${encodeURIComponent(PARTIAL_VERSION)}`), {
       credentials: "same-origin",
-      cache: "no-store"
+      cache: "force-cache"
     });
     if (!response.ok) throw new Error(`Failed to load partial: ${name}`);
     const html = await response.text();
@@ -412,6 +412,42 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     return pending;
   }
 
+  function getAshaChatScriptUrl() {
+    return resolveSiteUrl(`/js/asha-chat.js?v=${encodeURIComponent(PARTIAL_VERSION)}`);
+  }
+
+  function loadAshaChat() {
+    if (!document.querySelector("[data-asha-chat='true']")) return Promise.resolve(false);
+    if (typeof window.ITB?.initAshaChat === "function") {
+      window.ITB.initAshaChat();
+      return Promise.resolve(true);
+    }
+
+    return ensureSharedScript("asha-chat", getAshaChatScriptUrl()).then(() => {
+      window.ITB?.initAshaChat?.();
+      return typeof window.ITB?.openAshaChat === "function";
+    });
+  }
+
+  function bindDeferredAshaChat() {
+    if (document.documentElement.dataset.itbBoundAshaChatLoader === "true") return;
+
+    document.addEventListener("click", (event) => {
+      const launcher = event.target.closest("[data-nina-launcher]");
+      if (!launcher || typeof window.ITB?.openAshaChat === "function") return;
+
+      event.preventDefault();
+      loadAshaChat()
+        .then((loaded) => {
+          if (!loaded || !(launcher instanceof HTMLElement)) return;
+          launcher.click();
+        })
+        .catch((error) => console.error(error));
+    });
+
+    document.documentElement.dataset.itbBoundAshaChatLoader = "true";
+  }
+
   function ensureGlobalUtilityPlaceholders() {
     const body = document.body;
     if (!body) return;
@@ -439,22 +475,20 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
    * ========================================================================== */
   async function initPartials() {
     ensureGlobalUtilityPlaceholders();
-    await ensureSharedScript("asha-chat", resolveSiteUrl(`/js/asha-chat.js?v=${encodeURIComponent(PARTIAL_VERSION)}`));
+    bindDeferredAshaChat();
+    window.ITB = window.ITB || {};
+    window.ITB.loadAshaChat = loadAshaChat;
     const placeholders = [...document.querySelectorAll("[data-partial]")];
     if (!placeholders.length) {
       window.ITB?.initAccessibility?.();
       window.ITB?.initSite?.();
       window.ITB?.initSearch?.();
-      window.ITB?.initAshaChat?.();
       return;
     }
-    for (const node of placeholders) {
-      await loadPartialNode(node);
-    }
+    await Promise.all(placeholders.map((node) => loadPartialNode(node)));
     window.ITB?.initAccessibility?.();
     window.ITB?.initSite?.();
     window.ITB?.initSearch?.();
-    window.ITB?.initAshaChat?.();
   }
 
   /* ==========================================================================

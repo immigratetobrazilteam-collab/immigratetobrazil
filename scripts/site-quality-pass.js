@@ -299,70 +299,12 @@ function trackingConfigFromHtml(html) {
 }
 
 function buildGoogleTagSection(tracking = {}) {
-  const ga4Id = typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : "";
-  const gtmId = typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : "";
-  const safeGa4Id = escapeAttribute(ga4Id);
-  const jsGa4Id = JSON.stringify(ga4Id);
-  const jsGtmId = JSON.stringify(gtmId);
-  return `<!-- Section: Google Tag -->
-<script>
-      window.dataLayer = window.dataLayer || [];
-      window.gtag =
-        window.gtag ||
-        function gtag() {
-          window.dataLayer.push(arguments);
-        };
-      window.gtag("set", "ads_data_redaction", true);
-      window.gtag("consent", "default", {
-        ad_storage: "denied",
-        analytics_storage: "denied",
-        ad_user_data: "denied",
-        ad_personalization: "denied",
-        wait_for_update: 500
-      });
-    </script>
-${gtmId
-  ? `<script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l !== "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", ${jsGtmId});
-    </script>
-`
-  : ""}${ga4Id
-  ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
-<script>
-      window.__ITB_GA_BOOTSTRAPPED__ = true;
-      window.gtag("js", new Date());
-      window.gtag("config", ${jsGa4Id}, { send_page_view: false });
-      window.__ITB_GA_CONFIGURED__ = true;
-    </script>
-`
-  : ""}
-`;
+  void tracking;
+  return "";
 }
 
 function ensureGoogleTagSection(html) {
-  const tracking = trackingConfigFromHtml(html);
-  if (!tracking.ga4Id && !tracking.gtmId) return html;
-
-  const section = buildGoogleTagSection(tracking);
-  if (GOOGLE_TAG_SECTION_RE.test(html)) {
-    return html.replace(GOOGLE_TAG_SECTION_RE, section);
-  }
-  if (SITE_RUNTIME_SECTION_RE.test(html)) {
-    return html.replace(SITE_RUNTIME_SECTION_RE, `${section}<!-- Section: Site Runtime Config -->`);
-  }
-  if (HEAD_CLOSE_RE.test(html)) {
-    return html.replace(HEAD_CLOSE_RE, `${section}</head>`);
-  }
-  return html;
+  return GOOGLE_TAG_SECTION_RE.test(html) ? html.replace(GOOGLE_TAG_SECTION_RE, "") : html;
 }
 
 function buildGoogleTagFallback(gtmId) {

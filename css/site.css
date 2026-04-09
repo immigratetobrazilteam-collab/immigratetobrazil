@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap");
-
 /* ==========================================================================
    01. Global Design Tokens
    Core palette, spacing, typography, and shared custom properties.
@@ -1794,6 +1792,13 @@ body.is-scrolled .main-nav {
 .sidebar-card {
   content-visibility: auto;
   contain-intrinsic-size: 1px 960px;
+}
+
+@supports (content-visibility: auto) {
+  .page-home-atlas > section + section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 1200px;
+  }
 }
 
 /* ==========================================================================
