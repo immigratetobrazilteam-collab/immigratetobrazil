@@ -1,0 +1,462 @@
+{
+  "generatedAt": "2026-04-09T18:29:05.115Z",
+  "description": "Lucide icon manifest for the All Services directory cards.",
+  "entries": [
+    {
+      "family": "visas",
+      "service": "Tourist Visa",
+      "slug": "tourist-visa",
+      "file": "/assets/icons/services/all/tourist-visa.svg",
+      "iconName": "plane",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/plane.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Digital Nomad Visa",
+      "slug": "digital-nomad-visa",
+      "file": "/assets/icons/services/all/digital-nomad-visa.svg",
+      "iconName": "laptop-minimal",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/laptop-minimal.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Work Visa",
+      "slug": "work-visa",
+      "file": "/assets/icons/services/all/work-visa.svg",
+      "iconName": "briefcase-business",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/briefcase-business.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Student Visa",
+      "slug": "student-visa",
+      "file": "/assets/icons/services/all/student-visa.svg",
+      "iconName": "graduation-cap",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/graduation-cap.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Investor Visa",
+      "slug": "investor-visa",
+      "file": "/assets/icons/services/all/investor-visa.svg",
+      "iconName": "hand-coins",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/hand-coins.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Family Visa",
+      "slug": "family-visa",
+      "file": "/assets/icons/services/all/family-visa.svg",
+      "iconName": "users",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/users.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Religious Visa",
+      "slug": "religious-visa",
+      "file": "/assets/icons/services/all/religious-visa.svg",
+      "iconName": "church",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/church.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Journalist Visa",
+      "slug": "journalist-visa",
+      "file": "/assets/icons/services/all/journalist-visa.svg",
+      "iconName": "camera",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/camera.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Medical Visa",
+      "slug": "medical-visa",
+      "file": "/assets/icons/services/all/medical-visa.svg",
+      "iconName": "cross",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cross.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Diplomatic Visa",
+      "slug": "diplomatic-visa",
+      "file": "/assets/icons/services/all/diplomatic-visa.svg",
+      "iconName": "handshake",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/handshake.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Research Visa",
+      "slug": "research-visa",
+      "file": "/assets/icons/services/all/research-visa.svg",
+      "iconName": "flask-conical",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/flask-conical.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Sports Visa",
+      "slug": "sports-visa",
+      "file": "/assets/icons/services/all/sports-visa.svg",
+      "iconName": "trophy",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/trophy.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Startup Visa",
+      "slug": "startup-visa",
+      "file": "/assets/icons/services/all/startup-visa.svg",
+      "iconName": "rocket",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/rocket.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Volunteer Visa",
+      "slug": "volunteer-visa",
+      "file": "/assets/icons/services/all/volunteer-visa.svg",
+      "iconName": "heart-handshake",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/heart-handshake.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Artistic Visa",
+      "slug": "artistic-visa",
+      "file": "/assets/icons/services/all/artistic-visa.svg",
+      "iconName": "palette",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/palette.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Educational Exchange Visa",
+      "slug": "educational-exchange-visa",
+      "file": "/assets/icons/services/all/educational-exchange-visa.svg",
+      "iconName": "globe",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Transit Visa",
+      "slug": "transit-visa",
+      "file": "/assets/icons/services/all/transit-visa.svg",
+      "iconName": "waypoints",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/waypoints.svg"
+    },
+    {
+      "family": "visas",
+      "service": "Business Visa",
+      "slug": "business-visa",
+      "file": "/assets/icons/services/all/business-visa.svg",
+      "iconName": "presentation",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/presentation.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Residency",
+      "slug": "residency",
+      "file": "/assets/icons/services/all/residency.svg",
+      "iconName": "house",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/house.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "MERCOSUL Residency",
+      "slug": "mercosul-residency",
+      "file": "/assets/icons/services/all/mercosul-residency.svg",
+      "iconName": "map-pinned",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/map-pinned.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "CPLP Residency",
+      "slug": "cplp-residency",
+      "file": "/assets/icons/services/all/cplp-residency.svg",
+      "iconName": "languages",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/languages.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Family Reunion Residency",
+      "slug": "family-reunion-residency",
+      "file": "/assets/icons/services/all/family-reunion-residency.svg",
+      "iconName": "house-plus",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/house-plus.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Health Residency",
+      "slug": "health-residency",
+      "file": "/assets/icons/services/all/health-residency.svg",
+      "iconName": "stethoscope",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/stethoscope.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Humanitarian Residency",
+      "slug": "humanitarian-residency",
+      "file": "/assets/icons/services/all/humanitarian-residency.svg",
+      "iconName": "life-buoy",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/life-buoy.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Investor Residency",
+      "slug": "investor-residency",
+      "file": "/assets/icons/services/all/investor-residency.svg",
+      "iconName": "piggy-bank",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/piggy-bank.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Religious Residency",
+      "slug": "religious-residency",
+      "file": "/assets/icons/services/all/religious-residency.svg",
+      "iconName": "landmark",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/landmark.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Retirement Residency",
+      "slug": "retirement-residency",
+      "file": "/assets/icons/services/all/retirement-residency.svg",
+      "iconName": "sun",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sun.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Research Residency",
+      "slug": "research-residency",
+      "file": "/assets/icons/services/all/research-residency.svg",
+      "iconName": "microscope",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/microscope.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Skilled Residency",
+      "slug": "skilled-residency",
+      "file": "/assets/icons/services/all/skilled-residency.svg",
+      "iconName": "badge-check",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/badge-check.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Study Residency",
+      "slug": "study-residency",
+      "file": "/assets/icons/services/all/study-residency.svg",
+      "iconName": "book-open-text",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/book-open-text.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Work Residency",
+      "slug": "work-residency",
+      "file": "/assets/icons/services/all/work-residency.svg",
+      "iconName": "hard-hat",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/hard-hat.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Youth Residency",
+      "slug": "youth-residency",
+      "file": "/assets/icons/services/all/youth-residency.svg",
+      "iconName": "sparkles",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sparkles.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Volunteer Residency",
+      "slug": "volunteer-residency",
+      "file": "/assets/icons/services/all/volunteer-residency.svg",
+      "iconName": "user-round-plus",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/user-round-plus.svg"
+    },
+    {
+      "family": "residencies",
+      "service": "Nomad Residency",
+      "slug": "nomad-residency",
+      "file": "/assets/icons/services/all/nomad-residency.svg",
+      "iconName": "wifi",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/wifi.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Citizenship",
+      "slug": "citizenship",
+      "file": "/assets/icons/services/all/citizenship.svg",
+      "iconName": "flag",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/flag.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Naturalisation",
+      "slug": "naturalisation",
+      "file": "/assets/icons/services/all/naturalisation.svg",
+      "iconName": "scroll-text",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/scroll-text.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Ordinary Naturalisation",
+      "slug": "ordinary-naturalisation",
+      "file": "/assets/icons/services/all/ordinary-naturalisation.svg",
+      "iconName": "id-card",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/id-card.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Extraordinary Naturalisation",
+      "slug": "extraordinary-naturalisation",
+      "file": "/assets/icons/services/all/extraordinary-naturalisation.svg",
+      "iconName": "star",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/star.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Provisional Naturalisation",
+      "slug": "provisional-naturalisation",
+      "file": "/assets/icons/services/all/provisional-naturalisation.svg",
+      "iconName": "hourglass",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/hourglass.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Special Naturalisation",
+      "slug": "special-naturalisation",
+      "file": "/assets/icons/services/all/special-naturalisation.svg",
+      "iconName": "gem",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/gem.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Renunciation of Nationality",
+      "slug": "renunciation-of-nationality",
+      "file": "/assets/icons/services/all/renunciation-of-nationality.svg",
+      "iconName": "log-out",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/log-out.svg"
+    },
+    {
+      "family": "naturalisation",
+      "service": "Reacquisition of Nationality",
+      "slug": "reacquisition-of-nationality",
+      "file": "/assets/icons/services/all/reacquisition-of-nationality.svg",
+      "iconName": "rotate-ccw",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/rotate-ccw.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Deportation Defense",
+      "slug": "deportation-defense",
+      "file": "/assets/icons/services/all/deportation-defense.svg",
+      "iconName": "shield-alert",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-alert.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Expulsion Defense",
+      "slug": "expulsion-defense",
+      "file": "/assets/icons/services/all/expulsion-defense.svg",
+      "iconName": "ban",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/ban.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Extradition Defense",
+      "slug": "extradition-defense",
+      "file": "/assets/icons/services/all/extradition-defense.svg",
+      "iconName": "scale-3d",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/scale-3d.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Appeals",
+      "slug": "appeals",
+      "file": "/assets/icons/services/all/appeals.svg",
+      "iconName": "file-pen-line",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-pen-line.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Fines",
+      "slug": "fines",
+      "file": "/assets/icons/services/all/fines.svg",
+      "iconName": "receipt",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/receipt.svg"
+    },
+    {
+      "family": "defense",
+      "service": "Litigation",
+      "slug": "litigation",
+      "file": "/assets/icons/services/all/litigation.svg",
+      "iconName": "building",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/building.svg"
+    },
+    {
+      "family": "support",
+      "service": "Consular Records",
+      "slug": "consular-records",
+      "file": "/assets/icons/services/all/consular-records.svg",
+      "iconName": "file-stack",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-stack.svg"
+    },
+    {
+      "family": "support",
+      "service": "Translation",
+      "slug": "translation",
+      "file": "/assets/icons/services/all/translation.svg",
+      "iconName": "notebook-pen",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/notebook-pen.svg"
+    },
+    {
+      "family": "support",
+      "service": "Regularisation",
+      "slug": "regularisation",
+      "file": "/assets/icons/services/all/regularisation.svg",
+      "iconName": "refresh-cw",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/refresh-cw.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Advisory",
+      "slug": "advisory",
+      "file": "/assets/icons/services/all/advisory.svg",
+      "iconName": "scale",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/scale.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Consultation",
+      "slug": "consultation",
+      "file": "/assets/icons/services/all/consultation.svg",
+      "iconName": "messages-square",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/messages-square.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Strategy",
+      "slug": "strategy",
+      "file": "/assets/icons/services/all/strategy.svg",
+      "iconName": "route",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/route.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Compliance",
+      "slug": "compliance",
+      "file": "/assets/icons/services/all/compliance.svg",
+      "iconName": "shield-check",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Representation",
+      "slug": "representation",
+      "file": "/assets/icons/services/all/representation.svg",
+      "iconName": "speech",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/speech.svg"
+    },
+    {
+      "family": "advisory",
+      "service": "Corporate Immigration",
+      "slug": "corporate-immigration",
+      "file": "/assets/icons/services/all/corporate-immigration.svg",
+      "iconName": "building-2",
+      "sourceUrl": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/building-2.svg"
+    }
+  ]
+}

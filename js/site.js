@@ -1454,6 +1454,7 @@
   function initServicesDirectory() {
     const dataNode = document.getElementById("services-directory-data");
     if (!dataNode || dataNode.dataset.itbServicesRendered === "true") return;
+    const isPt = document.documentElement.lang?.toLowerCase().startsWith("pt");
 
     function escapeHtml(value) {
       return String(value ?? "")
@@ -1462,6 +1463,54 @@
         .replace(/>/g, "&gt;")
         .replace(/\"/g, "&quot;")
         .replace(/'/g, "&#39;");
+    }
+
+    function slugify(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+    }
+
+    function localizeInternalHref(value) {
+      const href = String(value || "").trim();
+      if (!href.startsWith("/") || href.startsWith("/pt-br/") || !isPt) return href;
+      return href === "/" ? "/pt-br/" : `/pt-br${href}`;
+    }
+
+    function appendConsultationSubject(value, subject, serviceLabel) {
+      const href = localizeInternalHref(value);
+      if (!href) return href;
+      try {
+        const url = new URL(href, window.location.origin);
+        if (subject && !url.searchParams.get("consultation_subject")) {
+          url.searchParams.set("consultation_subject", subject);
+        }
+        if (serviceLabel && !url.searchParams.get("service_label")) {
+          url.searchParams.set("service_label", serviceLabel);
+        }
+        return `${url.pathname}${url.search}${url.hash}`;
+      } catch {
+        return href;
+      }
+    }
+
+    function buildReadLabel(familyKey, label) {
+      const templates = {
+        visas: isPt ? `Ver detalhes de ${label}` : `See ${label} details`,
+        residencies: isPt ? `Ver caminho de ${label}` : `Review ${label} pathway`,
+        naturalisation: isPt ? `Ver critérios de ${label}` : `Read ${label} criteria`,
+        defense: isPt ? `Ver resposta para ${label}` : `Open ${label} overview`,
+        support: isPt ? `Ver apoio de ${label}` : `See ${label} support`,
+        advisory: isPt ? `Explorar ${label}` : `Explore ${label} guidance`
+      };
+      return templates[familyKey] || (isPt ? `Ver ${label}` : `See ${label}`);
+    }
+
+    function buildConsultLabel(label) {
+      return isPt ? `Agendar consulta sobre ${label}` : `Discuss ${label}`;
     }
 
     let directoryData;
@@ -1483,25 +1532,51 @@
 
         grid.innerHTML = services
           .map((service) => {
-            const related = service.related
-              ? `<p class="services-directory-card__related">${escapeHtml(service.related.prefix)} <a href="${escapeHtml(
-                  service.related.href
-                )}">${escapeHtml(service.related.label)}</a></p>`
-              : "";
+            const label = service.label || "";
+            const slug = service.slug || slugify(label);
+            const readLabel = service.readLabel || buildReadLabel(familyKey, label);
+            const consultationSubject =
+              service.consultationSubject || `${isPt ? "Consulta" : "Consultation request"} | ${label} | All Services`;
+            const consultationHref = appendConsultationSubject(
+              service.consultationHref,
+              consultationSubject,
+              label
+            );
+            const readHref = localizeInternalHref(service.href || "#");
+            const imageSrc =
+              service.imageSrc || `/assets/images/pages/services/all/${escapeHtml(familyKey)}/${escapeHtml(slug)}.jpg`;
+            const imageAlt =
+              service.imageAlt ||
+              `${label} service image for Brazilian immigration legal support and strategic planning.`;
+            const imageWidth = Number.isFinite(service.imageWidth) ? service.imageWidth : 1200;
+            const imageHeight = Number.isFinite(service.imageHeight) ? service.imageHeight : 800;
+            const iconSrc = service.iconSrc || `/assets/icons/services/all/${escapeHtml(slug)}.svg`;
+            const consultButtonLabel = service.consultLabel || buildConsultLabel(label);
 
             return `<article class="services-directory-card services-directory-card--${escapeHtml(familyKey)}">
+  <figure class="services-directory-card__media">
+    <img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(imageAlt)}" width="${escapeHtml(
+              imageWidth
+            )}" height="${escapeHtml(imageHeight)}" loading="lazy" decoding="async" />
+  </figure>
   <div class="services-directory-card__top">
-    <span class="services-directory-card__eyebrow">${escapeHtml(family.eyebrow || "")}</span>
-    <span class="services-directory-card__icon" aria-hidden="true"></span>
+    <span class="services-directory-card__icon" aria-hidden="true">
+      <img src="${escapeHtml(iconSrc)}" alt="" width="24" height="24" loading="lazy" decoding="async" />
+    </span>
   </div>
-  <h3><a href="${escapeHtml(service.href)}">${escapeHtml(service.label)}</a></h3>
+  <h3><a href="${escapeHtml(readHref)}" aria-label="${escapeHtml(`${exploreLabel}: ${label}`)}">${escapeHtml(
+              label
+            )}</a></h3>
   <p>${escapeHtml(service.description)}</p>
-  ${related}
   <div class="services-directory-card__actions">
-    <a class="btn btn-secondary btn-sm" href="${escapeHtml(service.href)}">${escapeHtml(exploreLabel)}</a>
-    <a class="btn btn-cta btn-sm" href="${escapeHtml(service.consultationHref)}" data-cta-click="true">${escapeHtml(
-      consultLabel
-    )}</a>
+    <a class="btn btn-secondary btn-sm services-directory-card__read" href="${escapeHtml(readHref)}" aria-label="${escapeHtml(
+              `${exploreLabel}: ${label}`
+            )}">${escapeHtml(readLabel)}</a>
+    <a class="btn btn-cta btn-sm services-directory-card__consult" href="${escapeHtml(
+              consultationHref
+            )}" data-cta-click="true" aria-label="${escapeHtml(`${consultLabel}: ${label}`)}">${escapeHtml(
+              consultButtonLabel
+            )}</a>
   </div>
 </article>`;
           })
@@ -1523,7 +1598,9 @@
     const params = new URLSearchParams(window.location.search);
     const rawService = params.get("service_interest");
     const rawTopic = params.get("topic_interest");
-    if (!rawService && !rawTopic) return;
+    const rawSubject = params.get("consultation_subject") || params.get("_subject");
+    const rawServiceLabel = params.get("service_label");
+    if (!rawService && !rawTopic && !rawSubject && !rawServiceLabel) return;
 
     function normalize(value) {
       return String(value || "")
@@ -1570,6 +1647,12 @@
 
       const topicInput = form.querySelector("input[name='topic_interest']");
       if (topicInput) topicInput.value = topicValue;
+
+      const subjectInput = form.querySelector("input[name='_subject']");
+      if (subjectInput && rawSubject) subjectInput.value = rawSubject;
+
+      const serviceLabelInput = form.querySelector("input[name='service_label']");
+      if (serviceLabelInput) serviceLabelInput.value = rawServiceLabel || rawService || topicValue;
     });
   }
 
