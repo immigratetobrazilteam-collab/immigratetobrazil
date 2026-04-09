@@ -4,7 +4,8 @@ import path from "node:path";
 import { SERVICES_ALL_FAMILIES } from "./services-all.catalog.mjs";
 
 const rootDir = process.cwd();
-const imageRoot = path.join(rootDir, "assets/images/pages/services/all");
+const imageRoot = path.join(rootDir, "assets/images/services/all");
+const legacyImageRoot = path.join(rootDir, "assets/images/pages/services/all");
 const iconRoot = path.join(rootDir, "assets/icons/services/all");
 const imageManifestPath = path.join(imageRoot, "manifest.json");
 const iconManifestPath = path.join(iconRoot, "manifest.json");
@@ -15,6 +16,7 @@ const pagePaths = [
 
 const SOURCE_WEIGHTS = {
   stocksnap: 60,
+  woc_tech: 72,
   wikimedia: 48,
   flickr: 40,
   smithsonian_portrait_gallery: 28
@@ -103,30 +105,33 @@ async function fetchJson(url) {
   return response.json();
 }
 
-async function findOpenverseImage(queries, preferredSource) {
+async function findOpenverseImage(queries, preferredSource, usedUrls) {
   for (const query of queries) {
     const sourceAttempts = preferredSource ? [preferredSource, ""] : [""];
 
     for (const source of sourceAttempts) {
-      const url = new URL("https://api.openverse.org/v1/images/");
-      url.searchParams.set("q", query);
-      url.searchParams.set("page_size", "20");
-      url.searchParams.set("license", "cc0,pdm,by,by-sa");
-      if (source) url.searchParams.set("source", source);
+      for (const page of [1, 2, 3]) {
+        const url = new URL("https://api.openverse.org/v1/images/");
+        url.searchParams.set("q", query);
+        url.searchParams.set("page_size", "20");
+        url.searchParams.set("page", String(page));
+        url.searchParams.set("license", "cc0,pdm,by,by-sa");
+        if (source) url.searchParams.set("source", source);
 
-      const payload = await fetchJson(url);
-      const tokens = query
-        .toLowerCase()
-        .split(/[^a-z0-9]+/)
-        .filter((token) => token.length >= 4);
+        const payload = await fetchJson(url);
+        const tokens = query
+          .toLowerCase()
+          .split(/[^a-z0-9]+/)
+          .filter((token) => token.length >= 4);
 
-      const ranked = (payload.results || [])
-        .map((result) => ({ result, score: scoreResult(result, tokens) }))
-        .filter((entry) => Number.isFinite(entry.score))
-        .sort((left, right) => right.score - left.score);
+        const ranked = (payload.results || [])
+          .map((result) => ({ result, score: scoreResult(result, tokens) }))
+          .filter((entry) => Number.isFinite(entry.score) && !usedUrls.has(entry.result.url))
+          .sort((left, right) => right.score - left.score);
 
-      if (ranked.length > 0) {
-        return { query, ...ranked[0].result };
+        if (ranked.length > 0) {
+          return { query, ...ranked[0].result };
+        }
       }
     }
   }
@@ -158,6 +163,7 @@ async function ensureDir(dirPath) {
 
 async function createCleanDirectories() {
   await fs.rm(imageRoot, { recursive: true, force: true });
+  await fs.rm(legacyImageRoot, { recursive: true, force: true });
   await fs.rm(iconRoot, { recursive: true, force: true });
   await ensureDir(imageRoot);
   await ensureDir(iconRoot);
@@ -178,12 +184,12 @@ async function downloadLucideIcon(iconName, slug) {
   };
 }
 
-async function downloadServiceImage(family, service) {
+async function downloadServiceImage(family, service, usedUrls) {
   const slug = slugify(service.label);
-  const fileBase = `brazil-immigration-${slug}-service-card`;
   const imageResult = await findOpenverseImage(
     [...(service.imageQueries || []), ...(family.fallbackQueries || []), service.label],
-    service.preferredSource || family.preferredSource || ""
+    service.preferredSource || family.preferredSource || "",
+    usedUrls
   );
   let imageDownload;
   let downloadedFrom = imageResult.url;
@@ -199,10 +205,11 @@ async function downloadServiceImage(family, service) {
     fileExtensionFromUrl(downloadedFrom) ||
     fileExtensionFromUrl(imageResult.url) ||
     ".jpg";
-  const relativePath = `/assets/images/pages/services/all/${family.key}/${fileBase}${extension}`;
+  const relativePath = `/assets/images/services/all/${family.key}/${slug}${extension}`;
   const absolutePath = path.join(rootDir, relativePath.replace(/^\//, ""));
   await ensureDir(path.dirname(absolutePath));
   await fs.writeFile(absolutePath, imageDownload.buffer);
+  usedUrls.add(imageResult.url);
 
   return {
     relativePath,
@@ -302,12 +309,13 @@ async function main() {
   const imageManifestEntries = [];
   const iconManifestEntries = [];
   const assetMap = new Map();
+  const usedImageUrls = new Set();
 
   for (const family of SERVICES_ALL_FAMILIES) {
     for (const service of family.services) {
       const slug = slugify(service.label);
       const key = `${family.key}:${slug}`;
-      const image = await downloadServiceImage(family, service);
+      const image = await downloadServiceImage(family, service, usedImageUrls);
       const icon = await downloadLucideIcon(service.icon, slug);
 
       assetMap.set(key, { image, icon });

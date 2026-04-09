@@ -51,7 +51,8 @@ export const SERVICES_ALL_FAMILIES = [
           "Digital nomad visa services align remote-work arrangements, eligibility criteria, professional documentation, and immigration planning to secure a smooth, regulation-compliant nomad route into Brazil.",
         serviceInterest: "Nomad Visa",
         topicInterest: "Digital Nomad Visa",
-        imageQueries: ["home office", "remote work laptop", "workspace desk"],
+        preferredSource: "",
+        imageQueries: ["women in tech laptop", "black woman laptop", "woman working laptop"],
         imageAlt: "Remote work setup for a digital nomad visa plan into Brazil.",
         icon: "laptop-minimal"
       }),
@@ -61,7 +62,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Work visa services structure employer sponsorship, employment contracts, immigration timing, and all necessary approvals before any work activity begins in Brazil, ensuring complete legal authorisation.",
         serviceInterest: "Work Visa",
-        imageQueries: ["business handshake", "office meeting", "paperwork desk"],
+        preferredSource: "",
+        imageQueries: ["women in tech", "black woman office meeting", "women office meeting"],
         imageAlt: "Professional office setting prepared for a work visa application to Brazil.",
         icon: "briefcase-business"
       }),
@@ -81,7 +83,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Investor visa services connect capital investment plans, business intentions, and comprehensive immigration strategy, ensuring proper structuring and documentation before relocation to Brazil.",
         serviceInterest: "Investor Visa",
-        imageQueries: ["business meeting", "office meeting", "paperwork desk"],
+        preferredSource: "",
+        imageQueries: ["women in tech meeting", "women office meeting", "black woman startup"],
         imageAlt: "Investment planning documents for a Brazil investor visa strategy.",
         icon: "hand-coins"
       }),
@@ -91,7 +94,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Family visa services utilise family connections to prepare entry applications with verified relationship evidence, supporting records, and precise alignment to Brazilian family-based immigration criteria.",
         serviceInterest: "Family Visa",
-        imageQueries: ["happy family", "family together", "couple park"],
+        imageQueries: ["black family", "family together", "children happy"],
         imageAlt: "Family travel planning and documentation for a Brazil family visa route.",
         icon: "users"
       }),
@@ -121,7 +124,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Medical visa services organise treatment-related entry by coordinating medical purpose documentation, treatment timelines, and all required supporting evidence for compliant access to Brazil.",
         serviceInterest: "Medical Visa",
-        imageQueries: ["doctor patient", "doctor working", "medical consultation"],
+        imageQueries: ["caregiver nurse", "doctor patient woman", "senior healthcare"],
         imageAlt: "Clinical consultation setting for a Brazil medical visa application.",
         icon: "cross"
       }),
@@ -131,7 +134,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Diplomatic visa services prepare official or state-linked entry through the correct diplomatic channels, with specialised documentation and protocol alignment under Brazilian immigration procedures.",
         serviceInterest: "Diplomatic Visa",
-        imageQueries: ["business meeting", "business handshake", "office meeting"],
+        preferredSource: "",
+        imageQueries: ["women in tech meeting", "business people women", "conference women"],
         imageAlt: "Official diplomatic meeting prepared for visa protocol into Brazil.",
         icon: "handshake"
       }),
@@ -213,7 +217,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Business visa services prepare commercial meetings, trade visits, and business entry with precise purpose documentation and full regulatory compliance for Brazilian business travel.",
         serviceInterest: "Business Visa",
-        imageQueries: ["business meeting", "office meeting", "boardroom business"],
+        preferredSource: "",
+        imageQueries: ["women in tech meeting", "business people women", "working together women"],
         imageAlt: "Business meeting setting prepared for a Brazil business visa route.",
         icon: "presentation"
       })
@@ -266,7 +271,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Family reunion residency services build long-term residence through verified family ties, relationship evidence, and orderly documentation compliant with Brazilian family immigration law.",
         serviceInterest: "Reunion Residency",
         topicInterest: "Family Reunion Residency",
-        imageQueries: ["happy family", "family together", "couple park"],
+        imageQueries: ["black family", "family together", "children happy"],
         imageAlt: "Family home scene prepared for family reunion residency in Brazil.",
         icon: "house-plus"
       }),
@@ -276,7 +281,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Health residency services support residence applications based on health-related grounds with careful medical documentation planning and full regulatory alignment in Brazil.",
         serviceInterest: "Health Residency",
-        imageQueries: ["doctor patient", "doctor working", "paperwork desk"],
+        imageQueries: ["caregiver nurse", "doctor patient woman", "senior healthcare"],
         imageAlt: "Medical consultation scene for health residency planning in Brazil.",
         icon: "stethoscope"
       }),
@@ -286,7 +291,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Humanitarian residency services manage protection-based residence applications with compassionate, precise legal framing and complete documentary support under Brazilian humanitarian pathways.",
         serviceInterest: "Humanitarian Residency",
-        imageQueries: ["people helping", "happy family", "paperwork desk"],
+        imageQueries: ["black family", "people helping", "community support women"],
         imageAlt: "Supportive humanitarian scene for residency protection planning in Brazil.",
         icon: "life-buoy"
       }),
@@ -317,7 +322,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Retirement residency services prepare income-based residence applications with verified financial proof, continuity planning, and practical settlement support for Brazil.",
         serviceInterest: "Retiree Residency",
         topicInterest: "Retirement Residency",
-        imageQueries: ["senior couple", "couple park", "happy couple"],
+        imageQueries: ["senior woman", "senior couple", "elderly woman"],
         imageAlt: "Retirement lifestyle scene for long-term residency planning in Brazil.",
         icon: "sun"
       }),
@@ -328,7 +333,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Research residency services support extended academic or institutional research stays through institutional backing and complete documentary preparation for Brazilian residency approval.",
         serviceInterest: "Research Residency",
         preferredSource: "",
-        imageQueries: ["scientist research institute", "research papers laboratory", "academic researcher workspace"],
+        imageQueries: ["black woman scientist", "women in tech laboratory", "scientist research institute"],
         imageAlt: "Research workspace prepared for long-term research residency in Brazil.",
         icon: "microscope"
       }),
@@ -402,7 +407,7 @@ export const SERVICES_ALL_FAMILIES = [
     intro:
       "Citizenship and naturalisation services address questions of formal belonging, nationality acquisition, and long-term legal integration into Brazilian society.",
     preferredSource: "stocksnap",
-    fallbackQueries: ["passport table", "paperwork desk", "writing papers"],
+    fallbackQueries: ["female professional laptop", "woman office", "woman desk"],
     services: [
       service({
         label: "Citizenship",
@@ -411,7 +416,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Citizenship services guide you when the goal shifts from temporary or long-term stay in Brazil to full formal belonging and nationality.",
         serviceInterest: "Not sure yet",
         topicInterest: "Citizenship",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Citizenship documents and passport prepared for a Brazil nationality route.",
         icon: "flag"
       }),
@@ -422,7 +427,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Naturalisation services provide a complete review of all available categories to identify the route that best matches your personal history and timeline in Brazil.",
         serviceInterest: "Not sure yet",
         topicInterest: "Naturalisation",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Naturalisation paperwork reviewed for a Brazil nationality application.",
         icon: "scroll-text"
       }),
@@ -432,7 +437,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Ordinary naturalisation services support the standard pathway when lawful residence, continuity, and eligibility criteria have been fully satisfied over time.",
         serviceInterest: "Ordinary Naturalisation",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Identity documents prepared for ordinary naturalisation in Brazil.",
         icon: "id-card"
       }),
@@ -442,7 +447,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Extraordinary naturalisation services assess whether extended residence periods and exceptional circumstances qualify you for this accelerated Brazilian nationality route.",
         serviceInterest: "Extraordinary Naturalisation",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Formal recognition setting for extraordinary naturalisation in Brazil.",
         icon: "star"
       }),
@@ -452,7 +457,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Provisional naturalisation services evaluate temporary or conditional nationality options based on your current status and required timing under Brazilian law.",
         serviceInterest: "Provisional Naturalisation",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Temporary legal documents prepared for provisional naturalisation in Brazil.",
         icon: "hourglass"
       }),
@@ -462,7 +467,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Special naturalisation services identify and prepare applications under narrower, category-specific Brazilian nationality provisions when your facts align.",
         serviceInterest: "Special Naturalisation",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Official certificate and documents for special naturalisation in Brazil.",
         icon: "gem"
       }),
@@ -473,7 +478,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Renunciation of nationality services deliver expert legal guidance before any decision to relinquish existing Brazilian nationality.",
         serviceInterest: "Renunciation Naturalisation",
         topicInterest: "Renunciation of Nationality",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Passport and legal paperwork reviewed for nationality renunciation in Brazil.",
         icon: "log-out"
       }),
@@ -484,7 +489,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Reacquisition of nationality services review eligibility and provide step-by-step legal support for recovering previously held Brazilian nationality.",
         serviceInterest: "Reacquisition Naturalisation",
         topicInterest: "Reacquisition of Nationality",
-        imageQueries: ["paperwork desk", "writing papers", "passport table"],
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Official identity documents reviewed for reacquiring Brazilian nationality.",
         icon: "rotate-ccw"
       })
@@ -535,7 +540,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Appeals services challenge unfavourable Brazilian immigration decisions with strengthened records, procedural review, and strategic next-step planning.",
         serviceInterest: "Appeals",
-        imageQueries: ["paperwork desk", "writing papers", "filefolders business"],
+        preferredSource: "",
+        imageQueries: ["women office meeting", "woman working", "black woman lawyer client"],
         imageAlt: "Legal appeal documents prepared for Brazilian immigration review.",
         icon: "file-pen-line"
       }),
@@ -545,7 +551,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Fines services analyse penalties, outstanding obligations, and resolution options to prevent minor issues from creating major immigration complications.",
         serviceInterest: "Fines",
-        imageQueries: ["paperwork desk", "writing papers", "filefolders business"],
+        preferredSource: "",
+        imageQueries: ["woman working", "writing papers woman", "women office meeting"],
         imageAlt: "Penalty paperwork reviewed to resolve immigration fines in Brazil.",
         icon: "receipt"
       }),
@@ -610,8 +617,8 @@ export const SERVICES_ALL_FAMILIES = [
     heading: "Advisory and planning",
     intro:
       "Comprehensive advisory and planning services where we analyse your personal situation, compare all available Brazilian immigration pathways, evaluate timing and strategic options, and establish the optimal legal sequence of actions before any filing, travel, investment, or relocation begins.",
-    preferredSource: "stocksnap",
-    fallbackQueries: ["business meeting", "paperwork desk", "office meeting"],
+    preferredSource: "",
+    fallbackQueries: ["women in tech", "black woman office meeting", "women office meeting"],
     services: [
       service({
         label: "Advisory",
@@ -620,7 +627,7 @@ export const SERVICES_ALL_FAMILIES = [
           "Begin with dedicated advisory services where Monique Fernandes delivers in-depth route comparisons, timing evaluations, risk assessments, and strategic fit analysis tailored to your goals, ensuring you select the most suitable Brazilian immigration path before committing resources or making life-changing decisions.",
         serviceInterest: "Not sure yet",
         topicInterest: "Advisory",
-        imageQueries: ["business meeting", "office meeting", "paperwork desk"],
+        imageQueries: ["women in tech", "women office meeting", "black woman office meeting"],
         imageAlt: "Attorney-led advisory meeting for planning a Brazil immigration route.",
         icon: "scale"
       }),
@@ -630,7 +637,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Private consultation services provide focused, one-on-one guidance when your Brazilian immigration route depends on your specific facts, document history, personal chronology, and individual circumstances, allowing precise clarification and next-step planning.",
         serviceInterest: "Consultation",
-        imageQueries: ["office meeting", "business meeting", "paperwork desk"],
+        preferredSource: "woc_tech",
+        imageQueries: ["black woman office meeting", "women office meeting", "women in tech"],
         imageAlt: "Private consultation meeting about a Brazilian immigration matter.",
         icon: "messages-square"
       }),
@@ -640,7 +648,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Strategic planning services focus on building the complete legal order of operations, sequencing every required step, aligning documentation, and creating a robust roadmap before you file, travel, invest, or relocate under Brazilian immigration rules.",
         serviceInterest: "Strategy",
-        imageQueries: ["paperwork desk", "writing papers", "office meeting"],
+        preferredSource: "stocksnap",
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Strategic planning documents arranged for a Brazil immigration process.",
         icon: "route"
       }),
@@ -650,7 +659,8 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Ongoing compliance services ensure your Brazilian immigration status, deadlines, renewals, reporting obligations, and all documentary requirements remain fully aligned with current Brazilian regulations, preventing gaps and maintaining continuous lawful presence.",
         serviceInterest: "Compliance",
-        imageQueries: ["paperwork desk", "passport table", "writing papers"],
+        preferredSource: "stocksnap",
+        imageQueries: ["female professional laptop", "woman office", "woman desk"],
         imageAlt: "Checklist and passport documents prepared for immigration compliance in Brazil.",
         icon: "shield-check"
       }),
@@ -660,7 +670,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Legal representation services transition from general advice to direct, attorney-led support, providing a professional legal voice in all communications, submissions, and interactions with Brazilian immigration authorities when your process requires formal advocacy.",
         serviceInterest: "Representation",
-        imageQueries: ["business meeting", "office meeting", "paperwork desk"],
+        imageQueries: ["women in tech", "black woman office meeting", "women office meeting"],
         imageAlt: "Attorney-led representation meeting for a Brazil immigration matter.",
         icon: "speech"
       }),
@@ -670,7 +680,7 @@ export const SERVICES_ALL_FAMILIES = [
         description:
           "Corporate immigration services deliver specialist support for founders, investors, executives, and companies relocating talent or operations to Brazil, covering structured employer sponsorship, business mobility planning, and seamless integration into the Brazilian immigration framework.",
         serviceInterest: "Corporate",
-        imageQueries: ["startup office", "business meeting", "office meeting"],
+        imageQueries: ["women in tech", "diverse women startup team", "black woman startup"],
         imageAlt: "Corporate planning meeting for immigration support into Brazil.",
         icon: "building-2"
       })

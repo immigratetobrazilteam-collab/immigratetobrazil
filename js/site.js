@@ -1544,7 +1544,7 @@
             );
             const readHref = localizeInternalHref(service.href || "#");
             const imageSrc =
-              service.imageSrc || `/assets/images/pages/services/all/${escapeHtml(familyKey)}/${escapeHtml(slug)}.jpg`;
+              service.imageSrc || `/assets/images/services/all/${escapeHtml(familyKey)}/${escapeHtml(slug)}.jpg`;
             const imageAlt =
               service.imageAlt ||
               `${label} service image for Brazilian immigration legal support and strategic planning.`;
