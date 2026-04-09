@@ -6,12 +6,15 @@
    * ========================================================================== */
   const consentKey = "itb-consent";
   const autoConsentDelayMs = 12000;
+  const attributionSessionKey = "itb-attribution";
   const emailCaptureEndpoint = "https://formspree.io/f/xdawygld";
   const exitIntentSessionKey = "itb-insights-exit-intent-seen";
+  const scrollDepthMilestones = [25, 50, 75, 90];
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
   let autoConsentTimer = null;
+  let trackedScrollMilestones = new Set();
   let stickyObserver = null;
   let scrollBound = false;
   let escapeBound = false;
@@ -311,6 +314,175 @@
     };
   }
 
+  function sanitizeAnalyticsValue(value, maxLength = 120) {
+    if (value == null) return "";
+    return String(value).trim().replace(/\s+/g, " ").slice(0, maxLength);
+  }
+
+  function cleanAnalyticsPayload(payload) {
+    return Object.fromEntries(
+      Object.entries(payload || {}).filter(([, value]) => {
+        if (value == null) return false;
+        if (typeof value === "string") return value.trim().length > 0;
+        if (Array.isArray(value)) return value.length > 0;
+        return true;
+      })
+    );
+  }
+
+  function readSessionJson(key) {
+    try {
+      const raw = window.sessionStorage?.getItem(key);
+      return raw ? JSON.parse(raw) : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function writeSessionJson(key, value) {
+    try {
+      if (value == null) {
+        window.sessionStorage?.removeItem(key);
+        return;
+      }
+      window.sessionStorage?.setItem(key, JSON.stringify(value));
+    } catch {
+      // Ignore storage failures in stricter privacy modes.
+    }
+  }
+
+  function getSiteLocale() {
+    const lang = sanitizeAnalyticsValue(document.documentElement.lang || "", 16).toLowerCase();
+    return lang || "en";
+  }
+
+  function getDeviceType() {
+    const ua = (navigator.userAgent || "").toLowerCase();
+    const width = Math.max(window.innerWidth || 0, document.documentElement.clientWidth || 0);
+    if (/ipad|tablet/.test(ua)) return "tablet";
+    if (/mobi|iphone|ipod|android.+mobile/.test(ua)) return "mobile";
+    if (width > 0 && width < 768) return "mobile";
+    if (width > 0 && width < 1100) return "tablet";
+    return "desktop";
+  }
+
+  function getReferrerHost() {
+    if (!document.referrer) return "";
+    try {
+      return sanitizeAnalyticsValue(new URL(document.referrer).host, 120);
+    } catch {
+      return "";
+    }
+  }
+
+  function readCurrentAttribution() {
+    const params = new URLSearchParams(window.location.search || "");
+    return cleanAnalyticsPayload({
+      utm_source: sanitizeAnalyticsValue(params.get("utm_source")),
+      utm_medium: sanitizeAnalyticsValue(params.get("utm_medium")),
+      utm_campaign: sanitizeAnalyticsValue(params.get("utm_campaign")),
+      utm_term: sanitizeAnalyticsValue(params.get("utm_term")),
+      utm_content: sanitizeAnalyticsValue(params.get("utm_content")),
+      utm_id: sanitizeAnalyticsValue(params.get("utm_id")),
+      referrer_host: getReferrerHost(),
+      landing_route: normalizeRoute(window.location.pathname),
+      has_gclid: params.has("gclid") ? 1 : undefined,
+      has_fbclid: params.has("fbclid") ? 1 : undefined
+    });
+  }
+
+  function getStoredAttribution() {
+    return cleanAnalyticsPayload(readSessionJson(attributionSessionKey) || {});
+  }
+
+  function getAttributionContext() {
+    return cleanAnalyticsPayload({
+      ...getStoredAttribution(),
+      ...readCurrentAttribution()
+    });
+  }
+
+  function persistAttributionContext() {
+    const next = getAttributionContext();
+    if (Object.keys(next).length) writeSessionJson(attributionSessionKey, next);
+    return next;
+  }
+
+  function buildAnalyticsContext(payload) {
+    const config = getConfig();
+    return cleanAnalyticsPayload({
+      page_route: config.pageRoute || normalizeRoute(window.location.pathname),
+      page_title: sanitizeAnalyticsValue(config.pageTitle || document.title || "", 200),
+      page_family: sanitizeAnalyticsValue(config.pageFamily || "", 80),
+      locale: getSiteLocale(),
+      device_type: getDeviceType(),
+      ...getAttributionContext(),
+      ...(payload || {})
+    });
+  }
+
+  function describeLink(node) {
+    if (!node) return {};
+    const href = sanitizeAnalyticsValue(node.getAttribute("href") || "", 300);
+    let destinationHost = "";
+    let destinationPath = href;
+
+    if (href) {
+      try {
+        const url = new URL(href, window.location.origin);
+        destinationHost = sanitizeAnalyticsValue(url.host, 120);
+        destinationPath = sanitizeAnalyticsValue(`${url.pathname}${url.search}`, 300);
+      } catch {
+        destinationPath = href;
+      }
+    }
+
+    return cleanAnalyticsPayload({
+      destination_host: destinationHost,
+      destination_path: destinationPath,
+      link_text: sanitizeAnalyticsValue(node.textContent || "", 120)
+    });
+  }
+
+  function inferFormKind(form) {
+    if (!form) return "general";
+    if (form.matches("[data-search-form='true']")) return "search";
+    if (form.hasAttribute("data-itb-email-capture")) return "email_capture";
+    if (form.hasAttribute("data-newsletter-signup")) return "newsletter";
+    if (form.hasAttribute("data-comments-form")) return "comment";
+    if (form.matches("form[action*='formspree']")) return "lead";
+    return "general";
+  }
+
+  function describeForm(form) {
+    if (!form) return {};
+    const action = sanitizeAnalyticsValue(form.getAttribute("action") || "", 300);
+    let actionHost = "";
+    let actionPath = action;
+
+    if (action) {
+      try {
+        const url = new URL(action, window.location.origin);
+        actionHost = sanitizeAnalyticsValue(url.host, 120);
+        actionPath = sanitizeAnalyticsValue(url.pathname, 200);
+      } catch {
+        actionPath = action;
+      }
+    }
+
+    return cleanAnalyticsPayload({
+      form_kind: inferFormKind(form),
+      form_group: sanitizeAnalyticsValue(form.getAttribute("data-formspree-group") || "", 120),
+      form_mode: sanitizeAnalyticsValue(form.getAttribute("data-itb-email-capture-mode") || "", 80),
+      form_id: sanitizeAnalyticsValue(form.id || "", 120),
+      form_name: sanitizeAnalyticsValue(form.getAttribute("name") || "", 120),
+      form_method: sanitizeAnalyticsValue((form.getAttribute("method") || "get").toLowerCase(), 12),
+      form_action_host: actionHost,
+      form_action_path: actionPath,
+      form_field_count: form.querySelectorAll("input, select, textarea").length || undefined
+    });
+  }
+
   function buildConsentState(granted) {
     return {
       ad_storage: granted ? "granted" : "denied",
@@ -396,16 +568,18 @@
     if (!analyticsEnabled() || pageViewTracked) return;
 
     window.gtag("event", "page_view", {
-      page_title: config.pageTitle || document.title || "",
-      page_path: config.pageRoute || window.location.pathname,
-      page_location: window.location.href
+      ...buildAnalyticsContext({
+        page_title: config.pageTitle || document.title || "",
+        page_path: config.pageRoute || window.location.pathname,
+        page_location: window.location.href
+      })
     });
     pageViewTracked = true;
   }
 
   function track(eventName, payload) {
     if (!analyticsEnabled()) return;
-    window.gtag("event", eventName, payload || {});
+    window.gtag("event", eventName, buildAnalyticsContext(payload));
   }
 
   function clearAutoConsentTimer() {
@@ -772,7 +946,10 @@
     const config = getConfig();
     const storedConsent = localStorage.getItem(consentKey);
     bootstrapAnalytics();
-    if (storedConsent === "accepted") updateAnalyticsConsent(true);
+    if (storedConsent === "accepted") {
+      updateAnalyticsConsent(true);
+      persistAttributionContext();
+    }
     else if (storedConsent === "declined") updateAnalyticsConsent(false);
     configureAnalytics();
     trackPageView();
@@ -790,12 +967,13 @@
       syncCookieBannerVisibility();
       if (accepted) {
         updateAnalyticsConsent(true);
+        persistAttributionContext();
         track(source === "auto" ? "analytics_consent_auto_accepted" : "analytics_consent_granted", {
-          page_route: config.pageRoute
+          consent_source: source
         });
       } else {
         updateAnalyticsConsent(false);
-        track("analytics_consent_declined", { page_route: config.pageRoute });
+        track("analytics_consent_declined", { consent_source: source });
       }
       trackPageView();
     };
@@ -835,21 +1013,24 @@
 
     /* Selector-driven event binding keeps shared partial content trackable. */
     const clickBindings = [
-      ["[data-whatsapp-click]", "itbBoundWhatsapp", () => ({
+      ["[data-whatsapp-click]", "itbBoundWhatsapp", (node) => ({
         event: "whatsapp_click",
-        payload: { page_route: config.pageRoute, page_title: config.pageTitle }
+        payload: describeLink(node)
       })],
       ["[data-cta-click]", "itbBoundCta", (node) => ({
         event: "cta_click",
-        payload: { page_route: config.pageRoute, cta_text: node.textContent.trim() }
+        payload: {
+          cta_text: sanitizeAnalyticsValue(node.textContent.trim(), 120),
+          ...describeLink(node)
+        }
       })],
       ["[data-language-toggle]", "itbBoundLang", (node) => ({
         event: "language_toggle_click",
-        payload: { page_route: config.pageRoute, language: node.getAttribute("data-language-toggle") }
+        payload: { selected_language: sanitizeAnalyticsValue(node.getAttribute("data-language-toggle") || "", 16) }
       })],
       ["[data-search-open='true']", "itbBoundSearchOpen", () => ({
         event: "search_open",
-        payload: { page_route: config.pageRoute }
+        payload: {}
       })]
     ];
 
@@ -874,16 +1055,24 @@
       input.value = config.pageTitle || document.title || "";
     });
 
-    document.querySelectorAll("form[action*='formspree']").forEach((form) => {
-      if (form.dataset.itbBoundForm === "true") return;
+    document.querySelectorAll("form").forEach((form) => {
+      if (form.dataset.itbBoundFormStart !== "true") {
+        const handleFormStart = () => {
+          if (form.dataset.itbTrackedFormStart === "true") return;
+          form.dataset.itbTrackedFormStart = "true";
+          track("form_start", describeForm(form));
+        };
+
+        form.addEventListener("focusin", handleFormStart, true);
+        form.addEventListener("input", handleFormStart, true);
+        form.dataset.itbBoundFormStart = "true";
+      }
+
+      if (form.dataset.itbBoundFormSubmit === "true") return;
       form.addEventListener("submit", () => {
-        track("form_submit", {
-          page_route: config.pageRoute,
-          action: form.getAttribute("action"),
-          group: form.getAttribute("data-formspree-group")
-        });
+        track("form_submit", describeForm(form));
       });
-      form.dataset.itbBoundForm = "true";
+      form.dataset.itbBoundFormSubmit = "true";
     });
   }
 
@@ -1128,8 +1317,8 @@
       writeSessionItem(exitIntentSessionKey, "captured");
       form.dataset.state = "success";
       form.innerHTML = buildInsightsLeadSuccess(mode, copy);
+      track("form_submit_success", describeForm(form));
       track("insights_email_capture_submitted", {
-        page_route: getConfig().pageRoute,
         capture_mode: mode
       });
     } catch (error) {
@@ -1137,6 +1326,10 @@
       form.dataset.state = "error";
       if (submitButton) submitButton.disabled = false;
       if (statusNode) statusNode.textContent = copy.error;
+      track("form_submit_error", {
+        ...describeForm(form),
+        capture_mode: mode
+      });
     }
   }
 
@@ -1454,6 +1647,13 @@
       liveButton?.style.setProperty("--back-to-top-progress", scrollRatio.toFixed(4));
       progressBar?.style.setProperty("--scroll-progress", scrollRatio.toFixed(4));
       progressBar?.classList.toggle("is-active", scrollRatio > 0.01);
+
+      const scrollPercent = Math.round(scrollRatio * 100);
+      scrollDepthMilestones.forEach((milestone) => {
+        if (scrollPercent < milestone || trackedScrollMilestones.has(milestone)) return;
+        trackedScrollMilestones.add(milestone);
+        track("scroll_depth", { scroll_percent: milestone });
+      });
     }
 
     if (!scrollBound) {
