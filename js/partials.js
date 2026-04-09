@@ -36,7 +36,7 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-04-08-feedback-leads-v1";
+  const PARTIAL_VERSION = "2026-04-09-premium-insights-leads-v1";
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();

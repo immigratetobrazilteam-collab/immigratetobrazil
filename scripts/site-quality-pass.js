@@ -10,6 +10,7 @@ const ROOT = path.resolve(__dirname, "..");
 const JSON_LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
 const ITB_SITE_RE = /window\.ITB_SITE\s*=\s*(\{[\s\S]*?\});/;
 const TITLE_RE = /<title>([\s\S]*?)<\/title>/i;
+const HEAD_CLOSE_RE = /<\/head>/i;
 const RELATED_READING_SECTION_RE = /<section\b[^>]*id=["']section-3-related-reading["'][^>]*>([\s\S]*?)<\/section>/i;
 const INFO_CARD_RE = /<article class="info-card">([\s\S]*?)<\/article>/gi;
 const HERO_ALT_RE = /<img class="hero-media"[^>]*alt="([^"]*)"/i;
@@ -20,6 +21,8 @@ const H1_RE = /(<h1\b[^>]*>)([\s\S]*?)(<\/h1>)/i;
 const BRAND_NOTE_RE = /(<p class="hero-brand-note">)([\s\S]*?)(<\/p>)/i;
 const HERO_SRC_RE = /<img class="hero-media"[^>]*src="([^"]*)"/i;
 const TITLE_SECTION_RE = /<!-- Section: Title -->/i;
+const SITE_RUNTIME_SECTION_RE = /<!-- Section: Site Runtime Config -->/i;
+const GOOGLE_TAG_SECTION_RE = /<!-- Section: Google Tag -->[\s\S]*?(?=<!-- Section: Site Runtime Config -->)/i;
 const ROBOTS_ROUTE_SEGMENTS = new Set(["search", "404", "client-feedback"]);
 const GOOGLE_SITE_VERIFICATION_TOKEN = "V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo";
 const GOOGLE_SITE_VERIFICATION_ROUTES = new Set(["/", "/pt-br/"]);
@@ -256,9 +259,85 @@ function upsertMetaTag(html, attr, key, value) {
   return html.replace(/<\/head>/i, `${tag}\n</head>`);
 }
 
+function dedupeMetaTag(html, attr, key) {
+  const pattern = new RegExp(`<meta\\b(?=[^>]*\\b${attr}=["']${escapeRegExp(key)}["'])[^>]*>\\s*`, "gi");
+  let seen = false;
+  return html.replace(pattern, (match) => {
+    if (seen) return "";
+    seen = true;
+    return match;
+  });
+}
+
 function ensureGoogleSiteVerification(html, route) {
   if (!GOOGLE_SITE_VERIFICATION_ROUTES.has(route)) return html;
-  return upsertMetaTag(html, "name", "google-site-verification", GOOGLE_SITE_VERIFICATION_TOKEN);
+  const withVerification = upsertMetaTag(
+    dedupeMetaTag(html, "name", "google-site-verification"),
+    "name",
+    "google-site-verification",
+    GOOGLE_SITE_VERIFICATION_TOKEN
+  );
+  return dedupeMetaTag(withVerification, "name", "google-site-verification");
+}
+
+function trackingConfigFromHtml(html) {
+  const match = html.match(ITB_SITE_RE);
+  if (!match) return { ga4Id: "" };
+
+  try {
+    const config = JSON.parse(match[1]);
+    const tracking = config?.tracking || {};
+    return {
+      ga4Id: typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : ""
+    };
+  } catch {
+    return { ga4Id: "" };
+  }
+}
+
+function buildGoogleTagSection(ga4Id) {
+  const safeGa4Id = escapeAttribute(ga4Id);
+  return `<!-- Section: Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag =
+        window.gtag ||
+        function gtag() {
+          window.dataLayer.push(arguments);
+        };
+      window.__ITB_GA_BOOTSTRAPPED__ = true;
+      window.gtag("set", "ads_data_redaction", true);
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+      window.gtag("js", new Date());
+      window.gtag("config", "${safeGa4Id}", { send_page_view: false });
+      window.__ITB_GA_CONFIGURED__ = true;
+    </script>
+
+`;
+}
+
+function ensureGoogleTagSection(html) {
+  const { ga4Id } = trackingConfigFromHtml(html);
+  if (!ga4Id) return html;
+
+  const section = buildGoogleTagSection(ga4Id);
+  if (GOOGLE_TAG_SECTION_RE.test(html)) {
+    return html.replace(GOOGLE_TAG_SECTION_RE, section);
+  }
+  if (SITE_RUNTIME_SECTION_RE.test(html)) {
+    return html.replace(SITE_RUNTIME_SECTION_RE, `${section}<!-- Section: Site Runtime Config -->`);
+  }
+  if (HEAD_CLOSE_RE.test(html)) {
+    return html.replace(HEAD_CLOSE_RE, `${section}</head>`);
+  }
+  return html;
 }
 
 function replaceTitle(html, value) {
@@ -846,6 +925,7 @@ async function main() {
     let html = await fs.readFile(entry.filePath, "utf8");
     html = replaceMetaTag(html, "name", "robots", expectedRobots(entry.route));
     html = ensureGoogleSiteVerification(html, entry.route);
+    html = ensureGoogleTagSection(html);
 
     let archiveMeta = null;
     if (isInsightArticleRoute(entry.route)) {

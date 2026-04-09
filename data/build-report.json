@@ -3862,7 +3862,7 @@
   {
     "route": "/services/",
     "title": "Services",
-    "wordCount": 2128
+    "wordCount": 2151
   },
   {
     "route": "/services/advisory/",
@@ -3893,6 +3893,11 @@
     "route": "/services/advisory/strategy/",
     "title": "Strategy",
     "wordCount": 1038
+  },
+  {
+    "route": "/services/all/",
+    "title": "All Services",
+    "wordCount": 1207
   },
   {
     "route": "/services/defense/",

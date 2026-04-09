@@ -11066,6 +11066,29 @@
     "noindex": false
   },
   {
+    "route": "/pt-br/services/all/",
+    "title": "Todos os serviços",
+    "browserTitle": "Todos os serviços | Diretório de serviços de imigração para o Brasil | Imigre para o Brasil",
+    "family": "services",
+    "summary": "Explore todos os serviços de imigração para o Brasil que Monique Fernandes oferece, com links diretos para páginas, agendamento de consultas com base no serviço e inspiração para construir seu próximo capítulo no Brasil.",
+    "topics": [
+      "Como usar este diretório",
+      "Quando a consulta ajuda",
+      "Visão geral do diretório",
+      "Assessoria e planejamento",
+      "Rotas Visa para o Brasil",
+      "Caminhos de residência",
+      "Cidadania e naturalização",
+      "Defesa e assuntos urgentes",
+      "Serviços de apoio",
+      "Inspiração Brasil",
+      "Pronto para sua próxima etapa"
+    ],
+    "faq": [],
+    "keywords": "Todos os serviços | Diretório de serviços de imigração para o Brasil | Imigre para o Brasil Todos os serviços Como usar este diretório Quando a consulta ajuda Visão geral do diretório Assessoria e planejamento Rotas Visa para o Brasil Caminhos de residência Cidadania e naturalização Defesa e assuntos urgentes Serviços de apoio Inspiração Brasil Pronto para sua próxima etapa services",
+    "noindex": false
+  },
+  {
     "route": "/pt-br/services/defense/",
     "title": "Defesa",
     "browserTitle": "Defesa | Serviços de imigração para o Brasil | Imigre para o Brasil",

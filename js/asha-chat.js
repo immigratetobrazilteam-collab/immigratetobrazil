@@ -2637,8 +2637,17 @@
     document.querySelectorAll("[data-asha-chat='true']").forEach(initWidget);
   }
 
+  function openAshaChat() {
+    const widget = document.querySelector("[data-asha-chat='true']");
+    if (!widget) return false;
+    initWidget(widget);
+    openWidget(widget);
+    return true;
+  }
+
   window.ITB = window.ITB || {};
   window.ITB.initAshaChat = initAshaChat;
+  window.ITB.openAshaChat = openAshaChat;
 
   if (!window.__ITB_PARTIALS_ACTIVE__) initAshaChat();
 })();

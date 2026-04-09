@@ -11067,6 +11067,31 @@
     "noindex": false
   },
   {
+    "route": "/services/all/",
+    "title": "All Services",
+    "browserTitle": "All Services | Brazil Immigration Service Directory | Immigrate to Brazil",
+    "family": "services",
+    "summary": "Explore every Brazil immigration service Monique Fernandes provides, with direct page links, service-aware consultation booking, and inspiration for building your next chapter in Brazil.",
+    "topics": [
+      "How To Use This Directory",
+      "When Consultation Helps",
+      "How to use this directory",
+      "When consultation helps",
+      "Directory overview",
+      "Advisory and planning",
+      "Visa routes into Brazil",
+      "Residency pathways",
+      "Citizenship and naturalisation",
+      "Defense and urgent matters",
+      "Supporting services",
+      "Brazil inspiration",
+      "Ready for your next step"
+    ],
+    "faq": [],
+    "keywords": "All Services | Brazil Immigration Service Directory | Immigrate to Brazil All Services How To Use This Directory When Consultation Helps How to use this directory When consultation helps Directory overview Advisory and planning Visa routes into Brazil Residency pathways Citizenship and naturalisation Defense and urgent matters Supporting services Brazil inspiration Ready for your next step services",
+    "noindex": false
+  },
+  {
     "route": "/services/defense/",
     "title": "Defense",
     "browserTitle": "Defense | Brazil Immigration Services | Immigrate to Brazil",

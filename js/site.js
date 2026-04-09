@@ -5,6 +5,8 @@
    * the module keeps its own observer/listener state and idempotent bindings.
    * ========================================================================== */
   const consentKey = "itb-consent";
+  const emailCaptureEndpoint = "https://formspree.io/f/xdawygld";
+  const exitIntentSessionKey = "itb-insights-exit-intent-seen";
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
@@ -14,6 +16,11 @@
   let outsideClickBound = false;
   let resizeFallbackBound = false;
   let revealObserver = null;
+  let insightsLeadArmTimer = null;
+  let insightsLeadArmed = false;
+  let insightsLeadMouseBound = false;
+  let insightsLeadDelegateBound = false;
+  let insightsLeadFocusRestore = null;
 
   /* ==========================================================================
    * 02. Page Map Assets
@@ -169,6 +176,124 @@
     user: ["chat", "family", "award"],
     workflow: ["document", "guide", "compass", "link"]
   };
+  const insightsLeadLocale = {
+    en: {
+      inlineEyebrow: "Private email briefing",
+      inlineTitle: "Get updates by email without the noise",
+      inlineSummary:
+        "Attorney-led Brazil immigration insights, major legal updates, and calmer next-step notes for people seriously considering Brazil.",
+      inlineChips: ["Email updates", "Attorney-led", "Premium guidance"],
+      inlinePoints: [
+        "Useful updates when rules, routes, or planning conditions actually matter.",
+        "A calmer email stream for readers comparing visas, residency, naturalisation, and relocation.",
+        "A direct handoff to Nina whenever you want faster route guidance before booking."
+      ],
+      cards: [
+        {
+          icon: "news",
+          title: "What arrives",
+          body: "Clear legal updates, better reading paths, and practical signals when a Brazil move gets more real."
+        },
+        {
+          icon: "chat",
+          title: "Need an answer sooner?",
+          body: "Nina can point you toward the best route family or page before you leave the site."
+        }
+      ],
+      modalEyebrow: "Before you go",
+      modalTitle: "Take the Brazil move brief with you",
+      modalSummary:
+        "Leave with one better next step: get the premium email briefing or ask Nina what route to explore first.",
+      modalChips: ["Brazil brief", "Nina concierge", "No spam flood"],
+      modalPoints: [
+        "Useful Brazil updates instead of generic marketing blasts.",
+        "Better orientation around visas, residency, citizenship, and relocation.",
+        "A faster path into Nina if you want live guidance right now."
+      ],
+      modalDismiss: "Continue reading",
+      formIntroInline: "Get updates by email",
+      formIntroModal: "Send me the briefing",
+      formCopy: "Useful updates only. No clutter, no panic, and no endless drip campaign.",
+      nameLabel: "Name (optional)",
+      namePlaceholder: "How should we call you?",
+      emailLabel: "Email",
+      emailPlaceholder: "you@domain.com",
+      submitInline: "Join the briefing",
+      submitModal: "Send updates",
+      ninaButton: "Talk to Nina",
+      closeLabel: "Close offer",
+      sending: "Sending...",
+      error: "We could not submit right now. Please try again in a moment.",
+      successEyebrow: "You're in",
+      successTitle: "Watch your inbox",
+      successBody:
+        "We will send thoughtful Brazil updates, practical next steps, and the occasional note when something important changes.",
+      successNina: "Talk to Nina now",
+      successClose: "Close",
+      subjectInline: "Insights email briefing | EN",
+      subjectModal: "Exit-intent email briefing | EN",
+      messageInline: "Requested the premium email briefing from an insights page.",
+      messageModal: "Requested the premium email briefing from the exit-intent offer."
+    },
+    pt: {
+      inlineEyebrow: "Briefing privado por e-mail",
+      inlineTitle: "Receba atualizacoes por e-mail sem ruido",
+      inlineSummary:
+        "Insights juridicos sobre imigracao para o Brasil, atualizacoes realmente importantes e proximos passos mais claros para quem esta levando o plano a serio.",
+      inlineChips: ["Atualizacoes por e-mail", "Conteudo juridico", "Orientacao premium"],
+      inlinePoints: [
+        "Avisos uteis quando regras, rotas ou condicoes de planejamento realmente mudarem.",
+        "Um fluxo de e-mails mais calmo para quem compara vistos, residencia, naturalizacao e mudanca.",
+        "Acesso direto a Nina sempre que voce quiser orientacao mais rapida antes de agendar."
+      ],
+      cards: [
+        {
+          icon: "news",
+          title: "O que chega",
+          body: "Atualizacoes juridicas claras, melhores caminhos de leitura e sinais praticos quando a mudanca para o Brasil fica mais concreta."
+        },
+        {
+          icon: "chat",
+          title: "Precisa de algo antes?",
+          body: "A Nina pode apontar a melhor familia de rota ou pagina antes de voce sair do site."
+        }
+      ],
+      modalEyebrow: "Antes de sair",
+      modalTitle: "Leve o briefing da sua mudanca para o Brasil",
+      modalSummary:
+        "Saia com um proximo passo melhor: receba o briefing premium por e-mail ou pergunte para a Nina qual rota explorar primeiro.",
+      modalChips: ["Briefing Brasil", "Concierge Nina", "Sem enxurrada"],
+      modalPoints: [
+        "Atualizacoes uteis sobre o Brasil em vez de marketing generico.",
+        "Mais clareza sobre vistos, residencia, cidadania e mudanca.",
+        "Um caminho mais rapido para falar com a Nina agora mesmo."
+      ],
+      modalDismiss: "Continuar lendo",
+      formIntroInline: "Receber atualizacoes por e-mail",
+      formIntroModal: "Quero receber o briefing",
+      formCopy: "So enviamos atualizacoes uteis. Sem excesso, sem alarmismo e sem campanha cansativa.",
+      nameLabel: "Nome (opcional)",
+      namePlaceholder: "Como devemos chamar voce?",
+      emailLabel: "E-mail",
+      emailPlaceholder: "voce@dominio.com",
+      submitInline: "Entrar no briefing",
+      submitModal: "Receber atualizacoes",
+      ninaButton: "Falar com a Nina",
+      closeLabel: "Fechar oferta",
+      sending: "Enviando...",
+      error: "Nao foi possivel enviar agora. Tente novamente em instantes.",
+      successEyebrow: "Pronto",
+      successTitle: "Fique de olho no seu e-mail",
+      successBody:
+        "Vamos enviar atualizacoes relevantes sobre o Brasil, proximos passos praticos e avisos ocasionais quando algo importante mudar.",
+      successNina: "Falar com a Nina agora",
+      successClose: "Fechar",
+      subjectInline: "Briefing por e-mail dos insights | PT",
+      subjectModal: "Briefing por e-mail de saida | PT",
+      messageInline: "Solicitou o briefing premium por e-mail em uma pagina de insights.",
+      messageModal: "Solicitou o briefing premium por e-mail na oferta de saida."
+    }
+  };
 
   /* ==========================================================================
    * 03. Config and Analytics Helpers
@@ -196,6 +321,10 @@
   function bootstrapAnalytics() {
     const { ga4Id } = getTrackingConfig();
     if (analyticsBootstrapped || !ga4Id) return;
+    if (window.__ITB_GA_BOOTSTRAPPED__ === true && typeof window.gtag === "function") {
+      analyticsBootstrapped = true;
+      return;
+    }
 
     window.dataLayer = window.dataLayer || [];
     window.gtag =
@@ -219,6 +348,7 @@
       document.head.appendChild(script);
     }
 
+    window.__ITB_GA_BOOTSTRAPPED__ = true;
     analyticsBootstrapped = true;
   }
 
@@ -228,6 +358,10 @@
     if (!ga4Id) return;
 
     bootstrapAnalytics();
+    if (window.__ITB_GA_CONFIGURED__ === true && typeof window.gtag === "function") {
+      analyticsConfigured = true;
+      return;
+    }
     if (analyticsConfigured || typeof window.gtag !== "function") return;
 
     window.gtag("config", ga4Id, {
@@ -237,6 +371,7 @@
       page_location: window.location.href
     });
 
+    window.__ITB_GA_CONFIGURED__ = true;
     analyticsConfigured = true;
   }
 
@@ -726,7 +861,373 @@
   }
 
   /* ==========================================================================
-   * 10. Services Directory Rendering
+   * 10. Insights Lead Capture
+   * Premium inline capture and exit-intent support for insights pages.
+   * ========================================================================== */
+  function getLocaleCode() {
+    return (document.documentElement.lang || "").toLowerCase().startsWith("pt") ? "pt" : "en";
+  }
+
+  function getInsightsLeadCopy() {
+    return getLocaleCode() === "pt" ? insightsLeadLocale.pt : insightsLeadLocale.en;
+  }
+
+  function readSessionItem(key) {
+    try {
+      return window.sessionStorage?.getItem(key) || "";
+    } catch {
+      return "";
+    }
+  }
+
+  function writeSessionItem(key, value) {
+    try {
+      window.sessionStorage?.setItem(key, value);
+    } catch {
+      // Ignore storage failures in stricter privacy modes.
+    }
+  }
+
+  function isInsightsLeadPage() {
+    const route = normalizeRoute(getConfig().pageRoute || window.location.pathname);
+    if (document.body.classList.contains("family-insights")) return true;
+    return route === "/insights/" || route.startsWith("/insights/") || route === "/pt-br/insights/" || route.startsWith("/pt-br/insights/");
+  }
+
+  function buildInsightsLeadCards(copy) {
+    return copy.cards
+      .map(
+        (card) => `<article class="insights-lead-capture__card">
+  <span class="insights-lead-capture__card-icon" aria-hidden="true">${iconLibrary[card.icon] || iconLibrary.news}</span>
+  <div class="insights-lead-capture__card-copy">
+    <strong>${escapeHtml(card.title)}</strong>
+    <p>${escapeHtml(card.body)}</p>
+  </div>
+</article>`
+      )
+      .join("");
+  }
+
+  function buildInsightsLeadHiddenFields(mode, copy) {
+    const isPt = getLocaleCode() === "pt";
+    const locale = isPt ? "pt-br" : "en";
+    const suffix = isPt ? "pt" : "en";
+    const isModal = mode === "modal";
+
+    return `
+      <input type="hidden" name="_subject" value="${escapeHtml(isModal ? copy.subjectModal : copy.subjectInline)}" />
+      <input type="hidden" name="form_name" value="${escapeHtml(isModal ? `insights-exit-briefing-${suffix}` : `insights-email-briefing-${suffix}`)}" />
+      <input type="hidden" name="lead_source" value="${escapeHtml(isModal ? "insights-exit-intent" : "insights-inline-briefing")}" />
+      <input type="hidden" name="page_context" value="${escapeHtml(isModal ? "insights-exit-intent-briefing" : "insights-inline-email-briefing")}" />
+      <input type="hidden" name="page_route" value="" data-autofill-current-page="route" />
+      <input type="hidden" name="page_title" value="" data-autofill-current-page="title" />
+      <input type="hidden" name="locale" value="${escapeHtml(locale)}" />
+      <input type="hidden" name="message" value="${escapeHtml(isModal ? copy.messageModal : copy.messageInline)}" />
+    `;
+  }
+
+  function buildInsightsLeadForm(mode, copy) {
+    const isModal = mode === "modal";
+    const group = getLocaleCode() === "pt" ? (isModal ? "insights-exit-pt" : "insights-briefing-pt") : isModal ? "insights-exit-en" : "insights-briefing-en";
+    const source = isModal ? "exit-modal" : "inline-cta";
+
+    return `<form action="${escapeHtml(emailCaptureEndpoint)}" method="post" class="download-gateway__form insights-lead-capture__form" data-itb-email-capture="true" data-itb-email-capture-mode="${escapeHtml(mode)}" data-formspree-group="${escapeHtml(group)}" novalidate>
+  ${buildInsightsLeadHiddenFields(mode, copy)}
+  <div class="insights-lead-capture__form-head">
+    <p class="insights-lead-capture__form-eyebrow">${escapeHtml(isModal ? copy.formIntroModal : copy.formIntroInline)}</p>
+    <p class="insights-lead-capture__form-copy">${escapeHtml(copy.formCopy)}</p>
+  </div>
+  <label>
+    ${escapeHtml(copy.nameLabel)}
+    <input name="full_name" type="text" placeholder="${escapeHtml(copy.namePlaceholder)}" autocomplete="name" />
+  </label>
+  <label>
+    ${escapeHtml(copy.emailLabel)}
+    <input name="email" type="email" inputmode="email" required aria-required="true" placeholder="${escapeHtml(copy.emailPlaceholder)}" autocomplete="email" />
+  </label>
+  <div class="insights-lead-capture__actions">
+    <button type="submit" class="btn btn-primary">${escapeHtml(isModal ? copy.submitModal : copy.submitInline)}</button>
+    <button type="button" class="btn btn-secondary" data-itb-open-nina="true" data-itb-nina-source="${escapeHtml(source)}">${escapeHtml(copy.ninaButton)}</button>
+  </div>
+  <p class="insights-lead-capture__status" data-itb-email-capture-status></p>
+</form>`;
+  }
+
+  function buildInsightsLeadSuccess(mode, copy) {
+    const isModal = mode === "modal";
+    return `<div class="insights-lead-capture__success">
+  <p class="download-gateway__eyebrow">${escapeHtml(copy.successEyebrow)}</p>
+  <h3>${escapeHtml(copy.successTitle)}</h3>
+  <p>${escapeHtml(copy.successBody)}</p>
+  <div class="insights-lead-capture__actions insights-lead-capture__actions--success">
+    <button type="button" class="btn btn-primary" data-itb-open-nina="true" data-itb-nina-source="${escapeHtml(isModal ? "exit-success" : "inline-success")}">${escapeHtml(copy.successNina)}</button>
+    ${isModal ? `<button type="button" class="btn btn-secondary" data-itb-exit-close="true">${escapeHtml(copy.successClose)}</button>` : ""}
+  </div>
+</div>`;
+  }
+
+  function buildInsightsInlineLead(copy) {
+    return `<section class="insights-lead-capture download-gateway download-gateway--newsletter" data-itb-insights-lead="inline" aria-labelledby="insights-lead-title">
+  <div class="download-gateway__shell insights-lead-capture__shell">
+    <div class="download-gateway__content insights-lead-capture__content">
+      <p class="download-gateway__eyebrow">${escapeHtml(copy.inlineEyebrow)}</p>
+      <h2 id="insights-lead-title">${escapeHtml(copy.inlineTitle)}</h2>
+      <p class="download-gateway__summary">${escapeHtml(copy.inlineSummary)}</p>
+      <div class="download-gateway__meta">
+        ${copy.inlineChips.map((chip) => `<span class="download-gateway__chip">${escapeHtml(chip)}</span>`).join("")}
+      </div>
+      <ul class="download-gateway__points">
+        ${copy.inlinePoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+      </ul>
+      <div class="insights-lead-capture__cards">
+        ${buildInsightsLeadCards(copy)}
+      </div>
+    </div>
+    ${buildInsightsLeadForm("inline", copy)}
+  </div>
+</section>`;
+  }
+
+  function buildInsightsExitModal(copy) {
+    return `<div class="insights-exit-modal" data-itb-exit-modal hidden>
+  <button type="button" class="insights-exit-modal__backdrop" data-itb-exit-close="true" aria-label="${escapeHtml(copy.closeLabel)}"></button>
+  <div class="insights-exit-modal__frame" role="dialog" aria-modal="true" aria-labelledby="insights-exit-title" aria-describedby="insights-exit-summary">
+    <button type="button" class="insights-exit-modal__close" data-itb-exit-close="true" aria-label="${escapeHtml(copy.closeLabel)}">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <section class="insights-lead-capture insights-lead-capture--modal download-gateway download-gateway--newsletter">
+      <div class="download-gateway__shell insights-lead-capture__shell">
+        <div class="download-gateway__content insights-lead-capture__content">
+          <p class="download-gateway__eyebrow">${escapeHtml(copy.modalEyebrow)}</p>
+          <h2 id="insights-exit-title">${escapeHtml(copy.modalTitle)}</h2>
+          <p id="insights-exit-summary" class="download-gateway__summary">${escapeHtml(copy.modalSummary)}</p>
+          <div class="download-gateway__meta">
+            ${copy.modalChips.map((chip) => `<span class="download-gateway__chip">${escapeHtml(chip)}</span>`).join("")}
+          </div>
+          <ul class="download-gateway__points">
+            ${copy.modalPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+          </ul>
+          <div class="insights-lead-capture__cards">
+            ${buildInsightsLeadCards(copy)}
+          </div>
+          <div class="insights-lead-capture__modal-actions">
+            <button type="button" class="btn btn-secondary" data-itb-open-nina="true" data-itb-nina-source="exit-modal">${escapeHtml(copy.ninaButton)}</button>
+            <button type="button" class="btn btn-ghost" data-itb-exit-close="true">${escapeHtml(copy.modalDismiss)}</button>
+          </div>
+        </div>
+        ${buildInsightsLeadForm("modal", copy)}
+      </div>
+    </section>
+  </div>
+</div>`;
+  }
+
+  function createMarkupNode(html) {
+    const template = document.createElement("template");
+    template.innerHTML = html.trim();
+    return template.content.firstElementChild;
+  }
+
+  function ensureInsightsInlineLead() {
+    if (!isInsightsLeadPage() || document.querySelector("[data-itb-insights-lead='inline']")) return;
+
+    const main = document.getElementById("main-content");
+    if (!main) return;
+
+    const section = createMarkupNode(buildInsightsInlineLead(getInsightsLeadCopy()));
+    if (!section) return;
+
+    const anchor = main.querySelector("[data-partial='official-resources'], [data-partial='related-links'], .lead-form-block, [data-partial='disclaimer']");
+    if (anchor?.parentElement) {
+      anchor.parentElement.insertBefore(section, anchor);
+      return;
+    }
+
+    const container = document.createElement("div");
+    container.className = "container";
+    container.appendChild(section);
+    main.appendChild(container);
+  }
+
+  function ensureInsightsExitModal() {
+    if (!isInsightsLeadPage()) return null;
+    const existing = document.querySelector("[data-itb-exit-modal]");
+    if (existing) return existing;
+
+    const modal = createMarkupNode(buildInsightsExitModal(getInsightsLeadCopy()));
+    if (!modal) return null;
+    document.body.appendChild(modal);
+    return modal;
+  }
+
+  function bindInsightsLeadForms() {
+    document.querySelectorAll("[data-itb-email-capture='true']").forEach((form) => {
+      if (form.dataset.itbBoundEmailCapture === "true") return;
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        submitInsightsLeadForm(form).catch((error) => console.error(error));
+      });
+      form.dataset.itbBoundEmailCapture = "true";
+    });
+  }
+
+  async function submitInsightsLeadForm(form) {
+    if (!form || form.dataset.state === "submitting") return;
+
+    const mode = form.getAttribute("data-itb-email-capture-mode") || "inline";
+    const copy = getInsightsLeadCopy();
+    const statusNode = form.querySelector("[data-itb-email-capture-status]");
+    const submitButton = form.querySelector("button[type='submit']");
+    if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+      return;
+    }
+
+    form.dataset.state = "submitting";
+    if (submitButton) submitButton.disabled = true;
+    if (statusNode) statusNode.textContent = copy.sending;
+
+    const payload = new FormData(form);
+    payload.set("page_route", getConfig().pageRoute || window.location.pathname);
+    payload.set("page_title", getConfig().pageTitle || document.title || "");
+
+    try {
+      const response = await fetch(form.getAttribute("action") || emailCaptureEndpoint, {
+        method: "POST",
+        body: payload,
+        headers: { Accept: "application/json" }
+      });
+      if (!response.ok) throw new Error(`Lead capture failed with status ${response.status}`);
+
+      writeSessionItem(exitIntentSessionKey, "captured");
+      form.dataset.state = "success";
+      form.innerHTML = buildInsightsLeadSuccess(mode, copy);
+      track("insights_email_capture_submitted", {
+        page_route: getConfig().pageRoute,
+        capture_mode: mode
+      });
+    } catch (error) {
+      console.error(error);
+      form.dataset.state = "error";
+      if (submitButton) submitButton.disabled = false;
+      if (statusNode) statusNode.textContent = copy.error;
+    }
+  }
+
+  function isInsightsExitModalOpen() {
+    const modal = document.querySelector("[data-itb-exit-modal]");
+    return Boolean(modal && !modal.hidden);
+  }
+
+  function openInsightsExitModal(source = "exit-intent") {
+    const modal = ensureInsightsExitModal();
+    if (!modal || isInsightsExitModalOpen()) return;
+
+    insightsLeadArmed = false;
+    writeSessionItem(exitIntentSessionKey, "shown");
+    insightsLeadFocusRestore = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    modal.hidden = false;
+    document.body.classList.add("insights-exit-modal-open");
+    window.requestAnimationFrame(() => {
+      modal.classList.add("is-open");
+      const focusTarget = modal.querySelector("input[name='email'], .insights-exit-modal__close");
+      if (focusTarget instanceof HTMLElement) focusTarget.focus();
+    });
+    track("insights_exit_intent_opened", {
+      page_route: getConfig().pageRoute,
+      source
+    });
+  }
+
+  function closeInsightsExitModal() {
+    const modal = document.querySelector("[data-itb-exit-modal]");
+    if (!modal || modal.hidden) return;
+
+    modal.classList.remove("is-open");
+    document.body.classList.remove("insights-exit-modal-open");
+    window.setTimeout(() => {
+      if (!modal.classList.contains("is-open")) modal.hidden = true;
+    }, 180);
+
+    const restoreTarget = insightsLeadFocusRestore;
+    insightsLeadFocusRestore = null;
+    if (restoreTarget instanceof HTMLElement && restoreTarget.isConnected) {
+      window.requestAnimationFrame(() => restoreTarget.focus());
+    }
+  }
+
+  function openNinaFromLead(source) {
+    let opened = false;
+    if (typeof window.ITB?.openAshaChat === "function") opened = window.ITB.openAshaChat();
+    if (!opened) {
+      const launcher = document.querySelector("[data-nina-launcher]");
+      if (launcher instanceof HTMLElement) {
+        launcher.click();
+        opened = true;
+      }
+    }
+
+    track("insights_nina_open_requested", {
+      page_route: getConfig().pageRoute,
+      source: source || "unknown",
+      available: opened ? "true" : "false"
+    });
+  }
+
+  function bindInsightsLeadDelegates() {
+    if (insightsLeadDelegateBound) return;
+
+    document.addEventListener("click", (event) => {
+      const closeButton = event.target.closest("[data-itb-exit-close='true'], [data-itb-exit-close]");
+      if (closeButton) {
+        event.preventDefault();
+        closeInsightsExitModal();
+        return;
+      }
+
+      const ninaButton = event.target.closest("[data-itb-open-nina='true'], [data-itb-open-nina]");
+      if (!ninaButton) return;
+      event.preventDefault();
+      if (isInsightsExitModalOpen()) closeInsightsExitModal();
+      openNinaFromLead(ninaButton.getAttribute("data-itb-nina-source") || "lead-capture");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && isInsightsExitModalOpen()) closeInsightsExitModal();
+    });
+
+    insightsLeadDelegateBound = true;
+  }
+
+  function armInsightsExitIntent() {
+    if (!isInsightsLeadPage() || readSessionItem(exitIntentSessionKey)) return;
+
+    window.clearTimeout(insightsLeadArmTimer);
+    insightsLeadArmed = false;
+    insightsLeadArmTimer = window.setTimeout(() => {
+      insightsLeadArmed = true;
+    }, 7000);
+
+    if (insightsLeadMouseBound) return;
+    document.addEventListener("mouseout", (event) => {
+      if (!isInsightsLeadPage() || readSessionItem(exitIntentSessionKey)) return;
+      if (!insightsLeadArmed || window.innerWidth < 1024 || !window.matchMedia("(pointer: fine)").matches) return;
+      if (event.relatedTarget || event.toElement) return;
+      if (typeof event.clientY === "number" && event.clientY <= 18) openInsightsExitModal("pointer-exit");
+    });
+    insightsLeadMouseBound = true;
+  }
+
+  function initInsightsLeadCapture() {
+    if (!isInsightsLeadPage()) return;
+    ensureInsightsInlineLead();
+    ensureInsightsExitModal();
+    bindInsightsLeadForms();
+    bindInsightsLeadDelegates();
+    armInsightsExitIntent();
+  }
+
+  /* ==========================================================================
+   * 11. Services Directory Rendering
    * Renders the premium service atlas from page-local JSON so EN/PT pages can
    * share one predictable card layout without duplicating dozens of card blocks.
    * ========================================================================== */
@@ -794,7 +1295,7 @@
   }
 
   /* ==========================================================================
-   * 11. Consultation Query Prefill
+   * 12. Consultation Query Prefill
    * Service-aware CTAs can carry an exact service value plus an optional topic
    * hint so the consultation forms open with useful context already selected.
    * ========================================================================== */
@@ -853,7 +1354,7 @@
   }
 
   /* ==========================================================================
-   * 12. Client Experience UI
+   * 13. Client Experience UI
    * Applies value-based color grading to the 0-10 scale and staggers proof bars.
    * ========================================================================== */
   function initClientExperienceUi() {
@@ -893,7 +1394,7 @@
   }
 
   /* ==========================================================================
-   * 13. Scroll-State UI
+   * 14. Scroll-State UI
    * Floating back-to-top behavior and sticky-shell scroll classes.
    * ========================================================================== */
   function initBackToTop() {
@@ -936,7 +1437,7 @@
   }
 
   /* ==========================================================================
-   * 14. Reveal-On-Scroll
+   * 15. Reveal-On-Scroll
    * Footer sections stay out to avoid partial-load visibility issues.
    * ========================================================================== */
   function initRevealTargets() {
@@ -972,7 +1473,7 @@
   }
 
   /* ==========================================================================
-   * 15. Shared Icon Refresh
+   * 16. Shared Icon Refresh
    * Replaces repeated generic SVGs with context-aware icons after partial load.
    * ========================================================================== */
   function initIconRefresh() {
@@ -1084,7 +1585,7 @@
   }
 
   /* ==========================================================================
-   * 16. Sitemap generator control
+   * 17. Sitemap generator control
    * Adds a client-friendly trigger in the footer for local/dev mode.
    * ========================================================================== */
   function initSitemapGenerator() {
@@ -1112,7 +1613,7 @@
   }
 
   /* ==========================================================================
-   * 17. Public Init API
+   * 18. Public Init API
    * Used both directly and after runtime partial injection.
    * ========================================================================== */
   function initSite() {
@@ -1121,6 +1622,7 @@
     initNav();
     initAccordion();
     initServicesDirectory();
+    initInsightsLeadCapture();
     initConsentAndTracking();
     initConsultationPrefill();
     initClientExperienceUi();

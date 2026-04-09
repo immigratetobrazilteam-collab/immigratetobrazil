@@ -3862,7 +3862,7 @@
   {
     "route": "/pt-br/services/",
     "title": "Serviços",
-    "wordCount": 2532
+    "wordCount": 2560
   },
   {
     "route": "/pt-br/services/advisory/",
@@ -3893,6 +3893,11 @@
     "route": "/pt-br/services/advisory/strategy/",
     "title": "Estratégia",
     "wordCount": 1172
+  },
+  {
+    "route": "/pt-br/services/all/",
+    "title": "Todos os serviços",
+    "wordCount": 1385
   },
   {
     "route": "/pt-br/services/defense/",

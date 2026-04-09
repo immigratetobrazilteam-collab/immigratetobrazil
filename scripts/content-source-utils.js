@@ -122,6 +122,33 @@ function renderStylesheetLinks(stylesheets) {
   return stylesheets.map((href) => `<link rel="stylesheet" href="${escapeAttribute(href)}" />`).join("\n");
 }
 
+function buildGoogleTagSection(ga4Id) {
+  if (!ga4Id) return "";
+  const safeGa4Id = escapeAttribute(ga4Id);
+  return `<!-- Section: Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${safeGa4Id}" data-itb-google-tag-script="ga4"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag =
+        window.gtag ||
+        function gtag() {
+          window.dataLayer.push(arguments);
+        };
+      window.__ITB_GA_BOOTSTRAPPED__ = true;
+      window.gtag("set", "ads_data_redaction", true);
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+      window.gtag("js", new Date());
+      window.gtag("config", "${safeGa4Id}", { send_page_view: false });
+      window.__ITB_GA_CONFIGURED__ = true;
+    </script>`;
+}
+
 function renderScriptLinks(scripts) {
   return scripts
     .map((href, index) => `${index === 0 ? "  " : ""}<script defer src="${escapeAttribute(href)}"></script>`)
@@ -131,6 +158,7 @@ function renderScriptLinks(scripts) {
 export function renderEnglishPage(about, page, bodyHtml, structuredData) {
   const canonicalUrl = routeToUrl(page.route, about.site.domain);
   const ptUrl = routeToUrl(routeToPt(page.route), about.site.domain);
+  const ga4Id = about.runtime?.tracking?.ga4Id || "";
   const runtimeConfig = JSON.stringify({
     pageRoute: page.route,
     pageTitle: page.runtime.pageTitle,
@@ -191,6 +219,8 @@ ${renderStylesheetLinks(about.assets.stylesheets)}
 
 <!-- Section: Structured Data -->
 <script type="application/ld+json">${structuredDataJson}</script>
+
+${buildGoogleTagSection(ga4Id)}
 
 <!-- Section: Site Runtime Config -->
 <script>
