@@ -25,6 +25,8 @@
     "cookie-banner",
     "search-results",
     "newsletter-signup",
+    "download-guide",
+    "download-residency",
     "pagination",
     "social-sharing",
     "loading-state",
@@ -34,7 +36,7 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-04-07-nina-chatbot-v4";
+  const PARTIAL_VERSION = "2026-04-08-feedback-leads-v1";
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();
@@ -179,6 +181,7 @@
   function hydrateSidebarShell(root) {
     const sidebar = root.querySelector(".sidebar-column");
     if (!sidebar) return;
+    const isPt = getLocale() === "pt-br";
 
     const sidebarConfig = getShellConfig().sidebar || {};
     const brandNote = sidebar.querySelector(".sidebar-card--brand .sidebar-note");
@@ -195,15 +198,35 @@
       const note = actionCard.querySelector(".sidebar-note");
       const actionConfig = sidebarConfig.nextStep || {};
 
-      const defaultNextStep = {
-        title: "Next steps",
-        lead: "Immigration Consultation",
-        actions: [
-          { className: "btn btn-cta btn-sm", href: "/start-consultation/", label: "Start Consultation", track: "cta" },
-          { className: "btn btn-secondary btn-sm", href: "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0", label: "WhatsApp", track: "whatsapp" }
-        ],
-        note: "Your pathway to Brazil."
-      };
+      const defaultNextStep = isPt
+        ? {
+            title: "Próximos passos",
+            lead: "Consulta de imigração",
+            actions: [
+              { className: "btn btn-cta btn-sm", href: "/pt-br/start-consultation/", label: "Agendar consulta", track: "cta" },
+              {
+                className: "btn btn-secondary btn-sm",
+                href: "https://api.whatsapp.com/send/?phone=554399614034&text=Ol%C3%A1%2C+gostaria+de+falar+com+a+advogada+Monique.&type=phone_number&app_absent=0",
+                label: "WhatsApp",
+                track: "whatsapp"
+              }
+            ],
+            note: "Seu caminho para o Brasil."
+          }
+        : {
+            title: "Next steps",
+            lead: "Immigration Consultation",
+            actions: [
+              { className: "btn btn-cta btn-sm", href: "/start-consultation/", label: "Start Consultation", track: "cta" },
+              {
+                className: "btn btn-secondary btn-sm",
+                href: "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+                label: "WhatsApp",
+                track: "whatsapp"
+              }
+            ],
+            note: "Your pathway to Brazil."
+          };
 
       const nextStep = {
         title: actionConfig.title?.trim() ? actionConfig.title : defaultNextStep.title,
@@ -240,12 +263,17 @@
     }
 
     grid.innerHTML = cards
-      .map(
-        (card) => `<article class="resource-card">
-            <h3><a href="${escapeHtml(card.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(card.title)}</a></h3>
+      .map((card) => {
+        const isInternal = typeof card.href === "string" && card.href.startsWith("/");
+        const href = isInternal ? resolveSiteUrl(card.href) : card.href;
+        const linkAttrs = isInternal
+          ? ` href="${escapeHtml(href)}" data-itb-route="${escapeHtml(card.href)}"`
+          : ` href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer"`;
+        return `<article class="resource-card">
+            <h3><a${linkAttrs}>${escapeHtml(card.title)}</a></h3>
             <p>${escapeHtml(card.description)}</p>
-          </article>`
-      )
+          </article>`;
+      })
       .join("");
   }
 

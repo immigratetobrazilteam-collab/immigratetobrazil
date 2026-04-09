@@ -1,9 +1,39 @@
 <!-- Seção: Inscrição na Newsletter -->
-<section class="newsletter-signup" aria-labelledby="newsletter-signup-title">
-  <h2 id="newsletter-signup-title">Receba atualizações</h2>
-  <form action="/pt-br/" method="post" class="newsletter-form" data-newsletter-signup="true">
-    <label for="newsletter-email">Email</label>
-    <input id="newsletter-email" name="email" type="email" required aria-required="true" placeholder="voce@dominio.com" />
-    <button type="submit" class="btn btn-primary">Inscrever</button>
-  </form>
+<section class="newsletter-signup download-gateway download-gateway--newsletter" aria-labelledby="newsletter-signup-title">
+  <div class="download-gateway__shell">
+    <div class="download-gateway__content">
+      <p class="download-gateway__eyebrow">PDF da Newsletter</p>
+      <h2 id="newsletter-signup-title">Receba o PDF da Newsletter</h2>
+      <p class="download-gateway__summary">Insights, inspiração para viajar, oportunidades no Brasil e atualizações jurídicas. Informe seu nome e e-mail para liberar o download.</p>
+      <div class="download-gateway__meta" aria-label="Detalhes do download da newsletter">
+        <span class="download-gateway__chip">Download em PDF</span>
+        <span class="download-gateway__chip">Insights sobre o Brasil</span>
+        <span class="download-gateway__chip">Conteúdo jurídico</span>
+      </div>
+      <ul class="download-gateway__points">
+        <li>Perspectivas sobre o Brasil e oportunidades relevantes.</li>
+        <li>Atualizações práticas para planejamento migratório e documental.</li>
+        <li>Download liberado após envio seguro do nome e e-mail.</li>
+      </ul>
+    </div>
+    <form action="https://formspree.io/f/xdawygld" method="post" class="newsletter-form download-gateway__form" data-newsletter-signup="true" data-formspree-group="newsletter-pdf-pt">
+      <input type="hidden" name="_subject" value="Download do PDF da newsletter | PT" />
+      <input type="hidden" name="form_name" value="newsletter-pdf-pt" />
+      <input type="hidden" name="lead_source" value="newsletter-pdf-download" />
+      <input type="hidden" name="page_context" value="site-footer-newsletter-pdf" />
+      <input type="hidden" name="page_route" value="" data-autofill-current-page="route" />
+      <input type="hidden" name="page_title" value="" data-autofill-current-page="title" />
+      <input type="hidden" name="download_asset" value="/assets/downloads/monique-fernandes-newsletter.pdf" />
+      <input type="hidden" name="_next" value="https://immigratetobrazil.com/assets/downloads/monique-fernandes-newsletter.pdf" />
+      <input type="hidden" name="message" value="Pedido do PDF da newsletter enviado pelo rodapé do site." />
+      <label for="newsletter-name-pt">Seu nome
+        <input id="newsletter-name-pt" name="full_name" type="text" required aria-required="true" placeholder="Seu nome completo" />
+      </label>
+      <label for="newsletter-email-pt">Seu e-mail
+        <input id="newsletter-email-pt" name="email" type="email" required aria-required="true" placeholder="voce@dominio.com" />
+      </label>
+      <p class="download-gateway__fineprint">Após o envio, o download do PDF será aberto automaticamente.</p>
+      <button type="submit" class="btn btn-primary">Liberar PDF da Newsletter</button>
+    </form>
+  </div>
 </section>

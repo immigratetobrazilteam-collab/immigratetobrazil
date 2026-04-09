@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+import html
 import hashlib
 import json
 import os
@@ -29,7 +30,7 @@ os.environ.setdefault("ITB_PT_MICRO_BATCH_SIZE", "16")
 ROOT = Path(__file__).resolve().parents[1]
 SITE_DOMAIN = "https://immigratetobrazil.com"
 PT_PREFIX = "/pt-br"
-GENERATOR_VERSION = "2026-04-08-pt-br-v7"
+GENERATOR_VERSION = "2026-04-08-pt-br-v8"
 TRANSLATION_MEMORY_VERSION = "2026-04-08-hybrid-cache-v2"
 BASE_RUNTIME_MODULES = ("bs4",)
 ARGOS_RUNTIME_MODULES = ("argostranslate.package", "argostranslate.translate")
@@ -40,7 +41,51 @@ GOOGLE_BATCH_CHAR_LIMIT = max(500, int(os.environ.get("ITB_PT_GOOGLE_BATCH_CHARS
 GOOGLE_MAX_RETRIES = max(1, int(os.environ.get("ITB_PT_GOOGLE_MAX_RETRIES", "5")))
 GOOGLE_REQUEST_TIMEOUT = max(5, int(os.environ.get("ITB_PT_GOOGLE_TIMEOUT", "60")))
 GOOGLE_WORKERS = max(1, int(os.environ.get("ITB_PT_GOOGLE_WORKERS", "4")))
+PT_SITE_NAME = "Imigre para o Brasil"
+PT_WORDMARK_TOP = "Imigre"
+PT_WORDMARK_BOTTOM = "para o Brasil"
 PT_BR_NORMALIZATION_RULES = (
+    (r"\bImmigrate to Brazil\b", PT_SITE_NAME),
+    (r"\bImmigrate to Brasil\b", PT_SITE_NAME),
+    (r"\bConsulta de Livro\b", "Agendar consulta"),
+    (r"\bConsulta do Livro\b", "Agendar consulta"),
+    (r"\bConsulta para Livro\b", "Agendar consulta"),
+    (r"\bConsulta de agendamento\b", "Agendar consulta"),
+    (r"\bContato em WhatsApp\b", "Contato pelo WhatsApp"),
+    (
+        r"\bUse WhatsApp se precisar de esclarecimentos operacionais mais rápidos antes de escolher o próximo passo\.",
+        "Use o WhatsApp se precisar de um esclarecimento rápido antes de decidir o próximo passo.",
+    ),
+    (
+        r"\bUse a consulta para comparação de rotas, revisão cronológica, planejamento de documentos e orientações mais claras sobre os próximos passos\.",
+        "Use a consulta para comparar caminhos possíveis, revisar o histórico do caso, organizar documentos e receber orientação clara sobre os próximos passos.",
+    ),
+    (
+        r"\bOrientação estruturada para imigração, relocação, planejamento de longo prazo e decisões mais tranquilas sobre Brasil\.",
+        "Orientação estruturada sobre imigração, mudança para o Brasil, planejamento de longo prazo e decisões mais seguras.",
+    ),
+    (
+        r"\bA representação, a estratégia de arquivamento e o julgamento legal individualizado dependem da rota, da cronologia e do registro de apoio\.",
+        "A estratégia jurídica, o protocolo do pedido e a análise individual do caso dependem da via escolhida, do histórico e da documentação de apoio.",
+    ),
+    (r"\bUso de leitura\b", "Como usar esta leitura"),
+    (r"\bArquivar fam[ií]lia\b", "Categoria do arquivo"),
+    (r"\bFoco de arquivo\b", "Foco do arquivo"),
+    (r"\bIngest[aã]o\b", "Triagem"),
+    (r"\bingest[aã]o\b", "triagem"),
+    (r"\bApoiando Imigrantes - Promovendo Brasil\b", "Apoiando imigrantes - promovendo o Brasil"),
+    (r"\bApoiando Imigrantes - Promovendo o Brasil\b", "Apoiando imigrantes - promovendo o Brasil"),
+    (r"\bApoiando imigrantes - promovendo Brasil\b", "Apoiando imigrantes - promovendo o Brasil"),
+    (r"\bConsulta Privada\b", "Consulta particular"),
+    (r"\bConsulta privada\b", "Consulta particular"),
+    (r"\bImigrar para o logotipo Brasil\b", "Logotipo do Imigre para o Brasil"),
+    (r"\bLogotipo Imigrar para o Brasil\b", "Logotipo do Imigre para o Brasil"),
+    (r"\bLogotipo Immigrate to Brasil\b", "Logotipo do Imigre para o Brasil"),
+    (r"\bImigrar para imagem principal da consulta Brasil\b", "Imagem principal da consulta do Imigre para o Brasil"),
+    (r"\bImigre para imagem principal da consulta Brasil\b", "Imagem principal da consulta do Imigre para o Brasil"),
+    (r"\bPratica juridica\b", "Prática jurídica"),
+    (r"\bpratica juridica\b", "prática jurídica"),
+    (r"\bBrasil servi[cç]os jur[ií]dicos e de consultoria em imigra[cç][aã]o\b", "Serviços jurídicos e de consultoria em imigração para o Brasil"),
     (r"\badvogada de imigração Brasilian\b", "advogada de imigração brasileira"),
     (r"\bBrasilian advogado de imigração\b", "advogada de imigração para o Brasil"),
     (r"\bcidadania Brasilian\b", "cidadania brasileira"),
@@ -53,6 +98,30 @@ PT_BR_NORMALIZATION_RULES = (
     (r"\bem Brasil\b", "no Brasil"),
     (r"\bpara Brasil\b", "para o Brasil"),
     (r"\bde Brasil\b", "do Brasil"),
+    (r"\bleitura pública\b", "conteúdo público"),
+    (r"\bregistro de apoio\b", "documentação de apoio"),
+    (r"\bdocumentos comprovantes\b", "documentos de apoio"),
+    (r"\bplanejamento de entrada\b", "planejamento da entrada no Brasil"),
+    (r"\bcomparação de rotas\b", "comparação de caminhos possíveis"),
+    (r"\brevisão cronológica\b", "revisão do histórico do caso"),
+    (r"\bplanejamento imigratório\b", "planejamento migratório"),
+    (r"\btiming consular\b", "prazos consulares"),
+    (r"\bEm termos práticos, esta página é sobre\b", "Na prática, esta página trata de"),
+    (r"\bEm termos práticos, esta página explica\b", "Na prática, esta página mostra"),
+    (r"\ba conteúdo público\b", "o conteúdo público"),
+    (r"\bLeitura relacionada neste site\b", "Leituras relacionadas neste site"),
+    (r"\bLeia o artigo\b", "Ler artigo"),
+    (r"\bo próximo passo é rever a questão\b", "o próximo passo é analisar a questão"),
+    (r"\bPasse do conteúdo público para a consulta\b", "Saia do conteúdo público e parta para a consulta"),
+    (r"\bPass[eé] da leitura pública para a consulta\b", "Saia do conteúdo público e parta para a consulta"),
+    (r"\bEsta página traz pesquisas anteriores sobre vistos\b", "Esta página reorganiza conteúdo anterior sobre vistos"),
+    (r"\bEsta página traz pesquisas anteriores sobre cidadania\b", "Esta página reorganiza conteúdo anterior sobre cidadania"),
+    (r"\bEsta página traz pesquisas anteriores sobre residência\b", "Esta página reorganiza conteúdo anterior sobre residência"),
+    (r"\bem um formato mais claro\b", "de forma mais clara"),
+    (
+        r"Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para Imigrar para o Brasil\.",
+        "Esta página reorganiza conteúdo anterior sobre vistos para facilitar o planejamento da entrada no Brasil.",
+    ),
     (r"\bFactos\b", "Fatos"),
     (r"\bfactos\b", "fatos"),
     (r"\bRegistos\b", "Registros"),
@@ -180,9 +249,13 @@ TEXT_SKIP_TAGS = {
 }
 
 ATTRIBUTE_TRANSLATORS = (
+    ("meta", {"name": "author"}, "content"),
     ("meta", {"name": "description"}, "content"),
     ("meta", {"property": "og:description"}, "content"),
+    ("meta", {"property": "og:image:alt"}, "content"),
+    ("meta", {"property": "og:site_name"}, "content"),
     ("meta", {"name": "twitter:description"}, "content"),
+    ("meta", {"name": "twitter:image:alt"}, "content"),
 )
 
 TITLE_ATTRIBUTE_TRANSLATORS = (
@@ -455,7 +528,13 @@ def discover_english_routes() -> list[tuple[str, Path]]:
 
 
 def normalize_translatable_text(value: str) -> str:
-    return value.strip()
+    normalized = value.strip()
+    for _ in range(4):
+        decoded = html.unescape(normalized)
+        if decoded == normalized:
+            break
+        normalized = decoded
+    return normalized.strip()
 
 
 def adjective_for_brazilian_noun(noun: str) -> str:
@@ -524,7 +603,8 @@ def localize_whatsapp_url(url: str, translate_text_fn) -> str:
         parts = urlsplit(url)
     except ValueError:
         return url
-    if "wa.me" not in parts.netloc:
+    netloc = parts.netloc.lower()
+    if netloc not in {"wa.me", "api.whatsapp.com", "www.whatsapp.com"}:
         return url
     params = dict(parse_qsl(parts.query, keep_blank_values=True))
     if "text" in params and params["text"].strip():
@@ -927,6 +1007,12 @@ class PtGenerator:
         cleaned = normalize_brazilian_phrases(cleaned)
         return cleaned.strip()
 
+    def localize_brand_wordmarks(self, soup: BeautifulSoup) -> None:
+        for top_line in soup.select(".brand-wordmark__line--top"):
+            top_line.string = PT_WORDMARK_TOP
+        for bottom_line in soup.select(".brand-wordmark__line--bottom"):
+            bottom_line.string = PT_WORDMARK_BOTTOM
+
     def translate_missing_batch(self, route: str, values: list[str]) -> None:
         self._translate_missing(values, route=route, respect_route_overrides=True)
 
@@ -1005,6 +1091,7 @@ class PtGenerator:
             translated = self.clean_translation(translated)
             self.memory[source] = translated
 
+        translated = self.clean_translation(translated)
         return preserve_outer_whitespace(original, translated)
 
     def collect_json_ld_strings(self, value, bucket: set[str], key: str = "") -> None:
@@ -1162,9 +1249,14 @@ class PtGenerator:
         if key in {"url", "item", "target"}:
             return localize_internal_url(value)
         if key == "sameAs":
-            return value
+            return localize_whatsapp_url(
+                value, lambda text: normalize_translatable_text(self.translate_text(text, route))
+            )
         if value.startswith("http://") or value.startswith("https://"):
-            return localize_internal_url(value)
+            return localize_whatsapp_url(
+                localize_internal_url(value),
+                lambda text: normalize_translatable_text(self.translate_text(text, route)),
+            )
         return normalize_translatable_text(self.translate_text(value, route))
 
     def translate_shell_value(self, value, route: str, key: str = ""):
@@ -1177,11 +1269,17 @@ class PtGenerator:
         if key in {"track", "className", "image_src", "src", "logo", "icon"}:
             return value
         if key == "href":
-            return localize_internal_url(value)
+            return localize_whatsapp_url(
+                localize_internal_url(value),
+                lambda text: normalize_translatable_text(self.translate_text(text, route)),
+            )
         if value.startswith("/assets/"):
             return value
         if value.startswith("http://") or value.startswith("https://"):
-            return localize_internal_url(value)
+            return localize_whatsapp_url(
+                localize_internal_url(value),
+                lambda text: normalize_translatable_text(self.translate_text(text, route)),
+            )
         return normalize_translatable_text(self.translate_text(value, route))
 
     def patch_window_config(self, soup: BeautifulSoup, route: str) -> None:
@@ -1314,10 +1412,16 @@ class PtGenerator:
                 continue
             if tag.name == "link":
                 continue
-            tag["href"] = localize_internal_url(tag["href"])
+            tag["href"] = localize_whatsapp_url(
+                localize_internal_url(tag["href"]),
+                lambda text: normalize_translatable_text(self.translate_text(text, "")),
+            )
 
         for form in soup.find_all(action=True):
-            form["action"] = localize_internal_url(form["action"])
+            form["action"] = localize_whatsapp_url(
+                localize_internal_url(form["action"]),
+                lambda text: normalize_translatable_text(self.translate_text(text, "")),
+            )
 
     def translate_attributes(self, soup: BeautifulSoup, route: str) -> None:
         for tag in soup.find_all(True):
@@ -1357,11 +1461,21 @@ class PtGenerator:
         self.patch_window_config(soup, route)
         self.translate_attributes(soup, route)
         self.translate_dom_text(soup, route)
+        self.localize_brand_wordmarks(soup)
 
-        rendered = soup.decode(formatter="html")
-        rendered = re.sub(r"^\s*<!DOCTYPE[^>]*>\s*", "", rendered, count=1, flags=re.IGNORECASE)
+        rendered_nodes: list[str] = []
+        for node in soup.contents:
+            if isinstance(node, Comment):
+                rendered_nodes.append(f"<!--{node}-->")
+                continue
+            if isinstance(node, str):
+                normalized = node.strip()
+                if not normalized or normalized.lower() == "html":
+                    continue
+            rendered_nodes.append(str(node))
+        rendered = "".join(rendered_nodes)
         comment = (
-            f"<!-- Generated pt-BR page from {route}. Edit the English content source under content/en/ or "
+            f"<!-- Generated pt-BR page from {route}. Edit the English HTML source or "
             "i18n/pt-br/overrides.json, then rerun "
             "npm run translate:pt. -->"
         )

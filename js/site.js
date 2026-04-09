@@ -554,14 +554,31 @@
     if (localStorage.getItem(consentKey) === "accepted") loadGtm();
 
     const cookieBanner = document.querySelector("[data-cookie-banner]");
-    if (cookieBanner && !localStorage.getItem(consentKey)) cookieBanner.hidden = false;
+    const syncCookieBannerVisibility = () => {
+      if (!cookieBanner) return;
+      const suppressOnMobileHome =
+        document.body.classList.contains("page-home") && window.matchMedia("(max-width: 767px)").matches;
+      cookieBanner.hidden = Boolean(localStorage.getItem(consentKey)) || suppressOnMobileHome;
+    };
+
+    syncCookieBannerVisibility();
+
+    if (cookieBanner && cookieBanner.dataset.itbBoundConsentViewport !== "true") {
+      const viewportQuery = window.matchMedia("(max-width: 767px)");
+      const handleViewportChange = () => syncCookieBannerVisibility();
+
+      if (typeof viewportQuery.addEventListener === "function") viewportQuery.addEventListener("change", handleViewportChange);
+      else if (typeof viewportQuery.addListener === "function") viewportQuery.addListener(handleViewportChange);
+
+      cookieBanner.dataset.itbBoundConsentViewport = "true";
+    }
 
     document.querySelectorAll("[data-consent]").forEach((button) => {
       if (button.dataset.itbBoundConsent === "true") return;
       button.addEventListener("click", () => {
         const choice = button.getAttribute("data-consent");
         localStorage.setItem(consentKey, choice === "accept" ? "accepted" : "declined");
-        if (cookieBanner) cookieBanner.hidden = true;
+        syncCookieBannerVisibility();
         if (choice === "accept") {
           loadGtm();
           track("analytics_consent_granted", { page_route: config.pageRoute });
@@ -601,6 +618,16 @@
       });
     });
 
+    document.querySelectorAll("[data-autofill-current-page='route']").forEach((input) => {
+      if (input.value) return;
+      input.value = config.pageRoute || window.location.pathname;
+    });
+
+    document.querySelectorAll("[data-autofill-current-page='title']").forEach((input) => {
+      if (input.value) return;
+      input.value = config.pageTitle || document.title || "";
+    });
+
     document.querySelectorAll("form[action*='formspree']").forEach((form) => {
       if (form.dataset.itbBoundForm === "true") return;
       form.addEventListener("submit", () => {
@@ -615,7 +642,47 @@
   }
 
   /* ==========================================================================
-   * 10. Scroll-State UI
+   * 10. Client Experience UI
+   * Applies value-based color grading to the 0-10 scale and staggers proof bars.
+   * ========================================================================== */
+  function initClientExperienceUi() {
+    const scorePalette = [
+      "#5a2027",
+      "#6a252c",
+      "#792a30",
+      "#873334",
+      "#904634",
+      "#966031",
+      "#90762f",
+      "#768130",
+      "#5b8732",
+      "#447b35",
+      "#2f6239"
+    ];
+
+    function toneFor(value, fallbackIndex) {
+      const index = Number.isFinite(value) ? Math.max(0, Math.min(scorePalette.length - 1, value)) : fallbackIndex;
+      return scorePalette[index] || scorePalette[scorePalette.length - 1];
+    }
+
+    document.querySelectorAll(".client-scale-guide__numbers span").forEach((node, index) => {
+      const value = Number.parseInt(node.textContent.trim(), 10);
+      node.style.setProperty("--score-tone", toneFor(value, index));
+    });
+
+    document.querySelectorAll(".feedback-score-option").forEach((option, index) => {
+      const label = option.querySelector("span");
+      const value = Number.parseInt(label?.textContent.trim() || "", 10);
+      option.style.setProperty("--score-tone", toneFor(value, index % scorePalette.length));
+    });
+
+    document.querySelectorAll(".client-indicator-bar").forEach((bar, index) => {
+      bar.style.setProperty("--proof-delay", `${Math.min(index, 9) * 85}ms`);
+    });
+  }
+
+  /* ==========================================================================
+   * 11. Scroll-State UI
    * Floating back-to-top behavior and sticky-shell scroll classes.
    * ========================================================================== */
   function initBackToTop() {
@@ -645,6 +712,7 @@
       const scrollRatio = Math.max(0, Math.min(1, window.scrollY / scrollableHeight));
       body.classList.toggle("is-scrolled", window.scrollY > 16);
       liveButton?.classList.toggle("is-visible", window.scrollY > showThreshold);
+      liveButton?.style.setProperty("--back-to-top-progress", scrollRatio.toFixed(4));
       progressBar?.style.setProperty("--scroll-progress", scrollRatio.toFixed(4));
       progressBar?.classList.toggle("is-active", scrollRatio > 0.01);
     }
@@ -657,14 +725,14 @@
   }
 
   /* ==========================================================================
-   * 11. Reveal-On-Scroll
+   * 12. Reveal-On-Scroll
    * Footer sections stay out to avoid partial-load visibility issues.
    * ========================================================================== */
   function initRevealTargets() {
     const body = document.body;
     const revealTargets = [
       ...document.querySelectorAll(
-        ".content-block, .official-resources, .faq-block, .related-block, .hero-panel, .hero-glance-card, .sidebar-card, .marker, .info-card, .resource-card, .related-card, .quote-card"
+        ".content-block, .official-resources, .faq-block, .related-block, .download-gateway, .client-proof-band, .client-proof-stage, .hero-panel, .hero-glance-card, .sidebar-card, .marker, .info-card, .resource-card, .related-card, .quote-card"
       )
     ];
     revealTargets.forEach((node) => node.classList.add("reveal"));
@@ -693,7 +761,7 @@
   }
 
   /* ==========================================================================
-   * 12. Shared Icon Refresh
+   * 13. Shared Icon Refresh
    * Replaces repeated generic SVGs with context-aware icons after partial load.
    * ========================================================================== */
   function initIconRefresh() {
@@ -805,7 +873,7 @@
   }
 
   /* ==========================================================================
-   * 13. Sitemap generator control
+   * 14. Sitemap generator control
    * Adds a client-friendly trigger in the footer for local/dev mode.
    * ========================================================================== */
   function initSitemapGenerator() {
@@ -833,7 +901,7 @@
   }
 
   /* ==========================================================================
-   * 14. Public Init API
+   * 15. Public Init API
    * Used both directly and after runtime partial injection.
    * ========================================================================== */
   function initSite() {
@@ -842,6 +910,7 @@
     initNav();
     initAccordion();
     initConsentAndTracking();
+    initClientExperienceUi();
     buildPageMap();
     initBackToTop();
     initRevealTargets();

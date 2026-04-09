@@ -13,6 +13,8 @@
     "build:static": "npm run refresh:site && npm run sync:data",
     "check": "npm run sync:data",
     "translate:pt": "python3 scripts/generate_pt.py",
-    "translate:pt:all": "python3 scripts/generate_pt.py --force"
+    "translate:pt:all": "python3 scripts/generate_pt.py --force --resume",
+    "translate:pt:doctor": "python3 scripts/generate_pt.py --doctor",
+    "translate:pt:fresh": "python3 scripts/generate_pt.py --force --clear-memory"
   }
 }

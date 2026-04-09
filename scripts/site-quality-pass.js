@@ -10,6 +10,8 @@ const ROOT = path.resolve(__dirname, "..");
 const JSON_LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
 const ITB_SITE_RE = /window\.ITB_SITE\s*=\s*(\{[\s\S]*?\});/;
 const TITLE_RE = /<title>([\s\S]*?)<\/title>/i;
+const RELATED_READING_SECTION_RE = /<section\b[^>]*id=["']section-3-related-reading["'][^>]*>([\s\S]*?)<\/section>/i;
+const INFO_CARD_RE = /<article class="info-card">([\s\S]*?)<\/article>/gi;
 const HERO_ALT_RE = /<img class="hero-media"[^>]*alt="([^"]*)"/i;
 const OG_IMAGE_ALT_RE = /<meta\b[^>]*property=["']og:image:alt["'][^>]*content=["']([^"']*)["'][^>]*>/i;
 const OG_IMAGE_ALT_RE_ALT = /<meta\b[^>]*content=["']([^"']*)["'][^>]*property=["']og:image:alt["'][^>]*>/i;
@@ -35,6 +37,7 @@ const GENERIC_ARCHIVE_TITLE_PATTERNS = {
 
 const COPY = {
   en: {
+    siteName: "Immigrate to Brazil",
     organizationDescription:
       "Immigrate to Brazil is the immigration platform led by attorney Monique Fernandes for visas, residency, naturalisation, compliance, and practical planning for life in Brazil.",
     practiceName: "Monique Fernandes Brazil Immigration Legal Practice",
@@ -74,26 +77,27 @@ const COPY = {
       "Practical guidance from attorney Monique Fernandes on Brazil immigration, route choice, documents, timing, and next steps."
   },
   "pt-BR": {
+    siteName: "Imigre para o Brasil",
     organizationDescription:
-      "Immigrate to Brazil e a plataforma de imigracao liderada pela advogada Monique Fernandes para vistos, residencia, naturalizacao, compliance e planejamento pratico de mudanca para o Brasil.",
-    practiceName: "Pratica juridica de imigracao para o Brasil de Monique Fernandes",
+      "Imigre para o Brasil é a plataforma de orientação migratória liderada pela advogada Monique Fernandes para vistos, residência, naturalização, compliance e planejamento prático de vida no Brasil.",
+    practiceName: "Prática jurídica de imigração para o Brasil de Monique Fernandes",
     practiceDescription:
-      "Orientacao juridica conduzida por advogada para vistos, residencia, naturalizacao, compliance, defesa e planejamento migratorio para o Brasil.",
-    personJobTitle: "advogada de imigracao para o Brasil",
+      "Orientação jurídica em imigração para o Brasil, conduzida por advogada, com apoio em vistos, residência, naturalização, compliance, defesa e planejamento migratório.",
+    personJobTitle: "advogada de imigração para o Brasil",
     personDescription:
-      "A advogada Monique Fernandes ajuda individuos, familias, empreendedores e clientes internacionais em questoes migratorias ligadas ao Brasil.",
+      "A advogada Monique Fernandes orienta indivíduos, famílias, empreendedores e clientes internacionais em questões migratórias ligadas ao Brasil.",
     personKnowsAbout: [
-      "direito de imigracao para o Brasil",
+      "direito de imigração para o Brasil",
       "vistos para o Brasil",
-      "planejamento de residencia no Brasil",
-      "cidadania e naturalizacao brasileira",
-      "compliance e defesa migratoria",
-      "documentos transfronteiricos e planejamento de mudanca"
+      "planejamento de residência no Brasil",
+      "cidadania e naturalização brasileira",
+      "compliance e defesa migratória",
+      "documentação internacional e planejamento de mudança"
     ],
     contactType: "atendimento ao cliente",
     countryName: "Brasil",
     archiveBrandNote:
-      "Este artigo foi revisado para o Immigrate to Brazil para manter a orientacao alinhada ao planejamento migratorio, ao contexto juridico e aos proximos passos no Brasil.",
+      "Este artigo foi revisado para o site Imigre para o Brasil para manter a orientação alinhada ao planejamento migratório, ao contexto jurídico e aos próximos passos práticos no Brasil.",
     archiveRouteLabel: "Arquivo",
     archiveReferenceLabel: "Registro do arquivo",
     localizedArchiveTitleLabel: "em português",
@@ -101,16 +105,16 @@ const COPY = {
     articleSuffix: {
       blog: "Artigo",
       fyi: "FYI",
-      general: "Insight Brasil",
+      general: "Insight sobre o Brasil",
       guides: "Guia Brasil",
-      naturalisation: "Insight de Naturalizacao",
-      process: "Insight de Processo",
-      residency: "Insight de Residencia",
-      updates: "Atualizacao",
-      visa: "Insight de Visto"
+      naturalisation: "Insight sobre naturalização",
+      process: "Insight sobre processo",
+      residency: "Insight sobre residência",
+      updates: "Atualização",
+      visa: "Insight sobre visto"
     },
     fallbackDescription:
-      "Orientacao pratica da advogada Monique Fernandes sobre imigracao para o Brasil, escolha de rota, documentos, prazos e proximos passos."
+      "Orientação prática da advogada Monique Fernandes sobre imigração para o Brasil, escolha de rota, documentos, prazos e próximos passos."
   }
 };
 
@@ -131,10 +135,10 @@ const CATEGORY_LABELS = {
     fyi: "FYI",
     general: "Geral",
     guides: "Guias",
-    naturalisation: "Naturalizacao",
+    naturalisation: "Naturalização",
     process: "Processo",
-    residency: "Residencia",
-    updates: "Atualizacoes",
+    residency: "Residência",
+    updates: "Atualizações",
     visa: "Visto"
   }
 };
@@ -230,20 +234,21 @@ function readTextMatch(source, pattern, group = 1) {
 }
 
 function replaceMetaTag(html, attr, key, value) {
+  const safeValue = escapeAttribute(decodeHtml(value));
   const pattern = new RegExp(
     `<meta\\b(?=[^>]*\\b${attr}=["']${escapeRegExp(key)}["'])[^>]*\\bcontent=["'][\\s\\S]*?["'][^>]*>`,
     "i"
   );
-  const replacement = `<meta ${attr}="${key}" content="${escapeAttribute(value)}" />`;
+  const replacement = `<meta ${attr}="${key}" content="${safeValue}" />`;
   return pattern.test(html) ? html.replace(pattern, () => replacement) : html;
 }
 
 function replaceTitle(html, value) {
-  return html.replace(TITLE_RE, () => `<title>${escapeHtml(value)}</title>`);
+  return html.replace(TITLE_RE, () => `<title>${escapeHtml(decodeHtml(value))}</title>`);
 }
 
 function replaceWrappedContent(html, pattern, value) {
-  return html.replace(pattern, (_, openTag, _current, closeTag) => `${openTag}${escapeHtml(value)}${closeTag}`);
+  return html.replace(pattern, (_, openTag, _current, closeTag) => `${openTag}${escapeHtml(decodeHtml(value))}${closeTag}`);
 }
 
 function truncateDescription(value, max = 160) {
@@ -253,6 +258,52 @@ function truncateDescription(value, max = 160) {
   const clipped = normalized.slice(0, max - 1);
   const clean = clipped.replace(/[,:;\s-]+[^,:;\s-]*$/, "").trim();
   return `${clean || clipped}`.replace(/[.,;:]+$/, "").trim() + "...";
+}
+
+function resolveLocalHref(href, route) {
+  if (!href) return "";
+  try {
+    const resolved = new URL(href, absoluteUrl(route));
+    return resolved.pathname || "";
+  } catch {
+    return "";
+  }
+}
+
+function dedupeResources(resources = []) {
+  const seen = new Set();
+  return resources.filter((item) => {
+    const href = item?.href;
+    if (!href || seen.has(href)) return false;
+    seen.add(href);
+    return true;
+  });
+}
+
+function extractRelatedReadingResources(html, route) {
+  const sectionMatch = html.match(RELATED_READING_SECTION_RE);
+  if (!sectionMatch) return [];
+
+  const resources = [];
+  for (const match of sectionMatch[1].matchAll(INFO_CARD_RE)) {
+    const cardHtml = match[1];
+    const hrefMatch = cardHtml.match(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/i);
+    if (!hrefMatch) continue;
+
+    const href = resolveLocalHref(decodeHtml(hrefMatch[1]), route);
+    if (!href.startsWith("/")) continue;
+
+    const title = readTextMatch(cardHtml, /<h3[^>]*>([\s\S]*?)<\/h3>/i);
+    const paragraphs = [...cardHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+      .map(([, value]) => stripTags(value))
+      .filter(Boolean);
+    const description = paragraphs[0] || "";
+    if (!title || !description) continue;
+
+    resources.push({ href, title, description });
+  }
+
+  return resources;
 }
 
 function expectedRobots(route) {
@@ -443,7 +494,7 @@ function buildArchiveMeta(route, html, locale) {
   const titleParts = [articleTitle];
   if (dateLabel) titleParts.push(dateLabel);
   if (archiveDateLabel) titleParts.push(`${copy.archiveRouteLabel} ${archiveDateLabel}`);
-  titleParts.push(copy.localizedArchiveTitleLabel ? `${suffix} ${copy.localizedArchiveTitleLabel}` : suffix, "Immigrate to Brazil");
+  titleParts.push(copy.localizedArchiveTitleLabel ? `${suffix} ${copy.localizedArchiveTitleLabel}` : suffix, copy.siteName);
   const browserTitle = titleParts.join(" | ");
   const datePublished = parseDateToIso(dateLabel, locale);
 
@@ -478,6 +529,38 @@ function patchRuntimeConfig(html, archiveMeta) {
   }
   if (config.shell?.sidebar?.brand) {
     config.shell.sidebar.brand.note = archiveMeta.brandNote;
+  }
+
+  if (config.shell) {
+    const relatedReadingResources = extractRelatedReadingResources(html, config.pageRoute || "/");
+    const existingResources = Array.isArray(config.shell.officialResources) ? config.shell.officialResources : [];
+    const externalResources = existingResources.filter((item) => typeof item?.href === "string" && !item.href.startsWith("/"));
+    if (relatedReadingResources.length || externalResources.length) {
+      config.shell.officialResources = dedupeResources([...relatedReadingResources, ...externalResources]);
+    }
+  }
+
+  return html.replace(ITB_SITE_RE, () => `window.ITB_SITE = ${JSON.stringify(config)};`);
+}
+
+function patchInsightRuntimeResources(html, route) {
+  const match = html.match(ITB_SITE_RE);
+  if (!match) return html;
+
+  let config;
+  try {
+    config = JSON.parse(match[1]);
+  } catch {
+    return html;
+  }
+
+  if (config.shell) {
+    const relatedReadingResources = extractRelatedReadingResources(html, config.pageRoute || route || "/");
+    const existingResources = Array.isArray(config.shell.officialResources) ? config.shell.officialResources : [];
+    const externalResources = existingResources.filter((item) => typeof item?.href === "string" && !item.href.startsWith("/"));
+    if (relatedReadingResources.length || externalResources.length) {
+      config.shell.officialResources = dedupeResources([...relatedReadingResources, ...externalResources]);
+    }
   }
 
   return html.replace(ITB_SITE_RE, () => `window.ITB_SITE = ${JSON.stringify(config)};`);
@@ -522,7 +605,12 @@ function patchJsonLd(html, route, locale, description, archiveMeta = null) {
     if (!schema || typeof schema !== "object") continue;
 
     if (schema["@type"] === "Organization") {
+      schema.name = copy.siteName;
       schema.description = copy.organizationDescription;
+    }
+
+    if (schema["@type"] === "WebSite") {
+      schema.name = copy.siteName;
     }
 
     if (schema["@type"] === "ContactPoint") {
@@ -608,7 +696,7 @@ function buildArchiveJsonLd(route, locale, archiveMeta, html) {
       "@context": "https://schema.org",
       "@type": "Organization",
       "@id": "https://immigratetobrazil.com#organization",
-      name: "Immigrate to Brazil",
+      name: copy.siteName,
       url: "https://immigratetobrazil.com",
       description: copy.organizationDescription,
       email: "moniquefadv@gmail.com",
@@ -620,7 +708,7 @@ function buildArchiveJsonLd(route, locale, archiveMeta, html) {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "@id": "https://immigratetobrazil.com#website",
-      name: "Immigrate to Brazil",
+      name: copy.siteName,
       url: "https://immigratetobrazil.com",
       publisher: { "@id": "https://immigratetobrazil.com#organization" }
     },
@@ -742,9 +830,13 @@ async function main() {
 
     let archiveMeta = null;
     if (isInsightArticleRoute(entry.route)) {
-      const archiveResult = patchArchiveSeo(html, entry.route, locale);
-      html = archiveResult.html;
-      archiveMeta = archiveResult.archiveMeta;
+      if (locale === "pt-BR") {
+        html = patchInsightRuntimeResources(html, entry.route);
+      } else {
+        const archiveResult = patchArchiveSeo(html, entry.route, locale);
+        html = archiveResult.html;
+        archiveMeta = archiveResult.archiveMeta;
+      }
     }
 
     const description = readTextMatch(

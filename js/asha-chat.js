@@ -2466,7 +2466,9 @@
     ].join("\n");
 
     const payload = new FormData();
-    payload.append("_subject", state.isPt ? "Lead Nina chatbot" : "Nina chatbot lead");
+    payload.append("_subject", state.isPt ? "Nina chatbot lead | PT" : "Nina chatbot lead | EN");
+    payload.append("form_name", state.isPt ? "nina-chatbot-pt" : "nina-chatbot-en");
+    payload.append("form_locale", state.isPt ? "pt-br" : "en");
     payload.append("full_name", lead.full_name);
     payload.append("email", lead.email);
     payload.append("phone_whatsapp", lead.phone_whatsapp);
