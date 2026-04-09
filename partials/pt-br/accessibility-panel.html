@@ -1,51 +1,38 @@
-<!-- Section: Painel de Acessibilidade -->
-  <aside
-    class="accessibility-panel"
-    id="accessibility-panel"
-    aria-hidden="true"
-    role="dialog"
-    aria-modal="true"
-    aria-labelledby="accessibility-title"
-    tabindex="-1"
-  >
-    <div class="accessibility-panel__inner">
-      <div class="panel-header">
-        <h2 id="accessibility-title">Acessibilidade</h2>
-        <button type="button" class="panel-close" data-close-accessibility="true">Fechar</button>
-      </div>
-
-      <div class="panel-actions">
-        <div class="scale-control">
-          <span>Escala de texto</span>
-          <div class="inline-actions">
-            <button type="button" data-accessibility-action="text-decrease">A-</button>
-            <strong data-text-scale-value="true">100%</strong>
-            <button type="button" data-accessibility-action="text-increase">A+</button>
-          </div>
-        </div>
-
-        <div class="scale-control">
-          <span>Modo de tema</span>
-          <div class="inline-actions inline-actions--choices" role="group" aria-label="Modo de tema">
-            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="light">Claro</button>
-            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="dark">Escuro</button>
-            <button type="button" class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="system">Sistema</button>
-          </div>
-        </div>
-
-        <button type="button" class="toggle-button" data-accessibility-action="contrast">Alto contraste</button>
-        <button type="button" class="toggle-button" data-accessibility-action="invert">Inverter cores</button>
-        <button type="button" class="toggle-button" data-accessibility-action="grayscale">Escala de cinzas</button>
-        <button type="button" class="toggle-button" data-accessibility-action="dyslexia">Fonte para dislexia</button>
-        <button type="button" class="toggle-button" data-accessibility-action="links">Destacar links</button>
-        <button type="button" class="toggle-button" data-accessibility-action="headings">Destacar titulos</button>
-        <button type="button" class="toggle-button" data-accessibility-action="guide">Guia de leitura</button>
-        <button type="button" class="toggle-button" data-accessibility-action="images">Ocultar imagens</button>
-        <button type="button" class="toggle-button" data-accessibility-action="motion">Reduzir movimento</button>
-        <button type="button" class="toggle-button reset" data-accessibility-action="reset">Redefinir todas as configuracoes</button>
-      </div>
-    </div>
-
-    <!-- Section: Guia de Leitura -->
-    <div class="reading-guide" data-reading-guide="true" aria-hidden="true"></div>
-  </aside>
+<!-- Section: Accessibility Panel --><aside aria-hidden="true" aria-labelledby="accessibility-title" aria-modal="true" class="accessibility-panel" id="accessibility-panel" role="dialog" tabindex="-1">
+<div class="accessibility-panel__inner">
+<div class="panel-header">
+<h2 id="accessibility-title">Acessibilidade</h2>
+<button class="panel-close" data-close-accessibility="true" type="button">Fechar</button>
+</div>
+<div class="panel-actions">
+<div class="scale-control">
+<span>Escala de texto</span>
+<div class="inline-actions">
+<button data-accessibility-action="text-decrease" type="button">A-</button>
+<strong data-text-scale-value="true">100%</strong>
+<button data-accessibility-action="text-increase" type="button">A+</button>
+</div>
+</div>
+<div class="scale-control">
+<span>Modo tema</span>
+<div aria-label="Modo tema" class="inline-actions inline-actions--choices" role="group">
+<button class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="light" type="button">Claro</button>
+<button class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="dark" type="button">Escuro</button>
+<button class="toggle-button toggle-button--choice" data-accessibility-action="theme" data-accessibility-value="system" type="button">Sistema</button>
+</div>
+</div>
+<button class="toggle-button" data-accessibility-action="contrast" type="button">Alto contraste</button>
+<button class="toggle-button" data-accessibility-action="invert" type="button">Inverter cores</button>
+<button class="toggle-button" data-accessibility-action="grayscale" type="button">Tons de cinza</button>
+<button class="toggle-button" data-accessibility-action="dyslexia" type="button">Fonte para dislexia</button>
+<button class="toggle-button" data-accessibility-action="links" type="button">Destacar links</button>
+<button class="toggle-button" data-accessibility-action="headings" type="button">Destacar títulos</button>
+<button class="toggle-button" data-accessibility-action="guide" type="button">Guia de leitura</button>
+<button class="toggle-button" data-accessibility-action="images" type="button">Ocultar imagens</button>
+<button class="toggle-button" data-accessibility-action="motion" type="button">Reduzir movimento</button>
+<button class="toggle-button reset" data-accessibility-action="reset" type="button">Redefinir todas as configurações</button>
+</div>
+</div>
+<!-- Section: Reading Guide -->
+<div aria-hidden="true" class="reading-guide" data-reading-guide="true"></div>
+</aside>

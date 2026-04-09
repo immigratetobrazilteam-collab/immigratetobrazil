@@ -2,7 +2,7 @@
   {
     "route": "/pt-br/",
     "title": "Imigre para o Brasil com a advogada Monique Fernandes",
-    "wordCount": 1241
+    "wordCount": 1488
   },
   {
     "route": "/pt-br/about/",
@@ -12,12 +12,12 @@
   {
     "route": "/pt-br/about/about/",
     "title": "Conheça Monique Fernandes",
-    "wordCount": 891
+    "wordCount": 894
   },
   {
     "route": "/pt-br/about/clients/",
     "title": "Quem Monique Fernandes ajuda",
-    "wordCount": 930
+    "wordCount": 929
   },
   {
     "route": "/pt-br/about/ethics/",
@@ -42,7 +42,7 @@
   {
     "route": "/pt-br/about/profile/",
     "title": "Perfil",
-    "wordCount": 801
+    "wordCount": 803
   },
   {
     "route": "/pt-br/about/results/",
@@ -52,12 +52,12 @@
   {
     "route": "/pt-br/about/stories/",
     "title": "Histórias",
-    "wordCount": 943
+    "wordCount": 942
   },
   {
     "route": "/pt-br/about/story/",
     "title": "História",
-    "wordCount": 761
+    "wordCount": 759
   },
   {
     "route": "/pt-br/about/testimonials/",
@@ -77,12 +77,12 @@
   {
     "route": "/pt-br/brazil/",
     "title": "Hub Brasil",
-    "wordCount": 1230
+    "wordCount": 1229
   },
   {
     "route": "/pt-br/brazil/brazil/",
     "title": "Brasil",
-    "wordCount": 2180
+    "wordCount": 2178
   },
   {
     "route": "/pt-br/brazil/central-west/",
@@ -92,77 +92,77 @@
   {
     "route": "/pt-br/brazil/cities/",
     "title": "Cidades",
-    "wordCount": 2297
+    "wordCount": 2295
   },
   {
     "route": "/pt-br/brazil/cost/",
     "title": "Custo",
-    "wordCount": 2404
+    "wordCount": 2401
   },
   {
     "route": "/pt-br/brazil/cuisine/",
     "title": "Cozinha",
-    "wordCount": 2148
+    "wordCount": 2143
   },
   {
     "route": "/pt-br/brazil/culture/",
     "title": "Cultura",
-    "wordCount": 2078
+    "wordCount": 2072
   },
   {
     "route": "/pt-br/brazil/directory/",
     "title": "Diretório",
-    "wordCount": 2067
+    "wordCount": 2068
   },
   {
     "route": "/pt-br/brazil/economy/",
     "title": "Economia",
-    "wordCount": 2256
+    "wordCount": 2257
   },
   {
     "route": "/pt-br/brazil/education/",
     "title": "Educação",
-    "wordCount": 2222
+    "wordCount": 2223
   },
   {
     "route": "/pt-br/brazil/events/",
     "title": "Eventos",
-    "wordCount": 2144
+    "wordCount": 2142
   },
   {
     "route": "/pt-br/brazil/faqs/",
     "title": "Perguntas frequentes",
-    "wordCount": 2108
+    "wordCount": 2106
   },
   {
     "route": "/pt-br/brazil/festivals/",
     "title": "Festivais",
-    "wordCount": 2166
+    "wordCount": 2164
   },
   {
     "route": "/pt-br/brazil/guides/",
     "title": "Guias",
-    "wordCount": 2125
+    "wordCount": 2123
   },
   {
     "route": "/pt-br/brazil/healthcare/",
     "title": "Saúde",
-    "wordCount": 2337
+    "wordCount": 2332
   },
   {
     "route": "/pt-br/brazil/housing/",
     "title": "Habitação",
-    "wordCount": 2316
+    "wordCount": 2314
   },
   {
     "route": "/pt-br/brazil/investment/",
     "title": "Investimento",
-    "wordCount": 2112
+    "wordCount": 2113
   },
   {
     "route": "/pt-br/brazil/living/",
     "title": "Vivendo",
-    "wordCount": 2291
+    "wordCount": 2277
   },
   {
     "route": "/pt-br/brazil/municipalities/",
@@ -177,27 +177,27 @@
   {
     "route": "/pt-br/brazil/northeast/",
     "title": "Nordeste",
-    "wordCount": 2123
+    "wordCount": 2126
   },
   {
     "route": "/pt-br/brazil/places/",
     "title": "Lugares",
-    "wordCount": 1176
+    "wordCount": 1181
   },
   {
     "route": "/pt-br/brazil/quality/",
     "title": "Qualidade",
-    "wordCount": 2277
+    "wordCount": 2269
   },
   {
     "route": "/pt-br/brazil/safety/",
     "title": "Segurança",
-    "wordCount": 2289
+    "wordCount": 2284
   },
   {
     "route": "/pt-br/brazil/search/",
     "title": "Busca",
-    "wordCount": 2079
+    "wordCount": 2080
   },
   {
     "route": "/pt-br/brazil/south/",
@@ -212,177 +212,182 @@
   {
     "route": "/pt-br/brazil/states/",
     "title": "Estados",
-    "wordCount": 2240
+    "wordCount": 2238
+  },
+  {
+    "route": "/pt-br/client-feedback/",
+    "title": "Feedback do cliente",
+    "wordCount": 858
   },
   {
     "route": "/pt-br/countries/",
     "title": "Planejamento de imigração específico do país para mudança para o Brasil",
-    "wordCount": 4240
+    "wordCount": 4241
   },
   {
     "route": "/pt-br/countries/afghanistan/",
     "title": "Mudando para o Brasil do Afeganistão",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/albania/",
     "title": "Mudança para o Brasil da Albânia",
-    "wordCount": 1077
+    "wordCount": 1079
   },
   {
     "route": "/pt-br/countries/algeria/",
     "title": "Mudança para o Brasil da Argélia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/andorra/",
     "title": "Mudança para o Brasil de Andorra",
-    "wordCount": 1073
+    "wordCount": 1078
   },
   {
     "route": "/pt-br/countries/angola/",
     "title": "Mudança para o Brasil de Angola",
-    "wordCount": 1069
+    "wordCount": 1070
   },
   {
     "route": "/pt-br/countries/antigua-and-barbuda/",
     "title": "Mudança para o Brasil de Antígua e Barbuda",
-    "wordCount": 1095
+    "wordCount": 1097
   },
   {
     "route": "/pt-br/countries/argentina/",
     "title": "Mudança para o Brasil da Argentina",
-    "wordCount": 1067
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/armenia/",
     "title": "Mudança para o Brasil da Armênia",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/australia/",
-    "title": "Mudança para o Brasil da Austrália",
-    "wordCount": 1073
+    "title": "Mudando para o Brasil da Austrália",
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/austria/",
     "title": "Mudança para o Brasil da Áustria",
-    "wordCount": 1072
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/azerbaijan/",
     "title": "Mudança para o Brasil do Azerbaijão",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/bahamas/",
     "title": "Mudança para o Brasil das Bahamas",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/bahrain/",
     "title": "Mudança para o Brasil do Bahrein",
-    "wordCount": 1069
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/bangladesh/",
     "title": "Mudança para o Brasil de Bangladesh",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/barbados/",
     "title": "Mudança para o Brasil de Barbados",
-    "wordCount": 1071
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/belarus/",
     "title": "Mudança para o Brasil da Bielo-Rússia",
-    "wordCount": 1073
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/belgium/",
     "title": "Mudança para o Brasil da Bélgica",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/belize/",
     "title": "Mudança para o Brasil de Belize",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/benin/",
     "title": "Mudança para o Brasil do Benin",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/bhutan/",
     "title": "Mudança para o Brasil do Butão",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/bolivia/",
     "title": "Mudança para o Brasil da Bolívia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/bosnia-and-herzegovina/",
     "title": "Mudança para o Brasil da Bósnia e Herzegovina",
-    "wordCount": 1100
+    "wordCount": 1102
   },
   {
     "route": "/pt-br/countries/botswana/",
     "title": "Mudança para o Brasil do Botswana",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/brazil/",
     "title": "Movendo para o Brasil do Brasil",
-    "wordCount": 1070
+    "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/brunei/",
     "title": "Mudança para o Brasil de Brunei",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/bulgaria/",
     "title": "Mudança para o Brasil da Bulgária",
-    "wordCount": 1074
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/burkina-faso/",
     "title": "Mudança para o Brasil de Burkina Faso",
-    "wordCount": 1091
+    "wordCount": 1090
   },
   {
     "route": "/pt-br/countries/burundi/",
     "title": "Mudança para o Brasil do Burundi",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/cabo-verde/",
     "title": "Mudança para o Brasil de Cabo Verde",
-    "wordCount": 1082
+    "wordCount": 1084
   },
   {
     "route": "/pt-br/countries/cambodia/",
     "title": "Mudança para o Brasil do Camboja",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/cameroon/",
     "title": "Mudança para o Brasil dos Camarões",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/canada/",
     "title": "Mudando para o Brasil do Canadá",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/central-african-republic/",
     "title": "Mudança para o Brasil da República Centro-Africana",
-    "wordCount": 1088
+    "wordCount": 1087
   },
   {
     "route": "/pt-br/countries/chad/",
@@ -392,137 +397,137 @@
   {
     "route": "/pt-br/countries/chile/",
     "title": "Mudança para o Brasil do Chile",
-    "wordCount": 1074
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/china/",
     "title": "Mudando para o Brasil da China",
-    "wordCount": 1073
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/colombia/",
     "title": "Mudança para o Brasil da Colômbia",
-    "wordCount": 1072
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/comoros/",
     "title": "Mudança para o Brasil de Comores",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/congo-democratic-republic-of-the-congo/",
     "title": "Mudança para o Brasil do Congo (República Democrática do Congo)",
-    "wordCount": 1128
+    "wordCount": 1129
   },
   {
     "route": "/pt-br/countries/congo-republic-of-the-congo/",
     "title": "Mudança para o Brasil do Congo (República do Congo)",
-    "wordCount": 1112
+    "wordCount": 1114
   },
   {
     "route": "/pt-br/countries/costa-rica/",
     "title": "Mudança para o Brasil da Costa Rica",
-    "wordCount": 1085
+    "wordCount": 1087
   },
   {
     "route": "/pt-br/countries/croatia/",
     "title": "Mudança para o Brasil da Croácia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/cuba/",
     "title": "Mudança para o Brasil de Cuba",
-    "wordCount": 1073
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/cyprus/",
     "title": "Mudança para o Brasil de Chipre",
-    "wordCount": 1075
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/czechia/",
     "title": "Mudança para o Brasil da República Tcheca",
-    "wordCount": 1088
+    "wordCount": 1090
   },
   {
     "route": "/pt-br/countries/denmark/",
     "title": "Mudança para o Brasil da Dinamarca",
-    "wordCount": 1075
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/djibouti/",
     "title": "Mudança para o Brasil do Djibuti",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/dominica/",
     "title": "Mudança para o Brasil da Dominica",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/dominican-republic/",
     "title": "Mudança para o Brasil da República Dominicana",
-    "wordCount": 1084
+    "wordCount": 1086
   },
   {
     "route": "/pt-br/countries/ecuador/",
     "title": "Mudança para o Brasil do Equador",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/egypt/",
     "title": "Mudança para o Brasil do Egito",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/el-salvador/",
     "title": "Mudança para o Brasil de El Salvador",
-    "wordCount": 1084
+    "wordCount": 1086
   },
   {
     "route": "/pt-br/countries/equatorial-guinea/",
     "title": "Mudança para o Brasil da Guiné Equatorial",
-    "wordCount": 1085
+    "wordCount": 1089
   },
   {
     "route": "/pt-br/countries/eritrea/",
     "title": "Mudança para o Brasil da Eritreia",
-    "wordCount": 1075
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/estonia/",
     "title": "Mudança para o Brasil da Estônia",
-    "wordCount": 1076
+    "wordCount": 1078
   },
   {
     "route": "/pt-br/countries/eswatini/",
     "title": "Mudança para o Brasil de Eswatini",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/ethiopia/",
     "title": "Mudança para o Brasil da Etiópia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/fiji/",
     "title": "Mudança para o Brasil de Fiji",
-    "wordCount": 1073
-  },
-  {
-    "route": "/pt-br/countries/finland/",
-    "title": "Mudança para o Brasil da Finlândia",
     "wordCount": 1075
   },
   {
+    "route": "/pt-br/countries/finland/",
+    "title": "Mudando para o Brasil da Finlândia",
+    "wordCount": 1077
+  },
+  {
     "route": "/pt-br/countries/france/",
-    "title": "Mudança para o Brasil da França",
-    "wordCount": 1071
+    "title": "Mudando para o Brasil da França",
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/gabon/",
     "title": "Mudança para o Brasil do Gabão",
-    "wordCount": 1071
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/gambia/",
@@ -532,22 +537,22 @@
   {
     "route": "/pt-br/countries/georgia/",
     "title": "Mudança para o Brasil da Geórgia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/germany/",
-    "title": "Mudança para o Brasil da Alemanha",
-    "wordCount": 1072
+    "title": "Mudando para o Brasil da Alemanha",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/ghana/",
     "title": "Mudança para o Brasil de Gana",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/greece/",
     "title": "Mudança para o Brasil da Grécia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/grenada/",
@@ -557,97 +562,97 @@
   {
     "route": "/pt-br/countries/guatemala/",
     "title": "Mudança para o Brasil da Guatemala",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/guinea-bissau/",
     "title": "Mudança para o Brasil da Guiné-Bissau",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/guinea/",
     "title": "Mudança para o Brasil da Guiné",
-    "wordCount": 1071
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/guyana/",
     "title": "Mudança para o Brasil da Guiana",
-    "wordCount": 1072
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/haiti/",
     "title": "Mudança para o Brasil do Haiti",
-    "wordCount": 1075
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/honduras/",
     "title": "Mudança para o Brasil de Honduras",
-    "wordCount": 1070
+    "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/hungary/",
-    "title": "Mudança para o Brasil da Hungria",
-    "wordCount": 1074
+    "title": "Mudando para o Brasil da Hungria",
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/iceland/",
     "title": "Mudança para o Brasil da Islândia",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/india/",
     "title": "Mudando para o Brasil da Índia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/indonesia/",
     "title": "Mudança para o Brasil da Indonésia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/iran/",
     "title": "Mudança para o Brasil do Irã",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/iraq/",
     "title": "Mudança para o Brasil do Iraque",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/ireland/",
     "title": "Mudança para o Brasil da Irlanda",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/israel/",
     "title": "Mudança para o Brasil de Israel",
-    "wordCount": 1073
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/italy/",
-    "title": "Mudança para o Brasil da Itália",
-    "wordCount": 1070
+    "title": "Mudando para o Brasil da Itália",
+    "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/jamaica/",
     "title": "Mudança para o Brasil da Jamaica",
-    "wordCount": 1072
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/japan/",
     "title": "Mudando para o Brasil do Japão",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/jordan/",
     "title": "Mudança para o Brasil da Jordânia",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/kazakhstan/",
     "title": "Mudança para o Brasil do Cazaquistão",
-    "wordCount": 1075
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/kenya/",
@@ -657,97 +662,97 @@
   {
     "route": "/pt-br/countries/kiribati/",
     "title": "Mudança para o Brasil de Kiribati",
-    "wordCount": 1072
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/kuwait/",
     "title": "Mudança para o Brasil do Kuwait",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/kyrgyzstan/",
     "title": "Mudança para o Brasil do Quirguistão",
-    "wordCount": 1078
+    "wordCount": 1080
   },
   {
     "route": "/pt-br/countries/laos/",
-    "title": "Mudança para o Brasil do Laos",
-    "wordCount": 1071
+    "title": "Mudando para o Brasil do Laos",
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/latvia/",
     "title": "Mudança para o Brasil da Letônia",
-    "wordCount": 1076
+    "wordCount": 1078
   },
   {
     "route": "/pt-br/countries/lebanon/",
     "title": "Mudança para o Brasil do Líbano",
-    "wordCount": 1071
+    "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/lesotho/",
     "title": "Mudança para o Brasil do Lesoto",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/liberia/",
     "title": "Mudança para o Brasil da Libéria",
-    "wordCount": 1077
+    "wordCount": 1079
   },
   {
     "route": "/pt-br/countries/libya/",
     "title": "Mudança para o Brasil da Líbia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/liechtenstein/",
     "title": "Mudança para o Brasil de Liechtenstein",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/lithuania/",
     "title": "Mudança para o Brasil da Lituânia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/luxembourg/",
     "title": "Mudança para o Brasil de Luxemburgo",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/madagascar/",
     "title": "Mudança para o Brasil de Madagascar",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/malawi/",
     "title": "Mudança para o Brasil do Malawi",
-    "wordCount": 1074
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/malaysia/",
-    "title": "Mudança para o Brasil da Malásia",
-    "wordCount": 1072
+    "title": "Mudando para o Brasil da Malásia",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/maldives/",
     "title": "Mudança para o Brasil das Maldivas",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/mali/",
     "title": "Mudança para o Brasil do Mali",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/malta/",
     "title": "Mudança para o Brasil de Malta",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/marshall-islands/",
     "title": "Mudança para o Brasil das Ilhas Marshall",
-    "wordCount": 1083
+    "wordCount": 1085
   },
   {
     "route": "/pt-br/countries/mauritania/",
@@ -757,37 +762,37 @@
   {
     "route": "/pt-br/countries/mauritius/",
     "title": "Mudança para o Brasil das Maurícias",
-    "wordCount": 1074
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/mexico/",
     "title": "Mudança para o Brasil do México",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/micronesia/",
     "title": "Mudança para o Brasil da Micronésia",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/moldova/",
     "title": "Mudança para o Brasil da Moldávia",
-    "wordCount": 1077
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/monaco/",
     "title": "Mudança para o Brasil de Mônaco",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/mongolia/",
     "title": "Mudança para o Brasil da Mongólia",
-    "wordCount": 1072
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/montenegro/",
     "title": "Mudança para o Brasil de Montenegro",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/morocco/",
@@ -797,157 +802,157 @@
   {
     "route": "/pt-br/countries/mozambique/",
     "title": "Mudança para o Brasil de Moçambique",
-    "wordCount": 1068
+    "wordCount": 1070
   },
   {
     "route": "/pt-br/countries/myanmar/",
     "title": "Mudança para o Brasil de Mianmar",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/namibia/",
     "title": "Mudança para o Brasil da Namíbia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/nauru/",
     "title": "Mudança para o Brasil de Nauru",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/nepal/",
     "title": "Mudança para o Brasil do Nepal",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/netherlands/",
-    "title": "Mudança para o Brasil da Holanda",
-    "wordCount": 1070
+    "title": "Mudando para o Brasil da Holanda",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/new-zealand/",
-    "title": "Mudança para o Brasil da Nova Zelândia",
-    "wordCount": 1085
+    "title": "Mudando para o Brasil da Nova Zelândia",
+    "wordCount": 1087
   },
   {
     "route": "/pt-br/countries/nicaragua/",
     "title": "Mudança para o Brasil da Nicarágua",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/niger/",
     "title": "Mudança para o Brasil do Níger",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/nigeria/",
-    "title": "Mudança para o Brasil da Nigéria",
-    "wordCount": 1072
+    "title": "Mudando para o Brasil da Nigéria",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/north-korea/",
     "title": "Mudança para o Brasil da Coreia do Norte",
-    "wordCount": 1098
+    "wordCount": 1100
   },
   {
     "route": "/pt-br/countries/north-macedonia/",
     "title": "Mudança para o Brasil da Macedônia do Norte",
-    "wordCount": 1100
+    "wordCount": 1102
   },
   {
     "route": "/pt-br/countries/norway/",
     "title": "Mudança para o Brasil da Noruega",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/oman/",
     "title": "Mudança para o Brasil de Omã",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/pakistan/",
-    "title": "Mudança para o Brasil do Paquistão",
-    "wordCount": 1072
+    "title": "Mudando para o Brasil do Paquistão",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/palau/",
     "title": "Mudança para o Brasil de Palau",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/palestine/",
     "title": "Mudança para o Brasil da Palestina",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/panama/",
     "title": "Mudança para o Brasil do Panamá",
-    "wordCount": 1069
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/papua-new-guinea/",
     "title": "Mudança para o Brasil de Papua Nova Guiné",
-    "wordCount": 1097
+    "wordCount": 1099
   },
   {
     "route": "/pt-br/countries/paraguay/",
     "title": "Mudança para o Brasil do Paraguai",
-    "wordCount": 1074
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/peru/",
     "title": "Mudança para o Brasil do Peru",
-    "wordCount": 1070
+    "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/philippines/",
     "title": "Mudança para o Brasil das Filipinas",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/poland/",
     "title": "Mudança para o Brasil da Polônia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/portugal/",
     "title": "Mudança para o Brasil de Portugal",
-    "wordCount": 1067
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/qatar/",
     "title": "Mudança para o Brasil do Catar",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/romania/",
     "title": "Mudança para o Brasil da Romênia",
-    "wordCount": 1074
+    "wordCount": 1077
   },
   {
     "route": "/pt-br/countries/russia/",
-    "title": "Mudança para o Brasil da Rússia",
-    "wordCount": 1074
+    "title": "Mudando para o Brasil da Rússia",
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/rwanda/",
     "title": "Mudança para o Brasil de Ruanda",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/saint-kitts-and-nevis/",
     "title": "Mudança para o Brasil de São Cristóvão e Nevis",
-    "wordCount": 1110
+    "wordCount": 1112
   },
   {
     "route": "/pt-br/countries/saint-lucia/",
     "title": "Mudança para o Brasil de Santa Lúcia",
-    "wordCount": 1084
+    "wordCount": 1086
   },
   {
     "route": "/pt-br/countries/saint-vincent-and-the-grenadines/",
     "title": "Mudança para o Brasil de São Vicente e Granadinas",
-    "wordCount": 1110
+    "wordCount": 1112
   },
   {
     "route": "/pt-br/countries/samoa/",
@@ -957,137 +962,137 @@
   {
     "route": "/pt-br/countries/san-marino/",
     "title": "Mudança para o Brasil de San Marino",
-    "wordCount": 1082
+    "wordCount": 1086
   },
   {
     "route": "/pt-br/countries/sao-tome-and-principe/",
     "title": "Mudança para o Brasil de São Tomé e Príncipe",
-    "wordCount": 1116
+    "wordCount": 1114
   },
   {
     "route": "/pt-br/countries/saudi-arabia/",
     "title": "Mudança para o Brasil da Arábia Saudita",
-    "wordCount": 1086
+    "wordCount": 1090
   },
   {
     "route": "/pt-br/countries/senegal/",
     "title": "Mudança para o Brasil do Senegal",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/serbia/",
     "title": "Mudança para o Brasil da Sérvia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/seychelles/",
     "title": "Mudança para o Brasil das Seychelles",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/sierra-leone/",
     "title": "Mudança para o Brasil de Serra Leoa",
-    "wordCount": 1086
+    "wordCount": 1088
   },
   {
     "route": "/pt-br/countries/singapore/",
     "title": "Mudança para o Brasil de Cingapura",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/slovakia/",
     "title": "Mudança para o Brasil da Eslováquia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/slovenia/",
     "title": "Mudança para o Brasil da Eslovênia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/solomon-islands/",
     "title": "Mudança para o Brasil das Ilhas Salomão",
-    "wordCount": 1083
+    "wordCount": 1085
   },
   {
     "route": "/pt-br/countries/somalia/",
     "title": "Mudança para o Brasil da Somália",
-    "wordCount": 1074
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/south-africa/",
     "title": "Mudança para o Brasil da África do Sul",
-    "wordCount": 1100
+    "wordCount": 1102
   },
   {
     "route": "/pt-br/countries/south-korea/",
     "title": "Mudança para o Brasil da Coreia do Sul",
-    "wordCount": 1098
+    "wordCount": 1100
   },
   {
     "route": "/pt-br/countries/south-sudan/",
     "title": "Mudança para o Brasil do Sudão do Sul",
-    "wordCount": 1100
+    "wordCount": 1102
   },
   {
     "route": "/pt-br/countries/spain/",
-    "title": "Mudança para o Brasil da Espanha",
+    "title": "Mudando para o Brasil da Espanha",
     "wordCount": 1072
   },
   {
     "route": "/pt-br/countries/sri-lanka/",
     "title": "Mudança para o Brasil do Sri Lanka",
-    "wordCount": 1084
+    "wordCount": 1086
   },
   {
     "route": "/pt-br/countries/sudan/",
     "title": "Mudança para o Brasil do Sudão",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/suriname/",
     "title": "Mudança para o Brasil do Suriname",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/sweden/",
     "title": "Mudança para o Brasil da Suécia",
-    "wordCount": 1075
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/switzerland/",
     "title": "Mudança para o Brasil da Suíça",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/syria/",
     "title": "Mudança para o Brasil da Síria",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/tajikistan/",
     "title": "Mudança para o Brasil do Tajiquistão",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/tanzania/",
     "title": "Mudança para o Brasil da Tanzânia",
-    "wordCount": 1075
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/thailand/",
-    "title": "Mudança para o Brasil da Tailândia",
-    "wordCount": 1074
+    "title": "Mudando para o Brasil da Tailândia",
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/timor-leste/",
     "title": "Mudança para o Brasil de Timor-Leste",
-    "wordCount": 1073
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/togo/",
     "title": "Mudança para o Brasil do Togo",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/tonga/",
@@ -1097,52 +1102,52 @@
   {
     "route": "/pt-br/countries/trinidad-and-tobago/",
     "title": "Mudança para o Brasil de Trinidad e Tobago",
-    "wordCount": 1098
+    "wordCount": 1100
   },
   {
     "route": "/pt-br/countries/tunisia/",
     "title": "Mudança para o Brasil da Tunísia",
-    "wordCount": 1072
+    "wordCount": 1075
   },
   {
     "route": "/pt-br/countries/turkey/",
     "title": "Mudança para o Brasil da Turquia",
-    "wordCount": 1072
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/turkmenistan/",
     "title": "Mudança para o Brasil do Turcomenistão",
-    "wordCount": 1077
+    "wordCount": 1079
   },
   {
     "route": "/pt-br/countries/tuvalu/",
     "title": "Mudança para o Brasil de Tuvalu",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/uganda/",
     "title": "Mudança para o Brasil de Uganda",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/ukraine/",
-    "title": "Mudança para o Brasil da Ucrânia",
-    "wordCount": 1072
+    "title": "Mudando para o Brasil da Ucrânia",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/united-arab-emirates/",
     "title": "Mudança para o Brasil dos Emirados Árabes Unidos",
-    "wordCount": 1095
+    "wordCount": 1097
   },
   {
     "route": "/pt-br/countries/united-kingdom/",
     "title": "Mudança para o Brasil do Reino Unido",
-    "wordCount": 1085
+    "wordCount": 1087
   },
   {
     "route": "/pt-br/countries/united-states/",
     "title": "Mudando para o Brasil dos Estados Unidos",
-    "wordCount": 1086
+    "wordCount": 1088
   },
   {
     "route": "/pt-br/countries/uruguay/",
@@ -1152,57 +1157,57 @@
   {
     "route": "/pt-br/countries/uzbekistan/",
     "title": "Mudança para o Brasil do Uzbequistão",
-    "wordCount": 1070
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/vanuatu/",
     "title": "Mudança para o Brasil de Vanuatu",
-    "wordCount": 1069
+    "wordCount": 1071
   },
   {
     "route": "/pt-br/countries/vatican-city/",
     "title": "Mudança para o Brasil da Cidade do Vaticano",
-    "wordCount": 1096
+    "wordCount": 1103
   },
   {
     "route": "/pt-br/countries/venezuela/",
-    "title": "Mudança para o Brasil da Venezuela",
-    "wordCount": 1071
+    "title": "Mudando para o Brasil da Venezuela",
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/countries/vietnam/",
-    "title": "Mudança para o Brasil do Vietnã",
-    "wordCount": 1070
+    "title": "Mudando para o Brasil do Vietnã",
+    "wordCount": 1074
   },
   {
     "route": "/pt-br/countries/yemen/",
     "title": "Mudança para o Brasil do Iêmen",
-    "wordCount": 1075
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/zambia/",
     "title": "Mudança para o Brasil da Zâmbia",
-    "wordCount": 1074
+    "wordCount": 1076
   },
   {
     "route": "/pt-br/countries/zimbabwe/",
     "title": "Mudança para o Brasil do Zimbábue",
-    "wordCount": 1071
+    "wordCount": 1073
   },
   {
     "route": "/pt-br/insights/",
     "title": "Insights",
-    "wordCount": 1204
+    "wordCount": 1208
   },
   {
     "route": "/pt-br/insights/blog/",
     "title": "Blog",
-    "wordCount": 1333
+    "wordCount": 1335
   },
   {
     "route": "/pt-br/insights/fyi/",
     "title": "Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil",
-    "wordCount": 2027
+    "wordCount": 2019
   },
   {
     "route": "/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/",
@@ -1257,7 +1262,7 @@
   {
     "route": "/pt-br/insights/fyi/brazil-makes-the-top-10/",
     "title": "Brasil está entre os 10 primeiros!",
-    "wordCount": 405
+    "wordCount": 404
   },
   {
     "route": "/pt-br/insights/fyi/brazil-s-carnival-holiday-carnival-in-brazil-is-a-vibrant-festival-that/",
@@ -1396,7 +1401,7 @@
   },
   {
     "route": "/pt-br/insights/fyi/when-that-traveler-from-a-cold-country-comes-to-brazil-and-feels-amazed-with-the/",
-    "title": "Quando aquele viajante de um país frio chega a Brasil e se surpreende com o...",
+    "title": "Quando aquele viajante de um país frio chega a Brasil e fica surpreso com o...",
     "wordCount": 349
   },
   {
@@ -1407,7 +1412,7 @@
   {
     "route": "/pt-br/insights/general/",
     "title": "Geral",
-    "wordCount": 2049
+    "wordCount": 2053
   },
   {
     "route": "/pt-br/insights/guides/",
@@ -1417,12 +1422,12 @@
   {
     "route": "/pt-br/insights/guides/are-you-a-tourist-in-brazil-and-want-to-live-here/",
     "title": "Você é turista no Brasil e quer morar aqui?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/are-you-dreaming-of-getting-a-green-card-but-worried-about-the-sponsor/",
     "title": "Você sonha em obter um Green Card, mas está preocupado com a exigência de patrocínio?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/can-football-fans-sing-homophobic-chants/",
@@ -1432,7 +1437,7 @@
   {
     "route": "/pt-br/insights/guides/can-i-bring-my-familia-family-to-brazil-if-i-have-a-work-visa/",
     "title": "Posso trazer minha família para o Brasil se tiver visto de trabalho?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/did-the-bank-lower-your-credit-limit-or-cancel-your-account-suddenly/",
@@ -1442,17 +1447,17 @@
   {
     "route": "/pt-br/insights/guides/did-you-know-that-anyone-who-buys-their-first-residential-property-fin/",
     "title": "Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl-2/",
     "title": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? (2)",
-    "wordCount": 429
+    "wordCount": 431
   },
   {
     "route": "/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/",
     "title": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?",
-    "wordCount": 430
+    "wordCount": 432
   },
   {
     "route": "/pt-br/insights/guides/do-i-need-to-get-my-diploma-from-my-home-country-validated-in-brazil/",
@@ -1462,12 +1467,12 @@
   {
     "route": "/pt-br/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/",
     "title": "Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/",
     "title": "Quer morar no Brasil e investir de forma inteligente?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/have-you-ever-wondered-what-happens-if-a-child-support-decision-for-a/",
@@ -1482,7 +1487,7 @@
   {
     "route": "/pt-br/insights/guides/how-can-i-keep-in-touch-with-my-child-in-brazil-if-i-dont-live-there/",
     "title": "Como posso manter contato com meu filho no Brasil se não moro lá?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/how-can-i-keep-in-touch-with-my-child-located-in-brazil-if-i-don-t-liv/",
@@ -1492,7 +1497,7 @@
   {
     "route": "/pt-br/insights/guides/how-long-does-it-take-to-get-brazilian-passport/",
     "title": "Quanto tempo leva para obter o passaporte brasileiro?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/how-long-does-it-take-to-obtain-brazilian-citizenship/",
@@ -1502,17 +1507,17 @@
   {
     "route": "/pt-br/insights/guides/how-to-schedule-an-immigration-interview-for-residency-with-the-federa/",
     "title": "Como agendar entrevista de imigração para residência na Polícia Federal?",
-    "wordCount": 418
+    "wordCount": 422
   },
   {
     "route": "/pt-br/insights/guides/if-a-foreigner-has-a-child-in-brazil-does-he-have-the-automatic-right/",
-    "title": "Se um estrangeiro tiver filho no Brasil, ele tem direito automático a brasileira",
-    "wordCount": 429
+    "title": "Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil",
+    "wordCount": 431
   },
   {
     "route": "/pt-br/insights/guides/immigration-x-emigration-do-you-know-the-difference/",
     "title": "Imigração x Emigração: você sabe a diferença?",
-    "wordCount": 439
+    "wordCount": 441
   },
   {
     "route": "/pt-br/insights/guides/is-a-marriage-celebrated-abroad-valid-in-brazil/",
@@ -1527,17 +1532,17 @@
   {
     "route": "/pt-br/insights/guides/is-it-true-that-there-were-changes-to-obtaining-an-american-visa/",
     "title": "É verdade que houve mudanças na obtenção do visto americano?",
-    "wordCount": 428
+    "wordCount": 434
   },
   {
     "route": "/pt-br/insights/guides/living-in-brazil-and-had-an-issue-with-a-product-or-service/",
     "title": "Mora no Brasil e teve problemas com um produto ou serviço?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/the-visa-has-expired-will-i-have-to-pay-a-fine/",
     "title": "O visto expirou, terei que pagar multa?",
-    "wordCount": 428
+    "wordCount": 434
   },
   {
     "route": "/pt-br/insights/guides/this-way-in-the-event-of-an-end-to-the-relationship-they-will-have-to/",
@@ -1547,17 +1552,17 @@
   {
     "route": "/pt-br/insights/guides/tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis/",
     "title": "Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/want-to-live-in-brazil-while-investing-in-the-countrys-growth/",
     "title": "Quer morar no Brasil enquanto investe no crescimento do país?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/want-to-turn-your-investment-into-residency-in-brazil/",
     "title": "Quer transformar seu investimento em residência no Brasil?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/what-happens-during-an-immigration-consultation/",
@@ -1566,13 +1571,13 @@
   },
   {
     "route": "/pt-br/insights/guides/what-rights-do-immigrants-have-in-brazil/",
-    "title": "Quais são os direitos dos imigrantes no Brasil?",
+    "title": "Quais direitos os imigrantes têm no Brasil?",
     "wordCount": 301
   },
   {
     "route": "/pt-br/insights/guides/what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency/",
     "title": "O que fazer depois de chegar no Brasil com visto que permite residência?",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s/",
@@ -1587,12 +1592,12 @@
   {
     "route": "/pt-br/insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-intends-to/",
     "title": "Quando uma pessoa estrangeira está noiva de um cidadão brasileiro e pretende casar-se em",
-    "wordCount": 430
+    "wordCount": 432
   },
   {
     "route": "/pt-br/insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-plans-to-g/",
     "title": "Quando uma pessoa estrangeira está noiva de um cidadão brasileiro e planeja se casar em",
-    "wordCount": 430
+    "wordCount": 432
   },
   {
     "route": "/pt-br/insights/guides/when-a-person-from-abroad-arrives-in-brazil-this-person-has-the-right/",
@@ -1602,17 +1607,17 @@
   {
     "route": "/pt-br/insights/guides/when-a-person-stays-in-the-united-states-beyond-the-time-allowed-as-a/",
     "title": "Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/when-a-temporary-brazilian-visa-is-nearing-its-expiry-it-is-necessary/",
     "title": "Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/when-a-us-visa-is-denied-the-consulate-does-not-provide-specific-detai/",
     "title": "Quando um visto dos EUA é negado, o consulado não fornece detalhes específicos sobre o",
-    "wordCount": 419
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/guides/when-exchanging-money-during-international-travel-it-is-essential-to-b/",
@@ -1627,7 +1632,7 @@
   {
     "route": "/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/",
     "title": "Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento",
-    "wordCount": 427
+    "wordCount": 431
   },
   {
     "route": "/pt-br/insights/guides/when-requested-the-resident-immigrant-card-may-take-60-to-90-days-to-b/",
@@ -1637,7 +1642,7 @@
   {
     "route": "/pt-br/insights/guides/when-the-temporary-visa-granted-is-close-to-expiry-it-is-necessary-to/",
     "title": "Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação",
-    "wordCount": 429
+    "wordCount": 431
   },
   {
     "route": "/pt-br/insights/naturalisation/",
@@ -1647,697 +1652,697 @@
   {
     "route": "/pt-br/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/",
     "title": "Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/a-recent-case-in-brazil-where-a-tourist-was-fined-the-equivalent-of-ne/",
     "title": "Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/a-very-important-public-body-that-foreigners-should-know-about-when-li/",
     "title": "Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/after-an-application-for-naturalization-was-denied-through-the-adminis/",
     "title": "Após o pedido de naturalização ter sido negado através de processo administrativo,",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/after-the-naturalization-request-was-denied-administratively-an-action/",
     "title": "Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/aire-is-a-vital-and-mandatory-registration-for-italian-citizens-living/",
     "title": "AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/as-of-late-july-2024-the-ministry-of-justice-and-public-security-mjsp/",
     "title": "No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/at-the-beginning-of-the-search-and-with-little-information-identifying/",
     "title": "No início da busca e com poucas informações, identificando um ponto comum",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-grants-permanent-residence-to-foreigners-through-different-type/",
     "title": "Brasil concede residência permanente a estrangeiros através de diversos tipos de vistos e",
-    "wordCount": 422
+    "wordCount": 424
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-2/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo (2)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-3/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo (3)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process-4/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo (4)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-legal-guidance-eligibility-and-process/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-offers-a-special-form-of-naturalisation-for-foreigners-who-have/",
-    "title": "Brasil oferece forma especial de naturalização para estrangeiros que dedicaram",
-    "wordCount": 419
+    "title": "Brasil oferece uma forma especial de naturalização para estrangeiros que dedicaram",
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-offers-a-special-form-of-naturalization-for-those-who-have-prov/",
     "title": "Brasil oferece uma forma especial de naturalização para aqueles que forneceram informações relevantes",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-offers-a-specific-visa-and-residence-permit-for-artists-and-ath/",
     "title": "Brasil oferece visto e autorização de residência específicos para artistas e atletas que venham",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-offers-the-possibility-of-permanent-residence-for-foreign-famil/",
     "title": "Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-recognises-various-types-of-travel-documents-for-the-purposes-o/",
     "title": "Brasil reconhece vários tipos de documentos de viagem para efeitos de entrada, estadia,",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-recognizes-several-types-of-travel-documents-for-purposes-of-en/",
-    "title": "Brasil reconhece diversos tipos de documentos de viagem para fins de entrada, permanência ou",
-    "wordCount": 417
+    "title": "Brasil reconhece vários tipos de documentos de viagem para fins de entrada, estadia ou",
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/brazil-s-rise-in-global-mobility-rankings-and-the-usa-passport-drops-o/",
-    "title": "A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA saem do top 10",
-    "wordCount": 419
+    "title": "A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10",
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/brazilian-nationality-is-not-always-determined-automatically/",
     "title": "A nacionalidade brasileira nem sempre é determinada automaticamente",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-2/",
     "title": "Requisitos brasileiros legais de naturalização e etapas de arquivamento no Brasil (2)",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-3/",
     "title": "Requisitos brasileiros legais de naturalização e etapas de arquivamento no Brasil (3)",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil/",
     "title": "Requisitos brasileiros legais de naturalização e etapas de arquivamento no Brasil",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/brazilians-have-reported-problems-processing-expressions-of-interest-t/",
     "title": "brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas",
-    "wordCount": 423
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/companies-and-individuals-in-brazil-can-hire-foreigners-through-a-form/",
     "title": "Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/despite-the-international-names-these-delicacies-are-very-brazilian-or/",
     "title": "Apesar dos nomes internacionais, estas iguarias são muito brasileiro, ou, pelo menos",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/establishing-yourself-in-brazil-with-your-family-is-entirely-possible/",
     "title": "Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/etias-european-travel-information-and-authorization-system-will-be-a-r/",
     "title": "O ETIAS (Sistema Europeu de Informação e Autorização de Viagem) será um requisito para",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/firstly-it-is-essential-to-understand-that-both-brazil-and-the-united/",
     "title": "Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/for-those-who-have-fallen-in-love-with-brazil-and-wish-to-make-it-thei/",
     "title": "Para aqueles que se apaixonaram pelo Brasil e desejam fazer dele seu verdadeiro lar,",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
     "title": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas em",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/foreigners-must-prove-legal-residence-in-portugal-for-at-least-five-ye/",
     "title": "Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/foreigners-who-exceed-the-permitted-time-of-stay-in-brazil-either-by-e/",
     "title": "Os estrangeiros que ultrapassarem o tempo de permanência permitido no Brasil, seja por ultrapassar o",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/having-a-valid-american-visa-does-not-automatically-guarantee-entry-in/",
     "title": "Ter um visto americano válido não garante automaticamente a entrada no país,",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/i-am-a-regular-resident-but-i-am-outside-brazil/",
     "title": "Sou um residente regular, mas estou fora do Brasil",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/",
     "title": "Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/if-you-have-a-luxembourgish-parent-or-grandparent-you-also-would-not-n/",
     "title": "Se tiver pais ou avós luxemburgueses, também não precisará de ir a",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/",
     "title": "Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/in-brazil-deportation-is-an-administrative-measure-applied-to-people-w/",
     "title": "Em Brasil, a deportação é uma medida administrativa aplicada a pessoas que se encontram em situação de",
-    "wordCount": 414
+    "wordCount": 416
   },
   {
     "route": "/pt-br/insights/naturalisation/in-brazil-undergraduate-and-postgraduate-diplomas-obtained-abroad-must/",
     "title": "No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/in-other-words-even-if-the-birth-took-place-years-ago-registration-can/",
     "title": "Por outras palavras, mesmo que o nascimento tenha ocorrido há anos, o registro ainda pode ser",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/in-principle-yes-but-it-is-not-recommended/",
     "title": "Em princípio sim, mas não é recomendado",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/in-some-cases-there-is-the-possibility-for-the-great-grandchildren-of/",
     "title": "Em alguns casos, existe a possibilidade de os bisnetos de portugueses",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/in-the-context-of-relations-between-brazil-and-portugal-the-request-fo/",
     "title": "No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/in-the-event-of-deportation-it-is-essential-that-the-immigrant-is-awar/",
     "title": "Em caso de deportação, é fundamental que o imigrante esteja ciente de sua",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-of-the/",
     "title": "A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-parent/",
     "title": "A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/investing-in-brazil-with-an-investor-visa-offers-a-dynamic-blend-of-ec/",
     "title": "Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/it-is-an-important-date-to-reinforce-the-fight-against-all-forms-of-ra/",
     "title": "É uma data importante para reforçar o combate a todas as formas de racismo e",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/it-is-important-to-highlight-that-the-process-of-obtaining-luxembourg/",
     "title": "É importante destacar que o processo de obtenção da cidadania luxemburguesa pode",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/it-is-possible-for-a-brazilian-person-to-request-recognition-of-irish/",
     "title": "É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli-2/",
     "title": "É possível alguém visitar Brasil como turista e, ao se apaixonar por (2)",
-    "wordCount": 423
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli/",
     "title": "É possível alguém visitar Brasil como turista e, ao se apaixonar por",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/it-should-be-noted-that-no-one-will-be-prevented-from-entering-the-cou/",
     "title": "Deve-se notar que ninguém será impedido de entrar no país devido a",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/large-universities-outside-brazil-allow-admission-without-the-need-to/",
     "title": "Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-2/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (2)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-3/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (3)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-4/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (4)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-5/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-6/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (6)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-7/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (7)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-8/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento (8)",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/luso-brazilian-community-day-celebrates-the-strong-ties-between-portug/",
-    "title": "O Dia da Comunidade Luso-Brasilian celebra os fortes laços entre Portugal e Brasil",
-    "wordCount": 423
+    "title": "O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil",
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/military-enlistment-is-mandatory-for-brazilians-even-abroad-even-livin/",
     "title": "O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/my-immigrant-card-is-valid-until-2030-but-my-stable-union-is-over/",
     "title": "Meu cartão de imigrante é válido até 2030, mas minha união estável acabou",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/naturalized-brazilian-men-aged-between-18-and-45-must-enlist-in-the-mi/",
     "title": "Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/",
     "title": "20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/on-december-19-2023-the-french-senate-approved-a-controversial-immigra/",
     "title": "Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/on-teacher-s-day-celebrated-on-october-15th-we-honor-those-who-with-de/",
     "title": "No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/on-this-date-we-reinforce-our-commitment-to-valuing-and-protecting-eld/",
     "title": "Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/",
     "title": "Neste dia, expressamos gratidão a cada pessoa que confia em nosso trabalho jurídico",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/once-approved-this-process-grants-you-full-brazilian-citizenship-with/",
     "title": "Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/parents-of-minor-children-with-dual-nationality-can-and-should-maintai/",
     "title": "Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/people-living-in-brazil-can-apply-for-naturalisation-to-become-brazili/",
     "title": "Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat-2/",
     "title": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/",
     "title": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/pix-a-brazilian-instant-payment-system-is-expanding-internationally-th/",
     "title": "Pix, um sistema de pagamento instantâneo brasileiro, está se expandindo internacionalmente por meio de",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/portugal-recently-approved-a-set-of-changes-to-immigration-legislation/",
     "title": "Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece",
-    "wordCount": 423
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/pregnant-women-that-come-to-brazil-to-have-their-baby-can-apply-for-re/",
     "title": "Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/",
     "title": "O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/recently-the-united-states-lost-its-position-in-the-top-10-of-the-most/",
     "title": "Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/rectification-of-settlements-is-an-essential-procedure-in-citizenship/",
     "title": "A retificação de assentamentos é procedimento essencial nos processos de cidadania,",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/refugees-unlike-other-immigrants-are-those-who-suffer-compulsory-displ/",
     "title": "Os refugiados, ao contrário de outros imigrantes, são aqueles que sofrem deslocamentos compulsórios,",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/registering-a-childs-birth-at-a-brazilian-consular-office-abroad-is-no/",
     "title": "O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/relocating-to-brazil-with-your-family-is-certainly-possible-as-long-as/",
     "title": "Mudar-se para o Brasil com sua família é certamente possível, desde que o correto",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/searching-for-certificates-is-an-essential-step-in-the-citizenship-pro/",
     "title": "A busca por certidões é uma etapa essencial no processo de cidadania, e",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/seeking-legal-advice-from-an-immigration-lawyer-in-brazil-is-crucial-d/",
     "title": "Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/sporadic-trips-abroad-for-which-the-sum-of-periods-does-not-exceed-12/",
     "title": "Viagens esporádicas ao estrangeiro cuja soma dos períodos não exceda 12 meses, e",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/sporadic-trips-abroad-the-sum-of-which-does-not-exceed-12-months-durin/",
     "title": "Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/starting-september-2-2025-the-u-s-department-of-state-will-require-an/",
     "title": "A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial",
-    "wordCount": 415
+    "wordCount": 417
   },
   {
     "route": "/pt-br/insights/naturalisation/the-certificate-of-proficiency-in-portuguese-language-for-foreigners-c/",
     "title": "O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/the-chamber-of-deputies-has-just-approved-a-proposed-amendment-to-the/",
     "title": "A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/the-date-invites-reflection-on-one-of-the-darkest-pages-in-human-histo/",
     "title": "A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/the-deadline-to-begin-the-process-of-recognizing-spanish-citizenship-f/",
     "title": "O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/the-humanitarian-and-institutional-crisis-that-is-plaguing-venezuela-h/",
     "title": "A crise humanitária e institucional que assola a Venezuela fez com que o",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/",
     "title": "O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/the-mobility-agreement-between-cplp-member-states-communities-of-portu/",
     "title": "O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa",
-    "wordCount": 423
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/the-new-naturalization-law-in-germany-approved-by-the-bundestag-simpli/",
     "title": "A nova lei de naturalização na Alemanha, aprovada pelo Bundestag, simplifica o",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/the-new-visa-and-residence-permit-agreement-between-angola-brazil-cape/",
     "title": "O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,",
-    "wordCount": 423
+    "wordCount": 425
   },
   {
     "route": "/pt-br/insights/naturalisation/the-portuguese-language-plays-a-fundamental-role-in-brazil-s-culture-a/",
     "title": "A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/the-recently-announced-innovation-allows-brazilian-tourists-to-pay-for/",
     "title": "A inovação recentemente anunciada permite que turistas brasileiras paguem por suas compras",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/the-renewal-of-the-resident-card-in-brazil-may-be-prevented-in-some-sp/",
-    "title": "A renovação do cartão de residente no Brasil poderá ser impedida em alguns casos específicos",
-    "wordCount": 417
+    "title": "A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos",
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/the-voluntary-renunciation-of-brazilian-nationality-provided-for-in-th/",
-    "title": "A renúncia voluntária à nacionalidade brasileira, prevista no Brasilian",
-    "wordCount": 417
+    "title": "A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira",
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/this-is-an-important-opportunity-for-people-with-brazilian-ancestry-to/",
     "title": "Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com",
-    "wordCount": 416
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/to-do-this-it-is-possible-to-register-your-birth-at-any-time-at-a-braz/",
     "title": "Para isso, é possível registrar seu nascimento a qualquer momento em um brasileiro",
-    "wordCount": 416
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/to-formalise-this-status-their-birth-can-be-registered-at-any-time-at/",
-    "title": "Para formalizar esse status, seu nascimento pode ser registrado a qualquer momento no Brasilian",
-    "wordCount": 419
+    "title": "Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro",
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/to-obtain-brazilian-citizenship-individuals-generally-must-meet-specif/",
     "title": "Para obter a cidadania brasileira, os indivíduos geralmente devem atender a requisitos específicos",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/today-we-recognize-the-resilience-wisdom-and-diversity-of-indigenous-p/",
     "title": "Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/under-the-new-spanish-law-on-obtaining-citizenship-more-people-have-th/",
     "title": "Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/us-imposes-new-visa-restrictions-on-12-countries-since-june-9-2025-an/",
     "title": "EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo",
-    "wordCount": 418
+    "wordCount": 420
   },
   {
     "route": "/pt-br/insights/naturalisation/we-celebrate-the-achievements-of-women-around-the-world-and-reaffirm-t/",
     "title": "Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/naturalisation/whether-you-re-travelling-to-brazil-for-a-short-stay-or-planning-a-lon/",
     "title": "Esteja você viajando para o Brasil para uma estadia curta ou planejando uma mudança de longo prazo,",
-    "wordCount": 420
+    "wordCount": 422
   },
   {
     "route": "/pt-br/insights/naturalisation/why-contact-with-marine-animals-is-prohibited-in-tourist-areas-the-epi/",
     "title": "Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um",
-    "wordCount": 412
+    "wordCount": 414
   },
   {
     "route": "/pt-br/insights/naturalisation/with-the-democratic-memory-law-in-force-now-the-adult-grandchildren-of/",
     "title": "Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem",
-    "wordCount": 419
+    "wordCount": 421
   },
   {
     "route": "/pt-br/insights/naturalisation/work-in-finland-an-initiative-supported-by-the-finnish-government-netw/",
     "title": "O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é",
-    "wordCount": 417
+    "wordCount": 419
   },
   {
     "route": "/pt-br/insights/process/",
     "title": "Processo",
-    "wordCount": 1496
+    "wordCount": 1504
   },
   {
     "route": "/pt-br/insights/process/airports-are-busy-places-it-is-important-to-always-be-aware/",
     "title": "Aeroportos são locais movimentados, é importante estar sempre atento",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/all-passengers-have-the-right-to-take-their-hand-luggage-and-personal/",
     "title": "Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/an-honorary-consulate-is-a-voluntary-diplomatic-representation-of-a-co/",
     "title": "Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por",
-    "wordCount": 298
+    "wordCount": 302
   },
   {
     "route": "/pt-br/insights/process/appealing-a-traffic-fine-is-your-right/",
     "title": "Recorrer de multa de trânsito é seu direito",
-    "wordCount": 303
+    "wordCount": 305
   },
   {
     "route": "/pt-br/insights/process/bulgaria-and-romania-will-partially-join-the-european-union-s-schengen/",
     "title": "A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março",
-    "wordCount": 303
+    "wordCount": 305
   },
   {
     "route": "/pt-br/insights/process/deportation-as-defined-by-brazilian-legislation-is-an-administrative-p/",
     "title": "A deportação, conforme definida pela legislação brasileira, é um procedimento administrativo por",
-    "wordCount": 296
+    "wordCount": 298
   },
   {
     "route": "/pt-br/insights/process/deportation-is-a-measure-provided-for-by-law-for-the-compulsory-remova/",
     "title": "A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros",
-    "wordCount": 296
+    "wordCount": 298
   },
   {
     "route": "/pt-br/insights/process/each-federal-police-immigration-service-point-has-a-different-procedur/",
     "title": "Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento",
-    "wordCount": 298
+    "wordCount": 300
   },
   {
     "route": "/pt-br/insights/process/for-biological-children-and-minor-adopted-children-of-italian-citizens/",
     "title": "Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível",
-    "wordCount": 299
+    "wordCount": 301
   },
   {
     "route": "/pt-br/insights/process/if-you-are-getting-married-to-a-brazilian-person-and-need-a-document-s/",
     "title": "Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/it-doesn-t-matter-where-the-bill-or-billing-is-from/",
     "title": "Não importa de onde vem a fatura ou o faturamento",
-    "wordCount": 303
+    "wordCount": 305
   },
   {
     "route": "/pt-br/insights/process/it-was-established-by-the-un-to-promote-equality-respect-for-human-rig/",
     "title": "Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e",
-    "wordCount": 299
+    "wordCount": 301
   },
   {
     "route": "/pt-br/insights/process/technically-yes-but-its-not-advisable/",
     "title": "Tecnicamente sim, mas não é aconselhável",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/the-consular-declaration-of-civil-status-is-a-document-issued-by-the-c/",
     "title": "A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/the-expulsion-of-a-foreigner-is-an-extreme-measure-and-can-only-occur/",
     "title": "A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da",
-    "wordCount": 296
+    "wordCount": 298
   },
   {
     "route": "/pt-br/insights/process/the-right-to-come-and-go-is-provided-for-in-the-federal-constitution-f/",
     "title": "O direito de ir e vir está previsto na Constituição Federal para todos",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/the-text-of-the-brazil-uruguay-convention-for-the-elimination-of-doubl/",
     "title": "O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi",
-    "wordCount": 303
+    "wordCount": 305
   },
   {
     "route": "/pt-br/insights/process/the-transformation-of-the-italian-consulate-in-belo-horizonte-to-consu/",
     "title": "A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em",
-    "wordCount": 298
+    "wordCount": 302
   },
   {
     "route": "/pt-br/insights/process/this-is-an-illegal-extremely-dangerous-practice-that-can-have-serious/",
     "title": "Esta é uma prática ilegal e extremamente perigosa que pode ter consequências graves",
-    "wordCount": 296
+    "wordCount": 298
   },
   {
     "route": "/pt-br/insights/process/yes-brazilian-law-protects-passengers-much-more-than-other-countries/",
     "title": "Sim, a lei brasileiro protege os passageiros muito mais do que outros países",
-    "wordCount": 301
+    "wordCount": 303
   },
   {
     "route": "/pt-br/insights/process/you-should-request-for-your-brazilian-id-to-be-renewed-at-least-90-day/",
     "title": "Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado",
-    "wordCount": 296
+    "wordCount": 298
   },
   {
     "route": "/pt-br/insights/residency/",
@@ -2347,152 +2352,152 @@
   {
     "route": "/pt-br/insights/residency/a-stable-union-formed-abroad-can-be-recognized-in-brazil-through-regis/",
     "title": "A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/brazilian-immigration-legislation-reflects-the-country-s-commitment-to/",
     "title": "A legislação de imigração brasileira reflete o compromisso do país em reconhecer e",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/firstly-you-will-need-to-register-at-the-brazilian-consulate-or-embass/",
     "title": "Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/for-those-who-still-cannot-marry-in-their-home-countries-because-of-di/",
     "title": "Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/",
     "title": "Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil",
-    "wordCount": 402
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/residency/if-the-person-has-a-residence-permit-in-brazil-it-is-important-to-obse/",
     "title": "Caso a pessoa possua autorização de residência no Brasil, é importante observar as",
-    "wordCount": 402
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/residency/if-the-person-holds-a-brazilian-residence-permit-it-s-important-to-obs/",
     "title": "Caso a pessoa possua autorização de residência brasileira, é importante observar as",
-    "wordCount": 408
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/if-you-have-chosen-brazil-as-your-new-place-of-residency-and-are-inqui/",
     "title": "Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/if-you-need-to-stay-outside-of-portugal-for-a-longer-period-than-requi/",
     "title": "Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá",
-    "wordCount": 399
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/residency/in-brazil-the-national-migration-registry-rnm-is-the-registry-of-immig/",
     "title": "Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,",
-    "wordCount": 404
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/residency/in-brazil-the-registro-nacional-de-migrante-rnm-is-the-registration-of/",
     "title": "Em Brasil, o Registro Nacional de Migrante (RNM) é o registro de imigrantes",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/in-temporary-residence-you-can-only-be-absent-for-less-than-6-consecut/",
     "title": "Na residência temporária, só pode faltar menos de 6 meses consecutivos ou 8",
-    "wordCount": 399
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/residency/in-the-context-of-a-profound-political-economic-and-institutional-cris/",
     "title": "No contexto de uma profunda crise política, económica e institucional que afeta",
-    "wordCount": 403
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/residency/it-is-important-to-note-that-one-of-the-legal-prerequisites-for-obtain/",
     "title": "É importante salientar que um dos pré-requisitos legais para a obtenção de residência",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/it-s-crucial-to-note-that-one-of-the-legal-prerequisites-for-obtaining/",
     "title": "É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/loss-of-residence-permit-may-occur-due-to-prolonged-absence-or-failure/",
     "title": "A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de",
-    "wordCount": 405
+    "wordCount": 409
   },
   {
     "route": "/pt-br/insights/residency/not-right-away-the-law-determines-the-exact-time-a-resident-can-stay-o/",
     "title": "Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/popularly-it-is-understood-that-an-immigrant-is-a-person-who-migrates/",
     "title": "Popularmente, entende-se que imigrante é a pessoa que migra de seu",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/renewal-of-the-brazilian-residence-permit-applies-to-those-who-have-a/",
     "title": "A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária",
-    "wordCount": 399
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/residency/residence-permit-in-brazil-due-to-the-mercosur-agreement-this-residenc/",
     "title": "Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem",
-    "wordCount": 402
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/residency/strict-entry-requirements-the-legislation-introduced-specific-entry-re/",
     "title": "Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/the-agreement-between-brazil-and-uruguay-deals-with-permanent-residenc/",
     "title": "O Acordo entre Brasil e Uruguai trata da autorização de residência permanente",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/",
     "title": "A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/residency/the-person-applying-for-a-residence-permit-to-live-in-brazil-will-also/",
     "title": "A pessoa que solicitar autorização de residência para residir no Brasil também receberá um",
-    "wordCount": 404
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/residency/the-person-who-will-apply-for-a-residence-permit-to-live-in-brazil-wil/",
     "title": "A pessoa que solicitar autorização de residência para residir no Brasil também receberá um",
-    "wordCount": 404
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/residency/the-renewal-of-brazilian-residency-permit-applies-to-those-holding-a-t/",
     "title": "A renovação da autorização de residência brasileira aplica-se aos titulares de residência temporária",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/residency/the-request-for-reconsideration-when-a-request-for-a-residence-permit/",
     "title": "O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em",
-    "wordCount": 404
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/residency/upon-your-return-to-brazil-the-legal-process-for-revoking-your-residen/",
     "title": "Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será",
-    "wordCount": 406
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/updates/",
-    "title": "Atualizações de imigração Brasil explicadas com calma",
-    "wordCount": 1277
+    "title": "Atualizações de imigração para o Brasil explicadas com calma",
+    "wordCount": 1279
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/",
     "title": "Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/",
@@ -2507,7 +2512,7 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/",
     "title": "Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em vigor desde 26 de agosto de 2024, como medida de combate ao contrabando e tráfico de migrantes",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/",
@@ -2517,37 +2522,37 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/",
     "title": "Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas",
-    "wordCount": 285
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/",
     "title": "A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)",
-    "wordCount": 415
+    "wordCount": 416
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/",
     "title": "Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/",
     "title": "Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, os turistas de fora da União Europeia, incluindo os brasileiros, não terão mais o passaporte carimbado ao entrar nos países do Espaço Schengen",
-    "wordCount": 411
+    "wordCount": 413
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/",
     "title": "O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia",
-    "wordCount": 397
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
     "title": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/",
     "title": "A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China",
-    "wordCount": 403
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/",
@@ -2556,33 +2561,33 @@
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-immigrants-when-attended-in-brazilian-public-services-should-be-treate/",
-    "title": "Os imigrantes quando atendidos nos serviços públicos brasileiros deverão ser tratados de acordo com os princípios previstos na Lei nº 13.460/17, garantindo que recebam atendimento norteado pelos seguintes princípios: civilidade, respeito, acessibilidade, cortesia, presunção de boa-fé do usuário, igualdade, eficiência, segurança e ética",
+    "title": "Os imigrantes quando atendidos nos serviços públicos brasileiros deverão ser tratados de acordo com os princípios previstos na Lei nº 13.460/17, assegurando-se que recebam atendimento norteado pelos seguintes princípios: civilidade, respeito, acessibilidade, cortesia, presunção de boa-fé do usuário, igualdade, eficiência, segurança e ética",
     "wordCount": 281
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/",
-    "title": "Os imigrantes, ao receberem atendimento nos serviços públicos brasileiros, deverão ser tratados de acordo com os princípios estabelecidos na Lei nº 13.460/17, assegurando-se que recebam atendimento pautado nos seguintes princípios: civilidade, respeito, acessibilidade, cortesia, presunção de boa-fé do usuário, igualdade, eficiência, segurança e ética",
-    "wordCount": 285
+    "title": "Os imigrantes, ao receberem atendimento nos serviços públicos brasileiros, devem ser tratados de acordo com os princípios estabelecidos na Lei nº 13.460/17, garantindo que recebam atendimento pautado nos seguintes princípios: civilidade, respeito, acessibilidade, cortesia, presunção de boa-fé do usuário, igualdade, eficiência, segurança e ética",
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-in-2011-the-date-was-officially-established-through-law-no-12-519-with/",
     "title": "Em 2011, a data foi instituída oficialmente através da Lei nº 12.519, com o objetivo de marcar o fim da escravidão no Brasil",
-    "wordCount": 243
+    "wordCount": 242
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/",
     "title": "México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026",
-    "wordCount": 407
+    "wordCount": 409
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/",
     "title": "Desde 22 de outubro de 2023, devido a mudanças nas regulamentações migratórias mexicanas, os cidadãos brasileiros que planejam transitar (conexão) pelos aeroportos mexicanos, com destino final em outros países, incluindo Brasil, devem ter visto mexicano de turista e de negócios",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/",
     "title": "A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que poderá exigir depósitos de até US$ 15 mil para solicitantes de vistos B1 (negócios) ou B2 (turismo) provenientes de países com altas taxas de permanência irregular ou sistemas de verificação considerados deficientes.",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/",
@@ -2592,7 +2597,7 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-british-government-has-announced-a-significant-change-to-visa-rule/",
     "title": "O governo britânico anunciou uma mudança significativa nas regras de visto para estudantes estrangeiros: a partir de 25 de novembro de 2025, será possível fazer a transição diretamente do visto de estudante para o visto Innovator Founder, sem precisar sair do país",
-    "wordCount": 394
+    "wordCount": 402
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/",
@@ -2602,12 +2607,12 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/",
     "title": "A Polícia Federal voltou a alertar para um grave risco orçamentário: segundo ofício enviado ao Ministério da Justiça e ao Ministério do Planejamento, a corporação precisa de mais R$ 97,5 milhões para manter ativo o serviço de emissão de passaportes",
-    "wordCount": 397
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-president-of-the-republic-signed-a-new-decree-that-amends-article/",
     "title": "O Presidente da República assinou um novo decreto que altera o artigo 257 do Decreto nº 9.199/2017, permitindo ao governo brasileiro, excepcionalmente, arcar com os custos de transferência dos corpos dos cidadãos brasileiros que falecem fora do país",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/",
@@ -2617,17 +2622,17 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/",
     "title": "O governo dos Estados Unidos anunciou uma nova diretriz do Serviço de Cidadania e Imigração (USCIS) que passa a considerar a manifestação de antiamericanismo, bem como de ideologias antissemitas ou ligações a organizações terroristas, como fatores negativos na avaliação de pedidos de visto, residência ou cidadania",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-on-june-18-2025-that-it-will-re/",
     "title": "O governo dos Estados Unidos anunciou em 18 de junho de 2025 que exigirá que os estudantes estrangeiros que solicitam vistos F, M e J ajustem suas configurações de privacidade nas redes sociais para \\",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/",
     "title": "O governo dos Estados Unidos implementou uma nova taxa de US$ 250, chamada taxa de integridade de visto, para estrangeiros que solicitam vistos de não-imigrante.",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/",
@@ -2637,7 +2642,7 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/",
     "title": "Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista",
-    "wordCount": 285
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-09-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/",
@@ -2647,12 +2652,12 @@
   {
     "route": "/pt-br/insights/updates/2026-03-09-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/",
     "title": "O Dia Mundial do Refugiado, comemorado em 20 de junho, é uma data instituída pela Organização das Nações Unidas (ONU) para homenagear a força, a coragem e a resiliência dos milhões de pessoas que foram forçadas a deixar seus países de origem devido a conflitos armados, perseguições políticas, religiosas, étnicas ou graves violações dos direitos humanos.",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/",
     "title": "No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) havia",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/",
@@ -2667,47 +2672,47 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/",
     "title": "Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/",
-    "title": "Brasilian legislação relativa ao transporte aéreo de animais ainda está em fase inicial",
+    "title": "A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial",
     "wordCount": 239
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/",
     "title": "Mudanças nas regras de bagagem da LATAM e Gol têm impacto direto na forma como os passageiros podem",
-    "wordCount": 285
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/",
     "title": "A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais em",
-    "wordCount": 414
+    "wordCount": 415
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/",
     "title": "Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/",
     "title": "Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas",
-    "wordCount": 410
+    "wordCount": 412
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/",
     "title": "ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas",
-    "wordCount": 397
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
     "title": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas em",
-    "wordCount": 408
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/",
-    "title": "A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem",
-    "wordCount": 403
+    "title": "A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem um",
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/",
@@ -2722,27 +2727,27 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/",
     "title": "Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma",
-    "wordCount": 285
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-in-2011-the-date-was-officially-established-through-law-no-12-519-with/",
     "title": "Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de",
-    "wordCount": 243
+    "wordCount": 242
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/",
     "title": "México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026",
-    "wordCount": 407
+    "wordCount": 409
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/",
-    "title": "Desde 22 de outubro de 2023, devido a mudanças nas regulamentações de migração mexicanas, Brasilian",
-    "wordCount": 399
+    "title": "Desde 22 de outubro de 2023, devido a mudanças nas regras migratórias do México, brasileiros",
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/",
     "title": "A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que",
-    "wordCount": 408
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-brazilian-government-presented-new-guidelines-for-the-transport-of/",
@@ -2752,7 +2757,7 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-british-government-has-announced-a-significant-change-to-visa-rule/",
     "title": "O governo britânico anunciou uma mudança significativa nas regras de vistos para estrangeiros",
-    "wordCount": 394
+    "wordCount": 402
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/",
@@ -2762,12 +2767,12 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/",
     "title": "A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um",
-    "wordCount": 397
+    "wordCount": 403
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-president-of-the-republic-signed-a-new-decree-that-amends-article/",
     "title": "O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/",
@@ -2777,17 +2782,17 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-announced-a-new-guideline-from-the-citize/",
     "title": "O governo dos Estados Unidos anunciou uma nova diretriz do Citizenship and",
-    "wordCount": 408
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-announced-on-june-18-2025-that-it-will-re/",
     "title": "O governo dos Estados Unidos anunciou em 18 de junho de 2025 que exigirá",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/",
     "title": "O governo dos Estados Unidos implementou uma nova taxa de US$ 250, chamada de visto",
-    "wordCount": 409
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/",
@@ -2797,7 +2802,7 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/",
     "title": "Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde o",
-    "wordCount": 285
+    "wordCount": 284
   },
   {
     "route": "/pt-br/insights/updates/2026-03-10-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/",
@@ -2807,797 +2812,797 @@
   {
     "route": "/pt-br/insights/updates/2026-03-10-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/",
     "title": "O Dia Mundial do Refugiado, comemorado em 20 de junho, é uma data instituída pelas Nações Unidas",
-    "wordCount": 408
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/visa/",
     "title": "Visto",
-    "wordCount": 1939
+    "wordCount": 1953
   },
   {
     "route": "/pt-br/insights/visa/a-brazilian-visa-is-valid-for-a-set-period-during-which-youre-allowed/",
     "title": "Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/a-recent-study-conducted-by-embratur-in-partnership-with-visa-and-ipso/",
     "title": "Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que",
-    "wordCount": 399
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/according-to-brazilian-regulations-all-visa-applications-for-minors-mu/",
     "title": "De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/according-to-recent-news-as-an-indigenous-immigrant-in-the-united-stat/",
-    "title": "De acordo com notícias recentes, como imigrante indígena nos Estados Unidos, Brasilian",
-    "wordCount": 401
+    "title": "De acordo com notícias recentes, como imigrante indígena nos Estados Unidos, brasileiro",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/according-to-this-news-as-an-indigenous-immigrant-in-the-united-states/",
     "title": "De acordo com esta notícia, como imigrante indígena nos Estados Unidos, o brasileiro",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/acquiring-a-student-visa-to-become-an-exchange-student-in-brazil-prese/",
     "title": "Adquirir um visto de estudante para se tornar um estudante de intercâmbio no Brasil apresenta uma oportunidade única",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/although-brazilian-migration-legislation-does-not-mention-the-right-to/",
     "title": "Embora a legislação de migração brasileira não mencione o direito de recurso, há",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/always-consult-an-immigration-lawyer-for-instructions-based-on-your-ca/",
     "title": "Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/anyone-purchasing-their-first-residential-property-through-financing-u/",
     "title": "Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residence/",
     "title": "Entrar no Brasil como turista e depois pedir autorização de residência",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residency/",
     "title": "Entrar no Brasil como turista e depois buscar regularização de residência",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/assai-located-in-the-state-of-parana-brazil-was-established-in-the-ear/",
     "title": "Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/before-submitting-your-visa-application-it-is-essential-to-first-prepa/",
     "title": "Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/before-submitting-your-visa-application-it-s-essential-to-first-beggin/",
     "title": "Antes de enviar seu pedido de visto, é essencial primeiro implorar por um",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/before-you-travel-or-live-in-another-country-you-need-to-carry-out-leg/",
     "title": "Antes de viajar ou morar em outro país, você precisa realizar um planejamento jurídico para",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/behind-each-visa-there-is-a-lifetime-of-expectations-memories-and-drea/",
     "title": "Por trás de cada visto há uma vida inteira de expectativas, lembranças e sonhos",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/brazil-does-not-offer-specific-fiance-or-spouse-visas-but-has-provisio/",
     "title": "Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-doesn-t-offer-specific-fiance-or-spouse-visas-it-does-have-prov/",
-    "title": "Brasil não oferece vistos específicos de noivo ou cônjuge, possui disposições para",
-    "wordCount": 401
+    "title": "Brasil não oferece vistos específicos de noivo ou cônjuge, mas possui disposições para",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-grants-a-temporary-visa-to-foreigners-who-come-to-the-country-w/",
     "title": "Brasil concede visto temporário a estrangeiros que venham ao país com comprovada",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/brazil-grants-permanent-residency-to-foreign-nationals-through-various/",
     "title": "Brasil concede residência permanente a estrangeiros através de vários tipos de vistos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-issues-the-cplp-temporary-visa-only-in-some-specific-cities/",
     "title": "Brasil emite o visto temporário CPLP apenas em algumas cidades específicas",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process-2/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo (2)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process-3/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo (3)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-legal-guidance-eligibility-and-process/",
     "title": "Orientação jurídica Brasil: elegibilidade e processo",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/",
     "title": "Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/brazil-offers-a-specific-visa-and-residency-for-artists-and-athletes-c/",
     "title": "Brasil oferece visto e residência específicos para artistas e atletas que venham ao",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-offers-humanitarian-visa-to-individuals-in-situations-of-extrem/",
-    "title": "Brasil oferece visto humanitário para pessoas em situação de extrema vulnerabilidade,",
-    "wordCount": 401
+    "title": "Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-offers-student-visa-for-foreign-medical-residents-who-wish-to-p/",
     "title": "Brasil oferece visto de estudante para residentes médicos estrangeiros que desejam participar de",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-offers-the-possibility-of-permanent-residency-for-families-wish/",
     "title": "Brasil oferece a possibilidade de residência permanente para famílias que desejam se instalar",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazil-s-digital-nomad-visa-is-your-ticket-to-an-incredible-experience/",
-    "title": "Brasil's Digital Nomad Visa is your ticket to an incredible experience",
-    "wordCount": 402
+    "title": "O Visto Digital Nomad do Brasil é o seu ingresso para uma experiência incrível",
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/",
     "title": "O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazilian-law-permits-students-on-a-student-visa-to-work-while-studyin/",
-    "title": "A lei brasileiro permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há",
-    "wordCount": 401
+    "title": "A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazilian-student-visa-for-medical-studies-the-brazilian-student-visa/",
     "title": "Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/",
     "title": "Autorização brasileira de Residência Temporária para Trabalho Consultoria com advogado de imigração",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-2/",
     "title": "Consultar um advogado de imigração garante que você tenha conhecimento (2)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-3/",
     "title": "Consultar um advogado de imigração garante que você tenha conhecimento (3)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg/",
     "title": "Consultar um advogado de imigração garante que você tenha conhecimento",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/due-to-the-political-crises-in-syria-the-brazilian-embassy-in-syria-ha/",
     "title": "Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/entering-brazil-as-a-tourist-can-be-a-valid-starting-point-for-anyone/",
     "title": "Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/entering-brazil-as-a-tourist-can-serve-as-a-valid-starting-point-for-t/",
     "title": "Entrar no Brasil como turista pode servir como um ponto de partida válido para quem deseja",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/even-though-this-visa-offers-permanent-residency-it-comes-with-conditi/",
     "title": "Embora este visto ofereça residência permanente, ele vem com condições",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/every-visa-applicant-has-the-right-to-receive-a-justification/",
     "title": "Todo solicitante de visto tem direito a receber uma justificativa",
-    "wordCount": 398
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/expanding-a-business-into-brazil-requires-careful-planning-and-complia/",
     "title": "Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/explore-tax-friendly-destinations-and-optimize-your-tax-situation-whil/",
     "title": "Explore destinos isentos de impostos e otimize sua situação fiscal enquanto vive o",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/for-brazilians-wishing-to-go-to-new-zealand-the-brazil-new-zealand-wor/",
     "title": "Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia",
-    "wordCount": 398
+    "wordCount": 404
   },
   {
     "route": "/pt-br/insights/visa/for-certain-nationalities-a-visa-for-this-is-not-required/",
     "title": "Para certas nacionalidades não é necessário visto para isso",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/for-those-planning-to-travel-to-the-united-states-to-watch-the-2026-wo/",
     "title": "Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/foreign-nationals-who-come-to-brazil-for-research-teaching-or-academic/",
     "title": "Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/hiring-foreign-workers-has-become-an-increasingly-common-practice-amon/",
-    "title": "A contratação de trabalhadores estrangeiros tem se tornado uma prática cada vez mais comum entre Brasilian",
-    "wordCount": 398
+    "title": "A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros",
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/i-will-be-working-remotely-in-brazil/",
     "title": "Estarei trabalhando remotamente no Brasil",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/if-a-person-received-a-portuguese-residence-visa-without-making-an-app/",
     "title": "Se uma pessoa recebeu um visto de residência português sem marcar consulta com",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/if-an-artist-charges-a-fee-for-their-performance-a-work-visa-is-requir/",
     "title": "Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-an-investor-an-individual-is-looking-for-opportunities-and-to-be-ab/",
     "title": "Se um investidor, pessoa física, está em busca de oportunidades e para poder residir",
-    "wordCount": 404
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/visa/if-the-brazilian-consulate-does-not-provide-a-justification-for-the-vi/",
     "title": "Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-the-couple-wishes-to-live-in-brazil-after-marriage-the-foreigner-wi/",
-    "title": "Caso o casal deseje residir no Brasil após o casamento, o estrangeiro precisará de um",
-    "wordCount": 401
+    "title": "Caso o casal deseje morar no Brasil após o casamento, o estrangeiro precisará de um",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-are-an-investor-looking-to-reside-in-brazil-with-foreign-resour/",
     "title": "Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/",
     "title": "Se você chegou no Brasil como turista e deseja ficar mais tempo do que o planejado inicialmente,",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-wish-to-stay-longer-than-ori/",
     "title": "Se você chegou no Brasil como turista e deseja ficar mais tempo do que o planejado originalmente,",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/",
     "title": "Se você atualmente possui uma autorização de residência temporária no Brasil e está se perguntando sobre",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-hold-a-temporary-visa-or-residence-permit-it-s-imperative-to-co/",
     "title": "Se for titular de visto temporário ou autorização de residência, é imprescindível preencher o seu",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-hold-a-temporary-visa-or-residency-permit-it-s-imperative-to-co/",
     "title": "Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day-2/",
     "title": "Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day/",
     "title": "Se você for de um dos países qualificados, poderá solicitar uma prorrogação de 90 dias para",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-your-american-visa-is-denied-the-first-recommended-action-is-to-loo/",
     "title": "Caso seu visto americano seja negado, a primeira ação recomendada é procurar um",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/if-youve-studied-in-brazil-and-are-thinking-about-staying-to-work-ther/",
     "title": "Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/immigrating-to-a-new-country-is-a-life-altering-decision-and-seeking-p/",
     "title": "Imigrar para um novo país é uma decisão que altera a vida, e procurar profissionais",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/immigration-planning-involves-strategic-and-thoughtful-consideration-o/",
     "title": "O planejamento da imigração envolve a consideração estratégica e cuidadosa de um",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-a-prestigious-international-ranking-organized-by-the-1000-libraries/",
     "title": "Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-deportation-is-an-administrative-measure-applied-to-individu/",
     "title": "Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-eligible-people-holding-a-temporary-visa-have-the-opportunit/",
     "title": "No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-homeschooling-is-prohibited-and-the-parents-must-go-to-the-n/",
-    "title": "Em Brasil o ensino domiciliar é proibido e os pais devem comparecer ao público mais próximo",
-    "wordCount": 401
+    "title": "No Brasil o ensino domiciliar é proibido e os pais devem comparecer ao público mais próximo",
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-priests-must-go-to-the-nearest-public-school-and-request-the/",
     "title": "Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on-2/",
-    "title": "No Brasil existem vários tipos de vistos de trabalho disponíveis dependendo da natureza do (2)",
-    "wordCount": 399
+    "title": "No Brasil, existem vários tipos de vistos de trabalho disponíveis dependendo da natureza do (2)",
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on/",
     "title": "No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/in-brazilian-immigration-matters-foreign-nationals-could-apply-for-a-f/",
     "title": "Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-exceptional-cases-a-brazilian-visa-application-may-be-denied-under/",
     "title": "Em casos excepcionais, um pedido de visto brasileiro pode ser negado sob as seguintes",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-general-many-countries-do-not-have-a-specific-dating-visa-but-offer/",
     "title": "Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-situations-where-a-brazilian-needs-emergency-consular-assistance-ou/",
     "title": "Em situações em que um brasileiro precise de assistência consular de emergência fora do negócio",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/in-some-cases-of-vulnerable-situations-brazilian-migration-law-waives/",
     "title": "Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/individuals-seeking-to-work-in-brazil-through-a-formal-employment-rela/",
     "title": "Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/it-can-be-possible-to-bring-a-companion-to-brazil-on-a-health-treatmen/",
     "title": "Pode ser possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/it-is-not-necessary-in-cases-of-a-stopover-or-connecting-flight-in-bra/",
     "title": "Não é necessário em casos de escala ou voo de conexão no Brasil",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/it-is-now-possible-to-apply-for-a-digital-nomad-visa-for-italy/",
     "title": "Já é possível solicitar visto de nômade digital para Itália",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/it-is-possible-for-a-foreign-person-to-purchase-property-in-brazil-but/",
     "title": "É possível que um estrangeiro compre um imóvel no Brasil, mas existem alguns",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/it-is-possible-to-bring-a-companion-to-brazil-with-a-health-treatment/",
     "title": "É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/it-is-possible-to-go-to-brazil-as-a-tourist-and-get-married-or-recogni/",
     "title": "É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/japan-has-announced-measures-to-attract-digital-nomads-aligning-with-a/",
     "title": "O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/legal-guidance-eligibility-requirements-and-filing-steps/",
     "title": "Orientação legal: elegibilidade, requisitos e etapas de arquivamento",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/many-people-risk-staying-in-portugal-with-just-a-tourist-visa-and-then/",
     "title": "Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/may-5th-is-celebrated-as-portuguese-language-and-lusophone-culture-day/",
     "title": "O dia 5 de maio é comemorado como o Dia da Língua Portuguesa e da Cultura Lusófona, destacando-se",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/my-immigrant-id-card-is-valid-until-2030-but-my-civil-partnership-has/",
     "title": "Minha carteira de identidade de imigrante é válida até 2030, mas minha parceria civil terminou",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/news-visa-fees-for-the-usa-will-become-more-expensive-from-may-30th-to/",
     "title": "Notícias: taxas de visto para os EUA ficarão mais caras a partir de 30 de maio Turista ou",
-    "wordCount": 404
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/visa/no-a-work-visa-requires-prior-approval-from-the-brazilian-ministry-of/",
     "title": "Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/no-dependents-can-arrive-with-or-after-the-main-visa-holder-in-the-usa/",
     "title": "Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA",
-    "wordCount": 398
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/not-everything-is-what-it-seems-especially-in-brazilian-cuisine/",
     "title": "Nem tudo é o que parece, principalmente na culinária brasileira!",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/nowadays-technology-allows-us-to-work-from-anywhere-in-the-world/",
     "title": "Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/obtaining-a-permanent-residence-permit-indefinite-period-in-brazil-is/",
     "title": "A obtenção de autorização de residência permanente (por tempo indeterminado) no Brasil é regida por um",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/obtaining-a-residency-permit-as-a-retiree-or-pensioner-in-brazil-provi/",
     "title": "A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/obtaining-a-student-visa-to-be-an-exchange-student-in-brazil-offers-a/",
     "title": "A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/obtaining-an-immigrant-identity-card-rnm-is-extremely-important-for-im/",
     "title": "A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/",
     "title": "Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/permanent-residency-through-the-investor-visa-individual-investment-in/",
     "title": "Residência Permanente através do Visto de Investidor: Investimento Individual no Brasil",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/premium-processing-is-a-service-offered-by-the-us-immigration-agency-t/",
     "title": "Premium Processing é um serviço oferecido pela agência de imigração dos EUA para agilizar o",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/professionals-can-have-the-eb2-niw-visa-as-a-gateway-to-continue-their/",
     "title": "Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/qualified-professionals-can-use-the-eb2-niw-visa-as-a-gateway-to-conti/",
     "title": "Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/repatriation-also-known-as-national-recovery-operation-represents-the/",
     "title": "A repatriação, também conhecida como Operação de Recuperação Nacional, representa o brasileiro",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/retirees-and-pensioners-who-want-to-live-in-brazil-can-request-a-tempo/",
     "title": "Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/rio-de-janeiro-has-recently-been-named-the-world-s-top-destination-for/",
     "title": "O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/since-april-10-2025-tourists-from-the-united-states-canada-and-austral/",
     "title": "Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/technical-completion-involves-legal-analysis-of-the-rules-and-circumst/",
     "title": "A conclusão técnica envolve a análise jurídica das regras e circunstâncias do",
-    "wordCount": 398
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-american-visa-interview-aims-to-assess-whether-you-are-a-qualified/",
     "title": "A entrevista para visto americano tem como objetivo avaliar se você é um candidato qualificado e",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-authorization-of-indefinite-term-residence-in-brazil-can-be-obtain/",
     "title": "A autorização de residência por tempo indeterminado no Brasil pode ser obtida através",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-biggest-cause-of-losing-an-irish-student-visa-is-when-the-immigran/",
     "title": "A maior causa de perda de visto de estudante irlandês é quando o imigrante para",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-brazilian-retirement-visa-is-an-excellent-choice-for-retirees-and/",
     "title": "O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-brazilian-visa-for-digital-nomads-allows-you-to-stay-for-up-to-one/",
     "title": "O visto brasileiro para nômades digitais permite permanecer por até um ano com o",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/the-brazilian-work-visa-for-employment-is-granted-to-foreign-nationals/",
     "title": "O visto de trabalho brasileiro para emprego é concedido a cidadãos estrangeiros que tenham",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-cplp-community-of-portuguese-speaking-countries-visa-is-an-option/",
     "title": "O visto CPLP (Comunidade dos Países de Língua Portuguesa) é uma opção que permite",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/the-cplp-temporary-residence-visa-is-intended-for-citizens-of-the-coun/",
     "title": "O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/",
     "title": "O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-duration-for-which-a-foreigner-can-be-absent-from-the-country-with/",
     "title": "O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-eb-2-niw-national-interest-waiver-visa-is-not-limited-exclusively/",
     "title": "O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-eb2-niw-visa-is-a-great-opportunity-to-internationalize-your-caree/",
     "title": "O visto EB2-NIW é uma ótima oportunidade para internacionalizar sua carreira e obter",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-end-of-the-expression-of-interest-for-immigrants-in-portugal-marks/",
     "title": "O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/the-future-fee-for-travelers-entering-europe-known-as-etias-had-its-la/",
     "title": "A futura taxa para viajantes que entram na Europa, conhecida como Etias, teve seu lançamento adiado",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/the-granting-of-a-religious-visa-can-be-issued-to-a-foreign-national-e/",
     "title": "A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-holiday-work-visa-program-between-brazil-and-new-zealand-offers-ne/",
     "title": "O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-importance-of-getting-legal-guidance-from-a-lawyer-in-travel-and-i/",
     "title": "A importância de obter orientação jurídica de um Advogado em viagens e imigração:",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o-2/",
     "title": "A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos (2)",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o/",
     "title": "A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-international-immunisation-certificate-is-necessary-for-individual/",
     "title": "O certificado internacional de imunização é necessário para indivíduos que solicitam um",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-interview-for-the-american-visa-in-brazil-is-carried-out-in-portug/",
     "title": "A entrevista para o visto americano no Brasil é realizada em português, e o",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-japanese-immigration-service-has-announced-a-new-visa-the-digital/",
     "title": "O serviço de imigração japonês anunciou um novo visto, o visto de nômade digital",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/the-joint-family-visa-for-spouses-and-partners-in-a-recognized-stable/",
     "title": "O visto de família conjunta para cônjuges e companheiros em união estável reconhecida de irlandeses",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-k-1-visa-is-intended-for-foreign-fiances-of-united-states-citizens/",
     "title": "O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos",
-    "wordCount": 398
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-legislation-outlines-the-specific-functions-and-sets-forth-several/",
     "title": "A legislação descreve as funções específicas e estabelece vários requisitos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-main-hypotheses-are-travel-document-that-is-not-valid-for-brazil-t/",
     "title": "As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-recent-interministerial-ordinance-represents-a-significant-advance/",
     "title": "A recente Portaria Interministerial representa um avanço significativo na imigração",
-    "wordCount": 405
+    "wordCount": 411
   },
   {
     "route": "/pt-br/insights/visa/the-residence-permit-for-an-indefinite-period-in-brazil-can-be-obtaine/",
     "title": "A autorização de residência por tempo indeterminado no Brasil pode ser obtida através",
-    "wordCount": 404
+    "wordCount": 410
   },
   {
     "route": "/pt-br/insights/visa/the-retirement-visa-for-brazil-is-designed-for-individuals-who-wish-to/",
     "title": "O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-retirement-visa-for-brazil-is-intended-for-individuals-who-wish-to/",
     "title": "O visto de aposentadoria para o Brasil é destinado a pessoas físicas que desejam residir no",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-rules-for-work-immigration-allow-individuals-to-obtain-a-visa-or-r/",
     "title": "As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência",
-    "wordCount": 402
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/the-time-a-foreigner-can-be-absent-from-the-country-without-losing-the/",
     "title": "O tempo que um estrangeiro pode se ausentar do país sem perder a residência",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-undergraduate-student-agreement-program-pec-g-is-a-brazilian-gover/",
     "title": "O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/the-visa-and-residence-for-the-purpose-of-working-without-employment-i/",
     "title": "O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,",
-    "wordCount": 398
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-work-holiday-visa-agreement-between-brazil-and-france-allows-young/",
     "title": "O acordo de visto de trabalho-férias entre Brasil e França permite que jovens de",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/the-working-and-holiday-visa-agreement-between-brazil-and-france-allow/",
     "title": "O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/this-brazilian-visa-is-intended-for-those-who-wish-to-carry-out-academ/",
     "title": "Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/this-can-be-done-at-the-consulate-or-embassy-of-the-country-that-issue/",
     "title": "Isso pode ser feito no consulado ou embaixada do país que emitiu o visto,",
-    "wordCount": 399
+    "wordCount": 405
   },
   {
     "route": "/pt-br/insights/visa/this-day-established-by-the-un-reinforces-the-importance-of-joining-fo/",
     "title": "Este dia instituído pela ONU reforça a importância de unir forças contra um",
-    "wordCount": 400
+    "wordCount": 406
   },
   {
     "route": "/pt-br/insights/visa/this-is-an-illegal-and-extremely-risky-practice-that-can-lead-to-sever/",
     "title": "Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/to-obtain-a-brazilian-study-visa-you-must-be-enrolled-in-an-educationa/",
     "title": "Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/to-prove-your-civil-union-status-with-a-foreign-person-a-certificate-i/",
     "title": "Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/travellers-in-brazil-can-access-a-variety-of-basic-healthcare-services/",
     "title": "Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos",
-    "wordCount": 401
+    "wordCount": 407
   },
   {
     "route": "/pt-br/insights/visa/upon-arriving-in-brazil-with-a-visa-you-will-have-90-days-to-register/",
     "title": "Ao chegar no Brasil com visto, você terá 90 dias para se registrar e solicitar um",
-    "wordCount": 396
+    "wordCount": 402
   },
   {
     "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-2/",
     "title": "Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)",
-    "wordCount": 400
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-3/",
     "title": "Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (3)",
-    "wordCount": 400
+    "wordCount": 408
   },
   {
     "route": "/pt-br/insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil/",
     "title": "Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil",
-    "wordCount": 400
+    "wordCount": 408
   },
   {
     "route": "/pt-br/legal/",
@@ -3672,32 +3677,32 @@
   {
     "route": "/pt-br/process/",
     "title": "Processo de Imigração Brasil",
-    "wordCount": 1234
+    "wordCount": 1244
   },
   {
     "route": "/pt-br/process/aftercare/",
-    "title": "Cuidados posteriores",
-    "wordCount": 1026
+    "title": "Acompanhamento",
+    "wordCount": 1028
   },
   {
     "route": "/pt-br/process/alone/",
-    "title": "Sozinho",
-    "wordCount": 1028
+    "title": "Sem apoio",
+    "wordCount": 1032
   },
   {
     "route": "/pt-br/process/approval/",
     "title": "Aprovação",
-    "wordCount": 1008
+    "wordCount": 1010
   },
   {
     "route": "/pt-br/process/assessment/",
     "title": "Avaliação",
-    "wordCount": 1034
+    "wordCount": 1036
   },
   {
     "route": "/pt-br/process/compliance/",
     "title": "Conformidade",
-    "wordCount": 921
+    "wordCount": 923
   },
   {
     "route": "/pt-br/process/consultation/",
@@ -3707,32 +3712,32 @@
   {
     "route": "/pt-br/process/conversion/",
     "title": "Conversão",
-    "wordCount": 982
+    "wordCount": 984
   },
   {
     "route": "/pt-br/process/deadlines/",
     "title": "Prazos",
-    "wordCount": 972
+    "wordCount": 974
   },
   {
     "route": "/pt-br/process/failures/",
     "title": "Falhas",
-    "wordCount": 957
+    "wordCount": 959
   },
   {
     "route": "/pt-br/process/fees/",
     "title": "Taxas",
-    "wordCount": 1035
+    "wordCount": 1037
   },
   {
     "route": "/pt-br/process/filing/",
-    "title": "Arquivamento",
-    "wordCount": 975
+    "title": "Protocolo",
+    "wordCount": 977
   },
   {
     "route": "/pt-br/process/mistakes/",
     "title": "Erros",
-    "wordCount": 956
+    "wordCount": 960
   },
   {
     "route": "/pt-br/process/naturalisation/",
@@ -3797,37 +3802,37 @@
   {
     "route": "/pt-br/rights/",
     "title": "Centro de Direitos",
-    "wordCount": 1643
+    "wordCount": 1649
   },
   {
     "route": "/pt-br/rights/naturalisation/",
     "title": "Naturalização",
-    "wordCount": 1573
+    "wordCount": 1581
   },
   {
     "route": "/pt-br/rights/obligations/",
     "title": "Obrigações",
-    "wordCount": 1751
+    "wordCount": 1753
   },
   {
     "route": "/pt-br/rights/permanent/",
     "title": "Planejamento de status permanente no Brasil",
-    "wordCount": 1663
+    "wordCount": 1667
   },
   {
     "route": "/pt-br/rights/planning/",
     "title": "Planejamento",
-    "wordCount": 1607
+    "wordCount": 1613
   },
   {
     "route": "/pt-br/rights/refund/",
     "title": "Reembolso",
-    "wordCount": 1516
+    "wordCount": 1526
   },
   {
     "route": "/pt-br/rights/regularization/",
     "title": "Regularização",
-    "wordCount": 1604
+    "wordCount": 1608
   },
   {
     "route": "/pt-br/rights/renewal/",
@@ -3837,7 +3842,7 @@
   {
     "route": "/pt-br/rights/responsibilities/",
     "title": "Responsabilidades",
-    "wordCount": 1724
+    "wordCount": 1726
   },
   {
     "route": "/pt-br/rights/strategy/",
@@ -3847,7 +3852,7 @@
   {
     "route": "/pt-br/rights/timeline/",
     "title": "Linha do tempo",
-    "wordCount": 1612
+    "wordCount": 1618
   },
   {
     "route": "/pt-br/rights/transparency/",
@@ -3857,12 +3862,12 @@
   {
     "route": "/pt-br/services/",
     "title": "Serviços",
-    "wordCount": 2526
+    "wordCount": 2532
   },
   {
     "route": "/pt-br/services/advisory/",
     "title": "Consultoria",
-    "wordCount": 2202
+    "wordCount": 2208
   },
   {
     "route": "/pt-br/services/advisory/compliance/",
@@ -3876,7 +3881,7 @@
   },
   {
     "route": "/pt-br/services/advisory/corporate/",
-    "title": "Corporativo",
+    "title": "Empresarial",
     "wordCount": 1168
   },
   {
@@ -3897,7 +3902,7 @@
   {
     "route": "/pt-br/services/defense/appeals/",
     "title": "Recursos",
-    "wordCount": 1183
+    "wordCount": 1184
   },
   {
     "route": "/pt-br/services/defense/deportation/",
@@ -3942,7 +3947,7 @@
   {
     "route": "/pt-br/services/naturalisation/provisional/",
     "title": "Naturalização Provisória",
-    "wordCount": 1161
+    "wordCount": 1163
   },
   {
     "route": "/pt-br/services/naturalisation/reacquisition/",
@@ -3952,7 +3957,7 @@
   {
     "route": "/pt-br/services/naturalisation/renunciation/",
     "title": "Naturalização da Renúncia",
-    "wordCount": 1169
+    "wordCount": 1172
   },
   {
     "route": "/pt-br/services/naturalisation/special/",
@@ -3972,22 +3977,22 @@
   {
     "route": "/pt-br/services/other/records/",
     "title": "Registros",
-    "wordCount": 1185
+    "wordCount": 1187
   },
   {
     "route": "/pt-br/services/other/regularization/",
     "title": "Regularização",
-    "wordCount": 1186
+    "wordCount": 1187
   },
   {
     "route": "/pt-br/services/other/translation/",
     "title": "Tradução",
-    "wordCount": 1184
+    "wordCount": 1186
   },
   {
     "route": "/pt-br/services/residencies/",
     "title": "Residências",
-    "wordCount": 2605
+    "wordCount": 2601
   },
   {
     "route": "/pt-br/services/residencies/cplp/",
@@ -4002,7 +4007,7 @@
   {
     "route": "/pt-br/services/residencies/exchange/",
     "title": "Residência de intercâmbio",
-    "wordCount": 1164
+    "wordCount": 1166
   },
   {
     "route": "/pt-br/services/residencies/health/",
@@ -4037,7 +4042,7 @@
   {
     "route": "/pt-br/services/residencies/research/",
     "title": "Residência de pesquisa",
-    "wordCount": 1163
+    "wordCount": 1164
   },
   {
     "route": "/pt-br/services/residencies/retiree/",
@@ -4077,7 +4082,7 @@
   {
     "route": "/pt-br/services/visas/",
     "title": "Vistos",
-    "wordCount": 2592
+    "wordCount": 2594
   },
   {
     "route": "/pt-br/services/visas/artistic/",
@@ -4087,7 +4092,7 @@
   {
     "route": "/pt-br/services/visas/business/",
     "title": "Visto de negócios",
-    "wordCount": 1162
+    "wordCount": 1160
   },
   {
     "route": "/pt-br/services/visas/diplomatic/",
@@ -4142,7 +4147,7 @@
   {
     "route": "/pt-br/services/visas/research/",
     "title": "Visto de pesquisa",
-    "wordCount": 1159
+    "wordCount": 1161
   },
   {
     "route": "/pt-br/services/visas/retiree/",
@@ -4167,7 +4172,7 @@
   {
     "route": "/pt-br/services/visas/tourist/",
     "title": "Visto de Turista",
-    "wordCount": 1174
+    "wordCount": 1172
   },
   {
     "route": "/pt-br/services/visas/transit/",
@@ -4187,6 +4192,6 @@
   {
     "route": "/pt-br/start-consultation/",
     "title": "Solicite uma Consulta",
-    "wordCount": 2837
+    "wordCount": 2838
   }
 ]

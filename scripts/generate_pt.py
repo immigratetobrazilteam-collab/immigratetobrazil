@@ -87,6 +87,8 @@ PT_BR_NORMALIZATION_RULES = (
     (r"\bpratica juridica\b", "prática jurídica"),
     (r"\bBrasil servi[cç]os jur[ií]dicos e de consultoria em imigra[cç][aã]o\b", "Serviços jurídicos e de consultoria em imigração para o Brasil"),
     (r"\badvogada de imigração Brasilian\b", "advogada de imigração brasileira"),
+    (r"\bBrasilian advogada de imigração\b", "advogada brasileira de imigração"),
+    (r"\bBrasilian advogada\b", "advogada brasileira"),
     (r"\bBrasilian advogado de imigração\b", "advogada de imigração para o Brasil"),
     (r"\bcidadania Brasilian\b", "cidadania brasileira"),
     (r"\blei de imigração Brasiliana\b", "lei de imigração brasileira"),
@@ -117,6 +119,15 @@ PT_BR_NORMALIZATION_RULES = (
     (r"\bEsta página traz pesquisas anteriores sobre vistos\b", "Esta página reorganiza conteúdo anterior sobre vistos"),
     (r"\bEsta página traz pesquisas anteriores sobre cidadania\b", "Esta página reorganiza conteúdo anterior sobre cidadania"),
     (r"\bEsta página traz pesquisas anteriores sobre residência\b", "Esta página reorganiza conteúdo anterior sobre residência"),
+    (r"\bBest Next Step\b", "Melhor próximo passo"),
+    (r"\bHow To Use This Hub\b", "Como usar este hub"),
+    (r"\bReading Lens\b", "Lente de leitura"),
+    (r"\bEvergreen And Timely\b", "Conteúdo duradouro e atual"),
+    (r"\bTracking on Filing\b", "Rastreamento do arquivamento"),
+    (r"\bTiming\b", "Tempo"),
+    (r"\bpano de fundo Brasil para a seção\b", "pano de fundo para a seção"),
+    (r"\bplano de fundo Brasil para a seção\b", "plano de fundo para a seção"),
+    (r"\bfundo Brasil para a seção\b", "fundo para a seção"),
     (r"\bem um formato mais claro\b", "de forma mais clara"),
     (
         r"Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para Imigrar para o Brasil\.",
@@ -158,6 +169,27 @@ PT_BR_NORMALIZATION_RULES = (
     (r"\bPratica juridica\b", "Prática jurídica"),
     (r"\bbrasileira lei de imigração\b", "lei de imigração brasileira"),
     (r"\bcronometragem\b", "prazo"),
+    (r"\bAs advogadas Monique e Monique Fernandes explicam\b", "Monique Fernandes explica"),
+    (r"\bA advogada Monique e Monique Fernandes explica\b", "Monique Fernandes explica"),
+    (r"\bMonique e Monique Fernandes\b", "Monique Fernandes"),
+    (r"\bonde Brasil a vida\b", "onde a vida no Brasil"),
+    (r"\bAs perguntas Brasil\b", "As perguntas sobre o Brasil"),
+    (r"\bperguntas Brasil\b", "perguntas sobre o Brasil"),
+    (r"\bsobre Brasil\b", "sobre o Brasil"),
+    (r"\bseu assunto Brasil\b", "seu assunto relacionado ao Brasil"),
+    (r"\bassunto Brasil\b", "assunto relacionado ao Brasil"),
+    (r"\badmiração por Brasil\b", "admiração pelo Brasil"),
+    (r"\bA advogada(?: de imigração)? Monique Fernandes e a advogada(?: de imigração)? Monique Fernandes explicam\b", "Monique Fernandes explica"),
+    (r"\bAs advogadas(?: de imigração)? Monique Fernandes e a advogada(?: de imigração)? Monique Fernandes explicam\b", "Monique Fernandes explica"),
+    (r"\bA advogada Monique Fernandes e a advogada(?: de imigração)? Monique Fernandes explicam\b", "Monique Fernandes explica"),
+    (r"\bAs advogadas Monique Fernandes e a advogada(?: de imigração)? Monique Fernandes explicam\b", "Monique Fernandes explica"),
+    (r"\bBrasilian cidadãos\b", "cidadãos brasileiros"),
+    (r"\bBrasilian advogado\b", "advogada brasileira"),
+    (r"\bimigração Brasil\b", "imigração para o Brasil"),
+    (r"\bresidência Brasil\b", "residência para o Brasil"),
+    (r"\bvisto Brasil\b", "visto para o Brasil"),
+    (r"\b(Norte|Nordeste|Centro-Oeste|Sudeste|Sul) Brasil\b", r"\1 do Brasil"),
+    (r"\b(norte|nordeste|centro-oeste|sudeste|sul) Brasil\b", r"\1 do Brasil"),
 )
 BRAZILIAN_PREFIX_NOUN_MAP = {
     "Autorização": "Autorização",
@@ -212,6 +244,8 @@ OVERRIDES_PATH = I18N_DIR / "overrides.json"
 MEMORY_PATH = I18N_DIR / "translation-memory.json"
 MANIFEST_PATH = I18N_DIR / "manifest.json"
 TRANSLATION_REQUIREMENTS_PATH = ROOT / "requirements-pt-translation.txt"
+PARTIALS_EN_DIR = ROOT / "partials" / "en"
+PARTIALS_PT_DIR = ROOT / "partials" / "pt-br"
 
 BeautifulSoup = None
 Comment = None
@@ -263,7 +297,16 @@ TITLE_ATTRIBUTE_TRANSLATORS = (
     ("meta", {"name": "twitter:title"}, "content"),
 )
 
-TEXT_ATTRIBUTES = ("aria-label", "placeholder", "title", "alt")
+TEXT_ATTRIBUTES = (
+    "aria-label",
+    "placeholder",
+    "title",
+    "alt",
+    "data-nav-label",
+    "data-topic",
+    "data-section-image-alt",
+    "data-section-image-description",
+)
 SAME_SITE_HOSTS = {"immigratetobrazil.com", "www.immigratetobrazil.com"}
 SHARED_SCHEMA_FRAGMENT_PREFIXES = (
     "organization",
@@ -527,6 +570,15 @@ def discover_english_routes() -> list[tuple[str, Path]]:
     return sorted(route_files, key=lambda item: item[0])
 
 
+def discover_english_partials() -> list[tuple[str, Path]]:
+    if not PARTIALS_EN_DIR.exists():
+        return []
+    return sorted(
+        ((entry.name, entry) for entry in PARTIALS_EN_DIR.iterdir() if entry.is_file() and entry.suffix == ".html"),
+        key=lambda item: item[0],
+    )
+
+
 def normalize_translatable_text(value: str) -> str:
     normalized = value.strip()
     for _ in range(4):
@@ -576,7 +628,9 @@ def should_skip_translation(value: str) -> bool:
     if not re.search(r"[A-Za-z]", clean):
         return True
     if re.fullmatch(r"[A-Z0-9/&+_.\- ]{2,}", clean):
-        return True
+        compact = re.sub(r"[^A-Z]", "", clean)
+        if len(clean.split()) == 1 and len(compact) <= 4:
+            return True
     if clean.startswith("http://") or clean.startswith("https://"):
         return True
     if "@" in clean and " " not in clean:
@@ -945,7 +999,9 @@ class PtGenerator:
         self.glossary = load_json(GLOSSARY_PATH, {})
         self.overrides = load_json(OVERRIDES_PATH, {"global": {}, "routes": {}})
         self.memory = load_translation_memory(MEMORY_PATH, provider=self.provider)
-        self.manifest = load_json(MANIFEST_PATH, {"generator_version": GENERATOR_VERSION, "routes": {}})
+        self.manifest = load_json(MANIFEST_PATH, {"generator_version": GENERATOR_VERSION, "routes": {}, "partials": {}})
+        self.manifest.setdefault("routes", {})
+        self.manifest.setdefault("partials", {})
         self._engine = None
 
         if clear_memory:
@@ -1423,6 +1479,32 @@ class PtGenerator:
                 lambda text: normalize_translatable_text(self.translate_text(text, "")),
             )
 
+    def localize_form_metadata(self, soup: BeautifulSoup, route: str) -> None:
+        for form in soup.find_all("form"):
+            group = form.get("data-formspree-group")
+            if group:
+                form["data-formspree-group"] = re.sub(r"-en\b", "-pt", group)
+
+        for input_tag in soup.find_all("input"):
+            name = (input_tag.get("name") or "").strip()
+            if not name or not input_tag.has_attr("value"):
+                continue
+            value = str(input_tag.get("value") or "")
+            if not value:
+                continue
+
+            if name == "form_name":
+                input_tag["value"] = re.sub(r"-en\b", "-pt", value)
+            elif name == "_subject":
+                translated = normalize_translatable_text(self.translate_text(value, route))
+                input_tag["value"] = re.sub(r"\|\s*EN\b", "| PT", translated)
+            elif name in {"message", "feedback_scope"}:
+                input_tag["value"] = normalize_translatable_text(self.translate_text(value, route))
+            elif name == "page_route":
+                input_tag["value"] = localize_internal_url(value)
+            elif name == "page_title":
+                input_tag["value"] = self.translate_title_like(value, route)
+
     def translate_attributes(self, soup: BeautifulSoup, route: str) -> None:
         for tag in soup.find_all(True):
             if tag.select_one(".lang-switcher.lang-switcher--minimal"):
@@ -1457,6 +1539,7 @@ class PtGenerator:
         self.patch_head_metadata(soup, route)
         self.patch_language_switcher(soup, route)
         self.rewrite_internal_links(soup)
+        self.localize_form_metadata(soup, route)
         self.patch_json_ld(soup, route)
         self.patch_window_config(soup, route)
         self.translate_attributes(soup, route)
@@ -1480,6 +1563,31 @@ class PtGenerator:
             "npm run translate:pt. -->"
         )
         return f"<!DOCTYPE html>\n{comment}\n{rendered}\n"
+
+    def render_pt_fragment(self, source_html: str, key: str) -> str:
+        soup = BeautifulSoup(source_html, HTML_PARSER)
+        self.prime_translations(soup, key)
+        self.rewrite_internal_links(soup)
+        self.localize_form_metadata(soup, key)
+        self.translate_attributes(soup, key)
+        self.translate_dom_text(soup, key)
+        self.localize_brand_wordmarks(soup)
+
+        rendered_nodes: list[str] = []
+        for node in soup.contents:
+            if isinstance(node, Comment):
+                rendered_nodes.append(f"<!--{node}-->")
+                continue
+            if getattr(node, "name", None) == "html" and getattr(node, "body", None) is not None:
+                for child in node.body.contents:
+                    if isinstance(child, str) and not child.strip():
+                        continue
+                    rendered_nodes.append(str(child))
+                continue
+            if isinstance(node, str) and not node.strip():
+                continue
+            rendered_nodes.append(str(node))
+        return "".join(rendered_nodes).rstrip() + "\n"
 
     def translate_title_like(self, original: str, route: str) -> str:
         source = normalize_translatable_text(original)
@@ -1523,19 +1631,32 @@ class PtGenerator:
                 target_file.unlink()
             self.manifest["routes"].pop(route, None)
 
+    def prune_removed_partials(self, current_partials: set[str]) -> None:
+        stale_partials = [name for name in self.manifest.get("partials", {}) if name not in current_partials]
+        for name in stale_partials:
+            target_file = PARTIALS_PT_DIR / name
+            if target_file.exists():
+                target_file.unlink()
+            self.manifest["partials"].pop(name, None)
+
     def persist_state(self) -> None:
         self.manifest["generator_version"] = GENERATOR_VERSION
         write_translation_memory(MEMORY_PATH, self.memory, provider=self.provider)
         write_json(MANIFEST_PATH, self.manifest)
 
-    def generate(self) -> tuple[int, int, int]:
+    def generate(self) -> tuple[int, int, int, int, int]:
         route_files = discover_english_routes()
         current_routes = {route for route, _ in route_files}
         self.prune_removed_routes(current_routes)
+        partial_files = discover_english_partials()
+        current_partials = {name for name, _ in partial_files}
+        self.prune_removed_partials(current_partials)
 
         patched_english = 0
         generated_pt = 0
         skipped_cached = 0
+        generated_partials = 0
+        skipped_cached_partials = 0
         prepared_routes: list[tuple[str, str]] = []
 
         for route, file_path in route_files:
@@ -1555,6 +1676,13 @@ class PtGenerator:
         print(f"Prepared {len(prepared_routes)} English routes for pt-BR generation.", flush=True)
         global_strings: set[str] = set()
         for route, source_html in prepared_routes:
+            soup = BeautifulSoup(source_html, HTML_PARSER)
+            global_strings.update(self.collect_page_strings(soup))
+
+        prepared_partials: list[tuple[str, str]] = []
+        for name, file_path in partial_files:
+            source_html = file_path.read_text(encoding="utf8")
+            prepared_partials.append((name, source_html))
             soup = BeautifulSoup(source_html, HTML_PARSER)
             global_strings.update(self.collect_page_strings(soup))
 
@@ -1589,8 +1717,35 @@ class PtGenerator:
             if generated_pt % 10 == 0:
                 print(f"Generated {generated_pt}/{len(prepared_routes)} pt-BR pages...", flush=True)
 
+        PARTIALS_PT_DIR.mkdir(parents=True, exist_ok=True)
+        for name, source_html in prepared_partials:
+            target_file = PARTIALS_PT_DIR / name
+            partial_key = f"partial::{name}"
+            source_hash = sha256_text(source_html + self.config_hash_for(partial_key))
+            manifest_entry = self.manifest.get("partials", {}).get(name, {})
+            cache_matches = manifest_entry.get("source_hash") == source_hash and target_file.exists()
+
+            if (not self.force and cache_matches) or (self.force and self.resume and cache_matches):
+                skipped_cached_partials += 1
+                continue
+
+            rendered_html = self.render_pt_fragment(source_html, partial_key)
+            target_file.write_text(rendered_html, encoding="utf8")
+            self.manifest.setdefault("partials", {})[name] = {
+                "source_hash": source_hash,
+            }
+            self.persist_state()
+            generated_partials += 1
+
+        if prepared_partials:
+            print(
+                f"Generated {generated_partials}/{len(prepared_partials)} pt-BR partials and skipped "
+                f"{skipped_cached_partials} cached partials.",
+                flush=True,
+            )
+
         self.persist_state()
-        return patched_english, generated_pt, skipped_cached
+        return patched_english, generated_pt, skipped_cached, generated_partials, skipped_cached_partials
 
 
 def normalize_route_input(route: str) -> str:
@@ -1681,10 +1836,11 @@ def main() -> int:
         provider=args.provider,
         routes=normalized_routes,
     )
-    patched_english, generated_pt, skipped_cached = generator.generate()
+    patched_english, generated_pt, skipped_cached, generated_partials, skipped_cached_partials = generator.generate()
     print(
         f"Patched {patched_english} English pages, generated {generated_pt} pt-BR pages, "
-        f"and skipped {skipped_cached} cached routes."
+        f"skipped {skipped_cached} cached routes, generated {generated_partials} pt-BR partials, "
+        f"and skipped {skipped_cached_partials} cached partials."
     )
     return 0
 

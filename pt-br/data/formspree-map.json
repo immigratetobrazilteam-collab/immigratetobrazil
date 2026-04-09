@@ -1,5 +1,10 @@
 [
   {
+    "route": "/pt-br/client-feedback/",
+    "title": "Feedback do cliente",
+    "endpoint": "https://formspree.io/f/xdawygld"
+  },
+  {
     "route": "/pt-br/start-consultation/",
     "title": "Solicite uma Consulta",
     "endpoint": "https://formspree.io/f/xdawygld"
