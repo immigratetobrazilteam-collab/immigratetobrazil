@@ -11,7 +11,13 @@ import {
   resolveLocalPath
 } from "./static-site-utils.js";
 import { buildRouteGroups, expectedAlternateLinks } from "./html-normalize-utils.js";
-import { absoluteUrl, baseRouteFor, localeForRoute } from "./sitemap-utils.js";
+import {
+  absoluteUrl,
+  baseRouteFor,
+  childSitemapRoute,
+  localeForRoute,
+  sectionForRoute
+} from "./sitemap-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -19,7 +25,6 @@ const CANONICAL_RE = /<link\b(?=[^>]*\brel=["']canonical["'])(?=[^>]*\bhref=["']
 const ALTERNATE_RE =
   /<link\b(?=[^>]*\brel=["']alternate["'])(?=[^>]*\bhreflang=["']([^"']+)["'])(?=[^>]*\bhref=["']([^"']+)["'])[^>]*>/gi;
 const ROBOTS_RE = /<meta\b(?=[^>]*\bname=["']robots["'])(?=[^>]*\bcontent=["']([^"']+)["'])[^>]*>/i;
-const LOC_RE = /<loc>([^<]+)<\/loc>/gi;
 const ROOT_NOINDEX_SEGMENTS = new Set(["search", "404"]);
 
 function localeDataPath(locale, fileName) {
@@ -42,15 +47,33 @@ function shouldBeNoindex(route) {
   return segments.some((segment) => ROOT_NOINDEX_SEGMENTS.has(segment));
 }
 
-function routesFromSitemap(xml) {
+function valuesFromSitemapIndex(xml) {
   const routes = [];
-  for (const match of xml.matchAll(LOC_RE)) {
+  const pattern = /<sitemap>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<\/sitemap>/gi;
+
+  for (const match of xml.matchAll(pattern)) {
     try {
       routes.push(new URL(match[1]).pathname || "/");
     } catch {
       routes.push(match[1]);
     }
   }
+
+  return routes.sort();
+}
+
+function routesFromUrlSitemap(xml) {
+  const routes = [];
+  const pattern = /<url>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/gi;
+
+  for (const match of xml.matchAll(pattern)) {
+    try {
+      routes.push(new URL(match[1]).pathname || "/");
+    } catch {
+      routes.push(match[1]);
+    }
+  }
+
   return routes.sort();
 }
 
@@ -156,12 +179,37 @@ async function main() {
   if (!existsSync(sitemapPath)) {
     failures.push("Missing sitemap.xml");
   } else {
-    const sitemapXml = await fs.readFile(sitemapPath, "utf8");
-    const actualRoutes = routesFromSitemap(sitemapXml);
+    const sitemapIndexXml = await fs.readFile(sitemapPath, "utf8");
+    const actualChildSitemapRoutes = valuesFromSitemapIndex(sitemapIndexXml);
+    const expectedChildSitemapRoutes = [
+      ...new Set(expectedSitemapRoutes.map((route) => childSitemapRoute(sectionForRoute(route))))
+    ].sort();
+
+    if (!compareStringSets(actualChildSitemapRoutes, expectedChildSitemapRoutes)) {
+      failures.push("Sitemap index is out of sync");
+    }
+
+    const actualRoutes = [];
+    for (const childRoute of expectedChildSitemapRoutes) {
+      const childPath = path.join(ROOT, childRoute.replace(/^\//, ""));
+      if (!existsSync(childPath)) {
+        failures.push(`Missing child sitemap ${childRoute}`);
+        continue;
+      }
+
+      const childXml = await fs.readFile(childPath, "utf8");
+      actualRoutes.push(...routesFromUrlSitemap(childXml));
+    }
+
     const expectedRoutes = [...new Set(expectedSitemapRoutes)].sort();
-    if (!compareStringSets(actualRoutes, expectedRoutes)) {
+    if (!compareStringSets(actualRoutes.sort(), expectedRoutes)) {
       failures.push("Sitemap routes are out of sync");
     }
+  }
+
+  const sitemapStylesheetPath = path.join(ROOT, "sitemap.xsl");
+  if (!existsSync(sitemapStylesheetPath)) {
+    failures.push("Missing sitemap.xsl");
   }
 
   const robotsPath = path.join(ROOT, "robots.txt");

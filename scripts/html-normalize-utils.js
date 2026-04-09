@@ -5,6 +5,7 @@ import { absoluteUrl, baseRouteFor, localeForRoute } from "./sitemap-utils.js";
 
 const CANONICAL_SECTION_RE =
   /<!-- Section: Canonical And Language Alternates -->[\s\S]*?(?=<!-- Section: Preloaded Assets -->)/i;
+const CANONICAL_SECTION_COMMENT_RE = /\s*<!-- Section: Canonical And Language Alternates -->\s*/gi;
 const CANONICAL_LINK_RE = /\s*<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>\s*/gi;
 const ALTERNATE_LINK_RE = /\s*<link\b(?=[^>]*\brel=["']alternate["'])(?=[^>]*\bhreflang=["'][^"']+["'])[^>]*>\s*/gi;
 const HEAD_CLOSE_RE = /<\/head>/i;
@@ -84,6 +85,7 @@ function normalizeCanonicalSection(html, route, routeGroups) {
   if (!HEAD_CLOSE_RE.test(html)) return html;
 
   const strippedHead = html
+    .replace(CANONICAL_SECTION_COMMENT_RE, "\n")
     .replace(CANONICAL_LINK_RE, "\n")
     .replace(ALTERNATE_LINK_RE, "\n");
 

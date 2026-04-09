@@ -22,7 +22,7 @@ English pages now live in `content/en/` and generate the checked-in HTML output.
 - `npm run sync:data`
   Regenerates English HTML and refreshes search/build/supporting JSON files.
 - `npm run generate:sitemap`
-  Regenerates `sitemap.xml` and `robots.txt` from the current checked-in HTML routes.
+  Regenerates the sitemap index at `sitemap.xml`, the child XML files in `sitemaps/`, `sitemap.xsl`, and `robots.txt` from the current checked-in HTML routes.
 - `npm run images:sections`
   Scans `content/en/routes/...` and generates the site-wide section query/image manifests.
 - `npm run images:sections:bootstrap`

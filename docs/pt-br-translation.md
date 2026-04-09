@@ -110,4 +110,4 @@ The PT workflow also maintains:
 - `/pt-br/data/formspree-map.json`
 - `/pt-br/404.html`
 
-Root `sitemap.xml` includes both English and Portuguese URLs.
+Root `sitemap.xml` is a sitemap index that includes both English and Portuguese URLs through the generated child files in `sitemaps/`.

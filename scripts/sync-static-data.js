@@ -11,7 +11,7 @@ import {
   wordCount
 } from "./static-site-utils.js";
 import { normalizeRouteHtmlFiles } from "./html-normalize-utils.js";
-import { buildRobots, buildSitemap, localeForRoute } from "./sitemap-utils.js";
+import { buildSitemapArtifacts, localeForRoute, resolveLastmodByFile } from "./sitemap-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -54,6 +54,10 @@ async function sync404(routeFilesByRoute) {
 async function main() {
   const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
   const normalization = await normalizeRouteHtmlFiles(ROOT, routeFiles);
+  const lastmodByFile = await resolveLastmodByFile(
+    ROOT,
+    routeFiles.map((page) => page.filePath)
+  );
   const routeFilesByRoute = new Map(routeFiles.map((item) => [item.route, item]));
   const localeBuckets = {
     en: { searchIndex: [], buildReport: [], formMap: [] },
@@ -82,7 +86,11 @@ async function main() {
       bucket.formMap.push(buildFormMapEntry(page.route, pageData.title, endpoint));
     }
 
-    sitemapEntries.push({ route: page.route, noindex: pageData.noindex });
+    sitemapEntries.push({
+      route: page.route,
+      noindex: pageData.noindex,
+      lastmod: lastmodByFile.get(path.resolve(page.filePath)) || ""
+    });
   }
 
   await sync404(routeFilesByRoute);
@@ -94,8 +102,10 @@ async function main() {
   }
 
   await writeFile(path.join(ROOT, "docs", "formspree-map.md"), buildFormMapMarkdown(localeBuckets.en.formMap));
-  await writeFile(path.join(ROOT, "sitemap.xml"), buildSitemap(sitemapEntries));
-  await writeFile(path.join(ROOT, "robots.txt"), buildRobots());
+  const sitemapArtifacts = buildSitemapArtifacts(sitemapEntries);
+  for (const file of sitemapArtifacts.files) {
+    await writeFile(path.join(ROOT, file.path), file.content);
+  }
 
   const enSearchCount = localeBuckets.en.searchIndex.length;
   const ptSearchCount = localeBuckets["pt-br"].searchIndex.length;

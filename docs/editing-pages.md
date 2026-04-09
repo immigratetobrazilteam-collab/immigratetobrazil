@@ -49,6 +49,8 @@ The Portuguese workflow is incremental:
 - `/404.html` from `/legal/404/index.html`
 - `/pt-br/404.html` from `/pt-br/legal/404/index.html`
 - `/sitemap.xml`
+- `/sitemap.xsl`
+- `/sitemaps/*.xml`
 - `/robots.txt`
 
 ## How to find a page fast

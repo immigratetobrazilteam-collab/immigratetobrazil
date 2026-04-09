@@ -689,7 +689,9 @@ def localize_internal_url(url: str) -> str:
         return url
     if path_value.startswith("/pt-br/") or path_value == "/pt-br/":
         return url
-    if path_value in {"/robots.txt", "/sitemap.xml", "/404.html"}:
+    if path_value in {"/robots.txt", "/sitemap.xml", "/sitemap.xsl", "/404.html"}:
+        return url
+    if path_value.startswith("/sitemaps/"):
         return url
     if path_value.startswith("/assets/") or path_value.startswith("/css/") or path_value.startswith("/js/"):
         return url
