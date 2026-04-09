@@ -5,7 +5,9 @@
    * the module keeps its own observer/listener state and idempotent bindings.
    * ========================================================================== */
   const consentKey = "itb-consent";
-  let gtmLoaded = false;
+  let analyticsBootstrapped = false;
+  let analyticsConfigured = false;
+  let pageViewTracked = false;
   let stickyObserver = null;
   let scrollBound = false;
   let escapeBound = false;
@@ -175,33 +177,98 @@
     return window.ITB_SITE || {};
   }
 
-  function loadGtm() {
-    const config = getConfig();
-    if (gtmLoaded || !config.tracking?.gtmId) return;
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtm.js?id=${config.tracking.gtmId}`;
-    document.head.appendChild(script);
+  function getTrackingConfig() {
+    const tracking = getConfig().tracking || {};
+    return {
+      ga4Id: typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : ""
+    };
+  }
+
+  function buildConsentState(granted) {
+    return {
+      ad_storage: granted ? "granted" : "denied",
+      analytics_storage: granted ? "granted" : "denied",
+      ad_user_data: granted ? "granted" : "denied",
+      ad_personalization: granted ? "granted" : "denied"
+    };
+  }
+
+  function bootstrapAnalytics() {
+    const { ga4Id } = getTrackingConfig();
+    if (analyticsBootstrapped || !ga4Id) return;
+
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: "gtm.js",
-      page_title: config.pageTitle,
-      page_route: config.pageRoute,
-      ga4_id: config.tracking.ga4Id
+    window.gtag =
+      window.gtag ||
+      function gtag() {
+        window.dataLayer.push(arguments);
+      };
+
+    window.gtag("set", "ads_data_redaction", true);
+    window.gtag("consent", "default", {
+      ...buildConsentState(false),
+      wait_for_update: 500
     });
-    window.dataLayer.push({
-      event: "page_view",
-      page_title: config.pageTitle,
-      page_path: config.pageRoute,
+    window.gtag("js", new Date());
+
+    if (!document.querySelector(`script[data-itb-analytics="ga4"][src*="${ga4Id}"]`)) {
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4Id)}`;
+      script.dataset.itbAnalytics = "ga4";
+      document.head.appendChild(script);
+    }
+
+    analyticsBootstrapped = true;
+  }
+
+  function configureAnalytics() {
+    const config = getConfig();
+    const { ga4Id } = getTrackingConfig();
+    if (!ga4Id) return;
+
+    bootstrapAnalytics();
+    if (analyticsConfigured || typeof window.gtag !== "function") return;
+
+    window.gtag("config", ga4Id, {
+      send_page_view: false,
+      page_title: config.pageTitle || document.title || "",
+      page_path: config.pageRoute || window.location.pathname,
       page_location: window.location.href
     });
-    gtmLoaded = true;
+
+    analyticsConfigured = true;
+  }
+
+  function updateAnalyticsConsent(granted) {
+    const { ga4Id } = getTrackingConfig();
+    if (!ga4Id) return;
+
+    bootstrapAnalytics();
+    if (typeof window.gtag !== "function") return;
+
+    window.gtag("consent", "update", buildConsentState(granted));
+  }
+
+  function analyticsEnabled() {
+    return analyticsConfigured && typeof window.gtag === "function";
+  }
+
+  function trackPageView() {
+    const config = getConfig();
+    if (!analyticsEnabled() || pageViewTracked) return;
+
+    window.gtag("event", "page_view", {
+      page_title: config.pageTitle || document.title || "",
+      page_path: config.pageRoute || window.location.pathname,
+      page_location: window.location.href
+    });
+    pageViewTracked = true;
   }
 
   function track(eventName, payload) {
-    if (!gtmLoaded) return;
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: eventName, ...payload });
+    if (!analyticsEnabled()) return;
+    window.gtag("event", eventName, payload || {});
   }
 
   /* ==========================================================================
@@ -556,11 +623,16 @@
 
   /* ==========================================================================
    * 09. Consent and Analytics Bindings
-   * Consent gating, GTM loading, and shared analytics click bindings.
+   * Consent-aware GA4 loading and shared analytics click bindings.
    * ========================================================================== */
   function initConsentAndTracking() {
     const config = getConfig();
-    if (localStorage.getItem(consentKey) === "accepted") loadGtm();
+    const storedConsent = localStorage.getItem(consentKey);
+    bootstrapAnalytics();
+    if (storedConsent === "accepted") updateAnalyticsConsent(true);
+    else if (storedConsent === "declined") updateAnalyticsConsent(false);
+    configureAnalytics();
+    trackPageView();
 
     const cookieBanner = document.querySelector("[data-cookie-banner]");
     const syncCookieBannerVisibility = () => {
@@ -589,8 +661,11 @@
         localStorage.setItem(consentKey, choice === "accept" ? "accepted" : "declined");
         syncCookieBannerVisibility();
         if (choice === "accept") {
-          loadGtm();
+          updateAnalyticsConsent(true);
           track("analytics_consent_granted", { page_route: config.pageRoute });
+        } else {
+          updateAnalyticsConsent(false);
+          track("analytics_consent_declined", { page_route: config.pageRoute });
         }
       });
       button.dataset.itbBoundConsent = "true";
@@ -651,7 +726,134 @@
   }
 
   /* ==========================================================================
-   * 10. Client Experience UI
+   * 10. Services Directory Rendering
+   * Renders the premium service atlas from page-local JSON so EN/PT pages can
+   * share one predictable card layout without duplicating dozens of card blocks.
+   * ========================================================================== */
+  function initServicesDirectory() {
+    const dataNode = document.getElementById("services-directory-data");
+    if (!dataNode || dataNode.dataset.itbServicesRendered === "true") return;
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    let directoryData;
+    try {
+      directoryData = JSON.parse(dataNode.textContent || "{}");
+    } catch (error) {
+      console.error("Could not parse services directory data.", error);
+      return;
+    }
+
+    const families = directoryData.families || {};
+    const exploreLabel = directoryData.exploreLabel || "Explore service";
+    const consultLabel = directoryData.consultLabel || "Book consultation";
+
+    Object.entries(families).forEach(([familyKey, family]) => {
+      const services = Array.isArray(family?.services) ? family.services : [];
+      document.querySelectorAll(`[data-services-directory-grid="${familyKey}"]`).forEach((grid) => {
+        if (grid.dataset.itbServicesRendered === "true") return;
+
+        grid.innerHTML = services
+          .map((service) => {
+            const related = service.related
+              ? `<p class="services-directory-card__related">${escapeHtml(service.related.prefix)} <a href="${escapeHtml(
+                  service.related.href
+                )}">${escapeHtml(service.related.label)}</a></p>`
+              : "";
+
+            return `<article class="services-directory-card services-directory-card--${escapeHtml(familyKey)}">
+  <div class="services-directory-card__top">
+    <span class="services-directory-card__eyebrow">${escapeHtml(family.eyebrow || "")}</span>
+    <span class="services-directory-card__icon" aria-hidden="true"></span>
+  </div>
+  <h3><a href="${escapeHtml(service.href)}">${escapeHtml(service.label)}</a></h3>
+  <p>${escapeHtml(service.description)}</p>
+  ${related}
+  <div class="services-directory-card__actions">
+    <a class="btn btn-secondary btn-sm" href="${escapeHtml(service.href)}">${escapeHtml(exploreLabel)}</a>
+    <a class="btn btn-cta btn-sm" href="${escapeHtml(service.consultationHref)}" data-cta-click="true">${escapeHtml(
+      consultLabel
+    )}</a>
+  </div>
+</article>`;
+          })
+          .join("");
+
+        grid.dataset.itbServicesRendered = "true";
+      });
+    });
+
+    dataNode.dataset.itbServicesRendered = "true";
+  }
+
+  /* ==========================================================================
+   * 11. Consultation Query Prefill
+   * Service-aware CTAs can carry an exact service value plus an optional topic
+   * hint so the consultation forms open with useful context already selected.
+   * ========================================================================== */
+  function initConsultationPrefill() {
+    const params = new URLSearchParams(window.location.search);
+    const rawService = params.get("service_interest");
+    const rawTopic = params.get("topic_interest");
+    if (!rawService && !rawTopic) return;
+
+    function normalize(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+    }
+
+    const aliasMap = {
+      "digital nomad visa": "Nomad Visa",
+      "educational exchange visa": "Exchange Visa",
+      "family reunion residency": "Reunion Residency",
+      "retirement residency": "Retiree Residency",
+      "citizenship": "Not sure yet",
+      "naturalisation": "Not sure yet",
+      "naturalization": "Not sure yet",
+      "advisory": "Not sure yet",
+      "residency": "Not sure yet",
+      "corporate immigration": "Corporate",
+      "deportation defense": "Deportation",
+      "expulsion defense": "Expulsion",
+      "extradition defense": "Extradition",
+      "consular records": "Consular",
+      "regularisation": "Regularization",
+      "renunciation of nationality": "Renunciation Naturalisation",
+      "reacquisition of nationality": "Reacquisition Naturalisation"
+    };
+
+    const normalizedService = normalize(rawService);
+    const fallbackService = aliasMap[normalizedService] || rawService;
+    const topicValue = rawTopic || (fallbackService === "Not sure yet" && rawService ? rawService : "");
+
+    document.querySelectorAll("form").forEach((form) => {
+      const select = form.querySelector("select[name='service_interest']");
+      if (select) {
+        const options = [...select.options];
+        const matched = options.find((option) => normalize(option.value) === normalize(fallbackService));
+        const unsure = options.find((option) => normalize(option.value) === "not sure yet");
+        if (matched) select.value = matched.value;
+        else if (unsure && (rawService || rawTopic)) select.value = unsure.value;
+      }
+
+      const topicInput = form.querySelector("input[name='topic_interest']");
+      if (topicInput) topicInput.value = topicValue;
+    });
+  }
+
+  /* ==========================================================================
+   * 12. Client Experience UI
    * Applies value-based color grading to the 0-10 scale and staggers proof bars.
    * ========================================================================== */
   function initClientExperienceUi() {
@@ -691,7 +893,7 @@
   }
 
   /* ==========================================================================
-   * 11. Scroll-State UI
+   * 13. Scroll-State UI
    * Floating back-to-top behavior and sticky-shell scroll classes.
    * ========================================================================== */
   function initBackToTop() {
@@ -734,7 +936,7 @@
   }
 
   /* ==========================================================================
-   * 12. Reveal-On-Scroll
+   * 14. Reveal-On-Scroll
    * Footer sections stay out to avoid partial-load visibility issues.
    * ========================================================================== */
   function initRevealTargets() {
@@ -770,7 +972,7 @@
   }
 
   /* ==========================================================================
-   * 13. Shared Icon Refresh
+   * 15. Shared Icon Refresh
    * Replaces repeated generic SVGs with context-aware icons after partial load.
    * ========================================================================== */
   function initIconRefresh() {
@@ -882,7 +1084,7 @@
   }
 
   /* ==========================================================================
-   * 14. Sitemap generator control
+   * 16. Sitemap generator control
    * Adds a client-friendly trigger in the footer for local/dev mode.
    * ========================================================================== */
   function initSitemapGenerator() {
@@ -910,7 +1112,7 @@
   }
 
   /* ==========================================================================
-   * 15. Public Init API
+   * 17. Public Init API
    * Used both directly and after runtime partial injection.
    * ========================================================================== */
   function initSite() {
@@ -918,7 +1120,9 @@
     initActiveRouteState();
     initNav();
     initAccordion();
+    initServicesDirectory();
     initConsentAndTracking();
+    initConsultationPrefill();
     initClientExperienceUi();
     buildPageMap();
     initBackToTop();

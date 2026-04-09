@@ -19,7 +19,10 @@ const HERO_SUMMARY_RE = /(<p class="hero-summary">)([\s\S]*?)(<\/p>)/i;
 const H1_RE = /(<h1\b[^>]*>)([\s\S]*?)(<\/h1>)/i;
 const BRAND_NOTE_RE = /(<p class="hero-brand-note">)([\s\S]*?)(<\/p>)/i;
 const HERO_SRC_RE = /<img class="hero-media"[^>]*src="([^"]*)"/i;
-const ROBOTS_ROUTE_SEGMENTS = new Set(["search", "404"]);
+const TITLE_SECTION_RE = /<!-- Section: Title -->/i;
+const ROBOTS_ROUTE_SEGMENTS = new Set(["search", "404", "client-feedback"]);
+const GOOGLE_SITE_VERIFICATION_TOKEN = "V_VZqx1NiakXTqLhWGFq83By48pnyeKglU8se9hGZIo";
+const GOOGLE_SITE_VERIFICATION_ROUTES = new Set(["/", "/pt-br/"]);
 const GENERIC_ARCHIVE_TITLE_PATTERNS = {
   en: [
     /^brazilian citizenship and naturalisation planning\.?$/i,
@@ -241,6 +244,21 @@ function replaceMetaTag(html, attr, key, value) {
   );
   const replacement = `<meta ${attr}="${key}" content="${safeValue}" />`;
   return pattern.test(html) ? html.replace(pattern, () => replacement) : html;
+}
+
+function upsertMetaTag(html, attr, key, value) {
+  const replaced = replaceMetaTag(html, attr, key, value);
+  if (replaced !== html) return replaced;
+
+  const safeValue = escapeAttribute(decodeHtml(value));
+  const tag = `<meta ${attr}="${key}" content="${safeValue}" />`;
+  if (TITLE_SECTION_RE.test(html)) return html.replace(TITLE_SECTION_RE, `${tag}\n\n<!-- Section: Title -->`);
+  return html.replace(/<\/head>/i, `${tag}\n</head>`);
+}
+
+function ensureGoogleSiteVerification(html, route) {
+  if (!GOOGLE_SITE_VERIFICATION_ROUTES.has(route)) return html;
+  return upsertMetaTag(html, "name", "google-site-verification", GOOGLE_SITE_VERIFICATION_TOKEN);
 }
 
 function replaceTitle(html, value) {
@@ -827,6 +845,7 @@ async function main() {
     const locale = localeForRoute(entry.route);
     let html = await fs.readFile(entry.filePath, "utf8");
     html = replaceMetaTag(html, "name", "robots", expectedRobots(entry.route));
+    html = ensureGoogleSiteVerification(html, entry.route);
 
     let archiveMeta = null;
     if (isInsightArticleRoute(entry.route)) {
