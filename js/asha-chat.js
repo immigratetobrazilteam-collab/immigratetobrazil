@@ -2620,7 +2620,8 @@
     document.addEventListener("click", (event) => {
       const state = sharedState.get(widget);
       if (!state?.isOpen) return;
-      if (widget.contains(event.target)) return;
+      const eventPath = typeof event.composedPath === "function" ? event.composedPath() : [];
+      if (eventPath.includes(widget) || widget.contains(event.target)) return;
       closeWidget(widget);
     });
     document.addEventListener("keydown", (event) => {

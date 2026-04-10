@@ -30,6 +30,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://immigratetobrazil.com/about/about/" />
   </url>
   <url>
+    <loc>https://immigratetobrazil.com/about/atlas/</loc>
+    <lastmod>2026-04-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://immigratetobrazil.com/about/atlas/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://immigratetobrazil.com/about/atlas/" />
+  </url>
+  <url>
     <loc>https://immigratetobrazil.com/about/clients/</loc>
     <lastmod>2026-04-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://immigratetobrazil.com/about/clients/" />

@@ -1,0 +1,69 @@
+{
+  "route": "/about/atlas/",
+  "lang": "en",
+  "bodyClass": "site-root page-about-atlas family-about style-about",
+  "meta": {
+    "themeColor": "#2E2E2E",
+    "description": "Meet Monique Fernandes, the OAB-registered Brazilian immigration attorney behind Immigrate to Brazil, and explore her story, standards, services, and public client proof in one place.",
+    "robots": "index,follow",
+    "title": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "preloadImage": "/assets/mf-assets/img/profile/home/monique-fernandes-home-portrait-960.webp"
+  },
+  "social": {
+    "ogType": "website",
+    "ogTitle": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "ogDescription": "Meet Monique Fernandes, the OAB-registered Brazilian immigration attorney behind Immigrate to Brazil, and explore her story, standards, services, and public client proof in one place.",
+    "ogImage": "https://immigratetobrazil.com/assets/mf-assets/img/profile/home/monique-fernandes-home-portrait-960.webp",
+    "ogImageAlt": "Portrait of attorney Monique Fernandes on the About Monique Fernandes page.",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "twitterDescription": "Meet Monique Fernandes, the OAB-registered Brazilian immigration attorney behind Immigrate to Brazil, and explore her story, standards, services, and public client proof in one place.",
+    "twitterImage": "https://immigratetobrazil.com/assets/mf-assets/img/profile/home/monique-fernandes-home-portrait-960.webp",
+    "twitterImageAlt": "Portrait of attorney Monique Fernandes on the About Monique Fernandes page."
+  },
+  "runtime": {
+    "pageTitle": "About Monique Fernandes",
+    "pageFamily": "about"
+  },
+  "shell": {
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Atlas",
+        "current": true
+      }
+    ],
+    "sidebar": {
+      "brand": {
+        "note": "A warm, honest summary of Monique Fernandes, the standards behind her Brazil immigration practice, the services she offers, and the public proof visitors can review before deciding to reach out."
+      },
+      "nextStep": {
+        "lead": "Use consultation if you want Monique Fernandes to review your route, timeline, and documents with real legal care. Use WhatsApp if you want quick help deciding whether consultation is the right next step.",
+        "actions": [
+          {
+            "className": "btn btn-cta btn-sm",
+            "href": "/start-consultation/",
+            "label": "Start Consultation",
+            "track": "cta"
+          },
+          {
+            "className": "btn btn-secondary btn-sm",
+            "href": "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+            "label": "WhatsApp",
+            "track": "whatsapp"
+          }
+        ],
+        "note": "Public proof on this page comes from Results, Testimonials, and Google reviews. Confidential client feedback is not published here."
+      }
+    },
+    "officialResources": [],
+    "relatedLinks": []
+  }
+}

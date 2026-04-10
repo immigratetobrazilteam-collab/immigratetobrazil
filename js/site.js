@@ -936,6 +936,7 @@
    * Consent-aware GA4 loading and shared analytics click bindings.
    * ========================================================================== */
   function initConsentAndTracking() {
+    const config = getConfig();
     const storedConsent = localStorage.getItem(consentKey);
     if (storedConsent === "accepted") {
       configureAnalytics();
@@ -1311,6 +1312,80 @@
         capture_mode: mode
       });
     }
+  }
+
+  function bindAtlasConsultationForms() {
+    document.querySelectorAll("[data-itb-atlas-form='true']").forEach((form) => {
+      if (form.dataset.itbBoundAtlasForm === "true") return;
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        submitAtlasConsultationForm(form).catch((error) => console.error(error));
+      });
+      form.dataset.itbBoundAtlasForm = "true";
+    });
+  }
+
+  function buildAtlasConsultationSuccess() {
+    return `
+      <div class="atlas-form-success" data-itb-atlas-form-success="true">
+        <p class="atlas-form-success__eyebrow">Request received</p>
+        <h3>Thank you for taking this next step with Monique Fernandes.</h3>
+        <p>Your consultation request and any uploaded documents have been sent for manual review. If the matter is urgent, you can use WhatsApp after submitting to flag timing concerns.</p>
+        <div class="atlas-form-success__actions">
+          <a class="btn btn-secondary btn-sm" href="https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0">Open WhatsApp</a>
+          <a class="btn btn-outline btn-sm" href="/process/consultation/">Read about consultations</a>
+        </div>
+      </div>
+    `;
+  }
+
+  async function submitAtlasConsultationForm(form) {
+    if (!form || form.dataset.state === "submitting") return;
+
+    const statusNode = form.querySelector("[data-itb-atlas-form-status]");
+    const submitButton = form.querySelector("button[type='submit']");
+    if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+      return;
+    }
+
+    form.dataset.state = "submitting";
+    if (submitButton) submitButton.disabled = true;
+    if (statusNode) statusNode.textContent = "Sending your consultation request to Monique Fernandes...";
+
+    const payload = new FormData(form);
+    payload.set("page_route", getConfig().pageRoute || window.location.pathname);
+    payload.set("page_title", getConfig().pageTitle || document.title || "");
+
+    try {
+      const response = await fetch(form.getAttribute("action") || "https://formspree.io/f/xdawygld", {
+        method: "POST",
+        body: payload,
+        headers: { Accept: "application/json" }
+      });
+      if (!response.ok) throw new Error(`Atlas consultation failed with status ${response.status}`);
+
+      form.dataset.state = "success";
+      form.innerHTML = buildAtlasConsultationSuccess();
+      track("form_submit_success", describeForm(form));
+      track("atlas_consultation_submitted", {
+        form_group: sanitizeAnalyticsValue(form.getAttribute("data-formspree-group") || "about-atlas-consultation-en", 120)
+      });
+    } catch (error) {
+      console.error(error);
+      form.dataset.state = "error";
+      if (submitButton) submitButton.disabled = false;
+      if (statusNode) {
+        statusNode.textContent = "Something went wrong while sending the request. Please try again or use WhatsApp if the matter is urgent.";
+      }
+      track("form_submit_error", {
+        ...describeForm(form),
+        form_group: sanitizeAnalyticsValue(form.getAttribute("data-formspree-group") || "about-atlas-consultation-en", 120)
+      });
+    }
+  }
+
+  function initAtlasConsultationForm() {
+    bindAtlasConsultationForms();
   }
 
   function isInsightsExitModalOpen() {
@@ -1705,7 +1780,7 @@
 
     function onScroll() {
       const liveButton = document.querySelector("[data-back-to-top='true']");
-      const showThreshold = Math.max(200, Math.min(360, Math.round(window.innerHeight * 0.35)));
+      const showThreshold = Math.max(160, Math.min(320, Math.round(window.innerHeight * 0.24)));
       const scrollableHeight = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
       const scrollRatio = Math.max(0, Math.min(1, window.scrollY / scrollableHeight));
       body.classList.toggle("is-scrolled", window.scrollY > 16);
@@ -1727,6 +1802,8 @@
       scrollBound = true;
     }
     onScroll();
+    window.requestAnimationFrame(() => window.requestAnimationFrame(onScroll));
+    window.addEventListener("load", onScroll, { once: true });
   }
 
   /* ==========================================================================
@@ -1916,6 +1993,7 @@
     initAccordion();
     initServicesDirectory();
     initInsightsLeadCapture();
+    initAtlasConsultationForm();
     initConsentAndTracking();
     initConsultationPrefill();
     initClientExperienceUi();

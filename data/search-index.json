@@ -1,13 +1,32 @@
 [
   {
     "route": "/",
-    "title": "Immigrate to Brazil with Attorney Monique Fernandes",
-    "browserTitle": "Immigrate to Brazil with Attorney Monique Fernandes | Brazil Immigration Attorney",
+    "title": "Brazil Immigration Guidance",
+    "browserTitle": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance",
     "family": "foundation",
-    "summary": "Immigrate to Brazil with attorney Monique Fernandes. Monique helps individuals, families, entrepreneurs, and international clients with visas, residency, naturalisation, compliance, regularisation, and cross-border immigration matters connected to Brazil.",
-    "topics": [],
-    "faq": [],
-    "keywords": "Immigrate to Brazil with Attorney Monique Fernandes | Brazil Immigration Attorney Immigrate to Brazil with Attorney Monique Fernandes foundation",
+    "summary": "Visa, residency, citizenship, and relocation guidance in Brazil, led by a licensed Brazilian attorney and OAB-registered lawyer with English and Portuguese support.",
+    "topics": [
+      "Trust markers",
+      "Service categories",
+      "Immigration pathways overview",
+      "Consultation flow",
+      "Nationwide online support",
+      "Process and compliance framing",
+      "Official-resource orientation",
+      "What first-time readers usually need first",
+      "Where public information stops",
+      "What makes an inquiry useful",
+      "How route planning becomes practical",
+      "Why source quality matters"
+    ],
+    "faq": [
+      "How do I know which Immigrate to Brazil service fits my situation?",
+      "What kinds of clients does Immigrate to Brazil usually help?",
+      "Can I contact Immigrate to Brazil before I have everything figured out?",
+      "Does Immigrate to Brazil only help with legal questions?",
+      "What happens after I send an enquiry?"
+    ],
+    "keywords": "Immigrate to Brazil | Immigration Pathways, Compliance, and Living Guidance Brazil Immigration Guidance Trust markers Service categories Immigration pathways overview Consultation flow Nationwide online support Process and compliance framing Official-resource orientation What first-time readers usually need first Where public information stops What makes an inquiry useful How route planning becomes practical Why source quality matters How do I know which Immigrate to Brazil service fits my situation? What kinds of clients does Immigrate to Brazil usually help? Can I contact Immigrate to Brazil before I have everything figured out? Does Immigrate to Brazil only help with legal questions? What happens after I send an enquiry? foundation",
     "noindex": false
   },
   {
@@ -42,6 +61,17 @@
     ],
     "faq": [],
     "keywords": "Meet Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil Meet Monique Fernandes Practice Highlights Why Monique Does This Work What Monique Helps With How Monique Works Promoting Brazil Responsibly Attorney-Led Guidance An International Perspective Bilingual Communication about",
+    "noindex": false
+  },
+  {
+    "route": "/about/atlas/",
+    "title": "About Monique Fernandes",
+    "browserTitle": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil",
+    "family": "about",
+    "summary": "Meet Monique Fernandes, the OAB-registered Brazilian immigration attorney behind Immigrate to Brazil, and explore her story, standards, services, and public client proof in one place.",
+    "topics": [],
+    "faq": [],
+    "keywords": "About Monique Fernandes | Brazil Immigration Attorney | Immigrate to Brazil About Monique Fernandes about",
     "noindex": false
   },
   {

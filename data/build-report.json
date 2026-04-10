@@ -1,8 +1,8 @@
 [
   {
     "route": "/",
-    "title": "Immigrate to Brazil with Attorney Monique Fernandes",
-    "wordCount": 1287
+    "title": "Brazil Immigration Guidance",
+    "wordCount": 2592
   },
   {
     "route": "/about/",
@@ -13,6 +13,11 @@
     "route": "/about/about/",
     "title": "Meet Monique Fernandes",
     "wordCount": 766
+  },
+  {
+    "route": "/about/atlas/",
+    "title": "About Monique Fernandes",
+    "wordCount": 2481
   },
   {
     "route": "/about/clients/",
@@ -3862,7 +3867,7 @@
   {
     "route": "/services/",
     "title": "Services",
-    "wordCount": 2151
+    "wordCount": 2128
   },
   {
     "route": "/services/advisory/",
