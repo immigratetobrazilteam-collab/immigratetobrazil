@@ -36,7 +36,7 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-04-10-global-nav-atlas-v2";
+  const PARTIAL_VERSION = "2026-04-11-global-nav-home-about-services-v3";
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();
