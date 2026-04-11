@@ -7206,13 +7206,31 @@ body.site-root .back-to-top:focus-visible::after {
   }
 
   body.site-root .main-header {
-    padding: 0.4rem 0;
+    gap: 0.36rem;
+    padding: 0.4rem 0 0.3rem;
   }
 
   body.site-root .main-header__upper {
+    grid-template-areas:
+      "identity actions"
+      "center center";
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 0.45rem;
-    align-items: start;
+    gap: 0.55rem 0.45rem;
+    align-items: center;
+  }
+
+  body.site-root .main-header__identity {
+    grid-area: identity;
+    min-width: 0;
+  }
+
+  body.site-root .main-nav .brand-lockup {
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  body.site-root .main-nav .brand-lockup__meta {
+    padding-top: 0.08rem;
   }
 
   body.site-root .main-nav .brand-wordmark__mark {
@@ -7226,33 +7244,46 @@ body.site-root .back-to-top:focus-visible::after {
   }
 
   body.site-root .main-header__actions {
+    grid-area: actions;
     gap: 0.35rem;
     justify-self: end;
-    align-self: start;
-  }
-
-  body.site-root .main-nav .navbar-toggler {
-    padding: 0.32rem 0.5rem;
-    min-height: 36px;
-  }
-
-  body.site-root .main-header__center {
-    grid-column: 1 / -1;
-    justify-self: stretch;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.45rem;
-    flex-wrap: nowrap;
-    overflow: visible;
-    padding-top: 0.18rem;
+    align-self: center;
     padding-bottom: 0;
   }
 
+  body.site-root .main-nav .navbar-toggler {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.7rem;
+    min-width: 2.7rem;
+    min-height: 2.7rem;
+    padding: 0.32rem;
+    border: 1px solid rgba(var(--logo-gold-rgb), 0.28);
+    border-radius: 0.85rem;
+    background: linear-gradient(180deg, rgba(var(--logo-gold-rgb), 0.08), rgba(255, 255, 255, 0.02));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  body.site-root .main-header__center {
+    grid-area: center;
+    justify-self: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(1rem, 6vw, 1.9rem);
+    flex-wrap: nowrap;
+    overflow: visible;
+    padding-top: 0.4rem;
+    padding-bottom: 0.05rem;
+    border-top: 1px solid rgba(var(--logo-gold-rgb), 0.12);
+  }
+
   body.site-root .main-header__center .main-header__home {
-    flex: 1 1 0;
-    min-width: 0;
-    padding: 0.3rem 0.4rem;
-    font-size: 0.74rem;
+    flex: 0 0 auto;
+    min-width: auto;
+    padding: 0.28rem 0 0.62rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
     text-align: center;
   }
 
