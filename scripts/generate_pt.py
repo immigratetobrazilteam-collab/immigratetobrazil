@@ -1601,30 +1601,6 @@ class PtGenerator:
             translated_parts.append(normalize_translatable_text(self.translate_text(part.strip(), route)))
         return preserve_outer_whitespace(original, " | ".join(translated_parts))
 
-    def patch_english_html(self, html: str, route: str) -> str:
-        def replace_canonical(match: re.Match) -> str:
-            indent = match.group("indent")
-            return (
-                f'{indent}<link rel="canonical" href="{english_url(route)}" />\n'
-                f'{indent}<link rel="alternate" hreflang="en" href="{english_url(route)}" />\n'
-                f'{indent}<link rel="alternate" hreflang="pt-BR" href="{pt_url(route)}" />\n'
-                f'{indent}<link rel="alternate" hreflang="x-default" href="{english_url(route)}" />\n'
-            )
-
-        def replace_switcher(match: re.Match) -> str:
-            indent = match.group("indent")
-            return (
-                f'{indent}<div class="lang-switcher lang-switcher--minimal" aria-label="Language switcher">\n'
-                f'{indent}  <a class="lang-link active" data-language-toggle="en" href="{route}" lang="en" hreflang="en" aria-current="page">EN</a>\n'
-                f'{indent}  <span aria-hidden="true">|</span>\n'
-                f'{indent}  <a class="lang-link" data-language-toggle="pt-BR" href="{pt_route(route)}" lang="pt-BR" hreflang="pt-BR">PT</a>\n'
-                f"{indent}</div>"
-            )
-
-        updated = CANONICAL_BLOCK_RE.sub(replace_canonical, html, count=1)
-        updated = LANG_SWITCHER_RE.sub(replace_switcher, updated, count=1)
-        return updated
-
     def prune_removed_routes(self, current_routes: set[str]) -> None:
         stale_routes = [route for route in self.manifest.get("routes", {}) if route not in current_routes]
         for route in stale_routes:
@@ -1654,7 +1630,6 @@ class PtGenerator:
         current_partials = {name for name, _ in partial_files}
         self.prune_removed_partials(current_partials)
 
-        patched_english = 0
         generated_pt = 0
         skipped_cached = 0
         generated_partials = 0
@@ -1666,12 +1641,6 @@ class PtGenerator:
                 continue
 
             source_html = file_path.read_text(encoding="utf8")
-            patched_html = self.patch_english_html(source_html, route)
-            if patched_html != source_html:
-                file_path.write_text(patched_html, encoding="utf8")
-                source_html = patched_html
-                patched_english += 1
-
             prepared_routes.append((route, source_html))
 
         print(f"Using PT translation provider: {self.provider}.", flush=True)
@@ -1747,7 +1716,7 @@ class PtGenerator:
             )
 
         self.persist_state()
-        return patched_english, generated_pt, skipped_cached, generated_partials, skipped_cached_partials
+        return generated_pt, skipped_cached, generated_partials, skipped_cached_partials
 
 
 def normalize_route_input(route: str) -> str:
@@ -1838,9 +1807,9 @@ def main() -> int:
         provider=args.provider,
         routes=normalized_routes,
     )
-    patched_english, generated_pt, skipped_cached, generated_partials, skipped_cached_partials = generator.generate()
+    generated_pt, skipped_cached, generated_partials, skipped_cached_partials = generator.generate()
     print(
-        f"Patched {patched_english} English pages, generated {generated_pt} pt-BR pages, "
+        f"Left English pages untouched, generated {generated_pt} pt-BR pages, "
         f"skipped {skipped_cached} cached routes, generated {generated_partials} pt-BR partials, "
         f"and skipped {skipped_cached_partials} cached partials."
     )

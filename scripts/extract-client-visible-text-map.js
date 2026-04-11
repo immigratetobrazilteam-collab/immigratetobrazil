@@ -1,10 +1,10 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
-import { discoverContentRouteDirs, contentDirToRoute } from "./content-source-utils.js";
+import { discoverRouteFiles } from "./static-site-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, ".." );
+const ROOT = path.resolve(__dirname, "..");
 
 function stripHtmlTags(html) {
   return html
@@ -23,14 +23,18 @@ function splitSnippets(text) {
   return [...new Set(chunks)];
 }
 
+function extractBodyHtml(html) {
+  const match = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
+  return match ? match[1] : html;
+}
+
 async function main() {
-  const routeDirs = await discoverContentRouteDirs();
+  const routeFiles = await discoverRouteFiles(ROOT);
   const textMap = {};
 
-  for (const routeDir of routeDirs) {
-    const route = contentDirToRoute(routeDir);
-    const bodyHtml = await fs.readFile(path.join(routeDir, "body.html"), "utf8");
-    const textContent = stripHtmlTags(bodyHtml);
+  for (const { route, filePath } of routeFiles) {
+    const html = await fs.readFile(filePath, "utf8");
+    const textContent = stripHtmlTags(extractBodyHtml(html));
     textMap[route] = splitSnippets(textContent);
   }
 

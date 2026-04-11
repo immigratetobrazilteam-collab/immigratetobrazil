@@ -1,10 +1,5 @@
 [
   {
-    "route": "/",
-    "title": "Brazil Immigration Guidance",
-    "endpoint": "https://formspree.io/f/xdawygld"
-  },
-  {
     "route": "/about/atlas/",
     "title": "About Monique Fernandes",
     "endpoint": "https://formspree.io/f/xdawygld"

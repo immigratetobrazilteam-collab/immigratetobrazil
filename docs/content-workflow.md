@@ -1,43 +1,32 @@
 # Content Workflow
 
-English pages now live in `content/en/` and generate the checked-in HTML output.
+English HTML files are now the source of truth.
 
 ## What To Edit
 
-- Global English site settings live in `content/en/about/about.json`.
-- The home page lives in `content/en/routes/root/`.
-- Any other route maps directly to `content/en/routes/...`.
-  Example: `/insights/blog/` maps to `content/en/routes/insights/blog/`.
-- Each route folder has:
-  - `page.json` for metadata, social tags, runtime config, and route shell data under `shell` for runtime-loaded breadcrumbs, sidebar content, official resources, and related links.
-  - `body.html` for the rendered body markup.
+- Edit the checked-in English route HTML directly.
+  Example: `/` maps to [index.html](/home/ash/immigratetobrazil-new/index.html) and `/about/` maps to [about/index.html](/home/ash/immigratetobrazil-new/about/index.html).
 - Shared shell partials live in `partials/en/` and `partials/pt-br/`.
   - Edit `site-navigation.html`, `site-footer.html`, `utility-bar.html`, and the other files in `partials/` when you want to change sitewide shared UI.
   - Route pages now call the shared `breadcrumbs`, `sidebar-shell`, `official-resources`, and `related-links` partials at runtime instead of storing those blocks inline in every page body.
+- The old content-source tree is retired. Do not use legacy source JSON/body files to regenerate English HTML.
 
 ## Commands
 
-- `npm run generate:content`
-  Regenerates English `index.html` files from `content/en/...`.
 - `npm run sync:data`
-  Regenerates English HTML and refreshes search/build/supporting JSON files.
+  Refreshes search/build/supporting JSON files and synced 404 outputs from the checked-in HTML routes.
 - `npm run generate:sitemap`
   Regenerates the sitemap index at `sitemap.xml`, the child XML files in `sitemaps/`, `sitemap.xsl`, and `robots.txt` from the current checked-in HTML routes.
-- `npm run images:sections`
-  Scans `content/en/routes/...` and generates the site-wide section query/image manifests.
-- `npm run images:sections:bootstrap`
-  Downloads and refreshes the local curated Brazil place library used to reduce section-image repetition site-wide.
-- `npm run images:sections:download`
-  Runs the same section-image pipeline with provider searches and local asset downloads enabled.
 - `npm run translate:pt`
-  Regenerates English HTML first, then rebuilds the Portuguese output.
+  Rebuilds the Portuguese output from the checked-in English HTML.
 - `npm run check`
-  Runs the full English generation, data sync, and validation flow.
+  Runs the data sync and validation flow against the checked-in HTML.
 
 ## Notes
 
-- Treat English `index.html` files as generated output.
-- Portuguese `pt-br/...` pages remain generated output as well.
+- Treat English `index.html` files as the source of truth.
+- Portuguese `pt-br/...` pages remain generated output.
+- Legacy English page-generation helpers and the legacy section-image generator are retired.
 - Section image assets are organized by route path and section number.
   Example: `/about/about/` section 2 now maps to `assets/images/sections/about/about/section-02-.../`.
 - Section image filenames now use `page-section-number-section-name-scene-keywords-brazil-bg-primary.webp`.

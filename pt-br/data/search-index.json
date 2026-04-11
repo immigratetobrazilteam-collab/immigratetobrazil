@@ -45,6 +45,17 @@
     "noindex": false
   },
   {
+    "route": "/pt-br/about/atlas/",
+    "title": "Sobre Monique Fernandes",
+    "browserTitle": "Atlas de Monique Fernandes | Advogada de imigração para o Brasil | Imigre para o Brasil",
+    "family": "about",
+    "summary": "Conheça Monique Fernandes, advogada de imigração brasileira registrada na OAB por trás do Imigre para o Brasil, e explore sua história, padrões, serviços e prova pública de cliente em um só lugar.",
+    "topics": [],
+    "faq": [],
+    "keywords": "Atlas de Monique Fernandes | Advogada de imigração para o Brasil | Imigre para o Brasil Sobre Monique Fernandes about",
+    "noindex": false
+  },
+  {
     "route": "/pt-br/about/clients/",
     "title": "Quem Monique Fernandes ajuda",
     "browserTitle": "Quem Monique Fernandes ajuda | Clientes de imigração para o Brasil | Imigre para o Brasil",
@@ -866,10 +877,10 @@
   },
   {
     "route": "/pt-br/countries/afghanistan/",
-    "title": "Mudando para o Brasil do Afeganistão",
-    "browserTitle": "Mudando para o Brasil do Afeganistão | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Afeganistão para o Brasil",
+    "browserTitle": "Mudando-se do Afeganistão para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Afeganistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Afeganistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Afeganistão",
       "Planejamento de documentos entre o Afeganistão e Brasil",
@@ -879,7 +890,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Afeganistão | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Afeganistão Cidades no Brasil frequentemente consideradas por pessoas do Afeganistão Planejamento de documentos entre o Afeganistão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Afeganistão para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Afeganistão para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Afeganistão Planejamento de documentos entre o Afeganistão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -887,7 +898,7 @@
     "title": "Mudança para o Brasil da Albânia",
     "browserTitle": "Mudança para o Brasil da Albânia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Albânia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Albânia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Albânia",
       "Planejamento de documentos entre a Albânia e Brasil",
@@ -905,7 +916,7 @@
     "title": "Mudança para o Brasil da Argélia",
     "browserTitle": "Mudança para o Brasil da Argélia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Argélia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Argélia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Argélia",
       "Planejamento de documentos entre a Argélia e Brasil",
@@ -923,7 +934,7 @@
     "title": "Mudança para o Brasil de Andorra",
     "browserTitle": "Mudança para o Brasil de Andorra | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Andorra? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Andorra? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Andorra",
       "Planejamento de documentos entre Andorra e Brasil",
@@ -941,7 +952,7 @@
     "title": "Mudança para o Brasil de Angola",
     "browserTitle": "Mudança para o Brasil de Angola | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Angola? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Angola? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por angolanos",
       "Planejamento de documentos entre Angola e Brasil",
@@ -959,7 +970,7 @@
     "title": "Mudança para o Brasil de Antígua e Barbuda",
     "browserTitle": "Mudança para o Brasil de Antígua e Barbuda | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Antígua e Barbuda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se de Antígua e Barbuda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Antígua e Barbuda",
       "Planejamento de documentos entre Antígua e Barbuda e Brasil",
@@ -977,7 +988,7 @@
     "title": "Mudança para o Brasil da Argentina",
     "browserTitle": "Mudança para o Brasil da Argentina | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Argentina? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Argentina? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Argentina",
       "Planejamento de documentos entre Argentina e Brasil",
@@ -1010,10 +1021,10 @@
   },
   {
     "route": "/pt-br/countries/australia/",
-    "title": "Mudando para o Brasil da Austrália",
-    "browserTitle": "Mudando para o Brasil da Austrália | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Austrália para o Brasil",
+    "browserTitle": "Mudando-se da Austrália para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Austrália? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Austrália? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Austrália",
       "Planejamento de documentos entre Austrália e Brasil",
@@ -1023,7 +1034,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Austrália | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Austrália Cidades no Brasil frequentemente consideradas por pessoas da Austrália Planejamento de documentos entre Austrália e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Austrália para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Austrália para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Austrália Planejamento de documentos entre Austrália e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -1031,7 +1042,7 @@
     "title": "Mudança para o Brasil da Áustria",
     "browserTitle": "Mudança para o Brasil da Áustria | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Áustria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Áustria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas pelos austríacos",
       "Planejamento de documentos entre a Áustria e Brasil",
@@ -1049,7 +1060,7 @@
     "title": "Mudança para o Brasil do Azerbaijão",
     "browserTitle": "Mudança para o Brasil do Azerbaijão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Azerbaijão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Azerbaijão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Azerbaijão",
       "Planejamento de documentos entre o Azerbaijão e Brasil",
@@ -1067,7 +1078,7 @@
     "title": "Mudança para o Brasil das Bahamas",
     "browserTitle": "Mudança para o Brasil das Bahamas | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Bahamas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se das Bahamas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas das Bahamas",
       "Planejamento de documentos entre Bahamas e Brasil",
@@ -1085,7 +1096,7 @@
     "title": "Mudança para o Brasil do Bahrein",
     "browserTitle": "Mudança para o Brasil do Bahrein | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Bahrein? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Bahrein? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Bahrein",
       "Planejamento de documentos entre Bahrein e Brasil",
@@ -1103,7 +1114,7 @@
     "title": "Mudança para o Brasil de Bangladesh",
     "browserTitle": "Mudança para o Brasil de Bangladesh | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Bangladesh? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Bangladesh? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Bangladesh",
       "Planejamento de documentos entre Bangladesh e Brasil",
@@ -1121,7 +1132,7 @@
     "title": "Mudança para o Brasil de Barbados",
     "browserTitle": "Mudança para o Brasil de Barbados | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Barbados? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Barbados? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Barbados",
       "Planejamento de documentos entre Barbados e Brasil",
@@ -1139,7 +1150,7 @@
     "title": "Mudança para o Brasil da Bielo-Rússia",
     "browserTitle": "Mudança para o Brasil da Bielo-Rússia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Bielo-Rússia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Bielo-Rússia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Bielorrússia",
       "Planejamento de documentos entre a Bielorrússia e Brasil",
@@ -1157,7 +1168,7 @@
     "title": "Mudança para o Brasil da Bélgica",
     "browserTitle": "Mudança para o Brasil da Bélgica | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Bélgica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Bélgica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Bélgica",
       "Planejamento de documentos entre a Bélgica e Brasil",
@@ -1175,7 +1186,7 @@
     "title": "Mudança para o Brasil de Belize",
     "browserTitle": "Mudança para o Brasil de Belize | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Belize? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Belize? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Belize",
       "Planejamento de documentos entre Belize e Brasil",
@@ -1193,7 +1204,7 @@
     "title": "Mudança para o Brasil do Benin",
     "browserTitle": "Mudança para o Brasil do Benin | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Benin? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Benin? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Benin",
       "Planejamento de documentos entre Benin e Brasil",
@@ -1211,7 +1222,7 @@
     "title": "Mudança para o Brasil do Butão",
     "browserTitle": "Mudança para o Brasil do Butão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Butão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Butão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Butão",
       "Planejamento de documentos entre o Butão e Brasil",
@@ -1229,7 +1240,7 @@
     "title": "Mudança para o Brasil da Bolívia",
     "browserTitle": "Mudança para o Brasil da Bolívia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Bolívia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Bolívia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Bolívia",
       "Planejamento de documentos entre Bolívia e Brasil",
@@ -1283,7 +1294,7 @@
     "title": "Movendo para o Brasil do Brasil",
     "browserTitle": "Movendo para o Brasil do Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Brasil? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Brasil? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Brasil",
       "Planejamento de documentos entre Brasil e Brasil",
@@ -1319,7 +1330,7 @@
     "title": "Mudança para o Brasil da Bulgária",
     "browserTitle": "Mudança para o Brasil da Bulgária | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Bulgária? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Bulgária? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Bulgária",
       "Planejamento de documentos entre a Bulgária e Brasil",
@@ -1391,7 +1402,7 @@
     "title": "Mudança para o Brasil do Camboja",
     "browserTitle": "Mudança para o Brasil do Camboja | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Camboja? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Camboja? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Camboja",
       "Planejamento de documentos entre Camboja e Brasil",
@@ -1424,10 +1435,10 @@
   },
   {
     "route": "/pt-br/countries/canada/",
-    "title": "Mudando para o Brasil do Canadá",
-    "browserTitle": "Mudando para o Brasil do Canadá | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Canadá para o Brasil",
+    "browserTitle": "Mudando-se do Canadá para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Canadá? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Canadá? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Canadá",
       "Planejamento de documentos entre Canadá e Brasil",
@@ -1437,7 +1448,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Canadá | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Canadá Cidades no Brasil frequentemente consideradas por pessoas do Canadá Planejamento de documentos entre Canadá e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Canadá para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Canadá para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Canadá Planejamento de documentos entre Canadá e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -1445,7 +1456,7 @@
     "title": "Mudança para o Brasil da República Centro-Africana",
     "browserTitle": "Mudança para o Brasil da República Centro-Africana | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da República Centro-Africana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se da República Centro-Africana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da República Centro-Africana",
       "Planejamento de documentos entre a República Centro-Africana e Brasil",
@@ -1463,7 +1474,7 @@
     "title": "Mudança para o Brasil do Chade",
     "browserTitle": "Mudança para o Brasil do Chade | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Chade? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Chade? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Chade",
       "Planejamento de documentos entre Chade e Brasil",
@@ -1481,7 +1492,7 @@
     "title": "Mudança para o Brasil do Chile",
     "browserTitle": "Mudança para o Brasil do Chile | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Chile? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Chile? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Chile",
       "Planejamento de documentos entre Chile e Brasil",
@@ -1496,10 +1507,10 @@
   },
   {
     "route": "/pt-br/countries/china/",
-    "title": "Mudando para o Brasil da China",
-    "browserTitle": "Mudando para o Brasil da China | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da China para o Brasil",
+    "browserTitle": "Mudando-se da China para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da China? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da China? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da China",
       "Planejamento de documentos entre a China e Brasil",
@@ -1509,7 +1520,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da China | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da China Cidades no Brasil frequentemente consideradas por pessoas da China Planejamento de documentos entre a China e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da China para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da China para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da China Planejamento de documentos entre a China e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -1517,7 +1528,7 @@
     "title": "Mudança para o Brasil da Colômbia",
     "browserTitle": "Mudança para o Brasil da Colômbia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Colômbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Colômbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Colômbia",
       "Planejamento de documentos entre Colômbia e Brasil",
@@ -1535,7 +1546,7 @@
     "title": "Mudança para o Brasil de Comores",
     "browserTitle": "Mudança para o Brasil de Comores | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Comores? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Comores? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Comores",
       "Planejamento de documentos entre Comores e Brasil",
@@ -1589,7 +1600,7 @@
     "title": "Mudança para o Brasil da Costa Rica",
     "browserTitle": "Mudança para o Brasil da Costa Rica | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Costa Rica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Costa Rica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Costa Rica",
       "Planejamento de documentos entre Costa Rica e Brasil",
@@ -1607,7 +1618,7 @@
     "title": "Mudança para o Brasil da Croácia",
     "browserTitle": "Mudança para o Brasil da Croácia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Croácia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Croácia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Croácia",
       "Planejamento de documentos entre a Croácia e Brasil",
@@ -1625,7 +1636,7 @@
     "title": "Mudança para o Brasil de Cuba",
     "browserTitle": "Mudança para o Brasil de Cuba | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Cuba? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Cuba? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Cuba",
       "Planejamento de documentos entre Cuba e Brasil",
@@ -1661,7 +1672,7 @@
     "title": "Mudança para o Brasil da República Tcheca",
     "browserTitle": "Mudança para o Brasil da República Tcheca | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da República Tcheca? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da República Tcheca? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da República Tcheca",
       "Planejamento de documentos entre a República Checa e Brasil",
@@ -1679,7 +1690,7 @@
     "title": "Mudança para o Brasil da Dinamarca",
     "browserTitle": "Mudança para o Brasil da Dinamarca | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Dinamarca? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Dinamarca? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Dinamarca",
       "Planejamento de documentos entre a Dinamarca e Brasil",
@@ -1697,7 +1708,7 @@
     "title": "Mudança para o Brasil do Djibuti",
     "browserTitle": "Mudança para o Brasil do Djibuti | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Djibuti? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Djibuti? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Djibuti",
       "Planejamento de documentos entre Djibuti e Brasil",
@@ -1715,7 +1726,7 @@
     "title": "Mudança para o Brasil da Dominica",
     "browserTitle": "Mudança para o Brasil da Dominica | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Dominica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Dominica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Dominica",
       "Planejamento de documentos entre Dominica e Brasil",
@@ -1733,7 +1744,7 @@
     "title": "Mudança para o Brasil da República Dominicana",
     "browserTitle": "Mudança para o Brasil da República Dominicana | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da República Dominicana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se da República Dominicana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da República Dominicana",
       "Planejamento de documentos entre República Dominicana e Brasil",
@@ -1751,7 +1762,7 @@
     "title": "Mudança para o Brasil do Equador",
     "browserTitle": "Mudança para o Brasil do Equador | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Equador? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Equador? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Equador",
       "Planejamento de documentos entre Equador e Brasil",
@@ -1769,7 +1780,7 @@
     "title": "Mudança para o Brasil do Egito",
     "browserTitle": "Mudança para o Brasil do Egito | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Egito? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Egito? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Egito",
       "Planejamento de documentos entre o Egito e Brasil",
@@ -1787,7 +1798,7 @@
     "title": "Mudança para o Brasil de El Salvador",
     "browserTitle": "Mudança para o Brasil de El Salvador | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de El Salvador? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de El Salvador? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de El Salvador",
       "Planejamento de documentos entre El Salvador e Brasil",
@@ -1805,7 +1816,7 @@
     "title": "Mudança para o Brasil da Guiné Equatorial",
     "browserTitle": "Mudança para o Brasil da Guiné Equatorial | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Guiné Equatorial? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se da Guiné Equatorial? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Guiné Equatorial",
       "Planejamento de documentos entre a Guiné Equatorial e Brasil",
@@ -1841,7 +1852,7 @@
     "title": "Mudança para o Brasil da Estônia",
     "browserTitle": "Mudança para o Brasil da Estônia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Estônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Estônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Estônia",
       "Planejamento de documentos entre a Estônia e Brasil",
@@ -1859,7 +1870,7 @@
     "title": "Mudança para o Brasil de Eswatini",
     "browserTitle": "Mudança para o Brasil de Eswatini | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Eswatini? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Eswatini? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Eswatini",
       "Planejamento de documentos entre Eswatini e Brasil",
@@ -1877,7 +1888,7 @@
     "title": "Mudança para o Brasil da Etiópia",
     "browserTitle": "Mudança para o Brasil da Etiópia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Etiópia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Etiópia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Etiópia",
       "Planejamento de documentos entre a Etiópia e Brasil",
@@ -1895,7 +1906,7 @@
     "title": "Mudança para o Brasil de Fiji",
     "browserTitle": "Mudança para o Brasil de Fiji | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Fiji? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Fiji? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Fiji",
       "Planejamento de documentos entre Fiji e Brasil",
@@ -1910,10 +1921,10 @@
   },
   {
     "route": "/pt-br/countries/finland/",
-    "title": "Mudando para o Brasil da Finlândia",
-    "browserTitle": "Mudando para o Brasil da Finlândia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Finlândia para o Brasil",
+    "browserTitle": "Mudando-se da Finlândia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Finlândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Finlândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Finlândia",
       "Planejamento de documentos entre a Finlândia e Brasil",
@@ -1923,15 +1934,15 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Finlândia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Finlândia Cidades no Brasil frequentemente consideradas por pessoas da Finlândia Planejamento de documentos entre a Finlândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Finlândia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Finlândia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Finlândia Planejamento de documentos entre a Finlândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
     "route": "/pt-br/countries/france/",
-    "title": "Mudando para o Brasil da França",
-    "browserTitle": "Mudando para o Brasil da França | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da França para o Brasil",
+    "browserTitle": "Mudando-se da França para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da França? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da França? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da França",
       "Planejamento de documentos entre a França e Brasil",
@@ -1941,7 +1952,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da França | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da França Cidades no Brasil frequentemente consideradas por pessoas da França Planejamento de documentos entre a França e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da França para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da França para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da França Planejamento de documentos entre a França e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -1949,7 +1960,7 @@
     "title": "Mudança para o Brasil do Gabão",
     "browserTitle": "Mudança para o Brasil do Gabão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Gabão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Gabão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Gabão",
       "Planejamento de documentos entre Gabão e Brasil",
@@ -1985,7 +1996,7 @@
     "title": "Mudança para o Brasil da Geórgia",
     "browserTitle": "Mudança para o Brasil da Geórgia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Geórgia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Geórgia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Geórgia",
       "Planejamento de documentos entre a Geórgia e Brasil",
@@ -2000,10 +2011,10 @@
   },
   {
     "route": "/pt-br/countries/germany/",
-    "title": "Mudando para o Brasil da Alemanha",
-    "browserTitle": "Mudando para o Brasil da Alemanha | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Alemanha para o Brasil",
+    "browserTitle": "Mudando-se da Alemanha para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Alemanha? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Alemanha? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Alemanha",
       "Planejamento de documentos entre a Alemanha e Brasil",
@@ -2013,7 +2024,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Alemanha | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Alemanha Cidades no Brasil frequentemente consideradas por pessoas da Alemanha Planejamento de documentos entre a Alemanha e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Alemanha para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Alemanha para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Alemanha Planejamento de documentos entre a Alemanha e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2021,7 +2032,7 @@
     "title": "Mudança para o Brasil de Gana",
     "browserTitle": "Mudança para o Brasil de Gana | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Gana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Gana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Gana",
       "Planejamento de documentos entre Gana e Brasil",
@@ -2039,7 +2050,7 @@
     "title": "Mudança para o Brasil da Grécia",
     "browserTitle": "Mudança para o Brasil da Grécia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Grécia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Grécia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Grécia",
       "Planejamento de documentos entre a Grécia e Brasil",
@@ -2057,7 +2068,7 @@
     "title": "Mudança para o Brasil de Granada",
     "browserTitle": "Mudança para o Brasil de Granada | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Granada? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Granada? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Granada",
       "Planejamento de documentos entre Granada e Brasil",
@@ -2075,7 +2086,7 @@
     "title": "Mudança para o Brasil da Guatemala",
     "browserTitle": "Mudança para o Brasil da Guatemala | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Guatemala? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Guatemala? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Guatemala",
       "Planejamento de documentos entre Guatemala e Brasil",
@@ -2111,7 +2122,7 @@
     "title": "Mudança para o Brasil da Guiné",
     "browserTitle": "Mudança para o Brasil da Guiné | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Guiné? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Guiné? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Guiné",
       "Planejamento de documentos entre Guiné e Brasil",
@@ -2129,7 +2140,7 @@
     "title": "Mudança para o Brasil da Guiana",
     "browserTitle": "Mudança para o Brasil da Guiana | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Guiana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Guiana? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Guiana",
       "Planejamento de documentos entre Guiana e Brasil",
@@ -2165,7 +2176,7 @@
     "title": "Mudança para o Brasil de Honduras",
     "browserTitle": "Mudança para o Brasil de Honduras | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Honduras? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Honduras? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Honduras",
       "Planejamento de documentos entre Honduras e Brasil",
@@ -2180,10 +2191,10 @@
   },
   {
     "route": "/pt-br/countries/hungary/",
-    "title": "Mudando para o Brasil da Hungria",
-    "browserTitle": "Mudando para o Brasil da Hungria | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Hungria para o Brasil",
+    "browserTitle": "Mudando-se da Hungria para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Hungria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Hungria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Hungria",
       "Planejamento de documentos entre a Hungria e Brasil",
@@ -2193,7 +2204,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Hungria | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Hungria Cidades no Brasil frequentemente consideradas por pessoas da Hungria Planejamento de documentos entre a Hungria e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Hungria para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Hungria para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Hungria Planejamento de documentos entre a Hungria e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2201,7 +2212,7 @@
     "title": "Mudança para o Brasil da Islândia",
     "browserTitle": "Mudança para o Brasil da Islândia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Islândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Islândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Islândia",
       "Planejamento de documentos entre a Islândia e Brasil",
@@ -2216,10 +2227,10 @@
   },
   {
     "route": "/pt-br/countries/india/",
-    "title": "Mudando para o Brasil da Índia",
-    "browserTitle": "Mudando para o Brasil da Índia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Índia para o Brasil",
+    "browserTitle": "Mudando-se da Índia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Índia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Índia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Índia",
       "Planejamento de documentos entre a Índia e Brasil",
@@ -2229,7 +2240,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Índia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Índia Cidades no Brasil frequentemente consideradas por pessoas da Índia Planejamento de documentos entre a Índia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Índia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Índia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Índia Planejamento de documentos entre a Índia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2237,7 +2248,7 @@
     "title": "Mudança para o Brasil da Indonésia",
     "browserTitle": "Mudança para o Brasil da Indonésia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Indonésia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Indonésia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Indonésia",
       "Planejamento de documentos entre a Indonésia e Brasil",
@@ -2255,7 +2266,7 @@
     "title": "Mudança para o Brasil do Irã",
     "browserTitle": "Mudança para o Brasil do Irã | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Irã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Irã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Irã",
       "Planejamento de documentos entre o Irã e Brasil",
@@ -2273,7 +2284,7 @@
     "title": "Mudança para o Brasil do Iraque",
     "browserTitle": "Mudança para o Brasil do Iraque | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Iraque? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Iraque? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Iraque",
       "Planejamento de documentos entre o Iraque e Brasil",
@@ -2291,7 +2302,7 @@
     "title": "Mudança para o Brasil da Irlanda",
     "browserTitle": "Mudança para o Brasil da Irlanda | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Irlanda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Irlanda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Irlanda",
       "Planejamento de documentos entre a Irlanda e Brasil",
@@ -2309,7 +2320,7 @@
     "title": "Mudança para o Brasil de Israel",
     "browserTitle": "Mudança para o Brasil de Israel | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Israel? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Israel? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Israel",
       "Planejamento de documentos entre Israel e Brasil",
@@ -2324,10 +2335,10 @@
   },
   {
     "route": "/pt-br/countries/italy/",
-    "title": "Mudando para o Brasil da Itália",
-    "browserTitle": "Mudando para o Brasil da Itália | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Itália para o Brasil",
+    "browserTitle": "Mudando-se da Itália para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Itália? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Itália? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Itália",
       "Planejamento de documentos entre Itália e Brasil",
@@ -2337,7 +2348,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Itália | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Itália Cidades no Brasil frequentemente consideradas por pessoas da Itália Planejamento de documentos entre Itália e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Itália para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Itália para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Itália Planejamento de documentos entre Itália e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2345,7 +2356,7 @@
     "title": "Mudança para o Brasil da Jamaica",
     "browserTitle": "Mudança para o Brasil da Jamaica | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Jamaica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Jamaica? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Jamaica",
       "Planejamento de documentos entre Jamaica e Brasil",
@@ -2360,10 +2371,10 @@
   },
   {
     "route": "/pt-br/countries/japan/",
-    "title": "Mudando para o Brasil do Japão",
-    "browserTitle": "Mudando para o Brasil do Japão | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Japão para o Brasil",
+    "browserTitle": "Mudando-se do Japão para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Japão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Japão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Japão",
       "Planejamento de documentos entre o Japão e Brasil",
@@ -2373,7 +2384,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Japão | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Japão Cidades no Brasil frequentemente consideradas por pessoas do Japão Planejamento de documentos entre o Japão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Japão para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Japão para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Japão Planejamento de documentos entre o Japão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2399,7 +2410,7 @@
     "title": "Mudança para o Brasil do Cazaquistão",
     "browserTitle": "Mudança para o Brasil do Cazaquistão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Cazaquistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Cazaquistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Cazaquistão",
       "Planejamento de documentos entre o Cazaquistão e Brasil",
@@ -2417,7 +2428,7 @@
     "title": "Mudança para o Brasil do Quênia",
     "browserTitle": "Mudança para o Brasil do Quênia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Quênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Quênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Quênia",
       "Planejamento de documentos entre o Quênia e Brasil",
@@ -2435,7 +2446,7 @@
     "title": "Mudança para o Brasil de Kiribati",
     "browserTitle": "Mudança para o Brasil de Kiribati | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Kiribati? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Kiribati? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Kiribati",
       "Planejamento de documentos entre Kiribati e Brasil",
@@ -2453,7 +2464,7 @@
     "title": "Mudança para o Brasil do Kuwait",
     "browserTitle": "Mudança para o Brasil do Kuwait | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Kuwait? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Kuwait? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Kuwait",
       "Planejamento de documentos entre Kuwait e Brasil",
@@ -2486,10 +2497,10 @@
   },
   {
     "route": "/pt-br/countries/laos/",
-    "title": "Mudando para o Brasil do Laos",
-    "browserTitle": "Mudando para o Brasil do Laos | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Laos para o Brasil",
+    "browserTitle": "Mudando-se do Laos para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Laos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Laos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Laos",
       "Planejamento de documentos entre Laos e Brasil",
@@ -2499,7 +2510,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Laos | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Laos Cidades no Brasil frequentemente consideradas por pessoas do Laos Planejamento de documentos entre Laos e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Laos para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Laos para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Laos Planejamento de documentos entre Laos e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2507,7 +2518,7 @@
     "title": "Mudança para o Brasil da Letônia",
     "browserTitle": "Mudança para o Brasil da Letônia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Letônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Letônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Letônia",
       "Planejamento de documentos entre a Letónia e Brasil",
@@ -2579,7 +2590,7 @@
     "title": "Mudança para o Brasil da Líbia",
     "browserTitle": "Mudança para o Brasil da Líbia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Líbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Líbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Líbia",
       "Planejamento de documentos entre a Líbia e Brasil",
@@ -2597,7 +2608,7 @@
     "title": "Mudança para o Brasil de Liechtenstein",
     "browserTitle": "Mudança para o Brasil de Liechtenstein | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Liechtenstein? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes",
+    "summary": "Mudando-se de Liechtenstein? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Liechtenstein",
       "Planejamento de documentos entre Liechtenstein e Brasil",
@@ -2633,7 +2644,7 @@
     "title": "Mudança para o Brasil de Luxemburgo",
     "browserTitle": "Mudança para o Brasil de Luxemburgo | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Luxemburgo? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Luxemburgo? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Luxemburgo",
       "Planejamento de documentos entre Luxemburgo e Brasil",
@@ -2651,7 +2662,7 @@
     "title": "Mudança para o Brasil de Madagascar",
     "browserTitle": "Mudança para o Brasil de Madagascar | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Madagascar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Madagascar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Madagascar",
       "Planejamento de documentos entre Madagascar e Brasil",
@@ -2684,10 +2695,10 @@
   },
   {
     "route": "/pt-br/countries/malaysia/",
-    "title": "Mudando para o Brasil da Malásia",
-    "browserTitle": "Mudando para o Brasil da Malásia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Malásia para o Brasil",
+    "browserTitle": "Mudando-se da Malásia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Malásia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Malásia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Malásia",
       "Planejamento de documentos entre a Malásia e Brasil",
@@ -2697,7 +2708,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Malásia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Malásia Cidades no Brasil frequentemente consideradas por pessoas da Malásia Planejamento de documentos entre a Malásia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Malásia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Malásia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Malásia Planejamento de documentos entre a Malásia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -2705,7 +2716,7 @@
     "title": "Mudança para o Brasil das Maldivas",
     "browserTitle": "Mudança para o Brasil das Maldivas | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Maldivas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se das Maldivas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas das Maldivas",
       "Planejamento de documentos entre Maldivas e Brasil",
@@ -2723,7 +2734,7 @@
     "title": "Mudança para o Brasil do Mali",
     "browserTitle": "Mudança para o Brasil do Mali | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Mali? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Mali? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Mali",
       "Planejamento de documentos entre Mali e Brasil",
@@ -2741,7 +2752,7 @@
     "title": "Mudança para o Brasil de Malta",
     "browserTitle": "Mudança para o Brasil de Malta | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Malta? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Malta? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Malta",
       "Planejamento de documentos entre Malta e Brasil",
@@ -2759,7 +2770,7 @@
     "title": "Mudança para o Brasil das Ilhas Marshall",
     "browserTitle": "Mudança para o Brasil das Ilhas Marshall | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Ilhas Marshall? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se das Ilhas Marshall? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas das Ilhas Marshall",
       "Planejamento de documentos entre as Ilhas Marshall e Brasil",
@@ -2813,7 +2824,7 @@
     "title": "Mudança para o Brasil do México",
     "browserTitle": "Mudança para o Brasil do México | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do México? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do México? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do México",
       "Planejamento de documentos entre o México e Brasil",
@@ -2831,7 +2842,7 @@
     "title": "Mudança para o Brasil da Micronésia",
     "browserTitle": "Mudança para o Brasil da Micronésia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Micronésia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Micronésia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Micronésia",
       "Planejamento de documentos entre Micronésia e Brasil",
@@ -2867,7 +2878,7 @@
     "title": "Mudança para o Brasil de Mônaco",
     "browserTitle": "Mudança para o Brasil de Mônaco | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Mônaco? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Mônaco? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Mônaco",
       "Planejamento de documentos entre Mônaco e Brasil",
@@ -2885,7 +2896,7 @@
     "title": "Mudança para o Brasil da Mongólia",
     "browserTitle": "Mudança para o Brasil da Mongólia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Mongólia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Mongólia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Mongólia",
       "Planejamento de documentos entre Mongólia e Brasil",
@@ -2903,7 +2914,7 @@
     "title": "Mudança para o Brasil de Montenegro",
     "browserTitle": "Mudança para o Brasil de Montenegro | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Montenegro? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Montenegro? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Montenegro",
       "Planejamento de documentos entre Montenegro e Brasil",
@@ -2921,7 +2932,7 @@
     "title": "Mudança para o Brasil de Marrocos",
     "browserTitle": "Mudança para o Brasil de Marrocos | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Marrocos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Marrocos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Marrocos",
       "Planejamento de documentos entre Marrocos e Brasil",
@@ -2939,7 +2950,7 @@
     "title": "Mudança para o Brasil de Moçambique",
     "browserTitle": "Mudança para o Brasil de Moçambique | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Moçambique? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Moçambique? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Moçambique",
       "Planejamento documental entre Moçambique e Brasil",
@@ -2957,7 +2968,7 @@
     "title": "Mudança para o Brasil de Mianmar",
     "browserTitle": "Mudança para o Brasil de Mianmar | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Mianmar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Mianmar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Mianmar",
       "Planejamento de documentos entre Mianmar e Brasil",
@@ -2975,7 +2986,7 @@
     "title": "Mudança para o Brasil da Namíbia",
     "browserTitle": "Mudança para o Brasil da Namíbia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Namíbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Namíbia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Namíbia",
       "Planejamento de documentos entre a Namíbia e Brasil",
@@ -2993,7 +3004,7 @@
     "title": "Mudança para o Brasil de Nauru",
     "browserTitle": "Mudança para o Brasil de Nauru | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Nauru? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Nauru? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Nauru",
       "Planejamento de documentos entre Nauru e Brasil",
@@ -3011,7 +3022,7 @@
     "title": "Mudança para o Brasil do Nepal",
     "browserTitle": "Mudança para o Brasil do Nepal | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Nepal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Nepal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Nepal",
       "Planejamento de documentos entre Nepal e Brasil",
@@ -3026,10 +3037,10 @@
   },
   {
     "route": "/pt-br/countries/netherlands/",
-    "title": "Mudando para o Brasil da Holanda",
-    "browserTitle": "Mudando para o Brasil da Holanda | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Holanda para o Brasil",
+    "browserTitle": "Mudando-se da Holanda para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Holanda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Holanda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Holanda",
       "Planejamento de documentos entre Holanda e Brasil",
@@ -3039,15 +3050,15 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Holanda | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Holanda Cidades no Brasil frequentemente consideradas por pessoas da Holanda Planejamento de documentos entre Holanda e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Holanda para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Holanda para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Holanda Planejamento de documentos entre Holanda e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
     "route": "/pt-br/countries/new-zealand/",
-    "title": "Mudando para o Brasil da Nova Zelândia",
-    "browserTitle": "Mudando para o Brasil da Nova Zelândia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Nova Zelândia para o Brasil",
+    "browserTitle": "Mudando-se da Nova Zelândia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Nova Zelândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Nova Zelândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Nova Zelândia",
       "Planejamento de documentos entre a Nova Zelândia e Brasil",
@@ -3057,7 +3068,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Nova Zelândia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Nova Zelândia Cidades no Brasil frequentemente consideradas por pessoas da Nova Zelândia Planejamento de documentos entre a Nova Zelândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Nova Zelândia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Nova Zelândia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Nova Zelândia Planejamento de documentos entre a Nova Zelândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3065,7 +3076,7 @@
     "title": "Mudança para o Brasil da Nicarágua",
     "browserTitle": "Mudança para o Brasil da Nicarágua | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Nicarágua? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Nicarágua? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Nicarágua",
       "Planejamento de documentos entre Nicarágua e Brasil",
@@ -3083,7 +3094,7 @@
     "title": "Mudança para o Brasil do Níger",
     "browserTitle": "Mudança para o Brasil do Níger | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Níger? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Níger? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Níger",
       "Planejamento de documentos entre o Níger e Brasil",
@@ -3098,10 +3109,10 @@
   },
   {
     "route": "/pt-br/countries/nigeria/",
-    "title": "Mudando para o Brasil da Nigéria",
-    "browserTitle": "Mudando para o Brasil da Nigéria | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Nigéria para o Brasil",
+    "browserTitle": "Mudando-se da Nigéria para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Nigéria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Nigéria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Nigéria",
       "Planejamento de documentos entre a Nigéria e Brasil",
@@ -3111,7 +3122,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Nigéria | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Nigéria Cidades no Brasil frequentemente consideradas por pessoas da Nigéria Planejamento de documentos entre a Nigéria e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Nigéria para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Nigéria para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Nigéria Planejamento de documentos entre a Nigéria e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3119,7 +3130,7 @@
     "title": "Mudança para o Brasil da Coreia do Norte",
     "browserTitle": "Mudança para o Brasil da Coreia do Norte | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Coreia do Norte? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Coreia do Norte? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Coreia do Norte",
       "Planejamento de documentos entre a Coreia do Norte e Brasil",
@@ -3137,7 +3148,7 @@
     "title": "Mudança para o Brasil da Macedônia do Norte",
     "browserTitle": "Mudança para o Brasil da Macedônia do Norte | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Macedônia do Norte? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes",
+    "summary": "Mudando-se da Macedônia do Norte? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Macedônia do Norte",
       "Planejamento de documentos entre a Macedônia do Norte e Brasil",
@@ -3155,7 +3166,7 @@
     "title": "Mudança para o Brasil da Noruega",
     "browserTitle": "Mudança para o Brasil da Noruega | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Noruega? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Noruega? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Noruega",
       "Planejamento de documentos entre a Noruega e Brasil",
@@ -3173,7 +3184,7 @@
     "title": "Mudança para o Brasil de Omã",
     "browserTitle": "Mudança para o Brasil de Omã | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Omã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Omã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Omã",
       "Planejamento de documentos entre Omã e Brasil",
@@ -3188,10 +3199,10 @@
   },
   {
     "route": "/pt-br/countries/pakistan/",
-    "title": "Mudando para o Brasil do Paquistão",
-    "browserTitle": "Mudando para o Brasil do Paquistão | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Paquistão para o Brasil",
+    "browserTitle": "Mudando-se do Paquistão para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Paquistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Paquistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Paquistão",
       "Planejamento de documentos entre o Paquistão e Brasil",
@@ -3201,7 +3212,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Paquistão | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Paquistão Cidades no Brasil frequentemente consideradas por pessoas do Paquistão Planejamento de documentos entre o Paquistão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Paquistão para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Paquistão para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Paquistão Planejamento de documentos entre o Paquistão e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3209,7 +3220,7 @@
     "title": "Mudança para o Brasil de Palau",
     "browserTitle": "Mudança para o Brasil de Palau | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Palau? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Palau? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas pelos habitantes de Palau",
       "Planejamento de documentos entre Palau e Brasil",
@@ -3245,7 +3256,7 @@
     "title": "Mudança para o Brasil do Panamá",
     "browserTitle": "Mudança para o Brasil do Panamá | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Panamá? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Panamá? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Panamá",
       "Planejamento de documentos entre Panamá e Brasil",
@@ -3263,7 +3274,7 @@
     "title": "Mudança para o Brasil de Papua Nova Guiné",
     "browserTitle": "Mudança para o Brasil de Papua Nova Guiné | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Papua Nova Guiné? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se de Papua Nova Guiné? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Papua Nova Guiné",
       "Planejamento de documentos entre Papua Nova Guiné e Brasil",
@@ -3281,7 +3292,7 @@
     "title": "Mudança para o Brasil do Paraguai",
     "browserTitle": "Mudança para o Brasil do Paraguai | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Paraguai? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Paraguai? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Paraguai",
       "Planejamento de documentos entre o Paraguai e Brasil",
@@ -3299,7 +3310,7 @@
     "title": "Mudança para o Brasil do Peru",
     "browserTitle": "Mudança para o Brasil do Peru | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Peru? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Peru? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Peru",
       "Planejamento de documentos entre Peru e Brasil",
@@ -3317,7 +3328,7 @@
     "title": "Mudança para o Brasil das Filipinas",
     "browserTitle": "Mudança para o Brasil das Filipinas | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Filipinas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se das Filipinas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas das Filipinas",
       "Planejamento de documentos entre Filipinas e Brasil",
@@ -3335,7 +3346,7 @@
     "title": "Mudança para o Brasil da Polônia",
     "browserTitle": "Mudança para o Brasil da Polônia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Polônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Polônia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Polônia",
       "Planejamento de documentos entre a Polônia e Brasil",
@@ -3353,7 +3364,7 @@
     "title": "Mudança para o Brasil de Portugal",
     "browserTitle": "Mudança para o Brasil de Portugal | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Portugal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Portugal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por portugueses",
       "Planejamento de documentos entre Portugal e Brasil",
@@ -3371,7 +3382,7 @@
     "title": "Mudança para o Brasil do Catar",
     "browserTitle": "Mudança para o Brasil do Catar | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Catar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Catar? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Catar",
       "Planejamento de documentos entre Qatar e Brasil",
@@ -3389,7 +3400,7 @@
     "title": "Mudança para o Brasil da Romênia",
     "browserTitle": "Mudança para o Brasil da Romênia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Romênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Romênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Romênia",
       "Planejamento de documentos entre a Romênia e Brasil",
@@ -3404,10 +3415,10 @@
   },
   {
     "route": "/pt-br/countries/russia/",
-    "title": "Mudando para o Brasil da Rússia",
-    "browserTitle": "Mudando para o Brasil da Rússia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Rússia para o Brasil",
+    "browserTitle": "Mudando-se da Rússia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Rússia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Rússia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Rússia",
       "Planejamento de documentos entre a Rússia e Brasil",
@@ -3417,7 +3428,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Rússia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Rússia Cidades no Brasil frequentemente consideradas por pessoas da Rússia Planejamento de documentos entre a Rússia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Rússia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Rússia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Rússia Planejamento de documentos entre a Rússia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3443,7 +3454,7 @@
     "title": "Mudança para o Brasil de São Cristóvão e Nevis",
     "browserTitle": "Mudança para o Brasil de São Cristóvão e Nevis | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de São Cristóvão e Nevis? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se de São Cristóvão e Nevis? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de São Cristóvão e Nevis",
       "Planejamento de documentos entre São Cristóvão e Nevis e Brasil",
@@ -3479,7 +3490,7 @@
     "title": "Mudança para o Brasil de São Vicente e Granadinas",
     "browserTitle": "Mudança para o Brasil de São Vicente e Granadinas | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de São Vicente e Granadinas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com",
+    "summary": "Mudando-se de São Vicente e Granadinas? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de São Vicente e Granadinas",
       "Planejamento de documentos entre São Vicente e Granadinas e Brasil",
@@ -3497,7 +3508,7 @@
     "title": "Mudança para o Brasil de Samoa",
     "browserTitle": "Mudança para o Brasil de Samoa | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Samoa? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Samoa? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Samoa",
       "Planejamento de documentos entre Samoa e Brasil",
@@ -3515,7 +3526,7 @@
     "title": "Mudança para o Brasil de San Marino",
     "browserTitle": "Mudança para o Brasil de San Marino | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de San Marino? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de San Marino? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de San Marino",
       "Planejamento de documentos entre San Marino e Brasil",
@@ -3551,7 +3562,7 @@
     "title": "Mudança para o Brasil da Arábia Saudita",
     "browserTitle": "Mudança para o Brasil da Arábia Saudita | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Arábia Saudita? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Arábia Saudita? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Arábia Saudita",
       "Planejamento de documentos entre a Arábia Saudita e Brasil",
@@ -3569,7 +3580,7 @@
     "title": "Mudança para o Brasil do Senegal",
     "browserTitle": "Mudança para o Brasil do Senegal | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Senegal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Senegal? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Senegal",
       "Planejamento de documentos entre Senegal e Brasil",
@@ -3587,7 +3598,7 @@
     "title": "Mudança para o Brasil da Sérvia",
     "browserTitle": "Mudança para o Brasil da Sérvia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Sérvia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Sérvia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Sérvia",
       "Planejamento de documentos entre a Sérvia e Brasil",
@@ -3605,7 +3616,7 @@
     "title": "Mudança para o Brasil das Seychelles",
     "browserTitle": "Mudança para o Brasil das Seychelles | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Seychelles? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se das Seychelles? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas das Seychelles",
       "Planejamento de documentos entre Seychelles e Brasil",
@@ -3641,7 +3652,7 @@
     "title": "Mudança para o Brasil de Cingapura",
     "browserTitle": "Mudança para o Brasil de Cingapura | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Cingapura? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Cingapura? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Singapura",
       "Planejamento de documentos entre Cingapura e Brasil",
@@ -3659,7 +3670,7 @@
     "title": "Mudança para o Brasil da Eslováquia",
     "browserTitle": "Mudança para o Brasil da Eslováquia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Eslováquia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Eslováquia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Eslováquia",
       "Planejamento de documentos entre a Eslováquia e Brasil",
@@ -3677,7 +3688,7 @@
     "title": "Mudança para o Brasil da Eslovênia",
     "browserTitle": "Mudança para o Brasil da Eslovênia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Eslovênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Eslovênia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Eslovênia",
       "Planejamento de documentos entre a Eslovénia e Brasil",
@@ -3695,7 +3706,7 @@
     "title": "Mudança para o Brasil das Ilhas Salomão",
     "browserTitle": "Mudança para o Brasil das Ilhas Salomão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil das Ilhas Salomão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes",
+    "summary": "Mudando-se das Ilhas Salomão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas pelos habitantes das Ilhas Salomão",
       "Planejamento de documentos entre as Ilhas Salomão e Brasil",
@@ -3731,7 +3742,7 @@
     "title": "Mudança para o Brasil da África do Sul",
     "browserTitle": "Mudança para o Brasil da África do Sul | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da África do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da África do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da África do Sul",
       "Planejamento de documentos entre a África do Sul e Brasil",
@@ -3749,7 +3760,7 @@
     "title": "Mudança para o Brasil da Coreia do Sul",
     "browserTitle": "Mudança para o Brasil da Coreia do Sul | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Coreia do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Coreia do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Coreia do Sul",
       "Planejamento de documentos entre a Coreia do Sul e Brasil",
@@ -3767,7 +3778,7 @@
     "title": "Mudança para o Brasil do Sudão do Sul",
     "browserTitle": "Mudança para o Brasil do Sudão do Sul | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Sudão do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Sudão do Sul? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Sudão do Sul",
       "Planejamento de documentos entre o Sudão do Sul e Brasil",
@@ -3782,10 +3793,10 @@
   },
   {
     "route": "/pt-br/countries/spain/",
-    "title": "Mudando para o Brasil da Espanha",
-    "browserTitle": "Mudando para o Brasil da Espanha | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Espanha para o Brasil",
+    "browserTitle": "Mudando-se da Espanha para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Espanha? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Espanha? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Espanha",
       "Planejamento de documentos entre Espanha e Brasil",
@@ -3795,7 +3806,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Espanha | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Espanha Cidades no Brasil frequentemente consideradas por pessoas da Espanha Planejamento de documentos entre Espanha e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Espanha para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Espanha para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Espanha Planejamento de documentos entre Espanha e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3803,7 +3814,7 @@
     "title": "Mudança para o Brasil do Sri Lanka",
     "browserTitle": "Mudança para o Brasil do Sri Lanka | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Sri Lanka? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Sri Lanka? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Sri Lanka",
       "Planejamento de documentos entre Sri Lanka e Brasil",
@@ -3821,7 +3832,7 @@
     "title": "Mudança para o Brasil do Sudão",
     "browserTitle": "Mudança para o Brasil do Sudão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Sudão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Sudão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Sudão",
       "Planejamento de documentos entre o Sudão e Brasil",
@@ -3857,7 +3868,7 @@
     "title": "Mudança para o Brasil da Suécia",
     "browserTitle": "Mudança para o Brasil da Suécia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Suécia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Suécia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Suécia",
       "Planejamento de documentos entre a Suécia e Brasil",
@@ -3875,7 +3886,7 @@
     "title": "Mudança para o Brasil da Suíça",
     "browserTitle": "Mudança para o Brasil da Suíça | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Suíça? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Suíça? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Suíça",
       "Planejamento de documentos entre a Suíça e Brasil",
@@ -3893,7 +3904,7 @@
     "title": "Mudança para o Brasil da Síria",
     "browserTitle": "Mudança para o Brasil da Síria | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Síria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Síria? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Síria",
       "Planejamento de documentos entre a Síria e Brasil",
@@ -3944,10 +3955,10 @@
   },
   {
     "route": "/pt-br/countries/thailand/",
-    "title": "Mudando para o Brasil da Tailândia",
-    "browserTitle": "Mudando para o Brasil da Tailândia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Tailândia para o Brasil",
+    "browserTitle": "Mudando-se da Tailândia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Tailândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Tailândia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Tailândia",
       "Planejamento de documentos entre a Tailândia e Brasil",
@@ -3957,7 +3968,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Tailândia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Tailândia Cidades no Brasil frequentemente consideradas por pessoas da Tailândia Planejamento de documentos entre a Tailândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Tailândia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Tailândia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Tailândia Planejamento de documentos entre a Tailândia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -3983,7 +3994,7 @@
     "title": "Mudança para o Brasil do Togo",
     "browserTitle": "Mudança para o Brasil do Togo | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Togo? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Togo? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Togo",
       "Planejamento de documentos entre Togo e Brasil",
@@ -4001,7 +4012,7 @@
     "title": "Mudança para o Brasil de Tonga",
     "browserTitle": "Mudança para o Brasil de Tonga | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Tonga? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Tonga? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Tonga",
       "Planejamento de documentos entre Tonga e Brasil",
@@ -4019,7 +4030,7 @@
     "title": "Mudança para o Brasil de Trinidad e Tobago",
     "browserTitle": "Mudança para o Brasil de Trinidad e Tobago | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Trinidad e Tobago? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se de Trinidad e Tobago? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Trinidad e Tobago",
       "Planejamento de documentos entre Trinidad e Tobago e Brasil",
@@ -4037,7 +4048,7 @@
     "title": "Mudança para o Brasil da Tunísia",
     "browserTitle": "Mudança para o Brasil da Tunísia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Tunísia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Tunísia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Tunísia",
       "Planejamento de documentos entre a Tunísia e Brasil",
@@ -4055,7 +4066,7 @@
     "title": "Mudança para o Brasil da Turquia",
     "browserTitle": "Mudança para o Brasil da Turquia | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Turquia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Turquia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Turquia",
       "Planejamento de documentos entre a Turquia e Brasil",
@@ -4091,7 +4102,7 @@
     "title": "Mudança para o Brasil de Tuvalu",
     "browserTitle": "Mudança para o Brasil de Tuvalu | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Tuvalu? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Tuvalu? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Tuvalu",
       "Planejamento de documentos entre Tuvalu e Brasil",
@@ -4109,7 +4120,7 @@
     "title": "Mudança para o Brasil de Uganda",
     "browserTitle": "Mudança para o Brasil de Uganda | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Uganda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Uganda? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Uganda",
       "Planejamento de documentos entre Uganda e Brasil",
@@ -4124,10 +4135,10 @@
   },
   {
     "route": "/pt-br/countries/ukraine/",
-    "title": "Mudando para o Brasil da Ucrânia",
-    "browserTitle": "Mudando para o Brasil da Ucrânia | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Ucrânia para o Brasil",
+    "browserTitle": "Mudando-se da Ucrânia para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Ucrânia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Ucrânia? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Ucrânia",
       "Planejamento de documentos entre a Ucrânia e Brasil",
@@ -4137,7 +4148,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Ucrânia | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Ucrânia Cidades no Brasil frequentemente consideradas por pessoas da Ucrânia Planejamento de documentos entre a Ucrânia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Ucrânia para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Ucrânia para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Ucrânia Planejamento de documentos entre a Ucrânia e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -4145,7 +4156,7 @@
     "title": "Mudança para o Brasil dos Emirados Árabes Unidos",
     "browserTitle": "Mudança para o Brasil dos Emirados Árabes Unidos | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil dos Emirados Árabes Unidos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique",
+    "summary": "Mudando-se dos Emirados Árabes Unidos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas dos Emirados Árabes Unidos",
       "Planejamento de documentos entre os Emirados Árabes Unidos e Brasil",
@@ -4163,7 +4174,7 @@
     "title": "Mudança para o Brasil do Reino Unido",
     "browserTitle": "Mudança para o Brasil do Reino Unido | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Reino Unido? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes",
+    "summary": "Mudando-se do Reino Unido? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Reino Unido",
       "Planejamento de documentos entre o Reino Unido e Brasil",
@@ -4178,10 +4189,10 @@
   },
   {
     "route": "/pt-br/countries/united-states/",
-    "title": "Mudando para o Brasil dos Estados Unidos",
-    "browserTitle": "Mudando para o Brasil dos Estados Unidos | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se dos Estados Unidos para o Brasil",
+    "browserTitle": "Mudando-se dos Estados Unidos para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil dos Estados Unidos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes",
+    "summary": "Mudando-se dos Estados Unidos? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas dos Estados Unidos",
       "Planejamento de documentos entre os Estados Unidos e Brasil",
@@ -4191,7 +4202,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil dos Estados Unidos | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil dos Estados Unidos Cidades no Brasil frequentemente consideradas por pessoas dos Estados Unidos Planejamento de documentos entre os Estados Unidos e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se dos Estados Unidos para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se dos Estados Unidos para o Brasil Cidades no Brasil frequentemente consideradas por pessoas dos Estados Unidos Planejamento de documentos entre os Estados Unidos e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -4199,7 +4210,7 @@
     "title": "Mudança para o Brasil do Uruguai",
     "browserTitle": "Mudança para o Brasil do Uruguai | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Uruguai? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Uruguai? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Uruguai",
       "Planejamento de documentos entre Uruguai e Brasil",
@@ -4217,7 +4228,7 @@
     "title": "Mudança para o Brasil do Uzbequistão",
     "browserTitle": "Mudança para o Brasil do Uzbequistão | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Uzbequistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Uzbequistão? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Uzbequistão",
       "Planejamento de documentos entre o Uzbequistão e Brasil",
@@ -4235,7 +4246,7 @@
     "title": "Mudança para o Brasil de Vanuatu",
     "browserTitle": "Mudança para o Brasil de Vanuatu | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil de Vanuatu? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se de Vanuatu? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas de Vanuatu",
       "Planejamento de documentos entre Vanuatu e Brasil",
@@ -4253,7 +4264,7 @@
     "title": "Mudança para o Brasil da Cidade do Vaticano",
     "browserTitle": "Mudança para o Brasil da Cidade do Vaticano | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Cidade do Vaticano? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Cidade do Vaticano? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Cidade do Vaticano",
       "Planejamento de documentos entre a Cidade do Vaticano e Brasil",
@@ -4268,10 +4279,10 @@
   },
   {
     "route": "/pt-br/countries/venezuela/",
-    "title": "Mudando para o Brasil da Venezuela",
-    "browserTitle": "Mudando para o Brasil da Venezuela | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se da Venezuela para o Brasil",
+    "browserTitle": "Mudando-se da Venezuela para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil da Venezuela? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se da Venezuela? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas da Venezuela",
       "Planejamento de documentos entre Venezuela e Brasil",
@@ -4281,15 +4292,15 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil da Venezuela | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil da Venezuela Cidades no Brasil frequentemente consideradas por pessoas da Venezuela Planejamento de documentos entre Venezuela e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se da Venezuela para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se da Venezuela para o Brasil Cidades no Brasil frequentemente consideradas por pessoas da Venezuela Planejamento de documentos entre Venezuela e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
     "route": "/pt-br/countries/vietnam/",
-    "title": "Mudando para o Brasil do Vietnã",
-    "browserTitle": "Mudando para o Brasil do Vietnã | Monique Fernandes | Imigre para o Brasil",
+    "title": "Mudando-se do Vietnã para o Brasil",
+    "browserTitle": "Mudando-se do Vietnã para o Brasil | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Vietnã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Vietnã? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Vietnã",
       "Planejamento de documentos entre o Vietnã e Brasil",
@@ -4299,7 +4310,7 @@
       "Considerações sobre liquidação"
     ],
     "faq": [],
-    "keywords": "Mudando para o Brasil do Vietnã | Monique Fernandes | Imigre para o Brasil Mudando para o Brasil do Vietnã Cidades no Brasil frequentemente consideradas por pessoas do Vietnã Planejamento de documentos entre o Vietnã e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
+    "keywords": "Mudando-se do Vietnã para o Brasil | Monique Fernandes | Imigre para o Brasil Mudando-se do Vietnã para o Brasil Cidades no Brasil frequentemente consideradas por pessoas do Vietnã Planejamento de documentos entre o Vietnã e Brasil Considerações sobre liquidação e custos Cidades Populares Planejamento de Documentos Considerações sobre liquidação countries",
     "noindex": false
   },
   {
@@ -4343,7 +4354,7 @@
     "title": "Mudança para o Brasil do Zimbábue",
     "browserTitle": "Mudança para o Brasil do Zimbábue | Monique Fernandes | Imigre para o Brasil",
     "family": "countries",
-    "summary": "Mudando para o Brasil do Zimbábue? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em",
+    "summary": "Mudando-se do Zimbábue? Compare vistos, residências, rotas de naturalização, planejamento de documentos e orientações de consulta com Monique Fernandes em para o Brasil",
     "topics": [
       "Cidades no Brasil frequentemente consideradas por pessoas do Zimbábue",
       "Planejamento de documentos entre o Zimbábue e Brasil",
@@ -4409,30 +4420,30 @@
   },
   {
     "route": "/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/",
-    "title": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso...",
-    "browserTitle": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso... | FYI | Imigre para o Brasil",
+    "title": "Antonio Prado (RS) ganha selo da ONU Turismo e vira referência mundial",
+    "browserTitle": "Antonio Prado (RS) ganha selo da ONU Turismo e vira referência mundial | FYI | Imigre para o Brasil",
     "family": "insights",
-    "summary": "Antonio Prado (RS) ganha selo de Turismo da ONU e se torna referência mundial O Charmoso...: Antonio Prado (RS) ganha selo de Turismo da ONU e se torna referência mundial...",
+    "summary": "Antonio Prado (RS) ganha selo da ONU Turismo e vira referência mundial: a cidade passa a ser reconhecida internacionalmente como referência turística.",
     "topics": [
       "Por que isso é importante para o planejamento da imigração",
       "Por que é importante"
     ],
     "faq": [],
-    "keywords": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso... | FYI | Imigre para o Brasil Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso... Por que isso é importante para o planejamento da imigração Por que é importante insights",
+    "keywords": "Antonio Prado (RS) ganha selo da ONU Turismo e vira referência mundial | FYI | Imigre para o Brasil Antonio Prado (RS) ganha selo da ONU Turismo e vira referência mundial Por que isso é importante para o planejamento da imigração Por que é importante insights",
     "noindex": false
   },
   {
     "route": "/pt-br/insights/fyi/ant-nio-prado-village-brazil-s-italian-heritage-gains-global-recognition-the-charming/",
-    "title": "Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso",
-    "browserTitle": "Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso | FYI | Imigre para o Brasil",
+    "title": "Vila Antônio Prado: herança italiana do Brasil ganha reconhecimento global",
+    "browserTitle": "Vila Antônio Prado: herança italiana do Brasil ganha reconhecimento global | FYI | Imigre para o Brasil",
     "family": "insights",
-    "summary": "Vila Antônio Prado herança italiana do brasil ganha reconhecimento global o charmoso: Vila Antonio Prado: herança italiana do Brasil ganha reconhecimento global...",
+    "summary": "Vila Antônio Prado: a herança italiana do Brasil ganha reconhecimento global e reforça o valor cultural da cidade.",
     "topics": [
       "Por que isso é importante para o planejamento da imigração",
       "Por que é importante"
     ],
     "faq": [],
-    "keywords": "Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso | FYI | Imigre para o Brasil Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso Por que isso é importante para o planejamento da imigração Por que é importante insights",
+    "keywords": "Vila Antônio Prado: herança italiana do Brasil ganha reconhecimento global | FYI | Imigre para o Brasil Vila Antônio Prado: herança italiana do Brasil ganha reconhecimento global Por que isso é importante para o planejamento da imigração Por que é importante insights",
     "noindex": false
   },
   {
@@ -4801,16 +4812,16 @@
   },
   {
     "route": "/pt-br/insights/fyi/portugal-ends-the-old-work-search-visa-and-creates-a-new-modality-visa-to-search/",
-    "title": "Portugal acaba com o antigo visto de busca de trabalho e cria uma nova modalidade: visto de busca...",
-    "browserTitle": "Portugal acaba com o antigo visto de busca de trabalho e cria uma nova modalidade: visto de busca... | FYI | Imigre para o Brasil",
+    "title": "Portugal extingue o antigo visto de procura de trabalho e cria uma nova modalidade",
+    "browserTitle": "Portugal extingue o antigo visto de procura de trabalho e cria uma nova modalidade | FYI | Imigre para o Brasil",
     "family": "insights",
-    "summary": "Portugal acaba com o antigo visto de procura de trabalho e cria uma nova modalidade: Visa To Search...: Portugal acaba com o antigo visto de procura de trabalho e cria uma nova modalidade: visto...",
+    "summary": "Portugal extingue o antigo visto de procura de trabalho e cria uma nova modalidade: a mudança substitui o modelo anterior de entrada para busca de emprego.",
     "topics": [
       "Por que isso é importante para o planejamento da imigração",
       "Por que é importante"
     ],
     "faq": [],
-    "keywords": "Portugal acaba com o antigo visto de busca de trabalho e cria uma nova modalidade: visto de busca... | FYI | Imigre para o Brasil Portugal acaba com o antigo visto de busca de trabalho e cria uma nova modalidade: visto de busca... Por que isso é importante para o planejamento da imigração Por que é importante insights",
+    "keywords": "Portugal extingue o antigo visto de procura de trabalho e cria uma nova modalidade | FYI | Imigre para o Brasil Portugal extingue o antigo visto de procura de trabalho e cria uma nova modalidade Por que isso é importante para o planejamento da imigração Por que é importante insights",
     "noindex": false
   },
   {
@@ -11070,9 +11081,9 @@
     "title": "Todos os serviços",
     "browserTitle": "Todos os serviços | Diretório de serviços de imigração para o Brasil | Imigre para o Brasil",
     "family": "services",
-    "summary": "Todos os serviços de imigração para o Brasil que Monique Fernandes oferece estão definidos aqui em um só lugar. Descubra explicações claras e abrangentes sobre o suporte jurídico especializado prestado em questões de imigração brasileira, pensado para orientar você em cada etapa com precisão, estratégia e plena conformidade regulatória.",
+    "summary": "Cada serviço de imigração para o Brasil que Monique Fernandes oferece é definido aqui em um só lugar. Descubra explicações claras e abrangentes sobre o suporte jurídico especializado que oferecemos para questões de imigração brasileira, projetadas para guiá-lo em todas as etapas com precisão, estratégia e total conformidade regulatória.",
     "topics": [
-      "Rotas de visto para o Brasil",
+      "Rotas Visa para o Brasil",
       "Caminhos de residência",
       "Cidadania e naturalização",
       "Defesa e assuntos urgentes",
@@ -11080,7 +11091,7 @@
       "Assessoria e planejamento"
     ],
     "faq": [],
-    "keywords": "Todos os serviços | Diretório de serviços de imigração para o Brasil | Imigre para o Brasil Todos os serviços Rotas de visto para o Brasil Caminhos de residência Cidadania e naturalização Defesa e assuntos urgentes Serviços de apoio Assessoria e planejamento services",
+    "keywords": "Todos os serviços | Diretório de serviços de imigração para o Brasil | Imigre para o Brasil Todos os serviços Rotas Visa para o Brasil Caminhos de residência Cidadania e naturalização Defesa e assuntos urgentes Serviços de apoio Assessoria e planejamento services",
     "noindex": false
   },
   {

@@ -1,57 +1,41 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
+import { discoverRouteFiles } from "./static-site-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const ABOUT_PATH = path.join(ROOT, "content", "en", "about", "about.json");
-const HTML_EXTENSIONS = new Set([".html"]);
-const IGNORED_DIRS = new Set([".git", "node_modules"]);
-
-function escapeHtml(value = "") {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
-
-function escapeAttribute(value = "") {
-  return escapeHtml(value).replace(/"/g, "&quot;");
-}
-
-function renderFaviconLinks(favicons) {
-  return favicons
-    .map((item) => {
-      const attributes = [
-        `rel="${escapeAttribute(item.rel)}"`,
-        `href="${escapeAttribute(item.href)}"`
-      ];
-      if (item.sizes) attributes.push(`sizes="${escapeAttribute(item.sizes)}"`);
-      if (item.type) attributes.push(`type="${escapeAttribute(item.type)}"`);
-      return `<link ${attributes.join(" ")} />`;
-    })
-    .join("\n");
-}
+const CANONICAL_HTML_PATH = path.join(ROOT, "index.html");
+const EXTRA_HTML_PATHS = [
+  path.join(ROOT, "404.html"),
+  path.join(ROOT, "pt-br", "404.html")
+];
+const FAVICON_SECTION_RE =
+  /<!-- Section: Favicons And Manifest -->[\s\S]*?(?=\n<!-- Section: Stylesheets -->)/;
 
 async function loadFaviconBlock() {
-  const about = JSON.parse(await fs.readFile(ABOUT_PATH, "utf8"));
-  return `<!-- Section: Favicons And Manifest -->\n${renderFaviconLinks(about.assets.favicons)}`;
+  const html = await fs.readFile(CANONICAL_HTML_PATH, "utf8");
+  const match = html.match(FAVICON_SECTION_RE);
+  if (!match) {
+    throw new Error(`Could not find the favicon section in ${CANONICAL_HTML_PATH}.`);
+  }
+  return match[0].trimEnd();
 }
 
-async function discoverHtmlFiles(directory, files = []) {
-  const entries = await fs.readdir(directory, { withFileTypes: true });
-  for (const entry of entries) {
-    if (IGNORED_DIRS.has(entry.name)) continue;
-    const fullPath = path.join(directory, entry.name);
-    if (entry.isDirectory()) {
-      await discoverHtmlFiles(fullPath, files);
-      continue;
-    }
-    if (entry.isFile() && HTML_EXTENSIONS.has(path.extname(entry.name))) {
-      files.push(fullPath);
+async function listTargetHtmlFiles() {
+  const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
+  const fileSet = new Set(routeFiles.map((item) => item.filePath));
+
+  for (const filePath of EXTRA_HTML_PATHS) {
+    try {
+      await fs.access(filePath);
+      fileSet.add(filePath);
+    } catch {
+      // Ignore optional standalone HTML files that are not present.
     }
   }
-  return files;
+
+  return [...fileSet].sort((a, b) => a.localeCompare(b));
 }
 
 function syncFaviconSection(html, block) {
@@ -74,7 +58,7 @@ function syncFaviconSection(html, block) {
 
 async function main() {
   const block = await loadFaviconBlock();
-  const htmlFiles = await discoverHtmlFiles(ROOT);
+  const htmlFiles = await listTargetHtmlFiles();
   let updatedCount = 0;
 
   for (const filePath of htmlFiles) {

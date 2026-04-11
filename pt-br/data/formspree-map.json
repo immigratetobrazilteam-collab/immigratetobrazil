@@ -1,5 +1,10 @@
 [
   {
+    "route": "/pt-br/about/atlas/",
+    "title": "Sobre Monique Fernandes",
+    "endpoint": "https://formspree.io/f/xdawygld"
+  },
+  {
     "route": "/pt-br/client-feedback/",
     "title": "Feedback do cliente",
     "endpoint": "https://formspree.io/f/xdawygld"

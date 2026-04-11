@@ -1,40 +1,8 @@
-import { existsSync } from "fs";
-
-import {
-  ABOUT_PATH,
-  ROUTES_ROOT,
-  discoverContentRouteDirs,
-  generateEnglishPage,
-  loadAboutContent,
-  loadContentPage
-} from "./content-source-utils.js";
-import { buildSiteCatalog } from "./schema-utils.js";
-
-async function main() {
-  if (!existsSync(ABOUT_PATH) || !existsSync(ROUTES_ROOT)) {
-    throw new Error("Missing content sources under content/en/. Restore the checked-in content tree before generating HTML.");
-  }
-
-  const about = await loadAboutContent();
-  const routeDirs = await discoverContentRouteDirs();
-  const contentPages = [];
-  let changedCount = 0;
-
-  for (const routeDir of routeDirs) {
-    contentPages.push(await loadContentPage(routeDir));
-  }
-
-  const siteCatalog = buildSiteCatalog(contentPages);
-
-  for (const { route, page, bodyHtml } of contentPages) {
-    const { changed } = await generateEnglishPage(route, about, page, bodyHtml, siteCatalog);
-    if (changed) changedCount += 1;
-  }
-
-  console.log(`Generated ${routeDirs.length} English HTML pages from content sources (${changedCount} updated).`);
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+console.error(
+  [
+    "English page generation has been retired.",
+    "Edit the checked-in English HTML files directly (for example `index.html` or `about/index.html`).",
+    "Portuguese generation still reads the English HTML output, but it no longer rewrites English pages."
+  ].join(" ")
+);
+process.exit(1);
