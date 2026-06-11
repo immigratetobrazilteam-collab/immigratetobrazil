@@ -30,7 +30,7 @@ os.environ.setdefault("ITB_PT_MICRO_BATCH_SIZE", "16")
 ROOT = Path(__file__).resolve().parents[1]
 SITE_DOMAIN = "https://immigratetobrazil.com"
 PT_PREFIX = "/pt-br"
-GENERATOR_VERSION = "2026-04-08-pt-br-v8"
+GENERATOR_VERSION = "2026-04-08-pt-br-v9"
 TRANSLATION_MEMORY_VERSION = "2026-04-08-hybrid-cache-v2"
 BASE_RUNTIME_MODULES = ("bs4",)
 ARGOS_RUNTIME_MODULES = ("argostranslate.package", "argostranslate.translate")
@@ -85,6 +85,18 @@ PT_BR_NORMALIZATION_RULES = (
     (r"\bImigre para imagem principal da consulta Brasil\b", "Imagem principal da consulta do Imigre para o Brasil"),
     (r"\bPratica juridica\b", "Prática jurídica"),
     (r"\bpratica juridica\b", "prática jurídica"),
+    (r"\bLuso-Brasilian\b", "Luso-Brasileiro"),
+    (r"\bBrasilian Student Visa\b", "Visto brasileiro de estudante"),
+    (r"\bBrasilian permite\b", "A legislação brasileira permite"),
+    (r"\bBrasilian legislação de imigração\b", "A legislação brasileira de imigração"),
+    (r"\bBrasilian legislação\b", "A legislação brasileira"),
+    (r"\bno Brasilian os serviços públicos\b", "nos serviços públicos brasileiros"),
+    (r"\bentre Brasilian\b", "entre brasileiros"),
+    (r"\b, Brasilian\b", ", brasileiros"),
+    (r"\bno Brasilian\b", "na legislação brasileira"),
+    (r"\bprevista no Brasilian\b", "prevista na legislação brasileira"),
+    (r"\bmomento no Brasilian\b", "momento em órgão brasileiro"),
+    (r"\bEstados Unidos, Brasilian\b", "Estados Unidos, brasileiros"),
     (r"\bBrasil servi[cç]os jur[ií]dicos e de consultoria em imigra[cç][aã]o\b", "Serviços jurídicos e de consultoria em imigração para o Brasil"),
     (r"\badvogada de imigração Brasilian\b", "advogada de imigração brasileira"),
     (r"\bBrasilian advogada de imigração\b", "advogada brasileira de imigração"),
@@ -196,6 +208,8 @@ BRAZILIAN_PREFIX_NOUN_MAP = {
     "autorização": "autorização",
     "Cidades": "Cidades",
     "cidades": "cidades",
+    "Cidadania": "Cidadania",
+    "cidadania": "cidadania",
     "Culture": "Cultura",
     "culture": "cultura",
     "Cuisine": "Culinária",
@@ -1622,7 +1636,7 @@ class PtGenerator:
         write_translation_memory(MEMORY_PATH, self.memory, provider=self.provider)
         write_json(MANIFEST_PATH, self.manifest)
 
-    def generate(self) -> tuple[int, int, int, int, int]:
+    def generate(self) -> tuple[int, int, int, int]:
         route_files = discover_english_routes()
         current_routes = {route for route, _ in route_files}
         self.prune_removed_routes(current_routes)
@@ -1693,12 +1707,6 @@ class PtGenerator:
             target_file = PARTIALS_PT_DIR / name
             partial_key = f"partial::{name}"
             source_hash = sha256_text(source_html + self.config_hash_for(partial_key))
-            manifest_entry = self.manifest.get("partials", {}).get(name, {})
-            cache_matches = manifest_entry.get("source_hash") == source_hash and target_file.exists()
-
-            if (not self.force and cache_matches) or (self.force and self.resume and cache_matches):
-                skipped_cached_partials += 1
-                continue
 
             rendered_html = self.render_pt_fragment(source_html, partial_key)
             target_file.write_text(rendered_html, encoding="utf8")
@@ -1711,7 +1719,8 @@ class PtGenerator:
         if prepared_partials:
             print(
                 f"Generated {generated_partials}/{len(prepared_partials)} pt-BR partials and skipped "
-                f"{skipped_cached_partials} cached partials.",
+                f"{skipped_cached_partials} cached partials. Partial caching is disabled so shared "
+                "partials always follow the English source.",
                 flush=True,
             )
 

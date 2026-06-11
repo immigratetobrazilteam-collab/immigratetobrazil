@@ -1,7 +1,7 @@
 <!-- Section: Site Navigation -->
 <nav class="navbar main-nav" aria-label="Main navigation">
   <div class="container">
-    <div class="main-header">
+    <div class="main-header main-header--redesign">
       <div class="main-header__upper">
         <div class="main-header__identity">
           <a class="brand-lockup" href="/" aria-label="Immigrate to Brazil with Attorney Monique Fernandes home">
@@ -18,14 +18,8 @@
           </a>
         </div>
 
-        <div class="main-header__center">
-          <a class="nav-link main-header__home" href="/" data-itb-route="/">Home</a>
-          <a class="nav-link main-header__home" href="/about/atlas/" data-itb-route="/about/atlas/">About</a>
-          <a class="nav-link main-header__home" href="/services/all/" data-itb-route="/services/all/">Services</a>
-        </div>
-
         <div class="main-header__actions">
-          <a class="main-header__consult-prompt" href="/start-consultation/" data-cta-click="true">
+          <a class="main-header__consult-prompt main-header__consult-button" href="/start-consultation/" data-cta-click="true">
             <span class="main-header__consult-kicker">Private Consultation</span>
             <span class="main-header__consult-link">Book Consultation</span>
           </a>
@@ -38,268 +32,332 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
         </div>
       </div>
 
       <div class="main-header__lower d-none d-xl-flex">
-        <ul class="navbar-nav navbar-nav--services">
+        <ul class="navbar-nav navbar-nav--services desktop-primary-menu">
+          <li class="nav-item">
+            <a class="nav-link main-header__home" href="/" data-itb-route="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link main-header__home" href="/about/" data-itb-route="/about/">About</a>
+          </li>
+
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Visas</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/visas/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Visas ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--wide">
               <div class="service-family-menu__head">
                 <div>
                   <a class="service-family-menu__heading" href="/services/visas/"><h3>Visas</h3></a>
-                  <p>Entry visas across work, investment, study, family, and specialist routes.</p>
+                  <p>Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/visas/artistic/"><strong>Artistic</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/business/"><strong>Business</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/educational/"><strong>Educational</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/exchange/"><strong>Exchange</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/nomad/"><strong>Nomad</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/artistic/"><strong>Artistic Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/business/"><strong>Business Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/exchange/"><strong>Cultural Exchange Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/nomad/"><strong>Digital Nomad Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/diplomatic/"><strong>Diplomatic Visa</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/visas/family/"><strong>Family</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/humanitarian/"><strong>Humanitarian</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/investor/"><strong>Investor</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/journalist/"><strong>Journalist</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/medical/"><strong>Medical</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/religious/"><strong>Religious</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/educational/"><strong>Educational Exchange Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/family/"><strong>Family Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/humanitarian/"><strong>Humanitarian Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/investor/"><strong>Investor Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/journalist/"><strong>Journalist Visa</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/visas/research/"><strong>Research</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/retiree/"><strong>Retiree</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/sports/"><strong>Sports</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/startup/"><strong>Startup</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/student/"><strong>Student</strong></a>
-
+                  <a class="service-family-menu__link" href="/services/visas/medical/"><strong>Medical Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/religious/"><strong>Religious Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/research/"><strong>Research Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/retiree/"><strong>Retiree Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/sports/"><strong>Sports Visa</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                   <a class="service-family-menu__link" href="/services/visas/tourist/"><strong>Tourist</strong></a>                 <a class="service-family-menu__link" href="/services/visas/transit/"><strong>Transit</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/volunteer/"><strong>Volunteer</strong></a>
-                  <a class="service-family-menu__link" href="/services/visas/work/"><strong>Work</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/startup/"><strong>Startup Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/student/"><strong>Student Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/tourist/"><strong>Tourist Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/transit/"><strong>Transit Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/volunteer/"><strong>Volunteer Visa</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/work/"><strong>Work Visa</strong></a>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Residencies</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/residencies/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Residency ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--wide">
               <div class="service-family-menu__head">
                 <div>
-                  <a class="service-family-menu__heading" href="/services/residencies/"><h3>Residencies</h3></a>
-                  <p>Longer-term residence pathways, renewals, and post-arrival planning.</p>
+                  <a class="service-family-menu__heading" href="/services/residencies/"><h3>Residency</h3></a>
+                  <p>Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/residencies/cplp/"><strong>CPLP</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/mercosul/"><strong>MERCOSUL</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/nomad/"><strong>Nomad</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/educational/"><strong>Educational</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/cplp/"><strong>CPLP Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/exchange/"><strong>Cultural Exchange Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/nomad/"><strong>Digital Nomad Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/reunion/"><strong>Family Reunion Residency</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/residencies/reunion/"><strong>Reunion</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/health/"><strong>Health</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/humanitarian/"><strong>Humanitarian</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/investor/"><strong>Investor</strong></a>
-
+                  <a class="service-family-menu__link" href="/services/residencies/health/"><strong>Health Treatment Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/humanitarian/"><strong>Humanitarian Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/investor/"><strong>Investor Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/mercosul/"><strong>MERCOSUL Residency</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/residencies/retiree/"><strong>Retiree</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/research/"><strong>Research</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/skilled/"><strong>Skilled</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/study/"><strong>Study</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/work/"><strong>Work</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/religious/"><strong>Religious Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/retiree/"><strong>Retiree Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/research/"><strong>Scientific Research Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/skilled/"><strong>Skilled Worker Residency</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/residencies/exchange/"><strong>Exchange</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/youth/"><strong>Youth</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/volunteer/"><strong>Volunteer</strong></a>
-                  <a class="service-family-menu__link" href="/services/residencies/religious/"><strong>Religious</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/study/"><strong>Study Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/work/"><strong>Work Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/youth/"><strong>Youth Exchange Residency</strong></a>
+                  <a class="service-family-menu__link" href="/services/residencies/volunteer/"><strong>Volunteer Residency</strong></a>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Naturalisation</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/naturalisation/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Citizenship ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--compact">
               <div class="service-family-menu__head">
                 <div>
-                  <a class="service-family-menu__heading" href="/services/naturalisation/"><h3>Naturalisation</h3></a>
-                  <p>Brazilian nationality routes, extraordinary cases, renunciation, and reacquisition.</p>
+                  <a class="service-family-menu__heading" href="/services/naturalisation/"><h3>Citizenship</h3></a>
+                  <p>Brazilian citizenship, naturalisation, renunciation, and reacquisition support.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/naturalisation/ordinary/"><strong>Ordinary</strong></a>
-                  <a class="service-family-menu__link" href="/services/naturalisation/extraordinary/"><strong>Extraordinary</strong></a>
-                  <a class="service-family-menu__link" href="/services/naturalisation/provisional/"><strong>Provisional</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/ordinary/"><strong>Ordinary Naturalisation</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/extraordinary/"><strong>Extraordinary Naturalisation</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/special/"><strong>Special Naturalisation</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/naturalisation/special/"><strong>Special</strong></a>
-                  <a class="service-family-menu__link" href="/services/naturalisation/renunciation/"><strong>Renunciation</strong></a>
-                  <a class="service-family-menu__link" href="/services/naturalisation/reacquisition/"><strong>Reacquisition</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/provisional/"><strong>Provisional Naturalisation</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/reacquisition/"><strong>Reacquisition of Brazilian Citizenship</strong></a>
+                  <a class="service-family-menu__link" href="/services/naturalisation/renunciation/"><strong>Renunciation of Brazilian Citizenship</strong></a>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Defense</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/defense/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Defense ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--compact">
               <div class="service-family-menu__head">
                 <div>
-                  <a class="service-family-menu__heading" href="/services/defense/"><h3>Defense</h3></a>
-                  <p>Appeals, fines, deportation, expulsion, extradition, and litigation support.</p>
+                  <a class="service-family-menu__heading" href="/services/defense/"><h3>Immigration Defense</h3></a>
+                  <p>Appeals, fines, removal defense, and enforcement-sensitive immigration matters.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/defense/deportation/"><strong>Deportation</strong></a>
-                  <a class="service-family-menu__link" href="/services/defense/expulsion/"><strong>Expulsion</strong></a>
-                  <a class="service-family-menu__link" href="/services/defense/extradition/"><strong>Extradition</strong></a>
+                  <a class="service-family-menu__link" href="/services/defense/appeals/"><strong>Immigration Appeals</strong></a>
+                  <a class="service-family-menu__link" href="/services/defense/deportation/"><strong>Deportation Defense</strong></a>
+                  <a class="service-family-menu__link" href="/services/defense/extradition/"><strong>Extradition Defense</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/defense/appeals/"><strong>Appeals</strong></a>
-                  <a class="service-family-menu__link" href="/services/defense/fines/"><strong>Fines</strong></a>
-                  <a class="service-family-menu__link" href="/services/defense/litigation/"><strong>Litigation</strong></a>
+                  <a class="service-family-menu__link" href="/services/defense/expulsion/"><strong>Expulsion Defense</strong></a>
+                  <a class="service-family-menu__link" href="/services/defense/fines/"><strong>Immigration Fines</strong></a>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/visas/family/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Family ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--wide">
               <div class="service-family-menu__head">
                 <div>
-                  <a class="service-family-menu__heading" href="/services/other/"><h3>Services</h3></a>
-                  <p>Consular records, sworn translation, and regularization matters outside the core route families.</p>
+                  <a class="service-family-menu__heading" href="/services/visas/family/"><h3>International Family</h3></a>
+                  <p>Family-linked immigration, registration, recognition, safety, and cross-border planning support.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/other/consular/"><strong>Consular</strong></a>
-                  <a class="service-family-menu__link" href="/services/other/records/"><strong>Records</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>International Adoption</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>International Alimony</strong></a>
+                  <a class="service-family-menu__link" href="/services/other/records/"><strong>Birth Registration</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Child Custody</strong></a>
                 </div>
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/other/translation/"><strong>Translation</strong></a>
-                  <a class="service-family-menu__link" href="/services/other/regularization/"><strong>Regularization</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>International Divorce</strong></a>
+                  <a class="service-family-menu__link" href="/legal/emergency/"><strong>Domestic Violence</strong></a>
+                  <a class="service-family-menu__link" href="/services/other/records/"><strong>Recognition of Foreign Divorce</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Guardianship</strong></a>
+                </div>
+                <div class="service-family-menu__column">
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Hague Convention Matters</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>International Inheritance</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/family/"><strong>Marriage in Brazil</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Marriage by Proxy</strong></a>
+                </div>
+                <div class="service-family-menu__column">
+                  <a class="service-family-menu__link" href="/services/other/records/"><strong>Paternity Recognition</strong></a>
+                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Prenuptial Agreements</strong></a>
+                  <a class="service-family-menu__link" href="/services/visas/family/"><strong>Stable Union</strong></a>
                 </div>
               </div>
             </div>
           </li>
 
           <li class="nav-item dropdown service-family-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Advisory</a>
-            <div class="dropdown-menu service-family-menu">
+            <a class="nav-link dropdown-toggle" href="/services/other/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Civil ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--wide">
               <div class="service-family-menu__head">
                 <div>
-                  <a class="service-family-menu__heading" href="/services/advisory/"><h3>Advisory</h3></a>
-                  <p>Consultation, strategy, compliance, representation, and corporate immigration support.</p>
+                  <a class="service-family-menu__heading" href="/services/other/"><h3>International Civil</h3></a>
+                  <p>Civil documentation, registrations, notarisation, contracts, property, and general legal support.</p>
+                </div>
+              </div>
+              <div class="service-family-menu__sections">
+                <section class="service-family-menu__section" aria-labelledby="civil-services-title">
+                  <h4 class="service-family-menu__section-title" id="civil-services-title">International Civil</h4>
+                  <div class="service-family-menu__grid">
+                    <div class="service-family-menu__column">
+                      <a class="service-family-menu__link" href="/services/other/records/"><strong>Apostille Services</strong></a>
+                      <a class="service-family-menu__link" href="/services/advisory/corporate/"><strong>CNPJ Registration</strong></a>
+                      <a class="service-family-menu__link" href="/services/advisory/strategy/"><strong>Contract Review</strong></a>
+                      <a class="service-family-menu__link" href="/services/other/records/"><strong>CPF Registration</strong></a>
+                    </div>
+                    <div class="service-family-menu__column">
+                      <a class="service-family-menu__link" href="/services/defense/litigation/"><strong>Debt Recovery &amp; Defense</strong></a>
+                      <a class="service-family-menu__link" href="/services/defense/litigation/"><strong>Civil Defenses</strong></a>
+                      <a class="service-family-menu__link" href="/services/defense/litigation/"><strong>Indemnification Claims</strong></a>
+                      <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Property Leasing</strong></a>
+                    </div>
+                    <div class="service-family-menu__column">
+                      <a class="service-family-menu__link" href="/services/advisory/corporate/"><strong>Licenses &amp; Permits</strong></a>
+                      <a class="service-family-menu__link" href="/services/other/records/"><strong>Legal Name Change</strong></a>
+                      <a class="service-family-menu__link" href="/services/other/records/"><strong>Notarization Services</strong></a>
+                      <a class="service-family-menu__link" href="/services/other/consular/"><strong>Power of Attorney</strong></a>
+                    </div>
+                    <div class="service-family-menu__column">
+                      <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Property Matters</strong></a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown service-family-dropdown">
+            <a class="nav-link dropdown-toggle" href="/services/other/" data-bs-toggle="dropdown" role="button" aria-expanded="false">Other ▼</a>
+            <div class="dropdown-menu service-family-menu service-family-menu--compact">
+              <div class="service-family-menu__head">
+                <div>
+                  <a class="service-family-menu__heading" href="/services/other/"><h3>Other Services</h3></a>
+                  <p>Consular services, records, and general support outside the main service families.</p>
                 </div>
               </div>
               <div class="service-family-menu__grid">
                 <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/advisory/consultation/"><strong>Consult</strong></a>
-                  <a class="service-family-menu__link" href="/services/advisory/strategy/"><strong>Strategy</strong></a>
-                  <a class="service-family-menu__link" href="/services/advisory/compliance/"><strong>Compliance</strong></a>
-                </div>
-                <div class="service-family-menu__column">
-                  <a class="service-family-menu__link" href="/services/advisory/representation/"><strong>Representation</strong></a>
-                  <a class="service-family-menu__link" href="/services/advisory/corporate/"><strong>Corporate</strong></a>
+                  <a class="service-family-menu__link" href="/services/other/consular/"><strong>Consular Services</strong></a>
+                  <a class="service-family-menu__link" href="/services/other/records/"><strong>Criminal Records</strong></a>
+                  <a class="service-family-menu__link" href="/services/other/translation/"><strong>Certified Translation</strong></a>
                 </div>
               </div>
             </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link main-header__home" href="/legal/#page-consultation-form" data-itb-route="/legal/#page-consultation-form">Contact</a>
           </li>
         </ul>
       </div>
     </div>
 
-      <div class="collapse navbar-collapse" id="site-nav">
-        <div class="mobile-nav-shell">
-          <div class="mobile-nav-actions">
+    <div class="collapse navbar-collapse" id="site-nav">
+      <div class="mobile-nav-shell">
+        <div class="mobile-nav-actions">
           <a class="main-header__consult-prompt mobile-nav-consult-prompt" href="/start-consultation/" data-cta-click="true">
             <span class="main-header__consult-kicker">Private Consultation</span>
             <span class="main-header__consult-link">Book Consultation</span>
           </a>
         </div>
 
+        <nav class="mobile-nav-quicklinks" aria-label="Main pages">
+          <a class="mobile-nav-home" href="/" data-itb-route="/">Home</a>
+          <a class="mobile-nav-home" href="/about/" data-itb-route="/about/">About</a>
+          <a class="mobile-nav-home" href="/legal/#page-consultation-form" data-itb-route="/legal/#page-consultation-form">Contact</a>
+        </nav>
+
         <!-- Section: Mobile Navigation -->
         <section class="mobile-nav-section">
           <details class="mobile-nav-group">
             <summary>Visas</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Entry visas across work, investment, study, family, and specialist routes.</p>
+              <p class="mobile-nav-group__intro">Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.</p>
               <div class="mobile-nav-links">
-                <a href="/services/visas/artistic/">Artistic</a>
-                <a href="/services/visas/business/">Business</a>
-                <a href="/services/visas/educational/">Educational</a>
-                <a href="/services/visas/exchange/">Exchange</a>
-                <a href="/services/visas/nomad/">Nomad</a>
-                <a href="/services/visas/diplomatic/">Diplomatic</a>
-                <a href="/services/visas/family/">Family</a>
-                <a href="/services/visas/humanitarian/">Humanitarian</a>
-                <a href="/services/visas/investor/">Investor</a>
-                <a href="/services/visas/journalist/">Journalist</a>
-                <a href="/services/visas/medical/">Medical</a>
-                <a href="/services/visas/religious/">Religious</a>
-                <a href="/services/visas/research/">Research</a>
-                <a href="/services/visas/retiree/">Retiree</a>
-                <a href="/services/visas/sports/">Sports</a>
-                <a href="/services/visas/startup/">Startup</a>
-                <a href="/services/visas/student/">Student</a>
-                <a href="/services/visas/tourist/">Tourist</a>
-                <a href="/services/visas/transit/">Transit</a>
-                <a href="/services/visas/volunteer/">Volunteer</a>
-                <a href="/services/visas/work/">Work</a>
+                <a href="/services/visas/artistic/">Artistic Visa</a>
+                <a href="/services/visas/business/">Business Visa</a>
+                <a href="/services/visas/exchange/">Cultural Exchange Visa</a>
+                <a href="/services/visas/nomad/">Digital Nomad Visa</a>
+                <a href="/services/visas/diplomatic/">Diplomatic Visa</a>
+                <a href="/services/visas/educational/">Educational Exchange Visa</a>
+                <a href="/services/visas/family/">Family Visa</a>
+                <a href="/services/visas/humanitarian/">Humanitarian Visa</a>
+                <a href="/services/visas/investor/">Investor Visa</a>
+                <a href="/services/visas/journalist/">Journalist Visa</a>
+                <a href="/services/visas/medical/">Medical Visa</a>
+                <a href="/services/visas/religious/">Religious Visa</a>
+                <a href="/services/visas/research/">Research Visa</a>
+                <a href="/services/visas/retiree/">Retiree Visa</a>
+                <a href="/services/visas/sports/">Sports Visa</a>
+                <a href="/services/visas/startup/">Startup Visa</a>
+                <a href="/services/visas/student/">Student Visa</a>
+                <a href="/services/visas/tourist/">Tourist Visa</a>
+                <a href="/services/visas/transit/">Transit Visa</a>
+                <a href="/services/visas/volunteer/">Volunteer Visa</a>
+                <a href="/services/visas/work/">Work Visa</a>
               </div>
             </div>
           </details>
 
           <details class="mobile-nav-group">
-            <summary>Residencies</summary>
+            <summary>Residency</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Longer-term residence pathways, renewals, and post-arrival planning.</p>
+              <p class="mobile-nav-group__intro">Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.</p>
               <div class="mobile-nav-links">
-                <a href="/services/residencies/cplp/">CPLP</a>
-                <a href="/services/residencies/mercosul/">MERCOSUL</a>
-                <a href="/services/residencies/nomad/">Nomad</a>
-                <a href="/services/residencies/educational/">Educational</a>
-                <a href="/services/residencies/exchange/">Exchange</a>
-                <a href="/services/residencies/reunion/">Reunion</a>
-                <a href="/services/residencies/health/">Health</a>
-                <a href="/services/residencies/humanitarian/">Humanitarian</a>
-                <a href="/services/residencies/investor/">Investor</a>
-                <a href="/services/residencies/religious/">Religious</a>
-                <a href="/services/residencies/retiree/">Retiree</a>
-                <a href="/services/residencies/research/">Research</a>
-                <a href="/services/residencies/skilled/">Skilled</a>
-                <a href="/services/residencies/study/">Study</a>
-                <a href="/services/residencies/work/">Work</a>
-                <a href="/services/residencies/youth/">Youth</a>
-                <a href="/services/residencies/volunteer/">Volunteer</a>
+                <a href="/services/residencies/cplp/">CPLP Residency</a>
+                <a href="/services/residencies/exchange/">Cultural Exchange Residency</a>
+                <a href="/services/residencies/nomad/">Digital Nomad Residency</a>
+                <a href="/services/residencies/reunion/">Family Reunion Residency</a>
+                <a href="/services/residencies/health/">Health Treatment Residency</a>
+                <a href="/services/residencies/humanitarian/">Humanitarian Residency</a>
+                <a href="/services/residencies/investor/">Investor Residency</a>
+                <a href="/services/residencies/mercosul/">MERCOSUL Residency</a>
+                <a href="/services/residencies/religious/">Religious Residency</a>
+                <a href="/services/residencies/retiree/">Retiree Residency</a>
+                <a href="/services/residencies/research/">Scientific Research Residency</a>
+                <a href="/services/residencies/skilled/">Skilled Worker Residency</a>
+                <a href="/services/residencies/study/">Study Residency</a>
+                <a href="/services/residencies/work/">Work Residency</a>
+                <a href="/services/residencies/youth/">Youth Exchange Residency</a>
+                <a href="/services/residencies/volunteer/">Volunteer Residency</a>
               </div>
             </div>
           </details>
 
           <details class="mobile-nav-group">
-            <summary>Naturalisation</summary>
+            <summary>Citizenship</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Brazilian nationality routes, extraordinary cases, renunciation, and reacquisition.</p>
+              <p class="mobile-nav-group__intro">Brazilian citizenship, naturalisation, renunciation, and reacquisition support.</p>
               <div class="mobile-nav-links">
-                <a href="/services/naturalisation/ordinary/">Ordinary</a>
-                <a href="/services/naturalisation/extraordinary/">Extraordinary</a>
-                <a href="/services/naturalisation/provisional/">Provisional</a>
-                <a href="/services/naturalisation/special/">Special</a>
-                <a href="/services/naturalisation/renunciation/">Renunciation</a>
-                <a href="/services/naturalisation/reacquisition/">Reacquisition</a>
+                <a href="/services/naturalisation/ordinary/">Ordinary Naturalisation</a>
+                <a href="/services/naturalisation/extraordinary/">Extraordinary Naturalisation</a>
+                <a href="/services/naturalisation/special/">Special Naturalisation</a>
+                <a href="/services/naturalisation/provisional/">Provisional Naturalisation</a>
+                <a href="/services/naturalisation/reacquisition/">Reacquisition of Brazilian Citizenship</a>
+                <a href="/services/naturalisation/renunciation/">Renunciation of Brazilian Citizenship</a>
               </div>
             </div>
           </details>
@@ -307,44 +365,77 @@
           <details class="mobile-nav-group">
             <summary>Defense</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Appeals, fines, deportation, expulsion, extradition, and litigation support.</p>
+              <p class="mobile-nav-group__intro">Appeals, fines, removal defense, and enforcement-sensitive immigration matters.</p>
               <div class="mobile-nav-links">
-                <a href="/services/defense/">Defense</a>
-                <a href="/services/defense/deportation/">Deportation</a>
-                <a href="/services/defense/expulsion/">Expulsion</a>
-                <a href="/services/defense/extradition/">Extradition</a>
-                <a href="/services/defense/appeals/">Appeals</a>
-                <a href="/services/defense/fines/">Fines</a>
-                <a href="/services/defense/litigation/">Litigation</a>
+                <a href="/services/defense/appeals/">Immigration Appeals</a>
+                <a href="/services/defense/deportation/">Deportation Defense</a>
+                <a href="/services/defense/extradition/">Extradition Defense</a>
+                <a href="/services/defense/expulsion/">Expulsion Defense</a>
+                <a href="/services/defense/fines/">Immigration Fines</a>
               </div>
             </div>
           </details>
 
           <details class="mobile-nav-group">
-            <summary>Services</summary>
+            <summary>Family</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Consular records, sworn translation, and regularization matters outside the core route families.</p>
-              <div class="mobile-nav-links">
-                <a href="/services/other/">Services</a>
-                <a href="/services/other/consular/">Consular</a>
-                <a href="/services/other/records/">Records</a>
-                <a href="/services/other/translation/">Translation</a>
-                <a href="/services/other/regularization/">Regularization</a>
+              <p class="mobile-nav-group__intro">Family-linked immigration, registration, recognition, safety, and cross-border planning support.</p>
+              <div class="mobile-nav-subgroup">
+                <h3>International Family</h3>
+                <div class="mobile-nav-links">
+                  <a href="/services/advisory/consultation/">International Adoption</a>
+                  <a href="/services/advisory/consultation/">International Alimony</a>
+                  <a href="/services/other/records/">Birth Registration</a>
+                  <a href="/services/advisory/consultation/">Child Custody</a>
+                  <a href="/services/advisory/consultation/">International Divorce</a>
+                  <a href="/legal/emergency/">Domestic Violence</a>
+                  <a href="/services/other/records/">Recognition of Foreign Divorce</a>
+                  <a href="/services/advisory/consultation/">Guardianship</a>
+                  <a href="/services/advisory/consultation/">Hague Convention Matters</a>
+                  <a href="/services/advisory/consultation/">International Inheritance</a>
+                  <a href="/services/visas/family/">Marriage in Brazil</a>
+                  <a href="/services/advisory/consultation/">Marriage by Proxy</a>
+                  <a href="/services/other/records/">Paternity Recognition</a>
+                  <a href="/services/advisory/consultation/">Prenuptial Agreements</a>
+                  <a href="/services/visas/family/">Stable Union</a>
+                </div>
               </div>
             </div>
           </details>
 
           <details class="mobile-nav-group">
-            <summary>Advisory</summary>
+            <summary>Civil</summary>
             <div class="mobile-nav-group__body">
-              <p class="mobile-nav-group__intro">Consultation, strategy, compliance, representation, and corporate immigration support.</p>
+              <p class="mobile-nav-group__intro">Civil documentation, registrations, notarisation, contracts, property, and general legal support.</p>
+              <div class="mobile-nav-subgroup">
+                <h3>International Civil</h3>
+                <div class="mobile-nav-links">
+                  <a href="/services/other/records/">Apostille Services</a>
+                  <a href="/services/advisory/corporate/">CNPJ Registration</a>
+                  <a href="/services/advisory/strategy/">Contract Review</a>
+                  <a href="/services/other/records/">CPF Registration</a>
+                  <a href="/services/defense/litigation/">Debt Recovery &amp; Defense</a>
+                  <a href="/services/defense/litigation/">Civil Defenses</a>
+                  <a href="/services/defense/litigation/">Indemnification Claims</a>
+                  <a href="/services/advisory/consultation/">Property Leasing</a>
+                  <a href="/services/advisory/corporate/">Licenses &amp; Permits</a>
+                  <a href="/services/other/records/">Legal Name Change</a>
+                  <a href="/services/other/records/">Notarization Services</a>
+                  <a href="/services/other/consular/">Power of Attorney</a>
+                  <a href="/services/advisory/consultation/">Property Matters</a>
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details class="mobile-nav-group">
+            <summary>Other</summary>
+            <div class="mobile-nav-group__body">
+              <p class="mobile-nav-group__intro">Consular services, records, and general support outside the main service families.</p>
               <div class="mobile-nav-links">
-                <a href="/services/advisory/">Advisory</a>
-                <a href="/services/advisory/consultation/">Consult</a>
-                <a href="/services/advisory/strategy/">Strategy</a>
-                <a href="/services/advisory/compliance/">Compliance</a>
-                <a href="/services/advisory/representation/">Representation</a>
-                <a href="/services/advisory/corporate/">Corporate</a>
+                <a href="/services/other/consular/">Consular Services</a>
+                <a href="/services/other/records/">Criminal Records</a>
+                <a href="/services/other/translation/">Certified Translation</a>
               </div>
             </div>
           </details>

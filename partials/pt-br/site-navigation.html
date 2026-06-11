@@ -1,9 +1,9 @@
 <!-- Section: Site Navigation --><nav aria-label="Navegação principal" class="navbar main-nav">
 <div class="container">
-<div class="main-header">
+<div class="main-header main-header--redesign">
 <div class="main-header__upper">
 <div class="main-header__identity">
-<a aria-label="Imigre para o Brasil com a advogada Monique Fernandes, página inicial" class="brand-lockup" href="/pt-br/">
+<a aria-label="Página inicial do Imigre para o Brasil com a advogada Monique Fernandes" class="brand-lockup" href="/pt-br/">
 <span aria-label="Marca nominativa do Imigre para o Brasil com o logotipo do site" class="brand-wordmark brand-lockup__image brand-wordmark--inverse">
 <img alt="" aria-hidden="true" class="brand-wordmark__mark" height="56" src="/assets/logo/logo.png" width="56"/>
 <span class="brand-wordmark__text">
@@ -16,13 +16,8 @@
 </span>
 </a>
 </div>
-<div class="main-header__center">
-<a class="nav-link main-header__home" data-itb-route="/" href="/pt-br/">Início</a>
-<a class="nav-link main-header__home" data-itb-route="/about/atlas/" href="/pt-br/about/atlas/">Sobre</a>
-<a class="nav-link main-header__home" data-itb-route="/services/all/" href="/pt-br/services/all/">Serviços</a>
-</div>
 <div class="main-header__actions">
-<a class="main-header__consult-prompt" data-cta-click="true" href="/pt-br/start-consultation/">
+<a class="main-header__consult-prompt main-header__consult-button" data-cta-click="true" href="/pt-br/start-consultation/">
 <span class="main-header__consult-kicker">Consulta particular</span>
 <span class="main-header__consult-link">Agendar consulta</span>
 </a>
@@ -32,173 +27,232 @@
 </div>
 </div>
 <div class="main-header__lower d-none d-xl-flex">
-<ul class="navbar-nav navbar-nav--services">
+<ul class="navbar-nav navbar-nav--services desktop-primary-menu">
+<li class="nav-item">
+<a class="nav-link main-header__home" data-itb-route="/" href="/pt-br/">Início</a>
+</li>
+<li class="nav-item">
+<a class="nav-link main-header__home" data-itb-route="/about/" href="/pt-br/about/">Sobre</a>
+</li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Vistos</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/visas/" role="button">Vistos ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--wide">
 <div class="service-family-menu__head">
 <div>
 <a class="service-family-menu__heading" href="/pt-br/services/visas/"><h3>Vistos</h3></a>
-<p>Vistos de entrada em rotas de trabalho, investimento, estudo, família e especialidades.</p>
+<p>Rotas de visto de entrada para trabalho, estudo, investimento, família, cultura, viagens e fins especializados.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/visas/artistic/"><strong>Artístico</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/business/"><strong>Negócios</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/educational/"><strong>Educacional</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/exchange/"><strong>Intercâmbio</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/nomad/"><strong>Nômade</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/artistic/"><strong>Visto Artístico</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/business/"><strong>Visto de negócios</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/exchange/"><strong>Visto de Intercâmbio Cultural</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/nomad/"><strong>Visto Nômade Digital</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/diplomatic/"><strong>Visto Diplomático</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/visas/family/"><strong>Família</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/humanitarian/"><strong>Humanitário</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/investor/"><strong>Investidor</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/journalist/"><strong>Jornalista</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/medical/"><strong>Médico</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/religious/"><strong>Religioso</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/educational/"><strong>Visto de Intercâmbio Educacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/family/"><strong>Visto de Família</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/humanitarian/"><strong>Visto Humanitário</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/investor/"><strong>Visto de Investidor</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/journalist/"><strong>Visto de Jornalista</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/visas/research/"><strong>Pesquisa</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/retiree/"><strong>Aposentado</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/sports/"><strong>Esportes</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/startup/"><strong>Startup</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/student/"><strong>Estudante</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/medical/"><strong>Visto Médico</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/religious/"><strong>Visto Religioso</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/research/"><strong>Visto de pesquisa</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/retiree/"><strong>Visto de aposentado</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/sports/"><strong>Visto esportivo</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/visas/tourist/"><strong>Turístico</strong></a> <a class="service-family-menu__link" href="/pt-br/services/visas/transit/"><strong>Trânsito</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/volunteer/"><strong>Voluntariado</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/visas/work/"><strong>Trabalho</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/startup/"><strong>Visto para startup</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/student/"><strong>Visto de estudante</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/tourist/"><strong>Visto de Turista</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/transit/"><strong>Visto de Trânsito</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/volunteer/"><strong>Visto Voluntário</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/work/"><strong>Visto de Trabalho</strong></a>
 </div>
 </div>
 </div>
 </li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Residências</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/residencies/" role="button">Residência ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--wide">
 <div class="service-family-menu__head">
 <div>
-<a class="service-family-menu__heading" href="/pt-br/services/residencies/"><h3>Residências</h3></a>
-<p>Caminhos de residência de longo prazo, renovações e planejamento pós-chegada.</p>
+<a class="service-family-menu__heading" href="/pt-br/services/residencies/"><h3>Residência</h3></a>
+<p>Rotas de autorização de residência para estadias mais longas, continuidade pós-chegada e planejamento de vida baseado no Brasil.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/residencies/cplp/"><strong>CPLP</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/mercosul/"><strong>MERCOSUL</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/nomad/"><strong>Nômade</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/educational/"><strong>Educacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/cplp/"><strong>Residência CPLP</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/exchange/"><strong>Residência de Intercâmbio Cultural</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/nomad/"><strong>Residência Nômade Digital</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/reunion/"><strong>Residência para Reunião Familiar</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/residencies/reunion/"><strong>Reunião familiar</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/health/"><strong>Saúde</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/humanitarian/"><strong>Humanitário</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/investor/"><strong>Investidor</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/health/"><strong>Residência em Tratamento de Saúde</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/humanitarian/"><strong>Residência Humanitária</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/investor/"><strong>Residência para Investidores</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/mercosul/"><strong>Residência MERCOSUL</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/residencies/retiree/"><strong>Aposentado</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/research/"><strong>Pesquisa</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/skilled/"><strong>Qualificada</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/study/"><strong>Estudo</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/work/"><strong>Trabalho</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/religious/"><strong>Residência Religiosa</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/retiree/"><strong>Residência para aposentados</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/research/"><strong>Residência em Pesquisa Científica</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/skilled/"><strong>Residência de Trabalhador Qualificado</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/residencies/exchange/"><strong>Intercâmbio</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/youth/"><strong>Jovem</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/volunteer/"><strong>Voluntariado</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/residencies/religious/"><strong>Religioso</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/study/"><strong>Residência de Estudo</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/work/"><strong>Residência de Trabalho</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/youth/"><strong>Residência Intercâmbio Juvenil</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/residencies/volunteer/"><strong>Residência Voluntária</strong></a>
 </div>
 </div>
 </div>
 </li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Naturalização</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/naturalisation/" role="button">Cidadania ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--compact">
 <div class="service-family-menu__head">
 <div>
-<a class="service-family-menu__heading" href="/pt-br/services/naturalisation/"><h3>Naturalização</h3></a>
-<p>Rotas de nacionalidade brasileira, casos extraordinários, renúncia e reaquisição.</p>
+<a class="service-family-menu__heading" href="/pt-br/services/naturalisation/"><h3>Cidadania</h3></a>
+<p>Cidadania brasileira, naturalização, renúncia e apoio à reaquisição.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/ordinary/"><strong>Comum</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/extraordinary/"><strong>Extraordinário</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/provisional/"><strong>Provisório</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/ordinary/"><strong>Naturalização Ordinária</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/extraordinary/"><strong>Naturalização Extraordinária</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/special/"><strong>Naturalização Especial</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/special/"><strong>Especial</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/renunciation/"><strong>Renúncia</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/naturalisation/reacquisition/"><strong>Reaquisição</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/provisional/"><strong>Naturalização Provisória</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/reacquisition/"><strong>Reaquisição da Cidadania brasileira</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/naturalisation/renunciation/"><strong>Renúncia à cidadania brasileira</strong></a>
 </div>
 </div>
 </div>
 </li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Defesa</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/defense/" role="button">Defesa ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--compact">
 <div class="service-family-menu__head">
 <div>
-<a class="service-family-menu__heading" href="/pt-br/services/defense/"><h3>Defesa</h3></a>
-<p>Recursos, multas, deportação, expulsão, extradição e apoio contencioso.</p>
+<a class="service-family-menu__heading" href="/pt-br/services/defense/"><h3>Defesa da Imigração</h3></a>
+<p>Recursos, multas, defesa de remoção e questões de imigração sensíveis à aplicação.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/defense/deportation/"><strong>Deportação</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/defense/expulsion/"><strong>Expulsão</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/defense/extradition/"><strong>Extradição</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/appeals/"><strong>Recursos de imigração</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/deportation/"><strong>Defesa de Deportação</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/extradition/"><strong>Defesa de Extradição</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/defense/appeals/"><strong>Recursos</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/defense/fines/"><strong>Multas</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/defense/litigation/"><strong>Litígio</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/expulsion/"><strong>Defesa de Expulsão</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/fines/"><strong>Multas de imigração</strong></a>
 </div>
 </div>
 </div>
 </li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Serviços</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/visas/family/" role="button">Família ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--wide">
 <div class="service-family-menu__head">
 <div>
-<a class="service-family-menu__heading" href="/pt-br/services/other/"><h3>Serviços</h3></a>
-<p>Registros consulares, tradução juramentada e questões de regularização fora das principais famílias de rotas.</p>
+<a class="service-family-menu__heading" href="/pt-br/services/visas/family/"><h3>Família Internacional</h3></a>
+<p>Imigração familiar, registro, reconhecimento, segurança e apoio ao planejamento transfronteiriço.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/other/consular/"><strong>Consular</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Registros</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Adoção Internacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Pensão alimentícia internacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Registro de Nascimento</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Custódia Infantil</strong></a>
 </div>
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/other/translation/"><strong>Tradução</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/other/regularization/"><strong>Regularização</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Divórcio Internacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/legal/emergency/"><strong>Violência Doméstica</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Reconhecimento de Divórcio Estrangeiro</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Tutela</strong></a>
+</div>
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Assuntos da Convenção da Haia</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Herança Internacional</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/family/"><strong>Casamento no Brasil</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Casamento por procuração</strong></a>
+</div>
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Reconhecimento de Paternidade</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Acordos pré-nupciais</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/visas/family/"><strong>União Estável</strong></a>
 </div>
 </div>
 </div>
 </li>
 <li class="nav-item dropdown service-family-dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Consultoria</a>
-<div class="dropdown-menu service-family-menu">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/other/" role="button">Civil ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--wide">
 <div class="service-family-menu__head">
 <div>
-<a class="service-family-menu__heading" href="/pt-br/services/advisory/"><h3>Consultoria</h3></a>
-<p>Consultoria, estratégia, compliance, representação e suporte à imigração corporativa.</p>
+<a class="service-family-menu__heading" href="/pt-br/services/other/"><h3>Civil Internacional</h3></a>
+<p>Documentação civil, registros, notarização, contratos, bens e apoio jurídico geral.</p>
+</div>
+</div>
+<div class="service-family-menu__sections">
+<section aria-labelledby="civil-services-title" class="service-family-menu__section">
+<h4 class="service-family-menu__section-title" id="civil-services-title">Civil Internacional</h4>
+<div class="service-family-menu__grid">
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Serviços de Apostila</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/corporate/"><strong>Cadastro de CNPJ</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/strategy/"><strong>Revisão do Contrato</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Cadastro CPF</strong></a>
+</div>
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/defense/litigation/"><strong>Recuperação e defesa de dívidas</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/litigation/"><strong>Defesas Civis</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/defense/litigation/"><strong>Reivindicações de indenização</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Locação de Imóveis</strong></a>
+</div>
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/advisory/corporate/"><strong>Licenças e autorizações</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Mudança de nome legal</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Serviços de Notarização</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/consular/"><strong>Procuração</strong></a>
+</div>
+<div class="service-family-menu__column">
+<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Assuntos de propriedade</strong></a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown service-family-dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/pt-br/services/other/" role="button">Outros ▼</a>
+<div class="dropdown-menu service-family-menu service-family-menu--compact">
+<div class="service-family-menu__head">
+<div>
+<a class="service-family-menu__heading" href="/pt-br/services/other/"><h3>Outros serviços</h3></a>
+<p>Serviços consulares, registros e apoio geral fora das principais famílias de serviço.</p>
 </div>
 </div>
 <div class="service-family-menu__grid">
 <div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/advisory/consultation/"><strong>Consulta</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/advisory/strategy/"><strong>Estratégia</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/advisory/compliance/"><strong>Conformidade</strong></a>
-</div>
-<div class="service-family-menu__column">
-<a class="service-family-menu__link" href="/pt-br/services/advisory/representation/"><strong>Representação</strong></a>
-<a class="service-family-menu__link" href="/pt-br/services/advisory/corporate/"><strong>Empresarial</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/consular/"><strong>Serviços Consulares</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/records/"><strong>Registros criminais</strong></a>
+<a class="service-family-menu__link" href="/pt-br/services/other/translation/"><strong>Tradução Juramentada</strong></a>
 </div>
 </div>
 </div>
+</li>
+<li class="nav-item">
+<a class="nav-link main-header__home" data-itb-route="/legal/#page-consultation-form" href="/pt-br/legal/#page-consultation-form">Contato</a>
 </li>
 </ul>
 </div>
@@ -211,115 +265,151 @@
 <span class="main-header__consult-link">Agendar consulta</span>
 </a>
 </div>
+<nav aria-label="Páginas principais" class="mobile-nav-quicklinks">
+<a class="mobile-nav-home" data-itb-route="/" href="/pt-br/">Início</a>
+<a class="mobile-nav-home" data-itb-route="/about/" href="/pt-br/about/">Sobre</a>
+<a class="mobile-nav-home" data-itb-route="/legal/#page-consultation-form" href="/pt-br/legal/#page-consultation-form">Contato</a>
+</nav>
 <!-- Section: Mobile Navigation -->
 <section class="mobile-nav-section">
 <details class="mobile-nav-group">
 <summary>Vistos</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Vistos de entrada em rotas de trabalho, investimento, estudo, família e especialidades.</p>
+<p class="mobile-nav-group__intro">Rotas de visto de entrada para trabalho, estudo, investimento, família, cultura, viagens e fins especializados.</p>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/visas/artistic/">Artístico</a>
-<a href="/pt-br/services/visas/business/">Negócios</a>
-<a href="/pt-br/services/visas/educational/">Educacional</a>
-<a href="/pt-br/services/visas/exchange/">Intercâmbio</a>
-<a href="/pt-br/services/visas/nomad/">Nômade</a>
-<a href="/pt-br/services/visas/diplomatic/">Diplomático</a>
-<a href="/pt-br/services/visas/family/">Família</a>
-<a href="/pt-br/services/visas/humanitarian/">Humanitário</a>
-<a href="/pt-br/services/visas/investor/">Investidor</a>
-<a href="/pt-br/services/visas/journalist/">Jornalista</a>
-<a href="/pt-br/services/visas/medical/">Médico</a>
-<a href="/pt-br/services/visas/religious/">Religioso</a>
-<a href="/pt-br/services/visas/research/">Pesquisa</a>
-<a href="/pt-br/services/visas/retiree/">Aposentado</a>
-<a href="/pt-br/services/visas/sports/">Esportes</a>
-<a href="/pt-br/services/visas/startup/">Startup</a>
-<a href="/pt-br/services/visas/student/">Estudante</a>
-<a href="/pt-br/services/visas/tourist/">Turístico</a>
-<a href="/pt-br/services/visas/transit/">Trânsito</a>
-<a href="/pt-br/services/visas/volunteer/">Voluntariado</a>
-<a href="/pt-br/services/visas/work/">Trabalho</a>
+<a href="/pt-br/services/visas/artistic/">Visto Artístico</a>
+<a href="/pt-br/services/visas/business/">Visto de negócios</a>
+<a href="/pt-br/services/visas/exchange/">Visto de Intercâmbio Cultural</a>
+<a href="/pt-br/services/visas/nomad/">Visto Nômade Digital</a>
+<a href="/pt-br/services/visas/diplomatic/">Visto Diplomático</a>
+<a href="/pt-br/services/visas/educational/">Visto de Intercâmbio Educacional</a>
+<a href="/pt-br/services/visas/family/">Visto de Família</a>
+<a href="/pt-br/services/visas/humanitarian/">Visto Humanitário</a>
+<a href="/pt-br/services/visas/investor/">Visto de Investidor</a>
+<a href="/pt-br/services/visas/journalist/">Visto de Jornalista</a>
+<a href="/pt-br/services/visas/medical/">Visto Médico</a>
+<a href="/pt-br/services/visas/religious/">Visto Religioso</a>
+<a href="/pt-br/services/visas/research/">Visto de pesquisa</a>
+<a href="/pt-br/services/visas/retiree/">Visto de aposentado</a>
+<a href="/pt-br/services/visas/sports/">Visto esportivo</a>
+<a href="/pt-br/services/visas/startup/">Visto para startup</a>
+<a href="/pt-br/services/visas/student/">Visto de estudante</a>
+<a href="/pt-br/services/visas/tourist/">Visto de Turista</a>
+<a href="/pt-br/services/visas/transit/">Visto de Trânsito</a>
+<a href="/pt-br/services/visas/volunteer/">Visto Voluntário</a>
+<a href="/pt-br/services/visas/work/">Visto de Trabalho</a>
 </div>
 </div>
 </details>
 <details class="mobile-nav-group">
-<summary>Residências</summary>
+<summary>Residência</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Caminhos de residência de longo prazo, renovações e planejamento pós-chegada.</p>
+<p class="mobile-nav-group__intro">Rotas de autorização de residência para estadias mais longas, continuidade pós-chegada e planejamento de vida baseado no Brasil.</p>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/residencies/cplp/">CPLP</a>
-<a href="/pt-br/services/residencies/mercosul/">MERCOSUL</a>
-<a href="/pt-br/services/residencies/nomad/">Nômade</a>
-<a href="/pt-br/services/residencies/educational/">Educacional</a>
-<a href="/pt-br/services/residencies/exchange/">Intercâmbio</a>
-<a href="/pt-br/services/residencies/reunion/">Reunião familiar</a>
-<a href="/pt-br/services/residencies/health/">Saúde</a>
-<a href="/pt-br/services/residencies/humanitarian/">Humanitário</a>
-<a href="/pt-br/services/residencies/investor/">Investidor</a>
-<a href="/pt-br/services/residencies/religious/">Religioso</a>
-<a href="/pt-br/services/residencies/retiree/">Aposentado</a>
-<a href="/pt-br/services/residencies/research/">Pesquisa</a>
-<a href="/pt-br/services/residencies/skilled/">Qualificada</a>
-<a href="/pt-br/services/residencies/study/">Estudo</a>
-<a href="/pt-br/services/residencies/work/">Trabalho</a>
-<a href="/pt-br/services/residencies/youth/">Jovem</a>
-<a href="/pt-br/services/residencies/volunteer/">Voluntariado</a>
+<a href="/pt-br/services/residencies/cplp/">Residência CPLP</a>
+<a href="/pt-br/services/residencies/exchange/">Residência de Intercâmbio Cultural</a>
+<a href="/pt-br/services/residencies/nomad/">Residência Nômade Digital</a>
+<a href="/pt-br/services/residencies/reunion/">Residência para Reunião Familiar</a>
+<a href="/pt-br/services/residencies/health/">Residência em Tratamento de Saúde</a>
+<a href="/pt-br/services/residencies/humanitarian/">Residência Humanitária</a>
+<a href="/pt-br/services/residencies/investor/">Residência para Investidores</a>
+<a href="/pt-br/services/residencies/mercosul/">Residência MERCOSUL</a>
+<a href="/pt-br/services/residencies/religious/">Residência Religiosa</a>
+<a href="/pt-br/services/residencies/retiree/">Residência para aposentados</a>
+<a href="/pt-br/services/residencies/research/">Residência em Pesquisa Científica</a>
+<a href="/pt-br/services/residencies/skilled/">Residência de Trabalhador Qualificado</a>
+<a href="/pt-br/services/residencies/study/">Residência de Estudo</a>
+<a href="/pt-br/services/residencies/work/">Residência de Trabalho</a>
+<a href="/pt-br/services/residencies/youth/">Residência Intercâmbio Juvenil</a>
+<a href="/pt-br/services/residencies/volunteer/">Residência Voluntária</a>
 </div>
 </div>
 </details>
 <details class="mobile-nav-group">
-<summary>Naturalização</summary>
+<summary>Cidadania</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Rotas de nacionalidade brasileira, casos extraordinários, renúncia e reaquisição.</p>
+<p class="mobile-nav-group__intro">Cidadania brasileira, naturalização, renúncia e apoio à reaquisição.</p>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/naturalisation/ordinary/">Comum</a>
-<a href="/pt-br/services/naturalisation/extraordinary/">Extraordinário</a>
-<a href="/pt-br/services/naturalisation/provisional/">Provisório</a>
-<a href="/pt-br/services/naturalisation/special/">Especial</a>
-<a href="/pt-br/services/naturalisation/renunciation/">Renúncia</a>
-<a href="/pt-br/services/naturalisation/reacquisition/">Reaquisição</a>
+<a href="/pt-br/services/naturalisation/ordinary/">Naturalização Ordinária</a>
+<a href="/pt-br/services/naturalisation/extraordinary/">Naturalização Extraordinária</a>
+<a href="/pt-br/services/naturalisation/special/">Naturalização Especial</a>
+<a href="/pt-br/services/naturalisation/provisional/">Naturalização Provisória</a>
+<a href="/pt-br/services/naturalisation/reacquisition/">Reaquisição da Cidadania brasileira</a>
+<a href="/pt-br/services/naturalisation/renunciation/">Renúncia à cidadania brasileira</a>
 </div>
 </div>
 </details>
 <details class="mobile-nav-group">
 <summary>Defesa</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Recursos, multas, deportação, expulsão, extradição e apoio contencioso.</p>
+<p class="mobile-nav-group__intro">Recursos, multas, defesa de remoção e questões de imigração sensíveis à aplicação.</p>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/defense/">Defesa</a>
-<a href="/pt-br/services/defense/deportation/">Deportação</a>
-<a href="/pt-br/services/defense/expulsion/">Expulsão</a>
-<a href="/pt-br/services/defense/extradition/">Extradição</a>
-<a href="/pt-br/services/defense/appeals/">Recursos</a>
-<a href="/pt-br/services/defense/fines/">Multas</a>
-<a href="/pt-br/services/defense/litigation/">Litígio</a>
+<a href="/pt-br/services/defense/appeals/">Recursos de imigração</a>
+<a href="/pt-br/services/defense/deportation/">Defesa de Deportação</a>
+<a href="/pt-br/services/defense/extradition/">Defesa de Extradição</a>
+<a href="/pt-br/services/defense/expulsion/">Defesa de Expulsão</a>
+<a href="/pt-br/services/defense/fines/">Multas de imigração</a>
 </div>
 </div>
 </details>
 <details class="mobile-nav-group">
-<summary>Serviços</summary>
+<summary>Família</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Registros consulares, tradução juramentada e questões de regularização fora das principais famílias de rotas.</p>
+<p class="mobile-nav-group__intro">Imigração familiar, registro, reconhecimento, segurança e apoio ao planejamento transfronteiriço.</p>
+<div class="mobile-nav-subgroup">
+<h3>Família Internacional</h3>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/other/">Serviços</a>
-<a href="/pt-br/services/other/consular/">Consular</a>
-<a href="/pt-br/services/other/records/">Registros</a>
-<a href="/pt-br/services/other/translation/">Tradução</a>
-<a href="/pt-br/services/other/regularization/">Regularização</a>
+<a href="/pt-br/services/advisory/consultation/">Adoção Internacional</a>
+<a href="/pt-br/services/advisory/consultation/">Pensão alimentícia internacional</a>
+<a href="/pt-br/services/other/records/">Registro de Nascimento</a>
+<a href="/pt-br/services/advisory/consultation/">Custódia Infantil</a>
+<a href="/pt-br/services/advisory/consultation/">Divórcio Internacional</a>
+<a href="/pt-br/legal/emergency/">Violência Doméstica</a>
+<a href="/pt-br/services/other/records/">Reconhecimento de Divórcio Estrangeiro</a>
+<a href="/pt-br/services/advisory/consultation/">Tutela</a>
+<a href="/pt-br/services/advisory/consultation/">Assuntos da Convenção da Haia</a>
+<a href="/pt-br/services/advisory/consultation/">Herança Internacional</a>
+<a href="/pt-br/services/visas/family/">Casamento no Brasil</a>
+<a href="/pt-br/services/advisory/consultation/">Casamento por procuração</a>
+<a href="/pt-br/services/other/records/">Reconhecimento de Paternidade</a>
+<a href="/pt-br/services/advisory/consultation/">Acordos pré-nupciais</a>
+<a href="/pt-br/services/visas/family/">União Estável</a>
+</div>
 </div>
 </div>
 </details>
 <details class="mobile-nav-group">
-<summary>Consultoria</summary>
+<summary>Civil</summary>
 <div class="mobile-nav-group__body">
-<p class="mobile-nav-group__intro">Consultoria, estratégia, compliance, representação e suporte à imigração corporativa.</p>
+<p class="mobile-nav-group__intro">Documentação civil, registros, notarização, contratos, bens e apoio jurídico geral.</p>
+<div class="mobile-nav-subgroup">
+<h3>Civil Internacional</h3>
 <div class="mobile-nav-links">
-<a href="/pt-br/services/advisory/">Consultoria</a>
-<a href="/pt-br/services/advisory/consultation/">Consulta</a>
-<a href="/pt-br/services/advisory/strategy/">Estratégia</a>
-<a href="/pt-br/services/advisory/compliance/">Conformidade</a>
-<a href="/pt-br/services/advisory/representation/">Representação</a>
-<a href="/pt-br/services/advisory/corporate/">Empresarial</a>
+<a href="/pt-br/services/other/records/">Serviços de Apostila</a>
+<a href="/pt-br/services/advisory/corporate/">Cadastro de CNPJ</a>
+<a href="/pt-br/services/advisory/strategy/">Revisão do Contrato</a>
+<a href="/pt-br/services/other/records/">Cadastro CPF</a>
+<a href="/pt-br/services/defense/litigation/">Recuperação e defesa de dívidas</a>
+<a href="/pt-br/services/defense/litigation/">Defesas Civis</a>
+<a href="/pt-br/services/defense/litigation/">Reivindicações de indenização</a>
+<a href="/pt-br/services/advisory/consultation/">Locação de Imóveis</a>
+<a href="/pt-br/services/advisory/corporate/">Licenças e autorizações</a>
+<a href="/pt-br/services/other/records/">Mudança de nome legal</a>
+<a href="/pt-br/services/other/records/">Serviços de Notarização</a>
+<a href="/pt-br/services/other/consular/">Procuração</a>
+<a href="/pt-br/services/advisory/consultation/">Assuntos de propriedade</a>
+</div>
+</div>
+</div>
+</details>
+<details class="mobile-nav-group">
+<summary>Outros</summary>
+<div class="mobile-nav-group__body">
+<p class="mobile-nav-group__intro">Serviços consulares, registros e apoio geral fora das principais famílias de serviço.</p>
+<div class="mobile-nav-links">
+<a href="/pt-br/services/other/consular/">Serviços Consulares</a>
+<a href="/pt-br/services/other/records/">Registros criminais</a>
+<a href="/pt-br/services/other/translation/">Tradução Juramentada</a>
 </div>
 </div>
 </details>

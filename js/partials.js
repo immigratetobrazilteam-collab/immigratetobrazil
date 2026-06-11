@@ -36,7 +36,7 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-04-11-utility-accessibility-icon-v5";
+  const PARTIAL_VERSION = "2026-06-11-navigation-menu-v1";
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();
