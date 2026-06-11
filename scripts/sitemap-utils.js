@@ -21,6 +21,15 @@ const SECTION_ORDER = [
   "about",
   "countries",
   "insights",
+  "insights-visa",
+  "insights-naturalisation",
+  "insights-updates",
+  "insights-guides",
+  "insights-fyi",
+  "insights-residency",
+  "insights-process",
+  "insights-blog",
+  "insights-general",
   "legal"
 ];
 const SECTION_LABELS = {
@@ -31,7 +40,16 @@ const SECTION_LABELS = {
   brazil: "Brazil",
   about: "About",
   countries: "Countries",
-  insights: "Insights",
+  insights: "Insights Hub",
+  "insights-visa": "Visa Insights",
+  "insights-naturalisation": "Naturalisation Insights",
+  "insights-updates": "Immigration Updates",
+  "insights-guides": "Brazil Guides",
+  "insights-fyi": "Brazil FYI",
+  "insights-residency": "Residency Insights",
+  "insights-process": "Process Insights",
+  "insights-blog": "Blog",
+  "insights-general": "General Insights",
   legal: "Legal"
 };
 
@@ -50,6 +68,15 @@ export function baseRouteFor(route) {
 export function sectionForRoute(route) {
   const segments = baseRouteFor(route).split("/").filter(Boolean);
   return segments[0] || "foundation";
+}
+
+export function sitemapGroupForRoute(route) {
+  const segments = baseRouteFor(route).split("/").filter(Boolean);
+  const section = segments[0] || "foundation";
+  if (section === "insights" && segments[1]) {
+    return `insights-${segments[1]}`;
+  }
+  return section;
 }
 
 export function childSitemapRoute(section) {
@@ -83,7 +110,7 @@ function localeWeight(route) {
 }
 
 function compareRouteEntries(a, b) {
-  const sectionCompare = sectionRank(sectionForRoute(a.route)) - sectionRank(sectionForRoute(b.route));
+  const sectionCompare = sectionRank(sitemapGroupForRoute(a.route)) - sectionRank(sitemapGroupForRoute(b.route));
   if (sectionCompare !== 0) return sectionCompare;
 
   const baseCompare = baseRouteFor(a.route).localeCompare(baseRouteFor(b.route));
@@ -653,13 +680,13 @@ export function buildSitemapArtifacts(routeEntries) {
     }))
     .sort(compareRouteEntries);
   const routeGroups = buildRouteGroups(indexedEntries);
-  const sections = [...new Set(indexedEntries.map((entry) => sectionForRoute(entry.route)))].sort((a, b) => {
+  const sections = [...new Set(indexedEntries.map((entry) => sitemapGroupForRoute(entry.route)))].sort((a, b) => {
     const rankCompare = sectionRank(a) - sectionRank(b);
     return rankCompare !== 0 ? rankCompare : a.localeCompare(b);
   });
 
   const childSitemaps = sections.map((section) => {
-    const entries = indexedEntries.filter((entry) => sectionForRoute(entry.route) === section);
+    const entries = indexedEntries.filter((entry) => sitemapGroupForRoute(entry.route) === section);
     const route = childSitemapRoute(section);
 
     return {

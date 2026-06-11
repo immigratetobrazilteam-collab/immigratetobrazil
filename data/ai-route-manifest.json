@@ -1,0 +1,191 @@
+{
+  "generatedAt": "2026-06-11",
+  "site": {
+    "name": "Immigrate to Brazil",
+    "url": "https://immigratetobrazil.com",
+    "languages": [
+      "en",
+      "pt-BR"
+    ],
+    "sitemap": "https://immigratetobrazil.com/sitemap.xml"
+  },
+  "primaryEntity": {
+    "name": "Monique Fernandes",
+    "type": "Brazil immigration attorney",
+    "url": "https://immigratetobrazil.com/about/lawyer/",
+    "knowsAbout": [
+      "Brazil immigration law",
+      "Brazil visas",
+      "Brazil residency",
+      "Brazilian naturalisation",
+      "Brazil immigration compliance",
+      "Brazil immigration defense"
+    ]
+  },
+  "indexableCounts": {
+    "en": 837,
+    "pt-br": 837
+  },
+  "keyRoutes": [
+    {
+      "route": "/",
+      "url": "https://immigratetobrazil.com",
+      "title": "Immigrate to Brazil with Attorney Monique Fernandes",
+      "description": "Immigrate to Brazil with attorney Monique Fernandes. Monique helps individuals, families, entrepreneurs, and international clients with visas, residency, naturalisation, compliance, regularisation, and cross-border immigration matters connected to Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/about/",
+      "url": "https://immigratetobrazil.com/about/",
+      "title": "About Monique",
+      "description": "Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/about/lawyer/",
+      "url": "https://immigratetobrazil.com/about/lawyer/",
+      "title": "Lawyer",
+      "description": "A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/about/about/",
+      "url": "https://immigratetobrazil.com/about/about/",
+      "title": "Meet Monique Fernandes",
+      "description": "Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/about/profile/",
+      "url": "https://immigratetobrazil.com/about/profile/",
+      "title": "Profile",
+      "description": "A professional profile of Monique Fernandes, including how her immigration practice is structured and what clients can expect from attorney-led guidance connected to Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/",
+      "url": "https://immigratetobrazil.com/services/",
+      "title": "Services",
+      "description": "Monique Fernandes organizes her Brazil immigration services around the real stage of each case so clients can find the right starting point with more clarity.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/",
+      "url": "https://immigratetobrazil.com/services/visas/",
+      "title": "Visas",
+      "description": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/",
+      "url": "https://immigratetobrazil.com/services/residencies/",
+      "title": "Residencies",
+      "description": "Monique Fernandes helps clients compare Brazil residency services with clearer guidance on lawful stay, continuity, timing, and next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/naturalisation/",
+      "url": "https://immigratetobrazil.com/services/naturalisation/",
+      "title": "Naturalisation",
+      "description": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/defense/",
+      "url": "https://immigratetobrazil.com/services/defense/",
+      "title": "Defense",
+      "description": "Monique Fernandes uses defense services to help clients stabilize urgent or exposed Brazil immigration matters with more structure and calmer next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/",
+      "url": "https://immigratetobrazil.com/process/",
+      "title": "Brazil Immigration Process",
+      "description": "Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/",
+      "url": "https://immigratetobrazil.com/brazil/",
+      "title": "Brazil Hub",
+      "description": "Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/",
+      "url": "https://immigratetobrazil.com/countries/",
+      "title": "Country-specific immigration planning for moving to Brazil",
+      "description": "Use the countries hub to compare immigration planning to Brazil from your country, including route selection, document strategy, relocation timing, and Monique Fernandes guidance for cross-border cases.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/",
+      "url": "https://immigratetobrazil.com/insights/",
+      "title": "Insights",
+      "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/start-consultation/",
+      "url": "https://immigratetobrazil.com/start-consultation/",
+      "title": "Request a Consultation",
+      "description": "How to send the first summary of your matter, pay correctly, and move into a structured first review.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/",
+      "url": "https://immigratetobrazil.com/pt-br/",
+      "title": "Imigre para o Brasil com a advogada Monique Fernandes",
+      "description": "Imigrar para o Brasil com a advogada Monique Fernandes. Monique ajuda indivíduos, famílias, empresários e clientes internacionais com vistos, residência, naturalização, compliance, regularização e questões de imigração transfronteiriça relacionadas ao Brasil.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/about/",
+      "url": "https://immigratetobrazil.com/pt-br/about/",
+      "title": "Sobre Monique",
+      "description": "Explore as páginas que apresentam Monique Fernandes, explique como funciona sua prática de imigração para o Brasil e mostre o que os clientes podem esperar antes de fazer a reserva.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/about/lawyer/",
+      "url": "https://immigratetobrazil.com/pt-br/about/lawyer/",
+      "title": "Advogada",
+      "description": "Uma análise formal do perfil jurídico, da responsabilidade profissional e da abordagem de imigração em primeiro lugar de Monique Fernandes para clientes que precisam de orientação liderada por um advogado conectado ao Brasil.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/services/",
+      "url": "https://immigratetobrazil.com/pt-br/services/",
+      "title": "Serviços",
+      "description": "Monique Fernandes organiza seus serviços de imigração para o Brasil em torno do estágio real de cada caso para que os clientes possam encontrar o ponto de partida certo com mais clareza.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/start-consultation/",
+      "url": "https://immigratetobrazil.com/pt-br/start-consultation/",
+      "title": "Solicite uma Consulta",
+      "description": "Como enviar o primeiro resumo do seu assunto, pagar corretamente e passar para uma primeira avaliação estruturada.",
+      "language": "pt-BR",
+      "indexable": true
+    }
+  ]
+}

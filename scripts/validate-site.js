@@ -31,6 +31,17 @@ const SHARED_IDS = {
   website: `${ROOT_ORGANIZATION_URL}#website`,
   contactPoint: `${ROOT_ORGANIZATION_URL}#contact-primary`,
 };
+const ALLOWED_NOINDEX_ROUTES = new Set([
+  "/brazil/search/",
+  "/client-feedback/",
+  "/legal/404/",
+  "/legal/search/",
+  "/pt-br/brazil/search/",
+  "/pt-br/client-feedback/",
+  "/pt-br/legal/404/",
+  "/pt-br/legal/search/"
+]);
+const WHATSAPP_ANCHOR_RE = /<a\b[^>]*\bhref=["'][^"']*(?:api\.whatsapp\.com|wa\.me)[^"']*["'][^>]*>/gi;
 
 function localeForRoute(route) {
   return route.startsWith("/pt-br/") ? "pt-br" : "en";
@@ -93,6 +104,10 @@ function hasType(item, type) {
   return item["@type"] === type;
 }
 
+function whatsappAnchors(html) {
+  return [...html.matchAll(WHATSAPP_ANCHOR_RE)].map((match) => match[0]);
+}
+
 async function main() {
   const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
   const failures = [];
@@ -117,6 +132,9 @@ async function main() {
     if (!description) failures.push(`Missing meta description: ${page.route}`);
     if (h1Count !== 1) failures.push(`Expected exactly one H1 on ${page.route}, found ${h1Count}`);
     if (mainCount !== 1) failures.push(`Expected exactly one <main> on ${page.route}, found ${mainCount}`);
+    if (pageData.noindex && !ALLOWED_NOINDEX_ROUTES.has(page.route)) {
+      failures.push(`Unexpected noindex route: ${page.route}`);
+    }
 
     const schemaItems = extractSchemaItems(page.route, html, failures);
     const pageSchemas = schemaItems.filter((item) => [...PAGE_SCHEMA_TYPES].some((type) => hasType(item, type)));
@@ -179,12 +197,21 @@ async function main() {
     }
 
     const formActions = extractFormActions(html).filter((action) => /formspree\.io\/f\//i.test(action));
+    if (!pageData.noindex && formActions.length === 0) {
+      failures.push(`Indexable page is missing a Formspree contact form: ${page.route}`);
+    }
     for (const endpoint of formActions) {
       expectedByLocale[locale].formMap.push({
         route: page.route,
         title: pageData.title,
         endpoint
       });
+    }
+
+    for (const anchor of whatsappAnchors(html)) {
+      if (!/\bdata-whatsapp-click\b/i.test(anchor)) {
+        failures.push(`WhatsApp link is missing tracking marker on ${page.route}`);
+      }
     }
 
     const localRefs = extractLocalRefs(html);

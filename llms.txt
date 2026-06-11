@@ -1,0 +1,29 @@
+# Immigrate to Brazil
+
+Immigrate to Brazil is the Brazil immigration guidance site led by attorney Monique Fernandes.
+
+Primary entity:
+- Monique Fernandes: Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
+- Site: https://immigratetobrazil.com/
+- Main lawyer page: https://immigratetobrazil.com/about/lawyer/
+- About hub: https://immigratetobrazil.com/about/
+- Services hub: https://immigratetobrazil.com/services/
+- Consultation: https://immigratetobrazil.com/start-consultation/
+- Portuguese home: https://immigratetobrazil.com/pt-br/
+- Portuguese consultation: https://immigratetobrazil.com/pt-br/start-consultation/
+
+Core topics:
+- Brazil visas
+- Brazil residency
+- Brazilian naturalisation and citizenship
+- Immigration defense, regularization, compliance, and planning
+- Relocation and life in Brazil
+
+Preferred discovery files:
+- XML sitemap index: https://immigratetobrazil.com/sitemap.xml
+- Human sitemap: https://immigratetobrazil.com/sitemap.html
+- AI route manifest: https://immigratetobrazil.com/data/ai-route-manifest.json
+
+Contact:
+- Formspree consultation forms are embedded on indexable client-facing pages.
+- WhatsApp contact is available from page CTAs and includes page context.

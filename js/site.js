@@ -384,6 +384,7 @@
       utm_id: sanitizeAnalyticsValue(params.get("utm_id")),
       referrer_host: getReferrerHost(),
       landing_route: normalizeRoute(window.location.pathname),
+      landing_url: window.location.href,
       has_gclid: params.has("gclid") ? 1 : undefined,
       has_fbclid: params.has("fbclid") ? 1 : undefined
     });
@@ -479,6 +480,124 @@
       form_action_path: actionPath,
       form_field_count: form.querySelectorAll("input, select, textarea").length || undefined
     });
+  }
+
+  function getCanonicalUrl() {
+    const canonical = document.querySelector("link[rel='canonical']")?.getAttribute("href") || "";
+    if (canonical) return canonical;
+    return window.location.href;
+  }
+
+  function getReferrerUrl() {
+    return document.referrer || "";
+  }
+
+  function getReferrerDomain() {
+    const referrer = getReferrerUrl();
+    if (!referrer) return "";
+    try {
+      return new URL(referrer).hostname;
+    } catch {
+      return "";
+    }
+  }
+
+  function getLandingContext() {
+    const stored = getStoredAttribution();
+    return {
+      landing_route: stored.landing_route || normalizeRoute(window.location.pathname),
+      landing_url: stored.landing_url || window.location.href
+    };
+  }
+
+  function attributionFieldValues() {
+    const params = new URLSearchParams(window.location.search || "");
+    const config = getConfig();
+    const landing = getLandingContext();
+    return cleanAnalyticsPayload({
+      site_domain: window.location.hostname || "immigratetobrazil.com",
+      current_url: window.location.href,
+      canonical_url: getCanonicalUrl(),
+      page_route: config.pageRoute || normalizeRoute(window.location.pathname),
+      page_title: config.pageTitle || document.title || "",
+      page_language: getSiteLocale(),
+      page_family: config.pageFamily || "",
+      referrer_url: getReferrerUrl(),
+      referrer_domain: getReferrerDomain(),
+      landing_url: landing.landing_url,
+      landing_route: landing.landing_route,
+      utm_source: params.get("utm_source") || "",
+      utm_medium: params.get("utm_medium") || "",
+      utm_campaign: params.get("utm_campaign") || "",
+      utm_term: params.get("utm_term") || "",
+      utm_content: params.get("utm_content") || "",
+      utm_id: params.get("utm_id") || "",
+      gclid: params.get("gclid") || "",
+      fbclid: params.get("fbclid") || "",
+      msclkid: params.get("msclkid") || "",
+      device_type: getDeviceType(),
+      viewport_width: String(window.innerWidth || document.documentElement.clientWidth || ""),
+      viewport_height: String(window.innerHeight || document.documentElement.clientHeight || ""),
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "",
+      submitted_at: new Date().toISOString()
+    });
+  }
+
+  function ensureHiddenField(form, name) {
+    let input = [...form.querySelectorAll("input")].find((field) => field.getAttribute("name") === name);
+    if (!input) {
+      input = document.createElement("input");
+      input.type = "hidden";
+      input.name = name;
+      input.dataset.itbAttribution = name;
+      form.prepend(input);
+    }
+    return input;
+  }
+
+  function autofillFormAttribution(form) {
+    if (!form) return;
+    const values = attributionFieldValues();
+    const trackedNames = new Set([
+      ...Object.keys(values),
+      ...[...form.querySelectorAll("[data-itb-attribution]")].map((input) => input.getAttribute("name")).filter(Boolean)
+    ]);
+
+    trackedNames.forEach((name) => {
+      const input = ensureHiddenField(form, name);
+      const nextValue = values[name] || input.value || "";
+      input.value = nextValue;
+    });
+  }
+
+  function buildWhatsAppMessage(node) {
+    const config = getConfig();
+    const route = config.pageRoute || normalizeRoute(window.location.pathname);
+    const title = sanitizeAnalyticsValue(config.pageTitle || document.title || "Immigrate to Brazil", 160);
+    const isPt = getSiteLocale().startsWith("pt");
+    if (isPt) {
+      return `Ola, vim da pagina ${title} (${route}) em immigratetobrazil.com e gostaria de falar com a advogada Monique.`;
+    }
+    return `Hello, I came from ${title} (${route}) on immigratetobrazil.com and would like to talk to attorney Monique.`;
+  }
+
+  function enhanceWhatsAppLink(node) {
+    const href = node?.getAttribute("href") || "";
+    if (!href || !/(api\.whatsapp\.com|wa\.me)/i.test(href)) return;
+    node.setAttribute("data-whatsapp-click", "true");
+    if (!node.hasAttribute("rel")) node.setAttribute("rel", "noopener noreferrer");
+    try {
+      const url = new URL(href, window.location.origin);
+      url.searchParams.set("text", buildWhatsAppMessage(node));
+      node.setAttribute("href", url.toString());
+    } catch {
+      // Leave non-standard URLs untouched apart from the tracking attribute.
+    }
+  }
+
+  function enhanceContactFormsAndLinks() {
+    document.querySelectorAll("a[href*='api.whatsapp.com'], a[href*='wa.me']").forEach(enhanceWhatsAppLink);
+    document.querySelectorAll("form[action*='formspree.io/f/']").forEach((form) => autofillFormAttribution(form));
   }
 
   function buildConsentState(granted) {
@@ -937,6 +1056,8 @@
    * ========================================================================== */
   function initConsentAndTracking() {
     const config = getConfig();
+    persistAttributionContext();
+    enhanceContactFormsAndLinks();
     const storedConsent = localStorage.getItem(consentKey);
     if (storedConsent === "accepted") {
       configureAnalytics();
@@ -1051,6 +1172,7 @@
 
       if (form.dataset.itbBoundFormSubmit === "true") return;
       form.addEventListener("submit", () => {
+        autofillFormAttribution(form);
         track("form_submit", describeForm(form));
       });
       form.dataset.itbBoundFormSubmit = "true";
@@ -1283,6 +1405,7 @@
     if (submitButton) submitButton.disabled = true;
     if (statusNode) statusNode.textContent = copy.sending;
 
+    autofillFormAttribution(form);
     const payload = new FormData(form);
     payload.set("page_route", getConfig().pageRoute || window.location.pathname);
     payload.set("page_title", getConfig().pageTitle || document.title || "");
@@ -1352,6 +1475,7 @@
     if (submitButton) submitButton.disabled = true;
     if (statusNode) statusNode.textContent = "Sending your consultation request to Monique Fernandes...";
 
+    autofillFormAttribution(form);
     const payload = new FormData(form);
     payload.set("page_route", getConfig().pageRoute || window.location.pathname);
     payload.set("page_title", getConfig().pageTitle || document.title || "");

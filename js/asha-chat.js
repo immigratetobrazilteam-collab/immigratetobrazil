@@ -2479,6 +2479,19 @@
     payload.append("nina_path", clickedPath);
     payload.append("page_route", window.ITB_SITE?.pageRoute || window.location.pathname);
     payload.append("page_title", document.title || "");
+    payload.append("page_language", state.isPt ? "pt-BR" : "en");
+    payload.append("page_family", window.ITB_SITE?.pageFamily || "");
+    payload.append("site_domain", window.location.hostname || "immigratetobrazil.com");
+    payload.append("current_url", window.location.href);
+    payload.append("canonical_url", document.querySelector("link[rel='canonical']")?.getAttribute("href") || window.location.href);
+    payload.append("referrer_url", document.referrer || "");
+    try {
+      payload.append("referrer_domain", document.referrer ? new URL(document.referrer).hostname : "");
+    } catch {
+      payload.append("referrer_domain", "");
+    }
+    payload.append("timezone", Intl.DateTimeFormat().resolvedOptions().timeZone || "");
+    payload.append("submitted_at", new Date().toISOString());
     payload.append("lead_source", "nina-chatbot");
 
     const statusNode = form.querySelector("[data-nina-lead-status]");

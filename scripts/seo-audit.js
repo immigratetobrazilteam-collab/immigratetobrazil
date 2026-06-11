@@ -16,7 +16,7 @@ import {
   baseRouteFor,
   childSitemapRoute,
   localeForRoute,
-  sectionForRoute
+  sitemapGroupForRoute
 } from "./sitemap-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -182,7 +182,7 @@ async function main() {
     const sitemapIndexXml = await fs.readFile(sitemapPath, "utf8");
     const actualChildSitemapRoutes = valuesFromSitemapIndex(sitemapIndexXml);
     const expectedChildSitemapRoutes = [
-      ...new Set(expectedSitemapRoutes.map((route) => childSitemapRoute(sectionForRoute(route))))
+      ...new Set(expectedSitemapRoutes.map((route) => childSitemapRoute(sitemapGroupForRoute(route))))
     ].sort();
 
     if (!compareStringSets(actualChildSitemapRoutes, expectedChildSitemapRoutes)) {
