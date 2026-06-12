@@ -2,7 +2,7 @@
 
 | Route | Title | Endpoint |
 | --- | --- | --- |
-| / | Immigrate to Brazil with Attorney Monique Fernandes | https://formspree.io/f/xdawygld |
+| / | Brazil Immigration Attorney - Legal Services for Foreign Nationals | https://formspree.io/f/xdawygld |
 | /about/ | About Monique | https://formspree.io/f/xdawygld |
 | /about/about/ | Meet Monique Fernandes | https://formspree.io/f/xdawygld |
 | /about/atlas/ | About Monique Fernandes | https://formspree.io/f/xdawygld |
@@ -772,7 +772,7 @@
 | /rights/strategy/ | Strategy | https://formspree.io/f/xdawygld |
 | /rights/timeline/ | Timeline | https://formspree.io/f/xdawygld |
 | /rights/transparency/ | Transparency | https://formspree.io/f/xdawygld |
-| /services/ | Services | https://formspree.io/f/xdawygld |
+| /services/ | Immigration Law Services - Visa, Residency, Citizenship & Defense | https://formspree.io/f/xdawygld |
 | /services/advisory/ | Advisory | https://formspree.io/f/xdawygld |
 | /services/advisory/compliance/ | Compliance | https://formspree.io/f/xdawygld |
 | /services/advisory/consultation/ | Consultation | https://formspree.io/f/xdawygld |

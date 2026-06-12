@@ -66,9 +66,10 @@
   --radius-pill: 999px;
   --container-width: 1880px;
   --reading-width: 72ch;
+  --construction-status-bar-height: 42px;
   --utility-bar-height: 34px;
   --main-nav-height: 112px;
-  --sticky-stack-height: calc(var(--utility-bar-height) + var(--main-nav-height));
+  --sticky-stack-height: calc(var(--construction-status-bar-height) + var(--utility-bar-height) + var(--main-nav-height));
   --text-scale: 1;
   --font-display-default: "Iowan Old Style", "Georgia Pro", "Palatino Linotype", "Book Antiqua", serif;
   --font-body-default: "Avenir Next", "Segoe UI Variable", "Aptos", "Segoe UI", sans-serif;
@@ -393,7 +394,7 @@ li {
 
 [data-partial="utility-bar"] {
   display: block;
-  min-height: var(--utility-bar-height);
+  min-height: calc(var(--construction-status-bar-height) + var(--utility-bar-height));
 }
 
 [data-partial="site-navigation"] {
@@ -408,6 +409,7 @@ li {
 
 @media (max-width: 767px) {
   :root {
+    --construction-status-bar-height: 44px;
     --utility-bar-height: 40px;
     --main-nav-height: 126px;
   }
@@ -15724,4 +15726,164 @@ body.site-root .main-header--redesign ~ .navbar-collapse .mobile-nav-links a:foc
   .mobile-nav-quicklinks {
     grid-template-columns: 1fr;
   }
+}
+
+/* Site-wide construction notice above the existing utility bar. */
+.construction-status-bar {
+  position: sticky;
+  top: 0;
+  z-index: 72;
+  display: flex;
+  align-items: center;
+  min-height: var(--construction-status-bar-height);
+  border-bottom: 1px solid rgba(var(--logo-gold-rgb), 0.26);
+  background:
+    linear-gradient(90deg, rgba(200, 152, 50, 0.18), rgba(82, 183, 136, 0.12), rgba(200, 152, 50, 0.18)),
+    linear-gradient(180deg, rgba(45, 32, 36, 0.98), rgba(25, 18, 21, 0.98));
+  color: #fff8ee;
+  box-shadow: 0 12px 28px rgba(3, 13, 9, 0.24);
+  backdrop-filter: blur(18px);
+}
+
+.construction-status-bar__inner {
+  display: grid;
+  grid-template-columns: auto minmax(0, auto) auto;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--construction-status-bar-height);
+  gap: 0.6rem;
+  padding-block: 0.32rem;
+}
+
+.construction-status-bar__signal {
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 999px;
+  background: var(--mint-300);
+  box-shadow:
+    0 0 0 0.28rem rgba(116, 198, 157, 0.16),
+    0 0 22px rgba(116, 198, 157, 0.58);
+}
+
+.construction-status-bar__copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+  gap: 0.38rem;
+  color: rgba(255, 248, 238, 0.84);
+  font-size: 0.78rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.construction-status-bar__copy strong {
+  color: #fff0bf;
+  font-family: var(--font-label);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.construction-status-bar__copy span {
+  color: rgba(255, 248, 238, 0.82);
+}
+
+.construction-status-bar__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0.3rem 0.74rem;
+  border: 1px solid rgba(255, 236, 178, 0.52);
+  border-radius: 999px;
+  background: linear-gradient(135deg, #fff4cf 0%, #efca75 42%, #c98b2d 100%);
+  color: #211205;
+  font-size: 0.68rem;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+}
+
+.construction-status-bar__link:hover,
+.construction-status-bar__link:focus-visible {
+  color: #211205;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.28);
+}
+
+.utility-bar {
+  top: var(--construction-status-bar-height);
+  z-index: 71;
+}
+
+.main-nav {
+  top: calc(var(--construction-status-bar-height) + var(--utility-bar-height));
+}
+
+[data-partial="utility-bar"] {
+  min-height: calc(var(--construction-status-bar-height) + var(--utility-bar-height));
+}
+
+.main-header--redesign .service-family-menu,
+body.site-root .main-header--redesign .service-family-menu {
+  top: calc(var(--construction-status-bar-height) + var(--utility-bar-height) + var(--main-nav-height) - 1px);
+}
+
+@media (max-width: 1199px) {
+  .main-header--redesign ~ .navbar-collapse.show,
+  .main-header--redesign ~ .navbar-collapse.collapsing,
+  body.site-root .main-header--redesign ~ .navbar-collapse.show,
+  body.site-root .main-header--redesign ~ .navbar-collapse.collapsing {
+    max-height: calc(100dvh - var(--construction-status-bar-height) - var(--utility-bar-height) - 0.5rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .construction-status-bar__inner {
+    gap: 0.42rem;
+  }
+
+  .construction-status-bar__copy {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .construction-status-bar__copy strong {
+    font-size: 0.62rem;
+  }
+
+  .construction-status-bar__copy span {
+    display: none;
+  }
+
+  .construction-status-bar__link {
+    min-height: 26px;
+    padding: 0.28rem 0.58rem;
+    font-size: 0.62rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .construction-status-bar__copy strong {
+    max-width: 9.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+body.a11y-contrast .construction-status-bar,
+body.a11y-contrast .construction-status-bar__link {
+  border-color: #000000 !important;
+  background: #ffffff !important;
+  color: #000000 !important;
+  box-shadow: none !important;
 }
