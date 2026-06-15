@@ -325,7 +325,9 @@ body.site-root .home-hero-portrait figcaption { display: grid; gap: 0.3rem; padd
   background: rgba(255, 253, 248, 0.96);
   color: var(--text-main);
 }
-.lead-form, .lead-form-compact { display: grid; gap: 0.9rem; }
+.lead-form, .lead-form-compact { display: grid; width: min(100%, 46rem); margin-inline: auto; gap: 0.9rem; }
+.lead-form-block:has(.lead-form) { width: min(100%, 58rem); margin-inline: auto; }
+.lead-form-block:has(.lead-form) .section-head { max-width: 44rem; margin-inline: auto; text-align: center; }
 .lead-form label { display: grid; gap: 0.35rem; color: var(--text-main); }
 .lead-form input, .lead-form textarea, .lead-form select {
   width: 100%;
@@ -338,6 +340,7 @@ body.site-root .home-hero-portrait figcaption { display: grid; gap: 0.3rem; padd
   background: #fff;
 }
 .lead-form textarea { min-height: 9rem; }
+.lead-form button { width: auto; min-width: min(100%, 14rem); justify-self: start; }
 .form-honeypot { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .form-consent { grid-template-columns: auto 1fr; align-items: start; }
 .home-link-group a, .footer-link-list a, .footer-panel a {
@@ -389,6 +392,8 @@ body.site-root .home-hero-portrait figcaption { display: grid; gap: 0.3rem; padd
 }
 @media (max-width: 767px) {
   .container, .container-xl, .container-xxl { width: min(var(--container-width), calc(100% - 1.4rem)); }
+  .lead-form, .lead-form button { width: 100%; }
+  .lead-form button { justify-self: stretch; }
   .navbar-nav { display: none; }
   .hero, body.site-root .hero { padding: 2.35rem 0 2.8rem; }
   .hero-copy, body.site-root .hero-copy, .hero-panel, body.site-root .hero-panel { padding: 1rem; }

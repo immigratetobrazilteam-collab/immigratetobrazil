@@ -3608,8 +3608,22 @@ body:not(.theme-light) .asha-chat__best {
 .lead-form {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem 1.15rem;
+  width: min(100%, 46rem);
+  margin-inline: auto;
+  gap: 1rem;
   align-items: start;
+}
+
+.lead-form-block:has(.lead-form) {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+  padding: clamp(1.25rem, 2.8vw, 2rem);
+}
+
+.lead-form-block:has(.lead-form) .section-head {
+  max-width: 44rem;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .lead-form label {
@@ -3665,8 +3679,9 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 .lead-form button {
-  width: 100%;
-  justify-self: stretch;
+  width: auto;
+  min-width: min(100%, 14rem);
+  justify-self: start;
 }
 
 .form-note p {
@@ -5251,7 +5266,13 @@ body.reduced-motion *::after {
   }
 
   .lead-form {
+    width: 100%;
     grid-template-columns: 1fr;
+  }
+
+  .lead-form button {
+    width: 100%;
+    justify-self: stretch;
   }
 
   .floating-whatsapp {
