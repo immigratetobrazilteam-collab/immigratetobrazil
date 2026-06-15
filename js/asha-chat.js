@@ -1,6 +1,14 @@
 (function () {
+  /* ==========================================================================
+   * 01. Shared Concierge State
+   * Coordinates multiple Nina widgets without leaking state across DOM nodes.
+   * ========================================================================== */
   const sharedState = new WeakMap();
 
+  /* ==========================================================================
+   * 02. Service Catalog
+   * Route metadata, labels, and summaries used in Nina recommendations.
+   * ========================================================================== */
   const SERVICE_CATALOG = {
     advisoryConsultation: {
       family: { en: "Advisory", pt: "Consultoria" },
@@ -499,6 +507,10 @@
     }
   };
 
+  /* ==========================================================================
+   * 03. Icon Library
+   * Small inline SVG set used by the floating concierge cards and options.
+   * ========================================================================== */
   const ICONS = {
     move: "M12 3.5 20.5 12 12 20.5 3.5 12 12 3.5Zm0 3.1L6.6 12l5.4 5.4 1.4-1.4-3-3H17v-2h-6.6l3-3-1.4-1.4Z",
     visa: "M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Zm3.2.5v2H18V7H7.2Zm0 4v6H12v-6H7.2Zm6.2 0v1.8H18V11h-4.6Zm0 3.4V17H18v-2.6h-4.6Z",
@@ -536,6 +548,10 @@
     brazil: "M12 3.4 21 12l-9 8.6L3 12l9-8.6Zm0 2.7L5.8 12l6.2 5.9 6.2-5.9L12 6.1Zm0 2.3a3.6 3.6 0 1 1 0 7.2 3.6 3.6 0 0 1 0-7.2Z"
   };
 
+  /* ==========================================================================
+   * 04. Locale, URL, Escaping, and Tracking Helpers
+   * Keeps route resolution and analytics payloads consistent across locales.
+   * ========================================================================== */
   function text(value, isPt) {
     if (value && typeof value === "object") return isPt ? value.pt : value.en;
     return value || "";
@@ -624,6 +640,10 @@
     });
   }
 
+  /* ==========================================================================
+   * 05. Guided Flow Definition
+   * Defines each question, option, branch, and recommendation in the chat path.
+   * ========================================================================== */
   function buildFlow() {
     return {
       root: {
@@ -1934,6 +1954,10 @@
     };
   }
 
+  /* ==========================================================================
+   * 06. Localized Widget Copy
+   * Static EN/PT-BR labels, prompts, form labels, and fallback messages.
+   * ========================================================================== */
   function getCopy(isPt) {
     return {
       sectionLabel: isPt ? "Escolha uma opcao" : "Choose an option",
@@ -1989,6 +2013,10 @@
     };
   }
 
+  /* ==========================================================================
+   * 07. Recommendation and WhatsApp Helpers
+   * Converts selected flow outcomes into readable cards and contact messages.
+   * ========================================================================== */
   function getLocalizedCatalogItem(key, isPt) {
     const item = SERVICE_CATALOG[key];
     if (!item) return null;
@@ -2052,6 +2080,10 @@
     }
   }
 
+  /* ==========================================================================
+   * 08. Typing, Transcript, and Prompt Rendering
+   * Renders the conversational history, current question, and option buttons.
+   * ========================================================================== */
   function prefersReducedMotion() {
     if (document.body.classList.contains("reduced-motion")) return true;
     return window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)").matches : false;
@@ -2220,6 +2252,10 @@
     shell.hidden = false;
   }
 
+  /* ==========================================================================
+   * 09. Lead Capture Rendering
+   * Builds the concierge handoff form and success state after details are sent.
+   * ========================================================================== */
   function buildLeadFormHtml(state) {
     const fields = state.copy.formFields;
     const placeholder = state.copy.formPlaceholder;
@@ -2329,6 +2365,10 @@
     scrollBodyToBottom(widget);
   }
 
+  /* ==========================================================================
+   * 10. Flow State and Lead Submission
+   * Moves through the decision tree and sends captured details to Formspree.
+   * ========================================================================== */
   function enterStep(widget, stepId) {
     const state = sharedState.get(widget);
     if (!state) return;
@@ -2521,6 +2561,10 @@
     }
   }
 
+  /* ==========================================================================
+   * 11. Widget Lifecycle
+   * Handles open, close, nudges, reset, and one-time widget initialization.
+   * ========================================================================== */
   function openWidget(widget) {
     const state = sharedState.get(widget);
     const panel = widget.querySelector("[data-nina-panel]");
@@ -2647,6 +2691,10 @@
     resetWidget(widget);
   }
 
+  /* ==========================================================================
+   * 12. Public Init API
+   * Exposes Nina initialization hooks for static pages and injected partials.
+   * ========================================================================== */
   function initAshaChat() {
     document.querySelectorAll("[data-asha-chat='true']").forEach(initWidget);
   }

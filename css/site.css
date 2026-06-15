@@ -3115,7 +3115,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   20. Topic Sections and Editorial Layouts
+   21. Topic Sections and Editorial Layouts
    Flexible content section patterns for split, banded, framed, and rail styles.
    ========================================================================== */
 .topic-section {
@@ -3271,7 +3271,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   21. Section Image Backdrops
+   22. Section Image Backdrops
    Manifest-driven background images for long-form content sections.
    ========================================================================== */
 [data-section-image="true"] {
@@ -3390,7 +3390,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   22. Card Grids and Reusable Card Surfaces
+   23. Card Grids and Reusable Card Surfaces
    Resource cards, related cards, testimonial cards, and info blocks.
    ========================================================================== */
 .card-grid,
@@ -3602,7 +3602,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   22. Forms and Search
+   24. Forms and Search
    Lead capture forms, inline search, and result listing presentation.
    ========================================================================== */
 .lead-form {
@@ -3769,7 +3769,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   23. Accordions and Disclosure Blocks
+   25. Accordions and Disclosure Blocks
    ========================================================================== */
 .accordion-item {
   border: 1px solid var(--border-soft);
@@ -3806,7 +3806,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   24. CTA and Disclaimer Blocks
+   26. CTA and Disclaimer Blocks
    ========================================================================== */
 .cta-pair {
   display: flex;
@@ -3833,7 +3833,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   25. Site Footer
+   27. Site Footer
    Shared footer system for EN and PT partials. Keeps the eight-column desktop
    layout on large screens, relaxes to four columns on tablet, and two columns
    on mobile while letting the brand column span full width when needed.
@@ -4207,7 +4207,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   26. Floating Utilities and Cookie Banner
+   28. Floating Utilities and Cookie Banner
    Persistent global controls layered above page content.
    ========================================================================== */
 .floating-whatsapp,
@@ -4427,7 +4427,7 @@ body:not(.theme-light) .asha-chat__best {
 }
 
 /* ==========================================================================
-   27. Dark Theme Component Overrides
+   29. Dark Theme Component Overrides
    Component-level dark surface adjustments layered after shared components.
    ========================================================================== */
 body.theme-dark .utility-link,
@@ -4543,7 +4543,7 @@ body.theme-dark .search-inline-form input::placeholder {
 }
 
 /* ==========================================================================
-   28. Motion and Reveal Helpers
+   30. Motion and Reveal Helpers
    ========================================================================== */
 @keyframes hero-rise {
   from {
@@ -4760,7 +4760,7 @@ body.theme-dark .search-inline-form input::placeholder {
 }
 
 /* ==========================================================================
-   29. Accessibility Mode Overrides
+   31. Accessibility Mode Overrides
    These rules are intentionally forceful and rely on `!important` so they can
    win against component-specific styling when an accessibility mode is active.
    ========================================================================== */
@@ -5051,7 +5051,7 @@ body.a11y-hide-images .hero-glance-card {
 }
 
 /* ==========================================================================
-   30. Motion Preferences
+   32. Motion Preferences
    ========================================================================== */
 body.reduced-motion *,
 body.reduced-motion *::before,
@@ -5062,7 +5062,7 @@ body.reduced-motion *::after {
 }
 
 /* ==========================================================================
-   31. Responsive Breakpoints
+   33. Responsive Breakpoints
    Ordered from broader desktop adjustments down to very small screens.
    ========================================================================== */
 @media (max-width: 1199px) {
@@ -10923,7 +10923,7 @@ body.site-root.theme-light .page-services-directory-main--clean .services-direct
 }
 
 /* ==========================================================================
-   58. Nina Concierge
+   38. Nina Concierge
    Premium floating route-guidance widget shared across the site.
    ========================================================================== */
 .floating-whatsapp--concierge,
@@ -14496,7 +14496,7 @@ body.page-client-feedback .lead-form-feedback > .btn {
 }
 
 /* ==========================================================================
-   42. Responsive Header Redesign
+   39. Responsive Header Redesign
    New shared service navigation matching the expanded route structure.
    ========================================================================== */
 .main-header--redesign {
@@ -15099,7 +15099,7 @@ body.site-root .main-header--redesign ~ .navbar-collapse .mobile-nav-links a:foc
 }
 
 /* ==========================================================================
-   43. Final Shared Header System
+   40. Final Shared Header System
    Single source of truth for the injected navigation partial.
    ========================================================================== */
 [data-partial="site-navigation"] {

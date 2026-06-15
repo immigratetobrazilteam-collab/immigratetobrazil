@@ -12,6 +12,7 @@ const ROOT = path.resolve(__dirname, "..");
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xdawygld";
 const UNIVERSAL_FORM_RE =
   /\n?\s*<!-- Section: Universal Formspree Consultation -->[\s\S]*?<!-- End Section: Universal Formspree Consultation -->\s*/gi;
+const MANAGED_PARTIAL_SECTION_COMMENT_RE = /\n?\s*<!--\s*Section:\s*[\w\s/-]+ Partial\s*-->\s*/gi;
 const FORMSPREE_FORM_RE = /<form\b[^>]*\baction=["']https:\/\/formspree\.io\/f\/[^"']+["'][^>]*>/i;
 const WHATSAPP_ANCHOR_RE = /<a\b[^>]*\bhref=(["'])([^"']*(?:api\.whatsapp\.com|wa\.me)[^"']*)\1[^>]*>/gi;
 const START_CONSULTATION_ANCHOR_RE = /<a\b[^>]*\bhref=(["'])([^"']*\/start-consultation\/[^"']*)\1[^>]*>/gi;
@@ -50,6 +51,23 @@ const FORM_HIDDEN_NAMES = [
   "submitted_at",
   "form_placement"
 ];
+const SECTION_CLASS_STOPWORDS = new Set([
+  "container",
+  "content-block",
+  "d-none",
+  "d-xl-flex",
+  "download-gateway",
+  "footer-panel",
+  "hero-panel",
+  "lead-form-block",
+  "navbar",
+  "navbar-expand-lg",
+  "nav-item",
+  "section",
+  "site-main",
+  "visually-hidden"
+]);
+const PARTIAL_HTML_DIRS = [path.join(ROOT, "partials", "en"), path.join(ROOT, "partials", "pt-br")];
 
 const CRITICAL_CSS_SOURCE = `
 :root {
@@ -513,6 +531,99 @@ function getAttributeValue(tag, name) {
 function getAnchorHref(tag) {
   const match = tag.match(/\bhref=(["'])([\s\S]*?)\1/i);
   return match ? match[2] : "";
+}
+
+function humanizeSectionLabel(value = "") {
+  const normalized = normalizeSpace(
+    decodeAttribute(value)
+      .replace(/^section-\d+-/i, "")
+      .replace(/^section-\d+/i, "section")
+      .replace(/\b(?:true|false)\b/gi, "")
+      .replace(/[_-]+/g, " ")
+      .replace(/\s+/g, " ")
+  );
+  if (!normalized) return "Content Section";
+  return normalized
+    .split(" ")
+    .filter(Boolean)
+    .map((part) => {
+      const lower = part.toLowerCase();
+      if (["ai", "cpf", "cta", "faq", "gdpr", "gtm", "lgpd", "pt", "seo"].includes(lower)) return lower.toUpperCase();
+      if (lower === "whatsapp") return "WhatsApp";
+      if (lower === "brazil") return "Brazil";
+      return lower.charAt(0).toUpperCase() + lower.slice(1);
+    })
+    .join(" ");
+}
+
+function classLabelForTag(tag) {
+  const classes = decodeAttribute(getAttributeValue(tag, "class"))
+    .split(/\s+/)
+    .map((className) => className.replace(/__.*/, "").replace(/--.*/, ""))
+    .filter(Boolean);
+  const preferred = classes.find((className) => !SECTION_CLASS_STOPWORDS.has(className)) || classes[0] || "";
+  return preferred ? humanizeSectionLabel(preferred) : "";
+}
+
+function sectionLabelForTag(tag, fallback = "Content Section") {
+  const ariaLabel = getAttributeValue(tag, "aria-label");
+  if (ariaLabel) return humanizeSectionLabel(ariaLabel);
+
+  const id = getAttributeValue(tag, "id");
+  if (id) return humanizeSectionLabel(id);
+
+  return classLabelForTag(tag) || fallback;
+}
+
+function sectionLabelForPartial(tag) {
+  const partialName = getAttributeValue(tag, "data-partial");
+  return partialName ? `${humanizeSectionLabel(partialName)} Partial` : "Shared Partial";
+}
+
+function sectionLabelForHeader(tag) {
+  const className = decodeAttribute(getAttributeValue(tag, "class"));
+  if (/\bhero\b/i.test(className)) return "Page Hero";
+  return sectionLabelForTag(tag, "Header");
+}
+
+function sectionLabelForFooter(tag) {
+  const id = getAttributeValue(tag, "id");
+  if (id) return humanizeSectionLabel(id);
+  return sectionLabelForTag(tag, "Footer");
+}
+
+function alreadyHasSectionComment(sourceBeforeMatch) {
+  return /<!--\s*Section:\s*[^>]+-->\s*$/i.test(sourceBeforeMatch.slice(-320));
+}
+
+function annotateOpeningTags(html, pattern, labelForTag) {
+  let output = "";
+  let lastIndex = 0;
+
+  for (const match of html.matchAll(pattern)) {
+    const tag = match[0];
+    const index = match.index || 0;
+    output += html.slice(lastIndex, index);
+    if (!alreadyHasSectionComment(output)) {
+      output += `\n<!-- Section: ${labelForTag(tag)} -->\n`;
+    }
+    output += tag;
+    lastIndex = index + tag.length;
+  }
+
+  return `${output}${html.slice(lastIndex)}`;
+}
+
+function annotateHtmlSections(html) {
+  let next = html.replace(MANAGED_PARTIAL_SECTION_COMMENT_RE, "\n");
+  next = annotateOpeningTags(next, /<div\b(?=[^>]*\bdata-partial=(["'])[^"']+\1)[^>]*>\s*<\/div>/gi, sectionLabelForPartial);
+  next = annotateOpeningTags(next, /<main\b[^>]*>/gi, () => "Main Content");
+  next = annotateOpeningTags(next, /<header\b[^>]*>/gi, sectionLabelForHeader);
+  next = annotateOpeningTags(next, /<footer\b(?=[^>]*(?:\bid=["'][^"']+["']|\bclass=["'][^"']*\bsite-footer\b[^"']*["']))[^>]*>/gi, sectionLabelForFooter);
+  next = annotateOpeningTags(next, /<aside\b[^>]*>/gi, (tag) => sectionLabelForTag(tag, "Sidebar"));
+  next = annotateOpeningTags(next, /<nav\b[^>]*>/gi, (tag) => sectionLabelForTag(tag, "Navigation"));
+  next = annotateOpeningTags(next, /<section\b[^>]*>/gi, (tag) => sectionLabelForTag(tag));
+  return next;
 }
 
 function setAnchorHref(tag, href) {
@@ -1005,6 +1116,37 @@ async function syncCriticalCss() {
   return writeIfChanged(path.join(ROOT, "css", "critical.css"), `${minifyCss(CRITICAL_CSS_SOURCE)}\n`);
 }
 
+async function discoverPartialHtmlFiles() {
+  const files = [];
+  for (const dir of PARTIAL_HTML_DIRS) {
+    let entries = [];
+    try {
+      entries = await fs.readdir(dir, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith(".html")) files.push(path.join(dir, entry.name));
+    }
+  }
+  return files.sort();
+}
+
+async function syncAnnotatedPartials() {
+  const files = await discoverPartialHtmlFiles();
+  let updated = 0;
+
+  for (const filePath of files) {
+    const current = await fs.readFile(filePath, "utf8");
+    const next = annotateHtmlSections(current);
+    if (next === current) continue;
+    await fs.writeFile(filePath, next, "utf8");
+    updated += 1;
+  }
+
+  return updated;
+}
+
 function buildLlmsTxt() {
   return `# Immigrate to Brazil
 
@@ -1190,6 +1332,7 @@ async function main() {
     next = normalizeContactAnchors(next, entry.route, pageTitle);
     next = normalizeImages(next, responsiveImages);
     next = addFormIfNeeded(next, pageData, entry.route, runtime);
+    next = annotateHtmlSections(next);
 
     if (next !== html) {
       await fs.writeFile(entry.filePath, next, "utf8");
@@ -1203,9 +1346,10 @@ async function main() {
     `${JSON.stringify(buildAiRouteManifest(routeFiles, pageDataByRoute), null, 2)}\n`
   );
   const sitemapHtmlChanged = await writeIfChanged(path.join(ROOT, "sitemap.html"), buildHtmlSitemap(routeFiles, pageDataByRoute));
+  const annotatedPartials = await syncAnnotatedPartials();
 
   console.log(
-    `Optimized ${updatedRoutes} route files. CSS minified: ${cssChanged ? "yes" : "no"}; critical CSS: ${criticalCssChanged ? "yes" : "no"}; responsive images generated: ${responsiveResult.generated}; responsive images skipped: ${responsiveResult.skipped}; llms: ${llmsChanged ? "yes" : "no"}; AI manifest: ${manifestChanged ? "yes" : "no"}; HTML sitemap: ${sitemapHtmlChanged ? "yes" : "no"}.`
+    `Optimized ${updatedRoutes} route files. CSS minified: ${cssChanged ? "yes" : "no"}; critical CSS: ${criticalCssChanged ? "yes" : "no"}; responsive images generated: ${responsiveResult.generated}; responsive images skipped: ${responsiveResult.skipped}; llms: ${llmsChanged ? "yes" : "no"}; AI manifest: ${manifestChanged ? "yes" : "no"}; HTML sitemap: ${sitemapHtmlChanged ? "yes" : "no"}; annotated partials: ${annotatedPartials}.`
   );
 }
 

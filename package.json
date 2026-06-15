@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "generate:sitemap": "node scripts/generate-sitemap.js",
+    "content:inventory": "node scripts/generate-client-facing-text-inventory.js",
     "normalize:html": "node scripts/normalize-route-html.js",
     "seo:audit": "node scripts/seo-audit.js",
     "refresh:site": "node scripts/site-quality-pass.js && node scripts/optimize-site.js",

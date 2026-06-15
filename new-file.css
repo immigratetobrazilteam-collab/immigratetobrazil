@@ -1,11 +1,23 @@
+/* ==========================================================================
+   01. Placeholder Stylesheet
+   Reserved for temporary experiments; move production styles into css/site.css.
+   ========================================================================== */
 * {
   /* conteúdo CSS */
 }
 
+/* ==========================================================================
+   02. Screen Media Placeholder
+   Add screen-only experiments here before promoting them to the main stylesheet.
+   ========================================================================== */
 @media screen {
   /* estilo para tela */
 }
 
+/* ==========================================================================
+   03. Print Media Placeholder
+   Add print-only experiments here before promoting them to the main stylesheet.
+   ========================================================================== */
 @media print {
   /* estilo para impressão */
 }

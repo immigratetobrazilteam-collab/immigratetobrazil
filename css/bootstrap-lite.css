@@ -3,6 +3,11 @@
  * The site owns its visual system in /css/site.css; this file only preserves
  * tiny layout/display semantics for generated Bootstrap-style class names.
  */
+
+/* ==========================================================================
+   01. Collapse Behavior
+   Keeps Bootstrap-style collapsed navigation and disclosure states functional.
+   ========================================================================== */
 .collapse:not(.show) {
   display: none;
 }
@@ -13,6 +18,10 @@
   transition: height 0.2s ease;
 }
 
+/* ==========================================================================
+   02. Grid Compatibility
+   Supports legacy row and column classes emitted by older generated templates.
+   ========================================================================== */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +57,10 @@
   }
 }
 
+/* ==========================================================================
+   03. Display and Alignment Utilities
+   Preserves the small utility class subset used in shared partials.
+   ========================================================================== */
 .d-none {
   display: none !important;
 }
@@ -88,6 +101,10 @@
   height: 100% !important;
 }
 
+/* ==========================================================================
+   04. Spacing Utilities
+   Provides the spacing helpers still referenced by generated markup.
+   ========================================================================== */
 .mt-0 {
   margin-top: 0 !important;
 }
