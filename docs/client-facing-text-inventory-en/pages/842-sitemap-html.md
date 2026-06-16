@@ -1,0 +1,859 @@
+## Immigrate to Brazil Sitemap
+
+Route: `/sitemap.html`
+File: `sitemap.html`
+
+### Page Metadata
+- Browser title: Immigrate to Brazil HTML Sitemap
+
+### Page Body
+- H1: Immigrate to Brazil Sitemap
+- Indexable English and Portuguese pages for search engines, clients, and AI discovery.
+- H2: about
+- About Monique /about/
+- Meet Monique Fernandes /about/about/
+- About Monique Fernandes /about/atlas/
+- Who Monique Fernandes Helps /about/clients/
+- Ethics /about/ethics/
+- Lawyer /about/lawyer/
+- Mission /about/mission/
+- Philosophy /about/philosophy/
+- Profile /about/profile/
+- Results /about/results/
+- Stories /about/stories/
+- Story /about/story/
+- Testimonials /about/testimonials/
+- Values /about/values/
+- Why Work With Monique /about/whyus/
+- H2: brazil
+- Brazil Hub /brazil/
+- Brazil /brazil/brazil/
+- Central-West /brazil/central-west/
+- Cities /brazil/cities/
+- Cost /brazil/cost/
+- Cuisine /brazil/cuisine/
+- Culture /brazil/culture/
+- Directory /brazil/directory/
+- Economy /brazil/economy/
+- Education /brazil/education/
+- Events /brazil/events/
+- Faqs /brazil/faqs/
+- Festivals /brazil/festivals/
+- Guides /brazil/guides/
+- Healthcare /brazil/healthcare/
+- Housing /brazil/housing/
+- Investment /brazil/investment/
+- Living /brazil/living/
+- Municipalities /brazil/municipalities/
+- North /brazil/north/
+- Northeast /brazil/northeast/
+- Places /brazil/places/
+- Quality /brazil/quality/
+- Safety /brazil/safety/
+- South /brazil/south/
+- Southeast /brazil/southeast/
+- States /brazil/states/
+- H2: countries
+- Country-specific immigration planning for moving to Brazil /countries/
+- Moving to Brazil from Afghanistan /countries/afghanistan/
+- Moving to Brazil from Albania /countries/albania/
+- Moving to Brazil from Algeria /countries/algeria/
+- Moving to Brazil from Andorra /countries/andorra/
+- Moving to Brazil from Angola /countries/angola/
+- Moving to Brazil from Antigua and Barbuda /countries/antigua-and-barbuda/
+- Moving to Brazil from Argentina /countries/argentina/
+- Moving to Brazil from Armenia /countries/armenia/
+- Moving to Brazil from Australia /countries/australia/
+- Moving to Brazil from Austria /countries/austria/
+- Moving to Brazil from Azerbaijan /countries/azerbaijan/
+- Moving to Brazil from Bahamas /countries/bahamas/
+- Moving to Brazil from Bahrain /countries/bahrain/
+- Moving to Brazil from Bangladesh /countries/bangladesh/
+- Moving to Brazil from Barbados /countries/barbados/
+- Moving to Brazil from Belarus /countries/belarus/
+- Moving to Brazil from Belgium /countries/belgium/
+- Moving to Brazil from Belize /countries/belize/
+- Moving to Brazil from Benin /countries/benin/
+- Moving to Brazil from Bhutan /countries/bhutan/
+- Moving to Brazil from Bolivia /countries/bolivia/
+- Moving to Brazil from Bosnia and Herzegovina /countries/bosnia-and-herzegovina/
+- Moving to Brazil from Botswana /countries/botswana/
+- Moving to Brazil from Brazil /countries/brazil/
+- Moving to Brazil from Brunei /countries/brunei/
+- Moving to Brazil from Bulgaria /countries/bulgaria/
+- Moving to Brazil from Burkina Faso /countries/burkina-faso/
+- Moving to Brazil from Burundi /countries/burundi/
+- Moving to Brazil from Cabo Verde /countries/cabo-verde/
+- Moving to Brazil from Cambodia /countries/cambodia/
+- Moving to Brazil from Cameroon /countries/cameroon/
+- Moving to Brazil from Canada /countries/canada/
+- Moving to Brazil from Central African Republic /countries/central-african-republic/
+- Moving to Brazil from Chad /countries/chad/
+- Moving to Brazil from Chile /countries/chile/
+- Moving to Brazil from China /countries/china/
+- Moving to Brazil from Colombia /countries/colombia/
+- Moving to Brazil from Comoros /countries/comoros/
+- Moving to Brazil from Congo (Democratic Republic of the Congo) /countries/congo-democratic-republic-of-the-congo/
+- Moving to Brazil from Congo (Republic of the Congo) /countries/congo-republic-of-the-congo/
+- Moving to Brazil from Costa Rica /countries/costa-rica/
+- Moving to Brazil from Croatia /countries/croatia/
+- Moving to Brazil from Cuba /countries/cuba/
+- Moving to Brazil from Cyprus /countries/cyprus/
+- Moving to Brazil from Czechia /countries/czechia/
+- Moving to Brazil from Denmark /countries/denmark/
+- Moving to Brazil from Djibouti /countries/djibouti/
+- Moving to Brazil from Dominica /countries/dominica/
+- Moving to Brazil from Dominican Republic /countries/dominican-republic/
+- Moving to Brazil from Ecuador /countries/ecuador/
+- Moving to Brazil from Egypt /countries/egypt/
+- Moving to Brazil from El Salvador /countries/el-salvador/
+- Moving to Brazil from Equatorial Guinea /countries/equatorial-guinea/
+- Moving to Brazil from Eritrea /countries/eritrea/
+- Moving to Brazil from Estonia /countries/estonia/
+- Moving to Brazil from Eswatini /countries/eswatini/
+- Moving to Brazil from Ethiopia /countries/ethiopia/
+- Moving to Brazil from Fiji /countries/fiji/
+- Moving to Brazil from Finland /countries/finland/
+- Moving to Brazil from France /countries/france/
+- Moving to Brazil from Gabon /countries/gabon/
+- Moving to Brazil from Gambia /countries/gambia/
+- Moving to Brazil from Georgia /countries/georgia/
+- Moving to Brazil from Germany /countries/germany/
+- Moving to Brazil from Ghana /countries/ghana/
+- Moving to Brazil from Greece /countries/greece/
+- Moving to Brazil from Grenada /countries/grenada/
+- Moving to Brazil from Guatemala /countries/guatemala/
+- Moving to Brazil from Guinea-Bissau /countries/guinea-bissau/
+- Moving to Brazil from Guinea /countries/guinea/
+- Moving to Brazil from Guyana /countries/guyana/
+- Moving to Brazil from Haiti /countries/haiti/
+- Moving to Brazil from Honduras /countries/honduras/
+- Moving to Brazil from Hungary /countries/hungary/
+- Moving to Brazil from Iceland /countries/iceland/
+- Moving to Brazil from India /countries/india/
+- Moving to Brazil from Indonesia /countries/indonesia/
+- Moving to Brazil from Iran /countries/iran/
+- Moving to Brazil from Iraq /countries/iraq/
+- Moving to Brazil from Ireland /countries/ireland/
+- Moving to Brazil from Israel /countries/israel/
+- Moving to Brazil from Italy /countries/italy/
+- Moving to Brazil from Jamaica /countries/jamaica/
+- Moving to Brazil from Japan /countries/japan/
+- Moving to Brazil from Jordan /countries/jordan/
+- Moving to Brazil from Kazakhstan /countries/kazakhstan/
+- Moving to Brazil from Kenya /countries/kenya/
+- Moving to Brazil from Kiribati /countries/kiribati/
+- Moving to Brazil from Kuwait /countries/kuwait/
+- Moving to Brazil from Kyrgyzstan /countries/kyrgyzstan/
+- Moving to Brazil from Laos /countries/laos/
+- Moving to Brazil from Latvia /countries/latvia/
+- Moving to Brazil from Lebanon /countries/lebanon/
+- Moving to Brazil from Lesotho /countries/lesotho/
+- Moving to Brazil from Liberia /countries/liberia/
+- Moving to Brazil from Libya /countries/libya/
+- Moving to Brazil from Liechtenstein /countries/liechtenstein/
+- Moving to Brazil from Lithuania /countries/lithuania/
+- Moving to Brazil from Luxembourg /countries/luxembourg/
+- Moving to Brazil from Madagascar /countries/madagascar/
+- Moving to Brazil from Malawi /countries/malawi/
+- Moving to Brazil from Malaysia /countries/malaysia/
+- Moving to Brazil from Maldives /countries/maldives/
+- Moving to Brazil from Mali /countries/mali/
+- Moving to Brazil from Malta /countries/malta/
+- Moving to Brazil from Marshall Islands /countries/marshall-islands/
+- Moving to Brazil from Mauritania /countries/mauritania/
+- Moving to Brazil from Mauritius /countries/mauritius/
+- Moving to Brazil from Mexico /countries/mexico/
+- Moving to Brazil from Micronesia /countries/micronesia/
+- Moving to Brazil from Moldova /countries/moldova/
+- Moving to Brazil from Monaco /countries/monaco/
+- Moving to Brazil from Mongolia /countries/mongolia/
+- Moving to Brazil from Montenegro /countries/montenegro/
+- Moving to Brazil from Morocco /countries/morocco/
+- Moving to Brazil from Mozambique /countries/mozambique/
+- Moving to Brazil from Myanmar /countries/myanmar/
+- Moving to Brazil from Namibia /countries/namibia/
+- Moving to Brazil from Nauru /countries/nauru/
+- Moving to Brazil from Nepal /countries/nepal/
+- Moving to Brazil from Netherlands /countries/netherlands/
+- Moving to Brazil from New Zealand /countries/new-zealand/
+- Moving to Brazil from Nicaragua /countries/nicaragua/
+- Moving to Brazil from Niger /countries/niger/
+- Moving to Brazil from Nigeria /countries/nigeria/
+- Moving to Brazil from North Korea /countries/north-korea/
+- Moving to Brazil from North Macedonia /countries/north-macedonia/
+- Moving to Brazil from Norway /countries/norway/
+- Moving to Brazil from Oman /countries/oman/
+- Moving to Brazil from Pakistan /countries/pakistan/
+- Moving to Brazil from Palau /countries/palau/
+- Moving to Brazil from Palestine /countries/palestine/
+- Moving to Brazil from Panama /countries/panama/
+- Moving to Brazil from Papua New Guinea /countries/papua-new-guinea/
+- Moving to Brazil from Paraguay /countries/paraguay/
+- Moving to Brazil from Peru /countries/peru/
+- Moving to Brazil from Philippines /countries/philippines/
+- Moving to Brazil from Poland /countries/poland/
+- Moving to Brazil from Portugal /countries/portugal/
+- Moving to Brazil from Qatar /countries/qatar/
+- Moving to Brazil from Romania /countries/romania/
+- Moving to Brazil from Russia /countries/russia/
+- Moving to Brazil from Rwanda /countries/rwanda/
+- Moving to Brazil from Saint Kitts and Nevis /countries/saint-kitts-and-nevis/
+- Moving to Brazil from Saint Lucia /countries/saint-lucia/
+- Moving to Brazil from Saint Vincent and the Grenadines /countries/saint-vincent-and-the-grenadines/
+- Moving to Brazil from Samoa /countries/samoa/
+- Moving to Brazil from San Marino /countries/san-marino/
+- Moving to Brazil from Sao Tome and Principe /countries/sao-tome-and-principe/
+- Moving to Brazil from Saudi Arabia /countries/saudi-arabia/
+- Moving to Brazil from Senegal /countries/senegal/
+- Moving to Brazil from Serbia /countries/serbia/
+- Moving to Brazil from Seychelles /countries/seychelles/
+- Moving to Brazil from Sierra Leone /countries/sierra-leone/
+- Moving to Brazil from Singapore /countries/singapore/
+- Moving to Brazil from Slovakia /countries/slovakia/
+- Moving to Brazil from Slovenia /countries/slovenia/
+- Moving to Brazil from Solomon Islands /countries/solomon-islands/
+- Moving to Brazil from Somalia /countries/somalia/
+- Moving to Brazil from South Africa /countries/south-africa/
+- Moving to Brazil from South Korea /countries/south-korea/
+- Moving to Brazil from South Sudan /countries/south-sudan/
+- Moving to Brazil from Spain /countries/spain/
+- Moving to Brazil from Sri Lanka /countries/sri-lanka/
+- Moving to Brazil from Sudan /countries/sudan/
+- Moving to Brazil from Suriname /countries/suriname/
+- Moving to Brazil from Sweden /countries/sweden/
+- Moving to Brazil from Switzerland /countries/switzerland/
+- Moving to Brazil from Syria /countries/syria/
+- Moving to Brazil from Tajikistan /countries/tajikistan/
+- Moving to Brazil from Tanzania /countries/tanzania/
+- Moving to Brazil from Thailand /countries/thailand/
+- Moving to Brazil from Timor-Leste /countries/timor-leste/
+- Moving to Brazil from Togo /countries/togo/
+- Moving to Brazil from Tonga /countries/tonga/
+- Moving to Brazil from Trinidad and Tobago /countries/trinidad-and-tobago/
+- Moving to Brazil from Tunisia /countries/tunisia/
+- Moving to Brazil from Turkey /countries/turkey/
+- Moving to Brazil from Turkmenistan /countries/turkmenistan/
+- Moving to Brazil from Tuvalu /countries/tuvalu/
+- Moving to Brazil from Uganda /countries/uganda/
+- Moving to Brazil from Ukraine /countries/ukraine/
+- Moving to Brazil from United Arab Emirates /countries/united-arab-emirates/
+- Moving to Brazil from United Kingdom /countries/united-kingdom/
+- Moving to Brazil from United States /countries/united-states/
+- Moving to Brazil from Uruguay /countries/uruguay/
+- Moving to Brazil from Uzbekistan /countries/uzbekistan/
+- Moving to Brazil from Vanuatu /countries/vanuatu/
+- Moving to Brazil from Vatican City /countries/vatican-city/
+- Moving to Brazil from Venezuela /countries/venezuela/
+- Moving to Brazil from Vietnam /countries/vietnam/
+- Moving to Brazil from Yemen /countries/yemen/
+- Moving to Brazil from Zambia /countries/zambia/
+- Moving to Brazil from Zimbabwe /countries/zimbabwe/
+- H2: home
+- Brazil Immigration Attorney - Legal Services for Foreign Nationals /
+- H2: insights
+- Insights /insights/
+- Blog /insights/blog/
+- FYI archive: shorter immigration notes, travel changes, and Brazil planning signals /insights/fyi/
+- Antonio Prado (Rs) Wins Un Tourism Seal And Becomes A World Reference The Charming... /insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/
+- Ant nio prado village brazil s italian heritage gains global recognition the charming /insights/fyi/ant-nio-prado-village-brazil-s-italian-heritage-gains-global-recognition-the-charming/
+- Attention! What To Avoid In The Airport Restricted Area. Being In A Restricted Area Of... /insights/fyi/attention-what-to-avoid-in-the-airport-restricted-area-being-in-a-restricted-area-of/
+- Beninese Citizenship: The Symbolic "Return" Of Thousands Of Afro-Brazilians To Their... /insights/fyi/beninese-citizenship-the-symbolic-return-of-thousands-of-afro-brazilians-to-their/
+- "Bomb In Suitcase" Joke Leads Passenger To Arrest At Brasilia Airport In News Recently... /insights/fyi/bomb-in-suitcase-joke-leads-passenger-to-arrest-at-bras-lia-airport-in-news-recently/
+- Brazil And India Extend Visa Validity To 10 Years Brazil And India Signed A... /insights/fyi/brazil-and-india-extend-visa-validity-to-10-years-brazil-and-india-signed-a/
+- Brazil Broadens Visitor Visa Rules To Allow Technical And Technology-Transfer Work... /insights/fyi/brazil-broadens-visitor-visa-rules-to-allow-technical-and-technology-transfer-work/
+- Brazil Legal Insight From Instagram Post (2) /insights/fyi/brazil-legal-insight-from-instagram-post-2/
+- Brazil Legal Insight From Instagram Post (3) /insights/fyi/brazil-legal-insight-from-instagram-post-3/
+- Brazil Legal Insight From Instagram Post /insights/fyi/brazil-legal-insight-from-instagram-post/
+- Brazil Makes The Top 10! /insights/fyi/brazil-makes-the-top-10/
+- Brazil'S Carnival Holiday Carnival In Brazil Is A Vibrant Festival That... /insights/fyi/brazil-s-carnival-holiday-carnival-in-brazil-is-a-vibrant-festival-that/
+- Brazil'S Digital Nomad Visa Is A Trending Choice. /insights/fyi/brazil-s-digital-nomad-visa-is-a-trending-choice/
+- Brazil s paraty city recognised as one of the world s most beautiful villages paraty /insights/fyi/brazil-s-paraty-city-recognised-as-one-of-the-world-s-most-beautiful-villages-paraty/
+- Brazil'S Working Holiday Visa For Young Travellers From Select Countries,... /insights/fyi/brazil-s-working-holiday-visa-for-young-travellers-from-select-countries/
+- Brazilians Around The World: Where Of The Largest Communities Live? /insights/fyi/brazilians-around-the-world-where-of-the-largest-communities-live/
+- China Extends Visa Exemption For Brazilians Until The End Of 2026 China... /insights/fyi/china-extends-visa-exemption-for-brazilians-until-the-end-of-2026-china/
+- Did You Know? Portugal Signed A Historic Decree To Recognize The National Driving... /insights/fyi/did-you-know-portugal-signed-a-historic-decree-to-recognize-the-national-driving/
+- Federal Government Launches Official Page On Definitive Tax Exit From Brazil The... /insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/
+- Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers! /insights/fyi/guarulhos-airport-reinforces-liquid-inspection-attention-travelers/
+- Happy New Year! Happy New Year! If You Haven'T Started Planning Your Year Yet, This Is... /insights/fyi/happy-new-year-happy-new-year-if-you-haven-t-started-planning-your-year-yet-this-is/
+- Immigrant Children In Brazil: How Provisional Naturalization Works It Is A Form Of... /insights/fyi/immigrant-children-in-brazil-how-provisional-naturalization-works-it-is-a-form-of/
+- International Buyers Can Purchase Property In Brazil: How Does It Work? /insights/fyi/international-buyers-can-purchase-property-in-brazil-how-does-it-work/
+- Italy Allows Large Dogs In The Airplane Cabin For The First Time In The World ... /insights/fyi/italy-allows-large-dogs-in-the-airplane-cabin-for-the-first-time-in-the-world/
+- Italy plans almost 500 000 work visas for non europeans by 2028 the government /insights/fyi/italy-plans-almost-500-000-work-visas-for-non-europeans-by-2028-the-government/
+- New Criteria On Health Could Restrict The Granting Of Us Visas The Government Of The... /insights/fyi/new-criteria-on-health-could-restrict-the-granting-of-us-visas-the-government-of-the/
+- New Fee On International Connections In Peru Could Change The Game For Those Stopping... /insights/fyi/new-fee-on-international-connections-in-peru-could-change-the-game-for-those-stopping/
+- Pathways To Brazilian Citizenship For Parents And Siblings Of Brazilian Children ... /insights/fyi/pathways-to-brazilian-citizenship-for-parents-and-siblings-of-brazilian-children/
+- Portugal Ends The Old Work Search Visa And Creates A New Modality: Visa To Search... /insights/fyi/portugal-ends-the-old-work-search-visa-and-creates-a-new-modality-visa-to-search/
+- Sistema Ees Entra Em Vigor Nos Aeroportos: Europa Aperta O Cerco A Quem Ultrapassa O... /insights/fyi/sistema-ees-entra-em-vigor-nos-aeroportos-europa-aperta-o-cerco-a-quem-ultrapassa-o/
+- Things you should never of in the airport s restricted area being in an airport s /insights/fyi/things-you-should-never-of-in-the-airport-s-restricted-area-being-in-an-airport-s/
+- Tourism In Brazil Hits Historic Record With Nearly 8 Million International Arrivals In... /insights/fyi/tourism-in-brazil-hits-historic-record-with-nearly-8-million-international-arrivals-in/
+- Travelling Solo With Your Child: Important Name-Mismatch Considerations A Parent... /insights/fyi/travelling-solo-with-your-child-important-name-mismatch-considerations-a-parent/
+- United Kingdom Makes Changes To Its Asylum Policy The United Kingdom Announced,... /insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/
+- Usa Suspends Issuing Immigrant Visas To Brazilians The United States Announced The... /insights/fyi/usa-suspends-issuing-immigrant-visas-to-brazilians-the-united-states-announced-the/
+- Valorizando O Brazil: A Vila Brasileira Reconhecida Entre As Mais Bonitas Of Mundo... /insights/fyi/valorizando-o-brazil-a-vila-brasileira-reconhecida-entre-as-mais-bonitas-of-mundo/
+- Volunteer Visa For Work In Non-Profit And International Organisations In Brazil ... /insights/fyi/volunteer-visa-for-work-in-non-profit-and-international-organisations-in-brazil/
+- What Are The Steps To Legally Move And Live In Brazil? /insights/fyi/what-are-the-steps-to-legally-move-and-live-in-brazil/
+- When That Traveler From A Cold Country Comes To Brazil And Feels Amazed With The... /insights/fyi/when-that-traveler-from-a-cold-country-comes-to-brazil-and-feels-amazed-with-the/
+- Why brazil s student visa vitem iv absolutely beats the us f 1 you land /insights/fyi/why-brazil-s-student-visa-vitem-iv-absolutely-beats-the-us-f-1-you-land/
+- General /insights/general/
+- Guides /insights/guides/
+- Are you a tourist in Brazil and want to live here? /insights/guides/are-you-a-tourist-in-brazil-and-want-to-live-here/
+- Are you dreaming of getting a Green Card but worried about the sponsorship requirement? /insights/guides/are-you-dreaming-of-getting-a-green-card-but-worried-about-the-sponsor/
+- Can football fans sing homophobic chants? /insights/guides/can-football-fans-sing-homophobic-chants/
+- Can I bring my familia (family) to Brazil if I have a work visa? /insights/guides/can-i-bring-my-familia-family-to-brazil-if-i-have-a-work-visa/
+- Did the bank lower your credit limit or cancel your account suddenly? /insights/guides/did-the-bank-lower-your-credit-limit-or-cancel-your-account-suddenly/
+- Did you know that anyone who buys their first residential property financed by SFH is /insights/guides/did-you-know-that-anyone-who-buys-their-first-residential-property-fin/
+- Did you know that Brazilian naturalization can open doors to incredible opportunities? (2) /insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl-2/
+- Did you know that Brazilian naturalization can open doors to incredible opportunities? /insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/
+- Do I need to get my diploma from my home country validated in Brazil? /insights/guides/do-i-need-to-get-my-diploma-from-my-home-country-validated-in-brazil/
+- Do you dream of getting a Green Card but are concerned about the requirement to have /insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/
+- Do you want to live in Brazil and invest intelligently? /insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/
+- Have you ever wondered what happens if a child support decision for a child was made /insights/guides/have-you-ever-wondered-what-happens-if-a-child-support-decision-for-a/
+- Have you paid a debt at a discount, but your name remains subject to internal /insights/guides/have-you-paid-a-debt-at-a-discount-but-your-name-remains-subject-to-in/
+- How can I keep in touch with my child in Brazil if I dont live there? /insights/guides/how-can-i-keep-in-touch-with-my-child-in-brazil-if-i-dont-live-there/
+- How can I keep in touch with my child located in Brazil if I don't live there? /insights/guides/how-can-i-keep-in-touch-with-my-child-located-in-brazil-if-i-don-t-liv/
+- How long does it take to get Brazilian passport? /insights/guides/how-long-does-it-take-to-get-brazilian-passport/
+- How long does it take to obtain Brazilian citizenship? /insights/guides/how-long-does-it-take-to-obtain-brazilian-citizenship/
+- How to schedule an immigration interview for residency with the Federal Police? /insights/guides/how-to-schedule-an-immigration-interview-for-residency-with-the-federa/
+- If a foreigner has a child in Brazil, does he have the automatic right to Brazilian /insights/guides/if-a-foreigner-has-a-child-in-brazil-does-he-have-the-automatic-right/
+- Immigration x Emigration: do you know the difference? /insights/guides/immigration-x-emigration-do-you-know-the-difference/
+- Is a marriage celebrated abroad valid in Brazil? /insights/guides/is-a-marriage-celebrated-abroad-valid-in-brazil/
+- Is it necessary to speak Portuguese to live in Brazil? /insights/guides/is-it-necessary-to-speak-portuguese-to-live-in-brazil/
+- Is it true that there were changes to obtaining an American visa? /insights/guides/is-it-true-that-there-were-changes-to-obtaining-an-american-visa/
+- Living in Brazil and had an issue with a product or service? /insights/guides/living-in-brazil-and-had-an-issue-with-a-product-or-service/
+- The visa has expired, will I have to pay a fine? /insights/guides/the-visa-has-expired-will-i-have-to-pay-a-fine/
+- This way, in the event of an end to the relationship, they will have to divide the /insights/guides/this-way-in-the-event-of-an-end-to-the-relationship-they-will-have-to/
+- Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements /insights/guides/tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis/
+- Want to live in Brazil while investing in the countrys growth? /insights/guides/want-to-live-in-brazil-while-investing-in-the-countrys-growth/
+- Want to turn your investment into residency in Brazil? /insights/guides/want-to-turn-your-investment-into-residency-in-brazil/
+- What Happens During an Immigration Consultation? /insights/guides/what-happens-during-an-immigration-consultation/
+- What rights do immigrants have in Brazil? /insights/guides/what-rights-do-immigrants-have-in-brazil/
+- What to do after arriving in Brazil with a visa that allows residency? /insights/guides/what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency/
+- When a Brazilian citizen faces problems abroad, the first instance of support is /insights/guides/when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s/
+- When a Brazilian resides in another country and works there, without earnings coming /insights/guides/when-a-brazilian-resides-in-another-country-and-works-there-without-ea/
+- When a foreign person is engaged to a Brazilian citizen and intends to marry in /insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-intends-to/
+- When a foreign person is engaged to a Brazilian citizen and plans to get married in /insights/guides/when-a-foreign-person-is-engaged-to-a-brazilian-citizen-and-plans-to-g/
+- When a person from abroad arrives in Brazil, this person has the right to drive in /insights/guides/when-a-person-from-abroad-arrives-in-brazil-this-person-has-the-right/
+- When a person stays in the United States beyond the time allowed as a tourist, they /insights/guides/when-a-person-stays-in-the-united-states-beyond-the-time-allowed-as-a/
+- When a temporary Brazilian visa is nearing its expiry, it is necessary to apply for /insights/guides/when-a-temporary-brazilian-visa-is-nearing-its-expiry-it-is-necessary/
+- When a US visa is denied, the consulate does not provide specific details about the /insights/guides/when-a-us-visa-is-denied-the-consulate-does-not-provide-specific-detai/
+- When exchanging money during international travel, it is essential to be cautious /insights/guides/when-exchanging-money-during-international-travel-it-is-essential-to-b/
+- When exchanging money on international trips, it is essential to be careful with /insights/guides/when-exchanging-money-on-international-trips-it-is-essential-to-be-car/
+- When one of the parents is a foreigner and a Brazilian child is born, the birth /insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/
+- When requested, the resident immigrant card may take 60 to 90 days to be ready for /insights/guides/when-requested-the-resident-immigrant-card-may-take-60-to-90-days-to-b/
+- When the temporary visa granted is close to expiry, it is necessary to request renewal /insights/guides/when-the-temporary-visa-granted-is-close-to-expiry-it-is-necessary-to/
+- Naturalisation /insights/naturalisation/
+- A child born in Brazil has, in general, the right to Brazilian nationality, regardless /insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/
+- A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD /insights/naturalisation/a-recent-case-in-brazil-where-a-tourist-was-fined-the-equivalent-of-ne/
+- A very important public body that foreigners should know about when living in Brazil /insights/naturalisation/a-very-important-public-body-that-foreigners-should-know-about-when-li/
+- After an application for naturalization was denied through the administrative process, /insights/naturalisation/after-an-application-for-naturalization-was-denied-through-the-adminis/
+- After the naturalization request was denied administratively, an action was filed at /insights/naturalisation/after-the-naturalization-request-was-denied-administratively-an-action/
+- AIRE is a vital and mandatory registration for Italian citizens living outside of Italy /insights/naturalisation/aire-is-a-vital-and-mandatory-registration-for-italian-citizens-living/
+- As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 /insights/naturalisation/as-of-late-july-2024-the-ministry-of-justice-and-public-security-mjsp/
+- At the beginning of the search and with little information, identifying a common /insights/naturalisation/at-the-beginning-of-the-search-and-with-little-information-identifying/
+- Brazil grants permanent residence to foreigners through different types of visas and /insights/naturalisation/brazil-grants-permanent-residence-to-foreigners-through-different-type/
+- Brazil legal guidance: eligibility and process (2) /insights/naturalisation/brazil-legal-guidance-eligibility-and-process-2/
+- Brazil legal guidance: eligibility and process (3) /insights/naturalisation/brazil-legal-guidance-eligibility-and-process-3/
+- Brazil legal guidance: eligibility and process (4) /insights/naturalisation/brazil-legal-guidance-eligibility-and-process-4/
+- Brazil legal guidance: eligibility and process /insights/naturalisation/brazil-legal-guidance-eligibility-and-process/
+- Brazil offers a special form of naturalisation for foreigners who have dedicated /insights/naturalisation/brazil-offers-a-special-form-of-naturalisation-for-foreigners-who-have/
+- Brazil offers a special form of naturalization for those who have provided relevant /insights/naturalisation/brazil-offers-a-special-form-of-naturalization-for-those-who-have-prov/
+- Brazil offers a specific visa and residence permit for artists and athletes who come /insights/naturalisation/brazil-offers-a-specific-visa-and-residence-permit-for-artists-and-ath/
+- Brazil offers the possibility of permanent residence for foreign families who wish to /insights/naturalisation/brazil-offers-the-possibility-of-permanent-residence-for-foreign-famil/
+- Brazil recognises various types of travel documents for the purposes of entry, stay, /insights/naturalisation/brazil-recognises-various-types-of-travel-documents-for-the-purposes-o/
+- Brazil recognizes several types of travel documents for purposes of entry, stay or /insights/naturalisation/brazil-recognizes-several-types-of-travel-documents-for-purposes-of-en/
+- Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10 /insights/naturalisation/brazil-s-rise-in-global-mobility-rankings-and-the-usa-passport-drops-o/
+- Brazilian nationality is not always determined automatically /insights/naturalisation/brazilian-nationality-is-not-always-determined-automatically/
+- Brazilian Naturalisation legal requirements and filing steps in Brazil (2) /insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-2/
+- Brazilian Naturalisation legal requirements and filing steps in Brazil (3) /insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil-3/
+- Brazilian Naturalisation legal requirements and filing steps in Brazil /insights/naturalisation/brazilian-naturalisation-legal-requirements-and-filing-steps-in-brazil/
+- Brazilians have reported problems processing expressions of interest to adjust their /insights/naturalisation/brazilians-have-reported-problems-processing-expressions-of-interest-t/
+- Companies and individuals in Brazil can hire foreigners through a formal employment /insights/naturalisation/companies-and-individuals-in-brazil-can-hire-foreigners-through-a-form/
+- Despite the international names, these delicacies are very Brazilian, or, at the very /insights/naturalisation/despite-the-international-names-these-delicacies-are-very-brazilian-or/
+- Establishing yourself in Brazil with your family is entirely possible, as long as the /insights/naturalisation/establishing-yourself-in-brazil-with-your-family-is-entirely-possible/
+- ETIAS (European Travel Information and Authorization System) will be a requirement for /insights/naturalisation/etias-european-travel-information-and-authorization-system-will-be-a-r/
+- Firstly, it is essential to understand that both Brazil and the United States /insights/naturalisation/firstly-it-is-essential-to-understand-that-both-brazil-and-the-united/
+- For those who have fallen in love with Brazil and wish to make it their true home, /insights/naturalisation/for-those-who-have-fallen-in-love-with-brazil-and-wish-to-make-it-thei/
+- Foreigners may apply for a Brazilian passport under specific circumstances outlined in /insights/naturalisation/foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/
+- Foreigners must prove legal residence in Portugal for at least five years to acquire /insights/naturalisation/foreigners-must-prove-legal-residence-in-portugal-for-at-least-five-ye/
+- Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the /insights/naturalisation/foreigners-who-exceed-the-permitted-time-of-stay-in-brazil-either-by-e/
+- Having a valid American visa does not automatically guarantee entry into the country, /insights/naturalisation/having-a-valid-american-visa-does-not-automatically-guarantee-entry-in/
+- I am a regular resident, but I am outside Brazil /insights/naturalisation/i-am-a-regular-resident-but-i-am-outside-brazil/
+- If you fell in love with Brazil and want to make this country your true home, becoming /insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/
+- If you have a Luxembourgish parent or grandparent, you also would not need to go to /insights/naturalisation/if-you-have-a-luxembourgish-parent-or-grandparent-you-also-would-not-n/
+- If your baby was born in Brazil, you may be eligible to apply for a Brazilian Family /insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/
+- In Brazil, deportation is an administrative measure applied to people who are in an /insights/naturalisation/in-brazil-deportation-is-an-administrative-measure-applied-to-people-w/
+- In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through /insights/naturalisation/in-brazil-undergraduate-and-postgraduate-diplomas-obtained-abroad-must/
+- In other words, even if the birth took place years ago, registration can still be /insights/naturalisation/in-other-words-even-if-the-birth-took-place-years-ago-registration-can/
+- In principle, yes, but it is not recommended /insights/naturalisation/in-principle-yes-but-it-is-not-recommended/
+- In some cases, there is the possibility for the great-grandchildren of Portuguese /insights/naturalisation/in-some-cases-there-is-the-possibility-for-the-great-grandchildren-of/
+- In the context of relations between Brazil and Portugal, the request for equal rights /insights/naturalisation/in-the-context-of-relations-between-brazil-and-portugal-the-request-fo/
+- In the event of deportation, it is essential that the immigrant is aware of their /insights/naturalisation/in-the-event-of-deportation-it-is-essential-that-the-immigrant-is-awar/
+- International child custody can become a complex issue when one of the parents is /insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-of-the/
+- International child custody can become a complex issue when one parent is Brazilian /insights/naturalisation/international-child-custody-can-become-a-complex-issue-when-one-parent/
+- Investing in Brazil with an investor visa offers a dynamic blend of economic potential /insights/naturalisation/investing-in-brazil-with-an-investor-visa-offers-a-dynamic-blend-of-ec/
+- It is an important date to reinforce the fight against all forms of racism and /insights/naturalisation/it-is-an-important-date-to-reinforce-the-fight-against-all-forms-of-ra/
+- It is important to highlight that the process of obtaining Luxembourg citizenship can /insights/naturalisation/it-is-important-to-highlight-that-the-process-of-obtaining-luxembourg/
+- It is possible for a Brazilian person to request recognition of Irish citizenship /insights/naturalisation/it-is-possible-for-a-brazilian-person-to-request-recognition-of-irish/
+- It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2) /insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli-2/
+- It is possible for someone to visit Brazil as a tourist and, upon falling in love with /insights/naturalisation/it-is-possible-for-someone-to-visit-brazil-as-a-tourist-and-upon-falli/
+- It should be noted that no one will be prevented from entering the country due to /insights/naturalisation/it-should-be-noted-that-no-one-will-be-prevented-from-entering-the-cou/
+- Large universities outside Brazil allow admission without the need to pass an entrance /insights/naturalisation/large-universities-outside-brazil-allow-admission-without-the-need-to/
+- Legal guidance: eligibility, requirements, and filing steps (2) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-2/
+- Legal guidance: eligibility, requirements, and filing steps (3) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-3/
+- Legal guidance: eligibility, requirements, and filing steps (4) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-4/
+- Legal guidance: eligibility, requirements, and filing steps (5) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-5/
+- Legal guidance: eligibility, requirements, and filing steps (6) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-6/
+- Legal guidance: eligibility, requirements, and filing steps (7) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-7/
+- Legal guidance: eligibility, requirements, and filing steps (8) /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps-8/
+- Legal guidance: eligibility, requirements, and filing steps /insights/naturalisation/legal-guidance-eligibility-requirements-and-filing-steps/
+- Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil /insights/naturalisation/luso-brazilian-community-day-celebrates-the-strong-ties-between-portug/
+- Military enlistment is mandatory for Brazilians, even abroad Even living outside /insights/naturalisation/military-enlistment-is-mandatory-for-brazilians-even-abroad-even-livin/
+- My immigrant card is valid until 2030, but my stable union is over /insights/naturalisation/my-immigrant-card-is-valid-until-2030-but-my-stable-union-is-over/
+- Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service /insights/naturalisation/naturalized-brazilian-men-aged-between-18-and-45-must-enlist-in-the-mi/
+- November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural /insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/
+- On December 19, 2023, the French Senate approved a controversial immigration bill, /insights/naturalisation/on-december-19-2023-the-french-senate-approved-a-controversial-immigra/
+- On Teacher's Day, celebrated on October 15th, we honor those who, with dedication and /insights/naturalisation/on-teacher-s-day-celebrated-on-october-15th-we-honor-those-who-with-de/
+- On this date, we reinforce our commitment to valuing and protecting elderly people in /insights/naturalisation/on-this-date-we-reinforce-our-commitment-to-valuing-and-protecting-eld/
+- On this day, we express gratitude to each person who trusts our legal work /insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/
+- Once approved, this process grants you full Brazilian citizenship, with access to all /insights/naturalisation/once-approved-this-process-grants-you-full-brazilian-citizenship-with/
+- Parents of minor children with dual nationality can and should maintain contact with /insights/naturalisation/parents-of-minor-children-with-dual-nationality-can-and-should-maintai/
+- People living in Brazil can apply for naturalisation to become Brazilian citizens If /insights/naturalisation/people-living-in-brazil-can-apply-for-naturalisation-to-become-brazili/
+- Permanent residence permit and citizenship are two distinct legal statuses that confer (2) /insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat-2/
+- Permanent residence permit and citizenship are two distinct legal statuses that confer /insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/
+- Pix, a Brazilian instant payment system, is expanding internationally through /insights/naturalisation/pix-a-brazilian-instant-payment-system-is-expanding-internationally-th/
+- Portugal recently approved a set of changes to immigration legislation that toughens /insights/naturalisation/portugal-recently-approved-a-set-of-changes-to-immigration-legislation/
+- Pregnant women that come to Brazil to have their baby can apply for residence permit /insights/naturalisation/pregnant-women-that-come-to-brazil-to-have-their-baby-can-apply-for-re/
+- President Joe Biden signed an executive order to simplify the process of granting /insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/
+- Recently, the United States lost its position in the top 10 of the most powerful /insights/naturalisation/recently-the-united-states-lost-its-position-in-the-top-10-of-the-most/
+- Rectification of settlements is an essential procedure in citizenship processes, /insights/naturalisation/rectification-of-settlements-is-an-essential-procedure-in-citizenship/
+- Refugees, unlike other immigrants, are those who suffer compulsory displacement, /insights/naturalisation/refugees-unlike-other-immigrants-are-those-who-suffer-compulsory-displ/
+- Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but /insights/naturalisation/registering-a-childs-birth-at-a-brazilian-consular-office-abroad-is-no/
+- Relocating to Brazil with your family is certainly possible, as long as the correct /insights/naturalisation/relocating-to-brazil-with-your-family-is-certainly-possible-as-long-as/
+- Searching for certificates is an essential step in the citizenship process, and /insights/naturalisation/searching-for-certificates-is-an-essential-step-in-the-citizenship-pro/
+- Seeking legal advice from an immigration lawyer in Brazil is crucial due to the /insights/naturalisation/seeking-legal-advice-from-an-immigration-lawyer-in-brazil-is-crucial-d/
+- Sporadic trips abroad for which the sum of periods does not exceed 12 months, and /insights/naturalisation/sporadic-trips-abroad-for-which-the-sum-of-periods-does-not-exceed-12/
+- Sporadic trips abroad, the sum of which does not exceed 12 months, during years of /insights/naturalisation/sporadic-trips-abroad-the-sum-of-which-does-not-exceed-12-months-durin/
+- Starting September 2, 2025, the U.S. Department of State will require an in-person /insights/naturalisation/starting-september-2-2025-the-u-s-department-of-state-will-require-an/
+- The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras), /insights/naturalisation/the-certificate-of-proficiency-in-portuguese-language-for-foreigners-c/
+- The Chamber of Deputies has just approved a Proposed Amendment to the Constitution /insights/naturalisation/the-chamber-of-deputies-has-just-approved-a-proposed-amendment-to-the/
+- The date invites reflection on one of the darkest pages in human history: the /insights/naturalisation/the-date-invites-reflection-on-one-of-the-darkest-pages-in-human-histo/
+- The deadline to begin the process of recognizing Spanish citizenship for those of /insights/naturalisation/the-deadline-to-begin-the-process-of-recognizing-spanish-citizenship-f/
+- The humanitarian and institutional crisis that is plaguing Venezuela has caused the /insights/naturalisation/the-humanitarian-and-institutional-crisis-that-is-plaguing-venezuela-h/
+- The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a /insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/
+- The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking /insights/naturalisation/the-mobility-agreement-between-cplp-member-states-communities-of-portu/
+- The new naturalization law in Germany, approved by the Bundestag, simplifies the /insights/naturalisation/the-new-naturalization-law-in-germany-approved-by-the-bundestag-simpli/
+- The new visa and residence permit agreement between Angola, Brazil, Cape Verde, /insights/naturalisation/the-new-visa-and-residence-permit-agreement-between-angola-brazil-cape/
+- The Portuguese language plays a fundamental role in Brazil's culture and daily life, /insights/naturalisation/the-portuguese-language-plays-a-fundamental-role-in-brazil-s-culture-a/
+- The recently announced innovation allows Brazilian tourists to pay for their purchases /insights/naturalisation/the-recently-announced-innovation-allows-brazilian-tourists-to-pay-for/
+- The renewal of the resident card in Brazil may be prevented in some specific /insights/naturalisation/the-renewal-of-the-resident-card-in-brazil-may-be-prevented-in-some-sp/
+- The voluntary renunciation of Brazilian nationality, provided for in the Brazilian /insights/naturalisation/the-voluntary-renunciation-of-brazilian-nationality-provided-for-in-th/
+- This is an important opportunity for people with Brazilian ancestry to reconnect with /insights/naturalisation/this-is-an-important-opportunity-for-people-with-brazilian-ancestry-to/
+- To do this, it is possible to register your birth at any time at a Brazilian /insights/naturalisation/to-do-this-it-is-possible-to-register-your-birth-at-any-time-at-a-braz/
+- To formalise this status, their birth can be registered at any time at a Brazilian /insights/naturalisation/to-formalise-this-status-their-birth-can-be-registered-at-any-time-at/
+- To obtain Brazilian citizenship, individuals generally must meet specific requirements /insights/naturalisation/to-obtain-brazilian-citizenship-individuals-generally-must-meet-specif/
+- Today we recognize the resilience, wisdom and diversity of indigenous peoples around /insights/naturalisation/today-we-recognize-the-resilience-wisdom-and-diversity-of-indigenous-p/
+- Under the new Spanish law on obtaining citizenship, more people have the right to /insights/naturalisation/under-the-new-spanish-law-on-obtaining-citizenship-more-people-have-th/
+- US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive /insights/naturalisation/us-imposes-new-visa-restrictions-on-12-countries-since-june-9-2025-an/
+- We celebrate the achievements of women around the world and reaffirm the fight for a /insights/naturalisation/we-celebrate-the-achievements-of-women-around-the-world-and-reaffirm-t/
+- Whether you're travelling to Brazil for a short stay or planning a long-term move, /insights/naturalisation/whether-you-re-travelling-to-brazil-for-a-short-stay-or-planning-a-lon/
+- Why contact with marine animals is prohibited in tourist areas The episode in which a /insights/naturalisation/why-contact-with-marine-animals-is-prohibited-in-tourist-areas-the-epi/
+- With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can /insights/naturalisation/with-the-democratic-memory-law-in-force-now-the-adult-grandchildren-of/
+- Work in Finland, an initiative supported by the Finnish government network, is /insights/naturalisation/work-in-finland-an-initiative-supported-by-the-finnish-government-netw/
+- Process /insights/process/
+- Airports are busy places, it is important to always be aware /insights/process/airports-are-busy-places-it-is-important-to-always-be-aware/
+- All passengers have the right to take their hand luggage and personal items with them /insights/process/all-passengers-have-the-right-to-take-their-hand-luggage-and-personal/
+- An Honorary Consulate is a voluntary diplomatic representation of a country, led by /insights/process/an-honorary-consulate-is-a-voluntary-diplomatic-representation-of-a-co/
+- Appealing a traffic fine is your right /insights/process/appealing-a-traffic-fine-is-your-right/
+- Bulgaria and Romania will partially join the European Union's Schengen Area from March /insights/process/bulgaria-and-romania-will-partially-join-the-european-union-s-schengen/
+- Deportation, as defined by Brazilian legislation, is an administrative procedure by /insights/process/deportation-as-defined-by-brazilian-legislation-is-an-administrative-p/
+- Deportation is a measure provided for by law for the compulsory removal of foreigners /insights/process/deportation-is-a-measure-provided-for-by-law-for-the-compulsory-remova/
+- Each Federal Police immigration service point has a different procedure for scheduling /insights/process/each-federal-police-immigration-service-point-has-a-different-procedur/
+- For biological children and minor adopted children of Italian citizens, it is possible /insights/process/for-biological-children-and-minor-adopted-children-of-italian-citizens/
+- If you are getting married to a Brazilian person and need a document stating their /insights/process/if-you-are-getting-married-to-a-brazilian-person-and-need-a-document-s/
+- It doesn't matter where the bill or billing is from /insights/process/it-doesn-t-matter-where-the-bill-or-billing-is-from/
+- It was established by the UN to promote equality, respect for human rights and social /insights/process/it-was-established-by-the-un-to-promote-equality-respect-for-human-rig/
+- Technically, yes, but its not advisable /insights/process/technically-yes-but-its-not-advisable/
+- The Consular Declaration of Civil Status is a document issued by the consulate general /insights/process/the-consular-declaration-of-civil-status-is-a-document-issued-by-the-c/
+- The expulsion of a foreigner is an extreme measure and can only occur due to the /insights/process/the-expulsion-of-a-foreigner-is-an-extreme-measure-and-can-only-occur/
+- The right to come and go is provided for in the Federal Constitution for everyone /insights/process/the-right-to-come-and-go-is-provided-for-in-the-federal-constitution-f/
+- The text of the Brazil-Uruguay Convention for the Elimination of Double Taxation was /insights/process/the-text-of-the-brazil-uruguay-convention-for-the-elimination-of-doubl/
+- The transformation of the Italian Consulate in Belo Horizonte to Consulate General in /insights/process/the-transformation-of-the-italian-consulate-in-belo-horizonte-to-consu/
+- This is an illegal, extremely dangerous practice that can have serious consequences /insights/process/this-is-an-illegal-extremely-dangerous-practice-that-can-have-serious/
+- Yes, Brazilian law protects passengers much more than other countries /insights/process/yes-brazilian-law-protects-passengers-much-more-than-other-countries/
+- You should request for your Brazilian ID to be renewed at least 90 days before it runs /insights/process/you-should-request-for-your-brazilian-id-to-be-renewed-at-least-90-day/
+- Residency /insights/residency/
+- A stable union formed abroad can be recognized in Brazil through registration, /insights/residency/a-stable-union-formed-abroad-can-be-recognized-in-brazil-through-regis/
+- Brazilian immigration legislation reflects the country's commitment to recognizing and /insights/residency/brazilian-immigration-legislation-reflects-the-country-s-commitment-to/
+- Firstly, you will need to register at the Brazilian Consulate or Embassy in the /insights/residency/firstly-you-will-need-to-register-at-the-brazilian-consulate-or-embass/
+- For those who still cannot marry in their home countries because of discrimination, /insights/residency/for-those-who-still-cannot-marry-in-their-home-countries-because-of-di/
+- I have a Brazilian residence permit and I want to move to another region in Brazil /insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/
+- If the person has a residence permit in Brazil, it is important to observe the /insights/residency/if-the-person-has-a-residence-permit-in-brazil-it-is-important-to-obse/
+- If the person holds a Brazilian residence permit, it's important to observe the /insights/residency/if-the-person-holds-a-brazilian-residence-permit-it-s-important-to-obs/
+- If you have chosen Brazil as your new place of residency and are inquiring about the /insights/residency/if-you-have-chosen-brazil-as-your-new-place-of-residency-and-are-inqui/
+- If you need to stay outside of Portugal for a longer period than required by law, you /insights/residency/if-you-need-to-stay-outside-of-portugal-for-a-longer-period-than-requi/
+- In Brazil, the National Migration Registry (RNM) is the registry of immigrants, /insights/residency/in-brazil-the-national-migration-registry-rnm-is-the-registry-of-immig/
+- In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants /insights/residency/in-brazil-the-registro-nacional-de-migrante-rnm-is-the-registration-of/
+- In temporary residence, you can only be absent for less than 6 consecutive months or 8 /insights/residency/in-temporary-residence-you-can-only-be-absent-for-less-than-6-consecut/
+- In the context of a profound political, economic and institutional crisis affecting /insights/residency/in-the-context-of-a-profound-political-economic-and-institutional-cris/
+- It is important to note that one of the legal prerequisites for obtaining a residence /insights/residency/it-is-important-to-note-that-one-of-the-legal-prerequisites-for-obtain/
+- It's crucial to note that one of the legal prerequisites for obtaining a residence /insights/residency/it-s-crucial-to-note-that-one-of-the-legal-prerequisites-for-obtaining/
+- Loss of residence permit may occur due to prolonged absence or failure to comply with /insights/residency/loss-of-residence-permit-may-occur-due-to-prolonged-absence-or-failure/
+- Not right away, the law determines the exact time a resident can stay outside of /insights/residency/not-right-away-the-law-determines-the-exact-time-a-resident-can-stay-o/
+- Popularly, it is understood that an immigrant is a person who migrates from their /insights/residency/popularly-it-is-understood-that-an-immigrant-is-a-person-who-migrates/
+- Renewal of the Brazilian residence permit applies to those who have a temporary /insights/residency/renewal-of-the-brazilian-residence-permit-applies-to-those-who-have-a/
+- Residence permit in Brazil due to the MERCOSUR agreement This residence permit has /insights/residency/residence-permit-in-brazil-due-to-the-mercosur-agreement-this-residenc/
+- Strict Entry Requirements: The legislation introduced specific entry requirements for /insights/residency/strict-entry-requirements-the-legislation-introduced-specific-entry-re/
+- The Agreement between Brazil and Uruguay deals with permanent residence authorization /insights/residency/the-agreement-between-brazil-and-uruguay-deals-with-permanent-residenc/
+- The loss of a residence permit can occur due to prolonged absence or failure to meet /insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/
+- The person applying for a residence permit to live in Brazil will also receive a /insights/residency/the-person-applying-for-a-residence-permit-to-live-in-brazil-will-also/
+- The person who will apply for a residence permit to live in Brazil will also receive a /insights/residency/the-person-who-will-apply-for-a-residence-permit-to-live-in-brazil-wil/
+- The renewal of Brazilian residency permit applies to those holding a temporary /insights/residency/the-renewal-of-brazilian-residency-permit-applies-to-those-holding-a-t/
+- The request for reconsideration, when a request for a residence permit is rejected in /insights/residency/the-request-for-reconsideration-when-a-request-for-a-residence-permit/
+- Upon your return to Brazil, the legal process for revoking your residence permit will /insights/residency/upon-your-return-to-brazil-the-legal-process-for-revoking-your-residen/
+- Brazil Immigration Updates Explained Calmly /insights/updates/
+- As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 naturalization applications pending /insights/updates/2026-03-09-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/
+- At the beginning of the week, fake prints of a conversation between Jessica and Whindersson emerged, shared by gossip profiles /insights/updates/2026-03-09-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/
+- Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum Disorder (ASD) are part of the classification of people with special needs and have a series of rights guaranteed by federal legislation in Brazil /insights/updates/2026-03-09-autism-awareness-month-5-rights-of-autistic-people-people-with-autism/
+- Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking /insights/updates/2026-03-09-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/
+- Brazilian legislation regarding the air transport of animals is still in an early stage of development /insights/updates/2026-03-09-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/
+- Changes to LATAM and Gol baggage rules have a direct impact on the way passengers can transport their belongings, with new nomenclatures, weight and dimension limits, in addition to the creation of new fares /insights/updates/2026-03-09-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/
+- China announced the launch of the K visa, aimed especially at young professionals in the areas of science, technology, engineering and mathematics (STEM) /insights/updates/2026-03-09-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/
+- During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives /insights/updates/2026-03-09-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/
+- End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries /insights/updates/2026-03-09-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/
+- ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union /insights/updates/2026-03-09-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/
+- Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation /insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/
+- From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs /insights/updates/2026-03-09-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/
+- If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil /insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/
+- Immigrants when attended in Brazilian public services should be treated in accordance with the principles outlined in Law No. 13,460/17, ensuring that they receive service guided by the following principles: civility, respect, accessibility, courtesy, presumption of the user's good faith, equality, efficiency, security, and ethics /insights/updates/2026-03-09-immigrants-when-attended-in-brazilian-public-services-should-be-treate/
+- Immigrants, when receiving care in Brazilian public services, must be treated in accordance with the principles established in Law No. 13,460/17, ensuring that they receive care based on the following principles: civility, respect, accessibility, courtesy, presumption of the user's good faith, equality, efficiency, safety and ethics /insights/updates/2026-03-09-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/
+- In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil /insights/updates/2026-03-09-in-2011-the-date-was-officially-established-through-law-no-12-519-with/
+- Mexico confirms resumption of the electronic visa for Brazilians from February 2026 /insights/updates/2026-03-09-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/
+- Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian citizens who plan to transit (connection) through Mexican airports, with a final destination in other countries, including Brazil, must have a Mexican tourist and business visa /insights/updates/2026-03-09-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/
+- Starting August 20, 2025, the United States will begin a 12-month pilot program that may require deposits of up to US$15,000 for applicants for B1 (business) or B2 (tourism) visas from countries with high rates of irregular stay or verification systems considered deficient /insights/updates/2026-03-09-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/
+- The Brazilian government presented new guidelines for the transport of animals on planes, seeking greater safety and well-being after the death of the dog Joca, which recently generated great public commotion /insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/
+- The British government has announced a significant change to visa rules for foreign students: from November 25, 2025, it will be possible to transition directly from the student visa to the Innovator Founder visa, without having to leave the country /insights/updates/2026-03-09-the-british-government-has-announced-a-significant-change-to-visa-rule/
+- The discussion about greater rigidity in import rules began during the last government /insights/updates/2026-03-09-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/
+- The Federal Police once again warned of a serious budgetary risk: according to a letter sent to the Ministry of Justice and the Ministry of Planning, the corporation needs an additional R$97.5 million to keep the passport issuing service active /insights/updates/2026-03-09-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/
+- The President of the Republic signed a new decree that amends article 257 of Decree No. 9,199/2017, allowing the Brazilian government, exceptionally, to bear the costs of transferring the bodies of Brazilian citizens who die outside the country /insights/updates/2026-03-09-the-president-of-the-republic-signed-a-new-decree-that-amends-article/
+- The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities /insights/updates/2026-03-09-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/
+- The United States government announced a new guideline from the Citizenship and Immigration Service (USCIS) that now considers the manifestation of anti-Americanism, as well as anti-Semitic ideologies or links to terrorist organizations, as negative factors in the evaluation of visa, residency or citizenship applications /insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/
+- The United States government announced on June 18, 2025 that it will require foreign students applying for F, M and J visas to adjust their privacy settings on social media to \ /insights/updates/2026-03-09-the-united-states-government-announced-on-june-18-2025-that-it-will-re/
+- The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas /insights/updates/2026-03-09-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/
+- There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards /insights/updates/2026-03-09-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/
+- Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law /insights/updates/2026-03-09-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/
+- With an aging population and growing dependence on immigrants to meet population and economic demands, Portugal has expanded the possibilities for regularization and permanence, highlighting the importance of these individuals for sectors such as agriculture, hotels, restaurants, industry and services in general /insights/updates/2026-03-09-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/
+- World Refugee Day, celebrated on June 20, is a date established by the United Nations (UN) to honor the strength, courage and resilience of the millions of people who were forced to leave their countries of origin due to armed conflicts, political, religious, ethnic persecution or serious violations of human rights /insights/updates/2026-03-09-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/
+- As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had /insights/updates/2026-03-10-as-of-the-end-of-july-2024-the-ministry-of-justice-and-public-security/
+- At the beginning of the week, fake prints of a conversation between Jessica and /insights/updates/2026-03-10-at-the-beginning-of-the-week-fake-prints-of-a-conversation-between-jes/
+- Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum /insights/updates/2026-03-10-autism-awareness-month-5-rights-of-autistic-people-people-with-autism/
+- Brazil is adjusting its rules for the entry of transit passengers without a visa, in /insights/updates/2026-03-10-brazil-is-adjusting-its-rules-for-the-entry-of-transit-passengers-with/
+- Brazilian legislation regarding the air transport of animals is still in an early /insights/updates/2026-03-10-brazilian-legislation-regarding-the-air-transport-of-animals-is-still/
+- Changes to LATAM and Gol baggage rules have a direct impact on the way passengers can /insights/updates/2026-03-10-changes-to-latam-and-gol-baggage-rules-have-a-direct-impact-on-the-way/
+- China announced the launch of the K visa, aimed especially at young professionals in /insights/updates/2026-03-10-china-announced-the-launch-of-the-k-visa-aimed-especially-at-young-pro/
+- During the naturalization process, the applicant will be called for a personal /insights/updates/2026-03-10-during-the-naturalization-process-the-applicant-will-be-called-for-a-p/
+- End of the stamp in the passport when traveling to Europe From October 2025, tourists /insights/updates/2026-03-10-end-of-the-stamp-in-the-passport-when-traveling-to-europe-from-october/
+- ETIAS, an electronic authorization similar to a visa, will be required for tourists /insights/updates/2026-03-10-etias-an-electronic-authorization-similar-to-a-visa-will-be-required-f/
+- Foreigners may apply for a Brazilian passport under specific circumstances outlined in /insights/updates/2026-03-10-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/
+- From June 1, 2025, Brazilian citizens will be able to enter China without a /insights/updates/2026-03-10-from-june-1-2025-brazilian-citizens-will-be-able-to-enter-china-withou/
+- If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral /insights/updates/2026-03-10-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c/
+- Immigrants when attended in Brazilian public services should be treated in accordance /insights/updates/2026-03-10-immigrants-when-attended-in-brazilian-public-services-should-be-treate/
+- Immigrants, when receiving care in Brazilian public services, must be treated in /insights/updates/2026-03-10-immigrants-when-receiving-care-in-brazilian-public-services-must-be-tr/
+- In 2011, the date was officially established through Law No. 12,519, with the aim of /insights/updates/2026-03-10-in-2011-the-date-was-officially-established-through-law-no-12-519-with/
+- Mexico confirms resumption of the electronic visa for Brazilians from February 2026 /insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/
+- Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian /insights/updates/2026-03-10-since-october-22-2023-due-to-changes-in-mexican-migration-regulations/
+- Starting August 20, 2025, the United States will begin a 12-month pilot program that /insights/updates/2026-03-10-starting-august-20-2025-the-united-states-will-begin-a-12-month-pilot/
+- The Brazilian government presented new guidelines for the transport of animals on /insights/updates/2026-03-10-the-brazilian-government-presented-new-guidelines-for-the-transport-of/
+- The British government has announced a significant change to visa rules for foreign /insights/updates/2026-03-10-the-british-government-has-announced-a-significant-change-to-visa-rule/
+- The discussion about greater rigidity in import rules began during the last government /insights/updates/2026-03-10-the-discussion-about-greater-rigidity-in-import-rules-began-during-the/
+- The Federal Police once again warned of a serious budgetary risk: according to a /insights/updates/2026-03-10-the-federal-police-once-again-warned-of-a-serious-budgetary-risk-accor/
+- The President of the Republic signed a new decree that amends article 257 of Decree /insights/updates/2026-03-10-the-president-of-the-republic-signed-a-new-decree-that-amends-article/
+- The United Kingdom has begun implementing a new deportation program for irregular /insights/updates/2026-03-10-the-united-kingdom-has-begun-implementing-a-new-deportation-program-fo/
+- The United States government announced a new guideline from the Citizenship and /insights/updates/2026-03-10-the-united-states-government-announced-a-new-guideline-from-the-citize/
+- The United States government announced on June 18, 2025 that it will require foreign /insights/updates/2026-03-10-the-united-states-government-announced-on-june-18-2025-that-it-will-re/
+- The United States government has implemented a new fee of US$250, called the visa /insights/updates/2026-03-10-the-united-states-government-has-implemented-a-new-fee-of-us-250-calle/
+- There will no longer be any import tax charged on online purchases of up to US$50 made /insights/updates/2026-03-10-there-will-no-longer-be-any-import-tax-charged-on-online-purchases-of/
+- Thus, the company stops making some mandatory payments and the worker loses the /insights/updates/2026-03-10-thus-the-company-stops-making-some-mandatory-payments-and-the-worker-l/
+- With an aging population and growing dependence on immigrants to meet population and /insights/updates/2026-03-10-with-an-aging-population-and-growing-dependence-on-immigrants-to-meet/
+- World Refugee Day, celebrated on June 20, is a date established by the United Nations /insights/updates/2026-03-10-world-refugee-day-celebrated-on-june-20-is-a-date-established-by-the-u/
+- Visa /insights/visa/
+- A Brazilian visa is valid for a set period during which youre allowed to enter the /insights/visa/a-brazilian-visa-is-valid-for-a-set-period-during-which-youre-allowed/
+- A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that /insights/visa/a-recent-study-conducted-by-embratur-in-partnership-with-visa-and-ipso/
+- According to Brazilian regulations, all visa applications for minors must be /insights/visa/according-to-brazilian-regulations-all-visa-applications-for-minors-mu/
+- According to recent news, as an indigenous immigrant in the United States, Brazilian /insights/visa/according-to-recent-news-as-an-indigenous-immigrant-in-the-united-stat/
+- According to this news, as an indigenous immigrant in the United States, the Brazilian /insights/visa/according-to-this-news-as-an-indigenous-immigrant-in-the-united-states/
+- Acquiring a student visa to become an exchange student in Brazil presents a unique /insights/visa/acquiring-a-student-visa-to-become-an-exchange-student-in-brazil-prese/
+- Although Brazilian migration legislation does not mention the right to appeal, there /insights/visa/although-brazilian-migration-legislation-does-not-mention-the-right-to/
+- Always consult an immigration lawyer for instructions based on your case /insights/visa/always-consult-an-immigration-lawyer-for-instructions-based-on-your-ca/
+- Anyone purchasing their first residential property through financing under Brazils /insights/visa/anyone-purchasing-their-first-residential-property-through-financing-u/
+- Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a /insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residence/
+- Arriving in Brazil as a tourist and subsequently obtaining a residency permit is a /insights/visa/arriving-in-brazil-as-a-tourist-and-subsequently-obtaining-a-residency/
+- Assai, located in the state of Parana, Brazil, was established in the early 20th /insights/visa/assai-located-in-the-state-of-parana-brazil-was-established-in-the-ear/
+- Before submitting your visa application, it is essential to first prepare and gather /insights/visa/before-submitting-your-visa-application-it-is-essential-to-first-prepa/
+- Before submitting your visa application, it's essential to first begging an /insights/visa/before-submitting-your-visa-application-it-s-essential-to-first-beggin/
+- Before you travel or live in another country, you need to carry out legal planning to /insights/visa/before-you-travel-or-live-in-another-country-you-need-to-carry-out-leg/
+- Behind each visa, there is a lifetime of expectations, memories and dreams /insights/visa/behind-each-visa-there-is-a-lifetime-of-expectations-memories-and-drea/
+- Brazil does not offer specific Fiance or Spouse visas, but has provisions for visas /insights/visa/brazil-does-not-offer-specific-fiance-or-spouse-visas-but-has-provisio/
+- Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for /insights/visa/brazil-doesn-t-offer-specific-fiance-or-spouse-visas-it-does-have-prov/
+- Brazil grants a temporary visa to foreigners who come to the country with the proven /insights/visa/brazil-grants-a-temporary-visa-to-foreigners-who-come-to-the-country-w/
+- Brazil grants permanent residency to foreign nationals through various types of visas /insights/visa/brazil-grants-permanent-residency-to-foreign-nationals-through-various/
+- Brazil issues the CPLP temporary visa only in some specific cities /insights/visa/brazil-issues-the-cplp-temporary-visa-only-in-some-specific-cities/
+- Brazil legal guidance: eligibility and process (2) /insights/visa/brazil-legal-guidance-eligibility-and-process-2/
+- Brazil legal guidance: eligibility and process (3) /insights/visa/brazil-legal-guidance-eligibility-and-process-3/
+- Brazil legal guidance: eligibility and process /insights/visa/brazil-legal-guidance-eligibility-and-process/
+- Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work /insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/
+- Brazil offers a specific visa and residency for artists and athletes coming to the /insights/visa/brazil-offers-a-specific-visa-and-residency-for-artists-and-athletes-c/
+- Brazil offers humanitarian visa to individuals in situations of extreme vulnerability, /insights/visa/brazil-offers-humanitarian-visa-to-individuals-in-situations-of-extrem/
+- Brazil offers student visa for foreign medical residents who wish to participate in /insights/visa/brazil-offers-student-visa-for-foreign-medical-residents-who-wish-to-p/
+- Brazil offers the possibility of permanent residency for families wishing to settle in /insights/visa/brazil-offers-the-possibility-of-permanent-residency-for-families-wish/
+- Brazil's Digital Nomad Visa is your ticket to an incredible experience /insights/visa/brazil-s-digital-nomad-visa-is-your-ticket-to-an-incredible-experience/
+- Brazil's real estate market is booming, offering incredible potential for high returns /insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/
+- Brazilian law permits students on a student visa to work while studying, but there are /insights/visa/brazilian-law-permits-students-on-a-student-visa-to-work-while-studyin/
+- Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical /insights/visa/brazilian-student-visa-for-medical-studies-the-brazilian-student-visa/
+- Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer /insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/
+- Consulting with an immigration lawyer ensures that you have a knowledg (2) /insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-2/
+- Consulting with an immigration lawyer ensures that you have a knowledg (3) /insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg-3/
+- Consulting with an immigration lawyer ensures that you have a knowledg /insights/visa/consulting-with-an-immigration-lawyer-ensures-that-you-have-a-knowledg/
+- Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the /insights/visa/due-to-the-political-crises-in-syria-the-brazilian-embassy-in-syria-ha/
+- Entering Brazil as a tourist can be a valid starting point for anyone wanting to /insights/visa/entering-brazil-as-a-tourist-can-be-a-valid-starting-point-for-anyone/
+- Entering Brazil as a tourist can serve as a valid starting point for those who wish to /insights/visa/entering-brazil-as-a-tourist-can-serve-as-a-valid-starting-point-for-t/
+- Even though this visa offers permanent residency, it comes with conditions /insights/visa/even-though-this-visa-offers-permanent-residency-it-comes-with-conditi/
+- Every visa applicant has the right to receive a justification /insights/visa/every-visa-applicant-has-the-right-to-receive-a-justification/
+- Expanding a business into Brazil requires careful planning and compliance with local /insights/visa/expanding-a-business-into-brazil-requires-careful-planning-and-complia/
+- Explore tax-friendly destinations and optimize your tax situation while living the /insights/visa/explore-tax-friendly-destinations-and-optimize-your-tax-situation-whil/
+- For Brazilians wishing to go to New Zealand, the Brazil-New Zealand working holiday /insights/visa/for-brazilians-wishing-to-go-to-new-zealand-the-brazil-new-zealand-wor/
+- For certain nationalities, a visa for this is not required /insights/visa/for-certain-nationalities-a-visa-for-this-is-not-required/
+- For those planning to travel to the United States to watch the 2026 World Cup, it is /insights/visa/for-those-planning-to-travel-to-the-united-states-to-watch-the-2026-wo/
+- Foreign nationals who come to Brazil for research, teaching, or academic extension, /insights/visa/foreign-nationals-who-come-to-brazil-for-research-teaching-or-academic/
+- Hiring foreign workers has become an increasingly common practice among Brazilian /insights/visa/hiring-foreign-workers-has-become-an-increasingly-common-practice-amon/
+- I will be working remotely in Brazil /insights/visa/i-will-be-working-remotely-in-brazil/
+- If a person received a Portuguese residence visa without making an appointment with /insights/visa/if-a-person-received-a-portuguese-residence-visa-without-making-an-app/
+- If an artist charges a fee for their performance, a work visa is required /insights/visa/if-an-artist-charges-a-fee-for-their-performance-a-work-visa-is-requir/
+- If an investor, an individual, is looking for opportunities and to be able to reside /insights/visa/if-an-investor-an-individual-is-looking-for-opportunities-and-to-be-ab/
+- If the Brazilian consulate does not provide a justification for the visa denial, you /insights/visa/if-the-brazilian-consulate-does-not-provide-a-justification-for-the-vi/
+- If the couple wishes to live in Brazil after marriage, the foreigner will need a /insights/visa/if-the-couple-wishes-to-live-in-brazil-after-marriage-the-foreigner-wi/
+- If you are an investor looking to reside in Brazil with foreign resources, purchasing /insights/visa/if-you-are-an-investor-looking-to-reside-in-brazil-with-foreign-resour/
+- If you arrived in Brazil as a tourist and want to stay longer than initially planned, /insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/
+- If you arrived in Brazil as a tourist and wish to stay longer than originally planned, /insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-wish-to-stay-longer-than-ori/
+- If you currently hold a temporary residence permit in Brazil and are wondering about /insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/
+- If you hold a temporary visa or residence permit, it's imperative to complete your /insights/visa/if-you-hold-a-temporary-visa-or-residence-permit-it-s-imperative-to-co/
+- If you hold a temporary visa or residency permit, it's imperative to complete your /insights/visa/if-you-hold-a-temporary-visa-or-residency-permit-it-s-imperative-to-co/
+- If you're from one of the eligible countries, you can request a 90-day extension to (2) /insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day-2/
+- If you're from one of the eligible countries, you can request a 90-day extension to /insights/visa/if-you-re-from-one-of-the-eligible-countries-you-can-request-a-90-day/
+- If your American visa is denied, the first recommended action is to look for an /insights/visa/if-your-american-visa-is-denied-the-first-recommended-action-is-to-loo/
+- If youve studied in Brazil and are thinking about staying to work, theres good news /insights/visa/if-youve-studied-in-brazil-and-are-thinking-about-staying-to-work-ther/
+- Immigrating to a new country is a life-altering decision, and seeking professional /insights/visa/immigrating-to-a-new-country-is-a-life-altering-decision-and-seeking-p/
+- Immigration planning involves strategic and thoughtful consideration of one /insights/visa/immigration-planning-involves-strategic-and-thoughtful-consideration-o/
+- In a prestigious international ranking organized by the 1000 Libraries Awards, the /insights/visa/in-a-prestigious-international-ranking-organized-by-the-1000-libraries/
+- In Brazil, deportation is an administrative measure applied to individuals who are /insights/visa/in-brazil-deportation-is-an-administrative-measure-applied-to-individu/
+- In Brazil, eligible people holding a temporary visa have the opportunity to apply for /insights/visa/in-brazil-eligible-people-holding-a-temporary-visa-have-the-opportunit/
+- In Brazil, homeschooling is prohibited, and the parents must go to the nearest public /insights/visa/in-brazil-homeschooling-is-prohibited-and-the-parents-must-go-to-the-n/
+- In Brazil, priests must go to the nearest public school and request their child /insights/visa/in-brazil-priests-must-go-to-the-nearest-public-school-and-request-the/
+- In Brazil, there are several types of work visas available depending on the nature of (2) /insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on-2/
+- In Brazil, there are several types of work visas available, depending on the nature of /insights/visa/in-brazil-there-are-several-types-of-work-visas-available-depending-on/
+- In Brazilian immigration matters, foreign nationals could apply for a family /insights/visa/in-brazilian-immigration-matters-foreign-nationals-could-apply-for-a-f/
+- In exceptional cases, a Brazilian visa application may be denied under the following /insights/visa/in-exceptional-cases-a-brazilian-visa-application-may-be-denied-under/
+- In general, many countries do not have a specific dating visa, but offer visas for /insights/visa/in-general-many-countries-do-not-have-a-specific-dating-visa-but-offer/
+- In situations where a Brazilian needs emergency consular assistance outside business /insights/visa/in-situations-where-a-brazilian-needs-emergency-consular-assistance-ou/
+- In some cases of vulnerable situations, Brazilian migration law waives some /insights/visa/in-some-cases-of-vulnerable-situations-brazilian-migration-law-waives/
+- Individuals seeking to work in Brazil through a formal employment relationship may /insights/visa/individuals-seeking-to-work-in-brazil-through-a-formal-employment-rela/
+- It can be possible to bring a companion to Brazil on a Health Treatment visa, provided /insights/visa/it-can-be-possible-to-bring-a-companion-to-brazil-on-a-health-treatmen/
+- It is not necessary in cases of a stopover or connecting flight in Brazilian /insights/visa/it-is-not-necessary-in-cases-of-a-stopover-or-connecting-flight-in-bra/
+- It is now possible to apply for a digital nomad visa for Italy /insights/visa/it-is-now-possible-to-apply-for-a-digital-nomad-visa-for-italy/
+- It is possible for a foreign person to purchase property in Brazil, but there are some /insights/visa/it-is-possible-for-a-foreign-person-to-purchase-property-in-brazil-but/
+- It is possible to bring a companion to Brazil with a Health Treatment visa, as long as /insights/visa/it-is-possible-to-bring-a-companion-to-brazil-with-a-health-treatment/
+- It is possible to go to Brazil as a tourist and get married or recognize your civil /insights/visa/it-is-possible-to-go-to-brazil-as-a-tourist-and-get-married-or-recogni/
+- Japan has announced measures to attract digital nomads, aligning with a global trend /insights/visa/japan-has-announced-measures-to-attract-digital-nomads-aligning-with-a/
+- Legal guidance: eligibility, requirements, and filing steps /insights/visa/legal-guidance-eligibility-requirements-and-filing-steps/
+- Many people risk staying in Portugal with just a tourist visa and then obtaining a /insights/visa/many-people-risk-staying-in-portugal-with-just-a-tourist-visa-and-then/
+- May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting /insights/visa/may-5th-is-celebrated-as-portuguese-language-and-lusophone-culture-day/
+- My immigrant ID card is valid until 2030, but my civil partnership has ended /insights/visa/my-immigrant-id-card-is-valid-until-2030-but-my-civil-partnership-has/
+- News: visa fees for the USA will become more expensive from May 30th Tourist or /insights/visa/news-visa-fees-for-the-usa-will-become-more-expensive-from-may-30th-to/
+- No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and /insights/visa/no-a-work-visa-requires-prior-approval-from-the-brazilian-ministry-of/
+- No, dependents can arrive with or after the main visa holder in the USA /insights/visa/no-dependents-can-arrive-with-or-after-the-main-visa-holder-in-the-usa/
+- Not everything is what it seems, especially in Brazilian cuisine! /insights/visa/not-everything-is-what-it-seems-especially-in-brazilian-cuisine/
+- Nowadays, technology allows us to work from anywhere in the world /insights/visa/nowadays-technology-allows-us-to-work-from-anywhere-in-the-world/
+- Obtaining a permanent residence permit (indefinite period) in Brazil is governed by a /insights/visa/obtaining-a-permanent-residence-permit-indefinite-period-in-brazil-is/
+- Obtaining a residency permit as a retiree or pensioner in Brazil provides a secure and /insights/visa/obtaining-a-residency-permit-as-a-retiree-or-pensioner-in-brazil-provi/
+- Obtaining a student visa to be an exchange student in Brazil offers a unique /insights/visa/obtaining-a-student-visa-to-be-an-exchange-student-in-brazil-offers-a/
+- Obtaining an immigrant identity card (RNM) is extremely important for immigrants /insights/visa/obtaining-an-immigrant-identity-card-rnm-is-extremely-important-for-im/
+- People who exceed the legal period of stay in Brazil, either by overstaying their /insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/
+- Permanent Residency through the Investor Visa: Individual Investment in a Brazilian /insights/visa/permanent-residency-through-the-investor-visa-individual-investment-in/
+- Premium Processing is a service offered by the US immigration agency to speed up the /insights/visa/premium-processing-is-a-service-offered-by-the-us-immigration-agency-t/
+- Professionals can have the EB2-NIW visa as a gateway to continue their career in the /insights/visa/professionals-can-have-the-eb2-niw-visa-as-a-gateway-to-continue-their/
+- Qualified professionals can use the EB2-NIW visa as a gateway to continue their career /insights/visa/qualified-professionals-can-use-the-eb2-niw-visa-as-a-gateway-to-conti/
+- Repatriation, also known as National Recovery Operation, represents the Brazilian /insights/visa/repatriation-also-known-as-national-recovery-operation-represents-the/
+- Retirees and pensioners who want to live in Brazil can request a temporary visa, /insights/visa/retirees-and-pensioners-who-want-to-live-in-brazil-can-request-a-tempo/
+- Rio de Janeiro has recently been named the world's top destination for digital nomads, /insights/visa/rio-de-janeiro-has-recently-been-named-the-world-s-top-destination-for/
+- Since April 10, 2025, tourists from the United States, Canada and Australia will need /insights/visa/since-april-10-2025-tourists-from-the-united-states-canada-and-austral/
+- Technical completion involves legal analysis of the rules and circumstances of the /insights/visa/technical-completion-involves-legal-analysis-of-the-rules-and-circumst/
+- The American visa interview aims to assess whether you are a qualified candidate and /insights/visa/the-american-visa-interview-aims-to-assess-whether-you-are-a-qualified/
+- The authorization of indefinite-term residence in Brazil can be obtained through /insights/visa/the-authorization-of-indefinite-term-residence-in-brazil-can-be-obtain/
+- The biggest cause of losing an Irish student visa is when the immigrant stops /insights/visa/the-biggest-cause-of-losing-an-irish-student-visa-is-when-the-immigran/
+- The Brazilian Retirement Visa is an excellent choice for retirees and pensioners /insights/visa/the-brazilian-retirement-visa-is-an-excellent-choice-for-retirees-and/
+- The Brazilian visa for digital nomads allows you to stay for up to one year with the /insights/visa/the-brazilian-visa-for-digital-nomads-allows-you-to-stay-for-up-to-one/
+- The Brazilian work visa for employment is granted to foreign nationals who have /insights/visa/the-brazilian-work-visa-for-employment-is-granted-to-foreign-nationals/
+- The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows /insights/visa/the-cplp-community-of-portuguese-speaking-countries-visa-is-an-option/
+- The CPLP Temporary Residence Visa is intended for citizens of the countries of the /insights/visa/the-cplp-temporary-residence-visa-is-intended-for-citizens-of-the-coun/
+- The deadline for visa requirements for citizens of Australia, Canada, and the United /insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/
+- The duration for which a foreigner can be absent from the country without losing their /insights/visa/the-duration-for-which-a-foreigner-can-be-absent-from-the-country-with/
+- The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly /insights/visa/the-eb-2-niw-national-interest-waiver-visa-is-not-limited-exclusively/
+- The EB2-NIW visa is a great opportunity to internationalize your career and obtain /insights/visa/the-eb2-niw-visa-is-a-great-opportunity-to-internationalize-your-caree/
+- The end of the expression of interest for immigrants in Portugal marks a significant /insights/visa/the-end-of-the-expression-of-interest-for-immigrants-in-portugal-marks/
+- The future fee for travelers entering Europe, known as Etias, had its launch postponed /insights/visa/the-future-fee-for-travelers-entering-europe-known-as-etias-had-its-la/
+- The granting of a religious visa can be issued to a foreign national entering Brazil /insights/visa/the-granting-of-a-religious-visa-can-be-issued-to-a-foreign-national-e/
+- The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand /insights/visa/the-holiday-work-visa-program-between-brazil-and-new-zealand-offers-ne/
+- The importance of getting legal guidance from a Lawyer in travel and immigration: /insights/visa/the-importance-of-getting-legal-guidance-from-a-lawyer-in-travel-and-i/
+- The initial projection indicated that visa requirements for citizens of the United (2) /insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o-2/
+- The initial projection indicated that visa requirements for citizens of the United /insights/visa/the-initial-projection-indicated-that-visa-requirements-for-citizens-o/
+- The international immunisation certificate is necessary for individuals applying for a /insights/visa/the-international-immunisation-certificate-is-necessary-for-individual/
+- The interview for the American visa in Brazil is carried out in Portuguese, and the /insights/visa/the-interview-for-the-american-visa-in-brazil-is-carried-out-in-portug/
+- The Japanese immigration service has announced a new visa, the digital nomad visa /insights/visa/the-japanese-immigration-service-has-announced-a-new-visa-the-digital/
+- The joint family visa for spouses and partners in a recognized stable union of Irish /insights/visa/the-joint-family-visa-for-spouses-and-partners-in-a-recognized-stable/
+- The K-1 visa is intended for foreign fiances of United States citizens /insights/visa/the-k-1-visa-is-intended-for-foreign-fiances-of-united-states-citizens/
+- The legislation outlines the specific functions and sets forth several requirements /insights/visa/the-legislation-outlines-the-specific-functions-and-sets-forth-several/
+- The main hypotheses are: - Travel document that is not valid for Brazil; - Travel /insights/visa/the-main-hypotheses-are-travel-document-that-is-not-valid-for-brazil-t/
+- The recent interministerial Ordinance represents a significant advance in immigration /insights/visa/the-recent-interministerial-ordinance-represents-a-significant-advance/
+- The residence permit for an indefinite period in Brazil can be obtained through /insights/visa/the-residence-permit-for-an-indefinite-period-in-brazil-can-be-obtaine/
+- The retirement visa for Brazil is designed for individuals who wish to live in the /insights/visa/the-retirement-visa-for-brazil-is-designed-for-individuals-who-wish-to/
+- The retirement visa for Brazil is intended for individuals who wish to live in the /insights/visa/the-retirement-visa-for-brazil-is-intended-for-individuals-who-wish-to/
+- The rules for work immigration allow individuals to obtain a visa or residency permit /insights/visa/the-rules-for-work-immigration-allow-individuals-to-obtain-a-visa-or-r/
+- The time a foreigner can be absent from the country without losing their residence /insights/visa/the-time-a-foreigner-can-be-absent-from-the-country-without-losing-the/
+- The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government /insights/visa/the-undergraduate-student-agreement-program-pec-g-is-a-brazilian-gover/
+- The visa and residence for the purpose of working without employment in Brazil, /insights/visa/the-visa-and-residence-for-the-purpose-of-working-without-employment-i/
+- The work-holiday visa agreement between Brazil and France allows young people from /insights/visa/the-work-holiday-visa-agreement-between-brazil-and-france-allows-young/
+- The working and holiday visa agreement between Brazil and France allows young people /insights/visa/the-working-and-holiday-visa-agreement-between-brazil-and-france-allow/
+- This Brazilian visa is intended for those who wish to carry out academic research, /insights/visa/this-brazilian-visa-is-intended-for-those-who-wish-to-carry-out-academ/
+- This can be done at the consulate or embassy of the country that issued the visa, /insights/visa/this-can-be-done-at-the-consulate-or-embassy-of-the-country-that-issue/
+- This day established by the UN reinforces the importance of joining forces against one /insights/visa/this-day-established-by-the-un-reinforces-the-importance-of-joining-fo/
+- This is an illegal and extremely risky practice that can lead to severe consequences /insights/visa/this-is-an-illegal-and-extremely-risky-practice-that-can-lead-to-sever/
+- To obtain a Brazilian study visa, you must be enrolled in an educational program /insights/visa/to-obtain-a-brazilian-study-visa-you-must-be-enrolled-in-an-educationa/
+- To prove your civil union status with a foreign person, a certificate issued by the /insights/visa/to-prove-your-civil-union-status-with-a-foreign-person-a-certificate-i/
+- Travellers in Brazil can access a variety of basic healthcare services at many /insights/visa/travellers-in-brazil-can-access-a-variety-of-basic-healthcare-services/
+- Upon arriving in Brazil with a visa, you will have 90 days to register to apply for a /insights/visa/upon-arriving-in-brazil-with-a-visa-you-will-have-90-days-to-register/
+- Visa Guidance legal requirements and filing steps in Brazil (2) /insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-2/
+- Visa Guidance legal requirements and filing steps in Brazil (3) /insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil-3/
+- Visa Guidance legal requirements and filing steps in Brazil /insights/visa/visa-guidance-legal-requirements-and-filing-steps-in-brazil/
+- H2: legal
+- Legal Notices /legal/
+- Accessibility Statement /legal/accessibility/
+- Cookies Policy /legal/cookies/
+- Disclaimer & Legal Notice /legal/disclaimer/
+- Emergency Resources /legal/emergency/
+- Form & Intake Policy /legal/form/
+- GDPR Notice /legal/gdpr/
+- LGPD Notice /legal/lgpd/
+- Payment Terms /legal/payment/
+- Privacy Policy /legal/privacy/
+- Refund Policy /legal/refund/
+- Terms & Conditions /legal/terms/
+- H2: process
+- Brazil Immigration Process /process/
+- Aftercare /process/aftercare/
+- Alone /process/alone/
+- Approval /process/approval/
+- Assessment /process/assessment/
+- Compliance /process/compliance/
+- Consultation /process/consultation/
+- Conversion /process/conversion/
+- Deadlines /process/deadlines/
+- Failures /process/failures/
+- Fees /process/fees/
+- Filing /process/filing/
+- Mistakes /process/mistakes/
+- Naturalisation /process/naturalisation/
+- Obligations /process/obligations/
+- Permanent /process/permanent/
+- Planning /process/planning/
+- Refund /process/refund/
+- Regularization /process/regularization/
+- Renewal /process/renewal/
+- Responsibilities /process/responsibilities/
+- Rights /process/rights/
+- Strategy /process/strategy/
+- Timeline /process/timeline/
+- Transparency /process/transparency/
+- H2: rights
+- Rights Hub /rights/
+- Naturalisation /rights/naturalisation/
+- Obligations /rights/obligations/
+- Permanent Status Planning In Brazil /rights/permanent/
+- Planning /rights/planning/
+- Refund /rights/refund/
+- Regularization /rights/regularization/
+- Renewal /rights/renewal/
+- Responsibilities /rights/responsibilities/
+- Strategy /rights/strategy/
+- Timeline /rights/timeline/
+- Transparency /rights/transparency/
+- H2: services
+- Immigration Law Services - Visa, Residency, Citizenship & Defense /services/
+- Advisory /services/advisory/
+- Compliance /services/advisory/compliance/
+- Consultation /services/advisory/consultation/
+- Corporate /services/advisory/corporate/
+- Representation /services/advisory/representation/
+- Strategy /services/advisory/strategy/
+- All Services /services/all/
+- Defense /services/defense/
+- Appeals /services/defense/appeals/
+- Deportation /services/defense/deportation/
+- Expulsion /services/defense/expulsion/
+- Extradition /services/defense/extradition/
+- Fines /services/defense/fines/
+- Litigation /services/defense/litigation/
+- Naturalisation /services/naturalisation/
+- Extraordinary Naturalisation /services/naturalisation/extraordinary/
+- Ordinary Naturalisation /services/naturalisation/ordinary/
+- Provisional Naturalisation /services/naturalisation/provisional/
+- Reacquisition Naturalisation /services/naturalisation/reacquisition/
+- Renunciation Naturalisation /services/naturalisation/renunciation/
+- Special Naturalisation /services/naturalisation/special/
+- Other /services/other/
+- Consular /services/other/consular/
+- Records /services/other/records/
+- Regularization /services/other/regularization/
+- Translation /services/other/translation/
+- Residencies /services/residencies/
+- CPLP Residency /services/residencies/cplp/
+- Educational Residency /services/residencies/educational/
+- Exchange Residency /services/residencies/exchange/
+- Health Residency /services/residencies/health/
+- Humanitarian Residency /services/residencies/humanitarian/
+- Investor Residency /services/residencies/investor/
+- MERCOSUL Residency /services/residencies/mercosul/
+- Nomad Residency /services/residencies/nomad/
+- Religious Residency /services/residencies/religious/
+- Research Residency /services/residencies/research/
+- Retiree Residency /services/residencies/retiree/
+- Reunion Residency /services/residencies/reunion/
+- Skilled Residency /services/residencies/skilled/
+- Study Residency /services/residencies/study/
+- Volunteer Residency /services/residencies/volunteer/
+- Work Residency /services/residencies/work/
+- Youth Residency /services/residencies/youth/
+- Visas /services/visas/
+- Artistic Visa /services/visas/artistic/
+- Business Visa /services/visas/business/
+- Diplomatic Visa /services/visas/diplomatic/
+- Educational Visa /services/visas/educational/
+- Exchange Visa /services/visas/exchange/
+- Family Visa /services/visas/family/
+- Humanitarian Visa /services/visas/humanitarian/
+- Investor Visa /services/visas/investor/
+- Journalist Visa /services/visas/journalist/
+- Medical Visa /services/visas/medical/
+- Nomad Visa /services/visas/nomad/
+- Religious Visa /services/visas/religious/
+- Research Visa /services/visas/research/
+- Retiree Visa /services/visas/retiree/
+- Sports Visa /services/visas/sports/
+- Startup Visa /services/visas/startup/
+- Student Visa /services/visas/student/
+- Tourist Visa /services/visas/tourist/
+- Transit Visa /services/visas/transit/
+- Volunteer Visa /services/visas/volunteer/
+- Work Visa /services/visas/work/
+- H2: start-consultation
+- Request a Consultation /start-consultation/
+
