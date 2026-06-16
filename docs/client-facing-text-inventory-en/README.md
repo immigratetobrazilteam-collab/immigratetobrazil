@@ -4,7 +4,7 @@ This inventory is generated as smaller page-based Markdown files so editors can 
 
 - Source: English website HTML, English partials, English runtime text, and English generated-content strings
 - Page files: 843
-- Split verification SHA-256: `7fd70934b083b020059cf089c85610d678cc9fe9b4f63ea2c799adf97a4aa60c`
+- Split verification SHA-256: `e8b62adede21fd630492b535c7c8301e517e554776e0d32c7b9f37d725e40e83`
 
 ## Supporting Files
 
@@ -15,7 +15,7 @@ This inventory is generated as smaller page-based Markdown files so editors can 
 
 | # | Route | Page | File |
 | --- | --- | --- | --- |
-| 1 | `/` | Brazil Immigration Attorney - Legal Services for Foreign Nationals | [001-home.md](pages/001-home.md) |
+| 1 | `/` | Immigrate to Brazil With Attorney Monique Fernandes | [001-home.md](pages/001-home.md) |
 | 2 | `/404.html` | Page Not Found | [002-404-html.md](pages/002-404-html.md) |
 | 3 | `/about/` | About Monique | [003-about.md](pages/003-about.md) |
 | 4 | `/about/about/` | Meet Monique Fernandes | [004-about-about.md](pages/004-about-about.md) |

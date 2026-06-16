@@ -39,7 +39,7 @@ File: `about/testimonials/index.html`
 - H3: Clients
 - H3: About Monique Fernandes
 - H3: Story
-- H2: Unlock the Brazil Immigration Guide ebook
+- H2: Download the Brazil Immigration Guide
 - H2: Move from public reviews to advice about your own case
 - H3: Monique Fernandes
 - H3: Book consultation
@@ -510,21 +510,22 @@ File: `about/testimonials/index.html`
 - Teatro Amazonas in Manaus in northern Brazil.
 - Paraty's colonial waterfront in southeast Brazil.
 
-### Brazil Immigration Guide ebook
-- H2: Unlock the Brazil Immigration Guide ebook
-- Guide ebook
-- Unlock the Brazil Immigration Guide ebook
-- A practical download for people comparing immigration options, documents, timing, and early Brazil planning. Enter your name and email to access the PDF.
-- Immigration planning
-- Document review
-- PDF ebook
-- Clearer planning before decisions move too quickly.
-- Useful for first-time immigration planning and document preparation.
-- Delivered right after secure submission.
+### Download the Brazil Immigration Guide
+- H2: Download the Brazil Immigration Guide
+- Download the Brazil Immigration Guide
+- Planning to immigrate to Brazil can feel overwhelming when you are comparing visas, residency routes, documents, deadlines, and legal requirements.
+- The Brazil Immigration Guide is a practical starting point for people who want to understand the early planning questions before moving forward.
+- Brazil immigration routes
+- Visa and residency planning
+- Document preparation
+- Inside the guide, you will find helpful reminders about:
+- Common timing issues
+- Questions to consider before applying
+- Practical planning before moving to Brazil
 - Your name
 - Your email
 - The ebook opens after your secure submission is complete.
-- Get the Guide ebook
+- Get the Brazil Immigration Guide
 - Brazil immigration guide details
 - Your full name
 - you@domain.com

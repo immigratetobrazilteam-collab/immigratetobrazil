@@ -48,7 +48,7 @@ File: `start-consultation/index.html`
 - H3: Do I need every document ready before I book?
 - H3: How does booking and confirmation work?
 - H3: What happens after the consultation?
-- H2: Get the Brazilian Residency Permit Care Guide
+- H2: Download the Brazilian Residency Permit Care Guide
 - H2: Send an inquiry
 - H2: Get the Newsletter PDF
 - H2: Share this page
@@ -764,21 +764,25 @@ File: `start-consultation/index.html`
 - What happens after the consultation?
 - After the consultation, the next step depends on your situation. That may mean moving into a clearer plan, preparing for a service, gathering more information, or deciding that a different direction makes more sense.
 
-### Residency Permit Download
-- H2: Get the Brazilian Residency Permit Care Guide
-- Residency Permit PDF
-- Get the Brazilian Residency Permit Care Guide
-- A focused PDF about taking care of your Brazilian residency permit, keeping records organized, and staying aware of renewal and compliance issues. Enter your name and email to unlock it.
-- Residency Care
-- Renewal Awareness
-- PDF download
-- Helpful for current residents thinking about continuity and compliance.
-- Built around practical reminders and document awareness.
-- Delivered immediately after secure submission.
+### Download the Brazilian Residency Permit Care Guide
+- H2: Download the Brazilian Residency Permit Care Guide
+- Download the Brazilian Residency Permit Care Guide
+- A Brazilian residency permit is an important step, but it is not the end of your legal responsibilities.
+- The Residency Permit Care Guide helps current residents stay organised after approval and prepare for future legal steps.
+- Residency care
+- Renewal planning
+- Future legal steps
+- This guide is useful for:
+- Foreign nationals with Brazilian residency
+- People preparing for renewal
+- Families living in Brazil
+- Clients planning permanent residency
+- Residents preparing for citizenship
+- Anyone who wants to keep immigration records organised
 - Your name
 - Your email
 - The PDF opens after your secure submission is complete.
-- Unlock Residency Permit PDF
+- Get the Residency Permit Care Guide
 - Residency permit guide details
 - Your full name
 - you@domain.com
