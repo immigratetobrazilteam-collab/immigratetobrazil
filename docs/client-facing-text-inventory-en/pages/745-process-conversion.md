@@ -7,29 +7,83 @@ File: `process/conversion/index.html`
 - Browser title: Conversion With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Conversion
+- H2: Overview
+- H2: Transition
+- H2: Eligibility
+- H2: Timing
+- H2: Pathways
+- H2: Requirements
+- H2: Risks
+- H2: Structure
+- H2: Process
+- H2: Outcomes
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Compliance
+- H3: Deadlines
+- H3: Failures
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/conversion/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/conversion/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/conversion/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/conversion/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/conversion/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/conversion/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/conversion/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/conversion/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/conversion/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/conversion/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/conversion/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Conversion
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Conversion page showing Alter do Chao in Brazil.
+- H1: Conversion
 - PROCESS
 - Immigrate to Brazil
-- H1: Conversion
+- Conversion
 - Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
-- Page highlights
-- Process Hub Assessment Compliance Deadlines Failures
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Conversion With Monique Fernandes For Immigration Route Changes In Brazil page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Assessment
+- Compliance
+- Deadlines
+- Failures
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Conversion is the stage where a client needs to move from one immigration logic to another.
 - Transition
 - Every conversion begins with a transition in facts, goals, or legal position.
 - Eligibility
 - Monique does not assume conversion is available just because the client would prefer it.
+- Alter do Chao in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Conversion With Monique Fernandes For Immigration Route Changes In Brazil page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the beaches of Alter do Chao on the Tapajos River in Brazil for the Overview section on the Conversion page.
 - H2: Overview
+- Overview
 - Conversion is the stage where a client needs to move from one immigration logic to another. Monique helps clients treat that shift as a legal transition, not as a casual update.
 - This page is meant to explain:
 - when conversion may become relevant
@@ -301,11 +374,12 @@ File: `process/conversion/index.html`
 - why timing and evidence matter so much
 - how a route change can affect continuity
 - Conversion is often one of the most timing-sensitive parts of the process.
+- the beaches of Alter do Chao on the Tapajos River in Brazil.
 
 ### Transition
-- Cinematic background of the sunrise landscape of Chapada Diamantina in Brazil for the Transition section on the Conversion page.
-- Section 02
 - H2: Transition
+- Section 02
+- Transition
 - Every conversion begins with a transition in facts, goals, or legal position. Monique first identifies what has changed and why the original route no longer fits as well as it once did.
 - Transitions often happen because of changes in:
 - work or business plans
@@ -313,11 +387,12 @@ File: `process/conversion/index.html`
 - residence strategy inside Brazil
 - the practical purpose behind the client's stay
 - Understanding the transition clearly is what makes later route choice more reliable.
+- the sunrise landscape of Chapada Diamantina in Brazil.
 
 ### Eligibility
-- Cinematic background of the waterways and dunes of the Delta do Parnaiba in Brazil for the Eligibility section on the Conversion page.
-- Section 03
 - H2: Eligibility
+- Section 03
+- Eligibility
 - Monique does not assume conversion is available just because the client would prefer it. Eligibility must be tested on the actual facts, timing, and legal basis.
 - Eligibility review usually looks at:
 - whether the new route is legally available
@@ -325,11 +400,12 @@ File: `process/conversion/index.html`
 - whether the current position allows the transition
 - whether another path would be safer or stronger
 - This protects clients from moving toward a route that is appealing in theory but weak in practice.
+- the waterways and dunes of the Delta do Parnaiba in Brazil.
 
 ### Timing
-- Cinematic background of the meeting of the Rio Negro and Solimoes near Manaus in Brazil for the Timing section on the Conversion page.
-- Section 04
 - H2: Timing
+- Section 04
+- Timing
 - Timing is often one of the decisive issues in conversion. Monique helps clients understand whether the route change should happen now, after another step, or not at all.
 - Timing often matters because of:
 - validity periods or approaching deadlines
@@ -337,11 +413,12 @@ File: `process/conversion/index.html`
 - readiness of supporting documents
 - the risk of leaving a workable route too early
 - Good timing protects continuity while the client changes direction.
+- the meeting of the Rio Negro and Solimoes near Manaus in Brazil.
 
 ### Pathways
-- Cinematic background of the sunrise landscape of Delta do Parnaiba in Brazil for the Pathways section on the Conversion page.
-- Section 05
 - H2: Pathways
+- Section 05
+- Pathways
 - Monique compares the realistic pathways that may be open, instead of assuming there is only one way to convert. Clients often benefit from seeing which options are stronger, weaker, faster, or more document-heavy.
 - A pathway comparison may look at:
 - which route best matches the client's real objective
@@ -349,11 +426,12 @@ File: `process/conversion/index.html`
 - which route creates less disruption in continuity
 - which route is practical given current timing
 - That comparison is one of the most valuable parts of attorney-led conversion work.
+- the sunrise landscape of Delta do Parnaiba in Brazil.
 
 ### Requirements
-- Cinematic background of Farol da Barra and the seafront of Salvador in Brazil for the Requirements section on the Conversion page.
-- Section 06
 - H2: Requirements
+- Section 06
+- Requirements
 - Each conversion pathway carries its own requirements. Monique helps clients understand exactly what must be shown and what practical preparation is still missing.
 - Requirements often include:
 - route-specific evidence
@@ -361,11 +439,12 @@ File: `process/conversion/index.html`
 - business or work documentation
 - careful handling of chronology and status history
 - Clear requirements reduce the risk of a weak conversion attempt.
+- Farol da Barra and the seafront of Salvador in Brazil.
 
 ### Risks
-- Cinematic background of the architecture and streets of Fervedouro in Jalapao in Brazil for the Risks section on the Conversion page.
-- Section 07
 - H2: Risks
+- Section 07
+- Risks
 - Conversion can fail when clients underestimate timing, rely on weak facts, or assume the new route automatically erases the old problems. Monique uses risk review to avoid that kind of false confidence.
 - Common conversion risks include:
 - gaps in continuity
@@ -373,11 +452,12 @@ File: `process/conversion/index.html`
 - late action near a deadline
 - documents that do not support the new legal basis strongly enough
 - Seeing the risk clearly is what makes the next move more responsible.
+- the architecture and streets of Fervedouro in Jalapao in Brazil.
 
 ### Structure
-- Cinematic background of the trails and cliffs of Ibitipoca in Brazil for the Structure section on the Conversion page.
-- Section 08
 - H2: Structure
+- Section 08
+- Structure
 - Monique structures conversion so the old position, the new route, and the client's actual life circumstances fit together as clearly as possible. That structure reduces contradictions and helps the case read more cleanly.
 - Good conversion structure usually means:
 - the route change is justified on real facts
@@ -385,11 +465,12 @@ File: `process/conversion/index.html`
 - timing is mapped before submission
 - later compliance issues are already being considered
 - Structure matters here because a conversion often affects more than one stage at once.
+- the trails and cliffs of Ibitipoca in Brazil.
 
 ### Process
-- Cinematic background of the sunrise landscape of Itaimbezinho canyon in Brazil for the Process section on the Conversion page.
-- Section 09
 - H2: Process
+- Section 09
+- Process
 - The conversion process should feel organized enough that the client understands what will happen next. Monique explains the steps so the matter does not feel like a leap into uncertainty.
 - Clients usually benefit from knowing:
 - what the immediate tasks are
@@ -397,11 +478,12 @@ File: `process/conversion/index.html`
 - what timing pressures exist
 - how the next authority-facing step is likely to unfold
 - That clarity helps clients move through change with more confidence and less improvisation.
+- the sunrise landscape of Itaimbezinho canyon in Brazil.
 
 ### Outcomes
-- Cinematic background of the forests and waters of Madeira river in Porto Velho in Brazil for the Outcomes section on the Conversion page.
-- Section 10
 - H2: Outcomes
+- Section 10
+- Outcomes
 - The goal of conversion is a more suitable and more stable immigration position. Monique uses this stage to improve fit, continuity, and legal defensibility, while staying realistic about authority review.
 - Strong conversion outcomes usually include:
 - a route that better matches the client's real situation
@@ -409,53 +491,96 @@ File: `process/conversion/index.html`
 - clearer next obligations
 - more confidence in the long-term direction of the process
 - Conversion is often a turning point, so Monique approaches it with careful planning rather than speed for its own sake.
+- the forests and waters of Madeira river in Porto Velho in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Transition Eligibility Timing Pathways Requirements Risks Structure Process Outcomes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Transition
+- Eligibility
+- Timing
+- Pathways
+- Requirements
+- Risks
+- Structure
+- Process
+- Outcomes
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use conversion support with Monique Fernandes when your Brazil immigration route needs to change and the next move depends on timing, eligibility, continuity, and stronger legal positioning.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Assessment Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions. Hero image for the Compliance page showing the Curitiba skyline in southern Brazil. Compliance Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction. Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil. Deadlines Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Compliance
+- H3: Deadlines
+- H3: Failures
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Assessment
+- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Compliance
+- Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
+- Deadlines
+- Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Use conversion support with Monique Fernandes when your Brazil immigration route needs to change and the next move depends on timing, eligibility, continuity, and stronger legal positioning.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Use conversion support with Monique Fernandes when your Brazil immigration route needs to change and the next move depends on timing, eligibility, continuity, and stronger legal positioning.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / conversion
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +589,44 @@ File: `process/conversion/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +639,7 @@ File: `process/conversion/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +657,11 @@ File: `process/conversion/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +678,7 @@ File: `process/conversion/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +694,7 @@ File: `process/conversion/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +707,7 @@ File: `process/conversion/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +722,7 @@ File: `process/conversion/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +798,15 @@ File: `process/conversion/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +830,6 @@ File: `process/conversion/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +1000,8 @@ File: `process/conversion/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1013,19 @@ File: `process/conversion/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

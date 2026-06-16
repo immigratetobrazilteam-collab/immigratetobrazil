@@ -7,29 +7,299 @@ File: `countries/index.html`
 - Browser title: Countries \| Move to Brazil from Your Country \| Immigrate to Brazil
 - Meta description: Use the countries hub to compare immigration planning to Brazil from your country, including route selection, document strategy, relocation timing, and Monique Fernandes guidance for cross-border cases.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Country-specific immigration planning for moving to Brazil
+- H2: Overview
+- H2: How to use these country guides
+- H3: Start with your passport or current base
+- H3: Use the page to narrow the route
+- H3: Move to consultation when the facts become personal
+- H2: A
+- H3: Afghanistan
+- H3: Albania
+- H3: Algeria
+- H3: Andorra
+- H3: Angola
+- H3: Antigua and Barbuda
+- H3: Argentina
+- H3: Armenia
+- H3: Australia
+- H3: Austria
+- H3: Azerbaijan
+- H2: B
+- H3: Bahamas
+- H3: Bahrain
+- H3: Bangladesh
+- H3: Barbados
+- H3: Belarus
+- H3: Belgium
+- H3: Belize
+- H3: Benin
+- H3: Bhutan
+- H3: Bolivia
+- H3: Bosnia and Herzegovina
+- H3: Botswana
+- H3: Brazil
+- H3: Brunei
+- H3: Bulgaria
+- H3: Burkina Faso
+- H3: Burundi
+- H2: C
+- H3: Cabo Verde
+- H3: Cambodia
+- H3: Cameroon
+- H3: Canada
+- H3: Central African Republic
+- H3: Chad
+- H3: Chile
+- H3: China
+- H3: Colombia
+- H3: Comoros
+- H3: Congo (Democratic Republic of the Congo)
+- H3: Congo (Republic of the Congo)
+- H3: Costa Rica
+- H3: Croatia
+- H3: Cuba
+- H3: Cyprus
+- H3: Czechia
+- H2: D
+- H3: Denmark
+- H3: Djibouti
+- H3: Dominica
+- H3: Dominican Republic
+- H2: E
+- H3: Ecuador
+- H3: Egypt
+- H3: El Salvador
+- H3: Equatorial Guinea
+- H3: Eritrea
+- H3: Estonia
+- H3: Eswatini
+- H3: Ethiopia
+- H2: F
+- H3: Fiji
+- H3: Finland
+- H3: France
+- H2: G
+- H3: Gabon
+- H3: Gambia
+- H3: Georgia
+- H3: Germany
+- H3: Ghana
+- H3: Greece
+- H3: Grenada
+- H3: Guatemala
+- H3: Guinea-Bissau
+- H3: Guinea
+- H3: Guyana
+- H2: H
+- H3: Haiti
+- H3: Honduras
+- H3: Hungary
+- H2: I
+- H3: Iceland
+- H3: India
+- H3: Indonesia
+- H3: Iran
+- H3: Iraq
+- H3: Ireland
+- H3: Israel
+- H3: Italy
+- H2: J
+- H3: Jamaica
+- H3: Japan
+- H3: Jordan
+- H2: K
+- H3: Kazakhstan
+- H3: Kenya
+- H3: Kiribati
+- H3: Kuwait
+- H3: Kyrgyzstan
+- H2: L
+- H3: Laos
+- H3: Latvia
+- H3: Lebanon
+- H3: Lesotho
+- H3: Liberia
+- H3: Libya
+- H3: Liechtenstein
+- H3: Lithuania
+- H3: Luxembourg
+- H2: M
+- H3: Madagascar
+- H3: Malawi
+- H3: Malaysia
+- H3: Maldives
+- H3: Mali
+- H3: Malta
+- H3: Marshall Islands
+- H3: Mauritania
+- H3: Mauritius
+- H3: Mexico
+- H3: Micronesia
+- H3: Moldova
+- H3: Monaco
+- H3: Mongolia
+- H3: Montenegro
+- H3: Morocco
+- H3: Mozambique
+- H3: Myanmar
+- H2: N
+- H3: Namibia
+- H3: Nauru
+- H3: Nepal
+- H3: Netherlands
+- H3: New Zealand
+- H3: Nicaragua
+- H3: Niger
+- H3: Nigeria
+- H3: North Korea
+- H3: North Macedonia
+- H3: Norway
+- H2: O
+- H3: Oman
+- H2: P
+- H3: Pakistan
+- H3: Palau
+- H3: Palestine
+- H3: Panama
+- H3: Papua New Guinea
+- H3: Paraguay
+- H3: Peru
+- H3: Philippines
+- H3: Poland
+- H3: Portugal
+- H2: Q
+- H3: Qatar
+- H2: R
+- H3: Romania
+- H3: Russia
+- H3: Rwanda
+- H2: S
+- H3: Saint Kitts and Nevis
+- H3: Saint Lucia
+- H3: Saint Vincent and the Grenadines
+- H3: Samoa
+- H3: San Marino
+- H3: Sao Tome and Principe
+- H3: Saudi Arabia
+- H3: Senegal
+- H3: Serbia
+- H3: Seychelles
+- H3: Sierra Leone
+- H3: Singapore
+- H3: Slovakia
+- H3: Slovenia
+- H3: Solomon Islands
+- H3: Somalia
+- H3: South Africa
+- H3: South Korea
+- H3: South Sudan
+- H3: Spain
+- H3: Sri Lanka
+- H3: Sudan
+- H3: Suriname
+- H3: Sweden
+- H3: Switzerland
+- H3: Syria
+- H2: T
+- H3: Tajikistan
+- H3: Tanzania
+- H3: Thailand
+- H3: Timor-Leste
+- H3: Togo
+- H3: Tonga
+- H3: Trinidad and Tobago
+- H3: Tunisia
+- H3: Turkey
+- H3: Turkmenistan
+- H3: Tuvalu
+- H2: U
+- H3: Uganda
+- H3: Ukraine
+- H3: United Arab Emirates
+- H3: United Kingdom
+- H3: United States
+- H3: Uruguay
+- H3: Uzbekistan
+- H2: V
+- H3: Vanuatu
+- H3: Vatican City
+- H3: Venezuela
+- H3: Vietnam
+- H2: Y
+- H3: Yemen
+- H2: Z
+- H3: Zambia
+- H3: Zimbabwe
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Brazilian Migration Law
+- H3: Migration Regulation Decree
+- H2: Related pages
+- H3: Visas
+- H3: Residencies
+- H3: Naturalisation
+- H3: Other
+- H3: Visa
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +310,26 @@ File: `countries/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +353,7 @@ File: `countries/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +372,7 @@ File: `countries/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +381,7 @@ File: `countries/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +389,7 @@ File: `countries/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +407,17 @@ File: `countries/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +432,7 @@ File: `countries/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +442,14 @@ File: `countries/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +508,7 @@ File: `countries/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +526,7 @@ File: `countries/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,758 +547,866 @@ File: `countries/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Countries
+- Breadcrumb
 
 ### Page Hero
-- Hero image for country planning pages showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- H1: Country-specific immigration planning for moving to Brazil
 - COUNTRIES
 - Immigrate to Brazil
-- H1: Country-specific immigration planning for moving to Brazil
+- Country-specific immigration planning for moving to Brazil
 - Use this hub to find country-specific pages that help compare visa routes, residency planning, cross-border documents, and real relocation timing before you move to Brazil.
-- Page highlights
-- Visas Residencies Naturalisation Visa Insights Consultation
+- Visas
+- Residencies
+- Naturalisation
+- Visa Insights
+- Consultation
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Country-specific immigration planning for moving to Brazil page Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Country pages make immigration research more useful because they bring route choice, translation needs, apostilles, criminal records, family documents, and practical relocation timing into one place.
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Country-specific planning can make immigration research clearer by bringing immigration options, translation needs, apostilles, criminal records, family documents, and relocation timing into one place.
 - What this hub does
 - Country-specific move planning
 - Immigration-first route comparison
 - Cross-border document context
-- Coverage 194 country-specific planning pages.
-- Main focus Visas, residencies, naturalisation, and supporting document strategy.
-- Who it helps International individuals, families, and companies planning a lawful move to Brazil.
+- Coverage
+- 194 country-specific planning pages.
+- Main focus
+- Visas, residencies, naturalisation, and supporting document strategy.
+- Who it helps
+- International individuals, families, and companies planning a lawful move to Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Country-specific immigration planning for moving to Brazil page
 
 ### Overview
 - H2: Overview
-- Country pages make the new site much more useful because people often start immigration planning from their own passport, their own document set, and their own cross-border timeline. This hub is built for that research pattern.
+- Overview
+- People often begin Brazil immigration planning from their own passport, document set, and cross-border timeline. This hub is built for that research pattern.
 - Use these guides to compare route families, supporting records, translations, apostilles, criminal certificates, family documents, and the practical move-planning questions that usually appear before filing or travel.
 
 ### How To Use
 - H2: How to use these country guides
 - H3: Start with your passport or current base
-- Open the country guide that most closely matches the cross-border record set you will actually rely on for Brazil.
 - H3: Use the page to narrow the route
-- The goal is not to answer everything at once. It is to narrow the route family, document plan, and next step before filing or travel.
 - H3: Move to consultation when the facts become personal
+- How to use these country guides
+- Start with your passport or current base
+- Open the country guide that most closely matches the cross-border record set you will actually rely on for Brazil.
+- Use the page to narrow the route
+- The goal is not to answer everything at once. It is to narrow the route family, document plan, and next step before filing or travel.
+- Move to consultation when the facts become personal
 - Once your move depends on marriage records, company structure, deadlines, past refusals, or mixed route possibilities, private review becomes more useful than more browsing.
 
 ### Letter A
 - H2: A
 - H3: Afghanistan
+- H3: Albania
+- H3: Algeria
+- H3: Andorra
+- H3: Angola
+- H3: Antigua and Barbuda
+- H3: Argentina
+- H3: Armenia
+- H3: Australia
+- H3: Austria
+- H3: Azerbaijan
+- A
+- Afghanistan
 - Planning a move from Afghanistan to Brazil works best when visas, residencies, cross-border documents, and...
 - Open guide
-- H3: Albania
+- Albania
 - Planning a move from Albania to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Algeria
+- Algeria
 - Planning a move from Algeria to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Andorra
+- Andorra
 - Planning a move from Andorra to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Angola
+- Angola
 - Planning a move from Angola to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Antigua and Barbuda
+- Antigua and Barbuda
 - Planning a move from Antigua and Barbuda to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Argentina
+- Argentina
 - Planning a move from Argentina to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Armenia
+- Armenia
 - Planning a move from Armenia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Australia
+- Australia
 - Planning a move from Australia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Austria
+- Austria
 - Planning a move from Austria to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Azerbaijan
+- Azerbaijan
 - Planning a move from Azerbaijan to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
 
 ### Letter B
 - H2: B
 - H3: Bahamas
+- H3: Bahrain
+- H3: Bangladesh
+- H3: Barbados
+- H3: Belarus
+- H3: Belgium
+- H3: Belize
+- H3: Benin
+- H3: Bhutan
+- H3: Bolivia
+- H3: Bosnia and Herzegovina
+- H3: Botswana
+- H3: Brazil
+- H3: Brunei
+- H3: Bulgaria
+- H3: Burkina Faso
+- H3: Burundi
+- B
+- Bahamas
 - Planning a move from Bahamas to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Bahrain
+- Bahrain
 - Planning a move from Bahrain to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Bangladesh
+- Bangladesh
 - Planning a move from Bangladesh to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Barbados
+- Barbados
 - Planning a move from Barbados to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Belarus
+- Belarus
 - Planning a move from Belarus to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Belgium
+- Belgium
 - Planning a move from Belgium to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Belize
+- Belize
 - Planning a move from Belize to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Benin
+- Benin
 - Planning a move from Benin to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Bhutan
+- Bhutan
 - Planning a move from Bhutan to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Bolivia
+- Bolivia
 - Planning a move from Bolivia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Bosnia and Herzegovina
+- Bosnia and Herzegovina
 - Planning a move from Bosnia and Herzegovina to Brazil works best when visas, residencies, cross-border documents,...
-- Open guide
-- H3: Botswana
+- Botswana
 - Planning a move from Botswana to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Brazil
+- Brazil
 - Planning a move from Brazil to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Brunei
+- Brunei
 - Planning a move from Brunei to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Bulgaria
+- Bulgaria
 - Planning a move from Bulgaria to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Burkina Faso
+- Burkina Faso
 - Planning a move from Burkina Faso to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Burundi
+- Burundi
 - Planning a move from Burundi to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter C
 - H2: C
 - H3: Cabo Verde
+- H3: Cambodia
+- H3: Cameroon
+- H3: Canada
+- H3: Central African Republic
+- H3: Chad
+- H3: Chile
+- H3: China
+- H3: Colombia
+- H3: Comoros
+- H3: Congo (Democratic Republic of the Congo)
+- H3: Congo (Republic of the Congo)
+- H3: Costa Rica
+- H3: Croatia
+- H3: Cuba
+- H3: Cyprus
+- H3: Czechia
+- C
+- Cabo Verde
 - Planning a move from Cabo Verde to Brazil works best when visas, residencies, cross-border documents, and...
 - Open guide
-- H3: Cambodia
+- Cambodia
 - Planning a move from Cambodia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Cameroon
+- Cameroon
 - Planning a move from Cameroon to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Canada
+- Canada
 - Planning a move from Canada to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Central African Republic
+- Central African Republic
 - Planning a move from Central African Republic to Brazil works best when visas, residencies, cross-border...
-- Open guide
-- H3: Chad
+- Chad
 - Planning a move from Chad to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Chile
+- Chile
 - Planning a move from Chile to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: China
+- China
 - Planning a move from China to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Colombia
+- Colombia
 - Planning a move from Colombia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Comoros
+- Comoros
 - Planning a move from Comoros to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Congo (Democratic Republic of the Congo)
+- Congo (Democratic Republic of the Congo)
 - Planning a move from Congo (Democratic Republic of the Congo) to Brazil works best when visas, residencies,...
-- Open guide
-- H3: Congo (Republic of the Congo)
+- Congo (Republic of the Congo)
 - Planning a move from Congo (Republic of the Congo) to Brazil works best when visas, residencies, cross-border...
-- Open guide
-- H3: Costa Rica
+- Costa Rica
 - Planning a move from Costa Rica to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Croatia
+- Croatia
 - Planning a move from Croatia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Cuba
+- Cuba
 - Planning a move from Cuba to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Cyprus
+- Cyprus
 - Planning a move from Cyprus to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Czechia
+- Czechia
 - Planning a move from Czechia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter D
 - H2: D
 - H3: Denmark
+- H3: Djibouti
+- H3: Dominica
+- H3: Dominican Republic
+- D
+- Denmark
 - Planning a move from Denmark to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Djibouti
+- Djibouti
 - Planning a move from Djibouti to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Dominica
+- Dominica
 - Planning a move from Dominica to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Dominican Republic
+- Dominican Republic
 - Planning a move from Dominican Republic to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
 
 ### Letter E
 - H2: E
 - H3: Ecuador
+- H3: Egypt
+- H3: El Salvador
+- H3: Equatorial Guinea
+- H3: Eritrea
+- H3: Estonia
+- H3: Eswatini
+- H3: Ethiopia
+- E
+- Ecuador
 - Planning a move from Ecuador to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Egypt
+- Egypt
 - Planning a move from Egypt to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: El Salvador
+- El Salvador
 - Planning a move from El Salvador to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Equatorial Guinea
+- Equatorial Guinea
 - Planning a move from Equatorial Guinea to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Eritrea
+- Eritrea
 - Planning a move from Eritrea to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Estonia
+- Estonia
 - Planning a move from Estonia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Eswatini
+- Eswatini
 - Planning a move from Eswatini to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Ethiopia
+- Ethiopia
 - Planning a move from Ethiopia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter F
 - H2: F
 - H3: Fiji
+- H3: Finland
+- H3: France
+- F
+- Fiji
 - Planning a move from Fiji to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Finland
+- Finland
 - Planning a move from Finland to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: France
+- France
 - Planning a move from France to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter G
 - H2: G
 - H3: Gabon
+- H3: Gambia
+- H3: Georgia
+- H3: Germany
+- H3: Ghana
+- H3: Greece
+- H3: Grenada
+- H3: Guatemala
+- H3: Guinea-Bissau
+- H3: Guinea
+- H3: Guyana
+- G
+- Gabon
 - Planning a move from Gabon to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Gambia
+- Gambia
 - Planning a move from Gambia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Georgia
+- Georgia
 - Planning a move from Georgia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Germany
+- Germany
 - Planning a move from Germany to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Ghana
+- Ghana
 - Planning a move from Ghana to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Greece
+- Greece
 - Planning a move from Greece to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Grenada
+- Grenada
 - Planning a move from Grenada to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Guatemala
+- Guatemala
 - Planning a move from Guatemala to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Guinea-Bissau
+- Guinea-Bissau
 - Planning a move from Guinea-Bissau to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Guinea
+- Guinea
 - Planning a move from Guinea to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Guyana
+- Guyana
 - Planning a move from Guyana to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter H
 - H2: H
 - H3: Haiti
+- H3: Honduras
+- H3: Hungary
+- H
+- Haiti
 - Planning a move from Haiti to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Honduras
+- Honduras
 - Planning a move from Honduras to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Hungary
+- Hungary
 - Planning a move from Hungary to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter I
 - H2: I
 - H3: Iceland
+- H3: India
+- H3: Indonesia
+- H3: Iran
+- H3: Iraq
+- H3: Ireland
+- H3: Israel
+- H3: Italy
+- I
+- Iceland
 - Planning a move from Iceland to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: India
+- India
 - Planning a move from India to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Indonesia
+- Indonesia
 - Planning a move from Indonesia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Iran
+- Iran
 - Planning a move from Iran to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Iraq
+- Iraq
 - Planning a move from Iraq to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Ireland
+- Ireland
 - Planning a move from Ireland to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Israel
+- Israel
 - Planning a move from Israel to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Italy
+- Italy
 - Planning a move from Italy to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter J
 - H2: J
 - H3: Jamaica
+- H3: Japan
+- H3: Jordan
+- J
+- Jamaica
 - Planning a move from Jamaica to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Japan
+- Japan
 - Planning a move from Japan to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Jordan
+- Jordan
 - Planning a move from Jordan to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter K
 - H2: K
 - H3: Kazakhstan
+- H3: Kenya
+- H3: Kiribati
+- H3: Kuwait
+- H3: Kyrgyzstan
+- K
+- Kazakhstan
 - Planning a move from Kazakhstan to Brazil works best when visas, residencies, cross-border documents, and...
 - Open guide
-- H3: Kenya
+- Kenya
 - Planning a move from Kenya to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Kiribati
+- Kiribati
 - Planning a move from Kiribati to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Kuwait
+- Kuwait
 - Planning a move from Kuwait to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Kyrgyzstan
+- Kyrgyzstan
 - Planning a move from Kyrgyzstan to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
 
 ### Letter L
 - H2: L
 - H3: Laos
+- H3: Latvia
+- H3: Lebanon
+- H3: Lesotho
+- H3: Liberia
+- H3: Libya
+- H3: Liechtenstein
+- H3: Lithuania
+- H3: Luxembourg
+- L
+- Laos
 - Planning a move from Laos to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Latvia
+- Latvia
 - Planning a move from Latvia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Lebanon
+- Lebanon
 - Planning a move from Lebanon to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Lesotho
+- Lesotho
 - Planning a move from Lesotho to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Liberia
+- Liberia
 - Planning a move from Liberia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Libya
+- Libya
 - Planning a move from Libya to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Liechtenstein
+- Liechtenstein
 - Planning a move from Liechtenstein to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Lithuania
+- Lithuania
 - Planning a move from Lithuania to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Luxembourg
+- Luxembourg
 - Planning a move from Luxembourg to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
 
 ### Letter M
 - H2: M
 - H3: Madagascar
+- H3: Malawi
+- H3: Malaysia
+- H3: Maldives
+- H3: Mali
+- H3: Malta
+- H3: Marshall Islands
+- H3: Mauritania
+- H3: Mauritius
+- H3: Mexico
+- H3: Micronesia
+- H3: Moldova
+- H3: Monaco
+- H3: Mongolia
+- H3: Montenegro
+- H3: Morocco
+- H3: Mozambique
+- H3: Myanmar
+- M
+- Madagascar
 - Planning a move from Madagascar to Brazil works best when visas, residencies, cross-border documents, and...
 - Open guide
-- H3: Malawi
+- Malawi
 - Planning a move from Malawi to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Malaysia
+- Malaysia
 - Planning a move from Malaysia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Maldives
+- Maldives
 - Planning a move from Maldives to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Mali
+- Mali
 - Planning a move from Mali to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Malta
+- Malta
 - Planning a move from Malta to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Marshall Islands
+- Marshall Islands
 - Planning a move from Marshall Islands to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Mauritania
+- Mauritania
 - Planning a move from Mauritania to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Mauritius
+- Mauritius
 - Planning a move from Mauritius to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Mexico
+- Mexico
 - Planning a move from Mexico to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Micronesia
+- Micronesia
 - Planning a move from Micronesia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Moldova
+- Moldova
 - Planning a move from Moldova to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Monaco
+- Monaco
 - Planning a move from Monaco to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Mongolia
+- Mongolia
 - Planning a move from Mongolia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Montenegro
+- Montenegro
 - Planning a move from Montenegro to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Morocco
+- Morocco
 - Planning a move from Morocco to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Mozambique
+- Mozambique
 - Planning a move from Mozambique to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Myanmar
+- Myanmar
 - Planning a move from Myanmar to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter N
 - H2: N
 - H3: Namibia
+- H3: Nauru
+- H3: Nepal
+- H3: Netherlands
+- H3: New Zealand
+- H3: Nicaragua
+- H3: Niger
+- H3: Nigeria
+- H3: North Korea
+- H3: North Macedonia
+- H3: Norway
+- N
+- Namibia
 - Planning a move from Namibia to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Nauru
+- Nauru
 - Planning a move from Nauru to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Nepal
+- Nepal
 - Planning a move from Nepal to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Netherlands
+- Netherlands
 - Planning a move from Netherlands to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: New Zealand
+- New Zealand
 - Planning a move from New Zealand to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Nicaragua
+- Nicaragua
 - Planning a move from Nicaragua to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Niger
+- Niger
 - Planning a move from Niger to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Nigeria
+- Nigeria
 - Planning a move from Nigeria to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: North Korea
+- North Korea
 - Planning a move from North Korea to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: North Macedonia
+- North Macedonia
 - Planning a move from North Macedonia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Norway
+- Norway
 - Planning a move from Norway to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter O
 - H2: O
 - H3: Oman
+- O
+- Oman
 - Planning a move from Oman to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
 
 ### Letter P
 - H2: P
 - H3: Pakistan
+- H3: Palau
+- H3: Palestine
+- H3: Panama
+- H3: Papua New Guinea
+- H3: Paraguay
+- H3: Peru
+- H3: Philippines
+- H3: Poland
+- H3: Portugal
+- P
+- Pakistan
 - Planning a move from Pakistan to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Palau
+- Palau
 - Planning a move from Palau to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Palestine
+- Palestine
 - Planning a move from Palestine to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Panama
+- Panama
 - Planning a move from Panama to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Papua New Guinea
+- Papua New Guinea
 - Planning a move from Papua New Guinea to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Paraguay
+- Paraguay
 - Planning a move from Paraguay to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Peru
+- Peru
 - Planning a move from Peru to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Philippines
+- Philippines
 - Planning a move from Philippines to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Poland
+- Poland
 - Planning a move from Poland to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Portugal
+- Portugal
 - Planning a move from Portugal to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter Q
 - H2: Q
 - H3: Qatar
+- Q
+- Qatar
 - Planning a move from Qatar to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
 
 ### Letter R
 - H2: R
 - H3: Romania
+- H3: Russia
+- H3: Rwanda
+- R
+- Romania
 - Planning a move from Romania to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Russia
+- Russia
 - Planning a move from Russia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Rwanda
+- Rwanda
 - Planning a move from Rwanda to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter S
 - H2: S
 - H3: Saint Kitts and Nevis
+- H3: Saint Lucia
+- H3: Saint Vincent and the Grenadines
+- H3: Samoa
+- H3: San Marino
+- H3: Sao Tome and Principe
+- H3: Saudi Arabia
+- H3: Senegal
+- H3: Serbia
+- H3: Seychelles
+- H3: Sierra Leone
+- H3: Singapore
+- H3: Slovakia
+- H3: Slovenia
+- H3: Solomon Islands
+- H3: Somalia
+- H3: South Africa
+- H3: South Korea
+- H3: South Sudan
+- H3: Spain
+- H3: Sri Lanka
+- H3: Sudan
+- H3: Suriname
+- H3: Sweden
+- H3: Switzerland
+- H3: Syria
+- S
+- Saint Kitts and Nevis
 - Planning a move from Saint Kitts and Nevis to Brazil works best when visas, residencies, cross-border documents,...
 - Open guide
-- H3: Saint Lucia
+- Saint Lucia
 - Planning a move from Saint Lucia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Saint Vincent and the Grenadines
+- Saint Vincent and the Grenadines
 - Planning a move from Saint Vincent and the Grenadines to Brazil works best when visas, residencies, cross-border...
-- Open guide
-- H3: Samoa
+- Samoa
 - Planning a move from Samoa to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: San Marino
+- San Marino
 - Planning a move from San Marino to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Sao Tome and Principe
+- Sao Tome and Principe
 - Planning a move from Sao Tome and Principe to Brazil works best when visas, residencies, cross-border documents,...
-- Open guide
-- H3: Saudi Arabia
+- Saudi Arabia
 - Planning a move from Saudi Arabia to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Senegal
+- Senegal
 - Planning a move from Senegal to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Serbia
+- Serbia
 - Planning a move from Serbia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Seychelles
+- Seychelles
 - Planning a move from Seychelles to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Sierra Leone
+- Sierra Leone
 - Planning a move from Sierra Leone to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Singapore
+- Singapore
 - Planning a move from Singapore to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Slovakia
+- Slovakia
 - Planning a move from Slovakia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Slovenia
+- Slovenia
 - Planning a move from Slovenia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Solomon Islands
+- Solomon Islands
 - Planning a move from Solomon Islands to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Somalia
+- Somalia
 - Planning a move from Somalia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: South Africa
+- South Africa
 - Planning a move from South Africa to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: South Korea
+- South Korea
 - Planning a move from South Korea to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: South Sudan
+- South Sudan
 - Planning a move from South Sudan to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Spain
+- Spain
 - Planning a move from Spain to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Sri Lanka
+- Sri Lanka
 - Planning a move from Sri Lanka to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Sudan
+- Sudan
 - Planning a move from Sudan to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Suriname
+- Suriname
 - Planning a move from Suriname to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Sweden
+- Sweden
 - Planning a move from Sweden to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Switzerland
+- Switzerland
 - Planning a move from Switzerland to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Syria
+- Syria
 - Planning a move from Syria to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter T
 - H2: T
 - H3: Tajikistan
+- H3: Tanzania
+- H3: Thailand
+- H3: Timor-Leste
+- H3: Togo
+- H3: Tonga
+- H3: Trinidad and Tobago
+- H3: Tunisia
+- H3: Turkey
+- H3: Turkmenistan
+- H3: Tuvalu
+- T
+- Tajikistan
 - Planning a move from Tajikistan to Brazil works best when visas, residencies, cross-border documents, and...
 - Open guide
-- H3: Tanzania
+- Tanzania
 - Planning a move from Tanzania to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Thailand
+- Thailand
 - Planning a move from Thailand to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Timor-Leste
+- Timor-Leste
 - Planning a move from Timor-Leste to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Togo
+- Togo
 - Planning a move from Togo to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Tonga
+- Tonga
 - Planning a move from Tonga to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Trinidad and Tobago
+- Trinidad and Tobago
 - Planning a move from Trinidad and Tobago to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Tunisia
+- Tunisia
 - Planning a move from Tunisia to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Turkey
+- Turkey
 - Planning a move from Turkey to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Turkmenistan
+- Turkmenistan
 - Planning a move from Turkmenistan to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Tuvalu
+- Tuvalu
 - Planning a move from Tuvalu to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter U
 - H2: U
 - H3: Uganda
+- H3: Ukraine
+- H3: United Arab Emirates
+- H3: United Kingdom
+- H3: United States
+- H3: Uruguay
+- H3: Uzbekistan
+- U
+- Uganda
 - Planning a move from Uganda to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Ukraine
+- Ukraine
 - Planning a move from Ukraine to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: United Arab Emirates
+- United Arab Emirates
 - Planning a move from United Arab Emirates to Brazil works best when visas, residencies, cross-border documents,...
-- Open guide
-- H3: United Kingdom
+- United Kingdom
 - Planning a move from United Kingdom to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: United States
+- United States
 - Planning a move from United States to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Uruguay
+- Uruguay
 - Planning a move from Uruguay to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
-- H3: Uzbekistan
+- Uzbekistan
 - Planning a move from Uzbekistan to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
 
 ### Letter V
 - H2: V
 - H3: Vanuatu
+- H3: Vatican City
+- H3: Venezuela
+- H3: Vietnam
+- V
+- Vanuatu
 - Planning a move from Vanuatu to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Vatican City
+- Vatican City
 - Planning a move from Vatican City to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Venezuela
+- Venezuela
 - Planning a move from Venezuela to Brazil works best when visas, residencies, cross-border documents, and...
-- Open guide
-- H3: Vietnam
+- Vietnam
 - Planning a move from Vietnam to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Letter Y
 - H2: Y
 - H3: Yemen
+- Y
+- Yemen
 - Planning a move from Yemen to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
 
 ### Letter Z
 - H2: Z
 - H3: Zambia
+- H3: Zimbabwe
+- Z
+- Zambia
 - Planning a move from Zambia to Brazil works best when visas, residencies, cross-border documents, and relocation...
 - Open guide
-- H3: Zimbabwe
+- Zimbabwe
 - Planning a move from Zimbabwe to Brazil works best when visas, residencies, cross-border documents, and relocation...
-- Open guide
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
 - Overview
+- How To Use
+- Letter A
+- Letter B
+- Letter C
+- Letter D
+- Letter E
+- Letter F
+- Letter G
+- Letter H
+- Letter I
+- Letter J
+- Letter K
+- Letter L
+- Letter M
+- Letter N
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - This hub gathers country-specific immigration guides so readers can approach Brazil planning with more geographic and documentary context from the start.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Open the country guide that matches your passport, current residence, or cross-border planning context, and move to consultation when the answer becomes document-specific.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, documents, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Brazilian Migration Law
-- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
 - H3: Migration Regulation Decree
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Brazilian Migration Law
+- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
+- Migration Regulation Decree
 - Regulatory decree used to interpret migration procedures, authorities, and administrative logic.
-- H3: Policia Federal - Imigracao
 - Federal Police portal for registration, migration documentation, and post-arrival obligations.
-- H3: Portal Consular - Ministerio das Relacoes Exteriores
 - Official consular portal with entry, visa, and consular reference information.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visas Attorney-led Brazil visa services by Monique Fernandes for consular preparation, entry planning, category fit, and document strategy before you move to Brazil. Hero image for the Residencies page showing Pelourinho in Salvador, Bahia in northeast Brazil. Residencies Brazil residency services by Monique Fernandes for lawful long-term stay, residence permits, registration, renewals, compliance, and life planning in Brazil. Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Naturalisation Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position. Hero image for the Other page showing the National Congress complex in Brasilia in central-west Brazil. Other Use this hub for supporting services that often make the main immigration path workable in practice, including records, translation, consular, and regularization work. Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visa Visa research becomes much easier once the purpose of entry is separated from later residence planning and consular strategy. Immigrate to Brazil consultation hero image for structured immigration planning. Start Consultation Structured intake for route analysis, chronology review, and immigration planning in Brazil.
+### Related Links
+- H2: Related pages
+- H3: Visas
+- H3: Residencies
+- H3: Naturalisation
+- H3: Other
+- H3: Visa
+- H3: Start Consultation
+- Related pages
+- Visas
+- Attorney-led Brazil visa services by Monique Fernandes for consular preparation, entry planning, category fit, and document strategy before you move to Brazil.
+- Residencies
+- Brazil residency services by Monique Fernandes for lawful long-term stay, residence permits, registration, renewals, compliance, and life planning in Brazil.
+- Naturalisation
+- Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position.
+- Other
+- Use this hub for supporting services that often make the main immigration path workable in practice, including records, translation, consular, and regularization work.
+- Visa
+- Visa research becomes much easier once the purpose of entry is separated from later residence planning and consular strategy.
+- Start Consultation
+- Structured intake for route analysis, chronology review, and immigration planning in Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Structured immigration planning with Immigrate to Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Use the country guide that best matches your situation, and move to consultation once route fit, documents, or timing depend on your own case rather than general reading.
-- Immigrate to Brazil logo for consultation booking and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Use the country guide that best matches your situation, and move to consultation once route fit, documents, or timing depend on your own case rather than general reading.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for consultation booking and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiccountries
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -1024,40 +1415,44 @@ File: `countries/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -1070,6 +1465,7 @@ File: `countries/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -1087,10 +1483,11 @@ File: `countries/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -1107,6 +1504,7 @@ File: `countries/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -1122,6 +1520,7 @@ File: `countries/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -1134,6 +1533,7 @@ File: `countries/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -1148,7 +1548,7 @@ File: `countries/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -1224,26 +1624,15 @@ File: `countries/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -1267,7 +1656,6 @@ File: `countries/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -1438,7 +1826,8 @@ File: `countries/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -1450,21 +1839,19 @@ File: `countries/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

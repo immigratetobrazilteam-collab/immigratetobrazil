@@ -7,29 +7,83 @@ File: `process/failures/index.html`
 - Browser title: Failures With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Failures
+- H2: Overview
+- H2: Situations
+- H2: Causes
+- H2: Refusals
+- H2: Delays
+- H2: Consequences
+- H2: Recovery
+- H2: Options
+- H2: Progression
+- H2: Lessons
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Approval
+- H3: Conversion
+- H3: Mistakes
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/failures/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/failures/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/failures/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/failures/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/failures/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/failures/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/failures/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/failures/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/failures/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/failures/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/failures/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Failures
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Failures page showing Anavilhanas archipelago at sunrise in Brazil.
+- H1: Failures
 - PROCESS
 - Immigrate to Brazil
-- H1: Failures
+- Failures
 - Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
-- Page highlights
-- Process Hub Assessment Approval Conversion Mistakes
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Failures And Recovery With Monique Fernandes In Brazil Immigration Cases page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Assessment
+- Approval
+- Conversion
+- Mistakes
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique uses the word failure carefully.
 - Situations
 - Clients come to Monique with many kinds of breakdowns.
 - Causes
 - Failures usually have causes that can be identified.
+- Anavilhanas archipelago at sunrise in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Failures And Recovery With Monique Fernandes In Brazil Immigration Cases page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the sunrise landscape of Anavilhanas archipelago in Brazil for the Overview section on the Failures page.
 - H2: Overview
+- Overview
 - Monique uses the word failure carefully. In immigration work, failure can mean refusal, a stalled process, a badly weakened route, or a situation that is no longer moving in a healthy direction.
 - This page is here to help clients understand:
 - what failure can look like in real immigration matters
@@ -301,11 +374,12 @@ File: `process/failures/index.html`
 - how Monique approaches recovery
 - what can still be repaired and what may need a different route
 - Failure does not always end the process, but it does require honest review.
+- the sunrise landscape of Anavilhanas archipelago in Brazil.
 
 ### Situations
-- Cinematic background of the sunrise landscape of Rio Negro Palace in Manaus in Brazil for the Situations section on the Failures page.
-- Section 02
 - H2: Situations
+- Section 02
+- Situations
 - Clients come to Monique with many kinds of breakdowns. Some are formal refusals. Others are cases that seem to be moving but are actually stuck, weakening, or becoming more risky over time.
 - Common failure situations include:
 - refusal after filing
@@ -313,11 +387,12 @@ File: `process/failures/index.html`
 - a route that was chosen badly from the start
 - a matter complicated by missing records, deadlines, or inconsistent facts
 - Naming the situation clearly is usually the first step in getting control back.
+- the sunrise landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Causes
-- Cinematic background of the wide coastline and water of Itacare coastline in Brazil for the Causes section on the Failures page.
-- Section 03
 - H2: Causes
+- Section 03
+- Causes
 - Failures usually have causes that can be identified. Monique looks for the real cause instead of treating every bad outcome as random bad luck.
 - Common causes often include:
 - weak route selection
@@ -325,11 +400,12 @@ File: `process/failures/index.html`
 - timing mistakes
 - overconfidence based on informal advice or assumptions
 - This kind of cause analysis is what helps recovery become more strategic and less reactive.
+- the wide coastline and water of Itacare coastline in Brazil.
 
 ### Refusals
-- Cinematic background of the wide coastline and water of Arraial d'Ajuda coastline in Brazil for the Refusals section on the Failures page.
-- Section 04
 - H2: Refusals
+- Section 04
+- Refusals
 - A refusal is one of the clearest kinds of failure, but it still needs interpretation. Monique helps clients read the refusal in context so the next step is based on real reasoning instead of frustration.
 - When reviewing a refusal, Monique often asks:
 - what the authority actually said
@@ -337,11 +413,12 @@ File: `process/failures/index.html`
 - whether correction, refiling, or another route is realistic
 - what should be preserved or changed for the next move
 - The refusal itself matters, but so does the process that led up to it.
+- the wide coastline and water of Arraial d'Ajuda coastline in Brazil.
 
 ### Delays
-- Cinematic background of the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil for the Delays section on the Failures page.
-- Section 05
 - H2: Delays
+- Section 05
+- Delays
 - Some failures are not formal refusals. They are delays that keep growing until the process becomes unstable. Monique helps clients distinguish between normal waiting and delay that signals a real problem.
 - Delay becomes more serious when:
 - a response or action should already have happened
@@ -349,11 +426,12 @@ File: `process/failures/index.html`
 - deadlines and obligations are getting closer
 - the file appears to need correction or follow-up
 - Delay analysis helps clients decide whether to wait, act, or seek recovery support.
+- the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil.
 
 ### Consequences
-- Cinematic background of the Fortaleza Canyon in Cambara do Sul in Brazil for the Consequences section on the Failures page.
-- Section 06
 - H2: Consequences
+- Section 06
+- Consequences
 - Failure usually affects more than the current filing. Monique explains the wider impact so clients can make the next decision with open eyes.
 - Consequences may include:
 - extra cost and stress
@@ -361,11 +439,12 @@ File: `process/failures/index.html`
 - damage to continuity
 - more work to rebuild or defend the case
 - Understanding the consequences clearly is often what motivates a stronger next move.
+- the Fortaleza Canyon in Cambara do Sul in Brazil.
 
 ### Recovery
-- Cinematic background of the beachfront and sea of Cliffs of Canoa Quebrada in Brazil for the Recovery section on the Failures page.
-- Section 07
 - H2: Recovery
+- Section 07
+- Recovery
 - Recovery begins with stabilizing the matter. Monique first tries to understand what can still be used, what should be corrected, and what direction now makes the most sense.
 - Recovery often involves:
 - reviewing the full record
@@ -373,11 +452,12 @@ File: `process/failures/index.html`
 - deciding what should be corrected before acting again
 - choosing between repair, refiling, conversion, or another strategy
 - The strongest recoveries usually begin with honesty rather than urgency.
+- the beachfront and sea of Cliffs of Canoa Quebrada in Brazil.
 
 ### Options
-- Cinematic background of the cliffs and shore of Morro Branco in Brazil for the Options section on the Failures page.
-- Section 08
 - H2: Options
+- Section 08
+- Options
 - Not every failure leads to the same option. Monique helps clients compare the realistic choices so they do not repeat the same mistake in a different form.
 - Possible recovery options may include:
 - correcting the supporting record
@@ -385,11 +465,12 @@ File: `process/failures/index.html`
 - converting to a more suitable route
 - pausing temporarily while a stronger legal basis is built
 - The right option depends on facts, timing, and what can still be supported credibly.
+- the cliffs and shore of Morro Branco in Brazil.
 
 ### Progression
-- Cinematic background of the Museum of Tomorrow in Rio de Janeiro in Brazil for the Progression section on the Failures page.
-- Section 09
 - H2: Progression
+- Section 09
+- Progression
 - Once recovery starts, the case should begin to move in a more disciplined way. Monique helps clients understand what progress now looks like so they can judge the new stage more clearly.
 - Progression after failure often means:
 - clearer route logic
@@ -397,11 +478,12 @@ File: `process/failures/index.html`
 - stronger evidence
 - more realistic expectations about timing and outcomes
 - The goal is not to erase what happened. The goal is to move forward more intelligently.
+- the Museum of Tomorrow in Rio de Janeiro in Brazil.
 
 ### Lessons
-- Cinematic background of the riverfront district of Gameleira in Rio Branco in Brazil for the Lessons section on the Failures page.
-- Section 10
 - H2: Lessons
+- Section 10
+- Lessons
 - Failure often teaches clients what the earlier stages failed to clarify. Monique uses those lessons to improve the next attempt and reduce the risk of repeating the same pattern.
 - Important lessons often include:
 - do not rely on vague advice when the facts are personal
@@ -409,53 +491,93 @@ File: `process/failures/index.html`
 - do not file before the evidence is strong enough
 - do not assume recovery will be easier than prevention
 - That is why this page matters to both current and future clients.
+- the riverfront district of Gameleira in Rio Branco in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Situations Causes Refusals Delays Consequences Recovery Options Progression Lessons
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Situations
+- Causes
+- Refusals
+- Delays
+- Consequences
+- Recovery
+- Options
+- Progression
+- Lessons
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Contact Monique Fernandes when your Brazil immigration matter has been refused, delayed, weakened, or stalled and you need a serious review of recovery options before moving again.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Assessment Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions. Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil. Approval Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations. Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Conversion Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk. Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Mistakes Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Approval
+- H3: Conversion
+- H3: Mistakes
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Assessment
+- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Approval
+- Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
+- Conversion
+- Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
+- Mistakes
+- Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Contact Monique Fernandes when your Brazil immigration matter has been refused, delayed, weakened, or stalled and you need a serious review of recovery options before moving again.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Contact Monique Fernandes when your Brazil immigration matter has been refused, delayed, weakened, or stalled and you need a serious review of recovery options before moving again.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / failures
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +586,44 @@ File: `process/failures/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +636,7 @@ File: `process/failures/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +654,11 @@ File: `process/failures/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +675,7 @@ File: `process/failures/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +691,7 @@ File: `process/failures/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +704,7 @@ File: `process/failures/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +719,7 @@ File: `process/failures/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +795,15 @@ File: `process/failures/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +827,6 @@ File: `process/failures/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +997,8 @@ File: `process/failures/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1010,19 @@ File: `process/failures/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

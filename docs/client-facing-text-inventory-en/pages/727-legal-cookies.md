@@ -7,29 +7,86 @@ File: `legal/cookies/index.html`
 - Browser title: Cookies Policy \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: This Cookies Policy explains how Monique Fernandes uses cookies and similar technologies to keep the site working, understand usage, and manage optional tracking transparently.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Cookies Policy
+- H2: Purpose of cookies in platform operation
+- H2: Categories of cookies used
+- H2: Essential cookies
+- H2: Analytical cookies
+- H2: Optional cookies and tracking systems
+- H2: Third-party integrations
+- H2: User control mechanisms
+- H2: Relationship with the Privacy Policy
+- H2: Updates and version control
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Privacy Policy
+- H3: LGPD Notice
+- H3: GDPR Notice
+- H3: Terms & Conditions
+- H3: Search
+- H3: Start Consultation
+- H2: Frequently asked questions
+- H3: Are all cookies treated the same way?
+- H3: Can I block cookies?
+- H3: Does this page replace the privacy policy?
+- H2: Need case-specific guidance?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +97,26 @@ File: `legal/cookies/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +140,7 @@ File: `legal/cookies/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +159,7 @@ File: `legal/cookies/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +168,7 @@ File: `legal/cookies/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +176,7 @@ File: `legal/cookies/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +194,17 @@ File: `legal/cookies/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +219,7 @@ File: `legal/cookies/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +229,14 @@ File: `legal/cookies/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +295,7 @@ File: `legal/cookies/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +313,7 @@ File: `legal/cookies/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,26 +334,27 @@ File: `legal/cookies/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Legal
 - Cookies Policy
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Cookies Policy page showing Rio Negro Palace in Manaus at sunrise in Brazil.
+- H1: Cookies Policy
 - LEGAL
 - How Monique Fernandes uses cookies and similar tools
-- H1: Cookies Policy
+- Cookies Policy
 - This Cookies Policy explains how Monique Fernandes uses cookies and similar technologies to keep the site working, understand usage, and manage optional tracking transparently.
-- Page highlights
-- Essential tools explained Optional tracking clarified Cookie choices respected
-- Read privacy policy
-- Submit a privacy request
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Cookies Policy page, Brazil immigration advisory, consultation, and legal compliance guidance Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Cookies should be explained in plain language. Monique Fernandes wants visitors to understand what is necessary for site operation and what is optional.
-- Why Attorney Monique Fernandes?
 - Essential tools explained
 - Optional tracking clarified
+- Cookie choices respected
+- Read privacy policy
+- Submit a privacy request
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Cookies should be explained in plain language. Monique Fernandes wants visitors to understand what is necessary for site operation and what is optional.
+- Why Attorney Monique Fernandes?
 - Attorney-led accountability
 - English and Portuguese
 - What this page covers
@@ -292,125 +363,183 @@ File: `legal/cookies/index.html`
 - Some tools keep the site working, while others help measure performance or improve the experience.
 - Practical takeaway
 - Visitors should be able to understand and manage non-essential tracking choices.
+- Rio Negro Palace in Manaus at sunrise in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Cookies Policy page, Brazil immigration advisory, consultation, and legal compliance guidance
 
 ### Purpose Of Cookies In Platform Operation
-- Cinematic background of the sunrise landscape of Rio Negro Palace in Manaus in Brazil for the Purpose of cookies in platform operation section on the Cookies Policy page.
 - H2: Purpose of cookies in platform operation
+- Purpose of cookies in platform operation
 - Cookies help the site function and may also help Monique understand how the site is being used.
 - Some cookies support technical performance, form handling, language or accessibility preferences, and basic site functionality. Others may be used to measure usage or improve performance if enabled.
+- the sunrise landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Categories Of Cookies Used
-- Cinematic background of the shoreline of Alter do Chao in warm evening light in Brazil for the Categories of cookies used section on the Cookies Policy page.
-- Section 02
 - H2: Categories of cookies used
+- Section 02
+- Categories of cookies used
 - Not all cookies do the same job.
 - For practical purposes, this site separates cookies into essential, analytical, and other optional tools where relevant. The category helps explain whether a cookie is needed for core function or used for measurement and improvement.
+- the shoreline of Alter do Chao in warm evening light in Brazil.
 
 ### Essential Cookies
-- Cinematic background of Rio de Janeiro in Brazil for the Essential cookies section on the Cookies Policy page.
-- Section 03
 - H2: Essential cookies
+- Section 03
+- Essential cookies
 - Essential cookies support basic operation.
 - These may be used to keep parts of the site functioning properly, support basic session behavior, remember selected settings, or help maintain security and form continuity.
+- Rio de Janeiro in Brazil.
 
 ### Analytical Cookies
-- Cinematic background of the sunrise landscape of Botanical Garden of Curitiba in Brazil for the Analytical cookies section on the Cookies Policy page.
-- Section 04
 - H2: Analytical cookies
+- Section 04
+- Analytical cookies
 - Analytics should serve improvement, not excess monitoring.
 - Analytical tools may be used to understand which pages people visit, how they move through the site, and where the experience needs improvement. They should be used proportionately and with attention to transparency.
+- the sunrise landscape of Botanical Garden of Curitiba in Brazil.
 
 ### Optional Cookies And Tracking Systems
-- Cinematic background of the shoreline of Bombinhas peninsula in warm evening light in Brazil for the Optional cookies and tracking systems section on the Cookies Policy page.
-- Section 05
 - H2: Optional cookies and tracking systems
+- Section 05
+- Optional cookies and tracking systems
 - Optional tools should not be treated as if they were mandatory.
 - Where optional tracking or measurement tools are used, they should be clearly distinguished from essential tools so users understand that not every tracking-related technology is required for basic access.
+- the shoreline of Bombinhas peninsula in warm evening light in Brazil.
 
 ### Third Party Integrations
-- Cinematic background of the architecture and streets of Aguas Emendadas ecological station in Brazil for the Third-party integrations section on the Cookies Policy page.
-- Section 06
 - H2: Third-party integrations
+- Section 06
+- Third-party integrations
 - Some site functions may involve third-party services.
 - If the site relies on third-party tools for analytics, messaging, or embedded functionality, those services may set or rely on their own technologies. Their handling should be considered alongside this policy and the Privacy Policy.
+- the architecture and streets of Aguas Emendadas ecological station in Brazil.
 
 ### User Control Mechanisms
-- Cinematic background of the mountain town of Campos do Jordao in Brazil for the User control mechanisms section on the Cookies Policy page.
-- Section 07
 - H2: User control mechanisms
+- Section 07
+- User control mechanisms
 - Users should have meaningful ways to manage non-essential tools.
 - Cookie settings, browser controls, and other available controls may affect how optional technologies work. Blocking some cookies can limit certain functions, but basic access should remain as workable as possible.
+- the mountain town of Campos do Jordao in Brazil.
 
 ### Relationship With The Privacy Policy
-- Cinematic background of the sunrise landscape of Delta do Parnaiba in Brazil for the Relationship with the Privacy Policy section on the Cookies Policy page.
-- Section 08
 - H2: Relationship with the Privacy Policy
+- Section 08
+- Relationship with the Privacy Policy
 - This page should be read together with the privacy rules of the practice.
 - The Cookies Policy explains a narrower topic. The Privacy Policy gives the broader framework for how information is collected, used, shared, retained, and governed.
+- the sunrise landscape of Delta do Parnaiba in Brazil.
 
 ### Updates And Version Control
-- Cinematic background of the sunrise landscape of Chapada Diamantina in Brazil for the Updates and version control section on the Cookies Policy page.
-- Section 09
 - H2: Updates and version control
+- Section 09
+- Updates and version control
 - Cookie practices may change as the site changes.
 - This policy may be updated if site tools, analytics practices, consent handling, or legal requirements change. The current published version should be treated as the working version.
+- the sunrise landscape of Chapada Diamantina in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Purpose of cookies Categories of cookies Essential cookies Analytical cookies Optional cookies and Third-party integrations User control mechanisms Relationship with the Updates and version
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Purpose Of Cookies In Platform Operation
+- Categories Of Cookies Used
+- Essential Cookies
+- Analytical Cookies
+- Optional Cookies And Tracking Systems
+- Third Party Integrations
+- User Control Mechanisms
+- Relationship With The Privacy Policy
+- Updates And Version Control
+- FAQ
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Cookies should be explained in plain language. Monique Fernandes wants visitors to understand what is necessary for site operation and what is optional.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.
-- Start Consultation WhatsApp
-- Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Privacy page showing the Curitiba skyline in southern Brazil. Privacy Policy This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil. Hero image for the Lgpd page showing the Curitiba skyline in southern Brazil. LGPD Notice This LGPD Notice explains how Monique Fernandes handles personal data under Brazil's data-protection framework when people contact her practice or use immigration services related to Brazil. Hero image for the Gdpr page showing the National Congress complex in Brasilia in central-west Brazil. GDPR Notice This GDPR Notice explains how Monique Fernandes handles personal data where an EU or EEA user expects GDPR-style transparency, rights information, and cross-border transfer disclosure. Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil. Terms & Conditions These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee. Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil. Search Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Privacy Policy
+- H3: LGPD Notice
+- H3: GDPR Notice
+- H3: Terms & Conditions
+- H3: Search
+- H3: Start Consultation
+- Related pages
+- Privacy Policy
+- This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil.
+- LGPD Notice
+- This LGPD Notice explains how Monique Fernandes handles personal data under Brazil's data-protection framework when people contact her practice or use immigration services related to Brazil.
+- GDPR Notice
+- This GDPR Notice explains how Monique Fernandes handles personal data where an EU or EEA user expects GDPR-style transparency, rights information, and cross-border transfer disclosure.
+- Terms & Conditions
+- These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.
+- Search
+- Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Curitiba skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
-- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
 - H3: Are all cookies treated the same way?
-- No. Some are essential to operation, while others are analytical or optional.
 - H3: Can I block cookies?
-- Usually yes, through browser or site controls, though some features may work differently if you do.
 - H3: Does this page replace the privacy policy?
+- Frequently asked questions
+- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
+- Are all cookies treated the same way?
+- No. Some are essential to operation, while others are analytical or optional.
+- Can I block cookies?
+- Usually yes, through browser or site controls, though some features may work differently if you do.
+- Does this page replace the privacy policy?
 - No. It explains a specific topic and should be read together with the Privacy Policy.
 
 ### Consultation Form
 - H2: Need case-specific guidance?
-- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
-- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 - H3: Monique Fernandes
-- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Need case-specific guidance?
+- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
+- Monique Fernandes
+- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
+- Book consultation
 - Move from general policy information into Monique's case-specific review of your route, documents, timing, and next step.
 - Start Consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp for operational clarification, urgency signaling, or help reaching the right Monique Fernandes service page.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiclegal / cookies
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -419,40 +548,44 @@ File: `legal/cookies/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -465,6 +598,7 @@ File: `legal/cookies/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -482,10 +616,11 @@ File: `legal/cookies/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -502,6 +637,7 @@ File: `legal/cookies/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -517,6 +653,7 @@ File: `legal/cookies/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -529,6 +666,7 @@ File: `legal/cookies/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -543,7 +681,7 @@ File: `legal/cookies/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -619,26 +757,15 @@ File: `legal/cookies/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -662,7 +789,6 @@ File: `legal/cookies/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -833,7 +959,8 @@ File: `legal/cookies/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -845,18 +972,17 @@ File: `legal/cookies/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -867,11 +993,10 @@ File: `legal/cookies/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
-
+- Cookie preferences

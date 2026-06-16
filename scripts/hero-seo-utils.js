@@ -520,7 +520,7 @@ function buildAlt(item, source, options = {}) {
   if (isPtLocale(locale)) {
     return `Imagem principal da página ${title} mostrando ${copy.scene} ${copy.regionPhrase}.`;
   }
-  return `Hero image for the ${title} page showing ${copy.scene} in ${copy.regionLabel}.`;
+  return `${copy.scene} in ${copy.regionLabel}.`;
 }
 
 function buildDescription(item, source, options = {}) {
@@ -530,7 +530,7 @@ function buildDescription(item, source, options = {}) {
   if (isPtLocale(locale)) {
     return `Imagem principal SEO da página ${title} na Immigrate to Brazil, com ${copy.scene} e contexto sobre ${imageContext(item, locale)}.`;
   }
-  return `SEO hero image for the ${title} page on Immigrate to Brazil, showing ${copy.scene} and supporting content about ${imageContext(item, locale)}.`;
+  return `${copy.scene} for ${title} guidance on Immigrate to Brazil.`;
 }
 
 function buildKeywords(item, source, options = {}) {

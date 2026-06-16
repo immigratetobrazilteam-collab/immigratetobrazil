@@ -7,29 +7,83 @@ File: `about/clients/index.html`
 - Browser title: Who Monique Fernandes Helps \| Brazil Immigration Clients \| Immigrate to Brazil
 - Meta description: Monique Fernandes works with immigrants, families, companies, entrepreneurs, remote professionals, and cross-border clients who need attorney-led guidance for Brazil-related immigration decisions.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Who Monique Fernandes Helps
+- H2: Overview
+- H2: Visa Applicants
+- H2: Residency and Regularisation Clients
+- H2: Citizenship and Naturalisation Clients
+- H2: Family Reunification and Relationship-Based Routes
+- H2: Digital Nomads and Remote Workers
+- H2: Entrepreneurs, Investors, and Founders
+- H2: Complex or Defensive Matters
+- H2: International Families and Cross-Border Clients
+- H2: Clients Who Choose Monique
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: About
+- H3: Why Work With Monique
+- H3: Results
+- H3: Testimonials
+- H3: Lawyer
+- H3: About Monique Fernandes
+- H2: Find out whether your case fits Monique's practice
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `about/clients/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `about/clients/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `about/clients/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `about/clients/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `about/clients/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `about/clients/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `about/clients/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `about/clients/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `about/clients/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `about/clients/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,24 +331,27 @@ File: `about/clients/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - About
 - Clients
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Clients page showing Rio Negro Palace in Manaus wide landscape in Brazil.
+- H1: Who Monique Fernandes Helps
 - ABOUT
 - Clients
-- H1: Who Monique Fernandes Helps
+- Who Monique Fernandes Helps
 - Monique Fernandes works with immigrants, families, companies, entrepreneurs, remote professionals, and cross-border clients who need attorney-led guidance for Brazil-related immigration decisions.
-- Page highlights
-- Results Why Us Testimonials Services
+- Results
+- Why Us
+- Testimonials
+- Services
 - Book a consultation
 - Contact on WhatsApp
-- Monique Fernandes, Brazilian immigration attorney supporting clients in Brazil and abroad.
 - Monique Fernandes
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Who Monique Fernandes helps across Brazil and remotely page, Brazil immigration advisory, relocation planning, and consultation support Immigrate to Brazil
-- Empowering Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Guiding immigrants. Promoting Brazil.
 - Attorney Monique supports people who are planning a move to Brazil, building lawful status, protecting long-term residency, or preparing for citizenship and family-based immigration pathways.
 - Practice highlights
 - Support for clients in Brazil and abroad
@@ -294,21 +364,27 @@ File: `about/clients/index.html`
 - Many clients begin by trying to identify the right visa or entry route.
 - Residency
 - Some clients need help building, renewing, or stabilizing lawful status in Brazil.
+- Rio Negro Palace in Manaus wide landscape in Brazil.
+- Page highlights
+- Monique Fernandes, Brazilian immigration attorney supporting clients in Brazil and abroad.
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Who Monique Fernandes helps across Brazil and remotely page, Brazil immigration advisory, relocation planning, and consultation support
 
 ### Overview
-- Cinematic background of the wide natural landscape of Rio Negro Palace in Manaus in Brazil for the Overview section on the Clients page.
-- Overview
 - H2: Overview
+- Overview
 - Monique Fernandes serves clients whose lives, documents, businesses, or family plans connect meaningfully to Brazil.
 - Her clients come from different countries, professions, and life stages, but they are often looking for the same things:
 - Clear legal guidance
 - Reliable communication
 - Practical next steps
 - A lawyer who understands both immigration law and cross-border realities
+- the wide natural landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Visa Applicants
-- Visas
 - H2: Visa Applicants
+- Visas
+- Visa Applicants
 - Many clients begin by trying to identify the right visa or entry route.
 - Monique helps them understand which category fits their goals and what legal strategy gives them the strongest foundation.
 - Clients in this category often need help with:
@@ -320,9 +396,9 @@ File: `about/clients/index.html`
 - Understanding required documents and timelines
 
 ### Residency And Regularisation Clients
-- Cinematic background of the shoreline of Balneario Camboriu skyline in warm evening light in Brazil for the Residency and Regularisation Clients section on the Clients page.
-- Residency
 - H2: Residency and Regularisation Clients
+- Residency
+- Residency and Regularisation Clients
 - Some clients need help building, renewing, or stabilizing lawful status in Brazil.
 - These clients are often already in Brazil and need guidance on maintaining compliance or correcting a situation before it becomes more serious.
 - Monique assists with:
@@ -332,10 +408,12 @@ File: `about/clients/index.html`
 - Regularisation matters
 - Corrections after visa or residency mistakes
 - Long-term compliance planning
+- the shoreline of Balneario Camboriu skyline in warm evening light in Brazil.
 
 ### Citizenship And Naturalisation Clients
-- Citizenship
 - H2: Citizenship and Naturalisation Clients
+- Citizenship
+- Citizenship and Naturalisation Clients
 - Other clients are focused on permanence and future nationality in Brazil.
 - These matters often require careful review of residence history, eligibility requirements, supporting documents, and timing.
 - Monique helps clients prepare for citizenship with realistic expectations and structured planning.
@@ -348,8 +426,9 @@ File: `about/clients/index.html`
 - Long-term legal planning
 
 ### Family Reunification And Relationship Based Routes
-- Family
 - H2: Family Reunification and Relationship-Based Routes
+- Family
+- Family Reunification and Relationship-Based Routes
 - Family-linked immigration is one of the most personal areas of Monique's practice.
 - She works with couples, spouses, partners, parents, and families who need to align immigration law with real family life.
 - Clients in this category often need help with:
@@ -361,8 +440,9 @@ File: `about/clients/index.html`
 - Long-term family stability in Brazil
 
 ### Digital Nomads And Remote Workers
-- Nomads
 - H2: Digital Nomads and Remote Workers
+- Nomads
+- Digital Nomads and Remote Workers
 - Monique also supports clients whose work is already international.
 - Digital nomads, freelancers, and remote professionals often need a legal route that supports their lifestyle while protecting long-term immigration compliance.
 - These clients commonly need guidance on:
@@ -374,8 +454,9 @@ File: `about/clients/index.html`
 - Transitioning from temporary to longer-term status
 
 ### Entrepreneurs Investors And Founders
-- Business
 - H2: Entrepreneurs, Investors, and Founders
+- Business
+- Entrepreneurs, Investors, and Founders
 - Business-minded clients often need immigration guidance connected to investment, company structure, or future business activity in Brazil.
 - Monique helps entrepreneurs and founders understand what is legally required before a business plan can support an immigration route.
 - These clients may need help with:
@@ -387,8 +468,9 @@ File: `about/clients/index.html`
 - Cross-border business considerations
 
 ### Complex Or Defensive Matters
-- Complex
 - H2: Complex or Defensive Matters
+- Complex
+- Complex or Defensive Matters
 - Some clients come to Monique when the situation is already difficult.
 - They may be dealing with overstays, missed deadlines, weak route choices, incomplete records, or previous legal advice that created additional problems.
 - Monique helps bring order to these cases before the situation becomes more serious.
@@ -401,8 +483,9 @@ File: `about/clients/index.html`
 - Sensitive or higher-risk immigration situations
 
 ### International Families And Cross Border Clients
-- International
 - H2: International Families and Cross-Border Clients
+- International
+- International Families and Cross-Border Clients
 - Many of Monique's clients are managing more than one jurisdiction at once.
 - Their cases may involve foreign documents, consular procedures, multilingual communication, family life across countries, or business interests outside Brazil.
 - Monique's remote model is designed to support clients wherever they are located.
@@ -415,8 +498,9 @@ File: `about/clients/index.html`
 - Coordinating timelines across countries
 
 ### Clients Who Choose Monique
-- Client Fit
 - H2: Clients Who Choose Monique
+- Client Fit
+- Clients Who Choose Monique
 - The clients who choose Monique are usually looking for seriousness, clarity, and professional legal guidance.
 - They often value:
 - Attorney-led support
@@ -429,50 +513,91 @@ File: `about/clients/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Visas Residency Citizenship Family Nomads Business Complex International Client Fit
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Visa Applicants
+- Residency And Regularisation Clients
+- Citizenship And Naturalisation Clients
+- Family Reunification And Relationship Based Routes
+- Digital Nomads And Remote Workers
+- Entrepreneurs Investors And Founders
+- Complex Or Defensive Matters
+- International Families And Cross Border Clients
+- Clients Who Choose Monique
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Attorney Monique supports people who are planning a move to Brazil, building lawful status, protecting long-term residency, or preparing for citizenship and family-based immigration pathways.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If your situation sounds similar to the kinds of clients Monique Fernandes serves, consultation is the right next step. Use WhatsApp if you want help understanding where your case fits before booking.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and route execution remain case-specific and follow review of chronology, documents, and timing.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the About page showing the Sao Paulo skyline in southeast Brazil. About Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking. Hero image for the Why Us page showing the Sao Paulo skyline in southeast Brazil. Why Work With Monique Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration. Hero image for the Results page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Results Monique Fernandes defines results through clarity, preparation, stronger legal positioning, and better-managed immigration progress, not through unrealistic guarantees. Hero image for the Testimonials page showing the historic hillside architecture of Ouro Preto in southeast Brazil. Testimonials Public reviews show how clients describe Monique Fernandes' clarity, professionalism, responsiveness, and support across Brazil-related legal matters. Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil. Lawyer A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil. Hero image for the About page showing the Sao Paulo skyline in southeast Brazil. About Monique Fernandes Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.
+### Related Links
+- H2: Related pages
+- H3: About
+- H3: Why Work With Monique
+- H3: Results
+- H3: Testimonials
+- H3: Lawyer
+- H3: About Monique Fernandes
+- Related pages
+- About
+- Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.
+- Why Work With Monique
+- Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.
+- Results
+- Monique Fernandes defines results through clarity, preparation, stronger legal positioning, and better-managed immigration progress, not through unrealistic guarantees.
+- Testimonials
+- Public reviews show how clients describe Monique Fernandes' clarity, professionalism, responsiveness, and support across Brazil-related legal matters.
+- Lawyer
+- A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.
+- About Monique Fernandes
+- Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.
+- the Sao Paulo skyline in southeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the historic hillside architecture of Ouro Preto in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
 
 ### Consultation Form
 - H2: Find out whether your case fits Monique's practice
-- If your situation sounds close to the kinds of clients Monique Fernandes serves, consultation is the right next step. Use WhatsApp if you want help understanding whether your route belongs here before booking.
-- Monique Fernandes, Brazilian immigration attorney, ready to discuss a consultation.
 - H3: Monique Fernandes
-- Attorney-led immigration guidance in English and Portuguese, with remote support for clients in Brazil and abroad.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Find out whether your case fits Monique's practice
+- If your situation sounds close to the kinds of clients Monique Fernandes serves, consultation is the right next step. Use WhatsApp if you want help understanding whether your route belongs here before booking.
+- Monique Fernandes
+- Attorney-led immigration guidance in English and Portuguese, with remote support for clients in Brazil and abroad.
+- Book consultation
 - Use consultation for route fit, chronology review, document analysis, and structured planning tailored to your situation.
 - Book a consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification, urgency signaling, or help understanding the correct route.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to discuss a consultation.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicabout / clients
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -481,40 +606,44 @@ File: `about/clients/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -527,6 +656,7 @@ File: `about/clients/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -544,10 +674,11 @@ File: `about/clients/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -564,6 +695,7 @@ File: `about/clients/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -579,6 +711,7 @@ File: `about/clients/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -591,6 +724,7 @@ File: `about/clients/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -605,7 +739,7 @@ File: `about/clients/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -681,26 +815,15 @@ File: `about/clients/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -724,7 +847,6 @@ File: `about/clients/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -895,7 +1017,8 @@ File: `about/clients/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -907,21 +1030,19 @@ File: `about/clients/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

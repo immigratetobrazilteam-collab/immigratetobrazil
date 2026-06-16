@@ -72,7 +72,7 @@
               "Nenhum resultado correspondeu a <strong>{query}</strong>. Tente um termo mais amplo, como visto, residencia, naturalizacao, custo ou consulta."
           }
         : {
-            prompt: "Use a keyword to search the site.",
+            prompt: "Search by visa, residency, citizenship, Brazil city, or topic.",
             unavailable: "Search is temporarily unavailable.",
             noResults:
               "No results matched <strong>{query}</strong>. Try a broader term such as visa, residency, naturalisation, cost, or consultation."

@@ -7,29 +7,89 @@ File: `start-consultation/index.html`
 - Browser title: Start Consultation \| Immigrate to Brazil \| Immigrate to Brazil
 - Meta description: How to send the first summary of your matter, pay correctly, and move into a structured first review.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Request a Consultation
+- H2: Overview
+- H2: What to prepare before requesting a consultation
+- H2: Request a consultation
+- H2: Consultation request flow
+- H2: Payment before scheduling
+- H2: 36-hour timing rule
+- H2: Manual review and confirmation
+- H2: What to prepare
+- H2: Intake fields
+- H2: Document uploads
+- H2: Scope boundaries
+- H2: What makes the first review useful
+- H2: Information that changes the answer
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Payment Terms
+- H3: Form & Intake Policy
+- H3: Consultation
+- H3: Services
+- H3: Refund Policy
+- H3: About
+- H2: Frequently asked questions
+- H3: Is a consultation the right first step if I am not sure which route fits me?
+- H3: What can Immigrate to Brazil help me understand in a consultation?
+- H3: Do I need every document ready before I book?
+- H3: How does booking and confirmation work?
+- H3: What happens after the consultation?
+- H2: Get the Brazilian Residency Permit Care Guide
+- H2: Send an inquiry
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +100,26 @@ File: `start-consultation/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +143,7 @@ File: `start-consultation/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +162,7 @@ File: `start-consultation/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +171,7 @@ File: `start-consultation/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +179,7 @@ File: `start-consultation/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +197,17 @@ File: `start-consultation/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +222,7 @@ File: `start-consultation/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +232,14 @@ File: `start-consultation/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +298,7 @@ File: `start-consultation/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +316,7 @@ File: `start-consultation/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,24 +337,25 @@ File: `start-consultation/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Start Consultation
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Start Consultation page showing Iguazu Falls on the Brazilian side in Brazil.
+- H1: Request a Consultation
 - FOUNDATION
 - Consultation and intake
-- H1: Request a Consultation
+- Request a Consultation
 - How to send the first summary of your matter, pay correctly, and move into a structured first review.
-- Page highlights
-- Structured First Review Manual Confirmation Bilingual Consultations
+- Structured First Review
+- Manual Confirmation
+- Bilingual Consultations
 - Request Consultation
 - View sections
-- Immigrate to Brazil brand wordmark with the site logo
 - Immigrate
 - to Brazil
-- Supporting Immigrants — Promoting Brazil
-- Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning. Attorney Monique Fernandes and Immigration Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning with Monique Fernandes.
 - Why Attorney Monique Fernandes?
 - Attorney-led intake
 - Document-based assessment
@@ -294,9 +368,13 @@ File: `start-consultation/index.html`
 - Your objective, current status, available documents, and any deadline already in view.
 - What to expect
 - A structured first review, bilingual support, and no promise of filing or approval.
+- Iguazu Falls on the Brazilian side in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Introduction
 - H2: Overview
+- Overview
 - How the consultation request works, what to prepare, and what happens before a meeting is confirmed.
 - A consultation should begin with clear expectations. The request comes first, payment follows, and scheduling only moves ahead after proof is checked and the timing rule is respected.
 - A useful first review usually begins with the objective, the current status, the key dates, and the documents already available. That is what allows route options, risks, and missing records to be identified in a structured way.
@@ -311,6 +389,7 @@ File: `start-consultation/index.html`
 
 ### Highlights
 - H2: What to prepare before requesting a consultation
+- What to prepare before requesting a consultation
 - Your current country of residence and current immigration status.
 - Any deadlines, travel dates, or appointment windows already known.
 - Passports, visas, residence cards, civil certificates, or company documents already available.
@@ -318,6 +397,7 @@ File: `start-consultation/index.html`
 
 ### Consultation Form
 - H2: Request a consultation
+- Request a consultation
 - Use this form to send the first summary of your matter. Requests are reviewed manually before consultation is confirmed.
 
 ### Form Group 01 - Full Name
@@ -341,65 +421,7 @@ File: `start-consultation/index.html`
 ### Form Group 07 - Select your service
 - Select your service
 - Choose a route
-- Artistic Visa
-- Business Visa
-- Educational Visa
-- Exchange Visa
-- Nomad Visa
-- Diplomatic Visa
-- Family Visa
-- Humanitarian Visa
-- Investor Visa
-- Journalist Visa
-- Medical Visa
-- Religious Visa
-- Research Visa
-- Retiree Visa
-- Sports Visa
-- Startup Visa
-- Student Visa
-- Tourist Visa
-- Transit Visa
-- Volunteer Visa
-- Work Visa
-- CPLP Residency
-- MERCOSUL Residency
-- Nomad Residency
-- Educational Residency
-- Exchange Residency
-- Reunion Residency
-- Health Residency
-- Humanitarian Residency
-- Investor Residency
-- Religious Residency
-- Retiree Residency
-- Research Residency
-- Skilled Residency
-- Study Residency
-- Work Residency
-- Youth Residency
-- Volunteer Residency
-- Ordinary Naturalisation
-- Extraordinary Naturalisation
-- Provisional Naturalisation
-- Special Naturalisation
-- Renunciation Naturalisation
-- Reacquisition Naturalisation
-- Deportation
-- Expulsion
-- Extradition
-- Appeals
-- Fines
-- Litigation
-- Consular
-- Records
-- Translation
-- Regularization
-- Consultation
-- Strategy
-- Compliance
-- Representation
-- Corporate
+- Artistic Visa Business Visa Educational Visa Exchange Visa Nomad Visa Diplomatic Visa Family Visa Humanitarian Visa Investor Visa Journalist Visa Medical Visa Religious Visa Research Visa Retiree Visa Sports Visa Startup Visa Student Visa Tourist Visa Transit Visa Volunteer Visa Work Visa CPLP Residency MERCOSUL Residency Nomad Residency Educational Residency Exchange Residency Reunion Residency Health Residency Humanitarian Residency Investor Residency Religious Residency Retiree Residency Research Residency Skilled Residency Study Residency Work Residency Youth Residency Volunteer Residency Ordinary Naturalisation Extraordinary Naturalisation Provisional Naturalisation Special Naturalisation Renunciation Naturalisation Reacquisition Naturalisation Deportation Expulsion Extradition Appeals Fines Litigation Consular Records Translation Regularization Consultation Strategy Compliance Representation Corporate
 - Not sure yet
 - Other
 
@@ -417,12 +439,13 @@ File: `start-consultation/index.html`
 - Submit consultation request
 
 ### Topic - Consultation request flow
-- Cinematic background of Iguazu Falls in Brazil for the Consultation request flow section on the Start Consultation page.
+- Iguazu Falls in Brazil.
 
 ### Topic Heading
-- consultation intake 01
 - H2: Consultation request flow
-- consultation request flow, the current stage, and the next practical check.
+- consultation intake 01
+- Consultation request flow
+- Use this page to understand the consultation request flow, payment timing, manual review, and the next practical check.
 
 ### Topic Body
 - Before a consultation is scheduled, consultation request flow affects what can happen next. A useful first consultation usually starts with the objective, the current immigration position, the key dates, the documents already available, and the questions the client most needs answered. The first review works best with passports, visas or cards, civil certificates, sponsor or company records where relevant, and a short timeline of key events.
@@ -440,11 +463,12 @@ File: `start-consultation/index.html`
 - Prepare the core facts.
 
 ### Topic - Payment before scheduling
-- Cinematic background of Brasilia in Brazil for the Payment before scheduling section on the Start Consultation page.
+- Brasilia in Brazil.
 
 ### Topic Heading
-- consultation intake 02
 - H2: Payment before scheduling
+- consultation intake 02
+- Payment before scheduling
 - payment before scheduling, the current stage, and the next practical check.
 
 ### Topic Body
@@ -463,11 +487,12 @@ File: `start-consultation/index.html`
 - Pay correctly and send proof.
 
 ### Topic - 36-hour timing rule
-- Cinematic background of the sunrise landscape of Amazon river basin in Brazil for the 36-hour timing rule section on the Start Consultation page.
+- the sunrise landscape of Amazon river basin in Brazil.
 
 ### Topic Heading
-- consultation intake 03
 - H2: 36-hour timing rule
+- consultation intake 03
+- 36-hour timing rule
 - 36-hour timing rule, the current stage, and the next practical check.
 
 ### Topic Body
@@ -486,11 +511,12 @@ File: `start-consultation/index.html`
 - Check dates before acting.
 
 ### Topic - Manual review and confirmation
-- Cinematic background of Curitiba in Brazil for the Manual review and confirmation section on the Start Consultation page.
+- Curitiba in Brazil.
 
 ### Topic Heading
-- consultation intake 04
 - H2: Manual review and confirmation
+- consultation intake 04
+- Manual review and confirmation
 - manual review and confirmation, the current stage, and the next practical check.
 
 ### Topic Body
@@ -509,11 +535,12 @@ File: `start-consultation/index.html`
 - Prepare the core facts.
 
 ### Topic - What to prepare
-- Cinematic background of Florianopolis in Brazil for the What to prepare section on the Start Consultation page.
+- Florianopolis in Brazil.
 
 ### Topic Heading
-- consultation intake 05
 - H2: What to prepare
+- consultation intake 05
+- What to prepare
 - what to prepare, the current stage, and the next practical check.
 
 ### Topic Body
@@ -532,11 +559,12 @@ File: `start-consultation/index.html`
 - Organize the file early.
 
 ### Topic - Intake fields
-- Cinematic background of the wide natural landscape of Iguazu Falls on the Brazilian side in Brazil for the Intake fields section on the Start Consultation page.
+- the wide natural landscape of Iguazu Falls on the Brazilian side in Brazil.
 
 ### Topic Heading
-- consultation intake 06
 - H2: Intake fields
+- consultation intake 06
+- Intake fields
 - intake fields, the current stage, and the next practical check.
 
 ### Topic Body
@@ -555,11 +583,12 @@ File: `start-consultation/index.html`
 - Prepare the core facts.
 
 ### Topic - Document uploads
-- Cinematic background of the waterfront and skyline of Aguas Emendadas ecological station in Brazil for the Document uploads section on the Start Consultation page.
+- the waterfront and skyline of Aguas Emendadas ecological station in Brazil.
 
 ### Topic Heading
-- consultation intake 07
 - H2: Document uploads
+- consultation intake 07
+- Document uploads
 - document uploads, the current stage, and the next practical check.
 
 ### Topic Body
@@ -578,11 +607,12 @@ File: `start-consultation/index.html`
 - Organize the file early.
 
 ### Topic - Scope boundaries
-- Cinematic background of the civic center and avenues of Goiania in Brazil for the Scope boundaries section on the Start Consultation page.
+- the civic center and avenues of Goiania in Brazil.
 
 ### Topic Heading
-- consultation intake 08
 - H2: Scope boundaries
+- consultation intake 08
+- Scope boundaries
 - scope boundaries, the current stage, and the next practical check.
 
 ### Topic Body
@@ -601,8 +631,9 @@ File: `start-consultation/index.html`
 - Prepare the core facts.
 
 ### Topic Heading
-- Expanded context 01
 - H2: What makes the first review useful
+- Expanded context 01
+- What makes the first review useful
 - what makes the first review useful, the current stage, and the next practical check.
 
 ### Topic Body
@@ -621,8 +652,9 @@ File: `start-consultation/index.html`
 - Turn the topic into a next step.
 
 ### Topic Heading
-- Expanded context 02
 - H2: Information that changes the answer
+- Expanded context 02
+- Information that changes the answer
 - information that changes the answer, the current stage, and the next practical check.
 
 ### Topic Body
@@ -642,69 +674,118 @@ File: `start-consultation/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Consultation request flow Payment before scheduling 36-hour timing rule Manual review and to prepare Intake fields Document uploads Scope boundaries makes the first Information that changes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Introduction
+- Trust Markers
+- Highlights
+- Consultation Form
+- Form Group 01 - Full Name
+- Form Group 02 - Email
+- Form Group 03 - Phone / WhatsApp
+- Form Group 04 - Occupation
+- Form Group 05 - Country
+- Form Group 06 - Current immigration stage
+- Form Group 07 - Select your service
+- Form Group 08 - Case reference (optional)
+- Form Group 09 - Upload documents
+- Form Group 10 - Notes / message
+- Form Note
+- Topic - Consultation request flow
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning. Attorney Monique Fernandes and Immigration Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Private-client Brazil immigration guidance built around clarity, careful preparation, and realistic next-step planning with Monique Fernandes.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- consultation request flow, the current stage, and the next practical check.
-- Start Consultation WhatsApp
-- Representation and filing strategy remain case-specific and follow review of the record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil. Payment Terms These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil. Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil. Form & Intake Policy This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Consultation Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil. Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Refund Policy This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil. Hero image for the About page showing the Sao Paulo skyline in southeast Brazil. About Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.
+### Related Links
+- H2: Related pages
+- H3: Payment Terms
+- H3: Form & Intake Policy
+- H3: Consultation
+- H3: Services
+- H3: Refund Policy
+- H3: About
+- Related pages
+- Payment Terms
+- These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.
+- Form & Intake Policy
+- This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.
+- Consultation
+- Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Refund Policy
+- This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.
+- About
+- Explore the pages that introduce Monique Fernandes, explain how her Brazil immigration practice works, and show what clients can expect before booking.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- an aerial view of the Amazon river basin in northern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
+- Frequently asked questions
 - Short answers about how Immigrate to Brazil can help with this topic.
 
 ### FAQ Item 01 - What should you know about consultation request flow before requesting consultation?
 - H3: Is a consultation the right first step if I am not sure which route fits me?
+- Is a consultation the right first step if I am not sure which route fits me?
 - Yes. Many people book a consultation because they need clarity before choosing a route, paying for the wrong service, or moving too quickly without understanding the bigger picture.
 
 ### FAQ Item 02 - What should you know about payment before scheduling before requesting consultation?
 - H3: What can Immigrate to Brazil help me understand in a consultation?
+- What can Immigrate to Brazil help me understand in a consultation?
 - A consultation can help you understand which options may fit, what risks or timing issues matter most, what should happen first, and where more focused support may be needed afterward.
 
 ### FAQ Item 03 - What should you know about 36-hour timing rule before requesting consultation?
 - H3: Do I need every document ready before I book?
+- Do I need every document ready before I book?
 - No. You do not need a perfect file before booking. What helps most is a clear summary of your situation, your main questions, and any key documents or timing details you already have.
 
 ### FAQ Item 04 - What should you know about manual review and confirmation before requesting consultation?
 - H3: How does booking and confirmation work?
+- How does booking and confirmation work?
 - Consultation requests are reviewed manually. Payment, proof, and scheduling are handled in sequence, and a time is only treated as confirmed after manual confirmation in writing.
 
 ### FAQ Item 05 - What should you know about what to prepare before requesting consultation?
 - H3: What happens after the consultation?
+- What happens after the consultation?
 - After the consultation, the next step depends on your situation. That may mean moving into a clearer plan, preparing for a service, gathering more information, or deciding that a different direction makes more sense.
 
 ### Residency Permit Download
+- H2: Get the Brazilian Residency Permit Care Guide
 - Residency Permit PDF
-- H2: Get The Brazilian Residency Permit Care Guide
+- Get the Brazilian Residency Permit Care Guide
 - A focused PDF about taking care of your Brazilian residency permit, keeping records organized, and staying aware of renewal and compliance issues. Enter your name and email to unlock it.
-- Residency permit guide details
 - Residency Care
 - Renewal Awareness
-- PDF Download
+- PDF download
 - Helpful for current residents thinking about continuity and compliance.
 - Built around practical reminders and document awareness.
 - Delivered immediately after secure submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - The PDF opens after your secure submission is complete.
 - Unlock Residency Permit PDF
+- Residency permit guide details
+- Your full name
+- you@domain.com
 
 ### Consultation Form
 - H2: Send an inquiry
+- Send an inquiry
 - Use this form to send the first summary of your matter. The team reviews requests manually and replies with the next practical step.
 
 ### Form Group 11 - Full Name
@@ -719,65 +800,7 @@ File: `start-consultation/index.html`
 ### Form Group 14 - Select your service
 - Select your service
 - Choose a route
-- Artistic Visa
-- Business Visa
-- Educational Visa
-- Exchange Visa
-- Nomad Visa
-- Diplomatic Visa
-- Family Visa
-- Humanitarian Visa
-- Investor Visa
-- Journalist Visa
-- Medical Visa
-- Religious Visa
-- Research Visa
-- Retiree Visa
-- Sports Visa
-- Startup Visa
-- Student Visa
-- Tourist Visa
-- Transit Visa
-- Volunteer Visa
-- Work Visa
-- CPLP Residency
-- MERCOSUL Residency
-- Nomad Residency
-- Educational Residency
-- Exchange Residency
-- Reunion Residency
-- Health Residency
-- Humanitarian Residency
-- Investor Residency
-- Religious Residency
-- Retiree Residency
-- Research Residency
-- Skilled Residency
-- Study Residency
-- Work Residency
-- Youth Residency
-- Volunteer Residency
-- Ordinary Naturalisation
-- Extraordinary Naturalisation
-- Provisional Naturalisation
-- Special Naturalisation
-- Renunciation Naturalisation
-- Reacquisition Naturalisation
-- Deportation
-- Expulsion
-- Extradition
-- Appeals
-- Fines
-- Litigation
-- Consular
-- Records
-- Translation
-- Regularization
-- Consultation
-- Strategy
-- Compliance
-- Representation
-- Corporate
+- Artistic Visa Business Visa Educational Visa Exchange Visa Nomad Visa Diplomatic Visa Family Visa Humanitarian Visa Investor Visa Journalist Visa Medical Visa Religious Visa Research Visa Retiree Visa Sports Visa Startup Visa Student Visa Tourist Visa Transit Visa Volunteer Visa Work Visa CPLP Residency MERCOSUL Residency Nomad Residency Educational Residency Exchange Residency Reunion Residency Health Residency Humanitarian Residency Investor Residency Religious Residency Retiree Residency Research Residency Skilled Residency Study Residency Work Residency Youth Residency Volunteer Residency Ordinary Naturalisation Extraordinary Naturalisation Provisional Naturalisation Special Naturalisation Renunciation Naturalisation Reacquisition Naturalisation Deportation Expulsion Extradition Appeals Fines Litigation Consular Records Translation Regularization Consultation Strategy Compliance Representation Corporate
 - Not sure yet
 - Other
 
@@ -798,40 +821,44 @@ File: `start-consultation/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -844,6 +871,7 @@ File: `start-consultation/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -861,10 +889,11 @@ File: `start-consultation/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -881,6 +910,7 @@ File: `start-consultation/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -896,6 +926,7 @@ File: `start-consultation/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -908,6 +939,7 @@ File: `start-consultation/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -922,7 +954,7 @@ File: `start-consultation/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -998,26 +1030,15 @@ File: `start-consultation/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -1041,7 +1062,6 @@ File: `start-consultation/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -1212,7 +1232,8 @@ File: `start-consultation/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -1224,18 +1245,17 @@ File: `start-consultation/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -1246,10 +1266,10 @@ File: `start-consultation/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
+- Cookie preferences

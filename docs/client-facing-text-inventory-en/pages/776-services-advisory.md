@@ -7,29 +7,106 @@ File: `services/advisory/index.html`
 - Browser title: Advisory \| Brazil Immigration Services \| Immigrate to Brazil
 - Meta description: Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems multiply.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Advisory
+- H2: Overview
+- H2: Explore this hub
+- H3: Services
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- H2: Who This Hub Is Usually For
+- H2: What Monique Helps Clarify Across These Services
+- H2: How To Choose the Right Starting Point
+- H2: When Consultation May Help
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- H2: Who This Hub Is Usually For
+- H2: What Monique Helps Clarify Across These Services
+- H2: How To Choose the Right Starting Point
+- H2: When Consultation May Help
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- H2: Explore The Service Families
+- H2: How To Choose The Right Starting Point
+- H2: If You Are Between Categories
+- H2: Best Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Lei de Migracao - Lei 13.445/2017
+- H3: Decreto 9.199/2017
+- H2: Related pages
+- H3: Services
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +117,26 @@ File: `services/advisory/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +160,7 @@ File: `services/advisory/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +179,7 @@ File: `services/advisory/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +188,7 @@ File: `services/advisory/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +196,7 @@ File: `services/advisory/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +214,17 @@ File: `services/advisory/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +239,7 @@ File: `services/advisory/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +249,14 @@ File: `services/advisory/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +315,7 @@ File: `services/advisory/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +333,7 @@ File: `services/advisory/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,22 +354,28 @@ File: `services/advisory/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Services
 - Advisory
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Advisory page showing Historic center of Pirenopolis in Brazil.
+- H1: Advisory
 - SERVICES
 - Immigrate to Brazil
-- H1: Advisory
+- Advisory
 - Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems become harder to fix.
-- Page highlights
-- Services Hub Consultation Strategy Compliance Corporate Representation
+- Services Hub
+- Consultation
+- Strategy
+- Compliance
+- Corporate
+- Representation
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Advisory Services For Clarity, Strategy, And Better Early Decisions page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems multiply. Her approach focuses on clear explanation, practical next steps, and attorney-led support in English and Portuguese.
 - Why Attorney Monique Fernandes?
 - Attorney-led advisor guidance
@@ -294,52 +390,55 @@ File: `services/advisory/index.html`
 - This hub is for people who need a clearer way to compare advisory services before choosing the next move.
 - What Monique Helps Clarify
 - The focus is on legal fit, preparation, timing, and what should happen next across each service.
+- Historic center of Pirenopolis in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Advisory Services For Clarity, Strategy, And Better Early Decisions page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the historic center of Pirenopolis in Brazil for the Overview section on the Advisory page.
 - H2: Overview
+- Overview
 - Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems become harder to fix.
 - This hub is designed for people who want a clearer way to compare advisory services before they commit to the wrong next step.
 - The focus is not only on category names. It is on legal fit, preparation, timing, and how each service connects to the wider case.
 - The goal is to make the starting point clearer before time, money, or energy are spent in the wrong direction.
+- the historic center of Pirenopolis in Brazil.
 
 ### Hub Menu
 - H2: Explore this hub
-- Use the cards below to move directly into the page that best matches the question, route, place, or stage you are trying to understand next.
-- Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
 - H3: Services
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- Explore this hub
+- Use the cards below to choose the topic that best matches the question, place, or stage you are trying to understand next.
+- Services
 - Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
 - Open page
-- Immigrate to Brazil consultation hero image for structured immigration planning.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Start Consultation
+- Start Consultation
 - Structured intake for route analysis, chronology review, and immigration planning in Brazil.
-- Open page
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Strategy
+- Strategy
 - Strategy is where Monique Fernandes compares legal pathways, sequencing, and trade-offs so a Brazil immigration plan can move forward with clearer direction instead of guesswork.
-- Open page
-- Hero image for the Compliance page showing the Curitiba skyline in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Compliance
+- Compliance
 - Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
-- Open page
-- Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Corporate
+- Corporate
 - Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
-- Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Representation
+- Representation
 - Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
+- an aerial view of the Amazon river basin in northern Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Structured immigration planning with Immigrate to Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### Section
-- Section 02
 - H2: Who This Hub Is Usually For
+- Section 02
+- Who This Hub Is Usually For
 - Monique usually sees people arrive at the advisory services hub when they know the issue belongs in this part of immigration law, but they still need clearer guidance before moving forward.
 - Common situations include:
 - People comparing more than one service.
@@ -349,8 +448,9 @@ File: `services/advisory/index.html`
 - People whose earlier advice felt incomplete or inconsistent.
 
 ### Section
-- Section 03
 - H2: What Monique Helps Clarify Across These Services
+- Section 03
+- What Monique Helps Clarify Across These Services
 - Monique uses the advisory services pages to help clients think beyond labels and focus on how the case should actually be handled.
 - She usually helps clarify:
 - Which service is closest to the client's real plans.
@@ -360,8 +460,9 @@ File: `services/advisory/index.html`
 - When attorney-led review becomes more useful than general research.
 
 ### Section
-- Section 04
 - H2: How To Choose the Right Starting Point
+- Section 04
+- How To Choose the Right Starting Point
 - The best starting point inside the advisory services hub is usually the page that matches the client's real pressure point, not only the most familiar category name.
 - Useful questions at this stage include:
 - What is the real legal purpose behind the next step?
@@ -370,8 +471,14 @@ File: `services/advisory/index.html`
 - Which option creates stronger continuity for later steps in Brazil?
 
 ### Section
-- Section 05
 - H2: When Consultation May Help
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- Section 05
+- When Consultation May Help
 - A consultation becomes useful when the answer now depends on the client's real facts, timing, and wider plans rather than public information alone.
 - A consultation may be useful for:
 - Choosing the right service.
@@ -379,35 +486,28 @@ File: `services/advisory/index.html`
 - Preparing for filing, response, or the next formal step.
 - Correcting a refusal, weak earlier strategy, or wrong assumption.
 - Connecting the present issue to longer-term plans in Brazil.
-- Immigrate to Brazil consultation hero image for structured immigration planning.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Start Consultation
+- Start Consultation
 - Structured intake for route analysis, chronology review, and immigration planning in Brazil.
 - Open page
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Strategy
+- Strategy
 - Strategy is where Monique Fernandes compares legal pathways, sequencing, and trade-offs so a Brazil immigration plan can move forward with clearer direction instead of guesswork.
-- Open page
-- Hero image for the Compliance page showing the Curitiba skyline in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Compliance
+- Compliance
 - Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
-- Open page
-- Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Corporate
+- Corporate
 - Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
-- Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Representation
+- Representation
 - Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
+- Structured immigration planning with Immigrate to Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### Section
-- Section 02
 - H2: Who This Hub Is Usually For
+- Section 02
+- Who This Hub Is Usually For
 - Monique usually sees people arrive at the advisory services hub when they know the issue belongs in this part of immigration law, but they still need clearer guidance before moving forward.
 - Common situations include:
 - People comparing more than one service.
@@ -417,8 +517,9 @@ File: `services/advisory/index.html`
 - People whose earlier advice felt incomplete or inconsistent.
 
 ### Section
-- Section 03
 - H2: What Monique Helps Clarify Across These Services
+- Section 03
+- What Monique Helps Clarify Across These Services
 - Monique uses the advisory services pages to help clients think beyond labels and focus on how the case should actually be handled.
 - She usually helps clarify:
 - Which service is closest to the client's real plans.
@@ -428,8 +529,9 @@ File: `services/advisory/index.html`
 - When attorney-led review becomes more useful than general research.
 
 ### Section
-- Section 04
 - H2: How To Choose the Right Starting Point
+- Section 04
+- How To Choose the Right Starting Point
 - The best starting point inside the advisory services hub is usually the page that matches the client's real pressure point, not only the most familiar category name.
 - Useful questions at this stage include:
 - What is the real legal purpose behind the next step?
@@ -438,8 +540,14 @@ File: `services/advisory/index.html`
 - Which option creates stronger continuity for later steps in Brazil?
 
 ### Section
-- Section 05
 - H2: When Consultation May Help
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- Section 05
+- When Consultation May Help
 - A consultation becomes useful when the answer now depends on the client's real facts, timing, and wider plans rather than public information alone.
 - A consultation may be useful for:
 - Choosing the right service.
@@ -447,36 +555,28 @@ File: `services/advisory/index.html`
 - Preparing for filing, response, or the next formal step.
 - Correcting a refusal, weak earlier strategy, or wrong assumption.
 - Connecting the present issue to longer-term plans in Brazil.
-- Immigrate to Brazil consultation hero image for structured immigration planning.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Start Consultation
+- Start Consultation
 - Structured intake for route analysis, chronology review, and immigration planning in Brazil.
 - Open page
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Strategy
+- Strategy
 - Strategy is where Monique Fernandes compares legal pathways, sequencing, and trade-offs so a Brazil immigration plan can move forward with clearer direction instead of guesswork.
-- Open page
-- Hero image for the Compliance page showing the Curitiba skyline in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Compliance
+- Compliance
 - Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
-- Open page
-- Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Corporate
+- Corporate
 - Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
-- Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Representation
+- Representation
 - Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
-- Open page
+- Structured immigration planning with Immigrate to Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### Explore The Service Families
-- Cinematic background of the coast of Sao Miguel dos Milagres in Brazil for the Explore The Service Families section on the Advisory page.
-- Section 02
 - H2: Explore The Service Families
+- Section 02
+- Explore The Service Families
 - Different readers arrive with different priorities. Some need a broad explanation. Others already know the family of issue they are dealing with but still need a better starting point inside it. The aim is to help you start in the right place without creating more noise.
 - A good way to move through the service pages in this hub:
 - Services Hub: more focused reading about services.
@@ -485,11 +585,12 @@ File: `services/advisory/index.html`
 - Compliance: ongoing alignment, document hygiene, and prevention of avoidable exposure.
 - Corporate: business-linked immigration structure and commercial alignment.
 - If two or three service pages all feel relevant at once, that is usually a sign that the issue has matured beyond simple browsing and may benefit from structured consultation.
+- the coast of Sao Miguel dos Milagres in Brazil.
 
 ### How To Choose The Right Starting Point
-- Cinematic background of the coast and church of Praia dos Carneiros in Brazil for the How To Choose The Right Starting Point section on the Advisory page.
-- Section 03
 - H2: How To Choose The Right Starting Point
+- Section 03
+- How To Choose The Right Starting Point
 - Advisory services sit at the front of the process. They are designed for people who need better judgment before they need more movement. That may mean clarifying route fit, comparing options, organizing chronology, or making sure the file is aligned before money, deadlines, or emotion push the process too far ahead.
 - Useful starting points:
 - Services Hub: more focused reading about services.
@@ -498,11 +599,12 @@ File: `services/advisory/index.html`
 - Compliance: ongoing alignment, document hygiene, and prevention of avoidable exposure.
 - Corporate: business-linked immigration structure and commercial alignment.
 - A strong advisory stage saves time because it prevents weak sequence later. That is why we treat this family as practical groundwork, not as optional decoration around the process.
+- the coast and church of Praia dos Carneiros in Brazil.
 
 ### If You Are Between Categories
-- Cinematic background of the coastline and coves of Ilha Grande in Brazil for the If You Are Between Categories section on the Advisory page.
-- Section 04
 - H2: If You Are Between Categories
+- Section 04
+- If You Are Between Categories
 - It is common to feel as if your situation overlaps more than one category. A family-based move can also involve work. A residence question can also be a place-choice question. A filing problem can also be a records problem. That overlap does not mean you are lost; it usually means the matter has several moving parts that need to be put in the right order.
 - Use this reading lens when more than one page seems relevant:
 - choose the page that matches the most urgent pressure point first
@@ -510,11 +612,12 @@ File: `services/advisory/index.html`
 - treat overlapping pages as connected, not competing
 - reach out once the overlap is being driven by your own chronology or documents
 - Our role is to help separate those layers so the process becomes more coherent instead of more crowded.
+- the coastline and coves of Ilha Grande in Brazil.
 
 ### Best Next Step
-- Cinematic background of the sunrise landscape of Marajo Island riverfront in Brazil for the Best Next Step section on the Advisory page.
-- Section 05
 - H2: Best Next Step
+- Section 05
+- Best Next Step
 - The best next step depends on whether you still need orientation or already need a personal review. If the question is still broad, the right move is usually to open the most relevant page and keep narrowing. If the question already depends on your documents, deadlines, travel history, family structure, or route comparison, the better move is usually consultation.
 - A consultation usually makes sense when:
 - you are between two or more possible routes
@@ -522,67 +625,104 @@ File: `services/advisory/index.html`
 - timing or deadlines are starting to matter
 - the answer now depends on facts that are too specific for a public page
 - We built these hubs so readers can move toward the right next step with less hesitation and more structure.
+- the sunrise landscape of Marajo Island riverfront in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview This Hub Is Monique Helps Clarify To Choose the Consultation May Help
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Hub Menu
+- Section
+- Explore The Service Families
+- How To Choose The Right Starting Point
+- If You Are Between Categories
+- Best Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems multiply. Her approach focuses on clear explanation, practical next steps, and attorney-led support in English and Portuguese.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If more than one service feels relevant, a consultation can help clarify fit, timing, and the strongest next step.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Lei de Migracao - Lei 13.445/2017
-- Official public reference for lei de migracao - lei 13.445/2017.
 - H3: Decreto 9.199/2017
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Lei de Migracao - Lei 13.445/2017
+- Official public reference for lei de migracao - lei 13.445/2017.
+- Decreto 9.199/2017
 - Official public reference for decreto 9.199/2017.
-- H3: Policia Federal - Migracao
-- Official public reference for policia federal - migracao.
-- H3: Ministerio das Relacoes Exteriores
-- Official public reference for ministerio das relacoes exteriores.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Strategy Monique helps clients choose the strongest route by looking at legal fit, timing, evidence, and long-term goals. Hero image for the Compliance page showing the Curitiba skyline in southern Brazil. Compliance Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction. Hero image for the Corporate page showing Pelourinho in Salvador, Bahia in northeast Brazil. Corporate Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order. Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Representation Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+### Related Links
+- H2: Related pages
+- H3: Services
+- H3: Start Consultation
+- H3: Strategy
+- H3: Compliance
+- H3: Corporate
+- H3: Representation
+- Related pages
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Strategy
+- Monique helps clients choose the strongest route by looking at legal fit, timing, evidence, and long-term goals.
+- Compliance
+- Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
+- Corporate
+- Corporate immigration advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+- Representation
+- Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+- an aerial view of the Amazon river basin in northern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If more than one service feels relevant, a consultation can help clarify fit, timing, and the strongest next step.
-- Immigrate to Brazil logo for the Advisory Services For Clarity, Strategy, And Better Early Decisions page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If more than one service feels relevant, a consultation can help clarify fit, timing, and the strongest next step.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Advisory Services For Clarity, Strategy, And Better Early Decisions page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicservices / advisory
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -591,40 +731,44 @@ File: `services/advisory/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -637,6 +781,7 @@ File: `services/advisory/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -654,10 +799,11 @@ File: `services/advisory/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -674,6 +820,7 @@ File: `services/advisory/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -689,6 +836,7 @@ File: `services/advisory/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -701,6 +849,7 @@ File: `services/advisory/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -715,7 +864,7 @@ File: `services/advisory/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -791,26 +940,15 @@ File: `services/advisory/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -834,7 +972,6 @@ File: `services/advisory/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -1005,7 +1142,8 @@ File: `services/advisory/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -1017,21 +1155,19 @@ File: `services/advisory/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

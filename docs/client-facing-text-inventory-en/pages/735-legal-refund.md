@@ -7,29 +7,87 @@ File: `legal/refund/index.html`
 - Browser title: Refund Policy \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Refund Policy
+- H2: General principle
+- H2: Non-refundable components
+- H2: Conditional refunds
+- H2: Client cancellation terms
+- H2: No outcome-based refunds
+- H2: External factors and third-party involvement
+- H2: Payment errors and chargebacks
+- H2: Refund processing timeline
+- H2: How to request a refund
+- H2: Relationship with legal contracts and governing terms
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Payment Terms
+- H3: Terms & Conditions
+- H3: Disclaimer & Legal Notice
+- H3: Form & Intake Policy
+- H3: Consultation
+- H3: Start Consultation
+- H2: Frequently asked questions
+- H3: Are consultations refundable after delivery?
+- H3: Do government refusals create refund rights automatically?
+- H3: Can a refund still be reviewed if work did not begin?
+- H2: Need case-specific guidance?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +98,26 @@ File: `legal/refund/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +141,7 @@ File: `legal/refund/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +160,7 @@ File: `legal/refund/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +169,7 @@ File: `legal/refund/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +177,7 @@ File: `legal/refund/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +195,17 @@ File: `legal/refund/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +220,7 @@ File: `legal/refund/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +230,14 @@ File: `legal/refund/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +296,7 @@ File: `legal/refund/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +314,7 @@ File: `legal/refund/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,26 +335,27 @@ File: `legal/refund/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Legal
 - Refund Policy
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Refund Policy page showing Cabo Branco in Joao Pessoa in Brazil.
+- H1: Refund Policy
 - LEGAL
 - How Monique Fernandes reviews cancellations and refund requests
-- H1: Refund Policy
+- Refund Policy
 - This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.
-- Page highlights
-- Stage-based review No outcome-based refunds Clear cancellation rules
-- Request refund review
-- Open payment terms
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Refund Policy page, Brazil immigration advisory, consultation, and legal compliance guidance Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Refund questions should be handled with the same clarity as the service itself. Monique Fernandes reviews refunds according to the stage of work, time reserved, and the actual facts of the request.
-- Why Attorney Monique Fernandes?
 - Stage-based review
 - No outcome-based refunds
+- Clear cancellation rules
+- Request refund review
+- Open payment terms
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Refund questions should be handled with the same clarity as the service itself. Monique Fernandes reviews refunds according to the stage of work, time reserved, and the actual facts of the request.
+- Why Attorney Monique Fernandes?
 - Attorney-led accountability
 - English and Portuguese
 - What this page covers
@@ -292,132 +364,193 @@ File: `legal/refund/index.html`
 - A refund depends on the service stage, the time reserved, the work performed, and applicable law.
 - Practical takeaway
 - Immigration outcomes do not create automatic refund rights.
+- Cabo Branco in Joao Pessoa in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Refund Policy page, Brazil immigration advisory, consultation, and legal compliance guidance
 
 ### General Principle
-- Cinematic background of the Cabo Branco seafront in Joao Pessoa in Brazil for the General principle section on the Refund Policy page.
 - H2: General principle
+- General principle
 - Refunds are reviewed according to the real stage of the service.
 - The main questions are whether time was reserved, whether work was performed, whether a consultation was delivered, whether third-party costs arose, and what applicable law requires in the specific situation.
+- the Cabo Branco seafront in Joao Pessoa in Brazil.
 
 ### Non Refundable Components
-- Cinematic background of the Atlantic coastline around Itacare in Brazil for the Non-refundable components section on the Refund Policy page.
-- Section 02
 - H2: Non-refundable components
+- Section 02
+- Non-refundable components
 - Some parts of a service may become non-refundable once they are used or delivered.
 - This may include time already reserved, consultations already delivered, review already performed, or costs already committed to the matter. The exact result depends on the stage and the facts.
+- the Atlantic coastline around Itacare in Brazil.
 
 ### Conditional Refunds
-- Cinematic background of the cliffs and coastline of Pipa in Brazil for the Conditional refunds section on the Refund Policy page.
-- Section 03
 - H2: Conditional refunds
+- Section 03
+- Conditional refunds
 - Some requests can be reviewed on their own facts.
 - Where work did not begin, time was not consumed, or a payment issue occurred before the service stage truly started, Monique may review whether a full or partial refund is appropriate.
+- the cliffs and coastline of Pipa in Brazil.
 
 ### Client Cancellation Terms
-- Cinematic background of the wide natural landscape of Inhotim in Brumadinho in Brazil for the Client cancellation terms section on the Refund Policy page.
-- Section 04
 - H2: Client cancellation terms
+- Section 04
+- Client cancellation terms
 - Timing matters when a client cancels.
 - The closer a cancellation is to a reserved slot or active work stage, the more likely it is that time has already been committed and the refund position changes accordingly.
+- the wide natural landscape of Inhotim in Brumadinho in Brazil.
 
 ### No Outcome Based Refunds
-- Cinematic background of the architecture and streets of Serra do Rio do Rastro in Brazil for the No outcome-based refunds section on the Refund Policy page.
-- Section 05
 - H2: No outcome-based refunds
+- Section 05
+- No outcome-based refunds
 - Government decisions do not create automatic refund rights.
 - Monique can review, prepare, advise, and support a matter, but she cannot control an authority's final decision. For that reason, the result of a visa, residency, or other immigration decision does not automatically generate a refund.
+- the architecture and streets of Serra do Rio do Rastro in Brazil.
 
 ### External Factors And Third Party Involvement
-- Cinematic background of the historic center of Antonina in Brazil for the External factors and third-party involvement section on the Refund Policy page.
-- Section 06
 - H2: External factors and third-party involvement
+- Section 06
+- External factors and third-party involvement
 - Some costs or delays may come from outside the practice.
 - Government fees, third-party translation costs, courier expenses, payment processor issues, and other outside factors may affect what can or cannot be refunded.
+- the historic center of Antonina in Brazil.
 
 ### Payment Errors And Chargebacks
-- Cinematic background of the Brazilian face of Monte Roraima in Brazil for the Payment errors and chargebacks section on the Refund Policy page.
-- Section 07
 - H2: Payment errors and chargebacks
+- Section 07
+- Payment errors and chargebacks
 - Payment mistakes should be raised quickly.
 - If a client believes there was a duplicate payment, transfer mistake, or other billing problem, the issue should be reported promptly so it can be reviewed with the relevant records.
+- the Brazilian face of Monte Roraima in Brazil.
 
 ### Refund Processing Timeline
-- Cinematic background of the sunrise landscape of Anavilhanas archipelago in Brazil for the Refund processing timeline section on the Refund Policy page.
-- Section 08
 - H2: Refund processing timeline
+- Section 08
+- Refund processing timeline
 - Refund review should be handled in an orderly way.
 - Once a request is received, Monique may need time to confirm the payment, check the service stage, verify whether work was performed, and determine the right response.
+- the sunrise landscape of Anavilhanas archipelago in Brazil.
 
 ### How To Request A Refund
-- Cinematic background of the cliffs and valleys of Chapada dos Guimaraes in Brazil for the How to request a refund section on the Refund Policy page.
-- Section 09
 - H2: How to request a refund
+- Section 09
+- How to request a refund
 - A clear request helps Monique review the issue properly.
 - The request should identify the payment, the service stage involved, the reason for the request, and any supporting proof that may help clarify timing or billing status.
+- the cliffs and valleys of Chapada dos Guimaraes in Brazil.
 
 ### Relationship With Legal Contracts And Governing Terms
-- Cinematic background of Curitiba in Brazil for the Relationship with legal contracts and governing terms section on the Refund Policy page.
-- Section 10
 - H2: Relationship with legal contracts and governing terms
+- Section 10
+- Relationship with legal contracts and governing terms
 - Refund review should be read together with the other service rules.
 - This page works alongside the payment terms, the general terms, and any written engagement terms that apply to the matter.
+- Curitiba in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- General principle Non-refundable components Conditional refunds Client cancellation terms No outcome-based refunds External factors and Payment errors and Refund processing timeline to request a Relationship with legal
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- General Principle
+- Non Refundable Components
+- Conditional Refunds
+- Client Cancellation Terms
+- No Outcome Based Refunds
+- External Factors And Third Party Involvement
+- Payment Errors And Chargebacks
+- Refund Processing Timeline
+- How To Request A Refund
+- Relationship With Legal Contracts And Governing Terms
+- FAQ
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Refund questions should be handled with the same clarity as the service itself. Monique Fernandes reviews refunds according to the stage of work, time reserved, and the actual facts of the request.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.
-- Start Consultation WhatsApp
-- Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil. Payment Terms These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil. Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil. Terms & Conditions These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee. Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil. Disclaimer & Legal Notice This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil. Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil. Form & Intake Policy This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins. Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil. Consultation Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Payment Terms
+- H3: Terms & Conditions
+- H3: Disclaimer & Legal Notice
+- H3: Form & Intake Policy
+- H3: Consultation
+- H3: Start Consultation
+- Related pages
+- Payment Terms
+- These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.
+- Terms & Conditions
+- These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.
+- Disclaimer & Legal Notice
+- This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.
+- Form & Intake Policy
+- This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.
+- Consultation
+- Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
-- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
 - H3: Are consultations refundable after delivery?
-- Usually the fact that a consultation was delivered is highly relevant, because time and professional review have already been used.
 - H3: Do government refusals create refund rights automatically?
-- No. Government outcomes are outside Monique's direct control.
 - H3: Can a refund still be reviewed if work did not begin?
+- Frequently asked questions
+- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
+- Are consultations refundable after delivery?
+- Usually the fact that a consultation was delivered is highly relevant, because time and professional review have already been used.
+- Do government refusals create refund rights automatically?
+- No. Government outcomes are outside Monique's direct control.
+- Can a refund still be reviewed if work did not begin?
 - Yes. That is one of the situations where review may still be appropriate.
 
 ### Consultation Form
 - H2: Need case-specific guidance?
-- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
-- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 - H3: Monique Fernandes
-- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Need case-specific guidance?
+- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
+- Monique Fernandes
+- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
+- Book consultation
 - Move from general policy information into Monique's case-specific review of your route, documents, timing, and next step.
 - Start Consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp for operational clarification, urgency signaling, or help reaching the right Monique Fernandes service page.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiclegal / refund
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -426,40 +559,44 @@ File: `legal/refund/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -472,6 +609,7 @@ File: `legal/refund/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -489,10 +627,11 @@ File: `legal/refund/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -509,6 +648,7 @@ File: `legal/refund/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -524,6 +664,7 @@ File: `legal/refund/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -536,6 +677,7 @@ File: `legal/refund/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -550,7 +692,7 @@ File: `legal/refund/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -626,26 +768,15 @@ File: `legal/refund/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -669,7 +800,6 @@ File: `legal/refund/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -840,7 +970,8 @@ File: `legal/refund/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -852,18 +983,17 @@ File: `legal/refund/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -874,11 +1004,10 @@ File: `legal/refund/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
-
+- Cookie preferences

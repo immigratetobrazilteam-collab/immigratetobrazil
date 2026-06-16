@@ -7,29 +7,83 @@ File: `rights/regularization/index.html`
 - Browser title: Regularization \| Brazil Immigration Process \| Immigrate to Brazil
 - Meta description: Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Regularization
+- H2: Overview
+- H2: Situations
+- H2: Causes
+- H2: Options
+- H2: Correction
+- H2: Legal
+- H2: Process
+- H2: Risks
+- H2: Outcomes
+- H2: Recovery
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Mistakes
+- H3: Failures
+- H3: Start Consultation
+- H3: Services
+- H3: Legal Notices
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `rights/regularization/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `rights/regularization/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `rights/regularization/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `rights/regularization/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `rights/regularization/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `rights/regularization/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `rights/regularization/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `rights/regularization/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `rights/regularization/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `rights/regularization/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,35 +331,42 @@ File: `rights/regularization/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Regularization
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Regularization page showing the Sao Paulo skyline in southeast Brazil.
+- H1: Regularization
 - PROCESS
 - Immigrate to Brazil
-- H1: Regularization
+- Regularization
 - Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value.
-- Page highlights
-- Process Hub Mistakes Failures Regularization Consultation
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Regularization When Status Or Process Needs Correction page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Mistakes
+- Failures
+- Consultation
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Regularization is not just a label inside the process.
 - Situations
 - This stage usually matters to people whose matter has become specific enough that timing, chronology, documents, or comparison can no longer be treated casually.
 - Causes
 - Regularization matters because correction, stabilization, and rebuilding a workable path shape whether a Brazil immigration process feels orderly or exposed.
+- the Sao Paulo skyline in southeast Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Regularization When Status Or Process Needs Correction page, Brazil immigration, relocation, and consultation support
 
 ### Overview
 - H2: Overview
+- Overview
 - Regularization is not just a label inside the process. It is a real stage that affects timing, cost, documentation, expectation, and emotional pressure. Readers usually arrive here because something in the process has become concrete enough that broad reading is no longer enough.
 - When we explain regularization, we focus on how correction, stabilization, and rebuilding a workable path behave in real matters. We want readers to understand not only what the stage is called, but what it changes, what it depends on, and what can go wrong when it is rushed or misunderstood.
 - A useful way to read this stage is to ask:
@@ -303,8 +377,9 @@ File: `rights/regularization/index.html`
 - That is the wider purpose of the Process family: to make the immigration journey readable enough that clients can move with more control and less guesswork.
 
 ### Situations
-- Section 02
 - H2: Situations
+- Section 02
+- Situations
 - This stage usually matters to people whose matter has become specific enough that timing, chronology, documents, or comparison can no longer be treated casually. The surrounding context often matters as much as the stage label itself: family pressure, travel plans, deadlines, prior mistakes, or uncertainty about route fit can all change how the stage should be handled.
 - Readers often recognize themselves here when:
 - the next move now feels consequential rather than hypothetical
@@ -314,8 +389,9 @@ File: `rights/regularization/index.html`
 - That recognition is useful. It helps people stop treating the matter as a purely informational problem and start treating it as a process that needs structure.
 
 ### Causes
-- Section 03
 - H2: Causes
+- Section 03
+- Causes
 - Regularization matters because correction, stabilization, and rebuilding a workable path shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -325,8 +401,9 @@ File: `rights/regularization/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Options
-- Section 04
 - H2: Options
+- Section 04
+- Options
 - A core function of regularization is to replace vague possibility with clearer direction. That usually happens when the facts are read in order, the route or stage is tested against reality, and the client can finally see what is strong, what is weak, and what belongs to the next move.
 - We think of this as disciplined clarification. It is not only about gathering information. It is about organizing information into a form that supports decisions instead of multiplying uncertainty.
 - What stronger clarity usually reveals:
@@ -337,8 +414,9 @@ File: `rights/regularization/index.html`
 - That kind of clarity is often the point where the process starts feeling manageable again.
 
 ### Correction
-- Section 05
 - H2: Correction
+- Section 05
+- Correction
 - Recovery inside the process usually begins by slowing the matter down enough to see what is still workable. That may involve correction of chronology, rebuilding the record, stabilizing expectations, or moving the file into a different stage or route than originally planned.
 - We approach recovery with realism. Some problems are fixable. Some require a different sequence. Some demand urgent legal attention. What matters first is replacing improvisation with a clearer map of what is still possible.
 - A useful recovery mindset usually includes:
@@ -349,8 +427,9 @@ File: `rights/regularization/index.html`
 - That is why we treat recovery as a structured process in its own right rather than a quick correction added on top of a weak file.
 
 ### Legal
-- Section 06
 - H2: Legal
+- Section 06
+- Legal
 - Regularization matters because correction, stabilization, and rebuilding a workable path shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -360,8 +439,9 @@ File: `rights/regularization/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Process
-- Section 07
 - H2: Process
+- Section 07
+- Process
 - Regularization works best when the practical shape of the stage is visible. That includes what is being reviewed or prepared, what materials need to be in place, how communication is handled, and where the limits of the stage sit so no one assumes more than it can deliver.
 - We structure the stage deliberately because process quality is often built through ordinary discipline: complete records, clear chronology, controlled communication, and realistic pacing. That may not sound dramatic, but it is exactly what keeps a viable path from becoming messy.
 - A well-structured stage usually includes:
@@ -372,8 +452,9 @@ File: `rights/regularization/index.html`
 - When those elements are visible, the client usually understands not only what is happening, but why the process is moving the way it is.
 
 ### Risks
-- Section 08
 - H2: Risks
+- Section 08
+- Risks
 - Risk in immigration work is often cumulative rather than dramatic. Matters become heavier when assumptions go untested, sequence weakens, facts stay partial, or deadlines are allowed to narrow without enough control. By the time the client feels the pressure, the process may already be carrying unnecessary weight.
 - We prefer to describe those risks plainly. Good support does not remove every uncertainty, but it does reduce the number of problems that come from preventable disorder.
 - Recurring destabilizing patterns include:
@@ -384,8 +465,9 @@ File: `rights/regularization/index.html`
 - Seeing those patterns earlier usually gives the client more room to recover than they expected.
 
 ### Outcomes
-- Section 09
 - H2: Outcomes
+- Section 09
+- Outcomes
 - The purpose of regularization is to improve the quality of what happens next. In immigration work, a strong stage does not only create motion. It creates better sequence, better judgment, and fewer avoidable weaknesses later on.
 - When this stage is handled well, the benefit is often visible before any formal result arrives. The file becomes clearer, the next move is easier to justify, and the client usually understands the process with much less anxiety.
 - Strong outcomes at this stage usually include:
@@ -396,8 +478,9 @@ File: `rights/regularization/index.html`
 - We treat that improvement in process quality as a real result in its own right, not as a secondary benefit.
 
 ### Recovery
-- Section 10
 - H2: Recovery
+- Section 10
+- Recovery
 - Recovery inside the process usually begins by slowing the matter down enough to see what is still workable. That may involve correction of chronology, rebuilding the record, stabilizing expectations, or moving the file into a different stage or route than originally planned.
 - We approach recovery with realism. Some problems are fixable. Some require a different sequence. Some demand urgent legal attention. What matters first is replacing improvisation with a clearer map of what is still possible.
 - A useful recovery mindset usually includes:
@@ -409,50 +492,92 @@ File: `rights/regularization/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Situations Causes Options Correction Legal Process Risks Outcomes Recovery
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Situations
+- Causes
+- Options
+- Correction
+- Legal
+- Process
+- Risks
+- Outcomes
+- Recovery
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Regularization is about bringing a drifting or exposed situation back into a workable legal path. We explain how recovery starts, what readers should stop doing, and where structured support adds the most value. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If regularization is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Mistakes Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Legal Notices page showing the National Congress complex in Brasilia in central-west Brazil. Legal Notices This legal hub explains how Monique Fernandes handles privacy, payments, intake, accessibility, urgent contact, and service boundaries for immigration matters connected to Brazil.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Mistakes
+- H3: Failures
+- H3: Start Consultation
+- H3: Services
+- H3: Legal Notices
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Mistakes
+- Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Legal Notices
+- This legal hub explains how Monique Fernandes handles privacy, payments, intake, accessibility, urgent contact, and service boundaries for immigration matters connected to Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- an aerial view of the Amazon river basin in northern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If regularization is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
-- Immigrate to Brazil logo for the Regularization When Status Or Process Needs Correction page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If regularization is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Regularization When Status Or Process Needs Correction page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicrights / regularization
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -461,40 +586,44 @@ File: `rights/regularization/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -507,6 +636,7 @@ File: `rights/regularization/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -524,10 +654,11 @@ File: `rights/regularization/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -544,6 +675,7 @@ File: `rights/regularization/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -559,6 +691,7 @@ File: `rights/regularization/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -571,6 +704,7 @@ File: `rights/regularization/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -585,7 +719,7 @@ File: `rights/regularization/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -661,26 +795,15 @@ File: `rights/regularization/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -704,7 +827,6 @@ File: `rights/regularization/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -875,7 +997,8 @@ File: `rights/regularization/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -887,21 +1010,19 @@ File: `rights/regularization/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

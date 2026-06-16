@@ -7,29 +7,83 @@ File: `process/approval/index.html`
 - Browser title: Approval With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Approval
+- H2: Overview
+- H2: Authority
+- H2: Criteria
+- H2: Review
+- H2: Variability
+- H2: Timing
+- H2: Expectations
+- H2: Factors
+- H2: Outcomes
+- H2: Next Steps
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Filing
+- H3: Aftercare
+- H3: Failures
+- H3: Compliance
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/approval/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/approval/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/approval/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/approval/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/approval/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/approval/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/approval/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/approval/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/approval/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/approval/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/approval/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Approval
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Approval page showing Historic waterfront of Paraty in Brazil.
+- H1: Approval
 - PROCESS
 - Immigrate to Brazil
-- H1: Approval
+- Approval
 - Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
-- Page highlights
-- Process Hub Filing Aftercare Failures Compliance
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Approval Expectations With Monique Fernandes For Brazil Immigration page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Filing
+- Aftercare
+- Failures
+- Compliance
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique explains approval carefully because this is the stage where many clients become most anxious.
 - Authority
 - The deciding authority depends on the route and the stage.
 - Criteria
 - Approval usually depends on legal fit, documentary support, factual consistency, and compliance with the route requirements.
+- Historic waterfront of Paraty in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Approval Expectations With Monique Fernandes For Brazil Immigration page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of Paraty in Brazil for the Overview section on the Approval page.
 - H2: Overview
+- Overview
 - Monique explains approval carefully because this is the stage where many clients become most anxious. Approval matters, but it is not something an attorney can promise or control on behalf of the government.
 - This page is designed to help clients understand:
 - what approval really means
@@ -301,11 +374,12 @@ File: `process/approval/index.html`
 - what kinds of outcomes can happen before a final result
 - how Monique supports clients through this stage
 - That approach keeps the process honest while still helping clients feel prepared.
+- Paraty in Brazil.
 
 ### Authority
-- Cinematic background of the shoreline of Alter do Chao in warm evening light in Brazil for the Authority section on the Approval page.
-- Section 02
 - H2: Authority
+- Section 02
+- Authority
 - The deciding authority depends on the route and the stage. Monique helps clients understand whether the important action is happening at the consular level, inside the immigration administration, or through post-arrival registration and follow-up.
 - Authority clarity matters because it helps clients understand:
 - who is reviewing the case
@@ -313,11 +387,12 @@ File: `process/approval/index.html`
 - where delays may originate
 - why different stages of the same journey may involve different institutions
 - Clients make better decisions when they know who actually controls the next step.
+- the shoreline of Alter do Chao in warm evening light in Brazil.
 
 ### Criteria
-- Cinematic background of the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil for the Criteria section on the Approval page.
-- Section 03
 - H2: Criteria
+- Section 03
+- Criteria
 - Approval usually depends on legal fit, documentary support, factual consistency, and compliance with the route requirements. Monique uses earlier stages to make those criteria easier to meet responsibly.
 - The criteria that often matter most include:
 - whether the route matches the real purpose and facts
@@ -325,11 +400,12 @@ File: `process/approval/index.html`
 - whether the chronology is coherent
 - whether the applicant appears aligned with the legal requirements
 - This is why Monique focuses so much on preparation before the authority review begins.
+- the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil.
 
 ### Review
-- Cinematic background of Amazon river in Brazil for the Review section on the Approval page.
-- Section 04
 - H2: Review
+- Section 04
+- Review
 - Review is the stage where the authority reads the case through its own procedure. Monique helps clients understand that this process may involve internal checks, document review, follow-up requests, and time that no one can rush by wishful thinking.
 - Clients usually benefit from understanding that review may involve:
 - examination of eligibility and supporting records
@@ -337,11 +413,12 @@ File: `process/approval/index.html`
 - procedural delays that are outside the client's control
 - different review rhythms depending on the route
 - Strong review preparation is important, but it is still different from controlling the decision.
+- Amazon river in Brazil.
 
 ### Variability
-- Cinematic background of Pantanal in Brazil for the Variability section on the Approval page.
-- Section 05
 - H2: Variability
+- Section 05
+- Variability
 - Even cases that look similar can move differently. Monique prepares clients for variability so they do not misread another person's experience as a guarantee for their own.
 - Variation can come from:
 - differences in facts or records
@@ -349,11 +426,12 @@ File: `process/approval/index.html`
 - changing administrative workload
 - the exact stage at which the authority is reviewing the matter
 - Realistic preparation is usually more useful than comparison with online anecdotes.
+- Pantanal in Brazil.
 
 ### Timing
-- Cinematic background of the sunrise landscape of Rio Negro Palace in Manaus in Brazil for the Timing section on the Approval page.
-- Section 06
 - H2: Timing
+- Section 06
+- Timing
 - Approval timing is often uncertain. Monique helps clients plan around that uncertainty instead of assuming that a clean filing automatically produces a fast result.
 - Timing conversations usually include:
 - what is likely versus what is guaranteed
@@ -361,11 +439,12 @@ File: `process/approval/index.html`
 - what the client should do while waiting
 - when silence is normal and when it may justify closer review
 - That time awareness helps reduce panic and keeps clients focused on what remains within their control.
+- the sunrise landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Expectations
-- Cinematic background of the sunrise landscape of Teatro Amazonas in Manaus in Brazil for the Expectations section on the Approval page.
-- Section 07
 - H2: Expectations
+- Section 07
+- Expectations
 - Monique is direct about expectations at this stage. Her role is to strengthen the file, explain the process, and respond responsibly when the authority asks for more. Her role is not to promise approval.
 - Healthy expectations usually include:
 - understanding that government discretion still exists
@@ -373,11 +452,12 @@ File: `process/approval/index.html`
 - knowing that requests, delays, or extra steps may still happen
 - keeping the next plan flexible until the decision is real
 - Clients usually handle this stage better when the expectations are grounded from the start.
+- the sunrise landscape of Teatro Amazonas in Manaus in Brazil.
 
 ### Factors
-- Cinematic background of the Park of Indigenous Nations in Campo Grande in Brazil for the Factors section on the Approval page.
-- Section 08
 - H2: Factors
+- Section 08
+- Factors
 - Certain factors can help or weaken the matter at approval stage. Monique helps clients understand those factors without turning the process into fear or overconfidence.
 - Factors often discussed here include:
 - strength and consistency of evidence
@@ -385,11 +465,12 @@ File: `process/approval/index.html`
 - prior compliance or previous process issues
 - whether any follow-up or clarification is still outstanding
 - This helps clients see approval as a process outcome shaped over time, not a surprise event.
+- the Park of Indigenous Nations in Campo Grande in Brazil.
 
 ### Outcomes
-- Cinematic background of the waterfront and skyline of Aguas Emendadas ecological station in Brazil for the Outcomes section on the Approval page.
-- Section 09
 - H2: Outcomes
+- Section 09
+- Outcomes
 - Approval is one possible outcome, but not the only one. Monique prepares clients for the full range of possibilities so the next move is not improvised if the process takes a turn.
 - Possible outcomes at this stage may include:
 - approval
@@ -397,11 +478,12 @@ File: `process/approval/index.html`
 - delay without immediate resolution
 - refusal or another negative development
 - The process stays easier to manage when those outcomes are understood before they happen.
+- the waterfront and skyline of Aguas Emendadas ecological station in Brazil.
 
 ### Next Steps
-- Cinematic background of the Madeira riverfront in Porto Velho in Brazil for the Next Steps section on the Approval page.
-- Section 10
 - H2: Next Steps
+- Section 10
+- Next Steps
 - Once the authority responds, Monique helps clients move into the right next stage. For some people that means aftercare and compliance. For others it means correction, recovery, or a different route.
 - Common next steps after a decision include:
 - completing post-approval obligations
@@ -409,53 +491,96 @@ File: `process/approval/index.html`
 - responding to follow-up requirements
 - reviewing failure or recovery options if the result is negative
 - The key is to respond with structure rather than emotion.
+- the Madeira riverfront in Porto Velho in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Authority Criteria Review Variability Timing Expectations Factors Outcomes Next Steps
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Authority
+- Criteria
+- Review
+- Variability
+- Timing
+- Expectations
+- Factors
+- Outcomes
+- Next Steps
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Speak with Monique Fernandes if your Brazil immigration matter is waiting for a decision, facing a follow-up request, or moving from approval into the next stage of legal and practical planning.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil. Filing Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses. Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Aftercare Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Compliance page showing the Curitiba skyline in southern Brazil. Compliance Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Filing
+- H3: Aftercare
+- H3: Failures
+- H3: Compliance
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Filing
+- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Aftercare
+- Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Compliance
+- Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Speak with Monique Fernandes if your Brazil immigration matter is waiting for a decision, facing a follow-up request, or moving from approval into the next stage of legal and practical planning.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Speak with Monique Fernandes if your Brazil immigration matter is waiting for a decision, facing a follow-up request, or moving from approval into the next stage of legal and practical planning.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / approval
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +589,44 @@ File: `process/approval/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +639,7 @@ File: `process/approval/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +657,11 @@ File: `process/approval/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +678,7 @@ File: `process/approval/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +694,7 @@ File: `process/approval/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +707,7 @@ File: `process/approval/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +722,7 @@ File: `process/approval/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +798,15 @@ File: `process/approval/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +830,6 @@ File: `process/approval/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +1000,8 @@ File: `process/approval/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1013,19 @@ File: `process/approval/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

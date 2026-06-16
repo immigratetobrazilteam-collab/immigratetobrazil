@@ -7,29 +7,83 @@ File: `process/fees/index.html`
 - Browser title: Fees With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Fees
+- H2: Overview
+- H2: Structure
+- H2: Stages
+- H2: Scope
+- H2: Value
+- H2: Comparison
+- H2: Expectations
+- H2: Payment
+- H2: Clarity
+- H2: Transparency
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Assessment
+- H3: Filing
+- H3: Alone
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/fees/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/fees/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/fees/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/fees/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/fees/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/fees/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/fees/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/fees/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/fees/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/fees/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/fees/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Fees
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Fees page showing Monte Roraima in Brazil.
+- H1: Fees
 - PROCESS
 - Immigrate to Brazil
-- H1: Fees
+- Fees
 - Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
-- Page highlights
-- Process Hub Consultation Assessment Filing Alone
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Fees With Monique Fernandes For Brazil Immigration Services page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Consultation
+- Assessment
+- Filing
+- Alone
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique explains fees in the same structured way that she explains the immigration process.
 - Structure
 - Monique does not treat immigration work like a vague package with blurry promises.
 - Stages
 - Different stages require different kinds of work.
+- Monte Roraima in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Fees With Monique Fernandes For Brazil Immigration Services page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the Brazilian face of Monte Roraima in Brazil for the Overview section on the Fees page.
 - H2: Overview
+- Overview
 - Monique explains fees in the same structured way that she explains the immigration process. Clients should understand what they are paying for, what stage the fee belongs to, and what that stage is meant to accomplish.
 - This page is designed to make clear:
 - why Monique works by defined stages
@@ -301,11 +374,12 @@ File: `process/fees/index.html`
 - how scope is kept understandable
 - why clarity on fees supports trust
 - Fee clarity helps the service feel calmer and more professional from the start.
+- the Brazilian face of Monte Roraima in Brazil.
 
 ### Structure
-- Cinematic background of the urban panorama of Museum of Tomorrow in Rio de Janeiro in Brazil for the Structure section on the Fees page.
-- Section 02
 - H2: Structure
+- Section 02
+- Structure
 - Monique does not treat immigration work like a vague package with blurry promises. She explains fees in relation to actual work stages such as consultation, assessment, filing preparation, or ongoing support.
 - Stage-based structure helps clients understand:
 - what legal work is being performed
@@ -313,11 +387,12 @@ File: `process/fees/index.html`
 - when a matter needs deeper support
 - why scope and pricing should stay aligned
 - That structure protects both clarity and accountability.
+- the urban panorama of Museum of Tomorrow in Rio de Janeiro in Brazil.
 
 ### Stages
-- Cinematic background of the wide natural landscape of Orla Taumanan in Boa Vista in Brazil for the Stages section on the Fees page.
-- Section 03
 - H2: Stages
+- Section 03
+- Stages
 - Different stages require different kinds of work. Monique helps clients see the difference between a consultation, a deeper review, filing support, and later compliance or aftercare guidance.
 - Fee stages often correspond to:
 - first consultation and route analysis
@@ -325,11 +400,12 @@ File: `process/fees/index.html`
 - filing preparation or attorney-led submission support
 - later-stage review, follow-up, or continuity work
 - Clients usually make better decisions when they understand which stage they are paying for and why.
+- the wide natural landscape of Orla Taumanan in Boa Vista in Brazil.
 
 ### Scope
-- Cinematic background of the historic center of Antonina in Brazil for the Scope section on the Fees page.
-- Section 04
 - H2: Scope
+- Section 04
+- Scope
 - Scope is one of the most important parts of fee clarity. Monique explains what a stage includes so clients do not assume one step automatically covers every later need in the process.
 - Clear scope usually helps define:
 - what work belongs to the current stage
@@ -337,11 +413,12 @@ File: `process/fees/index.html`
 - what may require further review later
 - what still depends on government action rather than attorney work
 - This helps the client evaluate value more fairly and realistically.
+- the historic center of Antonina in Brazil.
 
 ### Value
-- Cinematic background of Porto Alegre in Brazil for the Value section on the Fees page.
-- Section 05
 - H2: Value
+- Section 05
+- Value
 - The value of Monique's work is not only in movement. It is in better judgment, better sequence, better documentation, and fewer avoidable mistakes. That is especially important in immigration matters where errors can become costly later.
 - Clients often feel that value in:
 - stronger route choice
@@ -349,11 +426,12 @@ File: `process/fees/index.html`
 - less confusion about next steps
 - more confidence that the process is being handled responsibly
 - Value is usually strongest when the service improves the quality of the whole path forward.
+- Porto Alegre in Brazil.
 
 ### Comparison
-- Cinematic background of the Atlantic coastline around Itacare in Brazil for the Comparison section on the Fees page.
-- Section 06
 - H2: Comparison
+- Section 06
+- Comparison
 - Monique keeps comparison language sober, but clients still deserve to understand the difference between attorney-led structured support and low-clarity options that leave major questions unanswered.
 - The practical differences often include:
 - clearer legal judgment instead of generic advice
@@ -361,11 +439,12 @@ File: `process/fees/index.html`
 - more careful expectation setting
 - more disciplined handling of risk, timing, and scope
 - This is not about hype. It is about helping clients understand what professional structure changes.
+- the Atlantic coastline around Itacare in Brazil.
 
 ### Expectations
-- Cinematic background of the architecture and streets of Serra do Rio do Rastro in Brazil for the Expectations section on the Fees page.
-- Section 07
 - H2: Expectations
+- Section 07
+- Expectations
 - Clients should know what a fee does and does not buy. Monique is careful not to frame legal services as if payment purchases a government outcome.
 - Healthy expectations around fees include:
 - payment covers defined legal work, not approval guarantees
@@ -373,11 +452,12 @@ File: `process/fees/index.html`
 - the strongest service value is often in prevention and structure
 - questions about scope should be resolved before assumptions grow
 - That clarity makes the working relationship steadier from the start.
+- the architecture and streets of Serra do Rio do Rastro in Brazil.
 
 ### Payment
-- Cinematic background of Amazon river in Brazil for the Payment section on the Fees page.
-- Section 08
 - H2: Payment
+- Section 08
+- Payment
 - Fee discussions and payment discussions should work together. Monique helps clients understand when payment secures consultation, when later work is separate, and how the financial part fits into the service process.
 - At this stage, clients usually need clarity about:
 - which service stage they are booking
@@ -385,11 +465,12 @@ File: `process/fees/index.html`
 - how to avoid confusion about scope
 - where the formal payment terms apply
 - Simple payment clarity often reduces a surprising amount of friction.
+- Amazon river in Brazil.
 
 ### Clarity
-- Cinematic background of the wide coastline and water of Praia do Rosa in Brazil for the Clarity section on the Fees page.
-- Section 09
 - H2: Clarity
+- Section 09
+- Clarity
 - Monique wants clients to feel clear about fees before committing. Immigration work is stressful enough without vague pricing conversations or misunderstood deliverables.
 - Fee clarity usually means:
 - plain language instead of heavy jargon
@@ -397,11 +478,12 @@ File: `process/fees/index.html`
 - no hidden suggestion of guaranteed results
 - room for the client to decide from a more informed position
 - That is part of how Monique keeps the process professional and client-centered.
+- the wide coastline and water of Praia do Rosa in Brazil.
 
 ### Transparency
-- Cinematic background of Iguazu Falls in Brazil for the Transparency section on the Fees page.
-- Section 10
 - H2: Transparency
+- Section 10
+- Transparency
 - Transparency is the final goal of this page. Monique uses transparent fee communication to support trust, reduce ambiguity, and keep the service aligned with what the client actually needs.
 - Transparent fee communication usually gives clients:
 - a better sense of value
@@ -409,53 +491,94 @@ File: `process/fees/index.html`
 - less risk of misunderstanding
 - more confidence in the decision to move forward
 - Clear fees do not solve immigration questions by themselves, but they make the working relationship far easier to manage.
+- Iguazu Falls in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Structure Stages Scope Value Comparison Expectations Payment Clarity Transparency
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Structure
+- Stages
+- Scope
+- Value
+- Comparison
+- Expectations
+- Payment
+- Clarity
+- Transparency
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Speak with Monique Fernandes if you want a clearer understanding of consultation fees, stage-based service scope, and what attorney-led Brazil immigration support would include for your matter.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Consultation Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil. Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Assessment Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions. Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil. Filing Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses. Hero image for the Alone page showing the Porto Alegre skyline in southern Brazil. Alone Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Assessment
+- H3: Filing
+- H3: Alone
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Consultation
+- Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
+- Assessment
+- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Filing
+- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Alone
+- Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Speak with Monique Fernandes if you want a clearer understanding of consultation fees, stage-based service scope, and what attorney-led Brazil immigration support would include for your matter.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Speak with Monique Fernandes if you want a clearer understanding of consultation fees, stage-based service scope, and what attorney-led Brazil immigration support would include for your matter.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / fees
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +587,44 @@ File: `process/fees/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +637,7 @@ File: `process/fees/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +655,11 @@ File: `process/fees/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +676,7 @@ File: `process/fees/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +692,7 @@ File: `process/fees/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +705,7 @@ File: `process/fees/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +720,7 @@ File: `process/fees/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +796,15 @@ File: `process/fees/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +828,6 @@ File: `process/fees/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +998,8 @@ File: `process/fees/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1011,19 @@ File: `process/fees/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

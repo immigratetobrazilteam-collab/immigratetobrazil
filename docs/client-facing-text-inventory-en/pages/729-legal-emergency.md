@@ -7,29 +7,83 @@ File: `legal/emergency/index.html`
 - Browser title: Emergency Resources \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: This page explains when Monique Fernandes' practice can help with urgent immigration-related issues, when a public authority should be contacted first, and how urgent triage should be handled.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Emergency Resources
+- H2: Purpose of this page
+- H2: What qualifies as urgent
+- H2: Authority-first rule
+- H2: Emergency triage protocol
+- H2: What this page does not promise
+- H2: Contact
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Disclaimer & Legal Notice
+- H3: Search
+- H3: Terms & Conditions
+- H3: Defense
+- H3: Lawyer
+- H3: Start Consultation
+- H2: Frequently asked questions
+- H3: Should I use this page for ordinary consultation questions?
+- H3: What if a public authority must act immediately?
+- H3: What helps most in an urgent message?
+- H2: Need direct operational contact?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `legal/emergency/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `legal/emergency/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `legal/emergency/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `legal/emergency/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `legal/emergency/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `legal/emergency/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `legal/emergency/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `legal/emergency/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `legal/emergency/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `legal/emergency/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,26 +331,27 @@ File: `legal/emergency/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Legal
 - Emergency Resources
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Emergency Resources page showing Genipabu dunes in Natal in Brazil.
+- H1: Emergency Resources
 - LEGAL
 - How Monique Fernandes handles urgent immigration-related situations
-- H1: Emergency Resources
+- Emergency Resources
 - This page explains when Monique Fernandes' practice can help with urgent immigration-related issues, when a public authority should be contacted first, and how urgent triage should be handled.
-- Page highlights
-- Authority-first triage Urgency explained No false emergency promises
-- Contact emergency line
-- View defense services
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Emergency Resources page, Brazil immigration advisory, consultation, and legal compliance guidance Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes takes urgent issues seriously, but seriousness also means saying clearly when a public authority, emergency service, or official channel should be contacted before the practice.
-- Why Attorney Monique Fernandes?
 - Authority-first triage
 - Urgency explained
+- No false emergency promises
+- Contact emergency line
+- View defense services
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Monique Fernandes takes urgent issues seriously, but seriousness also means saying clearly when a public authority, emergency service, or official channel should be contacted before the practice.
+- Why Attorney Monique Fernandes?
 - Attorney-led accountability
 - English and Portuguese
 - What this page covers
@@ -292,104 +360,156 @@ File: `legal/emergency/index.html`
 - A legal emergency page is not a substitute for police, consular, medical, or other emergency services.
 - Practical takeaway
 - If the situation is urgent, the right order of action matters.
+- Genipabu dunes in Natal in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Emergency Resources page, Brazil immigration advisory, consultation, and legal compliance guidance
 
 ### Purpose Of This Page
-- Cinematic background of the dunes and lagoons of Jericoacoara in Brazil for the Purpose of this page section on the Emergency Resources page.
 - H2: Purpose of this page
+- Purpose of this page
 - This page helps people understand how to route truly urgent issues.
 - It exists to reduce confusion when timing matters and to explain what kind of urgent operational or legal issue may be brought to Monique's attention.
+- the dunes and lagoons of Jericoacoara in Brazil.
 
 ### What Qualifies As Urgent
-- Cinematic background of the Genipabu dunes near Natal in Brazil for the What qualifies as urgent section on the Emergency Resources page.
-- Section 02
 - H2: What qualifies as urgent
+- Section 02
+- What qualifies as urgent
 - Not every stressful problem is a legal emergency.
 - Urgent situations may include detention-related issues, airport or border problems, imminent authority action, loss of lawful status with immediate consequences, or another event where delay could materially worsen the situation.
+- the Genipabu dunes near Natal in Brazil.
 
 ### Authority First Rule
-- Cinematic background of the Ver-o-Peso market on the Belem waterfront in Brazil for the Authority-first rule section on the Emergency Resources page.
-- Section 03
 - H2: Authority-first rule
+- Section 03
+- Authority-first rule
 - Some situations should go to the relevant authority or emergency service first.
 - Police, immigration authorities, airlines, consulates, hospitals, and other emergency or public bodies may need to be contacted before or alongside Monique, depending on the issue.
+- the Ver-o-Peso market on the Belem waterfront in Brazil.
 
 ### Emergency Triage Protocol
-- Cinematic background of the beaches of Alter do Chao on the Tapajos River in Brazil for the Emergency triage protocol section on the Emergency Resources page.
-- Section 04
 - H2: Emergency triage protocol
+- Section 04
+- Emergency triage protocol
 - Monique's role is to review the urgent legal or operational issue within the limits of the situation.
 - An urgent message should identify the person involved, the location, the authority or event involved, the immediate risk, and any key documents or notices already available.
+- the beaches of Alter do Chao on the Tapajos River in Brazil.
 
 ### What This Page Does Not Promise
-- Cinematic background of the meeting of waters near Santarem in Brazil for the What this page does not promise section on the Emergency Resources page.
-- Section 05
 - H2: What this page does not promise
+- Section 05
+- What this page does not promise
 - This page should not create false expectations about constant availability or guaranteed intervention.
 - Monique does not present this page as a 24/7 emergency hotline or as a promise that every urgent issue can be resolved by the practice. It is a triage route, not a guarantee.
+- the meeting of waters near Santarem in Brazil.
 
 ### Contact
-- Cinematic background of the sunrise landscape of Anavilhanas archipelago in Brazil for the Contact section on the Emergency Resources page.
-- Section 06
 - H2: Contact
+- Section 06
+- Contact
 - Urgent contact should be concise and factual.
 - If the matter is truly urgent and relevant to Monique's work, use the published contact route with the facts needed to understand the urgency quickly.
+- the sunrise landscape of Anavilhanas archipelago in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Purpose of this qualifies as urgent Authority-first rule Emergency triage protocol this page does Contact
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Purpose Of This Page
+- What Qualifies As Urgent
+- Authority First Rule
+- Emergency Triage Protocol
+- What This Page Does Not Promise
+- Contact
+- FAQ
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes takes urgent issues seriously, but seriousness also means saying clearly when a public authority, emergency service, or official channel should be contacted before the practice.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.
-- Start Consultation WhatsApp
-- Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil. Disclaimer & Legal Notice This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil. Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil. Search Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly. Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil. Terms & Conditions These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee. Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil. Defense Use this hub when the matter is already sensitive, urgent, or exposed. Defense work is about stabilizing the situation, protecting chronology, and making sure the next move is careful rather than reactive. Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil. Lawyer A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Disclaimer & Legal Notice
+- H3: Search
+- H3: Terms & Conditions
+- H3: Defense
+- H3: Lawyer
+- H3: Start Consultation
+- Related pages
+- Disclaimer & Legal Notice
+- This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.
+- Search
+- Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.
+- Terms & Conditions
+- These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.
+- Defense
+- Use this hub when the matter is already sensitive, urgent, or exposed. Defense work is about stabilizing the situation, protecting chronology, and making sure the next move is careful rather than reactive.
+- Lawyer
+- A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Porto Alegre skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
-- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
 - H3: Should I use this page for ordinary consultation questions?
-- No. This page is for urgency and triage, not for routine booking or general service questions.
 - H3: What if a public authority must act immediately?
-- Contact the relevant authority or emergency service first when that is the correct immediate route.
 - H3: What helps most in an urgent message?
+- Frequently asked questions
+- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
+- Should I use this page for ordinary consultation questions?
+- No. This page is for urgency and triage, not for routine booking or general service questions.
+- What if a public authority must act immediately?
+- Contact the relevant authority or emergency service first when that is the correct immediate route.
+- What helps most in an urgent message?
 - A clear description of the event, location, timing, authority involved, and the immediate risk.
 
 ### Consultation Form
 - H2: Need direct operational contact?
-- Emergency guidance is triage guidance. Use WhatsApp for genuine urgency or active-matter operational issues, and use consultation when the matter needs structured legal review.
-- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 - H3: Monique Fernandes
-- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Need direct operational contact?
+- Emergency guidance is triage guidance. Use WhatsApp for genuine urgency or active-matter operational issues, and use consultation when the matter needs structured legal review.
+- Monique Fernandes
+- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
+- Book consultation
 - Move from general policy information into Monique's case-specific review of your route, documents, timing, and next step.
 - Start Consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp for operational clarification, urgency signaling, or help reaching the right Monique Fernandes service page.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiclegal / emergency
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -398,40 +518,44 @@ File: `legal/emergency/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -444,6 +568,7 @@ File: `legal/emergency/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -461,10 +586,11 @@ File: `legal/emergency/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -481,6 +607,7 @@ File: `legal/emergency/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -496,6 +623,7 @@ File: `legal/emergency/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -508,6 +636,7 @@ File: `legal/emergency/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -522,7 +651,7 @@ File: `legal/emergency/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -598,26 +727,15 @@ File: `legal/emergency/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -641,7 +759,6 @@ File: `legal/emergency/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -812,7 +929,8 @@ File: `legal/emergency/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -824,18 +942,17 @@ File: `legal/emergency/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -846,11 +963,10 @@ File: `legal/emergency/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
-
+- Cookie preferences

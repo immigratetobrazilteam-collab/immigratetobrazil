@@ -7,29 +7,87 @@ File: `brazil/index.html`
 - Browser title: Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making \| Brazil Guidance \| Immigrate to Brazil
 - Meta description: Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Brazil Hub
+- H2: Overview
+- H2: Explore this hub
+- H3: Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making
+- H3: Investment
+- H3: Economy
+- H3: Quality
+- H3: Living
+- H3: Cost
+- H3: Places
+- H3: Start Consultation
+- H2: Explore The Main Topics
+- H2: How To Use This Hub
+- H2: Reading Lens
+- H2: Best Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Investment
+- H3: Economy
+- H3: Quality
+- H3: Living
+- H3: Cost
+- H3: Places
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +98,26 @@ File: `brazil/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +141,7 @@ File: `brazil/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +160,7 @@ File: `brazil/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +169,7 @@ File: `brazil/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +177,7 @@ File: `brazil/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +195,17 @@ File: `brazil/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +220,7 @@ File: `brazil/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +230,14 @@ File: `brazil/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +296,7 @@ File: `brazil/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +314,7 @@ File: `brazil/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,35 +335,43 @@ File: `brazil/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Brazil
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page showing Sanctuary of Congonhas in Brazil.
+- H1: Brazil Hub
 - BRAZIL
 - Immigrate to Brazil
-- H1: Brazil Hub
+- Brazil Hub
 - Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.
-- Page highlights
-- Brazil Investment Economy Quality Living Cost
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Brazil
 - Investment
+- Economy
+- Quality
+- Living
+- Cost
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Brazil is easiest to misunderstand when it is treated as one mood, one trip, or one city.
 - Explore The Main Topics
 - The pages inside this hub are organized around the questions foreigners most often ask before or during a move.
 - How To Use This Hub
 - The strongest way to use the Brazil hub is to move from broad understanding into narrower comparison.
+- Sanctuary of Congonhas in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the sanctuary and sculptures of Congonhas in Brazil for the Overview section on the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page.
 - H2: Overview
+- Overview
 - Brazil is easiest to misunderstand when it is treated as one mood, one trip, or one city. In reality, Brazil is a vast country with strong regional differences in climate, cost, infrastructure, pace, and social rhythm. This hub exists to help readers approach Brazil as a real place to plan around rather than a broad fantasy.
 - We built this family to support the moment where attraction starts becoming decision-making. Readers come here to compare lifestyle questions, understand regions, think more realistically about cost and quality of life, and explore how Brazil may fit work, family, retirement, business, or remote living.
 - This hub is most useful when you want to understand:
@@ -301,55 +380,48 @@ File: `brazil/index.html`
 - how cost, housing, education, healthcare, and safety interact
 - which questions should be answered before choosing a city or immigration path
 - The goal is not to reduce Brazil to a checklist. It is to make the country feel more readable for someone who is seriously considering a future here.
+- the sanctuary and sculptures of Congonhas in Brazil.
 
 ### Hub Menu
 - H2: Explore this hub
-- Use the cards below to move directly into the page that best matches the question, route, place, or stage you are trying to understand next.
-- Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
 - H3: Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making
+- H3: Investment
+- H3: Economy
+- H3: Quality
+- H3: Living
+- H3: Cost
+- H3: Places
+- H3: Start Consultation
+- Explore this hub
+- Use the cards below to choose the topic that best matches the question, place, or stage you are trying to understand next.
+- Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making
 - Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.
 - Open page
-- Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Investment
+- Investment
 - Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing.
-- Open page
-- Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Economy
+- Economy
 - Brazil's economy affects work, business, purchasing power, and long-term planning. We explain the practical side of that economic picture for readers considering a life, project, or move here.
-- Open page
-- Hero image for the Quality page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Quality
+- Quality
 - Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.
-- Open page
-- Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Living
+- Living
 - Daily life in Brazil changes a great deal by city, region, and budget. We explain what routine, rhythm, social life, and adaptation can actually look like on the ground.
-- Open page
-- Hero image for the Cost page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Cost
+- Cost
 - Cost of living in Brazil cannot be reduced to one headline number. We break it into housing, transport, healthcare, food, education, and lifestyle so planning can become more realistic.
-- Open page
-- Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Places
+- Places
 - Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.
-- Open page
-- Immigrate to Brazil consultation hero image for structured immigration planning.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Start Consultation
+- Start Consultation
 - Structured intake for route analysis, chronology review, and immigration planning in Brazil.
-- Open page
+- an aerial view of the Amazon river basin in northern Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
+- Iguazu Falls on the Brazilian side in southern Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Structured immigration planning with Immigrate to Brazil.
 
 ### Explore The Main Topics
-- Cinematic background of the Guaiba waterfront in Porto Alegre in Brazil for the Explore The Main Topics section on the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page.
-- Section 02
 - H2: Explore The Main Topics
+- Section 02
+- Explore The Main Topics
 - The pages inside this hub are organized around the questions foreigners most often ask before or during a move. Some pages explain Brazil at the country level. Others focus on practical life, costs, safety, education, or the regional differences that become decisive once a shortlist begins to form.
 - A strong reading path often starts with:
 - Brazil for country-level understanding
@@ -358,11 +430,12 @@ File: `brazil/index.html`
 - Healthcare, Education, and Housing for family or long-term planning
 - Investment and Economy for readers connecting Brazil to business or capital decisions
 - You do not need to read everything. The most useful approach is to start with the question that is already shaping your decision.
+- the Guaiba waterfront in Porto Alegre in Brazil.
 
 ### How To Use This Hub
-- Cinematic background of Florianopolis in Brazil for the How To Use This Hub section on the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page.
-- Section 03
 - H2: How To Use This Hub
+- Section 03
+- How To Use This Hub
 - The strongest way to use the Brazil hub is to move from broad understanding into narrower comparison. Start with the pages that help you answer country-level fit, then move into regions, cities, cost, and everyday systems. That order usually produces better judgment than starting with one city and trying to force the whole country to match it.
 - A practical reading order is often:
 - country first
@@ -370,11 +443,12 @@ File: `brazil/index.html`
 - daily-life systems third
 - route and consultation once the move starts becoming real
 - That sequence helps readers protect enthusiasm while still bringing planning quality up to the level the move deserves.
+- Florianopolis in Brazil.
 
 ### Reading Lens
-- Cinematic background of Copacabana beach and the Rio waterfront in Brazil for the Reading Lens section on the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page.
-- Section 04
 - H2: Reading Lens
+- Section 04
+- Reading Lens
 - Brazil rarely answers one question at a time. A city decision is also a cost decision. A cost decision is also a housing and routine decision. A housing decision may affect school choice, safety habits, transport, healthcare access, and how sustainable remote work feels. A good reading lens keeps those layers connected.
 - When more than one page feels relevant, ask:
 - which issue is most urgent right now
@@ -382,11 +456,12 @@ File: `brazil/index.html`
 - which issue is still public research and which is becoming personal planning
 - whether the move now needs structured support rather than more browsing alone
 - That is where Immigrate to Brazil adds value: not by flattening Brazil, but by helping readers organize the parts that matter most to their real move.
+- Copacabana beach and the Rio waterfront in Brazil.
 
 ### Best Next Step
-- Cinematic background of Manaus in Brazil for the Best Next Step section on the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page.
-- Section 05
 - H2: Best Next Step
+- Section 05
+- Best Next Step
 - If you are still deciding whether Brazil fits you at all, keep reading within this family and use the official resources on each page to deepen the research. If you already know that Brazil is serious for you, and the question has become which city, which route, which timing, or which long-term plan makes the most sense, consultation is usually the stronger next step.
 - Consultation often makes sense when:
 - city choice and immigration route now need to be read together
@@ -394,53 +469,90 @@ File: `brazil/index.html`
 - you need someone to help compare options instead of only describing them
 - you want the Brazil research translated into an actual relocation plan
 - That is the transition this hub is designed to support: from interest in Brazil to a more disciplined, confident next move.
+- Manaus in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Explore The Main To Use This Reading Lens Best Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Hub Menu
+- Explore The Main Topics
+- How To Use This Hub
+- Reading Lens
+- Best Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Open the Brazil topic that matches the decision you are trying to make next, and reach out when the move now depends on route, city, budget, family context, or long-term planning being tested together.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Investment page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil. Investment Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing. Hero image for the Economy page showing Iguazu Falls on the Brazilian side in southern Brazil. Economy Brazil's economy affects work, business, purchasing power, and long-term planning. We explain the practical side of that economic picture for readers considering a life, project, or move here. Hero image for the Quality page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Quality Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time. Hero image for the Living page showing an aerial view of the Amazon river basin in northern Brazil. Living Daily life in Brazil changes a great deal by city, region, and budget. We explain what routine, rhythm, social life, and adaptation can actually look like on the ground. Hero image for the Cost page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil. Cost Cost of living in Brazil cannot be reduced to one headline number. We break it into housing, transport, healthcare, food, education, and lifestyle so planning can become more realistic. Hero image for the Brazil page showing an aerial view of the Amazon river basin in northern Brazil. Places Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.
+### Related Links
+- H2: Related pages
+- H3: Investment
+- H3: Economy
+- H3: Quality
+- H3: Living
+- H3: Cost
+- H3: Places
+- Related pages
+- Investment
+- Investment in Brazil can be attractive, but it only becomes useful when market interest is matched with structure, due diligence, and a realistic reading of region, sector, and timing.
+- Economy
+- Brazil's economy affects work, business, purchasing power, and long-term planning. We explain the practical side of that economic picture for readers considering a life, project, or move here.
+- Quality
+- Quality of life in Brazil is real, but it is highly place-dependent. Climate, cost, community, services, and routine all shape whether Brazil feels sustainable over time.
+- Living
+- Daily life in Brazil changes a great deal by city, region, and budget. We explain what routine, rhythm, social life, and adaptation can actually look like on the ground.
+- Cost
+- Cost of living in Brazil cannot be reduced to one headline number. We break it into housing, transport, healthcare, food, education, and lifestyle so planning can become more realistic.
+- Places
+- Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.
+- Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
+- Iguazu Falls on the Brazilian side in southern Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- an aerial view of the Amazon river basin in northern Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Open the Brazil topic that matches the decision you are trying to make next, and reach out when the move now depends on route, city, budget, family context, or long-term planning being tested together.
-- Immigrate to Brazil logo for the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Open the Brazil topic that matches the decision you are trying to make next, and reach out when the move now depends on route, city, budget, family context, or long-term planning being tested together.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Brazil Planning Hub For Relocation, Lifestyle, And Regional Decision-Making page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicbrazil
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -449,40 +561,44 @@ File: `brazil/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -495,6 +611,7 @@ File: `brazil/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -512,10 +629,11 @@ File: `brazil/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -532,6 +650,7 @@ File: `brazil/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -547,6 +666,7 @@ File: `brazil/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -559,6 +679,7 @@ File: `brazil/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -573,7 +694,7 @@ File: `brazil/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -649,26 +770,15 @@ File: `brazil/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -692,7 +802,6 @@ File: `brazil/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -863,7 +972,8 @@ File: `brazil/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -875,21 +985,19 @@ File: `brazil/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

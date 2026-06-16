@@ -29,7 +29,7 @@
 | /brazil/economy/ | Economy | https://formspree.io/f/xdawygld |
 | /brazil/education/ | Education | https://formspree.io/f/xdawygld |
 | /brazil/events/ | Events | https://formspree.io/f/xdawygld |
-| /brazil/faqs/ | Faqs | https://formspree.io/f/xdawygld |
+| /brazil/faqs/ | FAQs | https://formspree.io/f/xdawygld |
 | /brazil/festivals/ | Festivals | https://formspree.io/f/xdawygld |
 | /brazil/guides/ | Guides | https://formspree.io/f/xdawygld |
 | /brazil/healthcare/ | Healthcare | https://formspree.io/f/xdawygld |
@@ -315,7 +315,7 @@
 | /insights/guides/tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis/ | Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements | https://formspree.io/f/xdawygld |
 | /insights/guides/want-to-live-in-brazil-while-investing-in-the-countrys-growth/ | Want to live in Brazil while investing in the countrys growth? | https://formspree.io/f/xdawygld |
 | /insights/guides/want-to-turn-your-investment-into-residency-in-brazil/ | Want to turn your investment into residency in Brazil? | https://formspree.io/f/xdawygld |
-| /insights/guides/what-happens-during-an-immigration-consultation/ | What Happens During an Immigration Consultation? | https://formspree.io/f/xdawygld |
+| /insights/guides/what-happens-during-an-immigration-consultation/ | What Happens During an Immigration consultation? | https://formspree.io/f/xdawygld |
 | /insights/guides/what-rights-do-immigrants-have-in-brazil/ | What rights do immigrants have in Brazil? | https://formspree.io/f/xdawygld |
 | /insights/guides/what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency/ | What to do after arriving in Brazil with a visa that allows residency? | https://formspree.io/f/xdawygld |
 | /insights/guides/when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s/ | When a Brazilian citizen faces problems abroad, the first instance of support is | https://formspree.io/f/xdawygld |

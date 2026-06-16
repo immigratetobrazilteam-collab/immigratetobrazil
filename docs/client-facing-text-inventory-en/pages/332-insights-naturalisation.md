@@ -7,29 +7,82 @@ File: `insights/naturalisation/index.html`
 - Browser title: Naturalisation \| Immigration Insights \| Immigrate to Brazil
 - Meta description: Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Naturalisation
+- H2: Overview
+- H2: Continuity
+- H2: Eligibility
+- H2: Records
+- H2: Timing
+- H2: Misconceptions
+- H2: Family And History
+- H2: Planning
+- H2: Expectations
+- H2: Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Insights
+- H3: Residency
+- H3: General
+- H3: Naturalisation
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +93,26 @@ File: `insights/naturalisation/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +136,7 @@ File: `insights/naturalisation/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +155,7 @@ File: `insights/naturalisation/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +164,7 @@ File: `insights/naturalisation/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +172,7 @@ File: `insights/naturalisation/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +190,17 @@ File: `insights/naturalisation/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +215,7 @@ File: `insights/naturalisation/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +225,14 @@ File: `insights/naturalisation/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +291,7 @@ File: `insights/naturalisation/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +309,7 @@ File: `insights/naturalisation/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,66 +330,79 @@ File: `insights/naturalisation/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Insights
 - Naturalisation
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Naturalisation page showing Rio de Janeiro skyline from Sugarloaf Mountain at golden hour in Brazil.
+- H1: Naturalisation
 - INSIGHTS
 - Immigrate to Brazil
-- H1: Naturalisation
+- Naturalisation
 - Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter.
-- Page highlights
-- Insights Hub Residency General Services Naturalisation Consultation
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Brazil Naturalisation Insights: Continuity, Eligibility, Records, And Timing page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Insights Hub
 - Residency
+- General
+- Services Naturalisation
+- Consultation
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Brazilian naturalisation becomes much easier to understand once it is treated as a structured system rather than as a set of scattered tips.
 - Continuity
 - Eligibility
 - The language around Brazilian naturalisation often sounds simpler than it really is.
+- Rio de Janeiro skyline from Sugarloaf Mountain at golden hour in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Brazil Naturalisation Insights: Continuity, Eligibility, Records, And Timing page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the shoreline of Rio de Janeiro skyline from Sugarloaf Mountain in warm evening light in Brazil for the Overview section on the Naturalisation page.
 - H2: Overview
+- Overview
 - Brazilian naturalisation becomes much easier to understand once it is treated as a structured system rather than as a set of scattered tips. The legal framework matters, public authorities matter, documentation matters, and the order in which questions are asked matters. That is why we write these insights for people thinking about citizenship as a long-term stage rather than a quick shortcut.
 - In practice, most confusion begins when broad interest turns into urgent reading too quickly. People search for one answer when the real question is layered: part legal, part administrative, part documentary, and part practical. We want this page to slow that down enough that the topic starts feeling readable again.
 - A better first reading usually clarifies:
 - the difference between ordinary expectations, continuity, records, and where family or nationality history changes the analysis
 - which part of the question can be understood through public information and which part depends on personal facts
-- where official reading should begin, especially with Brazilian Migration Law , Migration Regulation Decree , and Ministerio da Justica e Seguranca Publica
+- where official reading should begin, especially with Brazilian Migration Law
+- , Migration Regulation Decree
 - why stronger vocabulary often improves decision-making before any consultation is booked
 - That foundation matters. Once readers understand the shape of the system, they usually stop asking ten unrelated questions and start asking one or two much better ones.
+- the shoreline of Rio de Janeiro skyline from Sugarloaf Mountain in warm evening light in Brazil.
 
 ### Continuity
-- Cinematic background of the shoreline of Bombinhas peninsula in warm evening light in Brazil for the Continuity section on the Naturalisation page.
-- Section 02
 - H2: Continuity
+- Section 02
+- Continuity
+- the shoreline of Bombinhas peninsula in warm evening light in Brazil.
 
 ### Eligibility
-- Cinematic background of the wide coastline and water of Cliffs of Canoa Quebrada in Brazil for the Eligibility section on the Naturalisation page.
-- Section 03
 - H2: Eligibility
+- Section 03
+- Eligibility
 - The language around Brazilian naturalisation often sounds simpler than it really is. Familiar words are used every day online, but familiar is not the same as precise. Immigration planning becomes far more stable once readers understand the key distinctions early instead of correcting them after documents have already been prepared.
 - We use this part of the article to translate the subject into plain but accurate English. The goal is not to impress the reader with legal terminology. It is to show how the categories relate to one another, where they overlap, and where they are not interchangeable.
 - Useful distinctions to keep in view:
 - ordinary expectations, continuity, records, and where family or nationality history changes the analysis
 - eligibility usually depends on facts and evidence, not only on a route name
 - the strongest category is usually the one that best matches the real purpose and chronology
-- official references such as Brazilian Migration Law and Migration Regulation Decree help more when the concepts are already being read in the right order
+- official references such as Brazilian Migration Law
+- and Migration Regulation Decree
+- help more when the concepts are already being read in the right order
 - This is one of the quiet ways good research saves time. Clear concepts tend to prevent expensive confusion later.
+- the wide coastline and water of Cliffs of Canoa Quebrada in Brazil.
 
 ### Records
-- Cinematic background of the cultural grounds of Parque do Povo in Brazil for the Records section on the Naturalisation page.
-- Section 04
 - H2: Records
+- Section 04
+- Records
 - Documentation shapes the future much earlier than most people expect. Long before a file is submitted, documents are already telling a story about identity, chronology, family structure, movement, and purpose. If that story is weak or inconsistent, Brazilian naturalisation often becomes harder to sustain than it first looked on paper.
 - We include a strong document focus because so many later setbacks can be traced back to early record issues. That may involve missing civil documents, translation problems, mismatched names, weak chronology, or assumptions that a record will somehow become easier to explain later.
 - Readers usually need to think about:
@@ -332,11 +411,12 @@ File: `insights/naturalisation/index.html`
 - how cross-border records should be read together rather than one by one
 - why document quality usually matters more than document volume
 - Once the answer depends heavily on a person's own records, the issue is usually becoming case-specific even if the reader is still at the research stage.
+- the cultural grounds of Parque do Povo in Brazil.
 
 ### Timing
-- Cinematic background of the sunrise landscape of Delta do Parnaiba in Brazil for the Timing section on the Naturalisation page.
-- Section 05
 - H2: Timing
+- Section 05
+- Timing
 - Timing matters because immigration questions are rarely only about eligibility. They are also about sequence. Good documents prepared too late, good planning done after travel is already fixed, or long-term questions addressed only after a status is already under pressure can all reduce flexibility.
 - We encourage readers to think in terms of windows rather than dates alone. A healthy process usually has time for review, document gathering, cross-border coordination, and more than one plausible next move. A weaker process often starts when that margin disappears.
 - Timing tends to improve when readers can see:
@@ -345,11 +425,12 @@ File: `insights/naturalisation/index.html`
 - where renewal or continuity questions should be anticipated rather than discovered late
 - why official timelines should be read cautiously rather than as promises
 - Calmer timing usually produces calmer decisions. That is one reason we keep returning to sequence throughout the site.
+- the sunrise landscape of Delta do Parnaiba in Brazil.
 
 ### Misconceptions
-- Cinematic background of Porto Alegre in Brazil for the Misconceptions section on the Naturalisation page.
-- Section 06
 - H2: Misconceptions
+- Section 06
+- Misconceptions
 - Misunderstanding is one of the main reasons Brazilian naturalisation feels heavier than it needs to. Most confusion is not caused by carelessness. It comes from incomplete analogies, other people's timelines, partial reading of official material, or optimistic assumptions that sound reasonable until they meet a real case.
 - We prefer to correct those patterns early and calmly. The aim is not to shame readers for not already knowing the system. The aim is to stop repeating the same mistakes once the patterns become visible.
 - Recurring problems usually include:
@@ -358,11 +439,12 @@ File: `insights/naturalisation/index.html`
 - forgetting how names, civil status, translations, and old records affect credibility
 - seeing naturalisation as a quick fix for an unstable earlier file
 - Once those misunderstandings are named, many readers feel immediate relief. The process often stops feeling mysterious and starts feeling more structured.
+- Porto Alegre in Brazil.
 
 ### Family And History
-- Cinematic background of the island coastline of Ilhabela in Brazil for the Family And History section on the Naturalisation page.
-- Section 07
 - H2: Family And History
+- Section 07
+- Family And History
 - Most readers reach this point because they are trying to connect a present decision to a longer horizon. That is where Brazilian naturalisation becomes more than a category question. The reader has to ask not only what is possible now, but what kind of continuity, flexibility, and future positioning the choice creates later.
 - We write about route fit and long-term planning because short-term logic can be dangerously persuasive on its own. A path can look attractive in isolation and still create friction once family structure, residence continuity, or future naturalisation planning is taken seriously.
 - A better fit analysis usually asks:
@@ -371,11 +453,12 @@ File: `insights/naturalisation/index.html`
 - whether the supporting documents tell a coherent story for that route
 - whether the route still makes sense once real-life timing and family context are included
 - That is where guidance often becomes valuable. Not because public information failed, but because the question has matured beyond general reading alone.
+- the island coastline of Ilhabela in Brazil.
 
 ### Planning
-- Cinematic background of Farol da Barra and the seafront of Salvador in Brazil for the Planning section on the Naturalisation page.
-- Section 08
 - H2: Planning
+- Section 08
+- Planning
 - Most readers reach this point because they are trying to connect a present decision to a longer horizon. That is where Brazilian naturalisation becomes more than a category question. The reader has to ask not only what is possible now, but what kind of continuity, flexibility, and future positioning the choice creates later.
 - We write about route fit and long-term planning because short-term logic can be dangerously persuasive on its own. A path can look attractive in isolation and still create friction once family structure, residence continuity, or future naturalisation planning is taken seriously.
 - A better fit analysis usually asks:
@@ -384,16 +467,18 @@ File: `insights/naturalisation/index.html`
 - whether the supporting documents tell a coherent story for that route
 - whether the route still makes sense once real-life timing and family context are included
 - That is where guidance often becomes valuable. Not because public information failed, but because the question has matured beyond general reading alone.
+- Farol da Barra and the seafront of Salvador in Brazil.
 
 ### Expectations
-- Cinematic background of the wide coastline and water of Itacare coastline in Brazil for the Expectations section on the Naturalisation page.
-- Section 09
 - H2: Expectations
+- Section 09
+- Expectations
+- the wide coastline and water of Itacare coastline in Brazil.
 
 ### Next Step
-- Cinematic background of the sunrise landscape of Itaimbezinho canyon in Brazil for the Next Step section on the Naturalisation page.
-- Section 10
 - H2: Next Step
+- Section 10
+- Next Step
 - The right next step depends on what changed while you were reading. If the article mainly clarified vocabulary and structure, the next move may simply be to keep reading across the site in a more focused way. If the article surfaced a route comparison, a record problem, or a timing issue that clearly depends on your own facts, consultation is usually the more productive step.
 - It usually makes sense to reach out when:
 - you can see the issue more clearly but still cannot safely choose the next move
@@ -401,53 +486,89 @@ File: `insights/naturalisation/index.html`
 - you suspect an earlier assumption may already have weakened the process
 - you want the public explanation translated into a case-specific sequence
 - That is the handoff we aim for across the site: good public reading first, then structured support when the issue becomes personal.
+- the sunrise landscape of Itaimbezinho canyon in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Continuity Eligibility Records Timing Misconceptions Family And History Planning Expectations Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Continuity
+- Eligibility
+- Records
+- Timing
+- Misconceptions
+- Family And History
+- Planning
+- Expectations
+- Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. Insights Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil. Residency Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure. Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. General Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions. Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Naturalisation Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Insights
+- H3: Residency
+- H3: General
+- H3: Naturalisation
+- H3: Start Consultation
+- Related pages
+- Insights
+- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.
+- Residency
+- Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure.
+- General
+- Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.
+- Naturalisation
+- Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
-- Immigrate to Brazil logo for the Brazil Naturalisation Insights: Continuity, Eligibility, Records, And Timing page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Brazil Naturalisation Insights: Continuity, Eligibility, Records, And Timing page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicinsights / naturalisation
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -456,40 +577,44 @@ File: `insights/naturalisation/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -502,6 +627,7 @@ File: `insights/naturalisation/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -519,10 +645,11 @@ File: `insights/naturalisation/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -539,6 +666,7 @@ File: `insights/naturalisation/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -554,6 +682,7 @@ File: `insights/naturalisation/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -566,6 +695,7 @@ File: `insights/naturalisation/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -580,7 +710,7 @@ File: `insights/naturalisation/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -656,26 +786,15 @@ File: `insights/naturalisation/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -699,7 +818,6 @@ File: `insights/naturalisation/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -870,7 +988,8 @@ File: `insights/naturalisation/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -882,21 +1001,19 @@ File: `insights/naturalisation/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

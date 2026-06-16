@@ -699,7 +699,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are a strong starting point for people still comparing routes.",
+                en: "These guides are a strong starting point for people still comparing routes.",
                 pt: "Estas paginas sao um bom ponto de partida para quem ainda esta comparando rotas."
               },
               serviceKeys: ["advisoryConsultation", "advisoryStrategy", "brazilLiving"]
@@ -711,9 +711,9 @@
                 en: "That is fine. A tailored review is usually the strongest next step when the route is still unclear.",
                 pt: "Tudo bem. Uma analise personalizada costuma ser o melhor proximo passo quando a rota ainda nao esta clara."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the main route still needs to be clarified.",
+                en: "These guides are useful when the main route still needs to be clarified.",
                 pt: "Estas paginas sao uteis quando a rota principal ainda precisa ser esclarecida."
               },
               serviceKeys: ["advisoryConsultation", "processAssessment", "visasHub"]
@@ -765,7 +765,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages may be the strongest starting points for this kind of remote-work situation.",
+                en: "These guides may be the strongest starting points for this kind of remote-work situation.",
                 pt: "Estas paginas podem ser os pontos de partida mais fortes para esse tipo de situacao de trabalho remoto."
               },
               serviceKeys: ["visaNomad", "advisoryCorporate", "residencyNomad"]
@@ -777,7 +777,7 @@
                 en: "That may be a useful route to review. The team can help compare it with longer-term residency planning if that matters for your goals.",
                 pt: "Essa pode ser uma rota util para revisar. A equipe pode ajudar a comparar com planejamento de residencia de longo prazo se isso importar para os seus objetivos."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
                 en: "These pages will help the team understand the route you are considering.",
                 pt: "Estas paginas ajudarao a equipe a entender a rota que voce esta considerando."
@@ -817,7 +817,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant in family-linked cases.",
+                en: "These guides are often relevant in family-linked cases.",
                 pt: "Estas paginas costumam ser relevantes em casos ligados a familia."
               },
               serviceKeys: ["visaFamily", "residencyReunion", "processConsultation"]
@@ -831,7 +831,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are a strong starting point for family-linked planning.",
+                en: "These guides are a strong starting point for family-linked planning.",
                 pt: "Estas paginas sao um bom ponto de partida para planejamento ligado a familia."
               },
               serviceKeys: ["residencyReunion", "visaFamily", "processAssessment"]
@@ -843,9 +843,9 @@
                 en: "That may open a pathway, but timing and preparation can matter a great deal.",
                 pt: "Isso pode abrir um caminho, mas o tempo e a preparacao podem importar bastante."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when a family-based route may be developing.",
+                en: "These guides are useful when a family-based route may be developing.",
                 pt: "Estas paginas sao uteis quando uma rota familiar pode estar se formando."
               },
               serviceKeys: ["visaFamily", "processPlanning", "processConsultation"]
@@ -857,9 +857,9 @@
                 en: "That may still lead to a family-based route, but the practical facts will matter.",
                 pt: "Isso ainda pode levar a uma rota familiar, mas os fatos praticos vao importar."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the relationship route still needs structure.",
+                en: "These guides are useful when the relationship route still needs structure.",
                 pt: "Estas paginas sao uteis quando a rota baseada na relacao ainda precisa de estrutura."
               },
               serviceKeys: ["processAssessment", "visaFamily", "residencyReunion"]
@@ -897,7 +897,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful for retirement-based moves.",
+                en: "These guides are often useful for retirement-based moves.",
                 pt: "Estas paginas costumam ser uteis para mudancas baseadas em aposentadoria."
               },
               serviceKeys: ["visaRetiree", "residencyRetiree", "processPlanning"]
@@ -909,9 +909,9 @@
                 en: "That may mean another route is more suitable, depending on your goals and timeline.",
                 pt: "Isso pode significar que outra rota seja mais adequada, dependendo dos seus objetivos e do seu prazo."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help narrow down a more suitable path.",
+                en: "These guides can help narrow down a more suitable path.",
                 pt: "Estas paginas podem ajudar a afunilar um caminho mais adequado."
               },
               serviceKeys: ["advisoryConsultation", "residenciesHub", "processAssessment"]
@@ -923,9 +923,9 @@
                 en: "That may still be worth planning early so the timing and documents are stronger when you are ready.",
                 pt: "Ainda pode valer a pena planejar cedo para que o tempo e os documentos estejam mais fortes quando voce estiver pronto."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful if retirement planning is part of the move but the timing is still developing.",
+                en: "These guides are useful if retirement planning is part of the move but the timing is still developing.",
                 pt: "Estas paginas sao uteis se o planejamento de aposentadoria faz parte da mudanca, mas o prazo ainda esta se formando."
               },
               serviceKeys: ["processPlanning", "visaRetiree", "advisoryConsultation"]
@@ -963,7 +963,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant for business-linked moves.",
+                en: "These guides are often relevant for business-linked moves.",
                 pt: "Estas paginas costumam ser relevantes para mudancas ligadas a negocios."
               },
               serviceKeys: ["visaInvestor", "advisoryCorporate", "residencyInvestor"]
@@ -977,7 +977,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when investment is at the center of the move.",
+                en: "These guides are often useful when investment is at the center of the move.",
                 pt: "Estas paginas costumam ser uteis quando o investimento esta no centro da mudanca."
               },
               serviceKeys: ["visaInvestor", "residencyInvestor", "advisoryCorporate"]
@@ -989,9 +989,9 @@
                 en: "That may connect to broader planning, but buying property does not always mean the same thing as having the strongest immigration route.",
                 pt: "Isso pode se conectar a um planejamento mais amplo, mas comprar um imovel nem sempre significa ter a rota migratoria mais forte."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when investment ideas need legal route comparison.",
+                en: "These guides are useful when investment ideas need legal route comparison.",
                 pt: "Estas paginas sao uteis quando ideias de investimento precisam ser comparadas com as rotas juridicas."
               },
               serviceKeys: ["advisoryStrategy", "visaInvestor", "processAssessment"]
@@ -1005,7 +1005,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are strong starting points for investor and business planning that still needs structure.",
+                en: "These guides are strong starting points for investor and business planning that still needs structure.",
                 pt: "Estas paginas sao bons pontos de partida para planejamento de investidor e negocios que ainda precisa de estrutura."
               },
               serviceKeys: ["advisoryConsultation", "advisoryCorporate", "visaInvestor"]
@@ -1043,7 +1043,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant when a Brazilian employer is already involved.",
+                en: "These guides are often relevant when a Brazilian employer is already involved.",
                 pt: "Estas paginas costumam ser relevantes quando um empregador brasileiro ja esta envolvido."
               },
               serviceKeys: ["visaWork", "residencyWork", "processFiling"]
@@ -1055,9 +1055,9 @@
                 en: "That can change the available options significantly. A route review is usually the best place to start.",
                 pt: "Isso pode mudar bastante as opcoes disponiveis. Uma revisao de rota costuma ser o melhor lugar para comecar."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help narrow down the strongest route before the employment side is fully settled.",
+                en: "These guides can help narrow down the strongest route before the employment side is fully settled.",
                 pt: "Estas paginas podem ajudar a afunilar a rota mais forte antes que a parte de emprego esteja totalmente definida."
               },
               serviceKeys: ["advisoryConsultation", "visaWork", "advisoryRepresentation"]
@@ -1069,9 +1069,9 @@
                 en: "That may still be workable, but the details can affect which route is realistic and how the process should be prepared.",
                 pt: "Isso ainda pode ser viavel, mas os detalhes podem afetar qual rota e realista e como o processo deve ser preparado."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the employment route is still taking shape.",
+                en: "These guides are useful when the employment route is still taking shape.",
                 pt: "Estas paginas sao uteis quando a rota baseada em emprego ainda esta tomando forma."
               },
               serviceKeys: ["visaWork", "processAssessment", "advisoryRepresentation"]
@@ -1115,7 +1115,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant when humanitarian grounds may shape the route.",
+                en: "These guides are often relevant when humanitarian grounds may shape the route.",
                 pt: "Estas paginas costumam ser relevantes quando fundamentos humanitarios podem moldar a rota."
               },
               serviceKeys: ["visaHumanitarian", "residencyHumanitarian", "advisoryConsultation"]
@@ -1130,7 +1130,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are strong starting points when the visa route still needs to be narrowed down.",
+                en: "These guides are strong starting points when the visa route still needs to be narrowed down.",
                 pt: "Estas paginas sao bons pontos de partida quando a rota de visto ainda precisa ser afunilada."
               },
               serviceKeys: ["visasHub", "advisoryConsultation", "processAssessment"]
@@ -1166,9 +1166,9 @@
                 en: "A tourist route may be relevant here, but it is still worth confirming the practical limits before you rely on it.",
                 pt: "Uma rota de turista pode ser relevante aqui, mas ainda vale confirmar os limites praticos antes de depender dela."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful for short-stay planning.",
+                en: "These guides are useful for short-stay planning.",
                 pt: "Estas paginas sao uteis para planejamento de curta permanencia."
               },
               serviceKeys: ["visaTourist", "processPlanning", "advisoryConsultation"]
@@ -1182,7 +1182,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are useful when a tourist route may not be enough on its own.",
+                en: "These guides are useful when a tourist route may not be enough on its own.",
                 pt: "Estas paginas sao uteis quando a rota de turista pode nao ser suficiente sozinha."
               },
               serviceKeys: ["visaTourist", "residenciesHub", "advisoryStrategy"]
@@ -1196,7 +1196,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are a stronger place to start for longer-term planning.",
+                en: "These guides are a stronger place to start for longer-term planning.",
                 pt: "Estas paginas sao um ponto de partida mais forte para planejamento de longo prazo."
               },
               serviceKeys: ["residenciesHub", "advisoryConsultation", "processPlanning"]
@@ -1219,7 +1219,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant for remote workers planning a move to Brazil.",
+                en: "These guides are often relevant for remote workers planning a move to Brazil.",
                 pt: "Estas paginas costumam ser relevantes para trabalhadores remotos planejando uma mudanca para o Brasil."
               },
               serviceKeys: ["visaNomad", "residencyNomad", "processPlanning"]
@@ -1231,9 +1231,9 @@
                 en: "That may still be worth reviewing, but the exact facts can matter a great deal.",
                 pt: "Ainda pode valer a pena revisar, mas os fatos exatos podem importar bastante."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the route may be possible but needs closer review.",
+                en: "These guides are useful when the route may be possible but needs closer review.",
                 pt: "Estas paginas sao uteis quando a rota pode ser possivel, mas precisa de revisao mais cuidadosa."
               },
               serviceKeys: ["visaNomad", "processAssessment", "advisoryConsultation"]
@@ -1245,9 +1245,9 @@
                 en: "That may mean another visa or residency route is more suitable for your plans.",
                 pt: "Isso pode significar que outro visto ou rota de residencia seja mais adequado para os seus planos."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help compare other possible routes.",
+                en: "These guides can help compare other possible routes.",
                 pt: "Estas paginas podem ajudar a comparar outras rotas possiveis."
               },
               serviceKeys: ["visasHub", "advisoryConsultation", "processAssessment"]
@@ -1270,7 +1270,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant when a Brazilian employer is already part of the picture.",
+                en: "These guides are often relevant when a Brazilian employer is already part of the picture.",
                 pt: "Estas paginas costumam ser relevantes quando um empregador brasileiro ja faz parte do quadro."
               },
               serviceKeys: ["visaWork", "residencyWork", "processFiling"]
@@ -1282,9 +1282,9 @@
                 en: "The answer can change the available options significantly. A route review is usually the strongest next step.",
                 pt: "A resposta pode mudar bastante as opcoes disponiveis. Uma revisao de rota costuma ser o proximo passo mais forte."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help compare the next best route when an employer is not settled yet.",
+                en: "These guides can help compare the next best route when an employer is not settled yet.",
                 pt: "Estas paginas podem ajudar a comparar a melhor rota quando o empregador ainda nao esta definido."
               },
               serviceKeys: ["advisoryConsultation", "visaWork", "advisoryRepresentation"]
@@ -1296,9 +1296,9 @@
                 en: "That is still worth reviewing early, because the work route can depend heavily on how the case is structured.",
                 pt: "Ainda vale a pena revisar cedo, porque a rota de trabalho pode depender muito de como o caso e estruturado."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the work route is still uncertain.",
+                en: "These guides are useful when the work route is still uncertain.",
                 pt: "Estas paginas sao uteis quando a rota de trabalho ainda esta incerta."
               },
               serviceKeys: ["processAssessment", "visaWork", "advisoryConsultation"]
@@ -1321,7 +1321,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when an educational institution is already involved.",
+                en: "These guides are often useful when an educational institution is already involved.",
                 pt: "Estas paginas costumam ser uteis quando uma instituicao de ensino ja esta envolvida."
               },
               serviceKeys: ["visaStudent", "residencyStudy", "processFiling"]
@@ -1333,9 +1333,9 @@
                 en: "That may mean the route still needs early planning before the formal process can become strong.",
                 pt: "Isso pode significar que a rota ainda precisa de planejamento inicial antes de o processo formal se fortalecer."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help clarify the route before admission is finalized.",
+                en: "These guides can help clarify the route before admission is finalized.",
                 pt: "Estas paginas podem ajudar a esclarecer a rota antes que a admissao seja finalizada."
               },
               serviceKeys: ["visaStudent", "advisoryConsultation", "processPlanning"]
@@ -1347,9 +1347,9 @@
                 en: "That may still be workable, but the timing and supporting facts can matter.",
                 pt: "Isso ainda pode ser viavel, mas o tempo e os fatos de apoio podem importar."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the student route is developing but not finalized yet.",
+                en: "These guides are useful when the student route is developing but not finalized yet.",
                 pt: "Estas paginas sao uteis quando a rota de estudante esta se desenvolvendo, mas ainda nao foi finalizada."
               },
               serviceKeys: ["visaStudent", "processAssessment", "processPlanning"]
@@ -1372,7 +1372,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant when the investment idea is already taking shape.",
+                en: "These guides are often relevant when the investment idea is already taking shape.",
                 pt: "Estas paginas costumam ser relevantes quando a ideia de investimento ja esta tomando forma."
               },
               serviceKeys: ["visaInvestor", "residencyInvestor", "advisoryCorporate"]
@@ -1384,9 +1384,9 @@
                 en: "That may mean route comparison should come first before choosing a formal investor pathway.",
                 pt: "Isso pode significar que a comparacao de rotas deve vir primeiro antes de escolher uma via formal de investidor."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the investor route still needs shape and strategy.",
+                en: "These guides are useful when the investor route still needs shape and strategy.",
                 pt: "Estas paginas sao uteis quando a rota de investidor ainda precisa de forma e estrategia."
               },
               serviceKeys: ["advisoryConsultation", "advisoryCorporate", "processAssessment"]
@@ -1400,7 +1400,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are a strong starting point for investor and business-linked exploration.",
+                en: "These guides are a strong starting point for investor and business-linked exploration.",
                 pt: "Estas paginas sao um bom ponto de partida para exploracao ligada a investimento e negocios."
               },
               serviceKeys: ["advisoryCorporate", "visaInvestor", "advisoryStrategy"]
@@ -1423,7 +1423,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often relevant when family ties may support the route.",
+                en: "These guides are often relevant when family ties may support the route.",
                 pt: "Estas paginas costumam ser relevantes quando vinculos familiares podem sustentar a rota."
               },
               serviceKeys: ["visaFamily", "residencyReunion", "processConsultation"]
@@ -1435,9 +1435,9 @@
                 en: "That may mean another route is more suitable, depending on your goals and timeline.",
                 pt: "Isso pode significar que outra rota e mais adequada, dependendo dos seus objetivos e do seu prazo."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help compare other likely options.",
+                en: "These guides can help compare other likely options.",
                 pt: "Estas paginas podem ajudar a comparar outras opcoes provaveis."
               },
               serviceKeys: ["visasHub", "advisoryConsultation", "processAssessment"]
@@ -1449,9 +1449,9 @@
                 en: "That usually means the facts need to be reviewed carefully before the best route becomes clear.",
                 pt: "Isso normalmente significa que os fatos precisam ser revisados com cuidado antes que a melhor rota fique clara."
               },
-              title: { en: "Suggested starting pages", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested starting guides", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when family-linked facts need closer review.",
+                en: "These guides are useful when family-linked facts need closer review.",
                 pt: "Estas paginas sao uteis quando os fatos ligados a familia precisam de revisao mais cuidadosa."
               },
               serviceKeys: ["processAssessment", "visaFamily", "residencyReunion"]
@@ -1472,9 +1472,9 @@
                 en: "That may point to a more specialized route, and the exact activity usually matters.",
                 pt: "Isso pode apontar para uma rota mais especializada, e a atividade exata costuma importar."
               },
-              title: { en: "Suggested pages to review", pt: "Paginas sugeridas para revisar" },
+              title: { en: "Suggested guides to review", pt: "Paginas sugeridas para revisar" },
               copy: {
-                en: "These pages are often relevant for creative or specialist entry routes.",
+                en: "These guides are often relevant for creative or specialist entry routes.",
                 pt: "Estas paginas costumam ser relevantes para rotas de entrada criativas ou especializadas."
               },
               serviceKeys: ["visaArtistic", "advisoryRepresentation", "visasHub"]
@@ -1486,9 +1486,9 @@
                 en: "That may connect to a few different business-linked routes depending on the structure of the activity.",
                 pt: "Isso pode se conectar a algumas rotas ligadas a negocios, dependendo da estrutura da atividade."
               },
-              title: { en: "Suggested pages to review", pt: "Paginas sugeridas para revisar" },
+              title: { en: "Suggested guides to review", pt: "Paginas sugeridas para revisar" },
               copy: {
-                en: "These pages are often useful for business and specialist entry planning.",
+                en: "These guides are often useful for business and specialist entry planning.",
                 pt: "Estas paginas costumam ser uteis para planejamento de entrada ligado a negocios e casos especializados."
               },
               serviceKeys: ["visaBusiness", "visaStartup", "advisoryCorporate"]
@@ -1500,9 +1500,9 @@
                 en: "That may depend on the program structure and how formal the educational arrangement already is.",
                 pt: "Isso pode depender da estrutura do programa e de quanto o arranjo educacional ja esta formalizado."
               },
-              title: { en: "Suggested pages to review", pt: "Paginas sugeridas para revisar" },
+              title: { en: "Suggested guides to review", pt: "Paginas sugeridas para revisar" },
               copy: {
-                en: "These pages are often relevant for educational and exchange-linked routes.",
+                en: "These guides are often relevant for educational and exchange-linked routes.",
                 pt: "Estas paginas costumam ser relevantes para rotas ligadas a educacao e intercambio."
               },
               serviceKeys: ["visaEducational", "visaExchange", "visaStudent"]
@@ -1514,9 +1514,9 @@
                 en: "That sounds like a more specialized route, where the exact facts usually matter a lot.",
                 pt: "Isso parece uma rota mais especializada, em que os fatos exatos costumam importar bastante."
               },
-              title: { en: "Suggested pages to review", pt: "Paginas sugeridas para revisar" },
+              title: { en: "Suggested guides to review", pt: "Paginas sugeridas para revisar" },
               copy: {
-                en: "These pages can help point the team toward the right specialist category.",
+                en: "These guides can help point the team toward the right specialist category.",
                 pt: "Estas paginas podem ajudar a direcionar a equipe para a categoria especializada correta."
               },
               serviceKeys: ["visaJournalist", "visaMedical", "visaReligious", "visaResearch"]
@@ -1528,9 +1528,9 @@
                 en: "That may point to a more specialized route that usually depends on the exact activity and timing.",
                 pt: "Isso pode apontar para uma rota mais especializada que costuma depender da atividade exata e do tempo."
               },
-              title: { en: "Suggested pages to review", pt: "Paginas sugeridas para revisar" },
+              title: { en: "Suggested guides to review", pt: "Paginas sugeridas para revisar" },
               copy: {
-                en: "These pages can help the team narrow down the specialist route more quickly.",
+                en: "These guides can help the team narrow down the specialist route more quickly.",
                 pt: "Estas paginas podem ajudar a equipe a afunilar mais rapidamente a rota especializada."
               },
               serviceKeys: ["visaSports", "visaVolunteer", "visaTransit"]
@@ -1544,7 +1544,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are useful when the route may be specialized but still needs to be clarified.",
+                en: "These guides are useful when the route may be specialized but still needs to be clarified.",
                 pt: "Estas paginas sao uteis quando a rota pode ser especializada, mas ainda precisa ser esclarecida."
               },
               serviceKeys: ["visasHub", "advisoryConsultation", "processAssessment"]
@@ -1582,7 +1582,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful for long-term family-linked residence planning.",
+                en: "These guides are often useful for long-term family-linked residence planning.",
                 pt: "Estas paginas costumam ser uteis para planejamento de residencia de longo prazo ligado a familia."
               },
               serviceKeys: ["residencyReunion", "processPermanent", "processConsultation"]
@@ -1596,7 +1596,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful for remote workers considering long-term stay.",
+                en: "These guides are often useful for remote workers considering long-term stay.",
                 pt: "Estas paginas costumam ser uteis para trabalhadores remotos considerando permanencia de longo prazo."
               },
               serviceKeys: ["residencyNomad", "processRenewal", "processPlanning"]
@@ -1610,7 +1610,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful for retirement-linked long-term planning.",
+                en: "These guides are often useful for retirement-linked long-term planning.",
                 pt: "Estas paginas costumam ser uteis para planejamento de longo prazo ligado a aposentadoria."
               },
               serviceKeys: ["residencyRetiree", "processPermanent", "processPlanning"]
@@ -1624,7 +1624,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are useful when investment may support long-term residence.",
+                en: "These guides are useful when investment may support long-term residence.",
                 pt: "Estas paginas sao uteis quando investimento pode sustentar residencia de longo prazo."
               },
               serviceKeys: ["residencyInvestor", "advisoryCorporate", "processPermanent"]
@@ -1638,7 +1638,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are strong starting points when long-term residence is the goal but the route is still unclear.",
+                en: "These guides are strong starting points when long-term residence is the goal but the route is still unclear.",
                 pt: "Estas paginas sao bons pontos de partida quando residencia de longo prazo e o objetivo, mas a rota ainda esta incerta."
               },
               serviceKeys: ["residenciesHub", "advisoryConsultation", "processAssessment"]
@@ -1661,7 +1661,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when family ties may affect permanent status or citizenship planning.",
+                en: "These guides are often useful when family ties may affect permanent status or citizenship planning.",
                 pt: "Estas paginas costumam ser uteis quando vinculos familiares podem afetar o planejamento de status permanente ou cidadania."
               },
               serviceKeys: ["processPermanent", "naturalisationHub", "processConsultation"]
@@ -1675,7 +1675,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when residence history may support citizenship planning.",
+                en: "These guides are often useful when residence history may support citizenship planning.",
                 pt: "Estas paginas costumam ser uteis quando o historico de residencia pode sustentar o planejamento de cidadania."
               },
               serviceKeys: ["naturalisationOrdinary", "processNaturalisation", "processAssessment"]
@@ -1689,7 +1689,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when family facts may affect permanent status or citizenship planning.",
+                en: "These guides are often useful when family facts may affect permanent status or citizenship planning.",
                 pt: "Estas paginas costumam ser uteis quando fatos familiares podem afetar o planejamento de status permanente ou cidadania."
               },
               serviceKeys: ["processPermanent", "naturalisationHub", "processAssessment"]
@@ -1703,7 +1703,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when permanent status is already in place and citizenship may be the next question.",
+                en: "These guides are often useful when permanent status is already in place and citizenship may be the next question.",
                 pt: "Estas paginas costumam ser uteis quando o status permanente ja existe e a cidadania pode ser a proxima questao."
               },
               serviceKeys: ["naturalisationHub", "processNaturalisation", "naturalisationOrdinary"]
@@ -1717,7 +1717,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are useful when citizenship or permanent status may be relevant but still needs review.",
+                en: "These guides are useful when citizenship or permanent status may be relevant but still needs review.",
                 pt: "Estas paginas sao uteis quando cidadania ou status permanente podem ser relevantes, mas ainda precisam de revisao."
               },
               serviceKeys: ["naturalisationHub", "processAssessment", "processPermanent"]
@@ -1740,7 +1740,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when status continuity may already be affected.",
+                en: "These guides are often useful when status continuity may already be affected.",
                 pt: "Estas paginas costumam ser uteis quando a continuidade do status ja pode ter sido afetada."
               },
               serviceKeys: ["otherRegularization", "defenseFines", "processDeadlines"],
@@ -1756,7 +1756,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when overstay and regularization issues may need immediate review.",
+                en: "These guides are often useful when overstay and regularization issues may need immediate review.",
                 pt: "Estas paginas costumam ser uteis quando sobre-estadia e regularizacao podem precisar de revisao imediata."
               },
               serviceKeys: ["otherRegularization", "defenseFines", "processCompliance"],
@@ -1772,7 +1772,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when notices, fines, or compliance concerns are involved.",
+                en: "These guides are often useful when notices, fines, or compliance concerns are involved.",
                 pt: "Estas paginas costumam ser uteis quando notificacoes, multas ou preocupacoes de compliance estao envolvidas."
               },
               serviceKeys: ["defenseFines", "defenseAppeals", "processCompliance"],
@@ -1788,7 +1788,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when the key issue is urgency, deadlines, and immediate next steps.",
+                en: "These guides are often useful when the key issue is urgency, deadlines, and immediate next steps.",
                 pt: "Estas paginas costumam ser uteis quando a questao central e urgencia, prazos e proximos passos imediatos."
               },
               serviceKeys: ["processDeadlines", "defenseAppeals", "defenseLitigation"],
@@ -1804,7 +1804,7 @@
               },
               title: { en: "Likely service areas", pt: "Areas de servico mais provaveis" },
               copy: {
-                en: "These pages are often useful when deportation, expulsion, or removal concerns may already be active.",
+                en: "These guides are often useful when deportation, expulsion, or removal concerns may already be active.",
                 pt: "Estas paginas costumam ser uteis quando preocupacoes com deportacao, expulsao ou remocao ja podem estar ativas."
               },
               serviceKeys: ["defenseDeportation", "defenseExpulsion", "defenseHub"],
@@ -1818,9 +1818,9 @@
                 en: "This may require urgent legal guidance. I recommend speaking directly with the team as soon as possible so they can review your situation.",
                 pt: "Isso pode exigir orientacao juridica urgente. Recomendo falar diretamente com a equipe o quanto antes para que eles possam revisar a sua situacao."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are useful when the matter is urgent but still needs to be classified more precisely.",
+                en: "These guides are useful when the matter is urgent but still needs to be classified more precisely.",
                 pt: "Estas paginas sao uteis quando o assunto e urgente, mas ainda precisa ser classificado com mais precisao."
               },
               serviceKeys: ["defenseHub", "processDeadlines", "advisoryConsultation"],
@@ -1840,12 +1840,12 @@
           option("remote", "Work remotely from Brazil", "Trabalhar remotamente a partir do Brasil", "remote", {
             result: resultConfig({
               message: {
-                en: "There are likely a few possible options depending on your plans. These pages are a strong place to start.",
+                en: "There are likely a few possible options depending on your plans. These guides are a strong place to start.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo dos seus planos. Estas paginas sao um bom lugar para comecar."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when remote work is the central goal.",
+                en: "These guides are often useful when remote work is the central goal.",
                 pt: "Estas paginas costumam ser uteis quando o trabalho remoto e o objetivo central."
               },
               serviceKeys: ["visaNomad", "residencyNomad", "advisoryConsultation"]
@@ -1857,9 +1857,9 @@
                 en: "There are likely a few possible options depending on your plans, timeline, and ties to Brazil.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo dos seus planos, prazo e vinculos com o Brasil."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when the goal is long-term or permanent relocation.",
+                en: "These guides are often useful when the goal is long-term or permanent relocation.",
                 pt: "Estas paginas costumam ser uteis quando o objetivo e mudanca de longo prazo ou permanente."
               },
               serviceKeys: ["residenciesHub", "processPermanent", "advisoryStrategy"]
@@ -1871,9 +1871,9 @@
                 en: "There are likely a few possible options depending on the family relationship and supporting facts.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo da relacao familiar e dos fatos de apoio."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when family-linked relocation may be possible.",
+                en: "These guides are often useful when family-linked relocation may be possible.",
                 pt: "Estas paginas costumam ser uteis quando uma mudanca ligada a familia pode ser possivel."
               },
               serviceKeys: ["visaFamily", "residencyReunion", "processConsultation"]
@@ -1885,9 +1885,9 @@
                 en: "There are likely a few possible options depending on the school, timing, and document planning.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo da escola, do prazo e do planejamento documental."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when study is the main goal.",
+                en: "These guides are often useful when study is the main goal.",
                 pt: "Estas paginas costumam ser uteis quando o estudo e o objetivo principal."
               },
               serviceKeys: ["visaStudent", "residencyStudy", "processFiling"]
@@ -1899,9 +1899,9 @@
                 en: "There are likely a few possible options depending on your retirement income and long-term plans.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo da sua renda de aposentadoria e dos seus planos de longo prazo."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when retirement is central to the move.",
+                en: "These guides are often useful when retirement is central to the move.",
                 pt: "Estas paginas costumam ser uteis quando a aposentadoria esta no centro da mudanca."
               },
               serviceKeys: ["visaRetiree", "residencyRetiree", "processPlanning"]
@@ -1913,9 +1913,9 @@
                 en: "There are likely a few possible options depending on the structure of your plans in Brazil.",
                 pt: "Provavelmente existem algumas opcoes possiveis dependendo da estrutura dos seus planos no Brasil."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages are often useful when investment or business is the main goal.",
+                en: "These guides are often useful when investment or business is the main goal.",
                 pt: "Estas paginas costumam ser uteis quando investimento ou negocio e o objetivo principal."
               },
               serviceKeys: ["visaInvestor", "advisoryCorporate", "residencyInvestor"]
@@ -1929,7 +1929,7 @@
               },
               title: { en: "A good place to start", pt: "Um bom lugar para comecar" },
               copy: {
-                en: "These pages are useful when the goal still needs to be narrowed down.",
+                en: "These guides are useful when the goal still needs to be narrowed down.",
                 pt: "Estas paginas sao uteis quando o objetivo ainda precisa ser afunilado."
               },
               serviceKeys: ["advisoryConsultation", "advisoryStrategy", "processAssessment"]
@@ -1941,9 +1941,9 @@
                 en: "That is fine. A tailored review is usually the strongest first step when the route does not fit a simple category.",
                 pt: "Tudo bem. Uma analise personalizada costuma ser o primeiro passo mais forte quando a rota nao se encaixa em uma categoria simples."
               },
-              title: { en: "Suggested pages to start with", pt: "Paginas sugeridas para comecar" },
+              title: { en: "Suggested guides to start with", pt: "Paginas sugeridas para comecar" },
               copy: {
-                en: "These pages can help the team understand the route more clearly before recommending a next step.",
+                en: "These guides can help the team understand the route more clearly before recommending a next step.",
                 pt: "Estas paginas podem ajudar a equipe a entender a rota com mais clareza antes de recomendar um proximo passo."
               },
               serviceKeys: ["advisoryConsultation", "processAssessment", "visasHub"]
@@ -1961,20 +1961,20 @@
   function getCopy(isPt) {
     return {
       sectionLabel: isPt ? "Escolha uma opcao" : "Choose an option",
-      recommendationTitle: isPt ? "Paginas que parecem mais proximas do seu caso" : "Pages that seem closest to your situation",
+      recommendationTitle: isPt ? "Paginas que parecem mais proximas do seu caso" : "Guides that may fit your situation",
       recommendationCopy: isPt
         ? "Com base no que voce compartilhou, estas paginas podem ajudar a equipe a entender melhor o tipo de apoio que voce pode precisar."
-        : "Based on what you shared, these pages may help the team understand the kind of support you may need.",
+        : "Based on what you shared, these guides may help the team understand the kind of support you may need.",
       whatsappDefault: isPt ? "Continuar no WhatsApp" : "Continue on WhatsApp",
       leaveDetails: isPt ? "Deixar meus dados" : "Leave my details",
       reset: isPt ? "Comecar de novo" : "Start again",
       detailsMessage: isPt
         ? "Perfeito. Compartilhe seus dados e a equipe podera revisar sua situacao."
-        : "Perfect. Share your details and the team will be able to review your situation.",
+        : "Of course. Share your details and the team can review your situation.",
       formTitle: isPt ? "Deixe seus dados" : "Leave your details",
       formCopy: isPt
         ? "A Nina encaminhara isso para a equipe junto com o caminho que voce clicou aqui no site."
-        : "Nina will pass this to the team together with the path you clicked here on the site.",
+        : "Nina will share this with the team together with the guidance path you selected.",
       formFields: {
         fullName: isPt ? "Nome completo" : "Full name",
         email: isPt ? "Email" : "Email address",
@@ -2009,7 +2009,7 @@
         : "Your details could not be sent right now. Please try again or continue directly on WhatsApp.",
       whatsappClosing: isPt
         ? "Gostaria de falar com a equipe humana sobre o proximo passo."
-        : "I would like to speak with the human team about the next step."
+        : "I would like to speak with the team about the next step."
     };
   }
 

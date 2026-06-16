@@ -7,29 +7,82 @@ File: `insights/blog/index.html`
 - Browser title: Blog \| Immigration Insights \| Immigrate to Brazil
 - Meta description: Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Blog
+- H2: Overview
+- H2: Commentary
+- H2: Evergreen And Timely
+- H2: Editorial Standards
+- H2: Practical Use
+- H2: Sources
+- H2: Context
+- H2: Service Connection
+- H2: Limits
+- H2: Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Insights
+- H3: Updates
+- H3: Guides
+- H3: General
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +93,26 @@ File: `insights/blog/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +136,7 @@ File: `insights/blog/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +155,7 @@ File: `insights/blog/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +164,7 @@ File: `insights/blog/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +172,7 @@ File: `insights/blog/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +190,17 @@ File: `insights/blog/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +215,7 @@ File: `insights/blog/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +225,14 @@ File: `insights/blog/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +291,7 @@ File: `insights/blog/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +309,7 @@ File: `insights/blog/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +330,43 @@ File: `insights/blog/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Insights
 - Blog
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Blog page showing Cliffs of Morro Branco in Brazil.
+- H1: Blog
 - INSIGHTS
 - Immigrate to Brazil
-- H1: Blog
+- Blog
 - Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
-- Page highlights
-- Insights Hub Updates Guides General Consultation
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Brazil Immigration Blog: Evergreen Commentary, Explanations, And Planning Notes page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Insights Hub
 - Updates
+- Guides
+- General
+- Consultation
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Our blog is written for readers who want more than news and less than legal theatre.
 - Commentary
 - Commentary has value when it improves judgment rather than just expressing a view.
 - Evergreen And Timely
 - Some articles stay useful for years.
+- Cliffs of Morro Branco in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Brazil Immigration Blog: Evergreen Commentary, Explanations, And Planning Notes page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the cliffs and shore of Morro Branco in Brazil for the Overview section on the Blog page.
 - H2: Overview
+- Overview
 - Our blog is written for readers who want more than news and less than legal theatre. We use it to publish evergreen thinking about Brazil, immigration, relocation, and the kinds of recurring questions that do not disappear just because one update has passed.
 - That matters because many immigration readers are not looking only for law. They are also looking for orientation, context, examples, and language that makes Brazil feel more readable as a country they may actually live in.
 - The best use of the blog is usually to:
@@ -302,11 +375,12 @@ File: `insights/blog/index.html`
 - understand how Brazil-related decisions affect one another over time
 - move from broad interest into more disciplined research
 - We want the blog to feel useful even to readers who do not reach out immediately. It should still leave them more grounded than when they arrived.
+- the cliffs and shore of Morro Branco in Brazil.
 
 ### Commentary
-- Cinematic background of the coast and church of Praia dos Carneiros in Brazil for the Commentary section on the Blog page.
-- Section 02
 - H2: Commentary
+- Section 02
+- Commentary
 - Commentary has value when it improves judgment rather than just expressing a view. That is how we approach it at Immigrate to Brazil. We use commentary to connect public developments, recurring client questions, and everyday Brazil realities in a way that helps people think more clearly.
 - Good commentary usually does at least one of these things:
 - slows down a subject that is being discussed too quickly online
@@ -314,11 +388,12 @@ File: `insights/blog/index.html`
 - separates one person's experience from what can responsibly be generalized
 - shows how a public topic may affect real planning decisions
 - That is why our commentary stays close to process, culture, and decision quality rather than becoming reactive content for its own sake.
+- the coast and church of Praia dos Carneiros in Brazil.
 
 ### Evergreen And Timely
-- Cinematic background of the Ponta Negra riverfront in Manaus in Brazil for the Evergreen And Timely section on the Blog page.
-- Section 03
 - H2: Evergreen And Timely
+- Section 03
+- Evergreen And Timely
 - Some articles stay useful for years. Others matter because a particular change has made readers uneasy. We try to be honest about that difference. Evergreen posts should help even when the immediate news cycle has faded. Timely posts should still explain what is structural and what is temporary.
 - When we choose topics, we usually ask:
 - will this help readers next month as well as today
@@ -326,23 +401,25 @@ File: `insights/blog/index.html`
 - is the subject broad enough for public education and specific enough to be useful
 - can we write it in a way that remains calm even if the topic is timely
 - That balance is part of what makes a content library trustworthy over time.
+- the Ponta Negra riverfront in Manaus in Brazil.
 
 ### Editorial Standards
-- Cinematic background of the natural pools of Maragogi in Brazil for the Editorial Standards section on the Blog page.
-- Section 04
 - H2: Editorial Standards
+- Section 04
+- Editorial Standards
 - Editorial standards matter because immigration content can easily become either too vague or too certain. We work against both problems. Our aim is plain-English explanation that stays accurate, structured, and transparent about its limits.
 - In practice, that means:
 - no promise of outcomes that belong to authorities
 - clear distinction between general education and case-specific guidance
-- careful use of official sources such as Brazilian Migration Law and Portal de Imigracao - Ministerio da Justica
+- careful use of official sources such as Brazilian Migration Law
 - a preference for clarity, sequence, and practical relevance over sensational phrasing
 - Readers deserve a site that respects both their intelligence and the seriousness of immigration decisions.
+- the natural pools of Maragogi in Brazil.
 
 ### Practical Use
-- Cinematic background of the sunrise landscape of Rio Negro Palace in Manaus in Brazil for the Practical Use section on the Blog page.
-- Section 05
 - H2: Practical Use
+- Section 05
+- Practical Use
 - The blog is most useful when it is read in connection with a real question. That question might be about moving to Brazil, comparing cities, understanding a route family, or getting more realistic about what a process will actually require.
 - A productive reading habit is usually to:
 - start with one article that matches the immediate concern
@@ -350,23 +427,23 @@ File: `insights/blog/index.html`
 - notice what has become clearer and what has become more personal
 - move to consultation when the article has narrowed the real issue down
 - That is how we try to use public content as part of a real support journey rather than as isolated reading.
+- the sunrise landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Sources
-- Cinematic background of the Atlantic coastline around Itacare in Brazil for the Sources section on the Blog page.
-- Section 06
 - H2: Sources
+- Section 06
+- Sources
 - Whenever a post touches legal or administrative reality, the strongest public anchors are official ones. That is why we link readers toward government portals and institutional references where they are useful, even though those sources often need context to be read well.
 - Useful official anchors often include:
 - Brazilian Migration Law
-- Portal de Imigracao - Ministerio da Justica
-- Policia Federal - Imigracao
 - IBGE - Cidades e Estados
 - A public article becomes stronger when the reader knows where the formal references sit and how they differ from commentary.
+- the Atlantic coastline around Itacare in Brazil.
 
 ### Context
-- Cinematic background of the wide coastline and water of Arraial d'Ajuda coastline in Brazil for the Context section on the Blog page.
-- Section 07
 - H2: Context
+- Section 07
+- Context
 - Context is one of the most underestimated parts of good Brazil content. Law matters, but so do city choice, housing, routine, language, family structure, work pattern, and long-term plans. Public content becomes more useful when those layers are connected.
 - That wider context often includes:
 - how immigration decisions affect everyday life in Brazil
@@ -374,11 +451,12 @@ File: `insights/blog/index.html`
 - how place, culture, and bureaucracy interact in ordinary life
 - why planning improves when legal and practical layers are read together
 - We keep returning to context because decisions are rarely made inside one category alone.
+- the wide coastline and water of Arraial d'Ajuda coastline in Brazil.
 
 ### Service Connection
-- Cinematic background of the sunrise landscape of Anavilhanas archipelago in Brazil for the Service Connection section on the Blog page.
-- Section 08
 - H2: Service Connection
+- Section 08
+- Service Connection
 - Public content should not pressure people into services, but it should make the value of guidance easier to recognize. That is the approach we take. A good article often does not end by saying book now. It ends by making the reader clearer about whether general reading is still enough.
 - Consultation usually becomes more useful when:
 - a post has clarified the subject but not resolved the personal decision
@@ -386,11 +464,12 @@ File: `insights/blog/index.html`
 - documents, timing, or prior steps are becoming decisive
 - the issue has moved from public reading into private judgment
 - That boundary is where education and service meet in a healthy way.
+- the sunrise landscape of Anavilhanas archipelago in Brazil.
 
 ### Limits
-- Cinematic background of the beachfront and sea of Cliffs of Canoa Quebrada in Brazil for the Limits section on the Blog page.
-- Section 09
 - H2: Limits
+- Section 09
+- Limits
 - No blog post can substitute for a controlled review of facts and documents. That limit is part of responsible publishing, not a weakness in the content. Public writing can explain, calm, orient, and compare. It cannot decide route fit on incomplete personal information.
 - That limit becomes especially important when:
 - a reader is already under a deadline
@@ -398,63 +477,102 @@ File: `insights/blog/index.html`
 - the answer depends on relationship evidence, travel history, or cross-border records
 - the real need is a judgment call rather than another explanation
 - We keep this limit visible because the site should be honest about where public content stops.
+- the beachfront and sea of Cliffs of Canoa Quebrada in Brazil.
 
 ### Next Step
-- Cinematic background of the Park of Indigenous Nations in Campo Grande in Brazil for the Next Step section on the Blog page.
-- Section 10
 - H2: Next Step
+- Section 10
+- Next Step
 - If an article has helped you name the real question more clearly, it has already done important work. The next step is simply to decide whether that question still belongs to public reading or whether it now depends on your own facts and documents.
 - A useful next move is usually one of two things:
 - continue reading one more closely related article or guide
 - book a consultation once the issue has clearly become personal
 - That is how we want the blog to function: as a calmer and more intelligent front door into Brazil-related decision-making.
+- the Park of Indigenous Nations in Campo Grande in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Commentary Evergreen And Timely Editorial Standards Practical Use Sources Context Service Connection Limits Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Commentary
+- Evergreen And Timely
+- Editorial Standards
+- Practical Use
+- Sources
+- Context
+- Service Connection
+- Limits
+- Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. Insights Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Updates Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention. Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil. Guides These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning. Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. General Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Insights
+- H3: Updates
+- H3: Guides
+- H3: General
+- H3: Start Consultation
+- Related pages
+- Insights
+- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.
+- Updates
+- Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.
+- Guides
+- These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.
+- General
+- Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Sao Paulo skyline in southeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the historic hillside architecture of Ouro Preto in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
-- Immigrate to Brazil logo for the Brazil Immigration Blog: Evergreen Commentary, Explanations, And Planning Notes page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Brazil Immigration Blog: Evergreen Commentary, Explanations, And Planning Notes page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicinsights / blog
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -463,40 +581,44 @@ File: `insights/blog/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -509,6 +631,7 @@ File: `insights/blog/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -526,10 +649,11 @@ File: `insights/blog/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -546,6 +670,7 @@ File: `insights/blog/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -561,6 +686,7 @@ File: `insights/blog/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -573,6 +699,7 @@ File: `insights/blog/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -587,7 +714,7 @@ File: `insights/blog/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -663,26 +790,15 @@ File: `insights/blog/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -706,7 +822,6 @@ File: `insights/blog/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -877,7 +992,8 @@ File: `insights/blog/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -889,21 +1005,19 @@ File: `insights/blog/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

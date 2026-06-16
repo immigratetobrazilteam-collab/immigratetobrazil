@@ -7,29 +7,87 @@ File: `insights/index.html`
 - Browser title: Insights \| Brazil Insights \| Immigrate to Brazil
 - Meta description: Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Insights
+- H2: Overview
+- H2: Explore this hub
+- H3: General
+- H3: Visa
+- H3: Residency
+- H3: Naturalisation
+- H3: Brazil Immigration Process
+- H3: Blog
+- H3: Updates
+- H3: Guides
+- H2: Explore The Reading Paths
+- H2: How To Read These Pages
+- H2: What Insights Are For
+- H2: Best Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: General
+- H3: Visa
+- H3: Residency
+- H3: Naturalisation
+- H3: Brazil Immigration Process
+- H3: Blog
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +98,26 @@ File: `insights/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +141,7 @@ File: `insights/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +160,7 @@ File: `insights/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +169,7 @@ File: `insights/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +177,7 @@ File: `insights/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +195,17 @@ File: `insights/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +220,7 @@ File: `insights/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +230,14 @@ File: `insights/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +296,7 @@ File: `insights/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +314,7 @@ File: `insights/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,35 +335,43 @@ File: `insights/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Insights
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Insights page showing Morro de Sao Paulo in Brazil.
+- H1: Insights
 - INSIGHTS
 - Immigrate to Brazil
-- H1: Insights
+- Insights
 - Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.
-- Page highlights
-- General Visa Residency Naturalisation Process Blog
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Brazil Immigration Insights, Guides, Updates, And FAQs page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - General
 - Visa
+- Residency
+- Naturalisation
+- Process
+- Blog
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - The Insights hub is where Brazil-related reading becomes more structured.
 - Explore The Reading Paths
 - Different readers need different entry points.
 - How To Read These Pages
 - The best way to use the Insights family is to read for structure rather than for isolated answers.
+- Morro de Sao Paulo in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Brazil Immigration Insights, Guides, Updates, And FAQs page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the island village and beaches of Morro de Sao Paulo in Brazil for the Overview section on the Insights page.
 - H2: Overview
+- Overview
 - The Insights hub is where Brazil-related reading becomes more structured. It brings together evergreen explainers, FAQ-style answers, practical guides, and calm commentary so readers can understand Brazil more clearly before their own case requires individual review.
 - We designed this part of the site for people who are still building understanding. Some want to know how Brazil immigration works. Others want better context on residency, naturalisation, process, or everyday planning. Many simply need one place to start without falling into contradictory tabs and low-quality summaries.
 - A useful way to think about this hub is:
@@ -303,55 +382,49 @@ File: `insights/index.html`
 - Process for how a real file moves in practice
 - Blog, Updates, and Guides for deeper reading around Brazil and relocation
 - We want this hub to feel like a reliable reading desk, not a content maze.
+- the island village and beaches of Morro de Sao Paulo in Brazil.
 
 ### Hub Menu
 - H2: Explore this hub
-- Use the cards below to move directly into the page that best matches the question, route, place, or stage you are trying to understand next.
-- Hero image for the General page showing the Sao Paulo skyline in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
 - H3: General
+- H3: Visa
+- H3: Residency
+- H3: Naturalisation
+- H3: Brazil Immigration Process
+- H3: Blog
+- H3: Updates
+- H3: Guides
+- Explore this hub
+- Use the cards below to choose the topic that best matches the question, place, or stage you are trying to understand next.
+- General
 - Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.
 - Open page
-- Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Visa
+- Visa
 - Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.
-- Open page
-- Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Residency
+- Residency
 - Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure.
-- Open page
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Naturalisation
+- Naturalisation
 - Monique Fernandes approaches naturalisation as a long-term continuity and preparation question, helping clients understand eligibility, timing, records, and what citizenship planning in Brazil really requires.
-- Open page
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Brazil Immigration Process
+- Brazil Immigration Process
 - Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
-- Open page
-- Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Blog
+- Blog
 - Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
-- Open page
-- Hero image for the Updates page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Updates
+- Updates
 - Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.
-- Open page
-- Hero image for the Guides page showing the historic hillside architecture of Ouro Preto in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Guides
+- Guides
 - These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.
-- Open page
+- the Sao Paulo skyline in southeast Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Teatro Amazonas in Manaus in northern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the historic hillside architecture of Ouro Preto in southeast Brazil.
 
 ### Explore The Reading Paths
-- Cinematic background of the architecture and streets of Fervedouro in Jalapao in Brazil for the Explore The Reading Paths section on the Insights page.
-- Section 02
 - H2: Explore The Reading Paths
+- Section 02
+- Explore The Reading Paths
 - Different readers need different entry points. A first-time reader is often better served by the General page or the Guides page. Someone already comparing routes may get more value from Visa or Residency. Someone following regulatory discussion may want Updates or the Blog first.
 - A strong reading path often looks like this:
 - start with the page that matches the real question, not the most dramatic one
@@ -359,11 +432,12 @@ File: `insights/index.html`
 - use official sources when you need the formal anchor, but use these pages for context and interpretation
 - move to consultation once the answer clearly depends on your own facts or records
 - That reading discipline saves time and usually leaves the reader calmer as well.
+- the architecture and streets of Fervedouro in Jalapao in Brazil.
 
 ### How To Read These Pages
-- Cinematic background of the wide coastline and water of Pajucara waterfront in Maceio in Brazil for the How To Read These Pages section on the Insights page.
-- Section 03
 - H2: How To Read These Pages
+- Section 03
+- How To Read These Pages
 - The best way to use the Insights family is to read for structure rather than for isolated answers. Brazil becomes more understandable when the reader can see how law, public authorities, documents, place, timing, and long-term planning connect to one another instead of sitting in separate boxes.
 - A good reading method is usually to:
 - identify the real decision first
@@ -371,11 +445,12 @@ File: `insights/index.html`
 - follow the internal links into one related page only
 - notice when the subject has shifted from public education into private judgment
 - That shift is important. It helps readers know when more reading is useful and when it is simply delaying a clearer next step.
+- the wide coastline and water of Pajucara waterfront in Maceio in Brazil.
 
 ### What Insights Are For
-- Cinematic background of the Museum of Tomorrow in Rio de Janeiro in Brazil for the What Insights Are For section on the Insights page.
-- Section 04
 - H2: What Insights Are For
+- Section 04
+- What Insights Are For
 - These articles are meant to do three things well: explain Brazil in plain but serious language, answer recurring questions without false certainty, and prepare readers for better decisions later. They are not meant to imitate individualized advice. They are meant to make individualized advice more focused when it becomes necessary.
 - In practice, that means:
 - clear explanation of public systems and common terminology
@@ -383,11 +458,12 @@ File: `insights/index.html`
 - honest acknowledgment of uncertainty where authority discretion still matters
 - encouragement toward consultation only when the issue has genuinely become personal
 - That balance matters to us because trust is easier to build when the public content is genuinely useful on its own.
+- the Museum of Tomorrow in Rio de Janeiro in Brazil.
 
 ### Best Next Step
-- Cinematic background of the Botanical Garden of Curitiba in Brazil for the Best Next Step section on the Insights page.
-- Section 05
 - H2: Best Next Step
+- Section 05
+- Best Next Step
 - If you are still orienting yourself, the best next step is simply to open the article that most closely matches your real question and keep narrowing from there. If you already know the question clearly but the answer now depends on your own documents, relationship history, route fit, or timing, the next step is usually consultation.
 - Consultation tends to make sense once:
 - you are comparing real options rather than reading broadly
@@ -395,53 +471,90 @@ File: `insights/index.html`
 - an earlier mistake may already be affecting the process
 - you want the public explanation translated into a real sequence for your case
 - That is the handoff we aim for across the site: strong public orientation first, structured private guidance second.
+- the Botanical Garden of Curitiba in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Explore The Reading To Read These Insights Are For Best Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Hub Menu
+- Explore The Reading Paths
+- How To Read These Pages
+- What Insights Are For
+- Best Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Read the article that matches the real question on your mind, and reach out when the answer now depends on your own chronology, route fit, documents, or deadlines.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. General Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions. Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visa Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process. Hero image for the Residency page showing the Sao Paulo skyline in southeast Brazil. Residency Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Naturalisation Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil. Blog Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
+### Related Links
+- H2: Related pages
+- H3: General
+- H3: Visa
+- H3: Residency
+- H3: Naturalisation
+- H3: Brazil Immigration Process
+- H3: Blog
+- Related pages
+- General
+- Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.
+- Visa
+- Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.
+- Residency
+- Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure.
+- Naturalisation
+- Monique helps clients think about citizenship as a long-term process built on continuity, planning, and realistic preparation.
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Blog
+- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Teatro Amazonas in Manaus in northern Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Read the article that matches the real question on your mind, and reach out when the answer now depends on your own chronology, route fit, documents, or deadlines.
-- Immigrate to Brazil logo for the Brazil Immigration Insights, Guides, Updates, And FAQs page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Read the article that matches the real question on your mind, and reach out when the answer now depends on your own chronology, route fit, documents, or deadlines.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Brazil Immigration Insights, Guides, Updates, And FAQs page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicinsights
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -450,40 +563,44 @@ File: `insights/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -496,6 +613,7 @@ File: `insights/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -513,10 +631,11 @@ File: `insights/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -533,6 +652,7 @@ File: `insights/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -548,6 +668,7 @@ File: `insights/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -560,6 +681,7 @@ File: `insights/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -574,7 +696,7 @@ File: `insights/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -650,26 +772,15 @@ File: `insights/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -693,7 +804,6 @@ File: `insights/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -864,7 +974,8 @@ File: `insights/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -876,21 +987,19 @@ File: `insights/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

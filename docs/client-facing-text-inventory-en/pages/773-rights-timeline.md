@@ -7,29 +7,83 @@ File: `rights/timeline/index.html`
 - Browser title: Timeline \| Brazil Immigration Process \| Immigrate to Brazil
 - Meta description: Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Timeline
+- H2: Overview
+- H2: Factors
+- H2: Stages
+- H2: Variability
+- H2: Expectations
+- H2: Delays
+- H2: Control
+- H2: Planning
+- H2: Progression
+- H2: Outcomes
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Start Consultation
+- H3: Planning
+- H3: Rights
+- H3: Fees
+- H3: Services
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `rights/timeline/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `rights/timeline/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `rights/timeline/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `rights/timeline/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `rights/timeline/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `rights/timeline/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `rights/timeline/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `rights/timeline/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `rights/timeline/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `rights/timeline/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,35 +331,43 @@ File: `rights/timeline/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Timeline
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Timeline page showing the National Congress complex in Brasilia in central-west Brazil.
+- H1: Timeline
 - PROCESS
 - Immigrate to Brazil
-- H1: Timeline
+- Timeline
 - Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities.
-- Page highlights
-- Process Hub Consultation Planning Rights Fees
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Timeline Expectations In A Process That Authorities Still Control page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Consultation
+- Planning
+- Rights
+- Fees
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Timeline is not just a label inside the process.
 - Factors
 - Timeline matters because stages, variability, delays, and planning discipline shape whether a Brazil immigration process feels orderly or exposed.
 - Stages
 - Timing matters because immigration processes are rarely forgiving of weak sequence.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Timeline Expectations In A Process That Authorities Still Control page, Brazil immigration, relocation, and consultation support
 
 ### Overview
 - H2: Overview
+- Overview
 - Timeline is not just a label inside the process. It is a real stage that affects timing, cost, documentation, expectation, and emotional pressure. Readers usually arrive here because something in the process has become concrete enough that broad reading is no longer enough.
 - When we explain timeline, we focus on how stages, variability, delays, and planning discipline behave in real matters. We want readers to understand not only what the stage is called, but what it changes, what it depends on, and what can go wrong when it is rushed or misunderstood.
 - A useful way to read this stage is to ask:
@@ -303,8 +378,9 @@ File: `rights/timeline/index.html`
 - That is the wider purpose of the Process family: to make the immigration journey readable enough that clients can move with more control and less guesswork.
 
 ### Factors
-- Section 02
 - H2: Factors
+- Section 02
+- Factors
 - Timeline matters because stages, variability, delays, and planning discipline shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -314,8 +390,9 @@ File: `rights/timeline/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Stages
-- Section 03
 - H2: Stages
+- Section 03
+- Stages
 - Timing matters because immigration processes are rarely forgiving of weak sequence. A good document gathered too late or a good decision taken in the wrong order can still produce delay, cost, or avoidable exposure. That is why timeline has to be understood as part of a chain rather than as an isolated step.
 - In our work, we try to make the sequence visible. Clients usually feel calmer once they can see what should happen before this stage, what belongs inside it, and what should follow only after it has been handled properly.
 - Timing discipline usually improves when:
@@ -326,8 +403,9 @@ File: `rights/timeline/index.html`
 - This is one of the main reasons structured support feels different from improvised progress. The order becomes readable, and that changes the whole experience.
 
 ### Variability
-- Section 04
 - H2: Variability
+- Section 04
+- Variability
 - Timeline matters because stages, variability, delays, and planning discipline shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -337,8 +415,9 @@ File: `rights/timeline/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Expectations
-- Section 05
 - H2: Expectations
+- Section 05
+- Expectations
 - Expectations matter because immigration work can feel personal and urgent at the same time. Without clear expectations, people often assume that support can remove authority discretion, speed up external timelines, or compensate entirely for missing records and weak sequence. None of those assumptions helps the client.
 - We prefer to ground expectations early. That makes the process steadier, protects trust, and helps the client judge outcomes more fairly against the reality of the stage.
 - A healthier expectation framework usually includes:
@@ -349,8 +428,9 @@ File: `rights/timeline/index.html`
 - When expectations are honest, the client usually feels less whiplash later in the process.
 
 ### Delays
-- Section 06
 - H2: Delays
+- Section 06
+- Delays
 - Risk in immigration work is often cumulative rather than dramatic. Matters become heavier when assumptions go untested, sequence weakens, facts stay partial, or deadlines are allowed to narrow without enough control. By the time the client feels the pressure, the process may already be carrying unnecessary weight.
 - We prefer to describe those risks plainly. Good support does not remove every uncertainty, but it does reduce the number of problems that come from preventable disorder.
 - Recurring destabilizing patterns include:
@@ -361,8 +441,9 @@ File: `rights/timeline/index.html`
 - Seeing those patterns earlier usually gives the client more room to recover than they expected.
 
 ### Control
-- Section 07
 - H2: Control
+- Section 07
+- Control
 - Timeline matters because stages, variability, delays, and planning discipline shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -372,8 +453,9 @@ File: `rights/timeline/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Planning
-- Section 08
 - H2: Planning
+- Section 08
+- Planning
 - Timeline works best when the practical shape of the stage is visible. That includes what is being reviewed or prepared, what materials need to be in place, how communication is handled, and where the limits of the stage sit so no one assumes more than it can deliver.
 - We structure the stage deliberately because process quality is often built through ordinary discipline: complete records, clear chronology, controlled communication, and realistic pacing. That may not sound dramatic, but it is exactly what keeps a viable path from becoming messy.
 - A well-structured stage usually includes:
@@ -384,8 +466,9 @@ File: `rights/timeline/index.html`
 - When those elements are visible, the client usually understands not only what is happening, but why the process is moving the way it is.
 
 ### Progression
-- Section 09
 - H2: Progression
+- Section 09
+- Progression
 - Timing matters because immigration processes are rarely forgiving of weak sequence. A good document gathered too late or a good decision taken in the wrong order can still produce delay, cost, or avoidable exposure. That is why timeline has to be understood as part of a chain rather than as an isolated step.
 - In our work, we try to make the sequence visible. Clients usually feel calmer once they can see what should happen before this stage, what belongs inside it, and what should follow only after it has been handled properly.
 - Timing discipline usually improves when:
@@ -396,8 +479,9 @@ File: `rights/timeline/index.html`
 - This is one of the main reasons structured support feels different from improvised progress. The order becomes readable, and that changes the whole experience.
 
 ### Outcomes
-- Section 10
 - H2: Outcomes
+- Section 10
+- Outcomes
 - The purpose of timeline is to improve the quality of what happens next. In immigration work, a strong stage does not only create motion. It creates better sequence, better judgment, and fewer avoidable weaknesses later on.
 - When this stage is handled well, the benefit is often visible before any formal result arrives. The file becomes clearer, the next move is easier to justify, and the client usually understands the process with much less anxiety.
 - Strong outcomes at this stage usually include:
@@ -409,50 +493,90 @@ File: `rights/timeline/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Factors Stages Variability Expectations Delays Control Planning Progression Outcomes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Factors
+- Stages
+- Variability
+- Expectations
+- Delays
+- Control
+- Planning
+- Progression
+- Outcomes
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Timelines help when they are realistic, not comforting. We explain what usually shapes immigration timing in Brazil, what can be planned, and what still depends on third parties or public authorities. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If timeline is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Planning page showing the Porto Alegre skyline in southern Brazil. Planning Planning is where goals, route fit, documents, timing, and life design begin to align. We explain why strong planning changes the whole feel of a Brazil immigration process. Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil. Rights Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life. Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil. Fees Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes. Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Start Consultation
+- H3: Planning
+- H3: Rights
+- H3: Fees
+- H3: Services
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Planning
+- Planning is where goals, route fit, documents, timing, and life design begin to align. We explain why strong planning changes the whole feel of a Brazil immigration process.
+- Rights
+- Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life.
+- Fees
+- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- an aerial view of the Amazon river basin in northern Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If timeline is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
-- Immigrate to Brazil logo for the Timeline Expectations In A Process That Authorities Still Control page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If timeline is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Timeline Expectations In A Process That Authorities Still Control page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicrights / timeline
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -461,40 +585,44 @@ File: `rights/timeline/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -507,6 +635,7 @@ File: `rights/timeline/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -524,10 +653,11 @@ File: `rights/timeline/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -544,6 +674,7 @@ File: `rights/timeline/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -559,6 +690,7 @@ File: `rights/timeline/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -571,6 +703,7 @@ File: `rights/timeline/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -585,7 +718,7 @@ File: `rights/timeline/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -661,26 +794,15 @@ File: `rights/timeline/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -704,7 +826,6 @@ File: `rights/timeline/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -875,7 +996,8 @@ File: `rights/timeline/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -887,21 +1009,19 @@ File: `rights/timeline/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

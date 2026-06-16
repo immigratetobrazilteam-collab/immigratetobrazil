@@ -7,29 +7,87 @@ File: `legal/gdpr/index.html`
 - Browser title: GDPR Notice \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: This GDPR Notice explains how Monique Fernandes handles personal data where an EU or EEA user expects GDPR-style transparency, rights information, and cross-border transfer disclosure.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: GDPR Notice
+- H2: Statement of GDPR alignment
+- H2: Data controller identification
+- H2: Legal basis for processing
+- H2: Categories of data processed (contextual clarification)
+- H2: Explicit EU client rights
+- H2: Cross-border transfer acknowledgment
+- H2: Data retention and minimization principles
+- H2: Relationship with legal representation and governing contracts
+- H2: Complaint process
+- H2: Contact point
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Privacy Policy
+- H3: LGPD Notice
+- H3: Form & Intake Policy
+- H3: Disclaimer & Legal Notice
+- H3: Lawyer
+- H3: Start Consultation
+- H2: Frequently asked questions
+- H3: Does this page replace the Privacy Policy?
+- H3: Why does cross-border transfer matter here?
+- H3: Who should receive GDPR-related questions?
+- H2: Need case-specific guidance?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +98,26 @@ File: `legal/gdpr/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +141,7 @@ File: `legal/gdpr/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +160,7 @@ File: `legal/gdpr/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +169,7 @@ File: `legal/gdpr/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +177,7 @@ File: `legal/gdpr/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +195,17 @@ File: `legal/gdpr/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +220,7 @@ File: `legal/gdpr/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +230,14 @@ File: `legal/gdpr/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +296,7 @@ File: `legal/gdpr/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +314,7 @@ File: `legal/gdpr/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,26 +335,27 @@ File: `legal/gdpr/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Legal
 - GDPR Notice
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the GDPR Notice page showing Lençois Maranhenses dunes and lagoons in Brazil.
+- H1: GDPR Notice
 - LEGAL
 - Supplemental data-protection notice for EU and EEA users
-- H1: GDPR Notice
+- GDPR Notice
 - This GDPR Notice explains how Monique Fernandes handles personal data where an EU or EEA user expects GDPR-style transparency, rights information, and cross-border transfer disclosure.
-- Page highlights
-- Supplemental privacy notice Cross-border transparency EU and EEA rights context
-- Submit a privacy request
-- Read privacy policy
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the GDPR Notice page, Brazil immigration advisory, consultation, and legal compliance guidance Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes serves international clients. This page adds GDPR-style transparency for situations where an EU or EEA user expects additional rights and transfer information.
-- Why Attorney Monique Fernandes?
 - Supplemental privacy notice
 - Cross-border transparency
+- EU and EEA rights context
+- Submit a privacy request
+- Read privacy policy
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Monique Fernandes serves international clients. This page adds GDPR-style transparency for situations where an EU or EEA user expects additional rights and transfer information.
+- Why Attorney Monique Fernandes?
 - Attorney-led accountability
 - English and Portuguese
 - Who this page is for
@@ -292,132 +364,193 @@ File: `legal/gdpr/index.html`
 - Controller identity, legal bases, rights, transfers, retention, and complaint routes.
 - Practical takeaway
 - This page supplements the broader Privacy Policy rather than replacing it.
+- Lençois Maranhenses dunes and lagoons in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the GDPR Notice page, Brazil immigration advisory, consultation, and legal compliance guidance
 
 ### Statement Of GDPR Alignment
-- Cinematic background of Lençois Maranhenses in Brazil for the Statement of GDPR alignment section on the GDPR Compliance Notice page.
 - H2: Statement of GDPR alignment
+- Statement of GDPR alignment
 - This page gives GDPR-style transparency where that framework is relevant to the user or the situation.
 - It should be read as a supplemental notice for international users who want clearer information about rights, cross-border handling, and the legal framework applied to personal data.
+- Lençois Maranhenses in Brazil.
 
 ### Data Controller Identification
-- Cinematic background of the wide coastline and water of Ipanema beach and Dois Irmaos in Brazil for the Data controller identification section on the GDPR Compliance Notice page.
-- Section 02
 - H2: Data controller identification
+- Section 02
+- Data controller identification
 - The responsible practice should be clearly identified.
 - For the purposes of this site and service workflow, the relevant contact point is Monique Fernandes / Immigrate to Brazil, using the contact details published on this platform.
+- the wide coastline and water of Ipanema beach and Dois Irmaos in Brazil.
 
 ### Legal Basis For Processing
-- Cinematic background of the urban panorama of National Congress in Brasilia in Brazil for the Legal basis for processing section on the GDPR Compliance Notice page.
-- Section 03
 - H2: Legal basis for processing
+- Section 03
+- Legal basis for processing
 - The basis for processing depends on why the data is being used.
 - This may include pre-contractual steps requested by the user, contractual necessity, legal obligations, legitimate interests, consent where appropriate, or the establishment, exercise, or defense of legal claims.
+- the urban panorama of National Congress in Brasilia in Brazil.
 
 ### Categories Of Data Processed Contextual Clarification
-- Cinematic background of the architecture and streets of Sao Paulo skyline in Brazil for the Categories of data processed (contextual clarification) section on the GDPR Compliance Notice page.
-- Section 04
 - H2: Categories of data processed (contextual clarification)
+- Section 04
+- Categories of data processed (contextual clarification)
 - The categories should match the actual service context.
 - They may include contact information, identity details, immigration facts, chronology, communications, uploaded records, payment-related information, and limited technical usage information related to the site.
+- the architecture and streets of Sao Paulo skyline in Brazil.
 
 ### Explicit Eu Client Rights
-- Cinematic background of the wide natural landscape of Inhotim in Brumadinho in Brazil for the Explicit EU client rights section on the GDPR Compliance Notice page.
-- Section 05
 - H2: Explicit EU client rights
+- Section 05
+- Explicit EU client rights
 - This page should make core rights easier to understand.
 - Depending on the situation, a person may have rights such as access, rectification, erasure in some circumstances, restriction, objection, portability where applicable, and the right to withdraw consent where consent is the legal basis being used.
+- the wide natural landscape of Inhotim in Brumadinho in Brazil.
 
 ### Cross Border Transfer Acknowledgment
-- Cinematic background of the natural pools of Maragogi in Brazil for the Cross-border transfer acknowledgment section on the GDPR Compliance Notice page.
-- Section 06
 - H2: Cross-border transfer acknowledgment
+- Section 06
+- Cross-border transfer acknowledgment
 - International practice requires clear acknowledgment of cross-border handling.
 - Because Monique serves clients in Brazil and abroad, personal data may be stored, communicated, or reviewed across jurisdictions where needed for the service or supporting infrastructure.
+- the natural pools of Maragogi in Brazil.
 
 ### Data Retention And Minimization Principles
-- Cinematic background of Porto Alegre in Brazil for the Data retention and minimization principles section on the GDPR Compliance Notice page.
-- Section 07
 - H2: Data retention and minimization principles
+- Section 07
+- Data retention and minimization principles
 - Retention should be limited to what is necessary for the work and the legal context.
 - Monique aims to retain only what is reasonably needed for inquiry handling, service delivery, payment and compliance records, or the defense of rights.
+- Porto Alegre in Brazil.
 
 ### Relationship With Legal Representation And Governing Contracts
-- Cinematic background of the cathedral and town center of Canela in Brazil for the Relationship with legal representation and governing contracts section on the GDPR Compliance Notice page.
-- Section 08
 - H2: Relationship with legal representation and governing contracts
+- Section 08
+- Relationship with legal representation and governing contracts
 - This notice sits alongside the privacy framework and any formal service terms.
 - If a matter moves into a defined service stage, the handling of records should be read together with the Privacy Policy and the written terms or scope that apply to that stage.
+- the cathedral and town center of Canela in Brazil.
 
 ### Complaint Process
-- Cinematic background of the wide natural landscape of Botanical Garden of Curitiba in Brazil for the Complaint process section on the GDPR Compliance Notice page.
-- Section 09
 - H2: Complaint process
+- Section 09
+- Complaint process
 - Users should know that supervisory authority routes may exist in their own jurisdiction.
 - Where GDPR applies, a user may also have the ability to raise a complaint with a relevant supervisory authority, in addition to contacting the practice first for clarification.
+- the wide natural landscape of Botanical Garden of Curitiba in Brazil.
 
 ### Contact Point
-- Cinematic background of the beach and natural pools of Porto de Galinhas in Brazil for the Contact point section on the GDPR Compliance Notice page.
-- Section 10
 - H2: Contact point
+- Section 10
+- Contact point
 - Privacy questions should go to the published contact channel so they can be reviewed properly.
-- Requests, corrections, and privacy questions may be sent to moniquefadv@gmail.com , with enough detail to identify the issue and the records involved.
+- Requests, corrections, and privacy questions may be sent to moniquefadv@gmail.com
+- , with enough detail to identify the issue and the records involved.
+- the beach and natural pools of Porto de Galinhas in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Statement of GDPR Data controller identification Legal basis for Categories of data Explicit EU client Cross-border transfer acknowledgment Data retention and Relationship with legal Complaint process Contact point
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Statement Of GDPR Alignment
+- Data Controller Identification
+- Legal Basis For Processing
+- Categories Of Data Processed Contextual Clarification
+- Explicit Eu Client Rights
+- Cross Border Transfer Acknowledgment
+- Data Retention And Minimization Principles
+- Relationship With Legal Representation And Governing Contracts
+- Complaint Process
+- Contact Point
+- FAQ
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes serves international clients. This page adds GDPR-style transparency for situations where an EU or EEA user expects additional rights and transfer information.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.
-- Start Consultation WhatsApp
-- Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Privacy page showing the Curitiba skyline in southern Brazil. Privacy Policy This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil. Hero image for the Lgpd page showing the Curitiba skyline in southern Brazil. LGPD Notice This LGPD Notice explains how Monique Fernandes handles personal data under Brazil's data-protection framework when people contact her practice or use immigration services related to Brazil. Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil. Form & Intake Policy This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins. Hero image for the Disclaimer page showing the Porto Alegre skyline in southern Brazil. Disclaimer & Legal Notice This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil. Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil. Lawyer A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Privacy Policy
+- H3: LGPD Notice
+- H3: Form & Intake Policy
+- H3: Disclaimer & Legal Notice
+- H3: Lawyer
+- H3: Start Consultation
+- Related pages
+- Privacy Policy
+- This Privacy Policy explains how Monique Fernandes collects, uses, stores, protects, and shares personal information when people contact her practice or use immigration services related to Brazil.
+- LGPD Notice
+- This LGPD Notice explains how Monique Fernandes handles personal data under Brazil's data-protection framework when people contact her practice or use immigration services related to Brazil.
+- Form & Intake Policy
+- This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.
+- Disclaimer & Legal Notice
+- This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.
+- Lawyer
+- A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Curitiba skyline in southern Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
-- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
 - H3: Does this page replace the Privacy Policy?
-- No. It is a supplemental notice and should be read together with the Privacy Policy.
 - H3: Why does cross-border transfer matter here?
-- Because Monique serves clients in Brazil and abroad and may use infrastructure or communications that cross jurisdictions.
 - H3: Who should receive GDPR-related questions?
+- Frequently asked questions
+- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
+- Does this page replace the Privacy Policy?
+- No. It is a supplemental notice and should be read together with the Privacy Policy.
+- Why does cross-border transfer matter here?
+- Because Monique serves clients in Brazil and abroad and may use infrastructure or communications that cross jurisdictions.
+- Who should receive GDPR-related questions?
 - Use the practice's published email contact so the request can be reviewed properly.
 
 ### Consultation Form
 - H2: Need case-specific guidance?
-- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
-- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 - H3: Monique Fernandes
-- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Need case-specific guidance?
+- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
+- Monique Fernandes
+- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
+- Book consultation
 - Move from general policy information into Monique's case-specific review of your route, documents, timing, and next step.
 - Start Consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp for operational clarification, urgency signaling, or help reaching the right Monique Fernandes service page.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiclegal / gdpr
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -426,40 +559,44 @@ File: `legal/gdpr/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -472,6 +609,7 @@ File: `legal/gdpr/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -489,10 +627,11 @@ File: `legal/gdpr/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -509,6 +648,7 @@ File: `legal/gdpr/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -524,6 +664,7 @@ File: `legal/gdpr/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -536,6 +677,7 @@ File: `legal/gdpr/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -550,7 +692,7 @@ File: `legal/gdpr/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -626,26 +768,15 @@ File: `legal/gdpr/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -669,7 +800,6 @@ File: `legal/gdpr/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -840,7 +970,8 @@ File: `legal/gdpr/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -852,18 +983,17 @@ File: `legal/gdpr/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -874,11 +1004,10 @@ File: `legal/gdpr/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
-
+- Cookie preferences

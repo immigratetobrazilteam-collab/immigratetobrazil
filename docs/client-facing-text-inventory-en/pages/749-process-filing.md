@@ -7,29 +7,83 @@ File: `process/filing/index.html`
 - Browser title: Filing With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Filing
+- H2: Overview
+- H2: Preparation
+- H2: Sequencing
+- H2: Submission
+- H2: Structure
+- H2: Accuracy
+- H2: Coordination
+- H2: Risks
+- H2: Tracking
+- H2: Outcomes
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Approval
+- H3: Deadlines
+- H3: Failures
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/filing/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/filing/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/filing/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/filing/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/filing/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/filing/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/filing/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/filing/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/filing/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/filing/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/filing/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Filing
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Filing page showing Arraial d'Ajuda coastline in Brazil.
+- H1: Filing
 - PROCESS
 - Immigrate to Brazil
-- H1: Filing
+- Filing
 - Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
-- Page highlights
-- Process Hub Assessment Approval Deadlines Failures
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Filing With Monique Fernandes For Immigration To Brazil page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Assessment
+- Approval
+- Deadlines
+- Failures
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique treats filing as a controlled stage of preparation and submission, not as a simple upload of documents.
 - Preparation
 - Preparation is where Monique builds the file so it can support the legal position being presented.
 - Sequencing
 - Sequencing matters because even strong documents can lose value if the process is handled in the wrong order.
+- Arraial d'Ajuda coastline in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Filing With Monique Fernandes For Immigration To Brazil page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the coast of Arraial d'Ajuda in Brazil for the Overview section on the Filing page.
 - H2: Overview
+- Overview
 - Monique treats filing as a controlled stage of preparation and submission, not as a simple upload of documents. A filing usually reflects the quality of everything that came before it.
 - At this stage, Monique is usually working on:
 - organizing the factual record
@@ -301,11 +374,12 @@ File: `process/filing/index.html`
 - preparing the submission in the right sequence
 - reducing avoidable inconsistencies before the case reaches authorities
 - The stronger the filing logic is, the easier it becomes for the rest of the process to stay coherent.
+- the coast of Arraial d'Ajuda in Brazil.
 
 ### Preparation
-- Cinematic background of Curitiba in Brazil for the Preparation section on the Filing page.
-- Section 02
 - H2: Preparation
+- Section 02
+- Preparation
 - Preparation is where Monique builds the file so it can support the legal position being presented. This includes checking whether the available evidence actually tells the right story for the route.
 - Preparation often involves:
 - gathering missing records
@@ -313,11 +387,12 @@ File: `process/filing/index.html`
 - confirming chronology and factual consistency
 - identifying anything that needs correction before submission
 - Good preparation usually feels slower at first and faster later because fewer preventable problems appear after filing.
+- Curitiba in Brazil.
 
 ### Sequencing
-- Cinematic background of the architecture and streets of Campos do Jordao in Brazil for the Sequencing section on the Filing page.
-- Section 03
 - H2: Sequencing
+- Section 03
+- Sequencing
 - Sequencing matters because even strong documents can lose value if the process is handled in the wrong order. Monique pays close attention to what has to happen before the filing and what should wait until after it.
 - Strong sequencing usually protects the case by:
 - making sure key evidence is ready before submission
@@ -325,11 +400,12 @@ File: `process/filing/index.html`
 - preserving options that could be lost by acting too early
 - keeping deadlines and supporting steps visible
 - Clients often feel more confident once the order of action is mapped clearly.
+- the architecture and streets of Campos do Jordao in Brazil.
 
 ### Submission
-- Cinematic background of the wide coastline and water of Buzios peninsula in Brazil for the Submission section on the Filing page.
-- Section 04
 - H2: Submission
+- Section 04
+- Submission
 - Submission is the point where the file is presented to the relevant authority or system. Monique uses this stage to make sure the case is not only filed, but filed with discipline.
 - A strong submission usually depends on:
 - correct route selection
@@ -337,11 +413,12 @@ File: `process/filing/index.html`
 - accurate facts across all materials
 - proper handling of the authority-facing process
 - Filing is not where Monique starts thinking about the case. It is where earlier work is finally put into formal motion.
+- the wide coastline and water of Buzios peninsula in Brazil.
 
 ### Structure
-- Cinematic background of the cliffs and valleys of Chapada dos Guimaraes in Brazil for the Structure section on the Filing page.
-- Section 05
 - H2: Structure
+- Section 05
+- Structure
 - Structure is what helps the case make sense from the outside. Monique focuses on whether the requested result, the facts, and the evidence all support each other in a clean way.
 - Good structure usually means:
 - the route matches the actual objective
@@ -349,11 +426,12 @@ File: `process/filing/index.html`
 - the chronology is readable
 - the case does not ask the authority to guess what the client means
 - This is one of the reasons Monique emphasizes preparation so strongly before submission.
+- the cliffs and valleys of Chapada dos Guimaraes in Brazil.
 
 ### Accuracy
-- Cinematic background of the historic center of Pirenopolis in Brazil for the Accuracy section on the Filing page.
-- Section 06
 - H2: Accuracy
+- Section 06
+- Accuracy
 - Accuracy is critical in immigration work. Monique checks that names, dates, status details, and supporting facts are consistent across the file because small inconsistencies can create bigger questions later.
 - Accuracy review usually focuses on:
 - consistency between forms and documents
@@ -361,11 +439,12 @@ File: `process/filing/index.html`
 - current versions of required records
 - careful correction of anything unclear before filing
 - Accuracy is not just administrative. It directly affects credibility.
+- the historic center of Pirenopolis in Brazil.
 
 ### Coordination
-- Cinematic background of the cerrado landscape of Emas National Park in Brazil for the Coordination section on the Filing page.
-- Section 07
 - H2: Coordination
+- Section 07
+- Coordination
 - Many filings depend on outside steps such as records from abroad, translations, apostilles, or consular preparation. Monique helps clients understand how those pieces fit into the filing timeline.
 - Coordination often includes:
 - cross-border document collection
@@ -373,11 +452,12 @@ File: `process/filing/index.html`
 - authority appointments or follow-up actions
 - aligning the filing with the client's practical relocation timeline
 - This is especially important for remote clients managing a Brazil process from outside the country.
+- the cerrado landscape of Emas National Park in Brazil.
 
 ### Risks
-- Cinematic background of the valleys and plateaus of Chapada Diamantina in Brazil for the Risks section on the Filing page.
-- Section 08
 - H2: Risks
+- Section 08
+- Risks
 - Filing risks are usually avoidable when they are seen early. Monique looks for weaknesses that could create delay, confusion, requests for more information, or refusal.
 - Common filing risks include:
 - incomplete or weak documentary support
@@ -385,11 +465,12 @@ File: `process/filing/index.html`
 - route mismatch
 - late preparation that limits options
 - The purpose of risk review at this stage is not to dramatize the process. It is to file more responsibly.
+- the valleys and plateaus of Chapada Diamantina in Brazil.
 
 ### Tracking
-- Cinematic background of the wide natural landscape of Emas National Park in Brazil for the Tracking section on the Filing page.
-- Section 09
 - H2: Tracking
+- Section 09
+- Tracking
 - After submission, clients still need visibility. Monique helps clients understand what stage the matter is in, what follow-up may be required, and when a delay is normal versus when it needs closer attention.
 - Tracking usually helps clients stay clear about:
 - whether any further action is needed from them
@@ -397,11 +478,12 @@ File: `process/filing/index.html`
 - what parts of the timeline remain outside anyone's control
 - what the next likely stage will be
 - That continued visibility keeps the process calmer after the filing has been made.
+- the wide natural landscape of Emas National Park in Brazil.
 
 ### Outcomes
-- Cinematic background of the waterfront and gardens of Santos in Brazil for the Outcomes section on the Filing page.
-- Section 10
 - H2: Outcomes
+- Section 10
+- Outcomes
 - A strong filing outcome is not simply that the case was submitted. It is that the matter reached the authority in a cleaner, more credible, and more organized form.
 - Good filing outcomes usually look like:
 - stronger presentation of the route
@@ -409,53 +491,95 @@ File: `process/filing/index.html`
 - better control over the next stage
 - more confidence that the case was put forward responsibly
 - Monique's job at filing is to improve the quality of the case before authorities take over the decision stage.
+- the waterfront and gardens of Santos in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Preparation Sequencing Submission Structure Accuracy Coordination Risks Tracking Outcomes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Preparation
+- Sequencing
+- Submission
+- Structure
+- Accuracy
+- Coordination
+- Risks
+- Tracking
+- Outcomes
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use Monique Fernandes for filing support when your Brazil immigration matter needs stronger preparation, cleaner sequencing, and attorney-led control before or during submission.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Assessment Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions. Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil. Approval Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations. Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil. Deadlines Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Approval
+- H3: Deadlines
+- H3: Failures
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Assessment
+- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Approval
+- Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
+- Deadlines
+- Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Use Monique Fernandes for filing support when your Brazil immigration matter needs stronger preparation, cleaner sequencing, and attorney-led control before or during submission.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Use Monique Fernandes for filing support when your Brazil immigration matter needs stronger preparation, cleaner sequencing, and attorney-led control before or during submission.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / filing
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +588,44 @@ File: `process/filing/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +638,7 @@ File: `process/filing/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +656,11 @@ File: `process/filing/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +677,7 @@ File: `process/filing/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +693,7 @@ File: `process/filing/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +706,7 @@ File: `process/filing/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +721,7 @@ File: `process/filing/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +797,15 @@ File: `process/filing/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +829,6 @@ File: `process/filing/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +999,8 @@ File: `process/filing/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1012,19 @@ File: `process/filing/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

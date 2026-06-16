@@ -7,29 +7,83 @@ File: `process/alone/index.html`
 - Browser title: Alone With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Alone
+- H2: Overview
+- H2: Reality
+- H2: Challenges
+- H2: Confusion
+- H2: Risks
+- H2: Limitations
+- H2: Outcomes
+- H2: Comparison
+- H2: Decision
+- H2: Support
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Fees
+- H3: Mistakes
+- H3: Failures
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/alone/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/alone/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/alone/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/alone/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/alone/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/alone/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/alone/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/alone/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/alone/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/alone/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/alone/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Alone
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Alone page showing Anavilhanas archipelago in Brazil.
+- H1: Alone
 - PROCESS
 - Immigrate to Brazil
-- H1: Alone
+- Alone
 - Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork.
-- Page highlights
-- Process Hub Consultation Fees Mistakes Failures
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Trying To Handle Brazil Immigration Alone Before Working With Monique Fernandes page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Consultation
+- Fees
+- Mistakes
+- Failures
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique does not treat solo handling as a mistake by default.
 - Reality
 - The reality is that some early reading can be useful, but immigration questions become more personal very quickly.
 - Challenges
 - The main challenge of going alone is not intelligence.
+- Anavilhanas archipelago in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Trying To Handle Brazil Immigration Alone Before Working With Monique Fernandes page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the islands and waterways of Anavilhanas in Brazil for the Overview section on the Alone page.
 - H2: Overview
+- Overview
 - Monique does not treat solo handling as a mistake by default. Many clients try to start alone because they want to understand the process first, save money, or test whether the matter is simple.
 - This page is meant to explain:
 - why people try to handle immigration alone
@@ -301,11 +374,12 @@ File: `process/alone/index.html`
 - what risks tend to be missed
 - what changes when Monique takes over the process structure
 - The goal is not to shame self-research. The goal is to show where self-research usually stops being enough.
+- the islands and waterways of Anavilhanas in Brazil.
 
 ### Reality
-- Cinematic background of the waterfront and gardens of Santos in Brazil for the Reality section on the Alone page.
-- Section 02
 - H2: Reality
+- Section 02
+- Reality
 - The reality is that some early reading can be useful, but immigration questions become more personal very quickly. Monique often sees clients arrive after a stage that seemed simple online became much less simple in their own case.
 - That reality usually includes:
 - different routes that look similar but are not the same
@@ -313,11 +387,12 @@ File: `process/alone/index.html`
 - timing that becomes tighter than expected
 - records that are harder to organize than they first appeared
 - Recognizing that reality is often what leads clients to seek more structured help.
+- the waterfront and gardens of Santos in Brazil.
 
 ### Challenges
-- Cinematic background of the Niteroi Contemporary Art Museum over Guanabara Bay in Brazil for the Challenges section on the Alone page.
-- Section 03
 - H2: Challenges
+- Section 03
+- Challenges
 - The main challenge of going alone is not intelligence. It is that immigration processes combine legal rules, practical sequence, documentary demands, and authority behavior in ways that are hard to read from public pages alone.
 - Common solo challenges include:
 - deciding between similar routes
@@ -325,11 +400,12 @@ File: `process/alone/index.html`
 - identifying risk before it becomes visible
 - keeping timing and compliance organized
 - These are the challenges Monique is usually brought in to solve after the process starts feeling heavier.
+- the Niteroi Contemporary Art Museum over Guanabara Bay in Brazil.
 
 ### Confusion
-- Cinematic background of the Botanical Garden of Curitiba in Brazil for the Confusion section on the Alone page.
-- Section 04
 - H2: Confusion
+- Section 04
+- Confusion
 - Confusion grows when clients try to answer a personal legal question with general information from too many sources. Monique often sees people arrive with pages of research and still no clear next step.
 - That confusion usually comes from:
 - conflicting online explanations
@@ -337,11 +413,12 @@ File: `process/alone/index.html`
 - uncertainty about which authority matters most
 - difficulty separating possibility from probability
 - A structured legal review usually reduces that confusion much faster than more random reading.
+- the Botanical Garden of Curitiba in Brazil.
 
 ### Risks
-- Cinematic background of the Museum of Tomorrow in Rio de Janeiro in Brazil for the Risks section on the Alone page.
-- Section 05
 - H2: Risks
+- Section 05
+- Risks
 - Handling the process alone can create risks that do not feel obvious at first. Monique helps clients understand those risks without overstating them.
 - Solo-handling risks often include:
 - choosing the wrong route
@@ -349,11 +426,12 @@ File: `process/alone/index.html`
 - missing deadlines or obligations
 - filing before the evidence is ready
 - These are the kinds of issues that often look small early and costly later.
+- the Museum of Tomorrow in Rio de Janeiro in Brazil.
 
 ### Limitations
-- Cinematic background of Vitoria and the bayfront of Espirito Santo in Brazil for the Limitations section on the Alone page.
-- Section 06
 - H2: Limitations
+- Section 06
+- Limitations
 - Public information has limits. Monique explains that clearly because many clients only realize those limits once their question turns personal, time-sensitive, or document-heavy.
 - Solo handling usually reaches its limit when the answer depends on:
 - personal chronology
@@ -361,11 +439,12 @@ File: `process/alone/index.html`
 - past status or travel history
 - a legal judgment call between more than one possible route
 - That is the point where professional structure usually adds the most value.
+- Vitoria and the bayfront of Espirito Santo in Brazil.
 
 ### Outcomes
-- Cinematic background of the wide coastline and water of Ilhabela coastline in Brazil for the Outcomes section on the Alone page.
-- Section 07
 - H2: Outcomes
+- Section 07
+- Outcomes
 - Some clients manage early stages alone successfully. Others reach a point where the process slows, weakens, or becomes more stressful than expected. Monique helps clients understand both possibilities honestly.
 - Common solo outcomes include:
 - basic orientation but no clear route decision
@@ -373,11 +452,12 @@ File: `process/alone/index.html`
 - a filing or plan that needs correction
 - a handoff to Monique once the process becomes more sensitive
 - This page is not here to say nobody can read for themselves. It is here to show where self-management usually becomes less efficient.
+- the wide coastline and water of Ilhabela coastline in Brazil.
 
 ### Comparison
-- Cinematic background of the shoreline of Rio de Janeiro skyline from Sugarloaf Mountain in warm evening light in Brazil for the Comparison section on the Alone page.
-- Section 08
 - H2: Comparison
+- Section 08
+- Comparison
 - The comparison that matters is not intelligence versus intelligence. It is improvised progress versus structured legal process. Monique changes the experience by giving the matter sequence, review, and attorney-led accountability.
 - What usually changes with Monique's support:
 - route logic becomes clearer
@@ -385,11 +465,12 @@ File: `process/alone/index.html`
 - deadlines and risks become visible
 - expectations become more realistic
 - That difference is often what clients describe as finally feeling calm about the process.
+- the shoreline of Rio de Janeiro skyline from Sugarloaf Mountain in warm evening light in Brazil.
 
 ### Decision
-- Cinematic background of the trails and cliffs of Ibitipoca in Brazil for the Decision section on the Alone page.
-- Section 09
 - H2: Decision
+- Section 09
+- Decision
 - Clients often ask how to tell when they should stop trying to manage everything alone. Monique usually says the answer is when the next move could materially affect timing, legality, money, or long-term continuity.
 - That decision point often appears when:
 - more than one route may fit
@@ -397,11 +478,12 @@ File: `process/alone/index.html`
 - a prior mistake may need correction
 - the client no longer trusts their own interpretation of the process
 - That is usually the right moment to move from reading into consultation.
+- the trails and cliffs of Ibitipoca in Brazil.
 
 ### Support
-- Cinematic background of Rio de Janeiro in Brazil for the Support section on the Alone page.
-- Section 10
 - H2: Support
+- Section 10
+- Support
 - Monique's support is meant to lighten the burden without judging the client for trying first. Many people come to her after doing meaningful work on their own and simply reaching the point where professional structure now matters more.
 - Support at this stage often means:
 - reviewing what the client has already done
@@ -409,53 +491,94 @@ File: `process/alone/index.html`
 - building a cleaner sequence from this point forward
 - giving the client a more stable and realistic path into Brazil immigration
 - Good support does not erase the client's effort. It builds on it more effectively.
+- Rio de Janeiro in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Reality Challenges Confusion Risks Limitations Outcomes Comparison Decision Support
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Reality
+- Challenges
+- Confusion
+- Risks
+- Limitations
+- Outcomes
+- Comparison
+- Decision
+- Support
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients understand what usually becomes difficult when they try to handle Brazil immigration alone, and what changes when a structured attorney-led process replaces guesswork.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Book with Monique Fernandes when your Brazil immigration matter no longer feels safe or efficient to manage alone and you want a clearer, attorney-led next step.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Consultation Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil. Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil. Fees Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes. Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Mistakes Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Fees
+- H3: Mistakes
+- H3: Failures
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Consultation
+- Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
+- Fees
+- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Mistakes
+- Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Book with Monique Fernandes when your Brazil immigration matter no longer feels safe or efficient to manage alone and you want a clearer, attorney-led next step.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Book with Monique Fernandes when your Brazil immigration matter no longer feels safe or efficient to manage alone and you want a clearer, attorney-led next step.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / alone
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +587,44 @@ File: `process/alone/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +637,7 @@ File: `process/alone/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +655,11 @@ File: `process/alone/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +676,7 @@ File: `process/alone/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +692,7 @@ File: `process/alone/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +705,7 @@ File: `process/alone/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +720,7 @@ File: `process/alone/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +796,15 @@ File: `process/alone/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +828,6 @@ File: `process/alone/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +998,8 @@ File: `process/alone/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1011,19 @@ File: `process/alone/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

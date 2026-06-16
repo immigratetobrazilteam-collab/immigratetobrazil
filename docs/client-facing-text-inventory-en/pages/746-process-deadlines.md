@@ -7,29 +7,83 @@ File: `process/deadlines/index.html`
 - Browser title: Deadlines With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Deadlines
+- H2: Overview
+- H2: Timing
+- H2: Windows
+- H2: Limits
+- H2: Tracking
+- H2: Risks
+- H2: Delays
+- H2: Consequences
+- H2: Planning
+- H2: Control
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Filing
+- H3: Compliance
+- H3: Aftercare
+- H3: Failures
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/deadlines/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/deadlines/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/deadlines/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/deadlines/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/deadlines/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/deadlines/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/deadlines/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/deadlines/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/deadlines/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/deadlines/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/deadlines/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Deadlines
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Deadlines page showing Meeting of the Waters in Manaus forests and waters in Brazil.
+- H1: Deadlines
 - PROCESS
 - Immigrate to Brazil
-- H1: Deadlines
+- Deadlines
 - Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
-- Page highlights
-- Process Hub Filing Compliance Aftercare Failures
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Deadlines With Monique Fernandes In Brazil Immigration Matters page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Filing
+- Compliance
+- Aftercare
+- Failures
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Deadlines are one of the most common hidden risks in immigration work.
 - Timing
 - Monique pays close attention to timing from the start because clients often underestimate how early planning needs to begin.
 - Windows
 - Immigration processes often move through windows rather than one single deadline.
+- Meeting of the Waters in Manaus forests and waters in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Deadlines With Monique Fernandes In Brazil Immigration Matters page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the forests and waters of Meeting of the Waters in Manaus in Brazil for the Overview section on the Deadlines page.
 - H2: Overview
+- Overview
 - Deadlines are one of the most common hidden risks in immigration work. Monique treats timing as part of strategy because a strong case can still become weaker if the client acts too late or in the wrong order.
 - This page is here to explain:
 - why deadlines matter so much
@@ -301,11 +374,12 @@ File: `process/deadlines/index.html`
 - how Monique helps clients track important timing issues
 - what can happen when timing is ignored
 - Time is not only administrative in immigration to Brazil. It can change the shape of the legal options themselves.
+- the forests and waters of Meeting of the Waters in Manaus in Brazil.
 
 ### Timing
-- Cinematic background of the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil for the Timing section on the Deadlines page.
-- Section 02
 - H2: Timing
+- Section 02
+- Timing
 - Monique pays close attention to timing from the start because clients often underestimate how early planning needs to begin. Documents, translations, route comparisons, and authority steps all take time.
 - Timing becomes especially important when:
 - travel or relocation is already scheduled
@@ -313,11 +387,12 @@ File: `process/deadlines/index.html`
 - a renewal or conversion issue is emerging
 - a previous delay has already made the margin smaller
 - Better timing usually means more options and less pressure.
+- the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil.
 
 ### Windows
-- Cinematic background of the wide coastline and water of Pajucara waterfront in Maceio in Brazil for the Windows section on the Deadlines page.
-- Section 03
 - H2: Windows
+- Section 03
+- Windows
 - Immigration processes often move through windows rather than one single deadline. Monique helps clients identify those windows before they close or become unnecessarily tight.
 - Important windows may include:
 - filing periods
@@ -325,11 +400,12 @@ File: `process/deadlines/index.html`
 - renewal or follow-up periods
 - practical preparation windows for records, translations, and supporting evidence
 - Seeing the window clearly is what helps the client act with discipline instead of panic.
+- the wide coastline and water of Pajucara waterfront in Maceio in Brazil.
 
 ### Limits
-- Cinematic background of the island village and beaches of Morro de Sao Paulo in Brazil for the Limits section on the Deadlines page.
-- Section 04
 - H2: Limits
+- Section 04
+- Limits
 - Some timing rules are flexible in practice and some are not. Monique helps clients understand the difference so they do not rely on assumptions that later prove expensive.
 - Limit questions often include:
 - which dates are truly hard cutoffs
@@ -337,11 +413,12 @@ File: `process/deadlines/index.html`
 - when delay is inconvenient versus dangerous
 - whether time still exists to improve the file before acting
 - That kind of clarity can completely change the client's next decision.
+- the island village and beaches of Morro de Sao Paulo in Brazil.
 
 ### Tracking
-- Cinematic background of the sunrise landscape of Botanical Garden of Curitiba in Brazil for the Tracking section on the Deadlines page.
-- Section 05
 - H2: Tracking
+- Section 05
+- Tracking
 - Tracking deadlines is part of process control. Monique helps clients make important dates visible so that obligations and submissions are not handled reactively.
 - Tracking usually helps with:
 - key filing dates
@@ -349,11 +426,12 @@ File: `process/deadlines/index.html`
 - follow-up obligations after approval
 - later review, renewal, or conversion planning
 - Clients usually feel calmer once the timeline is visible and prioritized.
+- the sunrise landscape of Botanical Garden of Curitiba in Brazil.
 
 ### Risks
-- Cinematic background of the Palacio da Alvorada in Brasilia in Brazil for the Risks section on the Deadlines page.
-- Section 06
 - H2: Risks
+- Section 06
+- Risks
 - Deadline risk is rarely just about one missed date. It often creates a chain of weaker options, rushed evidence, or harder recovery work. Monique explains that clearly so clients understand why early action matters.
 - Common deadline risks include:
 - rushed filing with incomplete support
@@ -361,11 +439,12 @@ File: `process/deadlines/index.html`
 - avoidable exposure during status transitions
 - extra work to repair a problem that could have been prevented
 - Time pressure is one of the strongest reasons to involve Monique before the process becomes urgent.
+- the Palacio da Alvorada in Brasilia in Brazil.
 
 ### Delays
-- Cinematic background of the architecture and streets of Sanctuary of Congonhas in Brazil for the Delays section on the Deadlines page.
-- Section 07
 - H2: Delays
+- Section 07
+- Delays
 - Not every delay has the same meaning. Monique helps clients distinguish between authority delay, client-side delay, and preparation delay so they know where the real issue sits.
 - Delay analysis often asks:
 - is the authority simply taking time
@@ -373,11 +452,12 @@ File: `process/deadlines/index.html`
 - was preparation started too late
 - does the delay now change the legal options
 - This prevents clients from treating every slow stage as if it were the same kind of problem.
+- the architecture and streets of Sanctuary of Congonhas in Brazil.
 
 ### Consequences
-- Cinematic background of the shores of Lake Paranoa in Brasilia in Brazil for the Consequences section on the Deadlines page.
-- Section 08
 - H2: Consequences
+- Section 08
+- Consequences
 - Missed timing can affect more than the current filing. Monique helps clients understand the practical and legal consequences so the process is taken seriously before the pressure becomes severe.
 - Consequences may include:
 - a weaker filing position
@@ -385,11 +465,12 @@ File: `process/deadlines/index.html`
 - more limited route options
 - extra cost, stress, or recovery work
 - Understanding the consequences early usually improves client discipline immediately.
+- the shores of Lake Paranoa in Brasilia in Brazil.
 
 ### Planning
-- Cinematic background of the wide natural landscape of Delta do Parnaiba in Brazil for the Planning section on the Deadlines page.
-- Section 09
 - H2: Planning
+- Section 09
+- Planning
 - Planning around deadlines is one of the most useful parts of Monique's service model. She builds time awareness into the process so clients are not trying to improvise under pressure.
 - Deadline planning usually includes:
 - identifying the next sensitive dates
@@ -397,11 +478,12 @@ File: `process/deadlines/index.html`
 - sequencing document preparation realistically
 - matching legal steps to the client's relocation timeline
 - This kind of planning often turns a stressful matter into a manageable one.
+- the wide natural landscape of Delta do Parnaiba in Brazil.
 
 ### Control
-- Cinematic background of the wide coastline and water of Sao Miguel dos Milagres in Brazil for the Control section on the Deadlines page.
-- Section 10
 - H2: Control
+- Section 10
+- Control
 - The goal is not to remove all pressure. The goal is to give the client more control. Monique helps clients see where timing still allows a smart response and where action needs to happen now.
 - Greater control usually looks like:
 - clearer date awareness
@@ -409,53 +491,96 @@ File: `process/deadlines/index.html`
 - fewer last-minute surprises
 - better confidence about what to do next
 - That is why deadlines deserve their own place inside Monique's process family.
+- the wide coastline and water of Sao Miguel dos Milagres in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Timing Windows Limits Tracking Risks Delays Consequences Planning Control
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Timing
+- Windows
+- Limits
+- Tracking
+- Risks
+- Delays
+- Consequences
+- Planning
+- Control
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Work with Monique Fernandes before deadline pressure becomes a bigger problem, especially if your Brazil immigration matter now depends on timing, filing windows, renewals, or response obligations.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil. Filing Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses. Hero image for the Compliance page showing the Curitiba skyline in southern Brazil. Compliance Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction. Hero image for the Aftercare page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Aftercare Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Filing
+- H3: Compliance
+- H3: Aftercare
+- H3: Failures
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Filing
+- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Compliance
+- Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
+- Aftercare
+- Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- the Curitiba skyline in southern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Work with Monique Fernandes before deadline pressure becomes a bigger problem, especially if your Brazil immigration matter now depends on timing, filing windows, renewals, or response obligations.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Work with Monique Fernandes before deadline pressure becomes a bigger problem, especially if your Brazil immigration matter now depends on timing, filing windows, renewals, or response obligations.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / deadlines
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +589,44 @@ File: `process/deadlines/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +639,7 @@ File: `process/deadlines/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +657,11 @@ File: `process/deadlines/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +678,7 @@ File: `process/deadlines/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +694,7 @@ File: `process/deadlines/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +707,7 @@ File: `process/deadlines/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +722,7 @@ File: `process/deadlines/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +798,15 @@ File: `process/deadlines/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +830,6 @@ File: `process/deadlines/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +1000,8 @@ File: `process/deadlines/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1013,19 @@ File: `process/deadlines/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

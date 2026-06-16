@@ -7,29 +7,85 @@ File: `services/other/consular/index.html`
 - Browser title: Consular \| Brazil Immigration Services \| Immigrate to Brazil
 - Meta description: Monique Fernandes helps clients coordinating Brazilian consular steps from abroad understand what her consular service can do, whether it is the right fit, and what the next step may be in Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Consular
+- H2: Overview
+- H2: Who This Service Is Usually For
+- H2: What This Service Is Meant To Cover
+- H2: When It May Not Be the Right Fit
+- H2: Planning and Service Coordination
+- H2: Common Mistakes Before the Next Step
+- H2: How Monique Prepares and Handles the Case
+- H2: Cross-Border and Language Considerations
+- H2: Legal Boundaries and Expectations
+- H2: When Consultation May Help with Consular
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Lei de Migracao - Lei 13.445/2017
+- H3: Decreto 9.199/2017
+- H2: Related pages
+- H3: Services
+- H3: Other
+- H3: Start Consultation
+- H3: Records
+- H3: Planning
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +96,26 @@ File: `services/other/consular/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +139,7 @@ File: `services/other/consular/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +158,7 @@ File: `services/other/consular/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +167,7 @@ File: `services/other/consular/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +175,7 @@ File: `services/other/consular/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +193,17 @@ File: `services/other/consular/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +218,7 @@ File: `services/other/consular/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +228,14 @@ File: `services/other/consular/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +294,7 @@ File: `services/other/consular/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +312,7 @@ File: `services/other/consular/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,23 +333,28 @@ File: `services/other/consular/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Services
 - Other
 - Consular
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Consular page showing Bombinhas peninsula at golden hour in Brazil.
+- H1: Consular
 - SERVICES
 - Immigrate to Brazil
-- H1: Consular
+- Consular
 - Monique Fernandes helps clients coordinating Brazilian consular steps from abroad understand what her consular service can do, whether it is the right fit, and what the next step may be in Brazil.
-- Page highlights
-- Services Hub Other Services Hub Consultation Records Process Planning
+- Services Hub
+- Other Services Hub
+- Consultation
+- Records
+- Process Planning
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Consular Support For The Supporting Work That Keeps A Case Usable page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients coordinating Brazilian consular steps from abroad understand what her consular service can do, whether it is the right fit, and what the next step may be in Brazil. Her approach focuses on clearer strategy, better preparation, and more realistic next steps in Brazil.
 - Why Attorney Monique Fernandes?
 - Immigration-focused legal guidance
@@ -295,10 +369,14 @@ File: `services/other/consular/index.html`
 - Monique usually helps clients coordinating Brazilian consular steps from abroad.
 - What Monique Helps Clarify
 - Her service focuses on legal fit, preparation, timing, risks, and realistic next steps in Brazil.
+- Bombinhas peninsula at golden hour in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Consular Support For The Supporting Work That Keeps A Case Usable page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the shoreline of Bombinhas peninsula in warm evening light in Brazil for the Overview section on the Consular page.
 - H2: Overview
+- Overview
 - Monique Fernandes helps clients coordinating Brazilian consular steps from abroad understand what her consular service can do, whether it is the right fit, and how it connects to the wider case in Brazil.
 - Her consular service is designed to give clients more clarity about strategy, timing, preparation, and the practical next steps before they move forward.
 - Monique can also assist with:
@@ -309,10 +387,12 @@ File: `services/other/consular/index.html`
 - Cross-border coordination support
 - Linking the support service to the wider immigration plan
 - The goal is not only to solve one immediate issue. It is to make the next step more realistic, more organized, and better supported.
+- the shoreline of Bombinhas peninsula in warm evening light in Brazil.
 
 ### Section
-- Section 02
 - H2: Who This Service Is Usually For
+- Section 02
+- Who This Service Is Usually For
 - Monique usually helps:
 - Clients coordinating Brazilian consular steps from abroad.
 - Clients comparing this option with another possible route or service.
@@ -324,8 +404,9 @@ File: `services/other/consular/index.html`
 - Others contact Monique after receiving inconsistent advice, running into delays, or feeling that a previous attempt was handled without enough strategy.
 
 ### Section
-- Section 03
 - H2: What This Service Is Meant To Cover
+- Section 03
+- What This Service Is Meant To Cover
 - Consular is designed for matters where the client needs clearer support around consular steps, cross-border coordination, and preparation before dealing with Brazilian authorities abroad.
 - Monique helps clients understand:
 - What the service can realistically solve.
@@ -336,8 +417,9 @@ File: `services/other/consular/index.html`
 - This often gives clients a clearer picture of what is possible before they spend time or money on the wrong next step.
 
 ### Section
-- Section 04
 - H2: When It May Not Be the Right Fit
+- Section 04
+- When It May Not Be the Right Fit
 - Consular is not always the first or strongest service the client needs.
 - Some clients may be better served by:
 - Another support service first.
@@ -347,8 +429,9 @@ File: `services/other/consular/index.html`
 - Monique helps clients avoid choosing a service only because it sounds familiar. She reviews whether the issue, timing, and wider case strategy truly support starting here.
 
 ### Section
-- Section 05
 - H2: Planning and Service Coordination
+- Section 05
+- Planning and Service Coordination
 - Consular matters often become easier when the strategy is structured before the next filing, response, or authority step.
 - Monique helps clients review:
 - How this support service fits inside the wider immigration matter.
@@ -360,8 +443,9 @@ File: `services/other/consular/index.html`
 - This helps create a more organized matter before it reaches the next stage.
 
 ### Section
-- Section 06
 - H2: Common Mistakes Before the Next Step
+- Section 06
+- Common Mistakes Before the Next Step
 - Many consular problems begin before the next formal step.
 - Common issues include:
 - Choosing the wrong route or service too early.
@@ -373,8 +457,9 @@ File: `services/other/consular/index.html`
 - Monique helps clients identify these patterns early so they can avoid unnecessary delays, confusion, and pressure.
 
 ### Section
-- Section 07
 - H2: How Monique Prepares and Handles the Case
+- Section 07
+- How Monique Prepares and Handles the Case
 - Monique's approach is built around structure, preparation, and ongoing support.
 - She begins by reviewing:
 - The client's goals.
@@ -393,8 +478,9 @@ File: `services/other/consular/index.html`
 - Her goal is to make the process feel more organized, more realistic, and less stressful.
 
 ### Section
-- Section 08
 - H2: Cross-Border and Language Considerations
+- Section 08
+- Cross-Border and Language Considerations
 - Many consular matters involve more than one country, more than one language, or more than one authority.
 - Clients may need help with:
 - Foreign-issued records or background information.
@@ -405,8 +491,9 @@ File: `services/other/consular/index.html`
 - Monique works in English and Portuguese so clients can understand the process more clearly while still respecting Brazilian legal standards.
 
 ### Section
-- Section 09
 - H2: Legal Boundaries and Expectations
+- Section 09
+- Legal Boundaries and Expectations
 - Monique believes clients should understand what legal support can improve and what remains outside anyone's control.
 - Her role is to help clients:
 - Understand the route or service more clearly.
@@ -417,8 +504,9 @@ File: `services/other/consular/index.html`
 - Final decisions still depend on Brazilian authorities, the facts of the case, and the quality of the support behind it.
 
 ### Section
-- Section 10
 - H2: When Consultation May Help with Consular
+- Section 10
+- When Consultation May Help with Consular
 - Consular should be reviewed carefully before major decisions are made.
 - A consultation may be useful for:
 - Deciding whether this service is the right starting point.
@@ -431,64 +519,91 @@ File: `services/other/consular/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview This Service Is This Service Is It May Not Planning and Service Common Mistakes Before Monique Prepares and Cross-Border and Language Legal Boundaries and Consultation May Help
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Section
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients coordinating Brazilian consular steps from abroad understand what her consular service can do, whether it is the right fit, and what the next step may be in Brazil. Her approach focuses on clearer strategy, better preparation, and more realistic next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If Monique's consular service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Lei de Migracao - Lei 13.445/2017
-- Official public reference for lei de migracao - lei 13.445/2017.
 - H3: Decreto 9.199/2017
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Lei de Migracao - Lei 13.445/2017
+- Official public reference for lei de migracao - lei 13.445/2017.
+- Decreto 9.199/2017
 - Official public reference for decreto 9.199/2017.
-- H3: Policia Federal - Migracao
-- Official public reference for policia federal - migracao.
-- H3: Ministerio das Relacoes Exteriores
-- Official public reference for ministerio das relacoes exteriores.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Other page showing the National Congress complex in Brasilia in central-west Brazil. Other Use this hub for supporting services that often make the main immigration path workable in practice. These are the pieces people underestimate until documents, translations, consular steps, or regularization issues start slowing everything else down. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Records page showing Pelourinho in Salvador, Bahia in northeast Brazil. Records Records support often looks secondary until it starts slowing everything else down. We explain what this support covers, where it fits in the wider process, and how it helps make a Brazil file more executable in practice. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Planning Monique helps clients turn broad goals into a workable immigration sequence with clearer next steps and fewer avoidable mistakes.
+### Related Links
+- H2: Related pages
+- H3: Services
+- H3: Other
+- H3: Start Consultation
+- H3: Records
+- H3: Planning
+- Related pages
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Other
+- Use this hub for supporting services that often make the main immigration path workable in practice. These are the pieces people underestimate until documents, translations, consular steps, or regularization issues start slowing everything else down.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Records
+- Records support often looks secondary until it starts slowing everything else down. We explain what this support covers, where it fits in the wider process, and how it helps make a Brazil file more executable in practice.
+- Planning
+- Monique helps clients turn broad goals into a workable immigration sequence with clearer next steps and fewer avoidable mistakes.
+- an aerial view of the Amazon river basin in northern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If Monique's consular service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Immigrate to Brazil logo for the Consular Support For The Supporting Work That Keeps A Case Usable page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If Monique's consular service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Consular Support For The Supporting Work That Keeps A Case Usable page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicservices / other / consular
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -497,40 +612,44 @@ File: `services/other/consular/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -543,6 +662,7 @@ File: `services/other/consular/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -560,10 +680,11 @@ File: `services/other/consular/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -580,6 +701,7 @@ File: `services/other/consular/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -595,6 +717,7 @@ File: `services/other/consular/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -607,6 +730,7 @@ File: `services/other/consular/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -621,7 +745,7 @@ File: `services/other/consular/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -697,26 +821,15 @@ File: `services/other/consular/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -740,7 +853,6 @@ File: `services/other/consular/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -911,7 +1023,8 @@ File: `services/other/consular/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -923,21 +1036,19 @@ File: `services/other/consular/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

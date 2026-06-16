@@ -7,29 +7,83 @@ File: `process/assessment/index.html`
 - Browser title: Assessment With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Assessment
+- H2: Overview
+- H2: Context
+- H2: Factors
+- H2: Evaluation
+- H2: Positioning
+- H2: Risks
+- H2: Clarity
+- H2: Findings
+- H2: Direction
+- H2: Outcomes
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Filing
+- H3: Conversion
+- H3: Failures
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/assessment/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/assessment/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/assessment/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/assessment/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/assessment/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/assessment/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/assessment/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/assessment/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/assessment/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/assessment/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/assessment/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Assessment
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Assessment page showing Buzios peninsula in Brazil.
+- H1: Assessment
 - PROCESS
 - Immigrate to Brazil
-- H1: Assessment
+- Assessment
 - Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
-- Page highlights
-- Process Hub Consultation Filing Conversion Failures
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Assessment With Monique Fernandes For Brazil Immigration Cases page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Consultation
+- Filing
+- Conversion
+- Failures
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Assessment is the stage where Monique tests the real case instead of relying on a broad impression.
 - Context
 - Context matters because the same route can look different depending on chronology, family facts, work history, travel plans, and previous interactions with authorities.
 - Factors
 - Monique looks at the factors that actually shape viability, not just the labels on a government page.
+- Buzios peninsula in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Assessment With Monique Fernandes For Brazil Immigration Cases page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the Buzios peninsula on the coast of Rio de Janeiro state in Brazil for the Overview section on the Assessment page.
 - H2: Overview
+- Overview
 - Assessment is the stage where Monique tests the real case instead of relying on a broad impression. It is usually the point where route names stop being enough and the actual record starts to matter.
 - Monique uses assessment to review:
 - the client's present status and immigration history
@@ -301,11 +374,12 @@ File: `process/assessment/index.html`
 - the available records and the missing ones
 - the risk points that could weaken a later filing
 - This is often where the process becomes more honest, more precise, and more useful.
+- the Buzios peninsula on the coast of Rio de Janeiro state in Brazil.
 
 ### Context
-- Cinematic background of the heritage facades of Sao Joao del Rei in Brazil for the Context section on the Assessment page.
-- Section 02
 - H2: Context
+- Section 02
+- Context
 - Context matters because the same route can look different depending on chronology, family facts, work history, travel plans, and previous interactions with authorities. Monique reads those details together rather than in isolation.
 - The context she usually needs to understand includes:
 - how the client arrived at the current stage
@@ -313,11 +387,12 @@ File: `process/assessment/index.html`
 - whether family, business, or relationship facts affect the route
 - how urgent the matter really is
 - Without context, clients often overestimate one strong fact and underestimate the rest of the process.
+- the heritage facades of Sao Joao del Rei in Brazil.
 
 ### Factors
-- Cinematic background of the historic district of Recife Antigo in Brazil for the Factors section on the Assessment page.
-- Section 03
 - H2: Factors
+- Section 03
+- Factors
 - Monique looks at the factors that actually shape viability, not just the labels on a government page. A route can sound available in theory and still be weak in practice if the facts or evidence do not support it well.
 - Important assessment factors usually include:
 - chronology and consistency of the facts
@@ -325,11 +400,12 @@ File: `process/assessment/index.html`
 - route fit under the current circumstances
 - timing, compliance history, and authority exposure
 - Good assessment is where those factors are brought into one picture before filing pressure starts.
+- the historic district of Recife Antigo in Brazil.
 
 ### Evaluation
-- Cinematic background of the shoreline of Balneario Camboriu skyline in warm evening light in Brazil for the Evaluation section on the Assessment page.
-- Section 04
 - H2: Evaluation
+- Section 04
+- Evaluation
 - Evaluation is Monique's legal and practical reading of the matter. She uses it to decide whether the case is ready to move, needs correction, or needs a different route entirely.
 - A useful evaluation usually answers:
 - is this route viable on the current evidence
@@ -337,11 +413,12 @@ File: `process/assessment/index.html`
 - what risk is manageable and what risk is too high
 - whether the client should proceed now, wait, or restructure the plan
 - This makes evaluation a protective stage, not just an analytical one.
+- the shoreline of Balneario Camboriu skyline in warm evening light in Brazil.
 
 ### Positioning
-- Cinematic background of the wide natural landscape of Rio Negro Palace in Manaus in Brazil for the Positioning section on the Assessment page.
-- Section 05
 - H2: Positioning
+- Section 05
+- Positioning
 - Positioning means helping the client understand where they really stand in the process. Monique uses plain language so the client can see the case as authorities may see it, not only as the client hopes it will be seen.
 - Stronger positioning usually gives the client:
 - a more accurate view of route strength
@@ -349,11 +426,12 @@ File: `process/assessment/index.html`
 - a better way to explain the matter going forward
 - more control over the next stage
 - When positioning is clear, the client can make better decisions with less emotional guesswork.
+- the wide natural landscape of Rio Negro Palace in Manaus in Brazil.
 
 ### Risks
-- Cinematic background of the civic center and avenues of Goiania in Brazil for the Risks section on the Assessment page.
-- Section 06
 - H2: Risks
+- Section 06
+- Risks
 - Risk review is one of the most important parts of assessment. Many immigration setbacks come from issues that were visible earlier but never addressed properly.
 - Monique often looks for risks such as:
 - gaps or inconsistencies in the factual record
@@ -361,11 +439,12 @@ File: `process/assessment/index.html`
 - unsupported assumptions about eligibility
 - documents that are weak, outdated, or incomplete
 - Naming the risk early does not make the case weaker. It usually gives the client a better chance to deal with it responsibly.
+- the civic center and avenues of Goiania in Brazil.
 
 ### Clarity
-- Cinematic background of the Botanical Garden of Curitiba in Brazil for the Clarity section on the Assessment page.
-- Section 07
 - H2: Clarity
+- Section 07
+- Clarity
 - Assessment should leave the client with more clarity than they had before. Monique uses the stage to reduce confusion and bring the matter into a form that can support a real plan.
 - After strong assessment, clients usually understand:
 - which route looks strongest now
@@ -373,11 +452,12 @@ File: `process/assessment/index.html`
 - what documents matter most next
 - what can be fixed and what cannot be changed
 - That clarity is often what turns worry into a realistic strategy.
+- the Botanical Garden of Curitiba in Brazil.
 
 ### Findings
-- Cinematic background of the Ver-o-Peso market on the Belem waterfront in Brazil for the Findings section on the Assessment page.
-- Section 08
 - H2: Findings
+- Section 08
+- Findings
 - Findings are the concrete takeaways from Monique's review. They are usually more useful than general reassurance because they tell the client what is actually happening in the case.
 - Findings often include:
 - route strengths and weaknesses
@@ -385,11 +465,12 @@ File: `process/assessment/index.html`
 - timing concerns and dependency points
 - whether the file is ready, needs work, or needs a different direction
 - The quality of later stages usually depends on how well these findings are understood.
+- the Ver-o-Peso market on the Belem waterfront in Brazil.
 
 ### Direction
-- Cinematic background of Sao Paulo in Brazil for the Direction section on the Assessment page.
-- Section 09
 - H2: Direction
+- Section 09
+- Direction
 - Direction is where Monique turns analysis into a practical order of action. Clients need more than a list of issues. They need to know what to do first, what to postpone, and what to avoid.
 - Direction often means:
 - prioritizing the most important corrections
@@ -397,11 +478,12 @@ File: `process/assessment/index.html`
 - gathering evidence in the right order
 - moving into the next stage with a clearer sequence
 - That sequence is one of the strongest differences between structured legal support and improvised progress.
+- Sao Paulo in Brazil.
 
 ### Outcomes
-- Cinematic background of the shoreline of Santos waterfront in warm evening light in Brazil for the Outcomes section on the Assessment page.
-- Section 10
 - H2: Outcomes
+- Section 10
+- Outcomes
 - The best outcome of assessment is better legal positioning. Monique uses this stage to improve the quality of the path forward, even though the final authority decision still belongs to government reviewers.
 - A strong assessment outcome usually means:
 - the client knows where the case stands
@@ -409,53 +491,95 @@ File: `process/assessment/index.html`
 - avoidable filing errors are less likely
 - the overall process becomes more stable and realistic
 - Assessment does not replace later work. It makes later work more credible.
+- the shoreline of Santos waterfront in warm evening light in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Context Factors Evaluation Positioning Risks Clarity Findings Direction Outcomes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Context
+- Factors
+- Evaluation
+- Positioning
+- Risks
+- Clarity
+- Findings
+- Direction
+- Outcomes
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Move into assessment with Monique Fernandes when your Brazil immigration matter needs a real review of facts, documents, route fit, and risk before you take the next serious step.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Consultation Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil. Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil. Filing Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses. Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Conversion Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Consultation
+- H3: Filing
+- H3: Conversion
+- H3: Failures
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Consultation
+- Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
+- Filing
+- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Conversion
+- Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Move into assessment with Monique Fernandes when your Brazil immigration matter needs a real review of facts, documents, route fit, and risk before you take the next serious step.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Move into assessment with Monique Fernandes when your Brazil immigration matter needs a real review of facts, documents, route fit, and risk before you take the next serious step.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / assessment
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +588,44 @@ File: `process/assessment/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +638,7 @@ File: `process/assessment/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +656,11 @@ File: `process/assessment/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +677,7 @@ File: `process/assessment/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +693,7 @@ File: `process/assessment/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +706,7 @@ File: `process/assessment/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +721,7 @@ File: `process/assessment/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +797,15 @@ File: `process/assessment/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +829,6 @@ File: `process/assessment/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +999,8 @@ File: `process/assessment/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1012,19 @@ File: `process/assessment/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

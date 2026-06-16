@@ -7,29 +7,89 @@ File: `brazil/places/index.html`
 - Browser title: Places \| Brazil Guidance \| Immigrate to Brazil
 - Meta description: Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Places
+- H2: Overview
+- H2: Explore this hub
+- H3: North
+- H3: Northeast
+- H3: Central-West
+- H3: Southeast
+- H3: South
+- H3: States
+- H3: Cities
+- H3: Municipalities
+- H3: Directory
+- H3: Search
+- H2: Explore The Main Topics
+- H2: How To Use This Hub
+- H2: Reading Lens
+- H2: Best Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: North
+- H3: Northeast
+- H3: Central-West
+- H3: Southeast
+- H3: South
+- H3: States
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +100,26 @@ File: `brazil/places/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +143,7 @@ File: `brazil/places/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +162,7 @@ File: `brazil/places/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +171,7 @@ File: `brazil/places/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +179,7 @@ File: `brazil/places/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +197,17 @@ File: `brazil/places/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +222,7 @@ File: `brazil/places/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +232,14 @@ File: `brazil/places/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +298,7 @@ File: `brazil/places/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +316,7 @@ File: `brazil/places/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +337,44 @@ File: `brazil/places/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Brazil
 - Places
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Places page showing Iguazu Falls on the Brazilian side in Brazil.
+- H1: Places
 - BRAZIL
 - Immigrate to Brazil
-- H1: Places
+- Places
 - Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination.
-- Page highlights
-- North Northeast Central-West Southeast South States
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Places In Brazil Compared Through Lifestyle, Cost, And Practical Fit page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - North
 - Northeast
+- Central-West
+- Southeast
+- South
+- States
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Place is where Brazil becomes real.
 - Explore The Main Topics
 - The Places hub is designed to move readers from broad geography into more practical comparison.
 - How To Use This Hub
 - Place comparison works best when readers hold routine in view.
+- Iguazu Falls on the Brazilian side in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Places In Brazil Compared Through Lifestyle, Cost, And Practical Fit page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of Iguazu Falls in Brazil for the Overview section on the Places page.
 - H2: Overview
+- Overview
 - Place is where Brazil becomes real. The same person may thrive in one city and feel completely misaligned in another. Climate, infrastructure, safety habits, housing patterns, social rhythm, healthcare access, education options, transport, and language environment all shift enough across Brazil that place choice deserves its own structured hub.
 - We created the Places family to help readers compare regions and place scales more carefully. Some will be drawn to major capitals. Others will prefer mid-sized cities or municipalities with a different pace. What matters is not choosing the most famous place. It is choosing the place that actually supports the life being built.
 - The pages inside this hub help readers compare:
@@ -302,65 +383,56 @@ File: `brazil/places/index.html`
 - place-based trade-offs in climate, cost, services, and routine
 - why one city's public image should not stand in for the whole region
 - That kind of place literacy often changes the quality of a Brazil move more than any single article about visas ever could.
+- Iguazu Falls in Brazil.
 
 ### Hub Menu
 - H2: Explore this hub
-- Use the cards below to move directly into the page that best matches the question, route, place, or stage you are trying to understand next.
-- Hero image for the North page showing Teatro Amazonas in Manaus in northern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
 - H3: North
+- H3: Northeast
+- H3: Central-West
+- H3: Southeast
+- H3: South
+- H3: States
+- H3: Cities
+- H3: Municipalities
+- H3: Directory
+- H3: Search
+- Explore this hub
+- Use the cards below to choose the topic that best matches the question, place, or stage you are trying to understand next.
+- North
 - North Brazil has its own geography, logistics, climate, and urban rhythm. We explain what makes the region distinctive for readers considering travel, living, or investment.
 - Open page
-- Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Northeast
+- Northeast
 - Northeast Brazil brings together strong regional identity, major coastal capitals, tourism, and very different realities between one city and another.
-- Open page
-- Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Central-West
+- Central-West
 - Central-West Brazil combines the federal capital, agribusiness influence, interior geography, and a pace of life that often surprises readers who imagine Brazil only through the coast.
-- Open page
-- Hero image for the Southeast page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Southeast
+- Southeast
 - Southeast Brazil concentrates business, infrastructure, and some of the country's most diverse urban experiences. It is often the entry point for foreigners, but never a single reality.
-- Open page
-- Hero image for the South page showing the Porto Alegre skyline in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: South
+- South
 - South Brazil is often associated with cooler weather, mid-sized city life, and a different rhythm from tropical stereotypes. We explain what that means in practical terms.
-- Open page
-- Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: States
+- States
 - State-level comparison helps readers move from country-wide fascination to more realistic shortlists. State identity affects services, culture, administration, and how cities are experienced.
-- Open page
-- Hero image for the Cities page showing the Porto Alegre skyline in southern Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Cities
+- Cities
 - City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another.
-- Open page
-- Hero image for the Municipalities page showing the Sao Paulo skyline in southeast Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Municipalities
+- Municipalities
 - Municipal boundaries matter more than many readers expect. They affect schools, services, taxation, commuting, and the ordinary feel of daily life.
-- Open page
-- Hero image for the Directory page showing the National Congress complex in Brasilia in central-west Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Directory
+- Directory
 - The directory is here to help readers locate useful topics, categories, and place-based information with more speed and less scattered browsing.
-- Open page
-- Hero image for the Search page showing the National Congress complex in Brasilia in central-west Brazil.
-- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
-- H3: Search
+- Search
 - Use search to find Monique Fernandes' services, legal notices, and consultation routes when you already know the topic but need the right page quickly.
-- Open page
+- Teatro Amazonas in Manaus in northern Brazil.
+- Immigrate to Brazil logo for page navigation, consultation support, and Brazil information
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Pantanal wetlands in central-west Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- the Sao Paulo skyline in southeast Brazil.
 
 ### Explore The Main Topics
-- Cinematic background of the mountain road of Serra do Rio do Rastro in Brazil for the Explore The Main Topics section on the Places page.
-- Section 02
 - H2: Explore The Main Topics
+- Section 02
+- Explore The Main Topics
 - The Places hub is designed to move readers from broad geography into more practical comparison. Regional pages help with identity, climate, and economic pattern. The States, Cities, and Municipalities pages help narrow the scale. Directory and Search are there to make navigation easier once the shortlist is starting to form.
 - A useful way to move through this hub is:
 - start with the region if your shortlist is still broad
@@ -368,11 +440,12 @@ File: `brazil/places/index.html`
 - use municipalities when neighborhood, metro-area, or service access differences are becoming important
 - use directory and search when you want to locate related guidance faster
 - This helps people compare Brazil in a way that is operational, not just aspirational.
+- the mountain road of Serra do Rio do Rastro in Brazil.
 
 ### How To Use This Hub
-- Cinematic background of the Poty river and bridges of Teresina in Brazil for the How To Use This Hub section on the Places page.
-- Section 03
 - H2: How To Use This Hub
+- Section 03
+- How To Use This Hub
 - Place comparison works best when readers hold routine in view. A shortlist should not only reflect beauty or reputation. It should also reflect budget, housing, family needs, medical access, flights, work pattern, weather tolerance, and how much urban intensity or quiet the person actually wants.
 - A strong place comparison usually asks:
 - what the daily routine needs to look like
@@ -380,11 +453,12 @@ File: `brazil/places/index.html`
 - what climate and pace feel sustainable over time
 - how the place fits the route and life stage being considered
 - The hub is here to help people ask those questions early enough for the answers to be useful.
+- the Poty river and bridges of Teresina in Brazil.
 
 ### Reading Lens
-- Cinematic background of the Estacao das Docas waterfront in Belem in Brazil for the Reading Lens section on the Places page.
-- Section 04
 - H2: Reading Lens
+- Section 04
+- Reading Lens
 - No place should be judged in isolation from the life it is supposed to support. A city that is excellent for one remote worker may be a poor fit for a family with school-age children. A low-cost municipality may create transport or healthcare trade-offs that matter more than the rent. A lively capital may feel energizing for one person and exhausting for another.
 - A mature reading lens keeps asking:
 - fit for whom
@@ -392,11 +466,12 @@ File: `brazil/places/index.html`
 - fit at which budget
 - fit for which stage of life in Brazil
 - That kind of comparison protects readers from choosing the place they admired most online instead of the place that actually fits them best.
+- the Estacao das Docas waterfront in Belem in Brazil.
 
 ### Best Next Step
-- Cinematic background of Lago Negro in Gramado in Brazil for the Best Next Step section on the Places page.
-- Section 05
 - H2: Best Next Step
+- Section 05
+- Best Next Step
 - If you are still comparing places broadly, keep using the region and place-scale pages to narrow the shortlist. If the shortlist is already small and the next question is how city choice interacts with immigration route, family structure, work, or long-term stability, the more useful next step is usually consultation.
 - Structured guidance is especially useful when:
 - two or three places all still look plausible
@@ -404,53 +479,92 @@ File: `brazil/places/index.html`
 - family, healthcare, education, or budget trade-offs are becoming decisive
 - you want place research translated into a practical relocation sequence
 - That is how this hub is meant to work: first comparison, then clearer decision-making.
+- Lago Negro in Gramado in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Explore The Main To Use This Reading Lens Best Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Hub Menu
+- Explore The Main Topics
+- How To Use This Hub
+- Reading Lens
+- Best Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination. Attorney Monique and Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Use this hub when the main question is where in Brazil life might fit you best. The pages inside it help compare regions, cities, and local realities instead of treating the whole country as one generic destination. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Open the region, state, city, or municipality page that most closely matches your shortlist, and contact us when place choice now needs to be read together with immigration route, daily routine, or long-term planning.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the North page showing Teatro Amazonas in Manaus in northern Brazil. North North Brazil has its own geography, logistics, climate, and urban rhythm. We explain what makes the region distinctive for readers considering travel, living, or investment. Hero image for the Northeast page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Northeast Northeast Brazil brings together strong regional identity, major coastal capitals, tourism, and very different realities between one city and another. Hero image for the Central-West page showing the Pantanal wetlands in central-west Brazil. Central-West Central-West Brazil combines the federal capital, agribusiness influence, interior geography, and a pace of life that often surprises readers who imagine Brazil only through the coast. Hero image for the Southeast page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Southeast Southeast Brazil concentrates business, infrastructure, and some of the country’s most diverse urban experiences. It is often the entry point for foreigners, but never a single reality. Hero image for the South page showing the Porto Alegre skyline in southern Brazil. South South Brazil is often associated with cooler weather, mid-sized city life, and a different rhythm from tropical stereotypes. We explain what that means in practical terms. Hero image for the States page showing the National Congress complex in Brasilia in central-west Brazil. States State-level comparison helps readers move from country-wide fascination to more realistic shortlists. State identity affects services, culture, administration, and how cities are experienced.
+### Related Links
+- H2: Related pages
+- H3: North
+- H3: Northeast
+- H3: Central-West
+- H3: Southeast
+- H3: South
+- H3: States
+- Related pages
+- North
+- North Brazil has its own geography, logistics, climate, and urban rhythm. We explain what makes the region distinctive for readers considering travel, living, or investment.
+- Northeast
+- Northeast Brazil brings together strong regional identity, major coastal capitals, tourism, and very different realities between one city and another.
+- Central-West
+- Central-West Brazil combines the federal capital, agribusiness influence, interior geography, and a pace of life that often surprises readers who imagine Brazil only through the coast.
+- Southeast
+- Southeast Brazil concentrates business, infrastructure, and some of the country’s most diverse urban experiences. It is often the entry point for foreigners, but never a single reality.
+- South
+- South Brazil is often associated with cooler weather, mid-sized city life, and a different rhythm from tropical stereotypes. We explain what that means in practical terms.
+- States
+- State-level comparison helps readers move from country-wide fascination to more realistic shortlists. State identity affects services, culture, administration, and how cities are experienced.
+- Teatro Amazonas in Manaus in northern Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Pantanal wetlands in central-west Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Open the region, state, city, or municipality page that most closely matches your shortlist, and contact us when place choice now needs to be read together with immigration route, daily routine, or long-term planning.
-- Immigrate to Brazil logo for the Places In Brazil Compared Through Lifestyle, Cost, And Practical Fit page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Open the region, state, city, or municipality page that most closely matches your shortlist, and contact us when place choice now needs to be read together with immigration route, daily routine, or long-term planning.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Places In Brazil Compared Through Lifestyle, Cost, And Practical Fit page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicbrazil / places
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -459,40 +573,44 @@ File: `brazil/places/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -505,6 +623,7 @@ File: `brazil/places/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -522,10 +641,11 @@ File: `brazil/places/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -542,6 +662,7 @@ File: `brazil/places/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -557,6 +678,7 @@ File: `brazil/places/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -569,6 +691,7 @@ File: `brazil/places/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -583,7 +706,7 @@ File: `brazil/places/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -659,26 +782,15 @@ File: `brazil/places/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -702,7 +814,6 @@ File: `brazil/places/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -873,7 +984,8 @@ File: `brazil/places/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -885,21 +997,19 @@ File: `brazil/places/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

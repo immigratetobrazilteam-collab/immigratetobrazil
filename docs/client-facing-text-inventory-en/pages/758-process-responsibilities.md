@@ -7,29 +7,83 @@ File: `process/responsibilities/index.html`
 - Browser title: Responsibilities With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Monique helps clients understand which responsibilities belong to the client, which belong to the attorney, and how both sides work together.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Responsibilities
+- H2: Overview
+- H2: Roles
+- H2: Client
+- H2: Provider
+- H2: Cooperation
+- H2: Accuracy
+- H2: Timing
+- H2: Communication
+- H2: Accountability
+- H2: Alignment
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Transparency
+- H3: Obligations
+- H3: Rights
+- H3: Fees
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/responsibilities/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/responsibilities/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/responsibilities/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/responsibilities/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/responsibilities/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/responsibilities/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/responsibilities/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/responsibilities/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/responsibilities/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/responsibilities/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,175 +331,230 @@ File: `process/responsibilities/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Responsibilities
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Responsibilities page showing Delta do Parnaiba at sunrise in Brazil.
+- H1: Responsibilities
 - PROCESS
 - Immigrate to Brazil
-- H1: Responsibilities
+- Responsibilities
 - Monique helps clients understand which responsibilities belong to the client, which belong to the attorney, and how both sides work together.
-- Page highlights
-- Process Hub Transparency Obligations Rights Fees
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Responsibilities With Monique Fernandes Across The Brazil Immigration Process page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique helps clients understand which responsibilities belong to the client, which belong to the attorney, and how both sides work together.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Transparency
+- Obligations
+- Rights
+- Fees
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique helps clients understand what they are responsible for, what she handles as the attorney, and how both sides work together.
 - Roles
 - Different parts of the process belong to different people.
 - Client
 - Clients are usually responsible for: - Providing accurate information - Supplying documents - Responding to questions - Reporting important changes - Following agreed timelines
+- Delta do Parnaiba at sunrise in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Responsibilities With Monique Fernandes Across The Brazil Immigration Process page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the sunrise landscape of Delta do Parnaiba in Brazil for the Overview section on the Responsibilities page.
 - H2: Overview
+- Overview
 - Monique helps clients understand what they are responsible for, what she handles as the attorney, and how both sides work together.
 - Her service is designed to create clearer expectations and a more organized process.
+- the sunrise landscape of Delta do Parnaiba in Brazil.
 
 ### Roles
-- Cinematic background of the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil for the Roles section on the Responsibilities page.
-- Section 02
 - H2: Roles
+- Section 02
+- Roles
 - Different parts of the process belong to different people.
 - This may include:
 - Client responsibilities
 - Attorney responsibilities
 - Government procedures
 - Third-party document providers
+- the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil.
 
 ### Client
-- Cinematic background of the forests and waters of Madeira river in Porto Velho in Brazil for the Client section on the Responsibilities page.
-- Section 03
 - H2: Client
+- Section 03
+- Client
 - Clients are usually responsible for:
 - Providing accurate information
 - Supplying documents
 - Responding to questions
 - Reporting important changes
 - Following agreed timelines
+- the forests and waters of Madeira river in Porto Velho in Brazil.
 
 ### Provider
-- Cinematic background of the sunrise landscape of Itaimbezinho canyon in Brazil for the Provider section on the Responsibilities page.
-- Section 04
 - H2: Provider
+- Section 04
+- Provider
 - Monique's role includes:
 - Legal analysis
 - Route selection
 - Document review
 - Strategic guidance
 - Clear communication
+- the sunrise landscape of Itaimbezinho canyon in Brazil.
 
 ### Cooperation
-- Cinematic background of the wide coastline and water of Pajucara waterfront in Maceio in Brazil for the Cooperation section on the Responsibilities page.
-- Section 05
 - H2: Cooperation
+- Section 05
+- Cooperation
 - The strongest matters often involve:
 - Clear coordination
 - Timely responses
 - Shared preparation
 - Mutual understanding
+- the wide coastline and water of Pajucara waterfront in Maceio in Brazil.
 
 ### Accuracy
-- Cinematic background of the island village and beaches of Morro de Sao Paulo in Brazil for the Accuracy section on the Responsibilities page.
-- Section 06
 - H2: Accuracy
+- Section 06
+- Accuracy
 - Accuracy is a shared responsibility.
 - Strong immigration matters depend on:
 - Correct facts
 - Consistent records
 - Honest disclosure
 - Reliable supporting evidence
+- the island village and beaches of Morro de Sao Paulo in Brazil.
 
 ### Timing
-- Cinematic background of Amazon river in Brazil for the Timing section on the Responsibilities page.
-- Section 07
 - H2: Timing
+- Section 07
+- Timing
 - Responsibilities often connect to:
 - Deadlines
 - Renewal dates
 - Filing windows
 - Response periods
+- Amazon river in Brazil.
 
 ### Communication
-- Cinematic background of the meeting of waters near Santarem in Brazil for the Communication section on the Responsibilities page.
-- Section 08
 - H2: Communication
+- Section 08
+- Communication
 - Clients should communicate:
 - Important updates
 - Questions
 - Delays
 - Changes in circumstances
+- the meeting of waters near Santarem in Brazil.
 
 ### Accountability
-- Cinematic background of the wide coastline and water of Praia dos Carneiros in Brazil for the Accountability section on the Responsibilities page.
-- Section 09
 - H2: Accountability
+- Section 09
+- Accountability
 - Clear responsibilities reduce:
 - Confusion
 - Friction
 - Missed deadlines
 - Avoidable mistakes
+- the wide coastline and water of Praia dos Carneiros in Brazil.
 
 ### Alignment
-- Cinematic background of Florianopolis in Brazil for the Alignment section on the Responsibilities page.
-- Section 10
 - H2: Alignment
+- Section 10
+- Alignment
 - Shared responsibility creates a calmer, stronger, and more organized immigration process.
+- Florianopolis in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Roles Client Provider Cooperation Accuracy Timing Communication Accountability Alignment
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Roles
+- Client
+- Provider
+- Cooperation
+- Accuracy
+- Timing
+- Communication
+- Accountability
+- Alignment
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique helps clients understand which responsibilities belong to the client, which belong to the attorney, and how both sides work together.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Consultation when the matter would benefit from clearer shared expectations.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Transparency Monique believes clients make better decisions when they understand the route, the risks, the next step, and the limits of the process. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Obligations Monique helps clients understand the practical duties connected to immigration status, renewals, and long-term compliance in Brazil. Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil. Rights Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life. Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil. Fees Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Transparency
+- H3: Obligations
+- H3: Rights
+- H3: Fees
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Transparency
+- Monique believes clients make better decisions when they understand the route, the risks, the next step, and the limits of the process.
+- Obligations
+- Monique helps clients understand the practical duties connected to immigration status, renewals, and long-term compliance in Brazil.
+- Rights
+- Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life.
+- Fees
+- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Consultation when the matter would benefit from clearer shared expectations.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Consultation when the matter would benefit from clearer shared expectations.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / responsibilities
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -441,40 +563,44 @@ File: `process/responsibilities/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -487,6 +613,7 @@ File: `process/responsibilities/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -504,10 +631,11 @@ File: `process/responsibilities/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -524,6 +652,7 @@ File: `process/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -539,6 +668,7 @@ File: `process/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -551,6 +681,7 @@ File: `process/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -565,7 +696,7 @@ File: `process/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -641,26 +772,15 @@ File: `process/responsibilities/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -684,7 +804,6 @@ File: `process/responsibilities/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -855,7 +974,8 @@ File: `process/responsibilities/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -867,21 +987,19 @@ File: `process/responsibilities/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

@@ -1,10 +1,10 @@
 # English Client-Facing Website Text Inventory
 
-This inventory was split into smaller Markdown files so editors can open it reliably. The original text is preserved across the split files without rewriting, summarising, or deleting the inventory text.
+This inventory is generated as smaller page-based Markdown files so editors can open the content reliably.
 
-- Original source file: `docs/client-facing-text-inventory.md`
+- Source: English website HTML, English partials, English runtime text, and English generated-content strings
 - Page files: 843
-- Split verification SHA-256: `b781d17021178f66214108b2f1cc7dd776c8c3af8e29b9f0768c2d9ad0b78b07`
+- Split verification SHA-256: `7fd70934b083b020059cf089c85610d678cc9fe9b4f63ea2c799adf97a4aa60c`
 
 ## Supporting Files
 
@@ -43,7 +43,7 @@ This inventory was split into smaller Markdown files so editors can open it reli
 | 26 | `/brazil/economy/` | Economy | [026-brazil-economy.md](pages/026-brazil-economy.md) |
 | 27 | `/brazil/education/` | Education | [027-brazil-education.md](pages/027-brazil-education.md) |
 | 28 | `/brazil/events/` | Events | [028-brazil-events.md](pages/028-brazil-events.md) |
-| 29 | `/brazil/faqs/` | Faqs | [029-brazil-faqs.md](pages/029-brazil-faqs.md) |
+| 29 | `/brazil/faqs/` | FAQs | [029-brazil-faqs.md](pages/029-brazil-faqs.md) |
 | 30 | `/brazil/festivals/` | Festivals | [030-brazil-festivals.md](pages/030-brazil-festivals.md) |
 | 31 | `/brazil/guides/` | Guides | [031-brazil-guides.md](pages/031-brazil-guides.md) |
 | 32 | `/brazil/healthcare/` | Healthcare | [032-brazil-healthcare.md](pages/032-brazil-healthcare.md) |
@@ -330,7 +330,7 @@ This inventory was split into smaller Markdown files so editors can open it reli
 | 313 | `/insights/guides/tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis/` | Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements | [313-insights-guides-tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis.md](pages/313-insights-guides-tourists-can-usually-stay-in-brazil-for-up-to-90-days-depending-on-vis.md) |
 | 314 | `/insights/guides/want-to-live-in-brazil-while-investing-in-the-countrys-growth/` | Want to live in Brazil while investing in the countrys growth? | [314-insights-guides-want-to-live-in-brazil-while-investing-in-the-countrys-growth.md](pages/314-insights-guides-want-to-live-in-brazil-while-investing-in-the-countrys-growth.md) |
 | 315 | `/insights/guides/want-to-turn-your-investment-into-residency-in-brazil/` | Want to turn your investment into residency in Brazil? | [315-insights-guides-want-to-turn-your-investment-into-residency-in-brazil.md](pages/315-insights-guides-want-to-turn-your-investment-into-residency-in-brazil.md) |
-| 316 | `/insights/guides/what-happens-during-an-immigration-consultation/` | What Happens During an Immigration Consultation? | [316-insights-guides-what-happens-during-an-immigration-consultation.md](pages/316-insights-guides-what-happens-during-an-immigration-consultation.md) |
+| 316 | `/insights/guides/what-happens-during-an-immigration-consultation/` | What Happens During an Immigration consultation? | [316-insights-guides-what-happens-during-an-immigration-consultation.md](pages/316-insights-guides-what-happens-during-an-immigration-consultation.md) |
 | 317 | `/insights/guides/what-rights-do-immigrants-have-in-brazil/` | What rights do immigrants have in Brazil? | [317-insights-guides-what-rights-do-immigrants-have-in-brazil.md](pages/317-insights-guides-what-rights-do-immigrants-have-in-brazil.md) |
 | 318 | `/insights/guides/what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency/` | What to do after arriving in Brazil with a visa that allows residency? | [318-insights-guides-what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency.md](pages/318-insights-guides-what-to-do-after-arriving-in-brazil-with-a-visa-that-allows-residency.md) |
 | 319 | `/insights/guides/when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s/` | When a Brazilian citizen faces problems abroad, the first instance of support is | [319-insights-guides-when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s.md](pages/319-insights-guides-when-a-brazilian-citizen-faces-problems-abroad-the-first-instance-of-s.md) |

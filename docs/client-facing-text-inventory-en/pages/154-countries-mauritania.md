@@ -7,29 +7,100 @@ File: `countries/mauritania/index.html`
 - Browser title: Moving to Brazil from Mauritania \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: Moving to Brazil from Mauritania? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Moving to Brazil from Mauritania
+- H2: Overview
+- H2: Immigration paths worth comparing
+- H3: Compare visa routes
+- H3: Plan residence continuity
+- H3: Keep future naturalisation in view
+- H3: Handle supporting documents
+- H2: Cities in Brazil often considered by people from Mauritania
+- H3: Sao Paulo
+- H3: Rio de Janeiro
+- H3: Curitiba
+- H3: Brasilia
+- H3: Florianopolis
+- H2: Document planning between Mauritania and Brazil
+- H2: Settlement and cost considerations
+- H2: Frequently asked questions
+- H3: Can I start my immigration planning from Mauritania before travelling?
+- H3: Do I need a lawyer before choosing a visa or residency route?
+- H3: Can Monique Fernandes assist clients who are still in Mauritania?
+- H3: What should I prepare before requesting a consultation?
+- H2: Attorney-led guidance
+- H3: Country-specific planning
+- H3: Monique Fernandes
+- H3: Related support only where useful
+- H2: Approved Client Reviews
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Brazilian Migration Law
+- H3: Migration Regulation Decree
+- H2: Related pages
+- H3: Visas
+- H3: Residencies
+- H3: Naturalisation
+- H3: Other
+- H3: Visa
+- H3: Start planning from Mauritania
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +111,26 @@ File: `countries/mauritania/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +154,7 @@ File: `countries/mauritania/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +173,7 @@ File: `countries/mauritania/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +182,7 @@ File: `countries/mauritania/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +190,7 @@ File: `countries/mauritania/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +208,17 @@ File: `countries/mauritania/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +233,7 @@ File: `countries/mauritania/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +243,14 @@ File: `countries/mauritania/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +309,7 @@ File: `countries/mauritania/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +327,7 @@ File: `countries/mauritania/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,104 +348,137 @@ File: `countries/mauritania/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Countries
 - Mauritania
+- Breadcrumb
 
 ### Page Hero
-- Hero image for country planning pages showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- H1: Moving to Brazil from Mauritania
 - COUNTRIES
 - Immigrate to Brazil
-- H1: Moving to Brazil from Mauritania
+- Moving to Brazil from Mauritania
 - Planning a move from Mauritania to Brazil works best when visas, residencies, cross-border documents, and relocation timing are read together. This guide helps you compare those questions in one place with Monique Fernandes at Immigrate to Brazil.
-- Page highlights
-- Countries Hub Visas Residencies Visa Insights Consultation
+- Countries Hub
+- Visas
+- Residencies
+- Visa Insights
+- Consultation
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Moving to Brazil from Mauritania page Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Use this page to compare Brazil immigration planning from Mauritania with more structure, better internal links, and a stronger focus on route fit, records, and relocation timing.
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Use this guide to approach a move from Mauritania to Brazil with clearer immigration planning, document review, and relocation timing.
 - Country-specific planning
 - English and Portuguese support
 - Remote consultations available
 - Cross-border document strategy
-- Country focus Planning a move from Mauritania to Brazil.
-- Why this helps Country pages make route comparison, documents, and timing easier to read together.
-- Support model Immigration-first guidance with related family, civil, and company support where the move depends on it.
+- Country focus
+- Planning a move from Mauritania to Brazil.
+- Why this helps
+- Careful planning makes options, documents, and timing easier to review together.
+- Support model
+- Immigration-first guidance with related family, civil, and company support where the move depends on it.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Moving to Brazil from Mauritania page
 
 ### Overview
 - H2: Overview
+- Overview
 - Moving from Mauritania to Brazil usually becomes easier once the route, the evidence, and the long-term plan are read as one file instead of separate tasks. That is especially true when the move involves family records, employment, investment, study, retirement, or a later goal of residence continuity and eventual citizenship planning.
 - Clients from Mauritania usually request consultation when the move involves family ties, work or investment plans, study, retirement, or a long-term intention to live lawfully in Brazil. The legal route depends on the real objective, the timing, and the facts involved at the start of planning.
 - Immigrate to Brazil keeps the public focus on immigration. Where the move also depends on marriage records, birth documents, powers of attorney, company-side structuring, or cross-border civil paperwork, those supporting services are treated only as tools that strengthen the immigration route.
 
 ### Country Routes
 - H2: Immigration paths worth comparing
-- These are the route families people relocating from Mauritania most often compare while planning a lawful move to Brazil.
 - H3: Compare visa routes
+- H3: Plan residence continuity
+- H3: Keep future naturalisation in view
+- H3: Handle supporting documents
+- Immigration paths worth comparing
+- These are the immigration options people relocating from Mauritania often review while planning a lawful move to Brazil.
+- Compare visa routes
 - Review visitor, work, family, study, investor, nomad, and other entry routes before committing to a filing path from Mauritania.
 - Open page
-- H3: Plan residence continuity
+- Plan residence continuity
 - Use residence strategy when your move is intended to become stable, renewable, or part of a longer settlement plan in Brazil.
-- Open page
-- H3: Keep future naturalisation in view
+- Keep future naturalisation in view
 - Route decisions made at the beginning can affect later residence continuity, timing, and citizenship planning.
-- Open page
-- H3: Handle supporting documents
+- Handle supporting documents
 - Translations, criminal records, consular steps, family documentation, and company-side paperwork often shape the file as much as the route itself.
-- Open page
 
 ### Popular Cities
-- Section 02
 - H2: Cities in Brazil often considered by people from Mauritania
-- Country-specific move planning is not only about the visa or residency route. It is also about where daily life, work, education, family support, and administrative access will actually function best once you are in Brazil.
 - H3: Sao Paulo
-- A common choice for work, business, university options, and broad international support services.
 - H3: Rio de Janeiro
-- Often considered for lifestyle, family relocation, tourism-linked work, and major urban infrastructure.
 - H3: Curitiba
-- Frequently reviewed by international clients looking for organized city structure and long-term settlement planning.
 - H3: Brasilia
-- Relevant for federal procedures, public-sector matters, and clients whose cases involve national authorities.
 - H3: Florianopolis
+- Section 02
+- Cities in Brazil often considered by people from Mauritania
+- Country-specific move planning is not only about the visa or residency route. It is also about where daily life, work, education, family support, and administrative access will actually function best once you are in Brazil.
+- Sao Paulo
+- A common choice for work, business, university options, and broad international support services.
+- Rio de Janeiro
+- Often considered for lifestyle, family relocation, tourism-linked work, and major urban infrastructure.
+- Curitiba
+- Frequently reviewed by international clients looking for organized city structure and long-term settlement planning.
+- Brasilia
+- Relevant for federal procedures, public-sector matters, and clients whose cases involve national authorities.
+- Florianopolis
 - Often researched by remote workers, families, and clients prioritizing lifestyle and mobility balance.
 
 ### Document Planning
-- Section 03
 - H2: Document planning between Mauritania and Brazil
+- Section 03
+- Document planning between Mauritania and Brazil
 - Many avoidable delays appear long before filing. Passport validity, travel history, birth and marriage records, criminal-record certificates, diplomas, company documents, and proof of income all behave differently once they cross borders. A document that feels straightforward in Mauritania may still need apostille, legalization, sworn translation, or consistency review before it makes sense in a Brazil immigration file.
 - That is why Monique Fernandes treats document planning as part of immigration strategy rather than as an afterthought. A route can look correct on paper and still become fragile if the records are incomplete, translated late, inconsistent across jurisdictions, or sequenced in the wrong order.
 
 ### Settlement Considerations
-- Section 04
 - H2: Settlement and cost considerations
+- Section 04
+- Settlement and cost considerations
 - There is no single rule for where citizens of Mauritania settle in Brazil. In practice, location usually follows family support, work or study opportunities, budget, climate preference, and how close the client needs to be to consulates, registries, or other authorities.
 - Cost of living in Brazil varies materially by city, neighborhood, housing style, school choice, transport needs, and whether the move starts alone or with family. For that reason, cost guidance here stays general and practical rather than publishing unreliable fixed numbers.
 
 ### FAQ
 - H2: Frequently asked questions
-- These are recurring planning questions from people comparing a move from Mauritania to Brazil.
 - H3: Can I start my immigration planning from Mauritania before travelling?
-- Yes. Early legal review helps define the correct route, the main timing issues, and the strongest next legal step before you commit to travel or filing.
 - H3: Do I need a lawyer before choosing a visa or residency route?
-- Many clients request consultation before filing so the chosen route matches the real objective, the facts involved, and the timeline.
 - H3: Can Monique Fernandes assist clients who are still in Mauritania?
-- Yes. Initial guidance, route review, and strategy planning can often begin remotely before the move to Brazil.
 - H3: What should I prepare before requesting a consultation?
+- Frequently asked questions
+- These are recurring planning questions from people comparing a move from Mauritania to Brazil.
+- Can I start my immigration planning from Mauritania before travelling?
+- Yes. Early legal review helps define the correct route, the main timing issues, and the strongest next legal step before you commit to travel or filing.
+- Do I need a lawyer before choosing a visa or residency route?
+- Many clients request consultation before filing so the chosen route matches the real objective, the facts involved, and the timeline.
+- Can Monique Fernandes assist clients who are still in Mauritania?
+- Yes. Initial guidance, route review, and strategy planning can often begin remotely before the move to Brazil.
+- What should I prepare before requesting a consultation?
 - Bring your main goal, current location, travel or filing deadlines, and a short summary of your family situation and the route you are considering.
 
 ### Trust
 - H2: Attorney-led guidance
-- Flag of Mauritania
 - H3: Country-specific planning
-- Public pages are strongest when they make real cross-border questions easier to see. This guide is designed to narrow the gap between general reading in Mauritania and actual filing or relocation work in Brazil.
 - H3: Monique Fernandes
-- Monique Fernandes is a Brazilian immigration lawyer serving clients since 2018 with bilingual support, OAB/PR registration, and work centered on visas, residencies, naturalisation, and related cross-border matters.
 - H3: Related support only where useful
+- Attorney-led guidance
+- Country-specific planning
+- Public pages are strongest when they make real cross-border questions easier to see. This guide is designed to narrow the gap between general reading in Mauritania and actual filing or relocation work in Brazil.
+- Monique Fernandes
+- Monique Fernandes is a Brazilian immigration lawyer serving clients since 2018 with bilingual support, OAB/PR registration, and work centered on visas, residencies, naturalisation, and related cross-border matters.
+- Related support only where useful
 - Family, civil, translation, document, and company-side issues are addressed only when they help the immigration route move more cleanly for international individuals, families, or companies.
+- Flag of Mauritania
 
 ### Testimonials
 - H2: Approved Client Reviews
+- Approved Client Reviews
 - Selected public reviews describing the clarity, responsiveness, and professionalism clients experienced while working with Monique Fernandes.
 - "Monique handled my case with exceptional care and clarity. She explained every step, stayed responsive, and delivered results beyond my expectations."
 - Ash Lyn
@@ -378,64 +495,100 @@ File: `countries/mauritania/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Cities in Brazil Document planning between Settlement and cost
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Country Routes
+- Popular Cities
+- Document Planning
+- Settlement Considerations
+- FAQ
+- Trust
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Country-specific planning for Mauritania to Brazil immigration, residence strategy, and cross-border documentation with Monique Fernandes.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If you are relocating from Mauritania, consultation is the best next step once your route depends on real documents, deadlines, relationship history, or company structure.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, documents, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Brazilian Migration Law
-- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
 - H3: Migration Regulation Decree
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Brazilian Migration Law
+- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
+- Migration Regulation Decree
 - Regulatory decree used to interpret migration procedures, authorities, and administrative logic.
-- H3: Policia Federal - Imigracao
 - Federal Police portal for registration, migration documentation, and post-arrival obligations.
-- H3: Portal Consular - Ministerio das Relacoes Exteriores
 - Official consular portal with entry, visa, and consular reference information.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visas Attorney-led Brazil visa services by Monique Fernandes for consular preparation, entry planning, category fit, and document strategy before you move to Brazil. Hero image for the Residencies page showing Pelourinho in Salvador, Bahia in northeast Brazil. Residencies Brazil residency services by Monique Fernandes for lawful long-term stay, residence permits, registration, renewals, compliance, and life planning in Brazil. Hero image for the Naturalisation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Naturalisation Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position. Hero image for the Other page showing the National Congress complex in Brasilia in central-west Brazil. Other Use this hub for supporting services that often make the main immigration path workable in practice, including records, translation, consular, and regularization work. Hero image for the Visa page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visa Visa research becomes much easier once the purpose of entry is separated from later residence planning and consular strategy. Immigrate to Brazil consultation hero image for structured immigration planning. Start planning from Mauritania Use consultation when your move from Mauritania to Brazil depends on real documents, deadlines, family history, company structure, or route comparison.
+### Related Links
+- H2: Related pages
+- H3: Visas
+- H3: Residencies
+- H3: Naturalisation
+- H3: Other
+- H3: Visa
+- H3: Start planning from Mauritania
+- Related pages
+- Visas
+- Attorney-led Brazil visa services by Monique Fernandes for consular preparation, entry planning, category fit, and document strategy before you move to Brazil.
+- Residencies
+- Brazil residency services by Monique Fernandes for lawful long-term stay, residence permits, registration, renewals, compliance, and life planning in Brazil.
+- Naturalisation
+- Use this hub when the question is no longer only about staying in Brazil, but about citizenship, continuity, records, and long-term legal position.
+- Other
+- Use this hub for supporting services that often make the main immigration path workable in practice, including records, translation, consular, and regularization work.
+- Visa
+- Visa research becomes much easier once the purpose of entry is separated from later residence planning and consular strategy.
+- Start planning from Mauritania
+- Use consultation when your move from Mauritania to Brazil depends on real documents, deadlines, family history, company structure, or route comparison.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Structured immigration planning with Immigrate to Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If you are moving from Mauritania to Brazil, the next step is to compare the route against your real documents, timing, family structure, or company plan before you commit to filing or travel.
-- Immigrate to Brazil logo for consultation booking and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If you are moving from Mauritania to Brazil, the next step is to compare the route against your real documents, timing, family structure, or company plan before you commit to filing or travel.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for consultation booking and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiccountries / mauritania
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -444,40 +597,44 @@ File: `countries/mauritania/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -490,6 +647,7 @@ File: `countries/mauritania/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -507,10 +665,11 @@ File: `countries/mauritania/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -527,6 +686,7 @@ File: `countries/mauritania/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -542,6 +702,7 @@ File: `countries/mauritania/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -554,6 +715,7 @@ File: `countries/mauritania/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -568,7 +730,7 @@ File: `countries/mauritania/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -644,26 +806,15 @@ File: `countries/mauritania/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -687,7 +838,6 @@ File: `countries/mauritania/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -858,7 +1008,8 @@ File: `countries/mauritania/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -870,21 +1021,19 @@ File: `countries/mauritania/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

@@ -7,29 +7,83 @@ File: `process/consultation/index.html`
 - Browser title: Consultation With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Consultation
+- H2: Purpose
+- H2: Who
+- H2: Timing
+- H2: Format
+- H2: Scope
+- H2: Clarity
+- H2: Outcomes
+- H2: Value
+- H2: Expectations
+- H2: Next Steps
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Filing
+- H3: Fees
+- H3: Mistakes
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/consultation/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/consultation/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/consultation/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/consultation/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/consultation/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/consultation/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/consultation/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/consultation/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/consultation/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/consultation/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/consultation/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Consultation
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Consultation page showing Fortaleza Beira Mar in Brazil.
+- H1: Consultation
 - PROCESS
 - Immigrate to Brazil
-- H1: Consultation
+- Consultation
 - Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
-- Page highlights
-- Process Hub Assessment Filing Fees Mistakes
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Consultation With Monique Fernandes For Immigration To Brazil page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Assessment
+- Filing
+- Fees
+- Mistakes
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Purpose
 - Monique uses consultation to turn uncertainty into a usable legal question.
 - Who
 - This stage is usually right for people who need more than general reading but are not yet ready to file blindly.
 - Timing
 - Good consultation usually happens before pressure becomes a problem.
+- Fortaleza Beira Mar in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Consultation With Monique Fernandes For Immigration To Brazil page, Brazil immigration, relocation, and consultation support
 
 ### Purpose
-- Cinematic background of Fortaleza and the Beira Mar coastline in Brazil for the Purpose section on the Consultation page.
 - H2: Purpose
+- Purpose
 - Monique uses consultation to turn uncertainty into a usable legal question. Many clients arrive knowing the result they want, but not the route, sequence, or evidence that should support it.
 - The consultation stage is usually meant to clarify:
 - what the client is actually trying to achieve in Brazil
@@ -301,11 +374,12 @@ File: `process/consultation/index.html`
 - what the main timing or document issues are
 - whether the matter should move forward now, later, or differently
 - The value of consultation is not that it promises an outcome. The value is that it improves the quality of the next decision.
+- Fortaleza and the Beira Mar coastline in Brazil.
 
 ### Who
-- Cinematic background of Ipanema beach with Dois Irmaos in the background in Brazil for the Who section on the Consultation page.
-- Section 02
 - H2: Who
+- Section 02
+- Who
 - This stage is usually right for people who need more than general reading but are not yet ready to file blindly. Monique often sees this need in families, founders, digital nomads, couples, regularization cases, and clients abroad preparing a move to Brazil.
 - Consultation is especially useful when:
 - more than one route may fit
@@ -313,11 +387,12 @@ File: `process/consultation/index.html`
 - the process feels urgent but the next step is still unclear
 - online information has created more confusion than confidence
 - Monique keeps the conversation practical so the client leaves with direction instead of more noise.
+- Ipanema beach with Dois Irmaos in the background in Brazil.
 
 ### Timing
-- Cinematic background of the wide natural landscape of Iguazu Falls on the Brazilian side in Brazil for the Timing section on the Consultation page.
-- Section 03
 - H2: Timing
+- Section 03
+- Timing
 - Good consultation usually happens before pressure becomes a problem. It is much easier for Monique to help when there is still room to choose the best sequence, gather better documents, and avoid deadline panic.
 - Timing matters most when the client is:
 - about to travel, relocate, or commit to a route
@@ -325,11 +400,12 @@ File: `process/consultation/index.html`
 - dealing with a route change, family change, or business decision
 - trying to fix something that already started badly
 - Early consultation does not slow the process down. It usually prevents rushed action that creates more work later.
+- the wide natural landscape of Iguazu Falls on the Brazilian side in Brazil.
 
 ### Format
-- Cinematic background of the Madeira riverfront in Porto Velho in Brazil for the Format section on the Consultation page.
-- Section 04
 - H2: Format
+- Section 04
+- Format
 - Monique runs consultation as an organized review, not a vague conversation. The client brings goals, facts, chronology, and any key records that help define the real issue.
 - The consultation format is designed to cover:
 - the client's present status and objective
@@ -337,11 +413,12 @@ File: `process/consultation/index.html`
 - the documents or evidence that already exist
 - the next step that should follow the conversation
 - Because Monique serves clients remotely across Brazil and abroad, the process is built to work clearly in English or Portuguese without requiring an in-person meeting.
+- the Madeira riverfront in Porto Velho in Brazil.
 
 ### Scope
-- Cinematic background of the architecture and streets of Aguas Emendadas ecological station in Brazil for the Scope section on the Consultation page.
-- Section 05
 - H2: Scope
+- Section 05
+- Scope
 - Consultation has a clear scope so clients understand what this stage does and does not do. Monique uses it to analyze direction and next steps, not to treat one meeting as full representation of the entire case.
 - Clear scope helps separate:
 - orientation from execution
@@ -349,11 +426,12 @@ File: `process/consultation/index.html`
 - practical questions from full legal handling
 - public information from personalized legal judgment
 - That boundary protects the client because it makes the purpose of the stage easier to trust.
+- the architecture and streets of Aguas Emendadas ecological station in Brazil.
 
 ### Clarity
-- Cinematic background of the riverfront landscapes of Marajo Island in Brazil for the Clarity section on the Consultation page.
-- Section 06
 - H2: Clarity
+- Section 06
+- Clarity
 - Clarity is one of the main results Monique aims to create in consultation. Once the facts are read in order, the route question usually becomes narrower and more manageable.
 - By the end of a strong consultation, clients usually understand:
 - which route appears strongest at this stage
@@ -361,11 +439,12 @@ File: `process/consultation/index.html`
 - where the main legal or practical risks are
 - what expectation is realistic and what expectation needs correction
 - That kind of clarity is often the point where stress starts to fall and planning becomes possible.
+- the riverfront landscapes of Marajo Island in Brazil.
 
 ### Outcomes
-- Cinematic background of the skyline and waterfront of Balneario Camboriu in Brazil for the Outcomes section on the Consultation page.
-- Section 07
 - H2: Outcomes
+- Section 07
+- Outcomes
 - The outcome of consultation is better direction, not a guaranteed government result. Monique focuses on making the file, the route logic, and the next move more coherent before the client spends more time or money.
 - Useful outcomes often include:
 - a more defensible route choice
@@ -373,11 +452,12 @@ File: `process/consultation/index.html`
 - a clearer decision about whether to proceed, wait, convert, or correct
 - a more confident understanding of what full legal support may be needed
 - Even when the conclusion is to slow down, that can still be a strong and protective result.
+- the skyline and waterfront of Balneario Camboriu in Brazil.
 
 ### Value
-- Cinematic background of the shoreline of Arraial d'Ajuda coastline in warm evening light in Brazil for the Value section on the Consultation page.
-- Section 08
 - H2: Value
+- Section 08
+- Value
 - Consultation adds value because it reduces the cost of guessing. Immigration to Brazil is easier to manage when the client knows what the process is really asking for before they start acting on assumptions.
 - Clients usually feel the value of consultation in:
 - fewer avoidable mistakes
@@ -385,11 +465,12 @@ File: `process/consultation/index.html`
 - better preparation for later stages
 - a calmer understanding of what Monique can do for them
 - Monique treats this stage as part of case quality, not as a formality.
+- the shoreline of Arraial d'Ajuda coastline in warm evening light in Brazil.
 
 ### Expectations
-- Cinematic background of the wide coastline and water of Baia do Sancho in Fernando de Noronha in Brazil for the Expectations section on the Consultation page.
-- Section 09
 - H2: Expectations
+- Section 09
+- Expectations
 - Monique is careful about expectations from the beginning. Consultation can improve route choice and preparation, but it cannot promise approval, shorten every government delay, or solve missing facts that do not yet exist.
 - Healthy expectations at this stage include:
 - honest route analysis instead of sales language
@@ -397,11 +478,12 @@ File: `process/consultation/index.html`
 - recognition that strong preparation helps but does not guarantee a result
 - clarity about whether more legal work will be needed after consultation
 - That honesty is part of what makes Monique's process suitable for serious immigration planning.
+- the wide coastline and water of Baia do Sancho in Fernando de Noronha in Brazil.
 
 ### Next Steps
-- Cinematic background of the mountain town of Campos do Jordao in Brazil for the Next Steps section on the Consultation page.
-- Section 10
 - H2: Next Steps
+- Section 10
+- Next Steps
 - After consultation, the next step should feel clearer than it did before. Monique usually points the client toward assessment, filing preparation, conversion strategy, compliance work, or a pause while better records are collected.
 - Common next steps after consultation include:
 - gathering the documents that now clearly matter
@@ -409,53 +491,94 @@ File: `process/consultation/index.html`
 - preparing a filing with better sequence
 - deciding not to move yet because the route is not ready
 - The right next step is the one that makes the case stronger, not the one that simply creates motion.
+- the mountain town of Campos do Jordao in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Purpose Who Timing Format Scope Clarity Outcomes Value Expectations Next Steps
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Purpose
+- Who
+- Timing
+- Format
+- Scope
+- Clarity
+- Outcomes
+- Value
+- Expectations
+- Next Steps
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Book a consultation with Monique Fernandes when your immigration question for Brazil now depends on your own facts, documents, timing, or route options rather than general website reading.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Assessment page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Assessment Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions. Hero image for the Filing page showing the Porto Alegre skyline in southern Brazil. Filing Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses. Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil. Fees Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes. Hero image for the Mistakes page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Mistakes Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Assessment
+- H3: Filing
+- H3: Fees
+- H3: Mistakes
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Assessment
+- Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.
+- Filing
+- Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.
+- Fees
+- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Mistakes
+- Monique Fernandes helps clients avoid the most common immigration mistakes in Brazil by improving route choice, timing, document discipline, and process sequence before small errors grow into bigger problems.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Book a consultation with Monique Fernandes when your immigration question for Brazil now depends on your own facts, documents, timing, or route options rather than general website reading.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Book a consultation with Monique Fernandes when your immigration question for Brazil now depends on your own facts, documents, timing, or route options rather than general website reading.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / consultation
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +587,44 @@ File: `process/consultation/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +637,7 @@ File: `process/consultation/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +655,11 @@ File: `process/consultation/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +676,7 @@ File: `process/consultation/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +692,7 @@ File: `process/consultation/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +705,7 @@ File: `process/consultation/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +720,7 @@ File: `process/consultation/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +796,15 @@ File: `process/consultation/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +828,6 @@ File: `process/consultation/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +998,8 @@ File: `process/consultation/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1011,19 @@ File: `process/consultation/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

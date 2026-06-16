@@ -32,7 +32,7 @@
   const pageMapLocale = {
     en: {
       title: "Quick navigation",
-      strap: "Move directly to the question that matters."
+      strap: "Go directly to the section that matters most."
     },
     pt: {
       title: "Navegacao rapida",
@@ -187,9 +187,9 @@
         "Attorney-led Brazil immigration insights, major legal updates, and calmer next-step notes for people seriously considering Brazil.",
       inlineChips: ["Email updates", "Attorney-led", "Premium guidance"],
       inlinePoints: [
-        "Useful updates when rules, routes, or planning conditions actually matter.",
+        "Useful updates when rules, immigration options, or planning conditions actually matter.",
         "A calmer email stream for readers comparing visas, residency, naturalisation, and relocation.",
-        "A direct handoff to Nina whenever you want faster route guidance before booking."
+        "A direct handoff to Nina whenever you want faster guidance before booking."
       ],
       cards: [
         {
@@ -200,13 +200,13 @@
         {
           icon: "chat",
           title: "Need an answer sooner?",
-          body: "Nina can point you toward the best route family or page before you leave the site."
+          body: "Nina can point you toward the service area or guide that best fits your situation."
         }
       ],
       modalEyebrow: "Before you go",
       modalTitle: "Take the Brazil move brief with you",
       modalSummary:
-        "Leave with one better next step: get the premium email briefing or ask Nina what route to explore first.",
+        "Leave with one clearer next step: get the premium email briefing or ask Nina which option to review first.",
       modalChips: ["Brazil brief", "Nina concierge", "No spam flood"],
       modalPoints: [
         "Useful Brazil updates instead of generic marketing blasts.",
@@ -216,9 +216,9 @@
       modalDismiss: "Continue reading",
       formIntroInline: "Get updates by email",
       formIntroModal: "Send me the briefing",
-      formCopy: "Useful updates only. No clutter, no panic, and no endless drip campaign.",
+      formCopy: "Useful updates only, without clutter or pressure.",
       nameLabel: "Name (optional)",
-      namePlaceholder: "How should we call you?",
+      namePlaceholder: "What name should we use?",
       emailLabel: "Email",
       emailPlaceholder: "you@domain.com",
       submitInline: "Join the briefing",
@@ -1714,7 +1714,7 @@
     }
 
     function buildConsultLabel(label) {
-      return isPt ? `Agendar consulta sobre ${label}` : `Discuss ${label}`;
+      return isPt ? `Agendar consulta sobre ${label}` : `Discuss ${label} with Monique`;
     }
 
     let directoryData;
@@ -1726,7 +1726,7 @@
     }
 
     const families = directoryData.families || {};
-    const exploreLabel = directoryData.exploreLabel || "Explore service";
+    const exploreLabel = directoryData.exploreLabel || "Explore this service";
     const consultLabel = directoryData.consultLabel || "Book consultation";
 
     Object.entries(families).forEach(([familyKey, family]) => {
@@ -1751,7 +1751,7 @@
               service.imageSrc || `/assets/images/services/all/${escapeHtml(familyKey)}/${escapeHtml(slug)}.jpg`;
             const imageAlt =
               service.imageAlt ||
-              `${label} service image for Brazilian immigration legal support and strategic planning.`;
+              `${label} guidance connected to Brazilian immigration legal support and strategic planning.`;
             const imageWidth = Number.isFinite(service.imageWidth) ? service.imageWidth : 1200;
             const imageHeight = Number.isFinite(service.imageHeight) ? service.imageHeight : 800;
             const iconSrc = service.iconSrc || `/assets/icons/services/all/${escapeHtml(slug)}.svg`;

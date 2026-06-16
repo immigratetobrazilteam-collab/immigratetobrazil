@@ -7,29 +7,84 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Browser title: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil \| March 20, 2025 \| Archive March 9, 2026 \| Brazil Update \| Immigrate to Brazil
 - Meta description: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil: Archive record: March 9...
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
+- H2: Overview
+- H2: Practical takeaways
+- H3: Takeaway 1
+- H3: Takeaway 2
+- H3: Takeaway 3
+- H2: Related reading on this site
+- H3: How can I keep in touch with my child located in Brazil if I don't live there?
+- H2: Approved Client Reviews
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: How can I keep in touch with my child located in Brazil if I don't live there?
+- H3: Brazilian Migration Law
+- H3: Migration Regulation Decree
+- H2: Related pages
+- H3: Updates
+- H3: Compliance
+- H3: Countries
+- H3: FYI
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +95,26 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +138,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +157,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +166,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +174,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +192,17 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +217,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +227,14 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +293,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +311,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,34 +332,46 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Insights
 - Updates
 - If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
+- Breadcrumb
 
 ### Page Hero
-- If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
+- H1: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
 - INSIGHTS
 - Immigrate to Brazil Updates
-- H1: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
+- If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil
 - If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral expenses or transportation of the body to Brazil: Archive record: March 9...
-- Page highlights
-- Updates Hub Compliance Countries FYI Consultation
+- Updates Hub
+- Compliance
+- Countries
+- FYI
+- Consultation
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the RNM and Resident Card Planning in Brazil \| March 20, 2025 page Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
 - This article has been reviewed for Immigrate to Brazil so the guidance stays aligned with Brazil immigration planning, legal context, and practical next steps.
 - Archive focus
 - Updates archive migration
 - Rewritten for the new domain
 - Source date: March 20, 2025
-- Archive family Updates
-- Reading use Expanded Brazil-news posts now rewritten as immigration updates for Immigrate to Brazil, giving time-sensitive changes clearer practical meaning.
-- Best next step Move from public reading to consultation when the issue becomes document-specific.
+- Archive family
+- Updates
+- Reading use
+- Expanded Brazil-news posts now rewritten as immigration updates for Immigrate to Brazil, giving time-sensitive changes clearer practical meaning.
+- Best next step
+- Move from public reading to consultation when the issue becomes document-specific.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the RNM and Resident Card Planning in Brazil \| March 20, 2025 page
 
 ### Overview
 - H2: Overview
+- Overview
 - This page brings earlier update reporting into calmer context so readers can separate the actual change from the surrounding noise. In practical terms, this page is about registration, resident-card, and migrant-ID obligations in Brazil.
 - Update pages are strongest when they identify who is actually affected, what remains unchanged, and whether the change alters a real next step.
 - Publication context: March 20, 2025.
@@ -299,21 +379,27 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 ### Practical Takeaways
 - H2: Practical takeaways
 - H3: Takeaway 1
-- Verify the publication date and official source before changing your plan.
 - H3: Takeaway 2
-- Identify which stage, route family, or authority is actually affected.
 - H3: Takeaway 3
+- Practical takeaways
+- Takeaway 1
+- Verify the publication date and official source before changing your plan.
+- Takeaway 2
+- Identify which stage, route family, or authority is actually affected.
+- Takeaway 3
 - Escalate to consultation when the update changes your deadlines, evidence, or filing sequence.
 
 ### Related Reading
 - H2: Related reading on this site
-- How can I keep in touch with my child located in Brazil if I don't live there?
 - H3: How can I keep in touch with my child located in Brazil if I don't live there?
+- Related reading on this site
+- How can I keep in touch with my child located in Brazil if I don't live there?
 - How can I keep in touch with my child located in Brazil if I don't live there? Reach out to find out about
 - Read article
 
 ### Testimonials
 - H2: Approved Client Reviews
+- Approved Client Reviews
 - Selected public reviews describing the clarity, responsiveness, and professionalism clients experienced while working with Monique Fernandes.
 - "Monique handled my case with exceptional care and clarity. She explained every step, stayed responsive, and delivered results beyond my expectations."
 - Ash Lyn
@@ -330,68 +416,98 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
 - Overview
+- Practical Takeaways
+- Related Reading
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - This article has been reviewed for Immigrate to Brazil so the guidance stays aligned with Brazil immigration planning, legal context, and practical next steps.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If the update changes your real timing, filings, or evidence now affects your own case, the next step is to review the issue against your chronology, supporting documents, and long-term objective before you act.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, documents, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: How can I keep in touch with my child located in Brazil if I don't live there?
-- How can I keep in touch with my child located in Brazil if I don't live there? Reach out to find out about
-- H3: assuntos / imigracao
-- Primary source connected to rnm and resident card planning in brazil \| march 20, 2025.
 - H3: Brazilian Migration Law
-- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
 - H3: Migration Regulation Decree
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- How can I keep in touch with my child located in Brazil if I don't live there?
+- How can I keep in touch with my child located in Brazil if I don't live there? Reach out to find out about
+- Primary source connected to rnm and resident card planning in brazil \| march 20, 2025.
+- Brazilian Migration Law
+- Primary statutory framework for migration, admission, residence, rights, and duties in Brazil.
+- Migration Regulation Decree
 - Regulatory decree used to interpret migration procedures, authorities, and administrative logic.
-- H3: Policia Federal - Imigracao
 - Federal Police portal for registration, migration documentation, and post-arrival obligations.
-- H3: Portal Consular - Ministerio das Relacoes Exteriores
 - Official consular portal with entry, visa, and consular reference information.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for immigration updates showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Updates Read updates with more calm and context so smaller changes are translated into practical immigration meaning instead of speculation. Hero image for the Compliance page showing the Porto Alegre skyline in southern Brazil. Compliance Compliance advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at... Hero image for country planning pages showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Countries Country-specific planning pages for people moving to Brazil from specific jurisdictions, with a stronger focus on documents, route comparison, and relocation sequencing. Hero image for immigration updates showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. FYI Short-form immigration notes, travel updates, and practical move-to-Brazil context collected under the new brand. Immigrate to Brazil consultation hero image for structured immigration planning. Start Consultation Structured intake for route analysis, chronology review, and immigration planning in Brazil.
+### Related Links
+- H2: Related pages
+- H3: Updates
+- H3: Compliance
+- H3: Countries
+- H3: FYI
+- H3: Start Consultation
+- Related pages
+- Updates
+- Read updates with more calm and context so smaller changes are translated into practical immigration meaning instead of speculation.
+- Compliance
+- Compliance advisory is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at...
+- Countries
+- Country-specific planning pages for people moving to Brazil from specific jurisdictions, with a stronger focus on documents, route comparison, and relocation sequencing.
+- FYI
+- Short-form immigration notes, travel updates, and practical move-to-Brazil context collected under the new brand.
+- Start Consultation
+- Structured intake for route analysis, chronology review, and immigration planning in Brazil.
+- Immigration updates with Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Structured immigration planning with Immigrate to Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If the update changes your real timing, filings, or evidence now affects your own case, the next step is to review the issue against your chronology, supporting documents, and long-term objective before you act.
-- Immigrate to Brazil logo for consultation booking and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If the update changes your real timing, filings, or evidence now affects your own case, the next step is to review the issue against your chronology, supporting documents, and long-term objective before you act.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for consultation booking and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicinsights / updates / 2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazilian-government-does-not-c
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -400,40 +516,44 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -446,6 +566,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -463,10 +584,11 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -483,6 +605,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -498,6 +621,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -510,6 +634,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -524,7 +649,7 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -600,26 +725,15 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -643,7 +757,6 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -814,7 +927,8 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -826,21 +940,19 @@ File: `insights/updates/2026-03-09-if-a-brazilian-citizen-dies-abroad-the-brazil
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

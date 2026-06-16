@@ -7,29 +7,82 @@ File: `insights/updates/index.html`
 - Browser title: Updates \| Immigration Insights \| Immigrate to Brazil
 - Meta description: Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Brazil Immigration Updates Explained Calmly
+- H2: Overview
+- H2: What Changes
+- H2: Legal And Administrative Updates
+- H2: Authority Practice
+- H2: Why Updates Matter
+- H2: Instability
+- H2: How We Explain Them
+- H2: No Panic
+- H2: Current Versus Archived Reading
+- H2: Next Step
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Insights
+- H3: Blog
+- H3: General
+- H3: Brazil Immigration Process
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +93,26 @@ File: `insights/updates/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +136,7 @@ File: `insights/updates/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +155,7 @@ File: `insights/updates/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +164,7 @@ File: `insights/updates/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +172,7 @@ File: `insights/updates/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +190,17 @@ File: `insights/updates/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +215,7 @@ File: `insights/updates/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +225,14 @@ File: `insights/updates/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +291,7 @@ File: `insights/updates/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +309,7 @@ File: `insights/updates/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +330,43 @@ File: `insights/updates/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Insights
 - Updates
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Updates page showing Serra da Canastra in Brazil.
+- H1: Brazil Immigration Updates Explained Calmly
 - INSIGHTS
 - Immigrate to Brazil
-- H1: Brazil Immigration Updates Explained Calmly
+- Brazil Immigration Updates Explained Calmly
 - Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.
-- Page highlights
-- Insights Hub Blog General Process Consultation
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Brazil Immigration Updates Explained Calmly page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Insights Hub
 - Blog
+- General
+- Process
+- Consultation
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Updates deserve calm reading.
 - What Changes
 - A useful update article begins by distinguishing the core change from the surrounding noise.
 - Legal And Administrative Updates
 - Legal updates and administrative updates are related, but they are not the same.
+- Serra da Canastra in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Brazil Immigration Updates Explained Calmly page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the valleys and waterfalls of Serra da Canastra in Brazil for the Overview section on the Updates page.
 - H2: Overview
+- Overview
 - Updates deserve calm reading. People often assume that every legal or administrative change immediately transforms their own case, but that is rarely true. Some updates are structural. Some are narrow. Some affect one route family more than another. Some change public wording without changing the practical result as much as readers fear.
 - That is why our updates page focuses on:
 - what changed in formal terms
@@ -301,11 +374,12 @@ File: `insights/updates/index.html`
 - what remains the same
 - when a personal review becomes more useful than more speculation
 - Our job in public content is to help readers interpret change without amplifying confusion.
+- the valleys and waterfalls of Serra da Canastra in Brazil.
 
 ### What Changes
-- Cinematic background of the red cliffs and beach of Canoa Quebrada in Brazil for the What Changes section on the Updates page.
-- Section 02
 - H2: What Changes
+- Section 02
+- What Changes
 - A useful update article begins by distinguishing the core change from the surrounding noise. Sometimes the change is a legal text. Sometimes it is a procedural adjustment. Sometimes it is an authority practice shift. The article is stronger when that difference is clear from the beginning.
 - Readers usually need to know:
 - whether the change is legal, administrative, or practical
@@ -313,23 +387,23 @@ File: `insights/updates/index.html`
 - whether it creates a new opportunity, a new limit, or simply new wording
 - how quickly the change is likely to matter in real files
 - That first distinction often does more to calm people than any reassurance could.
+- the red cliffs and beach of Canoa Quebrada in Brazil.
 
 ### Legal And Administrative Updates
-- Cinematic background of Farol da Barra and the seafront of Salvador in Brazil for the Legal And Administrative Updates section on the Updates page.
-- Section 03
 - H2: Legal And Administrative Updates
+- Section 03
+- Legal And Administrative Updates
 - Legal updates and administrative updates are related, but they are not the same. A law or decree creates one level of change. Administrative interpretation, practice, portals, forms, or scheduling behavior can create another. Good update reading keeps both layers visible.
 - Official anchors matter here, especially:
 - Brazilian Migration Law
 - Migration Regulation Decree
-- Ministerio da Justica e Seguranca Publica
-- Policia Federal - Imigracao
 - This is one of the reasons we avoid dramatic language around updates. Readers usually need interpretation, not panic.
+- Farol da Barra and the seafront of Salvador in Brazil.
 
 ### Authority Practice
-- Cinematic background of the coast of Sao Miguel dos Milagres in Brazil for the Authority Practice section on the Updates page.
-- Section 04
 - H2: Authority Practice
+- Section 04
+- Authority Practice
 - Authority practice can change how a file feels even when the formal law has not shifted much at all. That may involve documentation habits, appointment expectations, how certain evidence is read in practice, or the rhythm of a specific public body.
 - A careful update reading usually asks:
 - which authority is actually affected
@@ -337,11 +411,12 @@ File: `insights/updates/index.html`
 - whether the change affects first-time filings, renewals, or both
 - how much of the change can be confirmed publicly and how much remains practical observation
 - That level of care helps readers avoid overreacting to partial information.
+- the coast of Sao Miguel dos Milagres in Brazil.
 
 ### Why Updates Matter
-- Cinematic background of the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil for the Why Updates Matter section on the Updates page.
-- Section 05
 - H2: Why Updates Matter
+- Section 05
+- Why Updates Matter
 - Updates matter because sequence matters. When a person is planning a move, gathering documents, or deciding between routes, even a narrow procedural change can affect timing or strategy. But good update reading also prevents overcorrection. Not every update requires a complete rethink.
 - Updates become especially relevant when:
 - a filing or appointment is close
@@ -349,11 +424,12 @@ File: `insights/updates/index.html`
 - documents are being prepared and the evidentiary standard may have shifted
 - the person is relying on older online content without checking whether it is still current
 - That is why we treat update interpretation as part of decision quality, not just content production.
+- the wide coastline and water of Rio de Janeiro skyline from Sugarloaf Mountain in Brazil.
 
 ### Instability
-- Cinematic background of the sunrise landscape of Serra da Canastra in Brazil for the Instability section on the Updates page.
-- Section 06
 - H2: Instability
+- Section 06
+- Instability
 - The feeling of instability often comes less from the update itself and more from how readers encounter it. One message says everything changed. Another says nothing changed. A third cites an old rule. Good content has to make room for that emotional reality while still bringing the topic back to evidence.
 - A steadier response usually comes from:
 - reading the update against the official source instead of a secondhand summary alone
@@ -361,11 +437,12 @@ File: `insights/updates/index.html`
 - remembering that a change in one stage does not necessarily change the whole journey
 - moving to case-specific review if the update truly affects your next action
 - Calm is part of process quality. It helps people think more clearly under change.
+- the sunrise landscape of Serra da Canastra in Brazil.
 
 ### How We Explain Them
-- Cinematic background of the waterfront and skyline of Aguas Emendadas ecological station in Brazil for the How We Explain Them section on the Updates page.
-- Section 07
 - H2: How We Explain Them
+- Section 07
+- How We Explain Them
 - We explain updates by separating text, practice, effect, and next-step relevance. That means showing readers what changed formally, what may change practically, who should care most, and where the update still needs to be read in context rather than isolation.
 - Our approach is usually to explain:
 - the official basis of the update
@@ -373,11 +450,12 @@ File: `insights/updates/index.html`
 - the boundaries of what public content can conclude
 - the point at which a private review becomes the safer next move
 - This keeps the update useful instead of merely urgent-sounding.
+- the waterfront and skyline of Aguas Emendadas ecological station in Brazil.
 
 ### No Panic
-- Cinematic background of the shoreline of Arraial d'Ajuda coastline in warm evening light in Brazil for the No Panic section on the Updates page.
-- Section 08
 - H2: No Panic
+- Section 08
+- No Panic
 - No panic does not mean no action. It means proportionate action. Many readers need permission to slow down, verify the source, and ask the narrower question before they restructure an entire plan around one headline.
 - A disciplined response is usually to:
 - identify the exact part of the process the update touches
@@ -385,11 +463,12 @@ File: `insights/updates/index.html`
 - avoid assuming universal effect from one narrow change
 - seek guidance if the update directly affects a pending personal decision
 - That is the tone we want this page to set: calm, serious, and structured.
+- the shoreline of Arraial d'Ajuda coastline in warm evening light in Brazil.
 
 ### Current Versus Archived Reading
-- Cinematic background of the sunrise landscape of Botanical Garden of Curitiba in Brazil for the Current Versus Archived Reading section on the Updates page.
-- Section 09
 - H2: Current Versus Archived Reading
+- Section 09
+- Current Versus Archived Reading
 - Archived content still has value, but only if it is read as context rather than as current instruction. Brazil immigration reading improves when readers learn to notice dates, source authority, and whether an older explanation has been overtaken by later law, practice, or procedure.
 - When comparing older and newer material, check:
 - the publication date
@@ -397,11 +476,12 @@ File: `insights/updates/index.html`
 - whether the issue is legal, administrative, or practical
 - whether the older content is still useful for context even if not for present action
 - That habit alone can save readers from a surprising amount of confusion.
+- the sunrise landscape of Botanical Garden of Curitiba in Brazil.
 
 ### Next Step
-- Cinematic background of the forests and waters of Amazon river basin in Brazil for the Next Step section on the Updates page.
-- Section 10
 - H2: Next Step
+- Section 10
+- Next Step
 - If an update has made your situation feel more urgent, the next step is not automatically to act faster. The next step is to act more clearly. Sometimes that means reading the official source more carefully. Sometimes it means comparing one more relevant page. Sometimes it means moving to consultation because the update now touches your own case directly.
 - Structured next steps usually include:
 - verifying the official source
@@ -409,53 +489,91 @@ File: `insights/updates/index.html`
 - avoiding broad assumptions based on partial summaries
 - booking case-specific guidance if the update now changes your own timing or documentation decisions
 - That is the standard we aim for: useful interpretation that leads to better judgment rather than faster anxiety.
+- the forests and waters of Amazon river basin in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Changes Legal And Administrative Authority Practice Updates Matter Instability We Explain Them No Panic Current Versus Archived Next Step
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- What Changes
+- Legal And Administrative Updates
+- Authority Practice
+- Why Updates Matter
+- Instability
+- How We Explain Them
+- No Panic
+- Current Versus Archived Reading
+- Next Step
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention. Immigration Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Supporting immigrants. Promoting Brazil.
+- Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention. Monique Fernandes connects this topic to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. Insights Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling. Hero image for the Blog page showing Teatro Amazonas in Manaus in northern Brazil. Blog Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing. Hero image for the General page showing the Sao Paulo skyline in southeast Brazil. General Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Insights
+- H3: Blog
+- H3: General
+- H3: Brazil Immigration Process
+- H3: Start Consultation
+- Related pages
+- Insights
+- Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.
+- Blog
+- Our blog is where public commentary stays useful over time. It is designed to help readers think more clearly about Brazil, relocation, immigration, and common planning questions without drifting into panic, noise, or empty marketing.
+- General
+- Start here if you want a clearer understanding of how Brazil immigration is structured before comparing routes, documents, or next steps. The goal is to replace scattered reading with vocabulary that actually supports better decisions.
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- the Sao Paulo skyline in southeast Brazil.
+- Teatro Amazonas in Manaus in northern Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
-- Immigrate to Brazil logo for the Brazil Immigration Updates Explained Calmly page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If this article has made the issue clearer, the next step is to decide whether you still need public reading or whether the question now depends on your own records, timing, or route comparison. When it does, consultation becomes the safer next move.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Brazil Immigration Updates Explained Calmly page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicinsights / updates
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +582,44 @@ File: `insights/updates/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +632,7 @@ File: `insights/updates/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +650,11 @@ File: `insights/updates/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +671,7 @@ File: `insights/updates/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +687,7 @@ File: `insights/updates/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +700,7 @@ File: `insights/updates/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +715,7 @@ File: `insights/updates/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +791,15 @@ File: `insights/updates/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +823,6 @@ File: `insights/updates/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +993,8 @@ File: `insights/updates/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1006,19 @@ File: `insights/updates/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

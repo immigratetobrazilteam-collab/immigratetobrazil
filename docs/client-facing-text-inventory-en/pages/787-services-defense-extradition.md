@@ -7,29 +7,85 @@ File: `services/defense/extradition/index.html`
 - Browser title: Extradition \| Brazil Immigration Services \| Immigrate to Brazil
 - Meta description: Monique Fernandes helps clients and families dealing with extradition-related immigration or cross-border legal issues understand what her extradition service can do, whether it is the right fit, and what the next step may be in Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Extradition
+- H2: Overview
+- H2: Who This Service Is Usually For
+- H2: What This Service Is Meant To Cover
+- H2: When Urgency Is Real
+- H2: Preparation and Case Review
+- H2: Common Mistakes in Sensitive Cases
+- H2: How Monique Prepares and Handles the Case
+- H2: Cross-Border and Language Considerations
+- H2: Legal Boundaries and Expectations
+- H2: When Consultation May Help with Extradition
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Lei de Migracao - Lei 13.445/2017
+- H3: Decreto 9.199/2017
+- H2: Related pages
+- H3: Services
+- H3: Defense
+- H3: Start Consultation
+- H3: Representation
+- H3: Failures
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +96,26 @@ File: `services/defense/extradition/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +139,7 @@ File: `services/defense/extradition/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +158,7 @@ File: `services/defense/extradition/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +167,7 @@ File: `services/defense/extradition/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +175,7 @@ File: `services/defense/extradition/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +193,17 @@ File: `services/defense/extradition/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +218,7 @@ File: `services/defense/extradition/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +228,14 @@ File: `services/defense/extradition/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +294,7 @@ File: `services/defense/extradition/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +312,7 @@ File: `services/defense/extradition/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,23 +333,28 @@ File: `services/defense/extradition/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Services
 - Defense
 - Extradition
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Extradition page showing Balneario Camboriu skyline at golden hour in Brazil.
+- H1: Extradition
 - SERVICES
 - Immigrate to Brazil
-- H1: Extradition
+- Extradition
 - Monique Fernandes helps clients and families dealing with extradition-related immigration or cross-border legal issues understand what her extradition service can do, whether it is the right fit, and what the next step may be in Brazil.
-- Page highlights
-- Services Hub Defense Hub Consultation Representation Process Failures
+- Services Hub
+- Defense Hub
+- Consultation
+- Representation
+- Process Failures
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Extradition Support For Sensitive Immigration Defense Matters page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients and families dealing with extradition-related immigration or cross-border legal issues understand what her extradition service can do, whether it is the right fit, and what the next step may be in Brazil. Her approach focuses on calmer judgment, stronger structure, and safer next steps in Brazil.
 - Why Attorney Monique Fernandes?
 - Immigration-focused legal guidance
@@ -295,10 +369,14 @@ File: `services/defense/extradition/index.html`
 - Monique usually helps clients and families dealing with extradition-related immigration or cross-border legal issues.
 - What Monique Helps Clarify
 - Her service focuses on legal fit, preparation, timing, risks, and realistic next steps in Brazil.
+- Balneario Camboriu skyline at golden hour in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Extradition Support For Sensitive Immigration Defense Matters page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the shoreline of Balneario Camboriu skyline in warm evening light in Brazil for the Overview section on the Extradition page.
 - H2: Overview
+- Overview
 - Monique Fernandes helps clients and families dealing with extradition-related immigration or cross-border legal issues understand what her extradition service can do, whether it is the right fit, and how it connects to the wider case in Brazil.
 - Her extradition service is designed to give clients more clarity about strategy, timing, preparation, and the practical next steps before they move forward.
 - Monique can also assist with:
@@ -309,10 +387,12 @@ File: `services/defense/extradition/index.html`
 - Rebuilding the case theory where possible
 - Connecting defense work to later regularization or planning
 - The goal is not only to solve one immediate issue. It is to make the next step more realistic, more organized, and better supported.
+- the shoreline of Balneario Camboriu skyline in warm evening light in Brazil.
 
 ### Section
-- Section 02
 - H2: Who This Service Is Usually For
+- Section 02
+- Who This Service Is Usually For
 - Monique usually helps:
 - Clients and families dealing with extradition-related immigration or cross-border legal issues.
 - Clients comparing this option with another possible route or service.
@@ -324,8 +404,9 @@ File: `services/defense/extradition/index.html`
 - Others contact Monique after receiving inconsistent advice, running into delays, or feeling that a previous attempt was handled without enough strategy.
 
 ### Section
-- Section 03
 - H2: What This Service Is Meant To Cover
+- Section 03
+- What This Service Is Meant To Cover
 - Extradition is designed for matters where the client needs clearer support around extradition-related immigration exposure and cross-border legal strategy connected to Brazil.
 - Monique helps clients understand:
 - What the service can realistically solve.
@@ -336,8 +417,9 @@ File: `services/defense/extradition/index.html`
 - This often gives clients a clearer picture of what is possible before they spend time or money on the wrong next step.
 
 ### Section
-- Section 04
 - H2: When Urgency Is Real
+- Section 04
+- When Urgency Is Real
 - Extradition matters often feel urgent before the client has a clear legal reading of what is really happening. Monique helps separate real urgency from noise so the case can be handled more carefully.
 - Urgency is usually real when:
 - There has already been contact with authorities or a formal development in the case.
@@ -347,8 +429,9 @@ File: `services/defense/extradition/index.html`
 - A calmer and more structured early response often protects the case far better than speed without strategy.
 
 ### Section
-- Section 05
 - H2: Preparation and Case Review
+- Section 05
+- Preparation and Case Review
 - Extradition matters become easier to manage when the legal position is reviewed carefully before the next response or authority contact.
 - Monique helps clients review:
 - The current level of exposure or urgency.
@@ -360,8 +443,9 @@ File: `services/defense/extradition/index.html`
 - This helps create a more organized matter before it reaches the next stage.
 
 ### Section
-- Section 06
 - H2: Common Mistakes in Sensitive Cases
+- Section 06
+- Common Mistakes in Sensitive Cases
 - Many problems in sensitive cases begin before the client realizes how exposed the matter has become.
 - Common issues include:
 - Waiting too long to get legal guidance.
@@ -373,8 +457,9 @@ File: `services/defense/extradition/index.html`
 - Monique helps clients identify these patterns early so they can avoid unnecessary delays, confusion, and pressure.
 
 ### Section
-- Section 07
 - H2: How Monique Prepares and Handles the Case
+- Section 07
+- How Monique Prepares and Handles the Case
 - Monique's approach is built around structure, preparation, and ongoing support.
 - She begins by reviewing:
 - The client's goals.
@@ -393,8 +478,9 @@ File: `services/defense/extradition/index.html`
 - Her goal is to make the process feel more organized, more realistic, and less stressful.
 
 ### Section
-- Section 08
 - H2: Cross-Border and Language Considerations
+- Section 08
+- Cross-Border and Language Considerations
 - Many extradition matters involve more than one country, more than one language, or more than one authority.
 - Clients may need help with:
 - Foreign-issued records or background information.
@@ -405,8 +491,9 @@ File: `services/defense/extradition/index.html`
 - Monique works in English and Portuguese so clients can understand the process more clearly while still respecting Brazilian legal standards.
 
 ### Section
-- Section 09
 - H2: Legal Boundaries and Expectations
+- Section 09
+- Legal Boundaries and Expectations
 - Monique believes clients should understand what legal support can improve and what remains outside anyone's control.
 - Her role is to help clients:
 - Understand the route or service more clearly.
@@ -417,8 +504,9 @@ File: `services/defense/extradition/index.html`
 - Final decisions still depend on Brazilian authorities, the facts of the case, and the quality of the support behind it.
 
 ### Section
-- Section 10
 - H2: When Consultation May Help with Extradition
+- Section 10
+- When Consultation May Help with Extradition
 - Extradition should be reviewed carefully before major decisions are made.
 - A consultation may be useful for:
 - Urgent review of the current exposure.
@@ -431,64 +519,92 @@ File: `services/defense/extradition/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview This Service Is This Service Is Urgency Is Real Preparation and Case Common Mistakes in Monique Prepares and Cross-Border and Language Legal Boundaries and Consultation May Help
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Section
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps clients and families dealing with extradition-related immigration or cross-border legal issues understand what her extradition service can do, whether it is the right fit, and what the next step may be in Brazil. Her approach focuses on calmer judgment, stronger structure, and safer next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If Monique's extradition service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Lei de Migracao - Lei 13.445/2017
-- Official public reference for lei de migracao - lei 13.445/2017.
 - H3: Decreto 9.199/2017
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Lei de Migracao - Lei 13.445/2017
+- Official public reference for lei de migracao - lei 13.445/2017.
+- Decreto 9.199/2017
 - Official public reference for decreto 9.199/2017.
-- H3: Policia Federal - Migracao
-- Official public reference for policia federal - migracao.
-- H3: Ministerio das Relacoes Exteriores
-- Official public reference for ministerio das relacoes exteriores.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Defense page showing the National Congress complex in Brasilia in central-west Brazil. Defense Use this hub when the matter is already sensitive, urgent, or exposed. Defense work is about stabilizing the situation, protecting chronology, and making sure the next move is careful rather than reactive. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Representation page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Representation Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order. Hero image for the Failures page showing the Sao Paulo skyline in southeast Brazil. Failures Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+### Related Links
+- H2: Related pages
+- H3: Services
+- H3: Defense
+- H3: Start Consultation
+- H3: Representation
+- H3: Failures
+- Related pages
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Defense
+- Use this hub when the matter is already sensitive, urgent, or exposed. Defense work is about stabilizing the situation, protecting chronology, and making sure the next move is careful rather than reactive.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Representation
+- Representation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+- Failures
+- Monique Fernandes helps clients understand refusals, stalled filings, damaging delays, and other process failures in Brazil immigration matters, then assess realistic recovery options with more structure.
+- an aerial view of the Amazon river basin in northern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If Monique's extradition service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Immigrate to Brazil logo for the Extradition Support For Sensitive Immigration Defense Matters page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If Monique's extradition service feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Extradition Support For Sensitive Immigration Defense Matters page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicservices / defense / extradition
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -497,40 +613,44 @@ File: `services/defense/extradition/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -543,6 +663,7 @@ File: `services/defense/extradition/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -560,10 +681,11 @@ File: `services/defense/extradition/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -580,6 +702,7 @@ File: `services/defense/extradition/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -595,6 +718,7 @@ File: `services/defense/extradition/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -607,6 +731,7 @@ File: `services/defense/extradition/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -621,7 +746,7 @@ File: `services/defense/extradition/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -697,26 +822,15 @@ File: `services/defense/extradition/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -740,7 +854,6 @@ File: `services/defense/extradition/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -911,7 +1024,8 @@ File: `services/defense/extradition/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -923,21 +1037,19 @@ File: `services/defense/extradition/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

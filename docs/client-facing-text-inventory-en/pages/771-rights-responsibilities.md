@@ -7,29 +7,84 @@ File: `rights/responsibilities/index.html`
 - Browser title: Responsibilities \| Brazil Immigration Process \| Immigrate to Brazil
 - Meta description: Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Responsibilities
+- H2: Overview
+- H2: Roles
+- H2: Client
+- H2: Provider
+- H2: Cooperation
+- H2: Accuracy
+- H2: Timing
+- H2: Communication
+- H2: Accountability
+- H2: Alignment
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Transparency
+- H3: Fees
+- H3: Refund
+- H3: Rights
+- H3: Start Consultation
+- H3: Services
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +95,26 @@ File: `rights/responsibilities/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +138,7 @@ File: `rights/responsibilities/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +157,7 @@ File: `rights/responsibilities/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +166,7 @@ File: `rights/responsibilities/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +174,7 @@ File: `rights/responsibilities/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +192,17 @@ File: `rights/responsibilities/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +217,7 @@ File: `rights/responsibilities/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +227,14 @@ File: `rights/responsibilities/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +293,7 @@ File: `rights/responsibilities/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +311,7 @@ File: `rights/responsibilities/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,35 +332,42 @@ File: `rights/responsibilities/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Responsibilities
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Responsibilities page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- H1: Responsibilities
 - PROCESS
 - Immigrate to Brazil
-- H1: Responsibilities
+- Responsibilities
 - Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself.
-- Page highlights
-- Process Hub Transparency Fees Refund Rights
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Responsibilities Shared Across Client, Provider, And Legal Process page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Transparency
+- Fees
+- Refund
+- Rights
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Responsibilities is not just a label inside the process.
 - Roles
 - Responsibilities stays stronger when responsibilities remain visible.
 - Client
-- Responsibilities stays stronger when responsibilities remain visible.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Responsibilities Shared Across Client, Provider, And Legal Process page, Brazil immigration, relocation, and consultation support
 
 ### Overview
 - H2: Overview
+- Overview
 - Responsibilities is not just a label inside the process. It is a real stage that affects timing, cost, documentation, expectation, and emotional pressure. Readers usually arrive here because something in the process has become concrete enough that broad reading is no longer enough.
 - When we explain responsibilities, we focus on how roles, cooperation, timing, and shared accountability behave in real matters. We want readers to understand not only what the stage is called, but what it changes, what it depends on, and what can go wrong when it is rushed or misunderstood.
 - A useful way to read this stage is to ask:
@@ -303,8 +378,9 @@ File: `rights/responsibilities/index.html`
 - That is the wider purpose of the Process family: to make the immigration journey readable enough that clients can move with more control and less guesswork.
 
 ### Roles
-- Section 02
 - H2: Roles
+- Section 02
+- Roles
 - Responsibilities stays stronger when responsibilities remain visible. Some obligations belong to the client, such as accuracy, timely response, and document provision. Some belong to the provider, such as process structure, communication discipline, and defined support within scope. Some belong to the wider legal framework and cannot be negotiated away.
 - That distribution matters because immigration continuity is rarely passive. It depends on cooperation, maintenance, and a realistic understanding of what rights or obligations actually attach to the current stage or status.
 - Shared process discipline usually requires:
@@ -315,8 +391,9 @@ File: `rights/responsibilities/index.html`
 - We want these pages to make that shared responsibility feel usable rather than punitive. Clear roles usually make the process calmer for everyone involved.
 
 ### Client
-- Section 03
 - H2: Client
+- Section 03
+- Client
 - Responsibilities stays stronger when responsibilities remain visible. Some obligations belong to the client, such as accuracy, timely response, and document provision. Some belong to the provider, such as process structure, communication discipline, and defined support within scope. Some belong to the wider legal framework and cannot be negotiated away.
 - That distribution matters because immigration continuity is rarely passive. It depends on cooperation, maintenance, and a realistic understanding of what rights or obligations actually attach to the current stage or status.
 - Shared process discipline usually requires:
@@ -327,8 +404,9 @@ File: `rights/responsibilities/index.html`
 - We want these pages to make that shared responsibility feel usable rather than punitive. Clear roles usually make the process calmer for everyone involved.
 
 ### Provider
-- Section 04
 - H2: Provider
+- Section 04
+- Provider
 - Responsibilities stays stronger when responsibilities remain visible. Some obligations belong to the client, such as accuracy, timely response, and document provision. Some belong to the provider, such as process structure, communication discipline, and defined support within scope. Some belong to the wider legal framework and cannot be negotiated away.
 - That distribution matters because immigration continuity is rarely passive. It depends on cooperation, maintenance, and a realistic understanding of what rights or obligations actually attach to the current stage or status.
 - Shared process discipline usually requires:
@@ -339,8 +417,9 @@ File: `rights/responsibilities/index.html`
 - We want these pages to make that shared responsibility feel usable rather than punitive. Clear roles usually make the process calmer for everyone involved.
 
 ### Cooperation
-- Section 05
 - H2: Cooperation
+- Section 05
+- Cooperation
 - Responsibilities stays stronger when responsibilities remain visible. Some obligations belong to the client, such as accuracy, timely response, and document provision. Some belong to the provider, such as process structure, communication discipline, and defined support within scope. Some belong to the wider legal framework and cannot be negotiated away.
 - That distribution matters because immigration continuity is rarely passive. It depends on cooperation, maintenance, and a realistic understanding of what rights or obligations actually attach to the current stage or status.
 - Shared process discipline usually requires:
@@ -351,8 +430,9 @@ File: `rights/responsibilities/index.html`
 - We want these pages to make that shared responsibility feel usable rather than punitive. Clear roles usually make the process calmer for everyone involved.
 
 ### Accuracy
-- Section 06
 - H2: Accuracy
+- Section 06
+- Accuracy
 - Responsibilities matters because roles, cooperation, timing, and shared accountability shape whether a Brazil immigration process feels orderly or exposed. We explain the stage in practical terms so readers can judge where they are more honestly.
 - Useful questions at this stage include:
 - what is actually under control right now
@@ -362,8 +442,9 @@ File: `rights/responsibilities/index.html`
 - That is the lens we try to bring to every process page: operational clarity, calmer expectations, and better next-step judgment.
 
 ### Timing
-- Section 07
 - H2: Timing
+- Section 07
+- Timing
 - Timing matters because immigration processes are rarely forgiving of weak sequence. A good document gathered too late or a good decision taken in the wrong order can still produce delay, cost, or avoidable exposure. That is why responsibilities has to be understood as part of a chain rather than as an isolated step.
 - In our work, we try to make the sequence visible. Clients usually feel calmer once they can see what should happen before this stage, what belongs inside it, and what should follow only after it has been handled properly.
 - Timing discipline usually improves when:
@@ -374,8 +455,9 @@ File: `rights/responsibilities/index.html`
 - This is one of the main reasons structured support feels different from improvised progress. The order becomes readable, and that changes the whole experience.
 
 ### Communication
-- Section 08
 - H2: Communication
+- Section 08
+- Communication
 - Communication changes the quality of responsibilities more than many people expect. The process becomes more stable when facts are disclosed clearly, expectations are named honestly, and everyone involved understands the boundary between what can be prepared and what still depends on authority control.
 - In practice, transparency usually means:
 - saying what is known and what still needs to be confirmed
@@ -385,8 +467,9 @@ File: `rights/responsibilities/index.html`
 - We treat that communication style as part of the service itself. It builds trust because it makes the file more readable, not because it simply sounds reassuring.
 
 ### Accountability
-- Section 09
 - H2: Accountability
+- Section 09
+- Accountability
 - Responsibilities stays stronger when responsibilities remain visible. Some obligations belong to the client, such as accuracy, timely response, and document provision. Some belong to the provider, such as process structure, communication discipline, and defined support within scope. Some belong to the wider legal framework and cannot be negotiated away.
 - That distribution matters because immigration continuity is rarely passive. It depends on cooperation, maintenance, and a realistic understanding of what rights or obligations actually attach to the current stage or status.
 - Shared process discipline usually requires:
@@ -397,8 +480,9 @@ File: `rights/responsibilities/index.html`
 - We want these pages to make that shared responsibility feel usable rather than punitive. Clear roles usually make the process calmer for everyone involved.
 
 ### Alignment
-- Section 10
 - H2: Alignment
+- Section 10
+- Alignment
 - A core function of responsibilities is to replace vague possibility with clearer direction. That usually happens when the facts are read in order, the route or stage is tested against reality, and the client can finally see what is strong, what is weak, and what belongs to the next move.
 - We think of this as disciplined clarification. It is not only about gathering information. It is about organizing information into a form that supports decisions instead of multiplying uncertainty.
 - What stronger clarity usually reveals:
@@ -410,50 +494,95 @@ File: `rights/responsibilities/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Roles Client Provider Cooperation Accuracy Timing Communication Accountability Alignment
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Roles
+- Client
+- Provider
+- Cooperation
+- Accuracy
+- Timing
+- Communication
+- Accountability
+- Alignment
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Responsibilities become easier to live with when they are clearly shared. We explain what belongs to the client, what belongs to the provider, and what belongs to the legal framework itself. Lawyer Monique Fernandes and Attorney Monique Fernandes explain how this topic connects to Brazilian immigration law, legal strategy, and practical next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If responsibilities is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Transparency page showing the Sao Paulo skyline in southeast Brazil. Transparency Transparency matters because immigration work becomes unstable when scope, timing, risk, and responsibility are left vague. We explain how clearer communication protects the process on both sides. Hero image for the Fees page showing Pelourinho in Salvador, Bahia in northeast Brazil. Fees Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes. Hero image for the Refund page showing the Curitiba skyline in southern Brazil. Refund Refund questions need clarity, not guesswork. We explain how stage-based work, fairness, timing, and review logic fit together when a refund request is made. Hero image for the Rights page showing the Porto Alegre skyline in southern Brazil. Rights Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Transparency
+- H3: Fees
+- H3: Refund
+- H3: Rights
+- H3: Start Consultation
+- H3: Services
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Transparency
+- Transparency matters because immigration work becomes unstable when scope, timing, risk, and responsibility are left vague. We explain how clearer communication protects the process on both sides.
+- Fees
+- Monique Fernandes explains fees through service stages, defined scope, and attorney-led process quality so clients understand what they are paying for and what each stage of immigration support in Brazil includes.
+- Refund
+- Refund questions need clarity, not guesswork. We explain how stage-based work, fairness, timing, and review logic fit together when a refund request is made.
+- Rights
+- Rights matter most when people understand how to use them in practice. We explain the difference between having a legal protection in theory and being able to rely on it confidently in real life.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- the Sao Paulo skyline in southeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- an aerial view of the Amazon river basin in northern Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If responsibilities is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
-- Immigrate to Brazil logo for the Responsibilities Shared Across Client, Provider, And Legal Process page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If responsibilities is the stage you are in now, the next step is to review the process against your real facts, documents, timing, and obligations. Book a consultation for structured guidance, or contact us on WhatsApp if you need help deciding which stage should come next.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Responsibilities Shared Across Client, Provider, And Legal Process page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicrights / responsibilities
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -462,40 +591,44 @@ File: `rights/responsibilities/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -508,6 +641,7 @@ File: `rights/responsibilities/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -525,10 +659,11 @@ File: `rights/responsibilities/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -545,6 +680,7 @@ File: `rights/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -560,6 +696,7 @@ File: `rights/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -572,6 +709,7 @@ File: `rights/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -586,7 +724,7 @@ File: `rights/responsibilities/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -662,26 +800,15 @@ File: `rights/responsibilities/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -705,7 +832,6 @@ File: `rights/responsibilities/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -876,7 +1002,8 @@ File: `rights/responsibilities/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -888,21 +1015,19 @@ File: `rights/responsibilities/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

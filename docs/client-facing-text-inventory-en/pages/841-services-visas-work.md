@@ -7,29 +7,85 @@ File: `services/visas/work/index.html`
 - Browser title: Work Visa \| Brazil Immigration Services \| Immigrate to Brazil
 - Meta description: Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works, and what the next step may be in Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Work Visa
+- H2: Overview
+- H2: Who This Visa Is Usually For
+- H2: What This Route Is Meant To Cover
+- H2: When It May Not Be the Right Fit
+- H2: Planning and Case Preparation
+- H2: Common Mistakes Before Filing
+- H2: How Monique Prepares and Handles the Case
+- H2: Cross-Border and Language Considerations
+- H2: Legal Boundaries and Expectations
+- H2: When Consultation May Help with Work Visa
+- H2: Quick navigation
+- H2: Next steps
+- H2: Official resources
+- H3: Lei de Migracao - Lei 13.445/2017
+- H3: Decreto 9.199/2017
+- H2: Related pages
+- H3: Services
+- H3: Visas
+- H3: Start Consultation
+- H3: Strategy
+- H3: Residencies
+- H2: Ready to discuss your next step?
+- H3: Immigrate to Brazil
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +96,26 @@ File: `services/visas/work/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +139,7 @@ File: `services/visas/work/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +158,7 @@ File: `services/visas/work/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +167,7 @@ File: `services/visas/work/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +175,7 @@ File: `services/visas/work/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +193,17 @@ File: `services/visas/work/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +218,7 @@ File: `services/visas/work/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +228,14 @@ File: `services/visas/work/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +294,7 @@ File: `services/visas/work/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +312,7 @@ File: `services/visas/work/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,23 +333,28 @@ File: `services/visas/work/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Services
 - Visas
 - Work
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Work Visa page showing Pajucara waterfront in Maceio coastline panorama in Brazil.
+- H1: Work Visa
 - SERVICES
 - Immigrate to Brazil
-- H1: Work Visa
+- Work Visa
 - Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works, and what the next step may be in Brazil.
-- Page highlights
-- Services Hub Visas Hub Consultation Strategy Residencies Hub
+- Services Hub
+- Visas Hub
+- Consultation
+- Strategy
+- Residencies Hub
 - Book Consultation
 - WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Work Visa Support For Structured Entry To Brazil page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works, and what the next step may be in Brazil. Her approach focuses on clearer legal fit, stronger preparation, and more realistic next steps in Brazil.
 - Why Attorney Monique Fernandes?
 - Immigration-focused legal guidance
@@ -295,10 +369,14 @@ File: `services/visas/work/index.html`
 - Monique usually helps professionals, employers, and sponsored workers.
 - What Monique Helps Clarify
 - Her service focuses on legal fit, preparation, timing, risks, and realistic next steps in Brazil.
+- Pajucara waterfront in Maceio coastline panorama in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Work Visa Support For Structured Entry To Brazil page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the wide coastline and water of Pajucara waterfront in Maceio in Brazil for the Overview section on the Work Visa page.
 - H2: Overview
+- Overview
 - Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works in practice, and how it may connect to longer-term plans in Brazil.
 - Her work visa service is designed to give clients more clarity about legal fit, timing, preparation, and the practical next steps before they move forward.
 - Monique can also assist with:
@@ -309,10 +387,12 @@ File: `services/visas/work/index.html`
 - Correcting earlier mistakes or inconsistencies
 - Rebuilding refused or mishandled matters where possible
 - The goal is not simply to name a category. It is to make sure the route is realistic, workable, and properly supported.
+- the wide coastline and water of Pajucara waterfront in Maceio in Brazil.
 
 ### Section
-- Section 02
 - H2: Who This Visa Is Usually For
+- Section 02
+- Who This Visa Is Usually For
 - Monique usually helps:
 - Professionals, employers, and sponsored workers.
 - Clients comparing this option with another possible route or service.
@@ -324,8 +404,9 @@ File: `services/visas/work/index.html`
 - Others contact Monique after receiving inconsistent advice, running into delays, or feeling that a previous attempt was handled without enough strategy.
 
 ### Section
-- Section 03
 - H2: What This Route Is Meant To Cover
+- Section 03
+- What This Route Is Meant To Cover
 - The work visa route is generally meant to help people whose plans in Brazil depend on employment, sponsorship, or employer-linked professional activity in Brazil.
 - Monique helps clients understand:
 - Whether the route truly fits the client's goals.
@@ -336,8 +417,9 @@ File: `services/visas/work/index.html`
 - This often gives clients a clearer picture of what is possible before they spend time or money on the wrong next step.
 
 ### Section
-- Section 04
 - H2: When It May Not Be the Right Fit
+- Section 04
+- When It May Not Be the Right Fit
 - The work visa route is not always the strongest option.
 - Some clients may be better served by:
 - Another visa category.
@@ -347,8 +429,9 @@ File: `services/visas/work/index.html`
 - Monique helps clients avoid choosing a route based only on the category name. She reviews whether the client's purpose, timing, and longer-term plans truly support the work visa route.
 
 ### Section
-- Section 05
 - H2: Planning and Case Preparation
+- Section 05
+- Planning and Case Preparation
 - Work Visa matters often become easier when the strategy is structured before the next filing, response, or authority step.
 - Monique helps clients review:
 - How the visa route fits the client's actual plans.
@@ -360,8 +443,9 @@ File: `services/visas/work/index.html`
 - This helps create a more organized matter before it reaches the next stage.
 
 ### Section
-- Section 06
 - H2: Common Mistakes Before Filing
+- Section 06
+- Common Mistakes Before Filing
 - Many work visa problems begin before the next formal step.
 - Common issues include:
 - Choosing the wrong route or service too early.
@@ -373,8 +457,9 @@ File: `services/visas/work/index.html`
 - Monique helps clients identify these patterns early so they can avoid unnecessary delays, confusion, and pressure.
 
 ### Section
-- Section 07
 - H2: How Monique Prepares and Handles the Case
+- Section 07
+- How Monique Prepares and Handles the Case
 - Monique's approach is built around structure, preparation, and ongoing support.
 - She begins by reviewing:
 - The client's goals.
@@ -393,8 +478,9 @@ File: `services/visas/work/index.html`
 - Her goal is to make the process feel more organized, more realistic, and less stressful.
 
 ### Section
-- Section 08
 - H2: Cross-Border and Language Considerations
+- Section 08
+- Cross-Border and Language Considerations
 - Many work visa matters involve more than one country, more than one language, or more than one authority.
 - Clients may need help with:
 - Foreign-issued records or background information.
@@ -405,8 +491,9 @@ File: `services/visas/work/index.html`
 - Monique works in English and Portuguese so clients can understand the process more clearly while still respecting Brazilian legal standards.
 
 ### Section
-- Section 09
 - H2: Legal Boundaries and Expectations
+- Section 09
+- Legal Boundaries and Expectations
 - Monique believes clients should understand what legal support can improve and what remains outside anyone's control.
 - Her role is to help clients:
 - Understand the route or service more clearly.
@@ -417,8 +504,9 @@ File: `services/visas/work/index.html`
 - Final decisions still depend on Brazilian authorities, the facts of the case, and the quality of the support behind it.
 
 ### Section
-- Section 10
 - H2: When Consultation May Help with Work Visa
+- Section 10
+- When Consultation May Help with Work Visa
 - The work visa route should be reviewed carefully before major decisions are made.
 - A consultation may be useful for:
 - Choosing the right route.
@@ -431,64 +519,90 @@ File: `services/visas/work/index.html`
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview This Visa Is This Route Is It May Not Planning and Case Common Mistakes Before Monique Prepares and Cross-Border and Language Legal Boundaries and Consultation May Help
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Section
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works, and what the next step may be in Brazil. Her approach focuses on clearer legal fit, stronger preparation, and more realistic next steps in Brazil.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- If the work visa route feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
 ### Official Resources
 - H2: Official resources
-- Government or institutional sources that help anchor this topic in the real rules and public guidance.
 - H3: Lei de Migracao - Lei 13.445/2017
-- Official public reference for lei de migracao - lei 13.445/2017.
 - H3: Decreto 9.199/2017
+- Official resources
+- Official sources that help place this topic in its public legal and administrative context.
+- Lei de Migracao - Lei 13.445/2017
+- Official public reference for lei de migracao - lei 13.445/2017.
+- Decreto 9.199/2017
 - Official public reference for decreto 9.199/2017.
-- H3: Policia Federal - Migracao
-- Official public reference for policia federal - migracao.
-- H3: Ministerio das Relacoes Exteriores
-- Official public reference for ministerio das relacoes exteriores.
-- H3: Ministerio da Justica e Seguranca Publica
 - Official justice and public-security portal with federal institutional references.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Services page showing an aerial view of the Amazon river basin in northern Brazil. Services Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork. Hero image for the Visas page showing Pelourinho in Salvador, Bahia in northeast Brazil. Visas Use this hub when the main question is entry, consular preparation, or short-to-medium-term route fit. Visa pages help readers understand purpose, sequence, documents, and the logic behind each category. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review. Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Strategy Monique helps clients choose the strongest route by looking at legal fit, timing, evidence, and long-term goals. Hero image for the Residencies page showing Pelourinho in Salvador, Bahia in northeast Brazil. Residencies Use this hub when the main question is lawful longer-term stay in Brazil. Residence routes are where continuity, registration, obligations, and life planning start to matter more than simple entry.
+### Related Links
+- H2: Related pages
+- H3: Services
+- H3: Visas
+- H3: Start Consultation
+- H3: Strategy
+- H3: Residencies
+- Related pages
+- Services
+- Choose the service family that matches the real stage of your Brazil matter. We group our work by route type, urgency, and function so you can move toward the right support with more clarity and less guesswork.
+- Visas
+- Use this hub when the main question is entry, consular preparation, or short-to-medium-term route fit. Visa pages help readers understand purpose, sequence, documents, and the logic behind each category.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Strategy
+- Monique helps clients choose the strongest route by looking at legal fit, timing, evidence, and long-term goals.
+- Residencies
+- Use this hub when the main question is lawful longer-term stay in Brazil. Residence routes are where continuity, registration, obligations, and life planning start to matter more than simple entry.
+- an aerial view of the Amazon river basin in northern Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- If the work visa route feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
-- Immigrate to Brazil logo for the Work Visa Support For Structured Entry To Brazil page, consultation booking, WhatsApp contact, and Brazil immigration support
+- H2: Ready to discuss your next step?
 - H3: Immigrate to Brazil
-- Structured guidance for immigration, relocation, long-term planning, and calmer decisions about Brazil.
 - H3: Book consultation
-- Use consultation for route comparison, chronology review, document planning, and clearer next-step guidance.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- If the work visa route feels close to your situation, a consultation can help clarify fit, timing, risks, and the strongest next step in Brazil.
+- Immigrate to Brazil
+- Structured guidance for immigration, relocation, long-term planning, and clearer decisions about Brazil.
+- Book consultation
+- Use consultation to compare options, review chronology and documents, and decide on a clearer next step.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Immigrate to Brazil logo for the Work Visa Support For Structured Entry To Brazil page, consultation booking, WhatsApp contact, and Brazil immigration support
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicservices / visas / work
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -497,40 +611,44 @@ File: `services/visas/work/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -543,6 +661,7 @@ File: `services/visas/work/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -560,10 +679,11 @@ File: `services/visas/work/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -580,6 +700,7 @@ File: `services/visas/work/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -595,6 +716,7 @@ File: `services/visas/work/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -607,6 +729,7 @@ File: `services/visas/work/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -621,7 +744,7 @@ File: `services/visas/work/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -697,26 +820,15 @@ File: `services/visas/work/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -740,7 +852,6 @@ File: `services/visas/work/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -911,7 +1022,8 @@ File: `services/visas/work/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -923,21 +1035,19 @@ File: `services/visas/work/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-

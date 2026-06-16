@@ -7,29 +7,87 @@ File: `legal/disclaimer/index.html`
 - Browser title: Disclaimer & Legal Notice \| Monique Fernandes \| Immigrate to Brazil
 - Meta description: This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Disclaimer & Legal Notice
+- H2: Information is general in nature
+- H2: Not a substitute for individualized legal advice
+- H2: No guarantee of approval or outcome
+- H2: Government authorities control outcomes
+- H2: Timelines are variable and external
+- H2: Representation boundary
+- H2: Relationship with legal representation and governing contracts
+- H2: Third-party information and external dependencies
+- H2: Limitation of reliance
+- H2: Updates and accuracy of information
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Terms & Conditions
+- H3: Payment Terms
+- H3: Refund Policy
+- H3: Form & Intake Policy
+- H3: Lawyer
+- H3: Consultation
+- H2: Frequently asked questions
+- H3: Does this site provide legal advice automatically?
+- H3: Can payment alone create representation?
+- H3: Who controls the final immigration outcome?
+- H2: Need case-specific guidance?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +98,26 @@ File: `legal/disclaimer/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +141,7 @@ File: `legal/disclaimer/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +160,7 @@ File: `legal/disclaimer/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +169,7 @@ File: `legal/disclaimer/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +177,7 @@ File: `legal/disclaimer/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +195,17 @@ File: `legal/disclaimer/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +220,7 @@ File: `legal/disclaimer/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +230,14 @@ File: `legal/disclaimer/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +296,7 @@ File: `legal/disclaimer/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +314,7 @@ File: `legal/disclaimer/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,26 +335,27 @@ File: `legal/disclaimer/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Legal
 - Disclaimer & Legal Notice
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Disclaimer & Legal Notice page showing Farol da Barra in Salvador in Brazil.
+- H1: Disclaimer & Legal Notice
 - LEGAL
 - The boundary between public information and Monique Fernandes' legal advice
-- H1: Disclaimer & Legal Notice
+- Disclaimer & Legal Notice
 - This Disclaimer & Legal Notice explains the boundary between general information on the site and the individualized legal judgment Monique Fernandes provides only after reviewing a specific immigration matter connected to Brazil.
-- Page highlights
-- General information only No approval promises Authority control remains
-- Start consultation
-- Open terms
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Disclaimer & Legal Notice page, Brazil immigration advisory, consultation, and legal compliance guidance Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Monique Fernandes wants visitors to understand that public pages can educate, but they cannot replace case-specific legal review.
-- Why Attorney Monique Fernandes?
 - General information only
 - No approval promises
+- Authority control remains
+- Start consultation
+- Open terms
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Monique Fernandes wants visitors to understand that public pages can educate, but they cannot replace case-specific legal review.
+- Why Attorney Monique Fernandes?
 - Attorney-led accountability
 - English and Portuguese
 - What this page covers
@@ -292,132 +364,193 @@ File: `legal/disclaimer/index.html`
 - The site should not be treated as if it already knows your facts, documents, or legal history.
 - Practical takeaway
 - Consultation is the step that turns public information into case-specific legal analysis.
+- Farol da Barra in Salvador in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Disclaimer & Legal Notice page, Brazil immigration advisory, consultation, and legal compliance guidance
 
 ### Information Is General In Nature
-- Cinematic background of Farol da Barra and the seafront of Salvador in Brazil for the Information is general in nature section on the Disclaimer & Legal Notice page.
 - H2: Information is general in nature
+- Information is general in nature
 - The public site provides general information, not a file-specific legal conclusion.
 - The pages are designed to help visitors understand immigration topics connected to Brazil, but they are not written to replace the analysis of a real case.
+- Farol da Barra and the seafront of Salvador in Brazil.
 
 ### Not A Substitute For Individualized Legal Advice
-- Cinematic background of the architecture and streets of Cathedral of Brasilia in Brazil for the Not a substitute for individualized legal advice section on the Disclaimer & Legal Notice page.
-- Section 02
 - H2: Not a substitute for individualized legal advice
+- Section 02
+- Not a substitute for individualized legal advice
 - A real legal opinion depends on the actual facts.
 - Monique Fernandes needs to understand chronology, documents, route options, risks, and the client's objective before giving advice that should be relied on as case-specific legal guidance.
+- the architecture and streets of Cathedral of Brasilia in Brazil.
 
 ### No Guarantee Of Approval Or Outcome
-- Cinematic background of the cathedral and town center of Canela in Brazil for the No guarantee of approval or outcome section on the Disclaimer & Legal Notice page.
-- Section 03
 - H2: No guarantee of approval or outcome
+- Section 03
+- No guarantee of approval or outcome
 - No lawyer can promise an immigration approval in advance.
 - Monique can evaluate, prepare, explain, and support a matter, but no public page and no service stage should be read as a promise of approval or a guaranteed result.
+- the cathedral and town center of Canela in Brazil.
 
 ### Government Authorities Control Outcomes
-- Cinematic background of the urban panorama of Pampulha in Belo Horizonte in Brazil for the Government authorities control outcomes section on the Disclaimer & Legal Notice page.
-- Section 04
 - H2: Government authorities control outcomes
+- Section 04
+- Government authorities control outcomes
 - Final legal and administrative decisions remain with the relevant authorities.
 - That includes immigration, consular, registry, police, and other public authorities involved in the matter.
+- the urban panorama of Pampulha in Belo Horizonte in Brazil.
 
 ### Timelines Are Variable And External
-- Cinematic background of the shoreline of Estacao das Docas in Belem in warm evening light in Brazil for the Timelines are variable and external section on the Disclaimer & Legal Notice page.
-- Section 05
 - H2: Timelines are variable and external
+- Section 05
+- Timelines are variable and external
 - Timing often depends on factors outside Monique's direct control.
 - Processing speed, appointment availability, document issuance, authority backlog, and third-party delays can all affect the timeline of a matter.
+- the shoreline of Estacao das Docas in Belem in warm evening light in Brazil.
 
 ### Representation Boundary
-- Cinematic background of the wide coastline and water of Itacare coastline in Brazil for the Representation boundary section on the Disclaimer & Legal Notice page.
-- Section 06
 - H2: Representation boundary
+- Section 06
+- Representation boundary
 - Representation begins only when the appropriate service stage is properly defined.
 - Reading the site, sending a message, or even discussing a matter informally is not the same as formal legal representation unless that service stage has actually been accepted and confirmed.
+- the wide coastline and water of Itacare coastline in Brazil.
 
 ### Relationship With Legal Representation And Governing Contracts
-- Cinematic background of Petropolis and the imperial museum district in Brazil for the Relationship with legal representation and governing contracts section on the Disclaimer & Legal Notice page.
-- Section 07
 - H2: Relationship with legal representation and governing contracts
+- Section 07
+- Relationship with legal representation and governing contracts
 - Formal written terms should control once the matter moves into defined service work.
 - If consultation, representation, or another service stage is formally agreed, the written terms and scope for that stage should be read together with this notice.
+- Petropolis and the imperial museum district in Brazil.
 
 ### Third Party Information And External Dependencies
-- Cinematic background of the sunrise landscape of Marajo Island riverfront in Brazil for the Third-party information and external dependencies section on the Disclaimer & Legal Notice page.
-- Section 08
 - H2: Third-party information and external dependencies
+- Section 08
+- Third-party information and external dependencies
 - The practice may refer to official sources, but those sources can also change.
 - Monique aims to use accurate and responsible information, yet laws, procedures, fees, forms, and public guidance may change over time or vary by authority and context.
+- the sunrise landscape of Marajo Island riverfront in Brazil.
 
 ### Limitation Of Reliance
-- Cinematic background of the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil for the Limitation of reliance section on the Disclaimer & Legal Notice page.
-- Section 09
 - H2: Limitation of reliance
+- Section 09
+- Limitation of reliance
 - Visitors should not rely on general content as if it were already tailored legal advice.
 - The right next step for a real matter is consultation or another appropriate service stage where Monique can review the facts directly.
+- the beachfront and sea of Museum of Contemporary Art in Niteroi in Brazil.
 
 ### Updates And Accuracy Of Information
-- Cinematic background of the shoreline of Buzios peninsula in warm evening light in Brazil for the Updates and accuracy of information section on the Disclaimer & Legal Notice page.
-- Section 10
 - H2: Updates and accuracy of information
+- Section 10
+- Updates and accuracy of information
 - Public pages may be updated as the law, the process, or the practice changes.
 - The published version of the page is the current working version, but no public page can replace a current review of a specific matter.
+- the shoreline of Buzios peninsula in warm evening light in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Information is general Not a substitute No guarantee of Government authorities control Timelines are variable Representation boundary Relationship with legal Third-party information and Limitation of reliance Updates and accuracy
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Information Is General In Nature
+- Not A Substitute For Individualized Legal Advice
+- No Guarantee Of Approval Or Outcome
+- Government Authorities Control Outcomes
+- Timelines Are Variable And External
+- Representation Boundary
+- Relationship With Legal Representation And Governing Contracts
+- Third Party Information And External Dependencies
+- Limitation Of Reliance
+- Updates And Accuracy Of Information
+- FAQ
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Monique Fernandes wants visitors to understand that public pages can educate, but they cannot replace case-specific legal review.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use consultation if you want Monique Fernandes to apply this policy or notice to your own immigration matter. Use WhatsApp for operational clarification or routing support.
-- Start Consultation WhatsApp
-- Representation, filings, refunds, privacy requests, and timing are all handled according to the actual service stage, the facts of the matter, and applicable law.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Terms page showing the Sao Paulo skyline in southeast Brazil. Terms & Conditions These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee. Hero image for the Payment page showing the National Congress complex in Brasilia in central-west Brazil. Payment Terms These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil. Hero image for the Refund page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Refund Policy This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil. Hero image for the Form page showing the Sao Paulo skyline in southeast Brazil. Form & Intake Policy This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins. Hero image for the Lawyer page showing the Porto Alegre skyline in southern Brazil. Lawyer A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil. Hero image for the Consultation page showing Florianopolis and Praia Brava on the Atlantic coast in southern Brazil. Consultation Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+### Related Links
+- H2: Related pages
+- H3: Terms & Conditions
+- H3: Payment Terms
+- H3: Refund Policy
+- H3: Form & Intake Policy
+- H3: Lawyer
+- H3: Consultation
+- Related pages
+- Terms & Conditions
+- These Terms & Conditions explain how Monique Fernandes' website, consultation workflow, and immigration service model operate, including what the site covers and what it does not guarantee.
+- Payment Terms
+- These Payment Terms explain how Monique Fernandes handles consultation payments, service-stage billing, payment verification, and booking control for immigration matters connected to Brazil.
+- Refund Policy
+- This Refund Policy explains how Monique Fernandes reviews cancellations, reserved time, completed work, payment errors, and refund requests for immigration services related to Brazil.
+- Form & Intake Policy
+- This Form & Intake Policy explains how Monique Fernandes uses forms, submissions, and uploaded information to review immigration matters connected to Brazil before formal service begins.
+- Lawyer
+- A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.
+- Consultation
+- Consultation is where clarity becomes structured action. We explain who usually benefits from it, what it helps resolve, how we approach it at Immigrate to Brazil, and what tends to change once the situation is finally being read in the right order.
+- the Sao Paulo skyline in southeast Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
+- the Porto Alegre skyline in southern Brazil.
+- Florianopolis and Praia Brava on the Atlantic coast in southern Brazil.
 
 ### FAQ
 - H2: Frequently asked questions
-- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
 - H3: Does this site provide legal advice automatically?
-- No. It provides general information until Monique has reviewed the actual matter in the proper service stage.
 - H3: Can payment alone create representation?
-- Not by itself. Representation depends on the service stage actually accepted and defined.
 - H3: Who controls the final immigration outcome?
+- Frequently asked questions
+- Short answers about how Monique Fernandes handles this topic and what clients usually need to know before proceeding.
+- Does this site provide legal advice automatically?
+- No. It provides general information until Monique has reviewed the actual matter in the proper service stage.
+- Can payment alone create representation?
+- Not by itself. Representation depends on the service stage actually accepted and defined.
+- Who controls the final immigration outcome?
 - The relevant government authority, not the website and not any public statement on it.
 
 ### Consultation Form
 - H2: Need case-specific guidance?
-- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
-- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 - H3: Monique Fernandes
-- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
 - H3: Book consultation
+- H3: Contact on WhatsApp
+- Need case-specific guidance?
+- These legal notices explain how Monique Fernandes handles privacy, intake, payment, scope, and service boundaries. Consultation applies that framework to your own immigration matter, documents, timing, and next step.
+- Monique Fernandes
+- Brazilian immigration attorney handling client intake, privacy, payment, and service stages with clear boundaries and practical guidance.
+- Book consultation
 - Move from general policy information into Monique's case-specific review of your route, documents, timing, and next step.
 - Start Consultation
-- H3: Contact on WhatsApp
-- Use WhatsApp for operational clarification, urgency signaling, or help reaching the right Monique Fernandes service page.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent, a deadline is close, or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney, ready to help with consultation and client support.
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topiclegal / disclaimer
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -426,40 +559,44 @@ File: `legal/disclaimer/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -472,6 +609,7 @@ File: `legal/disclaimer/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -489,10 +627,11 @@ File: `legal/disclaimer/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -509,6 +648,7 @@ File: `legal/disclaimer/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -524,6 +664,7 @@ File: `legal/disclaimer/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -536,6 +677,7 @@ File: `legal/disclaimer/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -550,7 +692,7 @@ File: `legal/disclaimer/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -626,26 +768,15 @@ File: `legal/disclaimer/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -669,7 +800,6 @@ File: `legal/disclaimer/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -840,7 +970,8 @@ File: `legal/disclaimer/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -852,18 +983,17 @@ File: `legal/disclaimer/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
@@ -874,11 +1004,10 @@ File: `legal/disclaimer/index.html`
 - Back to top
 
 ### Cookie Banner
-- Cookie preferences
 - Cookies
 - Essential cookies keep the site running.
 - Analytics cookies auto-accept after a short delay unless you reject them first. We still use limited cookieless measurement to understand site performance.
 - Policy
 - Reject
 - Accept
-
+- Cookie preferences

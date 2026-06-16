@@ -136,7 +136,7 @@
   },
   {
     "route": "/brazil/faqs/",
-    "title": "Faqs",
+    "title": "FAQs",
     "endpoint": "https://formspree.io/f/xdawygld"
   },
   {
@@ -1566,7 +1566,7 @@
   },
   {
     "route": "/insights/guides/what-happens-during-an-immigration-consultation/",
-    "title": "What Happens During an Immigration Consultation?",
+    "title": "What Happens During an Immigration consultation?",
     "endpoint": "https://formspree.io/f/xdawygld"
   },
   {

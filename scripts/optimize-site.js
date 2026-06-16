@@ -874,9 +874,9 @@ function buildUniversalForm({ route, title, family, canonical, isPt }) {
       }
     : {
         kicker: "Contact Monique",
-        title: "Request a consultation about this page",
+        title: "Request a consultation with Monique Fernandes",
         summary:
-          "Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.",
+          "Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.",
         name: "Full name",
         email: "Email",
         phone: "Phone / WhatsApp",
@@ -887,7 +887,7 @@ function buildUniversalForm({ route, title, family, canonical, isPt }) {
           "I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.",
         button: "Send to Monique",
         note:
-          "This form automatically records the page, language, source, and campaign parameters so the reply can be more precise."
+          "This form records basic page and referral context so the reply can be more precise."
       };
 
   return `

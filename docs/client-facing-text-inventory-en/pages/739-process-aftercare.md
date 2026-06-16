@@ -7,29 +7,83 @@ File: `process/aftercare/index.html`
 - Browser title: Aftercare With Monique Fernandes \| Brazil Immigration Process
 - Meta description: Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
 
+### Headings
+- H2: Accessibility
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
+- H4: International Civil
+- H3: Other Services
+- H3: International Family
+- H3: International Civil
+- H1: Aftercare
+- H2: Overview
+- H2: Transition
+- H2: Support
+- H2: Guidance
+- H2: Compliance
+- H2: Next Steps
+- H2: Continuity
+- H2: Planning
+- H2: Stability
+- H2: Outcomes
+- H2: Quick navigation
+- H2: Next steps
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Approval
+- H3: Compliance
+- H3: Deadlines
+- H3: Conversion
+- H3: Start Consultation
+- H2: Ready to discuss your next step?
+- H3: Monique Fernandes
+- H3: Book consultation
+- H3: Contact on WhatsApp
+- H2: Request a consultation with Monique Fernandes
+- H2: Get the Newsletter PDF
+- H2: Share this page
+- H2: Immigrate to Brazil
+- H3: About
+- H3: Process
+- H3: Rights
+- H3: Insights
+- H3: Legal
+- H3: Explore
+- H2: Nina
+- H3: Likely service areas
+
+### Google Tag Fallback
+- Google Tag Manager
+
 ### Utility Bar
-- Site under construction
-- We are improving our site now. Services continue as normal. Need current Brazil immigration guidance?
-- Chat on WhatsApp about Brazil immigration guidance WhatsApp
-- Empowering Immigrants - Promoting Brazil
-- Language switcher
--- \|
+- Website updates in progress
+- We are improving the website. Legal services continue as normal. Need current Brazil immigration guidance?
+- WhatsApp
+- Guiding immigrants. Promoting Brazil.
+- EN
+- \|
 - PT
-- Open accessibility settings
 - Accessibility
+- Chat on WhatsApp about Brazil immigration guidance
+- Language switcher
+- Open accessibility settings
 
 ### Accessibility Panel
 - H2: Accessibility
+- Accessibility
 - Close
 - Text scale
 - A-
 - 100%
 - A+
 - Theme mode
-- Theme mode
-- light Light
-- dark Dark
-- system System
+- Light
+- Dark
+- System
 - High contrast
 - Invert colors
 - Grayscale
@@ -40,21 +94,26 @@ File: `process/aftercare/index.html`
 - Hide images
 - Reduce motion
 - Reset all settings
+- light
+- dark
+- system
 
 ### Site Navigation
-- Main navigation
-- Immigrate to Brazil with Attorney Monique Fernandes home
-- Immigrate to Brazil brand wordmark with the site logo
+- H3: Visas
+- H3: Residency
+- H3: Citizenship
+- H3: Immigration Defense
+- H3: International Family
+- H3: International Civil
 - Immigrate
 - to Brazil
 - with Attorney Monique Fernandes
 - Private Consultation
 - Book Consultation
-- Toggle navigation
 - Home
 - About
 - Visas ▼
-- H3: Visas
+- Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
 - Business Visa
@@ -78,7 +137,7 @@ File: `process/aftercare/index.html`
 - Volunteer Visa
 - Work Visa
 - Residency ▼
-- H3: Residency
+- Residency
 - Residence authorization routes for longer stays, post-arrival continuity, and Brazil-based life planning.
 - CPLP Residency
 - Cultural Exchange Residency
@@ -97,7 +156,7 @@ File: `process/aftercare/index.html`
 - Youth Exchange Residency
 - Volunteer Residency
 - Citizenship ▼
-- H3: Citizenship
+- Citizenship
 - Brazilian citizenship, naturalisation, renunciation, and reacquisition support.
 - Ordinary Naturalisation
 - Extraordinary Naturalisation
@@ -106,7 +165,7 @@ File: `process/aftercare/index.html`
 - Reacquisition of Brazilian Citizenship
 - Renunciation of Brazilian Citizenship
 - Defense ▼
-- H3: Immigration Defense
+- Immigration Defense
 - Appeals, fines, removal defense, and enforcement-sensitive immigration matters.
 - Immigration Appeals
 - Deportation Defense
@@ -114,7 +173,7 @@ File: `process/aftercare/index.html`
 - Expulsion Defense
 - Immigration Fines
 - Family ▼
-- H3: International Family
+- International Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
 - International Adoption
 - International Alimony
@@ -132,11 +191,17 @@ File: `process/aftercare/index.html`
 - Prenuptial Agreements
 - Stable Union
 - Civil ▼
-- H3: International Civil
+- International Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
+- Main navigation
+- Immigrate to Brazil with Attorney Monique Fernandes home
+- Immigrate to Brazil brand wordmark with the site logo
+- Toggle navigation
 
 ### Service Family Menu
 - H4: International Civil
+- H3: Other Services
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -151,7 +216,7 @@ File: `process/aftercare/index.html`
 - Power of Attorney
 - Property Matters
 - Other ▼
-- H3: Other Services
+- Other Services
 - Consular services, records, and general support outside the main service families.
 - Consular Services
 - Criminal Records
@@ -161,12 +226,14 @@ File: `process/aftercare/index.html`
 - Book Consultation
 
 ### Main Pages
-- Main pages
 - Home
 - About
 - Contact
+- Main pages
 
 ### Mobile Navigation
+- H3: International Family
+- H3: International Civil
 - Visas
 - Entry visa routes for work, study, investment, family, culture, travel, and specialist purposes.
 - Artistic Visa
@@ -225,7 +292,7 @@ File: `process/aftercare/index.html`
 - Immigration Fines
 - Family
 - Family-linked immigration, registration, recognition, safety, and cross-border planning support.
-- H3: International Family
+- International Family
 - International Adoption
 - International Alimony
 - Birth Registration
@@ -243,7 +310,7 @@ File: `process/aftercare/index.html`
 - Stable Union
 - Civil
 - Civil documentation, registrations, notarisation, contracts, property, and general legal support.
-- H3: International Civil
+- International Civil
 - Apostille Services
 - CNPJ Registration
 - Contract Review
@@ -264,36 +331,42 @@ File: `process/aftercare/index.html`
 - Certified Translation
 
 ### Breadcrumb Navigation
-- Breadcrumb Home
+- Home
 - Process
 - Aftercare
+- Breadcrumb
 
 ### Page Hero
-- Hero image for the Aftercare page showing Orla de Atalaia in Aracaju beachfront view in Brazil.
+- H1: Aftercare
 - PROCESS
 - Immigrate to Brazil
-- H1: Aftercare
+- Aftercare
 - Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
-- Page highlights
-- Process Hub Approval Compliance Deadlines Conversion
-- Book Consultation
-- WhatsApp
-- Immigrate to Brazil brand wordmark and logo Immigrate to Brazil logo for the Aftercare With Monique Fernandes After Approval In Brazil page, Brazil immigration, relocation, and consultation support Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
-- Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
-- Why Attorney Monique Fernandes?
 - Process Hub
 - Approval
+- Compliance
+- Deadlines
+- Conversion
+- Book Consultation
+- WhatsApp
+- Immigrate
+- to Brazil
+- Supporting immigrants. Promoting Brazil.
+- Why Attorney Monique Fernandes?
 - Overview
 - Monique treats aftercare as part of the immigration service, not as an afterthought.
 - Transition
 - Transition is the move from decision to real-life implementation.
 - Support
 - After approval, clients often still need attorney-led guidance.
+- Orla de Atalaia in Aracaju beachfront view in Brazil.
+- Page highlights
+- Immigrate to Brazil brand wordmark and logo
+- Immigrate to Brazil logo for the Aftercare With Monique Fernandes After Approval In Brazil page, Brazil immigration, relocation, and consultation support
 
 ### Overview
-- Cinematic background of the beachfront and sea of Orla de Atalaia in Aracaju in Brazil for the Overview section on the Aftercare page.
 - H2: Overview
+- Overview
 - Monique treats aftercare as part of the immigration service, not as an afterthought. Approval may solve one stage, but clients often still need help understanding what has changed and what must now be protected.
 - Aftercare usually focuses on:
 - the client's immediate next legal steps
@@ -301,11 +374,12 @@ File: `process/aftercare/index.html`
 - avoiding preventable post-approval mistakes
 - planning responsibly for what comes later
 - This is often the stage where relief needs to be translated into disciplined follow-through.
+- the beachfront and sea of Orla de Atalaia in Aracaju in Brazil.
 
 ### Transition
-- Cinematic background of the Pajucara waterfront in Maceio in Brazil for the Transition section on the Aftercare page.
-- Section 02
 - H2: Transition
+- Section 02
+- Transition
 - Transition is the move from decision to real-life implementation. Monique helps clients understand that approval is not always the end of the process and may create new obligations, registrations, timelines, or planning questions.
 - Important transition questions often include:
 - what has to happen immediately after approval
@@ -313,11 +387,12 @@ File: `process/aftercare/index.html`
 - what documents the client must keep available
 - how the new status affects practical relocation or family plans
 - Clear transition guidance helps the approval become durable instead of fragile.
+- the Pajucara waterfront in Maceio in Brazil.
 
 ### Support
-- Cinematic background of the coast of Sao Miguel dos Milagres in Brazil for the Support section on the Aftercare page.
-- Section 03
 - H2: Support
+- Section 03
+- Support
 - After approval, clients often still need attorney-led guidance. Monique supports clients by explaining what the decision means, what practical follow-up is required, and where risk can still appear if the next stage is neglected.
 - That support may include:
 - reviewing the terms of the approval or status
@@ -325,11 +400,12 @@ File: `process/aftercare/index.html`
 - answering route-specific questions about continuity
 - identifying when a later conversion or renewal issue may need planning
 - Support after approval is often what turns a positive result into a stable one.
+- the coast of Sao Miguel dos Milagres in Brazil.
 
 ### Guidance
-- Cinematic background of Amazon river in Brazil for the Guidance section on the Aftercare page.
-- Section 04
 - H2: Guidance
+- Section 04
+- Guidance
 - Monique's aftercare guidance is meant to keep the client from drifting into uncertainty once the first major result arrives. Many clients need a clear list of what to do, what to keep, and what to watch.
 - Guidance at this stage often covers:
 - registrations and immediate compliance points
@@ -337,11 +413,12 @@ File: `process/aftercare/index.html`
 - timing of later checkpoints
 - practical reminders tied to the route that was approved
 - Simple guidance at the right time can prevent avoidable trouble later.
+- Amazon river in Brazil.
 
 ### Compliance
-- Cinematic background of the civic center and avenues of Goiania in Brazil for the Compliance section on the Aftercare page.
-- Section 05
 - H2: Compliance
+- Section 05
+- Compliance
 - Aftercare and compliance are closely connected. Monique uses this stage to explain that status in Brazil often needs continued alignment, not just one successful decision.
 - Clients usually need to understand:
 - what ongoing obligations may apply
@@ -349,11 +426,12 @@ File: `process/aftercare/index.html`
 - what records should stay current and accessible
 - when future review or renewal planning should start
 - This is how Monique helps clients protect continuity instead of assuming approval solved everything forever.
+- the civic center and avenues of Goiania in Brazil.
 
 ### Next Steps
-- Cinematic background of the valleys and plateaus of Chapada Diamantina in Brazil for the Next Steps section on the Aftercare page.
-- Section 06
 - H2: Next Steps
+- Section 06
+- Next Steps
 - The next steps after approval should be clear enough that the client does not need to improvise. Monique helps clients move from a positive decision into organized action.
 - Typical next steps may include:
 - completing post-approval formalities
@@ -361,11 +439,12 @@ File: `process/aftercare/index.html`
 - confirming the timeline for later obligations
 - deciding whether a longer-term plan should now begin
 - Aftercare is strongest when the client knows exactly what comes next and why.
+- the valleys and plateaus of Chapada Diamantina in Brazil.
 
 ### Continuity
-- Cinematic background of the sunrise landscape of Amazon river basin in Brazil for the Continuity section on the Aftercare page.
-- Section 07
 - H2: Continuity
+- Section 07
+- Continuity
 - Continuity means keeping the immigration position coherent over time. Monique helps clients understand what needs to remain aligned so the status stays usable and defensible.
 - Continuity often depends on:
 - respecting route-specific rules
@@ -373,11 +452,12 @@ File: `process/aftercare/index.html`
 - avoiding missed deadlines
 - seeking advice early if circumstances change
 - This is especially important for clients whose life in Brazil will keep evolving after the first approval.
+- the sunrise landscape of Amazon river basin in Brazil.
 
 ### Planning
-- Cinematic background of the meeting of the Rio Negro and Solimoes near Manaus in Brazil for the Planning section on the Aftercare page.
-- Section 08
 - H2: Planning
+- Section 08
+- Planning
 - Aftercare is also where longer-term planning often starts. Monique helps clients think about what this approval may lead to next, whether that means stable residence, family continuity, or future citizenship strategy.
 - Planning conversations may include:
 - when to begin thinking about the next legal stage
@@ -385,11 +465,12 @@ File: `process/aftercare/index.html`
 - how family or business decisions affect future options
 - whether a conversion or later filing should already be on the horizon
 - Planning early usually makes later transitions far smoother.
+- the meeting of the Rio Negro and Solimoes near Manaus in Brazil.
 
 ### Stability
-- Cinematic background of the beaches and lighthouse of Ilha do Mel in Brazil for the Stability section on the Aftercare page.
-- Section 09
 - H2: Stability
+- Section 09
+- Stability
 - Stability is the real goal of aftercare. Monique wants clients to understand their position well enough that they do not lose a good result through confusion, silence, or poor follow-through.
 - A stable post-approval position usually means:
 - the client understands the route they now hold
@@ -397,11 +478,12 @@ File: `process/aftercare/index.html`
 - the main risks are being managed
 - future planning can happen from a stronger foundation
 - That is why Monique treats aftercare as a meaningful part of the service, not just a closing note.
+- the beaches and lighthouse of Ilha do Mel in Brazil.
 
 ### Outcomes
-- Cinematic background of the rock formations and parks of Serra da Capivara in Brazil for the Outcomes section on the Aftercare page.
-- Section 10
 - H2: Outcomes
+- Section 10
+- Outcomes
 - The outcome of aftercare is a more secure and informed client. Monique uses this stage to help people turn approval into continuity, not just into a moment of celebration.
 - Strong aftercare outcomes usually include:
 - fewer avoidable post-approval mistakes
@@ -409,53 +491,95 @@ File: `process/aftercare/index.html`
 - better compliance habits
 - clearer preparation for future immigration stages in Brazil
 - That kind of continuity is often what clients value most after the pressure of approval has passed.
+- the rock formations and parks of Serra da Capivara in Brazil.
 
 ### Page Map
 - H2: Quick navigation
-- Move directly to the question that matters.
-- Overview Transition Support Guidance Compliance Next Steps Continuity Planning Stability Outcomes
+- Quick navigation
+- Go directly to the section that matters most.
+- Google Tag Fallback
+- Page Hero
+- Overview
+- Transition
+- Support
+- Guidance
+- Compliance
+- Next Steps
+- Continuity
+- Planning
+- Stability
+- Outcomes
+- Consultation Form
+- Universal Formspree Consultation
 
-### Sidebar Card
-- Immigrate to Brazil circular logo
+### Sidebar Brand
 - Immigrate to Brazil
-- Supporting Immigrants - Promoting Brazil
+- Supporting immigrants. Promoting Brazil.
 - Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.
+- Immigrate to Brazil circular logo
 
 ### Next Steps
 - H2: Next steps
-- Use aftercare with Monique Fernandes when your Brazil immigration matter has been approved and you want clear guidance on the next legal, practical, and compliance steps.
-- Start Consultation WhatsApp
-- Representation, filing strategy, and individualized legal judgment depend on the route, chronology, and supporting record.
+- Next steps
+- Immigration consultation
+- Your pathway to Brazil.
 
-### Related Pages
-- H2: Related Pages
-- Hero image for the Consultation page showing Lençois Maranhenses dunes and lagoons in northeast Brazil. Brazil Immigration Process Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese. Hero image for the Approval page showing Pelourinho in Salvador, Bahia in northeast Brazil. Approval Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations. Hero image for the Compliance page showing the Curitiba skyline in southern Brazil. Compliance Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction. Hero image for the Deadlines page showing the National Congress complex in Brasilia in central-west Brazil. Deadlines Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control. Hero image for the Conversion page showing Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil. Conversion Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk. Hero image for the Start Consultation page showing Pelourinho in Salvador, Bahia in northeast Brazil. Start Consultation How to send the first summary of your matter, pay correctly, and move into a structured first review.
+### Related Links
+- H2: Related pages
+- H3: Brazil Immigration Process
+- H3: Approval
+- H3: Compliance
+- H3: Deadlines
+- H3: Conversion
+- H3: Start Consultation
+- Related pages
+- Brazil Immigration Process
+- Follow Monique Fernandes' immigration process for Brazil from first consultation through assessment, filing, approval, compliance, and aftercare, with clear expectations for remote clients in English and Portuguese.
+- Approval
+- Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.
+- Compliance
+- Monique Fernandes helps clients treat compliance as ongoing protection of their immigration position in Brazil, with clear guidance on obligations, records, consistency, and risk reduction.
+- Deadlines
+- Monique Fernandes helps clients understand immigration deadlines in Brazil as strategic pressure points, not small admin details, so filings, renewals, and responses happen with better control.
+- Conversion
+- Conversion is how Monique Fernandes helps clients move from one immigration position to another in Brazil, with careful review of eligibility, timing, requirements, and risk.
+- Start Consultation
+- How to send the first summary of your matter, pay correctly, and move into a structured first review.
+- Lençois Maranhenses dunes and lagoons in northeast Brazil.
+- Pelourinho in Salvador, Bahia in northeast Brazil.
+- the Curitiba skyline in southern Brazil.
+- the National Congress complex in Brasilia in central-west Brazil.
+- Rio de Janeiro, Sugarloaf Mountain, and Guanabara Bay in southeast Brazil.
 
 ### Consultation Form
-- H2: Ready for the next step?
-- Use aftercare with Monique Fernandes when your Brazil immigration matter has been approved and you want clear guidance on the next legal, practical, and compliance steps.
-- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
+- H2: Ready to discuss your next step?
 - H3: Monique Fernandes
-- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
 - H3: Book consultation
-- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
-- Book consultation
 - H3: Contact on WhatsApp
-- Use WhatsApp if you need faster operational clarification before choosing the next move.
+- Ready to discuss your next step?
+- Use aftercare with Monique Fernandes when your Brazil immigration matter has been approved and you want clear guidance on the next legal, practical, and compliance steps.
+- Monique Fernandes
+- Brazilian immigration attorney guiding consultation, assessment, filing, approval, and aftercare for clients in Brazil and abroad.
+- Book consultation
+- Book Monique for route analysis, chronology review, document planning, and a clearer next step for immigration to Brazil.
+- Contact on WhatsApp
+- Use WhatsApp if timing is urgent or you need help understanding how to begin.
 - WhatsApp
+- Monique Fernandes, Brazilian immigration attorney serving clients across Brazil and remotely
 
 ### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
 - Contact Monique
-- H2: Request a consultation about this page
-- Send a short summary so Monique Fernandes can see which page shaped your question and what next step may fit.
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
 - Full name
 - Email
 - Phone / WhatsApp
 - Current country
-- Main topicprocess / aftercare
+- Main topic
 - Message
 - I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form automatically records the page, language, source, and campaign parameters so the reply can be more precise.
+- This form records basic page and referral context so the reply can be more precise.
 - Send to Monique
 
 ### Disclaimer
@@ -464,40 +588,44 @@ File: `process/aftercare/index.html`
 - Individuals seeking legal assistance with immigrating to Brazil, obtaining a Brazil visa, applying for Brazilian residency, or pursuing Brazilian citizenship should consult directly with a qualified Brazilian immigration attorney for advice tailored to their specific circumstances.
 
 ### Newsletter Signup
+- H2: Get the Newsletter PDF
 - Newsletter PDF
-- H2: Get The Newsletter PDF
-- Insights, travel motivation, Brazil opportunities, and legal updates. Enter your name and email to unlock the download.
-- Newsletter download details
-- PDF Download
-- Brazil Insights
-- Attorney-Led
-- Travel motivation and Brazil opportunity snapshots.
+- Get the Newsletter PDF
+- Brazil immigration insights, practical relocation notes, and legal updates. Enter your name and email to unlock the download.
+- PDF download
+- Brazil insights
+- Attorney-led
+- Brazil immigration and relocation notes for clearer planning.
 - Legal updates and practical reminders for cross-border planning.
 - Delivered after secure name and email submission.
 - Your name
-- Your full name
 - Your email
-- you@domain.com
 - After submitting, the PDF download opens automatically.
 - Unlock Newsletter PDF
+- Newsletter download details
+- Your full name
+- you@domain.com
 
 ### Search Results
 - Loading results…
 - No results yet. Enter a keyword to begin your search.
 
 ### Social Sharing
-- Share content
 - H2: Share this page
+- Share this page
 - Twitter
 - LinkedIn
 - Facebook
+- Share content
 
 ### Footer Brand
 - H2: Immigrate to Brazil
-- Get trusted legal guidance for your move to Brazil. Monique Fernandes helps
-- individuals, families, retirees, investors, and remote workers navigate
+- Immigrate
+- to Brazil
+- Receive calm, attorney-led guidance for your move to Brazil. Monique Fernandes helps
+- individuals, families, retirees, investors, and remote workers understand
 - visas, residency, citizenship, and cross-border legal matters with clear,
-- personalized support every step of the way.
+- personalized support.
 - Book a Consultation
 - Chat on WhatsApp
 - Attorney
@@ -510,6 +638,7 @@ File: `process/aftercare/index.html`
 - Support in English & Portuguese
 - Coverage
 - Serving clients worldwide online
+- Immigrate to Brazil brand wordmark with the site logo
 
 ### Footer Panel
 - H3: About
@@ -527,10 +656,11 @@ File: `process/aftercare/index.html`
 - Story
 - Testimonials
 - Values
-- Whyus
+- Why Us
 
 ### Footer Panel
 - H3: Process
+- Process
 - Overview
 - Aftercare
 - Alone
@@ -547,6 +677,7 @@ File: `process/aftercare/index.html`
 
 ### Footer Panel
 - H3: Rights
+- Rights
 - Overview
 - Naturalisation
 - Obligations
@@ -562,6 +693,7 @@ File: `process/aftercare/index.html`
 
 ### Footer Panel
 - H3: Insights
+- Insights
 - Blog
 - FYI
 - General
@@ -574,6 +706,7 @@ File: `process/aftercare/index.html`
 
 ### Footer Panel
 - H3: Legal
+- Legal
 - Accessibility
 - Cookies
 - Disclaimer
@@ -588,7 +721,7 @@ File: `process/aftercare/index.html`
 
 ### Footer Panel
 - H3: Explore
-- Brazil
+- Explore
 - Brazil
 - Central-West
 - Cities
@@ -664,26 +797,15 @@ File: `process/aftercare/index.html`
 - Artistic
 - Business
 - Diplomatic
-- Educational
-- Exchange
 - Family
-- Humanitarian
-- Investor
 - Journalist
 - Medical
-- Nomad
-- Religious
-- Research
-- Retiree
 - Sports
 - Startup
 - Student
 - Tourist
 - Transit
-- Volunteer
-- Work
 - Countries
-- Overview
 - Afghanistan
 - Albania
 - Algeria
@@ -707,7 +829,6 @@ File: `process/aftercare/index.html`
 - Bolivia
 - Bosnia-And-Herzegovina
 - Botswana
-- Brazil
 - Brunei
 - Bulgaria
 - Burkina-Faso
@@ -878,7 +999,8 @@ File: `process/aftercare/index.html`
 - Yemen
 - Zambia
 - Zimbabwe
-- © Immigrate to Brazil. All rights reserved.
+- ©
+- Immigrate to Brazil. All rights reserved.
 - Information provided is general guidance from Monique Fernandes' immigration practice and is not legal representation until engagement is confirmed.
 - Sitemap
 - •
@@ -890,21 +1012,19 @@ File: `process/aftercare/index.html`
 ### Nina Chat
 - Open Nina chat
 
-### Nina Chat
-- Nina chat
-
 ### Nina Concierge
-- Nina AI assistant avatar.
-- AI assistant
 - H2: Nina
+- AI assistant
+- Nina
+- Nina AI assistant avatar.
 - Close chat
 
 ### Nina Concierge
-- Suggested pages
 - H3: Likely service areas
+- Suggested pages
+- Likely service areas
 
 ### Nina Concierge
 - Continue on WhatsApp
 - Leave my details
 - Start again
-
