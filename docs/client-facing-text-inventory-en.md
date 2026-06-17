@@ -6,4 +6,4 @@ Start here: [docs/client-facing-text-inventory-en/README.md](client-facing-text-
 
 - Page files: 843
 - Supporting files: 000-inventory-preamble.md, 999-shared-english-runtime-generated-text.md
-- Split verification SHA-256: `e8b62adede21fd630492b535c7c8301e517e554776e0d32c7b9f37d725e40e83`
+- Split verification SHA-256: `08adf2e9032ca08a72a556f56f82f79a5795e316c0224e21ea4c249300726144`

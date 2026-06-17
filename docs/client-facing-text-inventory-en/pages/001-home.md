@@ -20,6 +20,7 @@ File: `index.html`
 - H3: International Family
 - H3: International Civil
 - H1: Immigrate to Brazil With Attorney Monique Fernandes
+- H2: Brazil is more than a destination.
 - H2: Move to Brazil With Legal Clarity
 - H3: Nationality, purpose, income and future plans
 - H3: Authorities, registrations and compliance
@@ -43,8 +44,8 @@ File: `index.html`
 - H3: Explore Life in Brazil
 - H2: Download the Brazil Immigration Guide
 - H2: Download the Brazilian Residency Permit Care Guide
-- H2: Start Your Brazil Immigration Consultation
 - H2: Immigrate to Brazil With Confidence
+- H2: Request a consultation with Monique Fernandes
 - H2: Get the Newsletter PDF
 - H2: Share this page
 - H2: Immigrate to Brazil
@@ -336,35 +337,25 @@ File: `index.html`
 - Brazil Immigration Attorney for Visas, Residency and Citizenship
 - Immigrate to Brazil With Attorney Monique Fernandes
 - Brazil is more than a destination. It is a place to build a life, reunite with family, work remotely, invest, retire, study, start again, or create a future with deeper roots.
-- From vibrant cities and coastal communities to family life, business opportunities, cultural richness, and a more personal way of living, Brazil attracts people from all over the world who are looking for something meaningful, practical, and lasting.
 - But moving to Brazil requires more than a dream. It requires the right legal route.
-- Attorney Monique Fernandes helps foreign nationals, families, investors, retirees, professionals, remote workers, students, and international clients understand Brazilian immigration law and move forward with clarity, preparation, and confidence.
-- As a Brazilian immigration attorney, Lawyer Monique assists clients with Brazil visas, residency in Brazil, permanent residence, Brazilian citizenship, naturalisation, family reunion, digital nomad immigration, investor immigration, work-based immigration, and immigration defence.
-- Whether you are still planning your move, already living in Brazil, applying for residency, preparing for citizenship, or facing an urgent immigration issue, Immigration Lawyer Monique provides attorney-led legal guidance based on your facts, your documents, and your long-term goals.
 - Book a Consultation
 - Explore Immigration Services
 - Meet Attorney Monique
 - Monique Fernandes
-- Brazilian immigration attorney for international clients who need attorney-led legal guidance based on their facts, documents, and long-term goals.
-- Brazilian immigration services for international clients
-- Brazil visas, residency, and permanent residence
-- Brazilian citizenship and naturalisation
-- Family reunion, marriage, and stable union immigration
-- Digital nomad, investor, work, study, and retiree routes
-- Immigration appeals, fines, deportation defence, and expulsion defence
-- English and Portuguese legal consultations for clients around the world
-- Services
-- Brazil visas, residency, citizenship, family immigration, defence, and supporting legal work.
-- Process
-- Private consultation, legal assessment, strategy, document planning, filing, and aftercare.
-- Attorney
-- Meet Attorney Monique Fernandes and understand her work with international clients.
-- Brazil
-- Plan the legal route before you move, marry, invest, retire, work, or apply for residency.
+- Brazilian immigration attorney for international clients.
 - Teatro Amazonas in Manaus at sunrise in Brazil.
-- Brazil immigration attorney homepage overview
-- Brazilian immigration attorney overview
 - Monique Fernandes, Brazilian immigration attorney, for the homepage.
+
+### Brazil Invitation
+- H2: Brazil is more than a destination.
+- Brazil Is More Than a Destination
+- Brazil is more than a destination.
+- From vibrant cities and coastal communities to family life, business opportunities, cultural richness, and a more personal way of living, Brazil attracts people from all over the world who are looking for something meaningful, practical, and lasting.
+- Attorney Monique Fernandes helps foreign nationals, families, investors, retirees, professionals, remote workers, students, and international clients understand Brazilian immigration law and move forward with clarity, preparation, and confidence.
+- Iconic Brazil destinations
+- Rio de Janeiro and Sugarloaf Mountain in Brazil.
+- Fernando de Noronha coastline in Brazil.
+- Lencois Maranhenses dunes and lagoons in Brazil.
 
 ### Home Legal Route
 - H2: Move to Brazil With Legal Clarity
@@ -374,6 +365,7 @@ File: `index.html`
 - Move to Brazil With Legal Clarity
 - Many people feel drawn to Brazil because of family, love, lifestyle, opportunity, climate, culture, retirement, remote work, investment, or a desire for a new chapter.
 - Some want to live closer to a Brazilian spouse, partner, child, or family member. Some want to work from Brazil as digital nomads. Some want to invest, open a business, study, retire, buy property, or build a more peaceful life in a country with warmth, energy, and possibility.
+- Whether you are still planning your move, already living in Brazil, applying for residency, preparing for citizenship, or facing an urgent immigration issue, Immigration Lawyer Monique provides attorney-led legal guidance based on your facts, your documents, and your long-term goals.
 - But the legal path is not always simple.
 - Purpose
 - Nationality, purpose, income and future plans
@@ -384,6 +376,7 @@ File: `index.html`
 - Attorney-led guidance
 - This is where Immigration Attorney Monique can help.
 - Doctor Monique Fernandes guides clients through the legal side of moving to Brazil so they can make decisions with greater confidence and avoid unnecessary confusion.
+- Attorney Monique Fernandes for Brazil immigration legal guidance.
 
 ### Services Showcase
 - H2: Brazilian Immigration Services for International Clients
@@ -503,8 +496,19 @@ File: `index.html`
 - These services are especially useful for foreign nationals who need Brazilian documents, foreign documents prepared for Brazil, or legal coordination between countries.
 - Explore Supporting Legal Services
 - Immigration services overview
+- Teatro Amazonas in Manaus at sunrise for Brazil immigration planning.
 - Brazil service image for advisory and visa guidance.
+- Salvador Barra waterfront in Brazil for visa planning.
+- Brasilia Cathedral in Brazil for residency planning.
+- Bonito natural landscape in Brazil for citizenship planning.
+- Iguazu Falls in Brazil for permanent residency planning.
 - Brazil service image for residency and naturalisation planning.
+- Historic Recife in Brazil for family immigration planning.
+- Florianopolis beach in Brazil for digital nomad planning.
+- Sao Paulo skyline in Brazil for investor immigration planning.
+- Maceio coastline in Brazil for retirement immigration planning.
+- Brasilia civic architecture in Brazil for immigration defence planning.
+- Vitoria Bay in Brazil for documentation and legal support planning.
 
 ### Process Showcase
 - H2: A Clear Process From First Consultation to Next Step
@@ -562,7 +566,7 @@ File: `index.html`
 - Cost of living
 - Healthcare
 - Housing
-- Brazil overview image for the homepage Brazil section.
+- Rio Negro Palace landscape in Brazil for the homepage Brazil section.
 
 ### Download the Brazil Immigration Guide
 - H2: Download the Brazil Immigration Guide
@@ -607,33 +611,6 @@ File: `index.html`
 - Your full name
 - you@domain.com
 
-### Universal Formspree Consultation
-- H2: Start Your Brazil Immigration Consultation
-- Start Your Brazil Immigration Consultation
-- If your immigration matter depends on your personal facts, the best next step is a private consultation with Attorney Monique Fernandes.
-- Use the consultation form to explain your situation, your current country, your nationality, your goal, your timeline, and the main immigration issue you need help with.
-- Immigration Attorney Monique can help you understand whether your matter involves a visa, residency, permanent residence, citizenship, naturalisation, family reunion, immigration defence, or supporting legal service.
-- Request a consultation if you need help with:
-- Moving to Brazil
-- Applying for a Brazil visa
-- Getting residency in Brazil
-- Becoming a Brazilian citizen
-- Family reunion in Brazil
-- Marriage, stable union, or family-based immigration
-- Digital nomad, investor, work, study, or retiree immigration
-- Permanent residency in Brazil
-- Immigration appeals, fines, deportation, or expulsion matters
-- CPF, CNPJ, apostille, documents, or legal support for life in Brazil
-- Full name
-- Email
-- Phone / WhatsApp
-- Current country
-- Main topic
-- Message
-- I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
-- This form records basic page and referral context so the reply can be more precise.
-- Request a Consultation With Attorney Monique
-
 ### Next Step
 - H2: Immigrate to Brazil With Confidence
 - Immigrate to Brazil With Confidence
@@ -645,6 +622,21 @@ File: `index.html`
 - Explore Services
 - Chat on WhatsApp
 - Monique Fernandes portrait for the homepage final consultation section.
+
+### Universal Formspree Consultation
+- H2: Request a consultation with Monique Fernandes
+- Contact Monique
+- Request a consultation with Monique Fernandes
+- Share a short summary so Monique Fernandes can understand your situation and identify the most appropriate next step for review.
+- Full name
+- Email
+- Phone / WhatsApp
+- Current country
+- Main topic
+- Message
+- I authorize this information to be sent for initial review. I understand consultation or representation depends on written confirmation.
+- This form records basic page and referral context so the reply can be more precise.
+- Send to Monique
 
 ### Newsletter Signup
 - H2: Get the Newsletter PDF

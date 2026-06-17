@@ -784,6 +784,7 @@ function normalizeImages(html, responsiveImages) {
   let heroMediaSeen = false;
   return html.replace(IMG_RE, (tag) => {
     const isHeroMedia = /\bclass=(["'])[\s\S]*?\bhero-media\b[\s\S]*?\1/i.test(tag);
+    const isPriorityHeroCutout = /\bclass=(["'])[\s\S]*?\bhome-hero-cutout__image\b[\s\S]*?\1/i.test(tag);
     const src = srcFromImageTag(tag);
     const record = responsiveImages.get(src);
     let updated = cleanStrayAttributeSlash(tag);
@@ -798,6 +799,13 @@ function normalizeImages(html, responsiveImages) {
 
     if (isHeroMedia && !heroMediaSeen) {
       heroMediaSeen = true;
+      updated = upsertAttribute(updated, "loading", "eager");
+      updated = upsertAttribute(updated, "fetchpriority", "high");
+      updated = upsertAttribute(updated, "decoding", "async");
+      return updated;
+    }
+
+    if (isPriorityHeroCutout) {
       updated = upsertAttribute(updated, "loading", "eager");
       updated = upsertAttribute(updated, "fetchpriority", "high");
       updated = upsertAttribute(updated, "decoding", "async");
