@@ -21,5 +21,11 @@
   "devDependencies": {
     "bootstrap": "^5.3.3",
     "lighthouse": "^13.0.3"
+  },
+  "overrides": {
+    "@opentelemetry/core": "^2.8.0",
+    "basic-ftp": "^6.0.1",
+    "ip-address": "^10.2.0",
+    "ws": "^8.21.0"
   }
 }
