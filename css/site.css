@@ -15033,6 +15033,11 @@ body.site-root .main-header--redesign ~ .navbar-collapse .mobile-nav-links a:foc
   body.site-root .main-header--redesign ~ .navbar-collapse .mobile-nav-shell {
     padding: 0.82rem;
   }
+
+  .main-header--redesign .brand-lockup__meta,
+  body.site-root .main-header--redesign .brand-lockup__meta {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -15693,10 +15698,6 @@ body.site-root .main-header--redesign ~ .navbar-collapse .mobile-nav-links a:foc
 
   .main-header--redesign .brand-lockup {
     gap: 0.46rem;
-  }
-
-  .main-header--redesign .brand-lockup__meta {
-    display: none;
   }
 
   .main-header--redesign .brand-wordmark__mark {
