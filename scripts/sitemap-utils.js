@@ -14,6 +14,8 @@ const XML_NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9";
 const XHTML_NAMESPACE = "http://www.w3.org/1999/xhtml";
 const SECTION_ORDER = [
   "foundation",
+  "start-consultation",
+  "contact",
   "services",
   "process",
   "rights",
@@ -34,6 +36,8 @@ const SECTION_ORDER = [
 ];
 const SECTION_LABELS = {
   foundation: "Foundation",
+  "start-consultation": "Start Consultation",
+  contact: "Contact",
   services: "Services",
   process: "Process",
   rights: "Rights",
@@ -636,7 +640,34 @@ export function buildSitemapStylesheet() {
 }
 
 export function buildRobots() {
-  return `User-agent: *\nAllow: /\n\nSitemap: ${absoluteUrl(SITEMAP_INDEX_ROUTE)}\n`;
+  return `# Immigrate to Brazil robots.txt
+# Applies to legitimate search and AI crawlers, including Googlebot, Bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, CCBot, and Google-Extended.
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /sitemaps/
+Allow: /sitemap.html
+Allow: /data/ai-route-manifest.json
+Allow: /data/search-index.json
+Allow: /pt-br/data/search-index.json
+Disallow: /partials/
+Disallow: /templates/
+Disallow: /memory-bank/
+Disallow: /reports/
+Disallow: /scripts/
+Disallow: /src/
+Disallow: /docs/
+Disallow: /path/
+Disallow: /node_modules/
+Disallow: /data/build-report.json
+Disallow: /data/formspree-map.json
+Disallow: /pt-br/data/build-report.json
+Disallow: /pt-br/data/formspree-map.json
+
+Sitemap: ${absoluteUrl(SITEMAP_INDEX_ROUTE)}
+`;
 }
 
 export async function resolveLastmodByFile(root, filePaths) {

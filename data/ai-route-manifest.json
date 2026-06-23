@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11",
+  "generatedAt": "2026-06-23",
   "site": {
     "name": "Immigrate to Brazil",
     "url": "https://immigratetobrazil.com",
@@ -7,7 +7,9 @@
       "en",
       "pt-BR"
     ],
-    "sitemap": "https://immigratetobrazil.com/sitemap.xml"
+    "sitemap": "https://immigratetobrazil.com/sitemap.xml",
+    "htmlSitemap": "https://immigratetobrazil.com/sitemap.html",
+    "llmsTxt": "https://immigratetobrazil.com/llms.txt"
   },
   "primaryEntity": {
     "name": "Monique Fernandes",
@@ -22,9 +24,17 @@
       "Brazil immigration defense"
     ]
   },
+  "discovery": {
+    "services": "https://immigratetobrazil.com/services/",
+    "guides": "https://immigratetobrazil.com/insights/guides/",
+    "insights": "https://immigratetobrazil.com/insights/",
+    "consultation": "https://immigratetobrazil.com/start-consultation/",
+    "countries": "https://immigratetobrazil.com/countries/",
+    "portuguese": "https://immigratetobrazil.com/pt-br/"
+  },
   "indexableCounts": {
-    "en": 837,
-    "pt-br": 837
+    "en": 838,
+    "pt-br": 838
   },
   "keyRoutes": [
     {
@@ -32,6 +42,14 @@
       "url": "https://immigratetobrazil.com",
       "title": "Immigrate to Brazil With Attorney Monique Fernandes",
       "description": "Brazil immigration attorney Monique Fernandes helps international clients with Brazil visas, residency, permanent residence, citizenship, naturalisation, family immigration, digital nomad, investor, work, study, retiree, and immigration defence matters.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/contact/",
+      "url": "https://immigratetobrazil.com/contact/",
+      "title": "<span>Request a consultation</span>",
+      "description": "Contact Monique Fernandes with a short Brazil immigration consultation request and receive written next steps after manual review.",
       "language": "en",
       "indexable": true
     },
@@ -76,10 +94,82 @@
       "indexable": true
     },
     {
+      "route": "/services/advisory/",
+      "url": "https://immigratetobrazil.com/services/advisory/",
+      "title": "Advisory",
+      "description": "Monique Fernandes uses advisory services to help clients compare routes, structure strategy, and choose the right next step before problems multiply.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/advisory/consultation/",
+      "url": "https://immigratetobrazil.com/services/advisory/consultation/",
+      "title": "Consultation",
+      "description": "Monique Fernandes helps people who need a structured first review before choosing a route or taking the next step understand what her consultation service can do, whether it is the right fit, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/advisory/strategy/",
+      "url": "https://immigratetobrazil.com/services/advisory/strategy/",
+      "title": "Strategy",
+      "description": "Monique Fernandes helps clients who need route comparison, sequencing, and long-term immigration planning understand what her strategy service can do, whether it is the right fit, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
       "route": "/services/visas/",
       "url": "https://immigratetobrazil.com/services/visas/",
       "title": "Visas",
       "description": "Monique Fernandes helps clients compare Brazil visa services with clearer guidance on route fit, preparation, timing, and next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/family/",
+      "url": "https://immigratetobrazil.com/services/visas/family/",
+      "title": "Family Visa",
+      "description": "Monique Fernandes helps spouses, partners, parents, children, and family-based applicants understand whether the family visa route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/nomad/",
+      "url": "https://immigratetobrazil.com/services/visas/nomad/",
+      "title": "Nomad Visa",
+      "description": "Monique Fernandes helps remote workers, online business owners, and location-independent professionals understand whether the nomad visa route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/investor/",
+      "url": "https://immigratetobrazil.com/services/visas/investor/",
+      "title": "Investor Visa",
+      "description": "Monique Fernandes helps investors, entrepreneurs, founders, and business-linked applicants understand whether the investor visa route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/work/",
+      "url": "https://immigratetobrazil.com/services/visas/work/",
+      "title": "Work Visa",
+      "description": "Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work visa route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/student/",
+      "url": "https://immigratetobrazil.com/services/visas/student/",
+      "title": "Student Visa",
+      "description": "Monique Fernandes helps students, trainees, and families planning study-based entry understand whether the student visa route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/visas/retiree/",
+      "url": "https://immigratetobrazil.com/services/visas/retiree/",
+      "title": "Retiree Visa",
+      "description": "Monique Fernandes helps retirees, couples, and families planning longer-term retirement life understand whether the retiree visa route is the right fit, how the route works, and what the next step may be in Brazil.",
       "language": "en",
       "indexable": true
     },
@@ -92,10 +182,74 @@
       "indexable": true
     },
     {
+      "route": "/services/residencies/reunion/",
+      "url": "https://immigratetobrazil.com/services/residencies/reunion/",
+      "title": "Reunion Residency",
+      "description": "Monique Fernandes helps spouses, partners, parents, children, and families planning long-term family life in Brazil understand whether the reunion residency route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/nomad/",
+      "url": "https://immigratetobrazil.com/services/residencies/nomad/",
+      "title": "Nomad Residency",
+      "description": "Monique Fernandes helps remote workers, online business owners, and location-independent professionals understand whether the nomad residency route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/investor/",
+      "url": "https://immigratetobrazil.com/services/residencies/investor/",
+      "title": "Investor Residency",
+      "description": "Monique Fernandes helps investors, entrepreneurs, founders, and business-linked applicants understand whether the investor residency route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/work/",
+      "url": "https://immigratetobrazil.com/services/residencies/work/",
+      "title": "Work Residency",
+      "description": "Monique Fernandes helps professionals, employers, and sponsored workers understand whether the work residency route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/mercosul/",
+      "url": "https://immigratetobrazil.com/services/residencies/mercosul/",
+      "title": "MERCOSUL Residency",
+      "description": "Monique Fernandes helps MERCOSUL nationals and families planning residence in Brazil understand whether mercosul residency is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/residencies/cplp/",
+      "url": "https://immigratetobrazil.com/services/residencies/cplp/",
+      "title": "CPLP Residency",
+      "description": "Monique Fernandes helps CPLP nationals and families planning lawful residence in Brazil understand whether cplp residency is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
       "route": "/services/naturalisation/",
       "url": "https://immigratetobrazil.com/services/naturalisation/",
       "title": "Naturalisation",
       "description": "Monique Fernandes helps clients compare naturalisation services with clearer guidance on citizenship strategy, timing, legal fit, and next steps.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/naturalisation/ordinary/",
+      "url": "https://immigratetobrazil.com/services/naturalisation/ordinary/",
+      "title": "Ordinary Naturalisation",
+      "description": "Monique Fernandes helps long-term residents reviewing Brazilian citizenship through the ordinary route understand whether the ordinary naturalisation route is the right fit, how the route works, and what the next step may be in Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/services/naturalisation/extraordinary/",
+      "url": "https://immigratetobrazil.com/services/naturalisation/extraordinary/",
+      "title": "Extraordinary Naturalisation",
+      "description": "Monique Fernandes helps long-term residents or complex cases reviewing extraordinary naturalisation possibilities understand whether the extraordinary naturalisation route is the right fit, how the route works, and what the next step may be in Brazil.",
       "language": "en",
       "indexable": true
     },
@@ -116,10 +270,106 @@
       "indexable": true
     },
     {
+      "route": "/process/consultation/",
+      "url": "https://immigratetobrazil.com/process/consultation/",
+      "title": "Consultation",
+      "description": "Consultation is where Monique Fernandes turns a broad immigration idea into a clear legal starting point, with route analysis, timing guidance, and realistic next steps for Brazil.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/assessment/",
+      "url": "https://immigratetobrazil.com/process/assessment/",
+      "title": "Assessment",
+      "description": "Assessment is where Monique Fernandes reviews chronology, documents, route fit, and risk so a Brazil immigration matter can be positioned on real facts instead of assumptions.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/filing/",
+      "url": "https://immigratetobrazil.com/process/filing/",
+      "title": "Filing",
+      "description": "Filing is where Monique Fernandes organizes the record, controls the sequence, and prepares a Brazil immigration matter for submission with stronger structure and fewer avoidable weaknesses.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/approval/",
+      "url": "https://immigratetobrazil.com/process/approval/",
+      "title": "Approval",
+      "description": "Monique Fernandes explains approval as a government decision shaped by law, evidence, and timing, while helping clients prepare for requests, delays, approval, or refusal with realistic expectations.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/renewal/",
+      "url": "https://immigratetobrazil.com/process/renewal/",
+      "title": "Renewal",
+      "description": "Monique treats renewal as continuity work that protects future options, not just a last-minute administrative task.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/process/aftercare/",
+      "url": "https://immigratetobrazil.com/process/aftercare/",
+      "title": "Aftercare",
+      "description": "Aftercare is how Monique Fernandes helps clients protect stability after approval, understand what comes next, and keep their Brazil immigration position strong over time.",
+      "language": "en",
+      "indexable": true
+    },
+    {
       "route": "/brazil/",
       "url": "https://immigratetobrazil.com/brazil/",
       "title": "Brazil Hub",
       "description": "Start here when you want to understand Brazil as a country you may actually build a life around. This hub connects lifestyle research, regional comparison, and relocation planning so country-level interest can turn into a more grounded decision.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/guides/",
+      "url": "https://immigratetobrazil.com/brazil/guides/",
+      "title": "Guides",
+      "description": "These Brazil guides are designed to make planning more practical: first steps, common mistakes, settling tasks, and the everyday questions that appear before and after arrival.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/living/",
+      "url": "https://immigratetobrazil.com/brazil/living/",
+      "title": "Living",
+      "description": "Daily life in Brazil changes a great deal by city, region, and budget. We explain what routine, rhythm, social life, and adaptation can actually look like on the ground.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/cost/",
+      "url": "https://immigratetobrazil.com/brazil/cost/",
+      "title": "Cost",
+      "description": "Cost of living in Brazil cannot be reduced to one headline number. We break it into housing, transport, healthcare, food, education, and lifestyle so planning can become more realistic.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/cities/",
+      "url": "https://immigratetobrazil.com/brazil/cities/",
+      "title": "Cities",
+      "description": "City choice shapes daily life in Brazil more than national image does. We explain how scale, housing, transport, safety, services, and social rhythm change from one city to another.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/healthcare/",
+      "url": "https://immigratetobrazil.com/brazil/healthcare/",
+      "title": "Healthcare",
+      "description": "Healthcare in Brazil combines public access, private options, strong local variation, and planning questions that matter to individuals and families alike.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/brazil/housing/",
+      "url": "https://immigratetobrazil.com/brazil/housing/",
+      "title": "Housing",
+      "description": "Housing choices shape whether a move to Brazil feels stable, expensive, or exhausting. We explain the practical realities of renting, buying, neighborhood choice, and local housing expectations.",
       "language": "en",
       "indexable": true
     },
@@ -132,10 +382,106 @@
       "indexable": true
     },
     {
+      "route": "/countries/united-states/",
+      "url": "https://immigratetobrazil.com/countries/united-states/",
+      "title": "Moving to Brazil from United States",
+      "description": "Moving to Brazil from United States? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/portugal/",
+      "url": "https://immigratetobrazil.com/countries/portugal/",
+      "title": "Moving to Brazil from Portugal",
+      "description": "Moving to Brazil from Portugal? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/france/",
+      "url": "https://immigratetobrazil.com/countries/france/",
+      "title": "Moving to Brazil from France",
+      "description": "Moving to Brazil from France? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/germany/",
+      "url": "https://immigratetobrazil.com/countries/germany/",
+      "title": "Moving to Brazil from Germany",
+      "description": "Moving to Brazil from Germany? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/canada/",
+      "url": "https://immigratetobrazil.com/countries/canada/",
+      "title": "Moving to Brazil from Canada",
+      "description": "Moving to Brazil from Canada? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/countries/argentina/",
+      "url": "https://immigratetobrazil.com/countries/argentina/",
+      "title": "Moving to Brazil from Argentina",
+      "description": "Moving to Brazil from Argentina? Compare visas, residencies, naturalisation routes, document planning, and consultation guidance with Monique Fernandes at",
+      "language": "en",
+      "indexable": true
+    },
+    {
       "route": "/insights/",
       "url": "https://immigratetobrazil.com/insights/",
       "title": "Insights",
       "description": "Use this hub when you want calmer, better-organized reading about Brazil before your case becomes personal. These articles are here to reduce confusion, answer recurring questions, and help research become more useful than endless scrolling.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/guides/",
+      "url": "https://immigratetobrazil.com/insights/guides/",
+      "title": "Guides",
+      "description": "These guides are written for readers who need practical orientation before or during a move to Brazil. They connect immigration steps with daily-life reality so the planning process feels more coherent from the beginning.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/visa/",
+      "url": "https://immigratetobrazil.com/insights/visa/",
+      "title": "Visa",
+      "description": "Visa research becomes much easier once the purpose of entry is separated from later residence planning. We explain how entry categories work, what consulates actually do, and where people most often confuse the first step with the whole process.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/residency/",
+      "url": "https://immigratetobrazil.com/insights/residency/",
+      "title": "Residency",
+      "description": "Residency is where Brazil stops being a trip and starts becoming a legal continuity question. We explain longer-term stay in plain English so readers can understand documents, renewal logic, and authority expectations before a file is under pressure.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/naturalisation/",
+      "url": "https://immigratetobrazil.com/insights/naturalisation/",
+      "title": "Naturalisation",
+      "description": "Naturalisation planning only makes sense when the wider record is being read in sequence. Here we explain citizenship thinking in a calmer, long-term way so readers can see where continuity, records, family history, and timing actually matter.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/updates/",
+      "url": "https://immigratetobrazil.com/insights/updates/",
+      "title": "Brazil Immigration Updates Explained Calmly",
+      "description": "Updates matter, but not every change means immediate disruption. This page is designed to help readers interpret legal and administrative developments with more calm, more context, and a better sense of what actually needs attention.",
+      "language": "en",
+      "indexable": true
+    },
+    {
+      "route": "/insights/fyi/",
+      "url": "https://immigratetobrazil.com/insights/fyi/",
+      "title": "FYI archive: shorter immigration notes, travel changes, and Brazil planning signals",
+      "description": "Browse short-form immigration notes, travel signals, and move-to-Brazil context collected under the FYI archive at Immigrate to Brazil.",
       "language": "en",
       "indexable": true
     },
@@ -152,6 +498,14 @@
       "url": "https://immigratetobrazil.com/pt-br/",
       "title": "Imigrar para o Brasil com a advogada Monique Fernandes",
       "description": "A advogada de imigração para o Brasil, Monique Fernandes, ajuda clientes internacionais com vistos Brasil, residência, residência permanente, cidadania, naturalização, imigração familiar, nômade digital, investidor, trabalho, estudo, aposentado e questões de defesa de imigração.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/contact/",
+      "url": "https://immigratetobrazil.com/pt-br/contact/",
+      "title": "<span>Solicitar contato</span>",
+      "description": "Entre em contato com Monique Fernandes para enviar um resumo inicial e receber orientação sobre os próximos passos após análise manual.",
       "language": "pt-BR",
       "indexable": true
     },
@@ -176,6 +530,62 @@
       "url": "https://immigratetobrazil.com/pt-br/services/",
       "title": "Serviços de Direito de Imigração - Visto, Residência, Cidadania e Defesa",
       "description": "A advogada de imigração para o Brasil, Monique Fernandes, oferece serviços jurídicos abrangentes: consultoria de imigração, serviços de vistos, planejamento de residência, cidadania, naturalização, defesa de imigração, direito internacional de família e questões de direito civil.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/services/visas/",
+      "url": "https://immigratetobrazil.com/pt-br/services/visas/",
+      "title": "Vistos",
+      "description": "Monique Fernandes ajuda os clientes a comparar os serviços de visto para o Brasil com orientações mais claras sobre ajuste de rota, preparação, tempo e próximos passos.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/services/residencies/",
+      "url": "https://immigratetobrazil.com/pt-br/services/residencies/",
+      "title": "Residências",
+      "description": "Monique Fernandes ajuda os clientes a comparar os serviços de residência para o Brasil com orientações mais claras sobre permanência legal, continuidade, prazo e próximos passos.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/services/naturalisation/",
+      "url": "https://immigratetobrazil.com/pt-br/services/naturalisation/",
+      "title": "Naturalização",
+      "description": "Monique Fernandes ajuda os clientes a comparar os serviços de naturalização com orientações mais claras sobre estratégia de cidadania, prazo, adequação legal e próximos passos.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/process/",
+      "url": "https://immigratetobrazil.com/pt-br/process/",
+      "title": "Processo de Imigração Brasil",
+      "description": "Acompanhe o processo de imigração de Monique Fernandes para o Brasil desde a primeira consulta até a avaliação, arquivamento, aprovação, conformidade e cuidados posteriores, com expectativas claras para clientes remotos em inglês e português.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/brazil/",
+      "url": "https://immigratetobrazil.com/pt-br/brazil/",
+      "title": "Hub Brasil",
+      "description": "Comece aqui quando quiser entender Brasil como um país em torno do qual você pode realmente construir uma vida. Este centro conecta pesquisas sobre estilo de vida, comparação regional e planejamento de relocação para que o interesse em nível nacional possa se transformar em uma decisão mais fundamentada.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/countries/",
+      "url": "https://immigratetobrazil.com/pt-br/countries/",
+      "title": "Planejamento de imigração específico do país para mudança para o Brasil",
+      "description": "Use o hub de países para comparar o planejamento de imigração com o Brasil do seu país, incluindo seleção de rota, estratégia de documentos, tempo de realocação e orientação de Monique Fernandes para casos transfronteiriços.",
+      "language": "pt-BR",
+      "indexable": true
+    },
+    {
+      "route": "/pt-br/insights/",
+      "url": "https://immigratetobrazil.com/pt-br/insights/",
+      "title": "Insights",
+      "description": "Use este hub quando quiser uma leitura mais calma e organizada sobre o Brasil antes que seu caso se torne pessoal. Esses artigos estão aqui para reduzir a confusão, responder a perguntas recorrentes e ajudar a pesquisa a se tornar mais útil do que a rolagem interminável.",
       "language": "pt-BR",
       "indexable": true
     },

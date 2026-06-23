@@ -3689,6 +3689,47 @@ body:not(.theme-light) .asha-chat__best {
   color: var(--text-muted);
 }
 
+.form-status,
+.form-success {
+  grid-column: 1 / -1;
+}
+
+.form-status {
+  min-height: 1.5rem;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.94rem;
+}
+
+.lead-form[data-state="error"] .form-status {
+  color: #a33b22;
+  font-weight: 800;
+}
+
+.lead-form[data-state="submitting"] {
+  opacity: 0.78;
+}
+
+.lead-form[data-state="submitting"] button {
+  cursor: progress;
+}
+
+.form-success {
+  padding: clamp(1rem, 2vw, 1.4rem);
+  border: 1px solid rgba(82, 183, 136, 0.28);
+  border-radius: var(--radius-xs);
+  background: rgba(216, 243, 220, 0.2);
+}
+
+.form-success h3,
+.form-success p {
+  margin: 0;
+}
+
+.form-success h3 + p {
+  margin-top: 0.5rem;
+}
+
 .search-inline-form {
   display: flex;
   flex-wrap: wrap;

@@ -202,7 +202,7 @@
   {
     "route": "/brazil/search/",
     "title": "Search",
-    "wordCount": 1814
+    "wordCount": 1890
   },
   {
     "route": "/brazil/south/",
@@ -223,6 +223,11 @@
     "route": "/client-feedback/",
     "title": "Client Feedback",
     "wordCount": 748
+  },
+  {
+    "route": "/contact/",
+    "title": "<span>Request a consultation</span>",
+    "wordCount": 174
   },
   {
     "route": "/countries/",
@@ -3617,7 +3622,7 @@
   {
     "route": "/legal/404/",
     "title": "Page Not Found",
-    "wordCount": 332
+    "wordCount": 408
   },
   {
     "route": "/legal/accessibility/",
@@ -3672,7 +3677,7 @@
   {
     "route": "/legal/search/",
     "title": "Search",
-    "wordCount": 556
+    "wordCount": 632
   },
   {
     "route": "/legal/terms/",

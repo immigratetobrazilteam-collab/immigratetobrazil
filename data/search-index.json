@@ -865,6 +865,20 @@
     "noindex": false
   },
   {
+    "route": "/contact/",
+    "title": "<span>Request a consultation</span>",
+    "browserTitle": "Contact Monique Fernandes | Immigrate to Brazil",
+    "family": "foundation",
+    "summary": "Contact Monique Fernandes with a short Brazil immigration consultation request and receive written next steps after manual review.",
+    "topics": [
+      "The consultation process is manual and structured",
+      "Consultation process"
+    ],
+    "faq": [],
+    "keywords": "Contact Monique Fernandes | Immigrate to Brazil <span>Request a consultation</span> The consultation process is manual and structured Consultation process foundation",
+    "noindex": false
+  },
+  {
     "route": "/countries/",
     "title": "Country-specific immigration planning for moving to Brazil",
     "browserTitle": "Countries | Move to Brazil from Your Country | Immigrate to Brazil",

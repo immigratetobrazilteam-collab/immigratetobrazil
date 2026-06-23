@@ -1,29 +1,69 @@
 # Immigrate to Brazil
 
-Immigrate to Brazil is the Brazil immigration guidance site led by attorney Monique Fernandes.
+> Brazil immigration guidance, services, and consultation resources led by attorney Monique Fernandes for international clients in English and Portuguese.
 
-Primary entity:
-- Monique Fernandes: Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
-- Site: https://immigratetobrazil.com/
-- Main lawyer page: https://immigratetobrazil.com/about/lawyer/
-- About hub: https://immigratetobrazil.com/about/
-- Services hub: https://immigratetobrazil.com/services/
-- Consultation: https://immigratetobrazil.com/start-consultation/
-- Portuguese home: https://immigratetobrazil.com/pt-br/
-- Portuguese consultation: https://immigratetobrazil.com/pt-br/start-consultation/
+Immigrate to Brazil helps foreign nationals, families, investors, retirees, remote workers, students, and companies understand Brazilian immigration routes, residency planning, citizenship and naturalisation, compliance, and practical relocation issues.
 
-Core topics:
+## Primary Entity
+
+- [Monique Fernandes](https://immigratetobrazil.com/about/lawyer/): Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
+- [Immigrate to Brazil](https://immigratetobrazil.com/): official website for attorney-led Brazil immigration guidance.
+- [About Monique Fernandes](https://immigratetobrazil.com/about/): legal identity, method, values, story, and client context.
+
+## Core Services
+
+- [Services Hub](https://immigratetobrazil.com/services/): overview of Brazil immigration legal services.
+- [Brazil Visa Services](https://immigratetobrazil.com/services/visas/): tourist, family, work, student, investor, digital nomad, retirement, humanitarian, religious, research, artistic, and other visa routes.
+- [Brazil Residency Services](https://immigratetobrazil.com/services/residencies/): temporary residence, permanent residence, family reunion, work, investor, digital nomad, study, MERCOSUL, CPLP, humanitarian, retiree, and related residence routes.
+- [Naturalisation And Citizenship](https://immigratetobrazil.com/services/naturalisation/): ordinary, extraordinary, special, provisional, renunciation, and reacquisition matters.
+- [Immigration Defense](https://immigratetobrazil.com/services/defense/): fines, appeals, deportation, expulsion, extradition, and litigation.
+- [Advisory And Strategy](https://immigratetobrazil.com/services/advisory/): consultation, corporate immigration, compliance, representation, and immigration planning.
+- [Supporting Services](https://immigratetobrazil.com/services/other/): records, consular support, regularization, and translation-related legal support.
+
+## Consultation Pages
+
+- [Start Consultation](https://immigratetobrazil.com/start-consultation/): structured intake for route analysis and attorney review.
+- [Contact](https://immigratetobrazil.com/contact/): contact options and consultation form.
+- [Process Overview](https://immigratetobrazil.com/process/): consultation, assessment, filing, approval, renewal, obligations, and aftercare.
+- [Portuguese Consultation](https://immigratetobrazil.com/pt-br/start-consultation/): Portuguese consultation intake.
+- [Portuguese Contact](https://immigratetobrazil.com/pt-br/contact/): Portuguese contact options.
+
+## Guides And Resources
+
+- [Brazil Hub](https://immigratetobrazil.com/brazil/): living in Brazil, regions, cities, cost, healthcare, education, housing, safety, culture, economy, and practical relocation topics.
+- [Guides](https://immigratetobrazil.com/insights/guides/): practical immigration and Brazil relocation guides.
+- [Visa Insights](https://immigratetobrazil.com/insights/visa/): visa-related guidance and updates.
+- [Residency Insights](https://immigratetobrazil.com/insights/residency/): residence permit topics and compliance.
+- [Naturalisation Insights](https://immigratetobrazil.com/insights/naturalisation/): citizenship and naturalisation topics.
+- [Immigration Updates](https://immigratetobrazil.com/insights/updates/): current immigration and mobility updates.
+- [Brazil FYI](https://immigratetobrazil.com/insights/fyi/): short travel, law, and migration explainers.
+
+## Country And Regional Pages
+
+- [Countries Hub](https://immigratetobrazil.com/countries/): country-specific immigration entry points for people planning a move to Brazil.
+- [United States](https://immigratetobrazil.com/countries/united-states/), [Portugal](https://immigratetobrazil.com/countries/portugal/), [France](https://immigratetobrazil.com/countries/france/), [Germany](https://immigratetobrazil.com/countries/germany/), [United Kingdom](https://immigratetobrazil.com/countries/united-kingdom/), [Canada](https://immigratetobrazil.com/countries/canada/), and [Argentina](https://immigratetobrazil.com/countries/argentina/) are examples of country pages; the full directory is in the sitemap.
+- [Portuguese Countries Hub](https://immigratetobrazil.com/pt-br/countries/): Portuguese country directory.
+
+## Topics
+
 - Brazil visas
 - Brazil residency
 - Brazilian naturalisation and citizenship
 - Immigration defense, regularization, compliance, and planning
 - Relocation and life in Brazil
+- Family reunion, marriage, stable union, Brazilian children, and cross-border family planning
+- Digital nomad, investor, retiree, work, study, MERCOSUL, CPLP, humanitarian, religious, volunteer, research, artistic, sports, journalist, and medical routes
 
-Preferred discovery files:
-- XML sitemap index: https://immigratetobrazil.com/sitemap.xml
-- Human sitemap: https://immigratetobrazil.com/sitemap.html
-- AI route manifest: https://immigratetobrazil.com/data/ai-route-manifest.json
+## Discovery Files
 
-Contact:
-- Formspree consultation forms are embedded on indexable client-facing pages.
-- WhatsApp contact is available from page CTAs and includes page context.
+- [XML sitemap index](https://immigratetobrazil.com/sitemap.xml): canonical sitemap index with child sitemaps.
+- [HTML sitemap](https://immigratetobrazil.com/sitemap.html): human-readable indexable route directory.
+- [AI route manifest](https://immigratetobrazil.com/data/ai-route-manifest.json): concise machine-readable key route manifest.
+- [English search index](https://immigratetobrazil.com/data/search-index.json): indexable English route metadata.
+- [Portuguese search index](https://immigratetobrazil.com/pt-br/data/search-index.json): indexable Portuguese route metadata.
+
+## Contact
+
+- Consultation forms are embedded on indexable client-facing pages.
+- WhatsApp contact is available from page calls to action and includes page context.
+- Email: moniquefadv@gmail.com

@@ -9,7 +9,7 @@ import { absoluteUrl, localeForRoute } from "./sitemap-utils.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/xdawygld";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdaaoyb";
 const UNIVERSAL_FORM_RE =
   /\n?\s*<!-- Section: Universal Formspree Consultation -->[\s\S]*?<!-- End Section: Universal Formspree Consultation -->\s*/gi;
 const MANAGED_PARTIAL_SECTION_COMMENT_RE = /\n?\s*<!--\s*Section:\s*[\w\s/-]+ Partial\s*-->\s*/gi;
@@ -25,31 +25,158 @@ const RESPONSIVE_IMAGE_WIDTHS = {
 };
 const FORM_HIDDEN_NAMES = [
   "site_domain",
+  "domain",
+  "subdomain",
+  "website_url",
   "current_url",
+  "page_url",
   "canonical_url",
   "page_route",
   "page_title",
   "page_language",
   "page_family",
+  "section_of_site",
+  "page_category",
+  "page_template",
+  "page_id",
+  "content_id",
+  "article_post_id",
+  "product_id",
   "referrer_url",
   "referrer_domain",
+  "referring_domain",
   "landing_url",
   "landing_route",
+  "campaign_landing_page",
+  "first_page_visited",
+  "previous_page",
+  "session_entry_page",
+  "exit_page",
+  "next_page_prediction",
   "utm_source",
   "utm_medium",
   "utm_campaign",
   "utm_term",
   "utm_content",
   "utm_id",
+  "marketing_source",
+  "marketing_medium",
+  "campaign_name",
+  "campaign_id",
+  "ad_group",
+  "keyword_searched",
+  "click_id",
   "gclid",
   "fbclid",
   "msclkid",
+  "gbraid",
+  "wbraid",
   "device_type",
+  "device_model",
+  "browser_type",
+  "browser_version",
+  "operating_system",
+  "user_agent",
+  "browser_language",
+  "language_settings",
+  "preferred_locale",
   "viewport_width",
   "viewport_height",
+  "viewport_size",
+  "window_size",
+  "screen_width",
+  "screen_height",
+  "screen_size",
+  "screen_resolution",
+  "color_depth",
+  "touch_capability",
+  "cookie_enabled",
+  "javascript_enabled",
+  "device_orientation",
+  "dark_mode_preference",
+  "reduced_motion_preference",
   "timezone",
+  "submission_timestamp",
   "submitted_at",
-  "form_placement"
+  "form_submission_time",
+  "session_id",
+  "visitor_id",
+  "anonymous_user_id",
+  "visit_number",
+  "first_visit_at",
+  "last_visit_at",
+  "session_duration_ms",
+  "time_spent_on_page_ms",
+  "time_on_page_ms",
+  "scroll_depth",
+  "mouse_movement_activity",
+  "number_of_clicks_before_form",
+  "pages_viewed",
+  "which_form_was_used",
+  "form_id",
+  "form_version",
+  "ab_test_variant",
+  "form_location_on_page",
+  "form_placement",
+  "section_of_page_containing_form",
+  "widget_component_name",
+  "form_start_time",
+  "time_to_complete_form_ms",
+  "form_completion_time_ms",
+  "validation_errors_encountered",
+  "number_of_attempts",
+  "autofill_used",
+  "paste_events",
+  "copy_events",
+  "field_interaction_history",
+  "fields_viewed",
+  "fields_skipped",
+  "visible_field_count",
+  "content_topic",
+  "content_author",
+  "publication_date",
+  "subscription_status_of_content",
+  "language_of_page",
+  "country_version_of_site",
+  "search_query_entered_on_site",
+  "local_user_time",
+  "day_of_week",
+  "month",
+  "quarter",
+  "business_hours_indicator",
+  "holiday_indicator",
+  "connection_type",
+  "connection_effective_type",
+  "connection_downlink_mbps",
+  "connection_rtt_ms",
+  "save_data_enabled",
+  "ip_address",
+  "ip_country",
+  "ip_region_state",
+  "ip_city",
+  "ip_timezone",
+  "isp",
+  "network_type",
+  "vpn_detected",
+  "proxy_detected",
+  "bot_likelihood_score",
+  "risk_score",
+  "company_domain_enriched",
+  "company_size",
+  "industry",
+  "revenue_band",
+  "employee_count",
+  "account_owner",
+  "lead_score",
+  "logged_in_user_id",
+  "current_workspace",
+  "current_project",
+  "current_document",
+  "current_feature_module",
+  "feature_version",
+  "workflow_stage",
+  "browser_tab_visibility_state",
+  "time_page_remained_active_ms"
 ];
 const SECTION_CLASS_STOPWORDS = new Set([
   "container",
@@ -487,7 +614,7 @@ function readCanonical(html, route) {
 }
 
 function shouldReceiveUniversalForm(pageData) {
-  return !pageData.noindex;
+  return Boolean(pageData);
 }
 
 function cleanStrayAttributeSlash(tag) {
@@ -824,11 +951,37 @@ function buildHiddenInput(name, value = "", dynamic = true) {
   return `<input type="hidden" name="${escapeAttribute(name)}" value="${escapeAttribute(value)}"${dynamicAttr} />`;
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function readHiddenInputValue(html, name) {
+  const inputPattern = new RegExp(
+    `<input\\b(?=[^>]*\\btype=["']hidden["'])(?=[^>]*\\bname=["']${escapeRegExp(name)}["'])[^>]*>`,
+    "i"
+  );
+  const inputMatch = html.match(inputPattern);
+  if (!inputMatch) return "";
+  const valueMatch = inputMatch[0].match(/\bvalue=(["'])([\s\S]*?)\1/i);
+  return valueMatch ? valueMatch[2] : "";
+}
+
+function removeHiddenInputByName(html, name) {
+  const pattern = new RegExp(
+    `\\n?\\s*<input\\b(?=[^>]*\\btype=["']hidden["'])(?=[^>]*\\bname=["']${escapeRegExp(name)}["'])[^>]*>`,
+    "gi"
+  );
+  return html.replace(pattern, "");
+}
+
 function buildUniversalForm({ route, title, family, canonical, isPt }) {
   const subject = isPt
     ? `Consulta pelo site | ${title} | PT`
     : `Website consultation request | ${title} | EN`;
   const formName = `page-consultation-${isPt ? "pt" : "en"}-${slugify(route)}`;
+  const autoFocusAttr = /^\/(?:pt-br\/)?(?:contact|start-consultation|process\/consultation)\/$/.test(route)
+    ? ' data-itb-form-autofocus="true"'
+    : "";
   const serviceDefault = routeSegments(route).slice(0, 3).join(" / ") || "general";
   const hiddenFields = [
     buildHiddenInput("_subject", subject, false),
@@ -900,7 +1053,7 @@ function buildUniversalForm({ route, title, family, canonical, isPt }) {
 
   return `
 <!-- Section: Universal Formspree Consultation -->
-<section class="lead-form-block universal-consultation-form" id="page-consultation-form" data-universal-formspree="true">
+<section class="lead-form-block universal-consultation-form" id="page-consultation-form" data-universal-formspree="true"${autoFocusAttr}>
   <div class="section-head">
     <p class="section-kicker">${escapeHtml(copy.kicker)}</p>
     <h2 class="section-title"><span>${escapeHtml(copy.title)}</span></h2>
@@ -917,6 +1070,7 @@ function buildUniversalForm({ route, title, family, canonical, isPt }) {
       <label>${escapeHtml(copy.message)}<textarea name="message" rows="5" required></textarea></label>
       <label class="form-consent"><input type="checkbox" name="contact_consent" value="yes" required /> <span>${escapeHtml(copy.consent)}</span></label>
       <p class="form-note">${escapeHtml(copy.note)}</p>
+      <p class="form-status" role="status" aria-live="polite" data-itb-form-status="true"></p>
       <button type="submit" class="btn btn-cta" data-cta-click="true">${escapeHtml(copy.button)}</button>
     </form>
 </section>
@@ -924,9 +1078,13 @@ function buildUniversalForm({ route, title, family, canonical, isPt }) {
 `;
 }
 
-function insertUniversalForm(html, formHtml) {
+function insertUniversalForm(html, formHtml, route) {
   const clean = html.replace(UNIVERSAL_FORM_RE, "\n");
   if (FORMSPREE_FORM_RE.test(clean)) return clean;
+
+  if (/^\/(?:pt-br\/)?process\/consultation\/$/.test(route)) {
+    return clean.replace(/(<article\s+class=["']content-column["']>\s*)/i, `$1\n${formHtml}\n`);
+  }
 
   if (/<div\s+data-partial=["']disclaimer["']\s*>\s*<\/div>/i.test(clean)) {
     return clean.replace(/<div\s+data-partial=["']disclaimer["']\s*>\s*<\/div>/i, `${formHtml}\n        <div data-partial="disclaimer"></div>`);
@@ -956,16 +1114,25 @@ function ensureFormFields(html, route, pageTitle, family, canonical) {
 
   return html.replace(/(<form\b[^>]*\baction=["']https:\/\/formspree\.io\/f\/[^"']+["'][^>]*>)([\s\S]*?)(<\/form>)/gi, (match, open, body, close) => {
     let nextBody = body;
+    const managedHiddenFields = [];
     for (const name of FORM_HIDDEN_NAMES) {
-      if (new RegExp(`\\bname=["']${name}["']`, "i").test(nextBody)) continue;
-      nextBody = `\n      ${buildHiddenInput(name, formDefaults[name] || "")}${nextBody}`;
+      const value = readHiddenInputValue(nextBody, name) || formDefaults[name] || "";
+      nextBody = removeHiddenInputByName(nextBody, name);
+      managedHiddenFields.push(buildHiddenInput(name, value));
+    }
+    if (managedHiddenFields.length) {
+      nextBody = `\n      ${managedHiddenFields.join("\n      ")}${nextBody}`;
     }
     if (!/\bname=["']_gotcha["']/i.test(nextBody)) {
       nextBody = `\n      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="form-honeypot" aria-hidden="true" />${nextBody}`;
     }
-    const nextOpen = /\bdata-itb-contact-form=/i.test(open)
-      ? open
-      : open.replace(/>$/, ' data-itb-contact-form="true">');
+    let nextOpen = open.replace(
+      /\baction=(["'])https:\/\/formspree\.io\/f\/[^"']+\1/i,
+      `action="${FORMSPREE_ENDPOINT}"`
+    );
+    nextOpen = /\bdata-itb-contact-form=/i.test(nextOpen)
+      ? nextOpen
+      : nextOpen.replace(/>$/, ' data-itb-contact-form="true">');
     return `${nextOpen}${nextBody}${close}`;
   });
 }
@@ -985,7 +1152,8 @@ function addFormIfNeeded(html, pageData, route, runtime) {
         family,
         canonical,
         isPt: isPtRoute(route)
-      })
+      }),
+      route
     );
   } else {
     next = next.replace(UNIVERSAL_FORM_RE, "\n");
@@ -1158,57 +1326,173 @@ async function syncAnnotatedPartials() {
 function buildLlmsTxt() {
   return `# Immigrate to Brazil
 
-Immigrate to Brazil is the Brazil immigration guidance site led by attorney Monique Fernandes.
+> Brazil immigration guidance, services, and consultation resources led by attorney Monique Fernandes for international clients in English and Portuguese.
 
-Primary entity:
-- Monique Fernandes: Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
-- Site: https://immigratetobrazil.com/
-- Main lawyer page: https://immigratetobrazil.com/about/lawyer/
-- About hub: https://immigratetobrazil.com/about/
-- Services hub: https://immigratetobrazil.com/services/
-- Consultation: https://immigratetobrazil.com/start-consultation/
-- Portuguese home: https://immigratetobrazil.com/pt-br/
-- Portuguese consultation: https://immigratetobrazil.com/pt-br/start-consultation/
+Immigrate to Brazil helps foreign nationals, families, investors, retirees, remote workers, students, and companies understand Brazilian immigration routes, residency planning, citizenship and naturalisation, compliance, and practical relocation issues.
 
-Core topics:
+## Primary Entity
+
+- [Monique Fernandes](https://immigratetobrazil.com/about/lawyer/): Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
+- [Immigrate to Brazil](https://immigratetobrazil.com/): official website for attorney-led Brazil immigration guidance.
+- [About Monique Fernandes](https://immigratetobrazil.com/about/): legal identity, method, values, story, and client context.
+
+## Core Services
+
+- [Services Hub](https://immigratetobrazil.com/services/): overview of Brazil immigration legal services.
+- [Brazil Visa Services](https://immigratetobrazil.com/services/visas/): tourist, family, work, student, investor, digital nomad, retirement, humanitarian, religious, research, artistic, and other visa routes.
+- [Brazil Residency Services](https://immigratetobrazil.com/services/residencies/): temporary residence, permanent residence, family reunion, work, investor, digital nomad, study, MERCOSUL, CPLP, humanitarian, retiree, and related residence routes.
+- [Naturalisation And Citizenship](https://immigratetobrazil.com/services/naturalisation/): ordinary, extraordinary, special, provisional, renunciation, and reacquisition matters.
+- [Immigration Defense](https://immigratetobrazil.com/services/defense/): fines, appeals, deportation, expulsion, extradition, and litigation.
+- [Advisory And Strategy](https://immigratetobrazil.com/services/advisory/): consultation, corporate immigration, compliance, representation, and immigration planning.
+- [Supporting Services](https://immigratetobrazil.com/services/other/): records, consular support, regularization, and translation-related legal support.
+
+## Consultation Pages
+
+- [Start Consultation](https://immigratetobrazil.com/start-consultation/): structured intake for route analysis and attorney review.
+- [Contact](https://immigratetobrazil.com/contact/): contact options and consultation form.
+- [Process Overview](https://immigratetobrazil.com/process/): consultation, assessment, filing, approval, renewal, obligations, and aftercare.
+- [Portuguese Consultation](https://immigratetobrazil.com/pt-br/start-consultation/): Portuguese consultation intake.
+- [Portuguese Contact](https://immigratetobrazil.com/pt-br/contact/): Portuguese contact options.
+
+## Guides And Resources
+
+- [Brazil Hub](https://immigratetobrazil.com/brazil/): living in Brazil, regions, cities, cost, healthcare, education, housing, safety, culture, economy, and practical relocation topics.
+- [Guides](https://immigratetobrazil.com/insights/guides/): practical immigration and Brazil relocation guides.
+- [Visa Insights](https://immigratetobrazil.com/insights/visa/): visa-related guidance and updates.
+- [Residency Insights](https://immigratetobrazil.com/insights/residency/): residence permit topics and compliance.
+- [Naturalisation Insights](https://immigratetobrazil.com/insights/naturalisation/): citizenship and naturalisation topics.
+- [Immigration Updates](https://immigratetobrazil.com/insights/updates/): current immigration and mobility updates.
+- [Brazil FYI](https://immigratetobrazil.com/insights/fyi/): short travel, law, and migration explainers.
+
+## Country And Regional Pages
+
+- [Countries Hub](https://immigratetobrazil.com/countries/): country-specific immigration entry points for people planning a move to Brazil.
+- [United States](https://immigratetobrazil.com/countries/united-states/), [Portugal](https://immigratetobrazil.com/countries/portugal/), [France](https://immigratetobrazil.com/countries/france/), [Germany](https://immigratetobrazil.com/countries/germany/), [United Kingdom](https://immigratetobrazil.com/countries/united-kingdom/), [Canada](https://immigratetobrazil.com/countries/canada/), and [Argentina](https://immigratetobrazil.com/countries/argentina/) are examples of country pages; the full directory is in the sitemap.
+- [Portuguese Countries Hub](https://immigratetobrazil.com/pt-br/countries/): Portuguese country directory.
+
+## Topics
+
 - Brazil visas
 - Brazil residency
 - Brazilian naturalisation and citizenship
 - Immigration defense, regularization, compliance, and planning
 - Relocation and life in Brazil
+- Family reunion, marriage, stable union, Brazilian children, and cross-border family planning
+- Digital nomad, investor, retiree, work, study, MERCOSUL, CPLP, humanitarian, religious, volunteer, research, artistic, sports, journalist, and medical routes
 
-Preferred discovery files:
-- XML sitemap index: https://immigratetobrazil.com/sitemap.xml
-- Human sitemap: https://immigratetobrazil.com/sitemap.html
-- AI route manifest: https://immigratetobrazil.com/data/ai-route-manifest.json
+## Discovery Files
 
-Contact:
-- Formspree consultation forms are embedded on indexable client-facing pages.
-- WhatsApp contact is available from page CTAs and includes page context.
+- [XML sitemap index](https://immigratetobrazil.com/sitemap.xml): canonical sitemap index with child sitemaps.
+- [HTML sitemap](https://immigratetobrazil.com/sitemap.html): human-readable indexable route directory.
+- [AI route manifest](https://immigratetobrazil.com/data/ai-route-manifest.json): concise machine-readable key route manifest.
+- [English search index](https://immigratetobrazil.com/data/search-index.json): indexable English route metadata.
+- [Portuguese search index](https://immigratetobrazil.com/pt-br/data/search-index.json): indexable Portuguese route metadata.
+
+## Contact
+
+- Consultation forms are embedded on indexable client-facing pages.
+- WhatsApp contact is available from page calls to action and includes page context.
+- Email: moniquefadv@gmail.com
 `;
+}
+
+function buildHomeCrawlDiscoveryBlock() {
+  return `<!-- Section: Static Crawl Discovery -->
+<noscript>
+  <nav aria-label="Core site discovery">
+    <a href="/sitemap.html">HTML sitemap</a>
+    <a href="/sitemap.xml">XML sitemap</a>
+    <a href="/llms.txt">LLMs.txt</a>
+    <a href="/data/ai-route-manifest.json">AI route manifest</a>
+  </nav>
+</noscript>
+`;
+}
+
+function normalizeHomeCrawlDiscovery(html, route) {
+  if (route !== "/") return html;
+
+  const block = buildHomeCrawlDiscoveryBlock();
+  if (/<!-- Section: Static Crawl Discovery -->[\s\S]*?<\/noscript>\s*/i.test(html)) {
+    return html.replace(/<!-- Section: Static Crawl Discovery -->[\s\S]*?<\/noscript>\s*/i, block);
+  }
+
+  const marker = "<!-- Section: Site Footer Partial -->";
+  if (!html.includes(marker)) return html;
+  return html.replace(marker, `${block}\n${marker}`);
 }
 
 function buildAiRouteManifest(routeFiles, pageDataByRoute) {
   const keyRoutes = [
     "/",
+    "/contact/",
     "/about/",
     "/about/lawyer/",
     "/about/about/",
     "/about/profile/",
     "/services/",
+    "/services/advisory/",
+    "/services/advisory/consultation/",
+    "/services/advisory/strategy/",
     "/services/visas/",
+    "/services/visas/family/",
+    "/services/visas/nomad/",
+    "/services/visas/investor/",
+    "/services/visas/work/",
+    "/services/visas/student/",
+    "/services/visas/retiree/",
     "/services/residencies/",
+    "/services/residencies/reunion/",
+    "/services/residencies/nomad/",
+    "/services/residencies/investor/",
+    "/services/residencies/work/",
+    "/services/residencies/mercosul/",
+    "/services/residencies/cplp/",
     "/services/naturalisation/",
+    "/services/naturalisation/ordinary/",
+    "/services/naturalisation/extraordinary/",
     "/services/defense/",
     "/process/",
+    "/process/consultation/",
+    "/process/assessment/",
+    "/process/filing/",
+    "/process/approval/",
+    "/process/renewal/",
+    "/process/aftercare/",
     "/brazil/",
+    "/brazil/guides/",
+    "/brazil/living/",
+    "/brazil/cost/",
+    "/brazil/cities/",
+    "/brazil/healthcare/",
+    "/brazil/housing/",
     "/countries/",
+    "/countries/united-states/",
+    "/countries/portugal/",
+    "/countries/france/",
+    "/countries/germany/",
+    "/countries/canada/",
+    "/countries/argentina/",
     "/insights/",
+    "/insights/guides/",
+    "/insights/visa/",
+    "/insights/residency/",
+    "/insights/naturalisation/",
+    "/insights/updates/",
+    "/insights/fyi/",
     "/start-consultation/",
     "/pt-br/",
+    "/pt-br/contact/",
     "/pt-br/about/",
     "/pt-br/about/lawyer/",
     "/pt-br/services/",
+    "/pt-br/services/visas/",
+    "/pt-br/services/residencies/",
+    "/pt-br/services/naturalisation/",
+    "/pt-br/process/",
+    "/pt-br/brazil/",
+    "/pt-br/countries/",
+    "/pt-br/insights/",
     "/pt-br/start-consultation/"
   ];
   const routes = keyRoutes
@@ -1237,12 +1521,14 @@ function buildAiRouteManifest(routeFiles, pageDataByRoute) {
   );
 
   return {
-    generatedAt: "2026-06-11",
+    generatedAt: new Date().toISOString().slice(0, 10),
     site: {
       name: "Immigrate to Brazil",
       url: "https://immigratetobrazil.com",
       languages: ["en", "pt-BR"],
-      sitemap: "https://immigratetobrazil.com/sitemap.xml"
+      sitemap: "https://immigratetobrazil.com/sitemap.xml",
+      htmlSitemap: "https://immigratetobrazil.com/sitemap.html",
+      llmsTxt: "https://immigratetobrazil.com/llms.txt"
     },
     primaryEntity: {
       name: "Monique Fernandes",
@@ -1256,6 +1542,14 @@ function buildAiRouteManifest(routeFiles, pageDataByRoute) {
         "Brazil immigration compliance",
         "Brazil immigration defense"
       ]
+    },
+    discovery: {
+      services: "https://immigratetobrazil.com/services/",
+      guides: "https://immigratetobrazil.com/insights/guides/",
+      insights: "https://immigratetobrazil.com/insights/",
+      consultation: "https://immigratetobrazil.com/start-consultation/",
+      countries: "https://immigratetobrazil.com/countries/",
+      portuguese: "https://immigratetobrazil.com/pt-br/"
     },
     indexableCounts,
     keyRoutes: routes
@@ -1340,6 +1634,7 @@ async function main() {
     next = normalizeContactAnchors(next, entry.route, pageTitle);
     next = normalizeImages(next, responsiveImages);
     next = addFormIfNeeded(next, pageData, entry.route, runtime);
+    next = normalizeHomeCrawlDiscovery(next, entry.route);
     next = annotateHtmlSections(next);
 
     if (next !== html) {

@@ -1,7 +1,5 @@
 /*
-  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
-  Pragma: no-cache
-  Expires: 0
+  Cache-Control: public, max-age=0, must-revalidate
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: SAMEORIGIN
@@ -9,7 +7,63 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests
 
+/assets/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/css/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/robots.txt
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: text/plain; charset=utf-8
+
+/llms.txt
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: text/plain; charset=utf-8
+
+/sitemap.xml
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/xml; charset=utf-8
+
+/sitemap.xsl
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/xml; charset=utf-8
+
+/sitemaps/*
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/xml; charset=utf-8
+
+/sitemap.html
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/data/ai-route-manifest.json
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/data/search-index.json
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
+/pt-br/data/search-index.json
+  ! Cache-Control
+  Cache-Control: public, max-age=3600, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
 /partials/*
-  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
-  Pragma: no-cache
-  Expires: 0
+  ! Cache-Control
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow

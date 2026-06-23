@@ -6,13 +6,32 @@
    * ========================================================================== */
   const consentKey = "itb-consent";
   const attributionSessionKey = "itb-attribution";
-  const emailCaptureEndpoint = "https://formspree.io/f/xdawygld";
+  const journeySessionKey = "itb-journey";
+  const sessionIdKey = "itb-session-id";
+  const visitorIdKey = "itb-visitor-id";
+  const anonymousUserIdKey = "itb-anonymous-user-id";
+  const visitCountKey = "itb-visit-count";
+  const visitCountedKey = "itb-visit-counted";
+  const firstVisitKey = "itb-first-visit-at";
+  const lastVisitKey = "itb-last-visit-at";
+  const formspreeEndpoint = "https://formspree.io/f/xbdaaoyb";
+  const emailCaptureEndpoint = formspreeEndpoint;
   const exitIntentSessionKey = "itb-insights-exit-intent-seen";
   const scrollDepthMilestones = [25, 50, 75, 90];
+  const pageOpenedAt = Date.now();
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
   let trackedScrollMilestones = new Set();
+  let maxScrollDepth = 0;
+  let pageClickCount = 0;
+  let mouseActivityCount = 0;
+  let journeyInitialized = false;
+  let journeySnapshot = {};
+  let formAutoJumped = false;
+  let formTelemetryBound = false;
+  const formStartTimes = new WeakMap();
+  const formInteractionStates = new WeakMap();
   let stickyObserver = null;
   let scrollBound = false;
   let escapeBound = false;
@@ -349,6 +368,97 @@
     }
   }
 
+  function readLocalItem(key) {
+    try {
+      return window.localStorage?.getItem(key) || "";
+    } catch {
+      return "";
+    }
+  }
+
+  function writeLocalItem(key, value) {
+    try {
+      window.localStorage?.setItem(key, value);
+    } catch {
+      // Ignore storage failures in stricter privacy modes.
+    }
+  }
+
+  function readSessionItemSafe(key) {
+    try {
+      return window.sessionStorage?.getItem(key) || "";
+    } catch {
+      return "";
+    }
+  }
+
+  function writeSessionItemSafe(key, value) {
+    try {
+      window.sessionStorage?.setItem(key, value);
+    } catch {
+      // Ignore storage failures in stricter privacy modes.
+    }
+  }
+
+  function createClientId(prefix) {
+    const random =
+      typeof globalThis.crypto?.randomUUID === "function"
+        ? globalThis.crypto.randomUUID()
+        : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 12)}`;
+    return `${prefix}-${random}`;
+  }
+
+  function getStoredId(key, prefix, storage = "local") {
+    const read = storage === "session" ? readSessionItemSafe : readLocalItem;
+    const write = storage === "session" ? writeSessionItemSafe : writeLocalItem;
+    let value = read(key);
+    if (!value) {
+      value = createClientId(prefix);
+      write(key, value);
+    }
+    return value;
+  }
+
+  function ensureVisitContext() {
+    const now = new Date().toISOString();
+    if (!readLocalItem(firstVisitKey)) writeLocalItem(firstVisitKey, now);
+    if (!readSessionItemSafe(visitCountedKey)) {
+      const current = Number.parseInt(readLocalItem(visitCountKey) || "0", 10) || 0;
+      writeLocalItem(visitCountKey, String(current + 1));
+      writeSessionItemSafe(visitCountedKey, "true");
+      writeLocalItem(lastVisitKey, now);
+    }
+    return {
+      first_visit_at: readLocalItem(firstVisitKey),
+      last_visit_at: readLocalItem(lastVisitKey),
+      visit_number: readLocalItem(visitCountKey) || "1"
+    };
+  }
+
+  function initJourneyContext() {
+    if (journeyInitialized) return journeySnapshot;
+    const stored = readSessionJson(journeySessionKey) || {};
+    const currentUrl = window.location.href;
+    const currentRoute = normalizeRoute(window.location.pathname);
+    const previousPage = stored.current_url && stored.current_url !== currentUrl ? stored.current_url : stored.previous_page || "";
+    const pagesViewed = Number.parseInt(stored.pages_viewed || "0", 10) || 0;
+    journeySnapshot = cleanAnalyticsPayload({
+      first_page_visited: stored.first_page_visited || currentUrl,
+      session_entry_page: stored.session_entry_page || currentUrl,
+      previous_page: previousPage,
+      current_url: currentUrl,
+      current_route: currentRoute,
+      pages_viewed: String(Math.max(1, pagesViewed + (stored.current_url === currentUrl ? 0 : 1)))
+    });
+    writeSessionJson(journeySessionKey, journeySnapshot);
+    journeyInitialized = true;
+    return journeySnapshot;
+  }
+
+  function getJourneyContext() {
+    return initJourneyContext();
+  }
+
   function getSiteLocale() {
     const lang = sanitizeAnalyticsValue(document.documentElement.lang || "", 16).toLowerCase();
     return lang || "en";
@@ -362,6 +472,161 @@
     if (width > 0 && width < 768) return "mobile";
     if (width > 0 && width < 1100) return "tablet";
     return "desktop";
+  }
+
+  function getBrowserInfo() {
+    const ua = navigator.userAgent || "";
+    const rules = [
+      ["Edge", /Edg\/([\d.]+)/],
+      ["Chrome", /Chrome\/([\d.]+)/],
+      ["Firefox", /Firefox\/([\d.]+)/],
+      ["Safari", /Version\/([\d.]+).*Safari/],
+      ["Samsung Internet", /SamsungBrowser\/([\d.]+)/]
+    ];
+    for (const [name, pattern] of rules) {
+      const match = ua.match(pattern);
+      if (match) return { browser_type: name, browser_version: match[1] || "" };
+    }
+    return { browser_type: "Unknown", browser_version: "" };
+  }
+
+  function getOperatingSystem() {
+    const ua = navigator.userAgent || "";
+    if (/Windows NT/i.test(ua)) return "Windows";
+    if (/Android/i.test(ua)) return "Android";
+    if (/iPhone|iPad|iPod/i.test(ua)) return "iOS";
+    if (/Mac OS X|Macintosh/i.test(ua)) return "macOS";
+    if (/Linux/i.test(ua)) return "Linux";
+    return "Unknown";
+  }
+
+  function getDeviceModel() {
+    const ua = navigator.userAgent || "";
+    if (/iPhone/i.test(ua)) return "iPhone";
+    if (/iPad/i.test(ua)) return "iPad";
+    const android = ua.match(/Android[^;]*;\s*([^;)]+)\)/i);
+    return sanitizeAnalyticsValue(android?.[1] || "limited_by_browser", 120);
+  }
+
+  function getConnectionInfo() {
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    return {
+      connection_type: connection?.type || "",
+      connection_effective_type: connection?.effectiveType || "",
+      connection_downlink_mbps: connection?.downlink ? String(connection.downlink) : "",
+      connection_rtt_ms: connection?.rtt ? String(connection.rtt) : "",
+      save_data_enabled: typeof connection?.saveData === "boolean" ? String(connection.saveData) : ""
+    };
+  }
+
+  function getReferringDomain(url) {
+    if (!url) return "";
+    try {
+      return new URL(url).hostname;
+    } catch {
+      return "";
+    }
+  }
+
+  function getSubdomain(hostname) {
+    const parts = String(hostname || "").split(".").filter(Boolean);
+    if (parts.length <= 2) return "";
+    return parts.slice(0, -2).join(".");
+  }
+
+  function getSectionName() {
+    const config = getConfig();
+    const route = config.pageRoute || normalizeRoute(window.location.pathname);
+    return route.split("/").filter(Boolean)[0] || "home";
+  }
+
+  function getFormFieldState(form) {
+    const fields = [...form.querySelectorAll("input, select, textarea")].filter((field) => {
+      const type = (field.getAttribute("type") || "").toLowerCase();
+      return type !== "hidden" && type !== "submit" && field.name !== "_gotcha";
+    });
+    const viewed = [];
+    const skipped = [];
+    fields.forEach((field) => {
+      const name = field.getAttribute("name") || field.id || "";
+      if (!name) return;
+      if (String(field.value || "").trim()) viewed.push(name);
+      else skipped.push(name);
+    });
+    return {
+      fields_viewed: viewed.join(","),
+      fields_skipped: skipped.join(","),
+      visible_field_count: String(fields.length)
+    };
+  }
+
+  function getFormInteractionState(form) {
+    if (!formInteractionStates.has(form)) {
+      formInteractionStates.set(form, {
+        attempts: 0,
+        validationErrors: 0,
+        pasteEvents: 0,
+        copyEvents: 0,
+        autofillUsed: false,
+        touchedFields: new Set()
+      });
+    }
+    return formInteractionStates.get(form);
+  }
+
+  function markFormStarted(form) {
+    if (!form || formStartTimes.has(form)) return;
+    formStartTimes.set(form, Date.now());
+    const state = getFormInteractionState(form);
+    state.form_start_time = new Date().toISOString();
+  }
+
+  function getScrollDepthPercent() {
+    const doc = document.documentElement;
+    const scrollable = Math.max(1, doc.scrollHeight - window.innerHeight);
+    const current = Math.round(((window.scrollY || doc.scrollTop || 0) / scrollable) * 100);
+    maxScrollDepth = Math.max(maxScrollDepth, Math.min(100, current));
+    return maxScrollDepth;
+  }
+
+  function getDateContext(now = new Date()) {
+    const day = now.toLocaleDateString(undefined, { weekday: "long" });
+    const month = now.toLocaleDateString(undefined, { month: "long" });
+    const quarter = Math.floor(now.getMonth() / 3) + 1;
+    const hour = now.getHours();
+    const dayIndex = now.getDay();
+    return {
+      local_user_time: now.toString(),
+      day_of_week: day,
+      month,
+      quarter: `Q${quarter}`,
+      business_hours_indicator: String(dayIndex >= 1 && dayIndex <= 5 && hour >= 9 && hour < 18),
+      holiday_indicator: "unavailable_client_side"
+    };
+  }
+
+  function getUnavailableServerSideFields() {
+    return {
+      ip_address: "unavailable_client_side",
+      ip_country: "unavailable_client_side",
+      ip_region_state: "unavailable_client_side",
+      ip_city: "unavailable_client_side",
+      ip_timezone: "unavailable_client_side",
+      isp: "unavailable_client_side",
+      network_type: "unavailable_client_side",
+      vpn_detected: "unavailable_client_side",
+      proxy_detected: "unavailable_client_side",
+      bot_likelihood_score: "unavailable_client_side",
+      risk_score: "unavailable_client_side",
+      company_domain_enriched: "unavailable_without_enrichment",
+      company_size: "unavailable_without_enrichment",
+      industry: "unavailable_without_enrichment",
+      revenue_band: "unavailable_without_enrichment",
+      employee_count: "unavailable_without_enrichment",
+      account_owner: "unavailable_without_crm",
+      lead_score: "unavailable_without_crm",
+      logged_in_user_id: "not_applicable_static_site"
+    };
   }
 
   function getReferrerHost() {
@@ -510,36 +775,155 @@
     };
   }
 
-  function attributionFieldValues() {
+  function attributionFieldValues(form) {
     const params = new URLSearchParams(window.location.search || "");
     const config = getConfig();
     const landing = getLandingContext();
+    const now = new Date();
+    const journey = getJourneyContext();
+    const visit = ensureVisitContext();
+    const browser = getBrowserInfo();
+    const fields = form ? getFormFieldState(form) : {};
+    const interaction = form ? getFormInteractionState(form) : {};
+    const formStartedAt = form ? formStartTimes.get(form) || pageOpenedAt : pageOpenedAt;
+    const referrerUrl = getReferrerUrl();
+    const canonicalUrl = getCanonicalUrl();
+    const route = config.pageRoute || normalizeRoute(window.location.pathname);
+    const title = config.pageTitle || document.title || "";
+    const formPlacement = form?.closest("section")?.id || form?.closest("[id]")?.id || "";
+    const formName = form?.querySelector("input[name='form_name']")?.value || form?.getAttribute("data-formspree-group") || form?.getAttribute("name") || "";
+    const clickId = params.get("gclid") || params.get("fbclid") || params.get("msclkid") || params.get("gbraid") || params.get("wbraid") || "";
+    const screenResolution = `${window.screen?.width || ""}x${window.screen?.height || ""}`;
+    const viewportSize = `${window.innerWidth || document.documentElement.clientWidth || ""}x${window.innerHeight || document.documentElement.clientHeight || ""}`;
+    const languageSettings = navigator.languages?.length ? navigator.languages.join(",") : navigator.language || "";
+    const previousPage = journey.previous_page || "";
+    const sessionDuration = Date.now() - pageOpenedAt;
     return cleanAnalyticsPayload({
       site_domain: window.location.hostname || "immigratetobrazil.com",
+      domain: window.location.hostname || "immigratetobrazil.com",
+      subdomain: getSubdomain(window.location.hostname),
+      website_url: window.location.origin || "https://immigratetobrazil.com",
       current_url: window.location.href,
-      canonical_url: getCanonicalUrl(),
-      page_route: config.pageRoute || normalizeRoute(window.location.pathname),
-      page_title: config.pageTitle || document.title || "",
+      page_url: window.location.href,
+      canonical_url: canonicalUrl,
+      page_route: route,
+      page_title: title,
       page_language: getSiteLocale(),
       page_family: config.pageFamily || "",
-      referrer_url: getReferrerUrl(),
-      referrer_domain: getReferrerDomain(),
+      section_of_site: getSectionName(),
+      page_category: config.pageFamily || getSectionName(),
+      page_template: document.body?.className || "",
+      page_id: route,
+      content_id: route,
+      article_post_id: document.querySelector("article[id]")?.id || "",
+      product_id: "",
+      referrer_url: referrerUrl,
+      referrer_domain: getReferringDomain(referrerUrl),
+      referring_domain: getReferringDomain(referrerUrl),
       landing_url: landing.landing_url,
       landing_route: landing.landing_route,
+      campaign_landing_page: landing.landing_url,
+      first_page_visited: journey.first_page_visited,
+      previous_page: previousPage,
+      session_entry_page: journey.session_entry_page,
+      exit_page: "unknown_until_session_end",
+      next_page_prediction: "unavailable_client_side",
       utm_source: params.get("utm_source") || "",
       utm_medium: params.get("utm_medium") || "",
       utm_campaign: params.get("utm_campaign") || "",
       utm_term: params.get("utm_term") || "",
       utm_content: params.get("utm_content") || "",
       utm_id: params.get("utm_id") || "",
+      marketing_source: params.get("utm_source") || "",
+      marketing_medium: params.get("utm_medium") || "",
+      campaign_name: params.get("utm_campaign") || "",
+      campaign_id: params.get("utm_id") || "",
+      ad_group: params.get("utm_adgroup") || params.get("adgroup") || "",
+      keyword_searched: params.get("utm_term") || params.get("keyword") || "",
+      click_id: clickId,
       gclid: params.get("gclid") || "",
       fbclid: params.get("fbclid") || "",
       msclkid: params.get("msclkid") || "",
+      gbraid: params.get("gbraid") || "",
+      wbraid: params.get("wbraid") || "",
       device_type: getDeviceType(),
+      device_model: getDeviceModel(),
+      browser_type: browser.browser_type,
+      browser_version: browser.browser_version,
+      operating_system: getOperatingSystem(),
+      user_agent: navigator.userAgent || "",
+      browser_language: navigator.language || "",
+      language_settings: languageSettings,
+      preferred_locale: Intl.DateTimeFormat().resolvedOptions().locale || navigator.language || "",
       viewport_width: String(window.innerWidth || document.documentElement.clientWidth || ""),
       viewport_height: String(window.innerHeight || document.documentElement.clientHeight || ""),
+      viewport_size: viewportSize,
+      window_size: viewportSize,
+      screen_width: String(window.screen?.width || ""),
+      screen_height: String(window.screen?.height || ""),
+      screen_size: screenResolution,
+      screen_resolution: screenResolution,
+      color_depth: String(window.screen?.colorDepth || ""),
+      touch_capability: String(Boolean(navigator.maxTouchPoints && navigator.maxTouchPoints > 0)),
+      cookie_enabled: String(Boolean(navigator.cookieEnabled)),
+      javascript_enabled: "true",
+      device_orientation: screen.orientation?.type || "",
+      dark_mode_preference: window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light",
+      reduced_motion_preference: window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ? "reduce" : "no-preference",
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || "",
-      submitted_at: new Date().toISOString()
+      submission_timestamp: now.toISOString(),
+      submitted_at: now.toISOString(),
+      form_submission_time: now.toISOString(),
+      session_id: getStoredId(sessionIdKey, "sess", "session"),
+      visitor_id: getStoredId(visitorIdKey, "visitor", "local"),
+      anonymous_user_id: getStoredId(anonymousUserIdKey, "anon", "local"),
+      visit_number: visit.visit_number,
+      first_visit_at: visit.first_visit_at,
+      last_visit_at: visit.last_visit_at,
+      session_duration_ms: String(sessionDuration),
+      time_spent_on_page_ms: String(sessionDuration),
+      time_on_page_ms: String(sessionDuration),
+      scroll_depth: String(getScrollDepthPercent()),
+      mouse_movement_activity: String(mouseActivityCount),
+      number_of_clicks_before_form: String(pageClickCount),
+      pages_viewed: journey.pages_viewed,
+      form_name: formName,
+      which_form_was_used: formName,
+      form_id: form?.id || formName,
+      form_version: form?.getAttribute("data-form-version") || "2026-06-formspree-v2",
+      ab_test_variant: document.body?.getAttribute("data-ab-variant") || "default",
+      form_location_on_page: formPlacement,
+      form_placement: formPlacement || "universal-page-form",
+      section_of_page_containing_form: formPlacement,
+      widget_component_name: form?.className || "",
+      form_start_time: interaction.form_start_time || "",
+      time_to_complete_form_ms: String(Math.max(0, Date.now() - formStartedAt)),
+      form_completion_time_ms: String(Math.max(0, Date.now() - formStartedAt)),
+      validation_errors_encountered: String(interaction.validationErrors || 0),
+      number_of_attempts: String(interaction.attempts || 0),
+      autofill_used: String(Boolean(interaction.autofillUsed)),
+      paste_events: String(interaction.pasteEvents || 0),
+      copy_events: String(interaction.copyEvents || 0),
+      field_interaction_history: [...(interaction.touchedFields || new Set())].join(","),
+      content_topic: document.querySelector("[data-topic]")?.getAttribute("data-topic") || getSectionName(),
+      content_author: document.querySelector("meta[name='author']")?.getAttribute("content") || "Immigrate to Brazil",
+      publication_date: document.querySelector("time[datetime]")?.getAttribute("datetime") || "",
+      subscription_status_of_content: "public",
+      language_of_page: getSiteLocale(),
+      country_version_of_site: getSiteLocale().startsWith("pt") ? "BR" : "global",
+      search_query_entered_on_site: params.get("q") || params.get("search") || "",
+      current_workspace: "not_applicable_static_site",
+      current_project: "not_applicable_static_site",
+      current_document: "not_applicable_static_site",
+      current_feature_module: getSectionName(),
+      feature_version: "static-site",
+      workflow_stage: "lead-intake",
+      browser_tab_visibility_state: document.visibilityState || "",
+      time_page_remained_active_ms: String(sessionDuration),
+      ...getDateContext(now),
+      ...getConnectionInfo(),
+      ...fields,
+      ...getUnavailableServerSideFields()
     });
   }
 
@@ -557,7 +941,7 @@
 
   function autofillFormAttribution(form) {
     if (!form) return;
-    const values = attributionFieldValues();
+    const values = attributionFieldValues(form);
     const trackedNames = new Set([
       ...Object.keys(values),
       ...[...form.querySelectorAll("[data-itb-attribution]")].map((input) => input.getAttribute("name")).filter(Boolean)
@@ -597,7 +981,233 @@
 
   function enhanceContactFormsAndLinks() {
     document.querySelectorAll("a[href*='api.whatsapp.com'], a[href*='wa.me']").forEach(enhanceWhatsAppLink);
-    document.querySelectorAll("form[action*='formspree.io/f/']").forEach((form) => autofillFormAttribution(form));
+    document.querySelectorAll("form[action*='formspree.io/f/']").forEach((form) => {
+      if ((form.getAttribute("action") || "") !== formspreeEndpoint) form.setAttribute("action", formspreeEndpoint);
+      if (!form.hasAttribute("data-itb-contact-form")) form.setAttribute("data-itb-contact-form", "true");
+      autofillFormAttribution(form);
+    });
+  }
+
+  function ensureFormStatus(form) {
+    let status = form.querySelector("[data-itb-form-status]");
+    if (!status) {
+      status = document.createElement("p");
+      status.className = "form-status";
+      status.setAttribute("role", "status");
+      status.setAttribute("aria-live", "polite");
+      status.dataset.itbFormStatus = "true";
+      const button = form.querySelector("button[type='submit'], input[type='submit']");
+      if (button?.parentElement === form) form.insertBefore(status, button);
+      else form.appendChild(status);
+    }
+    return status;
+  }
+
+  function getFormMessages() {
+    const isPt = getSiteLocale().startsWith("pt");
+    return isPt
+      ? {
+          sending: "Enviando sua solicitacao...",
+          successTitle: "Solicitacao recebida",
+          successBody:
+            "Obrigado. As informacoes foram enviadas para analise inicial. A equipe respondera por escrito sobre os proximos passos.",
+          error: "Nao foi possivel enviar agora. Verifique os campos e tente novamente, ou use WhatsApp se for urgente.",
+          download: "Solicitacao recebida. Abrindo o arquivo..."
+        }
+      : {
+          sending: "Sending your request...",
+          successTitle: "Request received",
+          successBody:
+            "Thank you. Your information has been sent for initial review. The team will reply in writing about next steps.",
+          error: "We could not send this right now. Please check the fields and try again, or use WhatsApp if it is urgent.",
+          download: "Request received. Opening the file..."
+        };
+  }
+
+  function buildGenericFormSuccess(copy) {
+    return `
+      <div class="form-success" data-itb-form-success="true">
+        <p class="section-kicker">${escapeHtml(copy.successTitle)}</p>
+        <h3>${escapeHtml(copy.successTitle)}</h3>
+        <p>${escapeHtml(copy.successBody)}</p>
+      </div>
+    `;
+  }
+
+  async function submitFormspreeForm(form) {
+    if (!form || form.dataset.state === "submitting") return;
+    const state = getFormInteractionState(form);
+    state.attempts += 1;
+    markFormStarted(form);
+
+    if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+      state.validationErrors += 1;
+      return;
+    }
+
+    const copy = getFormMessages();
+    const status = ensureFormStatus(form);
+    const submitButton = form.querySelector("button[type='submit'], input[type='submit']");
+    const originalButtonText = submitButton?.textContent || submitButton?.value || "";
+
+    form.dataset.state = "submitting";
+    if (submitButton) {
+      submitButton.disabled = true;
+      if ("value" in submitButton && submitButton.tagName === "INPUT") submitButton.value = copy.sending;
+      else submitButton.textContent = copy.sending;
+    }
+    status.textContent = copy.sending;
+
+    autofillFormAttribution(form);
+    const payload = new FormData(form);
+    const nextUrl = String(payload.get("_next") || "").trim();
+
+    try {
+      const response = await fetch(form.getAttribute("action") || formspreeEndpoint, {
+        method: "POST",
+        body: payload,
+        headers: { Accept: "application/json" }
+      });
+      if (!response.ok) throw new Error(`Formspree submission failed with status ${response.status}`);
+
+      form.dataset.state = "success";
+      track("form_submit_success", describeForm(form));
+
+      if (nextUrl) {
+        status.textContent = copy.download;
+        window.setTimeout(() => {
+          window.location.href = nextUrl;
+        }, 350);
+        return;
+      }
+
+      form.innerHTML = buildGenericFormSuccess(copy);
+    } catch (error) {
+      console.error(error);
+      form.dataset.state = "error";
+      if (submitButton) {
+        submitButton.disabled = false;
+        if ("value" in submitButton && submitButton.tagName === "INPUT") submitButton.value = originalButtonText;
+        else submitButton.textContent = originalButtonText;
+      }
+      status.textContent = copy.error;
+      track("form_submit_error", describeForm(form));
+    }
+  }
+
+  function bindFormspreeSubmissions() {
+    document.querySelectorAll("form[action*='formspree.io/f/']").forEach((form) => {
+      if (form.hasAttribute("data-itb-email-capture") || form.hasAttribute("data-itb-atlas-form")) return;
+      if (form.dataset.itbBoundFormspreeSubmit === "true") return;
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        submitFormspreeForm(form).catch((error) => console.error(error));
+      });
+      form.dataset.itbBoundFormspreeSubmit = "true";
+    });
+  }
+
+  function bindFormTelemetry() {
+    if (!formTelemetryBound) {
+      document.addEventListener(
+        "click",
+        () => {
+          pageClickCount += 1;
+        },
+        true
+      );
+      document.addEventListener(
+        "mousemove",
+        () => {
+          mouseActivityCount += 1;
+        },
+        { passive: true }
+      );
+      window.addEventListener("scroll", getScrollDepthPercent, { passive: true });
+      formTelemetryBound = true;
+    }
+
+    document.querySelectorAll("form").forEach((form) => {
+      if (form.dataset.itbBoundFormTelemetry === "true") return;
+      const recordTouch = (event) => {
+        markFormStarted(form);
+        const field = event.target?.closest?.("input, select, textarea");
+        if (!field) return;
+        const state = getFormInteractionState(form);
+        const name = field.getAttribute("name") || field.id || field.type || "field";
+        state.touchedFields.add(name);
+        try {
+          if (event.type === "input" && field.matches("input:-webkit-autofill")) state.autofillUsed = true;
+        } catch {
+          // Browser-specific autofill selectors are not universally parseable.
+        }
+      };
+      form.addEventListener("focusin", recordTouch, true);
+      form.addEventListener("input", recordTouch, true);
+      form.addEventListener("change", recordTouch, true);
+      form.addEventListener(
+        "paste",
+        (event) => {
+          const state = getFormInteractionState(form);
+          state.pasteEvents += 1;
+          recordTouch(event);
+        },
+        true
+      );
+      form.addEventListener(
+        "copy",
+        (event) => {
+          const state = getFormInteractionState(form);
+          state.copyEvents += 1;
+          recordTouch(event);
+        },
+        true
+      );
+      form.addEventListener(
+        "invalid",
+        (event) => {
+          const state = getFormInteractionState(form);
+          state.validationErrors += 1;
+          recordTouch(event);
+        },
+        true
+      );
+      form.dataset.itbBoundFormTelemetry = "true";
+    });
+  }
+
+  function initFormAutoJump() {
+    if (formAutoJumped || window.location.hash) return;
+    const route = getConfig().pageRoute || normalizeRoute(window.location.pathname);
+    const shouldJump =
+      document.body?.hasAttribute("data-itb-auto-form-jump") ||
+      /^\/(?:pt-br\/)?(?:contact|start-consultation|process\/consultation)\/$/.test(route);
+    if (!shouldJump) return;
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    const target =
+      document.querySelector("[data-itb-form-autofocus='true']") ||
+      document.getElementById("consultation-form") ||
+      document.getElementById("page-consultation-form");
+    if (!(target instanceof HTMLElement)) return;
+    formAutoJumped = true;
+    const scrollToTarget = () => {
+      const styles = window.getComputedStyle(document.documentElement);
+      const stickyOffset = Number.parseFloat(styles.getPropertyValue("--sticky-stack-height")) || 0;
+      const top = Math.max(0, target.getBoundingClientRect().top + window.scrollY - stickyOffset - 16);
+      window.scrollTo({ top, behavior: "auto" });
+    };
+    window.requestAnimationFrame(scrollToTarget);
+    window.setTimeout(scrollToTarget, 120);
+    window.addEventListener("load", () => window.setTimeout(scrollToTarget, 80), { once: true });
+    window.setTimeout(() => {
+      scrollToTarget();
+      const firstField = target.querySelector("input:not([type='hidden']):not([type='checkbox']), select, textarea");
+      if (firstField instanceof HTMLElement && window.innerWidth >= 768) {
+        window.setTimeout(() => firstField.focus({ preventScroll: true }), 50);
+      }
+    }, 650);
   }
 
   function buildConsentState(granted) {
@@ -1080,6 +1690,8 @@
     const config = getConfig();
     persistAttributionContext();
     enhanceContactFormsAndLinks();
+    bindFormTelemetry();
+    bindFormspreeSubmissions();
     const storedConsent = localStorage.getItem(consentKey);
     if (storedConsent === "accepted") {
       configureAnalytics();
@@ -1503,7 +2115,7 @@
     payload.set("page_title", getConfig().pageTitle || document.title || "");
 
     try {
-      const response = await fetch(form.getAttribute("action") || "https://formspree.io/f/xdawygld", {
+      const response = await fetch(form.getAttribute("action") || formspreeEndpoint, {
         method: "POST",
         body: payload,
         headers: { Accept: "application/json" }
@@ -2144,6 +2756,7 @@
     initConsultationPrefill();
     initClientExperienceUi();
     buildPageMap();
+    initFormAutoJump();
     initBackToTop();
     initRevealTargets();
     initIconRefresh();

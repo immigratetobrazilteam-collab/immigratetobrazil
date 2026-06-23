@@ -202,7 +202,7 @@
   {
     "route": "/pt-br/brazil/search/",
     "title": "Busca",
-    "wordCount": 2079
+    "wordCount": 2165
   },
   {
     "route": "/pt-br/brazil/south/",
@@ -223,6 +223,11 @@
     "route": "/pt-br/client-feedback/",
     "title": "Feedback do cliente",
     "wordCount": 859
+  },
+  {
+    "route": "/pt-br/contact/",
+    "title": "<span>Solicitar contato</span>",
+    "wordCount": 150
   },
   {
     "route": "/pt-br/countries/",
@@ -3617,7 +3622,7 @@
   {
     "route": "/pt-br/legal/404/",
     "title": "Página não encontrada",
-    "wordCount": 389
+    "wordCount": 475
   },
   {
     "route": "/pt-br/legal/accessibility/",
@@ -3672,7 +3677,7 @@
   {
     "route": "/pt-br/legal/search/",
     "title": "Busca",
-    "wordCount": 661
+    "wordCount": 747
   },
   {
     "route": "/pt-br/legal/terms/",

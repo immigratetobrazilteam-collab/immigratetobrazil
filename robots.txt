@@ -1,4 +1,27 @@
+# Immigrate to Brazil robots.txt
+# Applies to legitimate search and AI crawlers, including Googlebot, Bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, CCBot, and Google-Extended.
+
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /sitemaps/
+Allow: /sitemap.html
+Allow: /data/ai-route-manifest.json
+Allow: /data/search-index.json
+Allow: /pt-br/data/search-index.json
+Disallow: /partials/
+Disallow: /templates/
+Disallow: /memory-bank/
+Disallow: /reports/
+Disallow: /scripts/
+Disallow: /src/
+Disallow: /docs/
+Disallow: /path/
+Disallow: /node_modules/
+Disallow: /data/build-report.json
+Disallow: /data/formspree-map.json
+Disallow: /pt-br/data/build-report.json
+Disallow: /pt-br/data/formspree-map.json
 
 Sitemap: https://immigratetobrazil.com/sitemap.xml
