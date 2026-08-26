@@ -1,22 +1,25 @@
 # Cloudflare Pages Deployment Notes
 
-This repository is prebuilt as a static site.
+This repository is a direct static site.
 
 - Final HTML is committed in the repository root and route folders.
 - Edit the committed HTML files directly. The default workflow no longer regenerates page HTML.
-- If `/pt-br/` is in use, regenerate Portuguese pages before deploy with `npm run translate:pt`.
 - Cloudflare Pages can deploy the repository with no framework preset.
-- If the local release helper is used before pushing, the build command can remain empty.
-- If the Pages project requires a build command, use `npm run check` to refresh the search index, form map, and validation outputs.
 - The deployment target is the repository root.
 - Security and cache headers are provided in [_headers](../_headers).
 
 Recommended Cloudflare Pages settings:
 
 - Framework preset: `None`
-- Build command: blank, or `npm run check`
+- Build command: blank
 - Build output directory: `/`
 - Production branch: `main`
+
+Do not configure `npm run build:static`, `npm run check`, or any other build
+command. The repository has no `package.json` and Pages must upload its
+committed files without a build step. See
+[the static deployment setup](cloudflare-pages-static.md) for the GitHub App
+connection recovery steps.
 
 ## Required production-domain settings
 
@@ -55,11 +58,8 @@ Cloudflare Pages serves each new deployment atomically. Respecting the origin
 cache headers above means HTML is fresh immediately while versioned CSS and JS
 continue to benefit from long-lived caches.
 
-Recommended local release flow:
+Publishing flow:
 
-1. Edit the HTML, CSS, and JS files directly.
-2. If PT needs updating, run `npm run translate:pt`
-3. `npm run check`
-4. `python3 scripts/release_main.py --translate-pt --message "Your release message"` or skip `--translate-pt` if PT is already current
-5. Confirm validation, responsive QA, and Lighthouse checks pass.
-6. Let the push to `origin main` trigger the GitHub-connected Pages deployment.
+1. Edit the HTML, CSS, JavaScript, assets, or static data directly.
+2. Commit the changed files and push them to `main`.
+3. Cloudflare Pages uploads that commit directly.

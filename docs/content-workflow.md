@@ -11,21 +11,17 @@ English HTML files are now the source of truth.
   - Route pages now call the shared `breadcrumbs`, `sidebar-shell`, `official-resources`, and `related-links` partials at runtime instead of storing those blocks inline in every page body.
 - The old content-source tree is retired. Do not use legacy source JSON/body files to regenerate English HTML.
 
-## Commands
+## Publishing
 
-- `npm run sync:data`
-  Refreshes search/build/supporting JSON files and synced 404 outputs from the checked-in HTML routes.
-- `npm run generate:sitemap`
-  Regenerates the sitemap index at `sitemap.xml`, the child XML files in `sitemaps/`, `sitemap.xsl`, and `robots.txt` from the current checked-in HTML routes.
-- `npm run translate:pt`
-  Rebuilds the Portuguese output from the checked-in English HTML.
-- `npm run check`
-  Runs the data sync and validation flow against the checked-in HTML.
+There is no content-generation or deployment command. Edit the committed files
+that need to change, commit them, and push to `main`. Cloudflare Pages serves
+those files without building the project.
 
 ## Notes
 
 - Treat English `index.html` files as the source of truth.
-- Portuguese `pt-br/...` pages remain generated output.
+- Portuguese `pt-br/...` pages are committed static output and can be edited
+  directly.
 - Legacy English page-generation helpers and the legacy section-image generator are retired.
 - Section image assets are organized by route path and section number.
   Example: `/about/about/` section 2 now maps to `assets/images/sections/about/about/section-02-.../`.
