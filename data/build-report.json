@@ -96,8 +96,168 @@
   },
   {
     "route": "/brazil/cities/",
-    "title": "Cities",
-    "wordCount": 2034
+    "title": "Where in Brazil could you see yourself living?",
+    "wordCount": 1026
+  },
+  {
+    "route": "/brazil/cities/aracaju/",
+    "title": "Living in Aracaju",
+    "wordCount": 706
+  },
+  {
+    "route": "/brazil/cities/belem/",
+    "title": "Living in Belém",
+    "wordCount": 696
+  },
+  {
+    "route": "/brazil/cities/belo-horizonte/",
+    "title": "Living in Belo Horizonte",
+    "wordCount": 722
+  },
+  {
+    "route": "/brazil/cities/boa-vista/",
+    "title": "Living in Boa Vista",
+    "wordCount": 717
+  },
+  {
+    "route": "/brazil/cities/brasilia/",
+    "title": "Living in Brasília",
+    "wordCount": 709
+  },
+  {
+    "route": "/brazil/cities/campinas/",
+    "title": "Living in Campinas",
+    "wordCount": 694
+  },
+  {
+    "route": "/brazil/cities/campo-grande/",
+    "title": "Living in Campo Grande",
+    "wordCount": 702
+  },
+  {
+    "route": "/brazil/cities/cuiaba/",
+    "title": "Living in Cuiabá",
+    "wordCount": 693
+  },
+  {
+    "route": "/brazil/cities/curitiba/",
+    "title": "Living in Curitiba",
+    "wordCount": 693
+  },
+  {
+    "route": "/brazil/cities/florianopolis/",
+    "title": "Living in Florianópolis",
+    "wordCount": 701
+  },
+  {
+    "route": "/brazil/cities/fortaleza/",
+    "title": "Living in Fortaleza",
+    "wordCount": 694
+  },
+  {
+    "route": "/brazil/cities/goiania/",
+    "title": "Living in Goiânia",
+    "wordCount": 701
+  },
+  {
+    "route": "/brazil/cities/gramado/",
+    "title": "Living in Gramado",
+    "wordCount": 703
+  },
+  {
+    "route": "/brazil/cities/joao-pessoa/",
+    "title": "Living in João Pessoa",
+    "wordCount": 716
+  },
+  {
+    "route": "/brazil/cities/macapa/",
+    "title": "Living in Macapá",
+    "wordCount": 697
+  },
+  {
+    "route": "/brazil/cities/maceio/",
+    "title": "Living in Maceió",
+    "wordCount": 687
+  },
+  {
+    "route": "/brazil/cities/manaus/",
+    "title": "Living in Manaus",
+    "wordCount": 699
+  },
+  {
+    "route": "/brazil/cities/natal/",
+    "title": "Living in Natal",
+    "wordCount": 692
+  },
+  {
+    "route": "/brazil/cities/niteroi/",
+    "title": "Living in Niterói",
+    "wordCount": 689
+  },
+  {
+    "route": "/brazil/cities/palmas/",
+    "title": "Living in Palmas",
+    "wordCount": 705
+  },
+  {
+    "route": "/brazil/cities/porto-alegre/",
+    "title": "Living in Porto Alegre",
+    "wordCount": 714
+  },
+  {
+    "route": "/brazil/cities/porto-velho/",
+    "title": "Living in Porto Velho",
+    "wordCount": 716
+  },
+  {
+    "route": "/brazil/cities/recife/",
+    "title": "Living in Recife",
+    "wordCount": 703
+  },
+  {
+    "route": "/brazil/cities/ribeirao-preto/",
+    "title": "Living in Ribeirão Preto",
+    "wordCount": 706
+  },
+  {
+    "route": "/brazil/cities/rio-branco/",
+    "title": "Living in Rio Branco",
+    "wordCount": 718
+  },
+  {
+    "route": "/brazil/cities/rio-de-janeiro/",
+    "title": "Living in Rio de Janeiro",
+    "wordCount": 743
+  },
+  {
+    "route": "/brazil/cities/salvador/",
+    "title": "Living in Salvador",
+    "wordCount": 704
+  },
+  {
+    "route": "/brazil/cities/santos/",
+    "title": "Living in Santos",
+    "wordCount": 691
+  },
+  {
+    "route": "/brazil/cities/sao-luis/",
+    "title": "Living in São Luís",
+    "wordCount": 715
+  },
+  {
+    "route": "/brazil/cities/sao-paulo/",
+    "title": "Living in São Paulo",
+    "wordCount": 734
+  },
+  {
+    "route": "/brazil/cities/teresina/",
+    "title": "Living in Teresina",
+    "wordCount": 699
+  },
+  {
+    "route": "/brazil/cities/vitoria/",
+    "title": "Living in Vitória",
+    "wordCount": 695
   },
   {
     "route": "/brazil/cost/",

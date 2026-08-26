@@ -21,7 +21,39 @@
 | /brazil/ | Brazil Hub | https://formspree.io/f/xbdaaoyb |
 | /brazil/brazil/ | Brazil | https://formspree.io/f/xbdaaoyb |
 | /brazil/central-west/ | Central-West | https://formspree.io/f/xbdaaoyb |
-| /brazil/cities/ | Cities | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/ | Where in Brazil could you see yourself living? | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/aracaju/ | Living in Aracaju | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/belem/ | Living in Belém | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/belo-horizonte/ | Living in Belo Horizonte | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/boa-vista/ | Living in Boa Vista | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/brasilia/ | Living in Brasília | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/campinas/ | Living in Campinas | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/campo-grande/ | Living in Campo Grande | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/cuiaba/ | Living in Cuiabá | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/curitiba/ | Living in Curitiba | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/florianopolis/ | Living in Florianópolis | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/fortaleza/ | Living in Fortaleza | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/goiania/ | Living in Goiânia | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/gramado/ | Living in Gramado | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/joao-pessoa/ | Living in João Pessoa | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/macapa/ | Living in Macapá | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/maceio/ | Living in Maceió | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/manaus/ | Living in Manaus | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/natal/ | Living in Natal | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/niteroi/ | Living in Niterói | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/palmas/ | Living in Palmas | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/porto-alegre/ | Living in Porto Alegre | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/porto-velho/ | Living in Porto Velho | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/recife/ | Living in Recife | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/ribeirao-preto/ | Living in Ribeirão Preto | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/rio-branco/ | Living in Rio Branco | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/rio-de-janeiro/ | Living in Rio de Janeiro | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/salvador/ | Living in Salvador | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/santos/ | Living in Santos | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/sao-luis/ | Living in São Luís | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/sao-paulo/ | Living in São Paulo | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/teresina/ | Living in Teresina | https://formspree.io/f/xbdaaoyb |
+| /brazil/cities/vitoria/ | Living in Vitória | https://formspree.io/f/xbdaaoyb |
 | /brazil/cost/ | Cost | https://formspree.io/f/xbdaaoyb |
 | /brazil/cuisine/ | Cuisine | https://formspree.io/f/xbdaaoyb |
 | /brazil/culture/ | Culture | https://formspree.io/f/xbdaaoyb |

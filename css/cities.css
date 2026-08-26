@@ -1,0 +1,50 @@
+/* Brazil City Discovery Hub */
+.city-hero { background: radial-gradient(circle at 82% 18%, rgba(232,184,92,.38), transparent 29%), linear-gradient(135deg,#123f35,#0b211b 62%,#172e45); }
+.city-hero .hero-copy { max-width: 58rem; }
+.city-hero__breadcrumbs { position:relative; z-index:2; padding-top:1rem; color:#effbf2; font-size:.9rem; }
+.city-hero__breadcrumbs a { color:#f7d994; }
+.city-hero__facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.65rem; margin:1.25rem 0; }
+.city-hero__facts span { padding:.65rem .8rem; border:1px solid rgba(255,255,255,.18); border-radius:.75rem; background:rgba(255,255,255,.08); font-size:.88rem; }
+.city-page { padding-block:clamp(2rem,4vw,4.5rem); }
+.city-page .content-column { max-width: none; }
+.city-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.city-card { display:flex; flex-direction:column; padding:1.25rem; border:1px solid var(--border-soft); border-radius:var(--radius-md); background:linear-gradient(145deg,#fffdf7,#eff7ee); color:var(--text-main); text-decoration:none; box-shadow:var(--shadow-xs); transition:transform .2s ease,box-shadow .2s ease; }
+.city-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-sm); }
+.city-card__region { margin:0 0 .35rem; color:#41725f; font:800 .73rem/1 var(--font-label); letter-spacing:.09em; text-transform:uppercase; }
+.city-card h2,.city-card h3 { margin-bottom:.5rem; font-size:1.55rem; }
+.city-card p { margin:0; color:var(--text-muted); line-height:1.55; }
+.city-card__link { margin-top:auto; padding-top:1rem; color:#18523d; font-weight:800; }
+.city-fit-grid,.city-route-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.city-fit-card,.city-route-card { padding:1.3rem; border-left:4px solid var(--logo-gold); border-radius:.35rem var(--radius-md) var(--radius-md) .35rem; background:#f3f8ee; }
+.city-fit-card h3,.city-route-card h3 { font-size:1.25rem; }
+.city-callout { margin:1.2rem 0; padding:1.4rem; border-radius:var(--radius-md); color:#f5fff7; background:linear-gradient(135deg,#174938,#0d2920); }
+.city-callout h2 { color:#fff7e8; }
+.city-link-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; padding:0; list-style:none; }
+.city-link-list a { display:block; min-height:100%; padding:.95rem; border:1px solid var(--border-soft); border-radius:.85rem; background:#fffdf8; color:#174d3a; font-weight:750; text-decoration:none; }
+.city-directory-controls { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0 1.5rem; }
+.city-directory-controls a { padding:.4rem .75rem; border-radius:999px; background:#e5f1e4; color:#174d3a; font-size:.85rem; font-weight:800; text-decoration:none; }
+.municipality-explorer { padding:1.2rem; border:1px solid var(--border-soft); border-radius:var(--radius-md); background:#f5f8f0; }
+.municipality-explorer input { width:100%; min-height:50px; padding:.75rem 1rem; border:1px solid #699080; border-radius:.75rem; color:#10251d; background:#fff; }
+.municipality-results { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.55rem; margin:1rem 0 0; padding:0; list-style:none; }
+.municipality-results li { padding:.6rem .75rem; border-radius:.65rem; background:#fff; color:#173d30; font-size:.9rem; }
+.largest-municipality-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:1.2rem; }
+.state-population-card { padding:1rem; border:1px solid var(--border-soft); border-radius:var(--radius-md); background:#fffdf8; }
+.state-population-card h3 { margin-bottom:.55rem; font-size:1.25rem; }
+.state-population-card ol { display:grid; gap:.35rem; margin:0; padding-left:1.25rem; }
+.state-population-card li { color:#193d30; font-size:.92rem; }
+.state-population-card small { display:block; color:#537063; }
+body:not(.theme-light) .city-card { border-color:rgba(180,228,198,.2); background:linear-gradient(145deg,#143e32,#0b281f); color:#effcf2; }
+body:not(.theme-light) .city-card p,body:not(.theme-light) .city-card__region { color:rgba(239,252,242,.76); }
+body:not(.theme-light) .city-card__link { color:#f6d991; }
+body:not(.theme-light) .city-fit-card,body:not(.theme-light) .city-route-card { background:#113b2e; color:#eefbf1; }
+body:not(.theme-light) .city-fit-card h3,body:not(.theme-light) .city-route-card h3 { color:#fff7df; }
+body:not(.theme-light) .municipality-explorer { border-color:rgba(180,228,198,.2); background:#10362b; }
+body:not(.theme-light) .municipality-explorer input { border-color:#74a891; color:#10251d; background:#fff; }
+body:not(.theme-light) .municipality-results li { color:#ecfaef; background:#174838; }
+body:not(.theme-light) .state-population-card { border-color:rgba(180,228,198,.2); background:#123e30; }
+body:not(.theme-light) .state-population-card h3 { color:#fff7df; }
+body:not(.theme-light) .state-population-card li { color:#eefbf1; }
+body:not(.theme-light) .state-population-card small { color:rgba(238,251,241,.7); }
+@media (max-width:850px) { .city-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:850px) { .largest-municipality-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:620px) { .city-hero__facts,.city-grid,.city-fit-grid,.city-route-grid,.city-link-list,.municipality-results,.largest-municipality-grid { grid-template-columns:1fr; } }

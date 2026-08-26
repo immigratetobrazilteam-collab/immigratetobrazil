@@ -96,7 +96,167 @@
   },
   {
     "route": "/brazil/cities/",
-    "title": "Cities",
+    "title": "Where in Brazil could you see yourself living?",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/aracaju/",
+    "title": "Living in Aracaju",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/belem/",
+    "title": "Living in Belém",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/belo-horizonte/",
+    "title": "Living in Belo Horizonte",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/boa-vista/",
+    "title": "Living in Boa Vista",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/brasilia/",
+    "title": "Living in Brasília",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/campinas/",
+    "title": "Living in Campinas",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/campo-grande/",
+    "title": "Living in Campo Grande",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/cuiaba/",
+    "title": "Living in Cuiabá",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/curitiba/",
+    "title": "Living in Curitiba",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/florianopolis/",
+    "title": "Living in Florianópolis",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/fortaleza/",
+    "title": "Living in Fortaleza",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/goiania/",
+    "title": "Living in Goiânia",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/gramado/",
+    "title": "Living in Gramado",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/joao-pessoa/",
+    "title": "Living in João Pessoa",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/macapa/",
+    "title": "Living in Macapá",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/maceio/",
+    "title": "Living in Maceió",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/manaus/",
+    "title": "Living in Manaus",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/natal/",
+    "title": "Living in Natal",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/niteroi/",
+    "title": "Living in Niterói",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/palmas/",
+    "title": "Living in Palmas",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/porto-alegre/",
+    "title": "Living in Porto Alegre",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/porto-velho/",
+    "title": "Living in Porto Velho",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/recife/",
+    "title": "Living in Recife",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/ribeirao-preto/",
+    "title": "Living in Ribeirão Preto",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/rio-branco/",
+    "title": "Living in Rio Branco",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/rio-de-janeiro/",
+    "title": "Living in Rio de Janeiro",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/salvador/",
+    "title": "Living in Salvador",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/santos/",
+    "title": "Living in Santos",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/sao-luis/",
+    "title": "Living in São Luís",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/sao-paulo/",
+    "title": "Living in São Paulo",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/teresina/",
+    "title": "Living in Teresina",
+    "endpoint": "https://formspree.io/f/xbdaaoyb"
+  },
+  {
+    "route": "/brazil/cities/vitoria/",
+    "title": "Living in Vitória",
     "endpoint": "https://formspree.io/f/xbdaaoyb"
   },
   {
