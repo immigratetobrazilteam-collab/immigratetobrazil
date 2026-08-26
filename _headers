@@ -9,14 +9,18 @@
 
 /assets/*
   ! Cache-Control
-  Cache-Control: public, max-age=31536000, immutable
+  # Image and document file names are descriptive rather than content-hashed.
+  # Keep the edge cache useful, but make browsers validate after a deployment.
+  Cache-Control: public, max-age=0, must-revalidate
 
 /css/*
   ! Cache-Control
+  # HTML references the deploy-versioned CSS URL (for example, ?v=abc123).
   Cache-Control: public, max-age=31536000, immutable
 
 /js/*
   ! Cache-Control
+  # HTML references the deploy-versioned JavaScript URL (for example, ?v=abc123).
   Cache-Control: public, max-age=31536000, immutable
 
 /robots.txt

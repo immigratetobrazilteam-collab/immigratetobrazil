@@ -84,6 +84,8 @@ const REQUIRED_HEADER_PATHS = new Map([
   ["/sitemaps/*", ["content-type", "cache-control"]],
   ["/data/ai-route-manifest.json", ["content-type", "cache-control"]]
 ]);
+const VERSIONED_CSS_RE = /<link\b(?=[^>]*\bhref=["']\/css\/site\.min\.css\?v=[a-f0-9]{12}["'])[^>]*>/i;
+const UNVERSIONED_LOCAL_SCRIPT_RE = /<script\b(?=[^>]*\bsrc=["']\/js\/[^"'?]+\.js["'])[^>]*>/i;
 
 function routeFromUrl(value) {
   try {
@@ -298,6 +300,12 @@ async function main() {
     }
 
     validateJsonLd(entry.route, html, failures);
+    if (!VERSIONED_CSS_RE.test(html)) {
+      failures.push(`Missing deployment-versioned stylesheet URL on ${entry.route}`);
+    }
+    if (UNVERSIONED_LOCAL_SCRIPT_RE.test(html)) {
+      failures.push(`Unversioned local JavaScript URL on ${entry.route}`);
+    }
     if (!pageData.noindex) indexableRoutes.push(entry.route);
   }
 
@@ -424,6 +432,17 @@ async function main() {
       }
       if (globalRule.headers.has("x-robots-tag")) {
         failures.push("_headers must not set a global X-Robots-Tag");
+      }
+    }
+
+    const assetRule = headerRules.find((rule) => rule.path === "/assets/*");
+    if (assetRule?.headers.get("cache-control") !== "public, max-age=0, must-revalidate") {
+      failures.push("Unversioned assets must revalidate after deployment");
+    }
+    for (const path of ["/css/*", "/js/*"]) {
+      const rule = headerRules.find((item) => item.path === path);
+      if (rule?.headers.get("cache-control") !== "public, max-age=31536000, immutable") {
+        failures.push(`${path} must retain long-lived caching for deployment-versioned assets`);
       }
     }
 

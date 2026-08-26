@@ -47,7 +47,7 @@
   {
     "route": "/pt-br/about/profile/",
     "title": "Perfil",
-    "wordCount": 891
+    "wordCount": 983
   },
   {
     "route": "/pt-br/about/results/",
@@ -3637,7 +3637,7 @@
   {
     "route": "/pt-br/legal/disclaimer/",
     "title": "Isenção de responsabilidade e aviso legal",
-    "wordCount": 761
+    "wordCount": 868
   },
   {
     "route": "/pt-br/legal/emergency/",

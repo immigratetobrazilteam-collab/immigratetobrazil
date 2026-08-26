@@ -37,6 +37,9 @@
   ];
 
   const PARTIAL_VERSION = "2026-06-12-construction-status-v1";
+  // Keep the above-the-fold shell responsive; lower-page widgets can hydrate
+  // after the first render without changing the initial layout.
+  const EAGER_PARTIALS = new Set(["gtm-noscript", "utility-bar", "accessibility-panel", "site-navigation", "breadcrumbs"]);
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();
@@ -485,10 +488,34 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
       window.ITB?.initSearch?.();
       return;
     }
-    await Promise.all(placeholders.map((node) => loadPartialNode(node)));
+    const eager = placeholders.filter((node) => EAGER_PARTIALS.has(node.getAttribute("data-partial")));
+    const deferred = placeholders.filter((node) => !EAGER_PARTIALS.has(node.getAttribute("data-partial")));
+
+    await Promise.all(eager.map((node) => loadPartialNode(node)));
     window.ITB?.initAccessibility?.();
     window.ITB?.initSite?.();
     window.ITB?.initSearch?.();
+
+    const loadDeferredPartials = () => {
+      Promise.all(deferred.map((node) => loadPartialNode(node)))
+        .then(() => {
+          window.ITB?.initAccessibility?.();
+          window.ITB?.initSite?.();
+          window.ITB?.initSearch?.();
+        })
+        .catch((error) => console.error(error));
+    };
+
+    const scheduleDeferredPartials = () => {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(loadDeferredPartials, { timeout: 1500 });
+      } else {
+        window.setTimeout(loadDeferredPartials, 250);
+      }
+    };
+
+    if (document.readyState === "complete") scheduleDeferredPartials();
+    else window.addEventListener("load", scheduleDeferredPartials, { once: true });
   }
 
   /* ==========================================================================

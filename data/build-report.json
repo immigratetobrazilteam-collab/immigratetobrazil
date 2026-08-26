@@ -47,7 +47,7 @@
   {
     "route": "/about/profile/",
     "title": "Profile",
-    "wordCount": 760
+    "wordCount": 847
   },
   {
     "route": "/about/results/",
@@ -3637,7 +3637,7 @@
   {
     "route": "/legal/disclaimer/",
     "title": "Disclaimer & Legal Notice",
-    "wordCount": 675
+    "wordCount": 782
   },
   {
     "route": "/legal/emergency/",

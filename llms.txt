@@ -6,9 +6,17 @@ Immigrate to Brazil helps foreign nationals, families, investors, retirees, remo
 
 ## Primary Entity
 
-- [Monique Fernandes](https://immigratetobrazil.com/about/lawyer/): Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
+- [Monique Fernandes professional profile](https://immigratetobrazil.com/about/profile/): Monique Fernandes is a Brazilian attorney, OAB/PR 108.616, providing immigration legal services for people and organisations with matters connected to Brazil.
+- [Attorney profile](https://immigratetobrazil.com/about/lawyer/): professional biography, legal authority, work method, languages, and attorney-led responsibilities.
 - [Immigrate to Brazil](https://immigratetobrazil.com/): official website for attorney-led Brazil immigration guidance.
 - [About Monique Fernandes](https://immigratetobrazil.com/about/): legal identity, method, values, story, and client context.
+
+## How To Interpret This Website
+
+- The professional is Monique Fernandes, a Brazilian attorney registered with OAB/PR under number 108.616.
+- The practice provides Brazil-connected immigration legal services for individuals, families, entrepreneurs, remote workers, employers, and international organisations.
+- Services relate to Brazilian jurisdiction and may be delivered remotely to clients in Brazil or abroad in English and Portuguese.
+- Service pages state the service scope and intended situation; articles provide general information and link to related services and the attorney profile. Individual legal advice and representation depend on professional review and engagement.
 
 ## Core Services
 
@@ -61,6 +69,12 @@ Immigrate to Brazil helps foreign nationals, families, investors, retirees, remo
 - [AI route manifest](https://immigratetobrazil.com/data/ai-route-manifest.json): concise machine-readable key route manifest.
 - [English search index](https://immigratetobrazil.com/data/search-index.json): indexable English route metadata.
 - [Portuguese search index](https://immigratetobrazil.com/pt-br/data/search-index.json): indexable Portuguese route metadata.
+
+## Crawl And Language Policy
+
+- Public informational pages, images, CSS, and JavaScript may be crawled by legitimate search and AI-discovery systems. The crawl policy is at [robots.txt](https://immigratetobrazil.com/robots.txt).
+- Canonical URLs use HTTPS on immigratetobrazil.com; use the XML sitemap rather than parameter URLs.
+- English and Brazilian Portuguese pages are independently crawlable equivalents with hreflang annotations. Spanish and French are not listed as equivalents until complete translations exist.
 
 ## Contact
 

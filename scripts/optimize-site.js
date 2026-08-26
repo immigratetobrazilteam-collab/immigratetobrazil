@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 import { spawnSync } from "child_process";
+import { createHash } from "crypto";
 
 import { discoverRouteFiles, extractPageData } from "./static-site-utils.js";
 import { absoluteUrl, localeForRoute } from "./sitemap-utils.js";
@@ -802,30 +803,38 @@ function escapeStyleContent(value = "") {
   return String(value).replace(/<\/style/gi, "<\\/style");
 }
 
-function buildManagedCssBlock(criticalCss) {
+function buildManagedCssBlock(criticalCss, assetVersions) {
   return `<style data-itb-critical-css>${escapeStyleContent(criticalCss)}</style>
-<link rel="stylesheet" href="/css/site.min.css" data-itb-full-css>
-<noscript><link rel="stylesheet" href="/css/site.min.css"></noscript>`;
+<link rel="stylesheet" href="/css/site.min.css?v=${assetVersions["/css/site.min.css"]}" data-itb-full-css>
+<noscript><link rel="stylesheet" href="/css/site.min.css?v=${assetVersions["/css/site.min.css"]}"></noscript>`;
 }
 
-function normalizeStylesheets(html, criticalCss) {
+function normalizeStylesheets(html, criticalCss, assetVersions) {
   let next = html
-    .replace(/href=(["'])\/assets\/vendor\/bootstrap\/bootstrap\.min\.css\1/gi, 'href="/css/bootstrap-lite.css"')
-    .replace(/href=(["'])\/css\/site\.css\1/gi, 'href="/css/site.min.css"');
+    .replace(/href=(["'])\/assets\/vendor\/bootstrap\/bootstrap\.min\.css(?:\?[^"']*)?\1/gi, `href="/css/bootstrap-lite.css?v=${assetVersions["/css/bootstrap-lite.css"]}"`)
+    .replace(/href=(["'])\/css\/site\.css(?:\?[^"']*)?\1/gi, `href="/css/site.min.css?v=${assetVersions["/css/site.min.css"]}"`);
 
   next = next
     .replace(/\s*<style\b[^>]*\bdata-itb-critical-css\b[^>]*>[\s\S]*?<\/style>\s*/gi, "\n")
     .replace(/\s*<script\b[^>]*\bdata-itb-deferred-css\b[^>]*>[\s\S]*?<\/script>\s*/gi, "\n")
-    .replace(/\s*<noscript>\s*<link\b(?=[^>]*\bhref=["']\/css\/site\.min\.css["'])[^>]*>\s*<\/noscript>\s*/gi, "\n")
-    .replace(/\s*<link\b(?=[^>]*\bhref=["']\/css\/site\.min\.css["'])[^>]*>\s*/gi, "\n")
+    .replace(/\s*<script\b(?=[^>]*\bsrc=["']\/js\/css-loader\.js(?:\?[^"']*)?["'])[^>]*>\s*<\/script>\s*/gi, "\n")
+    .replace(/\s*<noscript>\s*<link\b(?=[^>]*\bhref=["']\/css\/site\.min\.css(?:\?[^"']*)?["'])[^>]*>\s*<\/noscript>\s*/gi, "\n")
+    .replace(/\s*<link\b(?=[^>]*\bhref=["']\/css\/site\.min\.css(?:\?[^"']*)?["'])[^>]*>\s*/gi, "\n")
     .replace(/\s*<noscript>\s*<\/noscript>\s*/gi, "\n");
 
-  const block = buildManagedCssBlock(criticalCss);
-  const bootstrapLinkRe = /<link\b(?=[^>]*\bhref=["']\/css\/bootstrap-lite\.css["'])[^>]*>/i;
+  const block = buildManagedCssBlock(criticalCss, assetVersions);
+  const bootstrapLinkRe = /<link\b(?=[^>]*\bhref=["']\/css\/bootstrap-lite\.css(?:\?[^"']*)?["'])[^>]*>/i;
   if (bootstrapLinkRe.test(next)) {
-    return next.replace(bootstrapLinkRe, (match) => `${match}\n${block}`);
+    return next.replace(bootstrapLinkRe, `<link rel="stylesheet" href="/css/bootstrap-lite.css?v=${assetVersions["/css/bootstrap-lite.css"]}" />\n${block}`);
   }
-  return next.replace(/<\/head>/i, `${block}\n</head>`);
+  return next.replace(/<\/head>/i, `<link rel="stylesheet" href="/css/bootstrap-lite.css?v=${assetVersions["/css/bootstrap-lite.css"]}" />\n${block}\n</head>`);
+}
+
+function normalizeScriptAssets(html, assetVersions) {
+  return html.replace(/\bsrc=(["'])(\/js\/[^"'?]+\.js)(?:\?[^"']*)?\1/gi, (match, quote, src) => {
+    const version = assetVersions[src];
+    return version ? `src=${quote}${src}?v=${version}${quote}` : match;
+  });
 }
 
 function srcFromImageTag(tag) {
@@ -1292,6 +1301,24 @@ async function syncCriticalCss() {
   return writeIfChanged(path.join(ROOT, "css", "critical.css"), `${minifyCss(CRITICAL_CSS_SOURCE)}\n`);
 }
 
+async function buildAssetVersions() {
+  const assets = [
+    "/css/bootstrap-lite.css",
+    "/css/site.min.css",
+    "/js/partials.js",
+    "/js/search.js",
+    "/js/accessibility.js",
+    "/js/site.js",
+    "/js/asha-chat.js"
+  ];
+  const versions = {};
+  for (const asset of assets) {
+    const content = await fs.readFile(path.join(ROOT, asset.slice(1)));
+    versions[asset] = createHash("sha256").update(content).digest("hex").slice(0, 12);
+  }
+  return versions;
+}
+
 async function discoverPartialHtmlFiles() {
   const files = [];
   for (const dir of PARTIAL_HTML_DIRS) {
@@ -1332,9 +1359,17 @@ Immigrate to Brazil helps foreign nationals, families, investors, retirees, remo
 
 ## Primary Entity
 
-- [Monique Fernandes](https://immigratetobrazil.com/about/lawyer/): Brazilian immigration attorney, OAB/BAR registered, supporting clients in English and Portuguese.
+- [Monique Fernandes professional profile](https://immigratetobrazil.com/about/profile/): Monique Fernandes is a Brazilian attorney, OAB/PR 108.616, providing immigration legal services for people and organisations with matters connected to Brazil.
+- [Attorney profile](https://immigratetobrazil.com/about/lawyer/): professional biography, legal authority, work method, languages, and attorney-led responsibilities.
 - [Immigrate to Brazil](https://immigratetobrazil.com/): official website for attorney-led Brazil immigration guidance.
 - [About Monique Fernandes](https://immigratetobrazil.com/about/): legal identity, method, values, story, and client context.
+
+## How To Interpret This Website
+
+- The professional is Monique Fernandes, a Brazilian attorney registered with OAB/PR under number 108.616.
+- The practice provides Brazil-connected immigration legal services for individuals, families, entrepreneurs, remote workers, employers, and international organisations.
+- Services relate to Brazilian jurisdiction and may be delivered remotely to clients in Brazil or abroad in English and Portuguese.
+- Service pages state the service scope and intended situation; articles provide general information and link to related services and the attorney profile. Individual legal advice and representation depend on professional review and engagement.
 
 ## Core Services
 
@@ -1387,6 +1422,12 @@ Immigrate to Brazil helps foreign nationals, families, investors, retirees, remo
 - [AI route manifest](https://immigratetobrazil.com/data/ai-route-manifest.json): concise machine-readable key route manifest.
 - [English search index](https://immigratetobrazil.com/data/search-index.json): indexable English route metadata.
 - [Portuguese search index](https://immigratetobrazil.com/pt-br/data/search-index.json): indexable Portuguese route metadata.
+
+## Crawl And Language Policy
+
+- Public informational pages, images, CSS, and JavaScript may be crawled by legitimate search and AI-discovery systems. The crawl policy is at [robots.txt](https://immigratetobrazil.com/robots.txt).
+- Canonical URLs use HTTPS on immigratetobrazil.com; use the XML sitemap rather than parameter URLs.
+- English and Brazilian Portuguese pages are independently crawlable equivalents with hreflang annotations. Spanish and French are not listed as equivalents until complete translations exist.
 
 ## Contact
 
@@ -1615,6 +1656,7 @@ async function main() {
   const cssChanged = await syncMinifiedCss();
   const criticalCss = minifyCss(CRITICAL_CSS_SOURCE);
   const criticalCssChanged = await syncCriticalCss();
+  const assetVersions = await buildAssetVersions();
   const routeFiles = await discoverRouteFiles(ROOT, { includePt: true });
   const responsiveResult = await syncResponsiveImages(routeFiles);
   const { responsiveImages } = responsiveResult;
@@ -1629,7 +1671,8 @@ async function main() {
     const pageTitle = normalizeSpace(runtime.pageTitle || pageData.title || "Immigrate to Brazil");
     let next = html;
 
-    next = normalizeStylesheets(next, criticalCss);
+    next = normalizeStylesheets(next, criticalCss, assetVersions);
+    next = normalizeScriptAssets(next, assetVersions);
     next = normalizeImagePreloads(next, responsiveImages);
     next = normalizeContactAnchors(next, entry.route, pageTitle);
     next = normalizeImages(next, responsiveImages);

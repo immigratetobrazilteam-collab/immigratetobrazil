@@ -711,6 +711,43 @@ function patchJsonLd(html, route, locale, description, archiveMeta = null) {
       schema.description = copy.personDescription;
       schema.knowsLanguage = ["English", "Portuguese"];
       schema.knowsAbout = copy.personKnowsAbout;
+
+      // The registration number and the professional site are verified public
+      // identifiers. Keep them on the principal profile entity rather than
+      // relying on a name repeated across pages.
+      if (route === "/about/profile/" || route === "/pt-br/about/profile/") {
+        schema.identifier = {
+          "@type": "PropertyValue",
+          propertyID: "OAB/PR",
+          value: "108.616",
+          name: "Brazilian Bar Association, Paraná section registration"
+        };
+        schema.hasCredential = {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "Professional legal registration",
+          recognizedBy: {
+            "@type": "Organization",
+            name: "Ordem dos Advogados do Brasil — Seção do Paraná"
+          },
+          identifier: "OAB/PR 108.616"
+        };
+        schema.email = "moniquefadv@gmail.com";
+        schema.telephone = "+55 43 9961-4034";
+        schema.image = "https://immigratetobrazil.com/assets/images/pages/about/profile/hero/monique-fernandes-brazil-immigration-attorney-profile-page-portrait.png";
+        schema.sameAs = ["https://monique-fernandes.com/"];
+        schema.mainEntityOfPage = { "@id": `${absoluteUrl(route)}#webpage` };
+      }
+    }
+
+    if ((route === "/about/profile/" || route === "/pt-br/about/profile/") && schema["@id"] === `${absoluteUrl(route)}#webpage`) {
+      schema["@type"] = ["ProfilePage", "AboutPage"];
+      schema.name = locale === "pt-BR" ? "Perfil profissional de Monique Fernandes" : "Monique Fernandes professional profile";
+      schema.mainEntity = { "@id": "https://immigratetobrazil.com#person-monique-fernandes" };
+      schema.about = [
+        { "@id": "https://immigratetobrazil.com#person-monique-fernandes" },
+        { "@id": "https://immigratetobrazil.com#legal-practice" },
+        { "@id": "https://immigratetobrazil.com#place-brazil" }
+      ];
     }
 
     if (archiveMeta && schema["@type"] === "ImageObject") {

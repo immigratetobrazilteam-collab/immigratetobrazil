@@ -30,6 +30,7 @@ const SHARED_IDS = {
   organization: `${ROOT_ORGANIZATION_URL}#organization`,
   website: `${ROOT_ORGANIZATION_URL}#website`,
   contactPoint: `${ROOT_ORGANIZATION_URL}#contact-primary`,
+  person: `${ROOT_ORGANIZATION_URL}#person-monique-fernandes`
 };
 const ALLOWED_NOINDEX_ROUTES = new Set([
   "/brazil/search/",
@@ -104,6 +105,10 @@ function hasType(item, type) {
   return item["@type"] === type;
 }
 
+function isProfileRoute(route) {
+  return route === "/about/profile/" || route === "/pt-br/about/profile/";
+}
+
 function whatsappAnchors(html) {
   return [...html.matchAll(WHATSAPP_ANCHOR_RE)].map((match) => match[0]);
 }
@@ -143,6 +148,7 @@ async function main() {
     const contactPoint = schemaItems.find((item) => hasType(item, "ContactPoint"));
     const faqSchema = schemaItems.find((item) => hasType(item, "FAQPage"));
     const heroImage = schemaItems.find((item) => hasType(item, "ImageObject"));
+    const person = schemaItems.find((item) => hasType(item, "Person"));
     const hasVisibleFaq = html.includes('class="faq-block"');
 
     if (!organization || organization["@id"] !== SHARED_IDS.organization) {
@@ -162,6 +168,20 @@ async function main() {
     }
     if (!hasVisibleFaq && faqSchema) {
       failures.push(`FAQPage schema does not match visible content on ${page.route}`);
+    }
+
+    if (isProfileRoute(page.route)) {
+      const pageSchema = pageSchemas[0];
+      if (!hasType(pageSchema, "ProfilePage")) failures.push(`Profile page schema is missing ProfilePage on ${page.route}`);
+      if (pageSchema?.mainEntity?.["@id"] !== SHARED_IDS.person) {
+        failures.push(`Profile page main entity is incorrect on ${page.route}`);
+      }
+      if (person?.identifier?.propertyID !== "OAB/PR" || person?.identifier?.value !== "108.616") {
+        failures.push(`Profile page is missing the OAB/PR professional identifier on ${page.route}`);
+      }
+      if (!Array.isArray(person?.sameAs) || !person.sameAs.includes("https://monique-fernandes.com/")) {
+        failures.push(`Profile page is missing the verified professional sameAs URL on ${page.route}`);
+      }
     }
 
     if (heroImage && heroImage.inLanguage !== (locale === "pt-br" ? "pt-BR" : "en")) {

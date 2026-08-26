@@ -640,11 +640,7 @@ export function buildSitemapStylesheet() {
 }
 
 export function buildRobots() {
-  return `# Immigrate to Brazil robots.txt
-# Applies to legitimate search and AI crawlers, including Googlebot, Bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, CCBot, and Google-Extended.
-
-User-agent: *
-Allow: /
+  const publicDiscoveryPolicy = `Allow: /
 Allow: /llms.txt
 Allow: /sitemap.xml
 Allow: /sitemaps/
@@ -664,7 +660,27 @@ Disallow: /node_modules/
 Disallow: /data/build-report.json
 Disallow: /data/formspree-map.json
 Disallow: /pt-br/data/build-report.json
-Disallow: /pt-br/data/formspree-map.json
+Disallow: /pt-br/data/formspree-map.json`;
+
+  return `# Immigrate to Brazil robots.txt
+# Public services, professional profile, articles, images, CSS, and JavaScript
+# are intentionally available to legitimate search and AI-discovery systems.
+# Only repository, build, and non-public support files are excluded.
+
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: CCBot
+User-agent: Google-Extended
+${publicDiscoveryPolicy}
+
+User-agent: *
+${publicDiscoveryPolicy}
 
 Sitemap: ${absoluteUrl(SITEMAP_INDEX_ROUTE)}
 `;
