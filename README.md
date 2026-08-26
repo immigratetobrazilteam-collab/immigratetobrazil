@@ -1,6 +1,8 @@
 # Immigrate to Brazil
 
-This repository is now a direct static-site workspace.
+This is a direct, handwritten static site. Cloudflare Pages serves the files in
+this repository exactly as committed. There is no package manager, framework,
+or build command.
 
 Edit pages directly:
 - `index.html`
@@ -25,5 +27,9 @@ Shared runtime assets:
 - `js/search.js`
 - `assets/**`
 
-Preview locally:
+## Deploying to Cloudflare Pages
 
+Use the repository root as the Pages root directory, leave the framework preset
+and build command blank, and deploy the repository root (`/`). The full
+configuration and GitHub-connection recovery steps are in
+[`docs/cloudflare-pages-static.md`](docs/cloudflare-pages-static.md).
