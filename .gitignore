@@ -25,3 +25,5 @@ reports/
 # Ignore imported source trees that do not belong to this repo
 site/
 pt-br/site/
+.weekly-site-optimizer-state.json
+reports/weekly-optimization-*
