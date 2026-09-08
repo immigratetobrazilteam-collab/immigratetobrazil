@@ -479,6 +479,12 @@ def is_excluded_file(path: Path) -> bool:
 
 
 def url_for_file(path: Path) -> str | None:
+    # GOOGLE VERIFICATION FILE — NEVER A CONTENT PAGE
+    # Files such as google55d84a2211a04ae2.html are Search Console
+    # verification tokens, not indexable webpages.
+    if re.fullmatch(r"google[a-z0-9_-]+\\.html", path.name, re.I):
+        return None
+
     if is_excluded_file(path) or path.name in EXCLUDED_HTML_NAMES:
         return None
 

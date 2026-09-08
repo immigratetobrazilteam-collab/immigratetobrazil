@@ -149,6 +149,12 @@ def is_excluded_path(path):
     return any(part in EXCLUDED_DIRS for part in parts)
 
 def path_to_url(path):
+    # GOOGLE VERIFICATION FILE — NEVER IN SITEMAP
+    # Search Console verification HTML must remain publicly reachable,
+    # but it is not a content URL and must not enter XML sitemaps.
+    if re.fullmatch(r"google[a-z0-9_-]+\\.html", path.name, re.I):
+        return None
+
     if is_excluded_path(path):
         return None
 
