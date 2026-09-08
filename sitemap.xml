@@ -1,84 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-foundation.xml</loc>
-    <lastmod>2026-09-08</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-start-consultation.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-contact.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-services.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-process.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-rights.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-about.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-brazil.xml</loc>
-    <lastmod>2026-08-26</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-about.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-client-feedback.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-contact.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-countries.xml</loc>
-    <lastmod>2026-08-26</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-google55d84a2211a04ae2.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-visa.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-naturalisation.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-updates.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-guides.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-fyi.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-residency.xml</loc>
-    <lastmod>2026-08-26</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-process.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-home.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-blog.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-fyi.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-general.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-guides.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-naturalisation.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-process.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-residency.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-updates.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-visa.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-legal.xml</loc>
-    <lastmod>2026-08-26</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-partials.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-process.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-about.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-brazil.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-client-feedback.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-contact.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-countries.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-blog.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-fyi.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-general.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-guides.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-naturalisation.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-process.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-residency.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-updates.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-visa.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-legal.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-process.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-rights.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-services.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-start-consultation.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-rights.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-services.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-start-consultation.xml</loc>
   </sitemap>
 </sitemapindex>
