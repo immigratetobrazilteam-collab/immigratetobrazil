@@ -1,0 +1,62 @@
+SEO SITEWIDE IMPLEMENTATION REPORT - 2026-09-08
+
+COMMANDS COMPLETED
+
+DONE: node scripts/sync-static-data.js
+RESULT: Synced static site data for 1716 HTML routes.
+
+DONE: node scripts/seo-audit.js
+RESULT: SEO audit passed for 1708 indexed routes, 874 route pairs, 870 English search entries, and 838 Portuguese search entries.
+
+DONE: node scripts/validate-site.js
+RESULT: Validation passed for 1716 route HTML files.
+
+DONE: Representative browser QA
+RESULT: No sampled horizontal mobile overflow, exactly one H1 on sampled pages, one canonical on sampled indexable pages, and no sampled page JavaScript errors.
+
+WHAT WAS IMPLEMENTED
+
+DONE: Applied metadata rewrites to 351 eligible pages.
+DONE: Applied updated page titles, meta descriptions, H1s, Open Graph metadata, Twitter metadata, runtime page titles, breadcrumb labels, and page-level schema names/descriptions where applicable.
+DONE: Preserved stronger existing descriptions where the audit draft was too generic.
+DONE: Rewrote visible opening/content sections on 34 priority pages.
+DONE: Added application-preparation sections and official-reference links on priority visa/residence service pages where appropriate.
+DONE: Added 730 crawlable contextual internal links across 350 pages.
+DONE: Updated shared Organization schema description consistently across pages with JSON-LD.
+DONE: Preserved existing real professional identity, contact, and credential fields instead of inventing new entity claims.
+DONE: Removed unsupported canonical/hreflang output from 404/error pages while keeping them noindex.
+DONE: Updated robots.txt so public runtime partials are crawlable while private build/support areas remain disallowed.
+DONE: Updated _headers so /partials/* is noindex without nofollow.
+DONE: Updated sitemap route metadata and internal footer/root links from /sitemap.html to /sitemap where the live host canonicalizes the route.
+DONE: Updated static route resolution so extensionless Cloudflare Pages HTML routes are validated correctly.
+DONE: Fixed the Portuguese footer/grid mobile overflow in served CSS.
+DONE: Updated site.min.css and all HTML cache-busting references to the new CSS hash.
+DONE: Regenerated search indexes, build reports, form maps, sitemap data, and normalized static routes.
+DONE: Wrote the final implementation ledger, page change log, applied metadata record, applied internal-link table, content-change list, browser QA, and implementation summary.
+
+WHAT WAS NOT IMPLEMENTED
+
+NOT DONE: Google Search Console query/page optimizations.
+REASON: No GSC export or account access was provided, so query evidence, CTR opportunities, and query-by-page cannibalization cannot be applied responsibly.
+
+NOT DONE: GA4 conversion-performance optimization by landing page.
+REASON: No GA4 export or account access was provided.
+
+NOT DONE: Cloudflare account-level host canonicalization.
+REASON: This cannot be safely implemented in the repo _redirects file because Cloudflare Pages _redirects does not support domain-level redirects. Configure this in the Cloudflare account.
+
+NOT DONE: Full factual rewrites for 944 article/archive source-hold pages.
+REASON: The audit marked these as needing source-backed editorial review. Rewriting them without sources would create unsupported SEO content.
+
+NOT DONE: Full factual expansions for 386 country pages.
+REASON: The audit marked these as needing country-specific evidence. Adding stronger country claims without evidence would be unreliable.
+
+NOT DONE: Substantive legal policy rewrite.
+REASON: Legal terms, privacy, refund, accessibility, payment, and disclaimer language needs owner/legal review before content changes beyond metadata and internal linking.
+
+NOT DONE: Redirect/consolidation execution for candidates.
+REASON: The audit did not prove those URLs have no backlinks, impressions, conversion value, or independent user purpose. They were left indexable or preserved pending GSC/backlink evidence.
+
+NOT DONE: Deployment to production.
+REASON: No deploy instruction or production account action was requested in this turn.
+

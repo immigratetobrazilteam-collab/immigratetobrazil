@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-08T11:49:13.832Z",
+  "inventoryUrls": 1720,
+  "metadataApplied": 351,
+  "contentApplied": 34,
+  "pagesWithAppliedInternalLinks": 350,
+  "appliedInternalLinkRows": 730,
+  "schemaPages": 1718,
+  "indexable": 1710,
+  "noindex": 10,
+  "validators": [
+    "node scripts/seo-audit.js: passed",
+    "node scripts/validate-site.js: passed"
+  ],
+  "browserQa": "Representative mobile/desktop QA passed for overflow, H1 count, canonicals, and JS errors; direct DOM checks confirmed priority service content."
+}
