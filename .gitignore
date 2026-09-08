@@ -27,3 +27,4 @@ site/
 pt-br/site/
 .weekly-site-optimizer-state.json
 reports/weekly-optimization-*
+.optimizer-backups/

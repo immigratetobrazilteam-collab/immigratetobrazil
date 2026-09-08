@@ -35,10 +35,11 @@ EXCLUDED_DIRS = {
     ".git", ".github", ".idea", ".vscode", "__pycache__",
     "node_modules", "templates", "memory-bank", "reports",
     "scripts", "src", "docs", "path", "vendor", "dist",
-    "build", ".cache", ".wrangler",
+    "build", ".cache", ".wrangler", "partials", ".codex-temp",
 }
 
 EXCLUDED_HTML_FILES = {
+    "sitemap.html",
     "404.html",
     "500.html",
     "offline.html",
@@ -152,6 +153,16 @@ def path_to_url(path):
         return None
 
     if path.name in EXCLUDED_HTML_FILES:
+        return None
+
+    rel_parts = path.relative_to(ROOT).parts
+
+    # Verification token HTML is not a search-result content page.
+    if re.fullmatch(r"google[0-9a-f]+\\.html", path.name, re.I):
+        return None
+
+    # Custom 404 templates must never enter XML sitemaps.
+    if any(part.lower() == "404" for part in rel_parts[:-1]):
         return None
 
     rel = path.relative_to(ROOT).as_posix()
