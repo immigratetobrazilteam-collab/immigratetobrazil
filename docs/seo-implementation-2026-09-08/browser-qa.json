@@ -1,0 +1,347 @@
+[
+  {
+    "route": "/",
+    "viewport": 390,
+    "title": "Brazil Immigration Lawyer | Monique Fernandes",
+    "h1": [
+      "Brazil Immigration Lawyer Monique Fernandes"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 16568,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/"
+    ],
+    "formCount": 3,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/",
+    "viewport": 390,
+    "title": "Advogada de imigração no Brasil | Monique Fernandes",
+    "h1": [
+      "Advogada de imigração no Brasil: Monique Fernandes"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 18412,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/"
+    ],
+    "formCount": 3,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/services/",
+    "viewport": 390,
+    "title": "Brazil Immigration Legal Services | Immigrate to Brazil",
+    "h1": [
+      "Brazil Immigration Legal Services"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 5590,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/services/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/",
+    "viewport": 390,
+    "title": "Serviços jurídicos de imigração no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Serviços jurídicos de imigração no Brasil"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 5513,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/services/visas/nomad/",
+    "viewport": 390,
+    "title": "Brazil Digital Nomad Visa Assistance | Immigrate to Brazil",
+    "h1": [
+      "Brazil Digital Nomad Visa Assistance"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 0,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/services/visas/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/visas/nomad/",
+    "viewport": 320,
+    "title": "Assessoria para visto de nômade digital no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Assessoria para visto de nômade digital no Brasil"
+    ],
+    "width": 320,
+    "scrollWidth": 320,
+    "mainText": 1912,
+    "footerColumns": "304px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/visas/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [
+      {
+        "tag": "DIV",
+        "cls": "topic-section__body",
+        "right": 334.65625
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "UL",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 334.65625
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 334.65625
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/visas/nomad/",
+    "viewport": 390,
+    "title": "Assessoria para visto de nômade digital no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Assessoria para visto de nômade digital no Brasil"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 0,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/visas/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/visas/nomad/",
+    "viewport": 768,
+    "title": "Assessoria para visto de nômade digital no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Assessoria para visto de nômade digital no Brasil"
+    ],
+    "width": 768,
+    "scrollWidth": 768,
+    "mainText": 0,
+    "footerColumns": "356.797px 356.797px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/visas/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/visas/nomad/",
+    "viewport": 1440,
+    "title": "Assessoria para visto de nômade digital no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Assessoria para visto de nômade digital no Brasil"
+    ],
+    "width": 1440,
+    "scrollWidth": 1440,
+    "mainText": 2488,
+    "footerColumns": "290px 145.953px 145.969px 145.953px 145.969px 145.969px 210px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/visas/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/services/residencies/nomad/",
+    "viewport": 390,
+    "title": "Digital Nomad Residence Authorization in Brazil | Immigrate to Brazil",
+    "h1": [
+      "Digital Nomad Residence Authorization in Brazil"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 0,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/services/residencies/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/services/residencies/nomad/",
+    "viewport": 390,
+    "title": "Autorização de residência para nômade digital no Brasil | Immigrate to Brazil",
+    "h1": [
+      "Autorização de residência para nômade digital no Brasil"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 0,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/services/residencies/nomad/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/start-consultation/",
+    "viewport": 390,
+    "title": "Request a Brazil Immigration Consultation | Immigrate to Brazil",
+    "h1": [
+      "Request a Brazil Immigration Consultation"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 4592,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/start-consultation/"
+    ],
+    "formCount": 3,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/start-consultation/",
+    "viewport": 390,
+    "title": "Solicite uma consulta sobre imigração | Immigrate to Brazil",
+    "h1": [
+      "Solicite uma consulta sobre imigração"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 4466,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/start-consultation/"
+    ],
+    "formCount": 3,
+    "overflow": [
+      {
+        "tag": "ASIDE",
+        "cls": "topic-section__aside",
+        "right": 405.828125
+      },
+      {
+        "tag": "DIV",
+        "cls": "topic-note",
+        "right": 405.828125
+      },
+      {
+        "tag": "DIV",
+        "cls": "topic-note",
+        "right": 405.828125
+      }
+    ],
+    "errors": []
+  },
+  {
+    "route": "/contact/",
+    "viewport": 390,
+    "title": "Contact Monique Fernandes",
+    "h1": [
+      "Contact Monique Fernandes"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 1170,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/contact/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/pt-br/contact/",
+    "viewport": 390,
+    "title": "Fale com Monique Fernandes",
+    "h1": [
+      "Fale com Monique Fernandes"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 1067,
+    "footerColumns": "370.5px",
+    "canonicals": [
+      "https://immigratetobrazil.com/pt-br/contact/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/brazil/cities/aracaju/",
+    "viewport": 390,
+    "title": "Living in Aracaju | Immigrate to Brazil",
+    "h1": [
+      "Living in Aracaju"
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "mainText": 328,
+    "footerColumns": "175.297px 175.297px",
+    "canonicals": [
+      "https://immigratetobrazil.com/brazil/cities/aracaju/"
+    ],
+    "formCount": 1,
+    "overflow": [],
+    "errors": []
+  }
+]

@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import { existsSync } from "fs";
 import path from "path";
 
 const DEFAULT_IGNORED_DIRS = new Set([
@@ -224,6 +225,9 @@ export function resolveLocalPath(root, lookupPath) {
   const fileLike = /\.[a-z0-9]+$/i.test(lookupPath);
   const relative = lookupPath.replace(/^\//, "");
   if (fileLike) return path.join(root, relative);
+  if (!lookupPath.endsWith("/") && existsSync(path.join(root, `${relative}.html`))) {
+    return path.join(root, `${relative}.html`);
+  }
   return path.join(root, relative.replace(/\/$/, ""), "index.html");
 }
 

@@ -10,7 +10,7 @@ import {
   normalizeUrlForLookup,
   resolveLocalPath
 } from "./static-site-utils.js";
-import { buildRouteGroups, expectedAlternateLinks } from "./html-normalize-utils.js";
+import { buildRouteGroups, expectedAlternateLinks, isErrorRoute } from "./html-normalize-utils.js";
 import {
   absoluteUrl,
   baseRouteFor,
@@ -110,9 +110,12 @@ async function main() {
     const alternates = extractAlternates(html);
     const robotsMatch = html.match(ROBOTS_RE);
     const expectedAlternates = expectedAlternateLinks(entry.route, routeGroups);
+    if (isErrorRoute(entry.route) && alternates.length) {
+      failures.push(`Error route should not publish language alternates: ${entry.route}`);
+    }
     const alternateCountByLang = new Map();
 
-    if (canonicals.length !== 1 || canonicals[0] !== absoluteUrl(entry.route)) {
+    if (isErrorRoute(entry.route) ? canonicals.length !== 0 : (canonicals.length !== 1 || canonicals[0] !== absoluteUrl(entry.route))) {
       failures.push(`Canonical mismatch on ${entry.route}`);
     }
 

@@ -44,7 +44,12 @@ export function buildRouteGroups(routeFiles) {
   return routeGroups;
 }
 
+export function isErrorRoute(route) {
+  return baseRouteFor(route) === "/legal/404/";
+}
+
 export function expectedAlternateLinks(route, routeGroups) {
+  if (isErrorRoute(route)) return [];
   const group = routeGroups.get(baseRouteFor(route)) || {};
   const locale = localeForRoute(route);
   const enRoute = group.en || (locale === "en" ? route : null);
@@ -64,6 +69,9 @@ export function expectedAlternateLinks(route, routeGroups) {
 }
 
 function buildCanonicalSection(route, routeGroups) {
+  if (isErrorRoute(route)) {
+    return "<!-- Section: Canonical And Language Alternates -->\n<!-- Error responses remain noindex and do not nominate another error URL. -->\n\n";
+  }
   const lines = [
     `<!-- Section: Canonical And Language Alternates -->`,
     `<link rel="canonical" href="${absoluteUrl(route)}" />`,

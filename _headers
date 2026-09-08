@@ -48,7 +48,7 @@
   Cache-Control: public, max-age=3600, must-revalidate
   Content-Type: application/xml; charset=utf-8
 
-/sitemap.html
+/sitemap
   ! Cache-Control
   Cache-Control: public, max-age=3600, must-revalidate
 
@@ -70,4 +70,4 @@
 /partials/*
   ! Cache-Control
   Cache-Control: no-store
-  X-Robots-Tag: noindex, nofollow
+  X-Robots-Tag: noindex

@@ -17283,3 +17283,34 @@ body.site-root .universal-consultation-form textarea::placeholder {
     grid-template-columns: 1fr;
   }
 }
+
+/* SEO audit: keep localized footer grids within the viewport. */
+body.site-root .footer-panel__head,
+body.site-root .footer-panel__groups,
+body.site-root .footer-panel__group,
+body.site-root .footer-panel__actions,
+body.site-root .footer-contact-list li > * {
+  min-width: 0;
+}
+body.site-root .footer-brand-title,
+body.site-root .footer-contact-list {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1439px) {
+  html[lang="pt-BR"] body.site-root .footer-grid.footer-grid--directory {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 991px) {
+  html[lang="pt-BR"] body.site-root .footer-grid.footer-grid--directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 767px) {
+  html[lang="pt-BR"] body.site-root .footer-grid.footer-grid--directory {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  html[lang="pt-BR"] body.site-root .footer-grid.footer-grid--directory .footer-panel {
+    grid-column: auto;
+  }
+}

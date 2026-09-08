@@ -648,7 +648,6 @@ Allow: /sitemap.html
 Allow: /data/ai-route-manifest.json
 Allow: /data/search-index.json
 Allow: /pt-br/data/search-index.json
-Disallow: /partials/
 Disallow: /templates/
 Disallow: /memory-bank/
 Disallow: /reports/
