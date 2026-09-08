@@ -14,7 +14,7 @@ User problem / SEO objective: Client Feedback
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Client Feedback
 Primary keyword/focus field: Client Feedback; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Client Feedback questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

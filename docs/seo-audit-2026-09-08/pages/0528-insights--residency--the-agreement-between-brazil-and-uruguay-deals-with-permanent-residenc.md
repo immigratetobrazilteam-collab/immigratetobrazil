@@ -26,11 +26,11 @@ BEFORE description: The Agreement between Brazil and Uruguay deals with permanen
 BEFORE H1: The Agreement between Brazil and Uruguay deals with permanent residence authorization
 BEFORE apparent targeting: The Agreement between Brazil and Uruguay deals with permanent residence authorization
 
-AFTER title: The Agreement between Brazil and Uruguay deals with permanent residence authorization | August 22, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: The Agreement between Brazil and Uruguay deals with permanent residence authorization
-Alternative B: The Agreement between Brazil and Uruguay deals with permanent residence authorization | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Agreement between Brazil and Uruguay deals with permanent residence authorization | August 22, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Agreement between Brazil and Uruguay deals with permanent residence authorization: This page brings earlier residency research into a clearer framework...
-AFTER H1: The Agreement between Brazil and Uruguay deals with permanent residence authorization
+AFTER H1 (HOLD; not approved for publication): The Agreement between Brazil and Uruguay deals with permanent residence authorization
 AFTER targeting: The Agreement between Brazil and Uruguay deals with permanent residence authorization — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

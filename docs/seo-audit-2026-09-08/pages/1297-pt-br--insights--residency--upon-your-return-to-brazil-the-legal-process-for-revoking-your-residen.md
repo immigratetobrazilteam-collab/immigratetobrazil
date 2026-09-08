@@ -26,11 +26,11 @@ BEFORE description: Após o seu retorno ao Brasil, o processo legal para revogar
 BEFORE H1: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será
 BEFORE apparent targeting: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será
 
-AFTER title: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será | 5 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será
-Alternative B: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será | 5 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Após o seu retorno ao Brasil, o processo legal para revogar sua autorização de residência irá: Esta página traz a pesquisa de residência anterior para uma estrutura mais clara...
-AFTER H1: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será
+AFTER H1 (HOLD; not approved for publication): Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será
 AFTER targeting: Ao retornar ao Brasil, o processo legal para revogação da sua autorização de residência será — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

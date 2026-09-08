@@ -26,11 +26,11 @@ BEFORE description: A renúncia voluntária da nacionalidade brasileira, previst
 BEFORE H1: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira
 BEFORE apparent targeting: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira
 
-AFTER title: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira | 10 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira
-Alternative B: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira | 10 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira
+AFTER H1 (HOLD; not approved for publication): A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira
 AFTER targeting: A renúncia voluntária da nacionalidade brasileira, prevista na legislação brasileira — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

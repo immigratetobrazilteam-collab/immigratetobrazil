@@ -26,11 +26,11 @@ BEFORE description: Os viajantes no Brasil podem acessar uma variedade de servi�
 BEFORE H1: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos
 BEFORE apparent targeting: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos
 
-AFTER title: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos | 24 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos
-Alternative B: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos | 24 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos
+AFTER H1 (HOLD; not approved for publication): Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos
 AFTER targeting: Os viajantes no Brasil podem acessar uma variedade de serviços básicos de saúde em muitos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

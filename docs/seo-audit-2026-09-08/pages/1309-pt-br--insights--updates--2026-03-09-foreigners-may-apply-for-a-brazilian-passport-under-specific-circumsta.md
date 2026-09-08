@@ -26,11 +26,11 @@ BEFORE description: Os estrangeiros podem solicitar um passaporte brasileiro sob
 BEFORE H1: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira
 BEFORE apparent targeting: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira
 
-AFTER title: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira | 8 de julho de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira
-Alternative B: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira | 8 de julho de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira: Registro de arquivo: 9 de março de 2026. Esta página traz...
-AFTER H1: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira
+AFTER H1 (HOLD; not approved for publication): Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira
 AFTER targeting: Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

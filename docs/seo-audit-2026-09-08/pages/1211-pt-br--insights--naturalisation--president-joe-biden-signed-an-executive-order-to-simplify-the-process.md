@@ -26,11 +26,11 @@ BEFORE description: O presidente Joe Biden assinou uma ordem executiva para simp
 BEFORE H1: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão
 BEFORE apparent targeting: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão
 
-AFTER title: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão | 10 de julho de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão
-Alternative B: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão | 10 de julho de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão
+AFTER H1 (HOLD; not approved for publication): O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão
 AFTER targeting: O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

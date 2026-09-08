@@ -14,7 +14,7 @@ User problem / SEO objective: Accessibility Statement
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Accessibility Statement
 Primary keyword/focus field: Accessibility Statement; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Accessibility Statement questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

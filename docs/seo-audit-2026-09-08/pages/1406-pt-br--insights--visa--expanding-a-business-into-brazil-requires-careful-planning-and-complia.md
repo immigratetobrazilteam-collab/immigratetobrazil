@@ -26,11 +26,11 @@ BEFORE description: Expandir um negócio para o Brasil requer planejamento cuida
 BEFORE H1: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com
 BEFORE apparent targeting: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com
 
-AFTER title: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com | 15 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com
-Alternative B: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com | 15 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com o local: Esta página traz pesquisas anteriores de vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com
+AFTER H1 (HOLD; not approved for publication): Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com
 AFTER targeting: Expandir um negócio para o Brasil requer planejamento cuidadoso e conformidade com — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

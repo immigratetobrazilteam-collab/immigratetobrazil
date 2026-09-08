@@ -26,11 +26,11 @@ BEFORE description: Brazil issues the CPLP temporary visa only in some specific 
 BEFORE H1: Brazil issues the CPLP temporary visa only in some specific cities
 BEFORE apparent targeting: Brazil issues the CPLP temporary visa only in some specific cities
 
-AFTER title: Brazil issues the CPLP temporary visa only in some specific cities | July 23, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil issues the CPLP temporary visa only in some specific cities
-Alternative B: Brazil issues the CPLP temporary visa only in some specific cities | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil issues the CPLP temporary visa only in some specific cities | July 23, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil issues the CPLP temporary visa only in some specific cities: This page brings earlier visa research into a clearer entry-planning format for Immigrate...
-AFTER H1: Brazil issues the CPLP temporary visa only in some specific cities
+AFTER H1 (HOLD; not approved for publication): Brazil issues the CPLP temporary visa only in some specific cities
 AFTER targeting: Brazil issues the CPLP temporary visa only in some specific cities — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

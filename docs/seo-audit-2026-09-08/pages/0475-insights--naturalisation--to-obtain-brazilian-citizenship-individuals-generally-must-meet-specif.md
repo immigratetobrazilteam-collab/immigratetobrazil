@@ -26,11 +26,11 @@ BEFORE description: To obtain Brazilian citizenship, individuals generally must 
 BEFORE H1: To obtain Brazilian citizenship, individuals generally must meet specific requirements
 BEFORE apparent targeting: To obtain Brazilian citizenship, individuals generally must meet specific requirements
 
-AFTER title: To obtain Brazilian citizenship, individuals generally must meet specific requirements | June 11, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: To obtain Brazilian citizenship, individuals generally must meet specific requirements
-Alternative B: To obtain Brazilian citizenship, individuals generally must meet specific requirements | Monique Fernandes
+AFTER title (HOLD; not approved for publication): To obtain Brazilian citizenship, individuals generally must meet specific requirements | June 11, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: To obtain Brazilian citizenship, individuals generally must meet specific requirements: This page brings earlier citizenship research into a clearer format...
-AFTER H1: To obtain Brazilian citizenship, individuals generally must meet specific requirements
+AFTER H1 (HOLD; not approved for publication): To obtain Brazilian citizenship, individuals generally must meet specific requirements
 AFTER targeting: To obtain Brazilian citizenship, individuals generally must meet specific requirements — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

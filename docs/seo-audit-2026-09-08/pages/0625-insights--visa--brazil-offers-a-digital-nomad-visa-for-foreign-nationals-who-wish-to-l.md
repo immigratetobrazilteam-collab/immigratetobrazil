@@ -26,11 +26,11 @@ BEFORE description: Brazil offers a Digital Nomad Visa for foreign nationals who
 BEFORE H1: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work
 BEFORE apparent targeting: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work
 
-AFTER title: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work | February 27, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work
-Alternative B: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work | February 27, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work
+AFTER H1 (HOLD; not approved for publication): Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work
 AFTER targeting: Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

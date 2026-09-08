@@ -26,11 +26,11 @@ BEFORE description: É uma data importante para reforçar a luta contra todas as
 BEFORE H1: É uma data importante para reforçar o combate a todas as formas de racismo e
 BEFORE apparent targeting: É uma data importante para reforçar o combate a todas as formas de racismo e
 
-AFTER title: É uma data importante para reforçar o combate a todas as formas de racismo e | 3 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: É uma data importante para reforçar o combate a todas as formas de racismo e
-Alternative B: É uma data importante para reforçar o combate a todas as formas de racismo e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É uma data importante para reforçar o combate a todas as formas de racismo e | 3 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É uma data importante para reforçar a luta contra todas as formas de racismo e: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: É uma data importante para reforçar o combate a todas as formas de racismo e
+AFTER H1 (HOLD; not approved for publication): É uma data importante para reforçar o combate a todas as formas de racismo e
 AFTER targeting: É uma data importante para reforçar o combate a todas as formas de racismo e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

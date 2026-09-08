@@ -26,11 +26,11 @@ BEFORE description: When a Brazilian citizen faces problems abroad, the first in
 BEFORE H1: When a Brazilian citizen faces problems abroad, the first instance of support is
 BEFORE apparent targeting: When a Brazilian citizen faces problems abroad, the first instance of support is
 
-AFTER title: When a Brazilian citizen faces problems abroad, the first instance of support is | February 6, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: When a Brazilian citizen faces problems abroad, the first instance of support is
-Alternative B: When a Brazilian citizen faces problems abroad, the first instance of support is | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When a Brazilian citizen faces problems abroad, the first instance of support is | February 6, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When a Brazilian citizen faces problems abroad, the first instance of support is: This page brings earlier FAQ-style research into a clearer guidance page for...
-AFTER H1: When a Brazilian citizen faces problems abroad, the first instance of support is
+AFTER H1 (HOLD; not approved for publication): When a Brazilian citizen faces problems abroad, the first instance of support is
 AFTER targeting: When a Brazilian citizen faces problems abroad, the first instance of support is — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

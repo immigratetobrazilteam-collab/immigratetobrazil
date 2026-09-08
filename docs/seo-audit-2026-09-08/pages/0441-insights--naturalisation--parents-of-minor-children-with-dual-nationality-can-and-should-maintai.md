@@ -26,11 +26,11 @@ BEFORE description: Parents of minor children with dual nationality can and shou
 BEFORE H1: Parents of minor children with dual nationality can and should maintain contact with
 BEFORE apparent targeting: Parents of minor children with dual nationality can and should maintain contact with
 
-AFTER title: Parents of minor children with dual nationality can and should maintain contact with | March 6, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Parents of minor children with dual nationality can and should maintain contact with
-Alternative B: Parents of minor children with dual nationality can and should maintain contact with | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Parents of minor children with dual nationality can and should maintain contact with | March 6, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Parents of minor children with dual nationality can and should maintain contact with: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Parents of minor children with dual nationality can and should maintain contact with
+AFTER H1 (HOLD; not approved for publication): Parents of minor children with dual nationality can and should maintain contact with
 AFTER targeting: Parents of minor children with dual nationality can and should maintain contact with — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

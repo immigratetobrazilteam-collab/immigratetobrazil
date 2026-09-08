@@ -26,11 +26,11 @@ BEFORE description: Investir no Brasil com visto de investidor oferece uma combi
 BEFORE H1: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico
 BEFORE apparent targeting: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico
 
-AFTER title: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico | 27 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico
-Alternative B: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico | 27 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico
+AFTER H1 (HOLD; not approved for publication): Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico
 AFTER targeting: Investir no Brasil com visto de investidor oferece uma combinação dinâmica de potencial econômico — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

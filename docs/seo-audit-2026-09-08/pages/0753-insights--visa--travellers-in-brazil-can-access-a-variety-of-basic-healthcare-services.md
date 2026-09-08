@@ -26,11 +26,11 @@ BEFORE description: Travellers in Brazil can access a variety of basic healthcar
 BEFORE H1: Travellers in Brazil can access a variety of basic healthcare services at many
 BEFORE apparent targeting: Travellers in Brazil can access a variety of basic healthcare services at many
 
-AFTER title: Travellers in Brazil can access a variety of basic healthcare services at many | September 24, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Travellers in Brazil can access a variety of basic healthcare services at many
-Alternative B: Travellers in Brazil can access a variety of basic healthcare services at many | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Travellers in Brazil can access a variety of basic healthcare services at many | September 24, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Travellers in Brazil can access a variety of basic healthcare services at many: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Travellers in Brazil can access a variety of basic healthcare services at many
+AFTER H1 (HOLD; not approved for publication): Travellers in Brazil can access a variety of basic healthcare services at many
 AFTER targeting: Travellers in Brazil can access a variety of basic healthcare services at many — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

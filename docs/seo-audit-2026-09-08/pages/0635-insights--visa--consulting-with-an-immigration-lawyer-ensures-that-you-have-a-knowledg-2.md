@@ -26,11 +26,11 @@ BEFORE description: Consulting with an immigration lawyer ensures that you have 
 BEFORE H1: Consulting with an immigration lawyer ensures that you have a knowledg (2)
 BEFORE apparent targeting: Consulting with an immigration lawyer ensures that you have a knowledg (2)
 
-AFTER title: Consulting with an immigration lawyer ensures that you have a knowledg (2) | August 25, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Consulting with an immigration lawyer ensures that you have a knowledg (2)
-Alternative B: Consulting with an immigration lawyer ensures that you have a knowledg (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Consulting with an immigration lawyer ensures that you have a knowledg (2) | August 25, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Consulting with an immigration lawyer ensures that you have a knowledg (2): This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Consulting with an immigration lawyer ensures that you have a knowledg (2)
+AFTER H1 (HOLD; not approved for publication): Consulting with an immigration lawyer ensures that you have a knowledg (2)
 AFTER targeting: Consulting with an immigration lawyer ensures that you have a knowledg (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

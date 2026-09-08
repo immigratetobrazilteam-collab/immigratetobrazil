@@ -26,11 +26,11 @@ BEFORE description: O governo brasileiro apresentou novas diretrizes para o tran
 BEFORE H1: O governo brasileiro apresentou novas diretrizes para o transporte de animais em
 BEFORE apparent targeting: O governo brasileiro apresentou novas diretrizes para o transporte de animais em
 
-AFTER title: O governo brasileiro apresentou novas diretrizes para o transporte de animais em | 8 de janeiro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: O governo brasileiro apresentou novas diretrizes para o transporte de animais em
-Alternative B: O governo brasileiro apresentou novas diretrizes para o transporte de animais em | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O governo brasileiro apresentou novas diretrizes para o transporte de animais em | 8 de janeiro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O governo brasileiro apresentou novas diretrizes para o transporte de animais em: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: O governo brasileiro apresentou novas diretrizes para o transporte de animais em
+AFTER H1 (HOLD; not approved for publication): O governo brasileiro apresentou novas diretrizes para o transporte de animais em
 AFTER targeting: O governo brasileiro apresentou novas diretrizes para o transporte de animais em — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

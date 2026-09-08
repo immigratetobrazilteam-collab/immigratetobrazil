@@ -14,7 +14,7 @@ User problem / SEO objective: Valores | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Valores | Monique Fernandes
 Primary keyword/focus field: Valores | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Valores | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Valores
 BEFORE apparent targeting: Valores de Monique Fernandes
 
 AFTER title: Valores | Monique Fernandes
-Alternative A: Valores | Monique Fernandes
-Alternative B: Valores | Monique Fernandes | Monique Fernandes
+Alternative A: Valores
+Alternative B: Valores | Immigrate to Brazil
 AFTER description: Os valores de Monique Fernandes moldam a forma como ela comunica, prepara casos, protege a dignidade e ajuda os clientes a passar pelos processos de imigração brasileira com mais confiança e clareza.
 AFTER H1: Valores | Monique Fernandes
 AFTER targeting: Valores | Monique Fernandes — navigational

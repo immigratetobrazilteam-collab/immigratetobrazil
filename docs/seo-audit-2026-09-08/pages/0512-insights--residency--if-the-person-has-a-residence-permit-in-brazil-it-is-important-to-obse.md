@@ -26,11 +26,11 @@ BEFORE description: If the person has a residence permit in Brazil, it is import
 BEFORE H1: If the person has a residence permit in Brazil, it is important to observe the
 BEFORE apparent targeting: If the person has a residence permit in Brazil, it is important to observe the
 
-AFTER title: If the person has a residence permit in Brazil, it is important to observe the | October 22, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: If the person has a residence permit in Brazil, it is important to observe the
-Alternative B: If the person has a residence permit in Brazil, it is important to observe the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If the person has a residence permit in Brazil, it is important to observe the | October 22, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If the person has a residence permit in Brazil, it is important to observe the: This page brings earlier residency research into a clearer framework for...
-AFTER H1: If the person has a residence permit in Brazil, it is important to observe the
+AFTER H1 (HOLD; not approved for publication): If the person has a residence permit in Brazil, it is important to observe the
 AFTER targeting: If the person has a residence permit in Brazil, it is important to observe the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

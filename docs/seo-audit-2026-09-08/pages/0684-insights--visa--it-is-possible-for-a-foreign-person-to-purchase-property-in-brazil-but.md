@@ -26,11 +26,11 @@ BEFORE description: It is possible for a foreign person to purchase property in 
 BEFORE H1: It is possible for a foreign person to purchase property in Brazil, but there are some
 BEFORE apparent targeting: It is possible for a foreign person to purchase property in Brazil, but there are some
 
-AFTER title: It is possible for a foreign person to purchase property in Brazil, but there are some | May 20, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: It is possible for a foreign person to purchase property in Brazil, but there are some
-Alternative B: It is possible for a foreign person to purchase property in Brazil, but there are some | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It is possible for a foreign person to purchase property in Brazil, but there are some | May 20, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It is possible for a foreign person to purchase property in Brazil, but there are some: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: It is possible for a foreign person to purchase property in Brazil, but there are some
+AFTER H1 (HOLD; not approved for publication): It is possible for a foreign person to purchase property in Brazil, but there are some
 AFTER targeting: It is possible for a foreign person to purchase property in Brazil, but there are some — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

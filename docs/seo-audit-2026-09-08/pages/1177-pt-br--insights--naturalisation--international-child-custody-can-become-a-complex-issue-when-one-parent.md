@@ -26,11 +26,11 @@ BEFORE description: A custódia internacional dos filhos pode se tornar uma ques
 BEFORE H1: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro
 BEFORE apparent targeting: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro
 
-AFTER title: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro | 25 de fevereiro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro
-Alternative B: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro | 25 de fevereiro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro
+AFTER H1 (HOLD; not approved for publication): A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro
 AFTER targeting: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais é brasileiro — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

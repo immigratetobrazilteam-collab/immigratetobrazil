@@ -26,11 +26,11 @@ BEFORE description: Retirees and pensioners who want to live in Brazil can reque
 BEFORE H1: Retirees and pensioners who want to live in Brazil can request a temporary visa,
 BEFORE apparent targeting: Retirees and pensioners who want to live in Brazil can request a temporary visa,
 
-AFTER title: Retirees and pensioners who want to live in Brazil can request a temporary visa, | April 9, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Retirees and pensioners who want to live in Brazil can request a temporary visa,
-Alternative B: Retirees and pensioners who want to live in Brazil can request a temporary visa, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Retirees and pensioners who want to live in Brazil can request a temporary visa, | April 9, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Retirees and pensioners who want to live in Brazil can request a temporary visa,: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Retirees and pensioners who want to live in Brazil can request a temporary visa,
+AFTER H1 (HOLD; not approved for publication): Retirees and pensioners who want to live in Brazil can request a temporary visa,
 AFTER targeting: Retirees and pensioners who want to live in Brazil can request a temporary visa, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

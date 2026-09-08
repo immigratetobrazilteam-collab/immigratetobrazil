@@ -26,11 +26,11 @@ BEFORE description: A retificação de assentamentos é um procedimento essencia
 BEFORE H1: A retificação de assentamentos é procedimento essencial nos processos de cidadania,
 BEFORE apparent targeting: A retificação de assentamentos é procedimento essencial nos processos de cidadania,
 
-AFTER title: A retificação de assentamentos é procedimento essencial nos processos de cidadania, | 10 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A retificação de assentamentos é procedimento essencial nos processos de cidadania,
-Alternative B: A retificação de assentamentos é procedimento essencial nos processos de cidadania, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A retificação de assentamentos é procedimento essencial nos processos de cidadania, | 10 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A retificação de assentamentos é um procedimento essencial nos processos de cidadania: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A retificação de assentamentos é procedimento essencial nos processos de cidadania,
+AFTER H1 (HOLD; not approved for publication): A retificação de assentamentos é procedimento essencial nos processos de cidadania,
 AFTER targeting: A retificação de assentamentos é procedimento essencial nos processos de cidadania, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

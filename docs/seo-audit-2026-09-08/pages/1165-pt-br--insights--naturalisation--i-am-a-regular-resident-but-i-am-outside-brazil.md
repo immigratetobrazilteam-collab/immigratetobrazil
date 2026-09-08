@@ -26,11 +26,11 @@ BEFORE description: Sou um residente regular, mas estou fora Brasil: Esta págin
 BEFORE H1: Sou um residente regular, mas estou fora do Brasil
 BEFORE apparent targeting: Sou um residente regular, mas estou fora do Brasil
 
-AFTER title: Sou um residente regular, mas estou fora do Brasil | 27 de junho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Sou um residente regular, mas estou fora do Brasil
-Alternative B: Sou um residente regular, mas estou fora do Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Sou um residente regular, mas estou fora do Brasil | 27 de junho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Sou um residente regular, mas estou fora Brasil: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para leitores que comparam a naturalização...
-AFTER H1: Sou um residente regular, mas estou fora do Brasil
+AFTER H1 (HOLD; not approved for publication): Sou um residente regular, mas estou fora do Brasil
 AFTER targeting: Sou um residente regular, mas estou fora do Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

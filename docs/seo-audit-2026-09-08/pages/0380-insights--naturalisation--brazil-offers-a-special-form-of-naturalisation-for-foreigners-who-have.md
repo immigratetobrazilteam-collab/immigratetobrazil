@@ -26,11 +26,11 @@ BEFORE description: Brazil offers a special form of naturalisation for foreigner
 BEFORE H1: Brazil offers a special form of naturalisation for foreigners who have dedicated
 BEFORE apparent targeting: Brazil offers a special form of naturalisation for foreigners who have dedicated
 
-AFTER title: Brazil offers a special form of naturalisation for foreigners who have dedicated | June 24, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazil offers a special form of naturalisation for foreigners who have dedicated
-Alternative B: Brazil offers a special form of naturalisation for foreigners who have dedicated | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil offers a special form of naturalisation for foreigners who have dedicated | June 24, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil offers a special form of naturalisation for foreigners who have dedicated: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Brazil offers a special form of naturalisation for foreigners who have dedicated
+AFTER H1 (HOLD; not approved for publication): Brazil offers a special form of naturalisation for foreigners who have dedicated
 AFTER targeting: Brazil offers a special form of naturalisation for foreigners who have dedicated — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: How Immigration Case Outcomes Are Assessed
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: How Immigration Case Outcomes Are Assessed
 Primary keyword/focus field: How Immigration Case Outcomes Are Assessed; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["How Immigration Case Outcomes Are Assessed questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

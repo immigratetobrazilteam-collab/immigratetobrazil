@@ -26,11 +26,11 @@ BEFORE description: The renewal of the resident card in Brazil may be prevented 
 BEFORE H1: The renewal of the resident card in Brazil may be prevented in some specific
 BEFORE apparent targeting: The renewal of the resident card in Brazil may be prevented in some specific
 
-AFTER title: The renewal of the resident card in Brazil may be prevented in some specific | August 6, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The renewal of the resident card in Brazil may be prevented in some specific
-Alternative B: The renewal of the resident card in Brazil may be prevented in some specific | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The renewal of the resident card in Brazil may be prevented in some specific | August 6, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The renewal of the resident card in Brazil may be prevented in some specific: This page brings earlier citizenship research into a clearer format for readers...
-AFTER H1: The renewal of the resident card in Brazil may be prevented in some specific
+AFTER H1 (HOLD; not approved for publication): The renewal of the resident card in Brazil may be prevented in some specific
 AFTER targeting: The renewal of the resident card in Brazil may be prevented in some specific — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

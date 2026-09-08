@@ -26,11 +26,11 @@ BEFORE description: Os turistas geralmente podem permanecer no Brasil por até 9
 BEFORE H1: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto
 BEFORE apparent targeting: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto
 
-AFTER title: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto | 10 de julho de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto
-Alternative B: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto | 10 de julho de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto
+AFTER H1 (HOLD; not approved for publication): Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto
 AFTER targeting: Os turistas geralmente podem permanecer no Brasil por até 90 dias, dependendo dos acordos de visto — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

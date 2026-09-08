@@ -26,11 +26,11 @@ BEFORE description: Todos os passageiros têm o direito de levar consigo sua bag
 BEFORE H1: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais
 BEFORE apparent targeting: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais
 
-AFTER title: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais | 17 de outubro de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais
-Alternative B: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais | 17 de outubro de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Todos os passageiros têm o direito de levar consigo sua bagagem de mão e itens pessoais: Esta página traz o processo antecipado e apoia a pesquisa de uma forma mais clara...
-AFTER H1: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais
+AFTER H1 (HOLD; not approved for publication): Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais
 AFTER targeting: Todos os passageiros têm o direito de levar consigo bagagem de mão e itens pessoais — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

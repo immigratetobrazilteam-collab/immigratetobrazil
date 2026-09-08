@@ -26,11 +26,11 @@ BEFORE description: To prove your civil union status with a foreign person, a ce
 BEFORE H1: To prove your civil union status with a foreign person, a certificate issued by the
 BEFORE apparent targeting: To prove your civil union status with a foreign person, a certificate issued by the
 
-AFTER title: To prove your civil union status with a foreign person, a certificate issued by the | June 23, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: To prove your civil union status with a foreign person, a certificate issued by the
-Alternative B: To prove your civil union status with a foreign person, a certificate issued by the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): To prove your civil union status with a foreign person, a certificate issued by the | June 23, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: To prove your civil union status with a foreign person, a certificate issued by the: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: To prove your civil union status with a foreign person, a certificate issued by the
+AFTER H1 (HOLD; not approved for publication): To prove your civil union status with a foreign person, a certificate issued by the
 AFTER targeting: To prove your civil union status with a foreign person, a certificate issued by the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

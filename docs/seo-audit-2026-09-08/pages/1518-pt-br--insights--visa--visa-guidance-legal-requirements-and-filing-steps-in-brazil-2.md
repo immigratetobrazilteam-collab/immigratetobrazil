@@ -26,11 +26,11 @@ BEFORE description: Requisitos legais de orientação de visto e etapas de arqui
 BEFORE H1: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)
 BEFORE apparent targeting: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)
 
-AFTER title: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2) | 7 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)
-Alternative B: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2) | 7 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Requisitos legais de orientação de visto e etapas de arquivamento no Brasil (2): Esta página traz pesquisas anteriores de visto em um formato de planejamento da entrada no Brasil mais claro para Imigrar para...
-AFTER H1: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)
+AFTER H1 (HOLD; not approved for publication): Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2)
 AFTER targeting: Requisitos legais do Visa Guidance e etapas de arquivamento no Brasil (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

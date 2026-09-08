@@ -14,7 +14,7 @@ User problem / SEO objective: Missão | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Missão | Monique Fernandes
 Primary keyword/focus field: Missão | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Missão | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Missão
 BEFORE apparent targeting: Missão Monique Fernandes
 
 AFTER title: Missão | Monique Fernandes
-Alternative A: Missão | Monique Fernandes
-Alternative B: Missão | Monique Fernandes | Monique Fernandes
+Alternative A: Missão
+Alternative B: Missão | Immigrate to Brazil
 AFTER description: A missão de Monique Fernandes é capacitar os imigrantes com orientação jurídica clara, proteger a dignidade através de processos legais e promover Brasil com honestidade e cuidado.
 AFTER H1: Missão | Monique Fernandes
 AFTER targeting: Missão | Monique Fernandes — navigational

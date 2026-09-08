@@ -26,11 +26,11 @@ BEFORE description: Assim, a empresa deixa de efetuar alguns pagamentos obrigat�
 BEFORE H1: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista
 BEFORE apparent targeting: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista
 
-AFTER title: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista | 2 de maio de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista
-Alternative B: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista | 2 de maio de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Assim, a empresa deixa de efetuar alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista: Registro de arquivo: 9 de março de 2026. Esta página...
-AFTER H1: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista
+AFTER H1 (HOLD; not approved for publication): Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista
 AFTER targeting: Assim, a empresa deixa de fazer alguns pagamentos obrigatórios e o trabalhador perde a proteção e os benefícios da legislação trabalhista — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Strict Entry Requirements: The legislation introduced specif
 BEFORE H1: Strict Entry Requirements: The legislation introduced specific entry requirements for
 BEFORE apparent targeting: Strict Entry Requirements: The legislation introduced specific entry requirements for
 
-AFTER title: Strict Entry Requirements: The legislation introduced specific entry requirements for | December 26, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: Strict Entry Requirements: The legislation introduced specific entry requirements for
-Alternative B: Strict Entry Requirements: The legislation introduced specific entry requirements for | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Strict Entry Requirements: The legislation introduced specific entry requirements for | December 26, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Strict Entry Requirements: The legislation introduced specific entry requirements for: This page brings earlier residency research into a clearer framework...
-AFTER H1: Strict Entry Requirements: The legislation introduced specific entry requirements for
+AFTER H1 (HOLD; not approved for publication): Strict Entry Requirements: The legislation introduced specific entry requirements for
 AFTER targeting: Strict Entry Requirements: The legislation introduced specific entry requirements for — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

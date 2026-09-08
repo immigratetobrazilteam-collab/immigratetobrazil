@@ -26,11 +26,11 @@ BEFORE description: This way, in the event of an end to the relationship, they w
 BEFORE H1: This way, in the event of an end to the relationship, they will have to divide the
 BEFORE apparent targeting: This way, in the event of an end to the relationship, they will have to divide the
 
-AFTER title: This way, in the event of an end to the relationship, they will have to divide the | June 12, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: This way, in the event of an end to the relationship, they will have to divide the
-Alternative B: This way, in the event of an end to the relationship, they will have to divide the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This way, in the event of an end to the relationship, they will have to divide the | June 12, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This way, in the event of an end to the relationship, they will have to divide the: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: This way, in the event of an end to the relationship, they will have to divide the
+AFTER H1 (HOLD; not approved for publication): This way, in the event of an end to the relationship, they will have to divide the
 AFTER targeting: This way, in the event of an end to the relationship, they will have to divide the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

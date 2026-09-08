@@ -26,11 +26,11 @@ BEFORE description: Não haverá mais cobrança de imposto de importação nas c
 BEFORE H1: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas
 BEFORE apparent targeting: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas
 
-AFTER title: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas | 8 de agosto de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas
-Alternative B: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas | 8 de agosto de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas: Registro de arquivo: 10 de março de 2026. Esta página traz atualização anterior...
-AFTER H1: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas
+AFTER H1 (HOLD; not approved for publication): Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas
 AFTER targeting: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

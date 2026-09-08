@@ -26,11 +26,11 @@ BEFORE description: This is an important opportunity for people with Brazilian a
 BEFORE H1: This is an important opportunity for people with Brazilian ancestry to reconnect with
 BEFORE apparent targeting: This is an important opportunity for people with Brazilian ancestry to reconnect with
 
-AFTER title: This is an important opportunity for people with Brazilian ancestry to reconnect with | September 8, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: This is an important opportunity for people with Brazilian ancestry to reconnect with
-Alternative B: This is an important opportunity for people with Brazilian ancestry to reconnect with | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This is an important opportunity for people with Brazilian ancestry to reconnect with | September 8, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This is an important opportunity for people with Brazilian ancestry to reconnect with: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: This is an important opportunity for people with Brazilian ancestry to reconnect with
+AFTER H1 (HOLD; not approved for publication): This is an important opportunity for people with Brazilian ancestry to reconnect with
 AFTER targeting: This is an important opportunity for people with Brazilian ancestry to reconnect with — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

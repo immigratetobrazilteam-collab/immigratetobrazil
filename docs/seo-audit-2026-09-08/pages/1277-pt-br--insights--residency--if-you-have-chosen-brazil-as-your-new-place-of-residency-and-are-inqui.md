@@ -26,11 +26,11 @@ BEFORE description: Se você escolheu Brasil como seu novo local de residência 
 BEFORE H1: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o
 BEFORE apparent targeting: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o
 
-AFTER title: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o | 7 de novembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o
-Alternative B: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o | 7 de novembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre: Esta página traz pesquisas de residência anteriores em uma estrutura mais clara para...
-AFTER H1: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o
+AFTER H1 (HOLD; not approved for publication): Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o
 AFTER targeting: Se você escolheu Brasil como seu novo local de residência e está perguntando sobre o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

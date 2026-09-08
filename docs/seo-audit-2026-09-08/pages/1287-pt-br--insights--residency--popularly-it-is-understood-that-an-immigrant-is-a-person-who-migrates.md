@@ -26,11 +26,11 @@ BEFORE description: Popularmente, entende-se que imigrante é a pessoa que migra
 BEFORE H1: Popularmente, entende-se que imigrante é a pessoa que migra de seu
 BEFORE apparent targeting: Popularmente, entende-se que imigrante é a pessoa que migra de seu
 
-AFTER title: Popularmente, entende-se que imigrante é a pessoa que migra de seu | 28 de fevereiro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: Popularmente, entende-se que imigrante é a pessoa que migra de seu
-Alternative B: Popularmente, entende-se que imigrante é a pessoa que migra de seu | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Popularmente, entende-se que imigrante é a pessoa que migra de seu | 28 de fevereiro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Popularmente, entende-se que imigrante é a pessoa que migra de seu território: Esta página traz pesquisas anteriores de residência para um quadro mais claro para...
-AFTER H1: Popularmente, entende-se que imigrante é a pessoa que migra de seu
+AFTER H1 (HOLD; not approved for publication): Popularmente, entende-se que imigrante é a pessoa que migra de seu
 AFTER targeting: Popularmente, entende-se que imigrante é a pessoa que migra de seu — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

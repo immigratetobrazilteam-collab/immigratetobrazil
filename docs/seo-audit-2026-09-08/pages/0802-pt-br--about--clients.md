@@ -14,7 +14,7 @@ User problem / SEO objective: Quem Monique Fernandes ajuda | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Quem Monique Fernandes ajuda | Monique Fernandes
 Primary keyword/focus field: Quem Monique Fernandes ajuda | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Quem Monique Fernandes ajuda | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Quem Monique Fernandes ajuda
 BEFORE apparent targeting: Quem Monique Fernandes ajuda
 
 AFTER title: Quem Monique Fernandes ajuda | Monique Fernandes
-Alternative A: Quem Monique Fernandes ajuda | Monique Fernandes
-Alternative B: Quem Monique Fernandes ajuda | Monique Fernandes | Monique Fernandes
+Alternative A: Quem Monique Fernandes ajuda
+Alternative B: Quem Monique Fernandes ajuda | Immigrate to Brazil
 AFTER description: Monique Fernandes trabalha com imigrantes, famílias, empresas, empreendedores, profissionais remotos e clientes transfronteiriços que necessitam de orientação liderada por advogados para decisões de imigração relacionadas com Brasil.
 AFTER H1: Quem Monique Fernandes ajuda | Monique Fernandes
 AFTER targeting: Quem Monique Fernandes ajuda | Monique Fernandes — navigational

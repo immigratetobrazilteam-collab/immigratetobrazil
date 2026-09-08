@@ -26,11 +26,11 @@ BEFORE description: No contexto de uma profunda crise política, económica e in
 BEFORE H1: No contexto de uma profunda crise política, económica e institucional que afeta
 BEFORE apparent targeting: No contexto de uma profunda crise política, económica e institucional que afeta
 
-AFTER title: No contexto de uma profunda crise política, económica e institucional que afeta | 21 de julho de 2025 | Visão de residência | Imigre para o Brasil
-Alternative A: No contexto de uma profunda crise política, económica e institucional que afeta
-Alternative B: No contexto de uma profunda crise política, económica e institucional que afeta | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No contexto de uma profunda crise política, económica e institucional que afeta | 21 de julho de 2025 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No contexto de uma profunda crise política, económica e institucional que afeta: Esta página traz a investigação de residência anterior num quadro mais claro para...
-AFTER H1: No contexto de uma profunda crise política, económica e institucional que afeta
+AFTER H1 (HOLD; not approved for publication): No contexto de uma profunda crise política, económica e institucional que afeta
 AFTER targeting: No contexto de uma profunda crise política, económica e institucional que afeta — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

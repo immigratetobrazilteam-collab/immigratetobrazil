@@ -26,11 +26,11 @@ BEFORE description: A data convida à reflexão sobre uma das páginas mais somb
 BEFORE H1: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a
 BEFORE apparent targeting: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a
 
-AFTER title: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a | 23 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a
-Alternative B: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a | 23 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para os leitores...
-AFTER H1: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a
+AFTER H1 (HOLD; not approved for publication): A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a
 AFTER targeting: A data convida à reflexão sobre uma das páginas mais sombrias da história da humanidade: a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

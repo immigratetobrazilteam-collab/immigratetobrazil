@@ -14,7 +14,7 @@ User problem / SEO objective: Working With Monique: The Immigration Process
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Working With Monique: The Immigration Process
 Primary keyword/focus field: Working With Monique: The Immigration Process; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Working With Monique: The Immigration Process questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/rights/ owns Immigrant Rights and Responsibilities in Brazil"]

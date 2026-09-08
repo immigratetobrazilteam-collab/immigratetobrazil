@@ -26,11 +26,11 @@ BEFORE description: Após o pedido de naturalização ter sido negado administra
 BEFORE H1: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na
 BEFORE apparent targeting: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na
 
-AFTER title: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na | 12 de dezembro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na
-Alternative B: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na | 12 de dezembro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação em: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na
+AFTER H1 (HOLD; not approved for publication): Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na
 AFTER targeting: Após o pedido de naturalização ter sido negado administrativamente, foi ajuizada ação na — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

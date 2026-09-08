@@ -26,11 +26,11 @@ BEFORE description: Brazilians have reported problems processing expressions of 
 BEFORE H1: Brazilians have reported problems processing expressions of interest to adjust their
 BEFORE apparent targeting: Brazilians have reported problems processing expressions of interest to adjust their
 
-AFTER title: Brazilians have reported problems processing expressions of interest to adjust their | June 4, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazilians have reported problems processing expressions of interest to adjust their
-Alternative B: Brazilians have reported problems processing expressions of interest to adjust their | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilians have reported problems processing expressions of interest to adjust their | June 4, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilians have reported problems processing expressions of interest to adjust their: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Brazilians have reported problems processing expressions of interest to adjust their
+AFTER H1 (HOLD; not approved for publication): Brazilians have reported problems processing expressions of interest to adjust their
 AFTER targeting: Brazilians have reported problems processing expressions of interest to adjust their — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

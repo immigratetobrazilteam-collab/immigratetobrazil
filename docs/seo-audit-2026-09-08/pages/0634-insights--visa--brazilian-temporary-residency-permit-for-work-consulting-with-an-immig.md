@@ -26,11 +26,11 @@ BEFORE description: Brazilian Temporary Residency Permit for Work Consulting wit
 BEFORE H1: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer
 BEFORE apparent targeting: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer
 
-AFTER title: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer | November 14, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer
-Alternative B: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer | November 14, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer
+AFTER H1 (HOLD; not approved for publication): Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer
 AFTER targeting: Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

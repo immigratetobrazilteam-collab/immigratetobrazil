@@ -26,11 +26,11 @@ BEFORE description: Nem tudo é o que parece, especialmente na culinária brasil
 BEFORE H1: Nem tudo é o que parece, principalmente na culinária brasileira!
 BEFORE apparent targeting: Nem tudo é o que parece, principalmente na culinária brasileira!
 
-AFTER title: Nem tudo é o que parece, principalmente na culinária brasileira! | 28 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Nem tudo é o que parece, principalmente na culinária brasileira!
-Alternative B: Nem tudo é o que parece, principalmente na culinária brasileira! | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Nem tudo é o que parece, principalmente na culinária brasileira! | 28 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Nem tudo é o que parece, especialmente na culinária brasileira!: Esta página traz pesquisas anteriores de vistos em um formato de planejamento da entrada no Brasil mais claro para Imigração...
-AFTER H1: Nem tudo é o que parece, principalmente na culinária brasileira!
+AFTER H1 (HOLD; not approved for publication): Nem tudo é o que parece, principalmente na culinária brasileira!
 AFTER targeting: Nem tudo é o que parece, principalmente na culinária brasileira! — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

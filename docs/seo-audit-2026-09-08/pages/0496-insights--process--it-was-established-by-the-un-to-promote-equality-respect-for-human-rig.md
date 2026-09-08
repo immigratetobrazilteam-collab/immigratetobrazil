@@ -26,11 +26,11 @@ BEFORE description: It was established by the UN to promote equality, respect fo
 BEFORE H1: It was established by the UN to promote equality, respect for human rights and social
 BEFORE apparent targeting: It was established by the UN to promote equality, respect for human rights and social
 
-AFTER title: It was established by the UN to promote equality, respect for human rights and social | February 20, 2025 | Process Insight | Immigrate to Brazil
-Alternative A: It was established by the UN to promote equality, respect for human rights and social
-Alternative B: It was established by the UN to promote equality, respect for human rights and social | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It was established by the UN to promote equality, respect for human rights and social | February 20, 2025 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It was established by the UN to promote equality, respect for human rights and social: This page brings earlier process and support research into a clearer...
-AFTER H1: It was established by the UN to promote equality, respect for human rights and social
+AFTER H1 (HOLD; not approved for publication): It was established by the UN to promote equality, respect for human rights and social
 AFTER targeting: It was established by the UN to promote equality, respect for human rights and social — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

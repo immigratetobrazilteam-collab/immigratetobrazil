@@ -26,11 +26,11 @@ BEFORE description: If a person received a Portuguese residence visa without mak
 BEFORE H1: If a person received a Portuguese residence visa without making an appointment with
 BEFORE apparent targeting: If a person received a Portuguese residence visa without making an appointment with
 
-AFTER title: If a person received a Portuguese residence visa without making an appointment with | September 25, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: If a person received a Portuguese residence visa without making an appointment with
-Alternative B: If a person received a Portuguese residence visa without making an appointment with | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If a person received a Portuguese residence visa without making an appointment with | September 25, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If a person received a Portuguese residence visa without making an appointment with: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If a person received a Portuguese residence visa without making an appointment with
+AFTER H1 (HOLD; not approved for publication): If a person received a Portuguese residence visa without making an appointment with
 AFTER targeting: If a person received a Portuguese residence visa without making an appointment with — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

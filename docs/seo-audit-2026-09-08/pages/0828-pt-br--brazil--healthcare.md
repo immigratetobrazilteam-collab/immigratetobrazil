@@ -14,7 +14,7 @@ User problem / SEO objective: Saúde no Brasil para novos residentes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Saúde no Brasil para novos residentes
 Primary keyword/focus field: Saúde no Brasil para novos residentes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Saúde no Brasil para novos residentes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/brazil/cities/ owns Compare cidades para morar no Brasil", "https://immigratetobrazil.com/pt-br/brazil/cost/ owns Custo de vida no Brasil: planejamento do orçamento", "https://immigratetobrazil.com/pt-br/services/residencies/ owns Assessoria para autorização de residência no Brasil"]

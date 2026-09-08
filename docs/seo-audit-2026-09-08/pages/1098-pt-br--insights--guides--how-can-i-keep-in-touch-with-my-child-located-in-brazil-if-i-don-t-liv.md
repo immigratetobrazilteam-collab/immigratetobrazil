@@ -26,11 +26,11 @@ BEFORE description: Como posso manter contato com meu filho localizado no Brasil
 BEFORE H1: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá?
 BEFORE apparent targeting: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá?
 
-AFTER title: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá? | 5 de dezembro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá?
-Alternative B: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Como posso manter contato com meu filho localizado no Brasil se eu não moro lá? | 5 de dezembro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá?
+AFTER H1 (HOLD; not approved for publication): Como posso manter contato com meu filho localizado no Brasil se eu não moro lá?
 AFTER targeting: Como posso manter contato com meu filho localizado no Brasil se eu não moro lá? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

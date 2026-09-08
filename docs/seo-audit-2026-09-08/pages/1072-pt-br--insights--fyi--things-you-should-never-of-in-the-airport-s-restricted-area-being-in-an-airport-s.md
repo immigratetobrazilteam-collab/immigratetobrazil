@@ -26,11 +26,11 @@ BEFORE description: Coisas que você nunca deve fazer na área restrita do aerop
 BEFORE H1: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto
 BEFORE apparent targeting: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto
 
-AFTER title: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto | FYI | Imigre para o Brasil
-Alternative A: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto
-Alternative B: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Coisas que você nunca deve fazer na área restrita do aeroporto estando em um aeroporto: Coisas que você nunca deve fazer na área restrita do aeroporto Estando em um...
-AFTER H1: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto
+AFTER H1 (HOLD; not approved for publication): Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto
 AFTER targeting: Coisas que você nunca deve fazer na área restrita do aeroporto estar em um aeroporto — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

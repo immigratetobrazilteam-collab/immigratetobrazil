@@ -26,11 +26,11 @@ BEFORE description: Did the bank lower your credit limit or cancel your account 
 BEFORE H1: Did the bank lower your credit limit or cancel your account suddenly?
 BEFORE apparent targeting: Did the bank lower your credit limit or cancel your account suddenly?
 
-AFTER title: Did the bank lower your credit limit or cancel your account suddenly? | June 8, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Did the bank lower your credit limit or cancel your account suddenly?
-Alternative B: Did the bank lower your credit limit or cancel your account suddenly? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Did the bank lower your credit limit or cancel your account suddenly? | June 8, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Did the bank lower your credit limit or cancel your account suddenly? This page brings earlier FAQ-style research into a clearer guidance page for readers...
-AFTER H1: Did the bank lower your credit limit or cancel your account suddenly?
+AFTER H1 (HOLD; not approved for publication): Did the bank lower your credit limit or cancel your account suddenly?
 AFTER targeting: Did the bank lower your credit limit or cancel your account suddenly? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

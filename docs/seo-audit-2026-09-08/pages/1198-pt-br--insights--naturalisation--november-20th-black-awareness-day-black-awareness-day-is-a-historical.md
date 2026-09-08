@@ -26,11 +26,11 @@ BEFORE description: 20 de novembro - Dia da Consciência Negra* O Dia da Consci�
 BEFORE H1: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural
 BEFORE apparent targeting: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural
 
-AFTER title: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural | 20 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural
-Alternative B: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural | Monique Fernandes
+AFTER title (HOLD; not approved for publication): 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural | 20 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural
+AFTER H1 (HOLD; not approved for publication): 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural
 AFTER targeting: 20 de novembro - Dia da Consciência Negra* O Dia da Consciência Negra é um evento histórico e cultural — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Profissionais qualificados podem usar o visto EB2-NIW como p
 BEFORE H1: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira
 BEFORE apparent targeting: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira
 
-AFTER title: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira | 17 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira
-Alternative B: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira | 17 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuar sua carreira: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira
+AFTER H1 (HOLD; not approved for publication): Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira
 AFTER targeting: Profissionais qualificados podem usar o visto EB2-NIW como porta de entrada para continuidade de carreira — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

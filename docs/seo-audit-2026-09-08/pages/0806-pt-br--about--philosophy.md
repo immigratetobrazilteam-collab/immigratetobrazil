@@ -14,7 +14,7 @@ User problem / SEO objective: Filosofia | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Filosofia | Monique Fernandes
 Primary keyword/focus field: Filosofia | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Filosofia | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Filosofia
 BEFORE apparent targeting: Filosofia de Monique Fernandes
 
 AFTER title: Filosofia | Monique Fernandes
-Alternative A: Filosofia | Monique Fernandes
-Alternative B: Filosofia | Monique Fernandes | Monique Fernandes
+Alternative A: Filosofia
+Alternative B: Filosofia | Immigrate to Brazil
 AFTER description: Monique Fernandes constrói a estratégia de imigração em torno da clareza antes da ação, da estrutura antes da velocidade e da documentação que apoia a rota.
 AFTER H1: Filosofia | Monique Fernandes
 AFTER targeting: Filosofia | Monique Fernandes — navigational

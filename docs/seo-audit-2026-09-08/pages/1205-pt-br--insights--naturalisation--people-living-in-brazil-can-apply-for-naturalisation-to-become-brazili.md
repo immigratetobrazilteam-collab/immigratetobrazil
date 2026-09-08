@@ -26,11 +26,11 @@ BEFORE description: Pessoas que vivem no Brasil podem solicitar a naturalizaçã
 BEFORE H1: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se
 BEFORE apparent targeting: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se
 
-AFTER title: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se | 17 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se
-Alternative B: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se | 17 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se
+AFTER H1 (HOLD; not approved for publication): Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se
 AFTER targeting: Pessoas que vivem no Brasil podem solicitar a naturalização para se tornarem cidadãos brasileiros se — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

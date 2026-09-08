@@ -26,11 +26,11 @@ BEFORE description: Immigrants, when receiving care in Brazilian public services
 BEFORE H1: Immigrants, when receiving care in Brazilian public services, must be treated in
 BEFORE apparent targeting: Immigrants, when receiving care in Brazilian public services, must be treated in
 
-AFTER title: Immigrants, when receiving care in Brazilian public services, must be treated in | May 21, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Immigrants, when receiving care in Brazilian public services, must be treated in
-Alternative B: Immigrants, when receiving care in Brazilian public services, must be treated in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Immigrants, when receiving care in Brazilian public services, must be treated in | May 21, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Immigrants, when receiving care in Brazilian public services, must be treated in: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: Immigrants, when receiving care in Brazilian public services, must be treated in
+AFTER H1 (HOLD; not approved for publication): Immigrants, when receiving care in Brazilian public services, must be treated in
 AFTER targeting: Immigrants, when receiving care in Brazilian public services, must be treated in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

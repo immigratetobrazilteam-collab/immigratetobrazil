@@ -26,11 +26,11 @@ BEFORE description: The Brazilian government presented new guidelines for the tr
 BEFORE H1: The Brazilian government presented new guidelines for the transport of animals on
 BEFORE apparent targeting: The Brazilian government presented new guidelines for the transport of animals on
 
-AFTER title: The Brazilian government presented new guidelines for the transport of animals on | January 8, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: The Brazilian government presented new guidelines for the transport of animals on
-Alternative B: The Brazilian government presented new guidelines for the transport of animals on | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Brazilian government presented new guidelines for the transport of animals on | January 8, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Brazilian government presented new guidelines for the transport of animals on: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: The Brazilian government presented new guidelines for the transport of animals on
+AFTER H1 (HOLD; not approved for publication): The Brazilian government presented new guidelines for the transport of animals on
 AFTER targeting: The Brazilian government presented new guidelines for the transport of animals on — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

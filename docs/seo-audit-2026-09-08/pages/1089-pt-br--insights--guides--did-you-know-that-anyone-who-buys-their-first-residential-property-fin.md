@@ -26,11 +26,11 @@ BEFORE description: Você sabia que quem compra seu primeiro imóvel residencial
 BEFORE H1: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica
 BEFORE apparent targeting: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica
 
-AFTER title: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica | 11 de agosto de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica
-Alternative B: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica | 11 de agosto de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH é: Esta página traz pesquisas anteriores no estilo FAQ para uma orientação mais clara...
-AFTER H1: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica
+AFTER H1 (HOLD; not approved for publication): Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica
 AFTER targeting: Você sabia que quem compra seu primeiro imóvel residencial financiado pelo SFH fica — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

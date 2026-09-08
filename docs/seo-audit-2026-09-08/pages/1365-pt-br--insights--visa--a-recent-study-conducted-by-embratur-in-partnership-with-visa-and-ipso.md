@@ -26,11 +26,11 @@ BEFORE description: Um estudo recente realizado pela Embratur, em parceria com V
 BEFORE H1: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que
 BEFORE apparent targeting: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que
 
-AFTER title: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que | 20 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que
-Alternative B: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que | 20 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Um estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que
+AFTER H1 (HOLD; not approved for publication): Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que
 AFTER targeting: Estudo recente realizado pela Embratur, em parceria com Visa e Ipsos, revela que — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

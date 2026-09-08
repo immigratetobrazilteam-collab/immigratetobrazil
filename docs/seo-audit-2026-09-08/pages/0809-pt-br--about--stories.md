@@ -14,7 +14,7 @@ User problem / SEO objective: Histórias | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Histórias | Monique Fernandes
 Primary keyword/focus field: Histórias | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Histórias | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Histórias
 BEFORE apparent targeting: Histórias
 
 AFTER title: Histórias | Monique Fernandes
-Alternative A: Histórias | Monique Fernandes
-Alternative B: Histórias | Monique Fernandes | Monique Fernandes
+Alternative A: Histórias
+Alternative B: Histórias | Immigrate to Brazil
 AFTER description: Exemplos das situações de clientes em que a advogada de imigração Monique Fernandes mais atua em vistos para o Brasil, residência, rotas familiares e planejamento migratório de longo prazo.
 AFTER H1: Histórias | Monique Fernandes
 AFTER targeting: Histórias | Monique Fernandes — navigational

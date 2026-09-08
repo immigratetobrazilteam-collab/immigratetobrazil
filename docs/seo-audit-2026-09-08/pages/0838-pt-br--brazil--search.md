@@ -14,7 +14,7 @@ User problem / SEO objective: Busca: guia para morar no Brasil
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Busca: guia para morar no Brasil
 Primary keyword/focus field: Busca: guia para morar no Brasil; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Busca: guia para morar no Brasil questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/brazil/cities/ owns Compare cidades para morar no Brasil", "https://immigratetobrazil.com/pt-br/brazil/cost/ owns Custo de vida no Brasil: planejamento do orçamento", "https://immigratetobrazil.com/pt-br/services/residencies/ owns Assessoria para autorização de residência no Brasil"]
@@ -27,8 +27,8 @@ BEFORE H1: Busca
 BEFORE apparent targeting: Busca
 
 AFTER title: Busca: guia para morar no Brasil | Immigrate to Brazil
-Alternative A: Busca: guia para morar no Brasil
-Alternative B: Busca: guia para morar no Brasil | Monique Fernandes
+Alternative A: Busca
+Alternative B: Busca | Monique Fernandes
 AFTER description: Busca: guia para morar no Brasil. Compare aspectos da vida cotidiana e organize as decisões práticas da sua mudança.
 AFTER H1: Busca
 AFTER targeting: Busca: guia para morar no Brasil — informational

@@ -26,11 +26,11 @@ BEFORE description: Não, os dependentes podem chegar com ou depois do titular d
 BEFORE H1: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA
 BEFORE apparent targeting: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA
 
-AFTER title: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA | 19 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA
-Alternative B: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA | 19 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não, os dependentes podem chegar com ou depois do titular do visto principal nos EUA: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA
+AFTER H1 (HOLD; not approved for publication): Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA
 AFTER targeting: Não, os dependentes podem chegar junto ou após o titular do visto principal nos EUA — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

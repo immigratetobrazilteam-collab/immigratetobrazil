@@ -26,11 +26,11 @@ BEFORE description: Em Brasil, a deportação é uma medida administrativa aplic
 BEFORE H1: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são
 BEFORE apparent targeting: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são
 
-AFTER title: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são | 9 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são
-Alternative B: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são | 9 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são
+AFTER H1 (HOLD; not approved for publication): Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são
 AFTER targeting: Em Brasil, a deportação é uma medida administrativa aplicada a indivíduos que são — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

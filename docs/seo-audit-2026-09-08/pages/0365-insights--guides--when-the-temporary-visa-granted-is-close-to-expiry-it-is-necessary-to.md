@@ -26,11 +26,11 @@ BEFORE description: When the temporary visa granted is close to expiry, it is ne
 BEFORE H1: When the temporary visa granted is close to expiry, it is necessary to request renewal
 BEFORE apparent targeting: When the temporary visa granted is close to expiry, it is necessary to request renewal
 
-AFTER title: When the temporary visa granted is close to expiry, it is necessary to request renewal | October 16, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: When the temporary visa granted is close to expiry, it is necessary to request renewal
-Alternative B: When the temporary visa granted is close to expiry, it is necessary to request renewal | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When the temporary visa granted is close to expiry, it is necessary to request renewal | October 16, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When the temporary visa granted is close to expiry, it is necessary to request renewal: This page brings earlier FAQ-style research into a clearer guidance...
-AFTER H1: When the temporary visa granted is close to expiry, it is necessary to request renewal
+AFTER H1 (HOLD; not approved for publication): When the temporary visa granted is close to expiry, it is necessary to request renewal
 AFTER targeting: When the temporary visa granted is close to expiry, it is necessary to request renewal — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

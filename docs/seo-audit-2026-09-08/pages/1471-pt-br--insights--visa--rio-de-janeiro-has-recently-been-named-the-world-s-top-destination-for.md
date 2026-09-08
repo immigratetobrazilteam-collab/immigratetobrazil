@@ -26,11 +26,11 @@ BEFORE description: O Rio de Janeiro foi recentemente nomeado o principal destin
 BEFORE H1: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,
 BEFORE apparent targeting: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,
 
-AFTER title: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais, | 29 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,
-Alternative B: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais, | 29 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Rio de Janeiro foi recentemente nomeado o principal destino mundial para nômades digitais: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,
+AFTER H1 (HOLD; not approved for publication): O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais,
 AFTER targeting: O Rio de Janeiro foi recentemente eleito o principal destino mundial para nômades digitais, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: For those who have fallen in love with Brazil and wish to ma
 BEFORE H1: For those who have fallen in love with Brazil and wish to make it their true home,
 BEFORE apparent targeting: For those who have fallen in love with Brazil and wish to make it their true home,
 
-AFTER title: For those who have fallen in love with Brazil and wish to make it their true home, | June 11, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: For those who have fallen in love with Brazil and wish to make it their true home,
-Alternative B: For those who have fallen in love with Brazil and wish to make it their true home, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): For those who have fallen in love with Brazil and wish to make it their true home, | June 11, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: For those who have fallen in love with Brazil and wish to make it their true home,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: For those who have fallen in love with Brazil and wish to make it their true home,
+AFTER H1 (HOLD; not approved for publication): For those who have fallen in love with Brazil and wish to make it their true home,
 AFTER targeting: For those who have fallen in love with Brazil and wish to make it their true home, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

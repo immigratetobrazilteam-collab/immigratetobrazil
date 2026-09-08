@@ -26,11 +26,11 @@ BEFORE description: End of the stamp in the passport when traveling to Europe Fr
 BEFORE H1: End of the stamp in the passport when traveling to Europe From October 2025, tourists
 BEFORE apparent targeting: End of the stamp in the passport when traveling to Europe From October 2025, tourists
 
-AFTER title: End of the stamp in the passport when traveling to Europe From October 2025, tourists | November 18, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: End of the stamp in the passport when traveling to Europe From October 2025, tourists
-Alternative B: End of the stamp in the passport when traveling to Europe From October 2025, tourists | Monique Fernandes
+AFTER title (HOLD; not approved for publication): End of the stamp in the passport when traveling to Europe From October 2025, tourists | November 18, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: End of the stamp in the passport when traveling to Europe From October 2025, tourists: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: End of the stamp in the passport when traveling to Europe From October 2025, tourists
+AFTER H1 (HOLD; not approved for publication): End of the stamp in the passport when traveling to Europe From October 2025, tourists
 AFTER targeting: End of the stamp in the passport when traveling to Europe From October 2025, tourists — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

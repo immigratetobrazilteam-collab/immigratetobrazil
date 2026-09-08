@@ -26,11 +26,11 @@ BEFORE description: Brazil legal guidance: eligibility and process (4): This pag
 BEFORE H1: Brazil legal guidance: eligibility and process (4)
 BEFORE apparent targeting: Brazil legal guidance: eligibility and process (4)
 
-AFTER title: Brazil legal guidance: eligibility and process (4) | May 14, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazil legal guidance: eligibility and process (4)
-Alternative B: Brazil legal guidance: eligibility and process (4) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil legal guidance: eligibility and process (4) | May 14, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil legal guidance: eligibility and process (4): This page brings earlier citizenship research into a clearer format for readers comparing naturalisation...
-AFTER H1: Brazil legal guidance: eligibility and process (4)
+AFTER H1 (HOLD; not approved for publication): Brazil legal guidance: eligibility and process (4)
 AFTER targeting: Brazil legal guidance: eligibility and process (4) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

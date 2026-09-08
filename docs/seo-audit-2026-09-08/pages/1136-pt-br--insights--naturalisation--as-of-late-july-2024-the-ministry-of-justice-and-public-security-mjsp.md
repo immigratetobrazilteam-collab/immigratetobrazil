@@ -26,11 +26,11 @@ BEFORE description: No final de julho de 2024, o Ministério da Justiça e Segur
 BEFORE H1: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488
 BEFORE apparent targeting: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488
 
-AFTER title: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 | 12 de novembro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488
-Alternative B: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 | 12 de novembro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488
+AFTER H1 (HOLD; not approved for publication): No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488
 AFTER targeting: No final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Quando o visto temporário concedido está próximo do venci
 BEFORE H1: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação
 BEFORE apparent targeting: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação
 
-AFTER title: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação | 16 de outubro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação
-Alternative B: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação | 16 de outubro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando o visto temporário concedido está próximo do vencimento, é necessário solicitar a renovação: Esta página traz pesquisas anteriores no estilo FAQ para uma orientação mais clara...
-AFTER H1: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação
+AFTER H1 (HOLD; not approved for publication): Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação
 AFTER targeting: Quando o visto temporário concedido estiver próximo do vencimento, é necessário solicitar renovação — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

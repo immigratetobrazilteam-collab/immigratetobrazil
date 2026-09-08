@@ -26,11 +26,11 @@ BEFORE description: O registro de nascimento de uma criança em uma Repartição
 BEFORE H1: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas
 BEFORE apparent targeting: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas
 
-AFTER title: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas | 19 de março de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas
-Alternative B: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas | 19 de março de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O registro de nascimento de uma criança em uma Repartição Consular brasileiro no exterior não é obrigatório, mas: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas
+AFTER H1 (HOLD; not approved for publication): O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas
 AFTER targeting: O registro de nascimento de criança em Repartição Consular brasileiro no exterior não é obrigatório, mas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

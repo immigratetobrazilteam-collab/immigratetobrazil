@@ -26,11 +26,11 @@ BEFORE description: To obtain a Brazilian study visa, you must be enrolled in an
 BEFORE H1: To obtain a Brazilian study visa, you must be enrolled in an educational program
 BEFORE apparent targeting: To obtain a Brazilian study visa, you must be enrolled in an educational program
 
-AFTER title: To obtain a Brazilian study visa, you must be enrolled in an educational program | July 17, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: To obtain a Brazilian study visa, you must be enrolled in an educational program
-Alternative B: To obtain a Brazilian study visa, you must be enrolled in an educational program | Monique Fernandes
+AFTER title (HOLD; not approved for publication): To obtain a Brazilian study visa, you must be enrolled in an educational program | July 17, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: To obtain a Brazilian study visa, you must be enrolled in an educational program: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: To obtain a Brazilian study visa, you must be enrolled in an educational program
+AFTER H1 (HOLD; not approved for publication): To obtain a Brazilian study visa, you must be enrolled in an educational program
 AFTER targeting: To obtain a Brazilian study visa, you must be enrolled in an educational program — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

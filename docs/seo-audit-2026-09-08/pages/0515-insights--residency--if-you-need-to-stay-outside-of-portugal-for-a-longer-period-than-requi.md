@@ -26,11 +26,11 @@ BEFORE description: If you need to stay outside of Portugal for a longer period 
 BEFORE H1: If you need to stay outside of Portugal for a longer period than required by law, you
 BEFORE apparent targeting: If you need to stay outside of Portugal for a longer period than required by law, you
 
-AFTER title: If you need to stay outside of Portugal for a longer period than required by law, you | May 19, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: If you need to stay outside of Portugal for a longer period than required by law, you
-Alternative B: If you need to stay outside of Portugal for a longer period than required by law, you | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If you need to stay outside of Portugal for a longer period than required by law, you | May 19, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If you need to stay outside of Portugal for a longer period than required by law, you: This page brings earlier residency research into a clearer framework...
-AFTER H1: If you need to stay outside of Portugal for a longer period than required by law, you
+AFTER H1 (HOLD; not approved for publication): If you need to stay outside of Portugal for a longer period than required by law, you
 AFTER targeting: If you need to stay outside of Portugal for a longer period than required by law, you — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

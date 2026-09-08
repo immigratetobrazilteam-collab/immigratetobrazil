@@ -14,7 +14,7 @@ User problem / SEO objective: Compare Cities for Living in Brazil
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Compare Cities for Living in Brazil
 Primary keyword/focus field: Compare Cities for Living in Brazil; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Compare Cities for Living in Brazil questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/brazil/cost/ owns Cost of Living in Brazil: Planning Your Budget", "https://immigratetobrazil.com/services/residencies/ owns Brazil Residence Permit Services"]

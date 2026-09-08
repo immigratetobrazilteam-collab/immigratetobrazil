@@ -26,11 +26,11 @@ BEFORE description: Companies and individuals in Brazil can hire foreigners thro
 BEFORE H1: Companies and individuals in Brazil can hire foreigners through a formal employment
 BEFORE apparent targeting: Companies and individuals in Brazil can hire foreigners through a formal employment
 
-AFTER title: Companies and individuals in Brazil can hire foreigners through a formal employment | November 19, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Companies and individuals in Brazil can hire foreigners through a formal employment
-Alternative B: Companies and individuals in Brazil can hire foreigners through a formal employment | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Companies and individuals in Brazil can hire foreigners through a formal employment | November 19, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Companies and individuals in Brazil can hire foreigners through a formal employment: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Companies and individuals in Brazil can hire foreigners through a formal employment
+AFTER H1 (HOLD; not approved for publication): Companies and individuals in Brazil can hire foreigners through a formal employment
 AFTER targeting: Companies and individuals in Brazil can hire foreigners through a formal employment — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Autorização de residência no Brasil devido ao acordo MERC
 BEFORE H1: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem
 BEFORE apparent targeting: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem
 
-AFTER title: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem | 9 de junho de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem
-Alternative B: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem | 9 de junho de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência possui: Esta página traz pesquisas anteriores de residência para uma estrutura mais clara para...
-AFTER H1: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem
+AFTER H1 (HOLD; not approved for publication): Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem
 AFTER targeting: Autorização de residência no Brasil devido ao acordo MERCOSUL Esta autorização de residência tem — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

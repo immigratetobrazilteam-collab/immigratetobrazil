@@ -26,11 +26,11 @@ BEFORE description: Brazil'S Digital Nomad Visa Is A Trending Choice.: Brazil's 
 BEFORE H1: Brazil'S Digital Nomad Visa Is A Trending Choice.
 BEFORE apparent targeting: Brazil'S Digital Nomad Visa Is A Trending Choice.
 
-AFTER title: Brazil'S Digital Nomad Visa Is A Trending Choice. | FYI | Immigrate to Brazil
-Alternative A: Brazil'S Digital Nomad Visa Is A Trending Choice.
-Alternative B: Brazil'S Digital Nomad Visa Is A Trending Choice. | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil'S Digital Nomad Visa Is A Trending Choice. | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil'S Digital Nomad Visa Is A Trending Choice.: Brazil's digital nomad visa is a trending choice. Plan your immigration journey to live in your dream...
-AFTER H1: Brazil'S Digital Nomad Visa Is A Trending Choice.
+AFTER H1 (HOLD; not approved for publication): Brazil'S Digital Nomad Visa Is A Trending Choice.
 AFTER targeting: Brazil'S Digital Nomad Visa Is A Trending Choice. — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

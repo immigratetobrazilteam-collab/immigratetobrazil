@@ -26,11 +26,11 @@ BEFORE description: Mexico confirms resumption of the electronic visa for Brazil
 BEFORE H1: Mexico confirms resumption of the electronic visa for Brazilians from February 2026
 BEFORE apparent targeting: Mexico confirms resumption of the electronic visa for Brazilians from February 2026
 
-AFTER title: Mexico confirms resumption of the electronic visa for Brazilians from February 2026 | December 1, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Mexico confirms resumption of the electronic visa for Brazilians from February 2026
-Alternative B: Mexico confirms resumption of the electronic visa for Brazilians from February 2026 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Mexico confirms resumption of the electronic visa for Brazilians from February 2026 | December 1, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Mexico confirms resumption of the electronic visa for Brazilians from February 2026: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: Mexico confirms resumption of the electronic visa for Brazilians from February 2026
+AFTER H1 (HOLD; not approved for publication): Mexico confirms resumption of the electronic visa for Brazilians from February 2026
 AFTER targeting: Mexico confirms resumption of the electronic visa for Brazilians from February 2026 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

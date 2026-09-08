@@ -26,11 +26,11 @@ BEFORE description: The Certificate of Proficiency in Portuguese Language for Fo
 BEFORE H1: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),
 BEFORE apparent targeting: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),
 
-AFTER title: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras), | July 31, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),
-Alternative B: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras), | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras), | July 31, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),
+AFTER H1 (HOLD; not approved for publication): The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras),
 AFTER targeting: The Certificate of Proficiency in Portuguese Language for Foreigners (Celpe-Bras), — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

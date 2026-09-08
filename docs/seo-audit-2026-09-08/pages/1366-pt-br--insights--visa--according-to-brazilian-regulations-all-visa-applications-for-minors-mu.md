@@ -26,11 +26,11 @@ BEFORE description: De acordo com os regulamentos brasileiros, todos os pedidos 
 BEFORE H1: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser
 BEFORE apparent targeting: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser
 
-AFTER title: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser | 5 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser
-Alternative B: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser | Monique Fernandes
+AFTER title (HOLD; not approved for publication): De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser | 5 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser
+AFTER H1 (HOLD; not approved for publication): De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser
 AFTER targeting: De acordo com os regulamentos brasileiros, todos os pedidos de visto para menores devem ser — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

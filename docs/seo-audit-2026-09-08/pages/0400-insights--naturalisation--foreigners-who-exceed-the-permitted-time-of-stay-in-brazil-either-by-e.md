@@ -26,11 +26,11 @@ BEFORE description: Foreigners who exceed the permitted time of stay in Brazil, 
 BEFORE H1: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the
 BEFORE apparent targeting: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the
 
-AFTER title: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the | July 24, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the
-Alternative B: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the | July 24, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the
+AFTER H1 (HOLD; not approved for publication): Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the
 AFTER targeting: Foreigners who exceed the permitted time of stay in Brazil, either by exceeding the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

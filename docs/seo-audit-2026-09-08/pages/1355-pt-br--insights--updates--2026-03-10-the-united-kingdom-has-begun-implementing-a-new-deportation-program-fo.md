@@ -26,11 +26,11 @@ BEFORE description: O Reino Unido começou a implementar um novo programa de dep
 BEFORE H1: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares
 BEFORE apparent targeting: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares
 
-AFTER title: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares | 9 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares
-Alternative B: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares | 9 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Reino Unido começou a implementar um novo programa de deportação de irregulares: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares
+AFTER H1 (HOLD; not approved for publication): O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares
 AFTER targeting: O Reino Unido começou a implementar um novo programa de deportação de pessoas irregulares — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

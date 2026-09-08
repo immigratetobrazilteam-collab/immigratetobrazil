@@ -26,11 +26,11 @@ BEFORE description: The rules for work immigration allow individuals to obtain a
 BEFORE H1: The rules for work immigration allow individuals to obtain a visa or residency permit
 BEFORE apparent targeting: The rules for work immigration allow individuals to obtain a visa or residency permit
 
-AFTER title: The rules for work immigration allow individuals to obtain a visa or residency permit | June 24, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The rules for work immigration allow individuals to obtain a visa or residency permit
-Alternative B: The rules for work immigration allow individuals to obtain a visa or residency permit | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The rules for work immigration allow individuals to obtain a visa or residency permit | June 24, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The rules for work immigration allow individuals to obtain a visa or residency permit: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The rules for work immigration allow individuals to obtain a visa or residency permit
+AFTER H1 (HOLD; not approved for publication): The rules for work immigration allow individuals to obtain a visa or residency permit
 AFTER targeting: The rules for work immigration allow individuals to obtain a visa or residency permit — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Brazilian immigration legislation reflects the country's com
 BEFORE H1: Brazilian immigration legislation reflects the country's commitment to recognizing and
 BEFORE apparent targeting: Brazilian immigration legislation reflects the country's commitment to recognizing and
 
-AFTER title: Brazilian immigration legislation reflects the country's commitment to recognizing and | February 22, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: Brazilian immigration legislation reflects the country's commitment to recognizing and
-Alternative B: Brazilian immigration legislation reflects the country's commitment to recognizing and | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian immigration legislation reflects the country's commitment to recognizing and | February 22, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian immigration legislation reflects the country's commitment to recognizing and: This page brings earlier residency research into a clearer framework...
-AFTER H1: Brazilian immigration legislation reflects the country's commitment to recognizing and
+AFTER H1 (HOLD; not approved for publication): Brazilian immigration legislation reflects the country's commitment to recognizing and
 AFTER targeting: Brazilian immigration legislation reflects the country's commitment to recognizing and — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

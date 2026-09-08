@@ -26,11 +26,11 @@ BEFORE description: For biological children and minor adopted children of Italia
 BEFORE H1: For biological children and minor adopted children of Italian citizens, it is possible
 BEFORE apparent targeting: For biological children and minor adopted children of Italian citizens, it is possible
 
-AFTER title: For biological children and minor adopted children of Italian citizens, it is possible | November 9, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: For biological children and minor adopted children of Italian citizens, it is possible
-Alternative B: For biological children and minor adopted children of Italian citizens, it is possible | Monique Fernandes
+AFTER title (HOLD; not approved for publication): For biological children and minor adopted children of Italian citizens, it is possible | November 9, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: For biological children and minor adopted children of Italian citizens, it is possible: This page brings earlier process and support research into a clearer...
-AFTER H1: For biological children and minor adopted children of Italian citizens, it is possible
+AFTER H1 (HOLD; not approved for publication): For biological children and minor adopted children of Italian citizens, it is possible
 AFTER targeting: For biological children and minor adopted children of Italian citizens, it is possible — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

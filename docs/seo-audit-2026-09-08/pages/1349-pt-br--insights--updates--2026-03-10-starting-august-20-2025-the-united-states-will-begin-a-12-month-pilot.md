@@ -26,11 +26,11 @@ BEFORE description: A partir de 20 de agosto de 2025, os Estados Unidos iniciar�
 BEFORE H1: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que
 BEFORE apparent targeting: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que
 
-AFTER title: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que | 3 de setembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que
-Alternative B: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que | 3 de setembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que: Registro de arquivo: 10 de março de 2026. Esta página traz atualizações anteriores...
-AFTER H1: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que
+AFTER H1 (HOLD; not approved for publication): A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que
 AFTER targeting: A partir de 20 de agosto de 2025, os Estados Unidos iniciarão um programa piloto de 12 meses que — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

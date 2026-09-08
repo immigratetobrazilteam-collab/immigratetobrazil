@@ -26,11 +26,11 @@ BEFORE description: Devido às crises políticas na Síria, a Embaixada brasilei
 BEFORE H1: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o
 BEFORE apparent targeting: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o
 
-AFTER title: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o | 10 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o
-Alternative B: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o | 10 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o
+AFTER H1 (HOLD; not approved for publication): Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o
 AFTER targeting: Devido às crises políticas na Síria, a Embaixada brasileira na Síria anunciou o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

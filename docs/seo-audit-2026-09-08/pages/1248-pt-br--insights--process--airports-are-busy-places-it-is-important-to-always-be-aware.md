@@ -26,11 +26,11 @@ BEFORE description: Aeroportos são locais movimentados, é importante estar sem
 BEFORE H1: Aeroportos são locais movimentados, é importante estar sempre atento
 BEFORE apparent targeting: Aeroportos são locais movimentados, é importante estar sempre atento
 
-AFTER title: Aeroportos são locais movimentados, é importante estar sempre atento | 26 de setembro de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Aeroportos são locais movimentados, é importante estar sempre atento
-Alternative B: Aeroportos são locais movimentados, é importante estar sempre atento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Aeroportos são locais movimentados, é importante estar sempre atento | 26 de setembro de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Aeroportos são locais movimentados, é importante estar sempre atento: Esta página traz processos anteriores e pesquisas de apoio de forma mais clara para os leitores...
-AFTER H1: Aeroportos são locais movimentados, é importante estar sempre atento
+AFTER H1 (HOLD; not approved for publication): Aeroportos são locais movimentados, é importante estar sempre atento
 AFTER targeting: Aeroportos são locais movimentados, é importante estar sempre atento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

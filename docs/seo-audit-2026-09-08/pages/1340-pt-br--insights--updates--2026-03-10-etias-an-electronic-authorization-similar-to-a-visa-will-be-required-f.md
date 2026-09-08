@@ -26,11 +26,11 @@ BEFORE description: O ETIAS, autorização eletrônica semelhante a um visto, se
 BEFORE H1: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas
 BEFORE apparent targeting: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas
 
-AFTER title: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas | 14 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas
-Alternative B: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas | 14 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas
+AFTER H1 (HOLD; not approved for publication): ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas
 AFTER targeting: ETIAS, autorização eletrônica semelhante a um visto, será exigida para turistas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

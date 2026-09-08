@@ -26,11 +26,11 @@ BEFORE description: If your American visa is denied, the first recommended actio
 BEFORE H1: If your American visa is denied, the first recommended action is to look for an
 BEFORE apparent targeting: If your American visa is denied, the first recommended action is to look for an
 
-AFTER title: If your American visa is denied, the first recommended action is to look for an | April 1, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: If your American visa is denied, the first recommended action is to look for an
-Alternative B: If your American visa is denied, the first recommended action is to look for an | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If your American visa is denied, the first recommended action is to look for an | April 1, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If your American visa is denied, the first recommended action is to look for an: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: If your American visa is denied, the first recommended action is to look for an
+AFTER H1 (HOLD; not approved for publication): If your American visa is denied, the first recommended action is to look for an
 AFTER targeting: If your American visa is denied, the first recommended action is to look for an — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

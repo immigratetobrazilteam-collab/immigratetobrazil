@@ -26,11 +26,11 @@ BEFORE description: Um caso recente no Brasil, onde um turista foi multado no eq
 BEFORE H1: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD
 BEFORE apparent targeting: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD
 
-AFTER title: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD | 26 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD
-Alternative B: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD | 26 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD
+AFTER H1 (HOLD; not approved for publication): Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD
 AFTER targeting: Um caso recente no Brasil, onde um turista foi multado no equivalente a quase 2.000 USD — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

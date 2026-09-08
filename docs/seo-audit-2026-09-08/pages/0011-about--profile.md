@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: Brazilian Immigration Lawyer
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: Brazilian Immigration Lawyer
 Primary keyword/focus field: Monique Fernandes: Brazilian Immigration Lawyer; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: Brazilian Immigration Lawyer questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services"]
@@ -27,8 +27,8 @@ BEFORE H1: Profile
 BEFORE apparent targeting: Monique Fernandes Profile
 
 AFTER title: Monique Fernandes: Brazilian Immigration Lawyer
-Alternative A: Monique Fernandes: Brazilian Immigration Lawyer
-Alternative B: Monique Fernandes: Brazilian Immigration Lawyer | Monique Fernandes
+Alternative A: Monique Fernandes: Brazilian Immigration Lawyer | Monique Fernandes
+Alternative B: Monique Fernandes: Brazilian Immigration Lawyer | Immigrate to Brazil
 AFTER description: Meet Monique Fernandes and learn about her Brazil immigration practice, professional background, and work with clients in English and Portuguese.
 AFTER H1: Monique Fernandes: Brazilian Immigration Lawyer
 AFTER targeting: Monique Fernandes: Brazilian Immigration Lawyer — navigational

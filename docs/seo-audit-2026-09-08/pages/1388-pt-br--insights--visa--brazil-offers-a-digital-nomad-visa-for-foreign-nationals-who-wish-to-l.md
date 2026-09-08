@@ -26,11 +26,11 @@ BEFORE description: Brasil oferece um Visto Nômade Digital para estrangeiros qu
 BEFORE H1: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar
 BEFORE apparent targeting: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar
 
-AFTER title: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar | 27 de fevereiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar
-Alternative B: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar | 27 de fevereiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil oferece um Visto Nômade Digital para estrangeiros que desejam viver e trabalhar: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar
+AFTER H1 (HOLD; not approved for publication): Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar
 AFTER targeting: Brasil oferece Visto Digital Nômade para estrangeiros que desejam viver e trabalhar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Starting September 2, 2025, the U.S. Department of State wil
 BEFORE H1: Starting September 2, 2025, the U.S. Department of State will require an in-person
 BEFORE apparent targeting: Starting September 2, 2025, the U.S. Department of State will require an in-person
 
-AFTER title: Starting September 2, 2025, the U.S. Department of State will require an in-person | December 4, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Starting September 2, 2025, the U.S. Department of State will require an in-person
-Alternative B: Starting September 2, 2025, the U.S. Department of State will require an in-person | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Starting September 2, 2025, the U.S. Department of State will require an in-person | December 4, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Starting September 2, 2025, the U.S. Department of State will require an in-person: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Starting September 2, 2025, the U.S. Department of State will require an in-person
+AFTER H1 (HOLD; not approved for publication): Starting September 2, 2025, the U.S. Department of State will require an in-person
 AFTER targeting: Starting September 2, 2025, the U.S. Department of State will require an in-person — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

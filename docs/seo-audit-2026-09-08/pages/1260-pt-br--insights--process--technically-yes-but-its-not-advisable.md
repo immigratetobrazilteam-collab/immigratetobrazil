@@ -26,11 +26,11 @@ BEFORE description: Tecnicamente, sim, mas não é aconselhável: esta página t
 BEFORE H1: Tecnicamente sim, mas não é aconselhável
 BEFORE apparent targeting: Tecnicamente sim, mas não é aconselhável
 
-AFTER title: Tecnicamente sim, mas não é aconselhável | 28 de agosto de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: Tecnicamente sim, mas não é aconselhável
-Alternative B: Tecnicamente sim, mas não é aconselhável | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Tecnicamente sim, mas não é aconselhável | 28 de agosto de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Tecnicamente, sim, mas não é aconselhável: esta página traz processos anteriores e pesquisas de apoio de forma mais clara para leitores que coordenam documentos...
-AFTER H1: Tecnicamente sim, mas não é aconselhável
+AFTER H1 (HOLD; not approved for publication): Tecnicamente sim, mas não é aconselhável
 AFTER targeting: Tecnicamente sim, mas não é aconselhável — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

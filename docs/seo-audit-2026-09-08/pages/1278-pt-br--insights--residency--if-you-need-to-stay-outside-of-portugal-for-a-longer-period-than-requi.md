@@ -26,11 +26,11 @@ BEFORE description: Se necessitar de permanecer fora de Portugal por um período
 BEFORE H1: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá
 BEFORE apparent targeting: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá
 
-AFTER title: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá | 19 de maio de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá
-Alternative B: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá | 19 de maio de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, você: Esta página traz a investigação de residência anterior num quadro mais claro...
-AFTER H1: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá
+AFTER H1 (HOLD; not approved for publication): Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá
 AFTER targeting: Se necessitar de permanecer fora de Portugal por um período superior ao exigido por lei, deverá — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

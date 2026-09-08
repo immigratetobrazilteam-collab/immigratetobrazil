@@ -26,11 +26,11 @@ BEFORE description: O visto de aposentadoria para o Brasil foi desenvolvido para
 BEFORE H1: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no
 BEFORE apparent targeting: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no
 
-AFTER title: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no | 21 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no
-Alternative B: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no | 21 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto de aposentadoria para o Brasil foi desenvolvido para indivíduos que desejam morar no: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no
+AFTER H1 (HOLD; not approved for publication): O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no
 AFTER targeting: O visto de aposentadoria para o Brasil é destinado a indivíduos que desejam viver no — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

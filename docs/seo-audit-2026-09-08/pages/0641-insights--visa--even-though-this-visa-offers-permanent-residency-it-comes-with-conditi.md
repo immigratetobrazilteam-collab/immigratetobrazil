@@ -26,11 +26,11 @@ BEFORE description: Even though this visa offers permanent residency, it comes w
 BEFORE H1: Even though this visa offers permanent residency, it comes with conditions
 BEFORE apparent targeting: Even though this visa offers permanent residency, it comes with conditions
 
-AFTER title: Even though this visa offers permanent residency, it comes with conditions | November 3, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Even though this visa offers permanent residency, it comes with conditions
-Alternative B: Even though this visa offers permanent residency, it comes with conditions | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Even though this visa offers permanent residency, it comes with conditions | November 3, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Even though this visa offers permanent residency, it comes with conditions: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Even though this visa offers permanent residency, it comes with conditions
+AFTER H1 (HOLD; not approved for publication): Even though this visa offers permanent residency, it comes with conditions
 AFTER targeting: Even though this visa offers permanent residency, it comes with conditions — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

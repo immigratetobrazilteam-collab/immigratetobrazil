@@ -26,11 +26,11 @@ BEFORE description: Japan has announced measures to attract digital nomads, alig
 BEFORE H1: Japan has announced measures to attract digital nomads, aligning with a global trend
 BEFORE apparent targeting: Japan has announced measures to attract digital nomads, aligning with a global trend
 
-AFTER title: Japan has announced measures to attract digital nomads, aligning with a global trend | January 6, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Japan has announced measures to attract digital nomads, aligning with a global trend
-Alternative B: Japan has announced measures to attract digital nomads, aligning with a global trend | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Japan has announced measures to attract digital nomads, aligning with a global trend | January 6, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Japan has announced measures to attract digital nomads, aligning with a global trend: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Japan has announced measures to attract digital nomads, aligning with a global trend
+AFTER H1 (HOLD; not approved for publication): Japan has announced measures to attract digital nomads, aligning with a global trend
 AFTER targeting: Japan has announced measures to attract digital nomads, aligning with a global trend — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

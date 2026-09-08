@@ -26,11 +26,11 @@ BEFORE description: Italy plans almost 500 000 work visas for non europeans by 2
 BEFORE H1: Italy plans almost 500 000 work visas for non europeans by 2028 the government
 BEFORE apparent targeting: Italy plans almost 500 000 work visas for non europeans by 2028 the government
 
-AFTER title: Italy plans almost 500 000 work visas for non europeans by 2028 the government | FYI | Immigrate to Brazil
-Alternative A: Italy plans almost 500 000 work visas for non europeans by 2028 the government
-Alternative B: Italy plans almost 500 000 work visas for non europeans by 2028 the government | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Italy plans almost 500 000 work visas for non europeans by 2028 the government | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Italy plans almost 500 000 work visas for non europeans by 2028 the government: Italy plans almost 500,000 work visas for non-Europeans by 2028 The Italian...
-AFTER H1: Italy plans almost 500 000 work visas for non europeans by 2028 the government
+AFTER H1 (HOLD; not approved for publication): Italy plans almost 500 000 work visas for non europeans by 2028 the government
 AFTER targeting: Italy plans almost 500 000 work visas for non europeans by 2028 the government — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

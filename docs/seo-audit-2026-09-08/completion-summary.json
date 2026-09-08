@@ -1,0 +1,24 @@
+{
+  "urls": 1720,
+  "dossiers": 1720,
+  "metadata": 1719,
+  "schema": 1719,
+  "status_counts": {
+    "DRAFT \u2014 editorial review required": 351,
+    "UTILITY \u2014 preserve noindex": 10,
+    "COUNTRY EVIDENCE REQUIRED \u2014 conditional editorial draft": 386,
+    "CONSOLIDATION REVIEW REQUIRED": 6,
+    "UTILITY \u2014 preserve verification token": 1,
+    "SOURCE REVIEW REQUIRED \u2014 no publication-ready rewrite": 944,
+    "LEGAL CONTENT REVIEW REQUIRED \u2014 conditional retargeting draft": 22
+  },
+  "qa_findings": 38,
+  "qa_checks": {
+    "duplicate h1": 38
+  },
+  "editorial_dependencies": 1358,
+  "production_files_changed": 0,
+  "deployment": "NOT PERFORMED",
+  "gsc": "NOT SUPPLIED",
+  "validation_scope": "All ledger artifacts, JSON syntax, breadcrumb positions and known targets, schema identifiers, duplicate proposals, internal link targets. Not a Google Rich Results Test or a legal review."
+}

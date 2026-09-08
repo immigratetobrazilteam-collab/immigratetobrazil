@@ -26,11 +26,11 @@ BEFORE description: A ascensão do Brasil nas classificações de mobilidade glo
 BEFORE H1: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10
 BEFORE apparent targeting: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10
 
-AFTER title: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10 | 24 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10
-Alternative B: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10 | 24 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do Top 10: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10
+AFTER H1 (HOLD; not approved for publication): A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10
 AFTER targeting: A ascensão do Brasil nas classificações de mobilidade global e o passaporte dos EUA sai do top 10 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

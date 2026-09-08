@@ -14,7 +14,7 @@ User problem / SEO objective: Mudança para o Brasil: guias por país de origem
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Mudança para o Brasil: guias por país de origem
 Primary keyword/focus field: Mudança para o Brasil: guias por país de origem; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Mudança para o Brasil: guias por país de origem questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

@@ -26,11 +26,11 @@ BEFORE description: O visto EB-2 NIW (National Interest Waiver) não se limita e
 BEFORE H1: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente
 BEFORE apparent targeting: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente
 
-AFTER title: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente | 2 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente
-Alternative B: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente | 2 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a altamente: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente
+AFTER H1 (HOLD; not approved for publication): O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente
 AFTER targeting: O visto EB-2 NIW (National Interest Waiver) não se limita exclusivamente a pessoas altamente — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Brasil oferece a possibilidade de residência permanente par
 BEFORE H1: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam
 BEFORE apparent targeting: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam
 
-AFTER title: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam | 22 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam
-Alternative B: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam | 22 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam
+AFTER H1 (HOLD; not approved for publication): Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam
 AFTER targeting: Brasil oferece a possibilidade de residência permanente para famílias estrangeiras que desejam — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

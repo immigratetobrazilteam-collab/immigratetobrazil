@@ -26,11 +26,11 @@ BEFORE description: Em questões de imigração brasileira, os estrangeiros pode
 BEFORE H1: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família
 BEFORE apparent targeting: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família
 
-AFTER title: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família | 27 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família
-Alternative B: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família | 27 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família
+AFTER H1 (HOLD; not approved for publication): Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família
 AFTER targeting: Em questões de imigração brasileira, os estrangeiros poderiam solicitar uma família — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

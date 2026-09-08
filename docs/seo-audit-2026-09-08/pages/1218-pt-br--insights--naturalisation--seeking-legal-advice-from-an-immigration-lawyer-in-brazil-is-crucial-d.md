@@ -26,11 +26,11 @@ BEFORE description: Buscar aconselhamento jurídico de um advogado de imigraçã
 BEFORE H1: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao
 BEFORE apparent targeting: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao
 
-AFTER title: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao | 6 de fevereiro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao
-Alternative B: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao | 6 de fevereiro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido a: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao
+AFTER H1 (HOLD; not approved for publication): Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao
 AFTER targeting: Buscar aconselhamento jurídico de um advogado de imigração no Brasil é crucial devido ao — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

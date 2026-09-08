@@ -26,11 +26,11 @@ BEFORE description: A conclusão técnica envolve a análise jurídica das regra
 BEFORE H1: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do
 BEFORE apparent targeting: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do
 
-AFTER title: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do | 19 de novembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do
-Alternative B: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A conclusão técnica envolve a análise jurídica das regras e circunstâncias do | 19 de novembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do
+AFTER H1 (HOLD; not approved for publication): A conclusão técnica envolve a análise jurídica das regras e circunstâncias do
 AFTER targeting: A conclusão técnica envolve a análise jurídica das regras e circunstâncias do — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: A stable union formed abroad can be recognized in Brazil thr
 BEFORE H1: A stable union formed abroad can be recognized in Brazil through registration,
 BEFORE apparent targeting: A stable union formed abroad can be recognized in Brazil through registration,
 
-AFTER title: A stable union formed abroad can be recognized in Brazil through registration, | April 3, 2025 | Residency Insight | Immigrate to Brazil
-Alternative A: A stable union formed abroad can be recognized in Brazil through registration,
-Alternative B: A stable union formed abroad can be recognized in Brazil through registration, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A stable union formed abroad can be recognized in Brazil through registration, | April 3, 2025 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A stable union formed abroad can be recognized in Brazil through registration,: This page brings earlier residency research into a clearer framework for...
-AFTER H1: A stable union formed abroad can be recognized in Brazil through registration,
+AFTER H1 (HOLD; not approved for publication): A stable union formed abroad can be recognized in Brazil through registration,
 AFTER targeting: A stable union formed abroad can be recognized in Brazil through registration, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

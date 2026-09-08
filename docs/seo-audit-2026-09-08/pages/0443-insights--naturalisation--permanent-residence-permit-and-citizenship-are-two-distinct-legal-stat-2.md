@@ -26,11 +26,11 @@ BEFORE description: Permanent residence permit and citizenship are two distinct 
 BEFORE H1: Permanent residence permit and citizenship are two distinct legal statuses that confer (2)
 BEFORE apparent targeting: Permanent residence permit and citizenship are two distinct legal statuses that confer (2)
 
-AFTER title: Permanent residence permit and citizenship are two distinct legal statuses that confer (2) | March 12, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Permanent residence permit and citizenship are two distinct legal statuses that confer (2)
-Alternative B: Permanent residence permit and citizenship are two distinct legal statuses that confer (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Permanent residence permit and citizenship are two distinct legal statuses that confer (2) | March 12, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Permanent residence permit and citizenship are two distinct legal statuses that confer (2): This page brings earlier citizenship research into a clearer...
-AFTER H1: Permanent residence permit and citizenship are two distinct legal statuses that confer (2)
+AFTER H1 (HOLD; not approved for publication): Permanent residence permit and citizenship are two distinct legal statuses that confer (2)
 AFTER targeting: Permanent residence permit and citizenship are two distinct legal statuses that confer (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

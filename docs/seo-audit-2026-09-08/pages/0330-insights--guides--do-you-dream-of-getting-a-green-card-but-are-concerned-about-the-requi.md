@@ -26,11 +26,11 @@ BEFORE description: Do you dream of getting a Green Card but are concerned about
 BEFORE H1: Do you dream of getting a Green Card but are concerned about the requirement to have
 BEFORE apparent targeting: Do you dream of getting a Green Card but are concerned about the requirement to have
 
-AFTER title: Do you dream of getting a Green Card but are concerned about the requirement to have | August 2, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Do you dream of getting a Green Card but are concerned about the requirement to have
-Alternative B: Do you dream of getting a Green Card but are concerned about the requirement to have | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Do you dream of getting a Green Card but are concerned about the requirement to have | August 2, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Do you dream of getting a Green Card but are concerned about the requirement to have: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: Do you dream of getting a Green Card but are concerned about the requirement to have
+AFTER H1 (HOLD; not approved for publication): Do you dream of getting a Green Card but are concerned about the requirement to have
 AFTER targeting: Do you dream of getting a Green Card but are concerned about the requirement to have — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

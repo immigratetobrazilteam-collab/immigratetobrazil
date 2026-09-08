@@ -26,11 +26,11 @@ BEFORE description: Ao trocar dinheiro em viagens internacionais, é essencial t
 BEFORE H1: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com
 BEFORE apparent targeting: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com
 
-AFTER title: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com | 18 de fevereiro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com
-Alternative B: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com | 18 de fevereiro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Ao trocar dinheiro em viagens internacionais, é essencial ter cuidado com: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com
+AFTER H1 (HOLD; not approved for publication): Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com
 AFTER targeting: Ao trocar dinheiro em viagens internacionais, é fundamental ter cuidado com — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

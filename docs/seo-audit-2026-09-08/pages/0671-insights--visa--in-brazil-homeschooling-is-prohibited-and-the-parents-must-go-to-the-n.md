@@ -26,11 +26,11 @@ BEFORE description: In Brazil, homeschooling is prohibited, and the parents must
 BEFORE H1: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public
 BEFORE apparent targeting: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public
 
-AFTER title: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public | April 8, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public
-Alternative B: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, homeschooling is prohibited, and the parents must go to the nearest public | April 8, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public
+AFTER H1 (HOLD; not approved for publication): In Brazil, homeschooling is prohibited, and the parents must go to the nearest public
 AFTER targeting: In Brazil, homeschooling is prohibited, and the parents must go to the nearest public — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

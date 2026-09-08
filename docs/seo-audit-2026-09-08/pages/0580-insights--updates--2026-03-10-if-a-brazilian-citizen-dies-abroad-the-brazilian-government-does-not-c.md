@@ -26,11 +26,11 @@ BEFORE description: If a Brazilian citizen dies abroad, the Brazilian government
 BEFORE H1: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral
 BEFORE apparent targeting: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral
 
-AFTER title: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral | March 20, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral
-Alternative B: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral | March 20, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral
+AFTER H1 (HOLD; not approved for publication): If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral
 AFTER targeting: If a Brazilian citizen dies abroad, the Brazilian government does not cover funeral — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

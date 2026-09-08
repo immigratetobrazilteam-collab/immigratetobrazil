@@ -26,11 +26,11 @@ BEFORE description: Brasil emite o visto temporário CPLP apenas em algumas cida
 BEFORE H1: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas
 BEFORE apparent targeting: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas
 
-AFTER title: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas | 23 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas
-Alternative B: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil emite o visto temporário CPLP apenas em algumas cidades específicas | 23 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para Imigração...
-AFTER H1: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas
+AFTER H1 (HOLD; not approved for publication): Brasil emite o visto temporário CPLP apenas em algumas cidades específicas
 AFTER targeting: Brasil emite o visto temporário CPLP apenas em algumas cidades específicas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

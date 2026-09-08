@@ -26,11 +26,11 @@ BEFORE description: Want to live in Brazil while investing in the countrys growt
 BEFORE H1: Want to live in Brazil while investing in the countrys growth?
 BEFORE apparent targeting: Want to live in Brazil while investing in the countrys growth?
 
-AFTER title: Want to live in Brazil while investing in the countrys growth? | August 6, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Want to live in Brazil while investing in the countrys growth?
-Alternative B: Want to live in Brazil while investing in the countrys growth? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Want to live in Brazil while investing in the countrys growth? | August 6, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Want to live in Brazil while investing in the countrys growth? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Want to live in Brazil while investing in the countrys growth?
+AFTER H1 (HOLD; not approved for publication): Want to live in Brazil while investing in the countrys growth?
 AFTER targeting: Want to live in Brazil while investing in the countrys growth? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

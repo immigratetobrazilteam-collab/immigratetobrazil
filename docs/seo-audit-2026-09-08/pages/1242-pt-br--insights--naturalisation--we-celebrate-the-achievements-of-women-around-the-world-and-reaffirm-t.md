@@ -26,11 +26,11 @@ BEFORE description: Celebramos as conquistas das mulheres em todo o mundo e reaf
 BEFORE H1: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma
 BEFORE apparent targeting: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma
 
-AFTER title: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma | 26 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma
-Alternative B: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma | 26 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma
+AFTER H1 (HOLD; not approved for publication): Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma
 AFTER targeting: Celebramos as conquistas das mulheres em todo o mundo e reafirmamos a luta por uma — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

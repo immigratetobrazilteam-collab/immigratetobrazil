@@ -26,11 +26,11 @@ BEFORE description: The recent interministerial Ordinance represents a significa
 BEFORE H1: The recent interministerial Ordinance represents a significant advance in immigration
 BEFORE apparent targeting: The recent interministerial Ordinance represents a significant advance in immigration
 
-AFTER title: The recent interministerial Ordinance represents a significant advance in immigration | February 26, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The recent interministerial Ordinance represents a significant advance in immigration
-Alternative B: The recent interministerial Ordinance represents a significant advance in immigration | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The recent interministerial Ordinance represents a significant advance in immigration | February 26, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The recent interministerial Ordinance represents a significant advance in immigration: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The recent interministerial Ordinance represents a significant advance in immigration
+AFTER H1 (HOLD; not approved for publication): The recent interministerial Ordinance represents a significant advance in immigration
 AFTER targeting: The recent interministerial Ordinance represents a significant advance in immigration — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

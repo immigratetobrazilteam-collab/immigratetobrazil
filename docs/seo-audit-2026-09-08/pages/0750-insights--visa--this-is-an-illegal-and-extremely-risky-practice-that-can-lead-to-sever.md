@@ -26,11 +26,11 @@ BEFORE description: This is an illegal and extremely risky practice that can lea
 BEFORE H1: This is an illegal and extremely risky practice that can lead to severe consequences
 BEFORE apparent targeting: This is an illegal and extremely risky practice that can lead to severe consequences
 
-AFTER title: This is an illegal and extremely risky practice that can lead to severe consequences | January 15, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: This is an illegal and extremely risky practice that can lead to severe consequences
-Alternative B: This is an illegal and extremely risky practice that can lead to severe consequences | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This is an illegal and extremely risky practice that can lead to severe consequences | January 15, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This is an illegal and extremely risky practice that can lead to severe consequences: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: This is an illegal and extremely risky practice that can lead to severe consequences
+AFTER H1 (HOLD; not approved for publication): This is an illegal and extremely risky practice that can lead to severe consequences
 AFTER targeting: This is an illegal and extremely risky practice that can lead to severe consequences — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

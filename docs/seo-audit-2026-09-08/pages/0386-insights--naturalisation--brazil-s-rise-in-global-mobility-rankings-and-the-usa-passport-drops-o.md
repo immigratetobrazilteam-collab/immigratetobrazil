@@ -26,11 +26,11 @@ BEFORE description: Brazil's Rise in Global Mobility Rankings and the USA Passpo
 BEFORE H1: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10
 BEFORE apparent targeting: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10
 
-AFTER title: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10 | November 24, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10
-Alternative B: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10 | November 24, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10: This page brings earlier citizenship research into a clearer format...
-AFTER H1: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10
+AFTER H1 (HOLD; not approved for publication): Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10
 AFTER targeting: Brazil's Rise in Global Mobility Rankings and the USA Passport Drops Out of the Top 10 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Brazil recognizes several types of travel documents for purp
 BEFORE H1: Brazil recognizes several types of travel documents for purposes of entry, stay or
 BEFORE apparent targeting: Brazil recognizes several types of travel documents for purposes of entry, stay or
 
-AFTER title: Brazil recognizes several types of travel documents for purposes of entry, stay or | July 10, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazil recognizes several types of travel documents for purposes of entry, stay or
-Alternative B: Brazil recognizes several types of travel documents for purposes of entry, stay or | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil recognizes several types of travel documents for purposes of entry, stay or | July 10, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil recognizes several types of travel documents for purposes of entry, stay or: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Brazil recognizes several types of travel documents for purposes of entry, stay or
+AFTER H1 (HOLD; not approved for publication): Brazil recognizes several types of travel documents for purposes of entry, stay or
 AFTER targeting: Brazil recognizes several types of travel documents for purposes of entry, stay or — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

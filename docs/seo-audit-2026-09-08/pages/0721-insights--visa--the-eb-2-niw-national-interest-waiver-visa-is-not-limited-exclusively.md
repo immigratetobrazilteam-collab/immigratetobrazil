@@ -26,11 +26,11 @@ BEFORE description: The EB-2 NIW (National Interest Waiver) visa is not limited 
 BEFORE H1: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly
 BEFORE apparent targeting: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly
 
-AFTER title: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly | October 2, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly
-Alternative B: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly | October 2, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly
+AFTER H1 (HOLD; not approved for publication): The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly
 AFTER targeting: The EB-2 NIW (National Interest Waiver) visa is not limited exclusively to highly — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

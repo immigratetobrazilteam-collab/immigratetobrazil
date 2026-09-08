@@ -26,11 +26,11 @@ BEFORE description: A nacionalidade brasileira nem sempre é determinada automat
 BEFORE H1: A nacionalidade brasileira nem sempre é determinada automaticamente
 BEFORE apparent targeting: A nacionalidade brasileira nem sempre é determinada automaticamente
 
-AFTER title: A nacionalidade brasileira nem sempre é determinada automaticamente | 21 de outubro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A nacionalidade brasileira nem sempre é determinada automaticamente
-Alternative B: A nacionalidade brasileira nem sempre é determinada automaticamente | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A nacionalidade brasileira nem sempre é determinada automaticamente | 21 de outubro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A nacionalidade brasileira nem sempre é determinada automaticamente: esta página traz pesquisas anteriores sobre cidadania de forma mais clara para os leitores compararem...
-AFTER H1: A nacionalidade brasileira nem sempre é determinada automaticamente
+AFTER H1 (HOLD; not approved for publication): A nacionalidade brasileira nem sempre é determinada automaticamente
 AFTER targeting: A nacionalidade brasileira nem sempre é determinada automaticamente — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: A discussão sobre maior rigidez nas regras de importação 
 BEFORE H1: A discussão sobre maior rigidez nas regras de importação começou durante o último governo
 BEFORE apparent targeting: A discussão sobre maior rigidez nas regras de importação começou durante o último governo
 
-AFTER title: A discussão sobre maior rigidez nas regras de importação começou durante o último governo | 14 de abril de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A discussão sobre maior rigidez nas regras de importação começou durante o último governo
-Alternative B: A discussão sobre maior rigidez nas regras de importação começou durante o último governo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A discussão sobre maior rigidez nas regras de importação começou durante o último governo | 14 de abril de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A discussão sobre maior rigidez nas regras de importação começou no último governo: Registro de arquivo: 10 de março de 2026. Esta página traz atualização anterior...
-AFTER H1: A discussão sobre maior rigidez nas regras de importação começou durante o último governo
+AFTER H1 (HOLD; not approved for publication): A discussão sobre maior rigidez nas regras de importação começou durante o último governo
 AFTER targeting: A discussão sobre maior rigidez nas regras de importação começou durante o último governo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

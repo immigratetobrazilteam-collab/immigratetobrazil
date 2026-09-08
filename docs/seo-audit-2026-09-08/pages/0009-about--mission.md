@@ -14,7 +14,7 @@ User problem / SEO objective: Mission | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Mission | Monique Fernandes
 Primary keyword/focus field: Mission | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Mission | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Mission
 BEFORE apparent targeting: Monique Fernandes Mission
 
 AFTER title: Mission | Monique Fernandes
-Alternative A: Mission | Monique Fernandes
-Alternative B: Mission | Monique Fernandes | Monique Fernandes
+Alternative A: Mission
+Alternative B: Mission | Immigrate to Brazil
 AFTER description: Monique Fernandes' mission is to empower immigrants with clear legal guidance, protect dignity through lawful process, and promote Brazil with honesty and care.
 AFTER H1: Mission | Monique Fernandes
 AFTER targeting: Mission | Monique Fernandes — navigational

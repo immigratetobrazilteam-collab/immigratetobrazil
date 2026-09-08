@@ -26,11 +26,11 @@ BEFORE description: A expulsão de um estrangeiro é uma medida extrema e só po
 BEFORE H1: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da
 BEFORE apparent targeting: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da
 
-AFTER title: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da | 17 de março de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da
-Alternative B: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da | 17 de março de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A expulsão de um estrangeiro é uma medida extrema e só pode ocorrer devido a: Esta página traz processos mais antecipados e pesquisas de apoio de forma mais clara...
-AFTER H1: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da
+AFTER H1 (HOLD; not approved for publication): A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da
 AFTER targeting: A expulsão de estrangeiro é medida extrema e só pode ocorrer em razão da — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

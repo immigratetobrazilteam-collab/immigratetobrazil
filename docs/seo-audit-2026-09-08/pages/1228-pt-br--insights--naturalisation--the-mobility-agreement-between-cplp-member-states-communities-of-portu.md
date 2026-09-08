@@ -26,11 +26,11 @@ BEFORE description: O Acordo de Mobilidade entre os Estados Membros CPLP (comuni
 BEFORE H1: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa
 BEFORE apparent targeting: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa
 
-AFTER title: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa | 25 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa
-Alternative B: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa | 25 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa
+AFTER H1 (HOLD; not approved for publication): O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa
 AFTER targeting: O Acordo de Mobilidade entre os Estados Membros CPLP (comunidades de língua portuguesa — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

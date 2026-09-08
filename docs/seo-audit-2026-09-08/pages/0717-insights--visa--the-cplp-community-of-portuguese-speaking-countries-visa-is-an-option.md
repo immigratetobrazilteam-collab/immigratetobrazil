@@ -26,11 +26,11 @@ BEFORE description: The CPLP (Community of Portuguese Speaking Countries) visa i
 BEFORE H1: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows
 BEFORE apparent targeting: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows
 
-AFTER title: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows | November 28, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows
-Alternative B: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows | November 28, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows
+AFTER H1 (HOLD; not approved for publication): The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows
 AFTER targeting: The CPLP (Community of Portuguese Speaking Countries) visa is an option that allows — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

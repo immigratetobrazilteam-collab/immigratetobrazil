@@ -26,11 +26,11 @@ BEFORE description: Portugal aprovou recentemente um conjunto de alterações à
 BEFORE H1: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece
 BEFORE apparent targeting: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece
 
-AFTER title: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece | 18 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece
-Alternative B: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece | 18 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que a endurece: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece
+AFTER H1 (HOLD; not approved for publication): Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece
 AFTER targeting: Portugal aprovou recentemente um conjunto de alterações à legislação de imigração que endurece — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

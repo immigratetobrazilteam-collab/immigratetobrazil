@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: registro profissional e atuaç�
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: registro profissional e atuação jurídica
 Primary keyword/focus field: Monique Fernandes: registro profissional e atuação jurídica; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: registro profissional e atuação jurídica questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Advogada
 BEFORE apparent targeting: Monique Fernandes
 
 AFTER title: Monique Fernandes: registro profissional e atuação jurídica
-Alternative A: Monique Fernandes: registro profissional e atuação jurídica
-Alternative B: Monique Fernandes: registro profissional e atuação jurídica | Monique Fernandes
+Alternative A: Monique Fernandes: registro profissional e atuação jurídica | Monique Fernandes
+Alternative B: Monique Fernandes: registro profissional e atuação jurídica | Immigrate to Brazil
 AFTER description: Uma análise formal do perfil jurídico, da responsabilidade profissional e da abordagem de imigração em primeiro lugar de Monique Fernandes para clientes que precisam de orientação liderada por um advogado conectado ao Brasil.
 AFTER H1: Monique Fernandes: registro profissional e atuação jurídica
 AFTER targeting: Monique Fernandes: registro profissional e atuação jurídica — navigational

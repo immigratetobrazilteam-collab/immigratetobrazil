@@ -26,11 +26,11 @@ BEFORE description: Sim, a lei brasileiro protege os passageiros muito mais do q
 BEFORE H1: Sim, a lei brasileiro protege os passageiros muito mais do que outros países
 BEFORE apparent targeting: Sim, a lei brasileiro protege os passageiros muito mais do que outros países
 
-AFTER title: Sim, a lei brasileiro protege os passageiros muito mais do que outros países | 14 de março de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Sim, a lei brasileiro protege os passageiros muito mais do que outros países
-Alternative B: Sim, a lei brasileiro protege os passageiros muito mais do que outros países | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Sim, a lei brasileiro protege os passageiros muito mais do que outros países | 14 de março de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Sim, a lei brasileiro protege os passageiros muito mais do que outros países: Esta página traz processos anteriores e pesquisas de apoio de forma mais clara para os leitores...
-AFTER H1: Sim, a lei brasileiro protege os passageiros muito mais do que outros países
+AFTER H1 (HOLD; not approved for publication): Sim, a lei brasileiro protege os passageiros muito mais do que outros países
 AFTER targeting: Sim, a lei brasileiro protege os passageiros muito mais do que outros países — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: In Brazil, priests must go to the nearest public school and 
 BEFORE H1: In Brazil, priests must go to the nearest public school and request their child
 BEFORE apparent targeting: In Brazil, priests must go to the nearest public school and request their child
 
-AFTER title: In Brazil, priests must go to the nearest public school and request their child | April 16, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: In Brazil, priests must go to the nearest public school and request their child
-Alternative B: In Brazil, priests must go to the nearest public school and request their child | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, priests must go to the nearest public school and request their child | April 16, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, priests must go to the nearest public school and request their child: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: In Brazil, priests must go to the nearest public school and request their child
+AFTER H1 (HOLD; not approved for publication): In Brazil, priests must go to the nearest public school and request their child
 AFTER targeting: In Brazil, priests must go to the nearest public school and request their child — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

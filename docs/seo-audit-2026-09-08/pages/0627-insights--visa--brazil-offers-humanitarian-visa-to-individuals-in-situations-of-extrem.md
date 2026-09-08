@@ -26,11 +26,11 @@ BEFORE description: Brazil offers humanitarian visa to individuals in situations
 BEFORE H1: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,
 BEFORE apparent targeting: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,
 
-AFTER title: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability, | August 18, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,
-Alternative B: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil offers humanitarian visa to individuals in situations of extreme vulnerability, | August 18, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,
+AFTER H1 (HOLD; not approved for publication): Brazil offers humanitarian visa to individuals in situations of extreme vulnerability,
 AFTER targeting: Brazil offers humanitarian visa to individuals in situations of extreme vulnerability, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

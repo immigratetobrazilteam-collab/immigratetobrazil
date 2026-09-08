@@ -26,11 +26,11 @@ BEFORE description: A China anunciou o lançamento do visto K, destinado especia
 BEFORE H1: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)
 BEFORE apparent targeting: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)
 
-AFTER title: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM) | 30 de outubro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)
-Alternative B: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM) | 30 de outubro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)...
-AFTER H1: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)
+AFTER H1 (HOLD; not approved for publication): A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM)
 AFTER targeting: A China anunciou o lançamento do visto K, destinado especialmente a jovens profissionais das áreas de ciência, tecnologia, engenharia e matemática (STEM) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

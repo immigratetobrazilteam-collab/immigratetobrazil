@@ -26,11 +26,11 @@ BEFORE description: Renewal of the Brazilian residence permit applies to those w
 BEFORE H1: Renewal of the Brazilian residence permit applies to those who have a temporary
 BEFORE apparent targeting: Renewal of the Brazilian residence permit applies to those who have a temporary
 
-AFTER title: Renewal of the Brazilian residence permit applies to those who have a temporary | September 4, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: Renewal of the Brazilian residence permit applies to those who have a temporary
-Alternative B: Renewal of the Brazilian residence permit applies to those who have a temporary | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Renewal of the Brazilian residence permit applies to those who have a temporary | September 4, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Renewal of the Brazilian residence permit applies to those who have a temporary: This page brings earlier residency research into a clearer framework for...
-AFTER H1: Renewal of the Brazilian residence permit applies to those who have a temporary
+AFTER H1 (HOLD; not approved for publication): Renewal of the Brazilian residence permit applies to those who have a temporary
 AFTER targeting: Renewal of the Brazilian residence permit applies to those who have a temporary — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: As principais hipóteses são: - Documento de viagem inváli
 BEFORE H1: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem
 BEFORE apparent targeting: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem
 
-AFTER title: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem | 6 de dezembro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem
-Alternative B: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem | Monique Fernandes
+AFTER title (HOLD; not approved for publication): As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem | 6 de dezembro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagens: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem
+AFTER H1 (HOLD; not approved for publication): As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem
 AFTER targeting: As principais hipóteses são: - Documento de viagem inválido para o Brasil; - Viagem — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

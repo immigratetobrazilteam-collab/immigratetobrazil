@@ -26,11 +26,11 @@ BEFORE description: A Câmara dos Deputados acaba de aprovar uma Proposta de Eme
 BEFORE H1: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição
 BEFORE apparent targeting: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição
 
-AFTER title: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição | 7 de dezembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição
-Alternative B: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição | 7 de dezembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A Câmara dos Deputados acaba de aprovar uma Proposta de Emenda à Constituição: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição
+AFTER H1 (HOLD; not approved for publication): A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição
 AFTER targeting: A Câmara dos Deputados acaba de aprovar Proposta de Emenda à Constituição — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

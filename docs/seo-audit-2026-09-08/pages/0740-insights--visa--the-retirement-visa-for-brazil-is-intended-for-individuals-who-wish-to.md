@@ -26,11 +26,11 @@ BEFORE description: The retirement visa for Brazil is intended for individuals w
 BEFORE H1: The retirement visa for Brazil is intended for individuals who wish to live in the
 BEFORE apparent targeting: The retirement visa for Brazil is intended for individuals who wish to live in the
 
-AFTER title: The retirement visa for Brazil is intended for individuals who wish to live in the | September 12, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The retirement visa for Brazil is intended for individuals who wish to live in the
-Alternative B: The retirement visa for Brazil is intended for individuals who wish to live in the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The retirement visa for Brazil is intended for individuals who wish to live in the | September 12, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The retirement visa for Brazil is intended for individuals who wish to live in the: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The retirement visa for Brazil is intended for individuals who wish to live in the
+AFTER H1 (HOLD; not approved for publication): The retirement visa for Brazil is intended for individuals who wish to live in the
 AFTER targeting: The retirement visa for Brazil is intended for individuals who wish to live in the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

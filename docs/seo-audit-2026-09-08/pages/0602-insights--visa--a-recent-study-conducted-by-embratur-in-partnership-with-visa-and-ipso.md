@@ -26,11 +26,11 @@ BEFORE description: A recent study conducted by Embratur, in partnership with Vi
 BEFORE H1: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that
 BEFORE apparent targeting: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that
 
-AFTER title: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that | December 20, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that
-Alternative B: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that | December 20, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that
+AFTER H1 (HOLD; not approved for publication): A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that
 AFTER targeting: A recent study conducted by Embratur, in partnership with Visa and Ipsos, reveals that — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

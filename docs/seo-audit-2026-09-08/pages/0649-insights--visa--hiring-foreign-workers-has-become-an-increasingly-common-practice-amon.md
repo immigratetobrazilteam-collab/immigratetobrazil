@@ -26,11 +26,11 @@ BEFORE description: Hiring foreign workers has become an increasingly common pra
 BEFORE H1: Hiring foreign workers has become an increasingly common practice among Brazilian
 BEFORE apparent targeting: Hiring foreign workers has become an increasingly common practice among Brazilian
 
-AFTER title: Hiring foreign workers has become an increasingly common practice among Brazilian | June 3, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Hiring foreign workers has become an increasingly common practice among Brazilian
-Alternative B: Hiring foreign workers has become an increasingly common practice among Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Hiring foreign workers has become an increasingly common practice among Brazilian | June 3, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Hiring foreign workers has become an increasingly common practice among Brazilian: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Hiring foreign workers has become an increasingly common practice among Brazilian
+AFTER H1 (HOLD; not approved for publication): Hiring foreign workers has become an increasingly common practice among Brazilian
 AFTER targeting: Hiring foreign workers has become an increasingly common practice among Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

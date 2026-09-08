@@ -26,11 +26,11 @@ BEFORE description: Quando um brasileiro reside em outro país e trabalha lá, s
 BEFORE H1: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos
 BEFORE apparent targeting: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos
 
-AFTER title: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos | 19 de março de 2024 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos
-Alternative B: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos | 19 de março de 2024 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando um brasileiro reside em outro país e trabalha lá, sem receber ganhos: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos
+AFTER H1 (HOLD; not approved for publication): Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos
 AFTER targeting: Quando um brasileiro reside em outro país e lá trabalha, sem receber rendimentos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

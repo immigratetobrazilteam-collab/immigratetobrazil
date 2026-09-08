@@ -26,11 +26,11 @@ BEFORE description: Quando um cidadão brasileiro enfrenta problemas no exterior
 BEFORE H1: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é
 BEFORE apparent targeting: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é
 
-AFTER title: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é | 6 de fevereiro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é
-Alternative B: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é | 6 de fevereiro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de suporte é: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é
+AFTER H1 (HOLD; not approved for publication): Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é
 AFTER targeting: Quando um cidadão brasileiro enfrenta problemas no exterior, a primeira instância de apoio é — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

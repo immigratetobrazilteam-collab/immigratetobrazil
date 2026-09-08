@@ -26,11 +26,11 @@ BEFORE description: For those who still cannot marry in their home countries bec
 BEFORE H1: For those who still cannot marry in their home countries because of discrimination,
 BEFORE apparent targeting: For those who still cannot marry in their home countries because of discrimination,
 
-AFTER title: For those who still cannot marry in their home countries because of discrimination, | September 13, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: For those who still cannot marry in their home countries because of discrimination,
-Alternative B: For those who still cannot marry in their home countries because of discrimination, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): For those who still cannot marry in their home countries because of discrimination, | September 13, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: For those who still cannot marry in their home countries because of discrimination,: This page brings earlier residency research into a clearer framework for...
-AFTER H1: For those who still cannot marry in their home countries because of discrimination,
+AFTER H1 (HOLD; not approved for publication): For those who still cannot marry in their home countries because of discrimination,
 AFTER targeting: For those who still cannot marry in their home countries because of discrimination, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

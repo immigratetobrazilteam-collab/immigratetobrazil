@@ -26,11 +26,11 @@ BEFORE description: Foi estabelecido pela ONU para promover a igualdade, o respe
 BEFORE H1: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e
 BEFORE apparent targeting: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e
 
-AFTER title: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e | 20 de fevereiro de 2025 | Visão do processo | Imigre para o Brasil
-Alternative A: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e
-Alternative B: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e | 20 de fevereiro de 2025 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Foi estabelecido pela ONU para promover a igualdade, o respeito pelos direitos humanos e sociais: Esta página traz processos anteriores e apoia pesquisas de uma forma mais clara...
-AFTER H1: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e
+AFTER H1 (HOLD; not approved for publication): Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e
 AFTER targeting: Foi criado pela ONU para promover a igualdade, o respeito pelos direitos humanos e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

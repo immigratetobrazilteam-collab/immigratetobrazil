@@ -26,11 +26,11 @@ BEFORE description: Have you paid a debt at a discount, but your name remains su
 BEFORE H1: Have you paid a debt at a discount, but your name remains subject to internal
 BEFORE apparent targeting: Have you paid a debt at a discount, but your name remains subject to internal
 
-AFTER title: Have you paid a debt at a discount, but your name remains subject to internal | July 4, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Have you paid a debt at a discount, but your name remains subject to internal
-Alternative B: Have you paid a debt at a discount, but your name remains subject to internal | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Have you paid a debt at a discount, but your name remains subject to internal | July 4, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Have you paid a debt at a discount, but your name remains subject to internal: This page brings earlier FAQ-style research into a clearer guidance page for...
-AFTER H1: Have you paid a debt at a discount, but your name remains subject to internal
+AFTER H1 (HOLD; not approved for publication): Have you paid a debt at a discount, but your name remains subject to internal
 AFTER targeting: Have you paid a debt at a discount, but your name remains subject to internal — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Consultar um advogado de imigração garante que você tenha
 BEFORE H1: Consultar um advogado de imigração garante que você tenha conhecimento (3)
 BEFORE apparent targeting: Consultar um advogado de imigração garante que você tenha conhecimento (3)
 
-AFTER title: Consultar um advogado de imigração garante que você tenha conhecimento (3) | 15 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Consultar um advogado de imigração garante que você tenha conhecimento (3)
-Alternative B: Consultar um advogado de imigração garante que você tenha conhecimento (3) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Consultar um advogado de imigração garante que você tenha conhecimento (3) | 15 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Consultar um advogado de imigração garante que você tenha conhecimento (3): Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Consultar um advogado de imigração garante que você tenha conhecimento (3)
+AFTER H1 (HOLD; not approved for publication): Consultar um advogado de imigração garante que você tenha conhecimento (3)
 AFTER targeting: Consultar um advogado de imigração garante que você tenha conhecimento (3) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

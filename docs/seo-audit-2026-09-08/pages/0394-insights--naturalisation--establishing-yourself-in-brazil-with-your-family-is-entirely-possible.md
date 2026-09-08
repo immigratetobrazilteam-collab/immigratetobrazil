@@ -26,11 +26,11 @@ BEFORE description: Establishing yourself in Brazil with your family is entirely
 BEFORE H1: Establishing yourself in Brazil with your family is entirely possible, as long as the
 BEFORE apparent targeting: Establishing yourself in Brazil with your family is entirely possible, as long as the
 
-AFTER title: Establishing yourself in Brazil with your family is entirely possible, as long as the | September 24, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Establishing yourself in Brazil with your family is entirely possible, as long as the
-Alternative B: Establishing yourself in Brazil with your family is entirely possible, as long as the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Establishing yourself in Brazil with your family is entirely possible, as long as the | September 24, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Establishing yourself in Brazil with your family is entirely possible, as long as the: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Establishing yourself in Brazil with your family is entirely possible, as long as the
+AFTER H1 (HOLD; not approved for publication): Establishing yourself in Brazil with your family is entirely possible, as long as the
 AFTER targeting: Establishing yourself in Brazil with your family is entirely possible, as long as the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

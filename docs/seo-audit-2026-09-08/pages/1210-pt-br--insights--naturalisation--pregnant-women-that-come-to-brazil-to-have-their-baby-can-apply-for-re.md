@@ -26,11 +26,11 @@ BEFORE description: Mulheres grávidas que vêm ao Brasil para ter seu bebê pod
 BEFORE H1: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência
 BEFORE apparent targeting: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência
 
-AFTER title: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência | 5 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência
-Alternative B: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência | 5 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Mulheres grávidas que vêm ao Brasil para ter seu bebê podem solicitar autorização de residência: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência
+AFTER H1 (HOLD; not approved for publication): Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência
 AFTER targeting: Mulheres grávidas que vierem ao Brasil para ter seu bebê podem solicitar autorização de residência — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

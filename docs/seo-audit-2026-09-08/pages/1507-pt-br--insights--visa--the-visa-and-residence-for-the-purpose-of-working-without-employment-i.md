@@ -26,11 +26,11 @@ BEFORE description: O visto e residência para trabalhar sem emprego no Brasil: 
 BEFORE H1: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,
 BEFORE apparent targeting: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,
 
-AFTER title: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil, | 18 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,
-Alternative B: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil, | 18 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto e residência para trabalhar sem emprego no Brasil: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,
+AFTER H1 (HOLD; not approved for publication): O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil,
 AFTER targeting: O visto e residência para efeito de trabalho sem vínculo empregatício no Brasil, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

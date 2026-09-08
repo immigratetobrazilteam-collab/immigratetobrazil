@@ -26,11 +26,11 @@ BEFORE description: When a foreign person is engaged to a Brazilian citizen and 
 BEFORE H1: When a foreign person is engaged to a Brazilian citizen and plans to get married in
 BEFORE apparent targeting: When a foreign person is engaged to a Brazilian citizen and plans to get married in
 
-AFTER title: When a foreign person is engaged to a Brazilian citizen and plans to get married in | June 19, 2024 | Brazil Guide | Immigrate to Brazil
-Alternative A: When a foreign person is engaged to a Brazilian citizen and plans to get married in
-Alternative B: When a foreign person is engaged to a Brazilian citizen and plans to get married in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When a foreign person is engaged to a Brazilian citizen and plans to get married in | June 19, 2024 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When a foreign person is engaged to a Brazilian citizen and plans to get married in: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: When a foreign person is engaged to a Brazilian citizen and plans to get married in
+AFTER H1 (HOLD; not approved for publication): When a foreign person is engaged to a Brazilian citizen and plans to get married in
 AFTER targeting: When a foreign person is engaged to a Brazilian citizen and plans to get married in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

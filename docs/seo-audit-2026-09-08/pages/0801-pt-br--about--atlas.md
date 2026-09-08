@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: visão geral da atuação
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: visão geral da atuação
 Primary keyword/focus field: Monique Fernandes: visão geral da atuação; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: visão geral da atuação questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Sobre Monique Fernandes
 BEFORE apparent targeting: Monique Fernandes Atlas
 
 AFTER title: Monique Fernandes: visão geral da atuação
-Alternative A: Monique Fernandes: visão geral da atuação
-Alternative B: Monique Fernandes: visão geral da atuação | Monique Fernandes
+Alternative A: Monique Fernandes: visão geral da atuação | Monique Fernandes
+Alternative B: Monique Fernandes: visão geral da atuação | Immigrate to Brazil
 AFTER description: Conheça Monique Fernandes, advogada de imigração brasileira registrada na OAB por trás do Imigre para o Brasil, e explore sua história, padrões, serviços e prova pública de cliente em um só lugar.
 AFTER H1: Monique Fernandes: visão geral da atuação
 AFTER targeting: Monique Fernandes: visão geral da atuação — navigational

@@ -26,11 +26,11 @@ BEFORE description: What Happens During an Immigration consultation? This page b
 BEFORE H1: What Happens During an Immigration consultation?
 BEFORE apparent targeting: What Happens During an Immigration consultation?
 
-AFTER title: What Happens During an Immigration consultation? | October 9, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: What Happens During an Immigration consultation?
-Alternative B: What Happens During an Immigration consultation? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): What Happens During an Immigration consultation? | October 9, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: What Happens During an Immigration consultation? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration...
-AFTER H1: What Happens During an Immigration consultation?
+AFTER H1 (HOLD; not approved for publication): What Happens During an Immigration consultation?
 AFTER targeting: What Happens During an Immigration consultation? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

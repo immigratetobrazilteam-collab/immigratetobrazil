@@ -26,11 +26,11 @@ BEFORE description: A perda da autorização de residência pode ocorrer devido 
 BEFORE H1: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de
 BEFORE apparent targeting: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de
 
-AFTER title: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de | 27 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de
-Alternative B: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de | 27 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A perda da autorização de residência pode ocorrer devido à ausência prolongada ou ao não cumprimento de: Esta página traz a pesquisa de residência anterior para uma estrutura mais clara...
-AFTER H1: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de
+AFTER H1 (HOLD; not approved for publication): A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de
 AFTER targeting: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou incumprimento de — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

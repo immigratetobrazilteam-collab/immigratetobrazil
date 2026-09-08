@@ -26,11 +26,11 @@ BEFORE description: A projeção inicial indicava que os requisitos de visto par
 BEFORE H1: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos
 BEFORE apparent targeting: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos
 
-AFTER title: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos | 17 de janeiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos
-Alternative B: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos | 17 de janeiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A projeção inicial indicava que os requisitos de visto para cidadãos dos Estados Unidos: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos
+AFTER H1 (HOLD; not approved for publication): A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos
 AFTER targeting: A projecção inicial indicava que os requisitos de visto para os cidadãos dos Estados Unidos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

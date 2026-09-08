@@ -26,11 +26,11 @@ BEFORE description: Technically, yes, but its not advisable: This page brings ea
 BEFORE H1: Technically, yes, but its not advisable
 BEFORE apparent targeting: Technically, yes, but its not advisable
 
-AFTER title: Technically, yes, but its not advisable | August 28, 2024 | Process Insight | Immigrate to Brazil
-Alternative A: Technically, yes, but its not advisable
-Alternative B: Technically, yes, but its not advisable | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Technically, yes, but its not advisable | August 28, 2024 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Technically, yes, but its not advisable: This page brings earlier process and support research into a clearer format for readers coordinating documents...
-AFTER H1: Technically, yes, but its not advisable
+AFTER H1 (HOLD; not approved for publication): Technically, yes, but its not advisable
 AFTER targeting: Technically, yes, but its not advisable — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

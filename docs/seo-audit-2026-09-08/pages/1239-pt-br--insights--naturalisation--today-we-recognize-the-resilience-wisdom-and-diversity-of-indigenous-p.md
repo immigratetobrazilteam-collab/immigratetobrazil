@@ -26,11 +26,11 @@ BEFORE description: Hoje reconhecemos a resiliência, a sabedoria e a diversidad
 BEFORE H1: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor
 BEFORE apparent targeting: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor
 
-AFTER title: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor | 9 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor
-Alternative B: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor | 9 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao nosso redor: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor
+AFTER H1 (HOLD; not approved for publication): Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor
 AFTER targeting: Hoje reconhecemos a resiliência, a sabedoria e a diversidade dos povos indígenas ao redor — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

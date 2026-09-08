@@ -14,7 +14,7 @@ User problem / SEO objective: O que acontece após a aprovação do pedido
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: O que acontece após a aprovação do pedido
 Primary keyword/focus field: O que acontece após a aprovação do pedido; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["O que acontece após a aprovação do pedido questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

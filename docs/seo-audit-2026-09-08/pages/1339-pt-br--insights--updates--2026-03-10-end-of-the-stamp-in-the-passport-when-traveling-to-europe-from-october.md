@@ -26,11 +26,11 @@ BEFORE description: Fim do carimbo no passaporte ao viajar para a Europa A parti
 BEFORE H1: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas
 BEFORE apparent targeting: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas
 
-AFTER title: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas | 18 de novembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas
-Alternative B: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas | 18 de novembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas: Registro de arquivo: 10 de março de 2026. Esta página traz atualização anterior...
-AFTER H1: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas
+AFTER H1 (HOLD; not approved for publication): Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas
 AFTER targeting: Fim do carimbo no passaporte ao viajar para a Europa A partir de outubro de 2025, turistas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

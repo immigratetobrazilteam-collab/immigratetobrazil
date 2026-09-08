@@ -26,11 +26,11 @@ BEFORE description: O prazo para requisitos de visto para cidadãos da Austráli
 BEFORE H1: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos
 BEFORE apparent targeting: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos
 
-AFTER title: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos | 1º de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos
-Alternative B: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos | 1º de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O prazo para requisitos de visto para cidadãos da Austrália, Canadá e Estados Unidos: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos
+AFTER H1 (HOLD; not approved for publication): O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos
 AFTER targeting: O prazo para a exigência de visto para cidadãos da Austrália, Canadá e Estados Unidos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

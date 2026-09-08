@@ -26,11 +26,11 @@ BEFORE description: Are you a tourist in Brazil and want to live here? This page
 BEFORE H1: Are you a tourist in Brazil and want to live here?
 BEFORE apparent targeting: Are you a tourist in Brazil and want to live here?
 
-AFTER title: Are you a tourist in Brazil and want to live here? | August 22, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Are you a tourist in Brazil and want to live here?
-Alternative B: Are you a tourist in Brazil and want to live here? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Are you a tourist in Brazil and want to live here? | August 22, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Are you a tourist in Brazil and want to live here? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration...
-AFTER H1: Are you a tourist in Brazil and want to live here?
+AFTER H1 (HOLD; not approved for publication): Are you a tourist in Brazil and want to live here?
 AFTER targeting: Are you a tourist in Brazil and want to live here? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

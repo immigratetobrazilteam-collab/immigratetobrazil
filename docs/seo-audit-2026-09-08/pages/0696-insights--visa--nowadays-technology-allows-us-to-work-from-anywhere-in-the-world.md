@@ -26,11 +26,11 @@ BEFORE description: Nowadays, technology allows us to work from anywhere in the 
 BEFORE H1: Nowadays, technology allows us to work from anywhere in the world
 BEFORE apparent targeting: Nowadays, technology allows us to work from anywhere in the world
 
-AFTER title: Nowadays, technology allows us to work from anywhere in the world | September 28, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Nowadays, technology allows us to work from anywhere in the world
-Alternative B: Nowadays, technology allows us to work from anywhere in the world | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Nowadays, technology allows us to work from anywhere in the world | September 28, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Nowadays, technology allows us to work from anywhere in the world: This page brings earlier visa research into a clearer entry-planning format for Immigrate...
-AFTER H1: Nowadays, technology allows us to work from anywhere in the world
+AFTER H1 (HOLD; not approved for publication): Nowadays, technology allows us to work from anywhere in the world
 AFTER targeting: Nowadays, technology allows us to work from anywhere in the world — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

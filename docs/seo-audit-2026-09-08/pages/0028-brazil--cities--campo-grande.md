@@ -14,7 +14,7 @@ User problem / SEO objective: Living in Campo Grande
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Living in Campo Grande
 Primary keyword/focus field: Living in Campo Grande; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Living in Campo Grande questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/brazil/cities/ owns Compare Cities for Living in Brazil", "https://immigratetobrazil.com/brazil/cost/ owns Cost of Living in Brazil: Planning Your Budget", "https://immigratetobrazil.com/services/residencies/ owns Brazil Residence Permit Services"]

@@ -26,11 +26,11 @@ BEFORE description: Loss of residence permit may occur due to prolonged absence 
 BEFORE H1: Loss of residence permit may occur due to prolonged absence or failure to comply with
 BEFORE apparent targeting: Loss of residence permit may occur due to prolonged absence or failure to comply with
 
-AFTER title: Loss of residence permit may occur due to prolonged absence or failure to comply with | December 27, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: Loss of residence permit may occur due to prolonged absence or failure to comply with
-Alternative B: Loss of residence permit may occur due to prolonged absence or failure to comply with | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Loss of residence permit may occur due to prolonged absence or failure to comply with | December 27, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Loss of residence permit may occur due to prolonged absence or failure to comply with: This page brings earlier residency research into a clearer framework...
-AFTER H1: Loss of residence permit may occur due to prolonged absence or failure to comply with
+AFTER H1 (HOLD; not approved for publication): Loss of residence permit may occur due to prolonged absence or failure to comply with
 AFTER targeting: Loss of residence permit may occur due to prolonged absence or failure to comply with — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

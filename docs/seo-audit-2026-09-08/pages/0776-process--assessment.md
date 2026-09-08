@@ -14,7 +14,7 @@ User problem / SEO objective: What an Immigration Case Assessment Covers
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: What an Immigration Case Assessment Covers
 Primary keyword/focus field: What an Immigration Case Assessment Covers; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["What an Immigration Case Assessment Covers questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/process/ owns Working With Monique: The Immigration Process", "https://immigratetobrazil.com/rights/ owns Immigrant Rights and Responsibilities in Brazil"]

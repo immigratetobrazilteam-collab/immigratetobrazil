@@ -26,11 +26,11 @@ BEFORE description: International child custody can become a complex issue when 
 BEFORE H1: International child custody can become a complex issue when one parent is Brazilian
 BEFORE apparent targeting: International child custody can become a complex issue when one parent is Brazilian
 
-AFTER title: International child custody can become a complex issue when one parent is Brazilian | February 25, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: International child custody can become a complex issue when one parent is Brazilian
-Alternative B: International child custody can become a complex issue when one parent is Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): International child custody can become a complex issue when one parent is Brazilian | February 25, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: International child custody can become a complex issue when one parent is Brazilian: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: International child custody can become a complex issue when one parent is Brazilian
+AFTER H1 (HOLD; not approved for publication): International child custody can become a complex issue when one parent is Brazilian
 AFTER targeting: International child custody can become a complex issue when one parent is Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Certificado de Proficiência em Língua Portuguesa para Estr
 BEFORE H1: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),
 BEFORE apparent targeting: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),
 
-AFTER title: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras), | 31 de julho de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),
-Alternative B: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras), | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras), | 31 de julho de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras): Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),
+AFTER H1 (HOLD; not approved for publication): O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras),
 AFTER targeting: O Certificado de Proficiência em Língua Portuguesa para Estrangeiros (Celpe-Bras), — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

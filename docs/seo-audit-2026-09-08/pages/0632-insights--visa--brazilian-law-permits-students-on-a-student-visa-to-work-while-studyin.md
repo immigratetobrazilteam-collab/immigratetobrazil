@@ -26,11 +26,11 @@ BEFORE description: Brazilian law permits students on a student visa to work whi
 BEFORE H1: Brazilian law permits students on a student visa to work while studying, but there are
 BEFORE apparent targeting: Brazilian law permits students on a student visa to work while studying, but there are
 
-AFTER title: Brazilian law permits students on a student visa to work while studying, but there are | April 16, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazilian law permits students on a student visa to work while studying, but there are
-Alternative B: Brazilian law permits students on a student visa to work while studying, but there are | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian law permits students on a student visa to work while studying, but there are | April 16, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian law permits students on a student visa to work while studying, but there are: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazilian law permits students on a student visa to work while studying, but there are
+AFTER H1 (HOLD; not approved for publication): Brazilian law permits students on a student visa to work while studying, but there are
 AFTER targeting: Brazilian law permits students on a student visa to work while studying, but there are — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

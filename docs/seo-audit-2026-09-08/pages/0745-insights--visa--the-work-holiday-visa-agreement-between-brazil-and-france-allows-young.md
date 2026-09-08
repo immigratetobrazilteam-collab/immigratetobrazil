@@ -26,11 +26,11 @@ BEFORE description: The work-holiday visa agreement between Brazil and France al
 BEFORE H1: The work-holiday visa agreement between Brazil and France allows young people from
 BEFORE apparent targeting: The work-holiday visa agreement between Brazil and France allows young people from
 
-AFTER title: The work-holiday visa agreement between Brazil and France allows young people from | August 14, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The work-holiday visa agreement between Brazil and France allows young people from
-Alternative B: The work-holiday visa agreement between Brazil and France allows young people from | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The work-holiday visa agreement between Brazil and France allows young people from | August 14, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The work-holiday visa agreement between Brazil and France allows young people from: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The work-holiday visa agreement between Brazil and France allows young people from
+AFTER H1 (HOLD; not approved for publication): The work-holiday visa agreement between Brazil and France allows young people from
 AFTER targeting: The work-holiday visa agreement between Brazil and France allows young people from — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

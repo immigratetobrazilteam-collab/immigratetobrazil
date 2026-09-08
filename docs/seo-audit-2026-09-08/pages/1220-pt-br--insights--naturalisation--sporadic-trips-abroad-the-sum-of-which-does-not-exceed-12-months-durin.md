@@ -26,11 +26,11 @@ BEFORE description: Viagens esporádicas ao exterior, cuja soma não exceda 12 m
 BEFORE H1: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de
 BEFORE apparent targeting: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de
 
-AFTER title: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de | 4 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de
-Alternative B: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de | 4 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de
+AFTER H1 (HOLD; not approved for publication): Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de
 AFTER targeting: Viagens esporádicas ao exterior, cuja soma não exceda 12 meses, durante anos de — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

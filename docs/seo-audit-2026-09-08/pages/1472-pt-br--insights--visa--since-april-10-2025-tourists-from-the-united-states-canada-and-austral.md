@@ -26,11 +26,11 @@ BEFORE description: Desde 10 de abril de 2025, os turistas dos Estados Unidos, C
 BEFORE H1: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão
 BEFORE apparent targeting: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão
 
-AFTER title: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão | 10 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão
-Alternative B: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão | 10 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Desde 10 de abril de 2025, os turistas dos Estados Unidos, Canadá e Austrália precisarão de: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão
+AFTER H1 (HOLD; not approved for publication): Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão
 AFTER targeting: Desde 10 de abril de 2025, turistas dos Estados Unidos, Canadá e Austrália precisarão — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

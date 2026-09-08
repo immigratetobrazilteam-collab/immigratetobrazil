@@ -26,11 +26,11 @@ BEFORE description: Brazil grants permanent residency to foreign nationals throu
 BEFORE H1: Brazil grants permanent residency to foreign nationals through various types of visas
 BEFORE apparent targeting: Brazil grants permanent residency to foreign nationals through various types of visas
 
-AFTER title: Brazil grants permanent residency to foreign nationals through various types of visas | August 29, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil grants permanent residency to foreign nationals through various types of visas
-Alternative B: Brazil grants permanent residency to foreign nationals through various types of visas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil grants permanent residency to foreign nationals through various types of visas | August 29, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil grants permanent residency to foreign nationals through various types of visas: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil grants permanent residency to foreign nationals through various types of visas
+AFTER H1 (HOLD; not approved for publication): Brazil grants permanent residency to foreign nationals through various types of visas
 AFTER targeting: Brazil grants permanent residency to foreign nationals through various types of visas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

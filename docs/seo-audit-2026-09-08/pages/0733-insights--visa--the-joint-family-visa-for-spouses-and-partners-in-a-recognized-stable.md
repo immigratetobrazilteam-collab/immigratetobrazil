@@ -26,11 +26,11 @@ BEFORE description: The joint family visa for spouses and partners in a recogniz
 BEFORE H1: The joint family visa for spouses and partners in a recognized stable union of Irish
 BEFORE apparent targeting: The joint family visa for spouses and partners in a recognized stable union of Irish
 
-AFTER title: The joint family visa for spouses and partners in a recognized stable union of Irish | October 31, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The joint family visa for spouses and partners in a recognized stable union of Irish
-Alternative B: The joint family visa for spouses and partners in a recognized stable union of Irish | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The joint family visa for spouses and partners in a recognized stable union of Irish | October 31, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The joint family visa for spouses and partners in a recognized stable union of Irish: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The joint family visa for spouses and partners in a recognized stable union of Irish
+AFTER H1 (HOLD; not approved for publication): The joint family visa for spouses and partners in a recognized stable union of Irish
 AFTER targeting: The joint family visa for spouses and partners in a recognized stable union of Irish — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

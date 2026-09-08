@@ -26,11 +26,11 @@ BEFORE description: Are you dreaming of getting a Green Card but worried about t
 BEFORE H1: Are you dreaming of getting a Green Card but worried about the sponsorship requirement?
 BEFORE apparent targeting: Are you dreaming of getting a Green Card but worried about the sponsorship requirement?
 
-AFTER title: Are you dreaming of getting a Green Card but worried about the sponsorship requirement? | July 11, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Are you dreaming of getting a Green Card but worried about the sponsorship requirement?
-Alternative B: Are you dreaming of getting a Green Card but worried about the sponsorship requirement? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Are you dreaming of getting a Green Card but worried about the sponsorship requirement? | July 11, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Are you dreaming of getting a Green Card but worried about the sponsorship requirement? This page brings earlier FAQ-style research into a clearer guidance...
-AFTER H1: Are you dreaming of getting a Green Card but worried about the sponsorship requirement?
+AFTER H1 (HOLD; not approved for publication): Are you dreaming of getting a Green Card but worried about the sponsorship requirement?
 AFTER targeting: Are you dreaming of getting a Green Card but worried about the sponsorship requirement? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

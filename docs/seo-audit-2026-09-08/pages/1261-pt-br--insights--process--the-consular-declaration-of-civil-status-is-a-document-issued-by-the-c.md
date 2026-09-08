@@ -26,11 +26,11 @@ BEFORE description: A Declaração Consular do Estado Civil é um documento emit
 BEFORE H1: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral
 BEFORE apparent targeting: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral
 
-AFTER title: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral | 8 de agosto de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral
-Alternative B: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral | 8 de agosto de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral: Esta página antecipa o processo e apoia a pesquisa de uma forma mais clara...
-AFTER H1: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral
+AFTER H1 (HOLD; not approved for publication): A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral
 AFTER targeting: A Declaração Consular do Estado Civil é um documento emitido pelo consulado-geral — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

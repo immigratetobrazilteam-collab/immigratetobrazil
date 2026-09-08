@@ -26,11 +26,11 @@ BEFORE description: The new visa and residence permit agreement between Angola, 
 BEFORE H1: The new visa and residence permit agreement between Angola, Brazil, Cape Verde,
 BEFORE apparent targeting: The new visa and residence permit agreement between Angola, Brazil, Cape Verde,
 
-AFTER title: The new visa and residence permit agreement between Angola, Brazil, Cape Verde, | October 31, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The new visa and residence permit agreement between Angola, Brazil, Cape Verde,
-Alternative B: The new visa and residence permit agreement between Angola, Brazil, Cape Verde, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The new visa and residence permit agreement between Angola, Brazil, Cape Verde, | October 31, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The new visa and residence permit agreement between Angola, Brazil, Cape Verde,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The new visa and residence permit agreement between Angola, Brazil, Cape Verde,
+AFTER H1 (HOLD; not approved for publication): The new visa and residence permit agreement between Angola, Brazil, Cape Verde,
 AFTER targeting: The new visa and residence permit agreement between Angola, Brazil, Cape Verde, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: Payment Terms
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Payment Terms
 Primary keyword/focus field: Payment Terms; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Payment Terms questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

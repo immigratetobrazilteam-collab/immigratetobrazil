@@ -26,11 +26,11 @@ BEFORE description: A renovação da autorização de residência brasileira apl
 BEFORE H1: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária
 BEFORE apparent targeting: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária
 
-AFTER title: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária | 4 de setembro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária
-Alternative B: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária | 4 de setembro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A renovação da autorização de residência brasileira aplica-se a quem possui uma autorização de residência temporária: Esta página traz pesquisas anteriores de residência para uma estrutura mais clara para...
-AFTER H1: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária
+AFTER H1 (HOLD; not approved for publication): A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária
 AFTER targeting: A renovação da autorização de residência brasileira aplica-se a quem tem residência temporária — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

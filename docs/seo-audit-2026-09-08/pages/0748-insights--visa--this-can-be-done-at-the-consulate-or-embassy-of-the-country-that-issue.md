@@ -26,11 +26,11 @@ BEFORE description: This can be done at the consulate or embassy of the country 
 BEFORE H1: This can be done at the consulate or embassy of the country that issued the visa,
 BEFORE apparent targeting: This can be done at the consulate or embassy of the country that issued the visa,
 
-AFTER title: This can be done at the consulate or embassy of the country that issued the visa, | August 26, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: This can be done at the consulate or embassy of the country that issued the visa,
-Alternative B: This can be done at the consulate or embassy of the country that issued the visa, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This can be done at the consulate or embassy of the country that issued the visa, | August 26, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This can be done at the consulate or embassy of the country that issued the visa,: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: This can be done at the consulate or embassy of the country that issued the visa,
+AFTER H1 (HOLD; not approved for publication): This can be done at the consulate or embassy of the country that issued the visa,
 AFTER targeting: This can be done at the consulate or embassy of the country that issued the visa, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

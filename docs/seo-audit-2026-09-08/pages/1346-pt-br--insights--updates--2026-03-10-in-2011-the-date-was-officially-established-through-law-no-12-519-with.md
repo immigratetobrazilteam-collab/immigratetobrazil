@@ -26,11 +26,11 @@ BEFORE description: Em 2011, a data foi oficialmente instituída por meio da Lei
 BEFORE H1: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de
 BEFORE apparent targeting: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de
 
-AFTER title: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de | 20 de novembro de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de
-Alternative B: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de | 20 de novembro de 2023 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de: Registro de arquivo: 10 de março de 2026. Esta página traz atualização anterior...
-AFTER H1: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de
+AFTER H1 (HOLD; not approved for publication): Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de
 AFTER targeting: Em 2011, a data foi oficialmente instituída por meio da Lei nº 12.519, com o objetivo de — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

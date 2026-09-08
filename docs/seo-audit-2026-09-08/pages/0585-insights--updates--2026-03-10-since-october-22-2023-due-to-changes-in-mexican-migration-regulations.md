@@ -26,11 +26,11 @@ BEFORE description: Since October 22, 2023, due to changes in Mexican migration 
 BEFORE H1: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian
 BEFORE apparent targeting: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian
 
-AFTER title: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian | January 24, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian
-Alternative B: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian | January 24, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian
+AFTER H1 (HOLD; not approved for publication): Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian
 AFTER targeting: Since October 22, 2023, due to changes in Mexican migration regulations, Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

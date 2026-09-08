@@ -14,7 +14,7 @@ User problem / SEO objective: When an Immigration Application Goes Wrong
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: When an Immigration Application Goes Wrong
 Primary keyword/focus field: When an Immigration Application Goes Wrong; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["When an Immigration Application Goes Wrong questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/process/ owns Working With Monique: The Immigration Process", "https://immigratetobrazil.com/rights/ owns Immigrant Rights and Responsibilities in Brazil"]

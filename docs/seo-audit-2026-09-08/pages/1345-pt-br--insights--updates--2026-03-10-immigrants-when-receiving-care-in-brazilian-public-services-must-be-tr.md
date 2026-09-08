@@ -26,11 +26,11 @@ BEFORE description: Os imigrantes, ao receberem atendimento nos serviços públi
 BEFORE H1: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma
 BEFORE apparent targeting: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma
 
-AFTER title: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma | 21 de maio de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma
-Alternative B: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma | 21 de maio de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os imigrantes, ao receberem atendimento nos serviços públicos brasileiros, deverão ser atendidos em: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma
+AFTER H1 (HOLD; not approved for publication): Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma
 AFTER targeting: Os imigrantes, ao receberem cuidados nos serviços públicos brasileiros, devem ser tratados de forma — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

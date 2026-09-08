@@ -26,11 +26,11 @@ BEFORE description: Recentemente, os Estados Unidos perderam a sua posição ent
 BEFORE H1: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos
 BEFORE apparent targeting: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos
 
-AFTER title: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos | 8 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos
-Alternative B: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos | 8 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Recentemente, os Estados Unidos perderam a sua posição entre os 10 países mais poderosos: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos
+AFTER H1 (HOLD; not approved for publication): Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos
 AFTER targeting: Recentemente, os Estados Unidos perderam a sua posição no top 10 dos países mais poderosos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

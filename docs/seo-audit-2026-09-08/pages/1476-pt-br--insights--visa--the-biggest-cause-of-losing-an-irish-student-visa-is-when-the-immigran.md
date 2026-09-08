@@ -26,11 +26,11 @@ BEFORE description: A maior causa de perda de um visto de estudante irlandês é
 BEFORE H1: A maior causa de perda de visto de estudante irlandês é quando o imigrante para
 BEFORE apparent targeting: A maior causa de perda de visto de estudante irlandês é quando o imigrante para
 
-AFTER title: A maior causa de perda de visto de estudante irlandês é quando o imigrante para | 21 de junho de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A maior causa de perda de visto de estudante irlandês é quando o imigrante para
-Alternative B: A maior causa de perda de visto de estudante irlandês é quando o imigrante para | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A maior causa de perda de visto de estudante irlandês é quando o imigrante para | 21 de junho de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A maior causa de perda de um visto de estudante irlandês é quando o imigrante para: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: A maior causa de perda de visto de estudante irlandês é quando o imigrante para
+AFTER H1 (HOLD; not approved for publication): A maior causa de perda de visto de estudante irlandês é quando o imigrante para
 AFTER targeting: A maior causa de perda de visto de estudante irlandês é quando o imigrante para — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

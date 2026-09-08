@@ -26,11 +26,11 @@ BEFORE description: The visa has expired, will I have to pay a fine? This page b
 BEFORE H1: The visa has expired, will I have to pay a fine?
 BEFORE apparent targeting: The visa has expired, will I have to pay a fine?
 
-AFTER title: The visa has expired, will I have to pay a fine? | November 27, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: The visa has expired, will I have to pay a fine?
-Alternative B: The visa has expired, will I have to pay a fine? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The visa has expired, will I have to pay a fine? | November 27, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The visa has expired, will I have to pay a fine? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration...
-AFTER H1: The visa has expired, will I have to pay a fine?
+AFTER H1 (HOLD; not approved for publication): The visa has expired, will I have to pay a fine?
 AFTER targeting: The visa has expired, will I have to pay a fine? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

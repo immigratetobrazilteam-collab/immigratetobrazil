@@ -26,11 +26,11 @@ BEFORE description: Um visto brasileiro é válido por um determinado período d
 BEFORE H1: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no
 BEFORE apparent targeting: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no
 
-AFTER title: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no | 16 de junho de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no
-Alternative B: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no | 16 de junho de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no
+AFTER H1 (HOLD; not approved for publication): Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no
 AFTER targeting: Um visto brasileiro é válido por um determinado período durante o qual você tem permissão para entrar no — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

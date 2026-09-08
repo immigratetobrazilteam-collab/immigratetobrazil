@@ -14,7 +14,7 @@ User problem / SEO objective: Disclaimer & Legal Notice
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Disclaimer & Legal Notice
 Primary keyword/focus field: Disclaimer & Legal Notice; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Disclaimer & Legal Notice questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

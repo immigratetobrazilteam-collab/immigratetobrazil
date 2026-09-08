@@ -14,7 +14,7 @@ User problem / SEO objective: Request a Brazil Immigration Consultation
 Desired action: Request a consultation after reviewing scope.
 Primary topic/query: Request a Brazil Immigration Consultation
 Primary keyword/focus field: Request a Brazil Immigration Consultation; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Request a Brazil Immigration Consultation questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

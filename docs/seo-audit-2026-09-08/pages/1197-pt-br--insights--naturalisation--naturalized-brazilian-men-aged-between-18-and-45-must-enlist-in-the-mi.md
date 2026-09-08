@@ -26,11 +26,11 @@ BEFORE description: Homens naturalizados brasileiros, com idade entre 18 e 45 an
 BEFORE H1: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar
 BEFORE apparent targeting: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar
 
-AFTER title: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar | 30 de janeiro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar
-Alternative B: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar | 30 de janeiro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, devem se alistar no Serviço Militar: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar
+AFTER H1 (HOLD; not approved for publication): Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar
 AFTER targeting: Homens naturalizados brasileiros, com idade entre 18 e 45 anos, deverão alistar-se no Serviço Militar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

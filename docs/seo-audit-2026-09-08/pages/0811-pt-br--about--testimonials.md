@@ -14,7 +14,7 @@ User problem / SEO objective: Depoimentos | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Depoimentos | Monique Fernandes
 Primary keyword/focus field: Depoimentos | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Depoimentos | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Depoimentos
 BEFORE apparent targeting: Depoimentos de clientes
 
 AFTER title: Depoimentos | Monique Fernandes
-Alternative A: Depoimentos | Monique Fernandes
-Alternative B: Depoimentos | Monique Fernandes | Monique Fernandes
+Alternative A: Depoimentos
+Alternative B: Depoimentos | Immigrate to Brazil
 AFTER description: As análises públicas mostram como os clientes descrevem a clareza, o profissionalismo, a capacidade de resposta e o apoio de Monique Fernandes em questões jurídicas relacionadas com Brasil.
 AFTER H1: Depoimentos | Monique Fernandes
 AFTER targeting: Depoimentos | Monique Fernandes — navigational

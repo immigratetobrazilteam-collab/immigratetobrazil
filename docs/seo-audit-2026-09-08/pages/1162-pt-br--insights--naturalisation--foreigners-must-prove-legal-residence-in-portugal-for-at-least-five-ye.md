@@ -26,11 +26,11 @@ BEFORE description: Os estrangeiros devem comprovar residência legal em Portuga
 BEFORE H1: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir
 BEFORE apparent targeting: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir
 
-AFTER title: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir | 25 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir
-Alternative B: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir | 25 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir
+AFTER H1 (HOLD; not approved for publication): Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir
 AFTER targeting: Os estrangeiros devem comprovar residência legal em Portugal há pelo menos cinco anos para adquirir — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

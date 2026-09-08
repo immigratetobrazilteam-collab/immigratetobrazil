@@ -26,11 +26,11 @@ BEFORE description: As regras para imigração de trabalho permitem que indivíd
 BEFORE H1: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência
 BEFORE apparent targeting: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência
 
-AFTER title: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência | 24 de junho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência
-Alternative B: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência | Monique Fernandes
+AFTER title (HOLD; not approved for publication): As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência | 24 de junho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: As regras para imigração de trabalho permitem que indivíduos obtenham um visto ou autorização de residência: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência
+AFTER H1 (HOLD; not approved for publication): As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência
 AFTER targeting: As regras para imigração de trabalho permitem que indivíduos obtenham visto ou autorização de residência — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

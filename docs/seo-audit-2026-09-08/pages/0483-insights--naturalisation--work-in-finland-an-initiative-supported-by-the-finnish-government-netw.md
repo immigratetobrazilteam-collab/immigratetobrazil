@@ -26,11 +26,11 @@ BEFORE description: Work in Finland, an initiative supported by the Finnish gove
 BEFORE H1: Work in Finland, an initiative supported by the Finnish government network, is
 BEFORE apparent targeting: Work in Finland, an initiative supported by the Finnish government network, is
 
-AFTER title: Work in Finland, an initiative supported by the Finnish government network, is | November 25, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Work in Finland, an initiative supported by the Finnish government network, is
-Alternative B: Work in Finland, an initiative supported by the Finnish government network, is | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Work in Finland, an initiative supported by the Finnish government network, is | November 25, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Work in Finland, an initiative supported by the Finnish government network, is: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Work in Finland, an initiative supported by the Finnish government network, is
+AFTER H1 (HOLD; not approved for publication): Work in Finland, an initiative supported by the Finnish government network, is
 AFTER targeting: Work in Finland, an initiative supported by the Finnish government network, is — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

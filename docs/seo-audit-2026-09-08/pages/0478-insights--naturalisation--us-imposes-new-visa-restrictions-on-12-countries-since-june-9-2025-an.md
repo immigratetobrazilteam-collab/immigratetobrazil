@@ -26,11 +26,11 @@ BEFORE description: US imposes new visa restrictions on 12 countries Since June 
 BEFORE H1: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive
 BEFORE apparent targeting: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive
 
-AFTER title: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive | July 10, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive
-Alternative B: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive | Monique Fernandes
+AFTER title (HOLD; not approved for publication): US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive | July 10, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive
+AFTER H1 (HOLD; not approved for publication): US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive
 AFTER targeting: US imposes new visa restrictions on 12 countries Since June 9, 2025, an executive — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

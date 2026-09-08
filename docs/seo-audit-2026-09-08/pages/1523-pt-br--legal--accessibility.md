@@ -14,7 +14,7 @@ User problem / SEO objective: Declaração Acessibilidade
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Declaração Acessibilidade
 Primary keyword/focus field: Declaração Acessibilidade; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Declaração Acessibilidade questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

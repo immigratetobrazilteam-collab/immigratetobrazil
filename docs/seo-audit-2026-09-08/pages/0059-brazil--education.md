@@ -14,7 +14,7 @@ User problem / SEO objective: Education in Brazil for Relocating Families
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Education in Brazil for Relocating Families
 Primary keyword/focus field: Education in Brazil for Relocating Families; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Education in Brazil for Relocating Families questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/brazil/cities/ owns Compare Cities for Living in Brazil", "https://immigratetobrazil.com/brazil/cost/ owns Cost of Living in Brazil: Planning Your Budget", "https://immigratetobrazil.com/services/residencies/ owns Brazil Residence Permit Services"]

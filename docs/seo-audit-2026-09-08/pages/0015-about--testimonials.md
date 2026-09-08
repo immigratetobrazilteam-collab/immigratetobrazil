@@ -14,7 +14,7 @@ User problem / SEO objective: Testimonials | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Testimonials | Monique Fernandes
 Primary keyword/focus field: Testimonials | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Testimonials | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Testimonials
 BEFORE apparent targeting: Client Testimonials
 
 AFTER title: Testimonials | Monique Fernandes
-Alternative A: Testimonials | Monique Fernandes
-Alternative B: Testimonials | Monique Fernandes | Monique Fernandes
+Alternative A: Testimonials
+Alternative B: Testimonials | Immigrate to Brazil
 AFTER description: Public reviews show how clients describe Monique Fernandes' clarity, professionalism, responsiveness, and support across Brazil-related legal matters.
 AFTER H1: Testimonials | Monique Fernandes
 AFTER targeting: Testimonials | Monique Fernandes — navigational

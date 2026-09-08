@@ -26,11 +26,11 @@ BEFORE description: The future fee for travelers entering Europe, known as Etias
 BEFORE H1: The future fee for travelers entering Europe, known as Etias, had its launch postponed
 BEFORE apparent targeting: The future fee for travelers entering Europe, known as Etias, had its launch postponed
 
-AFTER title: The future fee for travelers entering Europe, known as Etias, had its launch postponed | January 4, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The future fee for travelers entering Europe, known as Etias, had its launch postponed
-Alternative B: The future fee for travelers entering Europe, known as Etias, had its launch postponed | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The future fee for travelers entering Europe, known as Etias, had its launch postponed | January 4, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The future fee for travelers entering Europe, known as Etias, had its launch postponed: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The future fee for travelers entering Europe, known as Etias, had its launch postponed
+AFTER H1 (HOLD; not approved for publication): The future fee for travelers entering Europe, known as Etias, had its launch postponed
 AFTER targeting: The future fee for travelers entering Europe, known as Etias, had its launch postponed — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

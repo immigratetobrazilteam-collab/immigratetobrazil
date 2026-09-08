@@ -26,11 +26,11 @@ BEFORE description: O novo acordo de visto e autorização de residência entre 
 BEFORE H1: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,
 BEFORE apparent targeting: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,
 
-AFTER title: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde, | 31 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,
-Alternative B: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde, | 31 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O novo acordo de visto e autorização de residência entre Angola, Brasil, Cabo Verde,: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,
+AFTER H1 (HOLD; not approved for publication): O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde,
 AFTER targeting: O novo acordo de vistos e autorizações de residência entre Angola, Brasil, Cabo Verde, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

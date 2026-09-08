@@ -26,11 +26,11 @@ BEFORE description: Can football fans sing homophobic chants? This page brings e
 BEFORE H1: Can football fans sing homophobic chants?
 BEFORE apparent targeting: Can football fans sing homophobic chants?
 
-AFTER title: Can football fans sing homophobic chants? | June 5, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Can football fans sing homophobic chants?
-Alternative B: Can football fans sing homophobic chants? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Can football fans sing homophobic chants? | June 5, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Can football fans sing homophobic chants? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration, documents...
-AFTER H1: Can football fans sing homophobic chants?
+AFTER H1 (HOLD; not approved for publication): Can football fans sing homophobic chants?
 AFTER targeting: Can football fans sing homophobic chants? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

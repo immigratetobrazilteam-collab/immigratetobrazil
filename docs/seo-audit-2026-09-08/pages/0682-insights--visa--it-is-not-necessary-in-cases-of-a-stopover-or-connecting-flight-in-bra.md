@@ -26,11 +26,11 @@ BEFORE description: It is not necessary in cases of a stopover or connecting fli
 BEFORE H1: It is not necessary in cases of a stopover or connecting flight in Brazilian
 BEFORE apparent targeting: It is not necessary in cases of a stopover or connecting flight in Brazilian
 
-AFTER title: It is not necessary in cases of a stopover or connecting flight in Brazilian | October 24, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: It is not necessary in cases of a stopover or connecting flight in Brazilian
-Alternative B: It is not necessary in cases of a stopover or connecting flight in Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It is not necessary in cases of a stopover or connecting flight in Brazilian | October 24, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It is not necessary in cases of a stopover or connecting flight in Brazilian: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: It is not necessary in cases of a stopover or connecting flight in Brazilian
+AFTER H1 (HOLD; not approved for publication): It is not necessary in cases of a stopover or connecting flight in Brazilian
 AFTER targeting: It is not necessary in cases of a stopover or connecting flight in Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

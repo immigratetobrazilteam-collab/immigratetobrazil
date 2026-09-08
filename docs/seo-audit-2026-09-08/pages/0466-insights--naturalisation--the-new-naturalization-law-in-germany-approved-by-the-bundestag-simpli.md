@@ -26,11 +26,11 @@ BEFORE description: The new naturalization law in Germany, approved by the Bunde
 BEFORE H1: The new naturalization law in Germany, approved by the Bundestag, simplifies the
 BEFORE apparent targeting: The new naturalization law in Germany, approved by the Bundestag, simplifies the
 
-AFTER title: The new naturalization law in Germany, approved by the Bundestag, simplifies the | May 23, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The new naturalization law in Germany, approved by the Bundestag, simplifies the
-Alternative B: The new naturalization law in Germany, approved by the Bundestag, simplifies the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The new naturalization law in Germany, approved by the Bundestag, simplifies the | May 23, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The new naturalization law in Germany, approved by the Bundestag, simplifies the: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The new naturalization law in Germany, approved by the Bundestag, simplifies the
+AFTER H1 (HOLD; not approved for publication): The new naturalization law in Germany, approved by the Bundestag, simplifies the
 AFTER targeting: The new naturalization law in Germany, approved by the Bundestag, simplifies the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

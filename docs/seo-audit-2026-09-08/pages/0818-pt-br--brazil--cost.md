@@ -14,7 +14,7 @@ User problem / SEO objective: Custo de vida no Brasil: planejamento do orçament
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Custo de vida no Brasil: planejamento do orçamento
 Primary keyword/focus field: Custo de vida no Brasil: planejamento do orçamento; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Custo de vida no Brasil: planejamento do orçamento questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/brazil/cities/ owns Compare cidades para morar no Brasil", "https://immigratetobrazil.com/pt-br/services/residencies/ owns Assessoria para autorização de residência no Brasil"]

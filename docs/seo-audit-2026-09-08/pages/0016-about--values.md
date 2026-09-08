@@ -14,7 +14,7 @@ User problem / SEO objective: Values | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Values | Monique Fernandes
 Primary keyword/focus field: Values | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Values | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Values
 BEFORE apparent targeting: Monique Fernandes Values
 
 AFTER title: Values | Monique Fernandes
-Alternative A: Values | Monique Fernandes
-Alternative B: Values | Monique Fernandes | Monique Fernandes
+Alternative A: Values
+Alternative B: Values | Immigrate to Brazil
 AFTER description: Monique Fernandes' values shape how she communicates, prepares cases, protects dignity, and helps clients move through Brazilian immigration processes with more trust and clarity.
 AFTER H1: Values | Monique Fernandes
 AFTER targeting: Values | Monique Fernandes — navigational

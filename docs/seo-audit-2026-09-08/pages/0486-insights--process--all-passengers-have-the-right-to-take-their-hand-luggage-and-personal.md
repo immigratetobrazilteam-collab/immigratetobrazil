@@ -26,11 +26,11 @@ BEFORE description: All passengers have the right to take their hand luggage and
 BEFORE H1: All passengers have the right to take their hand luggage and personal items with them
 BEFORE apparent targeting: All passengers have the right to take their hand luggage and personal items with them
 
-AFTER title: All passengers have the right to take their hand luggage and personal items with them | October 17, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: All passengers have the right to take their hand luggage and personal items with them
-Alternative B: All passengers have the right to take their hand luggage and personal items with them | Monique Fernandes
+AFTER title (HOLD; not approved for publication): All passengers have the right to take their hand luggage and personal items with them | October 17, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: All passengers have the right to take their hand luggage and personal items with them: This page brings earlier process and support research into a clearer...
-AFTER H1: All passengers have the right to take their hand luggage and personal items with them
+AFTER H1 (HOLD; not approved for publication): All passengers have the right to take their hand luggage and personal items with them
 AFTER targeting: All passengers have the right to take their hand luggage and personal items with them — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: In Brazil, there are several types of work visas available d
 BEFORE H1: In Brazil, there are several types of work visas available depending on the nature of (2)
 BEFORE apparent targeting: In Brazil, there are several types of work visas available depending on the nature of (2)
 
-AFTER title: In Brazil, there are several types of work visas available depending on the nature of (2) | August 12, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: In Brazil, there are several types of work visas available depending on the nature of (2)
-Alternative B: In Brazil, there are several types of work visas available depending on the nature of (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, there are several types of work visas available depending on the nature of (2) | August 12, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, there are several types of work visas available depending on the nature of (2): This page brings earlier visa research into a clearer entry...
-AFTER H1: In Brazil, there are several types of work visas available depending on the nature of (2)
+AFTER H1 (HOLD; not approved for publication): In Brazil, there are several types of work visas available depending on the nature of (2)
 AFTER targeting: In Brazil, there are several types of work visas available depending on the nature of (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

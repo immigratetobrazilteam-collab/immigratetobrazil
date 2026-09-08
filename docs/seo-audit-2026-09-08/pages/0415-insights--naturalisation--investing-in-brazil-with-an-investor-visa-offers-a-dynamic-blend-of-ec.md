@@ -26,11 +26,11 @@ BEFORE description: Investing in Brazil with an investor visa offers a dynamic b
 BEFORE H1: Investing in Brazil with an investor visa offers a dynamic blend of economic potential
 BEFORE apparent targeting: Investing in Brazil with an investor visa offers a dynamic blend of economic potential
 
-AFTER title: Investing in Brazil with an investor visa offers a dynamic blend of economic potential | May 27, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Investing in Brazil with an investor visa offers a dynamic blend of economic potential
-Alternative B: Investing in Brazil with an investor visa offers a dynamic blend of economic potential | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Investing in Brazil with an investor visa offers a dynamic blend of economic potential | May 27, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Investing in Brazil with an investor visa offers a dynamic blend of economic potential: This page brings earlier citizenship research into a clearer format...
-AFTER H1: Investing in Brazil with an investor visa offers a dynamic blend of economic potential
+AFTER H1 (HOLD; not approved for publication): Investing in Brazil with an investor visa offers a dynamic blend of economic potential
 AFTER targeting: Investing in Brazil with an investor visa offers a dynamic blend of economic potential — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

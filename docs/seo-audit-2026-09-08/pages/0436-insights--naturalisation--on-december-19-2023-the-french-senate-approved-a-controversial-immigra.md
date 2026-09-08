@@ -26,11 +26,11 @@ BEFORE description: On December 19, 2023, the French Senate approved a controver
 BEFORE H1: On December 19, 2023, the French Senate approved a controversial immigration bill,
 BEFORE apparent targeting: On December 19, 2023, the French Senate approved a controversial immigration bill,
 
-AFTER title: On December 19, 2023, the French Senate approved a controversial immigration bill, | March 6, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: On December 19, 2023, the French Senate approved a controversial immigration bill,
-Alternative B: On December 19, 2023, the French Senate approved a controversial immigration bill, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): On December 19, 2023, the French Senate approved a controversial immigration bill, | March 6, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: On December 19, 2023, the French Senate approved a controversial immigration bill,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: On December 19, 2023, the French Senate approved a controversial immigration bill,
+AFTER H1 (HOLD; not approved for publication): On December 19, 2023, the French Senate approved a controversial immigration bill,
 AFTER targeting: On December 19, 2023, the French Senate approved a controversial immigration bill, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

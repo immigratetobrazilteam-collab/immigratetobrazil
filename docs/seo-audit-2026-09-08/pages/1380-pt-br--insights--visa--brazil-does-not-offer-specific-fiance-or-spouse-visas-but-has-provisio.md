@@ -26,11 +26,11 @@ BEFORE description: Brasil não oferece vistos específicos de noivo ou cônjuge
 BEFORE H1: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos
 BEFORE apparent targeting: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos
 
-AFTER title: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos | 22 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos
-Alternative B: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos | 22 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos: Esta página traz pesquisas anteriores de vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos
+AFTER H1 (HOLD; not approved for publication): Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos
 AFTER targeting: Brasil não oferece vistos específicos de noivo ou cônjuge, mas tem disposições para vistos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

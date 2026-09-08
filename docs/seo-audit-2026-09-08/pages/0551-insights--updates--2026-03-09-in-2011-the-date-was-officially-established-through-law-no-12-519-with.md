@@ -26,11 +26,11 @@ BEFORE description: In 2011, the date was officially established through Law No.
 BEFORE H1: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil
 BEFORE apparent targeting: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil
 
-AFTER title: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil | November 20, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil
-Alternative B: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil | November 20, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil: Archive record: March 9, 2026. This...
-AFTER H1: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil
+AFTER H1 (HOLD; not approved for publication): In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil
 AFTER targeting: In 2011, the date was officially established through Law No. 12,519, with the aim of marking the end of slavery in Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

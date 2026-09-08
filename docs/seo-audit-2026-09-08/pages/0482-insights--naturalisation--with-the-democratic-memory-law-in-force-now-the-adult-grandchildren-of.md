@@ -26,11 +26,11 @@ BEFORE description: With the Democratic Memory Law in force, now the adult grand
 BEFORE H1: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can
 BEFORE apparent targeting: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can
 
-AFTER title: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can | August 21, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can
-Alternative B: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can | Monique Fernandes
+AFTER title (HOLD; not approved for publication): With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can | August 21, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can
+AFTER H1 (HOLD; not approved for publication): With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can
 AFTER targeting: With the Democratic Memory Law in force, now the adult grandchildren of Spaniards can — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

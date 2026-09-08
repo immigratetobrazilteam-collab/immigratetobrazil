@@ -26,11 +26,11 @@ BEFORE description: The Undergraduate Student Agreement Program (PEC-G) is a Bra
 BEFORE H1: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government
 BEFORE apparent targeting: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government
 
-AFTER title: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government | January 21, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government
-Alternative B: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government | January 21, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government
+AFTER H1 (HOLD; not approved for publication): The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government
 AFTER targeting: The Undergraduate Student Agreement Program (PEC-G) is a Brazilian government — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

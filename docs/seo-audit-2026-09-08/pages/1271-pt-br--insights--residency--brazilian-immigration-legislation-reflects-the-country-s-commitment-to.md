@@ -26,11 +26,11 @@ BEFORE description: A legislação de imigração brasileira reflete o compromis
 BEFORE H1: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e
 BEFORE apparent targeting: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e
 
-AFTER title: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e | 22 de fevereiro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e
-Alternative B: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A legislação de imigração brasileira reflete o compromisso do país em reconhecer e | 22 de fevereiro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e: Esta página traz a pesquisa de residência anterior em uma estrutura mais clara...
-AFTER H1: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e
+AFTER H1 (HOLD; not approved for publication): A legislação de imigração brasileira reflete o compromisso do país em reconhecer e
 AFTER targeting: A legislação de imigração brasileira reflete o compromisso do país em reconhecer e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

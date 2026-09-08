@@ -26,11 +26,11 @@ BEFORE description: Brazil grants a temporary visa to foreigners who come to the
 BEFORE H1: Brazil grants a temporary visa to foreigners who come to the country with the proven
 BEFORE apparent targeting: Brazil grants a temporary visa to foreigners who come to the country with the proven
 
-AFTER title: Brazil grants a temporary visa to foreigners who come to the country with the proven | May 21, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil grants a temporary visa to foreigners who come to the country with the proven
-Alternative B: Brazil grants a temporary visa to foreigners who come to the country with the proven | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil grants a temporary visa to foreigners who come to the country with the proven | May 21, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil grants a temporary visa to foreigners who come to the country with the proven: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil grants a temporary visa to foreigners who come to the country with the proven
+AFTER H1 (HOLD; not approved for publication): Brazil grants a temporary visa to foreigners who come to the country with the proven
 AFTER targeting: Brazil grants a temporary visa to foreigners who come to the country with the proven — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

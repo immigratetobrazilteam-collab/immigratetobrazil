@@ -26,11 +26,11 @@ BEFORE description: The main hypotheses are: - Travel document that is not valid
 BEFORE H1: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel
 BEFORE apparent targeting: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel
 
-AFTER title: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel | December 6, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel
-Alternative B: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The main hypotheses are: - Travel document that is not valid for Brazil; - Travel | December 6, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel
+AFTER H1 (HOLD; not approved for publication): The main hypotheses are: - Travel document that is not valid for Brazil; - Travel
 AFTER targeting: The main hypotheses are: - Travel document that is not valid for Brazil; - Travel — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

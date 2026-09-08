@@ -26,11 +26,11 @@ BEFORE description: Is a marriage celebrated abroad valid in Brazil? This page b
 BEFORE H1: Is a marriage celebrated abroad valid in Brazil?
 BEFORE apparent targeting: Is a marriage celebrated abroad valid in Brazil?
 
-AFTER title: Is a marriage celebrated abroad valid in Brazil? | June 13, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Is a marriage celebrated abroad valid in Brazil?
-Alternative B: Is a marriage celebrated abroad valid in Brazil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Is a marriage celebrated abroad valid in Brazil? | June 13, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Is a marriage celebrated abroad valid in Brazil? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration...
-AFTER H1: Is a marriage celebrated abroad valid in Brazil?
+AFTER H1 (HOLD; not approved for publication): Is a marriage celebrated abroad valid in Brazil?
 AFTER targeting: Is a marriage celebrated abroad valid in Brazil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Em alguns casos de situações vulneráveis, a lei de migra�
 BEFORE H1: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns
 BEFORE apparent targeting: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns
 
-AFTER title: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns | 29 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns
-Alternative B: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns | 29 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns
+AFTER H1 (HOLD; not approved for publication): Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns
 AFTER targeting: Em alguns casos de situações vulneráveis, a lei de migração brasileira dispensa alguns — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

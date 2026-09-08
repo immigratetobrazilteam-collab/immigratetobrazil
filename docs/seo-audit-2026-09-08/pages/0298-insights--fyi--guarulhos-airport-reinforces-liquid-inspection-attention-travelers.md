@@ -26,11 +26,11 @@ BEFORE description: Guarulhos Airport Reinforces Liquid Inspection Attention, Tr
 BEFORE H1: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!
 BEFORE apparent targeting: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!
 
-AFTER title: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers! | FYI | Immigrate to Brazil
-Alternative A: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!
-Alternative B: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers! | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers! | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!: Guarulhos Airport Reinforces Liquid Inspection Attention, travelers! Guarulhos Airport...
-AFTER H1: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!
+AFTER H1 (HOLD; not approved for publication): Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers!
 AFTER targeting: Guarulhos Airport Reinforces Liquid Inspection Attention, Travelers! — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

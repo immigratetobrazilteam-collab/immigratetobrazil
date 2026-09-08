@@ -26,11 +26,11 @@ BEFORE description: May 5th is celebrated as Portuguese Language and Lusophone C
 BEFORE H1: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting
 BEFORE apparent targeting: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting
 
-AFTER title: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting | May 5, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting
-Alternative B: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting | Monique Fernandes
+AFTER title (HOLD; not approved for publication): May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting | May 5, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting
+AFTER H1 (HOLD; not approved for publication): May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting
 AFTER targeting: May 5th is celebrated as Portuguese Language and Lusophone Culture Day, highlighting — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

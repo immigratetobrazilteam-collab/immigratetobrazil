@@ -26,11 +26,11 @@ BEFORE description: O acordo de visto de trabalho e de férias entre Brasil e a 
 BEFORE H1: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens
 BEFORE apparent targeting: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens
 
-AFTER title: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens | 27 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens
-Alternative B: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens | 27 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O acordo de visto de trabalho e de férias entre Brasil e a França permite aos jovens: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens
+AFTER H1 (HOLD; not approved for publication): O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens
 AFTER targeting: O acordo de vistos de trabalho e de férias entre Brasil e França permite aos jovens — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

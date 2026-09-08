@@ -26,11 +26,11 @@ BEFORE description: Para aqueles que ainda não podem casar nos seus países de 
 BEFORE H1: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,
 BEFORE apparent targeting: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,
 
-AFTER title: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação, | 13 de setembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,
-Alternative B: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação, | 13 de setembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação: Esta página traz pesquisas anteriores de residência para um quadro mais claro para...
-AFTER H1: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,
+AFTER H1 (HOLD; not approved for publication): Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação,
 AFTER targeting: Para aqueles que ainda não podem casar nos seus países de origem devido à discriminação, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: É importante destacar que o processo de obtenção da cidad
 BEFORE H1: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode
 BEFORE apparent targeting: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode
 
-AFTER title: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode | 23 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode
-Alternative B: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É importante destacar que o processo de obtenção da cidadania luxemburguesa pode | 23 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode
+AFTER H1 (HOLD; not approved for publication): É importante destacar que o processo de obtenção da cidadania luxemburguesa pode
 AFTER targeting: É importante destacar que o processo de obtenção da cidadania luxemburguesa pode — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

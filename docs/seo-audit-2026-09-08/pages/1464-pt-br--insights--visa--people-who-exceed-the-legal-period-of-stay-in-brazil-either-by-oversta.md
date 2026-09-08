@@ -26,11 +26,11 @@ BEFORE description: Pessoas que excedem o período legal de permanência no Bras
 BEFORE H1: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência
 BEFORE apparent targeting: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência
 
-AFTER title: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência | 4 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência
-Alternative B: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência | 4 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Pessoas que excedem o período legal de permanência no Brasil, seja por ultrapassar o período de permanência: Esta página traz a pesquisa de visto anterior em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência
+AFTER H1 (HOLD; not approved for publication): Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência
 AFTER targeting: Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: The British government has announced a significant change to
 BEFORE H1: The British government has announced a significant change to visa rules for foreign
 BEFORE apparent targeting: The British government has announced a significant change to visa rules for foreign
 
-AFTER title: The British government has announced a significant change to visa rules for foreign | December 23, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: The British government has announced a significant change to visa rules for foreign
-Alternative B: The British government has announced a significant change to visa rules for foreign | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The British government has announced a significant change to visa rules for foreign | December 23, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The British government has announced a significant change to visa rules for foreign: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: The British government has announced a significant change to visa rules for foreign
+AFTER H1 (HOLD; not approved for publication): The British government has announced a significant change to visa rules for foreign
 AFTER targeting: The British government has announced a significant change to visa rules for foreign — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

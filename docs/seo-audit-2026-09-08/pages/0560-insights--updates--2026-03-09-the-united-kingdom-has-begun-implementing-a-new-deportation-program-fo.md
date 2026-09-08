@@ -26,11 +26,11 @@ BEFORE description: The United Kingdom has begun implementing a new deportation 
 BEFORE H1: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities
 BEFORE apparent targeting: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities
 
-AFTER title: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities | October 9, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities
-Alternative B: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities | October 9, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians...
-AFTER H1: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities
+AFTER H1 (HOLD; not approved for publication): The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities
 AFTER targeting: The United Kingdom has begun implementing a new deportation program for irregular immigrants, resulting in the recent deportation of more than 200 Brazilians at once, as well as immigrants of other nationalities — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Não importa de onde vem a fatura: esta página traz process
 BEFORE H1: Não importa de onde vem a fatura ou o faturamento
 BEFORE apparent targeting: Não importa de onde vem a fatura ou o faturamento
 
-AFTER title: Não importa de onde vem a fatura ou o faturamento | 9 de maio de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Não importa de onde vem a fatura ou o faturamento
-Alternative B: Não importa de onde vem a fatura ou o faturamento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não importa de onde vem a fatura ou o faturamento | 9 de maio de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não importa de onde vem a fatura: esta página traz processos anteriores e pesquisas de suporte de forma mais clara para a coordenação dos leitores...
-AFTER H1: Não importa de onde vem a fatura ou o faturamento
+AFTER H1 (HOLD; not approved for publication): Não importa de onde vem a fatura ou o faturamento
 AFTER targeting: Não importa de onde vem a fatura ou o faturamento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

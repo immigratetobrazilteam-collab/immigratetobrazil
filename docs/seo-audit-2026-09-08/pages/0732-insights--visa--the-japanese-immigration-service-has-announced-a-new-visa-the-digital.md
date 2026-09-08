@@ -26,11 +26,11 @@ BEFORE description: The Japanese immigration service has announced a new visa, t
 BEFORE H1: The Japanese immigration service has announced a new visa, the digital nomad visa
 BEFORE apparent targeting: The Japanese immigration service has announced a new visa, the digital nomad visa
 
-AFTER title: The Japanese immigration service has announced a new visa, the digital nomad visa | March 11, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The Japanese immigration service has announced a new visa, the digital nomad visa
-Alternative B: The Japanese immigration service has announced a new visa, the digital nomad visa | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Japanese immigration service has announced a new visa, the digital nomad visa | March 11, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Japanese immigration service has announced a new visa, the digital nomad visa: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The Japanese immigration service has announced a new visa, the digital nomad visa
+AFTER H1 (HOLD; not approved for publication): The Japanese immigration service has announced a new visa, the digital nomad visa
 AFTER targeting: The Japanese immigration service has announced a new visa, the digital nomad visa — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

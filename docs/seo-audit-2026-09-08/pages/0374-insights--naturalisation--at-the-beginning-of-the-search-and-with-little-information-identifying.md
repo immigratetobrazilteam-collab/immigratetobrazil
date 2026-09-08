@@ -26,11 +26,11 @@ BEFORE description: At the beginning of the search and with little information, 
 BEFORE H1: At the beginning of the search and with little information, identifying a common
 BEFORE apparent targeting: At the beginning of the search and with little information, identifying a common
 
-AFTER title: At the beginning of the search and with little information, identifying a common | November 30, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: At the beginning of the search and with little information, identifying a common
-Alternative B: At the beginning of the search and with little information, identifying a common | Monique Fernandes
+AFTER title (HOLD; not approved for publication): At the beginning of the search and with little information, identifying a common | November 30, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: At the beginning of the search and with little information, identifying a common: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: At the beginning of the search and with little information, identifying a common
+AFTER H1 (HOLD; not approved for publication): At the beginning of the search and with little information, identifying a common
 AFTER targeting: At the beginning of the search and with little information, identifying a common — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

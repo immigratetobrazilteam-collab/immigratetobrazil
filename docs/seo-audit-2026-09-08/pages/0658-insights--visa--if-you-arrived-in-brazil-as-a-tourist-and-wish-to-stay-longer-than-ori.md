@@ -26,11 +26,11 @@ BEFORE description: If you arrived in Brazil as a tourist and wish to stay longe
 BEFORE H1: If you arrived in Brazil as a tourist and wish to stay longer than originally planned,
 BEFORE apparent targeting: If you arrived in Brazil as a tourist and wish to stay longer than originally planned,
 
-AFTER title: If you arrived in Brazil as a tourist and wish to stay longer than originally planned, | July 11, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: If you arrived in Brazil as a tourist and wish to stay longer than originally planned,
-Alternative B: If you arrived in Brazil as a tourist and wish to stay longer than originally planned, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If you arrived in Brazil as a tourist and wish to stay longer than originally planned, | July 11, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If you arrived in Brazil as a tourist and wish to stay longer than originally planned,: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If you arrived in Brazil as a tourist and wish to stay longer than originally planned,
+AFTER H1 (HOLD; not approved for publication): If you arrived in Brazil as a tourist and wish to stay longer than originally planned,
 AFTER targeting: If you arrived in Brazil as a tourist and wish to stay longer than originally planned, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

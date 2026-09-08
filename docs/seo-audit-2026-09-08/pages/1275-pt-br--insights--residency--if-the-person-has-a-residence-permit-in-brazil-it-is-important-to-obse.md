@@ -26,11 +26,11 @@ BEFORE description: Caso a pessoa possua autorização de residência no Brasil,
 BEFORE H1: Caso a pessoa possua autorização de residência no Brasil, é importante observar as
 BEFORE apparent targeting: Caso a pessoa possua autorização de residência no Brasil, é importante observar as
 
-AFTER title: Caso a pessoa possua autorização de residência no Brasil, é importante observar as | 22 de outubro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: Caso a pessoa possua autorização de residência no Brasil, é importante observar as
-Alternative B: Caso a pessoa possua autorização de residência no Brasil, é importante observar as | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Caso a pessoa possua autorização de residência no Brasil, é importante observar as | 22 de outubro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Caso a pessoa possua autorização de residência no Brasil, é importante observar: Esta página traz a pesquisa de residência anterior em um quadro mais claro para...
-AFTER H1: Caso a pessoa possua autorização de residência no Brasil, é importante observar as
+AFTER H1 (HOLD; not approved for publication): Caso a pessoa possua autorização de residência no Brasil, é importante observar as
 AFTER targeting: Caso a pessoa possua autorização de residência no Brasil, é importante observar as — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O Reino Unido começou a implementar um novo programa de dep
 BEFORE H1: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades
 BEFORE apparent targeting: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades
 
-AFTER title: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades | 9 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades
-Alternative B: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades | 9 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros...
-AFTER H1: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades
+AFTER H1 (HOLD; not approved for publication): O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades
 AFTER targeting: O Reino Unido começou a implementar um novo programa de deportação para imigrantes irregulares, resultando na recente deportação de mais de 200 brasileiros de uma só vez, bem como imigrantes de outras nacionalidades — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

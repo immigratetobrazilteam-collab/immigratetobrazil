@@ -26,11 +26,11 @@ BEFORE description: México confirma retomada do visto eletrônico para brasilei
 BEFORE H1: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026
 BEFORE apparent targeting: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026
 
-AFTER title: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026 | 1º de dezembro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026
-Alternative B: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026 | 1º de dezembro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026: Registro de arquivo: 9 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026
+AFTER H1 (HOLD; not approved for publication): México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026
 AFTER targeting: México confirma retomada do visto eletrônico para brasileiros a partir de fevereiro de 2026 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

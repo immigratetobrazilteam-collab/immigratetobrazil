@@ -26,11 +26,11 @@ BEFORE description: Empresas e indivíduos no Brasil podem contratar estrangeiro
 BEFORE H1: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal
 BEFORE apparent targeting: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal
 
-AFTER title: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal | 19 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal
-Alternative B: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal | 19 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Empresas e indivíduos no Brasil podem contratar estrangeiros por meio de emprego formal: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal
+AFTER H1 (HOLD; not approved for publication): Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal
 AFTER targeting: Empresas e pessoas físicas no Brasil podem contratar estrangeiros por meio de emprego formal — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

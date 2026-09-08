@@ -26,11 +26,11 @@ BEFORE description: Requisitos de entrada rigorosos: A legislação introduziu r
 BEFORE H1: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para
 BEFORE apparent targeting: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para
 
-AFTER title: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para | 26 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para
-Alternative B: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para | 26 de dezembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para: Esta página traz a pesquisa de residência anterior para uma estrutura mais clara...
-AFTER H1: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para
+AFTER H1 (HOLD; not approved for publication): Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para
 AFTER targeting: Requisitos de entrada rigorosos: A legislação introduziu requisitos de entrada específicos para — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

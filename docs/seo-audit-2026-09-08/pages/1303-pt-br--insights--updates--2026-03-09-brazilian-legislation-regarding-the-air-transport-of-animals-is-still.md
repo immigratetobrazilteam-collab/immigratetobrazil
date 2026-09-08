@@ -26,11 +26,11 @@ BEFORE description: A legislação brasileira relativa ao transporte aéreo de a
 BEFORE H1: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento
 BEFORE apparent targeting: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento
 
-AFTER title: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento | 27 de abril de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento
-Alternative B: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento | 27 de abril de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A legislação brasileira relativa ao transporte aéreo de animais ainda está em um estágio inicial de desenvolvimento: Registro de arquivo: 9 de março de 2026. Esta página traz...
-AFTER H1: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento
+AFTER H1 (HOLD; not approved for publication): A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento
 AFTER targeting: A legislação brasileira relativa ao transporte aéreo de animais ainda está numa fase inicial de desenvolvimento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

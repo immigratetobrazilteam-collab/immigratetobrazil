@@ -26,11 +26,11 @@ BEFORE description: Antes de enviar seu pedido de visto, é essencial primeiro p
 BEFORE H1: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir
 BEFORE apparent targeting: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir
 
-AFTER title: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir | 18 de março de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir
-Alternative B: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir | 18 de março de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Antes de enviar seu pedido de visto, é essencial primeiro preparar e reunir: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir
+AFTER H1 (HOLD; not approved for publication): Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir
 AFTER targeting: Antes de submeter o seu pedido de visto, é essencial primeiro preparar e reunir — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

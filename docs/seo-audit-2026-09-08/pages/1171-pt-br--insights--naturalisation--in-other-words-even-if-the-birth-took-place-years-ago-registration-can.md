@@ -26,11 +26,11 @@ BEFORE description: Por outras palavras, mesmo que o nascimento tenha ocorrido h
 BEFORE H1: In other words, even if the birth took place years ago, registration can still be
 BEFORE apparent targeting: In other words, even if the birth took place years ago, registration can still be
 
-AFTER title: In other words, even if the birth took place years ago, registration can still be | 13 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: In other words, even if the birth took place years ago, registration can still be
-Alternative B: In other words, even if the birth took place years ago, registration can still be | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In other words, even if the birth took place years ago, registration can still be | 13 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Por outras palavras, mesmo que o nascimento tenha ocorrido há anos, o registro ainda pode ser: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: In other words, even if the birth took place years ago, registration can still be
+AFTER H1 (HOLD; not approved for publication): In other words, even if the birth took place years ago, registration can still be
 AFTER targeting: In other words, even if the birth took place years ago, registration can still be — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

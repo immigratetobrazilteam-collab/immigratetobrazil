@@ -26,11 +26,11 @@ BEFORE description: O direito de ir e vir está previsto na Constituição Feder
 BEFORE H1: O direito de ir e vir está previsto na Constituição Federal para todos
 BEFORE apparent targeting: O direito de ir e vir está previsto na Constituição Federal para todos
 
-AFTER title: O direito de ir e vir está previsto na Constituição Federal para todos | 16 de agosto de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: O direito de ir e vir está previsto na Constituição Federal para todos
-Alternative B: O direito de ir e vir está previsto na Constituição Federal para todos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O direito de ir e vir está previsto na Constituição Federal para todos | 16 de agosto de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O direito de ir e vir está previsto na Constituição Federal para todos: Esta página traz o processo antecipado e a pesquisa de apoio de forma mais clara...
-AFTER H1: O direito de ir e vir está previsto na Constituição Federal para todos
+AFTER H1 (HOLD; not approved for publication): O direito de ir e vir está previsto na Constituição Federal para todos
 AFTER targeting: O direito de ir e vir está previsto na Constituição Federal para todos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O fim da manifestação de interesse pelos imigrantes em Por
 BEFORE H1: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo
 BEFORE apparent targeting: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo
 
-AFTER title: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo | 17 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo
-Alternative B: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo | 17 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo
+AFTER H1 (HOLD; not approved for publication): O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo
 AFTER targeting: O fim da manifestação de interesse pelos imigrantes em Portugal marca um marco significativo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

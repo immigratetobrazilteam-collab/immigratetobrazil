@@ -26,11 +26,11 @@ BEFORE description: The end of the expression of interest for immigrants in Port
 BEFORE H1: The end of the expression of interest for immigrants in Portugal marks a significant
 BEFORE apparent targeting: The end of the expression of interest for immigrants in Portugal marks a significant
 
-AFTER title: The end of the expression of interest for immigrants in Portugal marks a significant | September 17, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The end of the expression of interest for immigrants in Portugal marks a significant
-Alternative B: The end of the expression of interest for immigrants in Portugal marks a significant | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The end of the expression of interest for immigrants in Portugal marks a significant | September 17, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The end of the expression of interest for immigrants in Portugal marks a significant: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The end of the expression of interest for immigrants in Portugal marks a significant
+AFTER H1 (HOLD; not approved for publication): The end of the expression of interest for immigrants in Portugal marks a significant
 AFTER targeting: The end of the expression of interest for immigrants in Portugal marks a significant — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

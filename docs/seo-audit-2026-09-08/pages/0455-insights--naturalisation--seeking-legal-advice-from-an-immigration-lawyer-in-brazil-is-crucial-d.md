@@ -26,11 +26,11 @@ BEFORE description: Seeking legal advice from an immigration lawyer in Brazil is
 BEFORE H1: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the
 BEFORE apparent targeting: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the
 
-AFTER title: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the | February 6, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the
-Alternative B: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Seeking legal advice from an immigration lawyer in Brazil is crucial due to the | February 6, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the
+AFTER H1 (HOLD; not approved for publication): Seeking legal advice from an immigration lawyer in Brazil is crucial due to the
 AFTER targeting: Seeking legal advice from an immigration lawyer in Brazil is crucial due to the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

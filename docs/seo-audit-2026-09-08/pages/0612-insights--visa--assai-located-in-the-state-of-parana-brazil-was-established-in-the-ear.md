@@ -26,11 +26,11 @@ BEFORE description: Assai, located in the state of Parana, Brazil, was establish
 BEFORE H1: Assai, located in the state of Parana, Brazil, was established in the early 20th
 BEFORE apparent targeting: Assai, located in the state of Parana, Brazil, was established in the early 20th
 
-AFTER title: Assai, located in the state of Parana, Brazil, was established in the early 20th | December 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Assai, located in the state of Parana, Brazil, was established in the early 20th
-Alternative B: Assai, located in the state of Parana, Brazil, was established in the early 20th | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Assai, located in the state of Parana, Brazil, was established in the early 20th | December 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Assai, located in the state of Parana, Brazil, was established in the early 20th: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Assai, located in the state of Parana, Brazil, was established in the early 20th
+AFTER H1 (HOLD; not approved for publication): Assai, located in the state of Parana, Brazil, was established in the early 20th
 AFTER targeting: Assai, located in the state of Parana, Brazil, was established in the early 20th — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

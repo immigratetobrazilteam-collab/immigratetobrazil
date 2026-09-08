@@ -26,11 +26,11 @@ BEFORE description: Em Brasil, o Registro Nacional Migratório (RNM) é o regist
 BEFORE H1: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,
 BEFORE apparent targeting: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,
 
-AFTER title: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes, | 7 de outubro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,
-Alternative B: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes, | 7 de outubro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes: Esta página traz pesquisas anteriores de residência para uma estrutura mais clara para...
-AFTER H1: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,
+AFTER H1 (HOLD; not approved for publication): Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes,
 AFTER targeting: Em Brasil, o Registro Nacional Migratório (RNM) é o registro de imigrantes, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

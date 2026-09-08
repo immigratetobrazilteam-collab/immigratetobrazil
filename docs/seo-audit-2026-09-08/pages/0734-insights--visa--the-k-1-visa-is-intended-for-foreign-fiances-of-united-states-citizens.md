@@ -26,11 +26,11 @@ BEFORE description: The K-1 visa is intended for foreign fiances of United State
 BEFORE H1: The K-1 visa is intended for foreign fiances of United States citizens
 BEFORE apparent targeting: The K-1 visa is intended for foreign fiances of United States citizens
 
-AFTER title: The K-1 visa is intended for foreign fiances of United States citizens | October 30, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The K-1 visa is intended for foreign fiances of United States citizens
-Alternative B: The K-1 visa is intended for foreign fiances of United States citizens | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The K-1 visa is intended for foreign fiances of United States citizens | October 30, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The K-1 visa is intended for foreign fiances of United States citizens: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: The K-1 visa is intended for foreign fiances of United States citizens
+AFTER H1 (HOLD; not approved for publication): The K-1 visa is intended for foreign fiances of United States citizens
 AFTER targeting: The K-1 visa is intended for foreign fiances of United States citizens — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

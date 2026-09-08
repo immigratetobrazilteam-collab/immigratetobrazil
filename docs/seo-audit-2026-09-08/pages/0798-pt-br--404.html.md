@@ -14,7 +14,7 @@ User problem / SEO objective: Página não encontrada
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Página não encontrada
 Primary keyword/focus field: Página não encontrada; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Página não encontrada questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

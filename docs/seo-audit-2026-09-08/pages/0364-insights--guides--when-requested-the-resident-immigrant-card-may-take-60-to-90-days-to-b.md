@@ -26,11 +26,11 @@ BEFORE description: When requested, the resident immigrant card may take 60 to 9
 BEFORE H1: When requested, the resident immigrant card may take 60 to 90 days to be ready for
 BEFORE apparent targeting: When requested, the resident immigrant card may take 60 to 90 days to be ready for
 
-AFTER title: When requested, the resident immigrant card may take 60 to 90 days to be ready for | February 7, 2024 | Brazil Guide | Immigrate to Brazil
-Alternative A: When requested, the resident immigrant card may take 60 to 90 days to be ready for
-Alternative B: When requested, the resident immigrant card may take 60 to 90 days to be ready for | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When requested, the resident immigrant card may take 60 to 90 days to be ready for | February 7, 2024 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When requested, the resident immigrant card may take 60 to 90 days to be ready for: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: When requested, the resident immigrant card may take 60 to 90 days to be ready for
+AFTER H1 (HOLD; not approved for publication): When requested, the resident immigrant card may take 60 to 90 days to be ready for
 AFTER targeting: When requested, the resident immigrant card may take 60 to 90 days to be ready for — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

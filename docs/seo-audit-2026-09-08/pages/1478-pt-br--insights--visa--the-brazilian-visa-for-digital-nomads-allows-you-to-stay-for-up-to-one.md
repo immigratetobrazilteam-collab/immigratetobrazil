@@ -26,11 +26,11 @@ BEFORE description: O visto brasileiro para nômades digitais permite que você 
 BEFORE H1: O visto brasileiro para nômades digitais permite permanecer por até um ano com o
 BEFORE apparent targeting: O visto brasileiro para nômades digitais permite permanecer por até um ano com o
 
-AFTER title: O visto brasileiro para nômades digitais permite permanecer por até um ano com o | 16 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O visto brasileiro para nômades digitais permite permanecer por até um ano com o
-Alternative B: O visto brasileiro para nômades digitais permite permanecer por até um ano com o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto brasileiro para nômades digitais permite permanecer por até um ano com o | 16 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto brasileiro para nômades digitais permite que você permaneça por até um ano com: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O visto brasileiro para nômades digitais permite permanecer por até um ano com o
+AFTER H1 (HOLD; not approved for publication): O visto brasileiro para nômades digitais permite permanecer por até um ano com o
 AFTER targeting: O visto brasileiro para nômades digitais permite permanecer por até um ano com o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

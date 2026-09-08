@@ -26,11 +26,11 @@ BEFORE description: The humanitarian and institutional crisis that is plaguing V
 BEFORE H1: The humanitarian and institutional crisis that is plaguing Venezuela has caused the
 BEFORE apparent targeting: The humanitarian and institutional crisis that is plaguing Venezuela has caused the
 
-AFTER title: The humanitarian and institutional crisis that is plaguing Venezuela has caused the | July 31, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The humanitarian and institutional crisis that is plaguing Venezuela has caused the
-Alternative B: The humanitarian and institutional crisis that is plaguing Venezuela has caused the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The humanitarian and institutional crisis that is plaguing Venezuela has caused the | July 31, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The humanitarian and institutional crisis that is plaguing Venezuela has caused the: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The humanitarian and institutional crisis that is plaguing Venezuela has caused the
+AFTER H1 (HOLD; not approved for publication): The humanitarian and institutional crisis that is plaguing Venezuela has caused the
 AFTER targeting: The humanitarian and institutional crisis that is plaguing Venezuela has caused the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

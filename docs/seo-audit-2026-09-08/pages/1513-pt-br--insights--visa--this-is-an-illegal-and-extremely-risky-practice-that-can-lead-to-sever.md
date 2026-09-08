@@ -26,11 +26,11 @@ BEFORE description: Esta é uma prática ilegal e extremamente arriscada que pod
 BEFORE H1: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves
 BEFORE apparent targeting: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves
 
-AFTER title: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves | 15 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves
-Alternative B: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves | 15 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves
+AFTER H1 (HOLD; not approved for publication): Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves
 AFTER targeting: Esta é uma prática ilegal e extremamente arriscada que pode levar a consequências graves — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

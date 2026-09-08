@@ -26,11 +26,11 @@ BEFORE description: Visa Guidance legal requirements and filing steps in Brazil:
 BEFORE H1: Visa Guidance legal requirements and filing steps in Brazil
 BEFORE apparent targeting: Visa Guidance legal requirements and filing steps in Brazil
 
-AFTER title: Visa Guidance legal requirements and filing steps in Brazil | October 27, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Visa Guidance legal requirements and filing steps in Brazil
-Alternative B: Visa Guidance legal requirements and filing steps in Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Visa Guidance legal requirements and filing steps in Brazil | October 27, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Visa Guidance legal requirements and filing steps in Brazil: This page brings earlier visa research into a clearer entry-planning format for Immigrate to...
-AFTER H1: Visa Guidance legal requirements and filing steps in Brazil
+AFTER H1 (HOLD; not approved for publication): Visa Guidance legal requirements and filing steps in Brazil
 AFTER targeting: Visa Guidance legal requirements and filing steps in Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O Acordo entre Brasil e o Uruguai trata da autorização de 
 BEFORE H1: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente
 BEFORE apparent targeting: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente
 
-AFTER title: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente | 22 de agosto de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente
-Alternative B: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Acordo entre Brasil e Uruguai trata da autorização de residência permanente | 22 de agosto de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Acordo entre Brasil e o Uruguai trata da autorização de residência permanente: Esta página traz a pesquisa de residência anterior em uma estrutura mais clara...
-AFTER H1: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente
+AFTER H1 (HOLD; not approved for publication): O Acordo entre Brasil e Uruguai trata da autorização de residência permanente
 AFTER targeting: O Acordo entre Brasil e Uruguai trata da autorização de residência permanente — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

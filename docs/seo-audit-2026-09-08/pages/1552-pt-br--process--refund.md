@@ -14,7 +14,7 @@ User problem / SEO objective: Como solicitar reembolso de consulta ou serviço
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Como solicitar reembolso de consulta ou serviço
 Primary keyword/focus field: Como solicitar reembolso de consulta ou serviço; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Como solicitar reembolso de consulta ou serviço questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

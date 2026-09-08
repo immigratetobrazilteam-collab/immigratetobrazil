@@ -26,11 +26,11 @@ BEFORE description: Ant nio prado village brazil s italian heritage gains global
 BEFORE H1: Ant nio prado village brazil s italian heritage gains global recognition the charming
 BEFORE apparent targeting: Ant nio prado village brazil s italian heritage gains global recognition the charming
 
-AFTER title: Ant nio prado village brazil s italian heritage gains global recognition the charming | FYI | Immigrate to Brazil
-Alternative A: Ant nio prado village brazil s italian heritage gains global recognition the charming
-Alternative B: Ant nio prado village brazil s italian heritage gains global recognition the charming | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ant nio prado village brazil s italian heritage gains global recognition the charming | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Ant nio prado village brazil s italian heritage gains global recognition the charming: Antonio Prado Village: Brazil's Italian Heritage Gains Global...
-AFTER H1: Ant nio prado village brazil s italian heritage gains global recognition the charming
+AFTER H1 (HOLD; not approved for publication): Ant nio prado village brazil s italian heritage gains global recognition the charming
 AFTER targeting: Ant nio prado village brazil s italian heritage gains global recognition the charming — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

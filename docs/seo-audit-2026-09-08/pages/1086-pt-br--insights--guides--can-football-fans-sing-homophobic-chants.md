@@ -26,11 +26,11 @@ BEFORE description: Os fãs de futebol podem cantar cantos homofóbicos? Esta p�
 BEFORE H1: Os fãs de futebol podem cantar cantos homofóbicos?
 BEFORE apparent targeting: Os fãs de futebol podem cantar cantos homofóbicos?
 
-AFTER title: Os fãs de futebol podem cantar cantos homofóbicos? | 5 de junho de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Os fãs de futebol podem cantar cantos homofóbicos?
-Alternative B: Os fãs de futebol podem cantar cantos homofóbicos? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os fãs de futebol podem cantar cantos homofóbicos? | 5 de junho de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os fãs de futebol podem cantar cantos homofóbicos? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para leitores que planejam imigração, documentos...
-AFTER H1: Os fãs de futebol podem cantar cantos homofóbicos?
+AFTER H1 (HOLD; not approved for publication): Os fãs de futebol podem cantar cantos homofóbicos?
 AFTER targeting: Os fãs de futebol podem cantar cantos homofóbicos? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

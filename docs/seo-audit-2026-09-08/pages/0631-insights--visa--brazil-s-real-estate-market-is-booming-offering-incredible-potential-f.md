@@ -26,11 +26,11 @@ BEFORE description: Brazil's real estate market is booming, offering incredible 
 BEFORE H1: Brazil's real estate market is booming, offering incredible potential for high returns
 BEFORE apparent targeting: Brazil's real estate market is booming, offering incredible potential for high returns
 
-AFTER title: Brazil's real estate market is booming, offering incredible potential for high returns | February 12, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil's real estate market is booming, offering incredible potential for high returns
-Alternative B: Brazil's real estate market is booming, offering incredible potential for high returns | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil's real estate market is booming, offering incredible potential for high returns | February 12, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil's real estate market is booming, offering incredible potential for high returns: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil's real estate market is booming, offering incredible potential for high returns
+AFTER H1 (HOLD; not approved for publication): Brazil's real estate market is booming, offering incredible potential for high returns
 AFTER targeting: Brazil's real estate market is booming, offering incredible potential for high returns — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

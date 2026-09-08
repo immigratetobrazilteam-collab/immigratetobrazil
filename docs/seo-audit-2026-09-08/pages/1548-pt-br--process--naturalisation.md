@@ -14,7 +14,7 @@ User problem / SEO objective: Preparação para o processo de naturalização
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Preparação para o processo de naturalização
 Primary keyword/focus field: Preparação para o processo de naturalização; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Preparação para o processo de naturalização questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

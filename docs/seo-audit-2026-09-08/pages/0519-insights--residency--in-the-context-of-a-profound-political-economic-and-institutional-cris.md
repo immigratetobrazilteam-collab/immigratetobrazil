@@ -26,11 +26,11 @@ BEFORE description: In the context of a profound political, economic and institu
 BEFORE H1: In the context of a profound political, economic and institutional crisis affecting
 BEFORE apparent targeting: In the context of a profound political, economic and institutional crisis affecting
 
-AFTER title: In the context of a profound political, economic and institutional crisis affecting | July 21, 2025 | Residency Insight | Immigrate to Brazil
-Alternative A: In the context of a profound political, economic and institutional crisis affecting
-Alternative B: In the context of a profound political, economic and institutional crisis affecting | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In the context of a profound political, economic and institutional crisis affecting | July 21, 2025 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In the context of a profound political, economic and institutional crisis affecting: This page brings earlier residency research into a clearer framework for...
-AFTER H1: In the context of a profound political, economic and institutional crisis affecting
+AFTER H1 (HOLD; not approved for publication): In the context of a profound political, economic and institutional crisis affecting
 AFTER targeting: In the context of a profound political, economic and institutional crisis affecting — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

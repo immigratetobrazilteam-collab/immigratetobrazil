@@ -26,11 +26,11 @@ BEFORE description: Upon your return to Brazil, the legal process for revoking y
 BEFORE H1: Upon your return to Brazil, the legal process for revoking your residence permit will
 BEFORE apparent targeting: Upon your return to Brazil, the legal process for revoking your residence permit will
 
-AFTER title: Upon your return to Brazil, the legal process for revoking your residence permit will | December 5, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: Upon your return to Brazil, the legal process for revoking your residence permit will
-Alternative B: Upon your return to Brazil, the legal process for revoking your residence permit will | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Upon your return to Brazil, the legal process for revoking your residence permit will | December 5, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Upon your return to Brazil, the legal process for revoking your residence permit will: This page brings earlier residency research into a clearer framework...
-AFTER H1: Upon your return to Brazil, the legal process for revoking your residence permit will
+AFTER H1 (HOLD; not approved for publication): Upon your return to Brazil, the legal process for revoking your residence permit will
 AFTER targeting: Upon your return to Brazil, the legal process for revoking your residence permit will — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

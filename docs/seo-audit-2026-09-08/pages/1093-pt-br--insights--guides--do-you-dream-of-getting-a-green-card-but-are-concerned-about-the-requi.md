@@ -26,11 +26,11 @@ BEFORE description: Você sonha em obter um Green Card, mas está preocupado com
 BEFORE H1: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter
 BEFORE apparent targeting: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter
 
-AFTER title: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter | 2 de agosto de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter
-Alternative B: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter | 2 de agosto de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter
+AFTER H1 (HOLD; not approved for publication): Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter
 AFTER targeting: Você sonha em obter um Green Card, mas está preocupado com a necessidade de ter — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

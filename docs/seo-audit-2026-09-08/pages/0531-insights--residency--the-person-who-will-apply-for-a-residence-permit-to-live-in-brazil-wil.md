@@ -26,11 +26,11 @@ BEFORE description: The person who will apply for a residence permit to live in 
 BEFORE H1: The person who will apply for a residence permit to live in Brazil will also receive a
 BEFORE apparent targeting: The person who will apply for a residence permit to live in Brazil will also receive a
 
-AFTER title: The person who will apply for a residence permit to live in Brazil will also receive a | October 4, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: The person who will apply for a residence permit to live in Brazil will also receive a
-Alternative B: The person who will apply for a residence permit to live in Brazil will also receive a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The person who will apply for a residence permit to live in Brazil will also receive a | October 4, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The person who will apply for a residence permit to live in Brazil will also receive a: This page brings earlier residency research into a clearer framework...
-AFTER H1: The person who will apply for a residence permit to live in Brazil will also receive a
+AFTER H1 (HOLD; not approved for publication): The person who will apply for a residence permit to live in Brazil will also receive a
 AFTER targeting: The person who will apply for a residence permit to live in Brazil will also receive a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

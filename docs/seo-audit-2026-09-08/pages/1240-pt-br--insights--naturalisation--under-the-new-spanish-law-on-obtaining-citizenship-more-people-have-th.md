@@ -26,11 +26,11 @@ BEFORE description: Ao abrigo da nova lei espanhola sobre a obtenção da cidada
 BEFORE H1: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de
 BEFORE apparent targeting: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de
 
-AFTER title: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de | 6 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de
-Alternative B: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de | 6 de setembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de
+AFTER H1 (HOLD; not approved for publication): Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de
 AFTER targeting: Ao abrigo da nova lei espanhola sobre a obtenção da cidadania, mais pessoas têm o direito de — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

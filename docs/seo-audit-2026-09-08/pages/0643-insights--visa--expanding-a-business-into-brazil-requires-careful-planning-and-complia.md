@@ -26,11 +26,11 @@ BEFORE description: Expanding a business into Brazil requires careful planning a
 BEFORE H1: Expanding a business into Brazil requires careful planning and compliance with local
 BEFORE apparent targeting: Expanding a business into Brazil requires careful planning and compliance with local
 
-AFTER title: Expanding a business into Brazil requires careful planning and compliance with local | May 15, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Expanding a business into Brazil requires careful planning and compliance with local
-Alternative B: Expanding a business into Brazil requires careful planning and compliance with local | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Expanding a business into Brazil requires careful planning and compliance with local | May 15, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Expanding a business into Brazil requires careful planning and compliance with local: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Expanding a business into Brazil requires careful planning and compliance with local
+AFTER H1 (HOLD; not approved for publication): Expanding a business into Brazil requires careful planning and compliance with local
 AFTER targeting: Expanding a business into Brazil requires careful planning and compliance with local — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

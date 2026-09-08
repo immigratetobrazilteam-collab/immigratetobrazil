@@ -26,11 +26,11 @@ BEFORE description: Quais direitos os imigrantes têm no Brasil? Esta página tr
 BEFORE H1: Quais direitos os imigrantes têm no Brasil?
 BEFORE apparent targeting: Quais direitos os imigrantes têm no Brasil?
 
-AFTER title: Quais direitos os imigrantes têm no Brasil? | 10 de abril de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quais direitos os imigrantes têm no Brasil?
-Alternative B: Quais direitos os imigrantes têm no Brasil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quais direitos os imigrantes têm no Brasil? | 10 de abril de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quais direitos os imigrantes têm no Brasil? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para leitores que planejam imigração, documentos...
-AFTER H1: Quais direitos os imigrantes têm no Brasil?
+AFTER H1 (HOLD; not approved for publication): Quais direitos os imigrantes têm no Brasil?
 AFTER targeting: Quais direitos os imigrantes têm no Brasil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

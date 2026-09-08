@@ -26,11 +26,11 @@ BEFORE description: Se um artista cobrar uma taxa por sua apresentação, será 
 BEFORE H1: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho
 BEFORE apparent targeting: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho
 
-AFTER title: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho | 28 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho
-Alternative B: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho | 28 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se um artista cobrar uma taxa por sua apresentação, será necessário um visto de trabalho: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho
+AFTER H1 (HOLD; not approved for publication): Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho
 AFTER targeting: Se um artista cobrar uma taxa pela sua apresentação, será necessário um visto de trabalho — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

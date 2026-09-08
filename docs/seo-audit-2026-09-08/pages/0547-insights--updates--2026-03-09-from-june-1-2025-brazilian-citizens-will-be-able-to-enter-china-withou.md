@@ -26,11 +26,11 @@ BEFORE description: From June 1, 2025, Brazilian citizens will be able to enter 
 BEFORE H1: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs
 BEFORE apparent targeting: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs
 
-AFTER title: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs | June 23, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs
-Alternative B: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs | Monique Fernandes
+AFTER title (HOLD; not approved for publication): From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs | June 23, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese...
-AFTER H1: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs
+AFTER H1 (HOLD; not approved for publication): From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs
 AFTER targeting: From June 1, 2025, Brazilian citizens will be able to enter China without a tourist/visit visa for stays of up to 30 days, as announced by the Chinese Ministry of Foreign Affairs — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Se um investidor, pessoa física, está em busca de oportuni
 BEFORE H1: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir
 BEFORE apparent targeting: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir
 
-AFTER title: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir | 23 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir
-Alternative B: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se um investidor, pessoa física, está em busca de oportunidades e para poder residir | 23 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se um investidor, pessoa física, está em busca de oportunidades e de poder residir: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir
+AFTER H1 (HOLD; not approved for publication): Se um investidor, pessoa física, está em busca de oportunidades e para poder residir
 AFTER targeting: Se um investidor, pessoa física, está em busca de oportunidades e para poder residir — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

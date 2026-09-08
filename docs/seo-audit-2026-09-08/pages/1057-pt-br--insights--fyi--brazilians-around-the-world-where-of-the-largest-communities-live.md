@@ -26,11 +26,11 @@ BEFORE description: brasileiros ao redor do mundo: onde vivem as maiores comunid
 BEFORE H1: brasileiros ao redor do mundo: onde vivem as maiores comunidades?
 BEFORE apparent targeting: brasileiros ao redor do mundo: onde vivem as maiores comunidades?
 
-AFTER title: brasileiros ao redor do mundo: onde vivem as maiores comunidades? | FYI | Imigre para o Brasil
-Alternative A: brasileiros ao redor do mundo: onde vivem as maiores comunidades?
-Alternative B: brasileiros ao redor do mundo: onde vivem as maiores comunidades? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): brasileiros ao redor do mundo: onde vivem as maiores comunidades? | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: brasileiros ao redor do mundo: onde vivem as maiores comunidades? brasileiros ao redor do mundo: onde vivem as maiores comunidades? Abaixo está uma visão geral...
-AFTER H1: brasileiros ao redor do mundo: onde vivem as maiores comunidades?
+AFTER H1 (HOLD; not approved for publication): brasileiros ao redor do mundo: onde vivem as maiores comunidades?
 AFTER targeting: brasileiros ao redor do mundo: onde vivem as maiores comunidades? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

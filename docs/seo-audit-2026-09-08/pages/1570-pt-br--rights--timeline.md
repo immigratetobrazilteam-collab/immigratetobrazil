@@ -14,7 +14,7 @@ User problem / SEO objective: Demora no processo migratório: direitos e próxim
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Demora no processo migratório: direitos e próximos passos
 Primary keyword/focus field: Demora no processo migratório: direitos e próximos passos; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Demora no processo migratório: direitos e próximos passos questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

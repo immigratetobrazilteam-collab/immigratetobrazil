@@ -26,11 +26,11 @@ BEFORE description: O período durante o qual um estrangeiro pode se ausentar do
 BEFORE H1: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua
 BEFORE apparent targeting: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua
 
-AFTER title: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua | 27 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua
-Alternative B: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua | 27 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O período durante o qual um estrangeiro pode se ausentar do país sem perder o seu: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua
+AFTER H1 (HOLD; not approved for publication): O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua
 AFTER targeting: O período durante o qual um estrangeiro pode ausentar-se do país sem perder a sua — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

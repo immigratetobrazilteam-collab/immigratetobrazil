@@ -26,11 +26,11 @@ BEFORE description: Brasil concede visto temporário para estrangeiros que chega
 BEFORE H1: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada
 BEFORE apparent targeting: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada
 
-AFTER title: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada | 21 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada
-Alternative B: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil concede visto temporário a estrangeiros que venham ao país com comprovada | 21 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil concede visto temporário para estrangeiros que chegam ao país com o comprovado: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada
+AFTER H1 (HOLD; not approved for publication): Brasil concede visto temporário a estrangeiros que venham ao país com comprovada
 AFTER targeting: Brasil concede visto temporário a estrangeiros que venham ao país com comprovada — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

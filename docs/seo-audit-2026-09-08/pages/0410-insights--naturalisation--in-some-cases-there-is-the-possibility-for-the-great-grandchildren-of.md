@@ -26,11 +26,11 @@ BEFORE description: In some cases, there is the possibility for the great-grandc
 BEFORE H1: In some cases, there is the possibility for the great-grandchildren of Portuguese
 BEFORE apparent targeting: In some cases, there is the possibility for the great-grandchildren of Portuguese
 
-AFTER title: In some cases, there is the possibility for the great-grandchildren of Portuguese | May 29, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: In some cases, there is the possibility for the great-grandchildren of Portuguese
-Alternative B: In some cases, there is the possibility for the great-grandchildren of Portuguese | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In some cases, there is the possibility for the great-grandchildren of Portuguese | May 29, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In some cases, there is the possibility for the great-grandchildren of Portuguese: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: In some cases, there is the possibility for the great-grandchildren of Portuguese
+AFTER H1 (HOLD; not approved for publication): In some cases, there is the possibility for the great-grandchildren of Portuguese
 AFTER targeting: In some cases, there is the possibility for the great-grandchildren of Portuguese — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

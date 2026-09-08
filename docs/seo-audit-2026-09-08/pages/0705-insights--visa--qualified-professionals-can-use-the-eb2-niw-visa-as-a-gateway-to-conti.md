@@ -26,11 +26,11 @@ BEFORE description: Qualified professionals can use the EB2-NIW visa as a gatewa
 BEFORE H1: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career
 BEFORE apparent targeting: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career
 
-AFTER title: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career | July 17, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career
-Alternative B: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Qualified professionals can use the EB2-NIW visa as a gateway to continue their career | July 17, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career
+AFTER H1 (HOLD; not approved for publication): Qualified professionals can use the EB2-NIW visa as a gateway to continue their career
 AFTER targeting: Qualified professionals can use the EB2-NIW visa as a gateway to continue their career — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

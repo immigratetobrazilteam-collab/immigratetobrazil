@@ -26,11 +26,11 @@ BEFORE description: Embora este visto ofereça residência permanente, ele vem c
 BEFORE H1: Embora este visto ofereça residência permanente, ele vem com condições
 BEFORE apparent targeting: Embora este visto ofereça residência permanente, ele vem com condições
 
-AFTER title: Embora este visto ofereça residência permanente, ele vem com condições | 3 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Embora este visto ofereça residência permanente, ele vem com condições
-Alternative B: Embora este visto ofereça residência permanente, ele vem com condições | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Embora este visto ofereça residência permanente, ele vem com condições | 3 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Embora este visto ofereça residência permanente, ele vem com condições: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Embora este visto ofereça residência permanente, ele vem com condições
+AFTER H1 (HOLD; not approved for publication): Embora este visto ofereça residência permanente, ele vem com condições
 AFTER targeting: Embora este visto ofereça residência permanente, ele vem com condições — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

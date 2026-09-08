@@ -26,11 +26,11 @@ BEFORE description: The Mobility Agreement between CPLP Member States (communiti
 BEFORE H1: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking
 BEFORE apparent targeting: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking
 
-AFTER title: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking | October 25, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking
-Alternative B: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking | October 25, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking
+AFTER H1 (HOLD; not approved for publication): The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking
 AFTER targeting: The Mobility Agreement between CPLP Member States (communities of Portuguese-speaking — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

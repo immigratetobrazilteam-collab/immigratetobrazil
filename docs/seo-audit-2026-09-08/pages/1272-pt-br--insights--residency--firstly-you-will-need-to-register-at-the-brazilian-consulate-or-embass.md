@@ -26,11 +26,11 @@ BEFORE description: Em primeiro lugar, você precisará se registrar no Consulad
 BEFORE H1: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no
 BEFORE apparent targeting: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no
 
-AFTER title: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no | 2 de junho de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no
-Alternative B: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no | 2 de junho de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em primeiro lugar, você precisará se registrar no Consulado ou Embaixada brasileira em: Esta página traz pesquisas de residência anteriores em uma estrutura mais clara para...
-AFTER H1: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no
+AFTER H1 (HOLD; not approved for publication): Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no
 AFTER targeting: Primeiramente, você precisará se registrar no Consulado ou Embaixada brasileira no — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

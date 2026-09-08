@@ -26,11 +26,11 @@ BEFORE description: A legislação descreve as funções específicas e estabele
 BEFORE H1: A legislação descreve as funções específicas e estabelece vários requisitos
 BEFORE apparent targeting: A legislação descreve as funções específicas e estabelece vários requisitos
 
-AFTER title: A legislação descreve as funções específicas e estabelece vários requisitos | 28 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A legislação descreve as funções específicas e estabelece vários requisitos
-Alternative B: A legislação descreve as funções específicas e estabelece vários requisitos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A legislação descreve as funções específicas e estabelece vários requisitos | 28 de novembro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A legislação descreve as funções específicas e estabelece vários requisitos: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A legislação descreve as funções específicas e estabelece vários requisitos
+AFTER H1 (HOLD; not approved for publication): A legislação descreve as funções específicas e estabelece vários requisitos
 AFTER targeting: A legislação descreve as funções específicas e estabelece vários requisitos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

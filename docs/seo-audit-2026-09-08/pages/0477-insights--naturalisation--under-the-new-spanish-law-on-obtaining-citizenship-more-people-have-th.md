@@ -26,11 +26,11 @@ BEFORE description: Under the new Spanish law on obtaining citizenship, more peo
 BEFORE H1: Under the new Spanish law on obtaining citizenship, more people have the right to
 BEFORE apparent targeting: Under the new Spanish law on obtaining citizenship, more people have the right to
 
-AFTER title: Under the new Spanish law on obtaining citizenship, more people have the right to | September 6, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Under the new Spanish law on obtaining citizenship, more people have the right to
-Alternative B: Under the new Spanish law on obtaining citizenship, more people have the right to | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Under the new Spanish law on obtaining citizenship, more people have the right to | September 6, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Under the new Spanish law on obtaining citizenship, more people have the right to: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Under the new Spanish law on obtaining citizenship, more people have the right to
+AFTER H1 (HOLD; not approved for publication): Under the new Spanish law on obtaining citizenship, more people have the right to
 AFTER targeting: Under the new Spanish law on obtaining citizenship, more people have the right to — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

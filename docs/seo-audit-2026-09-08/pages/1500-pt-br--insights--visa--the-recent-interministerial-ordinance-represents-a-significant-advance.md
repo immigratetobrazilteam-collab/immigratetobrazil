@@ -26,11 +26,11 @@ BEFORE description: A recente Portaria Interministerial representa um avanço si
 BEFORE H1: A recente Portaria Interministerial representa um avanço significativo na imigração
 BEFORE apparent targeting: A recente Portaria Interministerial representa um avanço significativo na imigração
 
-AFTER title: A recente Portaria Interministerial representa um avanço significativo na imigração | 26 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A recente Portaria Interministerial representa um avanço significativo na imigração
-Alternative B: A recente Portaria Interministerial representa um avanço significativo na imigração | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A recente Portaria Interministerial representa um avanço significativo na imigração | 26 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A recente Portaria Interministerial representa um avanço significativo na imigração: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A recente Portaria Interministerial representa um avanço significativo na imigração
+AFTER H1 (HOLD; not approved for publication): A recente Portaria Interministerial representa um avanço significativo na imigração
 AFTER targeting: A recente Portaria Interministerial representa um avanço significativo na imigração — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

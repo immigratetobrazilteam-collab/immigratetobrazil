@@ -26,11 +26,11 @@ BEFORE description: If a foreigner has a child in Brazil, does he have the autom
 BEFORE H1: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian
 BEFORE apparent targeting: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian
 
-AFTER title: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian | May 30, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian
-Alternative B: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If a foreigner has a child in Brazil, does he have the automatic right to Brazilian | May 30, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian
+AFTER H1 (HOLD; not approved for publication): If a foreigner has a child in Brazil, does he have the automatic right to Brazilian
 AFTER targeting: If a foreigner has a child in Brazil, does he have the automatic right to Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

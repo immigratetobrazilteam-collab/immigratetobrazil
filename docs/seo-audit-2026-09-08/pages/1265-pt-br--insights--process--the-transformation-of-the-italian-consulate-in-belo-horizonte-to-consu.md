@@ -26,11 +26,11 @@ BEFORE description: A transformação do Consulado Italiano em Belo Horizonte em
 BEFORE H1: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em
 BEFORE apparent targeting: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em
 
-AFTER title: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em | 10 de julho de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em
-Alternative B: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em | 10 de julho de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em: Esta página traz processos anteriores e pesquisas de apoio para uma forma mais clara...
-AFTER H1: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em
+AFTER H1 (HOLD; not approved for publication): A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em
 AFTER targeting: A transformação do Consulado Italiano em Belo Horizonte em Consulado Geral em — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

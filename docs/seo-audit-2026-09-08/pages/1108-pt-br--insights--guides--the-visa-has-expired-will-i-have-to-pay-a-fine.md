@@ -26,11 +26,11 @@ BEFORE description: O visto expirou, terei que pagar multa? Esta página traz pe
 BEFORE H1: O visto expirou, terei que pagar multa?
 BEFORE apparent targeting: O visto expirou, terei que pagar multa?
 
-AFTER title: O visto expirou, terei que pagar multa? | 27 de novembro de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: O visto expirou, terei que pagar multa?
-Alternative B: O visto expirou, terei que pagar multa? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto expirou, terei que pagar multa? | 27 de novembro de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto expirou, terei que pagar multa? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para leitores que planejam imigração...
-AFTER H1: O visto expirou, terei que pagar multa?
+AFTER H1 (HOLD; not approved for publication): O visto expirou, terei que pagar multa?
 AFTER targeting: O visto expirou, terei que pagar multa? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

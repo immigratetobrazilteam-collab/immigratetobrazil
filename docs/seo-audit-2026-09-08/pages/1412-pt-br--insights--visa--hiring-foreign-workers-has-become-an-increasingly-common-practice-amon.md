@@ -26,11 +26,11 @@ BEFORE description: A contratação de trabalhadores estrangeiros tornou-se uma 
 BEFORE H1: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros
 BEFORE apparent targeting: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros
 
-AFTER title: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros | 3 de junho de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros
-Alternative B: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros | 3 de junho de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros: Esta página reorganiza conteúdo anterior sobre vistos para facilitar o planejamento da entrada no Brasil...
-AFTER H1: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros
+AFTER H1 (HOLD; not approved for publication): A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros
 AFTER targeting: A contratação de trabalhadores estrangeiros tornou-se uma prática cada vez mais comum entre brasileiros — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

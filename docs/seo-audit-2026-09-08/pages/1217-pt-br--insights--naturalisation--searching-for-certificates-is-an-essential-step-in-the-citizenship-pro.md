@@ -26,11 +26,11 @@ BEFORE description: A busca por certificados é uma etapa essencial no processo 
 BEFORE H1: A busca por certidões é uma etapa essencial no processo de cidadania, e
 BEFORE apparent targeting: A busca por certidões é uma etapa essencial no processo de cidadania, e
 
-AFTER title: A busca por certidões é uma etapa essencial no processo de cidadania, e | 5 de dezembro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A busca por certidões é uma etapa essencial no processo de cidadania, e
-Alternative B: A busca por certidões é uma etapa essencial no processo de cidadania, e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A busca por certidões é uma etapa essencial no processo de cidadania, e | 5 de dezembro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A busca por certificados é uma etapa essencial no processo de cidadania e: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A busca por certidões é uma etapa essencial no processo de cidadania, e
+AFTER H1 (HOLD; not approved for publication): A busca por certidões é uma etapa essencial no processo de cidadania, e
 AFTER targeting: A busca por certidões é uma etapa essencial no processo de cidadania, e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

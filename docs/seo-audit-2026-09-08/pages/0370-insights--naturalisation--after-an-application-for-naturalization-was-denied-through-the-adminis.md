@@ -26,11 +26,11 @@ BEFORE description: After an application for naturalization was denied through t
 BEFORE H1: After an application for naturalization was denied through the administrative process,
 BEFORE apparent targeting: After an application for naturalization was denied through the administrative process,
 
-AFTER title: After an application for naturalization was denied through the administrative process, | January 16, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: After an application for naturalization was denied through the administrative process,
-Alternative B: After an application for naturalization was denied through the administrative process, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): After an application for naturalization was denied through the administrative process, | January 16, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: After an application for naturalization was denied through the administrative process,: This page brings earlier citizenship research into a clearer format...
-AFTER H1: After an application for naturalization was denied through the administrative process,
+AFTER H1 (HOLD; not approved for publication): After an application for naturalization was denied through the administrative process,
 AFTER targeting: After an application for naturalization was denied through the administrative process, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

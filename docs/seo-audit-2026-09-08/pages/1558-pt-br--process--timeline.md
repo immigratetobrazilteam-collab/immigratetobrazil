@@ -14,7 +14,7 @@ User problem / SEO objective: Prazos de imigração: planejamento das etapas
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Prazos de imigração: planejamento das etapas
 Primary keyword/focus field: Prazos de imigração: planejamento das etapas; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Prazos de imigração: planejamento das etapas questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

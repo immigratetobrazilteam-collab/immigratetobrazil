@@ -26,11 +26,11 @@ BEFORE description: In Brazil, deportation is an administrative measure applied 
 BEFORE H1: In Brazil, deportation is an administrative measure applied to people who are in an
 BEFORE apparent targeting: In Brazil, deportation is an administrative measure applied to people who are in an
 
-AFTER title: In Brazil, deportation is an administrative measure applied to people who are in an | October 20, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: In Brazil, deportation is an administrative measure applied to people who are in an
-Alternative B: In Brazil, deportation is an administrative measure applied to people who are in an | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, deportation is an administrative measure applied to people who are in an | October 20, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, deportation is an administrative measure applied to people who are in an: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: In Brazil, deportation is an administrative measure applied to people who are in an
+AFTER H1 (HOLD; not approved for publication): In Brazil, deportation is an administrative measure applied to people who are in an
 AFTER targeting: In Brazil, deportation is an administrative measure applied to people who are in an — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

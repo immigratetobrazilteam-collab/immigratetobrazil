@@ -26,11 +26,11 @@ BEFORE description: Se uma pessoa recebeu um visto de residência português sem
 BEFORE H1: Se uma pessoa recebeu um visto de residência português sem marcar consulta com
 BEFORE apparent targeting: Se uma pessoa recebeu um visto de residência português sem marcar consulta com
 
-AFTER title: Se uma pessoa recebeu um visto de residência português sem marcar consulta com | 25 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se uma pessoa recebeu um visto de residência português sem marcar consulta com
-Alternative B: Se uma pessoa recebeu um visto de residência português sem marcar consulta com | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se uma pessoa recebeu um visto de residência português sem marcar consulta com | 25 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se uma pessoa recebeu um visto de residência português sem marcar uma consulta com: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se uma pessoa recebeu um visto de residência português sem marcar consulta com
+AFTER H1 (HOLD; not approved for publication): Se uma pessoa recebeu um visto de residência português sem marcar consulta com
 AFTER targeting: Se uma pessoa recebeu um visto de residência português sem marcar consulta com — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: ETIAS, an electronic authorization similar to a visa, will b
 BEFORE H1: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union
 BEFORE apparent targeting: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union
 
-AFTER title: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union | October 14, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union
-Alternative B: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union | Monique Fernandes
+AFTER title (HOLD; not approved for publication): ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union | October 14, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union: Archive...
-AFTER H1: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union
+AFTER H1 (HOLD; not approved for publication): ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union
 AFTER targeting: ETIAS, an electronic authorization similar to a visa, will be required for tourists visiting Europe from May 2025, as announced by the European Union — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

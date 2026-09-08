@@ -26,11 +26,11 @@ BEFORE description: Pregnant women that come to Brazil to have their baby can ap
 BEFORE H1: Pregnant women that come to Brazil to have their baby can apply for residence permit
 BEFORE apparent targeting: Pregnant women that come to Brazil to have their baby can apply for residence permit
 
-AFTER title: Pregnant women that come to Brazil to have their baby can apply for residence permit | September 5, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Pregnant women that come to Brazil to have their baby can apply for residence permit
-Alternative B: Pregnant women that come to Brazil to have their baby can apply for residence permit | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Pregnant women that come to Brazil to have their baby can apply for residence permit | September 5, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Pregnant women that come to Brazil to have their baby can apply for residence permit: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Pregnant women that come to Brazil to have their baby can apply for residence permit
+AFTER H1 (HOLD; not approved for publication): Pregnant women that come to Brazil to have their baby can apply for residence permit
 AFTER targeting: Pregnant women that come to Brazil to have their baby can apply for residence permit — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Se você estudou no Brasil e está pensando em continuar tra
 BEFORE H1: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias
 BEFORE apparent targeting: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias
 
-AFTER title: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias | 10 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias
-Alternative B: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias | 10 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias: esta página traz pesquisas anteriores sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias
+AFTER H1 (HOLD; not approved for publication): Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias
 AFTER targeting: Se você estudou no Brasil e está pensando em continuar trabalhando, há boas notícias — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Work in Finland, uma iniciativa apoiada pela rede governamen
 BEFORE H1: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é
 BEFORE apparent targeting: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é
 
-AFTER title: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é | 25 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é
-Alternative B: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é | 25 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Work in Finland, uma iniciativa apoiada pela rede governamental finlandesa, é: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é
+AFTER H1 (HOLD; not approved for publication): O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é
 AFTER targeting: O Trabalho na Finlândia, uma iniciativa apoiada pela rede governamental finlandesa, é — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

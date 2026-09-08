@@ -26,11 +26,11 @@ BEFORE description: A recent case in Brazil, where a tourist was fined the equiv
 BEFORE H1: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD
 BEFORE apparent targeting: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD
 
-AFTER title: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD | November 26, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD
-Alternative B: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD | November 26, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD
+AFTER H1 (HOLD; not approved for publication): A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD
 AFTER targeting: A recent case in Brazil, where a tourist was fined the equivalent of nearly 2,000 USD — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: Immigration Compliance During and After Filing
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Immigration Compliance During and After Filing
 Primary keyword/focus field: Immigration Compliance During and After Filing; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Immigration Compliance During and After Filing questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/process/ owns Working With Monique: The Immigration Process", "https://immigratetobrazil.com/rights/ owns Immigrant Rights and Responsibilities in Brazil"]

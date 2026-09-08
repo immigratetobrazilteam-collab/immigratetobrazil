@@ -14,7 +14,7 @@ User problem / SEO objective: Arquivo para sua informação: notas de imigraçã
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil: informações sobre imigração no Brasil
 Primary keyword/focus field: Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil: informações sobre imigração no Brasil; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil: informações sobre imigração no Brasil questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

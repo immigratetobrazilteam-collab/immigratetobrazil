@@ -26,11 +26,11 @@ BEFORE description: Em geral, muitos países não têm um visto de namoro espec�
 BEFORE H1: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para
 BEFORE apparent targeting: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para
 
-AFTER title: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para | 12 de junho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para
-Alternative B: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para | 12 de junho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em geral, muitos países não têm um visto de namoro específico, mas oferecem vistos para: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para
+AFTER H1 (HOLD; not approved for publication): Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para
 AFTER targeting: Em geral, muitos países não possuem visto específico para namoro, mas oferecem vistos para — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: A concessão de visto religioso pode ser emitida para estran
 BEFORE H1: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil
 BEFORE apparent targeting: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil
 
-AFTER title: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil | 9 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil
-Alternative B: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil | 9 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A concessão de visto religioso pode ser emitida para estrangeiro que entre no Brasil: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil
+AFTER H1 (HOLD; not approved for publication): A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil
 AFTER targeting: A concessão de visto religioso pode ser emitida ao estrangeiro que entre no Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Em 19 de dezembro de 2023, o Senado francês aprovou um pol�
 BEFORE H1: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,
 BEFORE apparent targeting: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,
 
-AFTER title: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração, | 6 de março de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,
-Alternative B: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração, | 6 de março de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,
+AFTER H1 (HOLD; not approved for publication): Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração,
 AFTER targeting: Em 19 de dezembro de 2023, o Senado francês aprovou um polêmico projeto de lei de imigração, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

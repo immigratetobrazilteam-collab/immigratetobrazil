@@ -26,11 +26,11 @@ BEFORE description: É possível para uma pessoa brasileira solicitar o reconhec
 BEFORE H1: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa
 BEFORE apparent targeting: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa
 
-AFTER title: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa | 3 de julho de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa
-Alternative B: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa | 3 de julho de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É possível para uma pessoa brasileira solicitar o reconhecimento da cidadania irlandesa: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa
+AFTER H1 (HOLD; not approved for publication): É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa
 AFTER targeting: É possível que uma pessoa brasileira solicite o reconhecimento da cidadania irlandesa — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

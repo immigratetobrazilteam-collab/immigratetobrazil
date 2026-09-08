@@ -26,11 +26,11 @@ BEFORE description: The date invites reflection on one of the darkest pages in h
 BEFORE H1: The date invites reflection on one of the darkest pages in human history: the
 BEFORE apparent targeting: The date invites reflection on one of the darkest pages in human history: the
 
-AFTER title: The date invites reflection on one of the darkest pages in human history: the | August 23, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The date invites reflection on one of the darkest pages in human history: the
-Alternative B: The date invites reflection on one of the darkest pages in human history: the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The date invites reflection on one of the darkest pages in human history: the | August 23, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The date invites reflection on one of the darkest pages in human history: the: This page brings earlier citizenship research into a clearer format for readers...
-AFTER H1: The date invites reflection on one of the darkest pages in human history: the
+AFTER H1 (HOLD; not approved for publication): The date invites reflection on one of the darkest pages in human history: the
 AFTER targeting: The date invites reflection on one of the darkest pages in human history: the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

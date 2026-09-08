@@ -26,11 +26,11 @@ BEFORE description: Thus, the company stops making some mandatory payments and t
 BEFORE H1: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law
 BEFORE apparent targeting: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law
 
-AFTER title: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law | May 2, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law
-Alternative B: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law | May 2, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law: Archive record: March 9, 2026. This page...
-AFTER H1: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law
+AFTER H1 (HOLD; not approved for publication): Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law
 AFTER targeting: Thus, the company stops making some mandatory payments and the worker loses the protection and benefits of labor law — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

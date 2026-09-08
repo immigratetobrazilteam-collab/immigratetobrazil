@@ -26,11 +26,11 @@ BEFORE description: It doesn't matter where the bill or billing is from: This pa
 BEFORE H1: It doesn't matter where the bill or billing is from
 BEFORE apparent targeting: It doesn't matter where the bill or billing is from
 
-AFTER title: It doesn't matter where the bill or billing is from | May 9, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: It doesn't matter where the bill or billing is from
-Alternative B: It doesn't matter where the bill or billing is from | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It doesn't matter where the bill or billing is from | May 9, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It doesn't matter where the bill or billing is from: This page brings earlier process and support research into a clearer format for readers coordinating...
-AFTER H1: It doesn't matter where the bill or billing is from
+AFTER H1 (HOLD; not approved for publication): It doesn't matter where the bill or billing is from
 AFTER targeting: It doesn't matter where the bill or billing is from — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

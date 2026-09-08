@@ -26,11 +26,11 @@ BEFORE description: If the couple wishes to live in Brazil after marriage, the f
 BEFORE H1: If the couple wishes to live in Brazil after marriage, the foreigner will need a
 BEFORE apparent targeting: If the couple wishes to live in Brazil after marriage, the foreigner will need a
 
-AFTER title: If the couple wishes to live in Brazil after marriage, the foreigner will need a | October 10, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: If the couple wishes to live in Brazil after marriage, the foreigner will need a
-Alternative B: If the couple wishes to live in Brazil after marriage, the foreigner will need a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If the couple wishes to live in Brazil after marriage, the foreigner will need a | October 10, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If the couple wishes to live in Brazil after marriage, the foreigner will need a: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: If the couple wishes to live in Brazil after marriage, the foreigner will need a
+AFTER H1 (HOLD; not approved for publication): If the couple wishes to live in Brazil after marriage, the foreigner will need a
 AFTER targeting: If the couple wishes to live in Brazil after marriage, the foreigner will need a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

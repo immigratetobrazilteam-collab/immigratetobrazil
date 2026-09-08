@@ -26,11 +26,11 @@ BEFORE description: Not everything is what it seems, especially in Brazilian cui
 BEFORE H1: Not everything is what it seems, especially in Brazilian cuisine!
 BEFORE apparent targeting: Not everything is what it seems, especially in Brazilian cuisine!
 
-AFTER title: Not everything is what it seems, especially in Brazilian cuisine! | August 28, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Not everything is what it seems, especially in Brazilian cuisine!
-Alternative B: Not everything is what it seems, especially in Brazilian cuisine! | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Not everything is what it seems, especially in Brazilian cuisine! | August 28, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Not everything is what it seems, especially in Brazilian cuisine!: This page brings earlier visa research into a clearer entry-planning format for Immigrate...
-AFTER H1: Not everything is what it seems, especially in Brazilian cuisine!
+AFTER H1 (HOLD; not approved for publication): Not everything is what it seems, especially in Brazilian cuisine!
 AFTER targeting: Not everything is what it seems, especially in Brazilian cuisine! — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

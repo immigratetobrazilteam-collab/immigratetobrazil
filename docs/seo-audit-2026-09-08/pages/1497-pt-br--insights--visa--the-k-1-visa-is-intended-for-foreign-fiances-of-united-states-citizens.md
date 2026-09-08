@@ -26,11 +26,11 @@ BEFORE description: O visto K-1 é destinado a noivos estrangeiros de cidadãos 
 BEFORE H1: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos
 BEFORE apparent targeting: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos
 
-AFTER title: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos | 30 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos
-Alternative B: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos | 30 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O visto K-1 é destinado a noivos estrangeiros de cidadãos dos Estados Unidos: esta página traz pesquisas anteriores sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos
+AFTER H1 (HOLD; not approved for publication): O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos
 AFTER targeting: O visto K-1 destina-se a noivos estrangeiros de cidadãos dos Estados Unidos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

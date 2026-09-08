@@ -26,11 +26,11 @@ BEFORE description: A autorização de residência permanente e a cidadania são
 BEFORE H1: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)
 BEFORE apparent targeting: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)
 
-AFTER title: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2) | 12 de março de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)
-Alternative B: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2) | 12 de março de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2): Esta página reorganiza conteúdo anterior sobre cidadania para uma visão mais clara...
-AFTER H1: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)
+AFTER H1 (HOLD; not approved for publication): A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2)
 AFTER targeting: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

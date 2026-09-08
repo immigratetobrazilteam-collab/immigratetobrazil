@@ -26,11 +26,11 @@ BEFORE description: O que acontece durante uma consulta de imigração? Esta pá
 BEFORE H1: O que acontece durante uma consulta de imigração?
 BEFORE apparent targeting: O que acontece durante uma consulta de imigração?
 
-AFTER title: O que acontece durante uma consulta de imigração? | 9 de outubro de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: O que acontece durante uma consulta de imigração?
-Alternative B: O que acontece durante uma consulta de imigração? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O que acontece durante uma consulta de imigração? | 9 de outubro de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O que acontece durante uma consulta de imigração? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para leitores que planejam imigração...
-AFTER H1: O que acontece durante uma consulta de imigração?
+AFTER H1 (HOLD; not approved for publication): O que acontece durante uma consulta de imigração?
 AFTER targeting: O que acontece durante uma consulta de imigração? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

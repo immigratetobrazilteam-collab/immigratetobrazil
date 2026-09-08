@@ -26,11 +26,11 @@ BEFORE description: Foreigners must prove legal residence in Portugal for at lea
 BEFORE H1: Foreigners must prove legal residence in Portugal for at least five years to acquire
 BEFORE apparent targeting: Foreigners must prove legal residence in Portugal for at least five years to acquire
 
-AFTER title: Foreigners must prove legal residence in Portugal for at least five years to acquire | April 25, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Foreigners must prove legal residence in Portugal for at least five years to acquire
-Alternative B: Foreigners must prove legal residence in Portugal for at least five years to acquire | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Foreigners must prove legal residence in Portugal for at least five years to acquire | April 25, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Foreigners must prove legal residence in Portugal for at least five years to acquire: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Foreigners must prove legal residence in Portugal for at least five years to acquire
+AFTER H1 (HOLD; not approved for publication): Foreigners must prove legal residence in Portugal for at least five years to acquire
 AFTER targeting: Foreigners must prove legal residence in Portugal for at least five years to acquire — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: How can I keep in touch with my child in Brazil if I dont li
 BEFORE H1: How can I keep in touch with my child in Brazil if I dont live there?
 BEFORE apparent targeting: How can I keep in touch with my child in Brazil if I dont live there?
 
-AFTER title: How can I keep in touch with my child in Brazil if I dont live there? | November 21, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: How can I keep in touch with my child in Brazil if I dont live there?
-Alternative B: How can I keep in touch with my child in Brazil if I dont live there? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): How can I keep in touch with my child in Brazil if I dont live there? | November 21, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: How can I keep in touch with my child in Brazil if I dont live there? This page brings earlier FAQ-style research into a clearer guidance page for readers...
-AFTER H1: How can I keep in touch with my child in Brazil if I dont live there?
+AFTER H1 (HOLD; not approved for publication): How can I keep in touch with my child in Brazil if I dont live there?
 AFTER targeting: How can I keep in touch with my child in Brazil if I dont live there? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

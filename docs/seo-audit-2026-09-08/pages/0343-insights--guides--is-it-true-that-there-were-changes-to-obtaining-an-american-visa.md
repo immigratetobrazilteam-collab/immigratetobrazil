@@ -26,11 +26,11 @@ BEFORE description: Is it true that there were changes to obtaining an American 
 BEFORE H1: Is it true that there were changes to obtaining an American visa?
 BEFORE apparent targeting: Is it true that there were changes to obtaining an American visa?
 
-AFTER title: Is it true that there were changes to obtaining an American visa? | May 16, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Is it true that there were changes to obtaining an American visa?
-Alternative B: Is it true that there were changes to obtaining an American visa? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Is it true that there were changes to obtaining an American visa? | May 16, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Is it true that there were changes to obtaining an American visa? This page brings earlier FAQ-style research into a clearer guidance page for readers...
-AFTER H1: Is it true that there were changes to obtaining an American visa?
+AFTER H1 (HOLD; not approved for publication): Is it true that there were changes to obtaining an American visa?
 AFTER targeting: Is it true that there were changes to obtaining an American visa? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

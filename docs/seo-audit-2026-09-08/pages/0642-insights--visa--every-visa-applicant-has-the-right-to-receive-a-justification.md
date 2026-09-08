@@ -26,11 +26,11 @@ BEFORE description: Every visa applicant has the right to receive a justificatio
 BEFORE H1: Every visa applicant has the right to receive a justification
 BEFORE apparent targeting: Every visa applicant has the right to receive a justification
 
-AFTER title: Every visa applicant has the right to receive a justification | October 24, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Every visa applicant has the right to receive a justification
-Alternative B: Every visa applicant has the right to receive a justification | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Every visa applicant has the right to receive a justification | October 24, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Every visa applicant has the right to receive a justification: This page brings earlier visa research into a clearer entry-planning format for Immigrate to...
-AFTER H1: Every visa applicant has the right to receive a justification
+AFTER H1 (HOLD; not approved for publication): Every visa applicant has the right to receive a justification
 AFTER targeting: Every visa applicant has the right to receive a justification — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

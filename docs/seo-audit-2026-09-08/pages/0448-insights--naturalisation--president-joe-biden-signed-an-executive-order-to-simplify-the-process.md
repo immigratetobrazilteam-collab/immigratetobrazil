@@ -26,11 +26,11 @@ BEFORE description: President Joe Biden signed an executive order to simplify th
 BEFORE H1: President Joe Biden signed an executive order to simplify the process of granting
 BEFORE apparent targeting: President Joe Biden signed an executive order to simplify the process of granting
 
-AFTER title: President Joe Biden signed an executive order to simplify the process of granting | July 10, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: President Joe Biden signed an executive order to simplify the process of granting
-Alternative B: President Joe Biden signed an executive order to simplify the process of granting | Monique Fernandes
+AFTER title (HOLD; not approved for publication): President Joe Biden signed an executive order to simplify the process of granting | July 10, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: President Joe Biden signed an executive order to simplify the process of granting: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: President Joe Biden signed an executive order to simplify the process of granting
+AFTER H1 (HOLD; not approved for publication): President Joe Biden signed an executive order to simplify the process of granting
 AFTER targeting: President Joe Biden signed an executive order to simplify the process of granting — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

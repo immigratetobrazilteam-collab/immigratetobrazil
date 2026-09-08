@@ -26,11 +26,11 @@ BEFORE description: Did you know that anyone who buys their first residential pr
 BEFORE H1: Did you know that anyone who buys their first residential property financed by SFH is
 BEFORE apparent targeting: Did you know that anyone who buys their first residential property financed by SFH is
 
-AFTER title: Did you know that anyone who buys their first residential property financed by SFH is | August 11, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Did you know that anyone who buys their first residential property financed by SFH is
-Alternative B: Did you know that anyone who buys their first residential property financed by SFH is | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Did you know that anyone who buys their first residential property financed by SFH is | August 11, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Did you know that anyone who buys their first residential property financed by SFH is: This page brings earlier FAQ-style research into a clearer guidance...
-AFTER H1: Did you know that anyone who buys their first residential property financed by SFH is
+AFTER H1 (HOLD; not approved for publication): Did you know that anyone who buys their first residential property financed by SFH is
 AFTER targeting: Did you know that anyone who buys their first residential property financed by SFH is — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

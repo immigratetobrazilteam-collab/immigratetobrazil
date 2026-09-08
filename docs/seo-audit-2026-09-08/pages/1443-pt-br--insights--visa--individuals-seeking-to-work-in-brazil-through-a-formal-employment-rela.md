@@ -26,11 +26,11 @@ BEFORE description: Indivíduos que buscam trabalhar no Brasil por meio de um v�
 BEFORE H1: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão
 BEFORE apparent targeting: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão
 
-AFTER title: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão | 12 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão
-Alternative B: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão | 12 de novembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Indivíduos que buscam trabalhar no Brasil por meio de um vínculo empregatício formal podem: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão
+AFTER H1 (HOLD; not approved for publication): Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão
 AFTER targeting: Indivíduos que buscam trabalhar no Brasil por meio de vínculo empregatício formal poderão — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

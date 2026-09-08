@@ -26,11 +26,11 @@ BEFORE description: Um Consulado Honorário é uma representação diplomática 
 BEFORE H1: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por
 BEFORE apparent targeting: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por
 
-AFTER title: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por | 17 de junho de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por
-Alternative B: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por | 17 de junho de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por: Esta página traz processos anteriores e apoia pesquisas para uma forma mais clara...
-AFTER H1: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por
+AFTER H1 (HOLD; not approved for publication): Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por
 AFTER targeting: Um Consulado Honorário é uma representação diplomática voluntária de um país, liderada por — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

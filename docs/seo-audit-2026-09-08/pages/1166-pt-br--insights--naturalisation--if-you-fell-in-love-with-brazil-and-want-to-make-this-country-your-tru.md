@@ -26,11 +26,11 @@ BEFORE description: Se você se apaixonou por Brasil e quer fazer deste país se
 BEFORE H1: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se
 BEFORE apparent targeting: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se
 
-AFTER title: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se | 2 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se
-Alternative B: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se | 2 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se
+AFTER H1 (HOLD; not approved for publication): Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se
 AFTER targeting: Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

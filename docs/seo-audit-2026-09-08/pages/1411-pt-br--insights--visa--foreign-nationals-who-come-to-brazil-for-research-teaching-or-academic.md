@@ -26,11 +26,11 @@ BEFORE description: Cidadãos estrangeiros que vêm ao Brasil para pesquisa, ens
 BEFORE H1: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,
 BEFORE apparent targeting: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,
 
-AFTER title: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica, | 28 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,
-Alternative B: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica, | 28 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Cidadãos estrangeiros que vêm ao Brasil para pesquisa, ensino ou extensão acadêmica: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,
+AFTER H1 (HOLD; not approved for publication): Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica,
 AFTER targeting: Estrangeiros que venham ao Brasil para pesquisa, ensino ou extensão acadêmica, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

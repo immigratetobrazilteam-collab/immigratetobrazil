@@ -14,7 +14,7 @@ User problem / SEO objective: História | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: História | Monique Fernandes
 Primary keyword/focus field: História | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["História | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: História
 BEFORE apparent targeting: História de Monique Fernandes
 
 AFTER title: História | Monique Fernandes
-Alternative A: História | Monique Fernandes
-Alternative B: História | Monique Fernandes | Monique Fernandes
+Alternative A: História
+Alternative B: História | Immigrate to Brazil
 AFTER description: Esta página traça como Monique Fernandes construiu uma prática de imigração centrada na clareza, dignidade e melhor orientação para pessoas que constroem um futuro no Brasil.
 AFTER H1: História | Monique Fernandes
 AFTER targeting: História | Monique Fernandes — navigational

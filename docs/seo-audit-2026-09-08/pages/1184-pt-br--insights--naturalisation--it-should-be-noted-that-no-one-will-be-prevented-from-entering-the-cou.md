@@ -26,11 +26,11 @@ BEFORE description: Deve-se notar que ninguém será impedido de entrar no país
 BEFORE H1: Deve-se notar que ninguém será impedido de entrar no país devido a
 BEFORE apparent targeting: Deve-se notar que ninguém será impedido de entrar no país devido a
 
-AFTER title: Deve-se notar que ninguém será impedido de entrar no país devido a | 6 de junho de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Deve-se notar que ninguém será impedido de entrar no país devido a
-Alternative B: Deve-se notar que ninguém será impedido de entrar no país devido a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Deve-se notar que ninguém será impedido de entrar no país devido a | 6 de junho de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Deve-se notar que ninguém será impedido de entrar no país devido a: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Deve-se notar que ninguém será impedido de entrar no país devido a
+AFTER H1 (HOLD; not approved for publication): Deve-se notar que ninguém será impedido de entrar no país devido a
 AFTER targeting: Deve-se notar que ninguém será impedido de entrar no país devido a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

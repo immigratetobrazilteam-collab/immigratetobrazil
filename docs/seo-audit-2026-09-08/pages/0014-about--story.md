@@ -14,7 +14,7 @@ User problem / SEO objective: The Story Behind Monique Fernandes’ Practice
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: The Story Behind Monique Fernandes’ Practice
 Primary keyword/focus field: The Story Behind Monique Fernandes’ Practice; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["The Story Behind Monique Fernandes’ Practice questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Story
 BEFORE apparent targeting: Monique Fernandes Story
 
 AFTER title: The Story Behind Monique Fernandes’ Practice
-Alternative A: The Story Behind Monique Fernandes’ Practice
-Alternative B: The Story Behind Monique Fernandes’ Practice | Monique Fernandes
+Alternative A: The Story Behind Monique Fernandes’ Practice | Monique Fernandes
+Alternative B: The Story Behind Monique Fernandes’ Practice | Immigrate to Brazil
 AFTER description: This page traces how Monique Fernandes built an immigration practice centered on clarity, dignity, and better guidance for people building a future in Brazil.
 AFTER H1: The Story Behind Monique Fernandes’ Practice
 AFTER targeting: The Story Behind Monique Fernandes’ Practice — navigational

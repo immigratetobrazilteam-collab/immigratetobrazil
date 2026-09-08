@@ -26,11 +26,11 @@ BEFORE description: É possível ir ao Brasil como turista e casar ou reconhecer
 BEFORE H1: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania
 BEFORE apparent targeting: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania
 
-AFTER title: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania | 4 de dezembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania
-Alternative B: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania | 4 de dezembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É possível ir ao Brasil como turista e casar ou reconhecer seu civil: Esta página traz pesquisas anteriores de visto para um planejamento da entrada no Brasil mais claro...
-AFTER H1: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania
+AFTER H1 (HOLD; not approved for publication): É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania
 AFTER targeting: É possível ir ao Brasil como turista e casar ou reconhecer sua cidadania — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

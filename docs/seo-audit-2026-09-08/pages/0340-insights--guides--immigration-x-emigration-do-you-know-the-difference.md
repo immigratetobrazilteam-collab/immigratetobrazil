@@ -26,11 +26,11 @@ BEFORE description: Immigration x Emigration: do you know the difference? This p
 BEFORE H1: Immigration x Emigration: do you know the difference?
 BEFORE apparent targeting: Immigration x Emigration: do you know the difference?
 
-AFTER title: Immigration x Emigration: do you know the difference? | July 7, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Immigration x Emigration: do you know the difference?
-Alternative B: Immigration x Emigration: do you know the difference? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Immigration x Emigration: do you know the difference? | July 7, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Immigration x Emigration: do you know the difference? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Immigration x Emigration: do you know the difference?
+AFTER H1 (HOLD; not approved for publication): Immigration x Emigration: do you know the difference?
 AFTER targeting: Immigration x Emigration: do you know the difference? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

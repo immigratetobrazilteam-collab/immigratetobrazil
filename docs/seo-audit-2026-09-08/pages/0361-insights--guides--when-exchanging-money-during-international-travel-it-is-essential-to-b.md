@@ -26,11 +26,11 @@ BEFORE description: When exchanging money during international travel, it is ess
 BEFORE H1: When exchanging money during international travel, it is essential to be cautious
 BEFORE apparent targeting: When exchanging money during international travel, it is essential to be cautious
 
-AFTER title: When exchanging money during international travel, it is essential to be cautious | February 10, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: When exchanging money during international travel, it is essential to be cautious
-Alternative B: When exchanging money during international travel, it is essential to be cautious | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When exchanging money during international travel, it is essential to be cautious | February 10, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When exchanging money during international travel, it is essential to be cautious: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: When exchanging money during international travel, it is essential to be cautious
+AFTER H1 (HOLD; not approved for publication): When exchanging money during international travel, it is essential to be cautious
 AFTER targeting: When exchanging money during international travel, it is essential to be cautious — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

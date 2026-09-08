@@ -26,11 +26,11 @@ BEFORE description: Once approved, this process grants you full Brazilian citize
 BEFORE H1: Once approved, this process grants you full Brazilian citizenship, with access to all
 BEFORE apparent targeting: Once approved, this process grants you full Brazilian citizenship, with access to all
 
-AFTER title: Once approved, this process grants you full Brazilian citizenship, with access to all | September 25, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Once approved, this process grants you full Brazilian citizenship, with access to all
-Alternative B: Once approved, this process grants you full Brazilian citizenship, with access to all | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Once approved, this process grants you full Brazilian citizenship, with access to all | September 25, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Once approved, this process grants you full Brazilian citizenship, with access to all: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Once approved, this process grants you full Brazilian citizenship, with access to all
+AFTER H1 (HOLD; not approved for publication): Once approved, this process grants you full Brazilian citizenship, with access to all
 AFTER targeting: Once approved, this process grants you full Brazilian citizenship, with access to all — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

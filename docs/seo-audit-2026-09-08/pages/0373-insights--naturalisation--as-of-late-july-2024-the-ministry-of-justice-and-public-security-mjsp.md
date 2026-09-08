@@ -26,11 +26,11 @@ BEFORE description: As of late July 2024, the Ministry of Justice and Public Sec
 BEFORE H1: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488
 BEFORE apparent targeting: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488
 
-AFTER title: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 | November 12, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488
-Alternative B: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 | November 12, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488
+AFTER H1 (HOLD; not approved for publication): As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488
 AFTER targeting: As of late July 2024, the Ministry of Justice and Public Security (MJSP) had 12,488 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

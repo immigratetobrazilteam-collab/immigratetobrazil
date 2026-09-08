@@ -26,11 +26,11 @@ BEFORE description: Brazilian Student Visa for Medical Studies The Brazilian Stu
 BEFORE H1: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical
 BEFORE apparent targeting: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical
 
-AFTER title: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical | December 2, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical
-Alternative B: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical | December 2, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical
+AFTER H1 (HOLD; not approved for publication): Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical
 AFTER targeting: Brazilian Student Visa for Medical Studies The Brazilian Student Visa for medical — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

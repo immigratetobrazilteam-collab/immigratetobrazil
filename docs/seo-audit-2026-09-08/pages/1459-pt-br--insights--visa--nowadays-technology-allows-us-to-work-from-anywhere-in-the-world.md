@@ -26,11 +26,11 @@ BEFORE description: Hoje em dia, a tecnologia nos permite trabalhar de qualquer 
 BEFORE H1: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo
 BEFORE apparent targeting: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo
 
-AFTER title: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo | 28 de setembro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo
-Alternative B: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo | 28 de setembro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para Imigração...
-AFTER H1: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo
+AFTER H1 (HOLD; not approved for publication): Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo
 AFTER targeting: Hoje em dia, a tecnologia nos permite trabalhar de qualquer lugar do mundo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

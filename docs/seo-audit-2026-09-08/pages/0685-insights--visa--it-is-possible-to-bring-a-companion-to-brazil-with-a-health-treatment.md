@@ -26,11 +26,11 @@ BEFORE description: It is possible to bring a companion to Brazil with a Health 
 BEFORE H1: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as
 BEFORE apparent targeting: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as
 
-AFTER title: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as | January 14, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as
-Alternative B: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It is possible to bring a companion to Brazil with a Health Treatment visa, as long as | January 14, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as
+AFTER H1 (HOLD; not approved for publication): It is possible to bring a companion to Brazil with a Health Treatment visa, as long as
 AFTER targeting: It is possible to bring a companion to Brazil with a Health Treatment visa, as long as — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

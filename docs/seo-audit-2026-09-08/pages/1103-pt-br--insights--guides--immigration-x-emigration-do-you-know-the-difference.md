@@ -26,11 +26,11 @@ BEFORE description: Imigração x Emigração: você sabe a diferença? Esta pá
 BEFORE H1: Imigração x Emigração: você sabe a diferença?
 BEFORE apparent targeting: Imigração x Emigração: você sabe a diferença?
 
-AFTER title: Imigração x Emigração: você sabe a diferença? | 7 de julho de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Imigração x Emigração: você sabe a diferença?
-Alternative B: Imigração x Emigração: você sabe a diferença? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Imigração x Emigração: você sabe a diferença? | 7 de julho de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Imigração x Emigração: você sabe a diferença? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para os leitores que planejam...
-AFTER H1: Imigração x Emigração: você sabe a diferença?
+AFTER H1 (HOLD; not approved for publication): Imigração x Emigração: você sabe a diferença?
 AFTER targeting: Imigração x Emigração: você sabe a diferença? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

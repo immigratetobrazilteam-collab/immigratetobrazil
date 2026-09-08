@@ -26,11 +26,11 @@ BEFORE description: Brazil Makes The Top 10!: Brazil Makes the Top 10! The World
 BEFORE H1: Brazil Makes The Top 10!
 BEFORE apparent targeting: Brazil Makes The Top 10!
 
-AFTER title: Brazil Makes The Top 10! | FYI | Immigrate to Brazil
-Alternative A: Brazil Makes The Top 10!
-Alternative B: Brazil Makes The Top 10! | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil Makes The Top 10! | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil Makes The Top 10!: Brazil Makes the Top 10! The World's Most Welcoming Countries for LGBTQ+ Travelers & Expats In 2025, according to the Equality Index...
-AFTER H1: Brazil Makes The Top 10!
+AFTER H1 (HOLD; not approved for publication): Brazil Makes The Top 10!
 AFTER targeting: Brazil Makes The Top 10! — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

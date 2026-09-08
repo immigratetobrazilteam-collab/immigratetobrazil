@@ -26,11 +26,11 @@ BEFORE description: Living in Brazil and had an issue with a product or service?
 BEFORE H1: Living in Brazil and had an issue with a product or service?
 BEFORE apparent targeting: Living in Brazil and had an issue with a product or service?
 
-AFTER title: Living in Brazil and had an issue with a product or service? | July 8, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Living in Brazil and had an issue with a product or service?
-Alternative B: Living in Brazil and had an issue with a product or service? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Living in Brazil and had an issue with a product or service? | July 8, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Living in Brazil and had an issue with a product or service? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Living in Brazil and had an issue with a product or service?
+AFTER H1 (HOLD; not approved for publication): Living in Brazil and had an issue with a product or service?
 AFTER targeting: Living in Brazil and had an issue with a product or service? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: International Buyers Can Purchase Property In Brazil: How Do
 BEFORE H1: International Buyers Can Purchase Property In Brazil: How Does It Work?
 BEFORE apparent targeting: International Buyers Can Purchase Property In Brazil: How Does It Work?
 
-AFTER title: International Buyers Can Purchase Property In Brazil: How Does It Work? | FYI | Immigrate to Brazil
-Alternative A: International Buyers Can Purchase Property In Brazil: How Does It Work?
-Alternative B: International Buyers Can Purchase Property In Brazil: How Does It Work? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): International Buyers Can Purchase Property In Brazil: How Does It Work? | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: International Buyers Can Purchase Property In Brazil: How Does It Work? International Buyers Can Purchase Property in Brazil: How does it work? International...
-AFTER H1: International Buyers Can Purchase Property In Brazil: How Does It Work?
+AFTER H1 (HOLD; not approved for publication): International Buyers Can Purchase Property In Brazil: How Does It Work?
 AFTER targeting: International Buyers Can Purchase Property In Brazil: How Does It Work? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: I have a Brazilian residence permit and I want to move to an
 BEFORE H1: I have a Brazilian residence permit and I want to move to another region in Brazil
 BEFORE apparent targeting: I have a Brazilian residence permit and I want to move to another region in Brazil
 
-AFTER title: I have a Brazilian residence permit and I want to move to another region in Brazil | June 29, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: I have a Brazilian residence permit and I want to move to another region in Brazil
-Alternative B: I have a Brazilian residence permit and I want to move to another region in Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): I have a Brazilian residence permit and I want to move to another region in Brazil | June 29, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: I have a Brazilian residence permit and I want to move to another region in Brazil: This page brings earlier residency research into a clearer framework for...
-AFTER H1: I have a Brazilian residence permit and I want to move to another region in Brazil
+AFTER H1 (HOLD; not approved for publication): I have a Brazilian residence permit and I want to move to another region in Brazil
 AFTER targeting: I have a Brazilian residence permit and I want to move to another region in Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

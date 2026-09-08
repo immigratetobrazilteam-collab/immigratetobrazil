@@ -26,11 +26,11 @@ BEFORE description: Refugees, unlike other immigrants, are those who suffer comp
 BEFORE H1: Refugees, unlike other immigrants, are those who suffer compulsory displacement,
 BEFORE apparent targeting: Refugees, unlike other immigrants, are those who suffer compulsory displacement,
 
-AFTER title: Refugees, unlike other immigrants, are those who suffer compulsory displacement, | April 8, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Refugees, unlike other immigrants, are those who suffer compulsory displacement,
-Alternative B: Refugees, unlike other immigrants, are those who suffer compulsory displacement, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Refugees, unlike other immigrants, are those who suffer compulsory displacement, | April 8, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Refugees, unlike other immigrants, are those who suffer compulsory displacement,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Refugees, unlike other immigrants, are those who suffer compulsory displacement,
+AFTER H1 (HOLD; not approved for publication): Refugees, unlike other immigrants, are those who suffer compulsory displacement,
 AFTER targeting: Refugees, unlike other immigrants, are those who suffer compulsory displacement, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: What to do after arriving in Brazil with a visa that allows 
 BEFORE H1: What to do after arriving in Brazil with a visa that allows residency?
 BEFORE apparent targeting: What to do after arriving in Brazil with a visa that allows residency?
 
-AFTER title: What to do after arriving in Brazil with a visa that allows residency? | November 13, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: What to do after arriving in Brazil with a visa that allows residency?
-Alternative B: What to do after arriving in Brazil with a visa that allows residency? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): What to do after arriving in Brazil with a visa that allows residency? | November 13, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: What to do after arriving in Brazil with a visa that allows residency? This page brings earlier FAQ-style research into a clearer guidance page for readers...
-AFTER H1: What to do after arriving in Brazil with a visa that allows residency?
+AFTER H1 (HOLD; not approved for publication): What to do after arriving in Brazil with a visa that allows residency?
 AFTER targeting: What to do after arriving in Brazil with a visa that allows residency? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

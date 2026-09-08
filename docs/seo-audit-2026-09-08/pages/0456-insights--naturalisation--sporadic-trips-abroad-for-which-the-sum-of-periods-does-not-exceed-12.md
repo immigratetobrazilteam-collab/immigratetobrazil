@@ -26,11 +26,11 @@ BEFORE description: Sporadic trips abroad for which the sum of periods does not 
 BEFORE H1: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and
 BEFORE apparent targeting: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and
 
-AFTER title: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and | August 30, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and
-Alternative B: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Sporadic trips abroad for which the sum of periods does not exceed 12 months, and | August 30, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and
+AFTER H1 (HOLD; not approved for publication): Sporadic trips abroad for which the sum of periods does not exceed 12 months, and
 AFTER targeting: Sporadic trips abroad for which the sum of periods does not exceed 12 months, and — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

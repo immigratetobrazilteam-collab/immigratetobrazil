@@ -26,11 +26,11 @@ BEFORE description: In Brazil, the Registro Nacional de Migrante (RNM) is the re
 BEFORE H1: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants
 BEFORE apparent targeting: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants
 
-AFTER title: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants | September 30, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants
-Alternative B: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants | September 30, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants: This page brings earlier residency research into a clearer framework for...
-AFTER H1: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants
+AFTER H1 (HOLD; not approved for publication): In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants
 AFTER targeting: In Brazil, the Registro Nacional de Migrante (RNM) is the registration of immigrants — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

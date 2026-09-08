@@ -26,11 +26,11 @@ BEFORE description: Residence permit in Brazil due to the MERCOSUR agreement Thi
 BEFORE H1: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has
 BEFORE apparent targeting: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has
 
-AFTER title: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has | June 9, 2023 | Residency Insight | Immigrate to Brazil
-Alternative A: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has
-Alternative B: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Residence permit in Brazil due to the MERCOSUR agreement This residence permit has | June 9, 2023 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has: This page brings earlier residency research into a clearer framework for...
-AFTER H1: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has
+AFTER H1 (HOLD; not approved for publication): Residence permit in Brazil due to the MERCOSUR agreement This residence permit has
 AFTER targeting: Residence permit in Brazil due to the MERCOSUR agreement This residence permit has — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

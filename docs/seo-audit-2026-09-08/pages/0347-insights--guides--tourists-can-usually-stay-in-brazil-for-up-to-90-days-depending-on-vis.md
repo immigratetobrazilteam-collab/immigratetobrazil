@@ -26,11 +26,11 @@ BEFORE description: Tourists can usually stay in Brazil for up to 90 days, depen
 BEFORE H1: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements
 BEFORE apparent targeting: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements
 
-AFTER title: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements | July 10, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements
-Alternative B: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements | July 10, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements
+AFTER H1 (HOLD; not approved for publication): Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements
 AFTER targeting: Tourists can usually stay in Brazil for up to 90 days, depending on visa agreements — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Relocating to Brazil with your family is certainly possible,
 BEFORE H1: Relocating to Brazil with your family is certainly possible, as long as the correct
 BEFORE apparent targeting: Relocating to Brazil with your family is certainly possible, as long as the correct
 
-AFTER title: Relocating to Brazil with your family is certainly possible, as long as the correct | October 3, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Relocating to Brazil with your family is certainly possible, as long as the correct
-Alternative B: Relocating to Brazil with your family is certainly possible, as long as the correct | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Relocating to Brazil with your family is certainly possible, as long as the correct | October 3, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Relocating to Brazil with your family is certainly possible, as long as the correct: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Relocating to Brazil with your family is certainly possible, as long as the correct
+AFTER H1 (HOLD; not approved for publication): Relocating to Brazil with your family is certainly possible, as long as the correct
 AFTER targeting: Relocating to Brazil with your family is certainly possible, as long as the correct — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

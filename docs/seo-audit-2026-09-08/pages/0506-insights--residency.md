@@ -14,7 +14,7 @@ User problem / SEO objective: Residency: Brazil Immigration Reading
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Residency: Brazil Immigration Reading
 Primary keyword/focus field: Residency: Brazil Immigration Reading; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Residency: Brazil Immigration Reading questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

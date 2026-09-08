@@ -26,11 +26,11 @@ BEFORE description: Brasil está ajustando suas regras para entrada de passageir
 BEFORE H1: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em
 BEFORE apparent targeting: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em
 
-AFTER title: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em | 28 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em
-Alternative B: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em | 28 de outubro de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em: Registro de arquivo: 10 de março de 2026. Esta página traz atualização anterior...
-AFTER H1: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em
+AFTER H1 (HOLD; not approved for publication): Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em
 AFTER targeting: Brasil está ajustando suas regras para entrada de passageiros em trânsito sem visto, em — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

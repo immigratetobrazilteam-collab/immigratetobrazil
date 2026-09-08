@@ -26,11 +26,11 @@ BEFORE description: You should request for your Brazilian ID to be renewed at le
 BEFORE H1: You should request for your Brazilian ID to be renewed at least 90 days before it runs
 BEFORE apparent targeting: You should request for your Brazilian ID to be renewed at least 90 days before it runs
 
-AFTER title: You should request for your Brazilian ID to be renewed at least 90 days before it runs | April 13, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: You should request for your Brazilian ID to be renewed at least 90 days before it runs
-Alternative B: You should request for your Brazilian ID to be renewed at least 90 days before it runs | Monique Fernandes
+AFTER title (HOLD; not approved for publication): You should request for your Brazilian ID to be renewed at least 90 days before it runs | April 13, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: You should request for your Brazilian ID to be renewed at least 90 days before it runs: This page brings earlier process and support research into a clearer...
-AFTER H1: You should request for your Brazilian ID to be renewed at least 90 days before it runs
+AFTER H1 (HOLD; not approved for publication): You should request for your Brazilian ID to be renewed at least 90 days before it runs
 AFTER targeting: You should request for your Brazilian ID to be renewed at least 90 days before it runs — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

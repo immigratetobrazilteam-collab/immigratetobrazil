@@ -26,11 +26,11 @@ BEFORE description: In Brazil, undergraduate and postgraduate diplomas obtained 
 BEFORE H1: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through
 BEFORE apparent targeting: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through
 
-AFTER title: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through | September 16, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through
-Alternative B: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through | September 16, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through
+AFTER H1 (HOLD; not approved for publication): In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through
 AFTER targeting: In Brazil, undergraduate and postgraduate diplomas obtained abroad must go through — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

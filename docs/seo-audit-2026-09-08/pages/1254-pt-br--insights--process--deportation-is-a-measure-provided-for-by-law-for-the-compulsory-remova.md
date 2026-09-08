@@ -26,11 +26,11 @@ BEFORE description: A deportação é uma medida prevista em lei para a remoçã
 BEFORE H1: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros
 BEFORE apparent targeting: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros
 
-AFTER title: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros | 8 de novembro de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros
-Alternative B: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros | 8 de novembro de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros: Esta página antecipa o processo e apoia a pesquisa de uma forma mais clara...
-AFTER H1: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros
+AFTER H1 (HOLD; not approved for publication): A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros
 AFTER targeting: A deportação é uma medida prevista em lei para a remoção compulsória de estrangeiros — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

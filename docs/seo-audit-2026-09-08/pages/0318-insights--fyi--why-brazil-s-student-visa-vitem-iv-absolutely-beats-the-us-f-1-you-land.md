@@ -26,11 +26,11 @@ BEFORE description: Why brazil s student visa vitem iv absolutely beats the us f
 BEFORE H1: Why brazil s student visa vitem iv absolutely beats the us f 1 you land
 BEFORE apparent targeting: Why brazil s student visa vitem iv absolutely beats the us f 1 you land
 
-AFTER title: Why brazil s student visa vitem iv absolutely beats the us f 1 you land | FYI | Immigrate to Brazil
-Alternative A: Why brazil s student visa vitem iv absolutely beats the us f 1 you land
-Alternative B: Why brazil s student visa vitem iv absolutely beats the us f 1 you land | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Why brazil s student visa vitem iv absolutely beats the us f 1 you land | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Why brazil s student visa vitem iv absolutely beats the us f 1 you land: Why Brazil's Student Visa (VITEM-IV) Absolutely Beats the US F-1 You land in Brazil...
-AFTER H1: Why brazil s student visa vitem iv absolutely beats the us f 1 you land
+AFTER H1 (HOLD; not approved for publication): Why brazil s student visa vitem iv absolutely beats the us f 1 you land
 AFTER targeting: Why brazil s student visa vitem iv absolutely beats the us f 1 you land — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

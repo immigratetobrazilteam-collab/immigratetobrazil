@@ -26,11 +26,11 @@ BEFORE description: In Brazilian immigration matters, foreign nationals could ap
 BEFORE H1: In Brazilian immigration matters, foreign nationals could apply for a family
 BEFORE apparent targeting: In Brazilian immigration matters, foreign nationals could apply for a family
 
-AFTER title: In Brazilian immigration matters, foreign nationals could apply for a family | November 27, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: In Brazilian immigration matters, foreign nationals could apply for a family
-Alternative B: In Brazilian immigration matters, foreign nationals could apply for a family | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In Brazilian immigration matters, foreign nationals could apply for a family | November 27, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In Brazilian immigration matters, foreign nationals could apply for a family: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: In Brazilian immigration matters, foreign nationals could apply for a family
+AFTER H1 (HOLD; not approved for publication): In Brazilian immigration matters, foreign nationals could apply for a family
 AFTER targeting: In Brazilian immigration matters, foreign nationals could apply for a family — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

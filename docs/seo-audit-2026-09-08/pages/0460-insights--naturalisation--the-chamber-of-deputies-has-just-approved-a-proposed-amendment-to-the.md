@@ -26,11 +26,11 @@ BEFORE description: The Chamber of Deputies has just approved a Proposed Amendme
 BEFORE H1: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution
 BEFORE apparent targeting: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution
 
-AFTER title: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution | December 7, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution
-Alternative B: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Chamber of Deputies has just approved a Proposed Amendment to the Constitution | December 7, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution
+AFTER H1 (HOLD; not approved for publication): The Chamber of Deputies has just approved a Proposed Amendment to the Constitution
 AFTER targeting: The Chamber of Deputies has just approved a Proposed Amendment to the Constitution — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

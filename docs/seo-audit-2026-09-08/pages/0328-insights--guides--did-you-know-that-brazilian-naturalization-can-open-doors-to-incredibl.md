@@ -26,11 +26,11 @@ BEFORE description: Did you know that Brazilian naturalization can open doors to
 BEFORE H1: Did you know that Brazilian naturalization can open doors to incredible opportunities?
 BEFORE apparent targeting: Did you know that Brazilian naturalization can open doors to incredible opportunities?
 
-AFTER title: Did you know that Brazilian naturalization can open doors to incredible opportunities? | August 29, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: Did you know that Brazilian naturalization can open doors to incredible opportunities?
-Alternative B: Did you know that Brazilian naturalization can open doors to incredible opportunities? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Did you know that Brazilian naturalization can open doors to incredible opportunities? | August 29, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Did you know that Brazilian naturalization can open doors to incredible opportunities? This page brings earlier FAQ-style research into a clearer guidance...
-AFTER H1: Did you know that Brazilian naturalization can open doors to incredible opportunities?
+AFTER H1 (HOLD; not approved for publication): Did you know that Brazilian naturalization can open doors to incredible opportunities?
 AFTER targeting: Did you know that Brazilian naturalization can open doors to incredible opportunities? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Brazil's Digital Nomad Visa is your ticket to an incredible 
 BEFORE H1: Brazil's Digital Nomad Visa is your ticket to an incredible experience
 BEFORE apparent targeting: Brazil's Digital Nomad Visa is your ticket to an incredible experience
 
-AFTER title: Brazil's Digital Nomad Visa is your ticket to an incredible experience | February 8, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil's Digital Nomad Visa is your ticket to an incredible experience
-Alternative B: Brazil's Digital Nomad Visa is your ticket to an incredible experience | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil's Digital Nomad Visa is your ticket to an incredible experience | February 8, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil's Digital Nomad Visa is your ticket to an incredible experience: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Brazil's Digital Nomad Visa is your ticket to an incredible experience
+AFTER H1 (HOLD; not approved for publication): Brazil's Digital Nomad Visa is your ticket to an incredible experience
 AFTER targeting: Brazil's Digital Nomad Visa is your ticket to an incredible experience — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

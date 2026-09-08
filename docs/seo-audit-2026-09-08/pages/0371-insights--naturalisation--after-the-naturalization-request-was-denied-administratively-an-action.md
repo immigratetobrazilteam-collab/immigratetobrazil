@@ -26,11 +26,11 @@ BEFORE description: After the naturalization request was denied administratively
 BEFORE H1: After the naturalization request was denied administratively, an action was filed at
 BEFORE apparent targeting: After the naturalization request was denied administratively, an action was filed at
 
-AFTER title: After the naturalization request was denied administratively, an action was filed at | December 12, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: After the naturalization request was denied administratively, an action was filed at
-Alternative B: After the naturalization request was denied administratively, an action was filed at | Monique Fernandes
+AFTER title (HOLD; not approved for publication): After the naturalization request was denied administratively, an action was filed at | December 12, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: After the naturalization request was denied administratively, an action was filed at: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: After the naturalization request was denied administratively, an action was filed at
+AFTER H1 (HOLD; not approved for publication): After the naturalization request was denied administratively, an action was filed at
 AFTER targeting: After the naturalization request was denied administratively, an action was filed at — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

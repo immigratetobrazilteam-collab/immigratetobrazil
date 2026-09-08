@@ -26,11 +26,11 @@ BEFORE description: Orientação jurídica: elegibilidade, requisitos e etapas d
 BEFORE H1: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)
 BEFORE apparent targeting: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)
 
-AFTER title: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5) | 1º de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)
-Alternative B: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5) | 1º de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Orientação jurídica: elegibilidade, requisitos e etapas de arquivamento (5): Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para os leitores compararem...
-AFTER H1: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)
+AFTER H1 (HOLD; not approved for publication): Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5)
 AFTER targeting: Orientação legal: elegibilidade, requisitos e etapas de arquivamento (5) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

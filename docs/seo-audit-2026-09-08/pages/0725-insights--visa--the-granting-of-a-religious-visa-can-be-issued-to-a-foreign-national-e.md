@@ -26,11 +26,11 @@ BEFORE description: The granting of a religious visa can be issued to a foreign 
 BEFORE H1: The granting of a religious visa can be issued to a foreign national entering Brazil
 BEFORE apparent targeting: The granting of a religious visa can be issued to a foreign national entering Brazil
 
-AFTER title: The granting of a religious visa can be issued to a foreign national entering Brazil | December 9, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: The granting of a religious visa can be issued to a foreign national entering Brazil
-Alternative B: The granting of a religious visa can be issued to a foreign national entering Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The granting of a religious visa can be issued to a foreign national entering Brazil | December 9, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The granting of a religious visa can be issued to a foreign national entering Brazil: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The granting of a religious visa can be issued to a foreign national entering Brazil
+AFTER H1 (HOLD; not approved for publication): The granting of a religious visa can be issued to a foreign national entering Brazil
 AFTER targeting: The granting of a religious visa can be issued to a foreign national entering Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

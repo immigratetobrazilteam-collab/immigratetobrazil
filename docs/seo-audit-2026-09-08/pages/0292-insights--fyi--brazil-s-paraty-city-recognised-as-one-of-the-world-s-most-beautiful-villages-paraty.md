@@ -26,11 +26,11 @@ BEFORE description: Brazil s paraty city recognised as one of the world s most b
 BEFORE H1: Brazil s paraty city recognised as one of the world s most beautiful villages paraty
 BEFORE apparent targeting: Brazil s paraty city recognised as one of the world s most beautiful villages paraty
 
-AFTER title: Brazil s paraty city recognised as one of the world s most beautiful villages paraty | FYI | Immigrate to Brazil
-Alternative A: Brazil s paraty city recognised as one of the world s most beautiful villages paraty
-Alternative B: Brazil s paraty city recognised as one of the world s most beautiful villages paraty | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil s paraty city recognised as one of the world s most beautiful villages paraty | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil s paraty city recognised as one of the world s most beautiful villages paraty: Brazil's Paraty City Recognised as One of the World's Most Beautiful...
-AFTER H1: Brazil s paraty city recognised as one of the world s most beautiful villages paraty
+AFTER H1 (HOLD; not approved for publication): Brazil s paraty city recognised as one of the world s most beautiful villages paraty
 AFTER targeting: Brazil s paraty city recognised as one of the world s most beautiful villages paraty — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

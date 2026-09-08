@@ -26,11 +26,11 @@ BEFORE description: Não haverá mais cobrança de imposto de importação nas c
 BEFORE H1: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto
 BEFORE apparent targeting: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto
 
-AFTER title: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto | 8 de agosto de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto
-Alternative B: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto | 8 de agosto de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto: Registro de arquivo: 9 de março de 2026. Esta página traz...
-AFTER H1: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto
+AFTER H1 (HOLD; not approved for publication): Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto
 AFTER targeting: Não haverá mais cobrança de imposto de importação nas compras online de até US$ 50 realizadas a partir de agosto — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

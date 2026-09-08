@@ -26,11 +26,11 @@ BEFORE description: A união estável formada no exterior pode ser reconhecida n
 BEFORE H1: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,
 BEFORE apparent targeting: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,
 
-AFTER title: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro, | 3 de abril de 2025 | Visão de residência | Imigre para o Brasil
-Alternative A: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,
-Alternative B: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro, | 3 de abril de 2025 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A união estável formada no exterior pode ser reconhecida no Brasil mediante registro,: Esta página traz a pesquisa de residência anterior em um quadro mais claro para...
-AFTER H1: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,
+AFTER H1 (HOLD; not approved for publication): A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro,
 AFTER targeting: A união estável constituída no exterior poderá ser reconhecida no Brasil mediante registro, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

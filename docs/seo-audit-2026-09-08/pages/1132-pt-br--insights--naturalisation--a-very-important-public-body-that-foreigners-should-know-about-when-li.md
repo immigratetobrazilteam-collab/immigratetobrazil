@@ -26,11 +26,11 @@ BEFORE description: Um órgão público muito importante que os estrangeiros dev
 BEFORE H1: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil
 BEFORE apparent targeting: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil
 
-AFTER title: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil | 29 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil
-Alternative B: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil | 29 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Um órgão público muito importante que os estrangeiros devem conhecer quando vivem no Brasil: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil
+AFTER H1 (HOLD; not approved for publication): Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil
 AFTER targeting: Um órgão público muito importante que os estrangeiros devem conhecer quando moram no Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Em Brasil, os padres devem ir até a escola pública mais pr
 BEFORE H1: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho
 BEFORE apparent targeting: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho
 
-AFTER title: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho | 16 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho
-Alternative B: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho | 16 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar seu filho: Esta página traz a pesquisa anterior de visto em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho
+AFTER H1 (HOLD; not approved for publication): Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho
 AFTER targeting: Em Brasil, os padres devem ir até a escola pública mais próxima e solicitar que seu filho — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

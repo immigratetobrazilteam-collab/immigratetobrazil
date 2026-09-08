@@ -26,11 +26,11 @@ BEFORE description: Brasil oferece visto humanitário para indivíduos em situa�
 BEFORE H1: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,
 BEFORE apparent targeting: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,
 
-AFTER title: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade, | 18 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,
-Alternative B: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade, | 18 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,
+AFTER H1 (HOLD; not approved for publication): Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade,
 AFTER targeting: Brasil oferece visto humanitário para indivíduos em situação de extrema vulnerabilidade, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

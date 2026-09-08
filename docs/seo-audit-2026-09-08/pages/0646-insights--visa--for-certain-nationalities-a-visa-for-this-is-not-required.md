@@ -26,11 +26,11 @@ BEFORE description: For certain nationalities, a visa for this is not required: 
 BEFORE H1: For certain nationalities, a visa for this is not required
 BEFORE apparent targeting: For certain nationalities, a visa for this is not required
 
-AFTER title: For certain nationalities, a visa for this is not required | January 27, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: For certain nationalities, a visa for this is not required
-Alternative B: For certain nationalities, a visa for this is not required | Monique Fernandes
+AFTER title (HOLD; not approved for publication): For certain nationalities, a visa for this is not required | January 27, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: For certain nationalities, a visa for this is not required: This page brings earlier visa research into a clearer entry-planning format for Immigrate to...
-AFTER H1: For certain nationalities, a visa for this is not required
+AFTER H1 (HOLD; not approved for publication): For certain nationalities, a visa for this is not required
 AFTER targeting: For certain nationalities, a visa for this is not required — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

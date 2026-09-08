@@ -26,11 +26,11 @@ BEFORE description: Compradores internacionais podem comprar propriedades no Bra
 BEFORE H1: Compradores internacionais podem comprar propriedades no Brasil: como funciona?
 BEFORE apparent targeting: Compradores internacionais podem comprar propriedades no Brasil: como funciona?
 
-AFTER title: Compradores internacionais podem comprar propriedades no Brasil: como funciona? | FYI | Imigre para o Brasil
-Alternative A: Compradores internacionais podem comprar propriedades no Brasil: como funciona?
-Alternative B: Compradores internacionais podem comprar propriedades no Brasil: como funciona? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Compradores internacionais podem comprar propriedades no Brasil: como funciona? | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Compradores internacionais podem comprar propriedades no Brasil: como funciona? Compradores internacionais podem comprar propriedades no Brasil: Como funciona? Internacional...
-AFTER H1: Compradores internacionais podem comprar propriedades no Brasil: como funciona?
+AFTER H1 (HOLD; not approved for publication): Compradores internacionais podem comprar propriedades no Brasil: como funciona?
 AFTER targeting: Compradores internacionais podem comprar propriedades no Brasil: como funciona? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

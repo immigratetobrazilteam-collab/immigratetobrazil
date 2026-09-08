@@ -26,11 +26,11 @@ BEFORE description: The Holiday-Work Visa program between Brazil and New Zealand
 BEFORE H1: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand
 BEFORE apparent targeting: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand
 
-AFTER title: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand | September 11, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand
-Alternative B: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand | September 11, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand
+AFTER H1 (HOLD; not approved for publication): The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand
 AFTER targeting: The Holiday-Work Visa program between Brazil and New Zealand offers New Zealand — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

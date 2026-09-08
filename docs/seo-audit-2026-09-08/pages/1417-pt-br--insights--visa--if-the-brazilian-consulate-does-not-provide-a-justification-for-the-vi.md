@@ -26,11 +26,11 @@ BEFORE description: Se o consulado brasileiro não fornecer uma justificativa pa
 BEFORE H1: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você
 BEFORE apparent targeting: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você
 
-AFTER title: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você | 8 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você
-Alternative B: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você | 8 de outubro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você
+AFTER H1 (HOLD; not approved for publication): Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você
 AFTER targeting: Se o consulado brasileiro não fornecer uma justificativa para a negação do visto, você — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

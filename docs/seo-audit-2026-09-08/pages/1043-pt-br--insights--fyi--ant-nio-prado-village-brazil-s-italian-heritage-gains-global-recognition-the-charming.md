@@ -26,11 +26,11 @@ BEFORE description: Vila Antônio Prado herança italiana do brasil ganha reconh
 BEFORE H1: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso
 BEFORE apparent targeting: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso
 
-AFTER title: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso | FYI | Imigre para o Brasil
-Alternative A: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso
-Alternative B: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Vila Antônio Prado herança italiana do brasil ganha reconhecimento global o charmoso: Vila Antonio Prado: herança italiana do Brasil ganha reconhecimento global...
-AFTER H1: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso
+AFTER H1 (HOLD; not approved for publication): Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso
 AFTER targeting: Aldeia Antônio Prado herança italiana brasileira ganha reconhecimento mundial o charmoso — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

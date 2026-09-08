@@ -26,11 +26,11 @@ BEFORE description: Orientação jurídica Brasil: elegibilidade e processo (2):
 BEFORE H1: Orientação jurídica Brasil: elegibilidade e processo (2)
 BEFORE apparent targeting: Orientação jurídica Brasil: elegibilidade e processo (2)
 
-AFTER title: Orientação jurídica Brasil: elegibilidade e processo (2) | 26 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Orientação jurídica Brasil: elegibilidade e processo (2)
-Alternative B: Orientação jurídica Brasil: elegibilidade e processo (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Orientação jurídica Brasil: elegibilidade e processo (2) | 26 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Orientação jurídica Brasil: elegibilidade e processo (2): Esta página traz pesquisas anteriores de visto em um formato de planejamento da entrada no Brasil mais claro para Imigrar para o Brasil. Em...
-AFTER H1: Orientação jurídica Brasil: elegibilidade e processo (2)
+AFTER H1 (HOLD; not approved for publication): Orientação jurídica Brasil: elegibilidade e processo (2)
 AFTER targeting: Orientação jurídica Brasil: elegibilidade e processo (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

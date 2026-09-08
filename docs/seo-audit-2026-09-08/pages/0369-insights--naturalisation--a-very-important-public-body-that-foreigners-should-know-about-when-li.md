@@ -26,11 +26,11 @@ BEFORE description: A very important public body that foreigners should know abo
 BEFORE H1: A very important public body that foreigners should know about when living in Brazil
 BEFORE apparent targeting: A very important public body that foreigners should know about when living in Brazil
 
-AFTER title: A very important public body that foreigners should know about when living in Brazil | July 29, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: A very important public body that foreigners should know about when living in Brazil
-Alternative B: A very important public body that foreigners should know about when living in Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A very important public body that foreigners should know about when living in Brazil | July 29, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A very important public body that foreigners should know about when living in Brazil: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: A very important public body that foreigners should know about when living in Brazil
+AFTER H1 (HOLD; not approved for publication): A very important public body that foreigners should know about when living in Brazil
 AFTER targeting: A very important public body that foreigners should know about when living in Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

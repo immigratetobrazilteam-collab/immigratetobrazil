@@ -26,11 +26,11 @@ BEFORE description: Sempre consulte um advogado de imigração para obter instru
 BEFORE H1: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso
 BEFORE apparent targeting: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso
 
-AFTER title: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso | 22 de agosto de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso
-Alternative B: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso | 22 de agosto de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso
+AFTER H1 (HOLD; not approved for publication): Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso
 AFTER targeting: Sempre consulte um advogado de imigração para obter instruções baseadas no seu caso — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: Conheça Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Conheça Monique Fernandes
 Primary keyword/focus field: Conheça Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Conheça Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Conheça Monique Fernandes
 BEFORE apparent targeting: Conheça Monique Fernandes
 
 AFTER title: Conheça Monique Fernandes
-Alternative A: Conheça Monique Fernandes
-Alternative B: Conheça Monique Fernandes | Monique Fernandes
+Alternative A: Conheça Monique Fernandes | Monique Fernandes
+Alternative B: Conheça Monique Fernandes | Immigrate to Brazil
 AFTER description: Monique Fernandes é a advogada de imigração brasileira por trás do Imigre para o Brasil, ajudando os clientes a navegar pela lei de imigração brasileira com maior clareza, confiança e próximos passos práticos.
 AFTER H1: Conheça Monique Fernandes
 AFTER targeting: Conheça Monique Fernandes — navigational

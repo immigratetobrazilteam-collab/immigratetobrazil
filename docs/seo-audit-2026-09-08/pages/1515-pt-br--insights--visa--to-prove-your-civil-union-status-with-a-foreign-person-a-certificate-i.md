@@ -26,11 +26,11 @@ BEFORE description: Para comprovar sua situação de união estável com estrang
 BEFORE H1: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo
 BEFORE apparent targeting: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo
 
-AFTER title: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo | 23 de junho de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo
-Alternative B: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo | 23 de junho de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para comprovar sua situação de união estável com estrangeiro, um certificado emitido por: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo
+AFTER H1 (HOLD; not approved for publication): Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo
 AFTER targeting: Para comprovar a sua situação de união estável com estrangeiro, é necessária certidão emitida pelo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

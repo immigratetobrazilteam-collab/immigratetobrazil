@@ -26,11 +26,11 @@ BEFORE description: Em caso de deportação, é fundamental que o imigrante este
 BEFORE H1: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua
 BEFORE apparent targeting: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua
 
-AFTER title: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua | 7 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua
-Alternative B: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em caso de deportação, é fundamental que o imigrante esteja ciente de sua | 7 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua
+AFTER H1 (HOLD; not approved for publication): Em caso de deportação, é fundamental que o imigrante esteja ciente de sua
 AFTER targeting: Em caso de deportação, é fundamental que o imigrante esteja ciente de sua — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: The recently announced innovation allows Brazilian tourists 
 BEFORE H1: The recently announced innovation allows Brazilian tourists to pay for their purchases
 BEFORE apparent targeting: The recently announced innovation allows Brazilian tourists to pay for their purchases
 
-AFTER title: The recently announced innovation allows Brazilian tourists to pay for their purchases | August 27, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The recently announced innovation allows Brazilian tourists to pay for their purchases
-Alternative B: The recently announced innovation allows Brazilian tourists to pay for their purchases | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The recently announced innovation allows Brazilian tourists to pay for their purchases | August 27, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The recently announced innovation allows Brazilian tourists to pay for their purchases: This page brings earlier citizenship research into a clearer format...
-AFTER H1: The recently announced innovation allows Brazilian tourists to pay for their purchases
+AFTER H1 (HOLD; not approved for publication): The recently announced innovation allows Brazilian tourists to pay for their purchases
 AFTER targeting: The recently announced innovation allows Brazilian tourists to pay for their purchases — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

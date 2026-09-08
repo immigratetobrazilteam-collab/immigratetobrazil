@@ -26,11 +26,11 @@ BEFORE description: Mudanças nas regras de bagagem da LATAM e Gol impactam dire
 BEFORE H1: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas
 BEFORE apparent targeting: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas
 
-AFTER title: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas | 9 de janeiro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas
-Alternative B: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas | 9 de janeiro de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Mudanças nas regras de bagagem da LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, peso e dimensões...
-AFTER H1: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas
+AFTER H1 (HOLD; not approved for publication): Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas
 AFTER targeting: Mudanças nas regras de bagagem LATAM e Gol impactam diretamente na forma como os passageiros podem transportar seus pertences, com novas nomenclaturas, limites de peso e dimensões, além da criação de novas tarifas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

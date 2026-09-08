@@ -26,11 +26,11 @@ BEFORE description: The Portuguese language plays a fundamental role in Brazil's
 BEFORE H1: The Portuguese language plays a fundamental role in Brazil's culture and daily life,
 BEFORE apparent targeting: The Portuguese language plays a fundamental role in Brazil's culture and daily life,
 
-AFTER title: The Portuguese language plays a fundamental role in Brazil's culture and daily life, | December 13, 2023 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The Portuguese language plays a fundamental role in Brazil's culture and daily life,
-Alternative B: The Portuguese language plays a fundamental role in Brazil's culture and daily life, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Portuguese language plays a fundamental role in Brazil's culture and daily life, | December 13, 2023 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Portuguese language plays a fundamental role in Brazil's culture and daily life,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The Portuguese language plays a fundamental role in Brazil's culture and daily life,
+AFTER H1 (HOLD; not approved for publication): The Portuguese language plays a fundamental role in Brazil's culture and daily life,
 AFTER targeting: The Portuguese language plays a fundamental role in Brazil's culture and daily life, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: The Brazilian Retirement Visa is an excellent choice for ret
 BEFORE H1: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners
 BEFORE apparent targeting: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners
 
-AFTER title: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners | May 7, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners
-Alternative B: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Brazilian Retirement Visa is an excellent choice for retirees and pensioners | May 7, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners
+AFTER H1 (HOLD; not approved for publication): The Brazilian Retirement Visa is an excellent choice for retirees and pensioners
 AFTER targeting: The Brazilian Retirement Visa is an excellent choice for retirees and pensioners — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

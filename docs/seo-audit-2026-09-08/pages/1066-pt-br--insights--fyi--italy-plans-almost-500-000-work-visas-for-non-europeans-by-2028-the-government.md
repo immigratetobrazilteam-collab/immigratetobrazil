@@ -26,11 +26,11 @@ BEFORE description: Itália planeja quase 500.000 vistos de trabalho para não e
 BEFORE H1: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo
 BEFORE apparent targeting: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo
 
-AFTER title: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo | FYI | Imigre para o Brasil
-Alternative A: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo
-Alternative B: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Itália planeja quase 500.000 vistos de trabalho para não europeus até 2028 o governo: Itália planeja quase 500.000 vistos de trabalho para não europeus até 2028 O italiano...
-AFTER H1: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo
+AFTER H1 (HOLD; not approved for publication): Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo
 AFTER targeting: Itália planeja quase 500 mil vistos de trabalho para não europeus até 2028, o governo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

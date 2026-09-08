@@ -26,11 +26,11 @@ BEFORE description: Esta é uma oportunidade importante para as pessoas com asce
 BEFORE H1: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com
 BEFORE apparent targeting: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com
 
-AFTER title: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com | 8 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com
-Alternative B: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com | 8 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Esta é uma oportunidade importante para as pessoas com ascendência brasileira se reconectarem com: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com
+AFTER H1 (HOLD; not approved for publication): Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com
 AFTER targeting: Esta é uma oportunidade importante para pessoas com ascendência brasileira se reconectarem com — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

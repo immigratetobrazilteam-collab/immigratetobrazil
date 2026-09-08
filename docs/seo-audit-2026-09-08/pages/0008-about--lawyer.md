@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: Professional Registration and L
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: Professional Registration and Legal Practice
 Primary keyword/focus field: Monique Fernandes: Professional Registration and Legal Practice; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: Professional Registration and Legal Practice questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Lawyer
 BEFORE apparent targeting: Monique Fernandes
 
 AFTER title: Monique Fernandes: Professional Registration and Legal Practice
-Alternative A: Monique Fernandes: Professional Registration and Legal Practice
-Alternative B: Monique Fernandes: Professional Registration and Legal Practice | Monique Fernandes
+Alternative A: Monique Fernandes: Professional Registration and Legal Practice | Monique Fernandes
+Alternative B: Monique Fernandes: Professional Registration and Legal Practice | Immigrate to Brazil
 AFTER description: A formal look at Monique Fernandes' legal profile, professional responsibility, and immigration-first approach for clients who need attorney-led guidance connected to Brazil.
 AFTER H1: Monique Fernandes: Professional Registration and Legal Practice
 AFTER targeting: Monique Fernandes: Professional Registration and Legal Practice — navigational

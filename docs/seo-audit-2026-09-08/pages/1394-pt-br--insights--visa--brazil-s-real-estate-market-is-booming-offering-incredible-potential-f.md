@@ -26,11 +26,11 @@ BEFORE description: O mercado imobiliário do Brasil está crescendo, oferecendo
 BEFORE H1: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos
 BEFORE apparent targeting: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos
 
-AFTER title: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos | 12 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos
-Alternative B: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos | 12 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O mercado imobiliário do Brasil está crescendo, oferecendo um potencial incrível para altos retornos: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos
+AFTER H1 (HOLD; not approved for publication): O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos
 AFTER targeting: O mercado imobiliário do Brasil está em expansão, oferecendo um potencial incrível para altos retornos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

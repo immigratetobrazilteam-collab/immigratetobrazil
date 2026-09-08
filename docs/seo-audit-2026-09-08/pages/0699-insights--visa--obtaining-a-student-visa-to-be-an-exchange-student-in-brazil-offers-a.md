@@ -26,11 +26,11 @@ BEFORE description: Obtaining a student visa to be an exchange student in Brazil
 BEFORE H1: Obtaining a student visa to be an exchange student in Brazil offers a unique
 BEFORE apparent targeting: Obtaining a student visa to be an exchange student in Brazil offers a unique
 
-AFTER title: Obtaining a student visa to be an exchange student in Brazil offers a unique | March 4, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Obtaining a student visa to be an exchange student in Brazil offers a unique
-Alternative B: Obtaining a student visa to be an exchange student in Brazil offers a unique | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Obtaining a student visa to be an exchange student in Brazil offers a unique | March 4, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Obtaining a student visa to be an exchange student in Brazil offers a unique: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Obtaining a student visa to be an exchange student in Brazil offers a unique
+AFTER H1 (HOLD; not approved for publication): Obtaining a student visa to be an exchange student in Brazil offers a unique
 AFTER targeting: Obtaining a student visa to be an exchange student in Brazil offers a unique — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

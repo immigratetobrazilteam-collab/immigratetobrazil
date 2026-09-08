@@ -26,11 +26,11 @@ BEFORE description: Por que o visto de estudante vitem iv do Brasil supera absol
 BEFORE H1: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar
 BEFORE apparent targeting: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar
 
-AFTER title: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar | FYI | Imigre para o Brasil
-Alternative A: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar
-Alternative B: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA f 1 você pousa: Por que o visto de estudante do Brasil (VITEM-IV) supera absolutamente o F-1 dos EUA Você pousa no Brasil...
-AFTER H1: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar
+AFTER H1 (HOLD; not approved for publication): Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar
 AFTER targeting: Por que o visto de estudante vitem iv do Brasil supera absolutamente o dos EUA se você pousar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Se um cidadão brasileiro morrer no exterior, o governo bras
 BEFORE H1: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral
 BEFORE apparent targeting: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral
 
-AFTER title: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral | 20 de março de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral
-Alternative B: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral | 20 de março de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral
+AFTER H1 (HOLD; not approved for publication): Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral
 AFTER targeting: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre o funeral — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

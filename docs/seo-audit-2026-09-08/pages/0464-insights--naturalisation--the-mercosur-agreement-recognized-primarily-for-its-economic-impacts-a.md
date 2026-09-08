@@ -26,11 +26,11 @@ BEFORE description: The MERCOSUR Agreement, recognized primarily for its economi
 BEFORE H1: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a
 BEFORE apparent targeting: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a
 
-AFTER title: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a | January 25, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a
-Alternative B: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a | January 25, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a
+AFTER H1 (HOLD; not approved for publication): The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a
 AFTER targeting: The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

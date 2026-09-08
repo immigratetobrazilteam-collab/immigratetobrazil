@@ -26,11 +26,11 @@ BEFORE description: The request for reconsideration, when a request for a reside
 BEFORE H1: The request for reconsideration, when a request for a residence permit is rejected in
 BEFORE apparent targeting: The request for reconsideration, when a request for a residence permit is rejected in
 
-AFTER title: The request for reconsideration, when a request for a residence permit is rejected in | May 28, 2025 | Residency Insight | Immigrate to Brazil
-Alternative A: The request for reconsideration, when a request for a residence permit is rejected in
-Alternative B: The request for reconsideration, when a request for a residence permit is rejected in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The request for reconsideration, when a request for a residence permit is rejected in | May 28, 2025 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The request for reconsideration, when a request for a residence permit is rejected in: This page brings earlier residency research into a clearer framework...
-AFTER H1: The request for reconsideration, when a request for a residence permit is rejected in
+AFTER H1 (HOLD; not approved for publication): The request for reconsideration, when a request for a residence permit is rejected in
 AFTER targeting: The request for reconsideration, when a request for a residence permit is rejected in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

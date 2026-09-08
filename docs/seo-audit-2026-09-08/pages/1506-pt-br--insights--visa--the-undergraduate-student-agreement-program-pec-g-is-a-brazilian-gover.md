@@ -26,11 +26,11 @@ BEFORE description: O Programa de Convênio de Estudante de Graduação (PEC-G) 
 BEFORE H1: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro
 BEFORE apparent targeting: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro
 
-AFTER title: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro | 21 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro
-Alternative B: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro | 21 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Programa de Convênio de Estudante de Graduação (PEC-G) é um governo brasileiro: Esta página traz pesquisas anteriores de vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro
+AFTER H1 (HOLD; not approved for publication): O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro
 AFTER targeting: O Programa de Convênio de Estudante de Graduação (PEC-G) é um programa governamental brasileiro — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

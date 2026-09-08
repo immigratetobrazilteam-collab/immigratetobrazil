@@ -26,11 +26,11 @@ BEFORE description: Ao final de julho de 2024, o Ministério da Justiça e Segur
 BEFORE H1: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes
 BEFORE apparent targeting: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes
 
-AFTER title: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes | 16 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes
-Alternative B: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes | 16 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes: Registro de arquivo: 9 de março de 2026...
-AFTER H1: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes
+AFTER H1 (HOLD; not approved for publication): Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes
 AFTER targeting: Ao final de julho de 2024, o Ministério da Justiça e Segurança Pública (MJSP) tinha 12.488 pedidos de naturalização pendentes — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

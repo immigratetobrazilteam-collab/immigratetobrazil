@@ -26,11 +26,11 @@ BEFORE description: O ETIAS, autorização eletrônica semelhante a um visto, se
 BEFORE H1: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia
 BEFORE apparent targeting: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia
 
-AFTER title: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia | 14 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia
-Alternative B: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia | 14 de outubro de 2024 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia: Arquivo...
-AFTER H1: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia
+AFTER H1 (HOLD; not approved for publication): O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia
 AFTER targeting: O ETIAS, autorização eletrônica semelhante a um visto, será exigido para turistas que visitem a Europa a partir de maio de 2025, conforme anunciado pela União Europeia — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

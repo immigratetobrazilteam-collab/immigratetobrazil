@@ -26,11 +26,11 @@ BEFORE description: How long does it take to get Brazilian passport? This page b
 BEFORE H1: How long does it take to get Brazilian passport?
 BEFORE apparent targeting: How long does it take to get Brazilian passport?
 
-AFTER title: How long does it take to get Brazilian passport? | November 28, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: How long does it take to get Brazilian passport?
-Alternative B: How long does it take to get Brazilian passport? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): How long does it take to get Brazilian passport? | November 28, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: How long does it take to get Brazilian passport? This page brings earlier FAQ-style research into a clearer guidance page for readers planning immigration...
-AFTER H1: How long does it take to get Brazilian passport?
+AFTER H1 (HOLD; not approved for publication): How long does it take to get Brazilian passport?
 AFTER targeting: How long does it take to get Brazilian passport? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

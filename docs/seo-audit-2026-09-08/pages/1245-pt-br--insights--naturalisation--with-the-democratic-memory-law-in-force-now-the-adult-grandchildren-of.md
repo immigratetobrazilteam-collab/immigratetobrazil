@@ -26,11 +26,11 @@ BEFORE description: Com a Lei da Memória Democrática em vigor, agora os netos 
 BEFORE H1: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem
 BEFORE apparent targeting: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem
 
-AFTER title: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem | 21 de agosto de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem
-Alternative B: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem | 21 de agosto de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem
+AFTER H1 (HOLD; not approved for publication): Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem
 AFTER targeting: Com a Lei da Memória Democrática em vigor, agora os netos adultos dos espanhóis podem — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

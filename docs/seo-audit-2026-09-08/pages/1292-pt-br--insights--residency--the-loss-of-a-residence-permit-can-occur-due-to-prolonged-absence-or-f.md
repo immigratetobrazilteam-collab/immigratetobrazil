@@ -26,11 +26,11 @@ BEFORE description: A perda de uma autorização de residência pode ocorrer dev
 BEFORE H1: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento
 BEFORE apparent targeting: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento
 
-AFTER title: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento | 18 de novembro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento
-Alternative B: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento | 18 de novembro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A perda de uma autorização de residência pode ocorrer devido a ausência prolongada ou falta de cumprimento: Esta página reorganiza conteúdo anterior sobre residência para uma estrutura mais clara para...
-AFTER H1: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento
+AFTER H1 (HOLD; not approved for publication): A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento
 AFTER targeting: A perda da autorização de residência pode ocorrer devido a ausência prolongada ou não cumprimento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

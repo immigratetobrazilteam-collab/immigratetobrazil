@@ -14,7 +14,7 @@ User problem / SEO objective: Direitos durante a regularização migratória
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Direitos durante a regularização migratória
 Primary keyword/focus field: Direitos durante a regularização migratória; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Direitos durante a regularização migratória questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

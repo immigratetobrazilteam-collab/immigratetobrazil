@@ -26,11 +26,11 @@ BEFORE description: Autism Awareness Month: 5 rights of autistic people* People 
 BEFORE H1: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum
 BEFORE apparent targeting: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum
 
-AFTER title: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum | April 16, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum
-Alternative B: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum | April 16, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum
+AFTER H1 (HOLD; not approved for publication): Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum
 AFTER targeting: Autism Awareness Month: 5 rights of autistic people* People with Autism Spectrum — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

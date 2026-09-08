@@ -26,11 +26,11 @@ BEFORE description: Em alguns casos, existe a possibilidade de bisnetos de portu
 BEFORE H1: Em alguns casos, existe a possibilidade de os bisnetos de portugueses
 BEFORE apparent targeting: Em alguns casos, existe a possibilidade de os bisnetos de portugueses
 
-AFTER title: Em alguns casos, existe a possibilidade de os bisnetos de portugueses | 29 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Em alguns casos, existe a possibilidade de os bisnetos de portugueses
-Alternative B: Em alguns casos, existe a possibilidade de os bisnetos de portugueses | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em alguns casos, existe a possibilidade de os bisnetos de portugueses | 29 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em alguns casos, existe a possibilidade de bisnetos de portugueses: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Em alguns casos, existe a possibilidade de os bisnetos de portugueses
+AFTER H1 (HOLD; not approved for publication): Em alguns casos, existe a possibilidade de os bisnetos de portugueses
 AFTER targeting: Em alguns casos, existe a possibilidade de os bisnetos de portugueses — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: A Bulgária e a Roménia aderirão parcialmente ao Espaço S
 BEFORE H1: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março
 BEFORE apparent targeting: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março
 
-AFTER title: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março | 19 de fevereiro de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março
-Alternative B: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março | 19 de fevereiro de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março: Esta página traz processos anteriores e apoia a investigação de uma forma mais clara...
-AFTER H1: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março
+AFTER H1 (HOLD; not approved for publication): A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março
 AFTER targeting: A Bulgária e a Roménia aderirão parcialmente ao Espaço Schengen da União Europeia a partir de março — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

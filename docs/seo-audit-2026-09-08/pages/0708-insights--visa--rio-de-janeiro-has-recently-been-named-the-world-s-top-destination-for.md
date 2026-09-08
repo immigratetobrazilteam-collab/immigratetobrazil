@@ -26,11 +26,11 @@ BEFORE description: Rio de Janeiro has recently been named the world's top desti
 BEFORE H1: Rio de Janeiro has recently been named the world's top destination for digital nomads,
 BEFORE apparent targeting: Rio de Janeiro has recently been named the world's top destination for digital nomads,
 
-AFTER title: Rio de Janeiro has recently been named the world's top destination for digital nomads, | May 29, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Rio de Janeiro has recently been named the world's top destination for digital nomads,
-Alternative B: Rio de Janeiro has recently been named the world's top destination for digital nomads, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Rio de Janeiro has recently been named the world's top destination for digital nomads, | May 29, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Rio de Janeiro has recently been named the world's top destination for digital nomads,: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Rio de Janeiro has recently been named the world's top destination for digital nomads,
+AFTER H1 (HOLD; not approved for publication): Rio de Janeiro has recently been named the world's top destination for digital nomads,
 AFTER targeting: Rio de Janeiro has recently been named the world's top destination for digital nomads, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

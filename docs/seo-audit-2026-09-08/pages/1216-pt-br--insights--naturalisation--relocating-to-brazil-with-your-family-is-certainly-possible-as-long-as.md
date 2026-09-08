@@ -26,11 +26,11 @@ BEFORE description: Mudar-se para o Brasil com sua família é certamente possí
 BEFORE H1: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto
 BEFORE apparent targeting: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto
 
-AFTER title: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto | 3 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto
-Alternative B: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Mudar-se para o Brasil com sua família é certamente possível, desde que o correto | 3 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto
+AFTER H1 (HOLD; not approved for publication): Mudar-se para o Brasil com sua família é certamente possível, desde que o correto
 AFTER targeting: Mudar-se para o Brasil com sua família é certamente possível, desde que o correto — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

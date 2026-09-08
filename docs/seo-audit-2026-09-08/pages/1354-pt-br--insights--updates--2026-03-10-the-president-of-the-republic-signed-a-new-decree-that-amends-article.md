@@ -26,11 +26,11 @@ BEFORE description: O Presidente da República assinou novo decreto que altera o
 BEFORE H1: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto
 BEFORE apparent targeting: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto
 
-AFTER title: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto | 27 de junho de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto
-Alternative B: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto | 27 de junho de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Presidente da República assinou novo decreto que altera o artigo 257 do Decreto: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto
+AFTER H1 (HOLD; not approved for publication): O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto
 AFTER targeting: O Presidente da República assinou novo decreto que altera o artigo 257.º do Decreto — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

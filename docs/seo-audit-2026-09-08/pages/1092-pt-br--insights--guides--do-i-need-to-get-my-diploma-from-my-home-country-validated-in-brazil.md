@@ -26,11 +26,11 @@ BEFORE description: Preciso validar meu diploma do meu país de origem no Brasil
 BEFORE H1: Preciso validar meu diploma do meu país de origem no Brasil?
 BEFORE apparent targeting: Preciso validar meu diploma do meu país de origem no Brasil?
 
-AFTER title: Preciso validar meu diploma do meu país de origem no Brasil? | 23 de maio de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Preciso validar meu diploma do meu país de origem no Brasil?
-Alternative B: Preciso validar meu diploma do meu país de origem no Brasil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Preciso validar meu diploma do meu país de origem no Brasil? | 23 de maio de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Preciso validar meu diploma do meu país de origem no Brasil? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para os leitores...
-AFTER H1: Preciso validar meu diploma do meu país de origem no Brasil?
+AFTER H1 (HOLD; not approved for publication): Preciso validar meu diploma do meu país de origem no Brasil?
 AFTER targeting: Preciso validar meu diploma do meu país de origem no Brasil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

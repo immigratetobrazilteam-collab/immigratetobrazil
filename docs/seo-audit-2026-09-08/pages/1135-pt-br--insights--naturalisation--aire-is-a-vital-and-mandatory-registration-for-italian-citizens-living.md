@@ -26,11 +26,11 @@ BEFORE description: AIRE é um registro vital e obrigatório para cidadãos ital
 BEFORE H1: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália
 BEFORE apparent targeting: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália
 
-AFTER title: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália | 21 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália
-Alternative B: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália | Monique Fernandes
+AFTER title (HOLD; not approved for publication): AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália | 21 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália
+AFTER H1 (HOLD; not approved for publication): AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália
 AFTER targeting: AIRE é um registro vital e obrigatório para cidadãos italianos que vivem fora da Itália — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Não. Um visto de trabalho requer aprovação prévia do Min
 BEFORE H1: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e
 BEFORE apparent targeting: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e
 
-AFTER title: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e | 23 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e
-Alternative B: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e | 23 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro e: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e
+AFTER H1 (HOLD; not approved for publication): Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e
 AFTER targeting: Não. Um visto de trabalho requer aprovação prévia do Ministério do Trabalho brasileiro, e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

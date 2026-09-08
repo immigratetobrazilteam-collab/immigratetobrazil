@@ -26,11 +26,11 @@ BEFORE description: During the naturalization process, the applicant will be cal
 BEFORE H1: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives
 BEFORE apparent targeting: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives
 
-AFTER title: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives | June 26, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives
-Alternative B: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives | Monique Fernandes
+AFTER title (HOLD; not approved for publication): During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives | June 26, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he...
-AFTER H1: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives
+AFTER H1 (HOLD; not approved for publication): During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives
 AFTER targeting: During the naturalization process, the applicant will be called for a personal interview, which takes place at the Federal Police unit in the region where he or she lives — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

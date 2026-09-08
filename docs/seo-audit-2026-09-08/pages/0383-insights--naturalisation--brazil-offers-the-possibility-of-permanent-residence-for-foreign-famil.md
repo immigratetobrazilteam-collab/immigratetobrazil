@@ -26,11 +26,11 @@ BEFORE description: Brazil offers the possibility of permanent residence for for
 BEFORE H1: Brazil offers the possibility of permanent residence for foreign families who wish to
 BEFORE apparent targeting: Brazil offers the possibility of permanent residence for foreign families who wish to
 
-AFTER title: Brazil offers the possibility of permanent residence for foreign families who wish to | July 22, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazil offers the possibility of permanent residence for foreign families who wish to
-Alternative B: Brazil offers the possibility of permanent residence for foreign families who wish to | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil offers the possibility of permanent residence for foreign families who wish to | July 22, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil offers the possibility of permanent residence for foreign families who wish to: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Brazil offers the possibility of permanent residence for foreign families who wish to
+AFTER H1 (HOLD; not approved for publication): Brazil offers the possibility of permanent residence for foreign families who wish to
 AFTER targeting: Brazil offers the possibility of permanent residence for foreign families who wish to — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

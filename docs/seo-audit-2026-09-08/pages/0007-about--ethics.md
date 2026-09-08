@@ -14,7 +14,7 @@ User problem / SEO objective: Ethics | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Ethics | Monique Fernandes
 Primary keyword/focus field: Ethics | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Ethics | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Ethics
 BEFORE apparent targeting: Monique Fernandes Ethics
 
 AFTER title: Ethics | Monique Fernandes
-Alternative A: Ethics | Monique Fernandes
-Alternative B: Ethics | Monique Fernandes | Monique Fernandes
+Alternative A: Ethics
+Alternative B: Ethics | Immigrate to Brazil
 AFTER description: Monique Fernandes grounds her immigration practice in honesty, confidentiality, dignity, and clear professional boundaries.
 AFTER H1: Ethics | Monique Fernandes
 AFTER targeting: Ethics | Monique Fernandes — navigational

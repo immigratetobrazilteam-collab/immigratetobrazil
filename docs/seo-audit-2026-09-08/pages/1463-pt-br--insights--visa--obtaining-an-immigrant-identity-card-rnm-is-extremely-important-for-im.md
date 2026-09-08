@@ -26,11 +26,11 @@ BEFORE description: A obtenção de uma carteira de identidade de imigrante (RNM
 BEFORE H1: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes
 BEFORE apparent targeting: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes
 
-AFTER title: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes | 25 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes
-Alternative B: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes | 25 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A obtenção de uma carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes
+AFTER H1 (HOLD; not approved for publication): A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes
 AFTER targeting: A obtenção da carteira de identidade de imigrante (RNM) é extremamente importante para os imigrantes — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

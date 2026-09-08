@@ -26,11 +26,11 @@ BEFORE description: Deportation is a measure provided for by law for the compuls
 BEFORE H1: Deportation is a measure provided for by law for the compulsory removal of foreigners
 BEFORE apparent targeting: Deportation is a measure provided for by law for the compulsory removal of foreigners
 
-AFTER title: Deportation is a measure provided for by law for the compulsory removal of foreigners | November 8, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: Deportation is a measure provided for by law for the compulsory removal of foreigners
-Alternative B: Deportation is a measure provided for by law for the compulsory removal of foreigners | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Deportation is a measure provided for by law for the compulsory removal of foreigners | November 8, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Deportation is a measure provided for by law for the compulsory removal of foreigners: This page brings earlier process and support research into a clearer...
-AFTER H1: Deportation is a measure provided for by law for the compulsory removal of foreigners
+AFTER H1 (HOLD; not approved for publication): Deportation is a measure provided for by law for the compulsory removal of foreigners
 AFTER targeting: Deportation is a measure provided for by law for the compulsory removal of foreigners — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

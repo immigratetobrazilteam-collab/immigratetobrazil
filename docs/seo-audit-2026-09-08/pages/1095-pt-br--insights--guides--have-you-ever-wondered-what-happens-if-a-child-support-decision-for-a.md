@@ -26,11 +26,11 @@ BEFORE description: Você já se perguntou o que aconteceria se fosse tomada uma
 BEFORE H1: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada
 BEFORE apparent targeting: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada
 
-AFTER title: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada | 6 de novembro de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada
-Alternative B: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada | 6 de novembro de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você já se perguntou o que aconteceria se fosse tomada uma decisão de pensão alimentícia para uma criança: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada
+AFTER H1 (HOLD; not approved for publication): Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada
 AFTER targeting: Você já se perguntou o que acontece se uma decisão de pensão alimentícia para uma criança for tomada — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

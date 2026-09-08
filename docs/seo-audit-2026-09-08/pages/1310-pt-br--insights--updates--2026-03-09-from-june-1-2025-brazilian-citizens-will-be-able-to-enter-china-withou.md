@@ -26,11 +26,11 @@ BEFORE description: A partir de 1º de junho de 2025, os cidadãos brasileiros p
 BEFORE H1: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China
 BEFORE apparent targeting: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China
 
-AFTER title: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China | 23 de junho de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China
-Alternative B: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China | 23 de junho de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelos chineses...
-AFTER H1: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China
+AFTER H1 (HOLD; not approved for publication): A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China
 AFTER targeting: A partir de 1º de junho de 2025, os cidadãos brasileiros poderão entrar na China sem visto de turista/visita para estadias de até 30 dias, conforme anunciado pelo Ministério das Relações Exteriores da China — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

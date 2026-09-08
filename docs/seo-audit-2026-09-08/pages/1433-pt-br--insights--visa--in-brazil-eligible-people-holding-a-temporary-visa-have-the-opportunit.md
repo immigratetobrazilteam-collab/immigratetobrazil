@@ -26,11 +26,11 @@ BEFORE description: No Brasil, as pessoas elegíveis que possuem um visto tempor
 BEFORE H1: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar
 BEFORE apparent targeting: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar
 
-AFTER title: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar | 5 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar
-Alternative B: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar | 5 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar
+AFTER H1 (HOLD; not approved for publication): No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar
 AFTER targeting: No Brasil, as pessoas elegíveis que possuem um visto temporário têm a oportunidade de solicitar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

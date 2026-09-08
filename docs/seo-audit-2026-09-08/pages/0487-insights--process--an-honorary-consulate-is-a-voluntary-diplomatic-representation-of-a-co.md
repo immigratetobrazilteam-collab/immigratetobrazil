@@ -26,11 +26,11 @@ BEFORE description: An Honorary Consulate is a voluntary diplomatic representati
 BEFORE H1: An Honorary Consulate is a voluntary diplomatic representation of a country, led by
 BEFORE apparent targeting: An Honorary Consulate is a voluntary diplomatic representation of a country, led by
 
-AFTER title: An Honorary Consulate is a voluntary diplomatic representation of a country, led by | June 17, 2024 | Process Insight | Immigrate to Brazil
-Alternative A: An Honorary Consulate is a voluntary diplomatic representation of a country, led by
-Alternative B: An Honorary Consulate is a voluntary diplomatic representation of a country, led by | Monique Fernandes
+AFTER title (HOLD; not approved for publication): An Honorary Consulate is a voluntary diplomatic representation of a country, led by | June 17, 2024 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: An Honorary Consulate is a voluntary diplomatic representation of a country, led by: This page brings earlier process and support research into a clearer...
-AFTER H1: An Honorary Consulate is a voluntary diplomatic representation of a country, led by
+AFTER H1 (HOLD; not approved for publication): An Honorary Consulate is a voluntary diplomatic representation of a country, led by
 AFTER targeting: An Honorary Consulate is a voluntary diplomatic representation of a country, led by — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

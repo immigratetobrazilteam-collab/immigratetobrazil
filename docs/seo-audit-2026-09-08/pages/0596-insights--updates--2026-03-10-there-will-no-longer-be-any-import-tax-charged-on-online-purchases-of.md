@@ -26,11 +26,11 @@ BEFORE description: There will no longer be any import tax charged on online pur
 BEFORE H1: There will no longer be any import tax charged on online purchases of up to US$50 made
 BEFORE apparent targeting: There will no longer be any import tax charged on online purchases of up to US$50 made
 
-AFTER title: There will no longer be any import tax charged on online purchases of up to US$50 made | August 8, 2023 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: There will no longer be any import tax charged on online purchases of up to US$50 made
-Alternative B: There will no longer be any import tax charged on online purchases of up to US$50 made | Monique Fernandes
+AFTER title (HOLD; not approved for publication): There will no longer be any import tax charged on online purchases of up to US$50 made | August 8, 2023 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: There will no longer be any import tax charged on online purchases of up to US$50 made: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: There will no longer be any import tax charged on online purchases of up to US$50 made
+AFTER H1 (HOLD; not approved for publication): There will no longer be any import tax charged on online purchases of up to US$50 made
 AFTER targeting: There will no longer be any import tax charged on online purchases of up to US$50 made — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

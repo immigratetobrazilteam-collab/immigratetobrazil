@@ -14,7 +14,7 @@ User problem / SEO objective: Why Work With Monique | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Why Work With Monique | Monique Fernandes
 Primary keyword/focus field: Why Work With Monique | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Why Work With Monique | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Why Work With Monique
 BEFORE apparent targeting: Why Work With Monique Fernandes
 
 AFTER title: Why Work With Monique | Monique Fernandes
-Alternative A: Why Work With Monique | Monique Fernandes
-Alternative B: Why Work With Monique | Monique Fernandes | Monique Fernandes
+Alternative A: Why Work With Monique
+Alternative B: Why Work With Monique | Immigrate to Brazil
 AFTER description: Clients choose Monique Fernandes for attorney-led strategy, clear bilingual communication, and a calmer, more reliable path through Brazilian immigration.
 AFTER H1: Why Work With Monique | Monique Fernandes
 AFTER targeting: Why Work With Monique | Monique Fernandes — navigational

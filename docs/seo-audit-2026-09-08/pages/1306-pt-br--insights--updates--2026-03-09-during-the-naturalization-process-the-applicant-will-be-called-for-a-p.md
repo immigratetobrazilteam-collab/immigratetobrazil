@@ -26,11 +26,11 @@ BEFORE description: Durante o processo de naturalização, o requerente será co
 BEFORE H1: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside
 BEFORE apparent targeting: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside
 
-AFTER title: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside | 26 de junho de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside
-Alternative B: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside | 26 de junho de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde...
-AFTER H1: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside
+AFTER H1 (HOLD; not approved for publication): Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside
 AFTER targeting: Durante o processo de naturalização, o requerente será convocado para uma entrevista pessoal, que acontece na unidade da Polícia Federal da região onde reside — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

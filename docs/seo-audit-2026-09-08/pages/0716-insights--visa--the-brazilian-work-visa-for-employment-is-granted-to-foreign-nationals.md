@@ -26,11 +26,11 @@ BEFORE description: The Brazilian work visa for employment is granted to foreign
 BEFORE H1: The Brazilian work visa for employment is granted to foreign nationals who have
 BEFORE apparent targeting: The Brazilian work visa for employment is granted to foreign nationals who have
 
-AFTER title: The Brazilian work visa for employment is granted to foreign nationals who have | March 26, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: The Brazilian work visa for employment is granted to foreign nationals who have
-Alternative B: The Brazilian work visa for employment is granted to foreign nationals who have | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The Brazilian work visa for employment is granted to foreign nationals who have | March 26, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The Brazilian work visa for employment is granted to foreign nationals who have: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The Brazilian work visa for employment is granted to foreign nationals who have
+AFTER H1 (HOLD; not approved for publication): The Brazilian work visa for employment is granted to foreign nationals who have
 AFTER targeting: The Brazilian work visa for employment is granted to foreign nationals who have — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

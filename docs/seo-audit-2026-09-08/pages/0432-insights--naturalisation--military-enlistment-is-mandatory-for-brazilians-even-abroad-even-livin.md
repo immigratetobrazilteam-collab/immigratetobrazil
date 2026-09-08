@@ -26,11 +26,11 @@ BEFORE description: Military enlistment is mandatory for Brazilians, even abroad
 BEFORE H1: Military enlistment is mandatory for Brazilians, even abroad Even living outside
 BEFORE apparent targeting: Military enlistment is mandatory for Brazilians, even abroad Even living outside
 
-AFTER title: Military enlistment is mandatory for Brazilians, even abroad Even living outside | November 4, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Military enlistment is mandatory for Brazilians, even abroad Even living outside
-Alternative B: Military enlistment is mandatory for Brazilians, even abroad Even living outside | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Military enlistment is mandatory for Brazilians, even abroad Even living outside | November 4, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Military enlistment is mandatory for Brazilians, even abroad Even living outside: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Military enlistment is mandatory for Brazilians, even abroad Even living outside
+AFTER H1 (HOLD; not approved for publication): Military enlistment is mandatory for Brazilians, even abroad Even living outside
 AFTER targeting: Military enlistment is mandatory for Brazilians, even abroad Even living outside — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

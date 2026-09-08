@@ -26,11 +26,11 @@ BEFORE description: Visto de estudante brasileiro para estudos médicos O visto 
 BEFORE H1: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos
 BEFORE apparent targeting: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos
 
-AFTER title: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos | 2 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos
-Alternative B: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos | 2 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para medicina: esta página traz pesquisas anteriores de visto em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos
+AFTER H1 (HOLD; not approved for publication): Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos
 AFTER targeting: Visto de estudante brasileiro para estudos médicos O visto de estudante brasileiro para estudos médicos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

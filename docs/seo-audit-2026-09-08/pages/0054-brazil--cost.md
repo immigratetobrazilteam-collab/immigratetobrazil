@@ -14,7 +14,7 @@ User problem / SEO objective: Cost of Living in Brazil: Planning Your Budget
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Cost of Living in Brazil: Planning Your Budget
 Primary keyword/focus field: Cost of Living in Brazil: Planning Your Budget; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Cost of Living in Brazil: Planning Your Budget questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/brazil/cities/ owns Compare Cities for Living in Brazil", "https://immigratetobrazil.com/services/residencies/ owns Brazil Residence Permit Services"]

@@ -26,11 +26,11 @@ BEFORE description: Due to the political crises in Syria, the Brazilian Embassy 
 BEFORE H1: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the
 BEFORE apparent targeting: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the
 
-AFTER title: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the | April 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the
-Alternative B: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the | April 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the
+AFTER H1 (HOLD; not approved for publication): Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the
 AFTER targeting: Due to the political crises in Syria, the Brazilian Embassy in Syria has announced the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

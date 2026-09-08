@@ -26,11 +26,11 @@ BEFORE description: Quando um dos pais é estrangeiro e nasce uma criança brasi
 BEFORE H1: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento
 BEFORE apparent targeting: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento
 
-AFTER title: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento | 20 de março de 2024 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento
-Alternative B: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento | 20 de março de 2024 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando um dos pais é estrangeiro e nasce uma criança brasileira, o nascimento: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento
+AFTER H1 (HOLD; not approved for publication): Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento
 AFTER targeting: Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

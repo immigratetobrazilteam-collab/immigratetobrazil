@@ -26,11 +26,11 @@ BEFORE description: End of the stamp in the passport when traveling to Europe Fr
 BEFORE H1: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries
 BEFORE apparent targeting: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries
 
-AFTER title: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries | November 18, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries
-Alternative B: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries | Monique Fernandes
+AFTER title (HOLD; not approved for publication): End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries | November 18, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer...
-AFTER H1: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries
+AFTER H1 (HOLD; not approved for publication): End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries
 AFTER targeting: End of the stamp in the passport when traveling to Europe From October 2025, tourists from outside the European Union, including Brazilians, will no longer have their passport stamped when entering Schengen Area countries — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Explore tax-friendly destinations and optimize your tax situ
 BEFORE H1: Explore tax-friendly destinations and optimize your tax situation while living the
 BEFORE apparent targeting: Explore tax-friendly destinations and optimize your tax situation while living the
 
-AFTER title: Explore tax-friendly destinations and optimize your tax situation while living the | May 22, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Explore tax-friendly destinations and optimize your tax situation while living the
-Alternative B: Explore tax-friendly destinations and optimize your tax situation while living the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Explore tax-friendly destinations and optimize your tax situation while living the | May 22, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Explore tax-friendly destinations and optimize your tax situation while living the: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Explore tax-friendly destinations and optimize your tax situation while living the
+AFTER H1 (HOLD; not approved for publication): Explore tax-friendly destinations and optimize your tax situation while living the
 AFTER targeting: Explore tax-friendly destinations and optimize your tax situation while living the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

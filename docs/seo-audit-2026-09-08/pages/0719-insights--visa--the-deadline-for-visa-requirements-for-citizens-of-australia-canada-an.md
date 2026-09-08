@@ -26,11 +26,11 @@ BEFORE description: The deadline for visa requirements for citizens of Australia
 BEFORE H1: The deadline for visa requirements for citizens of Australia, Canada, and the United
 BEFORE apparent targeting: The deadline for visa requirements for citizens of Australia, Canada, and the United
 
-AFTER title: The deadline for visa requirements for citizens of Australia, Canada, and the United | February 1, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The deadline for visa requirements for citizens of Australia, Canada, and the United
-Alternative B: The deadline for visa requirements for citizens of Australia, Canada, and the United | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The deadline for visa requirements for citizens of Australia, Canada, and the United | February 1, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The deadline for visa requirements for citizens of Australia, Canada, and the United: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The deadline for visa requirements for citizens of Australia, Canada, and the United
+AFTER H1 (HOLD; not approved for publication): The deadline for visa requirements for citizens of Australia, Canada, and the United
 AFTER targeting: The deadline for visa requirements for citizens of Australia, Canada, and the United — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

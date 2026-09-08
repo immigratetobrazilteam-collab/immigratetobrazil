@@ -26,11 +26,11 @@ BEFORE description: Quanto tempo leva para obter o passaporte brasileiro? Esta p
 BEFORE H1: Quanto tempo leva para obter o passaporte brasileiro?
 BEFORE apparent targeting: Quanto tempo leva para obter o passaporte brasileiro?
 
-AFTER title: Quanto tempo leva para obter o passaporte brasileiro? | 28 de novembro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quanto tempo leva para obter o passaporte brasileiro?
-Alternative B: Quanto tempo leva para obter o passaporte brasileiro? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quanto tempo leva para obter o passaporte brasileiro? | 28 de novembro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quanto tempo leva para obter o passaporte brasileiro? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para leitores que planejam imigração...
-AFTER H1: Quanto tempo leva para obter o passaporte brasileiro?
+AFTER H1 (HOLD; not approved for publication): Quanto tempo leva para obter o passaporte brasileiro?
 AFTER targeting: Quanto tempo leva para obter o passaporte brasileiro? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

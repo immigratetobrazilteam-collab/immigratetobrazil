@@ -26,11 +26,11 @@ BEFORE description: A partir de 2 de setembro de 2025, o Departamento de Estado 
 BEFORE H1: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial
 BEFORE apparent targeting: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial
 
-AFTER title: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial | 4 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial
-Alternative B: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial | 4 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma reunião presencial: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial
+AFTER H1 (HOLD; not approved for publication): A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial
 AFTER targeting: A partir de 2 de setembro de 2025, o Departamento de Estado dos EUA exigirá uma visita presencial — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

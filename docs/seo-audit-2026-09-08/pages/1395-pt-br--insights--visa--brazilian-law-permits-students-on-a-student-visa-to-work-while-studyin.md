@@ -26,11 +26,11 @@ BEFORE description: A lei A legislação brasileira permite que estudantes com v
 BEFORE H1: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há
 BEFORE apparent targeting: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há
 
-AFTER title: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há | 16 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há
-Alternative B: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há | 16 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A lei A legislação brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas existem: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há
+AFTER H1 (HOLD; not approved for publication): A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há
 AFTER targeting: A lei brasileira permite que estudantes com visto de estudante trabalhem enquanto estudam, mas há — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

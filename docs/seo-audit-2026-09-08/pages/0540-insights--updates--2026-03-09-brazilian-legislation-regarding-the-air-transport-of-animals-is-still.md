@@ -26,11 +26,11 @@ BEFORE description: Brazilian legislation regarding the air transport of animals
 BEFORE H1: Brazilian legislation regarding the air transport of animals is still in an early stage of development
 BEFORE apparent targeting: Brazilian legislation regarding the air transport of animals is still in an early stage of development
 
-AFTER title: Brazilian legislation regarding the air transport of animals is still in an early stage of development | April 27, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Brazilian legislation regarding the air transport of animals is still in an early stage of development
-Alternative B: Brazilian legislation regarding the air transport of animals is still in an early stage of development | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian legislation regarding the air transport of animals is still in an early stage of development | April 27, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian legislation regarding the air transport of animals is still in an early stage of development: Archive record: March 9, 2026. This page brings...
-AFTER H1: Brazilian legislation regarding the air transport of animals is still in an early stage of development
+AFTER H1 (HOLD; not approved for publication): Brazilian legislation regarding the air transport of animals is still in an early stage of development
 AFTER targeting: Brazilian legislation regarding the air transport of animals is still in an early stage of development — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

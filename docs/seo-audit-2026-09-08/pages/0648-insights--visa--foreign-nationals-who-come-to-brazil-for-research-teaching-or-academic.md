@@ -26,11 +26,11 @@ BEFORE description: Foreign nationals who come to Brazil for research, teaching,
 BEFORE H1: Foreign nationals who come to Brazil for research, teaching, or academic extension,
 BEFORE apparent targeting: Foreign nationals who come to Brazil for research, teaching, or academic extension,
 
-AFTER title: Foreign nationals who come to Brazil for research, teaching, or academic extension, | October 28, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Foreign nationals who come to Brazil for research, teaching, or academic extension,
-Alternative B: Foreign nationals who come to Brazil for research, teaching, or academic extension, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Foreign nationals who come to Brazil for research, teaching, or academic extension, | October 28, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Foreign nationals who come to Brazil for research, teaching, or academic extension,: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Foreign nationals who come to Brazil for research, teaching, or academic extension,
+AFTER H1 (HOLD; not approved for publication): Foreign nationals who come to Brazil for research, teaching, or academic extension,
 AFTER targeting: Foreign nationals who come to Brazil for research, teaching, or academic extension, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

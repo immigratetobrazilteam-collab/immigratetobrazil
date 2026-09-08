@@ -26,11 +26,11 @@ BEFORE description: Quando uma pessoa permanece nos Estados Unidos além do temp
 BEFORE H1: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela
 BEFORE apparent targeting: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela
 
-AFTER title: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela | 8 de maio de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela
-Alternative B: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela | 8 de maio de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela
+AFTER H1 (HOLD; not approved for publication): Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela
 AFTER targeting: Quando uma pessoa permanece nos Estados Unidos além do tempo permitido como turista, ela — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

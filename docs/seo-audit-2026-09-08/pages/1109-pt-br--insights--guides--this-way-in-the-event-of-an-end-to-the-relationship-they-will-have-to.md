@@ -26,11 +26,11 @@ BEFORE description: Dessa forma, em caso de término do relacionamento, eles ter
 BEFORE H1: Dessa forma, em caso de término do relacionamento, eles terão que dividir o
 BEFORE apparent targeting: Dessa forma, em caso de término do relacionamento, eles terão que dividir o
 
-AFTER title: Dessa forma, em caso de término do relacionamento, eles terão que dividir o | 12 de junho de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Dessa forma, em caso de término do relacionamento, eles terão que dividir o
-Alternative B: Dessa forma, em caso de término do relacionamento, eles terão que dividir o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Dessa forma, em caso de término do relacionamento, eles terão que dividir o | 12 de junho de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Dessa forma, em caso de término do relacionamento, eles terão que dividir: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Dessa forma, em caso de término do relacionamento, eles terão que dividir o
+AFTER H1 (HOLD; not approved for publication): Dessa forma, em caso de término do relacionamento, eles terão que dividir o
 AFTER targeting: Dessa forma, em caso de término do relacionamento, eles terão que dividir o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

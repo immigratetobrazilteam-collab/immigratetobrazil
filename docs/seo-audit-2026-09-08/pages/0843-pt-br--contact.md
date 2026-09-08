@@ -14,7 +14,7 @@ User problem / SEO objective: Fale com Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Fale com Monique Fernandes
 Primary keyword/focus field: Fale com Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Fale com Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Solicitar contato
 BEFORE apparent targeting: Contato com Monique Fernandes
 
 AFTER title: Fale com Monique Fernandes
-Alternative A: Fale com Monique Fernandes
-Alternative B: Fale com Monique Fernandes | Monique Fernandes
+Alternative A: Fale com Monique Fernandes | Monique Fernandes
+Alternative B: Fale com Monique Fernandes | Immigrate to Brazil
 AFTER description: Fale com Monique Fernandes sobre imigração no Brasil. Encontre e-mail e WhatsApp ou solicite uma consulta para orientação sobre seu caso.
 AFTER H1: Fale com Monique Fernandes
 AFTER targeting: Fale com Monique Fernandes — navigational

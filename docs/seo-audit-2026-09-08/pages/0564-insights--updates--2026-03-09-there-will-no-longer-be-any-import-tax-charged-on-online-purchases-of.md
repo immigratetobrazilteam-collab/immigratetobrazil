@@ -26,11 +26,11 @@ BEFORE description: There will no longer be any import tax charged on online pur
 BEFORE H1: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards
 BEFORE apparent targeting: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards
 
-AFTER title: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards | August 8, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards
-Alternative B: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards | Monique Fernandes
+AFTER title (HOLD; not approved for publication): There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards | August 8, 2023 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards: Archive record: March 9, 2026. This page brings...
-AFTER H1: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards
+AFTER H1 (HOLD; not approved for publication): There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards
 AFTER targeting: There will no longer be any import tax charged on online purchases of up to US$50 made from August onwards — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

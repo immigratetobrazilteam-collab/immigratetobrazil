@@ -26,11 +26,11 @@ BEFORE description: Você sabia que a naturalização brasileira pode abrir port
 BEFORE H1: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?
 BEFORE apparent targeting: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?
 
-AFTER title: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? | 29 de agosto de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?
-Alternative B: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? | 29 de agosto de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? Esta página traz pesquisas anteriores no estilo FAQ para uma orientação mais clara...
-AFTER H1: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?
+AFTER H1 (HOLD; not approved for publication): Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?
 AFTER targeting: Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

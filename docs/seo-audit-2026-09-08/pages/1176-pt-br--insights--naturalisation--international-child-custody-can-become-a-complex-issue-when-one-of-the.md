@@ -26,11 +26,11 @@ BEFORE description: A custódia internacional dos filhos pode se tornar uma ques
 BEFORE H1: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é
 BEFORE apparent targeting: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é
 
-AFTER title: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é | 11 de fevereiro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é
-Alternative B: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é | 11 de fevereiro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A custódia internacional dos filhos pode se tornar uma questão complexa quando um dos pais: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é
+AFTER H1 (HOLD; not approved for publication): A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é
 AFTER targeting: A guarda internacional dos filhos pode tornar-se uma questão complexa quando um dos progenitores é — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

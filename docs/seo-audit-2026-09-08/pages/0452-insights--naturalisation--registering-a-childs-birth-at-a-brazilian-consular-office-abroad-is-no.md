@@ -26,11 +26,11 @@ BEFORE description: Registering a childs birth at a Brazilian Consular Office ab
 BEFORE H1: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but
 BEFORE apparent targeting: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but
 
-AFTER title: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but | March 19, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but
-Alternative B: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but | March 19, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but: This page brings earlier citizenship research into a clearer format...
-AFTER H1: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but
+AFTER H1 (HOLD; not approved for publication): Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but
 AFTER targeting: Registering a childs birth at a Brazilian Consular Office abroad is not mandatory, but — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

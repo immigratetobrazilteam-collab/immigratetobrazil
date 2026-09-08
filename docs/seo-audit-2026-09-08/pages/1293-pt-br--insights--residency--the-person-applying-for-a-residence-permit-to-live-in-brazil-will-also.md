@@ -26,11 +26,11 @@ BEFORE description: A pessoa que solicitar uma autorização de residência para
 BEFORE H1: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um
 BEFORE apparent targeting: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um
 
-AFTER title: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um | 18 de setembro de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um
-Alternative B: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A pessoa que solicitar autorização de residência para residir no Brasil também receberá um | 18 de setembro de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A pessoa que solicitar uma autorização de residência para morar no Brasil também receberá: Esta página traz pesquisas anteriores de residência em uma estrutura mais clara para...
-AFTER H1: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um
+AFTER H1 (HOLD; not approved for publication): A pessoa que solicitar autorização de residência para residir no Brasil também receberá um
 AFTER targeting: A pessoa que solicitar autorização de residência para residir no Brasil também receberá um — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

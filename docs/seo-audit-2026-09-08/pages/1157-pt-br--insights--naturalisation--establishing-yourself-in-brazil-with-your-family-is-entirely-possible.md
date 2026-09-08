@@ -26,11 +26,11 @@ BEFORE description: Estabelecer-se no Brasil com sua família é perfeitamente p
 BEFORE H1: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o
 BEFORE apparent targeting: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o
 
-AFTER title: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o | 24 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o
-Alternative B: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o | 24 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que: Esta página traga pesquisas anteriores sobre cidadania de forma mais clara para...
-AFTER H1: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o
+AFTER H1 (HOLD; not approved for publication): Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o
 AFTER targeting: Estabelecer-se no Brasil com sua família é perfeitamente possível, desde que o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

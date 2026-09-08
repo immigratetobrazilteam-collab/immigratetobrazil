@@ -14,7 +14,7 @@ User problem / SEO objective: Avoiding Immigration Application Mistakes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Avoiding Immigration Application Mistakes
 Primary keyword/focus field: Avoiding Immigration Application Mistakes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Avoiding Immigration Application Mistakes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/process/ owns Working With Monique: The Immigration Process", "https://immigratetobrazil.com/rights/ owns Immigrant Rights and Responsibilities in Brazil"]

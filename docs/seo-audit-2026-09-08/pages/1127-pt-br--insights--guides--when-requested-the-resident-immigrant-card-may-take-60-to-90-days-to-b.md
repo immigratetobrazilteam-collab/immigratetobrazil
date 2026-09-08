@@ -26,11 +26,11 @@ BEFORE description: Quando solicitado, o cartão de imigrante residente pode lev
 BEFORE H1: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para
 BEFORE apparent targeting: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para
 
-AFTER title: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para | 7 de fevereiro de 2024 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para
-Alternative B: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para | 7 de fevereiro de 2024 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando solicitado, o cartão de imigrante residente pode levar de 60 a 90 dias para ficar pronto para: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para
+AFTER H1 (HOLD; not approved for publication): Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para
 AFTER targeting: Quando solicitado, o cartão de imigrante residente pode demorar de 60 a 90 dias para ficar pronto para — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Em primeiro lugar, é essencial compreender que tanto Brasil
 BEFORE H1: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos
 BEFORE apparent targeting: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos
 
-AFTER title: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos | 18 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos
-Alternative B: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos | 18 de outubro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para os leitores...
-AFTER H1: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos
+AFTER H1 (HOLD; not approved for publication): Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos
 AFTER targeting: Em primeiro lugar, é essencial compreender que tanto Brasil como os Estados Unidos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

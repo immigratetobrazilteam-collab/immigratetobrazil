@@ -26,11 +26,11 @@ BEFORE description: Quando um visto temporário brasileiro está próximo do ven
 BEFORE H1: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar
 BEFORE apparent targeting: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar
 
-AFTER title: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar | 21 de outubro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar
-Alternative B: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar | 21 de outubro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara...
-AFTER H1: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar
+AFTER H1 (HOLD; not approved for publication): Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar
 AFTER targeting: Quando um visto temporário brasileiro está próximo do vencimento, é necessário solicitar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

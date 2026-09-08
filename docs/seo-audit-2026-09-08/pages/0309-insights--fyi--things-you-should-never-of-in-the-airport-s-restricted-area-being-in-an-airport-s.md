@@ -26,11 +26,11 @@ BEFORE description: Things you should never of in the airport s restricted area 
 BEFORE H1: Things you should never of in the airport s restricted area being in an airport s
 BEFORE apparent targeting: Things you should never of in the airport s restricted area being in an airport s
 
-AFTER title: Things you should never of in the airport s restricted area being in an airport s | FYI | Immigrate to Brazil
-Alternative A: Things you should never of in the airport s restricted area being in an airport s
-Alternative B: Things you should never of in the airport s restricted area being in an airport s | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Things you should never of in the airport s restricted area being in an airport s | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Things you should never of in the airport s restricted area being in an airport s: Things You Should Never Do in the Airport's Restricted Area Being in an...
-AFTER H1: Things you should never of in the airport s restricted area being in an airport s
+AFTER H1 (HOLD; not approved for publication): Things you should never of in the airport s restricted area being in an airport s
 AFTER targeting: Things you should never of in the airport s restricted area being in an airport s — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

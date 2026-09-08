@@ -26,11 +26,11 @@ BEFORE description: In situations where a Brazilian needs emergency consular ass
 BEFORE H1: In situations where a Brazilian needs emergency consular assistance outside business
 BEFORE apparent targeting: In situations where a Brazilian needs emergency consular assistance outside business
 
-AFTER title: In situations where a Brazilian needs emergency consular assistance outside business | January 29, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: In situations where a Brazilian needs emergency consular assistance outside business
-Alternative B: In situations where a Brazilian needs emergency consular assistance outside business | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In situations where a Brazilian needs emergency consular assistance outside business | January 29, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In situations where a Brazilian needs emergency consular assistance outside business: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: In situations where a Brazilian needs emergency consular assistance outside business
+AFTER H1 (HOLD; not approved for publication): In situations where a Brazilian needs emergency consular assistance outside business
 AFTER targeting: In situations where a Brazilian needs emergency consular assistance outside business — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

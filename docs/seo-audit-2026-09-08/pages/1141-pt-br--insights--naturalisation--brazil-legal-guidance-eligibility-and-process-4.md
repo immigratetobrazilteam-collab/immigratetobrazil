@@ -26,11 +26,11 @@ BEFORE description: Orientação jurídica Brasil: elegibilidade e processo (4):
 BEFORE H1: Orientação jurídica Brasil: elegibilidade e processo (4)
 BEFORE apparent targeting: Orientação jurídica Brasil: elegibilidade e processo (4)
 
-AFTER title: Orientação jurídica Brasil: elegibilidade e processo (4) | 14 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Orientação jurídica Brasil: elegibilidade e processo (4)
-Alternative B: Orientação jurídica Brasil: elegibilidade e processo (4) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Orientação jurídica Brasil: elegibilidade e processo (4) | 14 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Orientação jurídica Brasil: elegibilidade e processo (4): Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para leitores que comparam a naturalização...
-AFTER H1: Orientação jurídica Brasil: elegibilidade e processo (4)
+AFTER H1 (HOLD; not approved for publication): Orientação jurídica Brasil: elegibilidade e processo (4)
 AFTER targeting: Orientação jurídica Brasil: elegibilidade e processo (4) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

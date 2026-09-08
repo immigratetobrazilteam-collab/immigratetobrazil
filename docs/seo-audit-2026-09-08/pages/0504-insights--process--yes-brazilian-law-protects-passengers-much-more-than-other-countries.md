@@ -26,11 +26,11 @@ BEFORE description: Yes, Brazilian law protects passengers much more than other 
 BEFORE H1: Yes, Brazilian law protects passengers much more than other countries
 BEFORE apparent targeting: Yes, Brazilian law protects passengers much more than other countries
 
-AFTER title: Yes, Brazilian law protects passengers much more than other countries | March 14, 2023 | Process Insight | Immigrate to Brazil
-Alternative A: Yes, Brazilian law protects passengers much more than other countries
-Alternative B: Yes, Brazilian law protects passengers much more than other countries | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Yes, Brazilian law protects passengers much more than other countries | March 14, 2023 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Yes, Brazilian law protects passengers much more than other countries: This page brings earlier process and support research into a clearer format for readers...
-AFTER H1: Yes, Brazilian law protects passengers much more than other countries
+AFTER H1 (HOLD; not approved for publication): Yes, Brazilian law protects passengers much more than other countries
 AFTER targeting: Yes, Brazilian law protects passengers much more than other countries — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

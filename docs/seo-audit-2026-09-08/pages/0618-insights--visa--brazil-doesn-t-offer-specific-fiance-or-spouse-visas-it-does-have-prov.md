@@ -26,11 +26,11 @@ BEFORE description: Brazil doesn't offer specific Fiance or Spouse Visas, it doe
 BEFORE H1: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for
 BEFORE apparent targeting: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for
 
-AFTER title: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for | September 27, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for
-Alternative B: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for | September 27, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for
+AFTER H1 (HOLD; not approved for publication): Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for
 AFTER targeting: Brazil doesn't offer specific Fiance or Spouse Visas, it does have provisions for — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

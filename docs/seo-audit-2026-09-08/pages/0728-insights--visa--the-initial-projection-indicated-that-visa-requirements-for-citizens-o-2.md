@@ -26,11 +26,11 @@ BEFORE description: The initial projection indicated that visa requirements for 
 BEFORE H1: The initial projection indicated that visa requirements for citizens of the United (2)
 BEFORE apparent targeting: The initial projection indicated that visa requirements for citizens of the United (2)
 
-AFTER title: The initial projection indicated that visa requirements for citizens of the United (2) | December 18, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: The initial projection indicated that visa requirements for citizens of the United (2)
-Alternative B: The initial projection indicated that visa requirements for citizens of the United (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The initial projection indicated that visa requirements for citizens of the United (2) | December 18, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The initial projection indicated that visa requirements for citizens of the United (2): This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The initial projection indicated that visa requirements for citizens of the United (2)
+AFTER H1 (HOLD; not approved for publication): The initial projection indicated that visa requirements for citizens of the United (2)
 AFTER targeting: The initial projection indicated that visa requirements for citizens of the United (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

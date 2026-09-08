@@ -26,11 +26,11 @@ BEFORE description: Immigrating to a new country is a life-altering decision, an
 BEFORE H1: Immigrating to a new country is a life-altering decision, and seeking professional
 BEFORE apparent targeting: Immigrating to a new country is a life-altering decision, and seeking professional
 
-AFTER title: Immigrating to a new country is a life-altering decision, and seeking professional | February 16, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Immigrating to a new country is a life-altering decision, and seeking professional
-Alternative B: Immigrating to a new country is a life-altering decision, and seeking professional | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Immigrating to a new country is a life-altering decision, and seeking professional | February 16, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Immigrating to a new country is a life-altering decision, and seeking professional: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Immigrating to a new country is a life-altering decision, and seeking professional
+AFTER H1 (HOLD; not approved for publication): Immigrating to a new country is a life-altering decision, and seeking professional
 AFTER targeting: Immigrating to a new country is a life-altering decision, and seeking professional — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

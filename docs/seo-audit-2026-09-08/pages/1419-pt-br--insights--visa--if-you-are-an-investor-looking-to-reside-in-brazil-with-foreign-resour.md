@@ -26,11 +26,11 @@ BEFORE description: Se você é um investidor que deseja residir no Brasil com r
 BEFORE H1: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir
 BEFORE apparent targeting: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir
 
-AFTER title: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir | 19 de fevereiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir
-Alternative B: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir | 19 de fevereiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, comprando: Esta página traz pesquisas anteriores de vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir
+AFTER H1 (HOLD; not approved for publication): Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir
 AFTER targeting: Se você é um investidor que deseja residir no Brasil com recursos estrangeiros, adquirir — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

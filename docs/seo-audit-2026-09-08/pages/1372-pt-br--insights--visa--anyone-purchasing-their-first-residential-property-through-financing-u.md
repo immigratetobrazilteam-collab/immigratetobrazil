@@ -26,11 +26,11 @@ BEFORE description: Qualquer pessoa que adquirir seu primeiro imóvel residencia
 BEFORE H1: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils
 BEFORE apparent targeting: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils
 
-AFTER title: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils | 13 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils
-Alternative B: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils | 13 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils
+AFTER H1 (HOLD; not approved for publication): Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils
 AFTER targeting: Qualquer pessoa que adquirir seu primeiro imóvel residencial por meio de financiamento sob Brasils — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

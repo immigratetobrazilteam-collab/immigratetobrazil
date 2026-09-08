@@ -26,11 +26,11 @@ BEFORE description: Always consult an immigration lawyer for instructions based 
 BEFORE H1: Always consult an immigration lawyer for instructions based on your case
 BEFORE apparent targeting: Always consult an immigration lawyer for instructions based on your case
 
-AFTER title: Always consult an immigration lawyer for instructions based on your case | August 22, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Always consult an immigration lawyer for instructions based on your case
-Alternative B: Always consult an immigration lawyer for instructions based on your case | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Always consult an immigration lawyer for instructions based on your case | August 22, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Always consult an immigration lawyer for instructions based on your case: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Always consult an immigration lawyer for instructions based on your case
+AFTER H1 (HOLD; not approved for publication): Always consult an immigration lawyer for instructions based on your case
 AFTER targeting: Always consult an immigration lawyer for instructions based on your case — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

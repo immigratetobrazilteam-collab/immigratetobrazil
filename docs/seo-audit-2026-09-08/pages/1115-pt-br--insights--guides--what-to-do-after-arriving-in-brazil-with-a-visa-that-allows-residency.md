@@ -26,11 +26,11 @@ BEFORE description: O que fazer depois de chegar no Brasil com visto que permite
 BEFORE H1: O que fazer depois de chegar no Brasil com visto que permite residência?
 BEFORE apparent targeting: O que fazer depois de chegar no Brasil com visto que permite residência?
 
-AFTER title: O que fazer depois de chegar no Brasil com visto que permite residência? | 13 de novembro de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: O que fazer depois de chegar no Brasil com visto que permite residência?
-Alternative B: O que fazer depois de chegar no Brasil com visto que permite residência? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O que fazer depois de chegar no Brasil com visto que permite residência? | 13 de novembro de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O que fazer depois de chegar no Brasil com visto que permite residência? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para os leitores...
-AFTER H1: O que fazer depois de chegar no Brasil com visto que permite residência?
+AFTER H1 (HOLD; not approved for publication): O que fazer depois de chegar no Brasil com visto que permite residência?
 AFTER targeting: O que fazer depois de chegar no Brasil com visto que permite residência? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

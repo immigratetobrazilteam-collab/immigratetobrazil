@@ -26,11 +26,11 @@ BEFORE description: Para obter um visto de estudo brasileiro, você deve estar m
 BEFORE H1: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional
 BEFORE apparent targeting: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional
 
-AFTER title: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional | 17 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional
-Alternative B: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional | 17 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional
+AFTER H1 (HOLD; not approved for publication): Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional
 AFTER targeting: Para obter um visto de estudo brasileiro, você deve estar matriculado em um programa educacional — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

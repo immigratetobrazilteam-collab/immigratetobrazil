@@ -26,11 +26,11 @@ BEFORE description: Na residência temporária, você só pode faltar por menos 
 BEFORE H1: In temporary residence, you can only be absent for less than 6 consecutive months or 8
 BEFORE apparent targeting: In temporary residence, you can only be absent for less than 6 consecutive months or 8
 
-AFTER title: In temporary residence, you can only be absent for less than 6 consecutive months or 8 | 16 de maio de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: In temporary residence, you can only be absent for less than 6 consecutive months or 8
-Alternative B: In temporary residence, you can only be absent for less than 6 consecutive months or 8 | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In temporary residence, you can only be absent for less than 6 consecutive months or 8 | 16 de maio de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Na residência temporária, você só pode faltar por menos de 6 meses consecutivos ou 8: Esta página traz a pesquisa de residência anterior em um quadro mais claro...
-AFTER H1: In temporary residence, you can only be absent for less than 6 consecutive months or 8
+AFTER H1 (HOLD; not approved for publication): In temporary residence, you can only be absent for less than 6 consecutive months or 8
 AFTER targeting: In temporary residence, you can only be absent for less than 6 consecutive months or 8 — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

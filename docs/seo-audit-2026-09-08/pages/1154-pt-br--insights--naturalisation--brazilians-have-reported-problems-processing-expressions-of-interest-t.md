@@ -26,11 +26,11 @@ BEFORE description: brasileiros relataram problemas no processamento de express�
 BEFORE H1: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas
 BEFORE apparent targeting: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas
 
-AFTER title: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas | 4 de junho de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas
-Alternative B: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas | 4 de junho de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: brasileiros relataram problemas no processamento de expressões de interesse para ajustar: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas
+AFTER H1 (HOLD; not approved for publication): brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas
 AFTER targeting: brasileiros relataram problemas no processamento de expressões de interesse para ajustar suas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

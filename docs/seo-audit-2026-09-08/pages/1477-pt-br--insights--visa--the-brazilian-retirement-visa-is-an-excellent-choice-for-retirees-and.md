@@ -26,11 +26,11 @@ BEFORE description: O Visto de Aposentadoria brasileira é uma excelente escolha
 BEFORE H1: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas
 BEFORE apparent targeting: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas
 
-AFTER title: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas | 7 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas
-Alternative B: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas | 7 de maio de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Visto de Aposentadoria brasileira é uma excelente escolha para aposentados e pensionistas: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas
+AFTER H1 (HOLD; not approved for publication): O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas
 AFTER targeting: O Visto de Aposentadoria brasileira é uma excelente opção para aposentados e pensionistas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

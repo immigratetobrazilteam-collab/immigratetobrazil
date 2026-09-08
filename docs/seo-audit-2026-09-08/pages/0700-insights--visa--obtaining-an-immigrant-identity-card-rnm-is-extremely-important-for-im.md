@@ -26,11 +26,11 @@ BEFORE description: Obtaining an immigrant identity card (RNM) is extremely impo
 BEFORE H1: Obtaining an immigrant identity card (RNM) is extremely important for immigrants
 BEFORE apparent targeting: Obtaining an immigrant identity card (RNM) is extremely important for immigrants
 
-AFTER title: Obtaining an immigrant identity card (RNM) is extremely important for immigrants | July 25, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Obtaining an immigrant identity card (RNM) is extremely important for immigrants
-Alternative B: Obtaining an immigrant identity card (RNM) is extremely important for immigrants | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Obtaining an immigrant identity card (RNM) is extremely important for immigrants | July 25, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Obtaining an immigrant identity card (RNM) is extremely important for immigrants: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Obtaining an immigrant identity card (RNM) is extremely important for immigrants
+AFTER H1 (HOLD; not approved for publication): Obtaining an immigrant identity card (RNM) is extremely important for immigrants
 AFTER targeting: Obtaining an immigrant identity card (RNM) is extremely important for immigrants — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

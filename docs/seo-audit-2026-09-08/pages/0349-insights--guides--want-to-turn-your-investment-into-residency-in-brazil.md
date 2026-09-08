@@ -26,11 +26,11 @@ BEFORE description: Want to turn your investment into residency in Brazil? This 
 BEFORE H1: Want to turn your investment into residency in Brazil?
 BEFORE apparent targeting: Want to turn your investment into residency in Brazil?
 
-AFTER title: Want to turn your investment into residency in Brazil? | October 7, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Want to turn your investment into residency in Brazil?
-Alternative B: Want to turn your investment into residency in Brazil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Want to turn your investment into residency in Brazil? | October 7, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Want to turn your investment into residency in Brazil? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Want to turn your investment into residency in Brazil?
+AFTER H1 (HOLD; not approved for publication): Want to turn your investment into residency in Brazil?
 AFTER targeting: Want to turn your investment into residency in Brazil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

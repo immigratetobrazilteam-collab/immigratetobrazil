@@ -14,7 +14,7 @@ User problem / SEO objective: Obrigações durante o pedido de imigração
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Obrigações durante o pedido de imigração
 Primary keyword/focus field: Obrigações durante o pedido de imigração; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Obrigações durante o pedido de imigração questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What changes at this specific stage?", "Which obligation belongs to the client, lawyer or authority?"]
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/process/ owns Como funciona o atendimento migratório com Monique", "https://immigratetobrazil.com/pt-br/rights/ owns Direitos e responsabilidades dos imigrantes no Brasil"]

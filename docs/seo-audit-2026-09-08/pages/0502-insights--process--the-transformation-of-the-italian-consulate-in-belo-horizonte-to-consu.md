@@ -26,11 +26,11 @@ BEFORE description: The transformation of the Italian Consulate in Belo Horizont
 BEFORE H1: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in
 BEFORE apparent targeting: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in
 
-AFTER title: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in | July 10, 2024 | Process Insight | Immigrate to Brazil
-Alternative A: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in
-Alternative B: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The transformation of the Italian Consulate in Belo Horizonte to Consulate General in | July 10, 2024 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in: This page brings earlier process and support research into a clearer...
-AFTER H1: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in
+AFTER H1 (HOLD; not approved for publication): The transformation of the Italian Consulate in Belo Horizonte to Consulate General in
 AFTER targeting: The transformation of the Italian Consulate in Belo Horizonte to Consulate General in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

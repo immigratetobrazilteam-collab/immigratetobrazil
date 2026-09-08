@@ -26,11 +26,11 @@ BEFORE description: The deadline to begin the process of recognizing Spanish cit
 BEFORE H1: The deadline to begin the process of recognizing Spanish citizenship for those of
 BEFORE apparent targeting: The deadline to begin the process of recognizing Spanish citizenship for those of
 
-AFTER title: The deadline to begin the process of recognizing Spanish citizenship for those of | May 8, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: The deadline to begin the process of recognizing Spanish citizenship for those of
-Alternative B: The deadline to begin the process of recognizing Spanish citizenship for those of | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The deadline to begin the process of recognizing Spanish citizenship for those of | May 8, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The deadline to begin the process of recognizing Spanish citizenship for those of: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: The deadline to begin the process of recognizing Spanish citizenship for those of
+AFTER H1 (HOLD; not approved for publication): The deadline to begin the process of recognizing Spanish citizenship for those of
 AFTER targeting: The deadline to begin the process of recognizing Spanish citizenship for those of — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

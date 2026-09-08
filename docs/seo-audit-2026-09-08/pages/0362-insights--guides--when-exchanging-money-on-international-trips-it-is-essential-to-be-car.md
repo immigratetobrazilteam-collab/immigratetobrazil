@@ -26,11 +26,11 @@ BEFORE description: When exchanging money on international trips, it is essentia
 BEFORE H1: When exchanging money on international trips, it is essential to be careful with
 BEFORE apparent targeting: When exchanging money on international trips, it is essential to be careful with
 
-AFTER title: When exchanging money on international trips, it is essential to be careful with | February 18, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: When exchanging money on international trips, it is essential to be careful with
-Alternative B: When exchanging money on international trips, it is essential to be careful with | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When exchanging money on international trips, it is essential to be careful with | February 18, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When exchanging money on international trips, it is essential to be careful with: This page brings earlier FAQ-style research into a clearer guidance page for...
-AFTER H1: When exchanging money on international trips, it is essential to be careful with
+AFTER H1 (HOLD; not approved for publication): When exchanging money on international trips, it is essential to be careful with
 AFTER targeting: When exchanging money on international trips, it is essential to be careful with — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

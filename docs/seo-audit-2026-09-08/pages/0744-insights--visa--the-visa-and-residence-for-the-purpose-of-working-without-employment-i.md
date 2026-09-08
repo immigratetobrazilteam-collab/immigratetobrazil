@@ -26,11 +26,11 @@ BEFORE description: The visa and residence for the purpose of working without em
 BEFORE H1: The visa and residence for the purpose of working without employment in Brazil,
 BEFORE apparent targeting: The visa and residence for the purpose of working without employment in Brazil,
 
-AFTER title: The visa and residence for the purpose of working without employment in Brazil, | July 18, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The visa and residence for the purpose of working without employment in Brazil,
-Alternative B: The visa and residence for the purpose of working without employment in Brazil, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The visa and residence for the purpose of working without employment in Brazil, | July 18, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The visa and residence for the purpose of working without employment in Brazil,: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The visa and residence for the purpose of working without employment in Brazil,
+AFTER H1 (HOLD; not approved for publication): The visa and residence for the purpose of working without employment in Brazil,
 AFTER targeting: The visa and residence for the purpose of working without employment in Brazil, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

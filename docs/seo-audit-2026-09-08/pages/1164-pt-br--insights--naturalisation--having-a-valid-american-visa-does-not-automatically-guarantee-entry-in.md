@@ -26,11 +26,11 @@ BEFORE description: Ter um visto americano válido não garante automaticamente 
 BEFORE H1: Ter um visto americano válido não garante automaticamente a entrada no país,
 BEFORE apparent targeting: Ter um visto americano válido não garante automaticamente a entrada no país,
 
-AFTER title: Ter um visto americano válido não garante automaticamente a entrada no país, | 13 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Ter um visto americano válido não garante automaticamente a entrada no país,
-Alternative B: Ter um visto americano válido não garante automaticamente a entrada no país, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Ter um visto americano válido não garante automaticamente a entrada no país, | 13 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Ter um visto americano válido não garante automaticamente a entrada no país: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Ter um visto americano válido não garante automaticamente a entrada no país,
+AFTER H1 (HOLD; not approved for publication): Ter um visto americano válido não garante automaticamente a entrada no país,
 AFTER targeting: Ter um visto americano válido não garante automaticamente a entrada no país, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

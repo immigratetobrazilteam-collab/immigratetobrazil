@@ -26,11 +26,11 @@ BEFORE description: Having a valid American visa does not automatically guarante
 BEFORE H1: Having a valid American visa does not automatically guarantee entry into the country,
 BEFORE apparent targeting: Having a valid American visa does not automatically guarantee entry into the country,
 
-AFTER title: Having a valid American visa does not automatically guarantee entry into the country, | October 13, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Having a valid American visa does not automatically guarantee entry into the country,
-Alternative B: Having a valid American visa does not automatically guarantee entry into the country, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Having a valid American visa does not automatically guarantee entry into the country, | October 13, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Having a valid American visa does not automatically guarantee entry into the country,: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Having a valid American visa does not automatically guarantee entry into the country,
+AFTER H1 (HOLD; not approved for publication): Having a valid American visa does not automatically guarantee entry into the country,
 AFTER targeting: Having a valid American visa does not automatically guarantee entry into the country, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

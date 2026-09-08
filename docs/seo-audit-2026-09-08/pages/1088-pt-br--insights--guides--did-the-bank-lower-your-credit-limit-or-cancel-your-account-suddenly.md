@@ -26,11 +26,11 @@ BEFORE description: O banco reduziu seu limite de crédito ou cancelou sua conta
 BEFORE H1: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente?
 BEFORE apparent targeting: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente?
 
-AFTER title: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente? | 8 de junho de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente?
-Alternative B: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente? | 8 de junho de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para os leitores...
-AFTER H1: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente?
+AFTER H1 (HOLD; not approved for publication): O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente?
 AFTER targeting: O banco reduziu seu limite de crédito ou cancelou sua conta repentinamente? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

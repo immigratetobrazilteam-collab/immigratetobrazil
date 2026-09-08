@@ -26,11 +26,11 @@ BEFORE description: Se um estrangeiro tem um filho no Brasil, ele passa automati
 BEFORE H1: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil
 BEFORE apparent targeting: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil
 
-AFTER title: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil | 30 de maio de 2025 | Guia Brasil | Imigre para o Brasil
-Alternative A: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil
-Alternative B: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil | 30 de maio de 2025 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil: Esta página reorganiza conteúdo anterior em formato de FAQ em uma página de orientação mais clara...
-AFTER H1: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil
+AFTER H1 (HOLD; not approved for publication): Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil
 AFTER targeting: Se um estrangeiro tem um filho no Brasil, ele passa automaticamente a ter algum direito no Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

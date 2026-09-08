@@ -26,11 +26,11 @@ BEFORE description: From June 1, 2025, Brazilian citizens will be able to enter 
 BEFORE H1: From June 1, 2025, Brazilian citizens will be able to enter China without a
 BEFORE apparent targeting: From June 1, 2025, Brazilian citizens will be able to enter China without a
 
-AFTER title: From June 1, 2025, Brazilian citizens will be able to enter China without a | June 23, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: From June 1, 2025, Brazilian citizens will be able to enter China without a
-Alternative B: From June 1, 2025, Brazilian citizens will be able to enter China without a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): From June 1, 2025, Brazilian citizens will be able to enter China without a | June 23, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: From June 1, 2025, Brazilian citizens will be able to enter China without a: Archive record: March 10, 2026. This page brings earlier update reporting into...
-AFTER H1: From June 1, 2025, Brazilian citizens will be able to enter China without a
+AFTER H1 (HOLD; not approved for publication): From June 1, 2025, Brazilian citizens will be able to enter China without a
 AFTER targeting: From June 1, 2025, Brazilian citizens will be able to enter China without a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

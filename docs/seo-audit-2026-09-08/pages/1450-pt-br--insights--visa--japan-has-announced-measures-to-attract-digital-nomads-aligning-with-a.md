@@ -26,11 +26,11 @@ BEFORE description: O Japão anunciou medidas para atrair nômades digitais, ali
 BEFORE H1: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global
 BEFORE apparent targeting: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global
 
-AFTER title: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global | 6 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global
-Alternative B: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global | 6 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Japão anunciou medidas para atrair nômades digitais, alinhando-se com uma tendência global: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global
+AFTER H1 (HOLD; not approved for publication): O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global
 AFTER targeting: O Japão anunciou medidas para atrair nômades digitais, alinhando-se a uma tendência global — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

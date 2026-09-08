@@ -26,11 +26,11 @@ BEFORE description: It is possible for someone to visit Brazil as a tourist and,
 BEFORE H1: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2)
 BEFORE apparent targeting: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2)
 
-AFTER title: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2) | March 25, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2)
-Alternative B: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2) | March 25, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2): This page brings earlier citizenship research into a clearer...
-AFTER H1: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2)
+AFTER H1 (HOLD; not approved for publication): It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2)
 AFTER targeting: It is possible for someone to visit Brazil as a tourist and, upon falling in love with (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

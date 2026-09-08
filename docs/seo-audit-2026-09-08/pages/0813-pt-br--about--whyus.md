@@ -14,7 +14,7 @@ User problem / SEO objective: Por que trabalhar com Monique | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Por que trabalhar com Monique | Monique Fernandes
 Primary keyword/focus field: Por que trabalhar com Monique | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Por que trabalhar com Monique | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Por que trabalhar com Monique
 BEFORE apparent targeting: Por que trabalhar com Monique Fernandes
 
 AFTER title: Por que trabalhar com Monique | Monique Fernandes
-Alternative A: Por que trabalhar com Monique | Monique Fernandes
-Alternative B: Por que trabalhar com Monique | Monique Fernandes | Monique Fernandes
+Alternative A: Por que trabalhar com Monique
+Alternative B: Por que trabalhar com Monique | Immigrate to Brazil
 AFTER description: Os clientes escolhem Monique Fernandes pela estratégia liderada por advogados, comunicação bilíngue clara e um caminho mais calmo e confiável através da imigração brasileira.
 AFTER H1: Por que trabalhar com Monique | Monique Fernandes
 AFTER targeting: Por que trabalhar com Monique | Monique Fernandes — navigational

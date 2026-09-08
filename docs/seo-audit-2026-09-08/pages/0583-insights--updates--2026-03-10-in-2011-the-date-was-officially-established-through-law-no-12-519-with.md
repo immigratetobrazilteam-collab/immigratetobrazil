@@ -26,11 +26,11 @@ BEFORE description: In 2011, the date was officially established through Law No.
 BEFORE H1: In 2011, the date was officially established through Law No. 12,519, with the aim of
 BEFORE apparent targeting: In 2011, the date was officially established through Law No. 12,519, with the aim of
 
-AFTER title: In 2011, the date was officially established through Law No. 12,519, with the aim of | November 20, 2023 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: In 2011, the date was officially established through Law No. 12,519, with the aim of
-Alternative B: In 2011, the date was officially established through Law No. 12,519, with the aim of | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In 2011, the date was officially established through Law No. 12,519, with the aim of | November 20, 2023 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In 2011, the date was officially established through Law No. 12,519, with the aim of: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: In 2011, the date was officially established through Law No. 12,519, with the aim of
+AFTER H1 (HOLD; not approved for publication): In 2011, the date was officially established through Law No. 12,519, with the aim of
 AFTER targeting: In 2011, the date was officially established through Law No. 12,519, with the aim of — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

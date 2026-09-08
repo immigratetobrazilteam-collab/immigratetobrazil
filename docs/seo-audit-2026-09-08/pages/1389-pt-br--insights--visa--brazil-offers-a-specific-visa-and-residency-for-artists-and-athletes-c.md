@@ -26,11 +26,11 @@ BEFORE description: Brasil oferece visto e residência específicos para artista
 BEFORE H1: Brasil oferece visto e residência específicos para artistas e atletas que venham ao
 BEFORE apparent targeting: Brasil oferece visto e residência específicos para artistas e atletas que venham ao
 
-AFTER title: Brasil oferece visto e residência específicos para artistas e atletas que venham ao | 14 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil oferece visto e residência específicos para artistas e atletas que venham ao
-Alternative B: Brasil oferece visto e residência específicos para artistas e atletas que venham ao | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil oferece visto e residência específicos para artistas e atletas que venham ao | 14 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil oferece visto e residência específicos para artistas e atletas que vêm para: Esta página traz pesquisas anteriores de vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil oferece visto e residência específicos para artistas e atletas que venham ao
+AFTER H1 (HOLD; not approved for publication): Brasil oferece visto e residência específicos para artistas e atletas que venham ao
 AFTER targeting: Brasil oferece visto e residência específicos para artistas e atletas que venham ao — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

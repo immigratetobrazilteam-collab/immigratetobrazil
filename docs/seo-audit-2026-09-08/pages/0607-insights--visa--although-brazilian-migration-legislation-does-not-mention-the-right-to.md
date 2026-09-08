@@ -26,11 +26,11 @@ BEFORE description: Although Brazilian migration legislation does not mention th
 BEFORE H1: Although Brazilian migration legislation does not mention the right to appeal, there
 BEFORE apparent targeting: Although Brazilian migration legislation does not mention the right to appeal, there
 
-AFTER title: Although Brazilian migration legislation does not mention the right to appeal, there | October 1, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Although Brazilian migration legislation does not mention the right to appeal, there
-Alternative B: Although Brazilian migration legislation does not mention the right to appeal, there | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Although Brazilian migration legislation does not mention the right to appeal, there | October 1, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Although Brazilian migration legislation does not mention the right to appeal, there: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Although Brazilian migration legislation does not mention the right to appeal, there
+AFTER H1 (HOLD; not approved for publication): Although Brazilian migration legislation does not mention the right to appeal, there
 AFTER targeting: Although Brazilian migration legislation does not mention the right to appeal, there — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

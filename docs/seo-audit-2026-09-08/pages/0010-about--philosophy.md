@@ -14,7 +14,7 @@ User problem / SEO objective: Philosophy | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Philosophy | Monique Fernandes
 Primary keyword/focus field: Philosophy | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Philosophy | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Philosophy
 BEFORE apparent targeting: Monique Fernandes Philosophy
 
 AFTER title: Philosophy | Monique Fernandes
-Alternative A: Philosophy | Monique Fernandes
-Alternative B: Philosophy | Monique Fernandes | Monique Fernandes
+Alternative A: Philosophy
+Alternative B: Philosophy | Immigrate to Brazil
 AFTER description: Monique Fernandes builds immigration strategy around clarity before action, structure before speed, and documentation that supports the route.
 AFTER H1: Philosophy | Monique Fernandes
 AFTER targeting: Philosophy | Monique Fernandes — navigational

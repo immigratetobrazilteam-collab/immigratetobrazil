@@ -26,11 +26,11 @@ BEFORE description: Is it necessary to speak Portuguese to live in Brazil? This 
 BEFORE H1: Is it necessary to speak Portuguese to live in Brazil?
 BEFORE apparent targeting: Is it necessary to speak Portuguese to live in Brazil?
 
-AFTER title: Is it necessary to speak Portuguese to live in Brazil? | June 9, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Is it necessary to speak Portuguese to live in Brazil?
-Alternative B: Is it necessary to speak Portuguese to live in Brazil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Is it necessary to speak Portuguese to live in Brazil? | June 9, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Is it necessary to speak Portuguese to live in Brazil? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Is it necessary to speak Portuguese to live in Brazil?
+AFTER H1 (HOLD; not approved for publication): Is it necessary to speak Portuguese to live in Brazil?
 AFTER targeting: Is it necessary to speak Portuguese to live in Brazil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

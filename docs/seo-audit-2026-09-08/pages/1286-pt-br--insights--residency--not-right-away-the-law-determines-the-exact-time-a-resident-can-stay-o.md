@@ -26,11 +26,11 @@ BEFORE description: Não de imediato, a lei determina o tempo exato em que um re
 BEFORE H1: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa
 BEFORE apparent targeting: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa
 
-AFTER title: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa | 11 de janeiro de 2024 | Visão de residência | Imigre para o Brasil
-Alternative A: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa
-Alternative B: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa | 11 de janeiro de 2024 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Não de imediato, a lei determina o tempo exato em que um residente pode ficar fora: Esta página reorganiza conteúdo anterior sobre residência em uma estrutura mais clara para...
-AFTER H1: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa
+AFTER H1 (HOLD; not approved for publication): Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa
 AFTER targeting: Não de imediato, a lei determina o tempo exato em que um morador pode ficar fora de casa — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

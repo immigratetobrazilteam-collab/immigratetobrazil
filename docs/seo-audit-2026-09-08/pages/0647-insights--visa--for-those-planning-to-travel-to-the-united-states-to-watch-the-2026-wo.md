@@ -26,11 +26,11 @@ BEFORE description: For those planning to travel to the United States to watch t
 BEFORE H1: For those planning to travel to the United States to watch the 2026 World Cup, it is
 BEFORE apparent targeting: For those planning to travel to the United States to watch the 2026 World Cup, it is
 
-AFTER title: For those planning to travel to the United States to watch the 2026 World Cup, it is | December 22, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: For those planning to travel to the United States to watch the 2026 World Cup, it is
-Alternative B: For those planning to travel to the United States to watch the 2026 World Cup, it is | Monique Fernandes
+AFTER title (HOLD; not approved for publication): For those planning to travel to the United States to watch the 2026 World Cup, it is | December 22, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: For those planning to travel to the United States to watch the 2026 World Cup, it is: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: For those planning to travel to the United States to watch the 2026 World Cup, it is
+AFTER H1 (HOLD; not approved for publication): For those planning to travel to the United States to watch the 2026 World Cup, it is
 AFTER targeting: For those planning to travel to the United States to watch the 2026 World Cup, it is — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia
 BEFORE H1: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia
 BEFORE apparent targeting: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia
 
-AFTER title: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia | 11 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia
-Alternative B: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia | 11 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia: Esta página traz pesquisas anteriores de vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia
+AFTER H1 (HOLD; not approved for publication): O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia
 AFTER targeting: O programa Holiday-Work Visa entre Brasil e a Nova Zelândia oferece à Nova Zelândia — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

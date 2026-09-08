@@ -26,11 +26,11 @@ BEFORE description: Recently, the United States lost its position in the top 10 
 BEFORE H1: Recently, the United States lost its position in the top 10 of the most powerful
 BEFORE apparent targeting: Recently, the United States lost its position in the top 10 of the most powerful
 
-AFTER title: Recently, the United States lost its position in the top 10 of the most powerful | December 8, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Recently, the United States lost its position in the top 10 of the most powerful
-Alternative B: Recently, the United States lost its position in the top 10 of the most powerful | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Recently, the United States lost its position in the top 10 of the most powerful | December 8, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Recently, the United States lost its position in the top 10 of the most powerful: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Recently, the United States lost its position in the top 10 of the most powerful
+AFTER H1 (HOLD; not approved for publication): Recently, the United States lost its position in the top 10 of the most powerful
 AFTER targeting: Recently, the United States lost its position in the top 10 of the most powerful — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

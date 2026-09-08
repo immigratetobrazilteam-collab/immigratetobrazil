@@ -26,11 +26,11 @@ BEFORE description: It is an important date to reinforce the fight against all f
 BEFORE H1: It is an important date to reinforce the fight against all forms of racism and
 BEFORE apparent targeting: It is an important date to reinforce the fight against all forms of racism and
 
-AFTER title: It is an important date to reinforce the fight against all forms of racism and | July 3, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: It is an important date to reinforce the fight against all forms of racism and
-Alternative B: It is an important date to reinforce the fight against all forms of racism and | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It is an important date to reinforce the fight against all forms of racism and | July 3, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It is an important date to reinforce the fight against all forms of racism and: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: It is an important date to reinforce the fight against all forms of racism and
+AFTER H1 (HOLD; not approved for publication): It is an important date to reinforce the fight against all forms of racism and
 AFTER targeting: It is an important date to reinforce the fight against all forms of racism and — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

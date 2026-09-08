@@ -26,11 +26,11 @@ BEFORE description: My immigrant ID card is valid until 2030, but my civil partn
 BEFORE H1: My immigrant ID card is valid until 2030, but my civil partnership has ended
 BEFORE apparent targeting: My immigrant ID card is valid until 2030, but my civil partnership has ended
 
-AFTER title: My immigrant ID card is valid until 2030, but my civil partnership has ended | July 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: My immigrant ID card is valid until 2030, but my civil partnership has ended
-Alternative B: My immigrant ID card is valid until 2030, but my civil partnership has ended | Monique Fernandes
+AFTER title (HOLD; not approved for publication): My immigrant ID card is valid until 2030, but my civil partnership has ended | July 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: My immigrant ID card is valid until 2030, but my civil partnership has ended: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: My immigrant ID card is valid until 2030, but my civil partnership has ended
+AFTER H1 (HOLD; not approved for publication): My immigrant ID card is valid until 2030, but my civil partnership has ended
 AFTER targeting: My immigrant ID card is valid until 2030, but my civil partnership has ended — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O planejamento da imigração envolve a consideração estra
 BEFORE H1: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um
 BEFORE apparent targeting: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um
 
-AFTER title: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um | 29 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um
-Alternative B: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O planejamento da imigração envolve a consideração estratégica e cuidadosa de um | 29 de fevereiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um
+AFTER H1 (HOLD; not approved for publication): O planejamento da imigração envolve a consideração estratégica e cuidadosa de um
 AFTER targeting: O planejamento da imigração envolve a consideração estratégica e cuidadosa de um — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

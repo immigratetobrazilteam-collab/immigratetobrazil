@@ -26,11 +26,11 @@ BEFORE description: The importance of getting legal guidance from a Lawyer in tr
 BEFORE H1: The importance of getting legal guidance from a Lawyer in travel and immigration:
 BEFORE apparent targeting: The importance of getting legal guidance from a Lawyer in travel and immigration:
 
-AFTER title: The importance of getting legal guidance from a Lawyer in travel and immigration: | September 9, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: The importance of getting legal guidance from a Lawyer in travel and immigration:
-Alternative B: The importance of getting legal guidance from a Lawyer in travel and immigration: | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The importance of getting legal guidance from a Lawyer in travel and immigration: | September 9, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The importance of getting legal guidance from a Lawyer in travel and immigration:: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The importance of getting legal guidance from a Lawyer in travel and immigration:
+AFTER H1 (HOLD; not approved for publication): The importance of getting legal guidance from a Lawyer in travel and immigration:
 AFTER targeting: The importance of getting legal guidance from a Lawyer in travel and immigration: — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

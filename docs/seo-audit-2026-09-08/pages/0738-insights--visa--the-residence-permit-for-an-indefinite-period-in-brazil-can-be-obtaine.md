@@ -26,11 +26,11 @@ BEFORE description: The residence permit for an indefinite period in Brazil can 
 BEFORE H1: The residence permit for an indefinite period in Brazil can be obtained through
 BEFORE apparent targeting: The residence permit for an indefinite period in Brazil can be obtained through
 
-AFTER title: The residence permit for an indefinite period in Brazil can be obtained through | June 25, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The residence permit for an indefinite period in Brazil can be obtained through
-Alternative B: The residence permit for an indefinite period in Brazil can be obtained through | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The residence permit for an indefinite period in Brazil can be obtained through | June 25, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The residence permit for an indefinite period in Brazil can be obtained through: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The residence permit for an indefinite period in Brazil can be obtained through
+AFTER H1 (HOLD; not approved for publication): The residence permit for an indefinite period in Brazil can be obtained through
 AFTER targeting: The residence permit for an indefinite period in Brazil can be obtained through — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Anyone purchasing their first residential property through f
 BEFORE H1: Anyone purchasing their first residential property through financing under Brazils
 BEFORE apparent targeting: Anyone purchasing their first residential property through financing under Brazils
 
-AFTER title: Anyone purchasing their first residential property through financing under Brazils | August 13, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Anyone purchasing their first residential property through financing under Brazils
-Alternative B: Anyone purchasing their first residential property through financing under Brazils | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Anyone purchasing their first residential property through financing under Brazils | August 13, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Anyone purchasing their first residential property through financing under Brazils: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Anyone purchasing their first residential property through financing under Brazils
+AFTER H1 (HOLD; not approved for publication): Anyone purchasing their first residential property through financing under Brazils
 AFTER targeting: Anyone purchasing their first residential property through financing under Brazils — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

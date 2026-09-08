@@ -26,11 +26,11 @@ BEFORE description: Today we recognize the resilience, wisdom and diversity of i
 BEFORE H1: Today we recognize the resilience, wisdom and diversity of indigenous peoples around
 BEFORE apparent targeting: Today we recognize the resilience, wisdom and diversity of indigenous peoples around
 
-AFTER title: Today we recognize the resilience, wisdom and diversity of indigenous peoples around | August 9, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Today we recognize the resilience, wisdom and diversity of indigenous peoples around
-Alternative B: Today we recognize the resilience, wisdom and diversity of indigenous peoples around | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Today we recognize the resilience, wisdom and diversity of indigenous peoples around | August 9, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Today we recognize the resilience, wisdom and diversity of indigenous peoples around: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Today we recognize the resilience, wisdom and diversity of indigenous peoples around
+AFTER H1 (HOLD; not approved for publication): Today we recognize the resilience, wisdom and diversity of indigenous peoples around
 AFTER targeting: Today we recognize the resilience, wisdom and diversity of indigenous peoples around — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

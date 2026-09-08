@@ -14,7 +14,7 @@ User problem / SEO objective: Client Experiences: How Immigration Matters Unfold
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Client Experiences: How Immigration Matters Unfold
 Primary keyword/focus field: Client Experiences: How Immigration Matters Unfold; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Client Experiences: How Immigration Matters Unfold questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

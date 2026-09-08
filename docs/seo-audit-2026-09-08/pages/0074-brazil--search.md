@@ -14,7 +14,7 @@ User problem / SEO objective: Search: A Guide for Living in Brazil
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Search: A Guide for Living in Brazil
 Primary keyword/focus field: Search: A Guide for Living in Brazil; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Search: A Guide for Living in Brazil questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: ["What practical decision does this page help a relocating household make?"]
 Excluded intent owners: ["https://immigratetobrazil.com/brazil/cities/ owns Compare Cities for Living in Brazil", "https://immigratetobrazil.com/brazil/cost/ owns Cost of Living in Brazil: Planning Your Budget", "https://immigratetobrazil.com/services/residencies/ owns Brazil Residence Permit Services"]
@@ -27,8 +27,8 @@ BEFORE H1: Search
 BEFORE apparent targeting: Search
 
 AFTER title: Search: A Guide for Living in Brazil | Immigrate to Brazil
-Alternative A: Search: A Guide for Living in Brazil
-Alternative B: Search: A Guide for Living in Brazil | Monique Fernandes
+Alternative A: Search
+Alternative B: Search | Monique Fernandes
 AFTER description: Search: A Guide for Living in Brazil. Explore everyday-life considerations and organize the practical decisions involved in your move.
 AFTER H1: Search
 AFTER targeting: Search: A Guide for Living in Brazil — informational

@@ -26,11 +26,11 @@ BEFORE description: If you are an investor looking to reside in Brazil with fore
 BEFORE H1: If you are an investor looking to reside in Brazil with foreign resources, purchasing
 BEFORE apparent targeting: If you are an investor looking to reside in Brazil with foreign resources, purchasing
 
-AFTER title: If you are an investor looking to reside in Brazil with foreign resources, purchasing | February 19, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: If you are an investor looking to reside in Brazil with foreign resources, purchasing
-Alternative B: If you are an investor looking to reside in Brazil with foreign resources, purchasing | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If you are an investor looking to reside in Brazil with foreign resources, purchasing | February 19, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If you are an investor looking to reside in Brazil with foreign resources, purchasing: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If you are an investor looking to reside in Brazil with foreign resources, purchasing
+AFTER H1 (HOLD; not approved for publication): If you are an investor looking to reside in Brazil with foreign resources, purchasing
 AFTER targeting: If you are an investor looking to reside in Brazil with foreign resources, purchasing — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

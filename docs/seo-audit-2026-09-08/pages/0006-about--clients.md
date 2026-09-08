@@ -14,7 +14,7 @@ User problem / SEO objective: Who Monique Fernandes Helps | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Who Monique Fernandes Helps | Monique Fernandes
 Primary keyword/focus field: Who Monique Fernandes Helps | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Who Monique Fernandes Helps | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Who Monique Fernandes Helps
 BEFORE apparent targeting: Who Monique Fernandes Helps
 
 AFTER title: Who Monique Fernandes Helps | Monique Fernandes
-Alternative A: Who Monique Fernandes Helps | Monique Fernandes
-Alternative B: Who Monique Fernandes Helps | Monique Fernandes | Monique Fernandes
+Alternative A: Who Monique Fernandes Helps
+Alternative B: Who Monique Fernandes Helps | Immigrate to Brazil
 AFTER description: Monique Fernandes works with immigrants, families, companies, entrepreneurs, remote professionals, and cross-border clients who need attorney-led guidance for Brazil-related immigration decisions.
 AFTER H1: Who Monique Fernandes Helps | Monique Fernandes
 AFTER targeting: Who Monique Fernandes Helps | Monique Fernandes — navigational

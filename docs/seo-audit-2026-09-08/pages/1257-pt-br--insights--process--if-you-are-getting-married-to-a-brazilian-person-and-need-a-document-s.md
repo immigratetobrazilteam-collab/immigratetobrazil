@@ -26,11 +26,11 @@ BEFORE description: Se você vai se casar com uma pessoa brasileira e precisa de
 BEFORE H1: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua
 BEFORE apparent targeting: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua
 
-AFTER title: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua | 5 de setembro de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua
-Alternative B: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua | 5 de setembro de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando: Esta página traz processos anteriores e apoia pesquisas de uma forma mais clara...
-AFTER H1: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua
+AFTER H1 (HOLD; not approved for publication): Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua
 AFTER targeting: Se você vai se casar com uma pessoa brasileira e precisa de um documento declarando sua — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

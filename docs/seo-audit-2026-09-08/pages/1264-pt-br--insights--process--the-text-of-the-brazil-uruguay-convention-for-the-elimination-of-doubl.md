@@ -26,11 +26,11 @@ BEFORE description: O texto da Convenção Brasil-Uruguai para a Eliminação da
 BEFORE H1: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi
 BEFORE apparent targeting: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi
 
-AFTER title: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi | 2 de janeiro de 2024 | Visão do processo | Imigre para o Brasil
-Alternative A: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi
-Alternative B: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi | 2 de janeiro de 2024 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi: Esta página traz processos anteriores e apoia pesquisas para uma forma mais clara...
-AFTER H1: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi
+AFTER H1 (HOLD; not approved for publication): O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi
 AFTER targeting: O texto da Convenção Brasil-Uruguai para a Eliminação da Dupla Tributação foi — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

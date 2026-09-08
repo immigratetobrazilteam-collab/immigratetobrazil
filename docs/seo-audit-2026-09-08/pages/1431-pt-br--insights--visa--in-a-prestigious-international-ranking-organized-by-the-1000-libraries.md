@@ -26,11 +26,11 @@ BEFORE description: Em um prestigiado ranking internacional organizado pelo 1000
 BEFORE H1: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o
 BEFORE apparent targeting: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o
 
-AFTER title: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o | 29 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o
-Alternative B: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o | 29 de outubro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Em um prestigiado ranking internacional organizado pelo 1000 Libraries Awards,: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o
+AFTER H1 (HOLD; not approved for publication): Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o
 AFTER targeting: Num prestigiado ranking internacional organizado pelos 1000 Libraries Awards, o — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

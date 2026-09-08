@@ -26,11 +26,11 @@ BEFORE description: Estarei trabalhando remotamente no Brasil: Esta página traz
 BEFORE H1: Estarei trabalhando remotamente no Brasil
 BEFORE apparent targeting: Estarei trabalhando remotamente no Brasil
 
-AFTER title: Estarei trabalhando remotamente no Brasil | 10 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Estarei trabalhando remotamente no Brasil
-Alternative B: Estarei trabalhando remotamente no Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Estarei trabalhando remotamente no Brasil | 10 de julho de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Estarei trabalhando remotamente no Brasil: Esta página traz pesquisas anteriores de visto em um formato de planejamento da entrada no Brasil mais claro para Imigrar para o Brasil. Em termos práticos...
-AFTER H1: Estarei trabalhando remotamente no Brasil
+AFTER H1 (HOLD; not approved for publication): Estarei trabalhando remotamente no Brasil
 AFTER targeting: Estarei trabalhando remotamente no Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

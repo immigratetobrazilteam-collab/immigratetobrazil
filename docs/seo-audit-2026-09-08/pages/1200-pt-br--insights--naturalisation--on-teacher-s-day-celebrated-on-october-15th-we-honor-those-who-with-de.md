@@ -26,11 +26,11 @@ BEFORE description: No Dia do Professor, comemorado em 15 de outubro, homenageam
 BEFORE H1: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e
 BEFORE apparent targeting: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e
 
-AFTER title: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e | 15 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e
-Alternative B: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e | 15 de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e
+AFTER H1 (HOLD; not approved for publication): No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e
 AFTER targeting: No Dia do Professor, comemorado em 15 de outubro, homenageamos aqueles que, com dedicação e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

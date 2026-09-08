@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: advogada de imigração
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: advogada de imigração
 Primary keyword/focus field: Monique Fernandes: advogada de imigração; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: advogada de imigração questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil"]
@@ -27,8 +27,8 @@ BEFORE H1: Perfil
 BEFORE apparent targeting: Perfil de Monique Fernandes
 
 AFTER title: Monique Fernandes: advogada de imigração
-Alternative A: Monique Fernandes: advogada de imigração
-Alternative B: Monique Fernandes: advogada de imigração | Monique Fernandes
+Alternative A: Monique Fernandes: advogada de imigração | Monique Fernandes
+Alternative B: Monique Fernandes: advogada de imigração | Immigrate to Brazil
 AFTER description: Conheça Monique Fernandes, sua atuação em imigração no Brasil, trajetória profissional e atendimento a clientes em português e inglês.
 AFTER H1: Monique Fernandes: advogada de imigração
 AFTER targeting: Monique Fernandes: advogada de imigração — navigational

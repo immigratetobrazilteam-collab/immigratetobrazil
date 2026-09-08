@@ -26,11 +26,11 @@ BEFORE description: Why contact with marine animals is prohibited in tourist are
 BEFORE H1: Why contact with marine animals is prohibited in tourist areas The episode in which a
 BEFORE apparent targeting: Why contact with marine animals is prohibited in tourist areas The episode in which a
 
-AFTER title: Why contact with marine animals is prohibited in tourist areas The episode in which a | December 11, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Why contact with marine animals is prohibited in tourist areas The episode in which a
-Alternative B: Why contact with marine animals is prohibited in tourist areas The episode in which a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Why contact with marine animals is prohibited in tourist areas The episode in which a | December 11, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Why contact with marine animals is prohibited in tourist areas The episode in which a: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Why contact with marine animals is prohibited in tourist areas The episode in which a
+AFTER H1 (HOLD; not approved for publication): Why contact with marine animals is prohibited in tourist areas The episode in which a
 AFTER targeting: Why contact with marine animals is prohibited in tourist areas The episode in which a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

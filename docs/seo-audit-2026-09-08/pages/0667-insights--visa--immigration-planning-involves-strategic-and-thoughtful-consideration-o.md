@@ -26,11 +26,11 @@ BEFORE description: Immigration planning involves strategic and thoughtful consi
 BEFORE H1: Immigration planning involves strategic and thoughtful consideration of one
 BEFORE apparent targeting: Immigration planning involves strategic and thoughtful consideration of one
 
-AFTER title: Immigration planning involves strategic and thoughtful consideration of one | February 29, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Immigration planning involves strategic and thoughtful consideration of one
-Alternative B: Immigration planning involves strategic and thoughtful consideration of one | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Immigration planning involves strategic and thoughtful consideration of one | February 29, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Immigration planning involves strategic and thoughtful consideration of one: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Immigration planning involves strategic and thoughtful consideration of one
+AFTER H1 (HOLD; not approved for publication): Immigration planning involves strategic and thoughtful consideration of one
 AFTER targeting: Immigration planning involves strategic and thoughtful consideration of one — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Technical completion involves legal analysis of the rules an
 BEFORE H1: Technical completion involves legal analysis of the rules and circumstances of the
 BEFORE apparent targeting: Technical completion involves legal analysis of the rules and circumstances of the
 
-AFTER title: Technical completion involves legal analysis of the rules and circumstances of the | November 19, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Technical completion involves legal analysis of the rules and circumstances of the
-Alternative B: Technical completion involves legal analysis of the rules and circumstances of the | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Technical completion involves legal analysis of the rules and circumstances of the | November 19, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Technical completion involves legal analysis of the rules and circumstances of the: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Technical completion involves legal analysis of the rules and circumstances of the
+AFTER H1 (HOLD; not approved for publication): Technical completion involves legal analysis of the rules and circumstances of the
 AFTER targeting: Technical completion involves legal analysis of the rules and circumstances of the — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: No. A Work Visa requires prior approval from the Brazilian M
 BEFORE H1: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and
 BEFORE apparent targeting: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and
 
-AFTER title: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and | January 23, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and
-Alternative B: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and | January 23, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and
+AFTER H1 (HOLD; not approved for publication): No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and
 AFTER targeting: No. A Work Visa requires prior approval from the Brazilian Ministry of Employment, and — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Cidade de Paraty do Brasil reconhecida como uma das vilas ma
 BEFORE H1: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty
 BEFORE apparent targeting: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty
 
-AFTER title: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty | FYI | Imigre para o Brasil
-Alternative A: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty
-Alternative B: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Cidade de Paraty do Brasil reconhecida como uma das vilas mais bonitas do mundo Paraty: Cidade de Paraty do Brasil reconhecida como uma das mais belas do mundo...
-AFTER H1: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty
+AFTER H1 (HOLD; not approved for publication): Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty
 AFTER targeting: Brasil cidade de Paraty reconhecida como uma das vilas mais bonitas do mundo Paraty — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

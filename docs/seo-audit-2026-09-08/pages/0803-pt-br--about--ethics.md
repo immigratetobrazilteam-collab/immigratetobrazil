@@ -14,7 +14,7 @@ User problem / SEO objective: Ética | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Ética | Monique Fernandes
 Primary keyword/focus field: Ética | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Ética | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Ética
 BEFORE apparent targeting: Monique Fernandes Ética
 
 AFTER title: Ética | Monique Fernandes
-Alternative A: Ética | Monique Fernandes
-Alternative B: Ética | Monique Fernandes | Monique Fernandes
+Alternative A: Ética
+Alternative B: Ética | Immigrate to Brazil
 AFTER description: Monique Fernandes baseia a sua prática de imigração na honestidade, confidencialidade, dignidade e limites profissionais claros.
 AFTER H1: Ética | Monique Fernandes
 AFTER targeting: Ética | Monique Fernandes — navigational

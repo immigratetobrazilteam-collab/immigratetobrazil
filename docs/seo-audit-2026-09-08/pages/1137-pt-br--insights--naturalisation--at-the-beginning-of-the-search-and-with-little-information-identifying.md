@@ -26,11 +26,11 @@ BEFORE description: No início da pesquisa e com poucas informações, identific
 BEFORE H1: No início da busca e com poucas informações, identificando um ponto comum
 BEFORE apparent targeting: No início da busca e com poucas informações, identificando um ponto comum
 
-AFTER title: No início da busca e com poucas informações, identificando um ponto comum | 30 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: No início da busca e com poucas informações, identificando um ponto comum
-Alternative B: No início da busca e com poucas informações, identificando um ponto comum | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No início da busca e com poucas informações, identificando um ponto comum | 30 de novembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No início da pesquisa e com poucas informações, identificando um comum: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: No início da busca e com poucas informações, identificando um ponto comum
+AFTER H1 (HOLD; not approved for publication): No início da busca e com poucas informações, identificando um ponto comum
 AFTER targeting: No início da busca e com poucas informações, identificando um ponto comum — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

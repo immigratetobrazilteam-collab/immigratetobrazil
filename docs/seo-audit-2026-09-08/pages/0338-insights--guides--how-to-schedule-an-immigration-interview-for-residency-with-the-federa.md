@@ -26,11 +26,11 @@ BEFORE description: How to schedule an immigration interview for residency with 
 BEFORE H1: How to schedule an immigration interview for residency with the Federal Police?
 BEFORE apparent targeting: How to schedule an immigration interview for residency with the Federal Police?
 
-AFTER title: How to schedule an immigration interview for residency with the Federal Police? | June 6, 2023 | Brazil Guide | Immigrate to Brazil
-Alternative A: How to schedule an immigration interview for residency with the Federal Police?
-Alternative B: How to schedule an immigration interview for residency with the Federal Police? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): How to schedule an immigration interview for residency with the Federal Police? | June 6, 2023 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: How to schedule an immigration interview for residency with the Federal Police? This page brings earlier FAQ-style research into a clearer guidance page for...
-AFTER H1: How to schedule an immigration interview for residency with the Federal Police?
+AFTER H1 (HOLD; not approved for publication): How to schedule an immigration interview for residency with the Federal Police?
 AFTER targeting: How to schedule an immigration interview for residency with the Federal Police? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

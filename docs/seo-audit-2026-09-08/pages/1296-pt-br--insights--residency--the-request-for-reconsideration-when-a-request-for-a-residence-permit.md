@@ -26,11 +26,11 @@ BEFORE description: O pedido de reconsideração, quando um pedido de autorizaç
 BEFORE H1: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em
 BEFORE apparent targeting: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em
 
-AFTER title: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em | 28 de maio de 2025 | Visão de residência | Imigre para o Brasil
-Alternative A: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em
-Alternative B: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em | 28 de maio de 2025 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O pedido de reconsideração, quando um pedido de autorização de residência é rejeitado em: Esta página traz a investigação de residência anterior para um quadro mais claro...
-AFTER H1: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em
+AFTER H1 (HOLD; not approved for publication): O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em
 AFTER targeting: O pedido de reconsideração, quando um pedido de autorização de residência for indeferido em — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

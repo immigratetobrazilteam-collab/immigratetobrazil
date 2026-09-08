@@ -26,11 +26,11 @@ BEFORE description: Foreigners may apply for a Brazilian passport under specific
 BEFORE H1: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation
 BEFORE apparent targeting: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation
 
-AFTER title: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation | July 8, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation
-Alternative B: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation | July 8, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation: Archive record: March 9, 2026. This page brings...
-AFTER H1: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation
+AFTER H1 (HOLD; not approved for publication): Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation
 AFTER targeting: Foreigners may apply for a Brazilian passport under specific circumstances outlined in Brazilian legislation — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

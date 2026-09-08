@@ -26,11 +26,11 @@ BEFORE description: Muitas pessoas correm o risco de ficar em Portugal apenas co
 BEFORE H1: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um
 BEFORE apparent targeting: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um
 
-AFTER title: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um | 15 de abril de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um
-Alternative B: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um | 15 de abril de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um
+AFTER H1 (HOLD; not approved for publication): Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um
 AFTER targeting: Muitas pessoas correm o risco de ficar em Portugal apenas com um visto de turista e depois obter um — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

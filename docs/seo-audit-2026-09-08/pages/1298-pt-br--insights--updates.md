@@ -14,7 +14,7 @@ User problem / SEO objective: Atualizações de imigração para o Brasil explic
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Atualizações de imigração para o Brasil explicadas com calma: informações sobre imigração no Brasil
 Primary keyword/focus field: Atualizações de imigração para o Brasil explicadas com calma: informações sobre imigração no Brasil; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Atualizações de imigração para o Brasil explicadas com calma: informações sobre imigração no Brasil questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

@@ -26,11 +26,11 @@ BEFORE description: O prazo para iniciar o processo de reconhecimento da cidadan
 BEFORE H1: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de
 BEFORE apparent targeting: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de
 
-AFTER title: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de | 8 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de
-Alternative B: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de | 8 de maio de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de
+AFTER H1 (HOLD; not approved for publication): O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de
 AFTER targeting: O prazo para iniciar o processo de reconhecimento da cidadania espanhola para aqueles de — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

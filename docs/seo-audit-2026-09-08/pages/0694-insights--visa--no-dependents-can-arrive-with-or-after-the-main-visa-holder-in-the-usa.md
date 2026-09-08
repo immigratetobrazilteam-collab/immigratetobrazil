@@ -26,11 +26,11 @@ BEFORE description: No, dependents can arrive with or after the main visa holder
 BEFORE H1: No, dependents can arrive with or after the main visa holder in the USA
 BEFORE apparent targeting: No, dependents can arrive with or after the main visa holder in the USA
 
-AFTER title: No, dependents can arrive with or after the main visa holder in the USA | September 19, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: No, dependents can arrive with or after the main visa holder in the USA
-Alternative B: No, dependents can arrive with or after the main visa holder in the USA | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No, dependents can arrive with or after the main visa holder in the USA | September 19, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No, dependents can arrive with or after the main visa holder in the USA: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: No, dependents can arrive with or after the main visa holder in the USA
+AFTER H1 (HOLD; not approved for publication): No, dependents can arrive with or after the main visa holder in the USA
 AFTER targeting: No, dependents can arrive with or after the main visa holder in the USA — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

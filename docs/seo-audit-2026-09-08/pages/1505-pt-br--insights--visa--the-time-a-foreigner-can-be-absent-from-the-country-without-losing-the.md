@@ -26,11 +26,11 @@ BEFORE description: O tempo que um estrangeiro pode se ausentar do país sem per
 BEFORE H1: O tempo que um estrangeiro pode se ausentar do país sem perder a residência
 BEFORE apparent targeting: O tempo que um estrangeiro pode se ausentar do país sem perder a residência
 
-AFTER title: O tempo que um estrangeiro pode se ausentar do país sem perder a residência | 13 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O tempo que um estrangeiro pode se ausentar do país sem perder a residência
-Alternative B: O tempo que um estrangeiro pode se ausentar do país sem perder a residência | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O tempo que um estrangeiro pode se ausentar do país sem perder a residência | 13 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O tempo que um estrangeiro pode se ausentar do país sem perder a residência: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O tempo que um estrangeiro pode se ausentar do país sem perder a residência
+AFTER H1 (HOLD; not approved for publication): O tempo que um estrangeiro pode se ausentar do país sem perder a residência
 AFTER targeting: O tempo que um estrangeiro pode se ausentar do país sem perder a residência — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

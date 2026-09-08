@@ -26,11 +26,11 @@ BEFORE description: If youve studied in Brazil and are thinking about staying to
 BEFORE H1: If youve studied in Brazil and are thinking about staying to work, theres good news
 BEFORE apparent targeting: If youve studied in Brazil and are thinking about staying to work, theres good news
 
-AFTER title: If youve studied in Brazil and are thinking about staying to work, theres good news | July 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: If youve studied in Brazil and are thinking about staying to work, theres good news
-Alternative B: If youve studied in Brazil and are thinking about staying to work, theres good news | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If youve studied in Brazil and are thinking about staying to work, theres good news | July 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If youve studied in Brazil and are thinking about staying to work, theres good news: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If youve studied in Brazil and are thinking about staying to work, theres good news
+AFTER H1 (HOLD; not approved for publication): If youve studied in Brazil and are thinking about staying to work, theres good news
 AFTER targeting: If youve studied in Brazil and are thinking about staying to work, theres good news — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

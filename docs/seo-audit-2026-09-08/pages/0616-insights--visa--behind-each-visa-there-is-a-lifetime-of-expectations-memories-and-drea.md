@@ -26,11 +26,11 @@ BEFORE description: Behind each visa, there is a lifetime of expectations, memor
 BEFORE H1: Behind each visa, there is a lifetime of expectations, memories and dreams
 BEFORE apparent targeting: Behind each visa, there is a lifetime of expectations, memories and dreams
 
-AFTER title: Behind each visa, there is a lifetime of expectations, memories and dreams | October 23, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Behind each visa, there is a lifetime of expectations, memories and dreams
-Alternative B: Behind each visa, there is a lifetime of expectations, memories and dreams | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Behind each visa, there is a lifetime of expectations, memories and dreams | October 23, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Behind each visa, there is a lifetime of expectations, memories and dreams: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Behind each visa, there is a lifetime of expectations, memories and dreams
+AFTER H1 (HOLD; not approved for publication): Behind each visa, there is a lifetime of expectations, memories and dreams
 AFTER targeting: Behind each visa, there is a lifetime of expectations, memories and dreams — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

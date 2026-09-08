@@ -26,11 +26,11 @@ BEFORE description: Arriving in Brazil as a tourist and subsequently obtaining a
 BEFORE H1: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a
 BEFORE apparent targeting: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a
 
-AFTER title: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a | May 20, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a
-Alternative B: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a | May 20, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a
+AFTER H1 (HOLD; not approved for publication): Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a
 AFTER targeting: Arriving in Brazil as a tourist and subsequently obtaining a residence permit is a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

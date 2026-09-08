@@ -26,11 +26,11 @@ BEFORE description: Brazilian nationality is not always determined automatically
 BEFORE H1: Brazilian nationality is not always determined automatically
 BEFORE apparent targeting: Brazilian nationality is not always determined automatically
 
-AFTER title: Brazilian nationality is not always determined automatically | October 21, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Brazilian nationality is not always determined automatically
-Alternative B: Brazilian nationality is not always determined automatically | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazilian nationality is not always determined automatically | October 21, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazilian nationality is not always determined automatically: This page brings earlier citizenship research into a clearer format for readers comparing...
-AFTER H1: Brazilian nationality is not always determined automatically
+AFTER H1 (HOLD; not approved for publication): Brazilian nationality is not always determined automatically
 AFTER targeting: Brazilian nationality is not always determined automatically — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

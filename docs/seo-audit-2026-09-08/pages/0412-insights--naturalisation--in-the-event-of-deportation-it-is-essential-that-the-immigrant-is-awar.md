@@ -26,11 +26,11 @@ BEFORE description: In the event of deportation, it is essential that the immigr
 BEFORE H1: In the event of deportation, it is essential that the immigrant is aware of their
 BEFORE apparent targeting: In the event of deportation, it is essential that the immigrant is aware of their
 
-AFTER title: In the event of deportation, it is essential that the immigrant is aware of their | August 7, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: In the event of deportation, it is essential that the immigrant is aware of their
-Alternative B: In the event of deportation, it is essential that the immigrant is aware of their | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In the event of deportation, it is essential that the immigrant is aware of their | August 7, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In the event of deportation, it is essential that the immigrant is aware of their: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: In the event of deportation, it is essential that the immigrant is aware of their
+AFTER H1 (HOLD; not approved for publication): In the event of deportation, it is essential that the immigrant is aware of their
 AFTER targeting: In the event of deportation, it is essential that the immigrant is aware of their — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

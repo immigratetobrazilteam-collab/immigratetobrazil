@@ -26,11 +26,11 @@ BEFORE description: No Brasil, os diplomas de graduação e pós-graduação obt
 BEFORE H1: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar
 BEFORE apparent targeting: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar
 
-AFTER title: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar | 16 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar
-Alternative B: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar | 16 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior devem passar por: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar
+AFTER H1 (HOLD; not approved for publication): No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar
 AFTER targeting: No Brasil, os diplomas de graduação e pós-graduação obtidos no exterior deverão passar — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

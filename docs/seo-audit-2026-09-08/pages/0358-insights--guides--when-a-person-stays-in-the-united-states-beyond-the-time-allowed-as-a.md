@@ -26,11 +26,11 @@ BEFORE description: When a person stays in the United States beyond the time all
 BEFORE H1: When a person stays in the United States beyond the time allowed as a tourist, they
 BEFORE apparent targeting: When a person stays in the United States beyond the time allowed as a tourist, they
 
-AFTER title: When a person stays in the United States beyond the time allowed as a tourist, they | May 8, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: When a person stays in the United States beyond the time allowed as a tourist, they
-Alternative B: When a person stays in the United States beyond the time allowed as a tourist, they | Monique Fernandes
+AFTER title (HOLD; not approved for publication): When a person stays in the United States beyond the time allowed as a tourist, they | May 8, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: When a person stays in the United States beyond the time allowed as a tourist, they: This page brings earlier FAQ-style research into a clearer guidance page...
-AFTER H1: When a person stays in the United States beyond the time allowed as a tourist, they
+AFTER H1 (HOLD; not approved for publication): When a person stays in the United States beyond the time allowed as a tourist, they
 AFTER targeting: When a person stays in the United States beyond the time allowed as a tourist, they — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: A legislação brasileira relativa ao transporte aéreo de a
 BEFORE H1: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial
 BEFORE apparent targeting: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial
 
-AFTER title: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial | 27 de abril de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial
-Alternative B: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial | 27 de abril de 2024 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A legislação brasileira relativa ao transporte aéreo de animais ainda é inicial: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial
+AFTER H1 (HOLD; not approved for publication): A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial
 AFTER targeting: A legislação brasileira relativa ao transporte aéreo de animais ainda está em fase inicial — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

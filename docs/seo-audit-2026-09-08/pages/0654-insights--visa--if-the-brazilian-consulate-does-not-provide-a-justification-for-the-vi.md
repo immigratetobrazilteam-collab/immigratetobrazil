@@ -26,11 +26,11 @@ BEFORE description: If the Brazilian consulate does not provide a justification 
 BEFORE H1: If the Brazilian consulate does not provide a justification for the visa denial, you
 BEFORE apparent targeting: If the Brazilian consulate does not provide a justification for the visa denial, you
 
-AFTER title: If the Brazilian consulate does not provide a justification for the visa denial, you | October 8, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: If the Brazilian consulate does not provide a justification for the visa denial, you
-Alternative B: If the Brazilian consulate does not provide a justification for the visa denial, you | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If the Brazilian consulate does not provide a justification for the visa denial, you | October 8, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If the Brazilian consulate does not provide a justification for the visa denial, you: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If the Brazilian consulate does not provide a justification for the visa denial, you
+AFTER H1 (HOLD; not approved for publication): If the Brazilian consulate does not provide a justification for the visa denial, you
 AFTER targeting: If the Brazilian consulate does not provide a justification for the visa denial, you — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

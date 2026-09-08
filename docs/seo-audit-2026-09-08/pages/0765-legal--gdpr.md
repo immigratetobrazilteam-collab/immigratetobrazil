@@ -14,7 +14,7 @@ User problem / SEO objective: GDPR Notice
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: GDPR Notice
 Primary keyword/focus field: GDPR Notice; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["GDPR Notice questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

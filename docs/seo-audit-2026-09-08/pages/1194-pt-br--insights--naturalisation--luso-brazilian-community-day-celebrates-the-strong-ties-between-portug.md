@@ -26,11 +26,11 @@ BEFORE description: O Dia da Comunidade Luso-Brasileira celebra os fortes laços
 BEFORE H1: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil
 BEFORE apparent targeting: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil
 
-AFTER title: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil | 16 de abril de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil
-Alternative B: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil | 16 de abril de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil
+AFTER H1 (HOLD; not approved for publication): O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil
 AFTER targeting: O Dia da Comunidade Luso-Brasileira celebra os fortes laços entre Portugal e Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

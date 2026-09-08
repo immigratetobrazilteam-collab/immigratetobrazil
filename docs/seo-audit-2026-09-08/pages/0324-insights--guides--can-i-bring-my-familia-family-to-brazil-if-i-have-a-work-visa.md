@@ -26,11 +26,11 @@ BEFORE description: Can I bring my familia (family) to Brazil if I have a work v
 BEFORE H1: Can I bring my familia (family) to Brazil if I have a work visa?
 BEFORE apparent targeting: Can I bring my familia (family) to Brazil if I have a work visa?
 
-AFTER title: Can I bring my familia (family) to Brazil if I have a work visa? | April 16, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Can I bring my familia (family) to Brazil if I have a work visa?
-Alternative B: Can I bring my familia (family) to Brazil if I have a work visa? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Can I bring my familia (family) to Brazil if I have a work visa? | April 16, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Can I bring my familia (family) to Brazil if I have a work visa? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...
-AFTER H1: Can I bring my familia (family) to Brazil if I have a work visa?
+AFTER H1 (HOLD; not approved for publication): Can I bring my familia (family) to Brazil if I have a work visa?
 AFTER targeting: Can I bring my familia (family) to Brazil if I have a work visa? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Deportation, as defined by Brazilian legislation, is an admi
 BEFORE H1: Deportation, as defined by Brazilian legislation, is an administrative procedure by
 BEFORE apparent targeting: Deportation, as defined by Brazilian legislation, is an administrative procedure by
 
-AFTER title: Deportation, as defined by Brazilian legislation, is an administrative procedure by | April 1, 2024 | Process Insight | Immigrate to Brazil
-Alternative A: Deportation, as defined by Brazilian legislation, is an administrative procedure by
-Alternative B: Deportation, as defined by Brazilian legislation, is an administrative procedure by | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Deportation, as defined by Brazilian legislation, is an administrative procedure by | April 1, 2024 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Deportation, as defined by Brazilian legislation, is an administrative procedure by: This page brings earlier process and support research into a clearer...
-AFTER H1: Deportation, as defined by Brazilian legislation, is an administrative procedure by
+AFTER H1 (HOLD; not approved for publication): Deportation, as defined by Brazilian legislation, is an administrative procedure by
 AFTER targeting: Deportation, as defined by Brazilian legislation, is an administrative procedure by — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

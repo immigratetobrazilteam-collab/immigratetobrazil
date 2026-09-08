@@ -26,11 +26,11 @@ BEFORE description: On this day, we express gratitude to each person who trusts 
 BEFORE H1: On this day, we express gratitude to each person who trusts our legal work
 BEFORE apparent targeting: On this day, we express gratitude to each person who trusts our legal work
 
-AFTER title: On this day, we express gratitude to each person who trusts our legal work | September 15, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: On this day, we express gratitude to each person who trusts our legal work
-Alternative B: On this day, we express gratitude to each person who trusts our legal work | Monique Fernandes
+AFTER title (HOLD; not approved for publication): On this day, we express gratitude to each person who trusts our legal work | September 15, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: On this day, we express gratitude to each person who trusts our legal work: This page brings earlier citizenship research into a clearer format for readers...
-AFTER H1: On this day, we express gratitude to each person who trusts our legal work
+AFTER H1 (HOLD; not approved for publication): On this day, we express gratitude to each person who trusts our legal work
 AFTER targeting: On this day, we express gratitude to each person who trusts our legal work — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

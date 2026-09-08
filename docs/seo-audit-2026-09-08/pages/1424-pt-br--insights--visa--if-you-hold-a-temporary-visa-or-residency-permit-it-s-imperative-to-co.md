@@ -26,11 +26,11 @@ BEFORE description: Se você possui um visto temporário ou autorização de res
 BEFORE H1: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu
 BEFORE apparent targeting: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu
 
-AFTER title: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu | 9 de janeiro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu
-Alternative B: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu | 9 de janeiro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você possui um visto temporário ou autorização de residência, é imperativo preencher o seu: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu
+AFTER H1 (HOLD; not approved for publication): Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu
 AFTER targeting: Se você possui um visto temporário ou autorização de residência, é imprescindível preencher o seu — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

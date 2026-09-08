@@ -26,11 +26,11 @@ BEFORE description: Para filhos biológicos e filhos menores adotivos de cidadã
 BEFORE H1: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível
 BEFORE apparent targeting: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível
 
-AFTER title: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível | 9 de novembro de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível
-Alternative B: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível | 9 de novembro de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível: Esta página traz processos anteriores e apoia pesquisas de forma mais clara...
-AFTER H1: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível
+AFTER H1 (HOLD; not approved for publication): Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível
 AFTER targeting: Para filhos biológicos e filhos menores adotivos de cidadãos italianos, é possível — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

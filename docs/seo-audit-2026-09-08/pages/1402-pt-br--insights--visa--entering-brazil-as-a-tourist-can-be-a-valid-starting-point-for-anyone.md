@@ -26,11 +26,11 @@ BEFORE description: Entrar no Brasil como turista pode ser um ponto de partida v
 BEFORE H1: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja
 BEFORE apparent targeting: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja
 
-AFTER title: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja | 22 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja
-Alternative B: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja | 22 de setembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja
+AFTER H1 (HOLD; not approved for publication): Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja
 AFTER targeting: Entrar no Brasil como turista pode ser um ponto de partida válido para quem deseja — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

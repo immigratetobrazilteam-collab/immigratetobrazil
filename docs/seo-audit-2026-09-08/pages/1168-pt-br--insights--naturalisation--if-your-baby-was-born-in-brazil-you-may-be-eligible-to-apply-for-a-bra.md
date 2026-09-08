@@ -26,11 +26,11 @@ BEFORE description: Se o seu bebê nasceu no Brasil, você pode ser elegível pa
 BEFORE H1: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira
 BEFORE apparent targeting: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira
 
-AFTER title: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira | 18 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira
-Alternative B: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira | 18 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma Família brasileira: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira
+AFTER H1 (HOLD; not approved for publication): Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira
 AFTER targeting: Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

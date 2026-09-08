@@ -26,11 +26,11 @@ BEFORE description: Individuals seeking to work in Brazil through a formal emplo
 BEFORE H1: Individuals seeking to work in Brazil through a formal employment relationship may
 BEFORE apparent targeting: Individuals seeking to work in Brazil through a formal employment relationship may
 
-AFTER title: Individuals seeking to work in Brazil through a formal employment relationship may | November 12, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Individuals seeking to work in Brazil through a formal employment relationship may
-Alternative B: Individuals seeking to work in Brazil through a formal employment relationship may | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Individuals seeking to work in Brazil through a formal employment relationship may | November 12, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Individuals seeking to work in Brazil through a formal employment relationship may: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Individuals seeking to work in Brazil through a formal employment relationship may
+AFTER H1 (HOLD; not approved for publication): Individuals seeking to work in Brazil through a formal employment relationship may
 AFTER targeting: Individuals seeking to work in Brazil through a formal employment relationship may — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

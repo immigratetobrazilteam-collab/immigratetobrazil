@@ -26,11 +26,11 @@ BEFORE description: Você pagou uma dívida com desconto, mas seu nome permanece
 BEFORE H1: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna
 BEFORE apparent targeting: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna
 
-AFTER title: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna | 4 de julho de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna
-Alternative B: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna | 4 de julho de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você pagou uma dívida com desconto, mas seu nome permanece sujeito a questões internas: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna
+AFTER H1 (HOLD; not approved for publication): Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna
 AFTER targeting: Você pagou uma dívida com desconto, mas seu nome continua sujeito a análise interna — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

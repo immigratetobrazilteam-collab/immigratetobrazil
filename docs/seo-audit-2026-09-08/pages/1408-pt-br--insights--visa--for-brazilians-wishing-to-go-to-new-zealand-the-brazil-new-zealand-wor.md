@@ -26,11 +26,11 @@ BEFORE description: Para brasileiros que desejam ir para a Nova Zelândia, o fer
 BEFORE H1: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia
 BEFORE apparent targeting: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia
 
-AFTER title: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia | 26 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia
-Alternative B: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia | 26 de setembro de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia: Esta página traz pesquisas anteriores de visto para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia
+AFTER H1 (HOLD; not approved for publication): Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia
 AFTER targeting: Para brasileiros que desejam ir para a Nova Zelândia, o feriado de trabalho Brasil-Nova Zelândia — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

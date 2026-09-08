@@ -26,11 +26,11 @@ BEFORE description: Luso-Brazilian Community Day celebrates the strong ties betw
 BEFORE H1: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil
 BEFORE apparent targeting: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil
 
-AFTER title: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil | April 16, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil
-Alternative B: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil | April 16, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil
+AFTER H1 (HOLD; not approved for publication): Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil
 AFTER targeting: Luso-Brazilian Community Day celebrates the strong ties between Portugal and Brazil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

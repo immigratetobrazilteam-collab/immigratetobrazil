@@ -26,11 +26,11 @@ BEFORE description: Starting August 20, 2025, the United States will begin a 12-
 BEFORE H1: Starting August 20, 2025, the United States will begin a 12-month pilot program that
 BEFORE apparent targeting: Starting August 20, 2025, the United States will begin a 12-month pilot program that
 
-AFTER title: Starting August 20, 2025, the United States will begin a 12-month pilot program that | September 3, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Starting August 20, 2025, the United States will begin a 12-month pilot program that
-Alternative B: Starting August 20, 2025, the United States will begin a 12-month pilot program that | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Starting August 20, 2025, the United States will begin a 12-month pilot program that | September 3, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Starting August 20, 2025, the United States will begin a 12-month pilot program that: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: Starting August 20, 2025, the United States will begin a 12-month pilot program that
+AFTER H1 (HOLD; not approved for publication): Starting August 20, 2025, the United States will begin a 12-month pilot program that
 AFTER targeting: Starting August 20, 2025, the United States will begin a 12-month pilot program that — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

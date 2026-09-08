@@ -26,11 +26,11 @@ BEFORE description: Popularly, it is understood that an immigrant is a person wh
 BEFORE H1: Popularly, it is understood that an immigrant is a person who migrates from their
 BEFORE apparent targeting: Popularly, it is understood that an immigrant is a person who migrates from their
 
-AFTER title: Popularly, it is understood that an immigrant is a person who migrates from their | February 28, 2024 | Residency Insight | Immigrate to Brazil
-Alternative A: Popularly, it is understood that an immigrant is a person who migrates from their
-Alternative B: Popularly, it is understood that an immigrant is a person who migrates from their | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Popularly, it is understood that an immigrant is a person who migrates from their | February 28, 2024 | Residency Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Popularly, it is understood that an immigrant is a person who migrates from their: This page brings earlier residency research into a clearer framework for...
-AFTER H1: Popularly, it is understood that an immigrant is a person who migrates from their
+AFTER H1 (HOLD; not approved for publication): Popularly, it is understood that an immigrant is a person who migrates from their
 AFTER targeting: Popularly, it is understood that an immigrant is a person who migrates from their — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

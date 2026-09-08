@@ -26,11 +26,11 @@ BEFORE description: In general, many countries do not have a specific dating vis
 BEFORE H1: In general, many countries do not have a specific dating visa, but offer visas for
 BEFORE apparent targeting: In general, many countries do not have a specific dating visa, but offer visas for
 
-AFTER title: In general, many countries do not have a specific dating visa, but offer visas for | June 12, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: In general, many countries do not have a specific dating visa, but offer visas for
-Alternative B: In general, many countries do not have a specific dating visa, but offer visas for | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In general, many countries do not have a specific dating visa, but offer visas for | June 12, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In general, many countries do not have a specific dating visa, but offer visas for: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: In general, many countries do not have a specific dating visa, but offer visas for
+AFTER H1 (HOLD; not approved for publication): In general, many countries do not have a specific dating visa, but offer visas for
 AFTER targeting: In general, many countries do not have a specific dating visa, but offer visas for — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

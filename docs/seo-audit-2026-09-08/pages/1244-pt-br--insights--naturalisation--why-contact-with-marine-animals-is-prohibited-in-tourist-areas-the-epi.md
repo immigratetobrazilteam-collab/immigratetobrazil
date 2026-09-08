@@ -26,11 +26,11 @@ BEFORE description: Por que o contato com animais marinhos é proibido em áreas
 BEFORE H1: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um
 BEFORE apparent targeting: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um
 
-AFTER title: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um | 11 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um
-Alternative B: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um | 11 de dezembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Por que o contato com animais marinhos é proibido em áreas turísticas O episódio em que: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um
+AFTER H1 (HOLD; not approved for publication): Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um
 AFTER targeting: Por que é proibido o contato com animais marinhos em áreas turísticas O episódio em que um — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

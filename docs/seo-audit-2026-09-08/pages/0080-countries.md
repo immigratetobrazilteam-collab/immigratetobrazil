@@ -14,7 +14,7 @@ User problem / SEO objective: Moving to Brazil: Guides by Country of Origin
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Moving to Brazil: Guides by Country of Origin
 Primary keyword/focus field: Moving to Brazil: Guides by Country of Origin; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Moving to Brazil: Guides by Country of Origin questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]

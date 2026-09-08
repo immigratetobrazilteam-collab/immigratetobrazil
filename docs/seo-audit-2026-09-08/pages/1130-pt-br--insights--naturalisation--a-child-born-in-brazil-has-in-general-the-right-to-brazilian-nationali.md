@@ -26,11 +26,11 @@ BEFORE description: Uma criança nascida no Brasil tem, em geral, direito à nac
 BEFORE H1: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente
 BEFORE apparent targeting: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente
 
-AFTER title: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente | 29 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente
-Alternative B: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente | 29 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente
+AFTER H1 (HOLD; not approved for publication): Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente
 AFTER targeting: Uma criança nascida no Brasil tem, em geral, direito à nacionalidade brasileira, independentemente — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

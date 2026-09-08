@@ -26,11 +26,11 @@ BEFORE description: Tenho uma autorização de residência brasileira e quero me
 BEFORE H1: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil
 BEFORE apparent targeting: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil
 
-AFTER title: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil | 29 de junho de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil
-Alternative B: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil | 29 de junho de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Tenho uma autorização de residência brasileira e quero me mudar para outra região no Brasil: Esta página traz pesquisas de residência anteriores em uma estrutura mais clara para...
-AFTER H1: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil
+AFTER H1 (HOLD; not approved for publication): Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil
 AFTER targeting: Tenho uma autorização de residência brasileira e quero mudar para outra região no Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

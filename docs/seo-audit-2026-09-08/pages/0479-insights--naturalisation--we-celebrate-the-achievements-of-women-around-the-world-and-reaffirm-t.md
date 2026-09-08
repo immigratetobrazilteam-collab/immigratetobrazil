@@ -26,11 +26,11 @@ BEFORE description: We celebrate the achievements of women around the world and 
 BEFORE H1: We celebrate the achievements of women around the world and reaffirm the fight for a
 BEFORE apparent targeting: We celebrate the achievements of women around the world and reaffirm the fight for a
 
-AFTER title: We celebrate the achievements of women around the world and reaffirm the fight for a | August 26, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: We celebrate the achievements of women around the world and reaffirm the fight for a
-Alternative B: We celebrate the achievements of women around the world and reaffirm the fight for a | Monique Fernandes
+AFTER title (HOLD; not approved for publication): We celebrate the achievements of women around the world and reaffirm the fight for a | August 26, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: We celebrate the achievements of women around the world and reaffirm the fight for a: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: We celebrate the achievements of women around the world and reaffirm the fight for a
+AFTER H1 (HOLD; not approved for publication): We celebrate the achievements of women around the world and reaffirm the fight for a
 AFTER targeting: We celebrate the achievements of women around the world and reaffirm the fight for a — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

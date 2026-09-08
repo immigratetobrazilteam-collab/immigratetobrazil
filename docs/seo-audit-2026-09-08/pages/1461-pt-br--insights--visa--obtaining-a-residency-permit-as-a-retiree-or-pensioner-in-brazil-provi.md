@@ -26,11 +26,11 @@ BEFORE description: A obtenção de uma autorização de residência como aposen
 BEFORE H1: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e
 BEFORE apparent targeting: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e
 
-AFTER title: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e | 2 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e
-Alternative B: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e | 2 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil fornece uma segurança e: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e
+AFTER H1 (HOLD; not approved for publication): A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e
 AFTER targeting: A obtenção de uma autorização de residência como aposentado ou pensionista no Brasil proporciona uma segurança e — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

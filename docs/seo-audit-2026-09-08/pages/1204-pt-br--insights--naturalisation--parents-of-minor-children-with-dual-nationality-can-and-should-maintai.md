@@ -26,11 +26,11 @@ BEFORE description: Os pais de filhos menores com dupla nacionalidade podem e de
 BEFORE H1: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com
 BEFORE apparent targeting: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com
 
-AFTER title: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com | 6 de março de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com
-Alternative B: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com | 6 de março de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com
+AFTER H1 (HOLD; not approved for publication): Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com
 AFTER targeting: Os pais de filhos menores com dupla nacionalidade podem e devem manter contacto com — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: This is an illegal, extremely dangerous practice that can ha
 BEFORE H1: This is an illegal, extremely dangerous practice that can have serious consequences
 BEFORE apparent targeting: This is an illegal, extremely dangerous practice that can have serious consequences
 
-AFTER title: This is an illegal, extremely dangerous practice that can have serious consequences | December 18, 2024 | Process Insight | Immigrate to Brazil
-Alternative A: This is an illegal, extremely dangerous practice that can have serious consequences
-Alternative B: This is an illegal, extremely dangerous practice that can have serious consequences | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This is an illegal, extremely dangerous practice that can have serious consequences | December 18, 2024 | Process Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This is an illegal, extremely dangerous practice that can have serious consequences: This page brings earlier process and support research into a clearer...
-AFTER H1: This is an illegal, extremely dangerous practice that can have serious consequences
+AFTER H1 (HOLD; not approved for publication): This is an illegal, extremely dangerous practice that can have serious consequences
 AFTER targeting: This is an illegal, extremely dangerous practice that can have serious consequences — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

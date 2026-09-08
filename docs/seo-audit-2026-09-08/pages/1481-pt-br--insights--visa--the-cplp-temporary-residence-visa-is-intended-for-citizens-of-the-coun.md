@@ -26,11 +26,11 @@ BEFORE description: O Visto de Residência Temporária CPLP é destinado a cidad
 BEFORE H1: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do
 BEFORE apparent targeting: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do
 
-AFTER title: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do | 15 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do
-Alternative B: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do | 15 de julho de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Visto de Residência Temporária CPLP é destinado a cidadãos dos países de: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do
+AFTER H1 (HOLD; not approved for publication): O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do
 AFTER targeting: O Visto de Residência Temporária CPLP destina-se a cidadãos dos países do — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

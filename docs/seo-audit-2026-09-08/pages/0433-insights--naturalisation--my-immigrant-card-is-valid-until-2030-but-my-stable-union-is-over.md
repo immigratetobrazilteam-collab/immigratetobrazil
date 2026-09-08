@@ -26,11 +26,11 @@ BEFORE description: My immigrant card is valid until 2030, but my stable union i
 BEFORE H1: My immigrant card is valid until 2030, but my stable union is over
 BEFORE apparent targeting: My immigrant card is valid until 2030, but my stable union is over
 
-AFTER title: My immigrant card is valid until 2030, but my stable union is over | July 25, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: My immigrant card is valid until 2030, but my stable union is over
-Alternative B: My immigrant card is valid until 2030, but my stable union is over | Monique Fernandes
+AFTER title (HOLD; not approved for publication): My immigrant card is valid until 2030, but my stable union is over | July 25, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: My immigrant card is valid until 2030, but my stable union is over: This page brings earlier citizenship research into a clearer format for readers comparing...
-AFTER H1: My immigrant card is valid until 2030, but my stable union is over
+AFTER H1 (HOLD; not approved for publication): My immigrant card is valid until 2030, but my stable union is over
 AFTER targeting: My immigrant card is valid until 2030, but my stable union is over — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

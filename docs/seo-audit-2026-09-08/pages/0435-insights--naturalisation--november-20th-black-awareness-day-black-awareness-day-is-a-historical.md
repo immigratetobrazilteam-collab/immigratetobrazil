@@ -26,11 +26,11 @@ BEFORE description: November 20th - Black Awareness Day* Black Awareness Day is 
 BEFORE H1: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural
 BEFORE apparent targeting: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural
 
-AFTER title: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural | November 20, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural
-Alternative B: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural | Monique Fernandes
+AFTER title (HOLD; not approved for publication): November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural | November 20, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural
+AFTER H1 (HOLD; not approved for publication): November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural
 AFTER targeting: November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

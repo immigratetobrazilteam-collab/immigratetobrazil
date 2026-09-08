@@ -26,11 +26,11 @@ BEFORE description: Os EUA impõem novas restrições de vistos a 12 países Des
 BEFORE H1: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo
 BEFORE apparent targeting: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo
 
-AFTER title: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo | 10 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo
-Alternative B: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo | Monique Fernandes
+AFTER title (HOLD; not approved for publication): EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo | 10 de julho de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Os EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo
+AFTER H1 (HOLD; not approved for publication): EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo
 AFTER targeting: EUA impõem novas restrições de vistos a 12 países Desde 9 de junho de 2025, um executivo — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

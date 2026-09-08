@@ -26,11 +26,11 @@ BEFORE description: Naturalized Brazilian men, aged between 18 and 45, must enli
 BEFORE H1: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service
 BEFORE apparent targeting: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service
 
-AFTER title: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service | January 30, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service
-Alternative B: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service | January 30, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service: This page brings earlier citizenship research into a clearer format...
-AFTER H1: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service
+AFTER H1 (HOLD; not approved for publication): Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service
 AFTER targeting: Naturalized Brazilian men, aged between 18 and 45, must enlist in the Military Service — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

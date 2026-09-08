@@ -14,7 +14,7 @@ User problem / SEO objective: Contact Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Contact Monique Fernandes
 Primary keyword/focus field: Contact Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Contact Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Request a consultation
 BEFORE apparent targeting: Contact Monique Fernandes
 
 AFTER title: Contact Monique Fernandes
-Alternative A: Contact Monique Fernandes
-Alternative B: Contact Monique Fernandes | Monique Fernandes
+Alternative A: Contact Monique Fernandes | Monique Fernandes
+Alternative B: Contact Monique Fernandes | Immigrate to Brazil
 AFTER description: Contact Monique Fernandes about a Brazil immigration matter. Find email and WhatsApp details, or request a consultation for advice on your case.
 AFTER H1: Contact Monique Fernandes
 AFTER targeting: Contact Monique Fernandes — navigational

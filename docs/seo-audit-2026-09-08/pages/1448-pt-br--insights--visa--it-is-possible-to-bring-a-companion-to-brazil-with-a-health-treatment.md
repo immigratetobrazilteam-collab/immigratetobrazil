@@ -26,11 +26,11 @@ BEFORE description: É possível trazer acompanhante para o Brasil com visto de 
 BEFORE H1: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que
 BEFORE apparent targeting: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que
 
-AFTER title: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que | 14 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que
-Alternative B: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que | 14 de janeiro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que: Esta página traga pesquisas anteriores de visto para um planejamento da entrada no Brasil mais claro...
-AFTER H1: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que
+AFTER H1 (HOLD; not approved for publication): É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que
 AFTER targeting: É possível trazer acompanhante para o Brasil com visto de Tratamento de Saúde, desde que — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

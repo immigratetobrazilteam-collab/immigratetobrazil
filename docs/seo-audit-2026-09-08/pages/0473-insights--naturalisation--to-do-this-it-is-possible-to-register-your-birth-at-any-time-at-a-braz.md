@@ -26,11 +26,11 @@ BEFORE description: To do this, it is possible to register your birth at any tim
 BEFORE H1: To do this, it is possible to register your birth at any time at a Brazilian
 BEFORE apparent targeting: To do this, it is possible to register your birth at any time at a Brazilian
 
-AFTER title: To do this, it is possible to register your birth at any time at a Brazilian | September 9, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: To do this, it is possible to register your birth at any time at a Brazilian
-Alternative B: To do this, it is possible to register your birth at any time at a Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): To do this, it is possible to register your birth at any time at a Brazilian | September 9, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: To do this, it is possible to register your birth at any time at a Brazilian: This page brings earlier citizenship research into a clearer format for readers...
-AFTER H1: To do this, it is possible to register your birth at any time at a Brazilian
+AFTER H1 (HOLD; not approved for publication): To do this, it is possible to register your birth at any time at a Brazilian
 AFTER targeting: To do this, it is possible to register your birth at any time at a Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Nesta data, reforçamos o nosso compromisso com a valorizaç
 BEFORE H1: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em
 BEFORE apparent targeting: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em
 
-AFTER title: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em | 1º de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em
-Alternative B: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em | 1º de outubro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em
+AFTER H1 (HOLD; not approved for publication): Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em
 AFTER targeting: Nesta data, reforçamos o nosso compromisso com a valorização e proteção dos idosos em — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

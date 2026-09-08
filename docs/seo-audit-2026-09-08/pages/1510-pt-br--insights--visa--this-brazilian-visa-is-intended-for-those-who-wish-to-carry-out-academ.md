@@ -26,11 +26,11 @@ BEFORE description: Este visto brasileiro é destinado àqueles que desejam real
 BEFORE H1: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,
 BEFORE apparent targeting: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,
 
-AFTER title: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas, | 15 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,
-Alternative B: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas, | 15 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Este visto brasileiro é destinado àqueles que desejam realizar pesquisas acadêmicas: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,
+AFTER H1 (HOLD; not approved for publication): Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas,
 AFTER targeting: Este visto brasileiro é destinado a quem deseja realizar pesquisas acadêmicas, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

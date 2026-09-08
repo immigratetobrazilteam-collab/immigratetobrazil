@@ -26,11 +26,11 @@ BEFORE description: Portugal recently approved a set of changes to immigration l
 BEFORE H1: Portugal recently approved a set of changes to immigration legislation that toughens
 BEFORE apparent targeting: Portugal recently approved a set of changes to immigration legislation that toughens
 
-AFTER title: Portugal recently approved a set of changes to immigration legislation that toughens | September 18, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Portugal recently approved a set of changes to immigration legislation that toughens
-Alternative B: Portugal recently approved a set of changes to immigration legislation that toughens | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Portugal recently approved a set of changes to immigration legislation that toughens | September 18, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Portugal recently approved a set of changes to immigration legislation that toughens: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: Portugal recently approved a set of changes to immigration legislation that toughens
+AFTER H1 (HOLD; not approved for publication): Portugal recently approved a set of changes to immigration legislation that toughens
 AFTER targeting: Portugal recently approved a set of changes to immigration legislation that toughens — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

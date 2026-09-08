@@ -14,7 +14,7 @@ User problem / SEO objective: Meet Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Meet Monique Fernandes
 Primary keyword/focus field: Meet Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Meet Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: Meet Monique Fernandes
 BEFORE apparent targeting: Meet Monique Fernandes
 
 AFTER title: Meet Monique Fernandes
-Alternative A: Meet Monique Fernandes
-Alternative B: Meet Monique Fernandes | Monique Fernandes
+Alternative A: Meet Monique Fernandes | Monique Fernandes
+Alternative B: Meet Monique Fernandes | Immigrate to Brazil
 AFTER description: Monique Fernandes is the Brazilian immigration attorney behind Immigrate to Brazil, helping clients navigate Brazilian immigration law with greater clarity, confidence, and practical next steps.
 AFTER H1: Meet Monique Fernandes
 AFTER targeting: Meet Monique Fernandes — navigational

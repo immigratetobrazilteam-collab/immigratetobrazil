@@ -26,11 +26,11 @@ BEFORE description: Before submitting your visa application, it's essential to f
 BEFORE H1: Before submitting your visa application, it's essential to first begging an
 BEFORE apparent targeting: Before submitting your visa application, it's essential to first begging an
 
-AFTER title: Before submitting your visa application, it's essential to first begging an | March 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Before submitting your visa application, it's essential to first begging an
-Alternative B: Before submitting your visa application, it's essential to first begging an | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Before submitting your visa application, it's essential to first begging an | March 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Before submitting your visa application, it's essential to first begging an: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: Before submitting your visa application, it's essential to first begging an
+AFTER H1 (HOLD; not approved for publication): Before submitting your visa application, it's essential to first begging an
 AFTER targeting: Before submitting your visa application, it's essential to first begging an — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: As of the end of July 2024, the Ministry of Justice and Publ
 BEFORE H1: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had
 BEFORE apparent targeting: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had
 
-AFTER title: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had | October 16, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had
-Alternative B: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had | Monique Fernandes
+AFTER title (HOLD; not approved for publication): As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had | October 16, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had: Archive record: March 10, 2026. This page brings earlier update reporting...
-AFTER H1: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had
+AFTER H1 (HOLD; not approved for publication): As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had
 AFTER targeting: As of the end of July 2024, the Ministry of Justice and Public Security (MJSP) had — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

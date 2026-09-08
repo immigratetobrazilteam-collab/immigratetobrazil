@@ -26,11 +26,11 @@ BEFORE description: The United States government has implemented a new fee of US
 BEFORE H1: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas
 BEFORE apparent targeting: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas
 
-AFTER title: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas | August 21, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas
-Alternative B: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas | August 21, 2025 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas: Archive...
-AFTER H1: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas
+AFTER H1 (HOLD; not approved for publication): The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas
 AFTER targeting: The United States government has implemented a new fee of US$250, called the visa integrity fee, for foreigners applying for non-immigrant visas — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

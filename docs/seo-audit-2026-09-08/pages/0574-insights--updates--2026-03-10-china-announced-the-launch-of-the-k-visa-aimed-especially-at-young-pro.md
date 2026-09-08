@@ -26,11 +26,11 @@ BEFORE description: China announced the launch of the K visa, aimed especially a
 BEFORE H1: China announced the launch of the K visa, aimed especially at young professionals in
 BEFORE apparent targeting: China announced the launch of the K visa, aimed especially at young professionals in
 
-AFTER title: China announced the launch of the K visa, aimed especially at young professionals in | October 30, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: China announced the launch of the K visa, aimed especially at young professionals in
-Alternative B: China announced the launch of the K visa, aimed especially at young professionals in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): China announced the launch of the K visa, aimed especially at young professionals in | October 30, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: China announced the launch of the K visa, aimed especially at young professionals in: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: China announced the launch of the K visa, aimed especially at young professionals in
+AFTER H1 (HOLD; not approved for publication): China announced the launch of the K visa, aimed especially at young professionals in
 AFTER targeting: China announced the launch of the K visa, aimed especially at young professionals in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: Isenção de responsabilidade e aviso legal
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Isenção de responsabilidade e aviso legal
 Primary keyword/focus field: Isenção de responsabilidade e aviso legal; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Isenção de responsabilidade e aviso legal questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]

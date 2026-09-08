@@ -26,11 +26,11 @@ BEFORE description: O alistamento militar é obrigatório para brasileiros, mesm
 BEFORE H1: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora
 BEFORE apparent targeting: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora
 
-AFTER title: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora | 4 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora
-Alternative B: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora | 4 de novembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo vivendo fora: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora
+AFTER H1 (HOLD; not approved for publication): O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora
 AFTER targeting: O alistamento militar é obrigatório para brasileiros, mesmo no exterior Mesmo morando fora — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

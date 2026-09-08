@@ -26,11 +26,11 @@ BEFORE description: Brazil is adjusting its rules for the entry of transit passe
 BEFORE H1: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking
 BEFORE apparent targeting: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking
 
-AFTER title: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking | October 28, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking
-Alternative B: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking | October 28, 2024 | Archive March 9, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant...
-AFTER H1: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking
+AFTER H1 (HOLD; not approved for publication): Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking
 AFTER targeting: Brazil is adjusting its rules for the entry of transit passengers without a visa, in force since August 26, 2024, as a measure to combat smuggling and migrant trafficking — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

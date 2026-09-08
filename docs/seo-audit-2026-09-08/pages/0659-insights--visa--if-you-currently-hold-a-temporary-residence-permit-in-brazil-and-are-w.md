@@ -26,11 +26,11 @@ BEFORE description: If you currently hold a temporary residence permit in Brazil
 BEFORE H1: If you currently hold a temporary residence permit in Brazil and are wondering about
 BEFORE apparent targeting: If you currently hold a temporary residence permit in Brazil and are wondering about
 
-AFTER title: If you currently hold a temporary residence permit in Brazil and are wondering about | December 19, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: If you currently hold a temporary residence permit in Brazil and are wondering about
-Alternative B: If you currently hold a temporary residence permit in Brazil and are wondering about | Monique Fernandes
+AFTER title (HOLD; not approved for publication): If you currently hold a temporary residence permit in Brazil and are wondering about | December 19, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: If you currently hold a temporary residence permit in Brazil and are wondering about: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: If you currently hold a temporary residence permit in Brazil and are wondering about
+AFTER H1 (HOLD; not approved for publication): If you currently hold a temporary residence permit in Brazil and are wondering about
 AFTER targeting: If you currently hold a temporary residence permit in Brazil and are wondering about — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

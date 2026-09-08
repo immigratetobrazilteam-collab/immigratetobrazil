@@ -26,11 +26,11 @@ BEFORE description: This Brazilian visa is intended for those who wish to carry 
 BEFORE H1: This Brazilian visa is intended for those who wish to carry out academic research,
 BEFORE apparent targeting: This Brazilian visa is intended for those who wish to carry out academic research,
 
-AFTER title: This Brazilian visa is intended for those who wish to carry out academic research, | August 15, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: This Brazilian visa is intended for those who wish to carry out academic research,
-Alternative B: This Brazilian visa is intended for those who wish to carry out academic research, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): This Brazilian visa is intended for those who wish to carry out academic research, | August 15, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: This Brazilian visa is intended for those who wish to carry out academic research,: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: This Brazilian visa is intended for those who wish to carry out academic research,
+AFTER H1 (HOLD; not approved for publication): This Brazilian visa is intended for those who wish to carry out academic research,
 AFTER targeting: This Brazilian visa is intended for those who wish to carry out academic research, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

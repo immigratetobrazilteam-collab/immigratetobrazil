@@ -26,11 +26,11 @@ BEFORE description: A Polícia Federal alertou mais uma vez para um grave risco 
 BEFORE H1: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um
 BEFORE apparent targeting: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um
 
-AFTER title: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um | 17 de dezembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um
-Alternative B: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um | 17 de dezembro de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores...
-AFTER H1: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um
+AFTER H1 (HOLD; not approved for publication): A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um
 AFTER targeting: A Polícia Federal alertou mais uma vez para um grave risco orçamentário: segundo um — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

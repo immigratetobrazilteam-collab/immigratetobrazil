@@ -26,11 +26,11 @@ BEFORE description: In some cases of vulnerable situations, Brazilian migration 
 BEFORE H1: In some cases of vulnerable situations, Brazilian migration law waives some
 BEFORE apparent targeting: In some cases of vulnerable situations, Brazilian migration law waives some
 
-AFTER title: In some cases of vulnerable situations, Brazilian migration law waives some | November 29, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: In some cases of vulnerable situations, Brazilian migration law waives some
-Alternative B: In some cases of vulnerable situations, Brazilian migration law waives some | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In some cases of vulnerable situations, Brazilian migration law waives some | November 29, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In some cases of vulnerable situations, Brazilian migration law waives some: This page brings earlier visa research into a clearer entry-planning format for...
-AFTER H1: In some cases of vulnerable situations, Brazilian migration law waives some
+AFTER H1 (HOLD; not approved for publication): In some cases of vulnerable situations, Brazilian migration law waives some
 AFTER targeting: In some cases of vulnerable situations, Brazilian migration law waives some — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Profissionais podem ter o visto EB2-NIW como porta de entrad
 BEFORE H1: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no
 BEFORE apparent targeting: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no
 
-AFTER title: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no | 26 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no
-Alternative B: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no | 26 de julho de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar sua carreira no: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no
+AFTER H1 (HOLD; not approved for publication): Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no
 AFTER targeting: Profissionais podem ter o visto EB2-NIW como porta de entrada para continuar a carreira no — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Durante o processo de naturalização, o requerente será ch
 BEFORE H1: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal
 BEFORE apparent targeting: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal
 
-AFTER title: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal | 26 de junho de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal
-Alternative B: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal | 26 de junho de 2025 | Arquivo 10 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Durante o processo de naturalização, o requerente será chamado para um registro pessoal: Registro de arquivo: 10 de março de 2026. Esta página traz relatórios de atualização anteriores em...
-AFTER H1: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal
+AFTER H1 (HOLD; not approved for publication): Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal
 AFTER targeting: Durante o processo de naturalização, o requerente será convocado para uma consulta pessoal — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: O Acordo MERCOSUL, reconhecido principalmente por seus impac
 BEFORE H1: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel
 BEFORE apparent targeting: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel
 
-AFTER title: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel | 25 de janeiro de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel
-Alternative B: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel | Monique Fernandes
+AFTER title (HOLD; not approved for publication): O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel | 25 de janeiro de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: O Acordo MERCOSUL, reconhecido principalmente por seus impactos econômicos, também desempenha um papel: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel
+AFTER H1 (HOLD; not approved for publication): O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel
 AFTER targeting: O Acordo MERCOSUL, reconhecido principalmente pelos seus impactos económicos, também desempenha um papel — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

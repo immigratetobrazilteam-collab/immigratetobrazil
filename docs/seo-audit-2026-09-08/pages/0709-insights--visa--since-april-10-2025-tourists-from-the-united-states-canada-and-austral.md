@@ -26,11 +26,11 @@ BEFORE description: Since April 10, 2025, tourists from the United States, Canad
 BEFORE H1: Since April 10, 2025, tourists from the United States, Canada and Australia will need
 BEFORE apparent targeting: Since April 10, 2025, tourists from the United States, Canada and Australia will need
 
-AFTER title: Since April 10, 2025, tourists from the United States, Canada and Australia will need | September 10, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Since April 10, 2025, tourists from the United States, Canada and Australia will need
-Alternative B: Since April 10, 2025, tourists from the United States, Canada and Australia will need | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Since April 10, 2025, tourists from the United States, Canada and Australia will need | September 10, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Since April 10, 2025, tourists from the United States, Canada and Australia will need: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Since April 10, 2025, tourists from the United States, Canada and Australia will need
+AFTER H1 (HOLD; not approved for publication): Since April 10, 2025, tourists from the United States, Canada and Australia will need
 AFTER targeting: Since April 10, 2025, tourists from the United States, Canada and Australia will need — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Brasil está entre os 10 primeiros!: Brasil está entre os 1
 BEFORE H1: Brasil está entre os 10 primeiros!
 BEFORE apparent targeting: Brasil está entre os 10 primeiros!
 
-AFTER title: Brasil está entre os 10 primeiros! | FYI | Imigre para o Brasil
-Alternative A: Brasil está entre os 10 primeiros!
-Alternative B: Brasil está entre os 10 primeiros! | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil está entre os 10 primeiros! | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil está entre os 10 primeiros!: Brasil está entre os 10 primeiros! Os países mais acolhedores do mundo para viajantes e expatriados LGBTQ+ em 2025, de acordo com o Índice de Igualdade...
-AFTER H1: Brasil está entre os 10 primeiros!
+AFTER H1 (HOLD; not approved for publication): Brasil está entre os 10 primeiros!
 AFTER targeting: Brasil está entre os 10 primeiros! — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -14,7 +14,7 @@ User problem / SEO objective: Monique Fernandes: Practice Overview
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Monique Fernandes: Practice Overview
 Primary keyword/focus field: Monique Fernandes: Practice Overview; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Monique Fernandes: Practice Overview questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/services/ owns Brazil Immigration Legal Services", "https://immigratetobrazil.com/about/profile/ owns Monique Fernandes: Brazilian Immigration Lawyer"]
@@ -27,8 +27,8 @@ BEFORE H1: About Monique Fernandes
 BEFORE apparent targeting: Monique Fernandes Atlas
 
 AFTER title: Monique Fernandes: Practice Overview
-Alternative A: Monique Fernandes: Practice Overview
-Alternative B: Monique Fernandes: Practice Overview | Monique Fernandes
+Alternative A: Monique Fernandes: Practice Overview | Monique Fernandes
+Alternative B: Monique Fernandes: Practice Overview | Immigrate to Brazil
 AFTER description: Meet Monique Fernandes, the OAB-registered Brazilian immigration attorney behind Immigrate to Brazil, and explore her story, standards, services, and public client proof in one place.
 AFTER H1: Monique Fernandes: Practice Overview
 AFTER targeting: Monique Fernandes: Practice Overview — navigational

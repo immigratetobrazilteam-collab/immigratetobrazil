@@ -26,11 +26,11 @@ BEFORE description: Brazil Legal Insight From Instagram Post: P Dtibphkaav_ requ
 BEFORE H1: Brazil Legal Insight From Instagram Post
 BEFORE apparent targeting: Brazil Legal Insight From Instagram Post
 
-AFTER title: Brazil Legal Insight From Instagram Post | FYI | Immigrate to Brazil
-Alternative A: Brazil Legal Insight From Instagram Post
-Alternative B: Brazil Legal Insight From Instagram Post | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil Legal Insight From Instagram Post | FYI | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil Legal Insight From Instagram Post: P Dtibphkaav_ requires careful attention to the legal route, the documents involved, and the exact facts of the...
-AFTER H1: Brazil Legal Insight From Instagram Post
+AFTER H1 (HOLD; not approved for publication): Brazil Legal Insight From Instagram Post
 AFTER targeting: Brazil Legal Insight From Instagram Post — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

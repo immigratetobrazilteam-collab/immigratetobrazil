@@ -26,11 +26,11 @@ BEFORE description: Como agendar entrevista de imigração para residência na P
 BEFORE H1: Como agendar entrevista de imigração para residência na Polícia Federal?
 BEFORE apparent targeting: Como agendar entrevista de imigração para residência na Polícia Federal?
 
-AFTER title: Como agendar entrevista de imigração para residência na Polícia Federal? | 6 de junho de 2023 | Guia Brasil | Imigre para o Brasil
-Alternative A: Como agendar entrevista de imigração para residência na Polícia Federal?
-Alternative B: Como agendar entrevista de imigração para residência na Polícia Federal? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Como agendar entrevista de imigração para residência na Polícia Federal? | 6 de junho de 2023 | Guia Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Como agendar entrevista de imigração para residência na Polícia Federal? Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...
-AFTER H1: Como agendar entrevista de imigração para residência na Polícia Federal?
+AFTER H1 (HOLD; not approved for publication): Como agendar entrevista de imigração para residência na Polícia Federal?
 AFTER targeting: Como agendar entrevista de imigração para residência na Polícia Federal? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: In principle, yes, but it is not recommended: This page brin
 BEFORE H1: In principle, yes, but it is not recommended
 BEFORE apparent targeting: In principle, yes, but it is not recommended
 
-AFTER title: In principle, yes, but it is not recommended | August 1, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: In principle, yes, but it is not recommended
-Alternative B: In principle, yes, but it is not recommended | Monique Fernandes
+AFTER title (HOLD; not approved for publication): In principle, yes, but it is not recommended | August 1, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: In principle, yes, but it is not recommended: This page brings earlier citizenship research into a clearer format for readers comparing naturalisation...
-AFTER H1: In principle, yes, but it is not recommended
+AFTER H1 (HOLD; not approved for publication): In principle, yes, but it is not recommended
 AFTER targeting: In principle, yes, but it is not recommended — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

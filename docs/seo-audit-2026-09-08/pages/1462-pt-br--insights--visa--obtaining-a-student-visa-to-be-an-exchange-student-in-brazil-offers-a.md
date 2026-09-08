@@ -26,11 +26,11 @@ BEFORE description: A obtenção de um visto de estudante para ser um estudante 
 BEFORE H1: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única
 BEFORE apparent targeting: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única
 
-AFTER title: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única | 4 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única
-Alternative B: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única | 4 de março de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma experiência única: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro para...
-AFTER H1: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única
+AFTER H1 (HOLD; not approved for publication): A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única
 AFTER targeting: A obtenção de um visto de estudante para ser um estudante de intercâmbio no Brasil oferece uma oportunidade única — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

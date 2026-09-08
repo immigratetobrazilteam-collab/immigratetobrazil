@@ -14,7 +14,7 @@ User problem / SEO objective: Resultados | Monique Fernandes
 Desired action: Resolve the page-specific question; follow the relevant next-step link.
 Primary topic/query: Resultados | Monique Fernandes
 Primary keyword/focus field: Resultados | Monique Fernandes; editorial aid only, no meta keywords.
-Secondary / long-tail candidates: ["Resultados | Monique Fernandes questions"]
+Secondary / long-tail candidates: [] — no additional query evidence established; use the assigned topic.
 Entities/concepts: []
 Questions: []
 Excluded intent owners: ["https://immigratetobrazil.com/pt-br/services/ owns Serviços jurídicos de imigração no Brasil", "https://immigratetobrazil.com/pt-br/about/profile/ owns Monique Fernandes: advogada de imigração"]
@@ -27,8 +27,8 @@ BEFORE H1: Resultados
 BEFORE apparent targeting: Resultados da imigração com Monique Fernandes
 
 AFTER title: Resultados | Monique Fernandes
-Alternative A: Resultados | Monique Fernandes
-Alternative B: Resultados | Monique Fernandes | Monique Fernandes
+Alternative A: Resultados
+Alternative B: Resultados | Immigrate to Brazil
 AFTER description: Monique Fernandes define resultados através de clareza, preparação, posicionamento jurídico mais forte e progresso da imigração mais bem gerido, e não através de garantias irrealistas.
 AFTER H1: Resultados | Monique Fernandes
 AFTER targeting: Resultados | Monique Fernandes — navigational

@@ -26,11 +26,11 @@ BEFORE description: Brasil Informações jurídicas da postagem no Instagram (3)
 BEFORE H1: Brasil Informações jurídicas da postagem do Instagram (3)
 BEFORE apparent targeting: Brasil Informações jurídicas da postagem do Instagram (3)
 
-AFTER title: Brasil Informações jurídicas da postagem do Instagram (3) | FYI | Imigre para o Brasil
-Alternative A: Brasil Informações jurídicas da postagem do Instagram (3)
-Alternative B: Brasil Informações jurídicas da postagem do Instagram (3) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil Informações jurídicas da postagem do Instagram (3) | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil Informações jurídicas da postagem no Instagram (3): A postagem no Instagram Dvqv5Qvcm2D requer atenção cuidadosa à via legal, aos documentos envolvidos e ao exato...
-AFTER H1: Brasil Informações jurídicas da postagem do Instagram (3)
+AFTER H1 (HOLD; not approved for publication): Brasil Informações jurídicas da postagem do Instagram (3)
 AFTER targeting: Brasil Informações jurídicas da postagem do Instagram (3) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: News: visa fees for the USA will become more expensive from 
 BEFORE H1: News: visa fees for the USA will become more expensive from May 30th Tourist or
 BEFORE apparent targeting: News: visa fees for the USA will become more expensive from May 30th Tourist or
 
-AFTER title: News: visa fees for the USA will become more expensive from May 30th Tourist or | June 7, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: News: visa fees for the USA will become more expensive from May 30th Tourist or
-Alternative B: News: visa fees for the USA will become more expensive from May 30th Tourist or | Monique Fernandes
+AFTER title (HOLD; not approved for publication): News: visa fees for the USA will become more expensive from May 30th Tourist or | June 7, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: News: visa fees for the USA will become more expensive from May 30th Tourist or: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: News: visa fees for the USA will become more expensive from May 30th Tourist or
+AFTER H1 (HOLD; not approved for publication): News: visa fees for the USA will become more expensive from May 30th Tourist or
 AFTER targeting: News: visa fees for the USA will become more expensive from May 30th Tourist or — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

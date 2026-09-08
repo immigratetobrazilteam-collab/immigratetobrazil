@@ -26,11 +26,11 @@ BEFORE description: A autorização de residência permanente e a cidadania são
 BEFORE H1: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem
 BEFORE apparent targeting: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem
 
-AFTER title: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem | 26 de março de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem
-Alternative B: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem | 26 de março de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem: Esta página traz a investigação anterior sobre cidadania num formato mais claro...
-AFTER H1: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem
+AFTER H1 (HOLD; not approved for publication): A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem
 AFTER targeting: A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

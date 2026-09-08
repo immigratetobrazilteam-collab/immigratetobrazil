@@ -26,11 +26,11 @@ BEFORE description: Grandes universidades fora do Brasil permitem a admissão se
 BEFORE H1: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso
 BEFORE apparent targeting: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso
 
-AFTER title: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso | 14 de agosto de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso
-Alternative B: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso | 14 de agosto de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso
+AFTER H1 (HOLD; not approved for publication): Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso
 AFTER targeting: Grandes universidades fora do Brasil permitem a admissão sem a necessidade de aprovação no ingresso — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

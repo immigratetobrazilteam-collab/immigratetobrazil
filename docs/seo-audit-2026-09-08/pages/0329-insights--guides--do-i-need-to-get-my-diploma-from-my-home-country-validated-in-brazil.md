@@ -26,11 +26,11 @@ BEFORE description: Do I need to get my diploma from my home country validated i
 BEFORE H1: Do I need to get my diploma from my home country validated in Brazil?
 BEFORE apparent targeting: Do I need to get my diploma from my home country validated in Brazil?
 
-AFTER title: Do I need to get my diploma from my home country validated in Brazil? | May 23, 2025 | Brazil Guide | Immigrate to Brazil
-Alternative A: Do I need to get my diploma from my home country validated in Brazil?
-Alternative B: Do I need to get my diploma from my home country validated in Brazil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Do I need to get my diploma from my home country validated in Brazil? | May 23, 2025 | Brazil Guide | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Do I need to get my diploma from my home country validated in Brazil? This page brings earlier FAQ-style research into a clearer guidance page for readers...
-AFTER H1: Do I need to get my diploma from my home country validated in Brazil?
+AFTER H1 (HOLD; not approved for publication): Do I need to get my diploma from my home country validated in Brazil?
 AFTER targeting: Do I need to get my diploma from my home country validated in Brazil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

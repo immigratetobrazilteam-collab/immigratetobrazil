@@ -26,11 +26,11 @@ BEFORE description: A língua portuguesa desempenha um papel fundamental na cult
 BEFORE H1: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,
 BEFORE apparent targeting: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,
 
-AFTER title: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil, | 13 de dezembro de 2023 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,
-Alternative B: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil, | 13 de dezembro de 2023 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A língua portuguesa desempenha um papel fundamental na cultura e na vida quotidiana do Brasil: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,
+AFTER H1 (HOLD; not approved for publication): A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil,
 AFTER targeting: A língua portuguesa desempenha um papel fundamental na cultura e no quotidiano do Brasil, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

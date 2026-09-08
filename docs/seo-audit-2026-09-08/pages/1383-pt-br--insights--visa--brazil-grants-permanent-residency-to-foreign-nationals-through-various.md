@@ -26,11 +26,11 @@ BEFORE description: Brasil concede residência permanente a estrangeiros atravé
 BEFORE H1: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos
 BEFORE apparent targeting: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos
 
-AFTER title: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos | 29 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos
-Alternative B: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brasil concede residência permanente a estrangeiros através de vários tipos de vistos | 29 de agosto de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos
+AFTER H1 (HOLD; not approved for publication): Brasil concede residência permanente a estrangeiros através de vários tipos de vistos
 AFTER targeting: Brasil concede residência permanente a estrangeiros através de vários tipos de vistos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

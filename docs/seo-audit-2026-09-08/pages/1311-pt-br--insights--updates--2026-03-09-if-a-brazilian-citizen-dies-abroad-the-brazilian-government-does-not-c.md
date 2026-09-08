@@ -26,11 +26,11 @@ BEFORE description: Se um cidadão brasileiro morrer no exterior, o governo bras
 BEFORE H1: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil
 BEFORE apparent targeting: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil
 
-AFTER title: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil | 20 de março de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil
-Alternative B: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil | 20 de março de 2025 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil: Registro de arquivo: 9 de março...
-AFTER H1: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil
+AFTER H1 (HOLD; not approved for publication): Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil
 AFTER targeting: Se um cidadão brasileiro morrer no exterior, o governo brasileiro não cobre despesas de funeral ou transporte do corpo para o Brasil — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

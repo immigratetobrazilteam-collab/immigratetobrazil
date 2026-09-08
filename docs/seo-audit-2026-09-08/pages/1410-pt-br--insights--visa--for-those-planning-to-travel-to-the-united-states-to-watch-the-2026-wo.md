@@ -26,11 +26,11 @@ BEFORE description: Para aqueles que planejam viajar aos Estados Unidos para ass
 BEFORE H1: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é
 BEFORE apparent targeting: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é
 
-AFTER title: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é | 22 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é
-Alternative B: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é | 22 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para aqueles que planejam viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é
+AFTER H1 (HOLD; not approved for publication): Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é
 AFTER targeting: Para quem planeja viajar aos Estados Unidos para assistir à Copa do Mundo de 2026, é — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

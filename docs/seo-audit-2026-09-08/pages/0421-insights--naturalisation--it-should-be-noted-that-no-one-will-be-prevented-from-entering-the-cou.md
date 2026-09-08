@@ -26,11 +26,11 @@ BEFORE description: It should be noted that no one will be prevented from enteri
 BEFORE H1: It should be noted that no one will be prevented from entering the country due to
 BEFORE apparent targeting: It should be noted that no one will be prevented from entering the country due to
 
-AFTER title: It should be noted that no one will be prevented from entering the country due to | June 6, 2024 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: It should be noted that no one will be prevented from entering the country due to
-Alternative B: It should be noted that no one will be prevented from entering the country due to | Monique Fernandes
+AFTER title (HOLD; not approved for publication): It should be noted that no one will be prevented from entering the country due to | June 6, 2024 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: It should be noted that no one will be prevented from entering the country due to: This page brings earlier citizenship research into a clearer format for...
-AFTER H1: It should be noted that no one will be prevented from entering the country due to
+AFTER H1 (HOLD; not approved for publication): It should be noted that no one will be prevented from entering the country due to
 AFTER targeting: It should be noted that no one will be prevented from entering the country due to — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

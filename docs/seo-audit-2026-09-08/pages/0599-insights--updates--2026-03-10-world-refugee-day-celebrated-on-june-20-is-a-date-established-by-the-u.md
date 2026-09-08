@@ -26,11 +26,11 @@ BEFORE description: World Refugee Day, celebrated on June 20, is a date establis
 BEFORE H1: World Refugee Day, celebrated on June 20, is a date established by the United Nations
 BEFORE apparent targeting: World Refugee Day, celebrated on June 20, is a date established by the United Nations
 
-AFTER title: World Refugee Day, celebrated on June 20, is a date established by the United Nations | June 20, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: World Refugee Day, celebrated on June 20, is a date established by the United Nations
-Alternative B: World Refugee Day, celebrated on June 20, is a date established by the United Nations | Monique Fernandes
+AFTER title (HOLD; not approved for publication): World Refugee Day, celebrated on June 20, is a date established by the United Nations | June 20, 2025 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: World Refugee Day, celebrated on June 20, is a date established by the United Nations: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: World Refugee Day, celebrated on June 20, is a date established by the United Nations
+AFTER H1 (HOLD; not approved for publication): World Refugee Day, celebrated on June 20, is a date established by the United Nations
 AFTER targeting: World Refugee Day, celebrated on June 20, is a date established by the United Nations — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Você deve solicitar que seu ID brasileiro seja renovado pel
 BEFORE H1: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado
 BEFORE apparent targeting: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado
 
-AFTER title: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado | 13 de abril de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado
-Alternative B: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado | 13 de abril de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado: Esta página traz processos anteriores e apoia pesquisas de uma forma mais clara...
-AFTER H1: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado
+AFTER H1 (HOLD; not approved for publication): Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado
 AFTER targeting: Você deve solicitar que seu ID brasileiro seja renovado pelo menos 90 dias antes de ser executado — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

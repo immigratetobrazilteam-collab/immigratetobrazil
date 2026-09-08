@@ -26,11 +26,11 @@ BEFORE description: Immigrants when attended in Brazilian public services should
 BEFORE H1: Immigrants when attended in Brazilian public services should be treated in accordance
 BEFORE apparent targeting: Immigrants when attended in Brazilian public services should be treated in accordance
 
-AFTER title: Immigrants when attended in Brazilian public services should be treated in accordance | May 15, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
-Alternative A: Immigrants when attended in Brazilian public services should be treated in accordance
-Alternative B: Immigrants when attended in Brazilian public services should be treated in accordance | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Immigrants when attended in Brazilian public services should be treated in accordance | May 15, 2024 | Archive March 10, 2026 | Brazil Update | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Immigrants when attended in Brazilian public services should be treated in accordance: Archive record: March 10, 2026. This page brings earlier update...
-AFTER H1: Immigrants when attended in Brazilian public services should be treated in accordance
+AFTER H1 (HOLD; not approved for publication): Immigrants when attended in Brazilian public services should be treated in accordance
 AFTER targeting: Immigrants when attended in Brazilian public services should be treated in accordance — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

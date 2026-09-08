@@ -26,11 +26,11 @@ BEFORE description: No Brasil, existem vários tipos de vistos de trabalho dispo
 BEFORE H1: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do
 BEFORE apparent targeting: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do
 
-AFTER title: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do | 29 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do
-Alternative B: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do | 29 de agosto de 2024 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No Brasil, existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza de: Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do
+AFTER H1 (HOLD; not approved for publication): No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do
 AFTER targeting: No Brasil existem vários tipos de vistos de trabalho disponíveis, dependendo da natureza do — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

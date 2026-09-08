@@ -26,11 +26,11 @@ BEFORE description: Se você for de um dos países elegíveis, poderá solicitar
 BEFORE H1: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)
 BEFORE apparent targeting: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)
 
-AFTER title: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2) | 30 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)
-Alternative B: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2) | 30 de outubro de 2023 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2): Esta página reorganiza conteúdo anterior sobre vistos para um planejamento da entrada no Brasil mais claro...
-AFTER H1: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)
+AFTER H1 (HOLD; not approved for publication): Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2)
 AFTER targeting: Se você for de um dos países elegíveis, poderá solicitar uma prorrogação de 90 dias para (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

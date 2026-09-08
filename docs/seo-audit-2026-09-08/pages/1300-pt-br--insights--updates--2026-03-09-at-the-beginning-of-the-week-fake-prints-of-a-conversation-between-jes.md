@@ -26,11 +26,11 @@ BEFORE description: No início da semana surgiram prints falsos de uma conversa 
 BEFORE H1: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca
 BEFORE apparent targeting: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca
 
-AFTER title: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca | 27 de dezembro de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
-Alternative A: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca
-Alternative B: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca | 27 de dezembro de 2023 | Arquivo 9 de março de 2026 | Atualização Brasil | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofocas: Registro de arquivo: 9 de março de 2026...
-AFTER H1: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca
+AFTER H1 (HOLD; not approved for publication): No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca
 AFTER targeting: No início da semana surgiram prints falsos de uma conversa entre Jéssica e Whindersson, compartilhadas por perfis de fofoca — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

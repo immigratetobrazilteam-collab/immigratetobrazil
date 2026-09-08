@@ -26,11 +26,11 @@ BEFORE description: Depois que um pedido de naturalização foi negado por meio 
 BEFORE H1: Após o pedido de naturalização ter sido negado através de processo administrativo,
 BEFORE apparent targeting: Após o pedido de naturalização ter sido negado através de processo administrativo,
 
-AFTER title: Após o pedido de naturalização ter sido negado através de processo administrativo, | 16 de janeiro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Após o pedido de naturalização ter sido negado através de processo administrativo,
-Alternative B: Após o pedido de naturalização ter sido negado através de processo administrativo, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Após o pedido de naturalização ter sido negado através de processo administrativo, | 16 de janeiro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Depois que um pedido de naturalização foi negado por meio de processo administrativo: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...
-AFTER H1: Após o pedido de naturalização ter sido negado através de processo administrativo,
+AFTER H1 (HOLD; not approved for publication): Após o pedido de naturalização ter sido negado através de processo administrativo,
 AFTER targeting: Após o pedido de naturalização ter sido negado através de processo administrativo, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

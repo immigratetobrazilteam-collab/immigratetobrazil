@@ -26,11 +26,11 @@ BEFORE description: The EB2-NIW visa is a great opportunity to internationalize 
 BEFORE H1: The EB2-NIW visa is a great opportunity to internationalize your career and obtain
 BEFORE apparent targeting: The EB2-NIW visa is a great opportunity to internationalize your career and obtain
 
-AFTER title: The EB2-NIW visa is a great opportunity to internationalize your career and obtain | August 24, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: The EB2-NIW visa is a great opportunity to internationalize your career and obtain
-Alternative B: The EB2-NIW visa is a great opportunity to internationalize your career and obtain | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The EB2-NIW visa is a great opportunity to internationalize your career and obtain | August 24, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The EB2-NIW visa is a great opportunity to internationalize your career and obtain: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: The EB2-NIW visa is a great opportunity to internationalize your career and obtain
+AFTER H1 (HOLD; not approved for publication): The EB2-NIW visa is a great opportunity to internationalize your career and obtain
 AFTER targeting: The EB2-NIW visa is a great opportunity to internationalize your career and obtain — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

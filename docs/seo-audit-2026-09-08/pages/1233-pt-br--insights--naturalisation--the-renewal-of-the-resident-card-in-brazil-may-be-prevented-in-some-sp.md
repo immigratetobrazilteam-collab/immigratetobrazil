@@ -26,11 +26,11 @@ BEFORE description: A renovação do cartão de residente no Brasil pode ser imp
 BEFORE H1: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos
 BEFORE apparent targeting: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos
 
-AFTER title: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos | 6 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos
-Alternative B: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos | 6 de agosto de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: A renovação do cartão de residente no Brasil pode ser impedida em alguns pontos específicos: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para os leitores...
-AFTER H1: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos
+AFTER H1 (HOLD; not approved for publication): A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos
 AFTER targeting: A renovação do cartão de residente no Brasil pode ser impedida em alguns casos específicos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

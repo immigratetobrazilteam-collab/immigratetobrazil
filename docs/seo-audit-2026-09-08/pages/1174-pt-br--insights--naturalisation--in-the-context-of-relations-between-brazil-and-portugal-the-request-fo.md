@@ -26,11 +26,11 @@ BEFORE description: No contexto das relações entre Brasil e Portugal, o pedido
 BEFORE H1: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos
 BEFORE apparent targeting: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos
 
-AFTER title: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos | 16 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
-Alternative A: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos
-Alternative B: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos | 16 de abril de 2024 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos: Esta página reorganiza conteúdo anterior sobre cidadania num formato mais claro para...
-AFTER H1: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos
+AFTER H1 (HOLD; not approved for publication): No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos
 AFTER targeting: No contexto das relações entre Brasil e Portugal, o pedido de igualdade de direitos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

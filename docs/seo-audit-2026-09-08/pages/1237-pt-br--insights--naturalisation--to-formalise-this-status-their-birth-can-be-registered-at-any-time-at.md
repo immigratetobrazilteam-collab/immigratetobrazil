@@ -26,11 +26,11 @@ BEFORE description: Para formalizar esse status, o nascimento pode ser registrad
 BEFORE H1: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro
 BEFORE apparent targeting: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro
 
-AFTER title: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro | 17 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro
-Alternative B: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro | 17 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro
+AFTER H1 (HOLD; not approved for publication): Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro
 AFTER targeting: Para formalizar esse status, o nascimento pode ser registrado a qualquer momento em órgão brasileiro — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

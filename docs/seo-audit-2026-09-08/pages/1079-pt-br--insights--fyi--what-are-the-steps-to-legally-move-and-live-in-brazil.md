@@ -26,11 +26,11 @@ BEFORE description: Quais são as etapas para mudar e morar legalmente no Brasil
 BEFORE H1: Quais são as etapas para mudar e morar legalmente no Brasil?
 BEFORE apparent targeting: Quais são as etapas para mudar e morar legalmente no Brasil?
 
-AFTER title: Quais são as etapas para mudar e morar legalmente no Brasil? | FYI | Imigre para o Brasil
-Alternative A: Quais são as etapas para mudar e morar legalmente no Brasil?
-Alternative B: Quais são as etapas para mudar e morar legalmente no Brasil? | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Quais são as etapas para mudar e morar legalmente no Brasil? | FYI | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Quais são as etapas para mudar e morar legalmente no Brasil? Quais são as etapas para mudar e morar legalmente no Brasil? Embora as etapas exatas variem dependendo do caso...
-AFTER H1: Quais são as etapas para mudar e morar legalmente no Brasil?
+AFTER H1 (HOLD; not approved for publication): Quais são as etapas para mudar e morar legalmente no Brasil?
 AFTER targeting: Quais são as etapas para mudar e morar legalmente no Brasil? — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

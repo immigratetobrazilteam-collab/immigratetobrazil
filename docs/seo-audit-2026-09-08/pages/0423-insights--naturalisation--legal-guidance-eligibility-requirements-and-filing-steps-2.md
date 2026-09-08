@@ -26,11 +26,11 @@ BEFORE description: Legal guidance: eligibility, requirements, and filing steps 
 BEFORE H1: Legal guidance: eligibility, requirements, and filing steps (2)
 BEFORE apparent targeting: Legal guidance: eligibility, requirements, and filing steps (2)
 
-AFTER title: Legal guidance: eligibility, requirements, and filing steps (2) | October 8, 2025 | Naturalisation Insight | Immigrate to Brazil
-Alternative A: Legal guidance: eligibility, requirements, and filing steps (2)
-Alternative B: Legal guidance: eligibility, requirements, and filing steps (2) | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Legal guidance: eligibility, requirements, and filing steps (2) | October 8, 2025 | Naturalisation Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Legal guidance: eligibility, requirements, and filing steps (2): This page brings earlier citizenship research into a clearer format for readers comparing...
-AFTER H1: Legal guidance: eligibility, requirements, and filing steps (2)
+AFTER H1 (HOLD; not approved for publication): Legal guidance: eligibility, requirements, and filing steps (2)
 AFTER targeting: Legal guidance: eligibility, requirements, and filing steps (2) — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

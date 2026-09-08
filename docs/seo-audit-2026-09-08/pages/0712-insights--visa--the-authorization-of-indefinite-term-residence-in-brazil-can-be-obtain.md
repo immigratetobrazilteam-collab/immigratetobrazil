@@ -26,11 +26,11 @@ BEFORE description: The authorization of indefinite-term residence in Brazil can
 BEFORE H1: The authorization of indefinite-term residence in Brazil can be obtained through
 BEFORE apparent targeting: The authorization of indefinite-term residence in Brazil can be obtained through
 
-AFTER title: The authorization of indefinite-term residence in Brazil can be obtained through | June 27, 2024 | Visa Insight | Immigrate to Brazil
-Alternative A: The authorization of indefinite-term residence in Brazil can be obtained through
-Alternative B: The authorization of indefinite-term residence in Brazil can be obtained through | Monique Fernandes
+AFTER title (HOLD; not approved for publication): The authorization of indefinite-term residence in Brazil can be obtained through | June 27, 2024 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: The authorization of indefinite-term residence in Brazil can be obtained through: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: The authorization of indefinite-term residence in Brazil can be obtained through
+AFTER H1 (HOLD; not approved for publication): The authorization of indefinite-term residence in Brazil can be obtained through
 AFTER targeting: The authorization of indefinite-term residence in Brazil can be obtained through — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

@@ -26,11 +26,11 @@ BEFORE description: Assai, localizada no estado do Paraná, Brasil, foi criada n
 BEFORE H1: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX
 BEFORE apparent targeting: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX
 
-AFTER title: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX | 10 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX
-Alternative B: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX | 10 de dezembro de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Assai, localizada no estado do Paraná, Brasil, foi criada no início do século 20: Esta página traz pesquisas anteriores de vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX
+AFTER H1 (HOLD; not approved for publication): Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX
 AFTER targeting: Assai, localizada no estado do Paraná, Brasil, foi fundada no início do século XX — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

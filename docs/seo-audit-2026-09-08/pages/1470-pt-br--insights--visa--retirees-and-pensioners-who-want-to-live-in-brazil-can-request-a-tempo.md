@@ -26,11 +26,11 @@ BEFORE description: Aposentados e pensionistas que desejam morar no Brasil podem
 BEFORE H1: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,
 BEFORE apparent targeting: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,
 
-AFTER title: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário, | 9 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
-Alternative A: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,
-Alternative B: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário, | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário, | 9 de abril de 2025 | Informações sobre vistos | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Aposentados e pensionistas que desejam morar no Brasil podem solicitar um visto temporário: Esta página reorganiza conteúdo anterior sobre vistos em um formato de planejamento da entrada no Brasil mais claro...
-AFTER H1: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,
+AFTER H1 (HOLD; not approved for publication): Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário,
 AFTER targeting: Aposentados e pensionistas que desejam morar no Brasil podem solicitar visto temporário, — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

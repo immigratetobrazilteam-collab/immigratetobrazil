@@ -26,11 +26,11 @@ BEFORE description: Cada posto de atendimento de imigração da Polícia Federal
 BEFORE H1: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento
 BEFORE apparent targeting: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento
 
-AFTER title: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento | 31 de agosto de 2023 | Visão do processo | Imigre para o Brasil
-Alternative A: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento
-Alternative B: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento | 31 de agosto de 2023 | Visão do processo | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento: Esta página traz a antecipação do processo e apoia a pesquisa de forma mais clara...
-AFTER H1: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento
+AFTER H1 (HOLD; not approved for publication): Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento
 AFTER targeting: Cada posto de atendimento de imigração da Polícia Federal possui um procedimento diferente para agendamento — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

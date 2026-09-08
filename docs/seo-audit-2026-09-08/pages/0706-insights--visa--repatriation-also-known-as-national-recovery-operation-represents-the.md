@@ -26,11 +26,11 @@ BEFORE description: Repatriation, also known as National Recovery Operation, rep
 BEFORE H1: Repatriation, also known as National Recovery Operation, represents the Brazilian
 BEFORE apparent targeting: Repatriation, also known as National Recovery Operation, represents the Brazilian
 
-AFTER title: Repatriation, also known as National Recovery Operation, represents the Brazilian | October 17, 2023 | Visa Insight | Immigrate to Brazil
-Alternative A: Repatriation, also known as National Recovery Operation, represents the Brazilian
-Alternative B: Repatriation, also known as National Recovery Operation, represents the Brazilian | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Repatriation, also known as National Recovery Operation, represents the Brazilian | October 17, 2023 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Repatriation, also known as National Recovery Operation, represents the Brazilian: This page brings earlier visa research into a clearer entry-planning format...
-AFTER H1: Repatriation, also known as National Recovery Operation, represents the Brazilian
+AFTER H1 (HOLD; not approved for publication): Repatriation, also known as National Recovery Operation, represents the Brazilian
 AFTER targeting: Repatriation, also known as National Recovery Operation, represents the Brazilian — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

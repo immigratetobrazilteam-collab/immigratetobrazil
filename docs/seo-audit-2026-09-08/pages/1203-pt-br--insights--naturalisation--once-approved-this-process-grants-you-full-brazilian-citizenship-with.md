@@ -26,11 +26,11 @@ BEFORE description: Uma vez aprovado, este processo concede a você cidadania br
 BEFORE H1: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos
 BEFORE apparent targeting: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos
 
-AFTER title: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos | 25 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
-Alternative A: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos
-Alternative B: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos | 25 de setembro de 2025 | Visão de naturalização | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Uma vez aprovado, este processo concede a você cidadania brasileira completa, com acesso a todos: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...
-AFTER H1: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos
+AFTER H1 (HOLD; not approved for publication): Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos
 AFTER targeting: Uma vez aprovado, este processo concede a você plena cidadania brasileira, com acesso a todos — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

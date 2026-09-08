@@ -26,11 +26,11 @@ BEFORE description: Brazil offers the possibility of permanent residency for fam
 BEFORE H1: Brazil offers the possibility of permanent residency for families wishing to settle in
 BEFORE apparent targeting: Brazil offers the possibility of permanent residency for families wishing to settle in
 
-AFTER title: Brazil offers the possibility of permanent residency for families wishing to settle in | August 4, 2025 | Visa Insight | Immigrate to Brazil
-Alternative A: Brazil offers the possibility of permanent residency for families wishing to settle in
-Alternative B: Brazil offers the possibility of permanent residency for families wishing to settle in | Monique Fernandes
+AFTER title (HOLD; not approved for publication): Brazil offers the possibility of permanent residency for families wishing to settle in | August 4, 2025 | Visa Insight | Immigrate to Brazil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: Brazil offers the possibility of permanent residency for families wishing to settle in: This page brings earlier visa research into a clearer entry-planning...
-AFTER H1: Brazil offers the possibility of permanent residency for families wishing to settle in
+AFTER H1 (HOLD; not approved for publication): Brazil offers the possibility of permanent residency for families wishing to settle in
 AFTER targeting: Brazil offers the possibility of permanent residency for families wishing to settle in — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.

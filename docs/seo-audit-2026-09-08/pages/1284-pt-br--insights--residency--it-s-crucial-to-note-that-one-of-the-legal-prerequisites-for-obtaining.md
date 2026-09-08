@@ -26,11 +26,11 @@ BEFORE description: É fundamental observar que um dos pré-requisitos legais pa
 BEFORE H1: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência
 BEFORE apparent targeting: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência
 
-AFTER title: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência | 19 de julho de 2023 | Visão de residência | Imigre para o Brasil
-Alternative A: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência
-Alternative B: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência | Monique Fernandes
+AFTER title (HOLD; not approved for publication): É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência | 19 de julho de 2023 | Visão de residência | Imigre para o Brasil
+Alternative A: WITHHELD — recover the complete source and confirm the article’s subject.
+Alternative B: WITHHELD — a title variation cannot repair missing article content.
 AFTER description: É fundamental observar que um dos pré-requisitos legais para a obtenção de residência: Esta página reorganiza conteúdo anterior sobre residência em uma estrutura mais clara para...
-AFTER H1: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência
+AFTER H1 (HOLD; not approved for publication): É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência
 AFTER targeting: É fundamental salientar que um dos pré-requisitos legais para a obtenção de residência — informational
 H1 decision: Retain pending source review.
 WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.
