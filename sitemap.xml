@@ -130,6 +130,9 @@
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-services.xml</loc>
   </sitemap>
   <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-start-consultation.xml</loc>
   </sitemap>
 </sitemapindex>
