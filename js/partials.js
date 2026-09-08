@@ -36,7 +36,7 @@
     "next-steps"
   ];
 
-  const PARTIAL_VERSION = "2026-06-12-construction-status-v1";
+  const PARTIAL_VERSION = "2026-09-08-guidance-whatsapp-v2";
   // Keep the above-the-fold shell responsive; lower-page widgets can hydrate
   // after the first render without changing the initial layout.
   const EAGER_PARTIALS = new Set(["gtm-noscript", "utility-bar", "accessibility-panel", "site-navigation", "breadcrumbs"]);
@@ -366,7 +366,7 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     if (!name || !PARTIAL_NAMES.includes(name)) return;
     const response = await fetch(resolveSiteUrl(`/partials/${getLocale()}/${name}.html?v=${encodeURIComponent(PARTIAL_VERSION)}`), {
       credentials: "same-origin",
-      cache: "force-cache"
+      cache: "no-cache"
     });
     if (!response.ok) throw new Error(`Failed to load partial: ${name}`);
     const html = await response.text();

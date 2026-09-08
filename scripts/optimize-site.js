@@ -318,7 +318,7 @@ p, li { font-size: 1rem; }
 .construction-status-bar__copy { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; min-width: 0; margin: 0; gap: 0.38rem; color: rgba(255, 248, 238, 0.84); font-size: 0.78rem; line-height: 1.2; text-align: center; }
 .construction-status-bar__copy strong { color: #fff0bf; font-family: var(--font-label); font-size: 0.68rem; font-weight: 900; letter-spacing: 0.08em; line-height: 1.1; text-transform: uppercase; }
 .construction-status-bar__copy span { color: rgba(255, 248, 238, 0.82); }
-.construction-status-bar__link { display: inline-flex; align-items: center; justify-content: center; min-height: 28px; padding: 0.3rem 0.74rem; border: 1px solid rgba(255, 236, 178, 0.52); border-radius: 999px; background: linear-gradient(135deg, #fff4cf 0%, #efca75 42%, #c98b2d 100%); color: #211205; font-size: 0.68rem; font-weight: 900; line-height: 1; text-decoration: none; white-space: nowrap; }
+.construction-status-bar__link, .construction-status-bar__link:visited { display: inline-flex; align-items: center; justify-content: center; min-height: 28px; padding: 0.3rem 0.74rem; border: 1px solid rgba(37, 211, 102, 0.62); border-radius: 999px; background: linear-gradient(135deg, #25d366 0%, #1ebe5d 52%, #128c4a 100%); color: #ffffff !important; font-size: 0.68rem; font-weight: 900; line-height: 1; text-decoration: none; white-space: nowrap; }
 .utility-bar, .main-nav { position: sticky; z-index: 60; background: linear-gradient(180deg, var(--nav-surface-top), var(--nav-surface-bottom)); color: var(--text-inverse); }
 .utility-bar { top: var(--construction-status-bar-height); z-index: 71; min-height: var(--utility-bar-height); max-height: var(--utility-bar-height); overflow: hidden; }
 .main-nav { top: calc(var(--construction-status-bar-height) + var(--utility-bar-height)); min-height: var(--main-nav-height); max-height: none; overflow: visible; }
@@ -423,8 +423,6 @@ p, li { font-size: 1rem; }
 @media (max-width: 767px) {
   .construction-status-bar__inner { gap: 0.42rem; }
   .construction-status-bar__copy { justify-content: flex-start; text-align: left; }
-  .construction-status-bar__copy strong { font-size: 0.62rem; }
-  .construction-status-bar__copy span { display: none; }
   .construction-status-bar__link { min-height: 26px; padding: 0.28rem 0.58rem; font-size: 0.62rem; }
   .main-header--redesign .main-header__consult-button { min-width: 7.25rem; min-height: 42px; padding: 0.42rem 0.58rem; }
   .main-header--redesign .main-header__consult-kicker { display: none; }
