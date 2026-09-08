@@ -2,7 +2,7 @@
 
 This repository is the published site. Every HTML, CSS, JavaScript, image,
 `_headers`, `robots.txt`, and sitemap file is ready to serve as-is. Do not add a
-framework preset, a package manager, or a build command.
+framework preset, package manager build, or build command.
 
 ## Required Pages settings
 
@@ -23,6 +23,10 @@ Builds**, use these settings for the production environment:
 Cloudflare Pages starts in the linked repository root when no root directory is
 set. Leaving the build command blank makes it upload the committed static files
 without running npm, Node, or any other build tool.
+
+Large local audit evidence files are intentionally ignored and should not be
+committed. Cloudflare Pages uploads the build output as static assets, so any
+committed file in the repository root must stay within Pages' file limits.
 
 ## Restore GitHub-triggered deploys
 
