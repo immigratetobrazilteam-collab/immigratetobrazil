@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/",
+      "name": "O governo dos Estados Unidos anunciou uma nova diretriz do Serviço de Cidadania e Imigração (USCIS) que passa a considerar a manifestação de antiamericanismo, bem como de ideologias antissemitas ou ligações a organizações terroristas, como fatores negativos na avaliação de pedidos de visto, residência ou cidadania",
+      "description": "O governo dos Estados Unidos anunciou uma nova diretriz do Serviço de Cidadania e Imigração (USCIS) que agora considera a manifestação de anti...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Atualizações de imigração para o Brasil explicadas com calma",
+          "item": "https://immigratetobrazil.com/pt-br/insights/updates/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "O governo dos Estados Unidos anunciou uma nova diretriz do Serviço de Cidadania e Imigração (USCIS) que passa a considerar a manifestação de antiamericanismo, bem como de ideologias antissemitas ou ligações a organizações terroristas, como fatores negativos na avaliação de pedidos de visto, residência ou cidadania",
+          "item": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/#article",
+      "headline": "O governo dos Estados Unidos anunciou uma nova diretriz do Serviço de Cidadania e Imigração (USCIS) que passa a considerar a manifestação de antiamericanismo, bem como de ideologias antissemitas ou ligações a organizações terroristas, como fatores negativos na avaliação de pedidos de visto, residência ou cidadania",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-the-united-states-government-announced-a-new-guideline-from-the-citize/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

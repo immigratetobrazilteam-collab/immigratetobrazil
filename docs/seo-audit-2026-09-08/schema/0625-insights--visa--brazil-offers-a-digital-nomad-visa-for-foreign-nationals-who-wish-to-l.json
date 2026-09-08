@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/",
+      "name": "Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work",
+      "description": "Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work",
+          "item": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/#article",
+      "headline": "Brazil offers a Digital Nomad Visa for foreign nationals who wish to live and work",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazil-offers-a-digital-nomad-visa-for-foreign-nationals-who-wish-to-l/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

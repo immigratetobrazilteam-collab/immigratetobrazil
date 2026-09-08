@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/#webpage",
+      "url": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/",
+      "name": "On this day, we express gratitude to each person who trusts our legal work",
+      "description": "On this day, we express gratitude to each person who trusts our legal work: This page brings earlier citizenship research into a clearer format for readers...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "On this day, we express gratitude to each person who trusts our legal work",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/#article",
+      "headline": "On this day, we express gratitude to each person who trusts our legal work",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/on-this-day-we-express-gratitude-to-each-person-who-trusts-our-legal-w/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/process/alone/#webpage",
+      "url": "https://immigratetobrazil.com/process/alone/",
+      "name": "Applying Independently or Hiring an Immigration Lawyer",
+      "description": "Applying Independently or Hiring an Immigration Lawyer. Identify the questions to resolve, prepare for your next step and understand when advice on your circumstances may help.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/process/alone/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/process/alone/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Working With Monique: The Immigration Process",
+          "item": "https://immigratetobrazil.com/process/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Applying Independently or Hiring an Immigration Lawyer",
+          "item": "https://immigratetobrazil.com/process/alone/"
+        }
+      ]
+    }
+  ]
+}

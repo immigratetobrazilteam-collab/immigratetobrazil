@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/",
+      "name": "Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer",
+      "description": "Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer",
+          "item": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/#article",
+      "headline": "Brazilian Temporary Residency Permit for Work Consulting with an immigration lawyer",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazilian-temporary-residency-permit-for-work-consulting-with-an-immig/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

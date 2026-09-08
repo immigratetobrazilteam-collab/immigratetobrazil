@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/",
+      "name": "Brazil's real estate market is booming, offering incredible potential for high returns",
+      "description": "Brazil's real estate market is booming, offering incredible potential for high returns: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brazil's real estate market is booming, offering incredible potential for high returns",
+          "item": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/#article",
+      "headline": "Brazil's real estate market is booming, offering incredible potential for high returns",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/brazil-s-real-estate-market-is-booming-offering-incredible-potential-f/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

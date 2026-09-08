@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/rights/strategy/#webpage",
+      "url": "https://immigratetobrazil.com/rights/strategy/",
+      "name": "Protecting Your Rights in Immigration Decisions",
+      "description": "Protecting Your Rights in Immigration Decisions. Identify the questions to resolve, prepare for your next step and understand when advice on your circumstances may help.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/rights/strategy/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/rights/strategy/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Immigrant Rights and Responsibilities in Brazil",
+          "item": "https://immigratetobrazil.com/rights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Protecting Your Rights in Immigration Decisions",
+          "item": "https://immigratetobrazil.com/rights/strategy/"
+        }
+      ]
+    }
+  ]
+}

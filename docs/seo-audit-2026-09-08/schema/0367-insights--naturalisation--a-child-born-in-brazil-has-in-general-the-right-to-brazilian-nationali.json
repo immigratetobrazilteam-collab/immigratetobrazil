@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/#webpage",
+      "url": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/",
+      "name": "A child born in Brazil has, in general, the right to Brazilian nationality, regardless",
+      "description": "A child born in Brazil has, in general, the right to Brazilian nationality, regardless: This page brings earlier citizenship research into a clearer format...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "A child born in Brazil has, in general, the right to Brazilian nationality, regardless",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/#article",
+      "headline": "A child born in Brazil has, in general, the right to Brazilian nationality, regardless",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/a-child-born-in-brazil-has-in-general-the-right-to-brazilian-nationali/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

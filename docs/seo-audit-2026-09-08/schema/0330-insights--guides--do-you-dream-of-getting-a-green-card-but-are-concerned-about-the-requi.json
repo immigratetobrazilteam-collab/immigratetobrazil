@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/#webpage",
+      "url": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/",
+      "name": "Do you dream of getting a Green Card but are concerned about the requirement to have",
+      "description": "Do you dream of getting a Green Card but are concerned about the requirement to have: This page brings earlier FAQ-style research into a clearer guidance page...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guides",
+          "item": "https://immigratetobrazil.com/insights/guides/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Do you dream of getting a Green Card but are concerned about the requirement to have",
+          "item": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/#article",
+      "headline": "Do you dream of getting a Green Card but are concerned about the requirement to have",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/guides/do-you-dream-of-getting-a-green-card-but-are-concerned-about-the-requi/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

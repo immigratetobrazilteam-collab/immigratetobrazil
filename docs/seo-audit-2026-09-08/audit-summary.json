@@ -1,0 +1,57 @@
+{
+  "urls": 1720,
+  "sitemap_urls": 1708,
+  "status": {
+    "200": 1720
+  },
+  "types": {
+    "home": 2,
+    "404.html": 2,
+    "about": 30,
+    "brazil": 56,
+    "city guide": 32,
+    "client-feedback": 2,
+    "contact": 2,
+    "countries": 2,
+    "country guide": 388,
+    "google55d84a2211a04ae2.html": 1,
+    "insights": 20,
+    "article": 944,
+    "legal": 28,
+    "process": 50,
+    "rights": 24,
+    "service": 134,
+    "start-consultation": 2,
+    "sitemap.html": 1
+  },
+  "actions": {
+    "OPTIMIZE": 373,
+    "NOINDEX": 10,
+    "EXPAND": 388,
+    "KEEP": 1,
+    "INVESTIGATE FURTHER": 948
+  },
+  "unreached": [
+    "https://immigratetobrazil.com/404.html",
+    "https://immigratetobrazil.com/brazil/search/",
+    "https://immigratetobrazil.com/client-feedback/",
+    "https://immigratetobrazil.com/google55d84a2211a04ae2.html",
+    "https://immigratetobrazil.com/legal/404/",
+    "https://immigratetobrazil.com/pt-br/404.html",
+    "https://immigratetobrazil.com/pt-br/brazil/search/",
+    "https://immigratetobrazil.com/pt-br/client-feedback/",
+    "https://immigratetobrazil.com/pt-br/legal/404/"
+  ],
+  "zero_inlinks": [
+    "https://immigratetobrazil.com/404.html",
+    "https://immigratetobrazil.com/brazil/search/",
+    "https://immigratetobrazil.com/google55d84a2211a04ae2.html",
+    "https://immigratetobrazil.com/legal/404/",
+    "https://immigratetobrazil.com/pt-br/404.html",
+    "https://immigratetobrazil.com/pt-br/brazil/search/",
+    "https://immigratetobrazil.com/pt-br/legal/404/"
+  ],
+  "max_depth": 3,
+  "issues": 7,
+  "repeated_paragraphs": 273
+}

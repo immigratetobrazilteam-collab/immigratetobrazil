@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/process/#webpage",
+      "url": "https://immigratetobrazil.com/process/",
+      "name": "Working With Monique: The Immigration Process",
+      "description": "Working With Monique: The Immigration Process. Identify the questions to resolve, prepare for your next step and understand when advice on your circumstances may help.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/process/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/process/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Working With Monique: The Immigration Process",
+          "item": "https://immigratetobrazil.com/process/"
+        }
+      ]
+    }
+  ]
+}

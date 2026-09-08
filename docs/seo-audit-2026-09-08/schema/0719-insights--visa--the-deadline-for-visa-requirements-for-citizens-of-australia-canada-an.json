@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/",
+      "name": "The deadline for visa requirements for citizens of Australia, Canada, and the United",
+      "description": "The deadline for visa requirements for citizens of Australia, Canada, and the United: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "The deadline for visa requirements for citizens of Australia, Canada, and the United",
+          "item": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/#article",
+      "headline": "The deadline for visa requirements for citizens of Australia, Canada, and the United",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/the-deadline-for-visa-requirements-for-citizens-of-australia-canada-an/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

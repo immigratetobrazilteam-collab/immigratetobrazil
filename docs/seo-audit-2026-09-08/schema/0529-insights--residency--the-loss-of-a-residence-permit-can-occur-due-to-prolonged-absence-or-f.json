@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/#webpage",
+      "url": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/",
+      "name": "The loss of a residence permit can occur due to prolonged absence or failure to meet",
+      "description": "The loss of a residence permit can occur due to prolonged absence or failure to meet: This page brings earlier residency research into a clearer framework for...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Residency",
+          "item": "https://immigratetobrazil.com/insights/residency/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "The loss of a residence permit can occur due to prolonged absence or failure to meet",
+          "item": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/#article",
+      "headline": "The loss of a residence permit can occur due to prolonged absence or failure to meet",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/residency/the-loss-of-a-residence-permit-can-occur-due-to-prolonged-absence-or-f/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

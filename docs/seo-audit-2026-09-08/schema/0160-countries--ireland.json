@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/countries/ireland/#webpage",
+      "url": "https://immigratetobrazil.com/countries/ireland/",
+      "name": "Moving to Brazil from Ireland",
+      "description": "Moving to Brazil from Ireland. Explore immigration options and plan documents, translations and the next steps of your move with Monique Fernandes.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/countries/ireland/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/countries/ireland/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Moving to Brazil: Guides by Country of Origin",
+          "item": "https://immigratetobrazil.com/countries/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Moving to Brazil from Ireland",
+          "item": "https://immigratetobrazil.com/countries/ireland/"
+        }
+      ]
+    }
+  ]
+}

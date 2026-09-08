@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/#webpage",
+      "url": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/",
+      "name": "The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a",
+      "description": "The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a: This page brings earlier citizenship research into a clearer format for...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/#article",
+      "headline": "The MERCOSUR Agreement, recognized primarily for its economic impacts, also plays a",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/the-mercosur-agreement-recognized-primarily-for-its-economic-impacts-a/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "url": "http://immigratetobrazil.com/",
+    "status": 200,
+    "final": "https://immigratetobrazil.com/",
+    "chain": [
+      [
+        301,
+        "http://immigratetobrazil.com/"
+      ]
+    ],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HhX5euyE%2Ftb7MaySTT%2FHF5eBXk2FIZIzcNFrF0Ph990b%2FSZd7kkX6XDVVt%2FhqcBvsPrTg25fdSmcmZHzQCikLoOs9we6Q%2FEpha%2FGPdFgUH0RaQ0qSp0lV82IhYZmT3KGVBjOKAqrfF5kjkKVFwV7WAXCeOs%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb009e7b496-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://www.immigratetobrazil.com/",
+    "status": 200,
+    "final": "https://www.immigratetobrazil.com/",
+    "chain": [],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zDQjRsvoL6PnurYMThwsC4FjoYC8xdc7c6WPJQSzIltNCfx%2F%2B5ENDSHKWhJV7KrUbPS%2Fxqca%2BRCmFXDnU6cb7SfZ0PEym4jo2zXTbA7%2Bxu6XdCxsovFGlnJlEcfudOL9SeiXzk0i9%2B1oGL2T783WLJeYjyy2pRXd\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb08e70f1ee-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "http://www.immigratetobrazil.com/",
+    "status": 200,
+    "final": "https://www.immigratetobrazil.com/",
+    "chain": [
+      [
+        301,
+        "http://www.immigratetobrazil.com/"
+      ]
+    ],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QuPK9PsHqCIKJ3ROBHFaKGVDoJd7BFadkKPnly9WBe7LOIGXk7oyNMJiDjBEncYodddy%2Fc2OYVQAx9GGWyyN2%2FZqF6jbhZnfo156YBfOckNU%2F%2F3CmFHV%2BIL0s9v3yPimrolnijK8JseGcV0bNZqpA6tZpaW0XiSL\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb0c8220108-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://immigratetobrazil.com/services",
+    "status": 200,
+    "final": "https://immigratetobrazil.com/services/",
+    "chain": [
+      [
+        308,
+        "https://immigratetobrazil.com/services"
+      ]
+    ],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0eqoz69C21RQNKbFEz9xjf3%2Fr0a8C9nLKTiu%2F7o5tiAl2z3iPTIMXV07aiXO4cUpG38nRPocHVO1x%2BEsa4tRL8udEfhlQhNUWbSyqyGV5huAbZhBywynsV2CNhG08zVq15BFZUP7DUySovq1bvt3lP4Da4c%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7faff92ebc35-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://immigratetobrazil.com/services/index.html",
+    "status": 200,
+    "final": "https://immigratetobrazil.com/services/",
+    "chain": [
+      [
+        308,
+        "https://immigratetobrazil.com/services/index.html"
+      ]
+    ],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qsRnyx5oFF9efymOtZn0ZVa8oJyDxttQksMlxlrRJOnooFYD9PulXo15zzBvBj9yjm29FzHsSMxy4lXVPXKgfS%2FRflRtuyVqrEizZIftoq7iqYb2BFWgHusx%2BQ41E494Go2RQzlDgC%2BQtTCybfi0wJruo7s%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb098232c08-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://immigratetobrazil.com/seo-audit-nonexistent-928417/",
+    "status": 404,
+    "final": "https://immigratetobrazil.com/seo-audit-nonexistent-928417/",
+    "chain": [],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MsgyS9M%2FJtSix%2FXq0kAQ8zPSuGzoeQCvMvrc9a3sRrge4G%2FAz%2BdbRjlyxDixTjgsKkCVennRqFgelXkkkMNscTBNWWWIluY0ZO5NXMOO5A6xlyKCViSG9hIuiXR9zkrl0f8G6ZF1p3cPvOiBQVPovNQ70hA%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "no-store",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb08f281e65-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://immigratetobrazil.com/?utm_source=seo-audit",
+    "status": 200,
+    "final": "https://immigratetobrazil.com/?utm_source=seo-audit",
+    "chain": [],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "x-frame-options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=96GxQ1I%2FRjx%2B1Y87NaenQrXmENCMCpsc25SKwr9hW25zpG8l18Mrl5z8kUMe%2BMZB9no00FaUGm%2FzATiYtU1f8wgyofsV5gVUJza%2FiiS2gfgq0fpkfA1cF%2FUq7fMGT1WMiDVWW%2BsNIuH34XsY42dTXJaKu%2BQ%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "permissions-policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "accept-encoding",
+      "Server": "cloudflare",
+      "cf-cache-status": "DYNAMIC",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb11802f38c-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://immigratetobrazil.com/robots.txt",
+    "status": 200,
+    "final": "https://immigratetobrazil.com/robots.txt",
+    "chain": [],
+    "headers": {
+      "Date": "Tue, 08 Sep 2026 11:09:03 GMT",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yHFJX5DEnm3DW6SoEVzBle3CLsZ0XBQ2pniQH4%2BQz4MD3Hdo0AV3ad5SqxQhdzG1TR%2FjCRDhK79ULssZg9p%2BAuGG%2BZj7eoJs0BiqTm1DWHx6LnRewSOQX4rj4eB%2B7cilxCgdlov2Ee0Iue07xE3sm4Q3xfI%3D\"}]}",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Access-Control-Allow-Origin": "*",
+      "Cache-Control": "public, max-age=3600, must-revalidate",
+      "X-Content-Type-Options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; upgrade-insecure-requests",
+      "Permissions-Policy": "accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Vary": "accept-encoding",
+      "Server": "cloudflare",
+      "Cf-Cache-Status": "MISS",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a37d7fb12a576262-GRU",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: CloudflareBrowserRenderingCrawler\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\n# END Cloudflare Managed Content\n\n# Immigrate to Brazil robots.txt\n# Public services, professional profile, articles, images, CSS, and JavaScript\n# are intentionally available to legitimate search and AI-discovery systems.\n# Only repository, build, and non-public support files are excluded.\n\nUser-agent: Googlebot\nUser-agent: Bingbot\nUser-agent: OAI-SearchBot\nUser-agent: GPTBot\nUser-agent: ChatGPT-User\nUser-agent: ClaudeBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: CCBot\nUser-agent: Google-Extended\nAllow: /\nAllow: /llms.txt\nAllow: /sitemap.xml\nAllow: /sitemaps/\nAllow: /sitemap.html\nAllow: /data/ai-route-manifest.json\nAllow: /data/search-index.json\nAllow: /pt-br/data/search-index.json\nDisallow: /partials/\nDisallow: /templates/\nDisallow: /memory-bank/\nDisallow: /reports/\nDisallow: /scripts/\nDisallow: /src/\nDisallow: /docs/\nDisallow: /path/\nDisallow: /node_modules/\nDisallow: /data/build-report.json\nDisallow: /data/formspree-map.json\nDisallow: /pt-br/data/build-report.json\nDisallow: /pt-br/data/formspree-map.json\n\nUser-agent: *\nAllow: /\nAllow: /llms.txt\nAllow: /sitemap.xml\nAllow: /sitemaps/\nAllow: /sitemap.html\nAllow: /data/ai-route-manifest.json\nAllow: /data/search-index.json\nAllow: /pt-br/data/search-index.json\nDisallow: /partials/\nDisallow: /templates/\nDisallow: /memory-bank/\nDisallow: /reports/\nDisallow: /scripts/\nDisallow: /src/\nDisallow: /docs/\nDisallow: /path/\nDisallow: /node_modules/\nDisallow: /data/build-report.json\nDisallow: /data/formspree-map.json\nDisallow: /pt-br/data/build-report.json\nDisallow: /pt-br/data/formspree-map.json\n\nSitemap: https://immigratetobrazil.com/sitemap.xml\n"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/",
+      "name": "If you currently hold a temporary residence permit in Brazil and are wondering about",
+      "description": "If you currently hold a temporary residence permit in Brazil and are wondering about: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "If you currently hold a temporary residence permit in Brazil and are wondering about",
+          "item": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/#article",
+      "headline": "If you currently hold a temporary residence permit in Brazil and are wondering about",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/if-you-currently-hold-a-temporary-residence-permit-in-brazil-and-are-w/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

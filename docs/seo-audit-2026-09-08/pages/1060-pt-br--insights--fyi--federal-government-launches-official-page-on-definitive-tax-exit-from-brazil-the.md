@@ -1,0 +1,95 @@
+# https://immigratetobrazil.com/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/
+
+Status: **SOURCE REVIEW REQUIRED — no publication-ready rewrite**. Priority: **P2**. URL action: **INVESTIGATE FURTHER**. No production edits applied.
+
+## A–C. URL, intent and targeting
+
+Current URL: https://immigratetobrazil.com/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/
+Recommended URL: https://immigratetobrazil.com/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/
+URL migration: KEEP unless the reviewed consolidation map establishes a justified move.
+Audience: Leitores em português que planejam ou já vivem uma situação migratória no Brasil
+Primary intent: informational
+Secondary intent: finding the appropriate next step or related explanation.
+User problem / SEO objective: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+Desired action: Resolve the page-specific question; follow the relevant next-step link.
+Primary topic/query: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+Primary keyword/focus field: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...; editorial aid only, no meta keywords.
+Secondary / long-tail candidates: ["Not finalized: reconcile original title and actual article before assigning secondary queries"]
+Entities/concepts: []
+Questions: ["What complete question was the original post answering?", "Does the present body answer that question?", "Which current primary source supports the answer?"]
+Excluded intent owners: ["https://immigratetobrazil.com/pt-br/insights/fyi/ owns Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil", "https://immigratetobrazil.com/pt-br/insights/ owns Guias e informações sobre imigração no Brasil", "Do not assign a service head term based only on keywords in the slug."]
+
+## D–F. Before / after change log
+
+BEFORE title: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O... | FYI | Imigre para o Brasil
+BEFORE description: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...: Governo Federal lança página oficial sobre saída fiscal definitiva de...
+BEFORE H1: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+BEFORE apparent targeting: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+
+AFTER title: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O... | FYI | Imigre para o Brasil
+Alternative A: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+Alternative B: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O... | Monique Fernandes
+AFTER description: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...: Governo Federal lança página oficial sobre saída fiscal definitiva de...
+AFTER H1: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+AFTER targeting: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O... — informational
+H1 decision: Retain pending source review.
+WHY / strongest title: OBSERVED: archive text and title recorded below. Publication-ready rewriting is withheld until the original subject, completeness and current accuracy are established; metadata must not promise an answer absent from the body.
+
+## G–J. Visible content
+
+H1: Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...
+H2: Answer the complete question stated in the title
+H2: Who the rule or explanation applies to
+H2: Relevant evidence and practical example
+H2: Exceptions and next steps
+H2: Sources and genuine review date
+
+Opening proposal:
+
+WITHHELD: source-grounded opening cannot be supplied from a fragmentary or mismatched article without inventing its answer. Existing text and exact required repairs are recorded below.
+
+KEEP: Factual material that directly supports this page’s distinct purpose.
+ADD: Recover the complete original post or source research; the current title is not sufficient evidence for a new legal answer. Compare the recovered subject with existing service and educational owners before retaining a separate article.
+REMOVE: Template introduction and three generic takeaways where they do not answer the title. Residual social commands such as “link in bio”, “View all comments” and repeated truncated sentences when present.
+MERGE: Review any matching rows in 06-cannibalization.csv; no automatic consolidation.
+UPDATE: Align visible introduction, title, H1, OG name and schema name to the final selected intent; preserve true historical publication dates.
+VERIFY: [OWNER INPUT REQUIRED] Original text/source and factual review where the existing page does not support its title. Check historical GSC, backlinks and conversions before consolidation.
+MOVE HIGHER: Direct explanation of this page’s subject and the most relevant next step.
+MOVE LOWER: Repeated general practice promotion and unrelated route lists.
+Search-intent gaps: What complete question was the original post answering?; Does the present body answer that question?; Which current primary source supports the answer?; Recover the complete original post or source research; the current title is not sufficient evidence for a new legal answer.; Compare the recovered subject with existing service and educational owners before retaining a separate article.
+
+Observed opening / content evidence:
+
+Governo Federal lança página oficial sobre Saída Tributária Definitiva do Brasil O Governo Federal, seguindo as orientações da Receita Federal do Brasil, disponibilizou nova página no Portal Consular com informações atualizadas sobre Comunicação e Declaração de Saída Definitiva do País para contribuintes que deixam Brasil em definitivo ou que se tornam residentes não fiscais. A comunicação é um procedimento obrigatório que deve ser feito à Receita Federal a partir da data do embarque e até o último dia de fevereiro do ano seguinte, informando que o contribuinte está deixando o país em definitivo ou alterou a situação de residência fiscal. Além disso, a Receita Federal ressalta que a comunicação da saída definitiva não exime o contribuinte de outras obrigações tributárias: é necessário enviar a Declaração de Saída Definitiva do País no ano seguinte à saída, no mesmo prazo da Declaração do Imposto de Renda, e pagar o imposto devido em parcela única, bem como cumprir eventuais declarações de anos anteriores. A não realização desses procedimentos poderá acarretar na manutenção da condição de residente fiscal no Brasil, sujeitando o contribuinte à tributação no Brasil sobre os rendimentos obtidos no exterior, ou seja, risco de bitributação (país de residência e Brasil), além da aplicação de multas, juros, pendências com o CPF e dificuldades de regularização futura. Procure aconselhamento jurídico especializado de um advogado de imigração. Acesse nosso e exclusivo grupo no Telegram através deste conteúdo. Siga o perfil para ficar por dentro de mais informações e novidades.immigrationservices
+Tópicos como este são importantes porque a mudança para o Brasil geralmente se torna mais estável quando os leitores percebem como os documentos, a estrutura familiar, a sequência de rotas e a continuidade da residência de longo prazo interagem.
+Data de publicação do tópico: 14 de março de 2026.
+
+## K–L. Links and media
+
+Links FROM this page:
+- https://immigratetobrazil.com/pt-br/insights/fyi/ → Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil → Relevant explanation before the closing CTA; only where the target resolves the next user question
+- https://immigratetobrazil.com/pt-br/insights/ → Guias e informações sobre imigração no Brasil → Relevant explanation before the closing CTA; only where the target resolves the next user question
+
+Links TO this page: https://immigratetobrazil.com/pt-br/insights/ in the relevant topic group, using “Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...”; see the complete source/target table. A new contextual link is conditional on retaining the page’s distinct value.
+Media: Retain accurate geographic/photo alt text where the picture conveys information; use alt="" for purely decorative repeated landscapes. No new image URL invented. Existing first image: [{"src": "/assets/logo/logo.png", "alt": "Logotipo do Imigre para o Brasil para reserva de consulta e suporte de imigração para o Brasil"}]
+Recommended original media: Only add a diagram, photograph or comparison that explains this page’s actual subject.
+
+## M–O. Canonical, robots and social metadata
+
+Canonical: https://immigratetobrazil.com/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/
+Robots: index,follow. Self-canonical indexable proposal; actual Google index state unavailable.
+Exact HTML: ../metadata/1060-pt-br--insights--fyi--federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the.html
+Existing social image: https://immigratetobrazil.com/assets/images/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the.webp
+
+## Structured data
+
+Required for organic indexing? NO. Optional types: WebPage, BreadcrumbList, Article.
+Purpose: semantic identity and, for a truthful visible trail, possible Breadcrumb eligibility. Service/WebPage/Person do not create a generic rich result. Article is conditional on a complete genuine article. No FAQ rich-result claim.
+JSON-LD: ../schema/1060-pt-br--insights--fyi--federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the.json. Wrap this valid JSON in `<script type="application/ld+json">` and replace the existing graph; do not append conflicting entities. Source-review gates apply to schema too.
+Visible breadcrumb accompanying the proposal:
+
+```html
+<nav aria-label="Breadcrumb"><a href="https://immigratetobrazil.com/pt-br/">Início</a> → <a href="https://immigratetobrazil.com/pt-br/insights/">Guias e informações sobre imigração no Brasil</a> → <a href="https://immigratetobrazil.com/pt-br/insights/fyi/">Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil</a> → <a href="https://immigratetobrazil.com/pt-br/insights/fyi/federal-government-launches-official-page-on-definitive-tax-exit-from-brazil-the/">Governo Federal lança página oficial sobre saída fiscal definitiva do Brasil O...</a></nav>
+```
+
+Expected strategic benefit: clearer ownership and navigation for the page’s specific task. This is an inference, not a ranking or traffic forecast.

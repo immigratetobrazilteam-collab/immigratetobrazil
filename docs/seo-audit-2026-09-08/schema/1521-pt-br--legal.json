@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/legal/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/legal/",
+      "name": "Avisos Legais",
+      "description": "Este centro jurídico explica como Monique Fernandes lida com privacidade, pagamentos, admissão, acessibilidade, contato urgente e limites de serviço para questões de imigração relacionadas ao Brasil.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/legal/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/legal/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Avisos Legais",
+          "item": "https://immigratetobrazil.com/pt-br/legal/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/",
+      "name": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?",
+      "description": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis? Esta página traz pesquisas anteriores no estilo FAQ para uma orientação mais clara...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guias",
+          "item": "https://immigratetobrazil.com/pt-br/insights/guides/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?",
+          "item": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/#article",
+      "headline": "Você sabia que a naturalização brasileira pode abrir portas para oportunidades incríveis?",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/guides/did-you-know-that-brazilian-naturalization-can-open-doors-to-incredibl/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

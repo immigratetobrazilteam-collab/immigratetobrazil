@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/#webpage",
+      "url": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/",
+      "name": "Do you want to live in Brazil and invest intelligently?",
+      "description": "Do you want to live in Brazil and invest intelligently? This page brings earlier FAQ-style research into a clearer guidance page for readers planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guides",
+          "item": "https://immigratetobrazil.com/insights/guides/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Do you want to live in Brazil and invest intelligently?",
+          "item": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/#article",
+      "headline": "Do you want to live in Brazil and invest intelligently?",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/guides/do-you-want-to-live-in-brazil-and-invest-intelligently/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/#webpage",
+      "url": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/",
+      "name": "The Brazilian government presented new guidelines for the transport of animals on planes, seeking greater safety and well-being after the death of the dog Joca, which recently generated great public commotion",
+      "description": "The Brazilian government presented new guidelines for the transport of animals on planes, seeking greater safety and well-being after the death of the dog...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Brazil Immigration Updates Explained Calmly",
+          "item": "https://immigratetobrazil.com/insights/updates/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "The Brazilian government presented new guidelines for the transport of animals on planes, seeking greater safety and well-being after the death of the dog Joca, which recently generated great public commotion",
+          "item": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/#article",
+      "headline": "The Brazilian government presented new guidelines for the transport of animals on planes, seeking greater safety and well-being after the death of the dog Joca, which recently generated great public commotion",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/updates/2026-03-09-the-brazilian-government-presented-new-guidelines-for-the-transport-of/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

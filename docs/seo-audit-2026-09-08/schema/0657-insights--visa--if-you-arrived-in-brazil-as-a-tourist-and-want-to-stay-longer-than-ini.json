@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/#webpage",
+      "url": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/",
+      "name": "If you arrived in Brazil as a tourist and want to stay longer than initially planned,",
+      "description": "If you arrived in Brazil as a tourist and want to stay longer than initially planned,: This page brings earlier visa research into a clearer entry-planning...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visa",
+          "item": "https://immigratetobrazil.com/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "If you arrived in Brazil as a tourist and want to stay longer than initially planned,",
+          "item": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/#article",
+      "headline": "If you arrived in Brazil as a tourist and want to stay longer than initially planned,",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/visa/if-you-arrived-in-brazil-as-a-tourist-and-want-to-stay-longer-than-ini/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

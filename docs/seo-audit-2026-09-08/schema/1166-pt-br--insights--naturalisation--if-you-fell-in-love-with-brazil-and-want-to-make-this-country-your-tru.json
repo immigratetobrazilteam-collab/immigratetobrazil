@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/",
+      "name": "Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se",
+      "description": "Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalização",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/#article",
+      "headline": "Se você se apaixonou por Brasil e quer fazer deste país seu verdadeiro lar, tornando-se",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-you-fell-in-love-with-brazil-and-want-to-make-this-country-your-tru/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/",
+      "name": "Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência",
+      "description": "Pessoas que excedem o período legal de permanência no Brasil, seja por ultrapassar o período de permanência: Esta página traz a pesquisa de visto anterior em um formato de planejamento da entrada no Brasil mais claro...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visto",
+          "item": "https://immigratetobrazil.com/pt-br/insights/visa/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência",
+          "item": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/#article",
+      "headline": "Pessoas que ultrapassem o período legal de permanência no Brasil, seja por ultrapassar o prazo de permanência",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/visa/people-who-exceed-the-legal-period-of-stay-in-brazil-either-by-oversta/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

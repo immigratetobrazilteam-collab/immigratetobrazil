@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/#webpage",
+      "url": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/",
+      "name": "I have a Brazilian residence permit and I want to move to another region in Brazil",
+      "description": "I have a Brazilian residence permit and I want to move to another region in Brazil: This page brings earlier residency research into a clearer framework for...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Residency",
+          "item": "https://immigratetobrazil.com/insights/residency/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "I have a Brazilian residence permit and I want to move to another region in Brazil",
+          "item": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/#article",
+      "headline": "I have a Brazilian residence permit and I want to move to another region in Brazil",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/residency/i-have-a-brazilian-residence-permit-and-i-want-to-move-to-another-regi/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

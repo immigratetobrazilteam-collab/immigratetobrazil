@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/",
+      "name": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem",
+      "description": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem: Esta página traz a investigação anterior sobre cidadania num formato mais claro...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalização",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/#article",
+      "headline": "A autorização de residência permanente e a cidadania são dois estatutos jurídicos distintos que conferem",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/permanent-residence-permit-and-citizenship-are-two-distinct-legal-stat/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

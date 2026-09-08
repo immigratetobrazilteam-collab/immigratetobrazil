@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/",
+      "name": "Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira",
+      "description": "Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma Família brasileira: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalização",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/#article",
+      "headline": "Se o seu bebê nasceu no Brasil, você pode ser elegível para se inscrever para uma família brasileira",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/if-your-baby-was-born-in-brazil-you-may-be-eligible-to-apply-for-a-bra/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

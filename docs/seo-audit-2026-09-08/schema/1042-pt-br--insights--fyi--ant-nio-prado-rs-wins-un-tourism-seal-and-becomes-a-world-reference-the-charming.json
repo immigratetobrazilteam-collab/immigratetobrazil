@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/",
+      "name": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso...",
+      "description": "Antonio Prado (RS) ganha selo de Turismo da ONU e se torna referência mundial O Charmoso...: Antonio Prado (RS) ganha selo de Turismo da ONU e se torna referência mundial...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso...",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/#article",
+      "headline": "Antonio Prado (RS) ganha selo Un Turismo e vira referência mundial O Charmoso...",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/ant-nio-prado-rs-wins-un-tourism-seal-and-becomes-a-world-reference-the-charming/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

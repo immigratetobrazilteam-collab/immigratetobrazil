@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/",
+      "name": "Reino Unido faz alterações em sua política de asilo O Reino Unido anunciou,...",
+      "description": "O Reino Unido faz alterações na sua política de asilo O Reino Unido anunciou,...: O Reino Unido faz alterações na sua política de asilo O Reino Unido...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Reino Unido faz alterações em sua política de asilo O Reino Unido anunciou,...",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/#article",
+      "headline": "Reino Unido faz alterações em sua política de asilo O Reino Unido anunciou,...",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/united-kingdom-makes-changes-to-its-asylum-policy-the-united-kingdom-announced/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

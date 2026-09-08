@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://immigratetobrazil.com/start-consultation/#webpage",
+      "url": "https://immigratetobrazil.com/start-consultation/",
+      "name": "Request a Brazil Immigration Consultation",
+      "description": "Request an immigration consultation with Monique Fernandes. Explain your situation and review the payment and written-confirmation steps before booking.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/start-consultation/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/start-consultation/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Request a Brazil Immigration Consultation",
+          "item": "https://immigratetobrazil.com/start-consultation/"
+        }
+      ]
+    }
+  ]
+}

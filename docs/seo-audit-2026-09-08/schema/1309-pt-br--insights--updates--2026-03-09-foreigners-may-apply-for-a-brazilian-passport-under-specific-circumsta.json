@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/",
+      "name": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira",
+      "description": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira: Registro de arquivo: 9 de março de 2026. Esta página traz...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Atualizações de imigração para o Brasil explicadas com calma",
+          "item": "https://immigratetobrazil.com/pt-br/insights/updates/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira",
+          "item": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/#article",
+      "headline": "Os estrangeiros podem solicitar um passaporte brasileiro sob circunstâncias específicas descritas na legislação brasileira",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/updates/2026-03-09-foreigners-may-apply-for-a-brazilian-passport-under-specific-circumsta/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/#webpage",
+      "url": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/",
+      "name": "Mexico confirms resumption of the electronic visa for Brazilians from February 2026",
+      "description": "Mexico confirms resumption of the electronic visa for Brazilians from February 2026: Archive record: March 10, 2026. This page brings earlier update reporting...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Brazil Immigration Updates Explained Calmly",
+          "item": "https://immigratetobrazil.com/insights/updates/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mexico confirms resumption of the electronic visa for Brazilians from February 2026",
+          "item": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/#article",
+      "headline": "Mexico confirms resumption of the electronic visa for Brazilians from February 2026",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/updates/2026-03-10-mexico-confirms-resumption-of-the-electronic-visa-for-brazilians-from/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

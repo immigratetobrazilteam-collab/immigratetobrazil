@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/",
+      "name": "Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento",
+      "description": "Quando um dos pais é estrangeiro e nasce uma criança brasileira, o nascimento: Esta página traz pesquisas anteriores no estilo FAQ em uma página de orientação mais clara para...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guias",
+          "item": "https://immigratetobrazil.com/pt-br/insights/guides/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento",
+          "item": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/#article",
+      "headline": "Quando um dos pais for estrangeiro e nascer um filho brasileiro, o nascimento",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/guides/when-one-of-the-parents-is-a-foreigner-and-a-brazilian-child-is-born-t/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

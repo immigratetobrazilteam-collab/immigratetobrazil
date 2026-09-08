@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/",
+      "name": "Brasil Informações jurídicas da postagem do Instagram (2)",
+      "description": "Brasil Informações jurídicas da postagem do Instagram (2): A postagem do Instagram Du6Cfjvjcae requer atenção cuidadosa à via legal, aos documentos envolvidos e ao exato...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Arquivo para sua informação: notas de imigração mais curtas, mudanças de viagem e sinais de planejamento Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brasil Informações jurídicas da postagem do Instagram (2)",
+          "item": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/#article",
+      "headline": "Brasil Informações jurídicas da postagem do Instagram (2)",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/fyi/brazil-legal-insight-from-instagram-post-2/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

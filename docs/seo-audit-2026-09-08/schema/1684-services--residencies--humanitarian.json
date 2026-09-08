@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#webpage",
+      "url": "https://immigratetobrazil.com/services/residencies/humanitarian/",
+      "name": "Humanitarian Residence Authorization in Brazil",
+      "description": "Humanitarian Residence Authorization in Brazil. Discuss your plans, supporting documents and the legal assistance your case may need with Monique Fernandes.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#service"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Legal Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Brazil Residence Permit Services",
+          "item": "https://immigratetobrazil.com/services/residencies/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Humanitarian Residence Authorization in Brazil",
+          "item": "https://immigratetobrazil.com/services/residencies/humanitarian/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#service",
+      "name": "Humanitarian Residence Authorization in Brazil",
+      "url": "https://immigratetobrazil.com/services/residencies/humanitarian/",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/services/residencies/humanitarian/#webpage"
+      }
+    }
+  ]
+}

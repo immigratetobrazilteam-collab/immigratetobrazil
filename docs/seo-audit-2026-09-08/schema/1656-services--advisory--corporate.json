@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/services/advisory/corporate/#webpage",
+      "url": "https://immigratetobrazil.com/services/advisory/corporate/",
+      "name": "Corporate in Brazil",
+      "description": "Corporate in Brazil. Discuss your plans, supporting documents and the legal assistance your case may need with Monique Fernandes.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/services/advisory/corporate/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://immigratetobrazil.com/services/advisory/corporate/#service"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/services/advisory/corporate/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Legal Services",
+          "item": "https://immigratetobrazil.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Brazil Immigration Advice and Case Planning",
+          "item": "https://immigratetobrazil.com/services/advisory/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Corporate in Brazil",
+          "item": "https://immigratetobrazil.com/services/advisory/corporate/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://immigratetobrazil.com/services/advisory/corporate/#service",
+      "name": "Corporate in Brazil",
+      "url": "https://immigratetobrazil.com/services/advisory/corporate/",
+      "provider": {
+        "@id": "https://immigratetobrazil.com#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/services/advisory/corporate/#webpage"
+      }
+    }
+  ]
+}

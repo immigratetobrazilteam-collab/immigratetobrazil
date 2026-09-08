@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/",
+      "name": "O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão",
+      "description": "O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão: Esta página reorganiza conteúdo anterior sobre cidadania de forma mais clara para...",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guias e informações sobre imigração no Brasil",
+          "item": "https://immigratetobrazil.com/pt-br/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalização",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão",
+          "item": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/#article",
+      "headline": "O presidente Joe Biden assinou uma ordem executiva para simplificar o processo de concessão",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/pt-br/insights/naturalisation/president-joe-biden-signed-an-executive-order-to-simplify-the-process/#webpage"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

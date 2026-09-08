@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/#webpage",
+      "url": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/",
+      "name": "November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural",
+      "description": "November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural: This page brings earlier citizenship research into a clearer format for...",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://immigratetobrazil.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Brazil Immigration Guides and Insights",
+          "item": "https://immigratetobrazil.com/insights/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Naturalisation",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural",
+          "item": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/#article",
+      "headline": "November 20th - Black Awareness Day* Black Awareness Day is a historical and cultural",
+      "mainEntityOfPage": {
+        "@id": "https://immigratetobrazil.com/insights/naturalisation/november-20th-black-awareness-day-black-awareness-day-is-a-historical/#webpage"
+      },
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://immigratetobrazil.com#organization"
+      }
+    }
+  ]
+}

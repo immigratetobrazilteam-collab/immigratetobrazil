@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://immigratetobrazil.com/pt-br/countries/#webpage",
+      "url": "https://immigratetobrazil.com/pt-br/countries/",
+      "name": "Mudança para o Brasil: guias por país de origem",
+      "description": "Use o hub de países para comparar o planejamento de imigração com o Brasil do seu país, incluindo seleção de rota, estratégia de documentos, tempo de realocação e orientação de Monique Fernandes para casos transfronteiriços.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://immigratetobrazil.com#website"
+      },
+      "breadcrumb": {
+        "@id": "https://immigratetobrazil.com/pt-br/countries/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://immigratetobrazil.com/pt-br/countries/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://immigratetobrazil.com/pt-br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Mudança para o Brasil: guias por país de origem",
+          "item": "https://immigratetobrazil.com/pt-br/countries/"
+        }
+      ]
+    }
+  ]
+}
