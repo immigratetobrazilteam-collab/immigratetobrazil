@@ -1,0 +1,33 @@
+{
+  "allow_public_site": true,
+  "allow_paths": [
+    "/",
+    "/llms.txt",
+    "/sitemap.xml",
+    "/sitemaps/",
+    "/sitemap.html",
+    "/data/ai-route-manifest.json",
+    "/data/search-index.json",
+    "/pt-br/data/search-index.json"
+  ],
+  "disallow_paths": [
+    "/docs/",
+    "/reports/",
+    "/.maintenance/",
+    "/scripts/"
+  ],
+  "search_crawlers": [
+    "Googlebot",
+    "Bingbot",
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "Claude-SearchBot",
+    "PerplexityBot"
+  ],
+  "training_or_ai_crawlers": [
+    "GPTBot",
+    "ClaudeBot",
+    "CCBot",
+    "Google-Extended"
+  ]
+}

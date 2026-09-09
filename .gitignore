@@ -1,30 +1,37 @@
-
-
-# Ignore editor-specific instructions
-.github/instructions/codacy.instructions.md
-
-# Ignore source material and local tooling
-monique-adv/
-node_modules/
-__pycache__/
-*.pyc
+# Local operating-system files
 .DS_Store
-dist/
-docs/seo-audit-2026-09-08/live-evidence.json
-docs/seo-audit-2026-09-08/local-evidence.json
 
-# Ignore local reports and caches
-.cache/
-coverage/
-tmp/
-reports/
+# Dependency folders and virtual environments
+node_modules/
+.venv/
+
+# Editor, agent, analysis, and language-server state
+.agents/
+.clj-kondo/
+.codacy/
+.codex
 .codex-debug/
-.tmp/
+.codex-temp/
+.github/instructions/codacy.instructions.md
+.lsp/
 .vscode/
 
-# Ignore imported source trees that do not belong to this repo
+# Python/runtime caches
+__pycache__/
+*.pyc
+.cache/
+.maintenance/
+.tmp/
+tmp/
+coverage/
+dist/
+
+# Generated reports, optimizer state, and temporary imported source trees
+reports/
+docs/seo-audit-*/
+docs/seo-implementation-*/
+.indexnow-sitemap-state.json
+.weekly-site-optimizer-state.json
+.optimizer-backups/
 site/
 pt-br/site/
-.weekly-site-optimizer-state.json
-reports/weekly-optimization-*
-.optimizer-backups/

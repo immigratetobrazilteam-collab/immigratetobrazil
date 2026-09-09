@@ -1,0 +1,15 @@
+{
+  "domain": "https://immigratetobrazil.com",
+  "canonical_host": "immigratetobrazil.com",
+  "gtm_id": "GTM-MN4RB6TP",
+  "indexnow_key": "5a29773fe3784da8a6b211c9620769d9",
+  "languages": {
+    "source": "en",
+    "target": "pt-BR",
+    "target_prefix": "/pt-br/"
+  },
+  "reports_dir": "reports",
+  "state_dir": ".maintenance",
+  "public_data_dir": "data",
+  "portuguese_data_dir": "pt-br/data"
+}
