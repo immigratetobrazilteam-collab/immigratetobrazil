@@ -7979,7 +7979,6 @@ body.site-root .main-nav .navbar-toggler {
   align-items: center;
   justify-content: center;
 }
-}
 
 body.site-root .navbar-nav--services .dropdown-toggle::after {
   border-top-color: var(--lion-gold);
@@ -17131,6 +17130,16 @@ body.site-root.page-home .download-gateway {
   background:
     linear-gradient(135deg, rgba(7, 28, 30, 0.98), rgba(8, 33, 47, 0.98)),
     #071c1e;
+}
+
+/* Keep compact inline service links easy to activate on touch screens. */
+@media (pointer: coarse) {
+  body.site-root .home-inline-link {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    padding-block: 0.5rem;
+  }
 }
 
 body.site-root.page-home .download-gateway::before {

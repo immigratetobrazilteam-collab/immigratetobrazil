@@ -11,7 +11,7 @@
   ! Cache-Control
   # Image and document file names are descriptive rather than content-hashed.
   # Keep the edge cache useful, but make browsers validate after a deployment.
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=604800, must-revalidate
 
 /css/*
   ! Cache-Control
