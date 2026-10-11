@@ -22,6 +22,7 @@
   let analyticsBootstrapped = false;
   let analyticsConfigured = false;
   let pageViewTracked = false;
+  let consentPromptTimer = 0;
   let trackedScrollMilestones = new Set();
   let maxScrollDepth = 0;
   let pageClickCount = 0;
@@ -327,6 +328,7 @@
   function getTrackingConfig() {
     const tracking = getConfig().tracking || {};
     return {
+      gtmId: typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : "",
       ga4Id: typeof tracking.ga4Id === "string" ? tracking.ga4Id.trim() : ""
     };
   }
@@ -647,6 +649,9 @@
       utm_term: sanitizeAnalyticsValue(params.get("utm_term")),
       utm_content: sanitizeAnalyticsValue(params.get("utm_content")),
       utm_id: sanitizeAnalyticsValue(params.get("utm_id")),
+      gclid: sanitizeAnalyticsValue(params.get("gclid"), 180),
+      gbraid: sanitizeAnalyticsValue(params.get("gbraid"), 180),
+      wbraid: sanitizeAnalyticsValue(params.get("wbraid"), 180),
       referrer_host: getReferrerHost(),
       landing_route: normalizeRoute(window.location.pathname),
       landing_url: window.location.href,
@@ -828,24 +833,24 @@
       session_entry_page: journey.session_entry_page,
       exit_page: "unknown_until_session_end",
       next_page_prediction: "unavailable_client_side",
-      utm_source: params.get("utm_source") || "",
-      utm_medium: params.get("utm_medium") || "",
-      utm_campaign: params.get("utm_campaign") || "",
-      utm_term: params.get("utm_term") || "",
-      utm_content: params.get("utm_content") || "",
-      utm_id: params.get("utm_id") || "",
-      marketing_source: params.get("utm_source") || "",
-      marketing_medium: params.get("utm_medium") || "",
-      campaign_name: params.get("utm_campaign") || "",
-      campaign_id: params.get("utm_id") || "",
-      ad_group: params.get("utm_adgroup") || params.get("adgroup") || "",
-      keyword_searched: params.get("utm_term") || params.get("keyword") || "",
-      click_id: clickId,
-      gclid: params.get("gclid") || "",
-      fbclid: params.get("fbclid") || "",
-      msclkid: params.get("msclkid") || "",
-      gbraid: params.get("gbraid") || "",
-      wbraid: params.get("wbraid") || "",
+      utm_source: landing.utm_source || "",
+      utm_medium: landing.utm_medium || "",
+      utm_campaign: landing.utm_campaign || "",
+      utm_term: landing.utm_term || "",
+      utm_content: landing.utm_content || "",
+      utm_id: landing.utm_id || "",
+      marketing_source: landing.utm_source || "",
+      marketing_medium: landing.utm_medium || "",
+      campaign_name: landing.utm_campaign || "",
+      campaign_id: landing.utm_id || "",
+      ad_group: landing.utm_adgroup || "",
+      keyword_searched: landing.utm_term || "",
+      click_id: landing.gclid || landing.gbraid || landing.wbraid || landing.fbclid || landing.msclkid || "",
+      gclid: landing.gclid || "",
+      fbclid: landing.fbclid || "",
+      msclkid: landing.msclkid || "",
+      gbraid: landing.gbraid || "",
+      wbraid: landing.wbraid || "",
       device_type: getDeviceType(),
       device_model: getDeviceModel(),
       browser_type: browser.browser_type,
@@ -1072,6 +1077,7 @@
 
       form.dataset.state = "success";
       track("form_submit_success", describeForm(form));
+      if (inferFormKind(form) === "lead") trackVerifiedLead(form);
 
       if (nextUrl) {
         status.textContent = copy.download;
@@ -1237,6 +1243,9 @@
     window.gtag("set", "ads_data_redaction", true);
     window.gtag("consent", "default", {
       ...buildConsentState(false),
+      functionality_storage: "granted",
+      security_storage: "granted",
+      personalization_storage: "denied",
       wait_for_update: 500
     });
     window.gtag("js", new Date());
@@ -1308,6 +1317,10 @@
   function track(eventName, payload) {
     if (!analyticsEnabled()) return;
     window.gtag("event", eventName, buildAnalyticsContext(payload));
+  }
+
+  function trackVerifiedLead(form) {
+    track("generate_lead", describeForm(form));
   }
 
   /* ==========================================================================
@@ -1707,6 +1720,7 @@
     };
 
     const applyConsentChoice = (choice, source = "manual") => {
+      window.clearTimeout(consentPromptTimer);
       const accepted = choice === "accept";
       localStorage.setItem(consentKey, accepted ? "accepted" : "declined");
       syncCookieBannerVisibility();
@@ -1725,6 +1739,13 @@
     };
 
     syncCookieBannerVisibility();
+
+    /* Give visitors a real choice before showing the preference controls. */
+    if (!storedConsent && cookieBanner) {
+      consentPromptTimer = window.setTimeout(() => {
+        cookieBanner.hidden = false;
+      }, 1200);
+    }
 
     if (cookieBanner && cookieBanner.dataset.itbBoundConsentViewport !== "true") {
       const viewportQuery = window.matchMedia("(max-width: 767px)");
@@ -2056,6 +2077,7 @@
       form.dataset.state = "success";
       form.innerHTML = buildInsightsLeadSuccess(mode, copy);
       track("form_submit_success", describeForm(form));
+      trackVerifiedLead(form);
       track("insights_email_capture_submitted", {
         capture_mode: mode
       });
@@ -2089,7 +2111,7 @@
         <h3>Thank you for taking this next step with Monique Fernandes.</h3>
         <p>Your consultation request and any uploaded documents have been sent for manual review. If the matter is urgent, you can use WhatsApp after submitting to flag timing concerns.</p>
         <div class="atlas-form-success__actions">
-          <a class="btn btn-secondary btn-sm" href="https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0">Open WhatsApp</a>
+          <a class="btn btn-secondary btn-sm" href="https://api.whatsapp.com/send/?phone=5543999614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0">Open WhatsApp</a>
           <a class="btn btn-outline btn-sm" href="/process/consultation/">Read about consultations</a>
         </div>
       </div>
@@ -2125,6 +2147,7 @@
       form.dataset.state = "success";
       form.innerHTML = buildAtlasConsultationSuccess();
       track("form_submit_success", describeForm(form));
+      trackVerifiedLead(form);
       track("atlas_consultation_submitted", {
         form_group: sanitizeAnalyticsValue(form.getAttribute("data-formspree-group") || "about-atlas-consultation-en", 120)
       });

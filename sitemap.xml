@@ -16,10 +16,10 @@
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-countries.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-google55d84a2211a04ae2.xml</loc>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-home.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-home.xml</loc>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-blog.xml</loc>
@@ -49,13 +49,13 @@
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights-visa.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-insights.xml</loc>
-  </sitemap>
-  <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-legal.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-process.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-about.xml</loc>
@@ -71,33 +71,6 @@
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-countries.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-blog.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-fyi.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-general.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-guides.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-naturalisation.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-process.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-residency.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-updates.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights-visa.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-insights.xml</loc>
@@ -116,9 +89,6 @@
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br-start-consultation.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://immigratetobrazil.com/sitemaps/sitemap-pt-br.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://immigratetobrazil.com/sitemaps/sitemap-rights.xml</loc>

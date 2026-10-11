@@ -39,7 +39,7 @@
   const PARTIAL_VERSION = "2026-09-08-guidance-whatsapp-v2";
   // Keep the above-the-fold shell responsive; lower-page widgets can hydrate
   // after the first render without changing the initial layout.
-  const EAGER_PARTIALS = new Set(["gtm-noscript", "utility-bar", "accessibility-panel", "site-navigation", "breadcrumbs"]);
+  const EAGER_PARTIALS = new Set(["utility-bar", "accessibility-panel", "site-navigation", "breadcrumbs"]);
   const URL_ATTRS = ["href", "src", "action", "poster"];
   const ABSOLUTE_URL_RE = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\?)/i;
   const sharedScriptPromises = new Map();
@@ -209,7 +209,7 @@
               { className: "btn btn-cta btn-sm", href: "/pt-br/start-consultation/", label: "Agendar consulta", track: "cta" },
               {
                 className: "btn btn-secondary btn-sm",
-                href: "https://api.whatsapp.com/send/?phone=554399614034&text=Ol%C3%A1%2C+gostaria+de+falar+com+a+advogada+Monique.&type=phone_number&app_absent=0",
+                href: "https://api.whatsapp.com/send/?phone=5543999614034&text=Ol%C3%A1%2C+gostaria+de+falar+com+a+advogada+Monique.&type=phone_number&app_absent=0",
                 label: "WhatsApp",
                 track: "whatsapp"
               }
@@ -223,7 +223,7 @@
               { className: "btn btn-cta btn-sm", href: "/start-consultation/", label: "Start Consultation", track: "cta" },
               {
                 className: "btn btn-secondary btn-sm",
-                href: "https://api.whatsapp.com/send/?phone=554399614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
+                href: "https://api.whatsapp.com/send/?phone=5543999614034&text=Hello+I+would+like+to+talk+to+attorney+Monique&type=phone_number&app_absent=0",
                 label: "WhatsApp",
                 track: "whatsapp"
               }
@@ -456,6 +456,7 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     if (!body) return;
 
     const requiredPartials = [
+      { name: "gtm-noscript", selector: "iframe[src*='googletagmanager.com/ns.html']" },
       { name: "floating-whatsapp", selector: ".floating-whatsapp" },
       { name: "back-to-top", selector: "[data-back-to-top='true']" },
       { name: "cookie-banner", selector: "[data-cookie-banner='true']" }
@@ -492,6 +493,8 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
     const deferred = placeholders.filter((node) => !EAGER_PARTIALS.has(node.getAttribute("data-partial")));
 
     await Promise.all(eager.map((node) => loadPartialNode(node)));
+    ensureTagManagerFallback();
+    loadGoogleTagManager();
     window.ITB?.initAccessibility?.();
     window.ITB?.initSite?.();
     window.ITB?.initSearch?.();
@@ -516,6 +519,49 @@ ${createLanguageLink(routes.pt, "PT", "pt-BR", false)}`;
 
     if (document.readyState === "complete") scheduleDeferredPartials();
     else window.addEventListener("load", scheduleDeferredPartials, { once: true });
+  }
+
+  /* One GTM bootstrap for all pages, using the real ID already in site config. */
+  function loadGoogleTagManager() {
+    if (window.__ITB_GTM_BOOTSTRAPPED__) return;
+    const siteConfig = window.ITB_SITE || {};
+    const tracking = siteConfig.tracking || {};
+    const containerId = typeof tracking.gtmId === "string" ? tracking.gtmId.trim() : "";
+    if (!/^GTM-[A-Z0-9]+$/.test(containerId)) return;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function gtag() { window.dataLayer.push(arguments); };
+    window.gtag("set", "ads_data_redaction", true);
+    window.gtag("consent", "default", {
+      ad_storage: "denied",
+      analytics_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      functionality_storage: "granted",
+      security_storage: "granted",
+      personalization_storage: "denied",
+      wait_for_update: 500
+    });
+    window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(containerId)}`;
+    script.dataset.itbGtm = "true";
+    document.head.appendChild(script);
+    window.__ITB_GTM_BOOTSTRAPPED__ = true;
+  }
+
+  function ensureTagManagerFallback() {
+    const placeholder = document.querySelector('[data-partial="gtm-noscript"]');
+    if (!placeholder || document.querySelector("iframe[src*='googletagmanager.com/ns.html']")) return;
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.googletagmanager.com/ns.html?id=GTM-MN4RB6TP`;
+    iframe.height = "0";
+    iframe.width = "0";
+    iframe.title = "Google Tag Manager";
+    iframe.style.cssText = "display:none;visibility:hidden";
+    const fallback = document.createElement("noscript");
+    fallback.appendChild(iframe);
+    placeholder.replaceWith(fallback);
   }
 
   /* ==========================================================================

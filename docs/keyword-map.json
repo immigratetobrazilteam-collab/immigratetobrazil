@@ -1,0 +1,128 @@
+{
+  "purpose": "Editorial keyword-to-page intent map. No search-volume, CPC, or ranking values are asserted; validate demand in Google Search Console or Keyword Planner before campaign decisions.",
+  "locale": "en and pt-BR; each localized route should target natural local-language intent",
+  "clusters": [
+    {
+      "cluster": "Brazil immigration legal services",
+      "intent": "commercial investigation",
+      "primary": "Brazil immigration lawyer",
+      "secondary": [
+        "Brazil immigration attorney",
+        "Brazil immigration legal consultation",
+        "immigration lawyer Brazil"
+      ],
+      "route": "/",
+      "funnel": "consideration",
+      "source": "existing homepage title and service positioning"
+    },
+    {
+      "cluster": "Brazil visas",
+      "intent": "commercial / informational",
+      "primary": "Brazil visa lawyer",
+      "secondary": [
+        "Brazil visa assistance",
+        "Brazil work visa legal help",
+        "Brazil family visa lawyer",
+        "Brazil investor visa lawyer"
+      ],
+      "route": "/services/visas/",
+      "funnel": "consideration",
+      "source": "existing visa service hub"
+    },
+    {
+      "cluster": "Brazil residence permits",
+      "intent": "commercial / informational",
+      "primary": "Brazil residency lawyer",
+      "secondary": [
+        "Brazil residence permit lawyer",
+        "Brazil permanent residence legal help",
+        "Brazil residency renewal lawyer"
+      ],
+      "route": "/services/residencies/",
+      "funnel": "consideration",
+      "source": "existing residency service hub"
+    },
+    {
+      "cluster": "Brazil naturalization and citizenship",
+      "intent": "commercial / informational",
+      "primary": "Brazilian citizenship lawyer",
+      "secondary": [
+        "Brazil naturalization lawyer",
+        "Brazil citizenship by marriage legal help",
+        "Brazil citizenship application support"
+      ],
+      "route": "/services/naturalisation/",
+      "funnel": "consideration",
+      "source": "existing naturalisation service hub"
+    },
+    {
+      "cluster": "Brazil digital nomad residence",
+      "intent": "commercial / informational",
+      "primary": "Brazil digital nomad visa lawyer",
+      "secondary": [
+        "Brazil digital nomad visa requirements",
+        "Brazil digital nomad residence permit",
+        "Brazil remote worker visa legal help"
+      ],
+      "route": "/services/residencies/nomad/",
+      "funnel": "consideration",
+      "source": "existing digital nomad service page"
+    },
+    {
+      "cluster": "Brazil immigration consultation",
+      "intent": "transactional",
+      "primary": "Brazil immigration lawyer consultation",
+      "secondary": [
+        "Brazil immigration consultation online",
+        "consult Brazil immigration attorney"
+      ],
+      "route": "/start-consultation/",
+      "funnel": "conversion",
+      "source": "existing consultation page and CTA"
+    },
+    {
+      "cluster": "Moving to and living in Brazil",
+      "intent": "informational / planning",
+      "primary": "moving to Brazil legally",
+      "secondary": [
+        "how to immigrate to Brazil",
+        "living in Brazil as a foreigner",
+        "Brazil immigration process"
+      ],
+      "route": "/process/",
+      "funnel": "awareness",
+      "source": "existing process and relocation content"
+    },
+    {
+      "cluster": "Brazil relocation city research",
+      "intent": "informational / planning",
+      "primary": "best cities to live in Brazil",
+      "secondary": [
+        "living in [city], Brazil",
+        "moving to [city], Brazil"
+      ],
+      "route": "/brazil/cities/",
+      "funnel": "awareness",
+      "source": "existing city discovery guides"
+    },
+    {
+      "cluster": "Brazil immigration for nationality-specific visitors",
+      "intent": "informational / planning",
+      "primary": "Brazil visa for [country] citizens",
+      "secondary": [
+        "Brazil visa requirements for [country] citizens",
+        "Brazil immigration from [country]"
+      ],
+      "route": "/countries/",
+      "funnel": "awareness",
+      "source": "country pages; verify current rules and avoid unsupported claims"
+    }
+  ],
+  "implementation_notes": [
+    "Keep keyword targeting in titles, headings, descriptions, and useful body copy only where it accurately fits the page.",
+    "Do not add meta keywords; search engines do not use them as a ranking signal.",
+    "Use Search Console query/page data and Keyword Planner to validate demand, language, country, and paid-search intent before setting bids.",
+    "Do not use country or city templated pages as thin doorway pages; add useful local context and maintain accurate internal links.",
+    "Portuguese equivalents require fluent editorial review; do not translate legal terminology mechanically."
+  ]
+}

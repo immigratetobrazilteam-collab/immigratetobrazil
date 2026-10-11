@@ -1,0 +1,90 @@
+{
+  "public_name": "Monique Fernandes",
+  "legal_person_name": "Monique Lorrann Lopes Fernandes",
+  "registered_business_name": "Monique Fernandes Sociedade Individual de Advocacia",
+  "cnpj_display": "69.141.357/0001-96",
+  "cnpj": "69141357000196",
+  "professional_registration": "OAB/PR 108.616",
+  "profession": "Brazilian Attorney",
+  "practice_since": 2018,
+  "base": {
+    "locality": "Londrina",
+    "region": "PR",
+    "country": "BR",
+    "timezone": "America/Sao_Paulo"
+  },
+  "jurisdiction": "Brazil",
+  "service_coverage": [
+    "Brazil",
+    "International clients with matters involving Brazilian law"
+  ],
+  "contact": {
+    "telephone_display": "+55 43 99961-4034",
+    "telephone_e164": "+5543999614034",
+    "telephone_link": "tel:+5543999614034",
+    "whatsapp": "https://wa.me/5543999614034",
+    "email": "moniquefadv@gmail.com",
+    "email_link": "mailto:moniquefadv@gmail.com"
+  },
+  "hours": {
+    "timezone": "America/Sao_Paulo",
+    "public_text": "Monday to Sunday, 6:00 AM to 10:00 PM, Brasília time.",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "06:00",
+    "closes": "22:00",
+    "existing_client_note": "Existing paying clients may have access to 24-hour assistance according to the terms of their legal engagement."
+  },
+  "consultation_languages": [
+    "English",
+    "Portuguese"
+  ],
+  "qualifications": [
+    "Bachelor of Laws",
+    "Postgraduate qualification in Human Rights",
+    "Postgraduate qualification in Real Estate Contracts",
+    "Postgraduate qualification in Civil Litigation"
+  ],
+  "payment_methods_confirmed": [
+    "Pix",
+    "Visa",
+    "Mastercard"
+  ],
+  "payment_methods_public_copy": "Accepted payment methods include Pix, Visa and Mastercard. Other available payment arrangements can be confirmed when scheduling a consultation or engaging legal services.",
+  "domains": {
+    "primary": "https://monique-fernandes.com/",
+    "specialist": "https://immigratetobrazil.com/"
+  },
+  "profiles": {
+    "google_business_profile": {
+      "url": "https://share.google/OMnZX6OJthtdw5s2r",
+      "verification": "pending; supplied short link could not be resolved"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/moniquefadv/",
+      "verification": "pending"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/moniquefadv/",
+      "verification": "pending"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/share/1C7X7h3ASn/",
+      "verification": "pending"
+    }
+  },
+  "descriptions": {
+    "short": "Monique Fernandes is a Brazilian attorney based in Londrina, Paraná, serving clients throughout Brazil and internationally in immigration, civil, family and human-rights matters.",
+    "standard": "Monique Fernandes is a Brazilian attorney practising since 2018, based in Londrina, Paraná. Her practice provides legal assistance throughout Brazil and to international clients in matters involving Brazilian immigration, visas, residency, citizenship, family law, civil litigation, real estate contracts, legal documentation and human rights. Consultations are available in English and Portuguese.",
+    "standard_pt_br": "Monique Fernandes é advogada brasileira desde 2018, com sede em Londrina, Paraná. Sua prática presta assistência jurídica em todo o Brasil e a clientes internacionais em assuntos relacionados à imigração brasileira, vistos, residência, cidadania, direito de família, contencioso cível, contratos imobiliários, documentação jurídica e direitos humanos. As consultas estão disponíveis em inglês e português.",
+    "extended": "Monique Fernandes is a Brazilian attorney registered with OAB/PR 108.616, practising law since 2018 and serving clients throughout Brazil and internationally. She holds a Bachelor of Laws and postgraduate qualifications in Human Rights, Real Estate Contracts and Civil Litigation. Her legal practice encompasses Brazilian immigration, visas, residence permits, citizenship and naturalisation, family law, civil law, property-related legal matters, contracts, legal documentation and human rights. Based in Londrina, Paraná, Monique Fernandes provides assistance to individuals, families, professionals and organisations whose legal matters involve Brazil. She has authored numerous published articles and approaches legal representation with a commitment to professional ethics, human dignity, democratic values, diversity, inclusion, confidentiality and clear communication. Consultations are available in English and Portuguese for clients in Brazil and abroad. All individual legal matters are assessed according to their specific facts, documents and applicable Brazilian law."
+  },
+  "values_public_copy": "Monique Fernandes believes that legal representation should be grounded in dignity, fairness, respect and professional responsibility. Her practice is committed to human rights, democratic values, diversity and inclusion, welcoming individuals and families from all backgrounds."
+}
