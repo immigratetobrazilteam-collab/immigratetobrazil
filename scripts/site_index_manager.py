@@ -154,7 +154,7 @@ def path_to_url(path):
     # GOOGLE VERIFICATION FILE — NEVER IN SITEMAP
     # Search Console verification HTML must remain publicly reachable,
     # but it is not a content URL and must not enter XML sitemaps.
-    if re.fullmatch(r"google[a-z0-9_-]+\\.html", path.name, re.I):
+    if re.fullmatch(r"google[a-z0-9_-]+\.html", path.name, re.I):
         return None
 
     if is_excluded_path(path):
@@ -166,7 +166,7 @@ def path_to_url(path):
     rel_parts = path.relative_to(ROOT).parts
 
     # Verification token HTML is not a search-result content page.
-    if re.fullmatch(r"google[0-9a-f]+\\.html", path.name, re.I):
+    if re.fullmatch(r"google[0-9a-f]+\.html", path.name, re.I):
         return None
 
     # Custom 404 templates must never enter XML sitemaps.
